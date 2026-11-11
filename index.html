@@ -210,6 +210,7 @@
       <a href="#relations" class="nav-link">关系网络</a>
       <a href="#canon" class="nav-link">典籍体系</a>
       <a href="#library" class="nav-link">诗藏原典</a>
+      <a href="#theory" class="nav-link">诗学论要</a>
       <a href="#imagery" class="nav-link">意象情感</a>
       <a href="#schools" class="nav-link">流派谱系</a>
       <a href="#people" class="nav-link">代表人物</a>
@@ -393,6 +394,54 @@
 </section>
 
 <!-- ========== 意象情感 ========== -->
+
+<!-- ========== 诗学论要 · 基于313部诗话词话原文提取 ========== -->
+<section id="theory" class="relative z-10 anchor-target py-14 md:py-20" style="background:linear-gradient(180deg,transparent,rgba(139,47,47,.04),transparent);">
+  <div class="max-w-7xl mx-auto px-5">
+    <div class="mb-8">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-[13px] font-semibold text-[var(--dian)] bg-[rgba(139,47,47,.08)] border border-[rgba(139,47,47,.18)]">
+        <span class="w-1.5 h-1.5 rounded-full bg-[var(--dian)]"></span>诗学论要 · 本体抽取
+      </div>
+      <h2 class="sec-title text-[28px] md:text-[40px] mt-2">诗学论要 · 原典萃要</h2>
+      <p class="text-[var(--ink-3)] mt-2 max-w-3xl leading-[1.9] text-[15px]">
+        本模块依据本体论预设的概念体系，从诗藏<b>313 部诗话、词话类</b>典籍全文中自动抽取关键术语与原文引文，共得到 <b id="thTotalQuotes" class="text-[var(--zhu)]">16,397</b> 条原文引用。下面展示 <b>30 个核心诗学概念</b>、<b>司空图二十四诗品及主要衍生风格 34 种</b>、<b>23 部必读理论典籍</b>，每条引文均给出典籍出处，点击可直达本地原文。
+      </p>
+    </div>
+
+    <!-- 标签切换：概念/风格/典籍 -->
+    <div class="flex flex-wrap gap-2 mb-6" id="thTabs">
+      <button class="th-tab th-tab-active" data-tab="concepts">核心概念 <span class="th-count" id="thC0">0</span></button>
+      <button class="th-tab" data-tab="styles">风格范畴 <span class="th-count" id="thC1">0</span></button>
+      <button class="th-tab" data-tab="books">必读典籍 <span class="th-count" id="thC2">0</span></button>
+      <input id="thSearch" type="text" placeholder="搜索概念/原文…" class="ml-auto th-search"/>
+    </div>
+
+    <!-- 内容网格 -->
+    <div id="thGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"></div>
+    <div id="thEmpty" class="hidden text-center py-10 text-[var(--ink-3)] text-[14px]">未找到匹配条目</div>
+  </div>
+</section>
+
+<style>
+.th-tab{padding:7px 16px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--ink-2);font-size:13px;cursor:pointer;transition:all .2s;font-family:inherit;}
+.th-tab:hover{border-color:var(--zhu);color:var(--zhu);}
+.th-tab-active{background:var(--zhu);color:#fff;border-color:var(--zhu);}
+.th-count{display:inline-block;min-width:20px;text-align:center;padding:0 6px;border-radius:999px;background:rgba(0,0,0,.08);font-size:12px;margin-left:4px;}
+.th-tab-active .th-count{background:rgba(255,255,255,.22);}
+.th-search{border:1px solid var(--line);background:var(--card);border-radius:8px;padding:7px 12px;font-size:13px;color:var(--ink);outline:none;width:220px;font-family:inherit;}
+.th-search:focus{border-color:var(--zhu);}
+.th-card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 18px;transition:all .2s;display:flex;flex-direction:column;}
+.th-card:hover{border-color:var(--zhu);box-shadow:0 4px 14px rgba(139,47,47,.08);transform:translateY(-2px);}
+.th-card-name{font-size:18px;font-weight:700;color:var(--dian);letter-spacing:2px;margin-bottom:8px;font-family:"Noto Serif CJK SC","STSong",serif;}
+.th-card-book{font-size:12px;color:#8a7554;margin-bottom:6px;display:inline-flex;align-items:center;gap:6px;}
+.th-card-book a{color:var(--zhu);text-decoration:none;border-bottom:1px dotted var(--zhu);}
+.th-card-book a:hover{color:var(--dian);}
+.th-card-count{display:inline-block;padding:1px 8px;border-radius:4px;background:rgba(139,47,47,.08);color:var(--zhu);font-size:11px;margin-left:6px;}
+.th-card-quote{font-size:13.5px;line-height:1.85;color:var(--ink);flex:1;border-left:3px solid var(--line);padding:2px 0 2px 12px;margin-top:4px;font-family:"Noto Serif CJK SC","STSong",serif;}
+.th-card-bookitem{display:block;text-decoration:none;padding:12px 16px;background:var(--card);border:1px solid var(--line);border-radius:8px;color:var(--ink);transition:all .2s;font-family:"Noto Serif CJK SC","STSong",serif;font-size:15px;}
+.th-card-bookitem:hover{border-color:var(--zhu);color:var(--zhu);transform:translateY(-1px);box-shadow:0 3px 10px rgba(139,47,47,.07);}
+</style>
+
 <section id="imagery" class="relative z-10 anchor-target py-14 md:py-20">
   <div class="max-w-[1180px] mx-auto px-5 md:px-8">
     <div class="mb-9">
@@ -1032,5 +1081,68 @@ if(okEcharts){
   renderTabs(); renderGrid();
 })();
 </script>
+
+<script src="shicang_data/poetic_theory.js"></script>
+<script>
+/* 诗学论要 · 概念/风格/典籍三栏切换+检索 */
+(function(){
+  if(typeof POETIC_THEORY==='undefined') return;
+  const TABS=['concepts','styles','books'];
+  const TAB_LABEL={concepts:'核心概念',styles:'风格范畴',books:'必读典籍'};
+  let active='concepts', kw='';
+  const grid=document.getElementById('thGrid');
+  const empty=document.getElementById('thEmpty');
+  const search=document.getElementById('thSearch');
+  document.getElementById('thC0').textContent=POETIC_THEORY.concepts.length;
+  document.getElementById('thC1').textContent=POETIC_THEORY.styles.length;
+  document.getElementById('thC2').textContent=POETIC_THEORY.books.length;
+  if(document.getElementById('thTotalQuotes')){
+    document.getElementById('thTotalQuotes').textContent=(POETIC_THEORY.stats.total_quotes||0).toLocaleString();
+  }
+
+  function render(){
+    const list=POETIC_THEORY[active]||[];
+    const kw_=(kw||'').trim();
+    const filtered=kw_?list.filter(x=>{
+      if(active==='books') return x.title.includes(kw_);
+      return (x.name||'').includes(kw_)||(x.quote||'').includes(kw_)||(x.book||'').includes(kw_);
+    }):list;
+    grid.innerHTML='';
+    empty.classList.toggle('hidden',filtered.length>0);
+    if(active==='books'){
+      grid.className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3';
+      filtered.forEach(b=>{
+        const a=document.createElement('a');
+        a.className='th-card-bookitem';
+        a.href=b.url||'#';a.target='_blank';a.rel='noopener';
+        a.textContent=b.title;
+        a.title=b.title+' · 点击阅读本地原文';
+        if(!b.url||b.url==='#'){a.removeAttribute('href');a.style.cursor='default';a.style.color='var(--ink-3)';}
+        grid.appendChild(a);
+      });
+    }else{
+      grid.className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4';
+      filtered.forEach(x=>{
+        const d=document.createElement('div');
+        d.className='th-card';
+        const bk=x.book?`<span class="th-card-book">出处：<a href="shicang-books/${encodeURIComponent(x.book)}.html" target="_blank" rel="noopener">${x.book}</a><span class="th-card-count">${x.count} 处</span></span>`:'';
+        d.innerHTML='<div class="th-card-name">'+x.name+'</div>'+bk+'<div class="th-card-quote">'+(x.quote||'')+'</div>';
+        grid.appendChild(d);
+      });
+    }
+  }
+
+  document.querySelectorAll('#thTabs .th-tab').forEach(btn=>{
+    btn.addEventListener('click',()=>{
+      active=btn.dataset.tab;
+      document.querySelectorAll('#thTabs .th-tab').forEach(b=>b.classList.toggle('th-tab-active',b===btn));
+      render();
+    });
+  });
+  if(search) search.addEventListener('input',function(){kw=this.value;render();});
+  render();
+})();
+</script>
+
 </body>
 </html>

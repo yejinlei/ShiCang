@@ -1413,4 +1413,603 @@
         <rdfs:comment>诗藏共 776 部，分楚辞、诗集、诗话、词集、词话、剧曲、汉赋、对联八类。</rdfs:comment>
     </owl:NamedIndividual>
 
+
+    <owl:ObjectProperty rdf:about="http://www.shicang.org/ontology#discussesConcept">
+        <rdfs:label xml:lang="zh">讨论诗学概念</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.shicang.org/ontology#PoeticTheoryWork"/>
+        <rdfs:range rdf:resource="http://www.shicang.org/ontology#PoeticConcept"/>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="http://www.shicang.org/ontology#discussesStyle">
+        <rdfs:label xml:lang="zh">讨论诗学风格</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.shicang.org/ontology#PoeticTheoryWork"/>
+        <rdfs:range rdf:resource="http://www.shicang.org/ontology#PoeticStyle"/>
+    </owl:ObjectProperty>
+
+    <owl:DatatypeProperty rdf:about="http://www.shicang.org/ontology#sourceBook">
+        <rdfs:label xml:lang="zh">概念出处典籍</rdfs:label>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="http://www.shicang.org/ontology#sourceText">
+        <rdfs:label xml:lang="zh">概念原文引文</rdfs:label>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="http://www.shicang.org/ontology#occurrenceCount">
+        <rdfs:label xml:lang="zh">概念在诗藏中出现频次</rdfs:label>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+
+    <!-- ========== 新增：基于313部诗话/词话提取的诗学风格体系 ========== -->
+    <owl:Class rdf:about="http://www.shicang.org/ontology#PoeticStyle">
+        <rdfs:label xml:lang="zh">诗学风格</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.shicang.org/ontology#PoeticConcept"/>
+        <rdfs:comment>从313部诗话、词话典籍中归纳的诗歌审美风格范畴，核心源头为司空图《二十四诗品》。</rdfs:comment>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://www.shicang.org/ontology#PoeticTheoryWork">
+        <rdfs:label xml:lang="zh">诗学理论典籍</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.shicang.org/ontology#CanonicalCollection"/>
+        <rdfs:comment>诗话、词话类典籍，共313部，为诗藏中最具理论价值的部分。</rdfs:comment>
+    </owl:Class>
+
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Book_沧浪诗话">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticTheoryWork"/>
+        <rdfs:label xml:lang="zh">沧浪诗话</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Book_二十四诗品">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticTheoryWork"/>
+        <rdfs:label xml:lang="zh">二十四诗品</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Book_诗品">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticTheoryWork"/>
+        <rdfs:label xml:lang="zh">诗品</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Book_六一诗话">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticTheoryWork"/>
+        <rdfs:label xml:lang="zh">六一诗话</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Book_随园诗话">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticTheoryWork"/>
+        <rdfs:label xml:lang="zh">随园诗话</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Book_人间词话">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticTheoryWork"/>
+        <rdfs:label xml:lang="zh">人间词话</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Book_白雨斋词话">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticTheoryWork"/>
+        <rdfs:label xml:lang="zh">白雨斋词话</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Book_蕙风词话">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticTheoryWork"/>
+        <rdfs:label xml:lang="zh">蕙风词话</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Book_姜斋诗话">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticTheoryWork"/>
+        <rdfs:label xml:lang="zh">姜斋诗话</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Book_原诗">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticTheoryWork"/>
+        <rdfs:label xml:lang="zh">原诗</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Book_艺概">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticTheoryWork"/>
+        <rdfs:label xml:lang="zh">艺概</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Book_诗式">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticTheoryWork"/>
+        <rdfs:label xml:lang="zh">诗式</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Book_说诗晬语">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticTheoryWork"/>
+        <rdfs:label xml:lang="zh">说诗晬语</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Book_带经堂诗话">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticTheoryWork"/>
+        <rdfs:label xml:lang="zh">带经堂诗话</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Book_白石诗说">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticTheoryWork"/>
+        <rdfs:label xml:lang="zh">白石诗说</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Book_岁寒堂诗话">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticTheoryWork"/>
+        <rdfs:label xml:lang="zh">岁寒堂诗话</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Book_滹南诗话">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticTheoryWork"/>
+        <rdfs:label xml:lang="zh">滹南诗话</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Book_瓯北诗话">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticTheoryWork"/>
+        <rdfs:label xml:lang="zh">瓯北诗话</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Book_彦周诗话">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticTheoryWork"/>
+        <rdfs:label xml:lang="zh">彦周诗话</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Book_诗人玉屑">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticTheoryWork"/>
+        <rdfs:label xml:lang="zh">诗人玉屑</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Book_苕溪渔隐丛话">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticTheoryWork"/>
+        <rdfs:label xml:lang="zh">苕溪渔隐丛话</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Concept_兴趣">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticConcept"/>
+        <rdfs:label xml:lang="zh">兴趣</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">【二十五径】径定听胜(胜败)罄磬应(答应)赠乘(名词)佞邓证秤称(相称)莹(庚韵同)孕兴(兴趣)剩凭(蒸韵同)径甑宁胫暝(夜也)钉(动词)订饤锭謦泞瞪蹭蹬亘(亘古)镫(鞍镫)滢凳磴泾</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">词林正韵</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Concept_妙悟">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticConcept"/>
+        <rdfs:label xml:lang="zh">妙悟</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">词学集成 清 江顺诒辑 宗山参订 江先生秋珊，宏才绩学，尤工倚声。折肱于此，垂三十年，著有明镜词。山与先生有同好，倡和往还，多所指授。窃念词之为道，自李唐沿及两宋，滥觞厥制，渐至纷纭歧出，有江河日下之慨。先生忧之，为之寻源竟委，审律考音，取诸说之异同得失，旁通曲证。折衷一是。所以存前人之正轨，示后进之准则。心苦矣，功亦伟矣。山校雠既竣，分列子目，成书八卷，名</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">词学集成</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Concept_入神">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticConcept"/>
+        <rdfs:label xml:lang="zh">入神</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">116</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">白石石湖仙一阕，自是有感而作，词亦超妙入神。惟“玉友金蕉，玉人金缕”八字，鄙俚纤俗，与通篇不类。正如贤人高士中，著一伧父，愈觉俗不可耐。</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">白雨斋词话</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Concept_气象">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticConcept"/>
+        <rdfs:label xml:lang="zh">气象</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">387</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">其年诸短调，波澜壮阔，气象万千，是何神勇。如点绛唇云：“悲风吼。临驿口。黄叶中原走。”醉太平云：“估船运租。江楼醉呼。西风流落丹徒。想刘家寄奴。”好事近云：“别来世事一番新，只吾徒犹昨。话到英雄失路，忽凉风索索。”清平乐云：“不见长洲苑里，年年落尽宫槐。”平叙中峰峦忽起，力量最雄。板桥、心余辈，极力腾踔，终不能望其项背。</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">白雨斋词话</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Concept_本色">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticConcept"/>
+        <rdfs:label xml:lang="zh">本色</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">211</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">后主词思路凄惋，词场本色，不及飞卿之厚，自胜牛松卿辈。</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">白雨斋词话</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Concept_当行">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticConcept"/>
+        <rdfs:label xml:lang="zh">当行</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">77</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">词洁辑评 清 先著、程洪撰 ●序 诗之道广，而词之体轻。道广则穷天际地，体物状变，历古今作者而犹未穷。体轻则转喉庆拍，倾耳赏心而足矣。诗自三言、四言，多至九字、十二字，一韵而止，未有数不齐、体不纯者。词则字数长短参锴，比合而成之。唐以前之乐府，则诗载其词，犹与诗依类也。至宋人之词，遂能与其一代之文，同工而独绝，出於诗之馀，始判然别於诗矣。故论词於宋人，亦犹语</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">词洁辑评</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Concept_活法">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticConcept"/>
+        <rdfs:label xml:lang="zh">活法</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">乐歌，古以诗，近代以词。如〈关雎〉、〈鹿鸣〉，皆声出於言也。词则言出於声矣，故词，声学也。 《说文解字》词曰：「意内而言外也。」徐锴〈通论〉曰：「音内而言外，在音之内，在言之外也。」故知词也者，言有尽而音意无穷也。 词有创调、倚声，本诸倡和。倡和莫先於虞廷，观乃歌曰以下三句调，即乃赓载歌及又歌之调所出也。风雅篇必数章，后章亦多用前调，其或前后小异者，殆犹词同</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">词概</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Concept_风骨">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticConcept"/>
+        <rdfs:label xml:lang="zh">风骨</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">181</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">碧山“洗芳林夜来风雨”一阕，花外集中，惟此篇最疏快。风骨稍低，情词却妙。</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">白雨斋词话</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Concept_神韵">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticConcept"/>
+        <rdfs:label xml:lang="zh">神韵</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">132</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">何谓托，泥煞本题，词家最忌。托开说去，便不窘迫，即纵送之法也。 花之淡者其香清，友之淡者其情厚。耐人寻绎，正在于此，故贵淡。 天以空而高，水以空而明，性以空而悟。空则超，实则滞。 石以皱为贵，词亦然。能皱必无滑易之病，梦窗最善此。 韵即态也，美人之行动，能令人销魂者，以其韵致胜也。作词能摄取古人神韵必传矣。 识见低，则出句不超。超者，出乎寻常意计之外，白石多</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">词径</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Concept_性灵">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticConcept"/>
+        <rdfs:label xml:lang="zh">性灵</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">167</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">词律巻十二 钦定四库全书 词律巻十三 宜兴万树撰 簇水【八十五字】 赵长卿 长忆当初是他见我心先有一钩才下便引得鱼儿开口好事重门深院寂寞黄昏后厮觑着一面儿酒 试撋就便把我得人意处闵子里施纎手云情雨意似十二巫山旧更向枕前言约许我长相守欢人也犹自眉头皱 【一钩下与后云情下同只巫山旧三字旧字上恐落依字耳撋如専切闵子里即西厢琵琶所云酩子里乃暗地里之谓也欢人恐是劝人】</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">词律</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Concept_格调">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticConcept"/>
+        <rdfs:label xml:lang="zh">格调</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">198</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">稼轩词着力太重处，如破阵子［为陈同甫赋壮诗以寄之、］水龙吟［过南涧双溪楼］等作，不免剑拔弩张。余所爱者，如“红莲相倚深如怨，白鸟无言定是愁。”又，“不知筋力衰多少，但觉新来懒上楼。”又，“城中桃李愁风雨，春在溪头荠菜花”之类，信笔写去，格调自苍劲，意味自深存。不必剑拔弩张，洞穿已过七札，斯为绝技。</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">白雨斋词话</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Concept_肌理">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticConcept"/>
+        <rdfs:label xml:lang="zh">肌理</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">○词滥觞於六代 曲洧旧闻曰：唐词起於唐人，而六代已滥觞矣。梁武帝有江南弄，陈後主有玉树後庭花，隋炀帝有夜饮朝眠曲。岂独五代之主，蜀这王衍、孟昶，南唐之李景、李煜，吴越之钱俶，以工小词为能文哉。如王衍之“月明如水浸宫殿，有酒不醉真痴人”，李玉箫爱赏之，元人用为传奇。孟昶之“冰肌玉骨，自清凉无汗”，东坡复衍足其句。钱俶之“金凤欲飞遭掣搦，情脉脉、行即玉楼云雨隔”</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">古今词话-清-沈雄</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Concept_意境">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticConcept"/>
+        <rdfs:label xml:lang="zh">意境</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">153</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">耆卿词，善于铺叙，羁旅行役，尤属擅长。然意境不高，思路微左，全失温、韦忠厚之意。词人变古，耆卿首作俑也。</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">白雨斋词话</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Concept_境界">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticConcept"/>
+        <rdfs:label xml:lang="zh">境界</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">122</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">梅溪词，如：“碧袖一声歌，石城怨、西风随去。沧波荡晚，菰蒲弄秋，还重到断魂处。”沉郁之至。又，“三年梦冷，孤吟意短，屡烟钟津鼓。屐齿厌登临，移橙后，几番凉雨。”亦居然美成复生。又临江仙结句云：“枉教装得旧时多。向来箫鼓地，曾见柳婆娑。”慷慨生哀，极悲极郁。较“临断岸、新绿生时，是落红、带愁流处”之句，尤为沉至。此种境界，却是梅溪独绝处。</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">白雨斋词话</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Concept_寄托">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticConcept"/>
+        <rdfs:label xml:lang="zh">寄托</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">134</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">倚声之学，千有余年，作者代出。顾能上溯风骚，与为表里，自唐迄今，合者无几。窃以声音之道，关乎性情，通乎造化。小其文者，不能达其义，竟其委者，未获泝其源。揆厥所由，其失有六。飘风骤雨，不可终朝，促管繁弦，绝无余蕴，失之一也。美人香草，貌托灵，蝶雨梨云，指陈琐屑，失之二也。雕锼物类，探讨鱼，穿凿愈工，风雅愈远，失之三也。惨戚よ凄，寂寥萧索，感寓不当，虑叹徒劳</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">白雨斋词话</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Concept_用事">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticConcept"/>
+        <rdfs:label xml:lang="zh">用事</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">520</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">梦窗在南宋，自推大家。惟千古论梦窗者，多失之诬。尹惟晓云：“求词于吾宋，前有清真，后有梦窗，此非予之言，四海之公言也。”为此论者，不知置东坡、少游、方回、白石等于何地。沈伯时云：“梦窗深得清真之妙，但用事下语太晦处，人不易知。”其实梦窗才情超逸，何尝沉晦。梦窗长处，正在超逸之中，见沉郁之意，所以异于刘、蒋辈，乌得转以此为梦窗病。至张叔夏云：“吴梦窗如七宝楼台</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">白雨斋词话</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Concept_诗眼">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticConcept"/>
+        <rdfs:label xml:lang="zh">诗眼</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">卷 三 苏易简 苏易简，梓州人，宋太宗朝状元。所著有文集及文房四谱行于世。宋世蜀之大魁，自苏始。其后阆州三人，简州四人，夔州一人，终宋三百年得十六人，而陈氏、许氏皆兄弟，可谓盛矣。苏之词，惟越江吟应制一首，见予所选百 琲明珠。 韩范二公词 韩魏公点绛唇词云：“病起恹恹，庭前花树添憔悴。乱红飘砌。滴尽真珠泪。 惆怅前春，谁向花前醉。愁无际。武陵凝睇。人远波空翠</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">词品</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Concept_炼字">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticConcept"/>
+        <rdfs:label xml:lang="zh">炼字</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">58</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">樊榭百字令［月夜过七里滩］云：“万籁生山，一星在水，鹤梦疑重续。橹音遥去，西崖渔父初宿。”无一字不清俊。下云：“林净藏烟，峰危限月，帆影摇空绿。随风飘荡。白云还卧深谷。”炼字炼句，归于纯雅，此境亦未易到也。</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">白雨斋词话</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Concept_句法">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticConcept"/>
+        <rdfs:label xml:lang="zh">句法</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">505</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">周公瑾词，刻意学清真。句法字法，居然合拍。惟气体究去清真已远。其高者可步武梅溪，次亦平视竹屋。</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">白雨斋词话</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Concept_味外之旨">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticConcept"/>
+        <rdfs:label xml:lang="zh">味外之旨</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">图《与李生论诗》云：“文之难，而诗之难尤难，古今之喻多矣。而愚以辨于味，而后可以言诗也。江岭之南，凡是资于适口者，若醯非不酸也，止于酸而已；若醝非不咸也，止于咸而已。中华之人，所以充饥而遽辍者，知其咸酸之外，醇美者有所乏耳。彼江岭之人，习之而不辨者，宜哉！诗贯六义，则讽谕、抑扬、渟蓄、渊雅，皆在其间矣。然直致所得，以格自奇，前辈诸集，亦不专工于此，矧其下者耶</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">唐诗纪事</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Concept_韵外之致">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticConcept"/>
+        <rdfs:label xml:lang="zh">韵外之致</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">晚唐惟司空图善论诗，其〈与李生论诗书〉云：「醯非不酸也，止于酸而已；醝非不咸也，止于咸而已。所贵乎味者，谓其醇美在酸咸之外耳。贾阆仙诚有警句，视其全篇，意思殊馁，大抵附于蹇涩，方可致才，亦为体之不备也。惟近而不浮，远而不尽，然后可以言韵外之致。」数语大有意味。但其自为诗，亦未脱晚唐习气，而辄自誉云：「千变万状，不知所以神而自神。」抑太过矣。余于图所自摘警句之</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">诗筏</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Concept_有我之境">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticConcept"/>
+        <rdfs:label xml:lang="zh">有我之境</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">有有我之境，有无我之境。"泪眼问花花不语，乱红飞过秋千去。""可堪孤馆闭春寒，杜鹃声里斜阳暮。"有我之境也。"采菊东篱下，悠然见南山。""寒波澹澹起，白鸟悠悠下。"无我之境也。有我之境，以我观物，故物皆着我之色彩。无我之境，以物观物，故不知何者为我，何者为物。古人为词，写有我之境者为多，然未始不能写无我之境，此在豪杰之士能自树立耳。</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">人间词话</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Concept_无我之境">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticConcept"/>
+        <rdfs:label xml:lang="zh">无我之境</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">有有我之境，有无我之境。"泪眼问花花不语，乱红飞过秋千去。""可堪孤馆闭春寒，杜鹃声里斜阳暮。"有我之境也。"采菊东篱下，悠然见南山。""寒波澹澹起，白鸟悠悠下。"无我之境也。有我之境，以我观物，故物皆着我之色彩。无我之境，以物观物，故不知何者为我，何者为物。古人为词，写有我之境者为多，然未始不能写无我之境，此在豪杰之士能自树立耳。</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">人间词话</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Concept_造境">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticConcept"/>
+        <rdfs:label xml:lang="zh">造境</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">西河经术湛深，而作诗却能谨守唐贤绳墨，词亦在五代、宋初之间。但造境未深，运思多巧。境不深尚可，思多巧则有伤大雅矣。</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">白雨斋词话</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Concept_写境">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticConcept"/>
+        <rdfs:label xml:lang="zh">写境</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">古今词论 清 王又华 ○杨守斋词论 杨守斋曰：作词有五要，第一要择腔。腔不韵则勿作，如塞翁吟之衰疯，帝台春之不顺，隔浦莲之寄煞斗百花之无味是也。第二要择律。律不应月，则不美，如十一月须用正宫，元宵词必用仙吕宫为相宜也。第三要填词按谱。自古作词能依句者少，依谱用字者，百无一二，若歌韵不协，奚取哉。或谓善歌者，能融化其字则无疵。殊不知制作转折，用或不当，则失律。</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">古今词论</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Concept_诗言志">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticConcept"/>
+        <rdfs:label xml:lang="zh">诗言志</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">歌曲所起 或问歌曲所起。曰：天地始分，而人生焉，人莫不有心，此歌曲所以起也。《舜典》曰：「诗言志，歌永言，声依永，律和声。」《诗》序曰：「在心为志，发言为诗，情动于中而形于言。言之不足，故嗟叹之，嗟叹之不足，故永歌之，永歌之不足，不知手之舞之，足之蹈之。」《乐记》曰：「诗言其志，歌咏其声，舞动其容，三者本于心，然后乐器从之。」故有心则有诗，有诗则有歌，有歌则</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">碧鸡漫志</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Concept_诗缘情">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticConcept"/>
+        <rdfs:label xml:lang="zh">诗缘情</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">乐歌，古以诗，近代以词。如〈关雎〉、〈鹿鸣〉，皆声出於言也。词则言出於声矣，故词，声学也。 《说文解字》词曰：「意内而言外也。」徐锴〈通论〉曰：「音内而言外，在音之内，在言之外也。」故知词也者，言有尽而音意无穷也。 词有创调、倚声，本诸倡和。倡和莫先於虞廷，观乃歌曰以下三句调，即乃赓载歌及又歌之调所出也。风雅篇必数章，后章亦多用前调，其或前后小异者，殆犹词同</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">词概</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Concept_诗达义">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticConcept"/>
+        <rdfs:label xml:lang="zh">诗达义</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Concept_六义">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticConcept"/>
+        <rdfs:label xml:lang="zh">六义</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">105</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">乐歌，古以诗，近代以词。如〈关雎〉、〈鹿鸣〉，皆声出於言也。词则言出於声矣，故词，声学也。 《说文解字》词曰：「意内而言外也。」徐锴〈通论〉曰：「音内而言外，在音之内，在言之外也。」故知词也者，言有尽而音意无穷也。 词有创调、倚声，本诸倡和。倡和莫先於虞廷，观乃歌曰以下三句调，即乃赓载歌及又歌之调所出也。风雅篇必数章，后章亦多用前调，其或前后小异者，殆犹词同</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">词概</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Concept_美刺">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticConcept"/>
+        <rdfs:label xml:lang="zh">美刺</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">人能于诗词中不为美刺投赠之篇，不使隶事之句，不用粉饰之字，则于此道已过半矣。</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">人间词话</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Concept_赋比兴">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticConcept"/>
+        <rdfs:label xml:lang="zh">赋比兴</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">词说 蒋兆兰撰 ○自序 有清一代，词学屡变而益上。中叶以还，鸿生叠起，辟门户之正，示轨辙之程。逮乎晚清，词家极盛，大抵原本风雅，谨守止庵，导源碧山，历稼轩、梦窗以还，清真之浑化之说为之。虽功力有浅深，成就有大小，而宁晦无浅，宁涩无滑，宁生硬无甜熟，练字练句，迥不犹人，戛戛乎其难哉。其间特出之英，主坛坫，广声气，宏奖借，妙裁成，在南则有复堂谭氏，在北则有半塘王</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">词说</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Concept_文以载道">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticConcept"/>
+        <rdfs:label xml:lang="zh">文以载道</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">魏叔子谓“文中要有黄”，此千古名言。《易》言：“天地之心，心即黄也。”《礼》言：“言有物，物即黄也。”《通书》：“文以载道，道即黄也。以鸟卵论，有黄则生生不穷。以文章论，有黄则可以使此心此理愿千古而不朽。”伟哉黄之说乎。以诗论，陶渊明诗之有黄者也，唐人学陶者多矣，储、王、孟、韦、柳，其诗固非流俗之诗矣，然以黄论，则犹在若有若无之间，不得与陶并论。彼以陶诗为隐</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">名山诗话</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Style_雄浑">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticStyle"/>
+        <rdfs:label xml:lang="zh">雄浑</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">词苑丛谈巻八 钦定四库全书 词苑丛谈巻九 翰林院检讨徐釚撰 纪事四 龚定山尚书与横波夫人月夜泛舟西湖作丑奴儿令四阕自序云五月十四夜湖风酣畅月明如洗繁星尽敛天水一碧偕内人系艇子于寓楼下剥菱煮芡小饮达曙人声既絶楼台灯火周视悄然惟四山苍翠时时滴入杯底千百年西湖今夕始独为吾有徘徊顾恋不谓人世也酒语情恬因口占四调以纪其事子瞻云何地无月但少闲人如吾两人予则谓何地无闲人无</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">词苑丛谈</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Style_冲淡">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticStyle"/>
+        <rdfs:label xml:lang="zh">冲淡</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">诗词一理，然亦有不尽同者。诗之高境，亦在沉郁，然或以古朴胜，或以冲淡胜，或以钜丽胜，或以雄苍胜。纳沉郁于四者之中，固是化境，即不尽沉郁，如五七言大篇，畅所欲言者，亦别有可观。若词则舍沉郁之外，更无以为词。盖篇幅狭小，倘一直说去，不留余地，虽极工巧之致，识者终笑其浅矣。</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">白雨斋词话</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Style_纤秾">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticStyle"/>
+        <rdfs:label xml:lang="zh">纤秾</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">宋大宁夫人韩氏，《游灵岩观音道场题记磨崖》云：“大宁夫人韩氏朝拜东岳回，游灵岩观音道场。四绝之所，崇峰引翠，宛若屏围。而北主峰［山突］然五里之耸，而肩有殿，号曰证明。谓其如来化迹，祈应如响。于是发精确志，不惧巇崄，乘兴而步其上。仰瞻绀像，欣敬不已。及观岩麓，木怪石奇，景与世别。眺寓移时，顿忘尘虑。若□圣力所加。从心之年，焉能至此。于内自省，尤为之幸。仍知名山</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">蕙风词话</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Style_沉着">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticStyle"/>
+        <rdfs:label xml:lang="zh">沉着</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">小山词，如“去年春恨却来时。落花人独立，微雨燕双飞。”又，“当时明月在，曾照彩云归。”既闲婉，又沉着，当时更无敌手。又，“明年应赋送君时。细从今夜数，相会几多时。”浅处皆深。又，“晓霜红叶舞归程。客情今古道，秋梦短长亭。”又，“少陵诗思旧才名。云鸿相约处，烟雾九重城。”亦复情词兼胜。又，“从别后、忆相逢。几回魂梦与君同。今宵把银缸照，犹恐相逢是梦中。”曲折</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">白雨斋词话</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Style_高古">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticStyle"/>
+        <rdfs:label xml:lang="zh">高古</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">140</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">诗有诗境。词有词境。诗词一理也。然有诗人所辟之境，词人尚未见者，则以时代先后远近不同之故。一则如渊明之诗，淡而弥永，朴而愈厚，极疏极冷，极平极正之中，自有一片热肠，缠绵往复。此陶公所以独有千古，无能为继也。求之于词，未见有造此境者。一则如杜陵之诗，包括万有，空诸倚傍，纵横博大，千变万化之中，却极沉郁顿挫，忠厚和平。此子美所以横绝古今，无与为敌也。求之于词，亦</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">白雨斋词话</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Style_典雅">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticStyle"/>
+        <rdfs:label xml:lang="zh">典雅</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">117</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">遣词贵典雅。然亦有典雅之事，数见不鲜，亦宜慎用。如莲子空房、人面桃花等字，久已习为套语，不必再拾人唾余。</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">白雨斋词话</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Style_洗炼">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticStyle"/>
+        <rdfs:label xml:lang="zh">洗炼</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">樊榭造句多幽深，人措词则全在洗炼，又不逮樊榭远甚。</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">白雨斋词话</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Style_劲健">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticStyle"/>
+        <rdfs:label xml:lang="zh">劲健</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">仆之《诗辨》，乃断千百年公案，诚惊世绝俗之谈，至当归一之论。其间说江西诗病，真取心肝刽子手。以禅喻诗，莫此亲切，是自家实证实悟者，是自家闭门凿破此片田地，即非傍人篱壁、拾人涕唾得来者。李杜复生，不易吾言矣。而吾叔靳靳疑之，况他人乎？所见难合固如此，深可歎也！ 吾叔谓：说禅非文人儒者之言。本意但欲说得诗透彻，初无意於为文，其合文人儒者之言与否，不问也。 高意又</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">沧浪诗话</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Style_绮丽">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticStyle"/>
+        <rdfs:label xml:lang="zh">绮丽</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">95</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">卷 四 赵元镇 赵鼎，字元镇，宋中兴名相。小词婉媚，不减花间、兰畹。“惨结秋阴”一首，世皆传诵之矣。点绛唇一道云：“香冷金猊，梦回鸳帐馀香嫩。更无人问。一枕江南恨。 消瘦休文，顿觉春衫褪。清明近。杏花吹尽。薄暮寒成阵。” 贺方回 贺方回浣溪沙云：“鹜外红销一缕霞。淡黄杨柳带栖鸦。玉人和月折梅花。 笑 捻粉香归绣户，半垂罗幕护窗纱。东风寒似夜来些。”此词句句绮</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">词品</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Style_自然">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticStyle"/>
+        <rdfs:label xml:lang="zh">自然</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">845</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">虞道园词笔颇健，似出仲举之右。然所作寥寥，规模未定，不能接武南宋诸家。惟“报道先生归也，杏花春雨江南”二语，却有自然风韵。</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">白雨斋词话</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Style_含蓄">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticStyle"/>
+        <rdfs:label xml:lang="zh">含蓄</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">202</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">张子野词，古今一大转移也。前此则为晏、欧，为温、韦，体段虽具，声色未开。后此则为秦、柳，为苏、辛，为美成、白石，发扬蹈厉，气局一新，而古意渐失。子野得其中，有含蓄处，亦有发越处。但含蓄不似温、韦，发越亦不似豪苏腻柳。规模虽隘，气格却近古。自子野后，一千年来，温、韦之风不作矣，益令我思子野不置。</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">白雨斋词话</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Style_豪放">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticStyle"/>
+        <rdfs:label xml:lang="zh">豪放</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">133</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">张纟延云：“少游多婉约，子瞻多豪放，当以婉约为主。”此亦似是而非，不关痛痒语也。诚能本诸忠厚，而出以沉郁，豪放亦可，婉约亦可，否则豪放嫌其粗鲁，婉约又病其纤弱矣。</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">白雨斋词话</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Style_精神">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticStyle"/>
+        <rdfs:label xml:lang="zh">精神</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">二十四诗品</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Style_缜密">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticStyle"/>
+        <rdfs:label xml:lang="zh">缜密</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">各家词短长 王荆公长短句不多，合绳墨处，自雍容奇特。晏元献公、欧阳文忠公，风流缊藉，一时莫及，而温润秀洁，亦无其比。东坡先生以文章余事作诗，溢而作词曲，高处出神入天，平处尚临镜笑春，不顾侪辈。或曰：长短句中诗也。为此论者，乃是遭柳永野狐涎之毒。诗与乐府同出，岂当分异？若从柳氏家法，正自不得不分异耳。晁无咎、黄鲁直皆学东坡，韵制得七八。黄晚年闲放于狭邪，故有少</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">碧鸡漫志</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Style_疏野">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticStyle"/>
+        <rdfs:label xml:lang="zh">疏野</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">余既为剑人刻啸古堂诗、芬陀利室词，搜其遗集，复得二卷，悉付剞劂。一日，其哲嗣伯威携词话三卷、兵鉴四卷来，皆剑人生前手自写定者。兵鉴仅有唐一代，未得为完书。词话固剑人生平得意之作，第止寥寥数十叶，亦未断手。剑人著述，余最爱其词，诗次之，文尤其次也。剑人词谱，余向曾获见其手钞本，辨析宫商，剖别音调，订正于阳阴清浊之分，学者殊苦其难。及究其归宿，剑人亦未有以应。尝</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">芬陀利室词话</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Style_清奇">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticStyle"/>
+        <rdfs:label xml:lang="zh">清奇</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">鬼仙词 “晓星明灭。白露点，秋风落叶。故址颓垣，冷烟衰草，前朝宫阙。 长安道上行客。依旧名深利切。改变容颜，销磨今古，陇头残月。”此五代新说载鬼仙词也。非太白、长吉之流，岂能及此。 郝仙女庙词 博陵县有郝仙女庙。仙女，魏青龙中人。年及笄，姿色姝丽。采 蘋水中，苍烟白雾，俄失所在。其母哀求水滨，愿言一见。良久，异香袭人，隐约于波渚间。曰：“儿以灵契，托迹绡宫，</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">词品</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Style_委曲">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticStyle"/>
+        <rdfs:label xml:lang="zh">委曲</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">114</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">碧鸡漫志 钦定四库全书 乐府指迷 宋 沈义父 撰 余自幼好吟诗壬寅秋始识静翁于泽濵癸夘识梦牕暇日相与倡酬率多填词因讲论作词之法然后知词之作难于诗盖音律欲其协不协则成长短之诗下字欲其雅不雅则近乎纒令之体用字不可太露露则直突而无深长之味发意不可太髙髙则狂怪而失柔婉之意思此则知所以为难子侄辈往往求其法于余姑以得之所闻条列下方观于此则思过半矣 凡作词当以清真为主盖清</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">碧鸡漫志乐府指迷</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Style_实境">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticStyle"/>
+        <rdfs:label xml:lang="zh">实境</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">钦定四库全书 词苑丛谈巻一 翰林院检讨徐釚撰 体制 梁武帝江南弄云众花杂色满上林舒芳曜彩垂轻阴连手躞蹀舞春心舞春心临岁腴中人望独踟蹰此絶玅好词巳在清平调菩萨蛮之先矣 沈约六忆诗其三云忆眠时人眠独未眠解罗不待劝就枕更须牵复恐旁人见娇羞在烛前亦词之滥觞也屈子离骚亦名辞汉武秋风亦名辞词者诗之余也然则词果有合于诗乎曰按其调而知之也殷靁之诗曰殷其雷在南山之阳此三五言调</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">词苑丛谈</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Style_悲慨">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticStyle"/>
+        <rdfs:label xml:lang="zh">悲慨</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">○词体各有所宜词之体，各有所宜，如吊古宜悲慨苍凉，纪事宜条畅漾，言愁宜呜咽悠扬，述乐宜淋漓和畅，赋闺房宜旖旎妩媚，咏关河宜豪放雄壮。得其宜则声情合矣，若琴瑟专一，便非作家。</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">论词随笔</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Style_形容">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticStyle"/>
+        <rdfs:label xml:lang="zh">形容</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">二十四诗品</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Style_超诣">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticStyle"/>
+        <rdfs:label xml:lang="zh">超诣</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">乐歌，古以诗，近代以词。如〈关雎〉、〈鹿鸣〉，皆声出於言也。词则言出於声矣，故词，声学也。 《说文解字》词曰：「意内而言外也。」徐锴〈通论〉曰：「音内而言外，在音之内，在言之外也。」故知词也者，言有尽而音意无穷也。 词有创调、倚声，本诸倡和。倡和莫先於虞廷，观乃歌曰以下三句调，即乃赓载歌及又歌之调所出也。风雅篇必数章，后章亦多用前调，其或前后小异者，殆犹词同</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">词概</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Style_飘逸">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticStyle"/>
+        <rdfs:label xml:lang="zh">飘逸</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">76</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">词律巻九 钦定四库全书 词律巻十 宜兴万树撰 锦纒道【六十六字】 宋 祁 燕子呢喃景色乍长春昼覩园林万花如绣海棠经雨胭脂透栁展宫眉翠拂行人首 向郊原踏青恣歌携手醉醺醺尚寻芳酒问牧童遥指孤村道杏花深处那里人家有 【沈天羽云诸本作寻芳酒问牧童说不去词谱欲羡问字又不必故定作尚寻芳问酒余谓词有定律岂得以羡字解之乂岂得以不必二字委之俱误矣愚意醉醺醺句同前覩园林句不应多</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">词律</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Style_旷达">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticStyle"/>
+        <rdfs:label xml:lang="zh">旷达</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">54</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">词苑丛谈巻八 钦定四库全书 词苑丛谈巻九 翰林院检讨徐釚撰 纪事四 龚定山尚书与横波夫人月夜泛舟西湖作丑奴儿令四阕自序云五月十四夜湖风酣畅月明如洗繁星尽敛天水一碧偕内人系艇子于寓楼下剥菱煮芡小饮达曙人声既絶楼台灯火周视悄然惟四山苍翠时时滴入杯底千百年西湖今夕始独为吾有徘徊顾恋不谓人世也酒语情恬因口占四调以纪其事子瞻云何地无月但少闲人如吾两人予则谓何地无闲人无</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">词苑丛谈</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Style_流动">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticStyle"/>
+        <rdfs:label xml:lang="zh">流动</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">乐歌，古以诗，近代以词。如〈关雎〉、〈鹿鸣〉，皆声出於言也。词则言出於声矣，故词，声学也。 《说文解字》词曰：「意内而言外也。」徐锴〈通论〉曰：「音内而言外，在音之内，在言之外也。」故知词也者，言有尽而音意无穷也。 词有创调、倚声，本诸倡和。倡和莫先於虞廷，观乃歌曰以下三句调，即乃赓载歌及又歌之调所出也。风雅篇必数章，后章亦多用前调，其或前后小异者，殆犹词同</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">词概</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Style_平淡">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticStyle"/>
+        <rdfs:label xml:lang="zh">平淡</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">145</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">唐人词，所传不多，然皆见作意。即于平淡直率中，亦觉言近旨远。正如汉魏之诗，语句虽有工拙，气格固自不同。至五代则声色渐开，瑕瑜互见，去取不当，误人匪浅矣。</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">白雨斋词话</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Style_清丽">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticStyle"/>
+        <rdfs:label xml:lang="zh">清丽</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">210</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">碧山南浦［春水］云：“帘影蘸楼阴，芳流去，应有泪珠千点。沧浪一舸，断魂重唱苹花怨。”寄慨处，清丽纡徐，斯为雅正。又庆宫春［水仙］云：“岁华相误，记前度湘皋怨别。哀弦重听，都是凄凉，未须弹彻。”后叠云：“国香到此谁怜，烟冷沙昏，顿成愁绝。”结云：“试招仙魄。怕今夜瑶簪冻折。携盘独出，空想咸阳，故宫落月。”凄凉哀怨，其为王清作乎。又无闷［雪意］后半阕云：“清致悄</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">白雨斋词话</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Style_婉约">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticStyle"/>
+        <rdfs:label xml:lang="zh">婉约</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">99</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">张纟延云：“少游多婉约，子瞻多豪放，当以婉约为主。”此亦似是而非，不关痛痒语也。诚能本诸忠厚，而出以沉郁，豪放亦可，婉约亦可，否则豪放嫌其粗鲁，婉约又病其纤弱矣。</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">白雨斋词话</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Style_沉郁">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticStyle"/>
+        <rdfs:label xml:lang="zh">沉郁</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">99</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">倚声之学，千有余年，作者代出。顾能上溯风骚，与为表里，自唐迄今，合者无几。窃以声音之道，关乎性情，通乎造化。小其文者，不能达其义，竟其委者，未获泝其源。揆厥所由，其失有六。飘风骤雨，不可终朝，促管繁弦，绝无余蕴，失之一也。美人香草，貌托灵，蝶雨梨云，指陈琐屑，失之二也。雕锼物类，探讨鱼，穿凿愈工，风雅愈远，失之三也。惨戚よ凄，寂寥萧索，感寓不当，虑叹徒劳</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">白雨斋词话</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Style_顿挫">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticStyle"/>
+        <rdfs:label xml:lang="zh">顿挫</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">162</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">冯正中词，极沉郁之致，穷顿挫之妙，缠绵忠厚，与温、韦相伯仲也。蝶恋花四章，古今绝构。词选本李易安词序，指“庭院深深”一章为欧阳公作，他本亦多作永叔词。惟词综独云冯延巳作。竹博极群书，必有所据。且细味此阕，与上三章笔墨，的是一色，欧公无此手笔。</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">白雨斋词话</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Style_清新">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticStyle"/>
+        <rdfs:label xml:lang="zh">清新</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">292</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">陈无己浣溪沙 陈无己作《浣溪沙》曲云：「暮叶朝花种种陈，三秋作意问诗人。安排云雨要新清。随意且须追去马，轻衫从使着行尘。晚窗谁念一愁新。」本是「安排云雨要清新」，以末后句「新」字韵，遂倒作「新清」。世言无己喜作庄语，其弊生硬是也。词中暗带陈三、念一两名，亦有时不庄语乎？</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">碧鸡漫志</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Style_俊逸">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticStyle"/>
+        <rdfs:label xml:lang="zh">俊逸</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">108</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">各家词短长 王荆公长短句不多，合绳墨处，自雍容奇特。晏元献公、欧阳文忠公，风流缊藉，一时莫及，而温润秀洁，亦无其比。东坡先生以文章余事作诗，溢而作词曲，高处出神入天，平处尚临镜笑春，不顾侪辈。或曰：长短句中诗也。为此论者，乃是遭柳永野狐涎之毒。诗与乐府同出，岂当分异？若从柳氏家法，正自不得不分异耳。晁无咎、黄鲁直皆学东坡，韵制得七八。黄晚年闲放于狭邪，故有少</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">碧鸡漫志</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Style_空灵">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticStyle"/>
+        <rdfs:label xml:lang="zh">空灵</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">苏、辛并称，然两人绝不相似。魄力之大，苏不如辛。气体之高，辛不逮苏远矣。东坡词寓意高远，运笔空灵，措语忠厚，其独至处，美成、白石亦不能到。昔人谓东坡词非正声，此特拘于音调言之，而不究本原之所在。眼光如豆，不足与之辩也。</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">白雨斋词话</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Style_奇崛">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticStyle"/>
+        <rdfs:label xml:lang="zh">奇崛</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">61</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">乐章集浅近卑俗 柳耆卿《乐章集》，世多爱赏，其实该洽，序事闲暇，有首有尾，亦间出佳语，又能择声律谐美者用之。惟是浅近卑俗，自成一体，不知书者尤好之。予尝以比都下富儿，虽脱村野，而声态可憎。前辈云：「《离骚》寂寞千年后，《戚氏》凄凉一曲终。」《戚氏》，柳所作也，柳何敢知世间有《离骚》？惟贺方回、周美成时时得之。贺《六州歌头》、《望湘人》、《吴音子》诸曲，周《大</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">碧鸡漫志</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Style_悲壮">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticStyle"/>
+        <rdfs:label xml:lang="zh">悲壮</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">198</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">倪元镇人月圆云：“伤心莫问前朝事，重上越王台。鹧鸪啼处，东风草绿，残照花开。怅然孤啸，青山故国，乔木苍苔。当时明月，依依素影，何处飞来。”风流悲壮，南宋诸钜手为之亦无以过。词岂以时代限耶。</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">白雨斋词话</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Style_温厚">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticStyle"/>
+        <rdfs:label xml:lang="zh">温厚</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">77</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">倚声之学，千有余年，作者代出。顾能上溯风骚，与为表里，自唐迄今，合者无几。窃以声音之道，关乎性情，通乎造化。小其文者，不能达其义，竟其委者，未获泝其源。揆厥所由，其失有六。飘风骤雨，不可终朝，促管繁弦，绝无余蕴，失之一也。美人香草，貌托灵，蝶雨梨云，指陈琐屑，失之二也。雕锼物类，探讨鱼，穿凿愈工，风雅愈远，失之三也。惨戚よ凄，寂寥萧索，感寓不当，虑叹徒劳</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">白雨斋词话</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Style_老健">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#PoeticStyle"/>
+        <rdfs:label xml:lang="zh">老健</rdfs:label>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</shicang:occurrenceCount>
+        <shicang:sourceText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">憩园词话 [清]杜文澜撰 ●卷一 ○论词三十则 说词之书，宋世至为繁富，类皆散见於杂著中。惟明人杨升庵始以词话名书。康熙四十六年，御选历代诗馀，附词话十卷，自唐迄明，网不荟萃类列。并采录词人姓氏里秩，别汇为篇，可谓集词话之大成，备骚坛之盛事矣。近人词说，皆评白唐、宋旧词，所辑近词甚少。又皆详於话而略於词，载全阕者尤罕觏。余闲居无俚，就同人所谱新词，或已刊行，</shicang:sourceText>
+        <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">憩园词话</shicang:sourceBook>
+    </owl:NamedIndividual>
+
 </rdf:RDF>
