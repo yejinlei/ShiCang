@@ -209,6 +209,7 @@
       <a href="#classes" class="nav-link">类体系</a>
       <a href="#relations" class="nav-link">关系网络</a>
       <a href="#canon" class="nav-link">典籍体系</a>
+      <a href="#library" class="nav-link">诗藏原典</a>
       <a href="#imagery" class="nav-link">意象情感</a>
       <a href="#schools" class="nav-link">流派谱系</a>
       <a href="#people" class="nav-link">代表人物</a>
@@ -357,6 +358,37 @@
 
     <h3 class="serif font-bold text-[19px] mb-4">代表典籍实例</h3>
     <div id="textGrid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3.5"></div>
+  </div>
+</section>
+
+<!-- ========== 诗藏原典 · 776 部典籍检索 ========== -->
+<section id="library" class="relative z-10 anchor-target py-14 md:py-20" style="background:linear-gradient(180deg,transparent,rgba(47,107,82,.045),transparent);">
+  <div class="max-w-[1180px] mx-auto px-5 md:px-8">
+    <div class="mb-8">
+      <div class="sec-eyebrow">04b · Library</div>
+      <h2 class="sec-title text-[28px] md:text-[40px] mt-2">诗藏原典 · 776 部</h2>
+      <p class="text-[15.5px] text-[var(--ink-2)] leading-relaxed mt-3 max-w-[820px]">
+        据 <a href="https://daizhige.org/" target="_blank" rel="noopener" class="text-[var(--dian)] underline decoration-dotted underline-offset-2">殆知阁</a>诗藏目录完整嵌入。按 <b>楚辞 / 词话 / 词集 / 对联 / 汉赋 / 剧曲 / 诗话 / 诗集</b> 八大类分签；点击卡片即可在新标签页打开原文阅读。书名、作者关键词可实时检索。
+      </p>
+    </div>
+
+    <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-5">
+      <div id="libTabs" class="flex flex-wrap gap-2"></div>
+      <div class="relative md:w-[280px]">
+        <input id="libSearch" type="text" placeholder="检索书名，如：诗经、人间词话、西厢记…"
+               class="w-full px-4 py-2.5 pl-10 rounded-full text-[14px] outline-none transition"
+               style="background:var(--card);border:1px solid var(--line);color:var(--ink);font-family:var(--sans);"
+               onfocus="this.style.borderColor='var(--zhu)'" onblur="this.style.borderColor='var(--line)'">
+        <svg class="absolute left-3.5 top-1/2 -translate-y-1/2" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--ink-3)" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+      </div>
+    </div>
+
+    <div class="flex items-center justify-between mb-3 text-[12.5px] text-[var(--ink-3)]">
+      <span id="libMeta"></span>
+      <span>数据来源：daizhige.org · 诗藏</span>
+    </div>
+
+    <div id="libGrid" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-2.5 max-h-[760px] overflow-y-auto pr-1" style="scrollbar-width:thin;"></div>
   </div>
 </section>
 
@@ -924,6 +956,81 @@ if(okEcharts){
     }]
   });
 }
+</script>
+
+<style>
+  .lib-tab{
+    display:inline-flex;align-items:center;gap:6px;padding:6px 14px;border-radius:999px;
+    font-size:13.5px;font-weight:600;cursor:pointer;transition:all .2s;border:1px solid var(--line);
+    background:var(--card);color:var(--ink-2);font-family:var(--sans);
+  }
+  .lib-tab:hover{border-color:var(--tab-c);color:var(--tab-c);transform:translateY(-1px);}
+  .lib-tab-active{background:var(--tab-c);color:#fff;border-color:var(--tab-c);box-shadow:0 6px 14px -8px var(--tab-c);}
+  .lib-tab-count{font-size:11.5px;padding:1px 7px;border-radius:999px;background:rgba(0,0,0,.06);font-weight:500;}
+  .lib-tab-active .lib-tab-count{background:rgba(255,255,255,.22);color:#fff;}
+  .lib-book{
+    display:flex;align-items:center;gap:8px;padding:10px 12px;border-radius:10px;
+    background:var(--card);border:1px solid var(--line-soft);text-decoration:none;color:var(--ink-2);
+    font-size:13px;line-height:1.35;transition:all .18s;cursor:pointer;min-height:42px;
+  }
+  .lib-book:hover{border-color:var(--c);color:var(--c);transform:translateY(-2px);box-shadow:0 8px 18px -12px var(--c);background:#fff;}
+  .lib-book-dot{width:6px;height:6px;border-radius:50%;background:var(--c);flex-shrink:0;opacity:.75;}
+  .lib-book-name{font-family:var(--serif);font-weight:600;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}
+</style>
+
+<script src="shicang_data/books.js"></script>
+<script>
+/* 诗藏原典 · 776部典籍检索 */
+(function(){
+  const CAT_ORDER=['楚辞','词话','词集','对联','汉赋','剧曲','诗话','诗集'];
+  const CAT_COLORS={'楚辞':'#6b3a5c','词话':'#a67c2e','词集':'#ae3a2b','对联':'#25406b','汉赋':'#4b4237','剧曲':'#2f6b52','诗话':'#8a5a2b','诗集':'#2d6a8c'};
+  if(typeof SHICANG_BOOKS==='undefined'){
+    const m=document.getElementById('libMeta');
+    if(m) m.textContent='典籍数据加载失败，请确认 shicang_data/books.js 可访问';
+    return;
+  }
+  let active='楚辞', keyword='';
+  const tabs=document.getElementById('libTabs');
+  const grid=document.getElementById('libGrid');
+  const meta=document.getElementById('libMeta');
+  const search=document.getElementById('libSearch');
+
+  function renderTabs(){
+    tabs.innerHTML='';
+    CAT_ORDER.forEach(cat=>{
+      const n=(SHICANG_BOOKS[cat]||[]).length;
+      const b=document.createElement('button');
+      b.className='lib-tab'+(active===cat?' lib-tab-active':'');
+      b.setAttribute('data-cat',cat);
+      b.innerHTML='<span>'+cat+'</span><span class="lib-tab-count">'+n+'</span>';
+      b.style.setProperty('--tab-c',CAT_COLORS[cat]);
+      b.addEventListener('click',()=>{active=cat;keyword='';if(search)search.value='';renderTabs();renderGrid();});
+      tabs.appendChild(b);
+    });
+  }
+  function renderGrid(){
+    const list=SHICANG_BOOKS[active]||[];
+    const kw=(keyword||'').trim().toLowerCase();
+    const filtered=kw?list.filter(b=>b.name.toLowerCase().includes(kw)):list;
+    meta.innerHTML='<b style="color:'+CAT_COLORS[active]+'">'+active+'</b>：共 <b>'+list.length+'</b> 部'+(kw?'，匹配 <b>'+filtered.length+'</b> 部':'');
+    grid.innerHTML='';
+    if(filtered.length===0){
+      grid.innerHTML='<div class="col-span-full text-center py-10 text-[var(--ink-3)] text-[14px]">未找到匹配书籍</div>';
+      return;
+    }
+    filtered.forEach(b=>{
+      const a=document.createElement('a');
+      a.href=b.url; a.target='_blank'; a.rel='noopener';
+      a.className='lib-book';
+      a.style.setProperty('--c',CAT_COLORS[active]);
+      a.innerHTML='<span class="lib-book-dot"></span><span class="lib-book-name">'+b.name+'</span>';
+      a.title=b.name+' · 点击在殆知阁打开原文';
+      grid.appendChild(a);
+    });
+  }
+  if(search) search.addEventListener('input',function(){keyword=this.value;renderGrid();});
+  renderTabs(); renderGrid();
+})();
 </script>
 </body>
 </html>
