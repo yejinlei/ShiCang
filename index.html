@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>诗藏本体论 · ShiCang Ontology</title>
+<script src="https://aisearch-task.bj.bcebos.com/static/tailwindcss-3.4.17.js"></script>
+<script src="https://aisearch-task.bj.bcebos.com/static/echarts-5.6.0.min.js"></script>
+<style>
+  :root{
+    --paper:#f6f1e7;
+    --paper-2:#fcfaf5;
+    --card:#ffffff;
+    --ink:#1e1a15;
+    --ink-2:#4b4237;
+    --ink-3:#8a7f6d;
+    --zhu:#ae3a2b;
+    --zhu-2:#c85a49;
+    --dian:#25406b;
+    --jin:#a67c2e;
+    --qing:#2f6b52;
+    --line:rgba(30,26,21,.11);
+    --line-soft:rgba(30,26,21,.06);
+    --serif:'Songti SC','STSong','Noto Serif CJK SC','Source Han Serif SC','Source Han Serif CN',SimSun,serif;
+    --sans:'PingFang SC','HarmonyOS Sans SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif;
+    --mono:'SF Mono',Menlo,Consolas,'Courier New',monospace;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    font-family:var(--sans);
+    color:var(--ink);
+    background:
+      radial-gradient(circle at 10% 6%, rgba(174,58,43,.055), transparent 40%),
+      radial-gradient(circle at 90% 20%, rgba(37,64,107,.05), transparent 44%),
+      radial-gradient(circle at 50% 96%, rgba(166,124,46,.05), transparent 48%),
+      var(--paper);
+    line-height:1.7;
+    -webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
+  }
+  .serif{font-family:var(--serif);}
+  .mono{font-family:var(--mono);}
+
+  /* 宣纸纹 */
+  .paper-grain{
+    position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.5;
+    background-image:
+      repeating-linear-gradient(0deg, rgba(30,26,21,.014) 0 1px, transparent 1px 3px),
+      repeating-linear-gradient(90deg, rgba(30,26,21,.012) 0 1px, transparent 1px 4px);
+  }
+
+  /* 入场动效：内容默认可见，仅从 .94 起 */
+  @keyframes riseIn{from{opacity:.94;transform:translateY(10px);}to{opacity:1;transform:translateY(0);}}
+  @keyframes fadeIn{from{opacity:.94;}to{opacity:1;}}
+  .reveal{animation:riseIn .7s cubic-bezier(.2,.8,.2,1) both;}
+  .reveal-1{animation-delay:.04s;}
+  .reveal-2{animation-delay:.10s;}
+  .reveal-3{animation-delay:.16s;}
+  .reveal-4{animation-delay:.22s;}
+  @media (prefers-reduced-motion:reduce){.reveal{animation:none;}}
+
+  /* 导航 */
+  .topnav{
+    position:sticky;top:0;z-index:40;
+    backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+    background:rgba(246,241,231,.82);
+    border-bottom:1px solid var(--line);
+  }
+  .nav-link{
+    font-size:13.5px;color:var(--ink-2);text-decoration:none;
+    padding:6px 10px;border-radius:999px;white-space:nowrap;
+    transition:color .2s,background .2s;
+  }
+  .nav-link:hover{color:var(--zhu);background:rgba(174,58,43,.07);}
+
+  .badge{
+    display:inline-flex;align-items:center;gap:7px;
+    font-size:12px;letter-spacing:.14em;text-transform:uppercase;
+    color:var(--zhu);font-weight:600;
+  }
+  .badge::before{content:"";width:22px;height:1.5px;background:var(--zhu);display:block;}
+
+  .sec-eyebrow{
+    font-size:12.5px;letter-spacing:.22em;text-transform:uppercase;
+    color:var(--ink-3);font-weight:600;font-family:var(--mono);
+  }
+  .sec-title{font-family:var(--serif);font-weight:700;line-height:1.15;letter-spacing:-.01em;}
+
+  .rule{height:1px;background:linear-gradient(90deg,var(--line),transparent);}
+
+  /* 层级时间轴 */
+  .layer-card{
+    position:relative;
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:14px;
+    padding:20px 22px;
+    transition:transform .25s cubic-bezier(.2,.8,.2,1), box-shadow .25s, border-color .25s;
+  }
+  .layer-card:hover{transform:translateY(-3px);box-shadow:0 12px 30px -14px rgba(30,26,21,.28);border-color:rgba(174,58,43,.4);}
+  .layer-node{
+    width:44px;height:44px;border-radius:11px;flex-shrink:0;
+    display:flex;align-items:center;justify-content:center;
+    font-family:var(--mono);font-weight:700;font-size:15px;
+    color:#fff;letter-spacing:.02em;
+  }
+
+  /* 类卡 */
+  .cls-card{
+    background:var(--card);border:1px solid var(--line);border-radius:11px;
+    padding:12px 13px;transition:border-color .2s,background .2s,transform .2s;
+  }
+  .cls-card:hover{border-color:rgba(37,64,107,.45);transform:translateY(-2px);}
+  .cls-name{font-family:var(--serif);font-weight:700;font-size:16px;color:var(--ink);}
+  .cls-en{font-family:var(--mono);font-size:11px;color:var(--ink-3);letter-spacing:.02em;}
+  .cls-desc{font-size:13px;color:var(--ink-2);line-height:1.55;margin-top:5px;}
+
+  /* Tab */
+  .tab-btn{
+    font-size:14px;font-weight:600;color:var(--ink-2);
+    background:transparent;border:1px solid var(--line);
+    padding:8px 14px;border-radius:999px;cursor:pointer;
+    transition:all .2s;white-space:nowrap;font-family:var(--sans);
+  }
+  .tab-btn:hover{border-color:var(--zhu);color:var(--zhu);}
+  .tab-btn.active{background:var(--zhu);border-color:var(--zhu);color:#fff;}
+
+  /* 关系项 */
+  .rel-item{border-bottom:1px solid var(--line-soft);padding:11px 0;}
+  .rel-item:last-child{border-bottom:none;}
+  .rel-tag{font-size:10.5px;font-family:var(--mono);padding:2px 7px;border-radius:5px;font-weight:600;}
+
+  /* 典籍卡 */
+  .text-card{
+    background:var(--paper-2);border:1px solid var(--line);border-radius:12px;
+    padding:15px 16px;transition:transform .25s cubic-bezier(.2,.8,.2,1),box-shadow .25s;
+  }
+  .text-card:hover{transform:translateY(-3px);box-shadow:0 10px 26px -16px rgba(30,26,21,.3);}
+
+  /* 意象卡 */
+  .img-card{
+    background:var(--card);border:1px solid var(--line);border-radius:12px;
+    padding:14px;display:flex;flex-direction:column;gap:6px;transition:border-color .2s,transform .2s;
+  }
+  .img-card:hover{border-color:rgba(47,107,82,.5);transform:translateY(-2px);}
+
+  /* 流派卡 */
+  .school-card{
+    background:var(--card);border:1px solid var(--line);border-radius:12px;padding:15px 16px;
+    border-left:3px solid var(--zhu);
+    transition:transform .2s,box-shadow .2s;
+  }
+  .school-card.ci{border-left-color:var(--dian);}
+  .school-card:hover{transform:translateX(3px);box-shadow:0 8px 22px -16px rgba(30,26,21,.32);}
+
+  /* 人物卡 */
+  .person-card{
+    background:var(--paper-2);border:1px solid var(--line);border-radius:12px;padding:14px 15px;
+    transition:transform .22s,box-shadow .22s,border-color .22s;
+  }
+  .person-card:hover{transform:translateY(-3px);box-shadow:0 12px 26px -18px rgba(30,26,21,.34);border-color:rgba(166,124,46,.5);}
+  .seal{
+    width:38px;height:38px;border-radius:8px;flex-shrink:0;
+    display:flex;align-items:center;justify-content:center;
+    font-family:var(--serif);font-weight:700;font-size:18px;color:#fff;
+    background:linear-gradient(150deg,var(--zhu),var(--zhu-2));
+    box-shadow:inset 0 0 0 1px rgba(255,255,255,.25);
+  }
+
+  .chip{
+    display:inline-block;font-size:11.5px;padding:2px 9px;border-radius:999px;
+    background:rgba(37,64,107,.08);color:var(--dian);font-weight:600;
+  }
+  .chip.zhu{background:rgba(174,58,43,.09);color:var(--zhu);}
+  .chip.jin{background:rgba(166,124,46,.11);color:#8a6414;}
+  .chip.qing{background:rgba(47,107,82,.1);color:var(--qing);}
+
+  .chart-wrap{width:100%;overflow-x:auto;}
+  .chart-box{min-width:320px;}
+
+  .anchor-target{scroll-margin-top:78px;}
+
+  .kpi-num{font-family:var(--serif);font-weight:700;font-size:34px;line-height:1;color:var(--zhu);}
+  .kpi-lbl{font-size:12.5px;color:var(--ink-3);margin-top:5px;}
+
+  details.rel-group summary{cursor:pointer;list-style:none;}
+  details.rel-group summary::-webkit-details-marker{display:none;}
+  details.rel-group summary .caret{transition:transform .25s;}
+  details.rel-group[open] summary .caret{transform:rotate(90deg);}
+
+  .tab-panel{display:none;}
+  .tab-panel.active{display:block;}
+</style>
+</head>
+<body>
+<div class="paper-grain"></div>
+
+<!-- ========== 顶部导航 ========== -->
+<nav class="topnav">
+  <div class="max-w-[1180px] mx-auto px-4 md:px-8 h-[58px] flex items-center justify-between gap-4">
+    <a href="#top" class="flex items-center gap-2.5 no-underline">
+      <span style="width:30px;height:30px;border-radius:8px;background:linear-gradient(150deg,var(--zhu),var(--zhu-2));display:flex;align-items:center;justify-content:center;color:#fff;font-family:var(--serif);font-weight:700;font-size:17px;box-shadow:inset 0 0 0 1px rgba(255,255,255,.25);">诗</span>
+      <span class="serif font-bold text-[17px] text-[var(--ink)]">诗藏本体论</span>
+    </a>
+    <div class="hidden lg:flex items-center gap-0.5">
+      <a href="#layers" class="nav-link">七层架构</a>
+      <a href="#classes" class="nav-link">类体系</a>
+      <a href="#relations" class="nav-link">关系网络</a>
+      <a href="#canon" class="nav-link">典籍体系</a>
+      <a href="#imagery" class="nav-link">意象情感</a>
+      <a href="#schools" class="nav-link">流派谱系</a>
+      <a href="#people" class="nav-link">代表人物</a>
+      <a href="#about" class="nav-link">说明</a>
+    </div>
+    <a href="#layers" class="text-[13px] font-semibold text-white px-4 py-2 rounded-full no-underline" style="background:var(--zhu);">开始浏览</a>
+  </div>
+</nav>
+
+<!-- ========== Hero ========== -->
+<header id="top" class="relative z-10 anchor-target">
+  <div class="max-w-[1180px] mx-auto px-5 md:px-8 pt-12 md:pt-16 pb-10">
+    <div class="grid md:grid-cols-[1.12fr_.88fr] gap-9 md:gap-12 items-center">
+      <div class="reveal reveal-1">
+        <span class="badge">ShiCang Ontology · v1.0</span>
+        <h1 class="serif font-bold mt-4 mb-4 text-[42px] leading-[1.05] md:text-[64px] lg:text-[72px] tracking-tight">
+          诗藏<span style="color:var(--zhu);">本体论</span>
+        </h1>
+        <p class="text-[17px] md:text-[18px] text-[var(--ink-2)] leading-relaxed max-w-[560px]">
+          以中国古典诗歌为对象的领域知识本体。参照佛藏本体论的七层架构方法，把「诗理—范畴—流派—典籍—人物—文化」编织成一张可推理、可扩展的知识网络。
+        </p>
+        <p class="text-[15px] text-[var(--ink-3)] mt-4 max-w-[560px] leading-relaxed">
+          语料底座取自<a href="https://daizhige.org/" target="_blank" rel="noopener" class="text-[var(--dian)] underline decoration-dotted underline-offset-2">殆知阁</a>诗藏 <b class="text-[var(--ink-2)]">776 部</b>文献：楚辞、诗集、诗话、词集、词话、剧曲、汉赋、对联八类齐备。
+        </p>
+        <div class="flex flex-wrap gap-3 mt-7">
+          <a href="#layers" class="text-[14px] font-semibold text-white px-5 py-2.5 rounded-full no-underline" style="background:var(--ink);">浏览七层架构 →</a>
+          <a href="#about" class="text-[14px] font-semibold px-5 py-2.5 rounded-full no-underline" style="color:var(--ink);border:1px solid var(--line);background:var(--card);">查看 OWL 说明</a>
+        </div>
+      </div>
+      <figure class="reveal reveal-2 m-0 relative">
+        <div class="rounded-2xl overflow-hidden" style="border:1px solid var(--line);box-shadow:0 24px 50px -30px rgba(30,26,21,.45);">
+          <img src="http://q5.itc.cn/q_70/images03/20250827/8dff6b116e2148449d45026fcd2b04d8.jpeg" alt="中国水墨山水长卷" loading="lazy" class="w-full h-[260px] md:h-[360px] object-cover block">
+        </div>
+        <figcaption class="text-[12px] text-[var(--ink-3)] mt-2.5 text-right">山水长卷 · 诗中有画，画中有诗</figcaption>
+      </figure>
+    </div>
+
+    <!-- KPI -->
+    <div class="grid grid-cols-2 md:grid-cols-5 gap-3 md:gap-4 mt-11 reveal reveal-3">
+      <div class="bg-[var(--card)] rounded-xl px-4 py-4" style="border:1px solid var(--line);">
+        <div class="kpi-num" data-count="7">7</div><div class="kpi-lbl">本体层级 L0–L6</div>
+      </div>
+      <div class="bg-[var(--card)] rounded-xl px-4 py-4" style="border:1px solid var(--line);">
+        <div class="kpi-num" data-count="75">75</div><div class="kpi-lbl">OWL 类</div>
+      </div>
+      <div class="bg-[var(--card)] rounded-xl px-4 py-4" style="border:1px solid var(--line);">
+        <div class="kpi-num" data-count="27">27</div><div class="kpi-lbl">对象属性</div>
+      </div>
+      <div class="bg-[var(--card)] rounded-xl px-4 py-4" style="border:1px solid var(--line);">
+        <div class="kpi-num" data-count="16">16</div><div class="kpi-lbl">数据属性</div>
+      </div>
+      <div class="bg-[var(--card)] rounded-xl px-4 py-4" style="border:1px solid var(--line);">
+        <div class="kpi-num" data-count="776">776</div><div class="kpi-lbl">诗藏典籍（部）</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ========== 七层架构 ========== -->
+<section id="layers" class="relative z-10 anchor-target py-14 md:py-20">
+  <div class="max-w-[1180px] mx-auto px-5 md:px-8">
+    <div class="grid md:grid-cols-[.9fr_1.1fr] gap-6 md:gap-12 items-end mb-10">
+      <div>
+        <div class="sec-eyebrow">01 / Architecture</div>
+        <h2 class="sec-title text-[28px] md:text-[40px] mt-2">七层本体架构</h2>
+      </div>
+      <p class="text-[15.5px] text-[var(--ink-2)] leading-relaxed md:pb-2">
+        承佛藏本体论「以类明纲、以关系立网、以属性为据」的建模方法，自元模型而下逐层展开：从形而上的诗理，到可操作的诗学范畴，再到流派、典籍、人物与文化场域，每层都可独立扩展，又能跨层关联。
+      </p>
+    </div>
+
+    <div id="layerList" class="grid gap-3.5"></div>
+  </div>
+</section>
+
+<!-- ========== 类体系 ========== -->
+<section id="classes" class="relative z-10 anchor-target py-14 md:py-20" style="background:linear-gradient(180deg,transparent,rgba(37,64,107,.035),transparent);">
+  <div class="max-w-[1180px] mx-auto px-5 md:px-8">
+    <div class="mb-8">
+      <div class="sec-eyebrow">02 / Classes</div>
+      <h2 class="sec-title text-[28px] md:text-[40px] mt-2">类体系 · 75 类</h2>
+      <p class="text-[15.5px] text-[var(--ink-2)] leading-relaxed mt-3 max-w-[720px]">
+        点击层级切换查看该层定义的全部类。类的层级以 <span class="mono text-[13px] text-[var(--dian)]">rdfs:subClassOf</span> 表达，顶层元类 <span class="mono text-[13px] text-[var(--dian)]">ShiCangEntity</span> 统摄 L1–L6 全部实体类。
+      </p>
+    </div>
+
+    <div id="classTabs" class="flex flex-wrap gap-2 mb-6"></div>
+    <div id="classPanels"></div>
+  </div>
+</section>
+
+<!-- ========== 关系网络 ========== -->
+<section id="relations" class="relative z-10 anchor-target py-14 md:py-20">
+  <div class="max-w-[1180px] mx-auto px-5 md:px-8">
+    <div class="grid md:grid-cols-[.9fr_1.1fr] gap-6 md:gap-12 items-end mb-9">
+      <div>
+        <div class="sec-eyebrow">03 / Relations</div>
+        <h2 class="sec-title text-[28px] md:text-[40px] mt-2">关系网络 · 27 属性</h2>
+      </div>
+      <p class="text-[15.5px] text-[var(--ink-2)] leading-relaxed md:pb-2">
+        关系是本体的「网」。27 个对象属性覆盖创作归属、体裁形式、意象情感、流派宗匠、典籍收录与人物传承；其中 <b style="color:var(--qing)">影响</b>具传递性、<b style="color:var(--qing)">交游</b>与<b style="color:var(--qing)">同时代</b>具对称性，多组逆属性支撑双向推理。
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-[.95fr_1.05fr] gap-6 md:gap-9 items-start">
+      <div id="relGroups" class="grid gap-2.5"></div>
+      <div class="bg-[var(--card)] rounded-2xl p-4 md:p-5" style="border:1px solid var(--line);">
+        <div class="flex items-center justify-between flex-wrap gap-2 mb-3">
+          <h3 class="serif font-bold text-[18px]">核心关系图谱</h3>
+          <span class="text-[12px] text-[var(--ink-3)]">可拖拽节点 · 滚轮缩放</span>
+        </div>
+        <div class="chart-wrap">
+          <div id="graphChart" class="chart-box" style="height:392px;min-width:100%;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 典籍体系 ========== -->
+<section id="canon" class="relative z-10 anchor-target py-14 md:py-20" style="background:linear-gradient(180deg,transparent,rgba(166,124,46,.04),transparent);">
+  <div class="max-w-[1180px] mx-auto px-5 md:px-8">
+    <div class="mb-9">
+      <div class="sec-eyebrow">04 / Canon</div>
+      <h2 class="sec-title text-[28px] md:text-[40px] mt-2">L4 文本载体层 · 典籍体系</h2>
+      <p class="text-[15.5px] text-[var(--ink-2)] leading-relaxed mt-3 max-w-[760px]">
+        诗藏的实体文献分八大类，合计 <b>776 部</b>。它们是本体中「实例」的主要来源，也是语料可下载、可扩充的基底。
+      </p>
+    </div>
+
+    <div class="grid lg:grid-cols-[1.08fr_.92fr] gap-6 md:gap-9 items-start mb-9">
+      <div class="bg-[var(--card)] rounded-2xl p-4 md:p-5" style="border:1px solid var(--line);">
+        <h3 class="serif font-bold text-[18px] mb-1">八大分类部数</h3>
+        <p class="text-[12.5px] text-[var(--ink-3)] mb-3">据殆知阁诗藏目录 · 单位：部</p>
+        <div class="chart-wrap">
+          <div id="barChart" class="chart-box" style="height:340px;min-width:100%;"></div>
+        </div>
+      </div>
+      <figure class="m-0">
+        <div class="rounded-2xl overflow-hidden" style="border:1px solid var(--line);box-shadow:0 18px 40px -28px rgba(30,26,21,.4);">
+          <img src="https://gips3.baidu.com/it/u=3921006915,1413215512&fm=3086&app=3086&f=JPEG&wm=1,baiduai3,0,0,13,9&wmo=5,5?w=1152&h=864" alt="线装古籍书影" loading="lazy" class="w-full h-[340px] object-cover block">
+        </div>
+        <figcaption class="text-[12px] text-[var(--ink-3)] mt-2.5">线装古籍 · 诗藏文献的原生形态</figcaption>
+      </figure>
+    </div>
+
+    <h3 class="serif font-bold text-[19px] mb-4">代表典籍实例</h3>
+    <div id="textGrid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3.5"></div>
+  </div>
+</section>
+
+<!-- ========== 意象情感 ========== -->
+<section id="imagery" class="relative z-10 anchor-target py-14 md:py-20">
+  <div class="max-w-[1180px] mx-auto px-5 md:px-8">
+    <div class="mb-9">
+      <div class="sec-eyebrow">05 / Imagery</div>
+      <h2 class="sec-title text-[28px] md:text-[40px] mt-2">意象—情感映射</h2>
+      <p class="text-[15.5px] text-[var(--ink-2)] leading-relaxed mt-3 max-w-[760px]">
+        L2 范畴层把「意象」与「情感」建成两类，并以 <span class="mono text-[13px] text-[var(--dian)]">imageryEvokesEmotion</span> 相连。配合作品的 <span class="mono text-[13px] text-[var(--dian)]">containsImagery</span>，即可从「诗 → 意象 → 情感」链式推理出作品的情绪底色。
+      </p>
+    </div>
+
+    <div class="grid lg:grid-cols-[.92fr_1.08fr] gap-6 md:gap-9 items-start">
+      <div>
+        <figure class="m-0 mb-5">
+          <div class="rounded-2xl overflow-hidden" style="border:1px solid var(--line);box-shadow:0 16px 36px -26px rgba(30,26,21,.4);">
+            <img src="https://gips3.baidu.com/it/u=145282262,2579703828&fm=3086&app=3086&f=JPEG&wm=1,baiduai3,0,0,13,9&wmo=5,5?w=1280&h=720" alt="古典诗词明月意境" loading="lazy" class="w-full h-[220px] object-cover block">
+          </div>
+          <figcaption class="text-[12px] text-[var(--ink-3)] mt-2.5">明月 · 古典诗歌最常见的意象之一</figcaption>
+        </figure>
+        <div id="imageryGrid" class="grid sm:grid-cols-2 gap-3"></div>
+      </div>
+      <div class="bg-[var(--card)] rounded-2xl p-4 md:p-5" style="border:1px solid var(--line);">
+        <h3 class="serif font-bold text-[18px] mb-1">意象 → 情感 流向</h3>
+        <p class="text-[12.5px] text-[var(--ink-3)] mb-3">Sankey · 左侧为意象，右侧为所唤起的情感</p>
+        <div class="chart-wrap">
+          <div id="sankeyChart" class="chart-box" style="height:360px;min-width:100%;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 流派谱系 ========== -->
+<section id="schools" class="relative z-10 anchor-target py-14 md:py-20" style="background:linear-gradient(180deg,transparent,rgba(174,58,43,.035),transparent);">
+  <div class="max-w-[1180px] mx-auto px-5 md:px-8">
+    <div class="mb-9">
+      <div class="sec-eyebrow">06 / Schools</div>
+      <h2 class="sec-title text-[28px] md:text-[40px] mt-2">L3 流派体系</h2>
+      <p class="text-[15.5px] text-[var(--ink-2)] leading-relaxed mt-3 max-w-[760px]">
+        诗派与词派各成谱系，每派以 <span class="mono text-[13px] text-[var(--dian)]">schoolFounderIs</span> 系宗匠、<span class="mono text-[13px] text-[var(--dian)]">schoolAdvocates</span> 系创作主张。
+      </p>
+    </div>
+    <div class="grid md:grid-cols-2 gap-6 md:gap-9">
+      <div>
+        <h3 class="serif font-bold text-[20px] mb-4 flex items-center gap-2"><span style="width:9px;height:9px;border-radius:2px;background:var(--zhu);display:inline-block;"></span>诗派</h3>
+        <div id="poetrySchools" class="grid gap-3"></div>
+      </div>
+      <div>
+        <h3 class="serif font-bold text-[20px] mb-4 flex items-center gap-2"><span style="width:9px;height:9px;border-radius:2px;background:var(--dian);display:inline-block;"></span>词派</h3>
+        <div id="ciSchools" class="grid gap-3"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 代表人物 ========== -->
+<section id="people" class="relative z-10 anchor-target py-14 md:py-20">
+  <div class="max-w-[1180px] mx-auto px-5 md:px-8">
+    <div class="mb-9">
+      <div class="sec-eyebrow">07 / Persons</div>
+      <h2 class="sec-title text-[28px] md:text-[40px] mt-2">L5 人物传承层</h2>
+      <p class="text-[15.5px] text-[var(--ink-2)] leading-relaxed mt-3 max-w-[760px]">
+        诗人、词人、诗论家、编纂者四类人物，经 <b>师承</b>、<b>交游</b>、<b>唱和</b>、<b>影响</b> 四重关系联结为传承网络。
+      </p>
+    </div>
+    <div id="peopleGrid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3.5"></div>
+  </div>
+</section>
+
+<!-- ========== 说明 ========== -->
+<section id="about" class="relative z-10 anchor-target py-14 md:py-20" style="background:linear-gradient(180deg,transparent,rgba(37,64,107,.04));">
+  <div class="max-w-[1180px] mx-auto px-5 md:px-8">
+    <div class="sec-eyebrow">08 / Deliverable</div>
+    <h2 class="sec-title text-[28px] md:text-[40px] mt-2 mb-8">交付说明与使用方式</h2>
+
+    <div class="grid md:grid-cols-2 gap-4 md:gap-5">
+      <div class="bg-[var(--card)] rounded-2xl p-5 md:p-6" style="border:1px solid var(--line);">
+        <h3 class="serif font-bold text-[19px] mb-3">本体文件 · 诗藏本体论.owl</h3>
+        <p class="text-[15px] text-[var(--ink-2)] leading-relaxed">
+          标准 W3C OWL 本体，可在 Protégé、TopBraid 等工具中直接打开与推理。采用 OWL/XML 序列化，命名空间前缀为 <span class="mono text-[13px] text-[var(--dian)]">shicang:</span>。
+        </p>
+        <div class="mt-3 rounded-lg px-3.5 py-3 text-[13px] mono" style="background:var(--paper-2);border:1px solid var(--line-soft);color:var(--ink-2);">
+          前缀用法示例：shicang:Poet · shicang:authored · shicang:containsImagery
+        </div>
+        <ul class="text-[14.5px] text-[var(--ink-2)] mt-3 space-y-1.5 list-none p-0">
+          <li>· 75 个类（owl:Class）</li>
+          <li>· 27 个对象属性（owl:ObjectProperty）</li>
+          <li>· 16 个数据属性（owl:DatatypeProperty）</li>
+          <li>· 85 个实例（owl:NamedIndividual）</li>
+        </ul>
+      </div>
+
+      <div class="bg-[var(--card)] rounded-2xl p-5 md:p-6" style="border:1px solid var(--line);">
+        <h3 class="serif font-bold text-[19px] mb-3">可视化页面 · 诗藏本体论.html</h3>
+        <p class="text-[15px] text-[var(--ink-2)] leading-relaxed">
+          即本页，把 OWL 的类、属性、实例以层级时间轴、关系图谱、桑基图、卡片矩阵呈现，便于非技术读者快速把握本体全貌。
+        </p>
+        <ul class="text-[14.5px] text-[var(--ink-2)] mt-3 space-y-1.5 list-none p-0">
+          <li>· 关系图谱支持拖拽与缩放</li>
+          <li>· 类体系按层切换浏览</li>
+          <li>· 图表随窗口自适应</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="mt-5 rounded-2xl p-5 md:p-6" style="background:var(--ink);color:#f3ede2;">
+      <h3 class="serif font-bold text-[19px] mb-3 text-white">数据来源与扩展</h3>
+      <p class="text-[15px] leading-relaxed" style="color:rgba(243,237,226,.86);">
+        语料底座取自殆知阁（daizhige.org）诗藏 776 部；本体建模方法参照佛藏本体论（yejinlei.github.io/Buddhist）的七层架构。后续可将全书目与篇章数据批量导入，扩充 <span class="mono text-[13px]" style="color:#e8c98a;">NamedIndividual</span> 实例层，并借助传递性、对称性与逆属性做自动推理。
+      </p>
+      <div class="flex flex-wrap gap-2 mt-4">
+        <span class="text-[12px] px-3 py-1 rounded-full" style="background:rgba(255,255,255,.1);">RDF / OWL</span>
+        <span class="text-[12px] px-3 py-1 rounded-full" style="background:rgba(255,255,255,.1);">7 层架构</span>
+        <span class="text-[12px] px-3 py-1 rounded-full" style="background:rgba(255,255,255,.1);">776 部典籍</span>
+        <span class="text-[12px] px-3 py-1 rounded-full" style="background:rgba(255,255,255,.1);">可推理关系</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="relative z-10 py-10" style="border-top:1px solid var(--line);">
+  <div class="max-w-[1180px] mx-auto px-5 md:px-8 flex flex-wrap items-center justify-between gap-3">
+    <p class="text-[13px] text-[var(--ink-3)] m-0">诗藏本体论 ShiCang Ontology · v1.0 · 中国古典诗歌领域知识本体</p>
+    <p class="text-[13px] text-[var(--ink-3)] m-0">方法论参照 佛藏本体论 · 语料底座 殆知阁诗藏</p>
+  </div>
+</footer>
+
+<script>
+/* ===================== 数据（源自 诗藏本体论.owl） ===================== */
+const LAYERS = [
+  {id:'L0',cn:'元模型层',en:'Meta-Model Layer',n:3,color:'#4b4237',
+   desc:'定义类、属性、关系谓词与七层类体系，兼容 RDF/OWL 规范，是本体的元框架。'},
+  {id:'L1',cn:'诗理本体层',en:'Poetic-Principle Layer',n:11,color:'#ae3a2b',
+   desc:'诗言志、诗缘情、诗达义、意境、气韵、风骨、神韵、性灵、格调、境界等最顶层核心范畴。'},
+  {id:'L2',cn:'范畴层',en:'Category Layer',n:35,color:'#25406b',
+   desc:'体裁、形式、修辞、意象、风格、情感、题材七大范畴，另含地域、时代两个基础维度，构成诗学的基本分析框架。'},
+  {id:'L3',cn:'流派体系层',en:'School Layer',n:4,color:'#a67c2e',
+   desc:'诗派与词派及其创作主张：山水田园、边塞、江西、性灵、神韵、格调、花间、婉约、豪放、格律、常州、浙西。'},
+  {id:'L4',cn:'文本载体层',en:'Text-Carrier Layer',n:9,color:'#2f6b52',
+   desc:'诗藏八大分类：楚辞、诗集、诗话、词集、词话、剧曲、汉赋、对联，共 776 部。'},
+  {id:'L5',cn:'人物传承层',en:'Person Lineage Layer',n:5,color:'#8a5a2b',
+   desc:'诗人、词人、诗论家、编纂者，含师承、交游、唱和、影响关系。'},
+  {id:'L6',cn:'文化外延层',en:'Cultural Extension Layer',n:8,color:'#6b3a5c',
+   desc:'诗教、科举、雅集、题画、竹枝词、节令、宫词等文化外延元素。'}
+];
+
+const CLASSES = {
+  L0:[
+    {cn:'诗藏实体',en:'ShiCangEntity',d:'本体中一切可指称对象的顶层元类，L1–L6 所有类均为其子类。'},
+    {cn:'本体层级',en:'OntologyLayer',d:'七层架构中的层，作为核心概念类的分组容器。'},
+    {cn:'元模型层',en:'Level0_MetaModel',d:'元模型层自身，定义类、属性、关系谓词与七层体系。'}
+  ],
+  L1:[
+    {cn:'诗理',en:'PoeticPrinciple',d:'中国诗学的最顶层核心范畴，统摄一切具体诗法。'},
+    {cn:'诗言志',en:'ShiYanZhi',d:'《尚书·舜典》“诗言志，歌永言”，中国诗学的开山纲领。'},
+    {cn:'诗缘情',en:'ShiYuanQing',d:'陆机《文赋》“诗缘情而绮靡”，以情感为本源的诗学观。'},
+    {cn:'诗达义',en:'ShiDaYi',d:'“诗以达意”一脉，重诗的义理寄托与言外之意。'},
+    {cn:'意境',en:'YiJing',d:'由意象组合升华而成的整体审美境界，L1 与 L2 意象系统的枢纽。'},
+    {cn:'气韵',en:'QiYun',d:'谢赫“气韵生动”，指作品内在的生命律动与神采。'},
+    {cn:'风骨',en:'FengGu',d:'刘勰《文心雕龙》“风骨”论：风力与骨力并举，要求刚健有力。'},
+    {cn:'神韵',en:'ShenYun',d:'王士禛“神韵说”核心，重诗的空灵含蓄、味外之味。'},
+    {cn:'性灵',en:'XingLing',d:'袁枚“性灵说”核心，主真情、个性、独创。'},
+    {cn:'格调',en:'GeDiao',d:'沈德潜“格调说”核心，重诗体的体格声调与温柔敦厚。'},
+    {cn:'境界',en:'JingJie',d:'王国维《人间词话》“境界说”，以“能写真景物、真感情”为有境界。'}
+  ],
+  L2:[
+    {cn:'诗学范畴',en:'Category',d:'L2 范畴层根类，诗学的基本分析框架。'},
+    {cn:'体裁',en:'Genre',d:'诗歌的体裁分类。'},
+    {cn:'诗',en:'Shi',d:'诗体总名。'},
+    {cn:'古体诗',en:'GuTiShi',d:'不求对仗平仄、句式较自由，含乐府、歌行、五七言古诗。'},
+    {cn:'近体诗',en:'JinTiShi',d:'唐代定型的格律诗，讲究平仄、对仗、押韵。'},
+    {cn:'律诗',en:'LvShi',d:'八句四联，中间两联对仗，分五律、七律。'},
+    {cn:'绝句',en:'JueJu',d:'四句，分五绝、七绝，最精炼的抒情体裁。'},
+    {cn:'排律',en:'PaiLv',d:'十句以上、除首尾联外全部对仗的律诗。'},
+    {cn:'乐府',en:'YueFu',d:'源自汉魏乐府、可入乐的诗歌体裁，后多为拟作。'},
+    {cn:'歌行',en:'GeXing',d:'古体诗中句式自由、以歌吟为题的一类。'},
+    {cn:'词',en:'Ci',d:'依词牌填写、句式长短不齐的抒情诗体，又称长短句、诗余。'},
+    {cn:'曲',en:'Qu',d:'元曲，含散曲（小令、套数）与剧曲（杂剧、传奇）。'},
+    {cn:'赋',en:'Fu',d:'铺陈辞采、介于诗文之间的文体，汉赋为一代之胜。'},
+    {cn:'对联',en:'Lian',d:'对偶工整的上下两联，含春联、楹联、题赠联等。'},
+    {cn:'楚辞',en:'ChuCi',d:'屈原开创的“骚体”，与《诗经》并称“风骚”。'},
+    {cn:'形式',en:'Form',d:'格律、韵部、词牌、曲牌等形式要素的总类。'},
+    {cn:'格律',en:'Meter',d:'平仄、对仗、押韵、粘对之总则。'},
+    {cn:'平仄',en:'PingZe',d:'平声与仄声（上去入）的交替规律，近体诗格律的核心。'},
+    {cn:'对仗',en:'DuiZhang',d:'词性、结构、意义相偶的对偶要求。'},
+    {cn:'韵部',en:'YunBu',d:'押韵所用韵字的归类，如平水韵 106 韵、词林正韵。'},
+    {cn:'词牌',en:'CiPai',d:'词的调名与格律谱格式，如《水调歌头》《念奴娇》。'},
+    {cn:'曲牌',en:'QuPai',d:'曲的调名，如《天净沙》《山坡羊》。'},
+    {cn:'修辞',en:'Rhetoric',d:'诗的表现手法与用语技巧。'},
+    {cn:'赋比兴',en:'FuBiXing',d:'《诗经》六义中的三种表现手法：赋（铺陈）、比（比喻）、兴（起兴）。'},
+    {cn:'用典',en:'YongDian',d:'引用前人故事或成句以丰富意蕴。'},
+    {cn:'风雅颂',en:'FengYaSong',d:'《诗经》六义中的三类体裁功能：风、雅、颂。'},
+    {cn:'意象',en:'Imagery',d:'融注情感的物象，构成意境的基本单位。'},
+    {cn:'自然意象',en:'NaturalImagery',d:'日月、山川、草木、鸟兽、风霜雨雪等。'},
+    {cn:'人文意象',en:'CulturalImagery',d:'舟马、楼台、酒、剑、书、灯等。'},
+    {cn:'神话意象',en:'MythicImagery',d:'龙凤、蓬莱、嫦娥、瑶台、青鸟等。'},
+    {cn:'风格',en:'Style',d:'作品呈现的整体审美风貌。'},
+    {cn:'情感',en:'Emotion',d:'诗作所抒之情：思乡、怀古、离别、报国等。'},
+    {cn:'题材主题',en:'Theme',d:'山水田园、边塞征战、咏史怀古、赠别送行、咏物题画等。'}
+  ],
+  L3:[
+    {cn:'流派',en:'School',d:'有共同创作主张与风格的诗人群体。'},
+    {cn:'诗派',en:'PoetrySchool',d:'以诗为宗的流派。'},
+    {cn:'词派',en:'CiSchool',d:'以词为宗的流派。'},
+    {cn:'创作主张',en:'SchoolDoctrine',d:'流派提出的诗学纲领，如“点铁成金”“独抒性灵”。'}
+  ],
+  L4:[
+    {cn:'典籍',en:'CanonicalText',d:'诗藏所收文献实体的总类。'},
+    {cn:'诗集',en:'ShiJi',d:'诗歌总集、别集、选集（148 部）。'},
+    {cn:'诗话',en:'ShiHua',d:'论诗著作，含诗格、诗法、纪事（210 部）。'},
+    {cn:'词集',en:'CiJi',d:'词总集、别集、选集（136 部）。'},
+    {cn:'词话',en:'CiHua',d:'论词著作（103 部）。'},
+    {cn:'剧曲',en:'JuQu',d:'戏曲作品（150 部）。'},
+    {cn:'汉赋',en:'HanFu',d:'汉赋作品（4 部）。'},
+    {cn:'对联',en:'DuiLianText',d:'对联作品集（15 部）。'},
+    {cn:'楚辞文献',en:'ChuCiText',d:'楚辞类文献（10 部）。'}
+  ],
+  L5:[
+    {cn:'人物',en:'Person',d:'与诗歌相关的人物的总类。'},
+    {cn:'诗人',en:'Poet',d:'以诗名世者。'},
+    {cn:'词人',en:'CiPoet',d:'以词名世者。'},
+    {cn:'诗论家',en:'Critic',d:'诗话、词话作者及诗学理论家。'},
+    {cn:'编纂者',en:'Collector',d:'诗歌总集、选集的编选者。'}
+  ],
+  L6:[
+    {cn:'文化元素',en:'CulturalElement',d:'诗歌赖以生成并反哺的文化场域。'},
+    {cn:'诗教',en:'ShiJiao',d:'孔子“兴观群怨”“温柔敦厚”的诗教传统。'},
+    {cn:'科举',en:'KeJu',d:'以诗赋取士的制度，深刻塑造了诗歌创作生态。'},
+    {cn:'雅集',en:'YaJi',d:'文人宴集赋诗，如兰亭集会、西园雅集。'},
+    {cn:'题画诗',en:'TiHuaShi',d:'题于画上的诗，诗画一体。'},
+    {cn:'竹枝词',en:'ZhuZhiCi',d:'源自巴渝民歌的风土诗体，多咏地方风俗。'},
+    {cn:'节令',en:'JieLing',d:'岁时节令及其相关的应制、节序诗。'},
+    {cn:'宫词',en:'GongCi',d:'专咏宫廷生活的诗体。'}
+  ]
+};
+
+const REL_GROUPS = [
+  {name:'创作归属',color:'#ae3a2b',items:[
+    {p:'authored / authoredBy',cn:'创作 / 作者为',d:'作品↔作者，互为逆关系',tag:'INV'},
+    {p:'compiledBy',cn:'编者为',d:'典籍↔编纂者'}
+  ]},
+  {name:'体裁形式',color:'#25406b',items:[
+    {p:'hasGenre',cn:'体裁为',d:'实体↔体裁'},
+    {p:'hasForm',cn:'形式为',d:'实体↔形式（格律、词牌等）'},
+    {p:'usesCiPai',cn:'所用词牌',d:'词↔词牌'}
+  ]},
+  {name:'内容与情感',color:'#2f6b52',items:[
+    {p:'containsImagery',cn:'含意象',d:'作品↔意象'},
+    {p:'imageryEvokesEmotion',cn:'意象唤起情感',d:'意象↔情感，链式推理',tag:'CHAIN'},
+    {p:'hasTheme',cn:'题材为',d:'实体↔题材主题'},
+    {p:'expressesEmotion',cn:'抒发情感',d:'实体↔情感'},
+    {p:'hasStyle',cn:'风格为',d:'实体↔风格'}
+  ]},
+  {name:'流派体系',color:'#a67c2e',items:[
+    {p:'belongsToSchool',cn:'归属流派',d:'人物↔流派'},
+    {p:'schoolAdvocates',cn:'流派主张',d:'流派↔创作主张'},
+    {p:'schoolFounderIs',cn:'宗匠为',d:'流派↔宗匠'}
+  ]},
+  {name:'典籍收录',color:'#8a5a2b',items:[
+    {p:'collectedIn / containsWork',cn:'收录于 / 收录作品',d:'作品↔典籍，互为逆关系',tag:'INV'},
+    {p:'partOfCanon',cn:'属诗藏分类',d:'典籍↔诗藏分类'}
+  ]},
+  {name:'人物传承',color:'#6b3a5c',items:[
+    {p:'influenced / influencedBy',cn:'影响 / 受影响于',d:'诗学影响，具传递性',tag:'TRANS'},
+    {p:'friendOf',cn:'交游',d:'诗人酬唱关系，具对称性',tag:'SYM'},
+    {p:'respondsTo',cn:'唱和',d:'次韵、和答、酬赠与被和之作'},
+    {p:'discipleOf',cn:'师承',d:'诗学师承，如江西诗派宗法杜甫'},
+    {p:'contemporaneousWith',cn:'同时代',d:'人物↔时代，具对称性',tag:'SYM'}
+  ]},
+  {name:'文本指涉',color:'#4b4237',items:[
+    {p:'commemorates',cn:'咏怀对象',d:'咏史怀古、咏物诗所指向的对象'},
+    {p:'alludesTo',cn:'用典出处',d:'用典的来源文本'},
+    {p:'depictsScene',cn:'描写地域',d:'作品↔地域'}
+  ]}
+];
+
+const CATEGORIES = [
+  {name:'诗话',n:210,c:'#ae3a2b'},
+  {name:'剧曲',n:150,c:'#c05a3a'},
+  {name:'诗集',n:148,c:'#25406b'},
+  {name:'词集',n:136,c:'#3a5a86'},
+  {name:'词话',n:103,c:'#a67c2e'},
+  {name:'对联',n:15,c:'#2f6b52'},
+  {name:'楚辞',n:10,c:'#6b3a5c'},
+  {name:'汉赋',n:4,c:'#8a5a2b'}
+];
+
+const TEXTS = [
+  {t:'全唐诗',cat:'诗集',dy:'清',by:'彭定求等编',d:'收唐五代诗四万八千九百余首，作者二千二百余人，唐一代诗歌总汇。'},
+  {t:'全宋诗',cat:'诗集',dy:'当代',by:'北大古文献研究所',d:'收宋代诗作约二十七万首，断代诗歌总集之巨制。'},
+  {t:'乐府诗集',cat:'诗集',dy:'宋',by:'郭茂倩',d:'一百卷，上起陶唐下讫五代，乐府诗最完备的总集。'},
+  {t:'玉台新咏',cat:'诗集',dy:'南朝陈',by:'徐陵',d:'继《诗经》《楚辞》之后的诗歌总集，多收艳情之作。'},
+  {t:'先秦汉魏晋南北朝诗',cat:'诗集',dy:'当代',by:'逯钦立辑校',d:'网罗先秦至隋诗歌，唐前诗歌最完备的总集。'},
+  {t:'全宋词',cat:'词集',dy:'当代',by:'唐圭璋',d:'收两宋词人一千三百余家、词作约两万首。'},
+  {t:'花间集',cat:'词集',dy:'后蜀',by:'赵崇祚',d:'中国最早的文人词总集，收温庭筠等十八家词作。'},
+  {t:'宋词三百首',cat:'词集',dy:'清',by:'朱孝臧',d:'近代流传最广的宋词选本。'},
+  {t:'钦定词谱',cat:'词集',dy:'清',by:'王奕清等奉敕编',d:'收词调八百余，词体格律的权威谱录。'},
+  {t:'沧浪诗话',cat:'诗话',dy:'宋',by:'严羽',d:'以禅喻诗，倡“妙悟”“兴趣”之说，宋代诗学代表作。'},
+  {t:'二十四诗品',cat:'诗话',dy:'唐',by:'司空图',d:'以二十四品标举雄浑、冲淡等风格，中国风格论的高峰。'},
+  {t:'随园诗话',cat:'诗话',dy:'清',by:'袁枚',d:'宣扬“性灵说”，主真情、重个性。'},
+  {t:'六一诗话',cat:'诗话',dy:'宋',by:'欧阳修',d:'中国第一部以“诗话”为名的著作，开创诗话一体。'},
+  {t:'人间词话',cat:'词话',dy:'清末民国',by:'王国维',d:'以“境界”说论词，融汇中西，近代词学的巅峰之作。'},
+  {t:'楚辞总集',cat:'楚辞',dy:'战国·汉',by:'刘向辑录',d:'屈原、宋玉及汉人所作辞赋的总集，以《离骚》为代表。'}
+];
+
+const IMAGERY = [
+  {n:'明月',type:'自然意象',emo:'思乡怀人',d:'象征团圆、思念、孤高，古典诗歌最常见的意象之一。'},
+  {n:'杨柳',type:'自然意象',emo:'离别相思',d:'“柳”谐“留”，折柳送别，寓离情别绪。'},
+  {n:'落红',type:'自然意象',emo:'伤春悲秋',d:'落花凋零，寓青春易逝、韶华不再之慨。'},
+  {n:'孤雁',type:'自然意象',emo:'羁旅孤寂',d:'离群之雁，寓孤独飘零、羁旅思归。'},
+  {n:'长亭',type:'人文意象',emo:'离别相思',d:'古代驿道送别之所，成为离别的符号。'},
+  {n:'蓬莱',type:'神话意象',emo:'超脱出世',d:'海上仙山，寓出世之想与求仙之思。'}
+];
+
+const SCHOOLS_POETRY = [
+  {n:'山水田园诗派',dy:'唐',f:'王维、孟浩然',d:'摹写山水田园，追求清空淡远之境。',doctrine:'清空淡远'},
+  {n:'边塞诗派',dy:'唐',f:'高适、岑参、王昌龄',d:'写边塞征战、大漠风光，气象雄浑。',doctrine:''},
+  {n:'江西诗派',dy:'宋',f:'黄庭坚',d:'主张“点铁成金”“夺胎换骨”，宋代影响最大的诗派。',doctrine:'点铁成金·夺胎换骨'},
+  {n:'性灵派',dy:'清',f:'袁枚',d:'主“独抒性灵，不拘格套”，重真情与个性。',doctrine:'独抒性灵'},
+  {n:'神韵派',dy:'清',f:'王士禛',d:'倡“神韵说”，重空灵含蓄与味外之味。',doctrine:''},
+  {n:'格调派',dy:'明·清',f:'沈德潜',d:'倡“格调说”，重体格声调与温柔敦厚。',doctrine:''}
+];
+
+const SCHOOLS_CI = [
+  {n:'花间派',dy:'晚唐五代',f:'温庭筠',d:'以《花间集》得名，词风秾艳绮丽。',doctrine:''},
+  {n:'婉约派',dy:'宋',f:'柳永、李清照、秦观',d:'词风委婉含蓄、音律谐婉。',doctrine:'词别是一家'},
+  {n:'豪放派',dy:'宋',f:'苏轼、辛弃疾',d:'气象恢弘、题材广阔，破“词为艳科”之囿。',doctrine:''},
+  {n:'格律派（大晟）',dy:'宋',f:'周邦彦',d:'讲究音律、章法缜密，南宋格律词派之先导。',doctrine:''},
+  {n:'常州词派',dy:'清',f:'张惠言、周济',d:'主张“意内言外”“比兴寄托”。',doctrine:''},
+  {n:'浙西词派',dy:'清',f:'朱彝尊',d:'宗法姜夔、张炎，尚清空醇雅。',doctrine:''}
+];
+
+const PEOPLE = [
+  {n:'屈原',dyn:'战国楚',role:'诗人',zi:'名平字原',hao:'灵均',d:'中国浪漫主义诗歌奠基人，作《离骚》《九歌》《天问》，开“楚辞”体。'},
+  {n:'陶渊明',dyn:'东晋',role:'诗人',zi:'元亮',hao:'五柳先生',d:'田园诗派开创者，诗风平淡自然。'},
+  {n:'李白',dyn:'唐',role:'诗人',zi:'太白',hao:'青莲居士',d:'世称“诗仙”，浪漫主义诗歌高峰，与杜甫并称“李杜”。'},
+  {n:'杜甫',dyn:'唐',role:'诗人',zi:'子美',hao:'少陵野老',d:'世称“诗圣”，诗作沉郁顿挫，为后世江西诗派所宗。'},
+  {n:'王维',dyn:'唐',role:'诗人',zi:'摩诘',hao:'',d:'世称“诗佛”，山水田园诗派代表，“诗中有画，画中有诗”。'},
+  {n:'白居易',dyn:'唐',role:'诗人',zi:'乐天',hao:'香山居士',d:'倡“新乐府运动”，主张“文章合为时而著”。'},
+  {n:'苏轼',dyn:'宋',role:'词人',zi:'子瞻',hao:'东坡居士',d:'豪放词派开创者，“以诗为词”，诗文书画皆冠绝一时。'},
+  {n:'李清照',dyn:'宋',role:'词人',zi:'',hao:'易安居士',d:'婉约词派代表，提出词“别是一家”之说。'},
+  {n:'辛弃疾',dyn:'宋',role:'词人',zi:'幼安',hao:'稼轩',d:'豪放词派集大成者，与苏轼并称“苏辛”。'},
+  {n:'纳兰性德',dyn:'清',role:'词人',zi:'容若',hao:'楞伽山人',d:'清初第一词人，词风哀感顽艳，有《饮水词》传世。'},
+  {n:'严羽',dyn:'宋',role:'诗论家',zi:'仪卿',hao:'沧浪逋客',d:'撰《沧浪诗话》，以禅喻诗、主“妙悟”。'},
+  {n:'袁枚',dyn:'清',role:'诗论家',zi:'子才',hao:'随园主人',d:'主“性灵说”，撰《随园诗话》。'},
+  {n:'王国维',dyn:'清末民国',role:'诗论家',zi:'静安',hao:'观堂',d:'撰《人间词话》，以“境界说”论词，近代学术大师。'},
+  {n:'欧阳修',dyn:'宋',role:'诗论家',zi:'永叔',hao:'醉翁',d:'北宋文坛领袖，撰《六一诗话》开诗话之体。'},
+  {n:'司空图',dyn:'唐',role:'诗论家',zi:'表圣',hao:'',d:'晚唐诗论家，撰《二十四诗品》。'},
+  {n:'叶燮',dyn:'清',role:'诗论家',zi:'星期',hao:'横山',d:'撰《原诗》，建立“理事情”“才胆识力”的诗学体系。'}
+];
+
+/* ===================== 渲染 ===================== */
+function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+
+/* 七层架构 */
+document.getElementById('layerList').innerHTML = LAYERS.map((l,i)=>`
+  <article class="layer-card reveal reveal-${Math.min(i+1,4)}">
+    <div class="flex items-start gap-4">
+      <div class="layer-node" style="background:linear-gradient(150deg,${l.color},${l.color}cc);">${l.id}</div>
+      <div class="flex-1 min-w-0">
+        <div class="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+          <h3 class="serif font-bold text-[20px] md:text-[22px] m-0">${esc(l.cn)}</h3>
+          <span class="mono text-[12px] text-[var(--ink-3)]">${esc(l.en)}</span>
+          <span class="chip">${l.n} 类</span>
+        </div>
+        <p class="text-[15px] text-[var(--ink-2)] leading-relaxed mt-2 mb-0">${esc(l.desc)}</p>
+      </div>
+    </div>
+  </article>`).join('');
+
+/* 类体系 */
+const tabsBox = document.getElementById('classTabs');
+const panelsBox = document.getElementById('classPanels');
+tabsBox.innerHTML = LAYERS.map((l,i)=>`<button class="tab-btn${i===0?' active':''}" data-layer="${l.id}">${l.id} ${esc(l.cn)}</button>`).join('');
+panelsBox.innerHTML = LAYERS.map((l,i)=>`
+  <div class="tab-panel${i===0?' active':''}" data-panel="${l.id}">
+    <div class="flex items-center gap-2 mb-4">
+      <span class="chip zhu">${l.id} ${esc(l.cn)}</span>
+      <span class="text-[13px] text-[var(--ink-3)]">共 ${CLASSES[l.id].length} 类</span>
+    </div>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+      ${CLASSES[l.id].map(c=>`
+        <div class="cls-card">
+          <div class="cls-name">${esc(c.cn)}</div>
+          <div class="cls-en">${esc(c.en)}</div>
+          <div class="cls-desc">${esc(c.d)}</div>
+        </div>`).join('')}
+    </div>
+  </div>`).join('');
+tabsBox.addEventListener('click',e=>{
+  const b=e.target.closest('.tab-btn'); if(!b)return;
+  tabsBox.querySelectorAll('.tab-btn').forEach(x=>x.classList.toggle('active',x===b));
+  const id=b.dataset.layer;
+  panelsBox.querySelectorAll('.tab-panel').forEach(p=>p.classList.toggle('active',p.dataset.panel===id));
+});
+
+/* 关系分组 */
+document.getElementById('relGroups').innerHTML = REL_GROUPS.map((g,i)=>`
+  <details class="rel-group bg-[var(--card)] rounded-xl px-4" style="border:1px solid var(--line);" ${i===0?'open':''}>
+    <summary class="flex items-center justify-between py-3.5">
+      <span class="flex items-center gap-2.5">
+        <span style="width:9px;height:9px;border-radius:2px;background:${g.color};display:inline-block;flex-shrink:0;"></span>
+        <span class="serif font-bold text-[16.5px]">${esc(g.name)}</span>
+        <span class="mono text-[11.5px] text-[var(--ink-3)]">${g.items.length}</span>
+      </span>
+      <svg class="caret w-[16px] h-[16px] shrink-0" viewBox="0 0 24 24" fill="none" stroke="${g.color}" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>
+    </summary>
+    <div class="pb-2">
+      ${g.items.map(it=>`
+        <div class="rel-item">
+          <div class="flex items-start justify-between gap-3 flex-wrap">
+            <div class="min-w-0">
+              <span class="serif font-bold text-[15.5px]">${esc(it.cn)}</span>
+              <span class="mono text-[11.5px] text-[var(--dian)] ml-1.5">${esc(it.p)}</span>
+            </div>
+            ${it.tag?`<span class="rel-tag" style="color:var(--qing);background:rgba(47,107,82,.09);">${esc(it.tag)}</span>`:''}
+          </div>
+          <p class="text-[13.5px] text-[var(--ink-3)] mt-1 mb-0">${esc(it.d)}</p>
+        </div>`).join('')}
+    </div>
+  </details>`).join('');
+
+/* 代表典籍 */
+document.getElementById('textGrid').innerHTML = TEXTS.map(t=>`
+  <div class="text-card">
+    <div class="flex items-start justify-between gap-2">
+      <h4 class="serif font-bold text-[17px] m-0">${esc(t.t)}</h4>
+      <span class="chip jin shrink-0">${esc(t.cat)}</span>
+    </div>
+    <div class="text-[12.5px] text-[var(--ink-3)] mt-1.5">${esc(t.dy)} · ${esc(t.by)}</div>
+    <p class="text-[13.5px] text-[var(--ink-2)] leading-snug mt-2 mb-0">${esc(t.d)}</p>
+  </div>`).join('');
+
+/* 意象 */
+document.getElementById('imageryGrid').innerHTML = IMAGERY.map(m=>`
+  <div class="img-card">
+    <div class="flex items-center justify-between gap-2">
+      <span class="serif font-bold text-[17px]">${esc(m.n)}</span>
+      <span class="chip qing">${esc(m.type)}</span>
+    </div>
+    <div class="text-[12.5px] text-[var(--ink-3)]">唤起情感：<b style="color:var(--zhu);">${esc(m.emo)}</b></div>
+    <p class="text-[13px] text-[var(--ink-2)] leading-snug m-0">${esc(m.d)}</p>
+  </div>`).join('');
+
+/* 流派 */
+function schoolCard(s,ci){
+  return `<div class="school-card${ci?' ci':''}">
+    <div class="flex items-baseline justify-between gap-2 flex-wrap">
+      <h4 class="serif font-bold text-[17px] m-0">${esc(s.n)}</h4>
+      <span class="text-[12px] text-[var(--ink-3)]">${esc(s.dy)}</span>
+    </div>
+    <div class="text-[12.5px] text-[var(--ink-3)] mt-1">宗匠：<b style="color:var(--ink-2);">${esc(s.f)}</b></div>
+    <p class="text-[13.5px] text-[var(--ink-2)] leading-snug mt-1.5 mb-0">${esc(s.d)}</p>
+    ${s.doctrine?`<div class="mt-2"><span class="chip zhu">主张 · ${esc(s.doctrine)}</span></div>`:''}
+  </div>`;
+}
+document.getElementById('poetrySchools').innerHTML = SCHOOLS_POETRY.map(s=>schoolCard(s,false)).join('');
+document.getElementById('ciSchools').innerHTML = SCHOOLS_CI.map(s=>schoolCard(s,true)).join('');
+
+/* 人物 */
+const roleColor = {'诗人':'#ae3a2b','词人':'#25406b','诗论家':'#a67c2e','编纂者':'#2f6b52'};
+document.getElementById('peopleGrid').innerHTML = PEOPLE.map(p=>`
+  <div class="person-card">
+    <div class="flex items-start gap-3">
+      <div class="seal" style="background:linear-gradient(150deg,${roleColor[p.role]},${roleColor[p.role]}cc);">${esc(p.n[0])}</div>
+      <div class="min-w-0 flex-1">
+        <div class="flex items-baseline gap-2 flex-wrap">
+          <h4 class="serif font-bold text-[17px] m-0">${esc(p.n)}</h4>
+          <span class="text-[12px] text-[var(--ink-3)]">${esc(p.dyn)}</span>
+        </div>
+        <div class="text-[12.5px] text-[var(--ink-3)] mt-1">${esc(p.role)}${p.zi?' · 字'+esc(p.zi):''}${p.hao?' · 号'+esc(p.hao):''}</div>
+        <p class="text-[13px] text-[var(--ink-2)] leading-snug mt-1.5 mb-0">${esc(p.d)}</p>
+      </div>
+    </div>
+  </div>`).join('');
+
+/* ===================== ECharts ===================== */
+const okEcharts = typeof echarts !== 'undefined';
+function mkChart(id,opt){
+  if(!okEcharts)return;
+  const el=document.getElementById(id); if(!el)return;
+  const ch=echarts.init(el);
+  ch.setOption(opt);
+  window.addEventListener('resize',()=>ch.resize());
+}
+
+/* 1. 典籍柱状图 */
+if(okEcharts){
+  const cats=CATEGORIES.map(c=>c.name), vals=CATEGORIES.map(c=>c.n);
+  mkChart('barChart',{
+    grid:{left:8,right:26,top:14,bottom:8,containLabel:true},
+    tooltip:{trigger:'axis',axisPointer:{type:'shadow'},valueFormatter:v=>v+' 部'},
+    xAxis:{type:'value',splitLine:{lineStyle:{color:'rgba(30,26,21,.07)'}},axisLabel:{color:'#8a7f6d',fontSize:12}},
+    yAxis:{type:'category',data:cats,inverse:true,axisLine:{lineStyle:{color:'rgba(30,26,21,.15)'}},axisTick:{show:false},axisLabel:{color:'#4b4237',fontSize:13,fontWeight:600}},
+    series:[{
+      type:'bar',data:vals,barWidth:'58%',
+      itemStyle:{borderRadius:[0,5,5,0],color:p=>CATEGORIES[p.dataIndex].c},
+      label:{show:true,position:'right',color:'#4b4237',fontSize:12,fontWeight:600,formatter:'{c}'},
+      animationDuration:900
+    }]
+  });
+}
+
+/* 2. 关系力导向图 */
+if(okEcharts){
+  const nodes=[
+    {name:'作品',symbolSize:44,itemStyle:{color:'#ae3a2b'}},
+    {name:'人物',symbolSize:42,itemStyle:{color:'#8a5a2b'}},
+    {name:'意象',symbolSize:38,itemStyle:{color:'#2f6b52'}},
+    {name:'情感',symbolSize:36,itemStyle:{color:'#6b3a5c'}},
+    {name:'体裁',symbolSize:38,itemStyle:{color:'#25406b'}},
+    {name:'形式',symbolSize:34,itemStyle:{color:'#3a5a86'}},
+    {name:'风格',symbolSize:32,itemStyle:{color:'#a67c2e'}},
+    {name:'题材',symbolSize:32,itemStyle:{color:'#8a6414'}},
+    {name:'流派',symbolSize:38,itemStyle:{color:'#c05a3a'}},
+    {name:'主张',symbolSize:30,itemStyle:{color:'#b8863a'}},
+    {name:'典籍',symbolSize:44,itemStyle:{color:'#2f6b52'}},
+    {name:'地域',symbolSize:30,itemStyle:{color:'#4b4237'}},
+    {name:'时代',symbolSize:30,itemStyle:{color:'#6b3a5c'}}
+  ];
+  const links=[
+    {source:'人物',target:'作品'},{source:'作品',target:'意象'},{source:'意象',target:'情感'},
+    {source:'作品',target:'体裁'},{source:'作品',target:'形式'},{source:'作品',target:'风格'},
+    {source:'作品',target:'题材'},{source:'作品',target:'情感'},{source:'人物',target:'流派'},
+    {source:'流派',target:'主张'},{source:'人物',target:'人物'},{source:'作品',target:'典籍'},
+    {source:'典籍',target:'典籍'},{source:'作品',target:'地域'},{source:'人物',target:'时代'},
+    {source:'作品',target:'人物'}
+  ];
+  mkChart('graphChart',{
+    tooltip:{},
+    series:[{
+      type:'graph',layout:'force',roam:true,
+      data:nodes,links:links,
+      force:{repulsion:180,edgeLength:[60,110],gravity:.12},
+      label:{show:true,color:'#4b4237',fontSize:12.5,fontWeight:600},
+      lineStyle:{color:'rgba(37,64,107,.34)',width:1.4,curveness:.08},
+      emphasis:{focus:'adjacency',lineStyle:{width:2.6,color:'#ae3a2b'},label:{fontSize:13.5}},
+      animationDuration:900
+    }]
+  });
+}
+
+/* 3. 意象—情感桑基图 */
+if(okEcharts){
+  const emos=[...new Set(IMAGERY.map(m=>m.emo))];
+  const nodes=[...IMAGERY.map(m=>m.n),...emos].map(x=>({name:x}));
+  const links=IMAGERY.map(m=>({source:m.n,target:m.emo,value:1}));
+  mkChart('sankeyChart',{
+    tooltip:{trigger:'item'},
+    series:[{
+      type:'sankey',left:6,right:14,top:12,bottom:12,
+      nodeWidth:14,nodeGap:11,
+      data:nodes,links:links,
+      label:{color:'#4b4237',fontSize:12.5,fontWeight:600},
+      lineStyle:{color:'gradient',opacity:.42,curveness:.5},
+      itemStyle:{borderWidth:0},
+      levels:[
+        {depth:0,itemStyle:{color:'#2f6b52'}},
+        {depth:1,itemStyle:{color:'#ae3a2b'}}
+      ],
+      animationDuration:900
+    }]
+  });
+}
+</script>
+</body>
+</html>

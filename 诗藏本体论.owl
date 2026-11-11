@@ -1,0 +1,1416 @@
+<?xml version="1.0"?>
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY shicang "http://www.shicang.org/ontology#" >
+]>
+
+<rdf:RDF xmlns="http://www.shicang.org/ontology#"
+     xml:base="http://www.shicang.org/ontology"
+     xmlns:shicang="http://www.shicang.org/ontology#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+    <!-- ==================================================================
+         诗藏本体论 ShiCang Ontology  v1.0
+         参考佛藏本体论（yejinlei.github.io/Buddhist）的七层架构方法构建：
+         L0 元模型层 / L1 诗理本体层 / L2 范畴层 / L3 流派体系层
+         / L4 文本载体层 / L5 人物传承层 / L6 文化外延层
+         资料来源：殆知阁 daizhige.org 诗藏（776 部）
+         ================================================================== -->
+
+    <owl:Ontology rdf:about="http://www.shicang.org/ontology">
+        <rdfs:label>诗藏本体论 (ShiCang Ontology)</rdfs:label>
+        <rdfs:comment>中国古典诗歌领域本体。以佛藏本体论七层架构为方法论参照，覆盖诗理、范畴、流派、典籍、人物、文化外延六大层面。资料来源：殆知阁诗藏 776 部（楚辞10 / 词话103 / 词集136 / 对联15 / 汉赋4 / 剧曲150 / 诗话210 / 诗集148）。</rdfs:comment>
+        <owl:versionInfo>1.0</owl:versionInfo>
+        <rdfs:seeAlso rdf:resource="http://www.shicang.org/ontology.html"/>
+    </owl:Ontology>
+
+    <!-- 
+    ==========================================
+    L0 元模型层 (Meta-Model Layer)
+    定义类、属性、关系谓词；七层类体系；兼容 RDF/OWL 本体规范
+    ==========================================
+    -->
+
+    <owl:Class rdf:about="&shicang;ShiCangEntity">
+        <rdfs:label>诗藏实体</rdfs:label>
+        <rdfs:comment>诗藏本体中一切可指称对象的顶层元类，L1-L6 所有类均为其子类。</rdfs:comment>
+    </owl:Class>
+
+    <owl:Class rdf:about="&shicang;Level0_MetaModel">
+        <rdfs:label>L0 元模型层</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&owl;Class"/>
+        <rdfs:comment>元模型层：定义类、属性、关系谓词与七层类体系，兼容 RDF/OWL 规范，是整个本体的元框架。</rdfs:comment>
+    </owl:Class>
+
+    <owl:ObjectProperty rdf:about="&shicang;hasLayer">
+        <rdfs:label>所属层</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;ShiCangEntity"/>
+        <rdfs:range rdf:resource="&shicang;OntologyLayer"/>
+        <rdfs:comment>元关系：指称实体所属的本体层级。</rdfs:comment>
+    </owl:ObjectProperty>
+
+    <owl:Class rdf:about="&shicang;OntologyLayer">
+        <rdfs:label>本体层级</rdfs:label>
+        <rdfs:comment>七层架构中的层，作为核心概念类的分组容器。</rdfs:comment>
+    </owl:Class>
+
+    <!-- 
+    ==========================================
+    L1 诗理本体层 (Poetic-Principle Layer)
+    诗道、诗理层面的最顶层形而上学核心概念
+    ==========================================
+    -->
+
+    <owl:Class rdf:about="&shicang;PoeticPrinciple">
+        <rdfs:label>诗理</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;ShiCangEntity"/>
+        <rdfs:comment>L1 诗理本体层：中国诗学的最顶层核心范畴，统摄一切具体诗法。</rdfs:comment>
+    </owl:Class>
+
+    <owl:Class rdf:about="&shicang;ShiYanZhi">
+        <rdfs:label>诗言志</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;PoeticPrinciple"/>
+        <rdfs:comment>《尚书·舜典》"诗言志，歌永言"，中国诗学的开山纲领。诗用以表达心志怀抱。</rdfs:comment>
+    </owl:Class>
+
+    <owl:Class rdf:about="&shicang;ShiYuanQing">
+        <rdfs:label>诗缘情</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;PoeticPrinciple"/>
+        <rdfs:comment>陆机《文赋》"诗缘情而绮靡"，以情感为本源的诗学观。</rdfs:comment>
+    </owl:Class>
+
+    <owl:Class rdf:about="&shicang;ShiDaYi">
+        <rdfs:label>诗达义</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;PoeticPrinciple"/>
+        <rdfs:comment>"诗以达意"一脉，重诗的义理寄托与言外之意。</rdfs:comment>
+    </owl:Class>
+
+    <owl:Class rdf:about="&shicang;YiJing">
+        <rdfs:label>意境</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;PoeticPrinciple"/>
+        <rdfs:comment>由意象组合升华而成的整体审美境界，是 L1 与 L2 意象系统的枢纽概念。</rdfs:comment>
+    </owl:Class>
+
+    <owl:Class rdf:about="&shicang;QiYun">
+        <rdfs:label>气韵</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;PoeticPrinciple"/>
+        <rdfs:comment>谢赫"气韵生动"，指作品内在的生命律动与神采。</rdfs:comment>
+    </owl:Class>
+
+    <owl:Class rdf:about="&shicang;FengGu">
+        <rdfs:label>风骨</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;PoeticPrinciple"/>
+        <rdfs:comment>刘勰《文心雕龙》"风骨"论：风力与骨力并举，要求刚健有力、情志鲜明。</rdfs:comment>
+    </owl:Class>
+
+    <owl:Class rdf:about="&shicang;ShenYun">
+        <rdfs:label>神韵</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;PoeticPrinciple"/>
+        <rdfs:comment>王士禛"神韵说"核心，重诗的空灵含蓄、味外之味。</rdfs:comment>
+    </owl:Class>
+
+    <owl:Class rdf:about="&shicang;XingLing">
+        <rdfs:label>性灵</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;PoeticPrinciple"/>
+        <rdfs:comment>袁枚"性灵说"核心，主真情、个性、独创。</rdfs:comment>
+    </owl:Class>
+
+    <owl:Class rdf:about="&shicang;GeDiao">
+        <rdfs:label>格调</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;PoeticPrinciple"/>
+        <rdfs:comment>沈德潜"格调说"核心，重诗体的体格声调与温柔敦厚。</rdfs:comment>
+    </owl:Class>
+
+    <owl:Class rdf:about="&shicang;JingJie">
+        <rdfs:label>境界</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;PoeticPrinciple"/>
+        <rdfs:comment>王国维《人间词话》"境界说"，以"能写真景物、真感情者谓之有境界"。</rdfs:comment>
+    </owl:Class>
+
+    <!-- 
+    ==========================================
+    L2 范畴层 (Category Layer)
+    体裁 / 格律 / 修辞 / 意象 / 风格 等义理框架
+    ==========================================
+    -->
+
+    <owl:Class rdf:about="&shicang;Category">
+        <rdfs:label>诗学范畴</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;ShiCangEntity"/>
+        <rdfs:comment>L2 范畴层：诗学的基本分析框架。</rdfs:comment>
+    </owl:Class>
+
+    <!-- 2.1 体裁 -->
+    <owl:Class rdf:about="&shicang;Genre">
+        <rdfs:label>体裁</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;Category"/>
+        <rdfs:comment>诗歌的体裁分类。</rdfs:comment>
+    </owl:Class>
+
+    <owl:Class rdf:about="&shicang;Shi">
+        <rdfs:label>诗</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;Genre"/>
+    </owl:Class>
+    <owl:Class rdf:about="&shicang;GuTiShi">
+        <rdfs:label>古体诗</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;Shi"/>
+        <rdfs:comment>不求对仗平仄、句式较自由，含乐府、歌行、五七言古诗。</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="&shicang;JinTiShi">
+        <rdfs:label>近体诗</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;Shi"/>
+        <rdfs:comment>唐代定型的格律诗，讲究平仄、对仗、押韵。</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="&shicang;LvShi">
+        <rdfs:label>律诗</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;JinTiShi"/>
+        <rdfs:comment>八句四联（首颔颈尾），中间两联对仗，五律/七律。</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="&shicang;JueJu">
+        <rdfs:label>绝句</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;JinTiShi"/>
+        <rdfs:comment>四句，分五绝、七绝，为最精炼的抒情体裁。</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="&shicang;PaiLv">
+        <rdfs:label>排律</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;JinTiShi"/>
+        <rdfs:comment>十句以上、除首尾联外全部对仗的律诗。</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="&shicang;YueFu">
+        <rdfs:label>乐府</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;GuTiShi"/>
+        <rdfs:comment>源自汉魏乐府的诗歌体裁，可入乐，后多为拟作。</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="&shicang;GeXing">
+        <rdfs:label>歌行</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;GuTiShi"/>
+    </owl:Class>
+    <owl:Class rdf:about="&shicang;Ci">
+        <rdfs:label>词</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;Genre"/>
+        <rdfs:comment>依词牌填写、句式长短不齐的抒情诗体，又称长短句、诗余。</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="&shicang;Qu">
+        <rdfs:label>曲</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;Genre"/>
+        <rdfs:comment>元曲，含散曲（小令、套数）与剧曲（杂剧、传奇）。</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="&shicang;Fu">
+        <rdfs:label>赋</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;Genre"/>
+        <rdfs:comment>铺陈辞采、介于诗文之间的文体，汉赋为一代之胜。</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="&shicang;Lian">
+        <rdfs:label>对联</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;Genre"/>
+        <rdfs:comment>对偶工整的上下两联，含春联、楹联、题赠联等。</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="&shicang;ChuCi">
+        <rdfs:label>楚辞</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;Genre"/>
+        <rdfs:comment>屈原开创的"骚体"，句式参差、多用"兮"字，与《诗经》并称"风骚"。</rdfs:comment>
+    </owl:Class>
+
+    <!-- 2.2 格律与形式 -->
+    <owl:Class rdf:about="&shicang;Form">
+        <rdfs:label>形式</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;Category"/>
+    </owl:Class>
+    <owl:Class rdf:about="&shicang;Meter">
+        <rdfs:label>格律</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;Form"/>
+        <rdfs:comment>平仄、对仗、押韵、粘对之总则。</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="&shicang;PingZe">
+        <rdfs:label>平仄</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;Meter"/>
+        <rdfs:comment>平声与仄声（上去入）的交替规律，近体诗格律的核心。</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="&shicang;DuiZhang">
+        <rdfs:label>对仗</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;Meter"/>
+        <rdfs:comment>词性、结构、意义相偶的对偶要求。</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="&shicang;YunBu">
+        <rdfs:label>韵部</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;Form"/>
+        <rdfs:comment>押韵所用的韵字归类，如平水韵 106 韵、词林正韵。</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="&shicang;CiPai">
+        <rdfs:label>词牌</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;Form"/>
+        <rdfs:comment>词的调名与格律谱格式，如《水调歌头》《念奴娇》《菩萨蛮》。</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="&shicang;QuPai">
+        <rdfs:label>曲牌</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;Form"/>
+        <rdfs:comment>曲的调名，如《天净沙》《山坡羊》。</rdfs:comment>
+    </owl:Class>
+
+    <!-- 2.3 修辞 -->
+    <owl:Class rdf:about="&shicang;Rhetoric">
+        <rdfs:label>修辞</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;Category"/>
+    </owl:Class>
+    <owl:Class rdf:about="&shicang;FuBiXing">
+        <rdfs:label>赋比兴</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;Rhetoric"/>
+        <rdfs:comment>《诗经》六义中的三种表现手法：赋（铺陈）、比（比喻）、兴（起兴）。</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="&shicang;YongDian">
+        <rdfs:label>用典</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;Rhetoric"/>
+        <rdfs:comment>引用前人故事或成句以丰富意蕴。</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="&shicang;FengYaSong">
+        <rdfs:label>风雅颂</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;Rhetoric"/>
+        <rdfs:comment>《诗经》六义中的三类体裁功能：风（民歌）、雅（正声）、颂（祭祀）。</rdfs:comment>
+    </owl:Class>
+
+    <!-- 2.4 意象 -->
+    <owl:Class rdf:about="&shicang;Imagery">
+        <rdfs:label>意象</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;Category"/>
+        <rdfs:comment>融注情感的物象，构成意境的基本单位。</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="&shicang;NaturalImagery">
+        <rdfs:label>自然意象</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;Imagery"/>
+        <rdfs:comment>日月、山川、草木、鸟兽、风霜雨雪等。</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="&shicang;CulturalImagery">
+        <rdfs:label>人文意象</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;Imagery"/>
+        <rdfs:comment>舟马、楼台、酒、剑、书、灯等。</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="&shicang;MythicImagery">
+        <rdfs:label>神话意象</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;Imagery"/>
+        <rdfs:comment>龙凤、蓬莱、嫦娥、瑶台、青鸟等。</rdfs:comment>
+    </owl:Class>
+
+    <!-- 2.5 风格 -->
+    <owl:Class rdf:about="&shicang;Style">
+        <rdfs:label>风格</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;Category"/>
+        <rdfs:comment>作品呈现的整体审美风貌。</rdfs:comment>
+    </owl:Class>
+
+    <!-- 2.6 情感 -->
+    <owl:Class rdf:about="&shicang;Emotion">
+        <rdfs:label>情感</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;Category"/>
+        <rdfs:comment>诗作所抒发之情，喜怒哀乐爱恶欲，及思乡、怀古、离别、报国等。</rdfs:comment>
+    </owl:Class>
+
+    <!-- 2.7 题材主题 -->
+    <owl:Class rdf:about="&shicang;Theme">
+        <rdfs:label>题材主题</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;Category"/>
+        <rdfs:comment>山水田园、边塞征战、咏史怀古、赠别送行、闺怨爱情、咏物题画等。</rdfs:comment>
+    </owl:Class>
+
+    <!-- 
+    ==========================================
+    L3 流派体系层 (School Layer)
+    诗派、词派及其宗匠、经典、主张、传承
+    ==========================================
+    -->
+
+    <owl:Class rdf:about="&shicang;School">
+        <rdfs:label>流派</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;ShiCangEntity"/>
+        <rdfs:comment>L3 流派体系层：有共同创作主张与风格的诗人群体。</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="&shicang;PoetrySchool">
+        <rdfs:label>诗派</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;School"/>
+    </owl:Class>
+    <owl:Class rdf:about="&shicang;CiSchool">
+        <rdfs:label>词派</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;School"/>
+    </owl:Class>
+    <owl:Class rdf:about="&shicang;SchoolDoctrine">
+        <rdfs:label>创作主张</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;ShiCangEntity"/>
+        <rdfs:comment>流派提出的诗学纲领，如"点铁成金""独抒性灵"。</rdfs:comment>
+    </owl:Class>
+
+    <!-- 
+    ==========================================
+    L4 文本载体层 (Text-Carrier Layer)
+    诗藏典籍体系：楚辞 / 诗集 / 诗话 / 词集 / 词话 / 剧曲 / 汉赋 / 对联
+    ==========================================
+    -->
+
+    <owl:Class rdf:about="&shicang;CanonicalText">
+        <rdfs:label>典籍</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;ShiCangEntity"/>
+        <rdfs:comment>L4 文本载体层：诗藏所收文献实体。</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="&shicang;ShiJi">
+        <rdfs:label>诗集</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;CanonicalText"/>
+        <rdfs:comment>诗歌总集、别集、选集（殆知阁 148 部）。</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="&shicang;ShiHua">
+        <rdfs:label>诗话</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;CanonicalText"/>
+        <rdfs:comment>论诗著作，含诗格、诗法、纪事（殆知阁 210 部）。</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="&shicang;CiJi">
+        <rdfs:label>词集</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;CanonicalText"/>
+        <rdfs:comment>词总集、别集、选集（殆知阁 136 部）。</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="&shicang;CiHua">
+        <rdfs:label>词话</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;CanonicalText"/>
+        <rdfs:comment>论词著作（殆知阁 103 部）。</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="&shicang;JuQu">
+        <rdfs:label>剧曲</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;CanonicalText"/>
+        <rdfs:comment>戏曲作品（殆知阁 150 部）。</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="&shicang;HanFu">
+        <rdfs:label>汉赋</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;CanonicalText"/>
+        <rdfs:comment>汉赋作品（殆知阁 4 部）。</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="&shicang;DuiLianText">
+        <rdfs:label>对联</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;CanonicalText"/>
+        <rdfs:comment>对联作品集（殆知阁 15 部）。</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="&shicang;ChuCiText">
+        <rdfs:label>楚辞文献</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;CanonicalText"/>
+        <rdfs:comment>楚辞类文献（殆知阁 10 部）。</rdfs:comment>
+    </owl:Class>
+
+    <!-- 
+    ==========================================
+    L5 人物传承层 (Person / Lineage Layer)
+    诗人、词人、诗论家及其师承、交游、唱和、影响
+    ==========================================
+    -->
+
+    <owl:Class rdf:about="&shicang;Person">
+        <rdfs:label>人物</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;ShiCangEntity"/>
+        <rdfs:comment>L5 人物传承层：与诗歌相关的人物。</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="&shicang;Poet">
+        <rdfs:label>诗人</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;Person"/>
+    </owl:Class>
+    <owl:Class rdf:about="&shicang;CiPoet">
+        <rdfs:label>词人</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;Person"/>
+    </owl:Class>
+    <owl:Class rdf:about="&shicang;Critic">
+        <rdfs:label>诗论家</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;Person"/>
+        <rdfs:comment>诗话、词话作者及诗学理论家。</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="&shicang;Collector">
+        <rdfs:label>编纂者</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;Person"/>
+        <rdfs:comment>诗歌总集、选集的编选者。</rdfs:comment>
+    </owl:Class>
+
+    <!-- 
+    ==========================================
+    L6 文化外延层 (Cultural Extension Layer)
+    诗教、科举、雅集、节令、题画、民俗等文化元素
+    ==========================================
+    -->
+
+    <owl:Class rdf:about="&shicang;CulturalElement">
+        <rdfs:label>文化元素</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;ShiCangEntity"/>
+        <rdfs:comment>L6 文化外延层：诗歌赖以生成并反哺的文化场域。</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="&shicang;ShiJiao">
+        <rdfs:label>诗教</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;CulturalElement"/>
+        <rdfs:comment>孔子"兴观群怨""温柔敦厚"的诗教传统。</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="&shicang;KeJu">
+        <rdfs:label>科举</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;CulturalElement"/>
+        <rdfs:comment>以诗赋取士的制度，深刻塑造了诗歌创作生态。</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="&shicang;YaJi">
+        <rdfs:label>雅集</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;CulturalElement"/>
+        <rdfs:comment>文人宴集赋诗，如兰亭集会、西园雅集、玉山雅集。</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="&shicang;TiHuaShi">
+        <rdfs:label>题画诗</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;CulturalElement"/>
+        <rdfs:comment>题于画上的诗，诗画一体。</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="&shicang;ZhuZhiCi">
+        <rdfs:label>竹枝词</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;CulturalElement"/>
+        <rdfs:comment>源自巴渝民歌的风土诗体，多咏地方风俗。</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="&shicang;JieLing">
+        <rdfs:label>节令</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;CulturalElement"/>
+        <rdfs:comment>岁时节令及其相关的应制、节序诗。</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="&shicang;GongCi">
+        <rdfs:label>宫词</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;CulturalElement"/>
+        <rdfs:comment>专咏宫廷生活的诗体。</rdfs:comment>
+    </owl:Class>
+
+    <!-- 
+    ==========================================
+    对象属性 (Object Properties)
+    ==========================================
+    -->
+
+    <owl:ObjectProperty rdf:about="&shicang;authored">
+        <rdfs:label>创作</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;Person"/>
+        <rdfs:range rdf:resource="&shicang;CanonicalText"/>
+        <owl:inverseOf rdf:resource="&shicang;authoredBy"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="&shicang;authoredBy">
+        <rdfs:label>作者为</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;ShiCangEntity"/>
+        <rdfs:range rdf:resource="&shicang;Person"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="&shicang;compiledBy">
+        <rdfs:label>编者为</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;CanonicalText"/>
+        <rdfs:range rdf:resource="&shicang;Collector"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="&shicang;hasGenre">
+        <rdfs:label>体裁为</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;ShiCangEntity"/>
+        <rdfs:range rdf:resource="&shicang;Genre"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="&shicang;hasForm">
+        <rdfs:label>形式为</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;ShiCangEntity"/>
+        <rdfs:range rdf:resource="&shicang;Form"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="&shicang;usesCiPai">
+        <rdfs:label>所用词牌</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;Ci"/>
+        <rdfs:range rdf:resource="&shicang;CiPai"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="&shicang;containsImagery">
+        <rdfs:label>含意象</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;ShiCangEntity"/>
+        <rdfs:range rdf:resource="&shicang;Imagery"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="&shicang;imageryEvokesEmotion">
+        <rdfs:label>意象唤起情感</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;Imagery"/>
+        <rdfs:range rdf:resource="&shicang;Emotion"/>
+        <rdfs:comment>用于"意象→情感"链式推理；与 containsImagery 组合可实现作品到情感的推理。</rdfs:comment>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="&shicang;hasTheme">
+        <rdfs:label>题材为</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;ShiCangEntity"/>
+        <rdfs:range rdf:resource="&shicang;Theme"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="&shicang;expressesEmotion">
+        <rdfs:label>抒发情感</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;ShiCangEntity"/>
+        <rdfs:range rdf:resource="&shicang;Emotion"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="&shicang;hasStyle">
+        <rdfs:label>风格为</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;ShiCangEntity"/>
+        <rdfs:range rdf:resource="&shicang;Style"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="&shicang;belongsToSchool">
+        <rdfs:label>归属流派</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;Person"/>
+        <rdfs:range rdf:resource="&shicang;School"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="&shicang;schoolAdvocates">
+        <rdfs:label>流派主张</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;School"/>
+        <rdfs:range rdf:resource="&shicang;SchoolDoctrine"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="&shicang;schoolFounderIs">
+        <rdfs:label>宗匠为</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;School"/>
+        <rdfs:range rdf:resource="&shicang;Poet"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="&shicang;collectedIn">
+        <rdfs:label>收录于</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;ShiCangEntity"/>
+        <rdfs:range rdf:resource="&shicang;CanonicalText"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="&shicang;containsWork">
+        <rdfs:label>收录作品</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;CanonicalText"/>
+        <rdfs:range rdf:resource="&shicang;ShiCangEntity"/>
+        <owl:inverseOf rdf:resource="&shicang;collectedIn"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="&shicang;partOfCanon">
+        <rdfs:label>属诗藏分类</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;CanonicalText"/>
+        <rdfs:range rdf:resource="&shicang;CanonicalText"/>
+        <rdfs:comment>典籍归属诗藏某一合类，如《全唐诗》属"诗集"。</rdfs:comment>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="&shicang;influenced">
+        <rdfs:label>影响</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;Person"/>
+        <rdfs:range rdf:resource="&shicang;Person"/>
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:comment>诗学影响关系，具传递性。</rdfs:comment>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="&shicang;influencedBy">
+        <rdfs:label>受影响于</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;Person"/>
+        <rdfs:range rdf:resource="&shicang;Person"/>
+        <owl:inverseOf rdf:resource="&shicang;influenced"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="&shicang;friendOf">
+        <rdfs:label>交游</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;Person"/>
+        <rdfs:range rdf:resource="&shicang;Person"/>
+        <rdf:type rdf:resource="&owl;SymmetricProperty"/>
+        <rdfs:comment>诗人交游、酬唱关系，具对称性。</rdfs:comment>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="&shicang;respondsTo">
+        <rdfs:label>唱和</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;ShiCangEntity"/>
+        <rdfs:range rdf:resource="&shicang;ShiCangEntity"/>
+        <rdfs:comment>次韵、和答、酬赠之作与被和之诗的对应关系。</rdfs:comment>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="&shicang;discipleOf">
+        <rdfs:label>师承</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;Person"/>
+        <rdfs:range rdf:resource="&shicang;Person"/>
+        <rdfs:comment>诗学师承关系，如江西诗派宗法杜甫、黄庭坚。</rdfs:comment>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="&shicang;commemorates">
+        <rdfs:label>咏怀对象</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;ShiCangEntity"/>
+        <rdfs:range rdf:resource="&shicang;ShiCangEntity"/>
+        <rdfs:comment>咏史怀古、咏物诗所指向的历史人物、地点或事物。</rdfs:comment>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="&shicang;alludesTo">
+        <rdfs:label>用典出处</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;ShiCangEntity"/>
+        <rdfs:range rdf:resource="&shicang;ShiCangEntity"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="&shicang;depictsScene">
+        <rdfs:label>描写地域</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;ShiCangEntity"/>
+        <rdfs:range rdf:resource="&shicang;Place"/>
+    </owl:ObjectProperty>
+
+    <owl:Class rdf:about="&shicang;Place">
+        <rdfs:label>地域</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;ShiCangEntity"/>
+        <rdfs:comment>诗作所涉地理空间与文化区域（江南、塞北、巴蜀、长安、洛阳等）。</rdfs:comment>
+    </owl:Class>
+
+    <owl:ObjectProperty rdf:about="&shicang;contemporaneousWith">
+        <rdfs:label>同时代</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;Person"/>
+        <rdfs:range rdf:resource="&shicang;Era"/>
+        <rdf:type rdf:resource="&owl;SymmetricProperty"/>
+    </owl:ObjectProperty>
+
+    <owl:Class rdf:about="&shicang;Era">
+        <rdfs:label>时代</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&shicang;ShiCangEntity"/>
+        <rdfs:comment>朝代与诗歌史分期（先秦、汉魏、六朝、初盛中晚唐、南北宋、元明清等）。</rdfs:comment>
+    </owl:Class>
+
+    <!-- 
+    ==========================================
+    数据属性 (Datatype Properties)
+    ==========================================
+    -->
+
+    <owl:DatatypeProperty rdf:about="&shicang;name">
+        <rdfs:label>名称</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;ShiCangEntity"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="&shicang;courtesyName">
+        <rdfs:label>字</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;Person"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="&shicang;pseudonym">
+        <rdfs:label>号</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;Person"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="&shicang;birthYear">
+        <rdfs:label>生年</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;Person"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="&shicang;deathYear">
+        <rdfs:label>卒年</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;Person"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="&shicang;dynasty">
+        <rdfs:label>所属朝代</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;ShiCangEntity"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="&shicang;title">
+        <rdfs:label>标题</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;ShiCangEntity"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="&shicang;content">
+        <rdfs:label>正文</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;ShiCangEntity"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="&shicang;lineCount">
+        <rdfs:label>句数</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;ShiCangEntity"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="&shicang;charCount">
+        <rdfs:label>字数</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;ShiCangEntity"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="&shicang;compositionYear">
+        <rdfs:label>创作年代</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;ShiCangEntity"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="&shicang;culturalConnotation">
+        <rdfs:label>文化内涵</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;ShiCangEntity"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="&shicang;categoryCount">
+        <rdfs:label>典籍数量</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;CanonicalText"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+        <rdfs:comment>诗藏某一分类下典籍的部数（据殆知阁目录）。</rdfs:comment>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="&shicang;sourceDataset">
+        <rdfs:label>数据来源</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;ShiCangEntity"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="&shicang;poeticPrinciple">
+        <rdfs:label>诗学纲领</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;ShiCangEntity"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="&shicang;layerIndex">
+        <rdfs:label>层级序号</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;OntologyLayer"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+
+    <!-- 
+    ==========================================
+    层级实例 (Ontology Layer Individuals)
+    ==========================================
+    -->
+
+    <owl:NamedIndividual rdf:about="&shicang;Layer_L0">
+        <rdf:type rdf:resource="&shicang;OntologyLayer"/>
+        <rdfs:label>L0 元模型层</rdfs:label>
+        <shicang:layerIndex>L0</shicang:layerIndex>
+        <rdfs:comment>定义类、属性、关系谓词，七层类体系，兼容 RDF/OWL 本体规范。</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Layer_L1">
+        <rdf:type rdf:resource="&shicang;OntologyLayer"/>
+        <rdfs:label>L1 诗理本体层</rdfs:label>
+        <shicang:layerIndex>L1</shicang:layerIndex>
+        <rdfs:comment>诗言志、诗缘情、诗达义、意境、气韵、风骨、神韵、性灵、格调、境界等最顶层核心概念。</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Layer_L2">
+        <rdf:type rdf:resource="&shicang;OntologyLayer"/>
+        <rdfs:label>L2 范畴层</rdfs:label>
+        <shicang:layerIndex>L2</shicang:layerIndex>
+        <rdfs:comment>体裁、格律、修辞、意象、风格、情感、题材七大范畴框架。</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Layer_L3">
+        <rdf:type rdf:resource="&shicang;OntologyLayer"/>
+        <rdfs:label>L3 流派体系层</rdfs:label>
+        <shicang:layerIndex>L3</shicang:layerIndex>
+        <rdfs:comment>诗派与词派：山水田园、边塞、江西、江湖、性灵、格调、神韵；花间、婉约、豪放、格律、浙西、常州等，各派宗匠、经典、主张、传承。</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Layer_L4">
+        <rdf:type rdf:resource="&shicang;OntologyLayer"/>
+        <rdfs:label>L4 文本载体层</rdfs:label>
+        <shicang:layerIndex>L4</shicang:layerIndex>
+        <rdfs:comment>诗藏八大分类：楚辞、诗集、诗话、词集、词话、剧曲、汉赋、对联，共 776 部。</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Layer_L5">
+        <rdf:type rdf:resource="&shicang;OntologyLayer"/>
+        <rdfs:label>L5 人物传承层</rdfs:label>
+        <shicang:layerIndex>L5</shicang:layerIndex>
+        <rdfs:comment>诗人、词人、诗论家、编纂者，含师承、交游、唱和、影响关系。</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Layer_L6">
+        <rdf:type rdf:resource="&shicang;OntologyLayer"/>
+        <rdfs:label>L6 文化外延层</rdfs:label>
+        <shicang:layerIndex>L6</shicang:layerIndex>
+        <rdfs:comment>诗教、科举、雅集、题画、竹枝词、节令、宫词等文化外延元素。</rdfs:comment>
+    </owl:NamedIndividual>
+
+    <!-- 
+    ==========================================
+    诗藏八大分类（教材实例，部数据殆知阁目录）
+    ==========================================
+    -->
+
+    <owl:NamedIndividual rdf:about="&shicang;Cat_ShiJi">
+        <rdf:type rdf:resource="&shicang;ShiJi"/>
+        <rdfs:label>诗集</rdfs:label>
+        <shicang:categoryCount rdf:datatype="&xsd;integer">148</shicang:categoryCount>
+        <shicang:sourceDataset>殆知阁诗藏</shicang:sourceDataset>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Cat_ShiHua">
+        <rdf:type rdf:resource="&shicang;ShiHua"/>
+        <rdfs:label>诗话</rdfs:label>
+        <shicang:categoryCount rdf:datatype="&xsd;integer">210</shicang:categoryCount>
+        <shicang:sourceDataset>殆知阁诗藏</shicang:sourceDataset>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Cat_CiJi">
+        <rdf:type rdf:resource="&shicang;CiJi"/>
+        <rdfs:label>词集</rdfs:label>
+        <shicang:categoryCount rdf:datatype="&xsd;integer">136</shicang:categoryCount>
+        <shicang:sourceDataset>殆知阁诗藏</shicang:sourceDataset>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Cat_CiHua">
+        <rdf:type rdf:resource="&shicang;CiHua"/>
+        <rdfs:label>词话</rdfs:label>
+        <shicang:categoryCount rdf:datatype="&xsd;integer">103</shicang:categoryCount>
+        <shicang:sourceDataset>殆知阁诗藏</shicang:sourceDataset>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Cat_JuQu">
+        <rdf:type rdf:resource="&shicang;JuQu"/>
+        <rdfs:label>剧曲</rdfs:label>
+        <shicang:categoryCount rdf:datatype="&xsd;integer">150</shicang:categoryCount>
+        <shicang:sourceDataset>殆知阁诗藏</shicang:sourceDataset>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Cat_DuiLian">
+        <rdf:type rdf:resource="&shicang;DuiLianText"/>
+        <rdfs:label>对联</rdfs:label>
+        <shicang:categoryCount rdf:datatype="&xsd;integer">15</shicang:categoryCount>
+        <shicang:sourceDataset>殆知阁诗藏</shicang:sourceDataset>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Cat_ChuCi">
+        <rdf:type rdf:resource="&shicang;ChuCiText"/>
+        <rdfs:label>楚辞</rdfs:label>
+        <shicang:categoryCount rdf:datatype="&xsd;integer">10</shicang:categoryCount>
+        <shicang:sourceDataset>殆知阁诗藏</shicang:sourceDataset>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Cat_HanFu">
+        <rdf:type rdf:resource="&shicang;HanFu"/>
+        <rdfs:label>汉赋</rdfs:label>
+        <shicang:categoryCount rdf:datatype="&xsd;integer">4</shicang:categoryCount>
+        <shicang:sourceDataset>殆知阁诗藏</shicang:sourceDataset>
+    </owl:NamedIndividual>
+
+    <!-- 
+    ==========================================
+    L4 代表典籍实例
+    ==========================================
+    -->
+
+    <owl:NamedIndividual rdf:about="&shicang;Text_QuanTangShi">
+        <rdf:type rdf:resource="&shicang;ShiJi"/>
+        <rdfs:label>全唐诗</rdfs:label>
+        <shicang:partOfCanon rdf:resource="&shicang;Cat_ShiJi"/>
+        <shicang:dynasty>清</shicang:dynasty>
+        <shicang:compiledBy rdf:resource="&shicang;Person_PengDingqiu"/>
+        <rdfs:comment>清康熙年间彭定求等编，收唐五代诗四万八千九百余首，作者二千二百余人，是唐一代诗歌的总汇。</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Text_QuanSongShi">
+        <rdf:type rdf:resource="&shicang;ShiJi"/>
+        <rdfs:label>全宋诗</rdfs:label>
+        <shicang:partOfCanon rdf:resource="&shicang;Cat_ShiJi"/>
+        <shicang:dynasty>当代</shicang:dynasty>
+        <rdfs:comment>北京大学古文献研究所编，收宋代诗作约二十七万首，为断代诗歌总集之巨制。</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Text_YueFuShiJi">
+        <rdf:type rdf:resource="&shicang;ShiJi"/>
+        <rdfs:label>乐府诗集</rdfs:label>
+        <shicang:partOfCanon rdf:resource="&shicang;Cat_ShiJi"/>
+        <shicang:dynasty>宋</shicang:dynasty>
+        <shicang:authoredBy rdf:resource="&shicang;Person_GuoMaoqian"/>
+        <rdfs:comment>宋郭茂倩编，一百卷，上起陶唐下讫五代，为乐府诗最完备的总集。</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Text_YuTaiXinYong">
+        <rdf:type rdf:resource="&shicang;ShiJi"/>
+        <rdfs:label>玉台新咏</rdfs:label>
+        <shicang:partOfCanon rdf:resource="&shicang;Cat_ShiJi"/>
+        <shicang:dynasty>南朝陈</shicang:dynasty>
+        <shicang:authoredBy rdf:resource="&shicang;Person_XuLing"/>
+        <rdfs:comment>徐陵编，继《诗经》《楚辞》之后的诗歌总集，多收艳情之作，保存大量早期五言诗。</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Text_XianQinHanWeiJin">
+        <rdf:type rdf:resource="&shicang;ShiJi"/>
+        <rdfs:label>先秦汉魏晋南北朝诗</rdfs:label>
+        <shicang:partOfCanon rdf:resource="&shicang;Cat_ShiJi"/>
+        <shicang:dynasty>当代</shicang:dynasty>
+        <shicang:authoredBy rdf:resource="&shicang;Person_LuQinli"/>
+        <rdfs:comment>逯钦立辑校，网罗先秦至隋诗歌，是唐前诗歌最完备的总集。</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Text_GushiJi">
+        <rdf:type rdf:resource="&shicang;ShiJi"/>
+        <rdfs:label>古诗纪</rdfs:label>
+        <shicang:partOfCanon rdf:resource="&shicang;Cat_ShiJi"/>
+        <shicang:dynasty>明</shicang:dynasty>
+        <shicang:authoredBy rdf:resource="&shicang;Person_FengWeine"/>
+        <rdfs:comment>冯惟讷编，一百五十六卷，网罗唐前诗歌，为明代重要的古诗总集。</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Text_QianJiaShi">
+        <rdf:type rdf:resource="&shicang;ShiJi"/>
+        <rdfs:label>千家诗</rdfs:label>
+        <shicang:partOfCanon rdf:resource="&shicang;Cat_ShiJi"/>
+        <shicang:dynasty>宋</shicang:dynasty>
+        <rdfs:comment>宋刘克庄编选的启蒙诗选，与《三字经》并列为旧时蒙学读物。</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Text_QuanSongCi">
+        <rdf:type rdf:resource="&shicang;CiJi"/>
+        <rdfs:label>全宋词</rdfs:label>
+        <shicang:partOfCanon rdf:resource="&shicang;Cat_CiJi"/>
+        <shicang:dynasty>当代</shicang:dynasty>
+        <shicang:authoredBy rdf:resource="&shicang;Person_TangGuizhang"/>
+        <rdfs:comment>唐圭璋编，收两宋词人一千三百余家、词作约两万首，是宋词最完备的总集。</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Text_HuaJianJi">
+        <rdf:type rdf:resource="&shicang;CiJi"/>
+        <rdfs:label>花间集</rdfs:label>
+        <shicang:partOfCanon rdf:resource="&shicang;Cat_CiJi"/>
+        <shicang:dynasty>后蜀</shicang:dynasty>
+        <shicang:authoredBy rdf:resource="&shicang;Person_ZhaoChongzuo"/>
+        <shicang:hasStyle rdf:resource="&shicang;Style_WanYue"/>
+        <rdfs:comment>赵崇祚编，中国最早的文人词总集，收温庭筠等十八家词作，为"花间派"之滥觞。</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Text_SongCiSanBaiShou">
+        <rdf:type rdf:resource="&shicang;CiJi"/>
+        <rdfs:label>宋词三百首</rdfs:label>
+        <shicang:partOfCanon rdf:resource="&shicang;Cat_CiJi"/>
+        <shicang:dynasty>清</shicang:dynasty>
+        <shicang:authoredBy rdf:resource="&shicang;Person_ZhuXiaozang"/>
+        <rdfs:comment>朱孝臧（号彊村）编选，近代流传最广的宋词选本。</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Text_CangLangShiHua">
+        <rdf:type rdf:resource="&shicang;ShiHua"/>
+        <rdfs:label>沧浪诗话</rdfs:label>
+        <shicang:partOfCanon rdf:resource="&shicang;Cat_ShiHua"/>
+        <shicang:dynasty>宋</shicang:dynasty>
+        <shicang:authoredBy rdf:resource="&shicang;Person_YanYu"/>
+        <rdfs:comment>严羽撰，以禅喻诗，倡"妙悟""兴趣"之说，为宋代诗学代表作。</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Text_ErShiSiShiPin">
+        <rdf:type rdf:resource="&shicang;ShiHua"/>
+        <rdfs:label>二十四诗品</rdfs:label>
+        <shicang:partOfCanon rdf:resource="&shicang;Cat_ShiHua"/>
+        <shicang:dynasty>唐</shicang:dynasty>
+        <shicang:authoredBy rdf:resource="&shicang;Person_SikongTu"/>
+        <rdfs:comment>司空图撰，以二十四品标举雄浑、冲淡、纤秾等诗歌风格，是中国风格论的高峰。</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Text_SuiYuanShiHua">
+        <rdf:type rdf:resource="&shicang;ShiHua"/>
+        <rdfs:label>随园诗话</rdfs:label>
+        <shicang:partOfCanon rdf:resource="&shicang;Cat_ShiHua"/>
+        <shicang:dynasty>清</shicang:dynasty>
+        <shicang:authoredBy rdf:resource="&shicang;Person_YuanMei"/>
+        <rdfs:comment>袁枚撰，宣扬"性灵说"，主真情、重个性，是清代影响最大的诗话之一。</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Text_LiuYiShiHua">
+        <rdf:type rdf:resource="&shicang;ShiHua"/>
+        <rdfs:label>六一诗话</rdfs:label>
+        <shicang:partOfCanon rdf:resource="&shicang;Cat_ShiHua"/>
+        <shicang:dynasty>宋</shicang:dynasty>
+        <shicang:authoredBy rdf:resource="&shicang;Person_OuyangXiu"/>
+        <rdfs:comment>欧阳修撰，中国第一部以"诗话"为名的著作，开创诗话一体。</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Text_ShiRenYuXie">
+        <rdf:type rdf:resource="&shicang;ShiHua"/>
+        <rdfs:label>诗人玉屑</rdfs:label>
+        <shicang:partOfCanon rdf:resource="&shicang;Cat_ShiHua"/>
+        <shicang:dynasty>宋</shicang:dynasty>
+        <shicang:authoredBy rdf:resource="&shicang;Person_WeiQingzhi"/>
+        <rdfs:comment>魏庆之编，二十一卷，分类辑录宋人论诗之语，是宋代诗话的集大成之作。</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Text_JiangXiShiSheZongPaiTuLu">
+        <rdf:type rdf:resource="&shicang;ShiHua"/>
+        <rdfs:label>江西诗社宗派图录</rdfs:label>
+        <shicang:partOfCanon rdf:resource="&shicang;Cat_ShiHua"/>
+        <shicang:dynasty>宋</shicang:dynasty>
+        <rdfs:comment>记吕本中《江西诗社宗派图》所列诗派谱系，是研究江西诗派的第一手文献。</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Text_YuanShi">
+        <rdf:type rdf:resource="&shicang;ShiHua"/>
+        <rdfs:label>原诗</rdfs:label>
+        <shicang:partOfCanon rdf:resource="&shicang;Cat_ShiHua"/>
+        <shicang:dynasty>清</shicang:dynasty>
+        <shicang:authoredBy rdf:resource="&shicang;Person_YeXie"/>
+        <rdfs:comment>叶燮撰，以"理、事、情"与"才、胆、识、力"构建系统的诗学理论体系。</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Text_WenJingMiFuLun">
+        <rdf:type rdf:resource="&shicang;ShiHua"/>
+        <rdfs:label>文镜秘府论</rdfs:label>
+        <shicang:partOfCanon rdf:resource="&shicang;Cat_ShiHua"/>
+        <shicang:dynasty>日本平安</shicang:dynasty>
+        <shicang:authoredBy rdf:resource="&shicang;Person_KongHai"/>
+        <rdfs:comment>日本高僧空海（遍照金刚）撰，保存大量唐代诗格、声律资料，是研究唐代诗学的域外逸典。</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Text_RenJianCiHua">
+        <rdf:type rdf:resource="&shicang;CiHua"/>
+        <rdfs:label>人间词话</rdfs:label>
+        <shicang:partOfCanon rdf:resource="&shicang;Cat_CiHua"/>
+        <shicang:dynasty>清末民国</shicang:dynasty>
+        <shicang:authoredBy rdf:resource="&shicang;Person_WangGuowei"/>
+        <rdfs:comment>王国维撰，以"境界"说论词，融汇中西，是近代词学的巅峰之作。</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Text_QinDingCiPu">
+        <rdf:type rdf:resource="&shicang;CiJi"/>
+        <rdfs:label>钦定词谱</rdfs:label>
+        <shicang:partOfCanon rdf:resource="&shicang;Cat_CiJi"/>
+        <shicang:dynasty>清</shicang:dynasty>
+        <shicang:hasForm rdf:resource="&shicang;CiPai"/>
+        <rdfs:comment>清康熙间王奕清等奉敕编，收词调八百余，为词体格律的权威谱录。</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Text_QuanJinYuanCi">
+        <rdf:type rdf:resource="&shicang;CiJi"/>
+        <rdfs:label>全金元词</rdfs:label>
+        <shicang:partOfCanon rdf:resource="&shicang;Cat_CiJi"/>
+        <shicang:dynasty>当代</shicang:dynasty>
+        <shicang:authoredBy rdf:resource="&shicang;Person_TangGuizhang"/>
+        <rdfs:comment>唐圭璋编，收金元两代词人词作，与《全宋词》共同构成词史总集。</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Text_ChuCi">
+        <rdf:type rdf:resource="&shicang;ChuCiText"/>
+        <rdfs:label>楚辞总集</rdfs:label>
+        <shicang:partOfCanon rdf:resource="&shicang;Cat_ChuCi"/>
+        <shicang:dynasty>战国·汉</shicang:dynasty>
+        <rdfs:comment>屈原、宋玉及汉人所作辞赋的总集，由西汉刘向辑录，以《离骚》为代表，开"骚体"之源。</rdfs:comment>
+    </owl:NamedIndividual>
+
+    <!-- 
+    ==========================================
+    L5 代表人物实例
+    ==========================================
+    -->
+
+    <owl:NamedIndividual rdf:about="&shicang;Person_QuYuan">
+        <rdf:type rdf:resource="&shicang;Poet"/>
+        <rdfs:label>屈原</rdfs:label>
+        <shicang:dynasty>战国楚</shicang:dynasty>
+        <shicang:name>屈平</shicang:name>
+        <shicang:courtesyName>原</shicang:courtesyName>
+        <shicang:pseudonym>灵均</shicang:pseudonym>
+        <rdfs:comment>名平字原，中国浪漫主义诗歌的奠基人，作《离骚》《九歌》《天问》，开创"楚辞"体。</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Person_TaoYuanming">
+        <rdf:type rdf:resource="&shicang;Poet"/>
+        <rdfs:label>陶渊明</rdfs:label>
+        <shicang:dynasty>东晋</shicang:dynasty>
+        <shicang:courtesyName>元亮</shicang:courtesyName>
+        <shicang:pseudonym>五柳先生</shicang:pseudonym>
+        <shicang:belongsToSchool rdf:resource="&shicang;School_TianYuan"/>
+        <rdfs:comment>名潜，字元亮，号五柳先生，田园诗派开创者，诗风平淡自然。</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Person_LiBai">
+        <rdf:type rdf:resource="&shicang;Poet"/>
+        <rdfs:label>李白</rdfs:label>
+        <shicang:dynasty>唐</shicang:dynasty>
+        <shicang:courtesyName>太白</shicang:courtesyName>
+        <shicang:pseudonym>青莲居士</shicang:pseudonym>
+        <shicang:hasStyle rdf:resource="&shicang;Style_HaoFang"/>
+        <shicang:influenced rdf:resource="&shicang;Person_DuFu"/>
+        <rdfs:comment>字太白，号青莲居士，世称"诗仙"，浪漫主义诗歌高峰，与杜甫并称"李杜"。</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Person_DuFu">
+        <rdf:type rdf:resource="&shicang;Poet"/>
+        <rdfs:label>杜甫</rdfs:label>
+        <shicang:dynasty>唐</shicang:dynasty>
+        <shicang:courtesyName>子美</shicang:courtesyName>
+        <shicang:pseudonym>少陵野老</shicang:pseudonym>
+        <shicang:hasStyle rdf:resource="&shicang;Style_ChenYu"/>
+        <rdfs:comment>字子美，自号少陵野老，世称"诗圣"，诗作沉郁顿挫，为后世江西诗派所宗。</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Person_WangWei">
+        <rdf:type rdf:resource="&shicang;Poet"/>
+        <rdfs:label>王维</rdfs:label>
+        <shicang:dynasty>唐</shicang:dynasty>
+        <shicang:courtesyName>摩诘</shicang:courtesyName>
+        <shicang:belongsToSchool rdf:resource="&shicang;School_TianYuan"/>
+        <rdfs:comment>字摩诘，世称"诗佛"，山水田园诗派代表，"诗中有画，画中有诗"。</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Person_BaiJuyi">
+        <rdf:type rdf:resource="&shicang;Poet"/>
+        <rdfs:label>白居易</rdfs:label>
+        <shicang:dynasty>唐</shicang:dynasty>
+        <shicang:courtesyName>乐天</shicang:courtesyName>
+        <shicang:pseudonym>香山居士</shicang:pseudonym>
+        <shicang:friendOf rdf:resource="&shicang;Person_YuanZhen"/>
+        <rdfs:comment>字乐天，号香山居士，倡"新乐府运动"，主张"文章合为时而著，歌诗合为事而作"。</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Person_SuShi">
+        <rdf:type rdf:resource="&shicang;CiPoet"/>
+        <rdfs:label>苏轼</rdfs:label>
+        <shicang:dynasty>宋</shicang:dynasty>
+        <shicang:courtesyName>子瞻</shicang:courtesyName>
+        <shicang:pseudonym>东坡居士</shicang:pseudonym>
+        <shicang:belongsToSchool rdf:resource="&shicang;School_HaoFang"/>
+        <shicang:influenced rdf:resource="&shicang;Person_XinQiji"/>
+        <rdfs:comment>字子瞻，号东坡居士，豪放词派开创者，"以诗为词"，诗文书画皆冠绝一时。</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Person_LiQingzhao">
+        <rdf:type rdf:resource="&shicang;CiPoet"/>
+        <rdfs:label>李清照</rdfs:label>
+        <shicang:dynasty>宋</shicang:dynasty>
+        <shicang:pseudonym>易安居士</shicang:pseudonym>
+        <shicang:belongsToSchool rdf:resource="&shicang;School_WanYue"/>
+        <shicang:hasStyle rdf:resource="&shicang;Style_WanYue"/>
+        <rdfs:comment>号易安居士，婉约词派代表，提出词"别是一家"之说，为婉约词宗。</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Person_XinQiji">
+        <rdf:type rdf:resource="&shicang;CiPoet"/>
+        <rdfs:label>辛弃疾</rdfs:label>
+        <shicang:dynasty>宋</shicang:dynasty>
+        <shicang:courtesyName>幼安</shicang:courtesyName>
+        <shicang:pseudonym>稼轩</shicang:pseudonym>
+        <shicang:belongsToSchool rdf:resource="&shicang;School_HaoFang"/>
+        <shicang:influencedBy rdf:resource="&shicang;Person_SuShi"/>
+        <rdfs:comment>字幼安，号稼轩，豪放词派集大成者，与苏轼并称"苏辛"。</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Person_NaLanXingde">
+        <rdf:type rdf:resource="&shicang;CiPoet"/>
+        <rdfs:label>纳兰性德</rdfs:label>
+        <shicang:dynasty>清</shicang:dynasty>
+        <shicang:courtesyName>容若</shicang:courtesyName>
+        <shicang:pseudonym>楞伽山人</shicang:pseudonym>
+        <shicang:belongsToSchool rdf:resource="&shicang;School_WanYue"/>
+        <rdfs:comment>字容若，清初第一词人，词风哀感顽艳，有《饮水词》传世。</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Person_YanYu">
+        <rdf:type rdf:resource="&shicang;Critic"/>
+        <rdfs:label>严羽</rdfs:label>
+        <shicang:dynasty>宋</shicang:dynasty>
+        <shicang:courtesyName>仪卿</shicang:courtesyName>
+        <shicang:pseudonym>沧浪逋客</shicang:pseudonym>
+        <shicang:authored rdf:resource="&shicang;Text_CangLangShiHua"/>
+        <rdfs:comment>字仪卿，号沧浪逋客，撰《沧浪诗话》，以禅喻诗、主"妙悟"。</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Person_YuanMei">
+        <rdf:type rdf:resource="&shicang;Critic"/>
+        <rdfs:label>袁枚</rdfs:label>
+        <shicang:dynasty>清</shicang:dynasty>
+        <shicang:courtesyName>子才</shicang:courtesyName>
+        <shicang:pseudonym>随园主人</shicang:pseudonym>
+        <shicang:belongsToSchool rdf:resource="&shicang;School_XingLing"/>
+        <shicang:authored rdf:resource="&shicang;Text_SuiYuanShiHua"/>
+        <rdfs:comment>字子才，号随园主人，主"性灵说"，撰《随园诗话》。</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Person_WangGuowei">
+        <rdf:type rdf:resource="&shicang;Critic"/>
+        <rdfs:label>王国维</rdfs:label>
+        <shicang:dynasty>清末民国</shicang:dynasty>
+        <shicang:courtesyName>静安</shicang:courtesyName>
+        <shicang:pseudonym>观堂</shicang:pseudonym>
+        <shicang:authored rdf:resource="&shicang;Text_RenJianCiHua"/>
+        <rdfs:comment>字静安，号观堂，撰《人间词话》，以"境界说"论词，为近代学术大师。</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Person_OuyangXiu">
+        <rdf:type rdf:resource="&shicang;Critic"/>
+        <rdfs:label>欧阳修</rdfs:label>
+        <shicang:dynasty>宋</shicang:dynasty>
+        <shicang:courtesyName>永叔</shicang:courtesyName>
+        <shicang:pseudonym>醉翁</shicang:pseudonym>
+        <shicang:authored rdf:resource="&shicang;Text_LiuYiShiHua"/>
+        <rdfs:comment>字永叔，号醉翁、六一居士，北宋文坛领袖，撰《六一诗话》开诗话之体。</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Person_SikongTu">
+        <rdf:type rdf:resource="&shicang;Critic"/>
+        <rdfs:label>司空图</rdfs:label>
+        <shicang:dynasty>唐</shicang:dynasty>
+        <shicang:courtesyName>表圣</shicang:courtesyName>
+        <shicang:authored rdf:resource="&shicang;Text_ErShiSiShiPin"/>
+        <rdfs:comment>字表圣，晚唐诗论家，撰《二十四诗品》，标举诗歌的多种风格境界。</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Person_YeXie">
+        <rdf:type rdf:resource="&shicang;Critic"/>
+        <rdfs:label>叶燮</rdfs:label>
+        <shicang:dynasty>清</shicang:dynasty>
+        <shicang:courtesyName>星期</shicang:courtesyName>
+        <shicang:pseudonym>横山</shicang:pseudonym>
+        <shicang:authored rdf:resource="&shicang;Text_YuanShi"/>
+        <rdfs:comment>字星期，号横山，撰《原诗》，建立"理事情""才胆识力"的诗学体系。</rdfs:comment>
+    </owl:NamedIndividual>
+
+    <!-- 
+    ==========================================
+    L3 流派实例
+    ==========================================
+    -->
+
+    <owl:NamedIndividual rdf:about="&shicang;School_TianYuan">
+        <rdf:type rdf:resource="&shicang;PoetrySchool"/>
+        <rdfs:label>山水田园诗派</rdfs:label>
+        <shicang:dynasty>唐</shicang:dynasty>
+        <shicang:schoolFounderIs rdf:resource="&shicang;Person_WangWei"/>
+        <shicang:schoolAdvocates rdf:resource="&shicang;Doctrine_QingXin"/>
+        <rdfs:comment>以王维、孟浩然为代表，摹写山水田园、追求清空淡远之境。</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;School_BianSai">
+        <rdf:type rdf:resource="&shicang;PoetrySchool"/>
+        <rdfs:label>边塞诗派</rdfs:label>
+        <shicang:dynasty>唐</shicang:dynasty>
+        <rdfs:comment>以高适、岑参、王昌龄为代表，写边塞征战、大漠风光，气象雄浑。</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;School_JiangXi">
+        <rdf:type rdf:resource="&shicang;PoetrySchool"/>
+        <rdfs:label>江西诗派</rdfs:label>
+        <shicang:dynasty>宋</shicang:dynasty>
+        <shicang:schoolFounderIs rdf:resource="&shicang;Person_HuangTingjian"/>
+        <shicang:schoolAdvocates rdf:resource="&shicang;Doctrine_DianTieChengJin"/>
+        <rdfs:comment>以黄庭坚为宗，主张"点铁成金""夺胎换骨"，是宋代影响最大的诗派。传世文献如《江西诗社宗派图录》。</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;School_XingLing">
+        <rdf:type rdf:resource="&shicang;PoetrySchool"/>
+        <rdfs:label>性灵派</rdfs:label>
+        <shicang:dynasty>清</shicang:dynasty>
+        <shicang:schoolFounderIs rdf:resource="&shicang;Person_YuanMei"/>
+        <shicang:schoolAdvocates rdf:resource="&shicang;Doctrine_DuShuXingLing"/>
+        <rdfs:comment>以袁枚为首，主"独抒性灵，不拘格套"，重真情与个性。</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;School_ShenYun">
+        <rdf:type rdf:resource="&shicang;PoetrySchool"/>
+        <rdfs:label>神韵派</rdfs:label>
+        <shicang:dynasty>清</shicang:dynasty>
+        <shicang:schoolFounderIs rdf:resource="&shicang;Person_WangShizhen"/>
+        <rdfs:comment>王士禛主盟，倡"神韵说"，重诗歌的空灵含蓄与味外之味。</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;School_GeDiao">
+        <rdf:type rdf:resource="&shicang;PoetrySchool"/>
+        <rdfs:label>格调派</rdfs:label>
+        <shicang:dynasty>明·清</shicang:dynasty>
+        <shicang:schoolFounderIs rdf:resource="&shicang;Person_ShenDeqian"/>
+        <rdfs:comment>明代前后七子及清沈德潜倡"格调说"，重体格声调与温柔敦厚。</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;School_HuaJian">
+        <rdf:type rdf:resource="&shicang;CiSchool"/>
+        <rdfs:label>花间派</rdfs:label>
+        <shicang:dynasty>晚唐五代</shicang:dynasty>
+        <shicang:schoolFounderIs rdf:resource="&shicang;Person_WenTingyun"/>
+        <rdfs:comment>以《花间集》得名，温庭筠为鼻祖，词风秾艳绮丽。</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;School_WanYue">
+        <rdf:type rdf:resource="&shicang;CiSchool"/>
+        <rdfs:label>婉约派</rdfs:label>
+        <shicang:schoolFounderIs rdf:resource="&shicang;Person_LiQingzhao"/>
+        <shicang:schoolAdvocates rdf:resource="&shicang;Doctrine_BieShiYiJia"/>
+        <rdfs:comment>词风委婉含蓄、音律谐婉，以柳永、李清照、秦观、周邦彦为代表。</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;School_HaoFang">
+        <rdf:type rdf:resource="&shicang;CiSchool"/>
+        <rdfs:label>豪放派</rdfs:label>
+        <shicang:schoolFounderIs rdf:resource="&shicang;Person_SuShi"/>
+        <rdfs:comment>以苏轼、辛弃疾为代表，气象恢弘、题材广阔，破"词为艳科"之囿。</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;School_GeLv">
+        <rdf:type rdf:resource="&shicang;CiSchool"/>
+        <rdfs:label>格律派（大晟词派）</rdfs:label>
+        <shicang:dynasty>宋</shicang:dynasty>
+        <shicang:schoolFounderIs rdf:resource="&shicang;Person_ZhouBangyan"/>
+        <rdfs:comment>以周邦彦为宗，讲究音律、章法缜密，为南宋格律词派之先导。</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;School_ChangZhou">
+        <rdf:type rdf:resource="&shicang;CiSchool"/>
+        <rdfs:label>常州词派</rdfs:label>
+        <shicang:dynasty>清</shicang:dynasty>
+        <shicang:schoolFounderIs rdf:resource="&shicang;Person_ZhangHuiyan"/>
+        <rdfs:comment>张惠言开派、周济推衍，主张"意内言外""比兴寄托"。</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;School_ZheXi">
+        <rdf:type rdf:resource="&shicang;CiSchool"/>
+        <rdfs:label>浙西词派</rdfs:label>
+        <shicang:dynasty>清</shicang:dynasty>
+        <shicang:schoolFounderIs rdf:resource="&shicang;Person_ZhuYizun"/>
+        <rdfs:comment>朱彝尊开派，宗法姜夔、张炎，尚清空醇雅。</rdfs:comment>
+    </owl:NamedIndividual>
+
+    <!-- 
+    ==========================================
+    L3 创作主张实例
+    ==========================================
+    -->
+
+    <owl:NamedIndividual rdf:about="&shicang;Doctrine_QingXin">
+        <rdf:type rdf:resource="&shicang;SchoolDoctrine"/>
+        <rdfs:label>清空淡远</rdfs:label>
+        <shicang:poeticPrinciple>追求清空、冲淡、自然的审美境界</shicang:poeticPrinciple>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Doctrine_DianTieChengJin">
+        <rdf:type rdf:resource="&shicang;SchoolDoctrine"/>
+        <rdfs:label>点铁成金·夺胎换骨</rdfs:label>
+        <shicang:poeticPrinciple>化用前人陈言而翻新出奇，强调"无一字无来处"</shicang:poeticPrinciple>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Doctrine_DuShuXingLing">
+        <rdf:type rdf:resource="&shicang;SchoolDoctrine"/>
+        <rdfs:label>独抒性灵</rdfs:label>
+        <shicang:poeticPrinciple>诗文当抒写真情个性，不拘格套，反对模拟复古</shicang:poeticPrinciple>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Doctrine_BieShiYiJia">
+        <rdf:type rdf:resource="&shicang;SchoolDoctrine"/>
+        <rdfs:label>词别是一家</rdfs:label>
+        <shicang:poeticPrinciple>李清照《词论》主张词应协音律、有情致，别于诗体而独立</shicang:poeticPrinciple>
+    </owl:NamedIndividual>
+
+    <!-- 
+    ==========================================
+    L2 风格与意象实例
+    ==========================================
+    -->
+
+    <owl:NamedIndividual rdf:about="&shicang;Style_WanYue">
+        <rdf:type rdf:resource="&shicang;Style"/>
+        <rdfs:label>婉约</rdfs:label>
+        <shicang:culturalConnotation>委婉含蓄、细腻柔美，多写儿女之情、离愁别绪</shicang:culturalConnotation>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Style_HaoFang">
+        <rdf:type rdf:resource="&shicang;Style"/>
+        <rdfs:label>豪放</rdfs:label>
+        <shicang:culturalConnotation>气象恢弘、笔力雄健，多抒豪情壮志、家国之慨</shicang:culturalConnotation>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Style_ChenYu">
+        <rdf:type rdf:resource="&shicang;Style"/>
+        <rdfs:label>沉郁顿挫</rdfs:label>
+        <shicang:culturalConnotation>情感深沉凝重，语言抑扬顿挫，以杜甫为典范</shicang:culturalConnotation>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Style_QingXin">
+        <rdf:type rdf:resource="&shicang;Style"/>
+        <rdfs:label>清新淡远</rdfs:label>
+        <shicang:culturalConnotation>语言清丽自然，意境淡泊悠远</shicang:culturalConnotation>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;Img_MingYue">
+        <rdf:type rdf:resource="&shicang;NaturalImagery"/>
+        <rdfs:label>明月</rdfs:label>
+        <shicang:imageryEvokesEmotion rdf:resource="&shicang;Emo_SiXiang"/>
+        <shicang:culturalConnotation>象征团圆、思念、孤高，是古典诗歌中最常见的意象之一</shicang:culturalConnotation>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Img_YangLiu">
+        <rdf:type rdf:resource="&shicang;NaturalImagery"/>
+        <rdfs:label>杨柳</rdfs:label>
+        <shicang:imageryEvokesEmotion rdf:resource="&shicang;Emo_LiBie"/>
+        <shicang:culturalConnotation>"柳"谐"留"，折柳送别，寓离情别绪</shicang:culturalConnotation>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Img_LuoHong">
+        <rdf:type rdf:resource="&shicang;NaturalImagery"/>
+        <rdfs:label>落红</rdfs:label>
+        <shicang:imageryEvokesEmotion rdf:resource="&shicang;Emo_ShangChun"/>
+        <shicang:culturalConnotation>落花凋零，寓青春易逝、韶华不再之慨</shicang:culturalConnotation>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Img_GuYan">
+        <rdf:type rdf:resource="&shicang;NaturalImagery"/>
+        <rdfs:label>孤雁</rdfs:label>
+        <shicang:imageryEvokesEmotion rdf:resource="&shicang;Emo_JiMo"/>
+        <shicang:culturalConnotation>离群之雁，寓孤独飘零、羁旅思归</shicang:culturalConnotation>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Img_ChangTing">
+        <rdf:type rdf:resource="&shicang;CulturalImagery"/>
+        <rdfs:label>长亭</rdfs:label>
+        <shicang:imageryEvokesEmotion rdf:resource="&shicang;Emo_LiBie"/>
+        <shicang:culturalConnotation>古代驿道送别之所，成为离别的符号</shicang:culturalConnotation>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Img_PengLai">
+        <rdf:type rdf:resource="&shicang;MythicImagery"/>
+        <rdfs:label>蓬莱</rdfs:label>
+        <shicang:imageryEvokesEmotion rdf:resource="&shicang;Emo_ChaoShi"/>
+        <shicang:culturalConnotation>海上仙山，寓出世之想与求仙之思</shicang:culturalConnotation>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;Emo_SiXiang">
+        <rdf:type rdf:resource="&shicang;Emotion"/>
+        <rdfs:label>思乡怀人</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Emo_LiBie">
+        <rdf:type rdf:resource="&shicang;Emotion"/>
+        <rdfs:label>离别相思</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Emo_ShangChun">
+        <rdf:type rdf:resource="&shicang;Emotion"/>
+        <rdfs:label>伤春悲秋</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Emo_JiMo">
+        <rdf:type rdf:resource="&shicang;Emotion"/>
+        <rdfs:label>羁旅孤寂</rdfs:label>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="&shicang;Emo_ChaoShi">
+        <rdf:type rdf:resource="&shicang;Emotion"/>
+        <rdfs:label>超脱出世</rdfs:label>
+    </owl:NamedIndividual>
+
+    <!-- 参考资料指向 -->
+    <owl:NamedIndividual rdf:about="&shicang;Dataset_Daizhige">
+        <rdfs:label>殆知阁诗藏</rdfs:label>
+        <shicang:sourceDataset>daizhige.org</shicang:sourceDataset>
+        <rdfs:comment>诗藏共 776 部，分楚辞、诗集、诗话、词集、词话、剧曲、汉赋、对联八类。</rdfs:comment>
+    </owl:NamedIndividual>
+
+</rdf:RDF>
