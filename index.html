@@ -1011,7 +1011,7 @@ if(okEcharts){
   function renderGrid(){
     const list=SHICANG_BOOKS[active]||[];
     const kw=(keyword||'').trim().toLowerCase();
-    const filtered=kw?list.filter(b=>b.name.toLowerCase().includes(kw)):list;
+    const filtered=kw?list.filter(b=>b.title.toLowerCase().includes(kw)):list;
     meta.innerHTML='<b style="color:'+CAT_COLORS[active]+'">'+active+'</b>：共 <b>'+list.length+'</b> 部'+(kw?'，匹配 <b>'+filtered.length+'</b> 部':'');
     grid.innerHTML='';
     if(filtered.length===0){
@@ -1020,11 +1020,11 @@ if(okEcharts){
     }
     filtered.forEach(b=>{
       const a=document.createElement('a');
-      a.href=b.url; a.target='_blank'; a.rel='noopener';
+      a.href=b.localUrl; a.target="_blank"; a.rel="noopener";
       a.className='lib-book';
       a.style.setProperty('--c',CAT_COLORS[active]);
-      a.innerHTML='<span class="lib-book-dot"></span><span class="lib-book-name">'+b.name+'</span>';
-      a.title=b.name+' · 点击在殆知阁打开原文';
+      a.innerHTML='<span class="lib-book-dot"></span><span class="lib-book-name">'+b.title+'</span>';
+      a.title=b.title+' · 点击阅读本地原文';
       grid.appendChild(a);
     });
   }
