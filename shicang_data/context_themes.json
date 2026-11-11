@@ -1,0 +1,1576 @@
+{
+  "context_themes": {
+    "豪放壮阔": {
+      "main": "#C0392B",
+      "accent": "#E67E22",
+      "bg": "#FDF6E3",
+      "desc": "金戈铁马、大江东去，雄健豪迈的壮美之境",
+      "imageries": [
+        "大江",
+        "长风",
+        "沧海",
+        "金戈",
+        "铁马",
+        "瀚海"
+      ]
+    },
+    "恬淡闲适": {
+      "main": "#27AE60",
+      "accent": "#16A085",
+      "bg": "#F4FAF0",
+      "desc": "采菊东篱、明月松间，山水田园的冲淡之境",
+      "imageries": [
+        "菊",
+        "松",
+        "南山",
+        "清泉",
+        "田园",
+        "柴门"
+      ]
+    },
+    "深情婉约": {
+      "main": "#8E44AD",
+      "accent": "#E91E63",
+      "bg": "#FBF5FC",
+      "desc": "晓风残月、比翼连枝，缠绵悱恻的婉约之境",
+      "imageries": [
+        "残月",
+        "杨柳",
+        "泪痕",
+        "红烛",
+        "落花",
+        "连理枝"
+      ]
+    },
+    "悲慨沉郁": {
+      "main": "#7F8C8D",
+      "accent": "#2C3E50",
+      "bg": "#F5F5F5",
+      "desc": "国破山河、艰难苦恨，沉郁顿挫的悲凉之境",
+      "imageries": [
+        "烽火",
+        "白发",
+        "秋霜",
+        "残阳",
+        "落木",
+        "孤舟"
+      ]
+    },
+    "慷慨爱国": {
+      "main": "#D35400",
+      "accent": "#C0392B",
+      "bg": "#FEF9F0",
+      "desc": "丹心汗青、燕然未勒，报国无门的忠愤之境",
+      "imageries": [
+        "丹心",
+        "烽火",
+        "征夫",
+        "宝剑",
+        "沙场",
+        "旌旗"
+      ]
+    },
+    "旷达超脱": {
+      "main": "#2980B9",
+      "accent": "#3498DB",
+      "bg": "#F0F7FC",
+      "desc": "一蓑烟雨、也无风雨，超然物外的旷达之境",
+      "imageries": [
+        "烟雨",
+        "扁舟",
+        "江月",
+        "清风",
+        "浊酒",
+        "竹杖"
+      ]
+    },
+    "怀古沧桑": {
+      "main": "#795548",
+      "accent": "#8D6E63",
+      "bg": "#FAF6F0",
+      "desc": "旧时王谢、铜雀春深，千古兴亡的沧桑之境",
+      "imageries": [
+        "斜阳",
+        "断壁",
+        "残碑",
+        "旧宫",
+        "衰草",
+        "流水"
+      ]
+    },
+    "清雅禅意": {
+      "main": "#607D8B",
+      "accent": "#78909C",
+      "bg": "#F5F8F9",
+      "desc": "空山新雨、花落鸟鸣，空灵幽静的禅意之境",
+      "imageries": [
+        "空山",
+        "新雨",
+        "钟磬",
+        "禅房",
+        "青苔",
+        "幽人"
+      ]
+    }
+  },
+  "poem_contexts": {
+    "QuYuan_LiSao": {
+      "place": "沅湘流域（湖南）",
+      "context": "贬谪抒怀",
+      "theme": "悲慨沉郁",
+      "season": "夏",
+      "main": "#7F8C8D",
+      "accent": "#2C3E50",
+      "bg": "#F5F5F5",
+      "desc": "国破山河、艰难苦恨，沉郁顿挫的悲凉之境",
+      "imageries": [
+        "烽火",
+        "白发",
+        "秋霜",
+        "残阳",
+        "落木",
+        "孤舟"
+      ]
+    },
+    "QuYuan_JiuGe_JiangJun": {
+      "place": "楚地（湖北湖南）",
+      "context": "战争祭祀",
+      "theme": "慷慨爱国",
+      "season": "秋",
+      "main": "#D35400",
+      "accent": "#C0392B",
+      "bg": "#FEF9F0",
+      "desc": "丹心汗青、燕然未勒，报国无门的忠愤之境",
+      "imageries": [
+        "丹心",
+        "烽火",
+        "征夫",
+        "宝剑",
+        "沙场",
+        "旌旗"
+      ]
+    },
+    "CaoCao_DuanGeXing": {
+      "place": "长江赤壁战场",
+      "context": "宴饮求贤",
+      "theme": "豪放壮阔",
+      "season": "冬",
+      "main": "#C0392B",
+      "accent": "#E67E22",
+      "bg": "#FDF6E3",
+      "desc": "金戈铁马、大江东去，雄健豪迈的壮美之境",
+      "imageries": [
+        "大江",
+        "长风",
+        "沧海",
+        "金戈",
+        "铁马",
+        "瀚海"
+      ]
+    },
+    "CaoCao_GuanCangHai": {
+      "place": "碣石山（河北昌黎）",
+      "context": "登山望海",
+      "theme": "豪放壮阔",
+      "season": "秋",
+      "main": "#C0392B",
+      "accent": "#E67E22",
+      "bg": "#FDF6E3",
+      "desc": "金戈铁马、大江东去，雄健豪迈的壮美之境",
+      "imageries": [
+        "大江",
+        "长风",
+        "沧海",
+        "金戈",
+        "铁马",
+        "瀚海"
+      ]
+    },
+    "CaoZhi_LuoShenFu": {
+      "place": "洛水之滨（河南洛阳）",
+      "context": "感梦抒怀",
+      "theme": "深情婉约",
+      "season": "秋",
+      "main": "#8E44AD",
+      "accent": "#E91E63",
+      "bg": "#FBF5FC",
+      "desc": "晓风残月、比翼连枝，缠绵悱恻的婉约之境",
+      "imageries": [
+        "残月",
+        "杨柳",
+        "泪痕",
+        "红烛",
+        "落花",
+        "连理枝"
+      ]
+    },
+    "TaoYuanming_YinJiu": {
+      "place": "柴桑栗里（江西九江）",
+      "context": "田园隐居",
+      "theme": "恬淡闲适",
+      "season": "秋",
+      "main": "#27AE60",
+      "accent": "#16A085",
+      "bg": "#F4FAF0",
+      "desc": "采菊东篱、明月松间，山水田园的冲淡之境",
+      "imageries": [
+        "菊",
+        "松",
+        "南山",
+        "清泉",
+        "田园",
+        "柴门"
+      ]
+    },
+    "TaoYuanming_GuiQuLaiXi": {
+      "place": "彭泽归乡途中",
+      "context": "辞官归隐",
+      "theme": "恬淡闲适",
+      "season": "春",
+      "main": "#27AE60",
+      "accent": "#16A085",
+      "bg": "#F4FAF0",
+      "desc": "采菊东篱、明月松间，山水田园的冲淡之境",
+      "imageries": [
+        "菊",
+        "松",
+        "南山",
+        "清泉",
+        "田园",
+        "柴门"
+      ]
+    },
+    "TaoYuanming_TaoHuaYuan": {
+      "place": "浔阳（江西九江）",
+      "context": "理想虚构",
+      "theme": "恬淡闲适",
+      "season": "春",
+      "main": "#27AE60",
+      "accent": "#16A085",
+      "bg": "#F4FAF0",
+      "desc": "采菊东篱、明月松间，山水田园的冲淡之境",
+      "imageries": [
+        "菊",
+        "松",
+        "南山",
+        "清泉",
+        "田园",
+        "柴门"
+      ]
+    },
+    "XieLingyun_DengChiShangLou": {
+      "place": "永嘉（浙江温州）",
+      "context": "病起登楼",
+      "theme": "恬淡闲适",
+      "season": "春",
+      "main": "#27AE60",
+      "accent": "#16A085",
+      "bg": "#F4FAF0",
+      "desc": "采菊东篱、明月松间，山水田园的冲淡之境",
+      "imageries": [
+        "菊",
+        "松",
+        "南山",
+        "清泉",
+        "田园",
+        "柴门"
+      ]
+    },
+    "WangBo_TengWangGeXu": {
+      "place": "洪州滕王阁（江西南昌）",
+      "context": "宴集登临",
+      "theme": "豪放壮阔",
+      "season": "秋",
+      "main": "#C0392B",
+      "accent": "#E67E22",
+      "bg": "#FDF6E3",
+      "desc": "金戈铁马、大江东去，雄健豪迈的壮美之境",
+      "imageries": [
+        "大江",
+        "长风",
+        "沧海",
+        "金戈",
+        "铁马",
+        "瀚海"
+      ]
+    },
+    "WangBo_SongDuShaoFu": {
+      "place": "长安（陕西西安）",
+      "context": "送别",
+      "theme": "旷达超脱",
+      "season": "秋",
+      "main": "#2980B9",
+      "accent": "#3498DB",
+      "bg": "#F0F7FC",
+      "desc": "一蓑烟雨、也无风雨，超然物外的旷达之境",
+      "imageries": [
+        "烟雨",
+        "扁舟",
+        "江月",
+        "清风",
+        "浊酒",
+        "竹杖"
+      ]
+    },
+    "ChenZiang_DengYouZhouTai": {
+      "place": "蓟北楼（北京）",
+      "context": "登高怀古",
+      "theme": "悲慨沉郁",
+      "season": "秋",
+      "main": "#7F8C8D",
+      "accent": "#2C3E50",
+      "bg": "#F5F5F5",
+      "desc": "国破山河、艰难苦恨，沉郁顿挫的悲凉之境",
+      "imageries": [
+        "烽火",
+        "白发",
+        "秋霜",
+        "残阳",
+        "落木",
+        "孤舟"
+      ]
+    },
+    "HeZhizhang_HuiXiangOuShu": {
+      "place": "越州永兴（浙江萧山）",
+      "context": "辞官归乡",
+      "theme": "悲慨沉郁",
+      "season": "春",
+      "main": "#7F8C8D",
+      "accent": "#2C3E50",
+      "bg": "#F5F5F5",
+      "desc": "国破山河、艰难苦恨，沉郁顿挫的悲凉之境",
+      "imageries": [
+        "烽火",
+        "白发",
+        "秋霜",
+        "残阳",
+        "落木",
+        "孤舟"
+      ]
+    },
+    "WangWei_ShanJuQiuMing": {
+      "place": "辋川别业（陕西蓝田）",
+      "context": "山居秋暝",
+      "theme": "清雅禅意",
+      "season": "秋",
+      "main": "#607D8B",
+      "accent": "#78909C",
+      "bg": "#F5F8F9",
+      "desc": "空山新雨、花落鸟鸣，空灵幽静的禅意之境",
+      "imageries": [
+        "空山",
+        "新雨",
+        "钟磬",
+        "禅房",
+        "青苔",
+        "幽人"
+      ]
+    },
+    "WangWei_SongYuanErShiAnXi": {
+      "place": "渭城（陕西咸阳）",
+      "context": "送别",
+      "theme": "深情婉约",
+      "season": "春",
+      "main": "#8E44AD",
+      "accent": "#E91E63",
+      "bg": "#FBF5FC",
+      "desc": "晓风残月、比翼连枝，缠绵悱恻的婉约之境",
+      "imageries": [
+        "残月",
+        "杨柳",
+        "泪痕",
+        "红烛",
+        "落花",
+        "连理枝"
+      ]
+    },
+    "WangWei_JiuYueJiuRiYi": {
+      "place": "长安（陕西西安）",
+      "context": "重阳思亲",
+      "theme": "深情婉约",
+      "season": "秋",
+      "main": "#8E44AD",
+      "accent": "#E91E63",
+      "bg": "#FBF5FC",
+      "desc": "晓风残月、比翼连枝，缠绵悱恻的婉约之境",
+      "imageries": [
+        "残月",
+        "杨柳",
+        "泪痕",
+        "红烛",
+        "落花",
+        "连理枝"
+      ]
+    },
+    "MengHaoran_ChunXiao": {
+      "place": "鹿门山（湖北襄阳）",
+      "context": "春晨即景",
+      "theme": "恬淡闲适",
+      "season": "春",
+      "main": "#27AE60",
+      "accent": "#16A085",
+      "bg": "#F4FAF0",
+      "desc": "采菊东篱、明月松间，山水田园的冲淡之境",
+      "imageries": [
+        "菊",
+        "松",
+        "南山",
+        "清泉",
+        "田园",
+        "柴门"
+      ]
+    },
+    "MengHaoran_GuoGuRenZhuang": {
+      "place": "襄阳乡村（湖北）",
+      "context": "田园访友",
+      "theme": "恬淡闲适",
+      "season": "秋",
+      "main": "#27AE60",
+      "accent": "#16A085",
+      "bg": "#F4FAF0",
+      "desc": "采菊东篱、明月松间，山水田园的冲淡之境",
+      "imageries": [
+        "菊",
+        "松",
+        "南山",
+        "清泉",
+        "田园",
+        "柴门"
+      ]
+    },
+    "LiBai_JiangJinJiu": {
+      "place": "嵩山（河南登封）",
+      "context": "饮酒抒怀",
+      "theme": "豪放壮阔",
+      "season": "秋",
+      "main": "#C0392B",
+      "accent": "#E67E22",
+      "bg": "#FDF6E3",
+      "desc": "金戈铁马、大江东去，雄健豪迈的壮美之境",
+      "imageries": [
+        "大江",
+        "长风",
+        "沧海",
+        "金戈",
+        "铁马",
+        "瀚海"
+      ]
+    },
+    "LiBai_ShuDaoNan": {
+      "place": "长安往蜀道途中",
+      "context": "咏山川",
+      "theme": "豪放壮阔",
+      "season": "秋",
+      "main": "#C0392B",
+      "accent": "#E67E22",
+      "bg": "#FDF6E3",
+      "desc": "金戈铁马、大江东去，雄健豪迈的壮美之境",
+      "imageries": [
+        "大江",
+        "长风",
+        "沧海",
+        "金戈",
+        "铁马",
+        "瀚海"
+      ]
+    },
+    "LiBai_JingYeSi": {
+      "place": "扬州旅舍（江苏）",
+      "context": "旅夜思乡",
+      "theme": "深情婉约",
+      "season": "秋",
+      "main": "#8E44AD",
+      "accent": "#E91E63",
+      "bg": "#FBF5FC",
+      "desc": "晓风残月、比翼连枝，缠绵悱恻的婉约之境",
+      "imageries": [
+        "残月",
+        "杨柳",
+        "泪痕",
+        "红烛",
+        "落花",
+        "连理枝"
+      ]
+    },
+    "LiBai_WangLuShanPuBu": {
+      "place": "庐山香炉峰（江西九江）",
+      "context": "登山观瀑",
+      "theme": "豪放壮阔",
+      "season": "夏",
+      "main": "#C0392B",
+      "accent": "#E67E22",
+      "bg": "#FDF6E3",
+      "desc": "金戈铁马、大江东去，雄健豪迈的壮美之境",
+      "imageries": [
+        "大江",
+        "长风",
+        "沧海",
+        "金戈",
+        "铁马",
+        "瀚海"
+      ]
+    },
+    "LiBai_MengYouTianLao": {
+      "place": "东鲁（山东）",
+      "context": "记梦抒怀",
+      "theme": "豪放壮阔",
+      "season": "秋",
+      "main": "#C0392B",
+      "accent": "#E67E22",
+      "bg": "#FDF6E3",
+      "desc": "金戈铁马、大江东去，雄健豪迈的壮美之境",
+      "imageries": [
+        "大江",
+        "长风",
+        "沧海",
+        "金戈",
+        "铁马",
+        "瀚海"
+      ]
+    },
+    "LiBai_ZengWangLun": {
+      "place": "泾县桃花潭（安徽）",
+      "context": "送别",
+      "theme": "深情婉约",
+      "season": "春",
+      "main": "#8E44AD",
+      "accent": "#E91E63",
+      "bg": "#FBF5FC",
+      "desc": "晓风残月、比翼连枝，缠绵悱恻的婉约之境",
+      "imageries": [
+        "残月",
+        "杨柳",
+        "泪痕",
+        "红烛",
+        "落花",
+        "连理枝"
+      ]
+    },
+    "LiBai_HuangHeLouSongMeng": {
+      "place": "黄鹤楼（湖北武汉）",
+      "context": "送别",
+      "theme": "深情婉约",
+      "season": "春",
+      "main": "#8E44AD",
+      "accent": "#E91E63",
+      "bg": "#FBF5FC",
+      "desc": "晓风残月、比翼连枝，缠绵悱恻的婉约之境",
+      "imageries": [
+        "残月",
+        "杨柳",
+        "泪痕",
+        "红烛",
+        "落花",
+        "连理枝"
+      ]
+    },
+    "GaoShi_BieDongDa": {
+      "place": "睢阳（河南商丘）",
+      "context": "送别",
+      "theme": "豪放壮阔",
+      "season": "冬",
+      "main": "#C0392B",
+      "accent": "#E67E22",
+      "bg": "#FDF6E3",
+      "desc": "金戈铁马、大江东去，雄健豪迈的壮美之境",
+      "imageries": [
+        "大江",
+        "长风",
+        "沧海",
+        "金戈",
+        "铁马",
+        "瀚海"
+      ]
+    },
+    "CenShen_BaiXueGe": {
+      "place": "轮台（新疆）",
+      "context": "边塞送别",
+      "theme": "豪放壮阔",
+      "season": "冬",
+      "main": "#C0392B",
+      "accent": "#E67E22",
+      "bg": "#FDF6E3",
+      "desc": "金戈铁马、大江东去，雄健豪迈的壮美之境",
+      "imageries": [
+        "大江",
+        "长风",
+        "沧海",
+        "金戈",
+        "铁马",
+        "瀚海"
+      ]
+    },
+    "WangChangling_ChuSai": {
+      "place": "西北边塞",
+      "context": "边塞抒怀",
+      "theme": "慷慨爱国",
+      "season": "秋",
+      "main": "#D35400",
+      "accent": "#C0392B",
+      "bg": "#FEF9F0",
+      "desc": "丹心汗青、燕然未勒，报国无门的忠愤之境",
+      "imageries": [
+        "丹心",
+        "烽火",
+        "征夫",
+        "宝剑",
+        "沙场",
+        "旌旗"
+      ]
+    },
+    "WangChangling_FuRongLou": {
+      "place": "润州芙蓉楼（江苏镇江）",
+      "context": "送别",
+      "theme": "清雅禅意",
+      "season": "秋",
+      "main": "#607D8B",
+      "accent": "#78909C",
+      "bg": "#F5F8F9",
+      "desc": "空山新雨、花落鸟鸣，空灵幽静的禅意之境",
+      "imageries": [
+        "空山",
+        "新雨",
+        "钟磬",
+        "禅房",
+        "青苔",
+        "幽人"
+      ]
+    },
+    "DuFu_ChunWang": {
+      "place": "长安（陕西西安）",
+      "context": "安史乱中被困",
+      "theme": "悲慨沉郁",
+      "season": "春",
+      "main": "#7F8C8D",
+      "accent": "#2C3E50",
+      "bg": "#F5F5F5",
+      "desc": "国破山河、艰难苦恨，沉郁顿挫的悲凉之境",
+      "imageries": [
+        "烽火",
+        "白发",
+        "秋霜",
+        "残阳",
+        "落木",
+        "孤舟"
+      ]
+    },
+    "DuFu_MaoWuWeiQiuFeng": {
+      "place": "成都浣花溪草堂",
+      "context": "夜雨屋漏",
+      "theme": "悲慨沉郁",
+      "season": "秋",
+      "main": "#7F8C8D",
+      "accent": "#2C3E50",
+      "bg": "#F5F5F5",
+      "desc": "国破山河、艰难苦恨，沉郁顿挫的悲凉之境",
+      "imageries": [
+        "烽火",
+        "白发",
+        "秋霜",
+        "残阳",
+        "落木",
+        "孤舟"
+      ]
+    },
+    "DuFu_DengGao": {
+      "place": "夔州（重庆奉节）",
+      "context": "重阳登高",
+      "theme": "悲慨沉郁",
+      "season": "秋",
+      "main": "#7F8C8D",
+      "accent": "#2C3E50",
+      "bg": "#F5F5F5",
+      "desc": "国破山河、艰难苦恨，沉郁顿挫的悲凉之境",
+      "imageries": [
+        "烽火",
+        "白发",
+        "秋霜",
+        "残阳",
+        "落木",
+        "孤舟"
+      ]
+    },
+    "DuFu_SanLiSanBie": {
+      "place": "新安/石壕/潼关（河南）",
+      "context": "战乱途中所见",
+      "theme": "悲慨沉郁",
+      "season": "春",
+      "main": "#7F8C8D",
+      "accent": "#2C3E50",
+      "bg": "#F5F5F5",
+      "desc": "国破山河、艰难苦恨，沉郁顿挫的悲凉之境",
+      "imageries": [
+        "烽火",
+        "白发",
+        "秋霜",
+        "残阳",
+        "落木",
+        "孤舟"
+      ]
+    },
+    "BaiJuyi_ChangHenGe": {
+      "place": "盩厔仙游寺（陕西周至）",
+      "context": "与友话天宝遗事",
+      "theme": "深情婉约",
+      "season": "秋",
+      "main": "#8E44AD",
+      "accent": "#E91E63",
+      "bg": "#FBF5FC",
+      "desc": "晓风残月、比翼连枝，缠绵悱恻的婉约之境",
+      "imageries": [
+        "残月",
+        "杨柳",
+        "泪痕",
+        "红烛",
+        "落花",
+        "连理枝"
+      ]
+    },
+    "BaiJuyi_PiPaXing": {
+      "place": "江州湓浦口（江西九江）",
+      "context": "江头送客闻琵琶",
+      "theme": "悲慨沉郁",
+      "season": "秋",
+      "main": "#7F8C8D",
+      "accent": "#2C3E50",
+      "bg": "#F5F5F5",
+      "desc": "国破山河、艰难苦恨，沉郁顿挫的悲凉之境",
+      "imageries": [
+        "烽火",
+        "白发",
+        "秋霜",
+        "残阳",
+        "落木",
+        "孤舟"
+      ]
+    },
+    "BaiJuyi_MaiTanWeng": {
+      "place": "长安（陕西西安）",
+      "context": "讽喻民生",
+      "theme": "悲慨沉郁",
+      "season": "冬",
+      "main": "#7F8C8D",
+      "accent": "#2C3E50",
+      "bg": "#F5F5F5",
+      "desc": "国破山河、艰难苦恨，沉郁顿挫的悲凉之境",
+      "imageries": [
+        "烽火",
+        "白发",
+        "秋霜",
+        "残阳",
+        "落木",
+        "孤舟"
+      ]
+    },
+    "YuanZhen_LiSi": {
+      "place": "长安（陕西西安）",
+      "context": "悼亡妻",
+      "theme": "深情婉约",
+      "season": "春",
+      "main": "#8E44AD",
+      "accent": "#E91E63",
+      "bg": "#FBF5FC",
+      "desc": "晓风残月、比翼连枝，缠绵悱恻的婉约之境",
+      "imageries": [
+        "残月",
+        "杨柳",
+        "泪痕",
+        "红烛",
+        "落花",
+        "连理枝"
+      ]
+    },
+    "LiuYuxi_LouShiMing": {
+      "place": "和州陋室（安徽和县）",
+      "context": "贬谪明志",
+      "theme": "旷达超脱",
+      "season": "夏",
+      "main": "#2980B9",
+      "accent": "#3498DB",
+      "bg": "#F0F7FC",
+      "desc": "一蓑烟雨、也无风雨，超然物外的旷达之境",
+      "imageries": [
+        "烟雨",
+        "扁舟",
+        "江月",
+        "清风",
+        "浊酒",
+        "竹杖"
+      ]
+    },
+    "LiuYuxi_WuYiXiang": {
+      "place": "金陵乌衣巷（江苏南京）",
+      "context": "登临怀古",
+      "theme": "怀古沧桑",
+      "season": "春",
+      "main": "#795548",
+      "accent": "#8D6E63",
+      "bg": "#FAF6F0",
+      "desc": "旧时王谢、铜雀春深，千古兴亡的沧桑之境",
+      "imageries": [
+        "斜阳",
+        "断壁",
+        "残碑",
+        "旧宫",
+        "衰草",
+        "流水"
+      ]
+    },
+    "LiuYuxi_ChouLeTian": {
+      "place": "扬州（江苏）",
+      "context": "席上酬答",
+      "theme": "旷达超脱",
+      "season": "冬",
+      "main": "#2980B9",
+      "accent": "#3498DB",
+      "bg": "#F0F7FC",
+      "desc": "一蓑烟雨、也无风雨，超然物外的旷达之境",
+      "imageries": [
+        "烟雨",
+        "扁舟",
+        "江月",
+        "清风",
+        "浊酒",
+        "竹杖"
+      ]
+    },
+    "LiHe_YanMenTaiShouXing": {
+      "place": "雁门郡（山西代县）",
+      "context": "平叛战事",
+      "theme": "慷慨爱国",
+      "season": "秋",
+      "main": "#D35400",
+      "accent": "#C0392B",
+      "bg": "#FEF9F0",
+      "desc": "丹心汗青、燕然未勒，报国无门的忠愤之境",
+      "imageries": [
+        "丹心",
+        "烽火",
+        "征夫",
+        "宝剑",
+        "沙场",
+        "旌旗"
+      ]
+    },
+    "DuMu_AFangGongFu": {
+      "place": "长安（陕西西安）",
+      "context": "讽喻时弊",
+      "theme": "怀古沧桑",
+      "season": "秋",
+      "main": "#795548",
+      "accent": "#8D6E63",
+      "bg": "#FAF6F0",
+      "desc": "旧时王谢、铜雀春深，千古兴亡的沧桑之境",
+      "imageries": [
+        "斜阳",
+        "断壁",
+        "残碑",
+        "旧宫",
+        "衰草",
+        "流水"
+      ]
+    },
+    "DuMu_QingMing": {
+      "place": "池州（安徽贵池）",
+      "context": "清明行旅",
+      "theme": "清雅禅意",
+      "season": "春",
+      "main": "#607D8B",
+      "accent": "#78909C",
+      "bg": "#F5F8F9",
+      "desc": "空山新雨、花落鸟鸣，空灵幽静的禅意之境",
+      "imageries": [
+        "空山",
+        "新雨",
+        "钟磬",
+        "禅房",
+        "青苔",
+        "幽人"
+      ]
+    },
+    "DuMu_BoQinHuai": {
+      "place": "金陵秦淮河（江苏南京）",
+      "context": "夜泊闻歌",
+      "theme": "怀古沧桑",
+      "season": "秋",
+      "main": "#795548",
+      "accent": "#8D6E63",
+      "bg": "#FAF6F0",
+      "desc": "旧时王谢、铜雀春深，千古兴亡的沧桑之境",
+      "imageries": [
+        "斜阳",
+        "断壁",
+        "残碑",
+        "旧宫",
+        "衰草",
+        "流水"
+      ]
+    },
+    "DuMu_ChiBi": {
+      "place": "黄州赤壁（湖北黄冈）",
+      "context": "登临怀古",
+      "theme": "怀古沧桑",
+      "season": "夏",
+      "main": "#795548",
+      "accent": "#8D6E63",
+      "bg": "#FAF6F0",
+      "desc": "旧时王谢、铜雀春深，千古兴亡的沧桑之境",
+      "imageries": [
+        "斜阳",
+        "断壁",
+        "残碑",
+        "旧宫",
+        "衰草",
+        "流水"
+      ]
+    },
+    "LiShangyin_JinSe": {
+      "place": "郑州（河南）",
+      "context": "晚年自序",
+      "theme": "深情婉约",
+      "season": "秋",
+      "main": "#8E44AD",
+      "accent": "#E91E63",
+      "bg": "#FBF5FC",
+      "desc": "晓风残月、比翼连枝，缠绵悱恻的婉约之境",
+      "imageries": [
+        "残月",
+        "杨柳",
+        "泪痕",
+        "红烛",
+        "落花",
+        "连理枝"
+      ]
+    },
+    "LiShangyin_WuTi": {
+      "place": "泾原（甘肃泾川）",
+      "context": "爱情抒怀",
+      "theme": "深情婉约",
+      "season": "春",
+      "main": "#8E44AD",
+      "accent": "#E91E63",
+      "bg": "#FBF5FC",
+      "desc": "晓风残月、比翼连枝，缠绵悱恻的婉约之境",
+      "imageries": [
+        "残月",
+        "杨柳",
+        "泪痕",
+        "红烛",
+        "落花",
+        "连理枝"
+      ]
+    },
+    "LiShangyin_YeYuJiBei": {
+      "place": "巴蜀（四川）",
+      "context": "寄妻思亲",
+      "theme": "深情婉约",
+      "season": "秋",
+      "main": "#8E44AD",
+      "accent": "#E91E63",
+      "bg": "#FBF5FC",
+      "desc": "晓风残月、比翼连枝，缠绵悱恻的婉约之境",
+      "imageries": [
+        "残月",
+        "杨柳",
+        "泪痕",
+        "红烛",
+        "落花",
+        "连理枝"
+      ]
+    },
+    "LiYu_YuMeiRen": {
+      "place": "汴京囚所（河南开封）",
+      "context": "亡国囚居",
+      "theme": "悲慨沉郁",
+      "season": "春",
+      "main": "#7F8C8D",
+      "accent": "#2C3E50",
+      "bg": "#F5F5F5",
+      "desc": "国破山河、艰难苦恨，沉郁顿挫的悲凉之境",
+      "imageries": [
+        "烽火",
+        "白发",
+        "秋霜",
+        "残阳",
+        "落木",
+        "孤舟"
+      ]
+    },
+    "LiYu_LangTaoSha": {
+      "place": "汴京囚所（河南开封）",
+      "context": "亡国囚居",
+      "theme": "悲慨沉郁",
+      "season": "春",
+      "main": "#7F8C8D",
+      "accent": "#2C3E50",
+      "bg": "#F5F5F5",
+      "desc": "国破山河、艰难苦恨，沉郁顿挫的悲凉之境",
+      "imageries": [
+        "烽火",
+        "白发",
+        "秋霜",
+        "残阳",
+        "落木",
+        "孤舟"
+      ]
+    },
+    "FanZhongyan_YuJiaAo": {
+      "place": "延州（陕西延安）",
+      "context": "守边抒怀",
+      "theme": "慷慨爱国",
+      "season": "秋",
+      "main": "#D35400",
+      "accent": "#C0392B",
+      "bg": "#FEF9F0",
+      "desc": "丹心汗青、燕然未勒，报国无门的忠愤之境",
+      "imageries": [
+        "丹心",
+        "烽火",
+        "征夫",
+        "宝剑",
+        "沙场",
+        "旌旗"
+      ]
+    },
+    "LiuYong_YuLinLing": {
+      "place": "汴京汴河堤岸（河南开封）",
+      "context": "送别情人",
+      "theme": "深情婉约",
+      "season": "秋",
+      "main": "#8E44AD",
+      "accent": "#E91E63",
+      "bg": "#FBF5FC",
+      "desc": "晓风残月、比翼连枝，缠绵悱恻的婉约之境",
+      "imageries": [
+        "残月",
+        "杨柳",
+        "泪痕",
+        "红烛",
+        "落花",
+        "连理枝"
+      ]
+    },
+    "YanShu_HuanXiSha": {
+      "place": "汴京西园（河南开封）",
+      "context": "宴游即景",
+      "theme": "清雅禅意",
+      "season": "春",
+      "main": "#607D8B",
+      "accent": "#78909C",
+      "bg": "#F5F8F9",
+      "desc": "空山新雨、花落鸟鸣，空灵幽静的禅意之境",
+      "imageries": [
+        "空山",
+        "新雨",
+        "钟磬",
+        "禅房",
+        "青苔",
+        "幽人"
+      ]
+    },
+    "OuyangXiu_ZuiWengTingJi": {
+      "place": "滁州琅琊山（安徽）",
+      "context": "贬谪宴游",
+      "theme": "恬淡闲适",
+      "season": "春",
+      "main": "#27AE60",
+      "accent": "#16A085",
+      "bg": "#F4FAF0",
+      "desc": "采菊东篱、明月松间，山水田园的冲淡之境",
+      "imageries": [
+        "菊",
+        "松",
+        "南山",
+        "清泉",
+        "田园",
+        "柴门"
+      ]
+    },
+    "WangAnshi_BoChuanGuaZhou": {
+      "place": "瓜洲渡（江苏扬州）",
+      "context": "奉召进京途中",
+      "theme": "深情婉约",
+      "season": "春",
+      "main": "#8E44AD",
+      "accent": "#E91E63",
+      "bg": "#FBF5FC",
+      "desc": "晓风残月、比翼连枝，缠绵悱恻的婉约之境",
+      "imageries": [
+        "残月",
+        "杨柳",
+        "泪痕",
+        "红烛",
+        "落花",
+        "连理枝"
+      ]
+    },
+    "SuShi_ShuiDiaoGeTou": {
+      "place": "密州（山东诸城）",
+      "context": "中秋怀弟",
+      "theme": "旷达超脱",
+      "season": "秋",
+      "main": "#2980B9",
+      "accent": "#3498DB",
+      "bg": "#F0F7FC",
+      "desc": "一蓑烟雨、也无风雨，超然物外的旷达之境",
+      "imageries": [
+        "烟雨",
+        "扁舟",
+        "江月",
+        "清风",
+        "浊酒",
+        "竹杖"
+      ]
+    },
+    "SuShi_NianNuJiao": {
+      "place": "黄州赤壁（湖北黄冈）",
+      "context": "贬谪怀古",
+      "theme": "豪放壮阔",
+      "season": "秋",
+      "main": "#C0392B",
+      "accent": "#E67E22",
+      "bg": "#FDF6E3",
+      "desc": "金戈铁马、大江东去，雄健豪迈的壮美之境",
+      "imageries": [
+        "大江",
+        "长风",
+        "沧海",
+        "金戈",
+        "铁马",
+        "瀚海"
+      ]
+    },
+    "SuShi_TiXiLinBi": {
+      "place": "庐山（江西九江）",
+      "context": "游山题壁",
+      "theme": "旷达超脱",
+      "season": "夏",
+      "main": "#2980B9",
+      "accent": "#3498DB",
+      "bg": "#F0F7FC",
+      "desc": "一蓑烟雨、也无风雨，超然物外的旷达之境",
+      "imageries": [
+        "烟雨",
+        "扁舟",
+        "江月",
+        "清风",
+        "浊酒",
+        "竹杖"
+      ]
+    },
+    "SuShi_DingFengBo": {
+      "place": "黄州沙湖道中（湖北黄冈）",
+      "context": "途中遇雨",
+      "theme": "旷达超脱",
+      "season": "春",
+      "main": "#2980B9",
+      "accent": "#3498DB",
+      "bg": "#F0F7FC",
+      "desc": "一蓑烟雨、也无风雨，超然物外的旷达之境",
+      "imageries": [
+        "烟雨",
+        "扁舟",
+        "江月",
+        "清风",
+        "浊酒",
+        "竹杖"
+      ]
+    },
+    "LiQingzhao_ShengShengMan": {
+      "place": "临安（浙江杭州）",
+      "context": "晚年寡居",
+      "theme": "悲慨沉郁",
+      "season": "秋",
+      "main": "#7F8C8D",
+      "accent": "#2C3E50",
+      "bg": "#F5F5F5",
+      "desc": "国破山河、艰难苦恨，沉郁顿挫的悲凉之境",
+      "imageries": [
+        "烽火",
+        "白发",
+        "秋霜",
+        "残阳",
+        "落木",
+        "孤舟"
+      ]
+    },
+    "LiQingzhao_RuMengLing": {
+      "place": "济南溪亭（山东）",
+      "context": "少女郊游",
+      "theme": "恬淡闲适",
+      "season": "夏",
+      "main": "#27AE60",
+      "accent": "#16A085",
+      "bg": "#F4FAF0",
+      "desc": "采菊东篱、明月松间，山水田园的冲淡之境",
+      "imageries": [
+        "菊",
+        "松",
+        "南山",
+        "清泉",
+        "田园",
+        "柴门"
+      ]
+    },
+    "LiQingzhao_ZuiHuaYin": {
+      "place": "青州（山东）",
+      "context": "重阳思夫",
+      "theme": "深情婉约",
+      "season": "秋",
+      "main": "#8E44AD",
+      "accent": "#E91E63",
+      "bg": "#FBF5FC",
+      "desc": "晓风残月、比翼连枝，缠绵悱恻的婉约之境",
+      "imageries": [
+        "残月",
+        "杨柳",
+        "泪痕",
+        "红烛",
+        "落花",
+        "连理枝"
+      ]
+    },
+    "LuYou_ShiEr": {
+      "place": "山阴家中（浙江绍兴）",
+      "context": "临终绝笔",
+      "theme": "慷慨爱国",
+      "season": "冬",
+      "main": "#D35400",
+      "accent": "#C0392B",
+      "bg": "#FEF9F0",
+      "desc": "丹心汗青、燕然未勒，报国无门的忠愤之境",
+      "imageries": [
+        "丹心",
+        "烽火",
+        "征夫",
+        "宝剑",
+        "沙场",
+        "旌旗"
+      ]
+    },
+    "LuYou_YouShanXiCun": {
+      "place": "山阴乡村（浙江绍兴）",
+      "context": "闲居纪游",
+      "theme": "恬淡闲适",
+      "season": "春",
+      "main": "#27AE60",
+      "accent": "#16A085",
+      "bg": "#F4FAF0",
+      "desc": "采菊东篱、明月松间，山水田园的冲淡之境",
+      "imageries": [
+        "菊",
+        "松",
+        "南山",
+        "清泉",
+        "田园",
+        "柴门"
+      ]
+    },
+    "LuYou_ChaiTouFeng": {
+      "place": "沈园（浙江绍兴）",
+      "context": "遇前妻唐琬",
+      "theme": "深情婉约",
+      "season": "春",
+      "main": "#8E44AD",
+      "accent": "#E91E63",
+      "bg": "#FBF5FC",
+      "desc": "晓风残月、比翼连枝，缠绵悱恻的婉约之境",
+      "imageries": [
+        "残月",
+        "杨柳",
+        "泪痕",
+        "红烛",
+        "落花",
+        "连理枝"
+      ]
+    },
+    "XinQiji_QingYuAn": {
+      "place": "临安（浙江杭州）",
+      "context": "元夕观灯",
+      "theme": "清雅禅意",
+      "season": "春",
+      "main": "#607D8B",
+      "accent": "#78909C",
+      "bg": "#F5F8F9",
+      "desc": "空山新雨、花落鸟鸣，空灵幽静的禅意之境",
+      "imageries": [
+        "空山",
+        "新雨",
+        "钟磬",
+        "禅房",
+        "青苔",
+        "幽人"
+      ]
+    },
+    "XinQiji_PoZhenZi": {
+      "place": "铅山瓢泉（江西铅山）",
+      "context": "鹅湖之会后赋词",
+      "theme": "慷慨爱国",
+      "season": "秋",
+      "main": "#D35400",
+      "accent": "#C0392B",
+      "bg": "#FEF9F0",
+      "desc": "丹心汗青、燕然未勒，报国无门的忠愤之境",
+      "imageries": [
+        "丹心",
+        "烽火",
+        "征夫",
+        "宝剑",
+        "沙场",
+        "旌旗"
+      ]
+    },
+    "XinQiji_YongYuLe": {
+      "place": "京口北固亭（江苏镇江）",
+      "context": "登临怀古",
+      "theme": "怀古沧桑",
+      "season": "秋",
+      "main": "#795548",
+      "accent": "#8D6E63",
+      "bg": "#FAF6F0",
+      "desc": "旧时王谢、铜雀春深，千古兴亡的沧桑之境",
+      "imageries": [
+        "斜阳",
+        "断壁",
+        "残碑",
+        "旧宫",
+        "衰草",
+        "流水"
+      ]
+    },
+    "JiangKui_YangZhouMan": {
+      "place": "扬州（江苏）",
+      "context": "过扬州感战乱",
+      "theme": "怀古沧桑",
+      "season": "冬",
+      "main": "#795548",
+      "accent": "#8D6E63",
+      "bg": "#FAF6F0",
+      "desc": "旧时王谢、铜雀春深，千古兴亡的沧桑之境",
+      "imageries": [
+        "斜阳",
+        "断壁",
+        "残碑",
+        "旧宫",
+        "衰草",
+        "流水"
+      ]
+    },
+    "WenTianXian_GuoLingDingYang": {
+      "place": "零丁洋（广东珠江口）",
+      "context": "兵败被俘",
+      "theme": "慷慨爱国",
+      "season": "冬",
+      "main": "#D35400",
+      "accent": "#C0392B",
+      "bg": "#FEF9F0",
+      "desc": "丹心汗青、燕然未勒，报国无门的忠愤之境",
+      "imageries": [
+        "丹心",
+        "烽火",
+        "征夫",
+        "宝剑",
+        "沙场",
+        "旌旗"
+      ]
+    },
+    "MaZhiyuan_TianJingSha_QiuSi": {
+      "place": "浙西道中（浙江）",
+      "context": "羁旅秋思",
+      "theme": "悲慨沉郁",
+      "season": "秋",
+      "main": "#7F8C8D",
+      "accent": "#2C3E50",
+      "bg": "#F5F5F5",
+      "desc": "国破山河、艰难苦恨，沉郁顿挫的悲凉之境",
+      "imageries": [
+        "烽火",
+        "白发",
+        "秋霜",
+        "残阳",
+        "落木",
+        "孤舟"
+      ]
+    },
+    "ZhangYanghao_ShanPoYang": {
+      "place": "潼关（陕西）",
+      "context": "赈灾途中怀古",
+      "theme": "悲慨沉郁",
+      "season": "秋",
+      "main": "#7F8C8D",
+      "accent": "#2C3E50",
+      "bg": "#F5F5F5",
+      "desc": "国破山河、艰难苦恨，沉郁顿挫的悲凉之境",
+      "imageries": [
+        "烽火",
+        "白发",
+        "秋霜",
+        "残阳",
+        "落木",
+        "孤舟"
+      ]
+    },
+    "TangYin_TaoHuaAnGe": {
+      "place": "苏州桃花坞（江苏）",
+      "context": "隐居明志",
+      "theme": "恬淡闲适",
+      "season": "春",
+      "main": "#27AE60",
+      "accent": "#16A085",
+      "bg": "#F4FAF0",
+      "desc": "采菊东篱、明月松间，山水田园的冲淡之境",
+      "imageries": [
+        "菊",
+        "松",
+        "南山",
+        "清泉",
+        "田园",
+        "柴门"
+      ]
+    },
+    "YangShen_LinJiangXian": {
+      "place": "云南贬所",
+      "context": "贬谪抒怀",
+      "theme": "旷达超脱",
+      "season": "秋",
+      "main": "#2980B9",
+      "accent": "#3498DB",
+      "bg": "#F0F7FC",
+      "desc": "一蓑烟雨、也无风雨，超然物外的旷达之境",
+      "imageries": [
+        "烟雨",
+        "扁舟",
+        "江月",
+        "清风",
+        "浊酒",
+        "竹杖"
+      ]
+    },
+    "NalanXingde_MuLanHuaLing": {
+      "place": "北京",
+      "context": "拟古决绝词",
+      "theme": "深情婉约",
+      "season": "秋",
+      "main": "#8E44AD",
+      "accent": "#E91E63",
+      "bg": "#FBF5FC",
+      "desc": "晓风残月、比翼连枝，缠绵悱恻的婉约之境",
+      "imageries": [
+        "残月",
+        "杨柳",
+        "泪痕",
+        "红烛",
+        "落花",
+        "连理枝"
+      ]
+    },
+    "NalanXingde_ChangXiangSi": {
+      "place": "山海关外（辽宁）",
+      "context": "随驾东巡",
+      "theme": "深情婉约",
+      "season": "冬",
+      "main": "#8E44AD",
+      "accent": "#E91E63",
+      "bg": "#FBF5FC",
+      "desc": "晓风残月、比翼连枝，缠绵悱恻的婉约之境",
+      "imageries": [
+        "残月",
+        "杨柳",
+        "泪痕",
+        "红烛",
+        "落花",
+        "连理枝"
+      ]
+    },
+    "ZhengXie_ZhuShi": {
+      "place": "扬州（江苏）",
+      "context": "题画竹石",
+      "theme": "旷达超脱",
+      "season": "秋",
+      "main": "#2980B9",
+      "accent": "#3498DB",
+      "bg": "#F0F7FC",
+      "desc": "一蓑烟雨、也无风雨，超然物外的旷达之境",
+      "imageries": [
+        "烟雨",
+        "扁舟",
+        "江月",
+        "清风",
+        "浊酒",
+        "竹杖"
+      ]
+    },
+    "CaoXueqin_HongLouMeng": {
+      "place": "北京西山",
+      "context": "悼红轩著书",
+      "theme": "深情婉约",
+      "season": "春",
+      "main": "#8E44AD",
+      "accent": "#E91E63",
+      "bg": "#FBF5FC",
+      "desc": "晓风残月、比翼连枝，缠绵悱恻的婉约之境",
+      "imageries": [
+        "残月",
+        "杨柳",
+        "泪痕",
+        "红烛",
+        "落花",
+        "连理枝"
+      ]
+    },
+    "GongZizhen_YiHaiZaShi": {
+      "place": "南归途中（江苏）",
+      "context": "辞官离京",
+      "theme": "旷达超脱",
+      "season": "春",
+      "main": "#2980B9",
+      "accent": "#3498DB",
+      "bg": "#F0F7FC",
+      "desc": "一蓑烟雨、也无风雨，超然物外的旷达之境",
+      "imageries": [
+        "烟雨",
+        "扁舟",
+        "江月",
+        "清风",
+        "浊酒",
+        "竹杖"
+      ]
+    },
+    "GongZizhen_YiHaiZaShi_220": {
+      "place": "镇江（江苏）",
+      "context": "应道士青词",
+      "theme": "慷慨爱国",
+      "season": "夏",
+      "main": "#D35400",
+      "accent": "#C0392B",
+      "bg": "#FEF9F0",
+      "desc": "丹心汗青、燕然未勒，报国无门的忠愤之境",
+      "imageries": [
+        "丹心",
+        "烽火",
+        "征夫",
+        "宝剑",
+        "沙场",
+        "旌旗"
+      ]
+    },
+    "WangGuowei_RenJianCiHua": {
+      "place": "北京/上海",
+      "context": "词学著述",
+      "theme": "清雅禅意",
+      "season": "秋",
+      "main": "#607D8B",
+      "accent": "#78909C",
+      "bg": "#F5F8F9",
+      "desc": "空山新雨、花落鸟鸣，空灵幽静的禅意之境",
+      "imageries": [
+        "空山",
+        "新雨",
+        "钟磬",
+        "禅房",
+        "青苔",
+        "幽人"
+      ]
+    }
+  }
+}
