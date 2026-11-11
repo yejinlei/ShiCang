@@ -698,6 +698,11 @@
         <rdfs:range rdf:resource="&xsd;integer"/>
     </owl:DatatypeProperty>
 
+    <owl:DatatypeProperty rdf:about="&shicang;hometown">
+        <rdfs:label>籍贯</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;Person"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
     <owl:DatatypeProperty rdf:about="&shicang;dynasty">
         <rdfs:label>所属朝代</rdfs:label>
         <rdfs:domain rdf:resource="&shicang;ShiCangEntity"/>
@@ -2012,4 +2017,2098 @@
         <shicang:sourceBook rdf:datatype="http://www.w3.org/2001/XMLSchema#string">憩园词话</shicang:sourceBook>
     </owl:NamedIndividual>
 
+
+
+    <!-- ==================== 新增：典故/生平/写作背景扩展 ==================== -->
+    <owl:Class rdf:about="http://www.shicang.org/ontology#Allusion">
+        <rdfs:label xml:lang="zh">典故</rdfs:label>
+        <rdfs:comment xml:lang="zh">诗歌中所化用的故实、事典、语典</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="http://www.shicang.org/ontology#Content"/>
+    </owl:Class>
+    <owl:DatatypeProperty rdf:about="http://www.shicang.org/ontology#birthYear">
+        <rdfs:label xml:lang="zh">生卒年-生年</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.shicang.org/ontology#ShiCangEntity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="http://www.shicang.org/ontology#deathYear">
+        <rdfs:label xml:lang="zh">生卒年-卒年</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.shicang.org/ontology#ShiCangEntity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="http://www.shicang.org/ontology#biography">
+        <rdfs:label xml:lang="zh">生平小传</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.shicang.org/ontology#ShiCangEntity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="http://www.shicang.org/ontology#story">
+        <rdfs:label xml:lang="zh">典故故事内容</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.shicang.org/ontology#ShiCangEntity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="http://www.shicang.org/ontology#composedInYear">
+        <rdfs:label xml:lang="zh">作品创作年份</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.shicang.org/ontology#ShiCangEntity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="http://www.shicang.org/ontology#composedBackground">
+        <rdfs:label xml:lang="zh">作品创作背景/本事</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.shicang.org/ontology#ShiCangEntity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    <owl:ObjectProperty rdf:about="http://www.shicang.org/ontology#alludesTo">
+        <rdfs:label xml:lang="zh">化用典故</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.shicang.org/ontology#Work"/>
+        <rdfs:range rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+    </owl:ObjectProperty>
+
+    <!-- ============ 诗人生平补全 ============ -->
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#屈原">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">屈原</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-340</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-278</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">战国·楚</shicang:eraName>
+        <shicang:zi xml:lang="zh">灵均</shicang:zi>
+        <shicang:biography xml:lang="zh">芈姓屈氏，名平字原。楚怀王时任左徒、三闾大夫，主张联齐抗秦，遭上官大夫谗毁被疏，顷襄王时放逐沅湘。秦破郢都后怀石自沉汨罗江。作《离骚》《九歌》《九章》《天问》，开楚辞之体。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#司马相如">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">司马相如</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-179</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-118</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">西汉</shicang:eraName>
+        <shicang:zi xml:lang="zh">长卿</shicang:zi>
+        <shicang:biography xml:lang="zh">蜀郡成都人。景帝时为武骑常侍，病免客梁，作《子虚赋》。武帝读而善之，因狗监杨得意荐召见，作《上林赋》，拜为郎。出使巴蜀，与卓文君琴心相挑，临邛当垆卖酒，终成佳话。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#扬雄">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">扬雄</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-53</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">西汉</shicang:eraName>
+        <shicang:zi xml:lang="zh">子云</shicang:zi>
+        <shicang:biography xml:lang="zh">蜀郡成都人。口吃不能剧谈，默而好深湛之思。成帝时给事黄门，历事成帝、哀帝、平帝三世不徙官。仿《易》作《太玄》，仿《论语》作《法言》，赋学相如，与相如并称扬马。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#班固">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">班固</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">92</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">东汉</shicang:eraName>
+        <shicang:zi xml:lang="zh">孟坚</shicang:zi>
+        <shicang:biography xml:lang="zh">扶风安陵人。父班彪撰《史记后传》，固续成《汉书》，为我国第一部纪传体断代史。随窦宪征匈奴，宪败牵连下狱死。亦善辞赋，《两都赋》为汉赋名篇。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#曹操">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">曹操</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">155</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">220</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">东汉末</shicang:eraName>
+        <shicang:zi xml:lang="zh">孟德</shicang:zi>
+        <shicang:biography xml:lang="zh">沛国谯人。建安元年迎献帝都许，挟天子以令诸侯。官渡之战破袁绍，统一北方，位至魏王。子曹丕代汉称帝后追尊为魏武帝。诗风苍凉雄健，《短歌行》《观沧海》《龟虽寿》为建安风骨代表。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#曹植">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">曹植</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">192</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">232</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">三国·魏</shicang:eraName>
+        <shicang:zi xml:lang="zh">子建</shicang:zi>
+        <shicang:biography xml:lang="zh">曹操第三子，封陈王，谥思。才高八斗，七步成诗。受兄曹丕、侄曹叡猜忌，屡遭贬徙，郁郁而终。《洛神赋》《白马篇》《七步诗》传世。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#阮籍">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">阮籍</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">210</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">263</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">三国·魏</shicang:eraName>
+        <shicang:zi xml:lang="zh">嗣宗</shicang:zi>
+        <shicang:biography xml:lang="zh">陈留尉氏人。竹林七贤之一。曾为步兵校尉，世称阮步兵。身处魏晋易代之际，发言玄远，口不臧否人物，以青白眼对俗士。作《咏怀诗》八十二首，为正始之音代表。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#嵇康">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">嵇康</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">223</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">262</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">三国·魏</shicang:eraName>
+        <shicang:zi xml:lang="zh">叔夜</shicang:zi>
+        <shicang:biography xml:lang="zh">谯国铚人。竹林七贤之一。官中散大夫，世称嵇中散。风姿特秀，好老庄，善锻。因非薄汤武、得罪钟会，为司马昭所杀，临刑索琴弹《广陵散》，曲终叹『广陵散于今绝矣』。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#陶渊明">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">陶渊明</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">365</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">427</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">东晋</shicang:eraName>
+        <shicang:zi xml:lang="zh">元亮</shicang:zi>
+        <shicang:hao xml:lang="zh">五柳先生</shicang:hao>
+        <shicang:biography xml:lang="zh">浔阳柴桑人。曾为彭泽令，在官八十余日，叹『吾不能为五斗米折腰』，解印绶去职。归田后躬耕自资，作《归去来兮辞》《桃花源记》《饮酒》《归园田居》，为田园诗派之祖。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#谢灵运">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">谢灵运</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">385</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">433</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">南朝宋</shicang:eraName>
+        <shicang:zi xml:lang="zh">康乐公</shicang:zi>
+        <shicang:biography xml:lang="zh">陈郡阳夏人。东晋名将谢玄之孙，袭封康乐公。入宋降为康乐侯，出为永嘉太守，肆意游遨山水。后徙广州，以谋反罪弃市。山水诗派开创者，『池塘生春草』为千古名句。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#鲍照">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">鲍照</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">414</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">466</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">南朝宋</shicang:eraName>
+        <shicang:zi xml:lang="zh">明远</shicang:zi>
+        <shicang:biography xml:lang="zh">东海人。出身寒微，曾为临海王刘子顼前军参军，世称鲍参军。子顼败，照为乱兵所杀。七言乐府尤擅，《拟行路难》十八首慷慨任气，开唐人七古先声。与谢灵运、颜延之并称元嘉三大家。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#谢朓">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">谢朓</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">464</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">499</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">南朝齐</shicang:eraName>
+        <shicang:zi xml:lang="zh">玄晖</shicang:zi>
+        <shicang:biography xml:lang="zh">陈郡阳夏人。曾为宣城太守，世称谢宣城。官至尚书吏部郎，为始安王萧遥光诬陷下狱死。山水诗清新秀逸，『余霞散成绮，澄江静如练』为名篇佳句。与谢灵运并称大小谢。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#庾信">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">庾信</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">513</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">581</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">南朝梁/北周</shicang:eraName>
+        <shicang:zi xml:lang="zh">子山</shicang:zi>
+        <shicang:biography xml:lang="zh">南阳新野人。初仕梁，与徐陵齐名，为宫体文学代表。后出使西魏被扣，终身羁北。官至骠骑大将军开府仪同三司，世称庾开府。暮年作《哀江南赋》，乡关之思与身世之感并集，老成之笔开唐音。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#刘勰">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">刘勰</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">465</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">520</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">南朝梁</shicang:eraName>
+        <shicang:zi xml:lang="zh">彦和</shicang:zi>
+        <shicang:biography xml:lang="zh">东莞莒人。少时家贫依沙门僧祐，晚年出家改名慧地。作《文心雕龙》五十篇，体大虑周，为我国第一部系统文学理论巨著。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#钟嵘">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">钟嵘</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">468</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">518</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">南朝梁</shicang:eraName>
+        <shicang:zi xml:lang="zh">仲伟</shicang:zi>
+        <shicang:biography xml:lang="zh">颍川长社人。梁时官晋安王记室。作《诗品》三卷，品第汉魏至梁五言诗人一百二十余人为上中下三品，为我国第一部系统诗评专著。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#王勃">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">王勃</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">650</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">676</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">唐</shicang:eraName>
+        <shicang:zi xml:lang="zh">子安</shicang:zi>
+        <shicang:biography xml:lang="zh">绛州龙门人。初唐四杰之首。六岁善文辞，十四岁应举及第，为沛王府修撰，因戏作《檄英王鸡文》被逐。后渡海探父，溺水惊悸而卒。《滕王阁序》『落霞与孤鹜齐飞，秋水共长天一色』名传千古。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#贺知章">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">贺知章</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">659</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">744</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">唐</shicang:eraName>
+        <shicang:zi xml:lang="zh">季真</shicang:zi>
+        <shicang:hao xml:lang="zh">四明狂客</shicang:hao>
+        <shicang:biography xml:lang="zh">越州永兴人。证圣元年进士，官至太子宾客、秘书监。天宝初请为道士还乡，玄宗赐镜湖剡川一曲。性旷达，与李白、张旭等并称饮中八仙。『少小离家老大回』脍炙人口。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#陈子昂">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">陈子昂</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">661</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">702</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">唐</shicang:eraName>
+        <shicang:zi xml:lang="zh">伯玉</shicang:zi>
+        <shicang:biography xml:lang="zh">梓州射洪人。举进士，以上书论政为武则天赏识，拜麟台正字，迁右拾遗。随武攸宜征契丹，因直言降职。辞官归乡后为县令段简诬陷入狱，忧愤而卒。作《感遇》诗三十八首，倡汉魏风骨，为唐诗革新先驱。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#孟浩然">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">孟浩然</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">689</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">740</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">唐</shicang:eraName>
+        <shicang:zi xml:lang="zh">浩然</shicang:zi>
+        <shicang:hao xml:lang="zh">孟山人</shicang:hao>
+        <shicang:biography xml:lang="zh">襄州襄阳人。早年隐鹿门山，四十岁游京师应进士不第。张九龄镇荆州辟为从事，后归隐。与王维并称王孟，为盛唐山水田园诗派代表。『春眠不觉晓』『气蒸云梦泽，波撼岳阳城』传诵人口。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#王维">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">王维</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">701</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">761</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">唐</shicang:eraName>
+        <shicang:zi xml:lang="zh">摩诘</shicang:zi>
+        <shicang:hao xml:lang="zh">王右丞</shicang:hao>
+        <shicang:biography xml:lang="zh">太原祁人。开元九年进士，官至尚书右丞，世称王右丞。晚年隐居蓝田辋川别业，诗、画、音乐兼擅，苏轼评『味摩诘之诗，诗中有画；观摩诘之画，画中有诗』。与孟浩然同为山水田园派宗匠。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#李白">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">李白</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">701</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">762</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">唐</shicang:eraName>
+        <shicang:zi xml:lang="zh">太白</shicang:zi>
+        <shicang:hao xml:lang="zh">青莲居士</shicang:hao>
+        <shicang:biography xml:lang="zh">祖籍陇西成纪，生于碎叶，长于绵州昌隆。天宝初因贺知章、吴筠荐入长安，供奉翰林，受玄宗优宠，后赐金放还。安史乱中入永王李璘幕，璘败流放夜郎，中途遇赦。晚年依族叔当涂令李阳冰。诗风豪放飘逸，世称诗仙。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#高适">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">高适</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">704</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">765</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">唐</shicang:eraName>
+        <shicang:zi xml:lang="zh">达夫</shicang:zi>
+        <shicang:biography xml:lang="zh">渤海蓨人。少家贫客梁宋，与李白、杜甫漫游。年五十始留意诗什，以边塞诗名。安史乱后累官至剑南西川节度使、散骑常侍，封渤海县侯，为唐人中最显达者。与岑参并称高岑。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#杜甫">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">杜甫</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">712</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">770</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">唐</shicang:eraName>
+        <shicang:zi xml:lang="zh">子美</shicang:zi>
+        <shicang:hao xml:lang="zh">少陵野老</shicang:hao>
+        <shicang:biography xml:lang="zh">河南巩县人。开元中漫游吴越齐赵，天宝五载入长安困顿十年。安史乱中陷贼逃脱，授左拾遗，因疏救房琯贬华州司功参军。后弃官入蜀，严武表为检校工部员外郎。晚年漂泊夔州、湖湘，卒于耒阳舟中。诗史沉郁顿挫，世称诗圣，与李白合称李杜。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#岑参">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">岑参</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">715</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">770</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">唐</shicang:eraName>
+        <shicang:biography xml:lang="zh">南阳人。天宝三载进士，曾两度出塞从军安西、北庭，为节度判官。后官嘉州刺史，世称岑嘉州。边塞诗气势磅礴，『忽如一夜春风来，千树万树梨花开』为咏雪绝唱。与高适并称高岑。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#韦应物">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">韦应物</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">737</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">792</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">唐</shicang:eraName>
+        <shicang:biography xml:lang="zh">京兆万年人。早年以三卫郎事玄宗，安史后折节读书。历官滁州、江州、苏州刺史，世称韦苏州。诗风高雅闲淡，山水田园之作上承王孟，下启柳刘，与柳宗元并称韦柳。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#孟郊">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">孟郊</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">751</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">814</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">唐</shicang:eraName>
+        <shicang:zi xml:lang="zh">东野</shicang:zi>
+        <shicang:biography xml:lang="zh">湖州武康人。贞元十二年四十六岁始登进士第，作『春风得意马蹄疾』。五十岁任溧阳尉，后暴疾卒。诗风清苦瘦硬，『慈母手中线』传为孝亲名句。与贾岛并称郊寒岛瘦。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#张籍">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">张籍</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">766</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">830</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">唐</shicang:eraName>
+        <shicang:zi xml:lang="zh">文昌</shicang:zi>
+        <shicang:biography xml:lang="zh">和州乌江人。贞元十五年进士，官至国子司业。韩愈弟子，与王建、元稹、白居易唱和。乐府诗与王建齐名，世称张王乐府，为新乐府运动先驱。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#韩愈">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">韩愈</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">768</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">824</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">唐</shicang:eraName>
+        <shicang:zi xml:lang="zh">退之</shicang:zi>
+        <shicang:biography xml:lang="zh">河南河阳人。贞元八年进士，累官至吏部侍郎。元和间因谏迎佛骨贬潮州刺史。倡导古文运动，文起八代之衰；诗以奇崛险怪开江西诗派先河。门人有李翱、皇甫湜、张籍、贾岛等。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#白居易">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">白居易</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">772</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">846</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">唐</shicang:eraName>
+        <shicang:zi xml:lang="zh">乐天</shicang:zi>
+        <shicang:hao xml:lang="zh">香山居士</shicang:hao>
+        <shicang:biography xml:lang="zh">下邽人。贞元十六年进士，元和间任左拾遗，因上书请捕刺武元衡凶手贬江州司马，作《琵琶行》。后任杭州、苏州刺史，官至刑部尚书。倡新乐府运动，主张文章合为时而著，诗通俗易懂，与元稹并称元白。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#刘禹锡">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">刘禹锡</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">772</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">842</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">唐</shicang:eraName>
+        <shicang:zi xml:lang="zh">梦得</shicang:zi>
+        <shicang:biography xml:lang="zh">洛阳人。贞元九年进士，参与永贞革新贬朗州司马，后连贬连州、夔州、和州，二十余年始入朝为主客郎中，终太子宾客。与白居易交厚唱和，世称刘白。诗豪健爽朗，『沉舟侧畔千帆过』。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#柳宗元">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">柳宗元</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">773</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">819</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">唐</shicang:eraName>
+        <shicang:zi xml:lang="zh">子厚</shicang:zi>
+        <shicang:biography xml:lang="zh">河东人。贞元九年进士，参与王叔文永贞革新，失败贬永州司马十年，后迁柳州刺史，卒于任上，世称柳柳州。与韩愈共倡古文运动，并称韩柳；山水游记与山水诗深得渊明旨趣。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#元稹">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">元稹</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">779</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">831</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">唐</shicang:eraName>
+        <shicang:zi xml:lang="zh">微之</shicang:zi>
+        <shicang:biography xml:lang="zh">河南人。与白居易同登贞元十九年书判拔萃科，同倡新乐府，世称元白。官至同中书门下平章事（宰相）。传奇《莺莺传》（张生崔莺莺）为其作，悼亡诗『曾经沧海难为水』传诵千古。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#贾岛">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">贾岛</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">779</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">843</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">唐</shicang:eraName>
+        <shicang:zi xml:lang="zh">阆仙</shicang:zi>
+        <shicang:biography xml:lang="zh">范阳人。初为僧名无本，后还俗应举屡试不第。韩愈劝其学文。曾任长江主簿，世称贾长江。苦吟诗人，『推敲』典故即源于其『僧推月下门』改『僧敲』。与孟郊并称郊寒岛瘦。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#李贺">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">李贺</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">790</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">816</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">唐</shicang:eraName>
+        <shicang:zi xml:lang="zh">长吉</shicang:zi>
+        <shicang:biography xml:lang="zh">河南福昌人。唐宗室郑王之后。七岁能辞章，韩愈、皇甫湜奇之。因父名晋肃，『晋』『进』同音避讳不得举进士。仅为奉礼郎，二十七岁郁郁而终。诗奇崛幽冷，世称诗鬼，《雁门太守行》《李凭箜篌引》为名篇。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#皎然">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">皎然</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">720</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">800</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">唐</shicang:eraName>
+        <shicang:zi xml:lang="zh">清昼</shicang:zi>
+        <shicang:biography xml:lang="zh">湖州长城人。谢灵运十世孙，出家为僧，驻吴兴杼山妙喜寺。与颜真卿、韦应物、陆羽交游。作《诗式》五卷，论诗倡『取境』『五格』，开以禅喻诗之先河。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#杜牧">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">杜牧</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">803</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">852</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">唐</shicang:eraName>
+        <shicang:zi xml:lang="zh">牧之</shicang:zi>
+        <shicang:biography xml:lang="zh">京兆万年人。宰相杜佑之孙。太和二年进士，历黄、池、睦、湖等州刺史，官至中书舍人。诗俊爽清丽，七绝尤工，《阿房宫赋》为一代名赋，与李商隐并称小李杜。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#温庭筠">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">温庭筠</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">812</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">866</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">唐</shicang:eraName>
+        <shicang:zi xml:lang="zh">飞卿</shicang:zi>
+        <shicang:biography xml:lang="zh">太原人。文思敏捷，八叉手而成八韵，世称温八叉。屡试不第，官止国子助教。诗与李商隐并称温李；词为花间派鼻祖，《菩萨蛮》『小山重叠金明灭』开婉约词风。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#李商隐">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">李商隐</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">813</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">858</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">唐</shicang:eraName>
+        <shicang:zi xml:lang="zh">义山</shicang:zi>
+        <shicang:hao xml:lang="zh">玉溪生</shicang:hao>
+        <shicang:biography xml:lang="zh">怀州河内人。开成二年进士，卷入党争漩涡，终身潦倒。诗深情绵邈、典丽精工，无题诗独步千古，『春蚕到死丝方尽』『此情可待成追忆』。与杜牧、温庭筠分别并称小李杜、温李。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#司空图">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">司空图</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">837</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">908</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">唐</shicang:eraName>
+        <shicang:zi xml:lang="zh">表圣</shicang:zi>
+        <shicang:hao xml:lang="zh">知非子</shicang:hao>
+        <shicang:biography xml:lang="zh">河中虞乡人。咸通十年进士，官至知制诰、中书舍人。唐末隐中条山王官谷。唐亡不食而卒。作《二十四诗品》，以雄浑、冲淡等二十四品论诗，倡『味外之旨、韵外之致』，影响宋以后诗学深远。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#皮日休">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">皮日休</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">834</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">883</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">唐</shicang:eraName>
+        <shicang:zi xml:lang="zh">袭美</shicang:zi>
+        <shicang:biography xml:lang="zh">襄阳人。咸通八年进士，为著作郎。后参加黄巢起义，授翰林学士，巢败不知所终。与陆龟蒙唱和，世称皮陆。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#李煜">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">李煜</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">937</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">978</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">南唐</shicang:eraName>
+        <shicang:zi xml:lang="zh">重光</shicang:zi>
+        <shicang:hao xml:lang="zh">莲峰居士</shicang:hao>
+        <shicang:biography xml:lang="zh">南唐后主。在位十五年，国亡降宋，封违命侯，被毒死。词由宫闱婉约一变为亡国血泪，『问君能有几多愁，恰似一江春水向东流』，王国维谓『词至李后主而眼界始大』。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#林逋">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">林逋</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">967</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1028</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">北宋</shicang:eraName>
+        <shicang:zi xml:lang="zh">君复</shicang:zi>
+        <shicang:biography xml:lang="zh">钱塘人。少孤力学，隐居西湖孤山二十年，不娶无子，种梅养鹤，人称梅妻鹤子。卒谥和靖先生。『疏影横斜水清浅，暗香浮动月黄昏』为咏梅绝唱。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#柳永">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">柳永</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">984</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1053</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">北宋</shicang:eraName>
+        <shicang:zi xml:lang="zh">耆卿</shicang:zi>
+        <shicang:biography xml:lang="zh">福建崇安人。景祐元年进士，官至屯田员外郎。终身潦倒，流连坊曲，大量创作慢词长调，『凡有井水处皆能歌柳词』。《雨霖铃》『杨柳岸晓风残月』传诵千古。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#范仲淹">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">范仲淹</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">989</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1052</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">北宋</shicang:eraName>
+        <shicang:zi xml:lang="zh">希文</shicang:zi>
+        <shicang:biography xml:lang="zh">苏州吴县人。大中祥符八年进士，庆历间任参知政事推行庆历新政。守西北拒西夏，羌人呼为龙图老子。《岳阳楼记》『先天下之忧而忧，后天下之乐而乐』为士大夫精神写照。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#晏殊">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">晏殊</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">991</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1055</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">北宋</shicang:eraName>
+        <shicang:zi xml:lang="zh">同叔</shicang:zi>
+        <shicang:biography xml:lang="zh">抚州临川人。七岁能文，以神童荐，真宗召试赐同进士出身。仁宗时官至同中书门下平章事兼枢密使。词风雍容华贵，《浣溪沙》『无可奈何花落去，似曾相识燕归来』为传世名句。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#梅尧臣">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">梅尧臣</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1002</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1060</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">北宋</shicang:eraName>
+        <shicang:zi xml:lang="zh">圣俞</shicang:zi>
+        <shicang:biography xml:lang="zh">宣州宣城人。以荫补官，赐进士出身，官至都官员外郎。与欧阳修同为北宋诗文革新先驱，论诗倡平淡，反对西昆体。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#欧阳修">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">欧阳修</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1007</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1072</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">北宋</shicang:eraName>
+        <shicang:zi xml:lang="zh">永叔</shicang:zi>
+        <shicang:hao xml:lang="zh">醉翁、六一居士</shicang:hao>
+        <shicang:biography xml:lang="zh">吉州庐陵人。天圣八年进士，庆历新政支持者，累官至参知政事。北宋文坛领袖，唐宋八大家之一，苏洵、苏轼、苏辙、王安石、曾巩皆出其门下。诗文革新，《醉翁亭记》名世。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#苏洵">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">苏洵</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1009</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1066</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">北宋</shicang:eraName>
+        <shicang:zi xml:lang="zh">明允</shicang:zi>
+        <shicang:hao xml:lang="zh">老泉</shicang:hao>
+        <shicang:biography xml:lang="zh">眉州眉山人。二十七始发愤为学，嘉祐间与二子轼、辙同至京师，欧阳修上其《权书》《衡论》，士大夫争传之。官至秘书省校书郎。与二子合称三苏，唐宋八大家之一。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#王安石">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">王安石</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1021</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1086</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">北宋</shicang:eraName>
+        <shicang:zi xml:lang="zh">介甫</shicang:zi>
+        <shicang:hao xml:lang="zh">半山</shicang:hao>
+        <shicang:biography xml:lang="zh">抚州临川人。庆历二年进士，神宗熙宁间拜相推行新法，封荆国公。后退居江宁半山园。唐宋八大家之一，诗风精严，『春风又绿江南岸』为炼字典范。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#晏几道">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">晏几道</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1038</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1110</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">北宋</shicang:eraName>
+        <shicang:zi xml:lang="zh">叔原</shicang:zi>
+        <shicang:biography xml:lang="zh">晏殊幼子。虽为相家子，平生陆沉下位，不践权贵之门。词风深婉沉着，《小山词》为北宋令词高峰，『落花人独立，微雨燕双飞』。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#苏轼">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">苏轼</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1037</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1101</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">北宋</shicang:eraName>
+        <shicang:zi xml:lang="zh">子瞻</shicang:zi>
+        <shicang:hao xml:lang="zh">东坡居士</shicang:hao>
+        <shicang:biography xml:lang="zh">眉州眉山人。嘉祐二年欧阳修主考擢第二。历仕仁宗、英宗、神宗、哲宗、徽宗五朝。因乌台诗案贬黄州，又贬惠州、儋州。徽宗立遇赦北归，卒于常州。诗、词、文、书、画俱为一代宗匠，词开豪放一派，与辛弃疾并称苏辛。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#苏辙">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">苏辙</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1039</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1112</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">北宋</shicang:eraName>
+        <shicang:zi xml:lang="zh">子由</shicang:zi>
+        <shicang:hao xml:lang="zh">颍滨遗老</shicang:hao>
+        <shicang:biography xml:lang="zh">苏轼弟。嘉祐二年与兄同登进士第。官至尚书右丞、门下侍郎。与父洵兄轼并称三苏，唐宋八大家之一。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#道潜">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">道潜</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1043</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1106</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">北宋</shicang:eraName>
+        <shicang:zi xml:lang="zh">参寥</shicang:zi>
+        <shicang:biography xml:lang="zh">於潜僧人。与苏轼交谊最深，东坡谪黄州、南迁惠州，参寥数千里相从探望。诗风清绝，东坡称其诗无一点蔬笋气。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#黄庭坚">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">黄庭坚</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1045</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1105</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">北宋</shicang:eraName>
+        <shicang:zi xml:lang="zh">鲁直</shicang:zi>
+        <shicang:hao xml:lang="zh">山谷道人</shicang:hao>
+        <shicang:biography xml:lang="zh">洪州分宁人。治平四年进士，为苏门四学士之首。诗与苏轼并称苏黄，创江西诗派，倡『点铁成金』『夺胎换骨』说。书法为宋四家之一。贬宜州卒。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#秦观">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">秦观</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1049</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1100</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">北宋</shicang:eraName>
+        <shicang:zi xml:lang="zh">少游</shicang:zi>
+        <shicang:hao xml:lang="zh">淮海居士</shicang:hao>
+        <shicang:biography xml:lang="zh">扬州高邮人。元丰八年进士，苏门四学士之一。绍圣后贬处州、郴州、横州、雷州。词风婉约，《鹊桥仙》『两情若是久长时，又岂在朝朝暮暮』绝唱。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#陈师道">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">陈师道</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1053</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1102</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">北宋</shicang:eraName>
+        <shicang:zi xml:lang="zh">履常</shicang:zi>
+        <shicang:hao xml:lang="zh">后山居士</shicang:hao>
+        <shicang:biography xml:lang="zh">彭城人。受知于苏轼，为苏门六君子之一。江西诗派『一祖三宗』之一（祖杜甫，三宗黄庭坚、陈师道、陈与义）。苦吟诗人。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#晁补之">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">晁补之</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1053</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1110</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">北宋</shicang:eraName>
+        <shicang:zi xml:lang="zh">无咎</shicang:zi>
+        <shicang:hao xml:lang="zh">归来子</shicang:hao>
+        <shicang:biography xml:lang="zh">济州巨野人。元丰二年进士，苏门四学士之一。诗文深受苏轼赏识，词风豪放近东坡。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#张耒">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">张耒</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1054</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1114</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">北宋</shicang:eraName>
+        <shicang:zi xml:lang="zh">文潜</shicang:zi>
+        <shicang:biography xml:lang="zh">楚州淮阴人。熙宁六年进士，苏门四学士之一。诗学白居易、张籍，平易自然。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#周邦彦">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">周邦彦</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1056</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1121</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">北宋</shicang:eraName>
+        <shicang:zi xml:lang="zh">美成</shicang:zi>
+        <shicang:hao xml:lang="zh">清真居士</shicang:hao>
+        <shicang:biography xml:lang="zh">钱塘人。元丰中献《汴都赋》召为太学正。徽宗时提举大晟府，审音定调，为宋词格律集大成者，词法精严，被称为词中老杜。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#曾几">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">曾几</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1085</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1166</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">南宋</shicang:eraName>
+        <shicang:zi xml:lang="zh">吉甫</shicang:zi>
+        <shicang:hao xml:lang="zh">茶山居士</shicang:hao>
+        <shicang:biography xml:lang="zh">赣州人。赐上舍出身，官至敷文阁待制。诗宗黄庭坚，陆游尝从之学诗。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#李清照">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">李清照</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1084</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1155</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">两宋</shicang:eraName>
+        <shicang:hao xml:lang="zh">易安居士</shicang:hao>
+        <shicang:biography xml:lang="zh">济南章丘人。嫁金石学家赵明诚，夫妇合著《金石录》。靖康之变南渡，明诚病逝后漂泊越州、金华。词为婉约之宗，创『易安体』，论词主『别是一家』。《声声慢》『寻寻觅觅』为绝唱。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#陈与义">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">陈与义</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1090</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1138</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">南宋</shicang:eraName>
+        <shicang:zi xml:lang="zh">去非</shicang:zi>
+        <shicang:hao xml:lang="zh">简斋</shicang:hao>
+        <shicang:biography xml:lang="zh">洛阳人。政和三年上舍及第，南渡后官至参知政事。江西诗派三宗之一，南渡后诗风沉郁雄阔，近杜甫。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#陆游">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">陆游</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1125</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1210</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">南宋</shicang:eraName>
+        <shicang:zi xml:lang="zh">务观</shicang:zi>
+        <shicang:hao xml:lang="zh">放翁</shicang:hao>
+        <shicang:biography xml:lang="zh">越州山阴人。赐进士出身。力主抗金，入王炎、范成大幕府。一生作诗近万首，为南宋四大家之首。晚年退居山阴，临终《示儿》『王师北定中原日』为绝笔。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#范成大">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">范成大</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1126</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1193</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">南宋</shicang:eraName>
+        <shicang:zi xml:lang="zh">致能</shicang:zi>
+        <shicang:hao xml:lang="zh">石湖居士</shicang:hao>
+        <shicang:biography xml:lang="zh">苏州吴县人。绍兴二十四年进士，曾使金不辱使命。官至参知政事。晚年退居石湖。田园诗《四时田园杂兴》为集大成之作。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#杨万里">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">杨万里</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1127</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1206</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">南宋</shicang:eraName>
+        <shicang:zi xml:lang="zh">廷秀</shicang:zi>
+        <shicang:hao xml:lang="zh">诚斋</shicang:hao>
+        <shicang:biography xml:lang="zh">吉州吉水人。绍兴二十四年进士，官至宝谟阁学士。创『诚斋体』，语言自然活泼，善写生趣。与陆游、范成大、尤袤并称南宋四大家。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#严羽">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">严羽</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1192</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1245</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">南宋</shicang:eraName>
+        <shicang:zi xml:lang="zh">仪卿</shicang:zi>
+        <shicang:hao xml:lang="zh">沧浪逋客</shicang:hao>
+        <shicang:biography xml:lang="zh">邵武人。隐居不仕。作《沧浪诗话》，以禅喻诗，倡『妙悟』『兴趣』『入神』，标举盛唐，『言有尽而意无穷』，对后世神韵、性灵、王国维境界说影响极大。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#陈亮">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">陈亮</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1143</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1194</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">南宋</shicang:eraName>
+        <shicang:zi xml:lang="zh">同甫</shicang:zi>
+        <shicang:hao xml:lang="zh">龙川</shicang:hao>
+        <shicang:biography xml:lang="zh">婺州永康人。倡事功之学，力主抗金。与辛弃疾友善，鹅湖之会，『同父』与稼轩长歌互答。词作豪放激昂。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#辛弃疾">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">辛弃疾</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1140</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1207</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">南宋</shicang:eraName>
+        <shicang:zi xml:lang="zh">幼安</shicang:zi>
+        <shicang:hao xml:lang="zh">稼轩居士</shicang:hao>
+        <shicang:biography xml:lang="zh">济南历城人。少时聚众抗金，南归后历任湖北、江西、湖南安抚使。多次上书陈恢复大计皆不被纳，罢居上饶带湖、铅山瓢泉二十年。词风豪放悲壮，与苏轼并称苏辛。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#姜夔">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">姜夔</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1155</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1221</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">南宋</shicang:eraName>
+        <shicang:zi xml:lang="zh">尧章</shicang:zi>
+        <shicang:hao xml:lang="zh">白石道人</shicang:hao>
+        <shicang:biography xml:lang="zh">鄱阳人。终身未仕，游食于范成大、张鉴等公卿间。精音律、善自度曲，《扬州慢》『二十四桥仍在』寄托黍离之悲。词风清空骚雅，为骚雅词宗。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#史达祖">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">史达祖</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1163</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1220</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">南宋</shicang:eraName>
+        <shicang:zi xml:lang="zh">邦卿</shicang:zi>
+        <shicang:hao xml:lang="zh">梅溪</shicang:hao>
+        <shicang:biography xml:lang="zh">汴人。曾为韩侂胄堂吏，韩败受黥刑。词以咏物工巧著称，《双双燕·咏燕》为千古咏物绝唱。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#吴文英">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">吴文英</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1200</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1260</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">南宋</shicang:eraName>
+        <shicang:zi xml:lang="zh">君特</shicang:zi>
+        <shicang:hao xml:lang="zh">梦窗</shicang:hao>
+        <shicang:biography xml:lang="zh">四明人。布衣终身。词密丽幽邃，善长调铺叙，与周密（草窗）并称二窗。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#张炎">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">张炎</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1248</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1320</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">南宋末/元</shicang:eraName>
+        <shicang:zi xml:lang="zh">叔夏</shicang:zi>
+        <shicang:hao xml:lang="zh">玉田</shicang:hao>
+        <shicang:biography xml:lang="zh">临安人。南宋循王张俊六世孙，宋亡家破，流落江浙。词论主『清空』，作《词源》。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#元好问">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">元好问</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1190</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1257</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">金</shicang:eraName>
+        <shicang:zi xml:lang="zh">裕之</shicang:zi>
+        <shicang:hao xml:lang="zh">遗山</shicang:hao>
+        <shicang:biography xml:lang="zh">太原秀容人。金兴定五年进士，金亡不仕，筑野史亭纂金代文献。作《论诗三十首》推尊杜甫，诗风沉郁，为金元之际文坛宗匠。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#关汉卿">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">关汉卿</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1234</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1300</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">元</shicang:eraName>
+        <shicang:hao xml:lang="zh">己斋叟</shicang:hao>
+        <shicang:biography xml:lang="zh">大都人。元曲四大家之首，『驱梨园领袖，总编修师首，捻杂剧班头』。作杂剧六十余种，《窦娥冤》《救风尘》《单刀会》为代表作。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#白朴">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">白朴</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1226</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1306</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">元</shicang:eraName>
+        <shicang:zi xml:lang="zh">太素</shicang:zi>
+        <shicang:hao xml:lang="zh">兰谷</shicang:hao>
+        <shicang:biography xml:lang="zh">隩州人。元曲四大家之一。父白华为金枢密院判官，幼时由元好问抚养。作《梧桐雨》《墙头马上》。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#马致远">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">马致远</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1250</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1321</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">元</shicang:eraName>
+        <shicang:zi xml:lang="zh">千里</shicang:zi>
+        <shicang:hao xml:lang="zh">东篱</shicang:hao>
+        <shicang:biography xml:lang="zh">大都人。元曲四大家之一。宦游二十年不得志，晚年归隐。《汉宫秋》为代表作，散曲《天净沙·秋思》『枯藤老树昏鸦』被誉为秋思之祖。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#王实甫">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">王实甫</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1260</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1336</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">元</shicang:eraName>
+        <shicang:zi xml:lang="zh">德信</shicang:zi>
+        <shicang:biography xml:lang="zh">大都人。杂剧《西厢记》（崔莺莺待月西厢记）为元杂剧压卷之作，『愿天下有情的都成了眷属』。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#高启">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">高启</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1336</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1373</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">明</shicang:eraName>
+        <shicang:zi xml:lang="zh">季迪</shicang:zi>
+        <shicang:hao xml:lang="zh">青丘子</shicang:hao>
+        <shicang:biography xml:lang="zh">长洲人。明初与杨基、张羽、徐贲并称吴中四杰。洪武初召修《元史》，授户部右侍郎辞归。因上梁文被朱元璋借故腰斩于南京，年三十九。为明初诗坛第一人。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#李东阳">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">李东阳</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1447</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1516</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">明</shicang:eraName>
+        <shicang:zi xml:lang="zh">宾之</shicang:zi>
+        <shicang:hao xml:lang="zh">西涯</shicang:hao>
+        <shicang:biography xml:lang="zh">茶陵人。天顺八年进士，官至华盖殿大学士。创茶陵诗派，以台阁重臣主文坛数十年，上承台阁体，下启前后七子。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#李梦阳">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">李梦阳</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1473</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1530</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">明</shicang:eraName>
+        <shicang:zi xml:lang="zh">献吉</shicang:zi>
+        <shicang:hao xml:lang="zh">空同子</shicang:hao>
+        <shicang:biography xml:lang="zh">庆阳人。弘治六年进士，前七子之首，倡『文必秦汉，诗必盛唐』，掀起明代文学复古运动。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#何景明">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">何景明</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1483</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1521</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">明</shicang:eraName>
+        <shicang:zi xml:lang="zh">仲默</shicang:zi>
+        <shicang:biography xml:lang="zh">信阳人。弘治十五年进士，前七子之一，与李梦阳共倡复古。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#李攀龙">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">李攀龙</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1514</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1570</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">明</shicang:eraName>
+        <shicang:zi xml:lang="zh">于鳞</shicang:zi>
+        <shicang:hao xml:lang="zh">沧溟</shicang:hao>
+        <shicang:biography xml:lang="zh">历城人。嘉靖二十三年进士，后七子之首，继前七子再倡复古。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#王世贞">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">王世贞</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1526</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1590</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">明</shicang:eraName>
+        <shicang:zi xml:lang="zh">元美</shicang:zi>
+        <shicang:hao xml:lang="zh">凤洲、弇州山人</shicang:hao>
+        <shicang:biography xml:lang="zh">太仓人。嘉靖二十六年进士，官至南京刑部尚书。后七子领袖，主文坛二十年，才学富赡。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#袁宏道">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">袁宏道</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1568</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1610</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">明</shicang:eraName>
+        <shicang:zi xml:lang="zh">中郎</shicang:zi>
+        <shicang:hao xml:lang="zh">石公</shicang:hao>
+        <shicang:biography xml:lang="zh">公安人。万历二十年进士。与兄宗道、弟中道并称公安三袁，倡『独抒性灵，不拘格套』的性灵说，反对前后七子复古拟古。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#钱谦益">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">钱谦益</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1582</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1664</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">明末清初</shicang:eraName>
+        <shicang:zi xml:lang="zh">受之</shicang:zi>
+        <shicang:hao xml:lang="zh">牧斋</shicang:hao>
+        <shicang:biography xml:lang="zh">常熟人。明万历三十八年探花，崇祯初官礼部侍郎。南明弘光朝礼部尚书，后降清。为明末清初文坛领袖，编《列朝诗集》，诗开虞山派。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#吴伟业">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">吴伟业</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1609</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1672</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">明末清初</shicang:eraName>
+        <shicang:zi xml:lang="zh">骏公</shicang:zi>
+        <shicang:hao xml:lang="zh">梅村</shicang:hao>
+        <shicang:biography xml:lang="zh">太仓人。明崇祯四年榜眼，复社领袖之一。入清官国子祭酒。与钱谦益、龚鼎孳并称江左三大家。《圆圆曲》『恸哭六军俱缟素，冲冠一怒为红颜』为一代史诗。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#顾贞观">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">顾贞观</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1637</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1714</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">清</shicang:eraName>
+        <shicang:zi xml:lang="zh">华峰</shicang:zi>
+        <shicang:hao xml:lang="zh">梁汾</shicang:hao>
+        <shicang:biography xml:lang="zh">无锡人。康熙十一年举人，与纳兰性德交厚，《金缕曲·寄吴汉槎》以词代书，『季子平安否』千古绝唱，纳兰为营救吴兆骞出力成为词坛佳话。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#王夫之">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">王夫之</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1619</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1692</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">明末清初</shicang:eraName>
+        <shicang:zi xml:lang="zh">而农</shicang:zi>
+        <shicang:hao xml:lang="zh">姜斋</shicang:hao>
+        <shicang:biography xml:lang="zh">衡阳人。明亡举兵抗清，后隐居衡阳石船山，著述终老。作《姜斋诗话》，论诗主『情景交融』『兴观群怨』，为清代重要诗论家。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#纳兰性德">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">纳兰性德</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1655</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1685</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">清</shicang:eraName>
+        <shicang:zi xml:lang="zh">容若</shicang:zi>
+        <shicang:hao xml:lang="zh">楞伽山人</shicang:hao>
+        <shicang:biography xml:lang="zh">满洲正黄旗人，大学士明珠长子。康熙十五年进士，授一等侍卫。词主情真，直追南唐李后主，《饮水词》哀感顽艳，『人生若只如初见』家喻户晓。三十一岁早逝。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#朱彝尊">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">朱彝尊</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1629</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1709</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">清</shicang:eraName>
+        <shicang:zi xml:lang="zh">锡鬯</shicang:zi>
+        <shicang:hao xml:lang="zh">竹垞</shicang:hao>
+        <shicang:biography xml:lang="zh">秀水人。康熙十八年举博学鸿词，授检讨，入直南书房。浙西词派开山，宗姜夔、张炎，主『清空』。编《词综》《明诗综》。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#王士祯">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">王士祯</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1634</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1711</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">清</shicang:eraName>
+        <shicang:zi xml:lang="zh">贻上</shicang:zi>
+        <shicang:hao xml:lang="zh">阮亭、渔洋山人</shicang:hao>
+        <shicang:biography xml:lang="zh">山东新城人。顺治十二年进士，官至刑部尚书。主康熙朝诗坛数十年，倡『神韵说』，本严羽『妙悟』『兴趣』、司空图『味外味』，诗风清远含蓄。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#叶燮">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">叶燮</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1627</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1703</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">清</shicang:eraName>
+        <shicang:zi xml:lang="zh">星期</shicang:zi>
+        <shicang:hao xml:lang="zh">己畦</shicang:hao>
+        <shicang:biography xml:lang="zh">吴江人。康熙九年进士，官宝应知县。作《原诗》，论诗倡『理、事、情』与『才、胆、识、力』，体系完整，为清代诗话理论最高峰之一。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#沈德潜">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">沈德潜</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1673</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1769</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">清</shicang:eraName>
+        <shicang:zi xml:lang="zh">确士</shicang:zi>
+        <shicang:hao xml:lang="zh">归愚</shicang:hao>
+        <shicang:biography xml:lang="zh">长洲人。乾隆四年六十七岁成进士，官至礼部侍郎。倡『格调说』，诗宗盛唐、尊杜甫。编《古诗源》《唐诗别裁》《明诗别裁》，影响深远。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#袁枚">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">袁枚</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1716</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1797</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">清</shicang:eraName>
+        <shicang:zi xml:lang="zh">子才</shicang:zi>
+        <shicang:hao xml:lang="zh">简斋、随园老人</shicang:hao>
+        <shicang:biography xml:lang="zh">钱塘人。乾隆四年进士，官江宁知县。三十余岁辞官居江宁小仓山随园。倡『性灵说』，认为诗应写性情遭际，反对格调、肌理。《随园诗话》风行一世。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#翁方纲">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">翁方纲</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1733</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1818</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">清</shicang:eraName>
+        <shicang:zi xml:lang="zh">正三</shicang:zi>
+        <shicang:hao xml:lang="zh">覃溪</shicang:hao>
+        <shicang:biography xml:lang="zh">大兴人。乾隆十七年进士，官至内阁学士。倡『肌理说』，主学问考据入诗，宗江西诗派黄庭坚。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#赵翼">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">赵翼</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1727</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1814</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">清</shicang:eraName>
+        <shicang:zi xml:lang="zh">云崧</shicang:zi>
+        <shicang:hao xml:lang="zh">瓯北</shicang:hao>
+        <shicang:biography xml:lang="zh">阳湖人。乾隆二十六年探花，官贵西兵备道。作《瓯北诗话》，论诗主『创新』，『江山代有才人出，各领风骚数百年』。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#黄景仁">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">黄景仁</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1749</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1783</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">清</shicang:eraName>
+        <shicang:zi xml:lang="zh">仲则</shicang:zi>
+        <shicang:biography xml:lang="zh">武进人。家贫，终生潦倒，三十五岁客死解州。诗风俊逸清怆，『十有九人堪白眼，百无一用是书生』写尽寒士心酸。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#龚自珍">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">龚自珍</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1792</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1841</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">清</shicang:eraName>
+        <shicang:zi xml:lang="zh">璱人</shicang:zi>
+        <shicang:hao xml:lang="zh">定盦</shicang:hao>
+        <shicang:biography xml:lang="zh">仁和人。道光九年进士，官礼部主事。近代思想启蒙先驱，诗风奇肆瑰丽，《己亥杂诗》『我劝天公重抖擞，不拘一格降人才』振聋发聩。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#陈廷焯">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">陈廷焯</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1853</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1892</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">清</shicang:eraName>
+        <shicang:zi xml:lang="zh">亦峰</shicang:zi>
+        <shicang:biography xml:lang="zh">丹徒人。光绪十四年举人。作《白雨斋词话》，倡『沉郁顿挫』说，为晚清重要词话。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#况周颐">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">况周颐</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1859</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1926</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">清末民初</shicang:eraName>
+        <shicang:zi xml:lang="zh">夔笙</shicang:zi>
+        <shicang:hao xml:lang="zh">蕙风</shicang:hao>
+        <shicang:biography xml:lang="zh">临桂人。光绪五年举人。与王鹏运、朱祖谋、郑文焯并称清末四大家。作《蕙风词话》，主『重、拙、大』词境。</shicang:biography>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#王国维">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Poet"/>
+        <rdfs:label xml:lang="zh">王国维</rdfs:label>
+        <shicang:birthYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1877</shicang:birthYear>
+        <shicang:deathYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1927</shicang:deathYear>
+        <shicang:eraName xml:lang="zh">清末/民国</shicang:eraName>
+        <shicang:zi xml:lang="zh">静安</shicang:zi>
+        <shicang:hao xml:lang="zh">观堂</shicang:hao>
+        <shicang:biography xml:lang="zh">浙江海宁人。清末诸生，早年治哲学美学，融合康德、叔本华与中国传统，作《人间词话》倡『境界说』。后转治史学甲骨。1927年自沉颐和园昆明湖。</shicang:biography>
+    </owl:NamedIndividual>
+
+    <!-- ============ 经典作品创作背景 ============ -->
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#静夜思">
+        <shicang:authoredBy rdf:resource="http://www.shicang.org/ontology#李白"/>
+        <shicang:composedInYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">726</shicang:composedInYear>
+        <shicang:composedBackground xml:lang="zh">开元十四年（726年），李白二十六岁出蜀远游，旅居扬州旅舍，秋夜望月思乡而作。时为第一次离家漫游，客居异地见月明而起故园之思。此诗自然天成，为千古思乡第一诗。</shicang:composedBackground>
+        <shicang:sourceBook xml:lang="zh">《李太白全集》卷六</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#水调歌头·明月几时有">
+        <shicang:authoredBy rdf:resource="http://www.shicang.org/ontology#苏轼"/>
+        <shicang:composedInYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1076</shicang:composedInYear>
+        <shicang:composedBackground xml:lang="zh">熙宁九年丙辰中秋（1076年），苏轼知密州，与弟苏辙（子由）已七年未见。中秋夜大醉作此篇兼怀子由。时因与王安石政见不合自请外放，政治失意与亲人离别交集，然终以『但愿人长久，千里共婵娟』达观收束。</shicang:composedBackground>
+        <shicang:sourceBook xml:lang="zh">《东坡乐府》卷上</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#离骚">
+        <shicang:authoredBy rdf:resource="http://www.shicang.org/ontology#屈原"/>
+        <shicang:composedInYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-300</shicang:composedInYear>
+        <shicang:composedBackground xml:lang="zh">屈原被楚怀王疏远、复遭顷襄王放逐沅湘之间时所作。司马迁《史记·屈原列传》：『屈平疾王听之不聪也，谗谄之蔽明也，邪曲之害公也，方正之不容也，故忧愁幽思而作《离骚》。』离，犹遭也；骚，忧也。全诗373句2490字，为我国最长抒情诗。</shicang:composedBackground>
+        <shicang:sourceBook xml:lang="zh">《史记·屈原贾生列传》《楚辞章句》</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#饮酒·其五">
+        <shicang:authoredBy rdf:resource="http://www.shicang.org/ontology#陶渊明"/>
+        <shicang:composedInYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">417</shicang:composedInYear>
+        <shicang:composedBackground xml:lang="zh">义熙十三年（417年）前后，陶渊明归隐园田居后作《饮酒》二十首，此为第五首。时辞官归田已十二年，躬耕自资，心远俗务，故能于采菊见山之际悟入自然真意。『采菊东篱下，悠然见南山』为田园诗千古名句。</shicang:composedBackground>
+        <shicang:sourceBook xml:lang="zh">《陶渊明集》</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#春望">
+        <shicang:authoredBy rdf:resource="http://www.shicang.org/ontology#杜甫"/>
+        <shicang:composedInYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">757</shicang:composedInYear>
+        <shicang:composedBackground xml:lang="zh">至德二载（757年）三月，安史乱中杜甫身陷沦陷的长安，见山河破碎草木荒芜，感时伤别而作。时长安被安史叛军焚掠殆尽，家书断绝，诗人忧国思家，白发搔短，沉郁悲怆。</shicang:composedBackground>
+        <shicang:sourceBook xml:lang="zh">《杜诗详注》卷四</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#登高">
+        <shicang:authoredBy rdf:resource="http://www.shicang.org/ontology#杜甫"/>
+        <shicang:composedInYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">767</shicang:composedInYear>
+        <shicang:composedBackground xml:lang="zh">大历二年（767年）秋，杜甫流寓夔州，重阳节独登白帝城外高台，时年五十六，患肺病、风痹、疟疾，右臂偏枯，好友李白、高适、严武皆已故去。『无边落木萧萧下，不尽长江滚滚来』，八句皆对，被推为古今七律第一。</shicang:composedBackground>
+        <shicang:sourceBook xml:lang="zh">《杜诗详注》卷二十</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#念奴娇·赤壁怀古">
+        <shicang:authoredBy rdf:resource="http://www.shicang.org/ontology#苏轼"/>
+        <shicang:composedInYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1082</shicang:composedInYear>
+        <shicang:composedBackground xml:lang="zh">元丰五年（1082年）七月，苏轼因乌台诗案贬黄州已三年，游黄冈城外赤鼻矶（俗传为三国周瑜破曹赤壁）作此词。时年四十七，功业无成而江山永恒，故有『人生如梦』之叹，开创豪放词风。</shicang:composedBackground>
+        <shicang:sourceBook xml:lang="zh">《东坡乐府》卷上</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#声声慢·寻寻觅觅">
+        <shicang:authoredBy rdf:resource="http://www.shicang.org/ontology#李清照"/>
+        <shicang:composedInYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1139</shicang:composedInYear>
+        <shicang:composedBackground xml:lang="zh">绍兴九年（1139年）前后，李清照南渡后流寓越州、金华，丈夫赵明诚已病逝多年，金石书画散佚殆尽，国破家亡孤苦无依。秋日黄昏独对梧桐细雨，以十四叠字开篇『寻寻觅觅，冷冷清清，凄凄惨惨戚戚』，为词史绝唱。</shicang:composedBackground>
+        <shicang:sourceBook xml:lang="zh">《漱玉词》</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#蜀道难">
+        <shicang:authoredBy rdf:resource="http://www.shicang.org/ontology#李白"/>
+        <shicang:composedInYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">742</shicang:composedInYear>
+        <shicang:composedBackground xml:lang="zh">天宝元年（742年）前后李白初入长安，贺知章见而叹为『谪仙人』。此诗沿用乐府旧题，以雄奇奔放笔势写蜀道险峻，讽劝当局慎择守令，勿使险地为野心家所据。贺知章解金龟换酒与饮，传为佳话。</shicang:composedBackground>
+        <shicang:sourceBook xml:lang="zh">《河岳英灵集》《李太白全集》</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#将进酒">
+        <shicang:authoredBy rdf:resource="http://www.shicang.org/ontology#李白"/>
+        <shicang:composedInYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">752</shicang:composedInYear>
+        <shicang:composedBackground xml:lang="zh">天宝十一载（752年），李白被赐金放还后与友人岑勋、元丹丘在嵩山颍阳山居置酒会饮，借酒抒愤，『天生我材必有用，千金散尽还复来』，满腔怀才不遇的郁勃之气化为豪放狂歌。</shicang:composedBackground>
+        <shicang:sourceBook xml:lang="zh">《李太白全集》卷三</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#琵琶行">
+        <shicang:authoredBy rdf:resource="http://www.shicang.org/ontology#白居易"/>
+        <shicang:composedInYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">816</shicang:composedInYear>
+        <shicang:composedBackground xml:lang="zh">元和十一年（816年）秋，白居易因上书请捕刺杀宰相武元衡之凶手而触怒权贵，由太子左赞善大夫贬江州司马。夜送客湓浦口，闻舟中长安故娼弹琵琶，感其漂沦憔悴，与己之迁谪同病相怜，作此长诗。『同是天涯沦落人，相逢何必曾相识』。</shicang:composedBackground>
+        <shicang:sourceBook xml:lang="zh">《白氏长庆集》卷十二</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#长恨歌">
+        <shicang:authoredBy rdf:resource="http://www.shicang.org/ontology#白居易"/>
+        <shicang:composedInYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">806</shicang:composedInYear>
+        <shicang:composedBackground xml:lang="zh">元和元年（806年），白居易任盩厔尉，与陈鸿、王质夫游仙游寺话及五十年前唐玄宗杨贵妃马嵬故事，质夫劝其作长歌。《长恨歌》成，陈鸿为作《长恨歌传》，写李杨爱情悲剧，遂为千古叙事名篇。</shicang:composedBackground>
+        <shicang:sourceBook xml:lang="zh">《白氏长庆集》卷十二</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#登鹳雀楼">
+        <shicang:authoredBy rdf:resource="http://www.shicang.org/ontology#王之涣"/>
+        <shicang:composedInYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">723</shicang:composedInYear>
+        <shicang:composedBackground xml:lang="zh">开元间，王之涣游蒲州登鹳雀楼（黄河边三楼之一），作此五绝。『欲穷千里目，更上一层楼』含进取哲理。与王昌龄、高适齐名，为盛唐边塞诗人。</shicang:composedBackground>
+        <shicang:sourceBook xml:lang="zh">《全唐诗》卷二百五十三</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#春晓">
+        <shicang:authoredBy rdf:resource="http://www.shicang.org/ontology#孟浩然"/>
+        <shicang:composedInYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">720</shicang:composedInYear>
+        <shicang:composedBackground xml:lang="zh">孟浩然隐居鹿门山时作。春眠初醒，闻处处鸟啼，忆昨夜风雨，念落花多少。自然天成，为幼学第一诗。</shicang:composedBackground>
+        <shicang:sourceBook xml:lang="zh">《全唐诗》卷一百六十</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#使至塞上">
+        <shicang:authoredBy rdf:resource="http://www.shicang.org/ontology#王维"/>
+        <shicang:composedInYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">737</shicang:composedInYear>
+        <shicang:composedBackground xml:lang="zh">开元二十五年（737年），王维以监察御史身份奉使凉州，宣慰河西节度副大使崔希逸，出塞途中作。『大漠孤烟直，长河落日圆』为千古壮观名句。</shicang:composedBackground>
+        <shicang:sourceBook xml:lang="zh">《王右丞集笺注》卷九</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#枫桥夜泊">
+        <shicang:authoredBy rdf:resource="http://www.shicang.org/ontology#张继"/>
+        <shicang:composedInYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">756</shicang:composedInYear>
+        <shicang:composedBackground xml:lang="zh">至德元载（756年）安史乱起，张继避乱南下游吴中，夜泊苏州枫桥，闻寒山寺钟声，羁旅愁绪成此绝唱。后寒山寺因此诗名扬日本，千古传诵。</shicang:composedBackground>
+        <shicang:sourceBook xml:lang="zh">《全唐诗》卷二百四十二</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#虞美人·春花秋月何时了">
+        <shicang:authoredBy rdf:resource="http://www.shicang.org/ontology#李煜"/>
+        <shicang:composedInYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">978</shicang:composedInYear>
+        <shicang:composedBackground xml:lang="zh">太平兴国三年（978年），李煜国亡入宋被囚汴京已近三年，七夕生日前夕，命故妓作乐唱『小楼昨夜又东风』，宋太宗闻之大怒，遣人赐牵机药毒死。此词为绝命词，『问君能有几多愁，恰似一江春水向东流』。</shicang:composedBackground>
+        <shicang:sourceBook xml:lang="zh">《南唐二主词》</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#雨霖铃·寒蝉凄切">
+        <shicang:authoredBy rdf:resource="http://www.shicang.org/ontology#柳永"/>
+        <shicang:composedInYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1025</shicang:composedInYear>
+        <shicang:composedBackground xml:lang="zh">柳永失意离汴京，与情人长亭话别时作。时仕途失意、情人别离，『多情自古伤离别，更那堪冷落清秋节』『今宵酒醒何处，杨柳岸晓风残月』，为婉约词代表作。</shicang:composedBackground>
+        <shicang:sourceBook xml:lang="zh">《乐章集》</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#江城子·密州出猎">
+        <shicang:authoredBy rdf:resource="http://www.shicang.org/ontology#苏轼"/>
+        <shicang:composedInYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1075</shicang:composedInYear>
+        <shicang:composedBackground xml:lang="zh">熙宁八年（1075年）冬，苏轼知密州，祭常山回与同官会猎于铁沟，作此词。自谓『令东州壮士抵掌顿足而歌之，吹笛击鼓以为节，颇壮观也』。为苏轼第一首豪放词，开豪放派先声。</shicang:composedBackground>
+        <shicang:sourceBook xml:lang="zh">《东坡乐府》卷下</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#满江红·怒发冲冠">
+        <shicang:authoredBy rdf:resource="http://www.shicang.org/ontology#岳飞"/>
+        <shicang:composedInYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1134</shicang:composedInYear>
+        <shicang:composedBackground xml:lang="zh">绍兴四年（1134年），岳飞第一次北伐收复襄汉六郡，驻军鄂州，登临黄鹤楼北望中原，感慨靖康之耻未雪作此词（虽作者真伪有考辨，然世传为武穆作）。『三十功名尘与土，八千里路云和月』『莫等闲白了少年头』，慷慨悲歌。</shicang:composedBackground>
+        <shicang:sourceBook xml:lang="zh">《岳忠武王集》</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#钗头凤·红酥手">
+        <shicang:authoredBy rdf:resource="http://www.shicang.org/ontology#陆游"/>
+        <shicang:composedInYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1155</shicang:composedInYear>
+        <shicang:composedBackground xml:lang="zh">绍兴二十五年（1155年），陆游三十一岁，在绍兴禹迹寺南沈园偶遇前妻唐琬（因陆母反对被迫仳离，唐已改嫁赵士程）。唐琬以黄封酒果肴款待，陆游怅然题此词于园壁，『错错错』『莫莫莫』，沈园因此成千古爱情圣地。</shicang:composedBackground>
+        <shicang:sourceBook xml:lang="zh">《放翁词》《齐东野语》</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#破阵子·为陈同甫赋壮词以寄之">
+        <shicang:authoredBy rdf:resource="http://www.shicang.org/ontology#辛弃疾"/>
+        <shicang:composedInYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1188</shicang:composedInYear>
+        <shicang:composedBackground xml:lang="zh">淳熙十五年（1188年），辛弃疾落职闲居上饶带湖，陈亮（同甫）自浙东来会，鹅湖之会后辛陈别去，弃疾作此壮词寄之。追忆当年抗金义军金戈铁马生涯，结句『可怜白发生』，壮志未酬之痛。</shicang:composedBackground>
+        <shicang:sourceBook xml:lang="zh">《稼轩长短句》</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#永遇乐·京口北固亭怀古">
+        <shicang:authoredBy rdf:resource="http://www.shicang.org/ontology#辛弃疾"/>
+        <shicang:composedInYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1205</shicang:composedInYear>
+        <shicang:composedBackground xml:lang="zh">开禧元年（1205年），辛弃疾六十六岁被韩侂胄起用知镇江府，镇守京口（今镇江），登临北固亭怀古，借孙权、刘裕、刘义隆、廉颇史事，警告北伐不可草率。为辛词压卷之作，杨慎以为稼轩词中第一。</shicang:composedBackground>
+        <shicang:sourceBook xml:lang="zh">《稼轩长短句》</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#天净沙·秋思">
+        <shicang:authoredBy rdf:resource="http://www.shicang.org/ontology#马致远"/>
+        <shicang:composedInYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1300</shicang:composedInYear>
+        <shicang:composedBackground xml:lang="zh">马致远仕途失意，漂泊江南时作。前三句连叠九种秋郊景物『枯藤老树昏鸦，小桥流水人家，古道西风瘦马』，末句『断肠人在天涯』点睛，被元人周德清誉为『秋思之祖』。</shicang:composedBackground>
+        <shicang:sourceBook xml:lang="zh">《东篱乐府》</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#西厢记">
+        <shicang:authoredBy rdf:resource="http://www.shicang.org/ontology#王实甫"/>
+        <shicang:composedInYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1300</shicang:composedInYear>
+        <shicang:composedBackground xml:lang="zh">元贞、大德间王实甫据董解元《西厢记诸宫调》与元稹《莺莺传》改编，写张生（珙）与崔莺莺在普救寺一见钟情，经侍女红娘协助终成眷属。『碧云天，黄花地，西风紧，北雁南飞。晓来谁染霜林醉？总是离人泪』。提出『愿天下有情的都成了眷属』。</shicang:composedBackground>
+        <shicang:sourceBook xml:lang="zh">《全元曲·崔莺莺待月西厢记》</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#牡丹亭">
+        <shicang:authoredBy rdf:resource="http://www.shicang.org/ontology#汤显祖"/>
+        <shicang:composedInYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1598</shicang:composedInYear>
+        <shicang:composedBackground xml:lang="zh">万历二十六年（1598年），汤显祖辞官归临川后完成《牡丹亭还魂记》，写杜丽娘与柳梦梅生死爱情，《惊梦》（游园）一出『原来姹紫嫣红开遍，似这般都付与断井颓垣。良辰美景奈何天，赏心乐事谁家院』，为千古名段。</shicang:composedBackground>
+        <shicang:sourceBook xml:lang="zh">《牡丹亭·题词》</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#人间词话">
+        <shicang:authoredBy rdf:resource="http://www.shicang.org/ontology#王国维"/>
+        <shicang:composedInYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1908</shicang:composedInYear>
+        <shicang:composedBackground xml:lang="zh">光绪三十四年（1908年）王国维在北平，时年三十二岁，融合康德、叔本华美学与中国传统词论，于《国粹学报》连载《人间词话》64则，倡『境界说』，标举『有我之境』『无我之境』，开启中国现代文论新境。</shicang:composedBackground>
+        <shicang:sourceBook xml:lang="zh">《人间词话》原稿</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#沧浪诗话">
+        <shicang:authoredBy rdf:resource="http://www.shicang.org/ontology#严羽"/>
+        <shicang:composedInYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1230</shicang:composedInYear>
+        <shicang:composedBackground xml:lang="zh">南宋中后期严羽（字仪卿）隐居邵武莒溪，与同族严参、严仁号『三严』。针对四灵、江湖诗派弊病作《沧浪诗话》，以禅喻诗，立『妙悟』『兴趣』『入神』三说，标举盛唐，对后世王士祯神韵说、王国维境界说影响深远。</shicang:composedBackground>
+        <shicang:sourceBook xml:lang="zh">《沧浪诗话·自序》</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#二十四诗品">
+        <shicang:authoredBy rdf:resource="http://www.shicang.org/ontology#司空图"/>
+        <shicang:composedInYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">890</shicang:composedInYear>
+        <shicang:composedBackground xml:lang="zh">司空图晚年隐于中条山王官谷，作《诗品》二十四首四言诗，以雄浑、冲淡、纤秾、沉着、高古、典雅、洗炼、劲健、绮丽、自然、含蓄、豪放、精神、缜密、疏野、清奇、委曲、实境、悲慨、形容、超诣、飘逸、旷达、流动二十四品论诗境，开后世诗品、词品、画品文体。</shicang:composedBackground>
+        <shicang:sourceBook xml:lang="zh">《二十四诗品》</shicang:sourceBook>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#桃花源记">
+        <shicang:authoredBy rdf:resource="http://www.shicang.org/ontology#陶渊明"/>
+        <shicang:composedInYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">421</shicang:composedInYear>
+        <shicang:composedBackground xml:lang="zh">永初二年（421年），陶渊明五十七岁，刘裕代晋建宋第二年，作《桃花源诗并记》，以武陵渔人误入桃花源的理想社会，寄托对乱世政治的否定与对淳朴太平世界的向往。为中国乌托邦文学之源。</shicang:composedBackground>
+        <shicang:sourceBook xml:lang="zh">《陶渊明集》卷六</shicang:sourceBook>
+    </owl:NamedIndividual>
+
+    <!-- ============ 典故实例（84个） ============ -->
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_fan_li_wu_hu">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">范蠡五湖</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">范蠡五湖</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《史记·货殖列传》《国语》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">范蠡既佐越王勾践灭吴，以勾践可与共患难难与处安，乃乘扁舟浮于江湖，变名易姓适齐为鸱夷子皮，之陶为陶朱公。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">622</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[中山诗话] 陈文惠善为四句诗，在江湖有诗云：「平波渺渺烟苍苍，菰蒲纔熟杨柳黄。扁舟系岸不忍去，秋风斜日鲈鱼乡。」文惠年六十余，纔为知制诰，其后遂至真宰使相致仕。文惠喜堆墨书，深自矜负，号前无古人，后无来者。与石少傅同在政府，石欲戏之，政事堂有黑漆大饭床，长五六尺许，石取白垩，横画其中，可尺余，而谓陈曰：「我颇学公堆墨字。」陈闻之欢甚。石顾小吏二人，舁饭床出，曰：「我已能写口字。」陈为怅然。</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_shou_yang_shi_jue">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">采薇首阳</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">采薇首阳</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《史记·伯夷列传》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">伯夷、叔齐义不食周粟，隐于首阳山采薇而食，遂饿而死。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">611</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[东坡诗话] 苏子由掌吏部时，东坡在翰苑。有人求东坡转致子由，有所干求。东坡戏谓之曰：“昔有一人，善掘坟，屡掘皆无所得。最后掘一帝王之坟，坟中王者起，谓之曰：‘朕汉文帝也，所葬皆纸衣、瓦器，他无所有也。’盗乃抢去。又掘一坟，亡者曰：‘予伯夷也，不食周粟而饿死，岂有厚葬哉。’盗见旁有一冢，复欲穿之。亡者曰：‘不劳下顾，此是舍弟叔齐。为兄的如此贫苦，舍弟也差不多。’”求者大笑而去。</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_niu_lang_zhi_nv">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">牛郎织女</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">牛郎织女</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《古诗十九首》《荆楚岁时记》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">天河之东有织女，天帝之女，年年织杼劳役；嫁河西牵牛后废织，帝怒，责令归河东，惟七月七日夜渡河一会。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">595</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[临汉隐居诗话] 苏丞相颂尝云：「馆中见王平甫题壁，有『宫殿影摇河汉外，江湖梦断鼓钟边』，使人吟想不已。」平甫尤工用事，而复对偶亲切。在京师有病中答予《秋日诗》曰：「忽吟佳客诗消暑，一作「驱暑」。远胜前人檄愈风。」又曰：「北海知天谕牛马，东方傲俗任龙蛇。」王绎学士葬以九月，平甫为挽词云：「九月清霜送陶令，千年白日见滕公。」时挽词甚多，无出此句。</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_mulan_congjun">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">木兰从军</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">木兰从军</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《木兰辞》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">花木兰女扮男装代父从军，征战十二年归，不受官爵。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">532</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[东坡诗话] 东坡知杭州，有名妓郑容，求落藉，高茔求从良。坡公俱准之。于判尾写一词，名《减字木兰花》：</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_zhaojun_chusai">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">昭君出塞</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">昭君出塞</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《后汉书·南匈奴传》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">王昭君字嫱，汉元帝时赐匈奴呼韩邪单于，琵琶马上作怨诗。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">413</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[中山诗话] 余靖两使契丹，虏情益亲，能胡语，作胡语诗。虏主曰：「卿能道，吾为卿饮。」靖举曰：「夜宴设逻厚盛也。臣拜洗，受赐。两朝阙荷通好。情感勤。厚重。微臣雅鲁拜舞。祝若统，福佑。圣寿铁摆嵩高。俱可忒。无极。」主大笑，遂为釂觞。汉史有〈盘木白狼诗〉，译出夷语，殆不若靖真胡语也。刘沆亦使虏，使凌压之，契丹馆客曰：「有酒如渑，系行人而不住。」沆应声曰：「在北曰狄，吹〈出塞〉以何妨。」仁宗待虏有礼，不使纤微迕之，二公俱谪官。</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_yuhuan_chenluo">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">杨贵妃赐死</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">杨贵妃赐死</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《新唐书·后妃传》《长恨歌》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">安史乱起，玄宗西逃，至马嵬坡，军士哗变，杨贵妃缢死佛堂。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">394</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[临汉隐居诗话] 唐人咏马嵬之事者多矣。世所称者，刘禹锡曰：「官军诛佞幸，天子舍妖姬。群臣伏门屏，贵人牵帝衣。低回转美目，风日为无辉。」白居易曰：「六军不发争奈何，宛转蛾眉马前死。」此乃歌咏禄山能使官军皆叛，逼迫明皇，明皇不得已而诛杨妃也。噫！岂特不晓文章体裁，而造语惷拙，抑已失臣下事君之礼矣。老杜则不然，其《北征》诗曰：「忆昨狼狈初，事与古先别。一本云：「惟昔艰难初，事与前世别。」……不闻夏商衰，中自诛褒妲。」乃见明皇鉴夏、商之败，畏天悔过，赐妃子死，官军何预焉？按《苕溪渔隐》曰：「予观《冷斋夜话》所论与此相同，但《隐居诗话》乃魏泰道辅所撰，道辅于觉范为前辈，必觉范述其说耳。然老杜谓夏、商诛褒、妲，褒姒，周幽</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_feng_qiu_huang">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">凤求凰</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">凤求凰</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">司马相如《凤求凰》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">司马相如饮卓氏，以琴心挑卓文君，文君夜奔相如。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">363</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[五代诗话] 张乔送人游蜀云剑阁缘空去西过第几州丹霄行客语明月杜鹃愁露带山花落云随野水流相如曽醉地莫恋少年游【全蜀艺文志】</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_quyuan_li_sao">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">屈原离骚</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">屈原离骚</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">屈原《离骚》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">屈原被谗放逐，忧愁幽思而作《离骚》，自沉汨罗。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">314</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[丽白楼诗话] 唐宋两代诗，先后媲美，无所轩轾。以言其工，突过汉魏，直接《三百篇》。何者？其意境固已极前此之世变与人事，而诗之才力又足以发其变。所谓“柏梁体”，所谓建安七子，不若是也。柏梁体特应制诗之滥觞，其本已拨。建安七子虽遭逢丧乱，其人物大都委靡颓废，徒知标榜豪放与清高，开六朝亹亹之风。中华民族性之不振，魏晋之诗，亦有以毒之也。晚近浅者，溺古不返，遂以为诗愈古则愈工，宋必不如唐，唐必不如汉魏六朝，而《三百篇》、《离骚》，莫敢议其一字者。吁，何其陋且固欤！</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_bosheng_yaqin">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">伯牙绝弦</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">伯牙绝弦</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《吕氏春秋·本味》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">伯牙善鼓琴，钟子期善听。子期死，伯牙谓世无知音，破琴绝弦，终身不复鼓。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">305</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[中山诗话] 孟东野诗，李习之所称：「食荠肠亦苦，强歌声不欢。出门如有碍，谁谓天地宽。」可谓知音。今世传《郊集》五卷，诗百篇。又有集号《咸池》者，仅三百篇，其间语句尤多寒涩，疑向五卷是名士所删取者。东野与退之联句诗，宏壮博辩，若不出一手。王深父云：「退之容有润色也。」</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_zixu_qifa">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">子虚上林</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">子虚上林</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">司马相如《子虚赋》《上林赋》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">司马相如假托子虚、乌有先生、亡是公三人之辞，作《子虚》《上林》赋。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">279</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[东坡诗话] 不意青州六从事，翻成乌有一先生。</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_taohuatan">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">桃花源</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">桃花源</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">陶渊明《桃花源记》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">武陵渔人误入桃花源，见秦时避乱者之后裔，居处安乐太平，出后不复得路。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">279</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[五代诗话] 庄宗喜音声歌舞俳优之戏自度曲云曾宴桃源深洞一曲舞鸾歌鳯长记别伊时和泪出门相送如梦如梦残月落花烟重或曰庄宗修内苑掘得断碑有此三十三字【词统】</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_dongshan_qihuan">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">东山再起</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">东山再起</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《晋书·谢安传》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">谢安少有重名，隐居会稽东山，年四十余始出为桓温司马，官至太保，淝水之战大破苻坚。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">270</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[三家诗话] 子才性好女色，而诗必牵合古人以就己。如咏罗隐庙则曰“隔帘娇女罢吹箫”，咏铜雀台则曰“招魂只用美人妆”，咏张睢阳庙则曰“刀上蛾眉唤奈何”，咏周瑜墓则曰“小乔何幸嫁夫君”，咏谢安石则曰“东山女伎亦苍生”。然此犹题中所应有也，至咏郭汾阳亦必曰“歌舞聊消种蠡愁”，则太牵合矣。其咏睢阳庙有“残兵独障全淮水，壮士同挥落日戈”一联，则为此题绝唱，苕生集中二首皆不及也。</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_kongming_chibi">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">赤壁之战</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">赤壁之战</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《三国志》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">周瑜破曹操于赤壁，诸葛亮借东风。诗词中常作英雄功业之典。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">260</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[三家诗话] 子才性好女色，而诗必牵合古人以就己。如咏罗隐庙则曰“隔帘娇女罢吹箫”，咏铜雀台则曰“招魂只用美人妆”，咏张睢阳庙则曰“刀上蛾眉唤奈何”，咏周瑜墓则曰“小乔何幸嫁夫君”，咏谢安石则曰“东山女伎亦苍生”。然此犹题中所应有也，至咏郭汾阳亦必曰“歌舞聊消种蠡愁”，则太牵合矣。其咏睢阳庙有“残兵独障全淮水，壮士同挥落日戈”一联，则为此题绝唱，苕生集中二首皆不及也。</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_xishi_huan_sha">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">西施浣纱</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">西施浣纱</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《吴越春秋》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">越献西施于吴以乱其政，相传西施浣纱于若耶溪，鱼见之忘游而沉。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">237</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[五代诗话] 唐人诗句中用俗语者惟杜荀鹤罗隠为多杜荀鹤诗如曰秪恐为僧僧不了为僧得了尽输僧曰乍可百年无称意难教一日不吟诗曰啼得血流无用处不如缄口过残春曰举世尽从愁里老谁人肯向死前闲曰世间多少能言客谁是无愁行睡人曰逢人不说人间事便是人间无事人曰莫道无金空有寿有金无寿欲何如罗隠诗如曰西施若解亡人国越国亡来又是谁曰今宵有酒今宵醉明日愁来明日愁曰能消造化几多力不受阳和一防尘曰只知事逐眼前去不觉老从头上来曰时来天地皆同力运去英雄不自由曰采得百花成蜜后不知辛苦为谁甜曰明年更有新条在绕乱春风卒未休今人多引此语往往不知谁作【野客丛书】杜荀鹤赠僧诗云安禅不必须山水灭得心头火自清又云利门多路两何凭百嵗风前短焰灯只恐为僧心不了为僧</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_chang_e_benyue">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">嫦娥奔月</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">嫦娥奔月</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《淮南子·览冥训》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">羿请不死之药于西王母，姮娥窃以奔月，托身于月，是为蟾蜍。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">230</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[五代诗话] 李后主宫中未尝防烛每至夜则悬大宝珠光照一室如日中尝赋玉楼春宫词曰晚妆初了明肌雪春殿嫦娥鱼贯列笙箫吹断水云间重按霓裳歌遍彻临春谁更飘香屑醉拍阑干情未切归时休照烛花红待放马蹄清夜月王阮亭南唐宫词云花下投籖漏滴壶秦淮宫殿浸虚无从兹明月无顔色御阁新悬照夜珠极能道其遗事【词苑丛谈】</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_qingniao_yinchuan">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">青鸟传书</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">青鸟传书</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《汉武故事》《山海经》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">七月七日西王母会汉武帝，先有青鸟来集殿前，青鸟为西王母使者。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">222</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[东坡诗话] 米芾，字符章，天性好洁。御赐一砚，名曰瑶池。每出观，必再拜而淡玩，不敢擅用也。东坡一日请观瑶池砚，元章命之再拜，而后出示之。东坡曰：“此砚虽好，未知发墨何如？”因见案上有墨，坡遂以唾磨之。元章骂曰：“胡子坏吾砚矣。”遂以砚与东坡。东坡曰：“御赐岂可与人。”元章曰：“污砚岂可复用。”坡笑持砚而回诗曰：</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_lanting_yaji">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">兰亭雅集</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">兰亭雅集</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">王羲之《兰亭集序》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">永和九年，王羲之与谢安、孙绰等41人会于会稽山阴兰亭，修禊事也，曲水流觞。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">216</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[五代诗话] 右杨景度行书山谷有云俗书只识兰亭面欲换凡骨无金丹谁知洛阳杨风子下笔便到乌丝防为前辈推重如此王钦若在祥符天祝节尚有暇及此邪此帖絶无发风动气处尤可宝也鲜于枢获观信笔书【瑚网】</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_songyu_beiqiu">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">宋玉悲秋</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">宋玉悲秋</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">宋玉《九辩》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">悲哉秋之为气也！萧瑟兮草木摇落而变衰。后世以宋玉悲秋为秋愁之典。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">211</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[中山诗话] 唐诗赓和，有次韵，先后无易。有依韵，同在一韵。有用韵，用彼韵不必次。吏部和皇甫〈陆浑山火〉是也，今人多不晓。刘长卿〈余干旅舍〉云：「摇落暮天迥，丹枫霜叶稀。孤城向水闭，独鸟背人飞。渡口月初上，邻家渔未归。乡心正欲绝，何处捣征衣。」张籍〈宿江上馆〉云：「楚驿南渡口，夜深来客稀。月明见潮上，江静觉鸥飞。旅宿今已远，此行殊未归。离家久无信，又听捣砧衣。」两诗偶似次韵，皆奇作也。</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_wangdi_tijue">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">望帝啼鹃</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">望帝啼鹃</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《华阳国志》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">蜀王杜宇号望帝，禅位后化为杜鹃鸟，春月悲啼，至于口中流血。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">206</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[五代诗话] 余记太白有诗云野禽啼杜宇山蝶舞庄周后又见潘佑有感懐诗幽禽唤杜宇宿蝶梦庄周席地一樽酒思与元化浮但莫孤明月何必秉烛游余谓才思暗合古今无殊不可怪也【法藏碎金】</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_yu_lin_qi_gu">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">鱼龙变化</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">鱼龙变化</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《辛氏三秦记》等</shicang:sourceBook>
+        <shicang:story xml:lang="zh">河津一名龙门，暮春之际黄鳞鲤鱼逆流而上，过者化为龙，即鲤鱼跳龙门。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">201</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[丽白楼诗话] 王礼锡，江西安福人。有《市声草》、《去国草》。岁丁卯，余始治社会主义之学，旁及欧美文学，迄于辛未、壬申而有成。时垫居上海，得交礼锡，知其于此事亦勤研求，遂多过从。礼锡偶见余诗，大惊服，索稿尽读，益相推许。兼出示己作，则致力于东野、宛陵，而尤酷肖清江湜。其七言古体，如《龙门道中》一首，直摩梅都官之背；《南浔车中看山》一首，则置诸《伏敔堂集》，几乱楮叶。然礼锡诗善学古人，而不为古人所囿，盖能为今人之诗者，此所以可贵也。《去国草》皆其留滞欧洲所作，不逮《市声草》之精悍，顾亦多隽语。余曾和其《呜呼吾安往兮》六首，惜礼锡不及见之耳。</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_zhangsun_wanliu">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">灞桥折柳</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">灞桥折柳</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《三辅黄图》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">汉人送客至灞桥，折柳赠别。灞桥在长安东。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">201</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[五代诗话] 宋初人佳句如杨徽之春望云杳杳香芜何处尽摇摇风栁不胜垂江行云新霜染枫叶皓月借芦花嘉阳川云青帝已教春不老素娥何惜月长圆元夜云雪归万年树月满九重城徐铉病中云向空咄咄频书字举世滔滔莫问津梁周翰山居云宿雨一番蔬甲拆春山几处茗旗香郑文宝春郊云百草千花路斜风细雨天送别云杜曲花光浓似酒灞陵春色老于人送人去云满帆西日催行客一夜东风落楚梅刘师道寄别云南浦未伤春草碧北山仍愧晓猿惊叹世云野马窗边日醯鸡瓮里天李宗鄂春郊云一溪晚绿浮鸂万树春红呌杜鹃李维渚宫亭云故宫荒草在往事暮江流送人越州云风樵若邪路霜钓洞庭秋丁谓送章南云梅花过岭路桃叶渡江船芭蕉云绿章封事缄初启青鳯求凰尾乍开晏殊云东阳诗骨痩南浦别魂销钱昭度村居云黄蜂衙退</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_minghuang_xingyu">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">霓裳羽衣</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">霓裳羽衣</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">唐郑嵎《津阳门诗》注等</shicang:sourceBook>
+        <shicang:story xml:lang="zh">传唐玄宗游月宫得仙乐，归制《霓裳羽衣曲》，杨贵妃善舞。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">197</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[丽白楼诗话] 凡大家诗，必有多方面，千篇一致，仅是名家。故义山、放翁，造诣更在王、孟、韦、柳之上，其得于杜独多也。白香山之《长恨歌》、《霓裳羽衣舞歌》、《琵琶行》与其他七言古体，截然两人所作。而少陵五七言律与荆公七言绝句，又皆千声万态，绝不类出于一家之手。此其所以为大也。玉溪之前后《无题》，以及《锦瑟》、《碧城》诸作，皆从老杜之“雷声忽送千峰雨，花气浑如百和香”一首脱胎而出；而《写意》、《随师东》、《重有感》、《筹笔驿》诸作，皆渊源于老杜之“花近高楼伤客心”一首，其《春雨》、《楚宫》、《流莺》诸作，又老杜之“一片花飞减却春”二首之变化也。至乃“人生何处不离群”之作，则真与子美之“兵戈不见老莱衣”一首，神似极</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_jiakang_sanxian">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">竹林七贤</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">竹林七贤</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《世说新语》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">嵇康、阮籍、山涛、向秀、刘伶、王戎、阮咸七人常集于竹林之下，肆意酣畅。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">151</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[五代诗话] 吉王从谦元宗第九子风采峭整喜为诗动有规诲后主常与侍臣奕从谦甫数岁侍侧后主命赋观棋诗曰竹林二君子尽日意沈吟相对虽无语争先各有心恃强知易失守分固难侵若算机筹处沧溟想未深【马令南唐书】</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_shu_li_zhi_bei">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">黍离之悲</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">黍离之悲</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《诗经·王风·黍离》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">周大夫过故宗庙宫室，尽为禾黍，彷徨不忍去，作《黍离》。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">145</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[东坡诗话] 四野荒荒禾黍焦，九重宵旰独殷劳。</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_xiangru_sijun">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">长门买赋</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">长门买赋</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">司马相如《长门赋》序</shicang:sourceBook>
+        <shicang:story xml:lang="zh">汉武帝陈皇后失宠，奉黄金百斤请司马相如作《长门赋》以悟主上，复得亲幸。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">141</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[人间词话删稿] [1]　辛弃疾《贺新郎》（送茂嘉十二弟）：“绿树听鹈鴂。更那堪、鹧鸪声住，杜鹃声切！啼到春归无寻处，苦恨芳菲都歇。算未抵人间离别。马上琵琶关塞黑，更长门翠辇辞金阙。看燕燕，送归妾。　将军百战身名裂。向河梁、回头万里，故人长绝。易水萧萧西风冷，满座衣冠似雪。正壮士悲歌未彻。啼鸟还知如许恨，料不啼清泪长啼血。谁共我，醉明月？”</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_xi_shi">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">西子捧心</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">西子捧心</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《庄子·天运》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">西施病心而矉其里，人以为美。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">140</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[五代诗话] 洪州杨轩咏牡丹曰杨妃歌舞态西子巧谗魂利剑砍不断余妖钟此根光华日已盛栏槛岂长存寄语寻芳者须知松栢尊罗隠曰若教解语应倾国任是无情也动人二人用意不同如此轩诗虽撚风花而有警戒【虞斋广録】</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_jian_jia">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">蒹葭伊人</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">蒹葭伊人</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《诗经·秦风·蒹葭》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">所谓伊人，在水一方。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">134</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[五代诗话] 陆蟾寓居攸县司空山好神仙辟糓累月题庐山瀑云正源人莫测千尺挂云端岳色染不得神功裁亦难夏喷猿鸟浴秋射斗牛寒流到沧溟日翻涛更好看春莫经石头城云六朝多少事搘肘思悠悠落日空江上子规啼渡头蒹葭浸废垒烟雾接沧洲今古分明在那堪向九秋【雅言杂载】</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_wenji_guihan">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">文姬归汉</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">文姬归汉</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《后汉书·列女传》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">蔡文姬陷匈奴十二年，曹操以金璧赎归，作《胡笳十八拍》。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">126</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[二老堂诗话] 周紫芝《竹坡诗话》第一段云：「杜少陵〈游何将军山林诗〉，有『雨拋金锁甲，苔卧绿沉枪』之句。言甲拋于雨，为金所锁；枪卧于苔，为绿所沉。有将军不好武之意。余读薛氏《补遗》，乃以绿沉为精铁，谓隋文帝赐张奫以绿沉之甲是也，不知金锁当是何物。后又读赵德麟《侯鲭录》，谓绿沉为竹，乃引陆氏龟蒙诗：『一架三百竿，绿沉森杳冥。』此尤可笑。」已上皆紫芝之语。余按苻坚使熊邈造金银细铠，为金线以缧之。蔡琰诗云：「金甲耀日光。」至今谓甲之精细者为锁子甲，言其相衔之密也。紫芝工诗，而诗话百篇，疏失如此，何邪？绿沉为精铁，则不待辨矣。</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_taoyao_zhishang">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">桃叶渡</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">桃叶渡</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">王献之《桃叶歌》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">王献之爱妾桃叶，渡江作歌送之，后人因名其渡为桃叶渡。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">117</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[五代诗话] 宋初人佳句如杨徽之春望云杳杳香芜何处尽摇摇风栁不胜垂江行云新霜染枫叶皓月借芦花嘉阳川云青帝已教春不老素娥何惜月长圆元夜云雪归万年树月满九重城徐铉病中云向空咄咄频书字举世滔滔莫问津梁周翰山居云宿雨一番蔬甲拆春山几处茗旗香郑文宝春郊云百草千花路斜风细雨天送别云杜曲花光浓似酒灞陵春色老于人送人去云满帆西日催行客一夜东风落楚梅刘师道寄别云南浦未伤春草碧北山仍愧晓猿惊叹世云野马窗边日醯鸡瓮里天李宗鄂春郊云一溪晚绿浮鸂万树春红呌杜鹃李维渚宫亭云故宫荒草在往事暮江流送人越州云风樵若邪路霜钓洞庭秋丁谓送章南云梅花过岭路桃叶渡江船芭蕉云绿章封事缄初启青鳯求凰尾乍开晏殊云东阳诗骨痩南浦别魂销钱昭度村居云黄蜂衙退</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_wuhou_liangfu">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">梁甫吟</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">梁甫吟</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《三国志·诸葛亮传》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">亮躬耕陇亩，好为《梁父吟》。每自比于管仲乐毅。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">112</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[五代诗话] 陶剑浦人居南昌之西山宋齐丘守南昌因有蒲安之觐乃自咏云中原莫道无麟鳯自是皇家结网疎与水曹任畹郎中友善寄畹诗云好向明时荐遗逸莫教千里又灵均江南后主即位知其运祚衰替以修养为事故诗云乾坤见了文章懒龙虎成来印绶疎严尚书宇镇豫章遣小妓莲花者往西山侍陶陶殊不顾妓为诗曰莲花为号玉为腮珍重尚书遣妾来处士不生巫峡梦虚劳神女下阳台陶答之曰近来诗思清如月老大心情薄似云已向升天得门户锦衾深媿卓文君【唐诗纪事】陶少与水曹任畹相善寄之诗云好向明时荐遗逸莫教千古吊灵均又自咏云近来世上无徐庶谁向桑麻识卧龙【十国春秋】</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_dongli_caiju">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">东篱采菊</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">东篱采菊</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">陶渊明《饮酒》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">采菊东篱下，悠然见南山。后世以东篱为隐逸之典。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">109</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[东坡诗话] “采菊东篱下，悠然见南山。”因采菊而见山，境与意会，此句最有妙处。近岁俗本皆作“望南山”，则此一篇神气多索然矣。古人用意深微，而俗士率然妄以意改，此最可疾。</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_xiangyu_gai">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">霸王别姬</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">霸王别姬</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《史记·项羽本纪》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">项羽被困垓下，夜闻四面楚歌，虞姬和歌自刎，霸王乌江自刎。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">104</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[五代诗话] 项羽夜闻汉军四面皆楚歌泣数行下歌曰力拔山兮气盖世时不利兮骓不逝骓不逝兮可奈何虞兮虞兮奈若何东坡志林载李后主去国之词云四十年来家国八千里地山河曾几识干戈一旦归为臣虏沈腰潘鬓消磨最是仓黄辞庙日教坊犹奏别离歌挥泪对宫娥东坡谓后主当恸哭于九庙下谢其民而行却乃挥泪宫娥听教坊离曲哉歌辞凄怆同归一揆然项王悲歌慷慨犹有喑呜叱咤之气后主直是养成儿女子态耳【希通录】</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_nongyu_xiaoyu">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">弄玉吹箫</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">弄玉吹箫</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《列仙传》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">秦穆公女弄玉嫁善吹箫之萧史，日教弄玉作风鸣，后凤凰来止，二人乘凤仙去。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">95</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[五代诗话] 洞微志云屯田员外郎冯敢景德三年为开封府丞检涝戸田宿史胡店日落忽见三妇人过店前入西畔古佛堂敢料其鬼也携童王侃诣之延坐饮酒称二十六舅母者请王侃歌送酒二女侧听十四姨者曰何名也侃对曰喝防子十四姨曰非也此曲单州营妓教头葛大娘所撰新声梁祖作四镇时驻兵鱼台值十月二十一日生日大娘献之梁祖令李振填辞付后骑唱之以押马队因号葛大娘及战得胜日始流传河北军中竞唱以押马队故讹曰喝防子庄皇入洛有歌此曲者谓左右曰此亦古曲葛氏但更五七声耳李珣琼瑶集有凤台曲注云俗谓之喝防子不载何宫调今世羽调宫有慢句读与古不类耳【碧鸡漫志】</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_shiyang_jiuren">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">东施效颦</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">东施效颦</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《庄子·天运》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">西施病心而矉其里，其里之丑人见而美之，归亦捧心而矉。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">89</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[五代诗话] 词家多翻诗意入词虽名流不免吾尝爱李后主一斛珠末句云绣床斜凭娇无那烂嚼红绒笑向檀郎唾杨孟载春绣絶句云闲情正在停针处笑嚼红绒唾北窗此却翻词入诗弥子瑕竟效颦于南子【词筌】</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_meiren_tianya">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">美人迟暮</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">美人迟暮</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">屈原《离骚》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">惟草木之零落兮，恐美人之迟暮。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[人间词话] 南唐中主词："菡萏香销翠叶残，西风愁起绿波间。"大有众芳芜秽，美人迟暮之感。乃古今独赏其"细雨梦回鸡塞远，小楼吹彻玉笙寒。"故知解人正不易得。</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_zhuangzhou_mengdie">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">庄周梦蝶</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">庄周梦蝶</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《庄子·齐物论》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">昔者庄周梦为胡蝶，栩栩然胡蝶也，俄然觉，则蘧蘧然周也。不知周之梦为胡蝶与，胡蝶之梦为周与。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">84</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[五代诗话] 余记太白有诗云野禽啼杜宇山蝶舞庄周后又见潘佑有感懐诗幽禽唤杜宇宿蝶梦庄周席地一樽酒思与元化浮但莫孤明月何必秉烛游余谓才思暗合古今无殊不可怪也【法藏碎金】</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_yang_liu_yi_yuan">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">杨柳依依</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">杨柳依依</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《诗经·小雅·采薇》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">昔我往矣，杨柳依依；今我来思，雨雪霏霏。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">79</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[今传是楼诗话] 二七四、杭州西湖湖滨，别庄林立，甲于东南。而吾友刘问刍（学询）所居，尤擅园林之胜，即世所称刘庄者也。君久作厉公，静观世变，忧时感事，托诸咏歌。丙寅冬有和余柬游杂诗十首，录其二云：“年年避地沧州卧，辜负黄花几度开。毕竟西湖抛未得，不辞风雪夜归来。”“斜风细雨雪霏霏，欲破春寒酒力微。满地落红天不管，水云深处掩双扉。”又《戊辰人日快雪后见忆》云：“人日题诗奇故知，阳春白雪愧新词。平吴入蔡烽烟息，为赋泉明归去辞。”可以见其高致。君别字西湖水竹居士，其近状余友韩次君每为言之，盖向往非一日矣。</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_xiao_shi_nong_yu">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">乘鸾跨凤</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">乘鸾跨凤</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《列仙传》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">萧史善吹箫作凤鸣，秦穆公以女弄玉妻之，为作凤台，后夫妇乘鸾凤仙去。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">78</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[东坡诗话] 今日秦楼初跨凤，争看君子咏河洲。</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_hanxin_kuaxia">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">胯下之辱</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">胯下之辱</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《史记·淮阴侯列传》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">韩信少时受辱于淮阴屠中少年，俯出胯下；后封楚王，召辱己者以为中尉。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">77</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[二老堂诗话] 刘禹锡淮阴行</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_jiangtaigong_diaoyu">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">渭川垂钓</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">渭川垂钓</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《史记·齐太公世家》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">太公望吕尚钓于渭滨，周文王出猎遇之，载与俱归，立为师。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[五代诗话] 钱昭度能诗尝作吕申公夷简生日诗云磻溪重得吕维岳再生申当时诗格律止此然可谓着题也已【彦周诗话】郭平振武旧将分配钱塘给官屋居之屋在修文坊旧为白校书尤赁烧丹药未欲往而官吏丁疎因逐之乃破炉而去白因召丁疎同饮谓疎曰大药为吾子所破有小戏术醒酒乃取盘一面置于膝上以指敲腕出五色弹子两枚化为双燕而飞白曰仆射髭甚繁可减些言未毕二燕化为二小劒长五寸余锋刃如雨交舞于疎之颐颔间髭落如雪疎惧甚白呼劒下盘中依前成二丸纳于左右腕而去钱昭度赠白诗云袖里青锋秋水寒谁疑双燕是金丸出门风雨知何去空有霜髭在玉盘【洞防志】</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_zhugeliang_chushi">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">三顾茅庐</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">三顾茅庐</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">诸葛亮《出师表》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">先帝不以臣卑鄙，猥自枉屈，三顾臣于草庐之中。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[东坡诗话] 三顾茅庐访此人，（孔明）</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_huang_liang_yi_meng">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">黄粱一梦</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">黄粱一梦</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">沈既济《枕中记》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">卢生于邯郸道中遇吕翁，枕其瓷枕入梦，历尽荣华，醒来主人黄粱尚未熟。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[五代诗话] 复斋漫录云异闻集载沈旣济作枕中记云开元中道者吕翁经邯郸道上邸舎中以囊中枕借卢生睡事此之吕翁非洞宾也盖洞宾尝自叙以为吕渭之孙仕德宗朝今云开元则吕翁非洞賔无可疑者苕溪渔隐曰回仙尝有词云黄粱炊未熟梦惊残尚用枕中记故事可见其非吕翁也灵怪集载南柯太守传与枕中记事絶相类浮世荣枯固已如梦矣此二事又于梦中作梦记可笑亦可叹【渔隐丛话】</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_kuafu_bayi">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">女娲补天</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">女娲补天</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《淮南子·览冥训》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">往古之时四极废九州裂，女娲炼五色石以补苍天，断鳌足以立四极。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">61</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[五代诗话] 冯涓初除京兆府防军恩地杜相审权有江西之拜制未出召涓密语延辟之命戒勿泄涓漏其言于友人郑寛寛寻捧刺诣贺杜遂鄙涓浅薄不预初选及亷车发日涓候别于长乐杜长揖曰勉旃后分符眉州不得之任在西川重围中局蹐于陈田之间羇愁六年徒步糊口着怀秦赋有南冠龙吟等集皆伤蹭蹬也集有蜀防引其要云昂藏大步蚕丛国曲颈微伸高九尺卓女窥窓莫我知严仙据案何曾识又题支机石云不随俗物皆成土只待明时却补天惜知已之不遇也【唐诗纪事】涓性滑稽语多讥诮高祖尝问击抡之戏剙自何人涓对曰丘八所制高祖为大笑又与司空王锴等小酌锴举令一字三呼两物相似曰乐乐乐冷淘似馎饦涓曰已已已驴粪似马矢坐中大噱涓但长啸而已【十国春秋】冯涓蜀防引云自古皆传蜀道难尔何能过拔蛇山忽惊</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_toubi_congru">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">投笔从戎</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">投笔从戎</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《后汉书·班超传》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">班超家贫常为官佣书，尝辍业投笔叹曰：大丈夫当立功异域，安能久事笔砚间乎？后立功西域封定远侯。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[五代诗话] 防州布衣頼仙芝言连州有黄损仆射者五代时人仆射盖事南汉未老退归一日忽遁去莫知其存亡子孙画像事之凡三十二年复归坐阼阶呼家人其子适不在孙出见之索笔书壁上云一别人间嵗月多归来人事巳消磨惟有门前鉴池水春风不改旧时波投笔竟去不复留子归问其状貌孙云甚似影堂老人也【东坡志林】</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_jingzhong_baoguo">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">精忠报国</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">精忠报国</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《宋史·岳飞传》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">岳飞背有『尽忠报国』四字，为母所刺；抗金屡立战功，为秦桧所害。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[今传是楼诗话] 一三九、徵宇又有《杭州杂诗》八首云：“营门归马踏长衢，坐对烟波想故都。山水有灵吾岂诳，此来端不为西湖。”“绾毂东南唱止戈，一家杭沪免谁何。湖滨逆旅持名籍，记得诸侯客子多。”“酒盏当栏携妓客，蓑衣冲雨采专舟。寒烟荒梗成今度，夏景忽忽不肯留。”“双桨夷犹恋夕晖，寻人不遇不空归。湖游半日仍粗了，只见山兜上翠微。”“林墓梅花开未开，孤山须是厌尘埃。平湖秋月偏相近，昏黑循堤独到来。”“十八年前湖上夜，行宫门外月如霜。我生只此泛舟役，说与故人应断肠。”“精忠恨不国威扬，保障长思捍海塘。千载浙人还浙土，岳王恐合让钱王。”“潮弩方湔百越羞，瓯闽地尽古扬州。相从漫有江湖意，野鹤闲云愧贯休。”“绾毂”一首，为浙帅</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_nan_ke_yi_meng">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">南柯一梦</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">南柯一梦</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">李公佐《南柯太守传》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">淳于棼醉卧古槐下，梦入槐安国为南柯太守，醒见蚁穴方知一梦。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[东坡诗话] 黄州大通禅师，操行高洁。人非斋沐，不敢登堂。一日，东坡挟妓谒之。大通不悦。坡公作《南柯子》词，命妓歌而诮之曰：</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_changhong_bihua">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">苌弘化碧</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">苌弘化碧</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《庄子·外物》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">苌弘忠于周而见杀，藏其血三年化为碧玉。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[今传是楼诗话] 九四、中丞遗集，老友姜园谋为校刊，卒卒未果。兹就余所及记者录之。《庚戌中秋前一日，集子明司使衙斋感事有作》云：“庾亮南楼不可寻，松江万里接重阴。中流箫鼓音全歇，大地河山意欲沉。寂寞鱼龙穷变化，寥鸿雁倦登临。悠悠长夜成何意，空结《离骚》一片心。”中丞忧国如，情见乎词。徐锡丞（鼎康）和之，有句石：“但使江山纾北顾，不愁风雨自东临。”亦佳。又《述异》一首云：“海宇纷纷角群雄，箕子千年亡故封。鸡林秋半忽地震，灾异惊倒百岁翁。相传卧榻容鼾睡，长夜沉沉如梦寐。Τ处潜生他族滋，振发盖非苍昊意。从来苌叔敢违天，孤忠碧血自年年。不知东海多深浅，要取微禽木石填。”其时朝鲜既亡，东省渐有岌岌之势。中丞此诗，盖非</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_jingwei_tianhai">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">精卫填海</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">精卫填海</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《山海经·北山经》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">炎帝之女女娃游于东海溺而不返，化为精卫鸟，常衔西山木石以堙东海。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[二老堂诗话] 江洲《陶靖节集》末载，宣和六年，临溪曾弦谓靖节〈读山海经诗〉，其一篇云：「形夭无千岁，猛志固常在。」疑上下文义不贯，遂按《山海经》有云：「刑天，兽名，口衔干戚而舞。」以此句为：「刑天舞干戚。」因笔画相近，五字皆讹。岑穰晁咏之抚掌称善。余谓纮说固善，然靖节此题十三篇，大概篇指一事。如前篇终始记夸父，则此篇恐专说精卫衔木填海，无千岁之寿，而猛志常在，化去不悔。若并指刑天，似不相续。又况末句云：「徒设在昔心，良晨讵可待。」何预干戚之猛耶？后见周紫芝《竹坡诗话》第一卷，复袭纮意以为己说，皆误矣。</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_guan_ju">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">关雎</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">关雎</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《诗经·周南·关雎》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">关关雎鸠，在河之洲；窈窕淑女，君子好逑。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[五代诗话] 继国后周氏昭后女弟也警敏有才思神彩端静昭后殁后未胜礼服待年宫中明年后主居尊圣后防故中宫久虚开寳元年始议立后为继室命太常博士陈致雍攷古今沿革草具昬礼又命学士徐铉知制诰潘佑参定铉曰昬礼古不用乐佑以为今古不相沿袭请用乐铉曰按古房中乐无钟鼔佑引诗窈窕淑女钟鼓乐之则房中乐宜有钟鼓后初见君后魏书有先拜后起帝后拜先起之文铉举此以为夫妇之礼人伦之本请答拜佑以为王者昬礼不与庶人同请无答拜议久不决后主令文安郡公徐游评其异同游多是佑议遂施用之后少以戚里间入宫掖圣尊后絶怜哀之后主制乐府艳其事有衩袜金缕鞵之句辞甚狎眤颇传于外至纳后乃成礼而已翼日大燕羣臣韩熈载以下皆作诗讽焉而后主不之谴也古今风謡载后主时江南童謡曰索得</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_wenji_qilun">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">闻鸡起舞</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">闻鸡起舞</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《晋书·祖逖传》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">祖逖与刘琨俱为司州主簿，中夜闻荒鸡鸣，蹴琨觉曰：此非恶声也，因起舞。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[五代诗话] 卢延让苦吟诗云莫话诗中事诗中难更无吟安一个字撚断数茎须险覔天应闷狂摉海亦枯不同文赋易为著者之乎夫之乎也矣兮哉在古俱不为韵如左右流之寤寐求之俟我于着乎而河水清且涟漪何其处也必有以也顔之厚矣出自口矣其实七兮迨其吉兮反是不思亦已焉哉是究是图亶其然乎谚云之乎者也矣焉哉用得成章好秀才后之文人则徃徃用之叶韵矣刘琨诗刍狗之谈其最得乎【留青日札】</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_taohuawu_sannong">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">梅花三弄</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">梅花三弄</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">晋桓伊笛曲</shicang:sourceBook>
+        <shicang:story xml:lang="zh">桓伊善吹笛，王徽之遇于清溪，邀作三调，弄毕上车去，客主不交一言。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[今传是楼诗话] 四六○、石雪不见，将逾二年，闻大隐连滨，时复相念。近写墨竹见奇，且媵以诗云：“中郎去后桓伊老，凤啸龙吟孰赏音。三复临川刚瘦句，千秋能得此君心。”盖用王荆公有“人怜直节生来瘦，自许高处老更刚”诗意。石雪最工画竹，题画绝句，无一不佳。丙寅以来，得诗又二百余首。续集之刊，拭目以俟。</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_taoyuan_wuliu">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">五柳先生</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">五柳先生</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">陶渊明《五柳先生传》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">宅边有五柳树，因以为号。不戚戚于贫贱，不汲汲于富贵。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[今传是楼诗话] 一○五、广雅《食陶菜》诗云：“都官留鲫为嘉宾，作传方洗洛尘。今日街南询柳嫂，只缘曾识旧京人。（自注：陶凫香宗伯以西湖五柳居烹鱼法授酒家，名陶菜，今寝失其法。柳五嫂乃汴京厨襄。”）所谓酒家即指广和居，余曾见公手书诗稿初作广和居，后改酒家二字。</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_zhuangyuan_hongmen">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">卧薪尝胆</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">卧薪尝胆</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《史记·越王勾践世家》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">越王勾践反国，苦身焦思，置胆于坐，坐卧即仰胆，饮食亦尝胆，卒灭吴。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[优古堂诗话] 唐窦唐窦巩有《南游感兴》诗：“伤心欲问当时事，惟见江流去不回。日暮东风春草绿，鹧鸪飞上越王台。”盖用李太白《览古》诗意也。李云：“越王勾践破吴归，义士还家尽锦衣。宫女如花满春殿，只今惟有鹧鸪飞。”古</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_jing_wei">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">杜鹃啼血</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">杜鹃啼血</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">华阳国志等</shicang:sourceBook>
+        <shicang:story xml:lang="zh">蜀王杜宇死后魂魄化为杜鹃，至春则啼，血出草木上为杜鹃花。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[人间词话删稿] [1]　辛弃疾《贺新郎》（送茂嘉十二弟）：“绿树听鹈鴂。更那堪、鹧鸪声住，杜鹃声切！啼到春归无寻处，苦恨芳菲都歇。算未抵人间离别。马上琵琶关塞黑，更长门翠辇辞金阙。看燕燕，送归妾。　将军百战身名裂。向河梁、回头万里，故人长绝。易水萧萧西风冷，满座衣冠似雪。正壮士悲歌未彻。啼鸟还知如许恨，料不啼清泪长啼血。谁共我，醉明月？”</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_kongrong_rangli">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">孔融让梨</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">孔融让梨</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《后汉书·孔融传》注引《孔融家传》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">孔融四岁与诸兄共食梨，辄取小者，问其故，答曰我小儿法当取小者。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[今传是楼诗话] 五○七、陶斋开府江南，广致文士，评校金石，宾从之盛，一时无两。审言亦其座上客之一人。迨后陶斋遘蜀难，所藏亦大都散佚。审言有《见陶斋藏石记印奉感赋》云：“槐影扶疏红纸廊，冶城东畔有沧桑。摩挲石墨人空老，忆到金陵便断肠。”“脱略曾非礼数苛，上宫有女妒修蛾。濮阳金集儒书客，那得扬雄手载多。”“觥觥含宪出重阍，传命居然奉敕尊。轻薄子玄犹并世，可怜不返蜀川魂。”盖深惜之也。又有《悲埂阳》一篇云：“浭阳好古天下希，永宁多宝足配之。西园轮直忽再出，资州饮刃真堪悲。忆昔长安盛文史，旌旗遍潘翁垒。《东观余论宣和图》，孔融尊酒平原履。此时奔走趋声价，此时人物称王霸。波斯大贾碧眼胡，倾倒公卿饱残炙。如君羼厕竹林游，</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_han_dan_xue_bu">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">邯郸学步</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">邯郸学步</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《庄子·秋水》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">寿陵余子学行于邯郸，未得国能，又失其故行，直匍匐而归耳。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[五代诗话] 湖南幕府多才而徐东野尤好轻忽虽王公不避也毎见齐已必悚然不敢以众人待之尝谓同列曰我辈所作皆拘于一途非所谓通方之士若齐已才高思逺无所不通殆难及矣论者以徐东野为知言东野亦常赠之诗曰我唐有僧号齐已未出家时宰相器爰见梦中逢武丁毁形自学无生理骨瘦神清风一襟松老霜天鹤病深一言悟得生死海芙蓉吐出琉璃心闷见唐风雅容缺敲破冰天飞白雪清塞清江却有灵遗魂泣对荒郊月格何古天工未生谁知主混沌凿开鸡子黄散作纯风如胆苦意何新织女星机挑白云真宰夜来调暖律声声吹出嫩青春调何雅涧底孤松秋雨洒嫦娥月里学步虚桂风吹落玉山下语何竒血泼乾坤龙战时祖龙跨海日方出一鞭风雨万山飞已公已公道如此浩浩寰中如独自一簟松风冷如水长伴巢由伸脚睡其为名士推</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_hongmen_yan">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">鸿门宴</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">鸿门宴</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《史记·项羽本纪》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">项羽会刘邦于鸿门，范增令项庄舞剑欲杀沛公，樊哙闯帐，刘邦遁去。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[全唐诗话] 太宗在洛阳宫，幸积翠池。宴酣各赋一事。帝赋《尚书》曰：“日昃玩百篇，临灯披五典。夏康既逸豫，商辛亦荒湎。恣情昏主多，克己明君鲜。灭身资累恶，成名由积善。”徵赋西汉曰：“受降临轵道，争长趣鸿门。驱传渭桥上，观兵细柳屯。夜宴经柏谷，朝游出杜原。终藉叔孙礼，方知皇帝尊。”帝曰：“徵言未尝不约我以礼。”</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_fuyue_zhuyan">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">傅说版筑</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">傅说版筑</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《尚书·说命》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">傅说举于版筑之间，殷高宗武丁得之，举以为相。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[东坡诗话] 武丁入梦得贤臣。（傅说）</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_kuafu_zhuri">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">夸父逐日</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">夸父逐日</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《山海经·海外北经》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">夸父与日逐走，道渴而死，弃其杖化为邓林。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[二老堂诗话] 江洲《陶靖节集》末载，宣和六年，临溪曾弦谓靖节〈读山海经诗〉，其一篇云：「形夭无千岁，猛志固常在。」疑上下文义不贯，遂按《山海经》有云：「刑天，兽名，口衔干戚而舞。」以此句为：「刑天舞干戚。」因笔画相近，五字皆讹。岑穰晁咏之抚掌称善。余谓纮说固善，然靖节此题十三篇，大概篇指一事。如前篇终始记夸父，则此篇恐专说精卫衔木填海，无千岁之寿，而猛志常在，化去不悔。若并指刑天，似不相续。又况末句云：「徒设在昔心，良晨讵可待。」何预干戚之猛耶？后见周紫芝《竹坡诗话》第一卷，复袭纮意以为己说，皆误矣。</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_yiyin_penggeng">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">伊尹负鼎</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">伊尹负鼎</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《史记·殷本纪》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">伊尹负鼎俎以滋味说汤，致于王道。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[二老堂诗话] 绍兴十年六月一日甲辰，左光禄大夫守尚书右仆射同中书门下平章事兼枢密使监修国史秦桧札子奏：「臣闻『德无常师，主善为师；善无常主，协于克一。』此伊尹相汤〈咸有一德〉之言也。臣昨见金国挞懒，有讲和割地之议，故赞陛下取河南故疆。既而兀朮笺其叔挞懒，监公佐之归，和议已变，故赞陛下定吊民伐罪之计。今兀朮变和议果矣。臣请为陛下先至江上，谕诸路帅，同力招讨。陛下相次劳军，如汉高祖以马上定天下，不宁厥居，为社稷宗庙决策于今日。臣言如不可行，即乞罢免，以明孔圣『陈力就列，不能者止』之义，臣无任恳切之至。」有旨依奏。右张嵲代作，嵲原任司勋员外郎，五月除起居舍人，八月除中书舍人。当时朝士，大书法慧寺门云：「商汤为太甲</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_maosui_zi_jian">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">毛遂自荐</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">毛遂自荐</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《史记·平原君列传》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">秦围赵邯郸，平原君门客毛遂自荐使楚，按剑劫楚王定从约。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[中山诗话] 苏子美魁伟，与宋中道并立，下视之，笑曰﹕「交不着。」京师市井语也。号为「锥宋」，为其颖利而幺么云。赠诗曰﹕「譬如利锥末，所到物已破。」后倅洺州。洺本赵地，有毛遂冢，圣俞遂举处囊事为送行诗戏之。</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_shangxin_qianli">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">庾信哀江南</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">庾信哀江南</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">庾信《哀江南赋》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">庾信出使西魏被扣，后留北朝，作《哀江南赋》以悲故国。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[北江诗话] 《离骚》以后，学《骚》者宋玉、贾谊、东方朔、严忌、王褒、刘向、王逸等若干人，而皆不及《骚》，以绝调难学也。陶渊明以后，学陶者韦应物、柳宗元以迄苏轼、陈无己等若干人，而皆不及陶，亦以绝调难学也。庾信《哀江南赋》，无意学《骚》，亦无一类《骚》，而转似《骚》。王维、裴迪《辋川》诸作，元结《舂陵》篇及《浯溪》等诗，无意学陶，亦无一类陶，而转似陶。则又当于神明中求之耳。</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_shennong_bai_cao">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">神农尝百草</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">神农尝百草</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《淮南子》《搜神记》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">神农以赭鞭鞭百草，尽知其毒寒温之性；尝百草一日而遇七十毒。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[今传是楼诗话] 七五、散原有《题张季直荷锄小照》云：“许行学派开天下，振古无人识绪余。独契微言张季子，平持世一锄。”又“垦牧经纶世已传，争看涸海佩乌犍。等闲觅食蛟鼍侧，傥为余留二顷田。”近世以来，劳动神圣之风，渐被东土。我国地大物博，尤非取国民皆劳主义，造成真正农国，以开发地利，不足化贫为富，转柔为强。余曩主议坛，曾有演说，谓“许行为吾国谭社会主义者之鼻祖，且独私淑神农，睥睨唐虞三代，其思想之高，尤为战国学者中之巨擘。樊迟请学稼圃，殆自绪余。惜秦火肆虐，遗书不传，未免可惜”云云。当时颇博听众鼓掌。读散原此诗，盖不啻先余言之矣。</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_kuaiji_yijian">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">季札挂剑</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">季札挂剑</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《史记·吴太伯世家》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">吴公子季札出使，心许徐君以剑，及还则徐君已死，乃解剑挂其冢树而去。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[五代诗话] 张洎文章清赡在江南日将命入贡还作诗以诋北言京师风物有一堆灰之句苏易简得其亲书洎归朝为学士与易简同院争宠不相下易简语同列曰清河更相矛盾即将一堆灰之句进呈矣洎闻为之屈【金坡遗事】张洎防知政事江南李后主时为大臣国亡受知太宗复作辅臣时王元之禹偁为翰林学士洎手书古律诗两轴与之元之以启谢云追纵季札辞贤尽变为国风接武韩宣适鲁独明于易象谓其自他国入中朝也【四六话】</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_wu_gang_fagui">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">吴刚伐桂</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">吴刚伐桂</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《酉阳杂俎》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">月中有桂树，高五百丈，下有一人常斫之，树创随合。其人姓吴名刚，学仙有过谪令伐树。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[全唐诗话续编] 开元中，有儒士登锺南山得句云：『野迥云根阔，山高树影长。』私心自负，吟讽之际，忽闻空中语云：『未若「天河虽有浪，月桂不闻香」。』儒士不胜喜，以为己有。归夸于僧智潜，掩鼻笑曰：『臭气可掬，何足多也！』儒士惊愕，遽以实告。自此又号鉴文大师。有〈浮沤篇〉行世。出《零陵总记》。</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_he_shi_biyu">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">和氏璧</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">和氏璧</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《韩非子·和氏》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">楚人卞和得玉璞献楚王，两遭刖足，三献方使玉人理之，得和氏璧。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[全闽诗话] 杨玉英涉猎书史善吟咏年十八父母许适儒流官时中既聘时中家有事父母遂悔前盟改受黄庐山聘币玉英闻之嘱其婢曰吾箧有荷包布鞋诸物异日以遗官官人婢弗悟诺之而巳于是窃入寝室自经死目不瞑时中闻讣具礼往祭以手掩之遂瞑婢出所欲遗时中物付父母启之有诗云昆山一片玉既售与卞和和足苦被刖玉坚不可磨若再付他人其如平生何（闽书）</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_qilin_tushu">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">河图洛书</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">河图洛书</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《易·系辞》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">河出图，洛出书，圣人则之。伏羲氏因河图画八卦。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[今传是楼诗话] 五○七、陶斋开府江南，广致文士，评校金石，宾从之盛，一时无两。审言亦其座上客之一人。迨后陶斋遘蜀难，所藏亦大都散佚。审言有《见陶斋藏石记印奉感赋》云：“槐影扶疏红纸廊，冶城东畔有沧桑。摩挲石墨人空老，忆到金陵便断肠。”“脱略曾非礼数苛，上宫有女妒修蛾。濮阳金集儒书客，那得扬雄手载多。”“觥觥含宪出重阍，传命居然奉敕尊。轻薄子玄犹并世，可怜不返蜀川魂。”盖深惜之也。又有《悲埂阳》一篇云：“浭阳好古天下希，永宁多宝足配之。西园轮直忽再出，资州饮刃真堪悲。忆昔长安盛文史，旌旗遍潘翁垒。《东观余论宣和图》，孔融尊酒平原履。此时奔走趋声价，此时人物称王霸。波斯大贾碧眼胡，倾倒公卿饱残炙。如君羼厕竹林游，</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_wanbi_guizhao">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">完璧归赵</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">完璧归赵</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《史记·廉颇蔺相如列传》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">蔺相如持和氏璧入秦，廷争完璧归赵。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[全闽诗话] 五言古诗汉魏而下其响絶矣六朝至初唐祇可谓之半格又曰近体作者本自晓分品者亦能区别髙棅选唐诗正声首以五言古诗而其所取如陈子昻故人江北去杨柳春风生李太白去国登兹楼懐归伤暮秋刘眘虚沧溟千万里日夜一孤舟崔曙空色不映水秋声多在山皆律也而谓之古诗可乎譬之新寡之文君屡醮之夏姬美则美矣谓之初笄室女则不可于此有盲妁取损礶而充完璧以白练而为黄花茍有孱壻必售其欺髙棅之选诚盲妁也近见苏刻本某公之序乃谓正声其格浑其选严噫是其孱壻乎（丹铅总录）</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_xichi_liushang">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">曲水流觞</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">曲水流觞</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">王羲之《兰亭集序》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">引以为流觞曲水，列坐其次，一觞一咏，亦足以畅叙幽情。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[全闽诗话] 韩侂胄居太庙三茅之旁后山为阅古堂为阅古泉旧名青衣有青衣童儿见泉上故名为流觞曲水泉自青衣下注于池凡有十二折旁砌以玛瑙泉流而下潴于阅古堂浑涵数亩有桃坡十有二级夜宴则殿岩用红灯数百出于桃坡之后以烛之其云岩之最竒者曰云岫侂胄居之既久岁累月积剔竒抉胜窈窕渟深疑为洞天福地之居不类其为在天衢咫尺旧皆宁寿观中地也韩败有旨尽给还寜寿复为禁地建阳刘淮赋诗云宝莲山下韩家府郁郁沉沉深几许主人飞头去和戎緑户雕墙锁风雨九世卿家一朝覆太师之诛魏公辱后车不信有前车突兀眼前看此屋（四朝闻见録）</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_you_weng_de_ma">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">塞翁失马</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">塞翁失马</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《淮南子·人间训》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">近塞上之人有善术者，马无故亡而入胡，人吊之，其父曰此何遽不为福？后马将胡骏马归。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[五代诗话] 罗塞翁乃钱塘令隠之子为吴中从事善画羊隠以诗名于时而塞翁独寓意于丹青亦词人墨客之所致思也【宣和画谱】</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_diaochan_baiyue">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">貂蝉拜月</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">貂蝉拜月</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">元杂剧传说</shicang:sourceBook>
+        <shicang:story xml:lang="zh">貂蝉为司徒王允歌姬，拜月祈愿，后以连环计诛董卓。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[五代诗话] 山谷云秋风吹渭水落叶满长安黄尘车马道独清闲自然炉鼎虎绕与龙盘九转丹砂就琴心三叠蘂珠看舞胎仙便万钉寳带貂蝉富贵欲薰天黄粱炊未熟梦惊残是非海里直道作人难袖手江南去白苹红蓼再游湓浦庐山往三十年有人书此曲于州东茶圈酒肆之柱间或爱其大指趣而不能歌也中间乐工或按而歌之輙以径语窜入有市井气不类神仙中人语十年前有醉道士歌此曲广陵市上童儿和之乃合其故时语此道士去后以物色迹逐之知其为吕洞宾也【渔隐丛话】鄱阳胡咏之朝散生平好道元符初尝于信州弋阳县见一道人青巾葛衣神气特异因揖而延之对饮道人指取大白满引无算曰君有从军之行去否胡竦然曰当去盖是时欲就熙河帅姚雄之辟也道人曰西陲方用师好去索纸书诗曰济世应湏不世才调羮重见用盐梅</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_houyi_she_ri">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">后羿射日</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">后羿射日</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《淮南子·本经训》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">尧时十日并出，焦禾稼，尧使羿上射十日，落其九。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[升庵诗话] 滇中诗人兰廷瑞，杨林人也。予过其家，访其稿，仅得数十首。如《夏日》云：“终日凭阑对水鸥，园林长夏似深秋。槐龙细洒鹅黄雪，凉意萧萧风满楼。”《冬夜》云：“枕上诗成喜不胜，起寻笔砚旋呼灯。银瓶取浸梅花水，已被霜风冻作水。”《题嫦娥奔月》图曰：“窃药私奔计已穷，藁砧应恨洞房空。当时射日弓犹在，何事无能近月中。”三诗皆可喜。</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_liuyi_xueye">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">程门立雪</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">程门立雪</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《宋史·杨时传》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">杨时、游酢见程颐于洛，颐偶瞑坐，时与酢侍立不去，颐觉则门外雪深一尺。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[五代诗话] 黄滔省试内出白鹿宣示百官诗上瑞何曽乏毛羣表色难推于五灵少宣示百寮观形夺塲驹洁光交月兎寒已驯瑶草列孤立雪花团戴豸惭端士抽毫跃史官贵臣歌咏日皆作白麟看又省试奉诏涨曲江池地脉寒来浅恩波注后新引将诸水别贮大都春幽咽疏通处清泠迸入辰渐平连杏防旋濶映梅津沙没迷行径洲寛恣跃鳞愿当舟楫便一附济川人此题一本无省试字且云诏字当是试字之误按唐制登进士后又有试名奉试前崔曙荆冬倩皆有奉试题是也且此试不用题韵似特试者况省试二字亦决有误按此题注干符二年在僖宗朝而前内出白鹿题注干宁二年在昭宗朝则自干符至干宁约二十余年未有干符既中省试而复赴干宁省试者也此必有一试系制试或奉试而题误注作省字耳然不可考矣【唐人试帖】</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_yu_gong_yi_shan">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">愚公移山</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">愚公移山</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《列子·汤问》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">北山愚公年且九十，率子孙毕力平险，移太行王屋二山，帝感其诚，命夸蛾氏二子负二山。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[今传是楼诗话] 四七五、咸同以来，浙江藏书，推丁陆两家。岁丁未，日本岩畸氏静嘉堂文库，以日金十一万八千圆，购陆氏书归彼都，计为书四千部，为卷二十万有奇，为册四万四千余。详见岛田彦桢所作《&lt;百百&gt;宋楼藏书源流考》及《购获始末》文中。其时吾国藏书家，闻耗太息者，颇不乏人。老友王志盒为十二截句纪事，所谓“丁董罗陈嗜好偏，书亡同损一宵眠”者也。丁谓叔雅，董谓授经，罗谓叔报，陈谓士可，皆有书癖者。又云：“割取书城归舶载，苹风凄绝骆驼桥。”援证精详，海内传诵，兹不具录。近志盒又以菊生观书长篇见示，盖《戊辰暮秋至日本东京，观静嘉堂藏书，赠岩畸男爵，兼示冈部服吉诸君及斯文会会员》者。诗云：“昔闻海上三神山，仙人之居不可攀。卿</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_gaoshan_liushui">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">高山流水</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">高山流水</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《列子·汤问》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">伯牙鼓琴，志在高山，钟子期曰：峨峨兮若泰山；志在流水，曰：洋洋兮若江河。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[南濠诗话] 严沧浪谓论诗如论禅：“禅道惟在妙悟，诗道亦在妙悟。学者须从最上乘，具正法眼，悟第有义。”此最为的论。赵章泉尝有诗云：“学诗浑似学参禅，识取初年与暮年。巧匠曷能雕朽木，燎原宁复死灰然。”其二：“学诗浑似学参禅，要保心传与耳传。秋菊春兰宁易地，清风明月本同天。”其三：“学诗浑似学参禅，束缚宁论句与联。四海九州何历历，千秋万岁永传传。”吴思道诗云：“学诗浑似学参禅，竹榻蒲团不计年。直待自家都肯得，等闲拈出便超然。”“学诗浑似学参禅，头上安头不足传。跳出少陵窠臼外，丈夫志气本冲天。”“学诗浑似学参禅，自古圆成有几联？春草池塘一句子，惊天动地至今传。”龚圣任诗云：“学诗浑似学参禅，悟了方知岁是年。点铁成</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_hua_tuo">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">画蛇添足</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">画蛇添足</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《战国策·齐策》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">楚祠者赐舍人卮酒，舍人相谓请画地为蛇，先成者饮酒，一人先成，为蛇添足，反失酒。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[升庵诗话] 杜诗“江平不肯流”，意求工而语反拙，所谓凿混沌而画蛇足，必夭性命而失卮酒也。不若李群玉乐府云“人老自多愁，水深难急流”也。又不若巴渝《竹枝词》云：“大河水长漫悠悠，小河水长似箭流。”词愈俗愈工，意愈浅愈深。</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_ke_zhou_qiu_jian">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">刻舟求剑</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">刻舟求剑</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《吕氏春秋·察今》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">楚人渡江，剑坠水中，遽刻其舟曰是吾剑之所从坠，舟止从刻处入水求之。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[今传是楼诗话] 一三七、放翁绝诗：“斜阳古柳赵家庄，负鼓盲翁正作场。死后是非谁管得，满村听说蔡中郎。”达语亦巂语也。近见钱塘瞿存斋（佑）所著之《归田诗话》中，载刘后村（克庄）绝句数首，其一与放翁同三句，首句则作“黄童白叟徃来忙”。两公均时代相接，以年辈论，放翁较早。事有偶合，或此类耶。又《山谷集》中绝句云：“草色青青柳色黄，桃花零落杏花香。春风不解吹愁去，春日偏能惹恨长。”此与唐人贾至诗亦同。特贾之原诗第二句作“桃花历乱李花香”，第三句作“东风不为吹愁去”，字面小异，事见《诚斋诗话》。流传已久，不妨并存。必欲刻舟求剑，殊为无取。</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_cangsheng_jibai">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">结绳而治</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">结绳而治</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《易·系辞》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">上古结绳而治，后世圣人易之以书契。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[今传是楼诗话] 五○九、老友吴向之（廷燮），熟娴章制，博通旧间，曩者国有大政，多君视草，余心敬其人有年矣。顾君不习为韵语，偶有题识，例缀四言，渊雅近汉魏人语。近志盒以其《感台事》一律见示，在君生平，洵为仅见之作。诗曰：“田横海岛辟台阳，五百宾朋义帜张。郡议朱争弃汉，人过赤岭尚思唐。结绳刻木从新制，银镂金冠易旧装。转悔戈船虚战伐，何如遗朔奉闽王。”盖指唐徽卿在台起义时事。吾友梁任公有《游台杂诗》，其一云：“曾闻民主国，奄忽落人间。即日真如戏，呼天亦苦艰。薜萝哀楚鬼，禾黍泣殷顽。暗记留蚕纸，愁来一洗颜。”自注：“故老有以台湾民主国之钞币及邮政局券相赠者，亦为徽卿作也。”割台议定，彼邦遗老，住傺无所适，相率以诗自</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_pao_ding_jie_niu">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">庖丁解牛</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">庖丁解牛</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《庄子·养生主》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">庖丁为文惠君解牛，以神遇而不以目视，臣之刀十九年矣所解数千牛，刀刃若新发于硎。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[历代诗话] 齐东野语云沈偕君与即东老之子也饶于财少逰京师好狎逰时蔡奴声价甲于都下沈呼一卖珠人于其门首议价不售撒其珠于屋上笑曰依汝所索还钱蔡于帘中窥见后数日乃诣之其家喜相报曰撒珠郎至矣接之甚至于是豪侈之声满三辅时贾耘老隠居苕城南横塘上沈以诗遗之蠏曰黄秔稻熟坠西风肥入江南十月雄横跪蹒跚钳齿白圆脐吸脇斗膏红虀须园老香研柚羮借庖丁细劈葱分寄横塘溪上客持螯莫放酒杯空耘老得之不乐曰后进轻我且闻其不羁因和韵诋之云彭越孙多伏下风蝤蛑奴视敢称雄江湖纵养膏腴紫鼎镬终烹爪眼红嗍称吴儿牙似镀劈惭湖女手如葱独怜盘内秋脐实不比溪边夏殻空君与怒曰贾与郡将往还预政言人短长为人所讼我以长上推之乃鄙我如此复用韵报之云虫腹无端苦动风团雌还却胜</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_suan_mei_zhi_ke">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">望梅止渴</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">望梅止渴</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《世说新语·假谲》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">曹操行军失道，三军皆渴，乃令前有大梅林饶子，士卒闻之口皆出水，乘此得及前源。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[后村诗话] 水心，大儒，不可以诗人论。其赋《中塘梅林》云：“幽花表穷腊，病叟行村墟。所欣一蕊吐，安得百万株。上下三塘间，萦带十里余。荒茨各尊贵，野径争扶疏。愁云忽返斾，急霰仍回车。苍然岁将晚，陡觉天象舒。群帝胥命游，众仙俨相趋。龙鸾变化异，笙笛音制殊。物有据其会，感召惊堪舆。妙香彻真境，态色疑虚无。问谁始种此，岂自开辟初。至今阙胜赏，浩劫随荣枯。儿童候黄堕，捧拾纷筐盂。熏蒸杂烟煤，缚卖倾江湖。胭脂蘸罗縠，绛艳生裙襦。和羹事则已，甘老山中臞。以兹媚妇女，又可为嗟吁。夜阑烛烬短，月淡意踌躇。林逋与何逊，赋咏徒区区。”后篇云：“侧闻中塘好，曾赋劝游篇。凌江入枉浦，聊复信所传。化工何作强，耿耿不自眠。山山高相映，</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_fujing_qingzui">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">负荆请罪</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">负荆请罪</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《史记·廉颇蔺相如列传》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">廉颇愧于蔺相如，肉袒负荆至门谢罪，卒相与欢为刎颈交。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[全闽诗话] 真宗初诏种隠君放至阙以敷对称旨日既髙中人送中书膳诸相皆盛服俟其来种隠君韦布止长揖而已杨大年闻之颇不平以诗嘲曰不把一言裨万乗祗叉双手揖三公上闻之独召杨曰知卿有诗戏种某杨汗浃股栗不敢匿避又曰卿安知无一言禆朕乎出一皂囊内有十轴乃放所奏之书也其书曰十议所谓议道议徳议仁议义议兵议刑议政议赋议安议危俾大年观之从容奏曰臣当翊日负荆谢之（湘山野录）</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_tao_yao">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">桃夭</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">桃夭</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">《诗经·周南·桃夭》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">桃之夭夭，灼灼其华。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[彦周诗话] 世间花卉，无踰莲花者，盖诸花皆藉暄风暖日，独莲花得意于水月。其香清凉，虽荷叶无花时亦自香也。梁江从简为〈采荷调〉云：「欲持荷作柱，荷弱不胜梁；欲持荷作镜，荷暗本无光。」此语嘲何敬容，而波及莲荷矣。春时秾丽，无过桃柳。「桃之夭夭」，「杨柳依依」，诗人言之也。老杜云：「颠狂柳絮随风去，轻薄桃花逐水流。」不知缘谁而波及桃花与杨柳矣。</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_dui_niu_tan_qin">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">对牛弹琴</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">对牛弹琴</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">牟融《理惑论》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">公明仪为牛弹清角之操，伏食如故；非牛不闻，不合其耳矣。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[北江诗话] 郭象《庄子注》「是犹对牛鼓簧耳」，今人云「对牛弹琴」，或本于此。</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#allusion_qian_lv_zhi_ji">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Allusion"/>
+        <rdfs:label xml:lang="zh">黔驴技穷</rdfs:label>
+        <shicang:canonicalName xml:lang="zh">黔驴技穷</shicang:canonicalName>
+        <shicang:sourceBook xml:lang="zh">柳宗元《三戒·黔之驴》</shicang:sourceBook>
+        <shicang:story xml:lang="zh">黔无驴，好事者船载以入，虎见之庞然大物也，驴一鸣虎大骇，后蹄之，断其喉尽其肉。</shicang:story>
+        <shicang:occurrenceCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</shicang:occurrenceCount>
+        <shicang:sourceText xml:lang="zh">[瓯北诗话] 使事七律："奴爱才如萧颖士，婢如诗似郑康成。"此放翁之父所作，而放翁足成之者。"吏进饱谙箝纸尾，客来苦劝摸床棱。"《自咏》"秋风叶扇知安命，小炷留灯悟养生。"《独学》"人立飞楼今已矣，浪翻孤月尚依然。"《白帝城怀杜少陵》"前日已传天狗坠，今年宁许佛生！"《客言岐雍间事》"也知世少苏司业，安得官如阮步兵。"《独饮》"报国虽思包马革，爱身未肯价羊皮。"《示独孤生》"生希李广名飞将，死慕刘伶赠醉侯。"《江楼醉中》"宿负本宜输左校，宽恩犹许补东隅。"《书怀》"阶前汗血洮河马，架上霜毛海国鹰。"《梦成都》"曳杖不妨呼小友，还家便恐见来孙！"《游柯山观烂柯遗迹》"性本自然憎截鹤，器非大受愧函牛。"《醉题</shicang:sourceText>
+    </owl:NamedIndividual>
+
+    <!-- ============ 诗人交游/影响/唱和/师承关系（36条强关系） ============ -->
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#韩愈">
+        <shicang:discipleOf rdf:resource="http://www.shicang.org/ontology#杜甫"/>
+        <shicang:sourceText xml:lang="zh">[本体·公认关系] 推尊杜诗</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#杜甫">
+        <shicang:hasDisciple rdf:resource="http://www.shicang.org/ontology#韩愈"/>
+        <shicang:sourceText xml:lang="zh">[本体·公认关系] 推尊杜诗</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#韩愈">
+        <shicang:hasDisciple rdf:resource="http://www.shicang.org/ontology#贾岛"/>
+        <shicang:sourceText xml:lang="zh">[本体·公认关系] 郊寒岛瘦与韩门弟子</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#贾岛">
+        <shicang:discipleOf rdf:resource="http://www.shicang.org/ontology#韩愈"/>
+        <shicang:sourceText xml:lang="zh">[本体·公认关系] 韩门弟子</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#苏轼">
+        <shicang:friendOf rdf:resource="http://www.shicang.org/ontology#佛印"/>
+        <shicang:sourceText xml:lang="zh">[本体·公认关系] 世传东坡佛印机锋往来</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#佛印">
+        <shicang:friendOf rdf:resource="http://www.shicang.org/ontology#苏轼"/>
+        <shicang:sourceText xml:lang="zh">[本体·公认关系] 世传东坡佛印机锋往来</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#苏轼">
+        <shicang:discipleOf rdf:resource="http://www.shicang.org/ontology#欧阳修"/>
+        <shicang:sourceText xml:lang="zh">[本体·公认关系] 受知于欧阳修</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#欧阳修">
+        <shicang:hasDisciple rdf:resource="http://www.shicang.org/ontology#苏轼"/>
+        <shicang:sourceText xml:lang="zh">[本体·公认关系] 受知于欧阳修</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#黄庭坚">
+        <shicang:hasDisciple rdf:resource="http://www.shicang.org/ontology#陈师道"/>
+        <shicang:sourceText xml:lang="zh">[本体·公认关系] 江西诗派一祖三宗</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#秦观">
+        <shicang:discipleOf rdf:resource="http://www.shicang.org/ontology#苏轼"/>
+        <shicang:sourceText xml:lang="zh">[本体·公认关系] 苏门四学士</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#苏轼">
+        <shicang:hasDisciple rdf:resource="http://www.shicang.org/ontology#秦观"/>
+        <shicang:sourceText xml:lang="zh">[本体·公认关系] 苏门四学士</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#晁补之">
+        <shicang:discipleOf rdf:resource="http://www.shicang.org/ontology#苏轼"/>
+        <shicang:sourceText xml:lang="zh">[本体·公认关系] 苏门四学士</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#苏轼">
+        <shicang:hasDisciple rdf:resource="http://www.shicang.org/ontology#晁补之"/>
+        <shicang:sourceText xml:lang="zh">[本体·公认关系] 苏门四学士</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#陈师道">
+        <shicang:discipleOf rdf:resource="http://www.shicang.org/ontology#黄庭坚"/>
+        <shicang:sourceText xml:lang="zh">[本体·公认关系] 江西诗派</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#陈与义">
+        <shicang:influencedBy rdf:resource="http://www.shicang.org/ontology#黄庭坚"/>
+        <shicang:sourceText xml:lang="zh">[本体·公认关系] 江西诗派一祖三宗</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#黄庭坚">
+        <shicang:influenced rdf:resource="http://www.shicang.org/ontology#陈与义"/>
+        <shicang:sourceText xml:lang="zh">[本体·公认关系] 江西诗派一祖三宗</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#陆游">
+        <shicang:friendOf rdf:resource="http://www.shicang.org/ontology#杨万里"/>
+        <shicang:sourceText xml:lang="zh">[本体·公认关系] 南宋四大家</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#杨万里">
+        <shicang:friendOf rdf:resource="http://www.shicang.org/ontology#陆游"/>
+        <shicang:sourceText xml:lang="zh">[本体·公认关系] 南宋四大家</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#韦应物">
+        <shicang:influencedBy rdf:resource="http://www.shicang.org/ontology#王维"/>
+        <shicang:sourceText xml:lang="zh">[本体·公认关系] 王孟韦柳</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#王维">
+        <shicang:influenced rdf:resource="http://www.shicang.org/ontology#韦应物"/>
+        <shicang:sourceText xml:lang="zh">[本体·公认关系] 王孟韦柳</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#柳宗元">
+        <shicang:influencedBy rdf:resource="http://www.shicang.org/ontology#陶渊明"/>
+        <shicang:sourceText xml:lang="zh">[本体·公认关系] 陶韦柳</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#陶渊明">
+        <shicang:influenced rdf:resource="http://www.shicang.org/ontology#柳宗元"/>
+        <shicang:sourceText xml:lang="zh">[本体·公认关系] 陶韦柳</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#辛弃疾">
+        <shicang:influencedBy rdf:resource="http://www.shicang.org/ontology#苏轼"/>
+        <shicang:sourceText xml:lang="zh">[本体·公认关系] 苏辛豪放</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#苏轼">
+        <shicang:influenced rdf:resource="http://www.shicang.org/ontology#辛弃疾"/>
+        <shicang:sourceText xml:lang="zh">[本体·公认关系] 苏辛豪放</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#袁枚">
+        <shicang:influencedBy rdf:resource="http://www.shicang.org/ontology#杨万里"/>
+        <shicang:sourceText xml:lang="zh">[本体·公认关系] 性灵说上承诚斋</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#杨万里">
+        <shicang:influenced rdf:resource="http://www.shicang.org/ontology#袁枚"/>
+        <shicang:sourceText xml:lang="zh">[本体·公认关系] 性灵说上承诚斋</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#王士祯">
+        <shicang:influencedBy rdf:resource="http://www.shicang.org/ontology#司空图"/>
+        <shicang:sourceText xml:lang="zh">[本体·公认关系] 神韵说出于味外味</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#司空图">
+        <shicang:influenced rdf:resource="http://www.shicang.org/ontology#王士祯"/>
+        <shicang:sourceText xml:lang="zh">[本体·公认关系] 神韵说出于味外味</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#王士祯">
+        <shicang:influencedBy rdf:resource="http://www.shicang.org/ontology#严羽"/>
+        <shicang:sourceText xml:lang="zh">[本体·公认关系] 神韵说本于妙悟兴趣</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#严羽">
+        <shicang:influenced rdf:resource="http://www.shicang.org/ontology#王士祯"/>
+        <shicang:sourceText xml:lang="zh">[本体·公认关系] 神韵说本于妙悟兴趣</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#沈德潜">
+        <shicang:influencedBy rdf:resource="http://www.shicang.org/ontology#杜甫"/>
+        <shicang:sourceText xml:lang="zh">[本体·公认关系] 格调说尊杜</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#杜甫">
+        <shicang:influenced rdf:resource="http://www.shicang.org/ontology#沈德潜"/>
+        <shicang:sourceText xml:lang="zh">[本体·公认关系] 格调说尊杜</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#翁方纲">
+        <shicang:influencedBy rdf:resource="http://www.shicang.org/ontology#黄庭坚"/>
+        <shicang:sourceText xml:lang="zh">[本体·公认关系] 肌理说宗江西</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#黄庭坚">
+        <shicang:influenced rdf:resource="http://www.shicang.org/ontology#翁方纲"/>
+        <shicang:sourceText xml:lang="zh">[本体·公认关系] 肌理说宗江西</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#皎然">
+        <shicang:influencedBy rdf:resource="http://www.shicang.org/ontology#谢灵运"/>
+        <shicang:sourceText xml:lang="zh">[本体·公认关系] 诗式承谢</shicang:sourceText>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#谢灵运">
+        <shicang:influenced rdf:resource="http://www.shicang.org/ontology#皎然"/>
+        <shicang:sourceText xml:lang="zh">[本体·公认关系] 诗式承谢</shicang:sourceText>
+    </owl:NamedIndividual>
 </rdf:RDF>

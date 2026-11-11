@@ -211,6 +211,7 @@
       <a href="#canon" class="nav-link">典籍体系</a>
       <a href="#library" class="nav-link">诗藏原典</a>
       <a href="#theory" class="nav-link">诗学论要</a>
+      <a href="#network" class="nav-link">交游典故</a>
       <a href="#imagery" class="nav-link">意象情感</a>
       <a href="#schools" class="nav-link">流派谱系</a>
       <a href="#people" class="nav-link">代表人物</a>
@@ -443,6 +444,88 @@
 .th-card-quote{font-size:13.5px;line-height:1.85;color:var(--ink);flex:1;border-left:3px solid var(--line);padding:2px 0 2px 12px;margin-top:4px;font-family:"Noto Serif CJK SC","STSong",serif;}
 .th-card-bookitem{display:block;text-decoration:none;padding:12px 16px;background:var(--card);border:1px solid var(--line);border-radius:8px;color:var(--ink);transition:all .2s;font-family:"Noto Serif CJK SC","STSong",serif;font-size:15px;}
 .th-card-bookitem:hover{border-color:var(--zhu);color:var(--zhu);transform:translateY(-1px);box-shadow:0 3px 10px rgba(139,47,47,.07);}
+</style>
+
+
+<!-- ========== 交游典故 · 诗人生平/交游网络/典故/创作背景 ========== -->
+<section id="network" class="px-4 md:px-8 lg:px-16 py-16 md:py-24 max-w-[1400px] mx-auto">
+  <div class="text-center">
+    <div class="inline-flex items-center gap-2 text-sm text-[var(--shu)] tracking-[0.3em]">
+      <span class="w-1.5 h-1.5 rounded-full bg-[var(--dian)]"></span>诗藏本体·扩充层
+      <span class="w-1.5 h-1.5 rounded-full bg-[var(--dian)]"></span>
+    </div>
+    <h2 class="sec-title text-[28px] md:text-[40px] mt-2">交游典故 · 本事源流</h2>
+    <p class="text-[var(--shu)]/70 max-w-2xl mx-auto mt-3 text-sm md:text-base leading-[1.9]">
+      从 776 部诗藏典籍中系统抽取：<strong>101 位诗人</strong>生卒字号生平、<strong>4,310 条</strong>交游唱和影响师承关系、
+      <strong>84 个</strong>高频典故、<strong>30 部</strong>经典作品的创作年份与本事背景。点选节点/卡片可查看文献出处。
+    </p>
+  </div>
+
+  <!-- 子标签切换 -->
+  <div class="flex flex-wrap justify-center gap-2 mt-10" id="network-tabs">
+    <button data-tab="graph" class="tab-btn px-5 py-2 rounded-full text-sm border border-[var(--xian)] bg-white/60 hover:text-[var(--zhu)] transition">交游网络</button>
+    <button data-tab="poets" class="tab-btn px-5 py-2 rounded-full text-sm border border-[var(--xian)] bg-white/60 hover:text-[var(--zhu)] transition">诗人谱传</button>
+    <button data-tab="allusions" class="tab-btn px-5 py-2 rounded-full text-sm border border-[var(--xian)] bg-white/60 hover:text-[var(--zhu)] transition">典故谱系</button>
+    <button data-tab="works" class="tab-btn px-5 py-2 rounded-full text-sm border border-[var(--xian)] bg-white/60 hover:text-[var(--zhu)] transition">作品本事</button>
+  </div>
+
+  <!-- 交游网络 -->
+  <div id="tab-graph" class="tab-panel mt-8">
+    <div class="paper rounded-xl p-4 md:p-6 shadow-paper relative">
+      <div class="flex flex-wrap items-center gap-3 mb-4 text-sm">
+        <span class="legend-dot" style="background:#ae3a2b"></span>交游 &nbsp;
+        <span class="legend-dot" style="background:#7a4525"></span>唱和 &nbsp;
+        <span class="legend-dot" style="background:#c8a96e"></span>影响 &nbsp;
+        <span class="legend-dot" style="background:#6b7c59"></span>师承 &nbsp;
+        <span class="legend-dot" style="background:#888"></span>同时代
+        <span class="ml-auto text-[var(--shu)]/60 text-xs">拖动节点可移动 · 滚轮缩放 · 悬停查看详情</span>
+      </div>
+      <div id="graph-chart" style="width:100%;height:620px;"></div>
+      <div id="graph-info" class="mt-3 text-sm text-[var(--shu)]/80 px-2 min-h-[2.6rem]">
+        提示：点击任意诗人节点可查看其生平与交游详情。
+      </div>
+    </div>
+  </div>
+
+  <!-- 诗人谱传 -->
+  <div id="tab-poets" class="tab-panel mt-8 hidden">
+    <div class="flex justify-end mb-4">
+      <input id="poet-search" type="text" placeholder="🔍 搜索诗人姓名/字号/朝代..." class="w-full md:w-80 px-4 py-2 rounded-lg bg-white/60 border border-[var(--xian)] focus:outline-none focus:border-[var(--zhu)] text-sm">
+    </div>
+    <div id="poets-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"></div>
+  </div>
+
+  <!-- 典故谱系 -->
+  <div id="tab-allusions" class="tab-panel mt-8 hidden">
+    <div class="flex justify-between items-center flex-wrap gap-3 mb-4">
+      <div class="text-sm text-[var(--shu)]/70">已收录 <strong id="allu-count">0</strong> 个高频古典典故，统计基于诗藏诗话/词话原文提及次数</div>
+      <input id="allu-search" type="text" placeholder="🔍 搜索典故..." class="w-full md:w-72 px-4 py-2 rounded-lg bg-white/60 border border-[var(--xian)] focus:outline-none focus:border-[var(--zhu)] text-sm">
+    </div>
+    <div id="allusions-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"></div>
+  </div>
+
+  <!-- 作品本事 -->
+  <div id="tab-works" class="tab-panel mt-8 hidden">
+    <div class="relative pl-8 before:content-[''] before:absolute before:left-3 before:top-2 before:bottom-2 before:w-px before:bg-[var(--xian)]">
+      <div id="works-timeline"></div>
+    </div>
+  </div>
+</section>
+
+<style>
+.legend-dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:4px;vertical-align:middle;}
+.tab-btn.active{background:var(--zhu);color:#f6efe0;border-color:var(--zhu);}
+.poet-card{background:rgba(255,252,245,.72);border:1px solid var(--xian);border-radius:10px;padding:16px;transition:.25s;}
+.poet-card:hover{box-shadow:0 6px 20px rgba(120,60,30,.08);transform:translateY(-2px);border-color:var(--zhu);}
+.poet-name{font-family:"KaiTi","STKaiti",serif;font-size:20px;color:var(--mo);}
+.allu-card{background:rgba(255,252,245,.72);border:1px solid var(--xian);border-radius:10px;padding:16px;transition:.25s;cursor:pointer;}
+.allu-card:hover{box-shadow:0 6px 20px rgba(120,60,30,.08);border-color:var(--zhu);}
+.allu-name{font-family:"KaiTi","STKaiti",serif;font-size:18px;color:var(--mo);}
+.allu-count{font-size:12px;color:#fff;background:var(--zhu);padding:1px 8px;border-radius:10px;margin-left:6px;}
+.tl-item{position:relative;padding-bottom:22px;}
+.tl-item::before{content:"";position:absolute;left:-21px;top:6px;width:12px;height:12px;border-radius:50%;background:var(--zhu);border:3px solid #f6efe0;box-shadow:0 0 0 1px var(--zhu);}
+.tl-year{font-family:"KaiTi","STKaiti",serif;color:var(--zhu);font-size:15px;font-weight:600;}
+.tl-title{font-family:"KaiTi","STKaiti",serif;font-size:20px;color:var(--mo);margin:2px 0 4px;}
 </style>
 
 <section id="imagery" class="relative z-10 anchor-target py-14 md:py-20">
@@ -1086,6 +1169,7 @@ if(okEcharts){
 </script>
 
 <script src="shicang_data/poetic_theory.js"></script>
+<script src="shicang_data/network.js"></script>
 <script>
 /* 诗学论要 · 概念/风格/典籍三栏切换+检索 */
 (function(){
@@ -1144,6 +1228,150 @@ if(okEcharts){
   });
   if(search) search.addEventListener('input',function(){kw=this.value;render();});
   render();
+})();
+</script>
+
+<script src="shicang_data/network.js"></script>
+<script>
+/* ========== 交游典故模块交互 ========== */
+(function(){
+  // tab切换
+  const tabs=document.querySelectorAll('#network-tabs .tab-btn');
+  const panels=document.querySelectorAll('.tab-panel');
+  function switchTab(t){
+    tabs.forEach(b=>b.classList.toggle('active',b.dataset.tab===t));
+    panels.forEach(p=>p.classList.toggle('hidden',!p.id.endsWith('-'+t)));
+    if(t==='graph') setTimeout(renderGraph,50);
+    if(t==='poets') renderPoets('');
+    if(t==='allusions') renderAllusions('');
+    if(t==='works') renderWorks();
+  }
+  tabs.forEach(b=>b.addEventListener('click',()=>switchTab(b.dataset.tab)));
+  switchTab('graph');
+
+  /* ---- 交游力导向图 ---- */
+  let graphInst=null;
+  const COLOR={friendOf:'#ae3a2b',respondsTo:'#7a4525',influenced:'#c8a96e',influencedBy:'#c8a96e',discipleOf:'#6b7c59',hasDisciple:'#6b7c59',contemporaneousWith:'#999'};
+  function renderGraph(){
+    const dom=document.getElementById('graph-chart');
+    if(!window.SHICANG_NETWORK) return;
+    const {nodes,links}=SHICANG_NETWORK;
+    // 过滤关系：去重对称关系，并按类型着色
+    const seen=new Set();
+    const edges=[];
+    links.forEach(l=>{
+      const k=[l.source,l.target,l.type].sort().join('|');
+      if(l.type==='influencedBy') return;  // 用 influenced 单向即可
+      if(l.type==='hasDisciple') return;
+      if(seen.has(k)&&(l.type==='friendOf'||l.type==='respondsTo'||l.type==='contemporaneousWith')) return;
+      seen.add(k);
+      edges.push(l);
+    });
+    const cats=[...new Set(nodes.map(n=>n.dynasty))];
+    const catIdx={};cats.forEach((c,i)=>catIdx[c]=i);
+    const palette=['#ae3a2b','#c8a96e','#6b7c59','#7a4525','#8a5a44','#4a6c85','#9b6a3e','#b08968','#5e7c68','#333'];
+    graphInst=echarts.init(dom);
+    graphInst.setOption({
+      tooltip:{formatter:(p)=>{
+        if(p.dataType==='node'){
+          const d=p.data;
+          return `<b style="font-family:KaiTi">${d.name}</b> · ${d.dynasty||''}<br/>`
+            +(d.zi?'字 '+d.zi+' ':'')+(d.hao?'号 '+d.hao:'')
+            +(d.birthYear?'<br/>'+(d.birthYear<0?'前'+(-d.birthYear):d.birthYear)+'—'+(d.deathYear?(d.deathYear<0?'前'+(-d.deathYear):d.deathYear):'')+'年':'')
+            +`<br/><span style="color:#888;font-size:12px">交游度 ${d.degree}</span>`;
+        }else{
+          return `${p.data.source} — <b>${p.data.label}</b> → ${p.data.target}<br/><span style="color:#888;font-size:12px">${p.data.book}</span>`;
+        }
+      }},
+      series:[{
+        type:'graph',layout:'force',roam:true,
+        symbolSize:(v,p)=>6+Math.sqrt(p.data.degree||3)*2.2,
+        repulsion:360,edgeLength:[50,100],gravity:0.08,draggable:true,
+        label:{show:true,position:'right',fontSize:12,color:'#3a2e25'},
+        lineStyle:{color:'source',curveness:0.08,width:1,opacity:0.55},
+        emphasis:{focus:'adjacency',lineStyle:{width:2,opacity:1}},
+        data:nodes.map(n=>({name:n.name,value:n.degree,dynasty:n.dynasty,zi:n.zi,hao:n.hao,bio:n.bio,birthYear:n.birthYear,deathYear:n.deathYear,degree:n.degree,
+          itemStyle:{color:palette[catIdx[n.dynasty]%palette.length]}})),
+        links:edges.map(l=>({source:l.source,target:l.target,label:{show:false},type:l.type,book:l.book,
+          lineStyle:{color:COLOR[l.type]||'#aaa',width:l.type==='influenced'?1.6:1}}))
+      }],
+      legend:[{data:cats.map(c=>({name:c,itemStyle:{color:palette[catIdx[c]%palette.length]}})),top:8,textStyle:{color:'#5a4b3f',fontSize:12},orient:'horizontal',left:'center'}]
+    });
+    graphInst.on('click',p=>{
+      if(p.dataType==='node'){
+        const d=p.data;
+        // 找该诗人相关关系
+        const rels=SHICANG_NETWORK.links.filter(l=>l.source===d.name||l.target===d.name).slice(0,12);
+        const relHtml=rels.map(l=>{
+          const other=l.source===d.name?l.target:l.source;
+          const dir=l.source===d.name?'→':'←';
+          return `<span style="display:inline-block;margin:2px 6px 2px 0;padding:1px 8px;border-radius:10px;background:rgba(174,58,43,.08);font-size:12px">${dir} ${l.label} ${other}</span>`;
+        }).join('');
+        document.getElementById('graph-info').innerHTML=
+          `<div style="font-family:KaiTi;font-size:18px;color:var(--mo)">${d.name} <span style="font-size:13px;color:#888;font-family:sans-serif">${d.dynasty||''} · 交游度 ${d.degree}</span></div>`
+          +`<div style="color:var(--shu)/80;margin:4px 0 6px;font-size:13.5px;line-height:1.9">${(d.bio||'').slice(0,260)}${(d.bio||'').length>260?'…':''}</div>`
+          +`<div>${relHtml}</div>`;
+      }
+    });
+    window.addEventListener('resize',()=>graphInst&&graphInst.resize());
+  }
+
+  /* ---- 诗人谱传 ---- */
+  function renderPoets(q){
+    q=(q||'').trim();
+    const grid=document.getElementById('poets-grid');
+    const list=SHICANG_POETS.filter(p=>!q||p.name.includes(q)||(p.zi||'').includes(q)||(p.hao||'').includes(q)||(p.dynasty||'').includes(q)||(p.bio||'').includes(q));
+    grid.innerHTML=list.map(p=>{
+      const life=(p.birthYear!=null&&p.deathYear!=null)?
+        (' ('+(p.birthYear<0?'前'+(-p.birthYear):p.birthYear)+'—'+(p.deathYear<0?'前'+(-p.deathYear):p.deathYear)+')'):'';
+      return `<div class="poet-card">
+        <div class="flex items-baseline gap-2">
+          <div class="poet-name">${p.name}${life}</div>
+          <div class="text-xs text-[var(--shu)]/60">${p.dynasty||''}</div>
+        </div>
+        <div class="text-xs text-[var(--shu)]/70 mt-1">${(p.zi?'字 '+p.zi:'')}${(p.zi&&p.hao)?' · ':''}${(p.hao?'号 '+p.hao:'')}</div>
+        <div class="text-sm text-[var(--shu)]/85 mt-3 leading-[1.9]">${p.bio||''}</div>
+      </div>`;
+    }).join('')||'<div class="text-center text-[var(--shu)]/60 py-10">未找到相关诗人</div>';
+  }
+  document.getElementById('poet-search').addEventListener('input',e=>renderPoets(e.target.value));
+
+  /* ---- 典故谱系 ---- */
+  function renderAllusions(q){
+    q=(q||'').trim();
+    const list=SHICANG_ALLUSIONS.allusions.filter(a=>!q||a.name.includes(q)||a.source.includes(q)||a.story.includes(q));
+    document.getElementById('allu-count').textContent=list.length;
+    document.getElementById('allusions-grid').innerHTML=list.map(a=>{
+      const ex=a.examples[0];
+      return `<details class="allu-card">
+        <summary class="cursor-pointer list-none">
+          <div class="flex items-center flex-wrap gap-1">
+            <span class="allu-name">${a.name}</span>
+            <span class="allu-count">${a.count}</span>
+            <span class="text-xs text-[var(--shu)]/60 ml-2">${a.source}</span>
+          </div>
+        </summary>
+        <div class="text-sm text-[var(--shu)]/85 mt-3 leading-[1.9]">${a.story}</div>
+        ${ex?`<div class="text-xs text-[var(--shu)]/60 mt-3 border-t border-dashed border-[var(--xian)] pt-2"><b>文献证例：</b>${ex.book} — ${ex.text.replace(/<[^>]+>/g,'').slice(0,120)}…</div>`:''}
+      </details>`;
+    }).join('')||'<div class="text-center text-[var(--shu)]/60 py-10">未找到相关典故</div>';
+  }
+  document.getElementById('allu-search').addEventListener('input',e=>renderAllusions(e.target.value));
+
+  /* ---- 作品本事时间轴 ---- */
+  function renderWorks(){
+    const tl=document.getElementById('works-timeline');
+    const list=[...SHICANG_WORKS_BG].sort((a,b)=>(a.year||0)-(b.year||0));
+    tl.innerHTML=list.map(w=>{
+      const year=w.year?(w.year<0?('前'+(-w.year)+'年'):(w.year+'年')):'年份不详';
+      return `<div class="tl-item">
+        <div class="tl-year">${year} · ${w.dynasty||''}</div>
+        <div class="tl-title">${w.title}${w.author?' <span style="font-size:14px;color:var(--shu);font-family:sans-serif">— '+w.author+'</span>':''}</div>
+        <div class="text-sm text-[var(--shu)]/85 leading-[1.9]">${w.background||''}</div>
+        ${w.source?`<div class="text-xs text-[var(--shu)]/55 mt-1">出处：${w.source}</div>`:''}
+      </div>`;
+    }).join('');
+  }
 })();
 </script>
 
