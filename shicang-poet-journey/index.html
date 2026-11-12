@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>诗人一生时空轨迹 · 诗藏本体论</title>
+<script src="journey_data.js"></script>
+<style>
+  :root{
+    --paper:#f5edda; --paper-2:#faf5e8; --ink:#2b2620; --ink-2:#5c5347;
+    --ink-3:#8f8471; --zhu:#8B3A2F; --line:rgba(43,38,32,.14);
+    --ac:#8B3A2F; --ac-soft:rgba(139,58,47,.10);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:"Noto Serif SC","Songti SC","STSong",serif;
+    background:var(--paper); color:var(--ink);
+    background-image:
+      radial-gradient(circle at 12% 18%, rgba(255,255,255,.55), transparent 42%),
+      radial-gradient(circle at 88% 76%, rgba(139,58,47,.05), transparent 46%),
+      repeating-linear-gradient(0deg, rgba(120,100,70,.022) 0 1px, transparent 1px 3px);
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:inherit;text-decoration:none}
+  /* ===== 顶栏 ===== */
+  .topnav{
+    position:sticky;top:0;z-index:50;background:rgba(245,237,218,.82);
+    backdrop-filter:blur(10px);border-bottom:1px solid var(--line);
+  }
+  .topnav .inner{max-width:1280px;margin:0 auto;padding:11px 20px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+  .brand{font-size:18px;font-weight:700;letter-spacing:2px;color:var(--zhu)}
+  .nav-links{display:flex;gap:14px;flex-wrap:wrap;font-size:13.5px;color:var(--ink-2)}
+  .nav-links a:hover{color:var(--zhu)}
+  .nav-links a.cur{color:var(--zhu);font-weight:700}
+  /* ===== 头部 ===== */
+  header.hero{max-width:1280px;margin:0 auto;padding:40px 20px 22px;text-align:center}
+  .hero h1{font-size:38px;letter-spacing:6px;font-weight:800}
+  .hero .sub{margin-top:12px;font-size:14.5px;color:var(--ink-3);letter-spacing:2px}
+  .hero .rule{width:60px;height:3px;background:var(--zhu);margin:18px auto 0;border-radius:2px;opacity:.85}
+  /* ===== 布局 ===== */
+  .wrap{max-width:1280px;margin:0 auto;padding:8px 20px 70px;display:grid;grid-template-columns:236px 1fr;gap:26px}
+  /* ===== 诗人列表 ===== */
+  .poet-list{position:sticky;top:74px;align-self:start}
+  .poet-list .cap{font-size:12.5px;letter-spacing:3px;color:var(--ink-3);margin-bottom:10px;padding-left:4px}
+  .poet-list .box{background:var(--paper-2);border:1px solid var(--line);border-radius:12px;padding:8px;max-height:calc(100vh - 150px);overflow:auto}
+  .p-item{display:flex;align-items:center;gap:10px;padding:9px 10px;border-radius:8px;cursor:pointer;transition:.18s;position:relative}
+  .p-item:hover{background:var(--ac-soft)}
+  .p-item.on{background:var(--ac-soft)}
+  .p-item.on::before{content:"";position:absolute;left:0;top:8px;bottom:8px;width:3px;border-radius:2px;background:var(--ac)}
+  .p-dot{width:9px;height:9px;border-radius:50%;flex:none}
+  .p-name{font-size:15px;font-weight:700}
+  .p-meta{font-size:11.5px;color:var(--ink-3);margin-left:auto;letter-spacing:.5px}
+  /* ===== 主舞台 ===== */
+  .stage{background:var(--paper-2);border:1px solid var(--line);border-radius:16px;padding:26px 26px 30px;box-shadow:0 1px 0 rgba(255,255,255,.6) inset}
+  .profile{display:grid;grid-template-columns:1fr auto;gap:16px;align-items:start;border-bottom:1px dashed var(--line);padding-bottom:20px}
+  .profile .nm{font-size:34px;font-weight:800;letter-spacing:4px;line-height:1.1}
+  .profile .nm .dyn{font-size:14px;font-weight:600;color:var(--ac);letter-spacing:2px;margin-left:10px;vertical-align:middle;border:1px solid var(--ac);padding:2px 9px;border-radius:20px}
+  .profile .tags{margin-top:10px;display:flex;gap:8px;flex-wrap:wrap}
+  .tag{font-size:12px;color:var(--ink-2);background:rgba(43,38,32,.045);border:1px solid var(--line);padding:3px 10px;border-radius:20px}
+  .profile .bio{margin-top:12px;font-size:13.5px;line-height:1.95;color:var(--ink-2);max-width:760px}
+  .profile .seal{width:76px;height:76px;border:2px solid var(--ac);border-radius:10px;display:flex;align-items:center;justify-content:center;color:var(--ac);font-size:26px;font-weight:800;letter-spacing:2px;opacity:.9;flex:none}
+  /* 小标题 */
+  .sec-h{display:flex;align-items:baseline;gap:12px;margin:26px 0 14px}
+  .sec-h .t{font-size:17px;font-weight:800;letter-spacing:3px}
+  .sec-h .d{font-size:12px;color:var(--ink-3);letter-spacing:1px}
+  /* 时间轴 */
+  .tl-scroll{overflow-x:auto;padding-bottom:6px}
+  .tl-svg{min-width:760px;display:block}
+  .tl-node{cursor:pointer}
+  .tl-node circle{transition:.18s}
+  .tl-node:hover circle{stroke-width:3}
+  .tl-node text{font-size:11px;fill:var(--ink-3);font-family:inherit}
+  /* 双栏：地图 + 事件 */
+  .duo{display:grid;grid-template-columns:minmax(300px,0.92fr) 1.08fr;gap:20px;margin-top:6px}
+  .panel{background:rgba(255,255,255,.42);border:1px solid var(--line);border-radius:12px;padding:14px}
+  .panel .ph{font-size:13px;font-weight:700;letter-spacing:2px;color:var(--ink-2);margin-bottom:10px;display:flex;justify-content:space-between;align-items:center}
+  .panel .ph span{font-size:11.5px;color:var(--ink-3);font-weight:400;letter-spacing:0}
+  .map-svg{width:100%;height:auto;display:block;border-radius:8px;background:
+    radial-gradient(circle at 30% 30%, rgba(255,255,255,.5), transparent 60%), #fbf7ec}
+  .map-dot{cursor:pointer}
+  .map-dot text{font-size:9.5px;fill:var(--ink-2);font-family:inherit}
+  /* 事件流 */
+  .ev-list{max-height:520px;overflow:auto;padding-right:6px}
+  .ev{position:relative;padding:0 0 16px 26px;cursor:pointer}
+  .ev::before{content:"";position:absolute;left:7px;top:6px;bottom:-2px;width:1px;background:var(--line)}
+  .ev:last-child::before{display:none}
+  .ev .dot{position:absolute;left:2px;top:5px;width:11px;height:11px;border-radius:50%;background:var(--paper-2);border:2px solid var(--ac);transition:.18s}
+  .ev.on .dot{background:var(--ac);transform:scale(1.25)}
+  .ev-body{padding:9px 12px;border-radius:9px;border:1px solid transparent;transition:.18s}
+  .ev:hover .ev-body,.ev.on .ev-body{background:var(--ac-soft);border-color:var(--line)}
+  .ev-top{display:flex;align-items:center;gap:9px;flex-wrap:wrap}
+  .ev-yr{font-size:12.5px;font-weight:800;color:var(--ac);letter-spacing:1px}
+  .ev-agem{font-size:11.5px;color:var(--ink-3)}
+  .ev-place{font-size:12px;color:var(--ink-2);border:1px solid var(--line);padding:1px 8px;border-radius:20px}
+  .ev-txt{margin-top:6px;font-size:13px;line-height:1.8;color:var(--ink)}
+  .ev-chips{margin-top:7px;display:flex;gap:6px;flex-wrap:wrap}
+  .chip{font-size:11.5px;padding:2px 9px;border-radius:6px;letter-spacing:.5px}
+  .chip.w{background:rgba(139,58,47,.09);color:var(--zhu);border:1px solid rgba(139,58,47,.22)}
+  .chip.f{background:rgba(47,102,94,.10);color:#2F665E;border:1px solid rgba(47,102,94,.24)}
+  /* 关系 */
+  .rel-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:12px}
+  .rel-card{background:rgba(255,255,255,.5);border:1px solid var(--line);border-radius:11px;padding:13px 14px;transition:.18s;border-left:3px solid var(--ac)}
+  .rel-card:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(43,38,32,.08)}
+  .rel-head{display:flex;align-items:center;gap:8px}
+  .rel-who{font-size:15px;font-weight:700}
+  .rel-type{font-size:11px;color:var(--ac);border:1px solid var(--ac);border-radius:20px;padding:1px 8px}
+  .rel-note{margin-top:8px;font-size:12.5px;line-height:1.75;color:var(--ink-2)}
+  /* 同时代 */
+  .contemp{display:flex;gap:9px;flex-wrap:wrap}
+  .ctag{font-size:12.5px;padding:4px 12px;border-radius:20px;border:1px dashed var(--line);color:var(--ink-2);cursor:pointer;transition:.18s}
+  .ctag:hover{border-style:solid;border-color:var(--ac);color:var(--ac)}
+  /* 底部说明 */
+  .foot{max-width:1280px;margin:0 auto;padding:0 20px 60px;text-align:center;color:var(--ink-3);font-size:12.5px;letter-spacing:1px;line-height:2}
+  @media (max-width:960px){
+    .wrap{grid-template-columns:1fr}
+    .poet-list{position:static}
+    .poet-list .box{max-height:none;display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:4px}
+    .duo{grid-template-columns:1fr}
+    .profile{grid-template-columns:1fr}
+    .profile .seal{display:none}
+    header.hero h1{font-size:28px;letter-spacing:4px}
+  }
+</style>
+
+<style>
+  .shicang-topnav{
+    position:sticky;top:0;z-index:999;
+    backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+    background:rgba(246,241,231,.92);
+    border-bottom:1px solid rgba(30,26,21,.11);
+    box-shadow:0 2px 12px rgba(30,26,21,.04);
+    font-family:'PingFang SC','HarmonyOS Sans SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;
+  }
+  .shicang-topnav-inner{
+    max-width:1200px;margin:0 auto;padding:0 16px;
+    height:52px;display:flex;align-items:center;justify-content:space-between;gap:12px;
+  }
+  .shicang-logo{
+    display:flex;align-items:center;gap:8px;text-decoration:none;color:#1e1a15;font-weight:700;
+    font-size:16px;font-family:'Songti SC','STSong','Noto Serif CJK SC',serif;
+  }
+  .shicang-logo-mark{
+    width:28px;height:28px;border-radius:6px;
+    background:linear-gradient(150deg,#ae3a2b,#c85a49);color:#fff;
+    display:flex;align-items:center;justify-content:center;
+    font-size:16px;box-shadow:inset 0 0 0 1px rgba(255,255,255,.25);
+  }
+  .shicang-nav-links{
+    display:flex;gap:4px;align-items:center;overflow-x:auto;scrollbar-width:none;
+  }
+  .shicang-nav-links::-webkit-scrollbar{display:none;}
+  .shicang-nav-link{
+    font-size:13px;color:#4b4237;text-decoration:none;padding:6px 10px;border-radius:999px;white-space:nowrap;
+    transition:all .2s;
+  }
+  .shicang-nav-link:hover{color:#ae3a2b;background:rgba(174,58,43,.07);}
+  .shicang-nav-link.active{color:#ae3a2b;background:rgba(174,58,43,.1);}
+  .shicang-nav-sep{font-size:11px;color:#8a7f6d;padding:0 4px;}
+  .shicang-menu-btn{display:none;font-size:20px;background:transparent;border:none;cursor:pointer;padding:6px;color:#1e1a15;}
+  .shicang-mobile-menu{
+    display:none;position:absolute;top:52px;left:0;right:0;
+    background:rgba(246,241,231,.98);backdrop-filter:blur(14px);
+    border-bottom:1px solid rgba(30,26,21,.11);padding:10px 16px;flex-direction:column;gap:4px;
+  }
+  .shicang-mobile-menu.open{display:flex;}
+  .shicang-mobile-menu .shicang-nav-link{padding:9px 10px;border-radius:8px;}
+  @media(max-width:1024px){
+    .shicang-desktop-links{display:none !important;}
+    .shicang-menu-btn{display:block !important;}
+  }
+</style>
+
+</head>
+<body>
+
+<nav class="shicang-topnav">
+  <div class="shicang-topnav-inner">
+    <a href="/ShiCang/" class="shicang-logo">
+      <span class="shicang-logo-mark">诗</span>
+      <span>诗藏本体论</span>
+    </a>
+    <div class="shicang-nav-links shicang-desktop-links">
+      <a href="/ShiCang/" class="shicang-nav-link">首页</a>
+      <span class="shicang-nav-sep">|</span>
+      <a href="/ShiCang/shicang-jingdu/" class="shicang-nav-link">诗</a>
+      <a href="/ShiCang/shicang-ci/" class="shicang-nav-link">词</a>
+      <a href="/ShiCang/shicang-qu/" class="shicang-nav-link">曲</a>
+      <a href="/ShiCang/shicang-chuci/" class="shicang-nav-link">辞赋</a>
+      <a href="/ShiCang/shicang-poem/" class="shicang-nav-link">名篇</a>
+      <span class="shicang-nav-sep">|</span>
+      <a href="/ShiCang/shicang-poet-journey/" class="shicang-nav-link active" class="shicang-nav-link">诗人轨迹</a>
+      <a href="/ShiCang/shicang-cipai/" class="shicang-nav-link">词牌</a>
+      <a href="/ShiCang/shicang-imagery/" class="shicang-nav-link">意象</a>
+      <a href="/ShiCang/shicang-meipi/" class="shicang-nav-link">眉批</a>
+      <a href="/ShiCang/shicang-duilian/" class="shicang-nav-link">对弈</a>
+      <a href="/ShiCang/shicang-duilian-corpus/" class="shicang-nav-link">楹联</a>
+      <a href="/ShiCang/shicang-map/" class="shicang-nav-link">地图</a>
+      <a href="/ShiCang/shicang-yunshu/" class="shicang-nav-link">韵书</a>
+    </div>
+    <button class="shicang-menu-btn" onclick="document.getElementById('shicangMobileNav').classList.toggle('open')">☰</button>
+    <div id="shicangMobileNav" class="shicang-mobile-menu">
+      <a href="/ShiCang/" class="shicang-nav-link font-bold">🏠 返回首页</a>
+      <div style="height:1px;background:rgba(30,26,21,.1);margin:6px 0;"></div>
+      <a href="/ShiCang/shicang-jingdu/" class="shicang-nav-link">📚 诗藏精读</a>
+      <a href="/ShiCang/shicang-ci/" class="shicang-nav-link">📝 词林精读</a>
+      <a href="/ShiCang/shicang-qu/" class="shicang-nav-link">🎭 曲林精读</a>
+      <a href="/ShiCang/shicang-chuci/" class="shicang-nav-link">🏮 辞赋精读</a>
+      <a href="/ShiCang/shicang-poem/" class="shicang-nav-link">📜 名篇精读</a>
+      <div style="height:1px;background:rgba(30,26,21,.1);margin:6px 0;"></div>
+      <a href="/ShiCang/shicang-poet-journey/" class="shicang-nav-link active" class="shicang-nav-link">🧭 诗人时空轨迹</a>
+      <a href="/ShiCang/shicang-cipai/" class="shicang-nav-link">🎶 词牌格律谱</a>
+      <a href="/ShiCang/shicang-imagery/" class="shicang-nav-link">🌿 意象关系图</a>
+      <a href="/ShiCang/shicang-meipi/" class="shicang-nav-link">🖋️ 诗话眉批</a>
+      <a href="/ShiCang/shicang-duilian/" class="shicang-nav-link">🀄 对联斗巧</a>
+      <a href="/ShiCang/shicang-duilian-corpus/" class="shicang-nav-link">🧧 楹联集对</a>
+      <a href="/ShiCang/shicang-map/" class="shicang-nav-link">🗺️ 诗词地图</a>
+      <a href="/ShiCang/shicang-yunshu/" class="shicang-nav-link">📖 韵书查询</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <h1>诗人一生时空轨迹</h1>
+  <div class="sub">时间 · 空间 · 事件 · 作品 · 交游　—　与诗藏本体论相连的诗人生命图谱</div>
+  <div class="rule"></div>
+</header>
+
+<div class="wrap">
+  <aside class="poet-list">
+    <div class="cap">历代诗人 · 十五家</div>
+    <div class="box" id="plist"></div>
+  </aside>
+
+  <section class="stage" id="stage">
+    <div class="profile" id="profile"></div>
+
+    <div class="sec-h"><div class="t">一生行迹 · 时间轴</div><div class="d">按生卒年比例排布，点击任一节点查看该年事迹</div></div>
+    <div class="tl-scroll"><svg class="tl-svg" id="tlsvg" viewBox="0 0 900 150" preserveAspectRatio="xMidYMid meet"></svg></div>
+
+    <div class="duo">
+      <div class="panel">
+        <div class="ph">行迹地图 <span id="mapnote">点位与路线示意</span></div>
+        <svg class="map-svg" id="mapsvg" viewBox="0 0 520 380" preserveAspectRatio="xMidYMid meet"></svg>
+      </div>
+      <div class="panel">
+        <div class="ph">生平事件 · 作品 · 交游 <span id="evcount"></span></div>
+        <div class="ev-list" id="evlist"></div>
+      </div>
+    </div>
+
+    <div class="sec-h"><div class="t">交游 · 师承 · 影响</div><div class="d">本体中有据可循的人物关系</div></div>
+    <div class="rel-grid" id="relgrid"></div>
+
+    <div class="sec-h"><div class="t">同时代诗人</div><div class="d">生卒年与之有交叠，可对比参照</div></div>
+    <div class="contemp" id="contemp"></div>
+  </section>
+</div>
+
+<div class="foot">
+  数据来源：诗藏本体论 shicang:Person / shicang:Poet 个体与生平属性　·　共 15 位诗人 · 114 个关键事件 · 43 条交游关系<br>
+  生卒年、行迹、交游均据学界公认史料录入，事件出处可回溯至《史记》《旧唐书》《宋史》及各家年谱
+</div>
+
+<script>
+(function(){
+  var D = window.POET_JOURNEYS;
+  if(!D){document.getElementById('stage').innerHTML='<p style="padding:40px;text-align:center">数据加载失败</p>';return;}
+  var poets = D.poets;
+  var curId = null, curEvents = [], curIdx = -1;
+
+  /* ---- 诗人列表 ---- */
+  var plist = document.getElementById('plist');
+  function renderList(){
+    plist.innerHTML = poets.map(function(p){
+      return '<div class="p-item'+(p.id===curId?' on':'')+'" data-id="'+p.id+'">'
+        + '<span class="p-dot" style="background:'+p.color+'"></span>'
+        + '<span class="p-name">'+p.name+'</span>'
+        + '<span class="p-meta">'+(p.birth<0?(-p.birth)+'前':p.birth)+'–'+(p.death<0?(-p.death)+'前':p.death)+'</span>'
+        + '</div>';
+    }).join('');
+    Array.prototype.forEach.call(plist.querySelectorAll('.p-item'), function(el){
+      el.onclick = function(){ select(el.getAttribute('data-id')); };
+    });
+  }
+
+  /* ---- 取同时代诗人 ---- */
+  function contemporaries(p){
+    return poets.filter(function(q){
+      if(q.id===p.id) return false;
+      return Math.min(p.death,q.death) - Math.max(p.birth,q.birth) > 0;
+    });
+  }
+
+  /* ---- 主题色 ---- */
+  function applyAccent(color){
+    var r=document.documentElement.style;
+    r.setProperty('--ac', color);
+    // 生成 8% 透明底色
+    var c=color.replace('#','');
+    if(c.length===6){
+      var R=parseInt(c.slice(0,2),16),G=parseInt(c.slice(2,4),16),B=parseInt(c.slice(4,6),16);
+      r.setProperty('--ac-soft','rgba('+R+','+G+','+B+',.10)');
+    }
+  }
+
+  /* ---- 档案 ---- */
+  function renderProfile(p){
+    var birth=p.birth<0?('前'+(-p.birth)):p.birth;
+    var death=p.death<0?('前'+(-p.death)):p.death;
+    document.getElementById('profile').innerHTML =
+      '<div>'
+      + '<div class="nm">'+p.name+'<span class="dyn">'+p.dynasty+'</span></div>'
+      + '<div class="tags">'
+      +   '<span class="tag">'+p.courtesy+'</span>'
+      +   (p.artname?('<span class="tag">'+p.artname+'</span>'):'')
+      +   '<span class="tag">'+birth+' – '+death+'</span>'
+      +   '<span class="tag">'+p.title+'</span>'
+      +   '<span class="tag">'+p.hometown+'</span>'
+      + '</div>'
+      + '<div class="bio">'+p.bio+'</div>'
+      + '</div>'
+      + '<div class="seal">'+p.name.slice(0,1)+'</div>';
+  }
+
+  /* ---- 时间轴 ---- */
+  function renderTimeline(p){
+    var svg=document.getElementById('tlsvg');
+    var W=900,H=150,padL=48,padR=48;
+    var y0=p.birth, y1=p.death, span=(y1-y0)||1;
+    function X(y){ return padL + (y-y0)/span*(W-padL-padR); }
+    var s='';
+    // 主轴
+    s+='<line x1="'+padL+'" y1="92" x2="'+(W-padR)+'" y2="92" stroke="'+p.color+'" stroke-opacity=".35" stroke-width="2"/>';
+    // 生平跨度条
+    s+='<rect x="'+padL+'" y="88" width="'+(W-padL-padR)+'" height="8" rx="4" fill="'+p.color+'" fill-opacity=".12"/>';
+    // 年份刻度（首末）
+    s+='<text x="'+padL+'" y="126" text-anchor="middle">'+(y0<0?('前'+(-y0)):y0)+'</text>';
+    s+='<text x="'+(W-padR)+'" y="126" text-anchor="middle">'+(y1<0?('前'+(-y1)):y1)+'</text>';
+    s+='<text x="'+(W/2)+'" y="140" text-anchor="middle" fill="'+p.color+'" font-size="11.5" letter-spacing="2">'+(y1-y0)+' 岁人生</text>';
+    // 事件节点：上下交错
+    p.events.forEach(function(e,i){
+      var x=X(e.year);
+      var up = i%2===0;
+      var yNode = up? 62 : 112;
+      var yTxt  = up? 44 : 132;
+      var yr = e.year<0?('前'+(-e.year)):e.year;
+      s+='<g class="tl-node" data-i="'+i+'" data-x="'+x+'">';
+      s+='<line x1="'+x+'" y1="92" x2="'+x+'" y2="'+yNode+'" stroke="'+p.color+'" stroke-opacity=".4" stroke-width="1"/>';
+      s+='<circle cx="'+x+'" cy="'+yNode+'" r="6" fill="#faf5e8" stroke="'+p.color+'" stroke-width="2.4"/>';
+      s+='<text x="'+x+'" y="'+yTxt+'" text-anchor="middle">'+yr+'</text>';
+      s+='</g>';
+    });
+    svg.innerHTML=s;
+    Array.prototype.forEach.call(svg.querySelectorAll('.tl-node'), function(g){
+      g.addEventListener('mouseenter', function(){ var i=+g.getAttribute('data-i'); highlight(i,false); });
+      g.addEventListener('click', function(){ var i=+g.getAttribute('data-i'); highlight(i,true); });
+    });
+  }
+
+  /* ---- 地图 ---- */
+  var LON0=73,LON1=135,LAT0=54,LAT1=18,MW=520,MH=380,MP=34;
+  function proj(lon,lat){
+    return { x: MP + (lon-LON0)/(LON1-LON0)*(MW-2*MP),
+             y: MP + (LAT0-lat)/(LAT0-LAT1)*(MH-2*MP) };
+  }
+  function renderMap(p){
+    var svg=document.getElementById('mapsvg');
+    var s='';
+    // 底纹网格（经纬示意）
+    for(var i=0;i<=6;i++){
+      var gx=MP+i*(MW-2*MP)/6;
+      s+='<line x1="'+gx+'" y1="'+MP+'" x2="'+gx+'" y2="'+(MH-MP)+'" stroke="rgba(43,38,32,.055)" stroke-width="1"/>';
+    }
+    for(var j=0;j<=6;j++){
+      var gy=MP+j*(MH-2*MP)/6;
+      s+='<line x1="'+MP+'" y1="'+gy+'" x2="'+(MW-MP)+'" y2="'+gy+'" stroke="rgba(43,38,32,.055)" stroke-width="1"/>';
+    }
+    // 长江、黄河示意
+    s+='<path d="M60,220 Q180,205 300,232 Q400,252 470,238" fill="none" stroke="rgba(63,102,128,.28)" stroke-width="1.6"/>';
+    s+='<path d="M70,150 Q200,138 320,160 Q420,178 468,162" fill="none" stroke="rgba(150,110,60,.24)" stroke-width="1.6"/>';
+    // 去重后的行迹点（按首次出现）
+    var seen={}, pts=[];
+    p.events.forEach(function(e,i){
+      var key=e.place;
+      var pt=proj(e.lon,e.lat);
+      if(!(key in seen)){ seen[key]=pts.length; pts.push({x:pt.x,y:pt.y,place:e.place,evs:[i]}); }
+      else { pts[seen[key]].evs.push(i); }
+    });
+    // 连线（按事件时序）
+    var seq=pts.map(function(o){return o;});
+    // 按首次事件索引排序以形成行程路线
+    var order=pts.slice().sort(function(a,b){return Math.min.apply(null,a.evs)-Math.min.apply(null,b.evs);});
+    var dpath='';
+    order.forEach(function(o,i){ dpath += (i===0?'M':'L')+o.x.toFixed(1)+','+o.y.toFixed(1)+' '; });
+    s+='<path d="'+dpath+'" fill="none" stroke="'+p.color+'" stroke-opacity=".45" stroke-width="1.6" stroke-dasharray="5 5"/>';
+    // 点
+    pts.forEach(function(o,k){
+      s+='<g class="map-dot" data-k="'+k+'">';
+      s+='<circle cx="'+o.x+'" cy="'+o.y+'" r="5.2" fill="'+p.color+'" fill-opacity=".92" stroke="#faf5e8" stroke-width="1.8"/>';
+      s+='<text x="'+(o.x+9)+'" y="'+(o.y+4)+'" class="map-label">'+o.place+'</text>';
+      s+='</g>';
+    });
+    svg.innerHTML=s;
+    document.getElementById('mapnote').textContent = '行迹点 '+pts.length+' 处 · 虚线为行程脉络';
+  }
+
+  /* ---- 事件流 ---- */
+  function renderEvents(p){
+    var box=document.getElementById('evlist');
+    box.innerHTML = p.events.map(function(e,i){
+      var yr=e.year<0?('前'+(-e.year)):e.year;
+      var chips='';
+      (e.works||[]).forEach(function(w){ chips+='<span class="chip w">《'+w+'》</span>'; });
+      (e.friends||[]).forEach(function(f){ chips+='<span class="chip f">'+f+'</span>'; });
+      return '<div class="ev" data-i="'+i+'">'
+        + '<span class="dot"></span>'
+        + '<div class="ev-body">'
+        + '<div class="ev-top"><span class="ev-yr">'+yr+'</span>'
+        +   (e.age?('<span class="ev-agem">'+(e.age===0?'出生':(e.age+'岁'))+'</span>'):'')
+        +   '<span class="ev-place">'+e.place+'</span></div>'
+        + '<div class="ev-txt">'+e.event+'</div>'
+        + (chips?('<div class="ev-chips">'+chips+'</div>'):'')
+        + '</div></div>';
+    }).join('');
+    Array.prototype.forEach.call(box.querySelectorAll('.ev'), function(el){
+      var i=+el.getAttribute('data-i');
+      el.onclick=function(){ highlight(i,true); };
+      el.addEventListener('mouseenter',function(){ highlight(i,false); });
+    });
+    document.getElementById('evcount').textContent = p.events.length+' 个节点';
+  }
+
+  /* ---- 高亮联动 ---- */
+  function highlight(i,scroll){
+    curIdx=i;
+    // 时间轴
+    var tl=document.getElementById('tlsvg');
+    Array.prototype.forEach.call(tl.querySelectorAll('.tl-node'), function(g){
+      var on=+g.getAttribute('data-i')===i;
+      var c=g.querySelector('circle');
+      c.setAttribute('r', on?'8.2':'6');
+      c.setAttribute('fill', on?getComputedStyle(document.documentElement).getPropertyValue('--ac').trim():'#faf5e8');
+      c.setAttribute('stroke-width', on?'3':'2.4');
+    });
+    // 事件
+    Array.prototype.forEach.call(document.querySelectorAll('#evlist .ev'), function(el){
+      var on=+el.getAttribute('data-i')===i;
+      el.classList.toggle('on',on);
+      if(on && scroll){ el.scrollIntoView({block:'nearest',behavior:'smooth'}); }
+    });
+    // 地图
+    var p=poets.filter(function(x){return x.id===curId;})[0];
+    if(p){
+      var svg=document.getElementById('mapsvg');
+      var evt=p.events[i];
+      Array.prototype.forEach.call(svg.querySelectorAll('.map-dot'), function(g){
+        var lbl=g.querySelector('text');
+        var on = lbl.textContent===evt.place;
+        var c=g.querySelector('circle');
+        c.setAttribute('r', on?'8':'5.2');
+        c.setAttribute('stroke', on?'#8B3A2F':'#faf5e8');
+        c.setAttribute('stroke-width', on?'2.6':'1.8');
+      });
+    }
+  }
+
+  /* ---- 关系 ---- */
+  function renderRelations(p){
+    var g=document.getElementById('relgrid');
+    g.innerHTML = p.relations.map(function(r){
+      return '<div class="rel-card">'
+        + '<div class="rel-head"><span class="rel-who">'+r.with+'</span><span class="rel-type">'+r.type+'</span></div>'
+        + '<div class="rel-note">'+r.note+'</div></div>';
+    }).join('');
+  }
+
+  /* ---- 同时代 ---- */
+  function renderContemp(p){
+    var cs=contemporaries(p);
+    var g=document.getElementById('contemp');
+    if(!cs.length){ g.innerHTML='<span style="color:var(--ink-3);font-size:12.5px">（生于乱世之端，无同期在场者）</span>'; return; }
+    g.innerHTML = cs.map(function(q){
+      return '<span class="ctag" data-id="'+q.id+'">'+q.name+' · '+q.dynasty+'</span>';
+    }).join('');
+    Array.prototype.forEach.call(g.querySelectorAll('.ctag'), function(el){
+      el.onclick=function(){ select(el.getAttribute('data-id')); };
+    });
+  }
+
+  /* ---- 选择诗人 ---- */
+  function select(id){
+    curId=id; curIdx=-1;
+    var p=poets.filter(function(x){return x.id===id;})[0];
+    if(!p) return;
+    applyAccent(p.color);
+    renderList();
+    renderProfile(p);
+    renderTimeline(p);
+    renderMap(p);
+    renderEvents(p);
+    renderRelations(p);
+    renderContemp(p);
+    document.getElementById('stage').scrollIntoView({block:'start',behavior:'smooth'});
+  }
+
+  select(poets[4].id); // 默认李白
+})();
+</script>
+</body>
+</html>

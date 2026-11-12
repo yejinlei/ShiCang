@@ -280,6 +280,7 @@
       <a href="shicang-chuci/" class="nav-link">辞赋</a>
       <a href="shicang-poem/" class="nav-link">名篇</a>
       <span class="nav-group">| 雅集</span>
+      <a href="shicang-poet-journey/" class="nav-link">诗人轨迹</a>
       <a href="shicang-cipai/" class="nav-link">词牌谱</a>
       <a href="shicang-imagery/" class="nav-link">意象图</a>
       <a href="shicang-meipi/" class="nav-link">诗话眉批</a>
@@ -310,6 +311,7 @@
       <a href="shicang-poem/" class="nav-link">📜 名篇深度精读</a>
       <div style="height:1px;background:var(--line);margin:6px 0;"></div>
       <div class="nav-group">诗词雅集 · 工具</div>
+      <a href="shicang-poet-journey/" class="nav-link">🧭 诗人时空轨迹</a>
       <a href="shicang-cipai/" class="nav-link">🎶 词牌格律谱</a>
       <a href="shicang-imagery/" class="nav-link">🌿 意象关系图</a>
       <a href="shicang-meipi/" class="nav-link">🖋️ 历代诗话眉批</a>
@@ -359,10 +361,10 @@
         <div class="kpi-num" data-count="99">99</div><div class="kpi-lbl">OWL 类</div>
       </div>
       <div class="bg-[var(--card)] rounded-xl px-4 py-4" style="border:1px solid var(--line);">
-        <div class="kpi-num" data-count="35">35</div><div class="kpi-lbl">对象属性</div>
+        <div class="kpi-num" data-count="34">34</div><div class="kpi-lbl">对象属性</div>
       </div>
       <div class="bg-[var(--card)] rounded-xl px-4 py-4" style="border:1px solid var(--line);">
-        <div class="kpi-num" data-count="55">55</div><div class="kpi-lbl">数据属性</div>
+        <div class="kpi-num" data-count="46">46</div><div class="kpi-lbl">数据属性</div>
       </div>
       <div class="bg-[var(--card)] rounded-xl px-4 py-4" style="border:1px solid var(--line);">
         <div class="kpi-num" data-count="776">776</div><div class="kpi-lbl">诗藏典籍（部） · 6.3万篇精读</div>
@@ -393,7 +395,7 @@
   <div class="max-w-[1180px] mx-auto px-5 md:px-8">
     <div class="mb-8">
       <div class="sec-eyebrow">02 / Classes</div>
-      <h2 class="sec-title text-[28px] md:text-[40px] mt-2">类体系 · 75 类</h2>
+      <h2 class="sec-title text-[28px] md:text-[40px] mt-2">类体系 · 99 类</h2>
       <p class="text-[15.5px] text-[var(--ink-2)] leading-relaxed mt-3 max-w-[720px]">
         点击层级切换查看该层定义的全部类。类的层级以 <span class="mono text-[13px] text-[var(--dian)]">rdfs:subClassOf</span> 表达，顶层元类 <span class="mono text-[13px] text-[var(--dian)]">ShiCangEntity</span> 统摄 L1–L6 全部实体类。
       </p>
@@ -410,10 +412,10 @@
     <div class="grid md:grid-cols-[.9fr_1.1fr] gap-6 md:gap-12 items-end mb-9">
       <div>
         <div class="sec-eyebrow">03 / Relations</div>
-        <h2 class="sec-title text-[28px] md:text-[40px] mt-2">关系网络 · 27 属性</h2>
+        <h2 class="sec-title text-[28px] md:text-[40px] mt-2">关系网络 · 34 对象属性</h2>
       </div>
       <p class="text-[15.5px] text-[var(--ink-2)] leading-relaxed md:pb-2">
-        关系是本体的「网」。27 个对象属性覆盖创作归属、体裁形式、意象情感、流派宗匠、典籍收录与人物传承；其中 <b style="color:var(--qing)">影响</b>具传递性、<b style="color:var(--qing)">交游</b>与<b style="color:var(--qing)">同时代</b>具对称性，多组逆属性支撑双向推理。
+        关系是本体的「网」。34 个对象属性覆盖创作归属、体裁形式、意象情感、流派宗匠、典籍收录与人物传承；其中 <b style="color:var(--qing)">影响</b>具传递性、<b style="color:var(--qing)">交游</b>与<b style="color:var(--qing)">同时代</b>具对称性，多组逆属性支撑双向推理。
       </p>
     </div>
 
@@ -985,8 +987,8 @@
           前缀用法示例：shicang:Poet · shicang:authored · shicang:containsImagery
         </div>
         <ul class="text-[14.5px] text-[var(--ink-2)] mt-3 space-y-1.5 list-none p-0">
-          <li>· 75 个类（owl:Class）</li>
-          <li>· 27 个对象属性（owl:ObjectProperty）</li>
+          <li>· 99 个类（owl:Class）</li>
+          <li>· 34 个对象属性（owl:ObjectProperty）</li>
           <li>· 16 个数据属性（owl:DatatypeProperty）</li>
           <li>· 85 个实例（owl:NamedIndividual）</li>
         </ul>
@@ -1063,6 +1065,14 @@
         </div>
         <div class="app-go">→</div>
       </a>
+      <a class="app-card group" href="shicang-poet-journey/" style="--ac:#8B3A2F">
+        <div class="app-icon">迹</div>
+        <div class="app-body">
+          <div class="app-title">诗人时空轨迹</div>
+          <div class="app-desc">15 位诗人一生行迹：年份时间轴、经纬地图、114 个生平事件与作品、43 条交游师承，点击诗人即可通览其时空与朋友圈。</div>
+        </div>
+        <div class="app-go">→</div>
+      </a>
       <a class="app-card group" href="shicang-yunshu/" style="--ac:#A67C2E">
         <div class="app-icon">韵</div>
         <div class="app-body">
@@ -1091,7 +1101,7 @@
         <div class="app-icon">诗</div>
         <div class="app-body">
           <div class="app-title">诗藏精读库</div>
-          <div class="app-desc">99 部诗选集，近 5 万首近体诗，依平水韵逐字标注平仄、韵脚、句式。</div>
+          <div class="app-desc">96 部诗选集，近 5 万首近体诗，依平水韵逐字标注平仄、韵脚、句式。</div>
         </div>
         <div class="app-go">→</div>
       </a>
