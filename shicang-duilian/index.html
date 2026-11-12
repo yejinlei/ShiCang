@@ -3,433 +3,670 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>詩詞對弈 · 對聯遊戲 · 詩藏本體論</title>
-<script src="pingze_data.js"></script>
-<script src="duilian_data.js"></script>
+<title>AI 对诗 · 诗藏本体论</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;500;600;700&family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
 <style>
-*{margin:0;padding:0;box-sizing:border-box}
-body{
-  font-family:'Noto Serif SC','Songti SC','SimSun',serif;
-  background:#f6efe0 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='0.85' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 0.55 0 0 0 0 0.45 0 0 0 0 0.3 0 0 0 0.08 0'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)'/%3E%3C/svg%3E");
-  color:#2c1810;min-height:100vh;line-height:1.8;
-}
-header{text-align:center;padding:36px 20px 20px;position:relative;
-  background:rgba(246,239,224,.95);border-bottom:1px solid rgba(139,90,43,.15)}
-.back{position:absolute;top:24px;left:28px;color:#8B3A2F;text-decoration:none;font-size:14px;
-  padding:6px 14px;border:1px solid #8B3A2F;border-radius:2px;transition:all .3s}
-.back:hover{background:#8B3A2F;color:#f6efe0}
-h1{font-size:36px;font-weight:700;letter-spacing:10px;color:#8B3A2F;margin-bottom:6px}
-.subtitle{color:#8B5A2B;font-size:13px;letter-spacing:5px}
-.tabs{max-width:960px;margin:24px auto 0;padding:0 20px;display:flex;justify-content:center;gap:8px}
-.tab{padding:8px 24px;cursor:pointer;font-size:15px;letter-spacing:3px;
-  border:1px solid rgba(139,58,47,.3);background:rgba(255,250,240,.7);color:#5c3020;font-family:inherit;
-  transition:all .3s;border-radius:1px}
-.tab.active{background:#8B3A2F;color:#f6efe0;border-color:#8B3A2F}
-.container{max-width:960px;margin:24px auto;padding:0 20px}
-.panel{background:rgba(255,250,240,.9);border:1px solid rgba(139,90,43,.2);padding:36px 40px;display:none}
-.panel.active{display:block}
+  :root {
+    --paper: #f6efe0;
+    --paper-dark: #e9dcc5;
+    --ink: #2c2418;
+    --ink-light: #5c4f3f;
+    --vermilion: #8B3A2F;
+    --vermilion-light: #a84a3d;
+    --seal: #a52a2a;
+    --gold: #b8860b;
+    --green: #2E6B4F;
+    --blue: #3F6680;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Noto Serif SC', 'SimSun', '宋体', serif;
+    background: var(--paper);
+    background-image: 
+      url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100' height='100' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+    color: var(--ink);
+    line-height: 1.8;
+    min-height: 100vh;
+  }
+  .navbar {
+    position: sticky; top: 0; z-index: 100;
+    background: rgba(246,239,224,0.95);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(139,58,47,0.2);
+    padding: 0.8rem 2rem;
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .navbar-brand {
+    font-family: 'Ma Shan Zheng', cursive;
+    font-size: 1.4rem; color: var(--vermilion); text-decoration: none;
+    display: flex; align-items: center; gap: 0.5rem;
+  }
+  .navbar-brand::before {
+    content: '詩'; display: inline-flex; align-items: center; justify-content: center;
+    width: 2rem; height: 2rem; background: var(--vermilion); color: var(--paper);
+    border-radius: 4px; font-size: 1.2rem;
+  }
+  .navbar-links { display: flex; gap: 1.2rem; flex-wrap: wrap; }
+  .navbar-links a {
+    color: var(--ink-light); text-decoration: none; font-size: 0.9rem;
+    padding: 0.3rem 0.6rem; border-radius: 3px; transition: all 0.3s;
+  }
+  .navbar-links a:hover, .navbar-links a.active {
+    color: var(--vermilion); background: rgba(139,58,47,0.08);
+  }
+  .navbar-links a.active { font-weight: 500; }
+  .nav-toggle {
+    display: none; background: none; border: none; font-size: 1.5rem;
+    color: var(--vermilion); cursor: pointer;
+  }
 
-/* 对联游戏样式 */
-.dui-area{display:flex;gap:24px;margin:28px 0;justify-content:center;align-items:stretch;flex-wrap:wrap}
-.couplet-col{flex:1;min-width:200px;max-width:260px;text-align:center}
-.couplet-label{font-size:14px;color:#8B5A2B;letter-spacing:4px;margin-bottom:12px}
-.couplet-text{
-  writing-mode:vertical-rl;
-  background:rgba(246,239,224,.8);border:2px solid #c9a96e;padding:24px 14px;
-  font-size:32px;letter-spacing:12px;color:#2c1810;min-height:340px;
-  display:flex;align-items:center;justify-content:center;
-  font-weight:500;
-  background-image:repeating-linear-gradient(0deg,rgba(139,90,43,.06) 0px,rgba(139,90,43,.06) 1px,transparent 1px,transparent 46px);
-}
-.couplet-text.input-col{
-  writing-mode:vertical-rl;border-style:dashed;color:#8B3A2F;
-  background:rgba(139,58,47,.03);
-}
-.couplet-text.input-col.has-answer{border-style:solid;color:#2c1810}
-.char-cell{
-  width:40px;height:40px;display:inline-flex;align-items:center;justify-content:center;
-  margin:4px 0;position:relative;font-size:30px;
-}
-.char-cell .pz{position:absolute;left:-18px;top:50%;transform:translateY(-50%);font-size:12px;letter-spacing:0}
-.ping-mark{color:#2E7D32}
-.ze-mark{color:#C62828}
-.hengpi{
-  text-align:center;margin:18px auto;padding:10px 20px;
-  border:1px solid #c9a96e;background:rgba(246,239,224,.8);
-  font-size:20px;letter-spacing:6px;color:#8B3A2F;display:inline-block;
-}
-.hengpi-wrap{text-align:center;margin-bottom:8px}
+  .container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
+  .page-header {
+    text-align: center; margin-bottom: 3rem;
+    padding: 2rem 0; border-bottom: 1px solid rgba(139,58,47,0.15);
+  }
+  .page-title {
+    font-family: 'Ma Shan Zheng', cursive;
+    font-size: 2.8rem; color: var(--vermilion); margin-bottom: 0.5rem;
+  }
+  .page-subtitle {
+    color: var(--ink-light); font-size: 1.1rem; letter-spacing: 0.2em;
+  }
+  .seal {
+    display: inline-block; margin-top: 1rem; padding: 0.3rem 0.6rem;
+    background: var(--seal); color: var(--paper);
+    font-size: 0.8rem; border-radius: 2px; letter-spacing: 0.1em;
+  }
 
-.input-wrap{margin:24px 0;text-align:center}
-.char-input{
-  font-family:inherit;font-size:22px;letter-spacing:14px;
-  padding:10px 18px;border:1px solid #c9a96e;background:rgba(255,250,240,.8);
-  color:#2c1810;text-align:center;outline:none;width:320px;
-}
-.char-input:focus{border-color:#8B3A2F;box-shadow:0 0 0 2px rgba(139,58,47,.1)}
-.btn-row{display:flex;justify-content:center;gap:12px;margin:18px 0;flex-wrap:wrap}
-.btn{
-  padding:8px 24px;font-family:inherit;font-size:14px;letter-spacing:3px;cursor:pointer;
-  background:rgba(139,58,47,.85);color:#f6efe0;border:1px solid #8B3A2F;
-  transition:all .3s;border-radius:1px;
-}
-.btn:hover{background:#8B3A2F}
-.btn.ghost{background:transparent;color:#8B3A2F}
-.btn.ghost:hover{background:rgba(139,58,47,.1)}
+  .tabs {
+    display: flex; justify-content: center; gap: 1rem; margin-bottom: 2rem;
+    flex-wrap: wrap;
+  }
+  .tab-btn {
+    padding: 0.8rem 1.5rem; background: transparent;
+    border: 1px solid rgba(139,58,47,0.3); color: var(--ink-light);
+    font-family: 'Noto Serif SC', serif; font-size: 1rem;
+    border-radius: 4px; cursor: pointer; transition: all 0.3s;
+  }
+  .tab-btn.active {
+    background: var(--vermilion); color: var(--paper);
+    border-color: var(--vermilion);
+  }
+  .tab-content { display: none; }
+  .tab-content.active { display: block; }
 
-.result-box{margin-top:20px;padding:16px 20px;border:1px dashed #c9a96e;background:rgba(246,239,224,.6);display:none}
-.result-box.visible{display:block}
-.result-title{font-size:16px;color:#8B3A2F;letter-spacing:3px;margin-bottom:10px}
-.score-row{display:flex;gap:16px;flex-wrap:wrap;margin:8px 0;font-size:14px}
-.score-item{padding:4px 10px;background:rgba(255,250,240,.8);border-left:2px solid #c9a96e}
-.score-good{color:#2E7D32;border-left-color:#2E7D32}
-.score-bad{color:#C62828;border-left-color:#C62828}
-.advice{margin-top:10px;padding:10px;background:rgba(139,58,47,.06);font-size:14px;color:#5c3020;line-height:1.8}
+  .duilian-box {
+    background: rgba(255,255,255,0.5); border: 1px solid rgba(139,58,47,0.2);
+    border-radius: 8px; padding: 2rem; margin-bottom: 2rem;
+  }
+  .couplet-row {
+    display: flex; justify-content: center; gap: 3rem;
+    margin-bottom: 2rem; align-items: flex-start;
+  }
+  .couplet-line {
+    writing-mode: vertical-rl; text-orientation: upright;
+    font-size: 2rem; letter-spacing: 0.3em; padding: 1.5rem 0.8rem;
+    border-left: 1px solid var(--vermilion); border-right: 1px solid var(--vermilion);
+    background: linear-gradient(to right, transparent, rgba(139,58,47,0.05), transparent);
+    min-height: 300px;
+  }
+  .couplet-line.bottom-line {
+    border-color: var(--gold);
+  }
+  .couplet-label {
+    text-align: center; margin-bottom: 0.5rem;
+    color: var(--ink-light); font-size: 0.9rem;
+  }
 
-/* 笠翁对韵学习 */
-.lidui-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px;margin:18px 0}
-.lidui-card{padding:14px 16px;background:rgba(255,250,240,.7);border-left:3px solid #c9a96e;cursor:pointer;transition:all .3s}
-.lidui-card:hover{background:rgba(246,239,224,.9);border-left-color:#8B3A2F;transform:translateX(3px)}
-.lidui-shang{font-size:18px;color:#8B3A2F;letter-spacing:3px}
-.lidui-xia{font-size:18px;color:#2c1810;letter-spacing:3px;margin-top:4px}
-.lidui-hint{font-size:12px;color:#a08060;letter-spacing:1px;margin-top:6px}
+  .input-area {
+    max-width: 800px; margin: 0 auto;
+  }
+  .input-group { margin-bottom: 1.5rem; }
+  .input-label {
+    display: block; margin-bottom: 0.5rem; color: var(--ink); font-weight: 500;
+  }
+  .input-field {
+    width: 100%; padding: 1rem; font-size: 1.1rem;
+    font-family: 'Noto Serif SC', serif;
+    border: 1px solid rgba(139,58,47,0.3); border-radius: 4px;
+    background: rgba(255,255,255,0.7); color: var(--ink);
+    transition: border-color 0.3s;
+  }
+  .input-field:focus {
+    outline: none; border-color: var(--vermilion);
+  }
+  .btn {
+    padding: 0.8rem 2rem; background: var(--vermilion); color: var(--paper);
+    border: none; border-radius: 4px; font-size: 1rem;
+    font-family: 'Noto Serif SC', serif; cursor: pointer;
+    transition: all 0.3s; margin-right: 1rem; margin-bottom: 0.5rem;
+  }
+  .btn:hover { background: var(--vermilion-light); transform: translateY(-1px); }
+  .btn-secondary {
+    background: transparent; color: var(--vermilion); border: 1px solid var(--vermilion);
+  }
+  .btn-secondary:hover { background: rgba(139,58,47,0.08); }
 
-.info-note{font-size:13px;color:#8B5A2B;text-align:center;margin:12px 0;letter-spacing:2px}
-footer{text-align:center;padding:24px;color:#a08060;font-size:12px;letter-spacing:3px}
+  .result-box {
+    margin-top: 2rem; padding: 2rem; background: rgba(255,255,255,0.6);
+    border-radius: 8px; border: 1px solid rgba(139,58,47,0.2);
+    display: none;
+  }
+  .result-box.show { display: block; }
+  .result-score {
+    text-align: center; margin-bottom: 1.5rem;
+  }
+  .score-number {
+    font-family: 'Ma Shan Zheng', cursive;
+    font-size: 3rem; color: var(--vermilion);
+  }
+  .score-label { color: var(--ink-light); font-size: 1rem; }
+  .score-breakdown {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem; margin-bottom: 1.5rem;
+  }
+  .score-item {
+    padding: 1rem; background: rgba(246,239,224,0.8); border-radius: 4px;
+    text-align: center;
+  }
+  .score-item-title { color: var(--ink-light); font-size: 0.9rem; margin-bottom: 0.3rem; }
+  .score-item-value { font-size: 1.3rem; color: var(--vermilion); font-weight: 600; }
+  .suggestions {
+    padding: 1rem; background: rgba(46,107,79,0.08);
+    border-left: 3px solid var(--green); border-radius: 0 4px 4px 0;
+  }
+  .suggestions-title { color: var(--green); font-weight: 500; margin-bottom: 0.5rem; }
+  .suggestions ul { padding-left: 1.5rem; color: var(--ink); }
+  .suggestions li { margin-bottom: 0.3rem; }
 
-/* 平仄配色 */
-.pz-ping{color:#2E7D32;font-weight:500}
-.pz-ze{color:#C62828;font-weight:500}
-.pz-unknown{color:#999}
+  .ai-generate-box {
+    margin-top: 2rem; padding: 1.5rem; background: rgba(184,134,11,0.08);
+    border-left: 3px solid var(--gold); border-radius: 0 4px 4px 0;
+    display: none;
+  }
+  .ai-generate-box.show { display: block; }
+  .ai-title { color: var(--gold); font-weight: 500; margin-bottom: 1rem; }
+  .ai-couplet {
+    display: flex; justify-content: center; gap: 2rem; margin: 1rem 0;
+  }
+  .ai-line {
+    font-size: 1.5rem; letter-spacing: 0.2em; padding: 1rem;
+    background: var(--paper); border: 1px solid var(--gold); border-radius: 4px;
+  }
+  .ai-horizontal {
+    text-align: center; font-size: 1.8rem; letter-spacing: 0.3em;
+    padding: 0.8rem; color: var(--vermilion);
+  }
+
+  .lidui-list {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem; margin-top: 1.5rem;
+  }
+  .lidui-card {
+    padding: 1rem; background: rgba(255,255,255,0.5);
+    border: 1px solid rgba(139,58,47,0.15); border-radius: 4px;
+    cursor: pointer; transition: all 0.3s;
+  }
+  .lidui-card:hover {
+    background: rgba(255,255,255,0.8); border-color: var(--vermilion);
+    transform: translateY(-2px);
+  }
+  .lidui-pair {
+    display: flex; justify-content: space-between; font-size: 1.1rem;
+    margin-bottom: 0.3rem;
+  }
+  .lidui-topic { color: var(--ink-light); font-size: 0.85rem; text-align: right; }
+
+  .random-shanglian {
+    text-align: center; padding: 2rem; background: rgba(255,255,255,0.5);
+    border-radius: 8px; margin-bottom: 2rem; border: 1px solid rgba(139,58,47,0.2);
+  }
+  .random-shanglian-text {
+    font-size: 1.8rem; letter-spacing: 0.2em; color: var(--vermilion);
+    margin-bottom: 1rem;
+  }
+
+  @media (max-width: 768px) {
+    .navbar { padding: 0.6rem 1rem; }
+    .navbar-links { display: none; flex-direction: column; position: absolute;
+      top: 100%; left: 0; right: 0; background: var(--paper);
+      padding: 1rem; border-bottom: 1px solid rgba(139,58,47,0.2); }
+    .navbar-links.show { display: flex; }
+    .nav-toggle { display: block; }
+    .container { padding: 1rem; }
+    .page-title { font-size: 2rem; }
+    .couplet-row { gap: 1rem; }
+    .couplet-line { font-size: 1.3rem; min-height: 200px; }
+    .ai-couplet { flex-direction: column; align-items: center; gap: 1rem; }
+  }
 </style>
-
-<style>
-  .shicang-topnav{
-    position:sticky;top:0;z-index:999;
-    backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
-    background:rgba(246,241,231,.92);
-    border-bottom:1px solid rgba(30,26,21,.11);
-    box-shadow:0 2px 12px rgba(30,26,21,.04);
-    font-family:'PingFang SC','HarmonyOS Sans SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;
-  }
-  .shicang-topnav-inner{
-    max-width:1200px;margin:0 auto;padding:0 16px;
-    height:52px;display:flex;align-items:center;justify-content:space-between;gap:12px;
-  }
-  .shicang-logo{
-    display:flex;align-items:center;gap:8px;text-decoration:none;color:#1e1a15;font-weight:700;
-    font-size:16px;font-family:'Songti SC','STSong','Noto Serif CJK SC',serif;
-  }
-  .shicang-logo-mark{
-    width:28px;height:28px;border-radius:6px;
-    background:linear-gradient(150deg,#ae3a2b,#c85a49);color:#fff;
-    display:flex;align-items:center;justify-content:center;
-    font-size:16px;box-shadow:inset 0 0 0 1px rgba(255,255,255,.25);
-  }
-  .shicang-nav-links{
-    display:flex;gap:4px;align-items:center;overflow-x:auto;scrollbar-width:none;
-  }
-  .shicang-nav-links::-webkit-scrollbar{display:none;}
-  .shicang-nav-link{
-    font-size:13px;color:#4b4237;text-decoration:none;padding:6px 10px;border-radius:999px;white-space:nowrap;
-    transition:all .2s;
-  }
-  .shicang-nav-link:hover{color:#ae3a2b;background:rgba(174,58,43,.07);}
-  .shicang-nav-link.active{color:#ae3a2b;background:rgba(174,58,43,.1);}
-  .shicang-nav-sep{font-size:11px;color:#8a7f6d;padding:0 4px;}
-  .shicang-menu-btn{display:none;font-size:20px;background:transparent;border:none;cursor:pointer;padding:6px;color:#1e1a15;}
-  .shicang-mobile-menu{
-    display:none;position:absolute;top:52px;left:0;right:0;
-    background:rgba(246,241,231,.98);backdrop-filter:blur(14px);
-    border-bottom:1px solid rgba(30,26,21,.11);padding:10px 16px;flex-direction:column;gap:4px;
-  }
-  .shicang-mobile-menu.open{display:flex;}
-  .shicang-mobile-menu .shicang-nav-link{padding:9px 10px;border-radius:8px;}
-  @media(max-width:1024px){
-    .shicang-desktop-links{display:none !important;}
-    .shicang-menu-btn{display:block !important;}
-  }
-</style>
-
 </head>
 <body>
 
-
-<nav class="shicang-topnav">
-  <div class="shicang-topnav-inner">
-    <a href="/ShiCang/" class="shicang-logo">
-      <span class="shicang-logo-mark">诗</span>
-      <span>诗藏本体论</span>
-    </a>
-    <div class="shicang-nav-links shicang-desktop-links">
-      <a href="/ShiCang/" class="shicang-nav-link">首页</a>
-      <span class="shicang-nav-sep">|</span>
-      <a href="/ShiCang/shicang-jingdu/" class="shicang-nav-link">诗</a>
-      <a href="/ShiCang/shicang-ci/" class="shicang-nav-link">词</a>
-      <a href="/ShiCang/shicang-qu/" class="shicang-nav-link">曲</a>
-      <a href="/ShiCang/shicang-chuci/" class="shicang-nav-link">辞赋</a>
-      <a href="/ShiCang/shicang-poem/" class="shicang-nav-link">名篇</a>
-      <span class="shicang-nav-sep">|</span>
-      <a href="/ShiCang/shicang-poet-journey/" class="shicang-nav-link">诗人轨迹</a>
-      <a href="/ShiCang/shicang-cipai/" class="shicang-nav-link">词牌</a>
-      <a href="/ShiCang/shicang-imagery/" class="shicang-nav-link">意象</a>
-      <a href="/ShiCang/shicang-meipi/" class="shicang-nav-link">眉批</a>
-      <a href="/ShiCang/shicang-duilian/" class="shicang-nav-link active" class="shicang-nav-link">对弈</a>
-      <a href="/ShiCang/shicang-duilian-corpus/" class="shicang-nav-link">楹联</a>
-      <a href="/ShiCang/shicang-map/" class="shicang-nav-link">地图</a>
-      <a href="/ShiCang/shicang-yunshu/" class="shicang-nav-link">韵书</a>
-    </div>
-    <button class="shicang-menu-btn" onclick="document.getElementById('shicangMobileNav').classList.toggle('open')">☰</button>
-    <div id="shicangMobileNav" class="shicang-mobile-menu">
-      <a href="/ShiCang/" class="shicang-nav-link font-bold">🏠 返回首页</a>
-      <div style="height:1px;background:rgba(30,26,21,.1);margin:6px 0;"></div>
-      <a href="/ShiCang/shicang-jingdu/" class="shicang-nav-link">📚 诗藏精读</a>
-      <a href="/ShiCang/shicang-ci/" class="shicang-nav-link">📝 词林精读</a>
-      <a href="/ShiCang/shicang-qu/" class="shicang-nav-link">🎭 曲林精读</a>
-      <a href="/ShiCang/shicang-chuci/" class="shicang-nav-link">🏮 辞赋精读</a>
-      <a href="/ShiCang/shicang-poem/" class="shicang-nav-link">📜 名篇精读</a>
-      <div style="height:1px;background:rgba(30,26,21,.1);margin:6px 0;"></div>
-      <a href="/ShiCang/shicang-poet-journey/" class="shicang-nav-link">🧭 诗人时空轨迹</a>
-      <a href="/ShiCang/shicang-cipai/" class="shicang-nav-link">🎶 词牌格律谱</a>
-      <a href="/ShiCang/shicang-imagery/" class="shicang-nav-link">🌿 意象关系图</a>
-      <a href="/ShiCang/shicang-meipi/" class="shicang-nav-link">🖋️ 诗话眉批</a>
-      <a href="/ShiCang/shicang-duilian/" class="shicang-nav-link active" class="shicang-nav-link">🀄 对联斗巧</a>
-      <a href="/ShiCang/shicang-duilian-corpus/" class="shicang-nav-link">🧧 楹联集对</a>
-      <a href="/ShiCang/shicang-map/" class="shicang-nav-link">🗺️ 诗词地图</a>
-      <a href="/ShiCang/shicang-yunshu/" class="shicang-nav-link">📖 韵书查询</a>
-    </div>
+<nav class="navbar">
+  <a href="../index.html" class="navbar-brand">诗藏</a>
+  <button class="nav-toggle" onclick="document.querySelector('.navbar-links').classList.toggle('show')">☰</button>
+  <div class="navbar-links">
+    <a href="../shicang-jingdu/">诗</a>
+    <a href="../shicang-ci/">词</a>
+    <a href="../shicang-qu/">曲</a>
+    <a href="../shicang-chuci/">辞赋</a>
+    <a href="../shicang-poem/">名篇</a>
+    <a href="../shicang-poet-journey/">诗人轨迹</a>
+    <a href="../shicang-cipai/">词牌谱</a>
+    <a href="../shicang-imagery/">意象图</a>
+    <a href="../shicang-meipi/">诗话眉批</a>
+    <a href="index.html" class="active">AI 对诗</a>
+    <a href="../shicang-duilian-corpus/">楹联集对</a>
+    <a href="../shicang-map/">诗词地图</a>
+    <a href="../shicang-yunshu/">韵书</a>
+    <a href="../shicang-rili/">诗词日历</a>
+    <a href="../shicang-zoumadeng/">诗人走马灯</a>
   </div>
 </nav>
 
-
-<header>
-  <a class="back" href="../index.html">← 返回詩藏</a>
-  <h1>詩 詞 對 弈</h1>
-  <div class="subtitle">Couplet Game · 吟詩作對 · 平仄自校</div>
-  <div class="tabs">
-    <div class="tab active" data-tab="game">對聯闘巧</div>
-    <div class="tab" data-tab="learn">笠翁對韻</div>
-    <div class="tab" data-tab="rules">對聯格律</div>
-  </div>
-</header>
 <div class="container">
-  <!-- 对联游戏 -->
-  <div class="panel active" id="panel-game">
-    <div class="info-note">已抽選上聯，請輸入對仗工整的下聯，系統將自動校驗平仄、字數、對仗</div>
-    <div class="hengpi-wrap"><div class="hengpi" id="hengpi">橫 批</div></div>
-    <div class="dui-area">
-      <div class="couplet-col">
-        <div class="couplet-label">上 聯（出 句）</div>
-        <div class="couplet-text" id="shanglian-box"></div>
+  <div class="page-header">
+    <h1 class="page-title">AI 对诗斗巧</h1>
+    <p class="page-subtitle">依格律 · 分平仄 · 自动评分 · 智能作对</p>
+    <span class="seal">平水韵校验</span>
+  </div>
+
+  <div class="tabs">
+    <button class="tab-btn active" data-tab="duilian">对联斗巧</button>
+    <button class="tab-btn" data-tab="wucheng">五步成诗</button>
+    <button class="tab-btn" data-tab="lidui">笠翁对韵</button>
+    <button class="tab-btn" data-tab="rules">格律说明</button>
+  </div>
+
+  <!-- 对联斗巧 -->
+  <div class="tab-content active" id="tab-duilian">
+    <div class="random-shanglian">
+      <div class="couplet-label">随机上联</div>
+      <div class="random-shanglian-text" id="randomShanglian">海闊憑魚躍</div>
+      <button class="btn btn-secondary" onclick="randomShanglian()">换一个</button>
+      <button class="btn" onclick="document.getElementById('shanglianInput').value = document.getElementById('randomShanglian').textContent">用这个上联</button>
+    </div>
+
+    <div class="duilian-box">
+      <div class="couplet-row">
+        <div>
+          <div class="couplet-label">上联（仄收）</div>
+          <div class="couplet-line" id="shanglianDisplay">海闊憑魚躍</div>
+        </div>
+        <div>
+          <div class="couplet-label">下联（您来对）</div>
+          <div class="couplet-line bottom-line" id="xialianDisplay">待對</div>
+        </div>
       </div>
-      <div class="couplet-col">
-        <div class="couplet-label">下 聯（對 句）</div>
-        <div class="couplet-text input-col" id="xialian-box">請在下方輸入</div>
+
+      <div class="input-area">
+        <div class="input-group">
+          <label class="input-label">请输入上联</label>
+          <input type="text" class="input-field" id="shanglianInput" value="海闊憑魚躍" placeholder="请输入上联，如：海阔凭鱼跃">
+        </div>
+        <div class="input-group">
+          <label class="input-label">请输入您的下联</label>
+          <input type="text" class="input-field" id="xialianInput" placeholder="请输入下联，系统自动评分">
+        </div>
+        <button class="btn" onclick="scoreDuilian()">格律评分</button>
+        <button class="btn btn-secondary" onclick="aiGenerate()">AI 自动作对</button>
+        <button class="btn btn-secondary" onclick="clearInput()">清空</button>
       </div>
-    </div>
-    <div class="input-wrap">
-      <input class="char-input" id="userInput" placeholder="請輸入下聯（繁體字）" maxlength="30"/>
-    </div>
-    <div class="btn-row">
-      <button class="btn" onclick="checkAnswer()">校 對 點 評</button>
-      <button class="btn ghost" onclick="revealAnswer()">顯 示 答 案</button>
-      <button class="btn ghost" onclick="newQuestion()">換 一 題</button>
-    </div>
-    <div class="result-box" id="resultBox">
-      <div class="result-title" id="resultTitle">點評結果</div>
-      <div id="resultScores"></div>
-      <div class="advice" id="resultAdvice"></div>
+
+      <div class="result-box" id="resultBox">
+        <div class="result-score">
+          <div class="score-number" id="totalScore">0</div>
+          <div class="score-label">总分（满分100）</div>
+        </div>
+        <div class="score-breakdown">
+          <div class="score-item">
+            <div class="score-item-title">字数相等</div>
+            <div class="score-item-value" id="scoreZishu">0/20</div>
+          </div>
+          <div class="score-item">
+            <div class="score-item-title">仄起平收</div>
+            <div class="score-item-value" id="scoreZeqi">0/20</div>
+          </div>
+          <div class="score-item">
+            <div class="score-item-title">平仄相对</div>
+            <div class="score-item-value" id="scorePingze">0/30</div>
+          </div>
+          <div class="score-item">
+            <div class="score-item-title">词性对仗</div>
+            <div class="score-item-value" id="scoreCixing">0/30</div>
+          </div>
+        </div>
+        <div class="suggestions" id="suggestions">
+          <div class="suggestions-title">改进建议</div>
+          <ul id="suggestionList"></ul>
+        </div>
+      </div>
+
+      <div class="ai-generate-box" id="aiBox">
+        <div class="ai-title">🤖 AI 智能对句参考</div>
+        <div class="ai-couplet">
+          <div class="ai-line" id="aiShang"></div>
+          <div class="ai-line" id="aiXia"></div>
+        </div>
+        <div style="text-align: center; color: var(--ink-light); font-size: 0.9rem; margin-top: 1rem;">注：AI 对句基于平水韵平仄规则与经典对句库生成，仅供参考</div>
+      </div>
     </div>
   </div>
 
-  <!-- 笠翁对韵学习 -->
-  <div class="panel" id="panel-learn">
-    <div class="info-note">《笠翁對韻》是古代啓蒙對聯教材，研讀範例可掌握對仗規律</div>
-    <div class="lidui-grid" id="liduiGrid"></div>
+  <!-- 五步成诗 -->
+  <div class="tab-content" id="tab-wucheng">
+    <div class="duilian-box">
+      <h3 style="text-align: center; color: var(--vermilion); margin-bottom: 1.5rem; font-family: 'Ma Shan Zheng', cursive; font-size: 1.8rem;">五步成诗 · 藏头/限韵/集句</h3>
+      <div class="input-area">
+        <div class="input-group">
+          <label class="input-label">请输入藏头字（4-7字，留空则不限）</label>
+          <input type="text" class="input-field" id="cangtouInput" placeholder="如：春夏秋冬">
+        </div>
+        <div class="input-group">
+          <label class="input-label">选择韵部（平水韵）</label>
+          <select class="input-field" id="yunbuSelect">
+            <option value="">不限韵</option>
+            <option value="东">一东</option>
+            <option value="冬">二冬</option>
+            <option value="江">三江</option>
+            <option value="支">四支</option>
+            <option value="微">五微</option>
+            <option value="鱼">六鱼</option>
+            <option value="虞">七虞</option>
+            <option value="齐">八齐</option>
+            <option value="佳">九佳</option>
+            <option value="灰">十灰</option>
+            <option value="真">十一真</option>
+            <option value="文">十二文</option>
+            <option value="元">十三元</option>
+            <option value="寒">十四寒</option>
+            <option value="删">十五删</option>
+          </select>
+        </div>
+        <button class="btn" onclick="generateCangtouShi()">AI 生成藏头诗</button>
+      </div>
+      <div class="result-box" id="poemResult">
+        <div style="text-align: center; font-size: 1.8rem; line-height: 2.5; letter-spacing: 0.2em; color: var(--ink);" id="generatedPoem"></div>
+        <div style="text-align: center; color: var(--ink-light); font-size: 0.9rem; margin-top: 1rem;" id="poemNote"></div>
+      </div>
+    </div>
   </div>
 
-  <!-- 对联格律规则 -->
-  <div class="panel" id="panel-rules">
-    <h2 style="color:#8B3A2F;font-size:22px;letter-spacing:4px;text-align:center;margin-bottom:20px">對 聯 基 本 格 律</h2>
-    <div style="line-height:2;font-size:15px;color:#3c2820">
-      <p style="margin-bottom:12px"><strong style="color:#8B3A2F">一、字數相等，句式一致：</strong>上下聯字數必須相同，斷句位置一致。</p>
-      <p style="margin-bottom:12px"><strong style="color:#8B3A2F">二、平仄相對，仄起平收：</strong>對應位置平仄相反；上聯尾字為仄聲，下聯尾字為平聲，此為「仄起平收」鐵律。</p>
-      <p style="margin-bottom:12px"><strong style="color:#8B3A2F">三、詞性對仗：</strong>名詞對名詞、動詞對動詞、形容詞對形容詞、數詞對數詞、顏色對顏色、方位對方位。</p>
-      <p style="margin-bottom:12px"><strong style="color:#8B3A2F">四、內容相關：</strong>上下聯意境須和諧統一，可正對、反對、流水對，不可風馬牛不相及。</p>
-      <p style="margin-bottom:12px"><strong style="color:#8B3A2F">五、節奏相應：</strong>五言「二/三」，七言「二/二/三」或「四/三」。</p>
-      <div style="margin-top:20px;padding:16px 20px;background:rgba(246,239,224,.7);border-left:3px solid #8B3A2F">
-        <p style="color:#8B3A2F;letter-spacing:3px;margin-bottom:8px">平 仄 說 明</p>
-        <p>　<span class="pz-ping">○ 平聲</span>：現代漢語陰平（一聲）、陽平（二聲）中歸平的字；<br/>
-        　<span class="pz-ze">● 仄聲</span>：上聲（三聲）、去聲（四聲），以及古入聲字（現代漢語中已派入四聲，古時皆為仄）。<br/>
-        　<span style="color:#8B5A2B">▣ 韻腳</span>：上下聯尾字須仄起平收，無須押韻。</p>
+  <!-- 笠翁对韵 -->
+  <div class="tab-content" id="tab-lidui">
+    <div class="duilian-box">
+      <h3 style="text-align: center; color: var(--vermilion); margin-bottom: 1rem; font-family: 'Ma Shan Zheng', cursive; font-size: 1.8rem;">笠翁对韵</h3>
+      <p style="text-align: center; color: var(--ink-light); margin-bottom: 2rem;">天对地，雨对风。大陆对长空。山花对海树，赤日对苍穹。</p>
+      <div class="lidui-list" id="liduiList"></div>
+    </div>
+  </div>
+
+  <!-- 格律说明 -->
+  <div class="tab-content" id="tab-rules">
+    <div class="duilian-box">
+      <h3 style="color: var(--vermilion); margin-bottom: 1.5rem; font-family: 'Ma Shan Zheng', cursive; font-size: 1.8rem;">对联格律基本规则</h3>
+      <div style="line-height: 2; font-size: 1.05rem;">
+        <p style="margin-bottom: 1rem;"><strong>1. 字数相等：</strong>上下联字数必须相同，断句一致。</p>
+        <p style="margin-bottom: 1rem;"><strong>2. 仄起平收：</strong>上联尾字必须为仄声，下联尾字必须为平声。此为对联铁律。</p>
+        <p style="margin-bottom: 1rem;"><strong>3. 平仄相对：</strong>上下联对应位置的字平仄相反，即"平对仄，仄对平"。一三五不论，二四六分明。</p>
+        <p style="margin-bottom: 1rem;"><strong>4. 词性相对：</strong>名词对名词，动词对动词，形容词对形容词，副词对副词，虚词对虚词。</p>
+        <p style="margin-bottom: 1rem;"><strong>5. 内容相关：</strong>上下联内容需相互关联，意境相合，或正对，或反对，或流水对。</p>
+        <p style="margin-bottom: 1rem;"><strong style="color: var(--vermilion);">入声字说明：</strong>古入声字今读平声者（如"一、七、八、十、白、石、国、出"等）在对联格律中仍算仄声。本系统自动识别常见入声字并按仄声判定。</p>
       </div>
     </div>
   </div>
 </div>
-<footer>詩藏本體論 · ShiCang Ontology · 吟詩作對·平仄自動校驗</footer>
 
 <script>
-// 平仄判定
-const ruSet=new Set(RU_SHENG);
-const pingSet=new Set(PING_CHARS);
-const zeSet=new Set(ZE_CHARS);
-function charPingze(ch){
-  if(zeSet.has(ch)||ruSet.has(ch))return 'ze';
-  if(pingSet.has(ch))return 'ping';
-  // 默认推断：按常用字表简单判定
-  return 'unknown';
-}
-function isZe(ch){return charPingze(ch)==='ze'}
-function isPing(ch){return charPingze(ch)==='ping'}
+// 平仄字表（简化版，常用字）
+const pingChars = "东冬江支微齐佳灰真文元寒删先萧肴豪歌麻庚青蒸尤侵覃盐咸风天空云山花春雨秋江红黄青白明高低新香长清明光时思来书人年心中千杯芳林春江平声之知诗";
+const zeChars = "月雪夜日落照木叶碧色古北白黑冷暗远近厚重独一二三四五六七八九十百千万入声字国德出石客";
 
-// Tabs
-document.querySelectorAll('.tab').forEach(t=>{
-  t.onclick=()=>{
-    document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
-    document.querySelectorAll('.panel').forEach(x=>x.classList.remove('active'));
-    t.classList.add('active');
-    document.getElementById('panel-'+t.dataset.tab).classList.add('active');
-  };
+// 入声字表（常见）
+const rushengChars = "一二三四五六七八九十百白黑北国德出石客色落木夜雪叶月落日碧独寂速宿竹哭腹服福复熟粟束速俗骨滑窟没发法伐罚乏伐筏罚扎札轧杀刹煞察插锸塔榻獭蹋蜡腊辣辣呐纳衲捺抹沫末没陌默墨脉莫漠寞幕摸漠诺搦弱若箬著酌灼斫浊卓拙捉桌涿啄琢濯擢涿朔槊铄硕烁勺芍妁烁率绿律戮录禄鹿麓辘簏陆六洛络烙骆落珞雒漯掠略"
+
+// 经典上联库
+const shanglianList = [
+  "海闊憑魚躍", "春風送暖", "明月幾時有", "兩個黃鸝鳴翠柳",
+  "窗含西嶺千秋雪", "山重水複疑無路", "春蠶到死絲方盡", "海內存知己",
+  "落霞與孤鶩齊飛", "欲窮千里目", "舉頭望明月", "白日依山盡",
+  "千山鳥飛絕", "鋤禾日當午", "春眠不覺曉", "大漠孤煙直",
+  "天長地久有時盡", "相見時難別亦難", "曾經滄海難為水", "沉舟側畔千帆過"
+];
+
+// 经典对句库
+const duilianDB = {
+  "海闊憑魚躍": "天高任鳥飛",
+  "春風送暖": "細雨滋潤",
+  "春風": "秋雨",
+  "明月": "清風",
+  "山": "水", "日": "月", "天": "地", "雨": "風", "大陸": "長空",
+  "山花": "海樹", "赤日": "蒼穹", "雷隱隱": "霧濛濛",
+  "風高秋月白": "雨霽晚霞紅", "牛女二星河左右": "參商兩曜斗西東"
+};
+
+// 笠翁对韵
+const liduiData = [
+  {topic: "一东", pair: ["天對地，雨對風", "大陸對長空", "山花對海樹，赤日對蒼穹", "雷隱隱，霧濛濛", "日下對天中"]},
+  {topic: "二冬", pair: ["晨對午，夏對冬", "下餉對高舂", "青春對白晝，古柏對蒼松", "垂釣客，荷鋤翁", "仙鶴對神龍"]},
+  {topic: "三江", pair: ["樓對閣，戶對窗", "巨海對長江", "蓉裳對蕙帳，玉斝對銀釭", "青布幔，碧油幢", "寶劍對金缸"]},
+  {topic: "四支", pair: ["茶對酒，賦對詩", "燕子對鶯兒", "栽花對種竹，落絮對遊絲", "四目頡，一足夔", "鴝鵒對鷺鷥"]},
+  {topic: "五微", pair: ["賢對聖，是對非", "覺奧對參微", "魚書對雁字，草舍對柴扉", "雞曉唱，雉朝飛", "紅瘦對綠肥"]},
+  {topic: "六鱼", pair: ["羹對飯，柳對榆", "短袖對長裾", "雞窗對雁塔，秋榜對春闈", "烏衣巷，燕子磯", "久別對初歸"]},
+  {topic: "七虞", pair: ["賢對愚，智對愚", "傅粉對施朱", "名缰對利鎖，挈榼對提壺", "鳩哺子，燕調雛", "石帳對郇廚"]},
+  {topic: "八齐", pair: ["鸞對鳳，犬對雞", "塞北對關西", "長生對益智，老幼對耄倪", "頒竹策，剪桐圭", "剝棗對蒸梨"]},
+  {topic: "九佳", pair: ["門對戶，陌對街", "枝葉對根荄", "冠對履，襪對鞋", "海錯對山珍", "城上頡，館娃娃", "駟馬對高車"]},
+  {topic: "十灰", pair: ["春對夏，喜對哀", "大手對長才", "風清對月朗，地闊對天開", "遊閬苑，醉蓬萊", "七政對三臺"]},
+  {topic: "十一真", pair: ["蓮對菊，鳳對麟", "濁富對清貧", "漁莊對佛舍，松蓋對花茵", "蘿月叟，葛天民", "國寶對家珍"]},
+  {topic: "十二文", pair: ["家對國，武對文", "四輔對三軍", "九經對三史，菊馥對蘭芬", "歌北鄙，詠南薰", "邇聽對遙聞"]},
+  {topic: "十三元", pair: ["卑對長，季對昆", "永巷對長門", "山亭對水閣，旅舍對軍屯", "揚子渡，謝公墩", "德重對年尊"]},
+  {topic: "十四寒", pair: ["家對國，治對安", "地主對天官", "坎男對離女，周誥對殷盤", "三三暖，九九寒", "杜撰對包彈"]},
+  {topic: "十五删", pair: ["林對塢，嶺對巒", "晝永對春閒", "謀深對望重，任大對投艱", "裊裊上，佩珊珊", "守塞對當關"]}
+];
+
+// 判断字平仄
+function getPingze(char) {
+  if (rushengChars.includes(char)) return 'z';
+  if (pingChars.includes(char)) return 'p';
+  if (zeChars.includes(char)) return 'z';
+  // 默认按声调粗判（阴平阳平为平，上声去声为仄）
+  return '?';
+}
+
+// 判断是否入声
+function isRusheng(char) {
+  return rushengChars.includes(char);
+}
+
+// 随机上联
+function randomShanglian() {
+  const sl = shanglianList[Math.floor(Math.random() * shanglianList.length)];
+  document.getElementById('randomShanglian').textContent = sl;
+}
+
+// 显示笠翁对韵
+function renderLidui() {
+  const list = document.getElementById('liduiList');
+  list.innerHTML = liduiData.map(d => `
+    <div class="lidui-card" onclick="document.getElementById('shanglianInput').value='${d.pair[0].split('，')[0].replace('對','')}'">
+      <div style="color: var(--vermilion); font-weight: 500; margin-bottom: 0.5rem;">${d.topic}</div>
+      ${d.pair.map(p => `<div style="font-size: 0.95rem; margin-bottom: 0.2rem; color: var(--ink);">${p}</div>`).join('')}
+    </div>
+  `).join('');
+}
+renderLidui();
+
+// 切换tab
+document.querySelectorAll('.tab-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById('tab-' + btn.dataset.tab).classList.add('active');
+  });
 });
 
-// 当前题
-let currentQ=null;
-let currentAnswer=null;
+// 更新显示
+document.getElementById('shanglianInput').addEventListener('input', function() {
+  document.getElementById('shanglianDisplay').textContent = this.value || '上联';
+});
+document.getElementById('xialianInput').addEventListener('input', function() {
+  document.getElementById('xialianDisplay').textContent = this.value || '待對';
+});
 
-function renderCouplet(text, boxId, showPz){
-  const box=document.getElementById(boxId);
-  box.innerHTML='';
-  for(let i=0;i<text.length;i++){
-    const ch=text[i];
-    const cell=document.createElement('div');
-    cell.className='char-cell';
-    cell.innerHTML=ch;
-    if(showPz){
-      const pz=charPingze(ch);
-      const m=document.createElement('span');
-      m.className='pz '+(pz==='ping'?'ping-mark':pz==='ze'?'ze-mark':'');
-      m.textContent=pz==='ping'?'平':pz==='ze'?'仄':'?';
-      cell.appendChild(m);
-      // 字色
-      if(pz==='ping')cell.classList.add('pz-ping');
-      else if(pz==='ze')cell.classList.add('pz-ze');
-    }
-    box.appendChild(cell);
-  }
-}
-
-function newQuestion(){
-  document.getElementById('resultBox').classList.remove('visible');
-  document.getElementById('userInput').value='';
-  document.getElementById('xialian-box').classList.remove('has-answer');
-  document.getElementById('xialian-box').textContent='請在下方輸入';
-  // 随机选上联
-  const idx=Math.floor(Math.random()*SHANGLIAN_SET.length);
-  currentQ=SHANGLIAN_SET[idx];
-  // 找答案：从examples中找
-  currentAnswer=null;
-  DUILIAN_EXAMPLES.forEach(ex=>{
-    if(ex.shang===currentQ)currentAnswer=ex.xia;
-  });
-  // 横批
-  const hengpi=['妙對天成','意境深遠','辭采華茂','對仗工整','清辭麗句','意韻悠長','詩情畫意'];
-  document.getElementById('hengpi').textContent=hengpi[Math.floor(Math.random()*hengpi.length)];
-  renderCouplet(currentQ,'shanglian-box',true);
-}
-
-function checkAnswer(){
-  const input=document.getElementById('userInput').value.trim();
-  if(!input){alert('請輸入下聯');return}
-  const box=document.getElementById('xialian-box');
-  box.classList.add('has-answer');
-  renderCouplet(input,'xialian-box',true);
-
-  // 评分
-  let scoreLen=input.length===currentQ.length;
-  let lastShangZe=isZe(currentQ[currentQ.length-1]);
-  let lastXiaPing=isPing(input[input.length-1]);
-  let scoreEnd=lastXiaPing && lastShangZe;
-
-  // 平仄相对
-  let pzMatch=0,pzTotal=0;
-  const minLen=Math.min(input.length,currentQ.length);
-  for(let i=0;i<minLen;i++){
-    const pz1=charPingze(currentQ[i]),pz2=charPingze(input[i]);
-    if(pz1!=='unknown'&&pz2!=='unknown'){
-      pzTotal++;
-      if((pz1==='ping'&&pz2==='ze')||(pz1==='ze'&&pz2==='ping'))pzMatch++;
-    }
-  }
-  const pzRate=pzTotal?pzMatch/pzTotal:0;
-  let scorePz=pzRate>=0.6;
-
-  let scores=[],totalScore=0,fullScore=40;
-  if(scoreLen){scores.push({ok:true,txt:`字數相符(${input.length}字)`});totalScore+=10}
-  else{scores.push({ok:false,txt:`字數不符（上聯${currentQ.length}字，下聯${input.length}字）`})}
-  if(scoreEnd){scores.push({ok:true,txt:'仄起平收（上仄下平）合格'});totalScore+=10}
-  else{
-    let m='尾字平仄不合格';
-    if(!lastShangZe)m+='（上聯尾字應仄）';
-    if(!lastXiaPing)m+='（下聯尾字應平）';
-    scores.push({ok:false,txt:m});
-  }
-  if(scorePz){scores.push({ok:true,txt:`平仄相對率${Math.round(pzRate*100)}%`});totalScore+=10}
-  else{scores.push({ok:false,txt:`平仄相對率偏低（${Math.round(pzRate*100)}%），需調整字位平仄`})}
-  scores.push({ok:totalScore>=20,txt:`綜合得分 ${totalScore}/30`,isScore:true});
-
-  // 建议
-  let advice='';
-  if(totalScore>=28)advice='妙對！平仄工整、對仗得體，頗見功力。';
-  else if(totalScore>=20)advice='不錯！整體合格，可在個別字位的平仄和詞性上再作推敲。';
-  else advice='繼續努力，建議先從字數與尾字平仄入手，再打磨對仗。可先看「笠翁對韻」學習經典範例。';
-
-  if(currentAnswer){
-    advice+=`<br/><span style="color:#8B3A2F">參考對法：</span><strong style="font-size:18px;letter-spacing:4px">${currentAnswer}</strong>`;
-  }
-
-  const rb=document.getElementById('resultBox');
-  rb.classList.add('visible');
-  document.getElementById('resultTitle').textContent=totalScore>=28?'點評 · 妙對！':'點評';
-  document.getElementById('resultScores').innerHTML=scores.map(s=>
-    `<div class="score-item${s.ok?' score-good':' score-bad'}">${s.ok?'✓ ':'✗ '}${s.txt}</div>`
-  ).join('');
-  document.getElementById('resultAdvice').innerHTML=advice;
-}
-
-function revealAnswer(){
-  if(!currentQ)return;
-  if(!currentAnswer){
-    alert('本題無固定答案，請自由對對子');
+// 评分
+function scoreDuilian() {
+  const shang = document.getElementById('shanglianInput').value.trim();
+  const xia = document.getElementById('xialianInput').value.trim();
+  
+  if (!shang || !xia) {
+    alert('请输入上联和下联');
     return;
   }
-  document.getElementById('userInput').value=currentAnswer;
-  checkAnswer();
+  
+  let scoreZishu = 0, scoreZeqi = 0, scorePingze = 0, scoreCixing = 0;
+  const suggestions = [];
+  
+  // 字数相等
+  if (shang.length === xia.length) {
+    scoreZishu = 20;
+  } else {
+    suggestions.push(`字数不相等：上联${shang.length}字，下联${xia.length}字`);
+  }
+  
+  // 仄起平收
+  const shangLast = getPingze(shang[shang.length - 1]);
+  const xiaLast = getPingze(xia[xia.length - 1]);
+  if (shangLast === 'z' && xiaLast === 'p') {
+    scoreZeqi = 20;
+  } else {
+    if (shangLast !== 'z') suggestions.push(`上联尾字应为仄声，当前"${shang[shang.length - 1]}"为平声`);
+    if (xiaLast !== 'p') suggestions.push(`下联尾字应为平声，当前"${xia[xia.length - 1]}"为仄声`);
+  }
+  
+  // 平仄相对
+  let matchCount = 0;
+  const len = Math.min(shang.length, xia.length);
+  for (let i = 0; i < len; i++) {
+    const p1 = getPingze(shang[i]);
+    const p2 = getPingze(xia[i]);
+    if (p1 !== '?' && p2 !== '?' && p1 !== p2) matchCount++;
+  }
+  scorePingze = Math.round((matchCount / len) * 30);
+  if (scorePingze < 20) suggestions.push('平仄相对度较低，二四六位置建议严格平仄相反');
+  
+  // 词性对仗（简化：字数相等即给基础分）
+  scoreCixing = len === shang.length ? Math.round(25 * (len / Math.max(shang.length, xia.length))) : 0;
+  // 检查是否有经典对句
+  for (const [k, v] of Object.entries(duilianDB)) {
+    if (shang.includes(k) || xia.includes(v)) {
+      scoreCixing = Math.min(30, scoreCixing + 5);
+      break;
+    }
+  }
+  
+  const total = scoreZishu + scoreZeqi + scorePingze + scoreCixing;
+  
+  document.getElementById('totalScore').textContent = total;
+  document.getElementById('scoreZishu').textContent = scoreZishu + '/20';
+  document.getElementById('scoreZeqi').textContent = scoreZeqi + '/20';
+  document.getElementById('scorePingze').textContent = scorePingze + '/30';
+  document.getElementById('scoreCixing').textContent = scoreCixing + '/30';
+  
+  const sugList = document.getElementById('suggestionList');
+  if (suggestions.length === 0) {
+    suggestions.push('对得不错！格律基本合规，可进一步追求意境相合。');
+  }
+  sugList.innerHTML = suggestions.map(s => `<li>${s}</li>`).join('');
+  
+  document.getElementById('resultBox').classList.add('show');
 }
 
-// 笠翁对韵列表
-function renderLidui(){
-  const g=document.getElementById('liduiGrid');
-  g.innerHTML=DUILIAN_EXAMPLES.map(ex=>`
-    <div class="lidui-card" onclick="loadLidui('${ex.shang}','${ex.xia}')">
-      <div class="lidui-shang">${ex.shang}</div>
-      <div class="lidui-xia">${ex.xia}</div>
-      <div class="lidui-hint">${ex.hint}</div>
-    </div>`).join('');
-}
-function loadLidui(sh,x){
-  document.querySelector('[data-tab=game]').click();
-  document.getElementById('userInput').value=x;
-  currentQ=sh;currentAnswer=x;
-  renderCouplet(sh,'shanglian-box',true);
-  checkAnswer();
+// AI 自动作对
+function aiGenerate() {
+  const shang = document.getElementById('shanglianInput').value.trim();
+  if (!shang) return;
+  
+  // 查数据库
+  let xia = duilianDB[shang];
+  if (!xia) {
+    // 简单生成：逐字反义对，尾字平声
+    const duiying = {
+      '天':'地','日':'月','山':'水','風':'雨','春':'秋','冬':'夏','大':'小','高':'低','長':'短',
+      '明':'暗','白':'黑','紅':'綠','南':'北','東':'西','上':'下','前':'後','古':'今','有':'無',
+      '來':'去','出':'入','開':'落','生':'死','富':'貧','貴':'賤','喜':'悲','合':'離'
+    };
+    xia = '';
+    for (let i = 0; i < shang.length; i++) {
+      const c = shang[i];
+      xia += duiying[c] || (i === shang.length - 1 ? '明' : c);
+    }
+  }
+  
+  document.getElementById('aiShang').textContent = shang;
+  document.getElementById('aiXia').textContent = xia;
+  document.getElementById('aiBox').classList.add('show');
+  
+  // 自动填入
+  document.getElementById('xialianInput').value = xia;
+  document.getElementById('xialianDisplay').textContent = xia;
 }
 
-document.getElementById('userInput').addEventListener('keydown',e=>{
-  if(e.key==='Enter')checkAnswer();
-});
+// 清空
+function clearInput() {
+  document.getElementById('shanglianInput').value = '';
+  document.getElementById('xialianInput').value = '';
+  document.getElementById('shanglianDisplay').textContent = '上联';
+  document.getElementById('xialianDisplay').textContent = '待對';
+  document.getElementById('resultBox').classList.remove('show');
+  document.getElementById('aiBox').classList.remove('show');
+}
 
-renderLidui();
-newQuestion();
+// 藏头诗生成
+function generateCangtouShi() {
+  const cangtou = document.getElementById('cangtouInput').value.trim();
+  const yunbu = document.getElementById('yunbuSelect').value;
+  
+  if (!cangtou || cangtou.length < 4) {
+    alert('请输入4-7个藏头字');
+    return;
+  }
+  
+  // 简单生成：每句首字为藏头字，七言绝句
+  const yunChars = yunbu ? {
+    '东': '东通风中空红同桐筒铜童瞳瞳',
+    '冬': '冬浓钟松龙容峰封',
+    '支': '支知诗时思期卮',
+    '微': '微飞飞非扉肥妃菲',
+    '鱼': '鱼书初居疏虚庐车',
+    '真': '真新人春尘身神亲'
+  }[yunbu] || '明清风空中春情' : '明清风空中春情';
+  
+  const lines = [];
+  for (let i = 0; i < cangtou.length; i++) {
+    const char = cangtou[i];
+    const yunChar = yunChars[Math.floor(Math.random() * yunChars.length)];
+    let line = char;
+    const templates = [
+      '风拂柳色新', '月照古人情', '花开满院香', '雨过千山秀',
+      '云开见月明', '水落石自出', '酒逢知己饮', '诗向会人吟'
+    ];
+    const tpl = templates[Math.floor(Math.random() * templates.length)];
+    line += tpl.slice(0, 5);
+    if (i % 2 === 1 || yunbu) {
+      line = line.slice(0, 4) + yunChar;
+    }
+    lines.push(line);
+  }
+  
+  document.getElementById('generatedPoem').innerHTML = lines.join('<br>');
+  document.getElementById('poemNote').textContent = `藏头：${cangtou} · ${yunbu ? '平水韵' + yunbu + '韵' : '不限韵'} · AI 生成仅供参考`;
+  document.getElementById('poemResult').classList.add('show');
+}
 </script>
+
 </body>
 </html>

@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>詩人走馬燈 · 诗藏本体论</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;500;600;700&family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #f6efe0;
+    --paper-dark: #e9dcc5;
+    --ink: #2c2418;
+    --ink-light: #5c4f3f;
+    --vermilion: #8B3A2F;
+    --vermilion-light: #a84a3d;
+    --seal: #a52a2a;
+    --gold: #b8860b;
+    --green: #2E6B4F;
+    --blue: #3F6680;
+    --purple: #5A4A7A;
+    --gray: #707070;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Noto Serif SC', 'SimSun', '宋体', serif;
+    background: var(--paper);
+    background-image: 
+      url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100' height='100' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+    color: var(--ink);
+    line-height: 1.8;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+  .navbar {
+    position: sticky; top: 0; z-index: 100;
+    background: rgba(246,239,224,0.95);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(139,58,47,0.2);
+    padding: 0.8rem 2rem;
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .navbar-brand {
+    font-family: 'Ma Shan Zheng', cursive;
+    font-size: 1.4rem; color: var(--vermilion); text-decoration: none;
+    display: flex; align-items: center; gap: 0.5rem;
+  }
+  .navbar-brand::before {
+    content: '詩'; display: inline-flex; align-items: center; justify-content: center;
+    width: 2rem; height: 2rem; background: var(--vermilion); color: var(--paper);
+    border-radius: 4px; font-size: 1.2rem;
+  }
+  .navbar-links { display: flex; gap: 1.2rem; flex-wrap: wrap; }
+  .navbar-links a {
+    color: var(--ink-light); text-decoration: none; font-size: 0.9rem;
+    padding: 0.3rem 0.6rem; border-radius: 3px; transition: all 0.3s;
+  }
+  .navbar-links a:hover, .navbar-links a.active {
+    color: var(--vermilion); background: rgba(139,58,47,0.08);
+  }
+  .navbar-links a.active { font-weight: 500; }
+  .nav-toggle {
+    display: none; background: none; border: none; font-size: 1.5rem;
+    color: var(--vermilion); cursor: pointer;
+  }
+
+  .container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+  .page-header {
+    text-align: center; margin-bottom: 2rem;
+    padding: 1.5rem 0; border-bottom: 1px solid rgba(139,58,47,0.15);
+  }
+  .page-title {
+    font-family: 'Ma Shan Zheng', cursive;
+    font-size: 2.8rem; color: var(--vermilion); margin-bottom: 0.5rem;
+  }
+  .page-subtitle {
+    color: var(--ink-light); font-size: 1.1rem; letter-spacing: 0.2em;
+  }
+  .seal {
+    display: inline-block; margin-top: 1rem; padding: 0.3rem 0.6rem;
+    background: var(--seal); color: var(--paper);
+    font-size: 0.8rem; border-radius: 2px; letter-spacing: 0.1em;
+  }
+
+  /* 筛选栏 */
+  .filter-bar {
+    display: flex; justify-content: center; gap: 0.8rem;
+    margin-bottom: 3rem; flex-wrap: wrap;
+  }
+  .filter-btn {
+    padding: 0.5rem 1.2rem; background: transparent;
+    border: 1px solid rgba(139,58,47,0.3); color: var(--ink-light);
+    font-family: 'Noto Serif SC', serif; font-size: 0.95rem;
+    border-radius: 20px; cursor: pointer; transition: all 0.3s;
+  }
+  .filter-btn.active {
+    background: var(--vermilion); color: var(--paper);
+    border-color: var(--vermilion);
+  }
+  .filter-btn:hover { border-color: var(--vermilion); color: var(--vermilion); }
+  .filter-btn.active:hover { color: var(--paper); }
+
+  /* 时间轴 */
+  .timeline-container {
+    position: relative; padding: 2rem 0;
+    overflow-x: auto; overflow-y: visible;
+    scrollbar-width: thin; scrollbar-color: var(--vermilion) transparent;
+    padding-bottom: 3rem;
+  }
+  .timeline-container::-webkit-scrollbar { height: 8px; }
+  .timeline-container::-webkit-scrollbar-track { background: rgba(139,58,47,0.1); border-radius: 4px; }
+  .timeline-container::-webkit-scrollbar-thumb { background: var(--vermilion); border-radius: 4px; }
+
+  .timeline-axis {
+    position: relative; height: 200px; min-width: 3000px;
+    margin: 0 auto;
+  }
+  .axis-line {
+    position: absolute; top: 100px; left: 0; right: 0; height: 2px;
+    background: linear-gradient(to right, transparent, var(--ink-light), transparent);
+  }
+
+  /* 朝代分隔带 */
+  .dynasty-band {
+    position: absolute; top: 70px; height: 60px;
+    display: flex; align-items: center; justify-content: center;
+    writing-mode: vertical-rl; font-size: 0.9rem; letter-spacing: 0.2em;
+    color: white; opacity: 0.7; border-radius: 4px;
+    font-family: 'Ma Shan Zheng', cursive;
+  }
+
+  /* 诗人节点 */
+  .poet-node {
+    position: absolute; top: 100px; transform: translateX(-50%);
+    cursor: pointer; transition: all 0.3s;
+    z-index: 10;
+  }
+  .poet-dot {
+    width: 12px; height: 12px; border-radius: 50%;
+    background: var(--vermilion); border: 2px solid var(--paper);
+    box-shadow: 0 0 0 2px var(--vermilion);
+    transition: all 0.3s;
+    position: relative; z-index: 2;
+  }
+  .poet-line {
+    position: absolute; left: 50%; width: 2px;
+    transform: translateX(-50%);
+    background: var(--vermilion); opacity: 0.5;
+  }
+  .poet-line.top { bottom: 12px; }
+  .poet-line.bottom { top: 12px; }
+  .poet-name {
+    position: absolute; left: 50%; transform: translateX(-50%);
+    font-family: 'Ma Shan Zheng', cursive;
+    font-size: 1.1rem; white-space: nowrap;
+    transition: all 0.3s; color: var(--ink);
+  }
+  .poet-name.top { bottom: 30px; }
+  .poet-name.bottom { top: 30px; }
+  .poet-year {
+    position: absolute; left: 50%; transform: translateX(-50%);
+    font-size: 0.75rem; color: var(--ink-light); white-space: nowrap;
+  }
+  .poet-year.top { bottom: 10px; }
+  .poet-year.bottom { top: 10px; }
+
+  .poet-node:hover .poet-dot {
+    transform: scale(1.5); box-shadow: 0 0 0 4px rgba(139,58,47,0.2);
+  }
+  .poet-node:hover .poet-name {
+    color: var(--vermilion); font-size: 1.3rem;
+  }
+
+  /* 浮卡 */
+  .poet-card {
+    position: fixed; z-index: 1000;
+    width: 320px; background: var(--paper);
+    border: 1px solid rgba(139,58,47,0.3);
+    border-radius: 8px; padding: 1.5rem;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+    display: none;
+    pointer-events: auto;
+  }
+  .poet-card.show { display: block; }
+  .poet-card::before {
+    content: ''; position: absolute; top: -8px; left: 50%;
+    transform: translateX(-50%);
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid var(--paper);
+  }
+  .poet-card-name {
+    font-family: 'Ma Shan Zheng', cursive;
+    font-size: 1.8rem; color: var(--vermilion); text-align: center;
+    margin-bottom: 0.5rem;
+  }
+  .poet-card-dynasty {
+    text-align: center; color: var(--ink-light); font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+  .poet-card-info {
+    font-size: 0.9rem; line-height: 1.8; color: var(--ink);
+    margin-bottom: 1rem;
+  }
+  .poet-card-info div { margin-bottom: 0.3rem; }
+  .poet-card-bio {
+    font-size: 0.85rem; color: var(--ink-light); line-height: 1.8;
+    padding-top: 1rem; border-top: 1px solid rgba(139,58,47,0.1);
+    margin-bottom: 1rem;
+  }
+  .poet-card-btn {
+    display: block; width: 100%; padding: 0.6rem;
+    background: var(--vermilion); color: var(--paper);
+    border: none; border-radius: 4px;
+    font-family: 'Noto Serif SC', serif; font-size: 0.95rem;
+    cursor: pointer; transition: background 0.3s;
+    text-decoration: none; text-align: center;
+  }
+  .poet-card-btn:hover { background: var(--vermilion-light); }
+
+  /* 滚动控制按钮 */
+  .scroll-controls {
+    position: fixed; bottom: 2rem; right: 2rem;
+    display: flex; gap: 0.5rem; z-index: 50;
+  }
+  .scroll-btn {
+    width: 40px; height: 40px; border-radius: 50%;
+    background: var(--vermilion); color: var(--paper);
+    border: none; font-size: 1.2rem; cursor: pointer;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    transition: all 0.3s; display: flex; align-items: center; justify-content: center;
+  }
+  .scroll-btn:hover { background: var(--vermilion-light); transform: scale(1.1); }
+
+  /* 图例 */
+  .legend {
+    display: flex; justify-content: center; gap: 1.5rem;
+    margin-top: 1rem; flex-wrap: wrap; font-size: 0.85rem; color: var(--ink-light);
+  }
+  .legend-item { display: flex; align-items: center; gap: 0.4rem; }
+  .legend-dot { width: 10px; height: 10px; border-radius: 50%; }
+
+  @media (max-width: 768px) {
+    .navbar { padding: 0.6rem 1rem; }
+    .navbar-links { display: none; flex-direction: column; position: absolute;
+      top: 100%; left: 0; right: 0; background: var(--paper);
+      padding: 1rem; border-bottom: 1px solid rgba(139,58,47,0.2); z-index: 200;}
+    .navbar-links.show { display: flex; }
+    .nav-toggle { display: block; }
+    .container { padding: 1rem; }
+    .page-title { font-size: 2rem; }
+    .poet-card { width: 280px; left: 50% !important; top: auto !important; bottom: 2rem !important; transform: translateX(-50%); }
+    .poet-card::before { top: auto; bottom: -8px; transform: translateX(-50%) rotate(180deg); }
+    .scroll-controls { bottom: 1rem; right: 1rem; }
+  }
+</style>
+</head>
+<body>
+
+<nav class="navbar">
+  <a href="../index.html" class="navbar-brand">诗藏</a>
+  <button class="nav-toggle" onclick="document.querySelector('.navbar-links').classList.toggle('show')">☰</button>
+  <div class="navbar-links">
+    <a href="../shicang-jingdu/">诗</a>
+    <a href="../shicang-ci/">词</a>
+    <a href="../shicang-qu/">曲</a>
+    <a href="../shicang-chuci/">辞赋</a>
+    <a href="../shicang-poem/">名篇</a>
+    <a href="../shicang-poet-journey/">诗人轨迹</a>
+    <a href="../shicang-cipai/">词牌谱</a>
+    <a href="../shicang-imagery/">意象图</a>
+    <a href="../shicang-meipi/">诗话眉批</a>
+    <a href="../shicang-duilian/">AI 对诗</a>
+    <a href="../shicang-duilian-corpus/">楹联集对</a>
+    <a href="../shicang-map/">诗词地图</a>
+    <a href="../shicang-yunshu/">韵书</a>
+    <a href="../shicang-rili/">诗词日历</a>
+    <a href="index.html" class="active">诗人走马灯</a>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="page-header">
+    <h1 class="page-title">詩人走馬燈</h1>
+    <p class="page-subtitle">三千年詩史 · 百位名家 · 一軸展開</p>
+    <span class="seal">橫貫古今</span>
+    <div class="legend">
+      <div class="legend-item"><span class="legend-dot" style="background:#8B5A2B;"></span>先秦汉魏</div>
+      <div class="legend-item"><span class="legend-dot" style="background:#8B3A2F;"></span>唐代</div>
+      <div class="legend-item"><span class="legend-dot" style="background:#3F6680;"></span>两宋</div>
+      <div class="legend-item"><span class="legend-dot" style="background:#b8860b;"></span>金元明</div>
+      <div class="legend-item"><span class="legend-dot" style="background:#5A4A7A;"></span>清代近代</div>
+    </div>
+  </div>
+
+  <div class="filter-bar">
+    <button class="filter-btn active" data-dynasty="all">全部</button>
+    <button class="filter-btn" data-dynasty="先秦">先秦汉魏</button>
+    <button class="filter-btn" data-dynasty="唐">唐代</button>
+    <button class="filter-btn" data-dynasty="宋">两宋</button>
+    <button class="filter-btn" data-dynasty="金元明">金元明</button>
+    <button class="filter-btn" data-dynasty="清">清代近代</button>
+  </div>
+
+  <div class="timeline-container" id="timelineContainer">
+    <div class="timeline-axis" id="timelineAxis">
+      <div class="axis-line"></div>
+      <!-- 朝代带 -->
+      <div class="dynasty-band" style="left:2%;width:8%;background:#8B5A2B;">先秦汉魏</div>
+      <div class="dynasty-band" style="left:10%;width:18%;background:#8B3A2F;">唐代</div>
+      <div class="dynasty-band" style="left:28%;width:25%;background:#3F6680;">两宋</div>
+      <div class="dynasty-band" style="left:53%;width:22%;background:#b8860b;">金元明</div>
+      <div class="dynasty-band" style="left:75%;width:23%;background:#5A4A7A;">清代近代</div>
+    </div>
+  </div>
+</div>
+
+<!-- 诗人浮卡 -->
+<div class="poet-card" id="poetCard">
+  <div class="poet-card-name" id="cardName">屈原</div>
+  <div class="poet-card-dynasty" id="cardDynasty">战国 · 楚国</div>
+  <div class="poet-card-info">
+    <div><strong>生卒：</strong><span id="cardLife">约前340-前278</span></div>
+    <div><strong>字号：</strong><span id="cardZihao">名平，字原</span></div>
+    <div><strong>流派：</strong><span id="cardSchool">楚辞之祖</span></div>
+    <div><strong>代表作：</strong><span id="cardWorks">《离骚》《九歌》《天问》</span></div>
+  </div>
+  <div class="poet-card-bio" id="cardBio">中国浪漫主义文学奠基人，创立楚辞文体，其香草美人传统影响后世两千余年。</div>
+  <a href="#" class="poet-card-btn" id="cardLink" target="_blank">查看生平轨迹 →</a>
+</div>
+
+<!-- 滚动控制 -->
+<div class="scroll-controls">
+  <button class="scroll-btn" onclick="scrollTimeline(-300)">←</button>
+  <button class="scroll-btn" onclick="scrollTimeline(0)">⌂</button>
+  <button class="scroll-btn" onclick="scrollTimeline(300)">→</button>
+</div>
+
+<script>
+// 诗人数据：年份、朝代、颜色、字号、流派、代表作、小传
+const poets = [
+  // 先秦汉魏（前340-580）
+  {name:"屈原", birth:-340, death:-278, dynasty:"先秦", color:"#8B5A2B", zihao:"名平，字原", school:"楚辞之祖", works:"《离骚》《九歌》《天问》", bio:"中国浪漫主义文学奠基人，创立楚辞文体，香草美人传统影响后世两千余年。"},
+  {name:"司马相如", birth:-179, death:-118, dynasty:"汉", color:"#8B5A2B", zihao:"字长卿", school:"汉赋四大家", works:"《子虚赋》《上林赋》", bio:"西汉辞赋家，汉赋鼎盛时期代表人物，被称为赋圣。"},
+  {name:"曹操", birth:155, death:220, dynasty:"汉魏", color:"#8B5A2B", zihao:"字孟德", school:"建安文学", works:"《短歌行》《观沧海》《龟虽寿》", bio:"建安文学开创者，诗风慷慨悲凉，开建安风骨之先河。"},
+  {name:"曹植", birth:192, death:232, dynasty:"魏", color:"#8B5A2B", zihao:"字子建", school:"建安之杰", works:"《洛神赋》《七步诗》《白马篇》", bio:"建安文学成就最高者，才高八斗，词采华茂。"},
+  {name:"陶渊明", birth:365, death:427, dynasty:"东晋", color:"#8B5A2B", zihao:"字元亮，号五柳先生", school:"田园诗派", works:"《桃花源记》《归去来兮辞》《饮酒》", bio:"田园诗派开创者，诗风平淡自然，为古今隐逸诗人之宗。"},
+  {name:"谢灵运", birth:385, death:433, dynasty:"南朝宋", color:"#8B5A2B", zihao:"小名客儿", school:"山水诗派", works:"《登池上楼》《山居赋》", bio:"山水诗派开创者，与陶渊明并称陶谢，开创中国山水诗传统。"},
+  {name:"庾信", birth:513, death:581, dynasty:"南北朝", color:"#8B5A2B", zihao:"字子山", school:"宫体诗", works:"《哀江南赋》", bio:"南北朝文学集大成者，由南入北，融合南北文风，为唐诗先驱。"},
+  
+  // 唐代（618-907）
+  {name:"王勃", birth:650, death:676, dynasty:"初唐", color:"#8B3A2F", zihao:"字子安", school:"初唐四杰", works:"《滕王阁序》《送杜少府之任蜀州》", bio:"初唐四杰之首，扭转齐梁绮靡文风，开盛唐气象先声。"},
+  {name:"陈子昂", birth:661, death:702, dynasty:"唐", color:"#8B3A2F", zihao:"字伯玉", school:"初唐诗歌革新", works:"《登幽州台歌》", bio:"倡导汉魏风骨，反对齐梁绮靡文风，为唐诗革新先驱。"},
+  {name:"孟浩然", birth:689, death:740, dynasty:"盛唐", color:"#8B3A2F", zihao:"字浩然", school:"山水田园派", works:"《春晓》《宿建德江》《过故人庄》", bio:"盛唐山水田园诗派代表，与王维并称王孟，诗风清淡自然。"},
+  {name:"王昌龄", birth:698, death:756, dynasty:"盛唐", color:"#8B3A2F", zihao:"字少伯", school:"边塞诗派/七绝圣手", works:"《出塞》《从军行》《芙蓉楼送辛渐》", bio:"七绝圣手，边塞诗代表，诗风雄浑豪迈，七绝成就与李白并称。"},
+  {name:"王维", birth:701, death:761, dynasty:"盛唐", color:"#8B3A2F", zihao:"字摩诘，号诗佛", school:"山水田园派/诗佛", works:"《山居秋暝》《送元二使安西》《鸟鸣涧》", bio:"诗中有画，画中有诗，山水田园诗集大成者，诗佛。"},
+  {name:"李白", birth:701, death:762, dynasty:"盛唐", color:"#8B3A2F", zihao:"字太白，号青莲居士，诗仙", school:"浪漫主义/诗仙", works:"《蜀道难》《将进酒》《静夜思》", bio:"诗仙，中国浪漫主义诗歌巅峰，想象奇绝，豪放飘逸。"},
+  {name:"高适", birth:704, death:765, dynasty:"盛唐", color:"#8B3A2F", zihao:"字达夫", school:"边塞诗派", works:"《燕歌行》《别董大》", bio:"盛唐边塞诗派代表，与岑参并称高岑，诗风雄浑悲壮。"},
+  {name:"杜甫", birth:712, death:770, dynasty:"盛唐", color:"#8B3A2F", zihao:"字子美，号少陵野老，诗圣", school:"现实主义/诗圣", works:"三吏三别《春望》《登高》", bio:"诗圣，诗史，中国现实主义诗歌巅峰，沉郁顿挫，集大成者。"},
+  {name:"岑参", birth:715, death:770, dynasty:"盛唐", color:"#8B3A2F", zihao:"岑嘉州", school:"边塞诗派", works:"《白雪歌送武判官归京》《走马川行奉送封大夫出师西征》", bio:"盛唐边塞诗代表，诗风奇崛壮丽，描写边塞风光最为出色。"},
+  {name:"韦应物", birth:737, death:792, dynasty:"中唐", color:"#8B3A2F", zihao:"韦苏州", school:"山水田园派", works:"《滁州西涧》", bio:"中唐山水田园诗代表，诗风恬淡高远，承王孟一脉。"},
+  {name:"孟郊", birth:751, death:814, dynasty:"中唐", color:"#8B3A2F", zihao:"字东野", school:"韩孟诗派", works:"《游子吟》", bio:"苦吟诗人代表，与贾岛并称郊寒岛瘦，诗风寒苦奇警。"},
+  {name:"韩愈", birth:768, death:824, dynasty:"中唐", color:"#8B3A2F", zihao:"字退之，韩昌黎", school:"韩孟诗派/古文运动", works:"《师说》《左迁至蓝关示侄孙湘》", bio:"文起八代之衰，古文运动领袖，以文为诗，奇崛险怪。"},
+  {name:"白居易", birth:772, death:846, dynasty:"中唐", color:"#8B3A2F", zihao:"字乐天，号香山居士", school:"新乐府运动", works:"《长恨歌》《琵琶行》《卖炭翁》", bio:"新乐府运动领袖，主张文章合为时而著，歌诗合为事而作，诗风平易通俗。"},
+  {name:"刘禹锡", birth:772, death:842, dynasty:"中唐", color:"#8B3A2F", zihao:"字梦得，诗豪", school:"新乐府运动", works:"《陋室铭》《乌衣巷》《酬乐天扬州初逢席上见赠》", bio:"诗豪，诗风清俊明朗，哲理深沉，有"沉舟侧畔千帆过"名句。"},
+  {name:"柳宗元", birth:773, death:819, dynasty:"中唐", color:"#8B3A2F", zihao:"字子厚，柳河东", school:"古文运动/山水诗", works:"《江雪》《永州八记》", bio:"与韩愈并称韩柳，古文运动领袖，山水诗峻洁清冷。"},
+  {name:"元稹", birth:779, death:831, dynasty:"中唐", color:"#8B3A2F", zihao:"字微之", school:"新乐府运动", works:"《离思》《莺莺传》", bio:"与白居易并称元白，新乐府运动推动者，悼亡诗与传奇成就高。"},
+  {name:"贾岛", birth:779, death:843, dynasty:"中唐", color:"#8B3A2F", zihao:"字浪仙", school:"苦吟派", works:"《寻隐者不遇》", bio:"苦吟诗人代表，推敲典故主人公，诗风清奇僻苦。"},
+  {name:"李贺", birth:790, death:816, dynasty:"中唐", color:"#8B3A2F", zihao:"字长吉，诗鬼", school:"浪漫主义", works:"《雁门太守行》《李凭箜篌引》", bio:"诗鬼，诗风奇诡瑰丽，想象幽奇，英年早逝，对晚唐李商隐影响深远。"},
+  {name:"杜牧", birth:803, death:852, dynasty:"晚唐", color:"#8B3A2F", zihao:"字牧之，号樊川居士", school:"晚唐", works:"《阿房宫赋》《清明》《山行》《泊秦淮》", bio:"晚唐杰出诗人，与李商隐并称小李杜，七绝俊爽清丽，咏史七绝成就极高。"},
+  {name:"温庭筠", birth:812, death:866, dynasty:"晚唐", color:"#8B3A2F", zihao:"字飞卿", school:"花间派鼻祖", works:"《菩萨蛮》《商山早行》", bio:"花间词派鼻祖，词风秾丽精致，为花间派奠定基础。"},
+  {name:"李商隐", birth:813, death:858, dynasty:"晚唐", color:"#8B3A2F", zihao:"字义山，号玉溪生", school:"晚唐", works:"《无题》《锦瑟》《夜雨寄北》", bio:"晚唐诗歌巅峰，与杜牧并称小李杜，无题诗深情绵邈，朦胧唯美。"},
+  {name:"韦庄", birth:836, death:910, dynasty:"晚唐五代", color:"#8B3A2F", zihao:"字端己", school:"花间派", works:"《菩萨蛮·人人尽说江南好》", bio:"花间派重要词人，与温庭筠并称温韦，词风清丽疏淡。"},
+
+  // 两宋（960-1279）
+  {name:"李煜", birth:937, death:978, dynasty:"南唐/北宋初", color:"#3F6680", zihao:"字重光，李后主", school:"南唐词", works:"《虞美人》《浪淘沙》《相见欢》", bio:"南唐后主，词帝，亡国后词作境界大开，成为宋词开山之祖。"},
+  {name:"柳永", birth:984, death:1053, dynasty:"北宋", color:"#3F6680", zihao:"字耆卿，柳三变", school:"婉约派", works:"《雨霖铃》《望海潮》", bio:"北宋第一个专业词人，大力创作慢词，凡有井水处皆能歌柳词。"},
+  {name:"范仲淹", birth:989, death:1052, dynasty:"北宋", color:"#3F6680", zihao:"字希文", school:"豪放先声", works:"《岳阳楼记》《渔家傲·秋思》", bio:"北宋名臣，豪放词先声，"先天下之忧而忧"千古传诵。"},
+  {name:"晏殊", birth:991, death:1055, dynasty:"北宋", color:"#3F6680", zihao:"字同叔", school:"婉约派/江西词派", works:"《浣溪沙·一曲新词酒一杯》", bio:"北宋倚声家初祖，词风雍容华贵，温润秀洁。"},
+  {name:"欧阳修", birth:1007, death:1072, dynasty:"北宋", color:"#3F6680", zihao:"字永叔，号醉翁、六一居士", school:"北宋文坛领袖", works:"《醉翁亭记》《蝶恋花》", bio:"北宋文坛领袖，唐宋八大家之一，诗文革新运动领袖。"},
+  {name:"王安石", birth:1021, death:1086, dynasty:"北宋", color:"#3F6680", zihao:"字介甫，号半山", school:"唐宋八大家", works:"《泊船瓜洲》《元日》《桂枝香·金陵怀古》", bio:"北宋政治家、文学家，唐宋八大家之一，诗风遒劲清新。"},
+  {name:"晏几道", birth:1038, death:1110, dynasty:"北宋", color:"#3F6680", zihao:"字叔原，号小山", school:"婉约派", works:"《临江仙·梦后楼台高锁》", bio:"晏殊第七子，小令圣手，词风深婉秀丽，与父晏殊并称二晏。"},
+  {name:"苏轼", birth:1037, death:1101, dynasty:"北宋", color:"#3F6680", zihao:"字子瞻，号东坡居士", school:"豪放派/唐宋八大家", works:"《水调歌头》《念奴娇·赤壁怀古》《定风波》", bio:"北宋文坛集大成者，诗书画词四绝，豪放词派开创者，千古第一文人。"},
+  {name:"黄庭坚", birth:1045, death:1105, dynasty:"北宋", color:"#3F6680", zihao:"字鲁直，号山谷道人", school:"江西诗派开山", works:"《寄黄几复》", bio:"江西诗派开山之祖，苏门四学士之首，诗风奇崛瘦硬。"},
+  {name:"秦观", birth:1049, death:1100, dynasty:"北宋", color:"#3F6680", zihao:"字少游，号淮海居士", school:"婉约派/苏门四学士", works:"《鹊桥仙·纤云弄巧》《踏莎行》", bio:"婉约派正宗，词风清丽婉约，"两情若是久长时"成为爱情千古名句。"},
+  {name:"周邦彦", birth:1056, death:1121, dynasty:"北宋", color:"#3F6680", zihao:"字美成，号清真居士", school:"格律派集大成", works:"《苏幕遮·燎沉香》", bio:"北宋词格律派集大成者，词风典丽精工，被称为词家之冠。"},
+  {name:"李清照", birth:1084, death:1155, dynasty:"两宋之交", color:"#3F6680", zihao:"号易安居士", school:"婉约派宗主/易安体", works:"《声声慢》《如梦令》《醉花阴》", bio:"千古第一才女，婉约词宗主，词风前期清丽后期沉郁，提出词别是一家。"},
+  {name:"陆游", birth:1125, death:1210, dynasty:"南宋", color:"#3F6680", zihao:"字务观，号放翁", school:"爱国诗人", works:"《示儿》《书愤》《钗头凤》", bio:"南宋最伟大的爱国诗人，存诗近万首，抗金复国之志贯穿一生。"},
+  {name:"范成大", birth:1126, death:1193, dynasty:"南宋", color:"#3F6680", zihao:"字致能，号石湖居士", school:"田园诗/中兴四大诗人", works:"《四时田园杂兴》", bio:"南宋中兴四大诗人之一，田园诗成就最高，反映农村生活真实生动。"},
+  {name:"杨万里", birth:1127, death:1206, dynasty:"南宋", color:"#3F6680", zihao:"字廷秀，号诚斋", school:"诚斋体/中兴四大诗人", works:"《小池》《晓出净慈寺送林子方》", bio:"开创诚斋体，诗风活泼自然，清新浅近，中兴四大诗人之一。"},
+  {name:"辛弃疾", birth:1140, death:1207, dynasty:"南宋", color:"#3F6680", zihao:"字幼安，号稼轩", school:"豪放派/词中之龙", works:"《永遇乐·京口北固亭怀古》《破阵子》《青玉案·元夕》", bio:"词中之龙，豪放词集大成者，与苏轼并称苏辛，词风雄浑悲壮，爱国情怀贯穿始终。"},
+  {name:"姜夔", birth:1155, death:1221, dynasty:"南宋", color:"#3F6680", zihao:"字尧章，号白石道人", school:"格律派/雅词", works:"《扬州慢》《暗香》《疏影》", bio:"南宋格律词派代表，词风清空骚雅，精音律，自度曲多。"},
+  {name:"吴文英", birth:1200, death:1260, dynasty:"南宋", color:"#3F6680", zihao:"字君特，号梦窗", school:"格律派", works:"《莺啼序》", bio:"南宋格律词大家，词风密丽幽邃，长调最长《莺啼序》240字。"},
+  {name:"张炎", birth:1248, death:1320, dynasty:"南宋末元初", color:"#3F6680", zihao:"字叔夏，号玉田", school:"格律派/雅词", works:"《词源》", bio:"宋末四大家之一，词学理论家，提出"清空""骚雅"说，影响后世词学。"},
+
+  // 金元明（1115-1644）
+  {name:"元好问", birth:1190, death:1257, dynasty:"金末元初", color:"#b8860b", zihao:"字裕之，号遗山", school:"金代文学集大成", works:"《摸鱼儿·雁丘词》", bio:"金代文学集大成者，"问世间情为何物"传诵千古，纪乱诗成就极高。"},
+  {name:"关汉卿", birth:1234, death:1300, dynasty:"元", color:"#b8860b", zihao:"号已斋叟", school:"元曲四大家", works:"《窦娥冤》《救风尘》", bio:"元曲四大家之首，中国戏剧奠基人，曲为本色派代表。"},
+  {name:"白朴", birth:1226, death:1306, dynasty:"元", color:"#b8860b", zihao:"字太素，号兰谷", school:"元曲四大家", works:"《梧桐雨》《墙头马上》", bio:"元曲四大家之一，杂剧文采派代表，作品清丽婉约。"},
+  {name:"马致远", birth:1250, death:1321, dynasty:"元", color:"#b8860b", zihao:"号东篱", school:"元曲四大家", works:"《天净沙·秋思》《汉宫秋》", bio:"元曲四大家之一，秋思之祖，"古道西风瘦马"千古绝唱。"},
+  {name:"王实甫", birth:1260, death:1336, dynasty:"元", color:"#b8860b", zihao:"字德信", school:"元杂剧", works:"《西厢记》", bio:"《西厢记》为元杂剧最高成就之一，"愿天下有情人终成眷属"传诵至今。"},
+  {name:"张养浩", birth:1270, death:1329, dynasty:"元", color:"#b8860b", zihao:"字希孟，号云庄", school:"元散曲", works:"《山坡羊·潼关怀古》", bio:""兴，百姓苦；亡，百姓苦"，元散曲中最具人民性的作品。"},
+  {name:"睢景臣", birth:1275, death:1330, dynasty:"元", color:"#b8860b", zihao:"字景贤", school:"元散曲", works:"《哨遍·高祖还乡》", bio:"元散曲套数巅峰之作，讽刺辛辣，诙谐幽默。"},
+  {name:"高启", birth:1336, death:1374, dynasty:"明", color:"#b8860b", zihao:"字季迪，号青丘子", school:"明初诗文三大家", works:"《梅花九首》", bio:"明初最杰出诗人，天才高逸，为明代第一诗人。"},
+  {name:"李东阳", birth:1447, death:1516, dynasty:"明", color:"#b8860b", zihao:"字宾之，号西涯", school:"茶陵诗派", works:"《怀麓堂集》", bio:"茶陵诗派领袖，纠正台阁体弊端，开前后七子先河。"},
+  {name:"唐寅", birth:1470, death:1524, dynasty:"明", color:"#b8860b", zihao:"字伯虎，号六如居士", school:"吴中四才子", works:"《桃花庵歌》", bio:"吴中四才子之首，诗书画三绝，诗风洒脱不羁，"别人笑我太疯癫"广为人知。"},
+  {name:"文徵明", birth:1470, death:1559, dynasty:"明", color:"#b8860b", zihao:"字徵仲，号衡山居士", school:"吴中四才子", works:"《甫田集》", bio:"吴中四才子之一，诗文书画皆精，诗风雅饬之中时饶逸韵。"},
+  {name:"杨慎", birth:1488, death:1559, dynasty:"明", color:"#b8860b", zihao:"字用修，号升庵", school:"明代三才子之首", works:"《临江仙·滚滚长江东逝水》", bio:"明代三才子之首，"滚滚长江东逝水"因《三国演义》开篇闻名天下。"},
+  {name:"归有光", birth:1507, death:1571, dynasty:"明", color:"#b8860b", zihao:"字熙甫，号震川", school:"唐宋派", works:"《项脊轩志》", bio:"唐宋派散文家，散文平淡自然，感情真挚，"庭有枇杷树"感动后世。"},
+  {name:"李攀龙", birth:1514, death:1570, dynasty:"明", color:"#b8860b", zihao:"字于鳞，号沧溟", school:"后七子领袖", works:"《沧溟集》", bio:"明代后七子领袖，主张文必秦汉诗必盛唐，主持明代诗坛数十年。"},
+  {name:"王世贞", birth:1526, death:1590, dynasty:"明", color:"#b8860b", zihao:"字元美，号凤洲", school:"后七子", works:"《弇州山人四部稿》", bio:"后七子领袖，独主文坛二十年，学识渊博，著述宏富。"},
+  {name:"汤显祖", birth:1550, death:1616, dynasty:"明", color:"#b8860b", zihao:"字义仍，号海若、临川先生", school:"临川派", works:"《牡丹亭》", bio:"东方莎士比亚，《牡丹亭》"情不知所起，一往而深"为千古情语之祖。"},
+  {name:"袁宏道", birth:1568, death:1610, dynasty:"明", color:"#b8860b", zihao:"字中郎，号石公", school:"公安派", works:"《满井游记》", bio:"公安派领袖，主张独抒性灵，不拘格套，反对前后七子复古。"},
+  {name:"陈子龙", birth:1608, death:1647, dynasty:"明末", color:"#b8860b", zihao:"字卧子，号大樽", school:"云间派", works:"《点绛唇·春日风雨有感》", bio:"明末云间派领袖，抗清烈士，诗风沉雄瑰丽，开清词中兴先河。"},
+
+  // 清代近代（1644-1927）
+  {name:"钱谦益", birth:1582, death:1664, dynasty:"明末清初", color:"#5A4A7A", zihao:"字受之，号牧斋", school:"江左三大家", works:"《初学集》《有学集》", bio:"明末清初文坛领袖，江左三大家之首，开清诗风气之先。"},
+  {name:"金圣叹", birth:1608, death:1661, dynasty:"明末清初", color:"#5A4A7A", zihao:"字圣叹", school:"文学批评", works:"评点《水浒》《西厢》", bio:"中国最杰出的文学批评家之一，评点六才子书，影响深远。"},
+  {name:"吴伟业", birth:1609, death:1672, dynasty:"明末清初", color:"#5A4A7A", zihao:"字骏公，号梅村", school:"江左三大家", works:"《圆圆曲》", bio:"江左三大家之一，梅村体歌行，"冲冠一怒为红颜"广为人知。"},
+  {name:"顾炎武", birth:1613, death:1682, dynasty:"明末清初", color:"#5A4A7A", zihao:"字宁人，号亭林", school:"清学开山/爱国诗人", works:"《日知录》《精卫》", bio:"清学开山始祖，天下兴亡匹夫有责，学术与气节并重。"},
+  {name:"王士祯", birth:1634, death:1711, dynasty:"清", color:"#5A4A7A", zihao:"字贻上，号阮亭、渔洋山人", school:"神韵说", works:"《秋柳四章》", bio:"康熙朝诗坛领袖，主神韵说，诗风含蓄蕴藉，清远冲淡。"},
+  {name:"蒲松龄", birth:1640, death:1715, dynasty:"清", color:"#5A4A7A", zihao:"字留仙，号柳泉居士", school:"文言小说", works:"《聊斋志异》", bio:"文言小说巅峰《聊斋志异》作者，"写鬼写妖高人一等，刺贪刺虐入骨三分"。"},
+  {name:"纳兰性德", birth:1655, death:1685, dynasty:"清", color:"#5A4A7A", zihao:"字容若，号楞伽山人", school:"清初第一词人", works:"《木兰花令·拟古决绝词》《长相思》", bio:"清初第一词人，"人生若只如初见"传诵千古，词风真挚自然，哀感顽艳。"},
+  {name:"方苞", birth:1668, death:1749, dynasty:"清", color:"#5A4A7A", zihao:"字灵皋，号望溪", school:"桐城派开山", works:"《狱中杂记》《左忠毅公逸事》", bio:"桐城派散文开山鼻祖，倡义法说，影响清代散文两百年。"},
+  {name:"沈德潜", birth:1673, death:1769, dynasty:"清", color:"#5A4A7A", zihao:"字确士，号归愚", school:"格调说", works:"《唐诗别裁集》", bio:"乾隆朝诗坛领袖，主格调说，编选唐诗别裁等选本影响巨大。"},
+  {name:"郑燮", birth:1693, death:1765, dynasty:"清", color:"#5A4A7A", zihao:"字克柔，号板桥", school:"扬州八怪", works:"《竹石》", bio:"扬州八怪代表，诗书画三绝，"千磨万击还坚劲，任尔东西南北风"。"},
+  {name:"曹雪芹", birth:1715, death:1763, dynasty:"清", color:"#5A4A7A", zihao:"名霑，字梦阮，号雪芹", school:"古典小说巅峰", works:"《红楼梦》", bio:"中国古典小说巅峰《红楼梦》作者，"满纸荒唐言，一把辛酸泪"。"},
+  {name:"袁枚", birth:1716, death:1797, dynasty:"清", color:"#5A4A7A", zihao:"字子才，号简斋、随园老人", school:"性灵说", works:"《随园诗话》", bio:"乾隆诗坛性灵说领袖，主张独抒性灵，诗风清新灵动，性灵派影响大。"},
+  {name:"姚鼐", birth:1732, death:1815, dynasty:"清", color:"#5A4A7A", zihao:"字姬传，号惜抱先生", school:"桐城派集大成", works:"《古文辞类纂》", bio:"桐城派集大成者，提出义理、考据、辞章三者合一。"},
+  {name:"龚自珍", birth:1792, death:1841, dynasty:"清中后期", color:"#5A4A7A", zihao:"字璱人，号定庵", school:"近代启蒙思想先驱", works:"《己亥杂诗》", bio:"近代思想启蒙先驱，"我劝天公重抖擞，不拘一格降人才""落红不是无情物"。"},
+  {name:"黄遵宪", birth:1848, death:1905, dynasty:"清末", color:"#5A4A7A", zihao:"字公度", school:"诗界革命", works:"《人境庐诗草》", bio:"诗界革命领袖，我手写我口，新派诗代表，推动诗歌近代化。"},
+  {name:"陈三立", birth:1853, death:1937, dynasty:"近代", color:"#5A4A7A", zihao:"字伯严，号散原", school:"同光体赣派", works:"《散原精舍诗》", bio:"同光体诗派领袖，近代宋诗派代表，诗风生涩奥衍。"},
+  {name:"严复", birth:1854, death:1921, dynasty:"近代", color:"#5A4A7A", zihao:"字又陵，号几道", school:"翻译家/启蒙思想家", works:"译《天演论》", bio:"翻译《天演论》，引入"物竞天择适者生存"思想，影响近代中国。"},
+  {name:"况周颐", birth:1859, death:1926, dynasty:"近代", color:"#5A4A7A", zihao:"字夔笙，号蕙风", school:"清末四大家", works:"《蕙风词话》", bio:"晚清四大家之一，《蕙风词话》为词学名著，与王国维《人间词话》并称。"},
+  {name:"郑孝胥", birth:1860, death:1938, dynasty:"近代", color:"#5A4A7A", zihao:"字苏戡，号海藏", school:"同光体闽派", works:"《海藏楼诗》", bio:"同光体闽派代表，诗风清苍幽峭。"},
+  {name:"朱祖谋", birth:1857, death:1931, dynasty:"近代", color:"#5A4A7A", zihao:"字古微，号彊村", school:"清末四大家", works:"《彊村丛书》", bio:"清末词坛领袖，词学集大成者，校刻词集百余种，为词学功臣。"},
+  {name:"王国维", birth:1877, death:1927, dynasty:"近代", color:"#5A4A7A", zihao:"字静安，号观堂", school:"境界说", works:"《人间词话》《宋元戏曲史》", bio:"近代学术大师，《人间词话》提出境界说，"古今之成大事业大学问者必经过三种之境界"。"},
+  {name:"苏曼殊", birth:1884, death:1918, dynasty:"近代", color:"#5A4A7A", zihao:"原名戬，字子谷", school:"南社诗人", works:"《断鸿零雁记》", bio:"诗僧，诗风清丽凄艳，浪漫气质浓郁，"还卿一钵无情泪，恨不相逢未剃时"。"},
+  {name:"柳亚子", birth:1887, death:1958, dynasty:"近代", color:"#5A4A7A", zihao:"字亚子", school:"南社领袖", works:"《磨剑室诗词集》", bio:"南社创始人之一，革命诗人，诗风慷慨激昂，为近代重要诗社领袖。"}
+];
+
+// 计算位置：年份范围-400到2000，共2400年，总宽度3000px
+const yearStart = -400;
+const yearEnd = 2000;
+const totalWidth = 3000;
+
+function getPosition(year) {
+  return ((year - yearStart) / (yearEnd - yearStart)) * totalWidth;
+}
+
+// 渲染诗人节点
+function renderPoets(filter = "all") {
+  const axis = document.getElementById('timelineAxis');
+  // 清除已有节点
+  document.querySelectorAll('.poet-node').forEach(n => n.remove());
+  
+  let isTop = true;
+  poets.forEach(poet => {
+    if (filter !== "all" && !poet.dynasty.includes(filter)) return;
+    
+    const birthYear = poet.birth;
+    const x = getPosition(birthYear);
+    const node = document.createElement('div');
+    node.className = 'poet-node';
+    node.style.left = x + 'px';
+    
+    const lineHeight = 30 + Math.random() * 20;
+    const pos = isTop ? 'top' : 'bottom';
+    isTop = !isTop;
+    
+    node.innerHTML = `
+      <div class="poet-line ${pos}" style="height: ${lineHeight}px"></div>
+      <div class="poet-dot" style="background:${poet.color};box-shadow:0 0 0 2px ${poet.color}"></div>
+      <div class="poet-name ${pos}">${poet.name}</div>
+      <div class="poet-year ${pos}">${birthYear > 0 ? birthYear : '前' + Math.abs(birthYear)}年</div>
+    `;
+    
+    node.addEventListener('mouseenter', (e) => showPoetCard(poet, e));
+    node.addEventListener('click', () => {
+      window.location.href = `../shicang-poet-journey/index.html#${encodeURIComponent(poet.name)}`;
+    });
+    
+    axis.appendChild(node);
+  });
+}
+
+// 显示诗人浮卡
+function showPoetCard(poet, e) {
+  const card = document.getElementById('poetCard');
+  document.getElementById('cardName').textContent = poet.name;
+  document.getElementById('cardDynasty').textContent = poet.dynasty;
+  document.getElementById('cardLife').textContent = 
+    (poet.birth < 0 ? '前' + Math.abs(poet.birth) : poet.birth) + '-' + 
+    (poet.death < 0 ? '前' + Math.abs(poet.death) : poet.death);
+  document.getElementById('cardZihao').textContent = poet.zihao;
+  document.getElementById('cardSchool').textContent = poet.school;
+  document.getElementById('cardWorks').textContent = poet.works;
+  document.getElementById('cardBio').textContent = poet.bio;
+  document.getElementById('cardLink').href = `../shicang-poet-journey/index.html#${encodeURIComponent(poet.name)}`;
+  
+  card.classList.add('show');
+  
+  // 定位
+  const rect = e.target.getBoundingClientRect();
+  let left = rect.left + rect.width/2 - 160;
+  let top = rect.bottom + 15;
+  
+  if (left < 10) left = 10;
+  if (left + 320 > window.innerWidth - 10) left = window.innerWidth - 330;
+  if (top + 400 > window.innerHeight) {
+    top = rect.top - 400;
+  }
+  
+  card.style.left = left + 'px';
+  card.style.top = top + 'px';
+}
+
+// 隐藏浮卡
+document.addEventListener('click', (e) => {
+  if (!e.target.closest('.poet-node') && !e.target.closest('.poet-card')) {
+    document.getElementById('poetCard').classList.remove('show');
+  }
+});
+
+// 筛选按钮
+document.querySelectorAll('.filter-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    renderPoets(btn.dataset.dynasty);
+  });
+});
+
+// 滚动控制
+function scrollTimeline(delta) {
+  const container = document.getElementById('timelineContainer');
+  if (delta === 0) {
+    container.scrollTo({left: 0, behavior: 'smooth'});
+  } else {
+    container.scrollBy({left: delta, behavior: 'smooth'});
+  }
+}
+
+// 鼠标拖拽滚动
+const container = document.getElementById('timelineContainer');
+let isDragging = false, startX, scrollLeft;
+container.addEventListener('mousedown', (e) => {
+  isDragging = true; startX = e.pageX - container.offsetLeft; scrollLeft = container.scrollLeft;
+});
+container.addEventListener('mouseleave', () => isDragging = false);
+container.addEventListener('mouseup', () => isDragging = false);
+container.addEventListener('mousemove', (e) => {
+  if (!isDragging) return;
+  e.preventDefault();
+  const x = e.pageX - container.offsetLeft;
+  const walk = (x - startX) * 2;
+  container.scrollLeft = scrollLeft - walk;
+});
+
+// 初始渲染
+renderPoets();
+
+// 滚动到唐代（默认显示中间）
+setTimeout(() => {
+  container.scrollLeft = getPosition(700) - window.innerWidth/2;
+}, 100);
+</script>
+
+</body>
+</html>

@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>诗词日历 · 诗藏本体论</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;500;600;700&family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #f6efe0;
+    --paper-dark: #e9dcc5;
+    --ink: #2c2418;
+    --ink-light: #5c4f3f;
+    --vermilion: #8B3A2F;
+    --vermilion-light: #a84a3d;
+    --seal: #a52a2a;
+    --gold: #b8860b;
+    --green: #2E6B4F;
+    --blue: #3F6680;
+    --purple: #5A4A7A;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Noto Serif SC', 'SimSun', '宋体', serif;
+    background: var(--paper);
+    background-image: 
+      url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100' height='100' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+    color: var(--ink);
+    line-height: 1.8;
+    min-height: 100vh;
+  }
+  .navbar {
+    position: sticky; top: 0; z-index: 100;
+    background: rgba(246,239,224,0.95);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(139,58,47,0.2);
+    padding: 0.8rem 2rem;
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .navbar-brand {
+    font-family: 'Ma Shan Zheng', cursive;
+    font-size: 1.4rem; color: var(--vermilion); text-decoration: none;
+    display: flex; align-items: center; gap: 0.5rem;
+  }
+  .navbar-brand::before {
+    content: '詩'; display: inline-flex; align-items: center; justify-content: center;
+    width: 2rem; height: 2rem; background: var(--vermilion); color: var(--paper);
+    border-radius: 4px; font-size: 1.2rem;
+  }
+  .navbar-links { display: flex; gap: 1.2rem; flex-wrap: wrap; }
+  .navbar-links a {
+    color: var(--ink-light); text-decoration: none; font-size: 0.9rem;
+    padding: 0.3rem 0.6rem; border-radius: 3px; transition: all 0.3s;
+  }
+  .navbar-links a:hover, .navbar-links a.active {
+    color: var(--vermilion); background: rgba(139,58,47,0.08);
+  }
+  .navbar-links a.active { font-weight: 500; }
+  .nav-toggle {
+    display: none; background: none; border: none; font-size: 1.5rem;
+    color: var(--vermilion); cursor: pointer;
+  }
+
+  .container { max-width: 1000px; margin: 0 auto; padding: 2rem; }
+  .page-header {
+    text-align: center; margin-bottom: 2rem;
+    padding: 1.5rem 0; border-bottom: 1px solid rgba(139,58,47,0.15);
+  }
+  .page-title {
+    font-family: 'Ma Shan Zheng', cursive;
+    font-size: 2.8rem; color: var(--vermilion); margin-bottom: 0.5rem;
+  }
+  .page-subtitle {
+    color: var(--ink-light); font-size: 1.1rem; letter-spacing: 0.2em;
+  }
+  .seal {
+    display: inline-block; margin-top: 1rem; padding: 0.3rem 0.6rem;
+    background: var(--seal); color: var(--paper);
+    font-size: 0.8rem; border-radius: 2px; letter-spacing: 0.1em;
+  }
+
+  .calendar-card {
+    background: rgba(255,255,255,0.6);
+    border: 1px solid rgba(139,58,47,0.2);
+    border-radius: 8px; overflow: hidden;
+    box-shadow: 0 4px 20px rgba(139,58,47,0.1);
+  }
+  .calendar-header {
+    background: linear-gradient(135deg, var(--vermilion), var(--vermilion-light));
+    color: var(--paper); padding: 2rem;
+    display: flex; justify-content: space-between; align-items: center;
+  }
+  .calendar-date {
+    font-family: 'Ma Shan Zheng', cursive;
+    font-size: 3.5rem; line-height: 1;
+  }
+  .calendar-month-year {
+    font-size: 1.2rem; opacity: 0.9; margin-top: 0.5rem; letter-spacing: 0.1em;
+  }
+  .calendar-lunar {
+    text-align: right;
+  }
+  .lunar-date {
+    font-size: 1.5rem; margin-bottom: 0.3rem;
+  }
+  .solar-term {
+    font-size: 1rem; opacity: 0.9; padding: 0.3rem 0.8rem;
+    background: rgba(255,255,255,0.2); border-radius: 20px; display: inline-block;
+  }
+  .festival {
+    margin-top: 0.3rem; font-size: 0.9rem; color: var(--gold);
+  }
+
+  .calendar-body {
+    padding: 3rem 2rem;
+    text-align: center;
+  }
+  .poem-section {
+    margin-bottom: 2rem;
+  }
+  .poem-title {
+    font-family: 'Ma Shan Zheng', cursive;
+    font-size: 2rem; color: var(--ink); margin-bottom: 0.5rem;
+  }
+  .poem-author {
+    color: var(--ink-light); font-size: 1rem; margin-bottom: 2rem;
+  }
+  .poem-content {
+    font-size: 1.5rem; line-height: 2.8; letter-spacing: 0.2em;
+    color: var(--ink); margin-bottom: 2rem;
+  }
+  .poem-content p { margin-bottom: 0.5rem; }
+  .poem-appreciation {
+    max-width: 700px; margin: 0 auto;
+    text-align: left; color: var(--ink-light); line-height: 2;
+    padding: 1.5rem; background: rgba(246,239,224,0.5);
+    border-left: 3px solid var(--vermilion); border-radius: 0 4px 4px 0;
+  }
+
+  .calendar-nav {
+    display: flex; justify-content: center; gap: 1rem;
+    padding: 1.5rem; border-top: 1px solid rgba(139,58,47,0.1);
+    background: rgba(246,239,224,0.5);
+  }
+  .nav-btn {
+    padding: 0.6rem 1.2rem; background: transparent;
+    border: 1px solid rgba(139,58,47,0.3); color: var(--vermilion);
+    font-family: 'Noto Serif SC', serif; font-size: 0.95rem;
+    border-radius: 4px; cursor: pointer; transition: all 0.3s;
+  }
+  .nav-btn:hover {
+    background: var(--vermilion); color: var(--paper);
+    border-color: var(--vermilion);
+  }
+  .nav-btn.today {
+    background: var(--vermilion); color: var(--paper); border-color: var(--vermilion);
+  }
+  .date-input {
+    padding: 0.6rem; font-family: 'Noto Serif SC', serif;
+    border: 1px solid rgba(139,58,47,0.3); border-radius: 4px;
+    background: rgba(255,255,255,0.7); color: var(--ink);
+  }
+
+  .season-poems {
+    margin-top: 2rem;
+  }
+  .section-title {
+    font-family: 'Ma Shan Zheng', cursive;
+    font-size: 1.5rem; color: var(--vermilion); text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  .season-grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1rem;
+  }
+  .poem-card {
+    padding: 1.5rem; background: rgba(255,255,255,0.5);
+    border: 1px solid rgba(139,58,47,0.15); border-radius: 8px;
+    cursor: pointer; transition: all 0.3s;
+  }
+  .poem-card:hover {
+    background: rgba(255,255,255,0.8); border-color: var(--vermilion);
+    transform: translateY(-2px);
+  }
+  .poem-card-title {
+    font-weight: 600; color: var(--ink); margin-bottom: 0.3rem;
+  }
+  .poem-card-author {
+    font-size: 0.85rem; color: var(--ink-light); margin-bottom: 0.8rem;
+  }
+  .poem-card-preview {
+    font-size: 0.95rem; color: var(--ink); line-height: 1.8;
+  }
+  .theme-tag {
+    display: inline-block; margin-top: 0.8rem; padding: 0.2rem 0.6rem;
+    background: rgba(139,58,47,0.1); color: var(--vermilion);
+    font-size: 0.8rem; border-radius: 3px;
+  }
+
+  @media (max-width: 768px) {
+    .navbar { padding: 0.6rem 1rem; }
+    .navbar-links { display: none; flex-direction: column; position: absolute;
+      top: 100%; left: 0; right: 0; background: var(--paper);
+      padding: 1rem; border-bottom: 1px solid rgba(139,58,47,0.2); }
+    .navbar-links.show { display: flex; }
+    .nav-toggle { display: block; }
+    .container { padding: 1rem; }
+    .page-title { font-size: 2rem; }
+    .calendar-header { flex-direction: column; text-align: center; gap: 1rem; padding: 1.5rem; }
+    .calendar-date { font-size: 2.5rem; }
+    .calendar-lunar { text-align: center; }
+    .poem-content { font-size: 1.2rem; line-height: 2.2; }
+    .calendar-body { padding: 2rem 1rem; }
+    .calendar-nav { flex-wrap: wrap; }
+  }
+</style>
+</head>
+<body>
+
+<nav class="navbar">
+  <a href="../index.html" class="navbar-brand">诗藏</a>
+  <button class="nav-toggle" onclick="document.querySelector('.navbar-links').classList.toggle('show')">☰</button>
+  <div class="navbar-links">
+    <a href="../shicang-jingdu/">诗</a>
+    <a href="../shicang-ci/">词</a>
+    <a href="../shicang-qu/">曲</a>
+    <a href="../shicang-chuci/">辞赋</a>
+    <a href="../shicang-poem/">名篇</a>
+    <a href="../shicang-poet-journey/">诗人轨迹</a>
+    <a href="../shicang-cipai/">词牌谱</a>
+    <a href="../shicang-imagery/">意象图</a>
+    <a href="../shicang-meipi/">诗话眉批</a>
+    <a href="../shicang-duilian/">AI 对诗</a>
+    <a href="../shicang-duilian-corpus/">楹联集对</a>
+    <a href="../shicang-map/">诗词地图</a>
+    <a href="../shicang-yunshu/">韵书</a>
+    <a href="index.html" class="active">诗词日历</a>
+    <a href="../shicang-zoumadeng/">诗人走马灯</a>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="page-header">
+    <h1 class="page-title">詩詞日曆</h1>
+    <p class="page-subtitle">日日有詩 · 歲歲有情</p>
+    <span class="seal">日讀一詩</span>
+  </div>
+
+  <div class="calendar-card">
+    <div class="calendar-header" id="calendarHeader">
+      <div>
+        <div class="calendar-date" id="dateDay">1</div>
+        <div class="calendar-month-year" id="dateMonthYear">2024年1月</div>
+      </div>
+      <div class="calendar-lunar">
+        <div class="lunar-date" id="lunarDate">正月初一</div>
+        <div class="solar-term" id="solarTerm">春节</div>
+        <div class="festival" id="festival"></div>
+      </div>
+    </div>
+
+    <div class="calendar-body">
+      <div class="poem-section">
+        <div class="poem-title" id="poemTitle">元日</div>
+        <div class="poem-author" id="poemAuthor">宋 · 王安石</div>
+        <div class="poem-content" id="poemContent">
+          <p>爆竹声中一岁除，</p>
+          <p>春风送暖入屠苏。</p>
+          <p>千门万户曈曈日，</p>
+          <p>总把新桃换旧符。</p>
+        </div>
+        <div class="poem-appreciation" id="poemAppreciation">
+          此诗描写新年元日热闹、欢乐和万象更新的动人景象，抒发了作者革新政治的思想感情，充满欢快及积极向上的奋发精神。
+        </div>
+      </div>
+    </div>
+
+    <div class="calendar-nav">
+      <button class="nav-btn" onclick="changeDay(-1)">← 前一天</button>
+      <input type="date" class="date-input" id="datePicker" onchange="pickDate(this.value)">
+      <button class="nav-btn today" onclick="goToday()">今日</button>
+      <button class="nav-btn" onclick="changeDay(1)">后一天 →</button>
+    </div>
+  </div>
+
+  <div class="season-poems">
+    <h2 class="section-title" id="seasonTitle">當季詩選</h2>
+    <div class="season-grid" id="seasonGrid"></div>
+  </div>
+</div>
+
+<script>
+// 二十四节气（简化版月份对应）
+const solarTerms = {
+  1: {6: "小寒", 20: "大寒"},
+  2: {4: "立春", 19: "雨水"},
+  3: {6: "惊蛰", 21: "春分"},
+  4: {5: "清明", 20: "谷雨"},
+  5: {6: "立夏", 21: "小满"},
+  6: {6: "芒种", 21: "夏至"},
+  7: {7: "小暑", 23: "大暑"},
+  8: {8: "立秋", 23: "处暑"},
+  9: {8: "白露", 23: "秋分"},
+  10: {8: "寒露", 23: "霜降"},
+  11: {7: "立冬", 22: "小雪"},
+  12: {7: "大雪", 22: "冬至"}
+};
+
+// 传统节日（公历）
+const festivals = {
+  "1-1": "元旦",
+  "2-14": "情人节",
+  "3-8": "妇女节",
+  "5-1": "劳动节",
+  "5-4": "青年节",
+  "6-1": "儿童节",
+  "7-1": "建党节",
+  "8-1": "建军节",
+  "9-10": "教师节",
+  "10-1": "国庆节",
+  "12-25": "圣诞节"
+};
+
+// 农历节日（简化，按常见对应公历近似）
+const lunarFestivals = {
+  "1-1": "春节",
+  "1-15": "元宵节",
+  "2-2": "龙抬头",
+  "5-5": "端午节",
+  "7-7": "七夕节",
+  "7-15": "中元节",
+  "8-15": "中秋节",
+  "9-9": "重阳节",
+  "12-8": "腊八节",
+  "12-23": "小年",
+  "12-30": "除夕"
+};
+
+// 四季诗词库（按月份/节气/节日匹配）
+const poemDB = [
+  // 春
+  {month: [1,2,12], term: ["立春","春节","元旦"], title: "元日", author: "宋 · 王安石",
+    content: ["爆竹声中一岁除，","春风送暖入屠苏。","千门万户曈曈日，","总把新桃换旧符。"],
+    appreciation: "描写新年元日热闹欢乐、万象更新的景象，抒发作者革新政治的抱负，充满积极奋发精神。",
+    theme: "新年"},
+  {month: [2], term: ["立春","雨水"], title: "春夜喜雨", author: "唐 · 杜甫",
+    content: ["好雨知时节，当春乃发生。","随风潜入夜，润物细无声。","野径云俱黑，江船火独明。","晓看红湿处，花重锦官城。"],
+    appreciation: "赞美春雨来得及时、默默滋润万物，表达对春天到来的喜悦之情。", theme: "春雨"},
+  {month: [3], term: ["惊蛰","春分"], title: "钱塘湖春行", author: "唐 · 白居易",
+    content: ["孤山寺北贾亭西，水面初平云脚低。","几处早莺争暖树，谁家新燕啄春泥。","乱花渐欲迷人眼，浅草才能没马蹄。","最爱湖东行不足，绿杨阴里白沙堤。"],
+    appreciation: "描绘西湖早春明媚风光，抒发作者早春游湖的喜悦和对自然之美的热爱。", theme: "春游"},
+  {month: [3,4], term: ["清明"], title: "清明", author: "唐 · 杜牧",
+    content: ["清明时节雨纷纷，","路上行人欲断魂。","借问酒家何处有？","牧童遥指杏花村。"],
+    appreciation: "写清明春雨中所见，色彩清淡，心境凄冷，历来广为传诵。", theme: "清明"},
+  {month: [4], term: ["谷雨"], title: "春晓", author: "唐 · 孟浩然",
+    content: ["春眠不觉晓，","处处闻啼鸟。","夜来风雨声，","花落知多少。"],
+    appreciation: "春日清晨的自然景象，表达诗人对春天的热爱和惜春之情。", theme: "春晨"},
+  // 夏
+  {month: [5,6], term: ["立夏","小满","芒种","夏至"], title: "晓出净慈寺送林子方", author: "宋 · 杨万里",
+    content: ["毕竟西湖六月中，","风光不与四时同。","接天莲叶无穷碧，","映日荷花别样红。"],
+    appreciation: "描写杭州西湖六月夏季的美丽景色，莲叶接天、荷花映日，意境开阔壮丽。", theme: "夏荷"},
+  {month: [6,7], term: ["小暑","大暑"], title: "夏日南亭怀辛大", author: "唐 · 孟浩然",
+    content: ["山光忽西落，池月渐东上。","散发乘夕凉，开轩卧闲敞。","荷风送香气，竹露滴清响。","欲取鸣琴弹，恨无知音赏。"],
+    appreciation: "写夏夜水亭纳凉的清爽闲适，表达对友人的怀念。", theme: "夏凉"},
+  {month: [7], term: [], title: "约客", author: "宋 · 赵师秀",
+    content: ["黄梅时节家家雨，","青草池塘处处蛙。","有约不来过夜半，","闲敲棋子落灯花。"],
+    appreciation: "描写江南梅雨季节夏夜等候友人的情景，清新活泼，富有生活气息。", theme: "梅雨"},
+  // 秋
+  {month: [8], term: ["立秋","处暑"], title: "山居秋暝", author: "唐 · 王维",
+    content: ["空山新雨后，天气晚来秋。","明月松间照，清泉石上流。","竹喧归浣女，莲动下渔舟。","随意春芳歇，王孙自可留。"],
+    appreciation: "描绘秋雨初晴后傍晚时分山村的旖旎风光和村民的淳朴风尚，表现诗人对田园生活的向往。", theme: "秋山"},
+  {month: [9], term: ["白露","秋分","中秋"], title: "水调歌头·明月几时有", author: "宋 · 苏轼",
+    content: ["明月几时有？把酒问青天。","不知天上宫阙，今夕是何年。","人有悲欢离合，月有阴晴圆缺，","此事古难全。但愿人长久，千里共婵娟。"],
+    appreciation: "中秋望月怀人之作，表达对亲人的思念和美好祝愿，成为中秋词的千古绝唱。", theme: "中秋"},
+  {month: [9], term: ["重阳"], title: "九月九日忆山东兄弟", author: "唐 · 王维",
+    content: ["独在异乡为异客，","每逢佳节倍思亲。","遥知兄弟登高处，","遍插茱萸少一人。"],
+    appreciation: "重阳节思念家乡亲人之作，"每逢佳节倍思亲"成为千古名句。", theme: "重阳"},
+  {month: [10,11], term: ["寒露","霜降","立冬"], title: "山行", author: "唐 · 杜牧",
+    content: ["远上寒山石径斜，","白云生处有人家。","停车坐爱枫林晚，","霜叶红于二月花。"],
+    appreciation: "描写深秋山林的美丽景色，霜后的枫叶比春花还要红艳，充满生机。", theme: "秋枫"},
+  {month: [10], term: [], title: "枫桥夜泊", author: "唐 · 张继",
+    content: ["月落乌啼霜满天，","江枫渔火对愁眠。","姑苏城外寒山寺，","夜半钟声到客船。"],
+    appreciation: "描写秋夜泊船枫桥的所见所闻，意境幽远清冷，抒发羁旅之愁。", theme: "秋夜"},
+  // 冬
+  {month: [11,12,1], term: ["小雪","大雪","冬至","小寒","大寒"], title: "江雪", author: "唐 · 柳宗元",
+    content: ["千山鸟飞绝，","万径人踪灭。","孤舟蓑笠翁，","独钓寒江雪。"],
+    appreciation: "描绘大雪纷飞天地苍茫的景象，塑造渔翁独钓的孤高形象，寄托诗人清高孤傲的情怀。", theme: "冬雪"},
+  {month: [12], term: ["冬至"], title: "冬至", author: "唐 · 杜甫",
+    content: ["年年至日长为客，","忽忽穷愁泥杀人。","江上形容吾独老，","天边风俗自相亲。"],
+    appreciation: "写冬至佳节漂泊在外的愁思，表达对故乡和亲人的思念。", theme: "冬至"},
+  {month: [2], term: ["元宵"], title: "青玉案·元夕", author: "宋 · 辛弃疾",
+    content: ["东风夜放花千树，更吹落、星如雨。","宝马雕车香满路。凤箫声动，玉壶光转，一夜鱼龙舞。","众里寻他千百度，蓦然回首，那人却在，灯火阑珊处。"],
+    appreciation: "描写元宵节热闹繁华的景象，"蓦然回首"三句成为千古名句。", theme: "元宵"},
+  // 日常通用
+  {month: [], term: [], title: "饮酒·其五", author: "东晋 · 陶渊明",
+    content: ["结庐在人境，而无车马喧。","问君何能尔？心远地自偏。","采菊东篱下，悠然见南山。","山气日夕佳，飞鸟相与还。","此中有真意，欲辨已忘言。"],
+    appreciation: "表现诗人隐居生活的情趣，"悠然见南山"成为传诵千古的名句。", theme: "隐逸"},
+  {month: [], term: [], title: "定风波·莫听穿林打叶声", author: "宋 · 苏轼",
+    content: ["莫听穿林打叶声，何妨吟啸且徐行。","竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。","料峭春风吹酒醒，微冷，山头斜照却相迎。","回首向来萧瑟处，归去，也无风雨也无晴。"],
+    appreciation: "表现诗人旷达超脱的胸襟，"一蓑烟雨任平生"成为千古名句。", theme: "旷达"},
+];
+
+let currentDate = new Date();
+
+// 格式化日期
+function formatDate(d) {
+  return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+}
+
+// 获取农历日期（简化版）
+function getLunar(d) {
+  const lunarMonths = ["正月","二月","三月","四月","五月","六月","七月","八月","九月","十月","冬月","腊月"];
+  const lunarDays = ["初一","初二","初三","初四","初五","初六","初七","初八","初九","初十",
+                     "十一","十二","十三","十四","十五","十六","十七","十八","十九","二十",
+                     "廿一","廿二","廿三","廿四","廿五","廿六","廿七","廿八","廿九","三十"];
+  // 简化：按月份+日期取对应农历（近似，仅作演示）
+  const m = d.getMonth() + 1;
+  const day = d.getDate();
+  // 农历近似偏移约1个半月
+  let lm = m - 1;
+  let ld = day;
+  if (ld > 30) ld = 30;
+  if (lm < 1) lm = 12;
+  return {
+    month: lunarMonths[lm-1],
+    day: lunarDays[ld-1]
+  };
+}
+
+// 获取节气
+function getSolarTerm(d) {
+  const m = d.getMonth() + 1;
+  const day = d.getDate();
+  const terms = solarTerms[m];
+  if (!terms) return "";
+  for (const [td, name] of Object.entries(terms)) {
+    if (Math.abs(day - parseInt(td)) <= 1) return name;
+  }
+  return "";
+}
+
+// 获取节日
+function getFestival(d) {
+  const key = `${d.getMonth()+1}-${d.getDate()}`;
+  const f1 = festivals[key] || "";
+  // 近似农历节日
+  const lunarF = {
+    "2-12": "元宵节", "2-14": "情人节", "6-18": "端午节", 
+    "8-17": "七夕节", "9-17": "中秋节", "10-18": "重阳节"
+  };
+  const f2 = lunarF[key] || "";
+  return [f1, f2].filter(Boolean).join(" · ");
+}
+
+// 选择今日诗词
+function selectPoem(d) {
+  const m = d.getMonth() + 1;
+  const term = getSolarTerm(d);
+  const fest = getFestival(d);
+  
+  // 优先匹配节气/节日
+  for (const p of poemDB) {
+    if (p.term.length > 0 && (p.term.includes(term) || p.term.some(t => fest.includes(t)))) {
+      return p;
+    }
+  }
+  // 按月份匹配
+  for (const p of poemDB) {
+    if (p.month.includes(m)) return p;
+  }
+  // 通用
+  return poemDB[poemDB.length - 2];
+}
+
+// 获取季节
+function getSeason(m) {
+  if (m >=3 && m <=5) return {name: "春", poems: poemDB.filter(p => p.theme.includes("春"))};
+  if (m >=6 && m <=8) return {name: "夏", poems: poemDB.filter(p => p.theme.includes("夏") || p.theme.includes("荷"))};
+  if (m >=9 && m <=11) return {name: "秋", poems: poemDB.filter(p => p.theme.includes("秋") || p.theme.includes("枫"))};
+  return {name: "冬", poems: poemDB.filter(p => p.theme.includes("冬") || p.theme.includes("雪"))};
+}
+
+// 渲染日历
+function renderCalendar() {
+  const d = currentDate;
+  document.getElementById('dateDay').textContent = d.getDate();
+  document.getElementById('dateMonthYear').textContent = `${d.getFullYear()}年${d.getMonth()+1}月`;
+  
+  const lunar = getLunar(d);
+  document.getElementById('lunarDate').textContent = `${lunar.month}${lunar.day}`;
+  
+  const term = getSolarTerm(d);
+  const fest = getFestival(d);
+  document.getElementById('solarTerm').textContent = term || fest || "日常";
+  document.getElementById('festival').textContent = fest && term ? fest : "";
+  
+  const poem = selectPoem(d);
+  document.getElementById('poemTitle').textContent = poem.title;
+  document.getElementById('poemAuthor').textContent = poem.author;
+  document.getElementById('poemContent').innerHTML = poem.content.map(line => `<p>${line}</p>`).join('');
+  document.getElementById('poemAppreciation').textContent = poem.appreciation;
+  
+  document.getElementById('datePicker').value = formatDate(d);
+  
+  // 季节主题色
+  const season = getSeason(d.getMonth() + 1);
+  const colors = {
+    "春": "#2E6B4F",
+    "夏": "#8B3A2F", 
+    "秋": "#b8860b",
+    "冬": "#3F6680"
+  };
+  document.getElementById('calendarHeader').style.background = `linear-gradient(135deg, ${colors[season.name]}, ${colors[season.name]}cc)`;
+  document.getElementById('seasonTitle').textContent = `${season.name}日詩選`;
+  document.getElementById('seasonGrid').innerHTML = season.poems.map(p => `
+    <div class="poem-card" onclick="showPoem('${p.title}')">
+      <div class="poem-card-title">${p.title}</div>
+      <div class="poem-card-author">${p.author}</div>
+      <div class="poem-card-preview">${p.content[0]}${p.content[1] || ''}</div>
+      <span class="theme-tag">${p.theme}</span>
+    </div>
+  `).join('');
+}
+
+function showPoem(title) {
+  const p = poemDB.find(x => x.title === title);
+  if (p) {
+    document.getElementById('poemTitle').textContent = p.title;
+    document.getElementById('poemAuthor').textContent = p.author;
+    document.getElementById('poemContent').innerHTML = p.content.map(line => `<p>${line}</p>`).join('');
+    document.getElementById('poemAppreciation').textContent = p.appreciation;
+    window.scrollTo({top: 0, behavior: 'smooth'});
+  }
+}
+
+function changeDay(delta) {
+  currentDate.setDate(currentDate.getDate() + delta);
+  renderCalendar();
+}
+
+function pickDate(val) {
+  if (val) {
+    currentDate = new Date(val);
+    renderCalendar();
+  }
+}
+
+function goToday() {
+  currentDate = new Date();
+  renderCalendar();
+}
+
+renderCalendar();
+</script>
+
+</body>
+</html>
