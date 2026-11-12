@@ -151,6 +151,58 @@ document.querySelectorAll('.sw').forEach(function(btn){
   sync();
   btn.addEventListener('click',function(){document.body.classList.toggle(cls);sync();});
 });
+
+// 逐字点注浮笺
+(function(){
+  var bubble = document.createElement('div');
+  bubble.id='zi-pop';
+  bubble.style.cssText='position:fixed;z-index:9999;display:none;max-width:280px;padding:10px 14px;'+
+    'background:rgba(248,242,228,.97);border:1px solid var(--rule);border-radius:8px;'+
+    'box-shadow:0 6px 20px -6px rgba(80,60,30,.5);font-size:13.5px;color:var(--ink);'+
+    'line-height:1.7;pointer-events:none;backdrop-filter:blur(4px);font-family:inherit;';
+  document.body.appendChild(bubble);
+  document.querySelectorAll('.ch .zi').forEach(function(zi){
+    var ch = zi.parentElement;
+    var pinyin = ch.querySelector('.py');
+    var tone = ch.querySelector('.pz');
+    var isRhyme = ch.classList.contains('is-rhyme');
+    var isNote = ch.classList.contains('is-note');
+    var isAllu = ch.classList.contains('is-allu');
+    var isRare = ch.classList.contains('is-rare');
+    zi.style.cursor='pointer';
+    zi.addEventListener('mouseenter',function(e){
+      var text = zi.textContent;
+      var html = '<b style="color:var(--seal);font-size:15px;">'+text+'</b>';
+      if(pinyin && pinyin.textContent) html += '　<span style="color:var(--ink3);font-family:Times New Roman;">'+pinyin.textContent+'</span>';
+      if(tone && tone.textContent) html += '　<span style="color:var(--accent);">'+(tone.textContent==='平'?'平声':'仄声')+'</span>';
+      if(isRhyme) html += '<br><span style="color:var(--main);">韵脚字</span>';
+      if(isAllu) html += '<br><span style="color:var(--seal);">典故用字</span>';
+      if(isRare) html += '<br><span style="color:var(--seal);">生僻字</span>';
+      bubble.innerHTML = html;
+      bubble.style.display='block';
+      var r = zi.getBoundingClientRect();
+      bubble.style.left = Math.min(r.left + r.width/2 - bubble.offsetWidth/2, window.innerWidth - bubble.offsetWidth - 10)+'px';
+      bubble.style.top = (r.bottom + 8)+'px';
+    });
+    zi.addEventListener('mouseleave',function(){ bubble.style.display='none'; });
+  });
+})();
+
+// 主题氛围淡入切换（从 localStorage 读取上一主题做过渡）
+(function(){
+  var key = 'shicang_theme';
+  var cur = getComputedStyle(document.documentElement).getPropertyValue('--main').trim();
+  var prev = localStorage.getItem(key);
+  if(prev && prev!==cur){
+    document.body.style.opacity='0';
+    document.body.style.transition='opacity .6s ease';
+    requestAnimationFrame(function(){
+      document.body.style.opacity='1';
+    });
+  }
+  localStorage.setItem(key,cur);
+})();
+
 </script>
 </body>
 </html>

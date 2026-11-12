@@ -1,0 +1,328 @@
+{
+  "QuYuan_LiSao": {
+    "id": "QuYuan_LiSao",
+    "title": "离骚",
+    "author": "屈原",
+    "era": "战国",
+    "genre": "楚辞",
+    "theme": "慷慨爱国",
+    "lines": [
+      "帝高阳之苗裔兮，朕皇考曰伯庸。",
+      "摄提贞于孟陬兮，惟庚寅吾以降。",
+      "纷吾既有此内美兮，又重之以修能。",
+      "扈江离与辟芷兮，纫秋兰以为佩。",
+      "日月忽其不淹兮，春与秋其代序。",
+      "惟草木之零落兮，恐美人之迟暮。",
+      "长太息以掩涕兮，哀民生之多艰。",
+      "亦余心之所善兮，虽九死其犹未悔。",
+      "路漫漫其修远兮，吾将上下而求索。",
+      "既莫足与为美政兮，吾将从彭咸之所居！"
+    ],
+    "famous": "路漫漫其修远兮，吾将上下而求索。亦余心之所善兮，虽九死其犹未悔。",
+    "notes": [
+      {
+        "t": "苗裔",
+        "e": "后裔。高阳即颛顼，传说中五帝之一。"
+      },
+      {
+        "t": "朕",
+        "e": "先秦时人人可用为自称，秦始皇始定为皇帝专称。"
+      },
+      {
+        "t": "正则/灵均",
+        "e": "对应屈原名「平」字「原」的隐喻。"
+      },
+      {
+        "t": "扈/纫",
+        "e": "扈hù披服；纫，编织。江离、辟芷、秋兰皆香草，喻美德。"
+      },
+      {
+        "t": "美人",
+        "e": "喻楚怀王，是《离骚》「香草美人」比兴传统。"
+      },
+      {
+        "t": "彭咸",
+        "e": "殷代贤大夫，谏君不纳投水而死，屈原精神偶像。"
+      }
+    ],
+    "zh": [
+      "我是古帝高阳氏的远代子孙，伟大的父亲名叫伯庸。",
+      "我既有内在美德，又加之以修洁才能。",
+      "身披江离辟芷，编秋兰作为佩环。",
+      "日月飞逝春秋更替，想到草木零落便恐美人迟暮。",
+      "长叹息擦眼泪，哀怜人民生活多艰。",
+      "只要是我心所善，纵然死九次也不后悔。",
+      "前路漫漫又远又长，我将上天下地寻求理想。",
+      "既然无人共行美政，我将追随彭咸以死明志。"
+    ],
+    "en": [
+      "Descendant am I of Gao-yang the Ancient, / My noble father Bo-yong by name.",
+      "Endowed with inborn grace and worth, / I added cultivation of virtue.",
+      "I clad myself in river rue and angelica, / Twining autumn orchids as my pendant.",
+      "Sun and moon speed by without pause, / Seeing herbs fall I grieve the Fair One fading.",
+      "Long did I sigh and wipe my tears, / Mourning that the people's lot is hard.",
+      "For what my heart holds to be good, / Though I die nine deaths I'll not regret.",
+      "The road ahead is long and far, / I shall search high and low for my ideal.",
+      "Since none will work fair government, / I'll join Peng-xian in his dwelling!"
+    ],
+    "struct": {
+      "qi": "起：叙家世出身，自陈内美修能",
+      "cheng": "承：惜时修身，愿导君于先路",
+      "zhuan": "转：忠而见疑，抒发九死不悔之志",
+      "he": "合：上下求索，从彭咸所居殉道"
+    },
+    "appr": "中国文学史上最伟大的政治抒情长诗，373句近2500字，开创「香草美人」比兴传统。屈原以一己忠贞对抗朝堂腐朽，情感浓烈、人格高洁、境界博大。「路漫漫其修远兮，吾将上下而求索」「亦余心之所善兮，虽九死其犹未悔」已成为民族精神座右铭。",
+    "bg": "约作于楚怀王后期（前300年前后），屈原遭谗被疏，政治理想破灭，时年约四十余岁。",
+    "year": -300
+  },
+  "QuYuan_JiuGe_JiangJun": {
+    "id": "QuYuan_JiuGe_JiangJun",
+    "title": "九歌·国殇",
+    "author": "屈原",
+    "era": "战国",
+    "genre": "楚辞",
+    "theme": "慷慨爱国",
+    "lines": [
+      "操吴戈兮被犀甲，车错毂兮短兵接。",
+      "旌蔽日兮敌若云，矢交坠兮士争先。",
+      "霾两轮兮絷四马，援玉枹兮击鸣鼓。",
+      "天时怼兮威灵怒，严杀尽兮弃原野。",
+      "带长剑兮挟秦弓，首身离兮心不惩。",
+      "身既死兮神以灵，子魂魄兮为鬼雄！"
+    ],
+    "famous": "身既死兮神以灵，子魂魄兮为鬼雄！",
+    "notes": [
+      {
+        "t": "国殇",
+        "e": "为国牺牲的战士。殇指在外战死。"
+      },
+      {
+        "t": "错毂",
+        "e": "敌我车轮交错，短兵相接。毂gǔ车轮中心。"
+      },
+      {
+        "t": "霾两轮",
+        "e": "霾通「埋」，车轮深陷，形容死战不退。"
+      },
+      {
+        "t": "玉枹",
+        "e": "玉饰鼓槌。枹fú。"
+      },
+      {
+        "t": "心不惩",
+        "e": "惩，悔；忠心至死不悔。"
+      }
+    ],
+    "zh": [
+      "手持吴戈身披犀甲，敌我车轮交错短兵相接。",
+      "旌旗蔽日敌兵如云，箭矢交坠战士争先。",
+      "车轮深陷四马被绊，主帅仍举玉槌擂战鼓。",
+      "天昏地暗神灵震怒，一场恶杀尸横原野。",
+      "腰佩长剑手持秦弓，身首异处忠心不改。",
+      "身虽战死精神永存，你们的魂魄是鬼中英雄！"
+    ],
+    "en": [
+      "With Wu-ge halberd in hand, clad in rhino hide, / Our chariot wheels clash where foes press near.",
+      "Banners blot the sun as enemies come like clouds, / Arrows fall like rain while warriors surge ahead.",
+      "Wheels bog down, the team caught fast, / Still I seize jade drumsticks and beat the war drum.",
+      "Heaven itself is roused to wrath, / Our brave ones slain, strewn on the field.",
+      "Long swords at waist, Qin bows in hand, / Though heads part from bodies, hearts never falter.",
+      "Bodies slain yet spirits remain divine, / Your valiant souls are heroes among ghosts!"
+    ],
+    "struct": {
+      "qi": "起：白描战场短兵相接",
+      "cheng": "承：主将击鼓不退，战士死战",
+      "zhuan": "转：天怨神怒，全军壮烈殉国",
+      "he": "合：礼赞忠魂毅魄为鬼雄"
+    },
+    "appr": "中国文学史上第一首专门礼赞为国捐躯将士的祭歌。风格刚健悲壮，一反《九歌》缠绵悱恻。开篇如铜琶铁板写战场厮杀，结尾「身既死兮神以灵，子魂魄兮为鬼雄」掷地有声，是对卫国将士最高礼赞。",
+    "bg": "约作于楚怀王十七年（前312年）丹阳、蓝田之败后，屈原在郢都祭典中为悼念阵亡将士而作。",
+    "year": -312
+  },
+  "CaoCao_DuanGeXing": {
+    "id": "CaoCao_DuanGeXing",
+    "title": "短歌行",
+    "author": "曹操",
+    "era": "东汉",
+    "genre": "乐府",
+    "theme": "悲慨沉郁",
+    "lines": [
+      "对酒当歌，人生几何！",
+      "譬如朝露，去日苦多。",
+      "慨当以慷，忧思难忘。",
+      "何以解忧？唯有杜康。",
+      "青青子衿，悠悠我心。",
+      "呦呦鹿鸣，食野之苹。",
+      "明明如月，何时可掇？",
+      "月明星稀，乌鹊南飞。",
+      "绕树三匝，何枝可依？",
+      "山不厌高，海不厌深。",
+      "周公吐哺，天下归心。"
+    ],
+    "famous": "山不厌高，海不厌深。周公吐哺，天下归心。",
+    "notes": [
+      {
+        "t": "对酒当歌",
+        "e": "对着酒筵歌舞。当：对着。"
+      },
+      {
+        "t": "杜康",
+        "e": "相传最早造酒者，代指美酒。"
+      },
+      {
+        "t": "青青子衿",
+        "e": "《诗经·郑风》成句，青衿为学子服装，代指贤才。"
+      },
+      {
+        "t": "三匝",
+        "e": "匝zā，周；绕树三周，喻贤士择主。"
+      },
+      {
+        "t": "周公吐哺",
+        "e": "周公为迎贤士一饭三吐哺，恐失天下之士。"
+      }
+    ],
+    "zh": [
+      "对酒当歌，人生能有多少时日？像晨露一样转瞬即逝，逝去的日子苦于太多。",
+      "歌声慷慨，忧思难忘，用什么解忧？只有美酒。",
+      "青衣贤士啊，长久萦绕我心。鹿群呦呦鸣叫在原野吃艾蒿，我有贵客必鼓瑟吹笙。",
+      "明月何时才能摘取？忧愁从中涌出无法断绝。",
+      "月明星稀乌鹊南飞，绕树三周哪枝可栖？山不嫌高海不嫌深，我愿学周公吐哺，让天下英才归心。"
+    ],
+    "en": [
+      "Before wine and song, how long is life? / Like morning dew it quickly dries.",
+      "Sing we then with ardor high, yet anxious thoughts cannot be forgot— / What can loose such care? Naught but Du-kang's wine.",
+      "You in blue-collared gown, your memory lingers in my heart. / When honored guests surround me, I strike the se and blow the sheng.",
+      "Bright as the moon above, when shall I catch its glow? / Sorrow rises from my heart, a stream that never ends.",
+      "The moon shines bright, stars sparse, magpies fly south; / They circle thrice around the tree—on which branch to rest?",
+      "A mountain spurns not high earth, the sea scorns not deepest streams; / The Duke of Zhou spat out his meal to welcome worthies, till all the world turned to him."
+    ],
+    "struct": {
+      "qi": "起：对酒当歌叹人生如露",
+      "cheng": "承：引《诗经》表思贤若渴",
+      "zhuan": "转：明月之忧与嘉宾之会，心情起伏",
+      "he": "合：周公吐哺，吐露一统天下雄心"
+    },
+    "appr": "建安文学最具代表性的政治家诗。曹操先叹人生如露看似消沉；中间反复沉吟对贤才的思慕；结尾「周公吐哺，天下归心」翻起，气魄吞天。全诗苍凉慷慨、跌宕悲凉，将时间焦虑与政治抱负熔于一炉。鲁迅称曹操为「改造文章的祖师」。",
+    "bg": "作于建安十三年（208年）赤壁之战前夕，曹操平定北方进位丞相，率大军南下欲一统天下，于军中宴饮横槊赋诗。",
+    "year": 208
+  },
+  "CaoCao_GuanCangHai": {
+    "id": "CaoCao_GuanCangHai",
+    "title": "观沧海",
+    "author": "曹操",
+    "era": "东汉",
+    "genre": "乐府",
+    "theme": "豪放壮阔",
+    "lines": [
+      "东临碣石，以观沧海。",
+      "水何澹澹，山岛竦峙。",
+      "树木丛生，百草丰茂。",
+      "秋风萧瑟，洪波涌起。",
+      "日月之行，若出其中；",
+      "星汉灿烂，若出其里。",
+      "幸甚至哉，歌以咏志。"
+    ],
+    "famous": "日月之行，若出其中；星汉灿烂，若出其里。",
+    "notes": [
+      {
+        "t": "碣石",
+        "e": "山名，在今河北昌黎北渤海边。"
+      },
+      {
+        "t": "澹澹",
+        "e": "dàn水波动荡浩渺貌。"
+      },
+      {
+        "t": "竦峙",
+        "e": "sǒng zhì高耸挺立。"
+      },
+      {
+        "t": "星汉",
+        "e": "银河。"
+      },
+      {
+        "t": "幸甚至哉",
+        "e": "合乐套语，与正文无直接关系。"
+      }
+    ],
+    "zh": [
+      "东行登上碣石山，眺望苍茫大海。海水浩荡山岛高耸，树木丛生百草丰茂。",
+      "秋风飒飒掀起万丈洪波。日月仿佛从海中涌出，银河也像从大海升起。真是庆幸极了，以这首歌咏我心志。"
+    ],
+    "en": [
+      "Eastward I climb to Rocky Hill to gaze upon the sea.",
+      "The waters roll in boundless expanse, isles rise tall and steep.",
+      "Trees cluster thick, grasses grow lush and green.",
+      "Autumn wind blows shrill, heaving up great waves.",
+      "Sun and moon in their course seem to emerge from within these waters;",
+      "The Milky Way with glittering stars as from its bosom seems to rise.",
+      "How great my joy! I sing to voice my heart's desire."
+    ],
+    "struct": {
+      "qi": "起：登临碣石观海",
+      "cheng": "承：近景山岛草木",
+      "zhuan": "转：秋风洪波引出吞吐日月想象",
+      "he": "合：以大海吞吐星汉喻胸襟，歌以咏志"
+    },
+    "appr": "中国现存最早的完整山水诗。通篇写景而句句是胸襟写照。「日月之行，若出其中；星汉灿烂，若出其里」，大海吞吐宇宙的气象，正是曹操作为一代雄主囊括四海的胸襟象征。纯用白描，无一字直接抒情，壮志豪情尽在其中。",
+    "bg": "建安十二年（207年）北征乌桓得胜回师经碣石山作，时年五十三岁。",
+    "year": 207
+  },
+  "CaoZhi_LuoShenFu": {
+    "id": "CaoZhi_LuoShenFu",
+    "title": "洛神赋",
+    "author": "曹植",
+    "era": "三国魏",
+    "genre": "赋",
+    "theme": "深情婉约",
+    "lines": [
+      "黄初三年，余朝京师，还济洛川。",
+      "其形也，翩若惊鸿，婉若游龙。",
+      "荣曜秋菊，华茂春松。",
+      "仿佛兮若轻云之蔽月，飘飖兮若流风之回雪。",
+      "抗罗袂以掩涕兮，泪流襟之浪浪。",
+      "悼良会之永绝兮，哀一逝而异乡。"
+    ],
+    "famous": "翩若惊鸿，婉若游龙。荣曜秋菊，华茂春松。",
+    "notes": [
+      {
+        "t": "洛神",
+        "e": "传说宓羲之女宓妃，溺于洛水为神。"
+      },
+      {
+        "t": "翩若惊鸿",
+        "e": "体态轻盈如惊飞鸿雁。"
+      },
+      {
+        "t": "婉若游龙",
+        "e": "身姿柔美如游龙。"
+      },
+      {
+        "t": "抗罗袂",
+        "e": "举罗袖掩面而泣。"
+      }
+    ],
+    "zh": [
+      "黄初三年我从京城返回封地，渡洛水时遇见洛水女神。她轻盈如惊鸿，婉曲如游龙；光彩胜秋菊，华美如春松；若隐若现如轻云遮月，轻盈如流风回雪。",
+      "我向她表达爱慕，然而人神道殊不能结合。她举袖掩面哭泣，泪流滚滚，可叹美好相会永远断绝，她将消失在远方烟波。我脚步前行心神停留，回望洛神满怀惆怅。"
+    ],
+    "en": [
+      "Returning from court I crossed the Luo and there beheld the Goddess Fu-fei.",
+      "Her grace was like a startled swan in flight, supple as a gliding dragon.",
+      "Her radiance outshone autumn chrysanthemums, her bloom excelled spring pines.",
+      "Like the moon through light clouds, like whirling snow on the breeze.",
+      "She raised her sleeve to hide her tears, which streamed down and soaked her collar,",
+      "Grieving that our happy meeting was ended forever, that she must depart to a far realm."
+    ],
+    "struct": {
+      "qi": "起：归藩途中洛水遇神女",
+      "cheng": "承：以惊鸿游龙等妙喻写洛神之美",
+      "zhuan": "转：互致情意但人神殊途",
+      "he": "合：洛神含泪诀别，诗人抱恨惆怅"
+    },
+    "appr": "建安抒情小赋巅峰之作。「翩若惊鸿，婉若游龙」成为千古形容女性美的最高范式。表层写人神恋爱终不能合的惆怅，实则寄托与兄曹丕君臣不偶、政治理想落空的苦闷。华赡不淫靡，哀怨不颓丧。",
+    "bg": "黄初三年（222年）曹植被贬鄄城王，朝觐归藩途经洛水感宋玉《神女赋》而作，时年31岁。",
+    "year": 222
+  }
+}

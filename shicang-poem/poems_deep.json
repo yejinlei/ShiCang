@@ -1,0 +1,746 @@
+{
+  "QuYuan_LiSao": {
+    "notes": [
+      {
+        "term": "离骚",
+        "exp": "遭受忧患；一说为告别忧愁，或楚地古曲名。"
+      },
+      {
+        "term": "朕",
+        "exp": "先秦时人人可用为自称，至秦始皇始定为皇帝专称。"
+      },
+      {
+        "term": "正则/灵均",
+        "exp": "屈原之名与字：正则为名平之义，灵均为字原之义。"
+      },
+      {
+        "term": "扈江离与辟芷",
+        "exp": "扈，披服；江离、辟芷皆香草，象征高洁品德。"
+      },
+      {
+        "term": "汩",
+        "exp": "读作yù，水流急速貌，此指时光飞逝。"
+      },
+      {
+        "term": "謇",
+        "exp": "jiǎn，楚语发语词，亦含忠贞直言之意。"
+      },
+      {
+        "term": "灵修",
+        "exp": "指楚怀王，以神灵美人喻君王。"
+      },
+      {
+        "term": "彭咸",
+        "exp": "殷代贤大夫，谏君不听投水而死，屈原自许效法之先贤。"
+      }
+    ],
+    "vernacular": [
+      "我是古帝高阳氏的后裔，先父名为伯庸。摄提那年正当孟陬之月，庚寅之日我降生。父亲观我初降的气度，赐我以美名：名为正则，字为灵均。",
+      "我既有此内在的美质，又重之以修能。身披江离与辟芷，纫结秋兰以为佩环。时光如流水不及等待，岁月不把人相饶。草木零落美人迟暮，何不改乎此度？乘骐骥以驰骋，来吾导夫先路！",
+      "昔三后之纯粹，众芳所在。彼尧舜之耿介，既遵道而得路。何桀纣之猖披，夫唯捷径以窘步。岂余身之惮殃，恐皇舆之败绩。余固知謇謇之为患，忍而不能舍也。指九天以为正，夫唯灵修之故也。",
+      "长太息以掩涕兮，哀民生之多艰。亦余心之所善兮，虽九死其犹未悔。路漫漫其修远兮，吾将上下而求索。国无人莫我知兮，又何怀乎故都？既莫足与为美政兮，吾将从彭咸之所居！"
+    ],
+    "english": [
+      "A descendant of Emperor Gao-yang am I, / My honored father Bo-yong by name. / When She-ti pointed to the first month, / On the day Geng-yin I came into being. / He weighed my bearing at my birth, / Then bestowed on me auspicious names: / 'Zheng-ze' the righteous was my given name, / 'Ling-jun' the balanced was my courtesy name.",
+      "Endowed with inborn grace and worth, / I added to it skill in cultivating virtue. / I clad myself in river rue and angelica rare, / Twining autumn orchids for my girdle pendant. / The river of time flows swiftly, nor waits for man, / The years fleet by, nor tarry for any. / When herbs and trees shed their leaves and fall, / The fair one's beauty too must fade. / Why then not change this erring course? / Mount the swift steed and gallop forth! / Come, I will lead the way before you!",
+      "Gone are the three sage kings of perfect virtue, / Wherein all fragrant blossoms gathered. / How glorious were Yao and Shun, / Who kept the straight path and found the way! / How reckless were Jie and Zhou, / Who walked dark bypaths to their own ruin! / Not that I shrink from personal disaster, / But fear the royal chariot's overthrow. / Full well I knew blunt speech would bring me woe, / Yet I endured it and could not desist. / I point to the nine heavens to bear me witness, / It was all for my Divine One's sake alone.",
+      "Long did I sigh and wipe away my tears, / Mourning that the people's lot should be so hard. / Since my heart holds this to be the good, / Though I die nine deaths I shall never regret. / The road ahead is long and stretches far, / I shall search high and low for the truth I seek. / Since no man in the state understands me, / Why should I yearn for my native capital? / Since none will join to work fair government, / I will go to join Peng-xian in his dwelling place!"
+    ],
+    "structure": {
+      "qi": "起：叙家世出身、名字由来，自陈禀赋之美",
+      "cheng": "承：修身进德、惜时进取，欲导君于正道",
+      "zhuan": "转：痛斥党人误国、君王不察，抒发忠而见疑的悲愤",
+      "he": "合：表白九死不悔之志，终归于上下求索、以身殉道"
+    },
+    "appreciation": "《离骚》是中国文学史上最伟大的政治抒情长诗，373句、2490字，开创了「香草美人」的比兴传统。屈原以一己之忠贞，对抗整个朝堂的腐朽，其情感之浓烈、人格之高洁、境界之博大，震古烁今。篇中三次飞升求女的浪漫想象，与最后「从彭咸之所居」的决绝选择，构成了中国知识分子「知其不可而为之」的精神原型。「路漫漫其修远兮，吾将上下而求索」「亦余心之所善兮，虽九死其犹未悔」，两千年来已成为民族精神的座右铭。",
+    "background": "约作于楚怀王后期（前300年前后），屈原遭上官大夫谗毁被疏，去左徒之位，政治理想破灭。时年约四十余岁。诗人以自叙身世、陈述政治理想、抒发忠而被谤的悲愤、最后表示宁死不悔的决心，成此千古绝唱。"
+  },
+  "QuYuan_JiuGe_JiangJun": {
+    "notes": [
+      {
+        "term": "国殇",
+        "exp": "为国牺牲的战士，殇指未成年而死或在外战死。"
+      },
+      {
+        "term": "操吴戈",
+        "exp": "吴戈，吴地所产良戈；被犀甲，披犀牛皮甲。"
+      },
+      {
+        "term": "错毂",
+        "exp": "敌我战车车轮交错，短兵相接。"
+      },
+      {
+        "term": "凌余阵",
+        "exp": "敌人侵犯我军阵地。"
+      },
+      {
+        "term": "絷",
+        "exp": "zhí，绊住。"
+      },
+      {
+        "term": "怼",
+        "exp": "duì，怨恨。"
+      },
+      {
+        "term": "神以灵",
+        "exp": "神灵显赫，指英灵不泯。"
+      }
+    ],
+    "vernacular": [
+      "手持吴戈身披犀甲，敌我车轮交错短兵相接。旌旗蔽日敌阵如云，箭矢交坠战士争先。敌军冲犯我军行列，左骖战死右骖刀伤。车轮深陷绊住四马，主帅仍击鼓进攻。天时怨恨威灵怒，将士捐躯尸横原野。",
+      "战士出征便不再归还，平原茫茫路途遥远。腰佩长剑怀抱秦弓，身首分离忠心不改。既已勇敢又尚威武，始终刚强不可凌犯。身虽战死精神永存，魂魄毅烈为鬼中英雄！"
+    ],
+    "english": [
+      "With Wu-ge halberd in hand, clad in rhino hide, / Our chariot wheels clash where the foes abide. / Banners blot the sun as foemen come like clouds, / Arrows fall like rain while warriors advance in crowds. / They pierce our lines and break into our ranks, / The left horse falls, the right one gashed on flanks. / Wheels bogged down, the team caught fast in mud, / The chief still beats his drum of battle blood. / Heaven itself turns wrathful at the sight, / Our brave ones fall, their bodies strewn in fight.",
+      "They went forth knowing they would not return, / The plain stretches far, the home road lost. / Long swords at waist, Qin bows in hand they grasp, / Though heads from bodies part, their hearts hold fast. / Valiant they were and martial to the end, / Unflinching still no foe could ever bend. / Their bodies slain yet their spirits remain, / Their valiant souls are heroes 'mid the slain!"
+    ],
+    "structure": {
+      "qi": "起：白描战场惨酷，短兵相接的厮杀场面",
+      "cheng": "承：主将陷阵、击鼓不退，战斗白热化",
+      "zhuan": "转：战局悲壮，将士壮烈殉国",
+      "he": "合：礼赞死难将士忠魂毅魄，为鬼中雄杰"
+    },
+    "appreciation": "《国殇》是中国文学史上第一首专门礼赞为国捐躯将士的祭歌。全诗风格刚健悲壮，一反《九歌》其他篇章的缠绵悱恻。开篇「操吴戈兮被犀甲」如铜琶铁板，直写战场短兵相接；结尾「身既死兮神以灵，子魂魄兮为鬼雄」掷地有声，是对卫国将士最高的礼赞。通篇无悲戚之语、无儿女之情，只有铁马金戈的壮烈与虽死犹生的豪气。",
+    "background": "战国末期秦楚争雄，楚军多次大败于秦，死伤惨重。屈原在郢都祭典中，为悼念阵亡将士作此篇，寄托对爱国忠魂的崇敬。约作于楚怀王十七年（前312年）丹阳、蓝田之败后。"
+  },
+  "CaoCao_DuanGeXing": {
+    "notes": [
+      {
+        "term": "对酒当歌",
+        "exp": "当：对着；意即面对酒筵与歌舞。"
+      },
+      {
+        "term": "去日苦多",
+        "exp": "逝去的日子苦于太多，喻人生短促。"
+      },
+      {
+        "term": "青青子衿",
+        "exp": "引用《诗经·郑风·子衿》，代指思念的贤才。"
+      },
+      {
+        "term": "鼓瑟吹笙",
+        "exp": "用《诗经·小雅·鹿鸣》成句，表达礼遇贤士。"
+      },
+      {
+        "term": "明明如月",
+        "exp": "以明月比喻贤才皎洁难得。"
+      },
+      {
+        "term": "三匝",
+        "exp": "匝，周；绕树三匝，喻贤士择主而事。"
+      },
+      {
+        "term": "周公吐哺",
+        "exp": "周公为接贤士，一饭三吐哺，恐失天下之士。"
+      }
+    ],
+    "vernacular": [
+      "对酒当歌，人生几何？譬如朝露，去日苦多。慨当以慷，忧思难忘。何以解忧？唯有杜康。",
+      "青青子衿，悠悠我心。但为君故，沉吟至今。呦呦鹿鸣，食野之苹。我有嘉宾，鼓瑟吹笙。",
+      "明明如月，何时可掇？忧从中来，不可断绝。越陌度阡，枉用相存。契阔谈宴，心念旧恩。",
+      "月明星稀，乌鹊南飞。绕树三匝，何枝可依？山不厌高，海不厌深。周公吐哺，天下归心。"
+    ],
+    "english": [
+      "Before wine and song, how long is life? / Like morning dew it passes by, / The days already gone are many, the griefs run deep. / Sing we then with ardor high, / Yet anxious thoughts can never be forgot. / What can loose such heavy care? / Naught but Du-kang's wine, I wis.",
+      "You in blue-collared scholar gown, / Your memory lingers in my heart. / It is for your sake, gentlemen, / That I have pondered and sighed till now. / The deer call softly to each other, / As they graze upon the wild artemisia. / When I have honored guests around, / I strike the se and blow the sheng.",
+      "Bright as the moon overhead, / When shall I catch its radiant glow? / Sorrow rises from my inmost heart, / A stream that never will be stemmed. / Friends cross the fields on winding paths, / Deigning to visit me from far. / After long parting we feast and talk, / Remembering all old kindnesses.",
+      "The moon shines bright, the stars are sparse, / The magpies fly south through the night. / They circle thrice around the tree, / On which branch may they find their rest? / A mountain does not spurn high earth, / The sea does not scorn deepest streams. / The Duke of Zhou spat out his meal to welcome worthies, / Till all the world's hearts turned to him."
+    ],
+    "structure": {
+      "qi": "起：对酒当歌，叹人生苦短",
+      "cheng": "承：引《诗经》成句，表思贤若渴",
+      "zhuan": "转：明月之忧、嘉宾之会，心情起伏",
+      "he": "合：以山高海深、周公吐哺作结，吐露收天下贤才、统一天下的雄心"
+    },
+    "appreciation": "这是建安文学最具代表性的政治家诗。曹操以一代雄主之姿，先叹人生如露，看似消沉；中间反复沉吟对贤才的思慕；结尾却以「周公吐哺，天下归心」八字翻起，气魄吞天。全诗苍凉慷慨、跌宕悲凉，酒、月、星、乌鹊四组意象交织，将时间焦虑与政治抱负、个人哀乐与天下大业熔于一炉。鲁迅称曹操为「改造文章的祖师」，此诗足以当之。",
+    "background": "作于建安十三年（208年）赤壁之战前夕，曹操已平定北方，进位丞相，率大军南下欲一统天下。于军中宴饮，横槊赋诗，抒发求贤建业之志。一说作于建安十五年（210年）前后求贤令发布时期。"
+  },
+  "CaoCao_GuanCangHai": {
+    "notes": [
+      {
+        "term": "碣石",
+        "exp": "山名，在今河北昌黎北渤海边。"
+      },
+      {
+        "term": "澹澹",
+        "exp": "水波动荡貌。"
+      },
+      {
+        "term": "竦峙",
+        "exp": "竦同耸，高耸挺立。"
+      },
+      {
+        "term": "萧瑟",
+        "exp": "秋风吹拂草木之声。"
+      },
+      {
+        "term": "星汉",
+        "exp": "银河。"
+      },
+      {
+        "term": "幸甚至哉",
+        "exp": "合乐时所加套语，与正文无关。"
+      }
+    ],
+    "vernacular": [
+      "东行登上碣石山，来眺望苍茫大海。海水浩荡宽阔，山岛高耸屹立。树木丛生繁茂，百草丰美浓密。",
+      "秋风飒飒吹来，掀起万丈洪波。日月的运行，仿佛从这洪波中涌出；银河璀璨，也好像从大海里升腾而起。真是太庆幸了，以这首诗歌咏我的心志。"
+    ],
+    "english": [
+      "I climb up to the rocky heights of Jie-shi, / To gaze afar upon the mighty sea. / The waters roll in boundless expanse, / Where islands rise in proud majesty. / Trees cluster thick upon the slopes, / A hundred grasses grow in lush array.",
+      "The autumn wind blows sad and shrill, / Heaving up great billows surge and swell. / The sun and moon in their course, / Seem to emerge from these very waves; / The Milky Way with all its stars, / As from its bosom seems to rise. / How great my joy at such a sight! / I sing to give my heart's desire."
+    ],
+    "structure": {
+      "qi": "起：点题，登临碣石观海",
+      "cheng": "承：写近景——山岛、树木、百草",
+      "zhuan": "转：写远景——秋风洪波，引出日月星汉的壮阔想象",
+      "he": "合：吞吐日月、含孕群星，以壮阔海象喻胸次，歌以咏志"
+    },
+    "appreciation": "这是中国现存最早的完整山水诗。全诗通篇写景，却句句是诗人胸襟的写照。「日月之行，若出其中；星汉灿烂，若出其里」，是何等气魄！大海吞吐宇宙的景象，正是曹操作为一代雄主包举宇内、囊括四海的胸襟象征。全诗纯用白描，无一字抒情，而壮志豪情尽在其中，被称为建安风骨的典范。",
+    "background": "建安十二年（207年），曹操北征乌桓得胜回师，途经碣石山，登临望海时作。时年五十三岁，已统一北方大部，天下霸业初成，故诗中自有囊括四海之气概。"
+  },
+  "CaoZhi_LuoShenFu": {
+    "notes": [
+      {
+        "term": "洛神",
+        "exp": "传说宓羲之女宓妃，溺于洛水为神。"
+      },
+      {
+        "term": "黄初三年",
+        "exp": "公元222年，曹植赴洛阳朝觐后归藩途经洛水。"
+      },
+      {
+        "term": "翩若惊鸿",
+        "exp": "形容洛神体态轻盈，如惊飞之鸿雁。"
+      },
+      {
+        "term": "婉若游龙",
+        "exp": "身姿柔美如游动之蛟龙。"
+      },
+      {
+        "term": "荣曜秋菊",
+        "exp": "光彩照人胜秋菊，华茂比春松。"
+      },
+      {
+        "term": "明眸善睐",
+        "exp": "明亮的眼珠善于顾盼传情。"
+      },
+      {
+        "term": "抗罗袂以掩涕",
+        "exp": "举袖掩面哭泣，因神人相隔不能结合。"
+      }
+    ],
+    "vernacular": [
+      "黄初三年，我从京城返回封地，渡洛水时遇洛神。其人翩若惊鸿，婉若游龙，荣曜秋菊，华茂春松。仿佛若轻云蔽月，飘飖若流风回雪。",
+      "我向洛神表达爱慕，洛神也有情回应，然而人神道殊，不能结合。洛神举袖掩涕，恨相会永绝，最后凌波而去，消失在烟波之上。我抱着无尽眷恋，彻夜不眠，终不得不离去。"
+    ],
+    "english": [
+      "In the third year of Huang-chu, returning from court to my fief, I crossed the Luo River and there beheld the Goddess of Luo. Her grace was like a startled swan in flight, her suppleness like a gliding dragon. Her radiance outshone autumn chrysanthemums, her bloom excelled spring pines. Like a light cloud veiling the moon she seemed, like whirling snow borne on the breeze.",
+      "I declared my love to her, and she responded with tender feeling. Yet since the paths of mortal and spirit can never truly join, she raised her silken sleeve to hide her tears, grieving that our meeting must end forever. Then she glided away over the waves and vanished into the misty waves. I stood there sleepless through the night, filled with endless longing, till I had to depart."
+    ],
+    "structure": {
+      "qi": "起：归藩途中洛水畔遇神女",
+      "cheng": "承：细写洛神容貌姿态之美",
+      "zhuan": "转：互致情意但人神殊途",
+      "he": "合：洛神诀别而去，诗人抱恨东归"
+    },
+    "appreciation": "《洛神赋》是建安抒情小赋的最高峰。曹植以绚丽辞采塑造了中国文学史上最美的女神形象，「翩若惊鸿，婉若游龙」八字成为千古形容女子体态美的最高范式。赋表层是写人神恋爱、终不能合的惆怅，实则寄托了他与兄曹丕之间君臣不偶、理想落空的政治苦闷。全赋华赡而不淫靡，哀怨而不颓丧，是中国美学史上「香草美人」传统的一次完美展开。",
+    "background": "黄初三年（222年），曹植被贬为鄄城王，赴洛阳朝觐魏文帝曹丕后归藩，途经洛水时感宋玉《神女赋》而作。时年31岁。旧说为感念甄后而作，后世学者多疑其附会，然其政治失意之寄托确无可疑。"
+  },
+  "TaoYuanming_YinJiu": {
+    "notes": [
+      {
+        "term": "结庐",
+        "exp": "构筑房屋。"
+      },
+      {
+        "term": "人境",
+        "exp": "人世之间，尘俗社会。"
+      },
+      {
+        "term": "尔",
+        "exp": "如此。"
+      },
+      {
+        "term": "心远地自偏",
+        "exp": "心灵超远于尘俗，则所处之地自然僻静。"
+      },
+      {
+        "term": "日夕",
+        "exp": "傍晚。"
+      },
+      {
+        "term": "相与还",
+        "exp": "结伴归巢。"
+      },
+      {
+        "term": "真意",
+        "exp": "自然真趣，人生真谛。"
+      },
+      {
+        "term": "忘言",
+        "exp": "《庄子·外物》：「言者所以在意，得意而忘言」。"
+      }
+    ],
+    "vernacular": [
+      "我在人境之间筑庐居住，却没有车马尘俗的喧嚣。问你怎能做到这样？心灵超远，所处之地自然偏僻。",
+      "在东篱下采摘菊花，悠然抬头看见南山。山间云气傍晚时格外美好，飞鸟结伴而归。这里面有人生的真意，想要辩说却忘记了言语。"
+    ],
+    "english": [
+      "Among the haunts of men I built my hut, / Yet from the noise of horse and cart I'm free. / You ask me how on earth this can be? / When the heart is far, the place grows still of itself.",
+      "I pick chrysanthemums by the eastern fence, / And gaze upon the southern mountain in peace. / The mountain air is lovely at dusk, / As the birds fly home together. / In all this there lies a truth of life, / I would explain it, but the words slip away."
+    ],
+    "structure": {
+      "qi": "起：结庐人境而无车马喧，设下悬念",
+      "cheng": "承：「心远地自偏」点出主旨——心静则境静",
+      "zhuan": "转：采菊东篱、悠然见南山，意境忽开",
+      "he": "合：山气飞鸟、真意忘言，归于物我两忘"
+    },
+    "appreciation": "「悠然见南山」的「见」字，是全诗之眼——不是刻意去望，而是采菊抬头之间，南山自入眼帘。这一无心之遇，正是物我两忘的最高境界。王国维《人间词话》以「无我之境」推此句为千古第一。全诗平淡自然，无一字奇崛，却把中国文人「心远」哲学讲透了。苏东坡评：「因采菊而见山，境与意会，此句最有妙处。」",
+    "background": "作于晋安帝义熙二年（406年），陶渊明辞官归田第二年，时年四十二岁。《饮酒》组诗共二十首，此为第五首，是其田园诗代表作。"
+  },
+  "TaoYuanming_GuiQuLaiXi": {
+    "notes": [
+      {
+        "term": "归去来兮",
+        "exp": "即归去，「来」「兮」皆为语助词。"
+      },
+      {
+        "term": "奚惆怅",
+        "exp": "何悲愁。"
+      },
+      {
+        "term": "谏",
+        "exp": "挽回，纠正。"
+      },
+      {
+        "term": "飏",
+        "exp": "yáng，飞扬，飘扬。"
+      },
+      {
+        "term": "衡宇",
+        "exp": "横木为门的简陋屋宇，指自家。"
+      },
+      {
+        "term": "容膝",
+        "exp": "仅容双膝，言室之小。"
+      },
+      {
+        "term": "遑遑",
+        "exp": "心神不安貌。"
+      },
+      {
+        "term": "聊乘化以归尽",
+        "exp": "姑且顺应造化走向生命尽头。"
+      }
+    ],
+    "vernacular": [
+      "回去吧！田园将要荒芜了，为什么还不归去？既然自己的心志已为形体所役使，又为何惆怅而独悲？觉悟到过去的已经不可挽回，知道未来的还可以追寻。确实是迷途未远，我已经明白今是昨非。",
+      "小船轻快地飘荡，风儿吹动我的衣裳。问行人前面的路程，恨晨光尚微茫。终于望见了自家的门庭，我欣喜地奔跑过去。僮仆前来欢迎，幼儿候在门口。",
+      "回去吧！让我断绝与世俗的交游。既然世事与我相违，还驾车出游寻求什么？乐于亲戚间的知心话语，以弹琴读书消除忧愁。农夫告诉我春天到了，将要到西边的田里耕作。",
+      "算了吧！寄身天地间还能有多久？何不放下心来听从命运安排？为什么遑遑不安要去哪里？富贵不是我的心愿，仙境又不可期望。爱惜这美好的时光独自前往，或放下手杖除草培苗。登上东边的高岗放声呼啸，面对清澈的流水赋诗。姑且顺应造化度过一生，乐天知命，还有什么可疑虑的呢？"
+    ],
+    "english": [
+      "Come away home! / My fields and garden will be overgrown with weeds—why do I not return? / Since I allowed my heart to be enslaved by my body, / Why should I grieve and mourn alone? / I know the past cannot be mended, / But the future still is mine to shape. / I have not wandered far astray, / I see now that today is right and yesterday wrong.",
+      "Lightly the boat dances on the waves, / The breeze flutters my robe. / I ask a traveler the road ahead, / Resenting that the morning light still is dim. / At last I spy my humble gate and roof, / I rush forward with joy. / The servants greet me gladly, / My youngest child waits at the door.",
+      "Come away home! / Let me break off all intercourse with the world. / Since the world and I cannot agree, / What use to drive about and seek? / I rejoice in honest words of kinsfolk, / I take my zither and books to drive away care. / The farmers tell me spring has come, / And I will go to tend the western fields.",
+      "Enough! / How long can a body stay between earth and sky? / Why not let the heart decide its own course? / Why rush, rushing—where would I go? / Wealth and rank are not my desire, / The immortals' realm I cannot hope to reach. / I'll walk alone when the day is fine, / Or plant my staff and pluck the weeds. / I'll climb the eastern hill and whistle loud, / Or face clear waters and compose a song. / So I will follow nature's course till the end, / Rejoicing in my fate without a doubt!"
+    ],
+    "structure": {
+      "qi": "起：高呼「归去来兮」，痛悟今是昨非",
+      "cheng": "承：归途舟行、抵家欣喜，写归乡之乐",
+      "zhuan": "转：息交绝游、琴书农耕，田园生活之适",
+      "he": "合：乘化归尽、乐天知命，归于顺化自然的人生哲学"
+    },
+    "appreciation": "《归去来兮辞》是中国文学史上最伟大的「归田宣言」。陶渊明不为五斗米折腰，四十一岁毅然辞去彭泽县令，在将归未归之时先写下此辞，以想象之笔预写归途与归家之乐。「悟已往之不谏，知来者之可追」化用楚狂接舆歌，是儒家「知错能改」的勇决；「聊乘化以归尽，乐夫天命复奚疑」则合儒道于一，是一种通达生死的坦然。欧阳修说：「晋无文章，惟陶渊明《归去来兮辞》一篇而已。」",
+    "background": "作于东晋安帝义熙元年（405年）冬，陶渊明辞去彭泽县令归田之际。任上仅八十余日，因不愿束带见督邮叹曰「吾不能为五斗米折腰，拳拳事乡里小人」，即日解绶去职，作此辞以明志。"
+  },
+  "TaoYuanming_TaoHuaYuan": {
+    "notes": [
+      {
+        "term": "太元",
+        "exp": "东晋孝武帝年号（376-396）。"
+      },
+      {
+        "term": "缘",
+        "exp": "沿着。"
+      },
+      {
+        "term": "落英缤纷",
+        "exp": "落花繁多杂乱。"
+      },
+      {
+        "term": "豁然开朗",
+        "exp": "由狭窄幽暗突然变得开阔明亮。"
+      },
+      {
+        "term": "黄发垂髫",
+        "exp": "老人与儿童。黄发指老人，垂髫指儿童。"
+      },
+      {
+        "term": "要",
+        "exp": "通「邀」，邀请。"
+      },
+      {
+        "term": "妻子",
+        "exp": "妻子儿女。"
+      },
+      {
+        "term": "遂迷",
+        "exp": "终于迷失。"
+      }
+    ],
+    "vernacular": [
+      "东晋太元年间，武陵有个捕鱼人，沿溪行船忘了路途远近，忽然遇到一片桃花林。溪水两岸数百步，中无杂树，芳草鲜美，落英缤纷，渔人很是惊异。继续往前，想走到桃林尽头。",
+      "桃林尽头正是溪水的源头，出现一座山，山上有个小洞口，仿佛有光。渔人离船从洞口进入。起初很狭窄，走了数十步后豁然开朗：土地平旷，屋舍俨然，有良田、美池、桑竹。田间小路交错相通，鸡犬之声相闻。人们往来耕种，男女衣着都像外人；老人孩童怡然自乐。",
+      "村人见到渔人大惊，问他从哪来。渔人一一回答。村人邀请他回家，设酒杀鸡做饭。村中说先世避秦乱，率妻儿乡邻来到这绝境，不再出去，与外人隔绝。不知有汉，更无论魏晋。渔人一一讲述所闻，他们都惊叹惋惜。",
+      "渔人住了几日辞去，沿路处处做标记。到郡城告诉太守，派人随他前往，却迷失方向再也找不到路。南阳刘子骥，是位高士，听说后欣然前往，不久病逝。后来就再也没有人问津了。"
+    ],
+    "english": [
+      "During the Tai-yuan era of Jin, a fisherman of Wu-ling, following a stream, forgot how far he had gone, when suddenly he came upon a grove of peach trees in bloom. For several hundred paces along both banks there were no other trees; fragrant grass grew fresh and fair, and fallen blossoms swirled in colorful profusion. The fisherman marveled greatly. He pressed on further, seeking the end of the grove.",
+      "The grove ended at the stream's source, where he found a hill with a small opening through which light seemed to shine. Leaving his boat, he entered the opening. At first it was very narrow, but after forty or fifty paces it opened out into a wide clear world. The land was level and open, houses neatly arranged, with fertile fields, fair ponds, mulberries and bamboos. Paths crisscrossed between the fields; cocks crowed and dogs barked to each other. People went about their farming, men and women dressed in the manner of outsiders; old folk and children alike were happy and content.",
+      "The villagers were astonished to see the fisherman and asked where he came from. He answered all their questions. They invited him to their homes, setting out wine, killing chickens, preparing meals. They said their ancestors, fleeing the disorders of Qin, had brought their families and neighbors to this inaccessible place and never gone out again, cutting themselves off from the world outside. They had not known of the Han, let alone Wei or Jin. The fisherman told them what he knew, and they sighed with wonder and regret.",
+      "After a few days the fisherman took his leave, and as he went he carefully marked the way. He went to the governor and told his story. The governor sent men with him, but they lost their way and could never find the road again. Liu Zi-ji of Nan-yang, a scholar of noble spirit, heard of it and set out with high hopes, but fell ill and died. After that, no one went to seek the way again."
+    ],
+    "structure": {
+      "qi": "起：武陵渔人沿溪偶逢桃林",
+      "cheng": "承：入洞发现世外桃源，村人盛情款待",
+      "zhuan": "转：自述避秦由来，不知有汉无论魏晋",
+      "he": "合：渔人辞归，再寻不得，桃花源成千古迷踪"
+    },
+    "appreciation": "《桃花源记》描绘了一个没有剥削、没有战乱、人人劳作、老幼怡然的理想社会，是中国版的「乌托邦」。陶渊明以洗练优美的散文笔法，写一个真实可感的世外桃源，最后又让它「遂迷不复得路」，留下永远的怅惘。这个理想国的核心是「避秦」——躲避暴政，与道家「小国寡民」和儒家「大同」理想遥相呼应。全文三百余字，是中国散文的神品，「世外桃源」已成为中华理想世界的代称。",
+    "background": "约作于南朝宋永初二年（421年），陶渊明五十七岁，晚年躬耕贫病之时。时晋宋易代，战乱频仍，诗人虚构桃花源寄托对理想社会的向往。"
+  },
+  "XieLingyun_DengChiShangLou": {
+    "notes": [
+      {
+        "term": "池上楼",
+        "exp": "在永嘉郡（今浙江温州）西北的池上楼，谢灵运任永嘉太守时所建。"
+      },
+      {
+        "term": "潜虬",
+        "exp": "深渊中的虬龙，喻隐居之士。"
+      },
+      {
+        "term": "飞鸿",
+        "exp": "高飞的鸿雁，喻仕进得志者。"
+      },
+      {
+        "term": "薄霄愧云浮",
+        "exp": "面对飞鸿冲天，惭愧自己不能高飞。"
+      },
+      {
+        "term": "祁祁伤豳歌",
+        "exp": "《诗经·豳风·七月》「春日迟迟，采蘩祁祁」，见春草而思归。"
+      },
+      {
+        "term": "萋萋感楚吟",
+        "exp": "《楚辞·招隐士》「王孙游兮不归，春草生兮萋萋」。"
+      },
+      {
+        "term": "池塘生春草",
+        "exp": "谢灵运自谓得自神助的名句。"
+      }
+    ],
+    "vernacular": [
+      "潜龙深藏姿态自珍，飞鸿高音响彻云天。我既不能像飞鸿般进取，也愧对潜龙的隐栖。仕途困顿才智难以施展，贬到海滨做这个地方官。",
+      "面对着春景只觉久病初起，掀开帷幔暂且临窗远眺。侧耳倾听那水波之外的远山之响，举目眺望那高高山岭初阳。池塘边长出了春草，园中的柳树也变了鸣禽。"
+    ],
+    "english": [
+      "The hidden dragon cherishes its grace in depths, / The flying swan echoes far across the skies. / I can neither soar aloft like the bird, / Nor rival the dragon in its dark retreat. / My career is stalled, my talents wasted long, / Exiled to be a ruler by the sea.",
+      "Facing the spring I rise from lingering illness, / Throw open the curtains to lean upon the sill. / I listen for distant sounds beyond the waves, / And gaze at the high hills catching morning sun. / By the pond the spring grass has just sprung up, / Garden willows now hold different singing birds."
+    ],
+    "structure": {
+      "qi": "起：以潜虬、飞鸿起兴，进退两难的矛盾",
+      "cheng": "承：贬官永嘉，久病初起临窗远眺",
+      "zhuan": "转：视听由远及近，春景入眼",
+      "he": "合：「池塘生春草」自然天成，得之神助，成为千古名句"
+    },
+    "appreciation": "「池塘生春草，园柳变鸣禽」是中国山水诗的千古名句。谢灵运自称「此语有神助，非吾语也」。其妙在自然天成，无雕琢痕迹：久病初起的诗人，猛然发现池塘已生春草、园中柳上换了鸣禽——这一惊觉，恰恰写出了春天悄然降临的微妙，写出了诗人从抑郁中忽然被春意打动的瞬间。谢诗向以雕琢著称，此联却出以天然，遂成名篇。",
+    "background": "作于南朝宋景平元年（423年）春，谢灵运被贬为永嘉太守次年，在任所池上楼病起登眺时作。时年三十九岁，正处于政治失意、外放苦闷时期。"
+  },
+  "WangBo_TengWangGeXu": {
+    "notes": [
+      {
+        "term": "豫章故郡",
+        "exp": "滕王阁所在洪州，汉时称豫章郡，唐改称洪州。"
+      },
+      {
+        "term": "星分翼轸",
+        "exp": "按古代星宿分野，洪州属翼、轸二星分野。"
+      },
+      {
+        "term": "襟三江而带五湖",
+        "exp": "以三江为衣襟，以五湖为腰带，形容地势雄要。"
+      },
+      {
+        "term": "棨戟",
+        "exp": "qǐjǐ，古代官员出行时前导的仪仗。"
+      },
+      {
+        "term": "潦水",
+        "exp": "lǎo，雨后积水。"
+      },
+      {
+        "term": "骖騑",
+        "exp": "cān fēi，车两旁的马，代指车马。"
+      },
+      {
+        "term": "彭蠡",
+        "exp": "鄱阳湖古称。"
+      },
+      {
+        "term": "衡阳之浦",
+        "exp": "衡阳衡山有回雁峰，雁至此北还。"
+      },
+      {
+        "term": "邺水朱华",
+        "exp": "曹植在邺都写「朱华冒绿池」，喻文采风流。"
+      },
+      {
+        "term": "奉宣室",
+        "exp": "指像贾谊那样被皇帝召见（汉文帝曾召见于宣室）。"
+      }
+    ],
+    "vernacular": [
+      "这里是汉代的豫章旧郡，如今是洪州新府，对应天上翼轸二星，地接衡山庐山。以三江为襟、五湖为带，控荆楚引瓯越。物产华美天宝之光射牛斗，人杰地灵徐孺子能使陈蕃设榻。雄州雾列，俊采星驰。台隍枕夷夏之交，宾主尽东南之美。",
+      "时当九月，秋高气爽，路上积水已尽潭水寒凉，烟光凝暮山呈紫。上路访风景到崇山高丘，来到帝子昔日的长洲，得见仙人旧馆。层峦耸翠上出重霄，飞阁流丹下临无地。鹤汀凫渚回绕岛屿，桂殿兰宫随山岗起伏。",
+      "披开绣闼俯看雕甍，山原辽阔盈入眼底，川泽纡曲使人惊心。闾阎扑地，钟鸣鼎食之家；舸舰弥津，青雀黄龙之舳。云销雨霁，彩彻区明。落霞与孤鹜齐飞，秋水共长天一色。渔舟唱晚，响穷彭蠡之滨；雁阵惊寒，声断衡阳之浦。",
+      "唉！时运不齐，命途多舛。冯唐易老，李广难封。屈贾谊于长沙，非无圣主；窜梁鸿于海曲，岂乏明时？所赖君子见机，达人知命。老当益壮，宁移白首之心？穷且益坚，不坠青云之志。孟尝高洁，空怀报国之情；阮籍猖狂，岂效穷途之哭？",
+      "勃三尺微命，一介书生。无路请缨，等终军之弱冠；有怀投笔，慕宗悫之长风。……杨意不逢，抚凌云而自惜；钟期既遇，奏流水以何惭？",
+      "呜呼！胜地不常，盛筵难再。兰亭已矣，梓泽丘墟。临别赠言，幸承恩于伟饯；登高作赋，是所望于群公。敢竭鄙诚，恭疏短引。一言均赋，四韵俱成。请洒潘江，各倾陆海云尔。"
+    ],
+    "english": [
+      "It was the ancient commandery of Yu-zhang, now the prefecture of Hong-zhou, lying beneath the stars Yi and Zhen, and connecting Mount Heng with Mount Lu. Girdled by three rivers, clasped by five lakes, it controls Chu and draws Ou-yue. Its treasures are divine jewels, its light striking the Ox and Dipper; its people are heroes born of the land's spirit.",
+      "It was the ninth month, late autumn; rains had ceased and pools ran cold, mist congealed and hills turned purple. We drove along the high road seeking scenery, came to the former isle of the Prince, and saw his old pavilion. Layered ridges of emerald rose above the clouds, flying galleries of crimson looked down from the heights.",
+      "Opening embroidered doors, looking down on carved roofs, plains stretched wide before our eyes, rivers wound below to make one gasp. Mansions spread across the land, homes of bell-and-drum feasting; ships filled the ferries, their prows carved with blue birds and yellow dragons. The clouds dispersed, the rain had stopped, the sky shone clear.  **The sunset glow flies with the lone wild duck, the autumn waters merge into the endless sky.** Fishing boats sing at dusk, their songs reaching the shores of Po-li; the wild geese startle in the cold, their cries dying at Heng-yang's shore.",
+      "Alas! Fortune is fickle, and many a life runs amiss. Feng Tang grew old too soon, Li Guang never won his marquisate. Jia Yi was exiled to Chang-sha—not for want of a wise sovereign; Liang Hong fled to the coast—not in an age of darkness. But the gentleman perceives the times, the wise man accepts his fate. Old as one may grow, one should keep a youthful heart; hard-pressed as one may be, one must not abase one's lofty aspirations.",
+      "I am but a petty scholar of humble station. I had no opportunity to volunteer for service like Zhong Jun at twenty; yet I cherish the ambition to throw aside my pen and emulate Zong Que's great wind. If no Yang Yi recommends me, I stroke my cloudy poems in private; but since a Zhong Zi-qi has met me, I need feel no shame in playing the flowing waters.",
+      "Alas! Scenic spots remain not forever, grand feasts are hard to repeat. The Orchid Pavilion is no more, Zi-ze has turned to ruins. Taking leave, I offer these words at this great farewell; climbing high to compose is what I now look to you gentlemen to do. I have dared to bare my humble sincerity, respectfully composing this short preface. May each of you pour forth the rivers of your talent!"
+    ],
+    "structure": {
+      "qi": "起：叙洪州地理人文之盛、宾主之美",
+      "cheng": "承：写登临滕王阁所见秋景，层层铺陈，终至「落霞孤鹜」神来之笔",
+      "zhuan": "转：兴尽悲来，感慨命运多舛，引冯唐李广等古人自况",
+      "he": "合：自明心志，穷且益坚、不坠青云，以请众宾作赋作结"
+    },
+    "appreciation": "王勃以二十六岁的少年天才，在阎都督的宴席上即席挥毫，写下这篇「千古第一骈文」。通篇对仗精工、辞采华美，而最奇者在于气象：「落霞与孤鹜齐飞，秋水共长天一色」，把景写成画；「老当益壮，宁移白首之心；穷且益坚，不坠青云之志」，把志写成立天巨柱。少年意气与千古悲凉在文中交织，文采与风骨同茂。据《唐摭言》载，阎都督本拟让其婿宿构以夸客，闻王勃作初怒，闻「落霞」句乃矍然曰「天才也」。",
+    "background": "唐高宗上元二年（675年），王勃往交趾探父，途经洪州（今南昌），恰逢都督阎公于滕王阁大宴宾客，即席作此序。后王勃渡海溺水惊悸而亡，此文遂成绝笔，时年二十七岁。"
+  },
+  "WangBo_SongDuShaoFu": {
+    "notes": [
+      {
+        "term": "城阙",
+        "exp": "送杜少府之任蜀州中关键意象。"
+      },
+      {
+        "term": "五津",
+        "exp": "送杜少府之任蜀州中关键意象。"
+      },
+      {
+        "term": "宦游",
+        "exp": "送杜少府之任蜀州中关键意象。"
+      },
+      {
+        "term": "知己",
+        "exp": "送杜少府之任蜀州中关键意象。"
+      },
+      {
+        "term": "比邻",
+        "exp": "送杜少府之任蜀州中关键意象。"
+      },
+      {
+        "term": "歧路",
+        "exp": "送杜少府之任蜀州中关键意象。"
+      }
+    ],
+    "vernacular": [
+      "城阙辅三秦，风烟望五津。",
+      "与君离别意，同是宦游人。",
+      "海内存知己，天涯若比邻。",
+      "无为在歧路，儿女共沾巾。"
+    ],
+    "english": [
+      "The walled capital guards the three Qin lands, / Through wind and mist I gaze toward the five fords.",
+      "Between us, friends who part as fellow travelers, / Both of us are officials serving far from home.",
+      "A bosom friend within the four seas, / Remains a neighbor though at the world's end.",
+      "Do not at the crossroads act like weeping children, / Drenching handkerchiefs with tears of farewell."
+    ],
+    "structure": {
+      "qi": "起：点题起笔",
+      "cheng": "承：铺陈情景",
+      "zhuan": "转：情感深化",
+      "he": "合：点睛收束"
+    },
+    "appreciation": "这是送别诗中的千古名作。首联点送别之地与目的地，气象阔大；颔联以「同是宦游人」宽解对方，自见体贴；颈联「海内存知己，天涯若比邻」化用曹植「丈夫志四海，万里犹比邻」，变缠绵为豪迈，成为千古名句；尾联以「无为在歧路，儿女共沾巾」振起，劝友人不必效儿女情长。全诗一扫送别诗凄凉悲切之态，代之以旷达爽朗，是初唐气象的典型。",
+    "background": "作于高宗乾封年间（666—668年），王勃供职长安时送别一位赴蜀州任县尉的杜姓友人。时年约十七八岁。"
+  },
+  "ChenZiang_DengYouZhouTai": {
+    "notes": [
+      {
+        "term": "幽州台",
+        "exp": "登幽州台歌中关键意象。"
+      },
+      {
+        "term": "古人",
+        "exp": "登幽州台歌中关键意象。"
+      },
+      {
+        "term": "来者",
+        "exp": "登幽州台歌中关键意象。"
+      },
+      {
+        "term": "悠悠",
+        "exp": "登幽州台歌中关键意象。"
+      },
+      {
+        "term": "怆然",
+        "exp": "登幽州台歌中关键意象。"
+      }
+    ],
+    "vernacular": [
+      "前不见古人，后不见来者。",
+      "念天地之悠悠，独怆然而涕下！"
+    ],
+    "english": [
+      "Before me, I see not the ancients who came before, / After me, I see not those who will come after.",
+      "Thinking of the endlessness of heaven and earth, / Alone, in sorrowful tears, I pour out my grief."
+    ],
+    "structure": {
+      "qi": "起：点题起笔",
+      "cheng": "承：铺陈情景",
+      "zhuan": "转：情感深化",
+      "he": "合：点睛收束"
+    },
+    "appreciation": "全诗只有二十二字，却铸就了中国诗歌史上最孤独、最伟大的一个瞬间。诗人登蓟北楼，想到燕昭王与乐毅的君臣遇合已成绝响，而自己生不逢时、壮志难酬，不禁在无穷天地之间怆然涕下。「前」「后」是时间的无涯，「天地悠悠」是空间的无际，个体诗人在这无垠之间的孤独感，被压缩到极致，反而获得了最雄浑的力量。",
+    "background": "作于武后万岁通天元年（696年），陈子昂随建安王武攸宜征契丹，多次进谏不纳反遭贬谪，登蓟北楼（幽州台）有感而作。"
+  },
+  "HeZhizhang_HuiXiangOuShu": {
+    "notes": [
+      {
+        "term": "少小",
+        "exp": "回乡偶书中关键意象。"
+      },
+      {
+        "term": "老大",
+        "exp": "回乡偶书中关键意象。"
+      },
+      {
+        "term": "乡音",
+        "exp": "回乡偶书中关键意象。"
+      },
+      {
+        "term": "鬓毛",
+        "exp": "回乡偶书中关键意象。"
+      },
+      {
+        "term": "儿童",
+        "exp": "回乡偶书中关键意象。"
+      }
+    ],
+    "vernacular": [
+      "少小离家老大回，乡音无改鬓毛衰。",
+      "儿童相见不相识，笑问客从何处来。"
+    ],
+    "english": [
+      "I left home young, and return an old man, / My native accent unchanged, yet my hair turned gray.",
+      "Children see me and know me not, / Smiling, they ask: 'Guest, where do you come from?'"
+    ],
+    "structure": {
+      "qi": "起：点题起笔",
+      "cheng": "承：铺陈情景",
+      "zhuan": "转：情感深化",
+      "he": "合：点睛收束"
+    },
+    "appreciation": "离家数十载，归来已是白发老人，乡音未改而容颜全非。最妙在后两句：儿童天真的一句「客从何处来」，看似诙谐，实则饱含无尽沧桑——自己本是这里的主人，如今竟被当作客。笑是儿童的笑，悲是老者的悲，以喜剧之笔写悲剧之情，举重若轻，余味无穷。",
+    "background": "作于玄宗天宝三载（744年），贺知章八十六岁辞官还乡，距他离乡已逾半个世纪。作此诗后不久即辞世。"
+  },
+  "WangWei_JiuYueJiuRiYi": {
+    "notes": [
+      {
+        "term": "异乡",
+        "exp": "九月九日忆山东兄弟中关键意象。"
+      },
+      {
+        "term": "异客",
+        "exp": "九月九日忆山东兄弟中关键意象。"
+      },
+      {
+        "term": "佳节",
+        "exp": "九月九日忆山东兄弟中关键意象。"
+      },
+      {
+        "term": "茱萸",
+        "exp": "九月九日忆山东兄弟中关键意象。"
+      },
+      {
+        "term": "登高",
+        "exp": "九月九日忆山东兄弟中关键意象。"
+      }
+    ],
+    "vernacular": [
+      "独在异乡为异客，每逢佳节倍思亲。",
+      "遥知兄弟登高处，遍插茱萸少一人。"
+    ],
+    "english": [
+      "Alone, a stranger in a strange land, / On every festival I doubly miss my kin.",
+      "Afar I know where my brothers climb the heights, / Wearing dogwood sprigs—one missing from their number."
+    ],
+    "structure": {
+      "qi": "起：点题起笔",
+      "cheng": "承：铺陈情景",
+      "zhuan": "转：情感深化",
+      "he": "合：点睛收束"
+    },
+    "appreciation": "此诗写尽了千古游子思乡之情。首句两个「异」字叠出，把客居异乡的疏离感写到极致；「每逢佳节倍思亲」是人人心中所有、笔下所无的名句。后两句不写自己思兄弟，反写兄弟登高时「少一人」，从对面落笔，亲情加倍。全诗朴素到极处，真切到极处。",
+    "background": "作于玄宗开元三年（715年）前后，王维十七岁时漂泊洛阳、长安之间，重阳节思家而作。山东指华山以东，王维家乡蒲州在华山东。"
+  },
+  "MengHaoran_GuoGuRenZhuang": {
+    "notes": [
+      {
+        "term": "鸡黍",
+        "exp": "过故人庄中关键意象。"
+      },
+      {
+        "term": "田家",
+        "exp": "过故人庄中关键意象。"
+      },
+      {
+        "term": "场圃",
+        "exp": "过故人庄中关键意象。"
+      },
+      {
+        "term": "桑麻",
+        "exp": "过故人庄中关键意象。"
+      },
+      {
+        "term": "重阳",
+        "exp": "过故人庄中关键意象。"
+      },
+      {
+        "term": "菊花",
+        "exp": "过故人庄中关键意象。"
+      }
+    ],
+    "vernacular": [
+      "故人具鸡黍，邀我至田家。",
+      "绿树村边合，青山郭外斜。",
+      "开轩面场圃，把酒话桑麻。",
+      "待到重阳日，还来就菊花。"
+    ],
+    "english": [
+      "An old friend prepared chicken and millet, / And invited me to his farmstead home.",
+      "Green trees enclose the village, / Blue hills slant beyond the city walls.",
+      "Opening windows we face the threshing ground and garden, / Wine in hand, we talk of mulberry and hemp.",
+      "Wait till the Double Ninth comes again, / I'll return for your chrysanthemum wine."
+    ],
+    "structure": {
+      "qi": "起：点题起笔",
+      "cheng": "承：铺陈情景",
+      "zhuan": "转：情感深化",
+      "he": "合：点睛收束"
+    },
+    "appreciation": "一首写田园朋友之乐的极品。故人杀鸡作黍，简单而诚挚；绿树青山，开窗见场圃，把酒话桑麻——没有客套，没有应酬，只有农家本色与故人真情。结尾以「还来就菊花」预写后约，率真自然。沈德潜评：「通体清妙，末句『就』字作意，归于自然。」孟诗淡而不枯、清而不寒，此诗可见一斑。",
+    "background": "约作于开元年间，孟浩然隐居鹿门山时赴友人田庄之邀而作。"
+  }
+}

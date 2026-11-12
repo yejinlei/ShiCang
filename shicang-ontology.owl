@@ -26,7 +26,7 @@
     <owl:Ontology rdf:about="http://www.shicang.org/ontology">
         <rdfs:label>诗藏本体论 (ShiCang Ontology)</rdfs:label>
         <rdfs:comment>中国古典诗歌领域本体。以佛藏本体论七层架构为方法论参照，覆盖诗理、范畴、流派、典籍、人物、文化外延六大层面。资料来源：殆知阁诗藏 776 部（楚辞10 / 词话103 / 词集136 / 对联15 / 汉赋4 / 剧曲150 / 诗话210 / 诗集148）。</rdfs:comment>
-        <owl:versionInfo>1.0</owl:versionInfo>
+        <owl:versionInfo>2.1 名篇精读互动版</owl:versionInfo>
         <rdfs:seeAlso rdf:resource="http://www.shicang.org/ontology.html"/>
     </owl:Ontology>
 
@@ -4186,7 +4186,7 @@
         <shicang:rhymeScheme>押韵句：第1句</shicang:rhymeScheme>
         <shicang:rhymeLines>1</shicang:rhymeLines>
         <shicang:studyTheme>慷慨爱国</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/QuYuan_LiSao.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -4219,7 +4219,7 @@
         <shicang:rhymeScheme>押韵句：第1句</shicang:rhymeScheme>
         <shicang:rhymeLines>1</shicang:rhymeLines>
         <shicang:studyTheme>慷慨爱国</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/QuYuan_JiuGe_JiangJun.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -4254,7 +4254,7 @@
         <shicang:rhymeScheme>押韵句：第1句、第4句</shicang:rhymeScheme>
         <shicang:rhymeLines>1,4</shicang:rhymeLines>
         <shicang:studyTheme>悲慨沉郁</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/CaoCao_DuanGeXing.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -4287,7 +4287,7 @@
         <shicang:rhymeScheme>押韵句：第1句</shicang:rhymeScheme>
         <shicang:rhymeLines>1</shicang:rhymeLines>
         <shicang:studyTheme>豪放壮阔</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/CaoCao_GuanCangHai.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -4322,7 +4322,7 @@
         <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
         <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
         <shicang:studyTheme>深情婉约</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/CaoZhi_LuoShenFu.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -4356,7 +4356,7 @@
         <shicang:rhymeScheme>二、四句押韵（abcb 型）</shicang:rhymeScheme>
         <shicang:rhymeLines>2,4</shicang:rhymeLines>
         <shicang:studyTheme>恬淡闲适</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/TaoYuanming_YinJiu.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -4390,7 +4390,7 @@
         <shicang:rhymeScheme>押韵句：第1句、第2句</shicang:rhymeScheme>
         <shicang:rhymeLines>1,2</shicang:rhymeLines>
         <shicang:studyTheme>恬淡闲适</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/TaoYuanming_GuiQuLaiXi.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -4423,7 +4423,7 @@
         <shicang:rhymeScheme>押韵句：第1句</shicang:rhymeScheme>
         <shicang:rhymeLines>1</shicang:rhymeLines>
         <shicang:studyTheme>旷达超脱</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/TaoYuanming_TaoHuaYuan.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -4455,7 +4455,7 @@
         <shicang:rhymeScheme>押韵句：第1句</shicang:rhymeScheme>
         <shicang:rhymeLines>1</shicang:rhymeLines>
         <shicang:studyTheme>恬淡闲适</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/XieLingyun_DengChiShangLou.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -4494,7 +4494,7 @@
         <shicang:rhymeScheme>押韵句：第1句</shicang:rhymeScheme>
         <shicang:rhymeLines>1</shicang:rhymeLines>
         <shicang:studyTheme>豪放壮阔</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/WangBo_TengWangGeXu.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -4527,7 +4527,7 @@
         <shicang:rhymeScheme>二、四句押韵（abcb 型）</shicang:rhymeScheme>
         <shicang:rhymeLines>2,4</shicang:rhymeLines>
         <shicang:studyTheme>旷达超脱</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/WangBo_SongDuShaoFu.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -4561,7 +4561,7 @@
         <shicang:rhymeScheme>二、四句押韵（abcb 型）</shicang:rhymeScheme>
         <shicang:rhymeLines>2,4</shicang:rhymeLines>
         <shicang:studyTheme>怀古沧桑</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/ChenZiang_DengYouZhouTai.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -4593,7 +4593,7 @@
         <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
         <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
         <shicang:studyTheme>怀古沧桑</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/HeZhizhang_HuiXiangOuShu.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -4705,7 +4705,7 @@
         <shicang:rhymeScheme>二、四句押韵（abcb 型）</shicang:rhymeScheme>
         <shicang:rhymeLines>2,4</shicang:rhymeLines>
         <shicang:studyTheme>旷达超脱</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/WangWei_JiuYueJiuRiYi.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -4778,7 +4778,7 @@
         <shicang:rhymeScheme>偶句押韵，一韵到底</shicang:rhymeScheme>
         <shicang:rhymeLines>2,4,6,8</shicang:rhymeLines>
         <shicang:studyTheme>恬淡闲适</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/MengHaoran_GuoGuRenZhuang.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -4815,7 +4815,7 @@
         <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
         <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
         <shicang:studyTheme>豪放壮阔</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/LiBai_JiangJinJiu.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -4851,7 +4851,7 @@
         <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
         <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
         <shicang:studyTheme>豪放壮阔</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/LiBai_ShuDaoNan.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -4918,7 +4918,7 @@
         <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
         <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
         <shicang:studyTheme>恬淡闲适</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/LiBai_WangLuShanPuBu.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -4954,7 +4954,7 @@
         <shicang:rhymeScheme>押韵句：第1句</shicang:rhymeScheme>
         <shicang:rhymeLines>1</shicang:rhymeLines>
         <shicang:studyTheme>豪放壮阔</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/LiBai_MengYouTianLao.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -4985,7 +4985,7 @@
         <shicang:rhymeScheme>押韵句：第1句</shicang:rhymeScheme>
         <shicang:rhymeLines>1</shicang:rhymeLines>
         <shicang:studyTheme>深情婉约</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/LiBai_ZengWangLun.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -5022,7 +5022,7 @@
         <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
         <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
         <shicang:studyTheme>深情婉约</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/LiBai_HuangHeLouSongMeng.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -5056,7 +5056,7 @@
         <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
         <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
         <shicang:studyTheme>豪放壮阔</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/GaoShi_BieDongDa.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -5092,7 +5092,7 @@
         <shicang:rhymeScheme>押韵句：第1句、第2句</shicang:rhymeScheme>
         <shicang:rhymeLines>1,2</shicang:rhymeLines>
         <shicang:studyTheme>豪放壮阔</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/CenShen_BaiXueGe.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -5128,7 +5128,7 @@
         <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
         <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
         <shicang:studyTheme>慷慨爱国</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/WangChangling_ChuSai.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -5164,7 +5164,7 @@
         <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
         <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
         <shicang:studyTheme>旷达超脱</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/WangChangling_FuRongLou.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -5239,7 +5239,7 @@
         <shicang:rhymeScheme>押韵句：第1句、第2句、第3句</shicang:rhymeScheme>
         <shicang:rhymeLines>1,2,3</shicang:rhymeLines>
         <shicang:studyTheme>悲慨沉郁</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/DuFu_MaoWuWeiQiuFeng.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -5317,7 +5317,7 @@
         <shicang:rhymeScheme>押韵句：第1句、第2句</shicang:rhymeScheme>
         <shicang:rhymeLines>1,2</shicang:rhymeLines>
         <shicang:studyTheme>悲慨沉郁</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/DuFu_SanLiSanBie.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -5354,7 +5354,7 @@
         <shicang:rhymeScheme>二、四句押韵（abcb 型）</shicang:rhymeScheme>
         <shicang:rhymeLines>2,4</shicang:rhymeLines>
         <shicang:studyTheme>深情婉约</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/BaiJuyi_ChangHenGe.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -5389,7 +5389,7 @@
         <shicang:rhymeScheme>押韵句：第1句</shicang:rhymeScheme>
         <shicang:rhymeLines>1</shicang:rhymeLines>
         <shicang:studyTheme>悲慨沉郁</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/BaiJuyi_PiPaXing.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -5423,7 +5423,7 @@
         <shicang:rhymeScheme>押韵句：第1句、第2句</shicang:rhymeScheme>
         <shicang:rhymeLines>1,2</shicang:rhymeLines>
         <shicang:studyTheme>悲慨沉郁</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/BaiJuyi_MaiTanWeng.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -5457,7 +5457,7 @@
         <shicang:rhymeScheme>二、四句押韵（abcb 型）</shicang:rhymeScheme>
         <shicang:rhymeLines>2,4</shicang:rhymeLines>
         <shicang:studyTheme>深情婉约</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/YuanZhen_LiSi.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -5495,7 +5495,7 @@
         <shicang:rhymeScheme>押韵句：第2句、第3句、第4句、第6句</shicang:rhymeScheme>
         <shicang:rhymeLines>2,3,4,6</shicang:rhymeLines>
         <shicang:studyTheme>旷达超脱</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/LiuYuxi_LouShiMing.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -5532,7 +5532,7 @@
         <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
         <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
         <shicang:studyTheme>怀古沧桑</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/LiuYuxi_WuYiXiang.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -5569,7 +5569,7 @@
         <shicang:rhymeScheme>二、四句押韵（abcb 型）</shicang:rhymeScheme>
         <shicang:rhymeLines>2,4</shicang:rhymeLines>
         <shicang:studyTheme>旷达超脱</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/LiuYuxi_ChouLeTian.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -5608,7 +5608,7 @@
         <shicang:rhymeScheme>押韵句：第1句、第2句</shicang:rhymeScheme>
         <shicang:rhymeLines>1,2</shicang:rhymeLines>
         <shicang:studyTheme>悲慨沉郁</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/LiHe_YanMenTaiShouXing.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -5642,7 +5642,7 @@
         <shicang:rhymeScheme>押韵句：第1句、第2句、第3句、第4句</shicang:rhymeScheme>
         <shicang:rhymeLines>1,2,3,4</shicang:rhymeLines>
         <shicang:studyTheme>怀古沧桑</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/DuMu_AFangGongFu.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -5676,7 +5676,7 @@
         <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
         <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
         <shicang:studyTheme>悲慨沉郁</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/DuMu_QingMing.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -5714,7 +5714,7 @@
         <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
         <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
         <shicang:studyTheme>慷慨爱国</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/DuMu_BoQinHuai.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -5751,7 +5751,7 @@
         <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
         <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
         <shicang:studyTheme>怀古沧桑</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/DuMu_ChiBi.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -5791,7 +5791,7 @@
         <shicang:rhymeScheme>押韵句：第1句、第2句、第4句、第6句</shicang:rhymeScheme>
         <shicang:rhymeLines>1,2,4,6</shicang:rhymeLines>
         <shicang:studyTheme>旷达超脱</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/LiShangyin_JinSe.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -5832,7 +5832,7 @@
         <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
         <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
         <shicang:studyTheme>深情婉约</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/LiShangyin_WuTi.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -5867,7 +5867,7 @@
         <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
         <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
         <shicang:studyTheme>深情婉约</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/LiShangyin_YeYuJiBei.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -5904,7 +5904,7 @@
         <shicang:rhymeScheme>押韵句：第3句、第4句</shicang:rhymeScheme>
         <shicang:rhymeLines>3,4</shicang:rhymeLines>
         <shicang:studyTheme>悲慨沉郁</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/LiYu_YuMeiRen.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -5940,7 +5940,7 @@
         <shicang:rhymeScheme>押韵句：第1句、第2句、第3句、第5句、第7句</shicang:rhymeScheme>
         <shicang:rhymeLines>1,2,3,5,7</shicang:rhymeLines>
         <shicang:studyTheme>旷达超脱</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/LiYu_LangTaoSha.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -5979,7 +5979,7 @@
         <shicang:rhymeScheme>押韵句：第1句、第2句、第3句、第4句、第5句、第6句、第7句</shicang:rhymeScheme>
         <shicang:rhymeLines>1,2,3,4,5,6,7</shicang:rhymeLines>
         <shicang:studyTheme>慷慨爱国</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/FanZhongyan_YuJiaAo.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -6017,7 +6017,7 @@
         <shicang:rhymeScheme>押韵句：第1句、第3句、第5句、第6句、第7句、第9句</shicang:rhymeScheme>
         <shicang:rhymeLines>1,3,5,6,7,9</shicang:rhymeLines>
         <shicang:studyTheme>深情婉约</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/LiuYong_YuLinLing.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -6054,7 +6054,7 @@
         <shicang:rhymeScheme>押韵句：第1句、第2句、第3句、第5句、第6句</shicang:rhymeScheme>
         <shicang:rhymeLines>1,2,3,5,6</shicang:rhymeLines>
         <shicang:studyTheme>悲慨沉郁</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/YanShu_HuanXiSha.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -6089,7 +6089,7 @@
         <shicang:rhymeScheme>押韵句：第2句、第3句、第4句</shicang:rhymeScheme>
         <shicang:rhymeLines>2,3,4</shicang:rhymeLines>
         <shicang:studyTheme>恬淡闲适</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/OuyangXiu_ZuiWengTingJi.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -6122,7 +6122,7 @@
         <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
         <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
         <shicang:studyTheme>旷达超脱</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/WangAnshi_BoChuanGuaZhou.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -6237,7 +6237,7 @@
         <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
         <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
         <shicang:studyTheme>恬淡闲适</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/SuShi_TiXiLinBi.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -6274,7 +6274,7 @@
         <shicang:rhymeScheme>押韵句：第1句、第2句、第5句、第8句</shicang:rhymeScheme>
         <shicang:rhymeLines>1,2,5,8</shicang:rhymeLines>
         <shicang:studyTheme>旷达超脱</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/SuShi_DingFengBo.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -6312,7 +6312,7 @@
         <shicang:rhymeScheme>押韵句：第1句、第3句、第5句、第7句、第9句</shicang:rhymeScheme>
         <shicang:rhymeLines>1,3,5,7,9</shicang:rhymeLines>
         <shicang:studyTheme>悲慨沉郁</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/LiQingzhao_ShengShengMan.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -6347,7 +6347,7 @@
         <shicang:rhymeScheme>押韵句：第1句、第2句、第4句、第5句、第6句、第7句</shicang:rhymeScheme>
         <shicang:rhymeLines>1,2,4,5,6,7</shicang:rhymeLines>
         <shicang:studyTheme>恬淡闲适</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/LiQingzhao_RuMengLing.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -6388,7 +6388,7 @@
         <shicang:rhymeScheme>押韵句：第1句、第2句、第3句、第4句、第7句</shicang:rhymeScheme>
         <shicang:rhymeLines>1,2,3,4,7</shicang:rhymeLines>
         <shicang:studyTheme>深情婉约</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/LiQingzhao_ZuiHuaYin.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -6421,7 +6421,7 @@
         <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
         <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
         <shicang:studyTheme>慷慨爱国</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/LuYou_ShiEr.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -6457,7 +6457,7 @@
         <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
         <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
         <shicang:studyTheme>恬淡闲适</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/LuYou_YouShanXiCun.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -6493,7 +6493,7 @@
         <shicang:rhymeScheme>押韵句：第4句、第5句、第7句、第8句、第10句、第11句</shicang:rhymeScheme>
         <shicang:rhymeLines>4,5,7,8,10,11</shicang:rhymeLines>
         <shicang:studyTheme>深情婉约</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/LuYou_ChaiTouFeng.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -6533,7 +6533,7 @@
         <shicang:rhymeScheme>押韵句：第1句、第2句、第3句、第6句、第7句、第9句</shicang:rhymeScheme>
         <shicang:rhymeLines>1,2,3,6,7,9</shicang:rhymeLines>
         <shicang:studyTheme>悲慨沉郁</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/XinQiji_QingYuAn.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -6573,7 +6573,7 @@
         <shicang:rhymeScheme>押韵句：第2句、第4句、第5句、第7句、第8句</shicang:rhymeScheme>
         <shicang:rhymeLines>2,4,5,7,8</shicang:rhymeLines>
         <shicang:studyTheme>慷慨爱国</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/XinQiji_PoZhenZi.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -6616,7 +6616,7 @@
         <shicang:rhymeScheme>押韵句：第2句、第5句、第7句、第9句</shicang:rhymeScheme>
         <shicang:rhymeLines>2,5,7,9</shicang:rhymeLines>
         <shicang:studyTheme>慷慨爱国</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/XinQiji_YongYuLe.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -6656,7 +6656,7 @@
         <shicang:rhymeScheme>押韵句：第3句、第5句、第8句、第10句、第12句</shicang:rhymeScheme>
         <shicang:rhymeLines>3,5,8,10,12</shicang:rhymeLines>
         <shicang:studyTheme>悲慨沉郁</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/JiangKui_YangZhouMan.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -6695,7 +6695,7 @@
         <shicang:rhymeScheme>首句入韵，逐偶句押韵，一韵到底</shicang:rhymeScheme>
         <shicang:rhymeLines>1,2,4,6,8</shicang:rhymeLines>
         <shicang:studyTheme>慷慨爱国</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/WenTianXian_GuoLingDingYang.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -6777,7 +6777,7 @@
         <shicang:rhymeScheme>押韵句：第1句、第2句、第3句、第6句、第7句、第9句、第11句</shicang:rhymeScheme>
         <shicang:rhymeLines>1,2,3,6,7,9,11</shicang:rhymeLines>
         <shicang:studyTheme>怀古沧桑</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/ZhangYanghao_ShanPoYang.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -6815,7 +6815,7 @@
         <shicang:rhymeScheme>押韵句：第1句、第2句、第4句、第5句、第6句、第8句</shicang:rhymeScheme>
         <shicang:rhymeLines>1,2,4,5,6,8</shicang:rhymeLines>
         <shicang:studyTheme>旷达超脱</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/TangYin_TaoHuaAnGe.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -6854,7 +6854,7 @@
         <shicang:rhymeScheme>押韵句：第2句、第3句、第5句、第7句、第8句、第10句</shicang:rhymeScheme>
         <shicang:rhymeLines>2,3,5,7,8,10</shicang:rhymeLines>
         <shicang:studyTheme>怀古沧桑</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/YangShen_LinJiangXian.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -6891,7 +6891,7 @@
         <shicang:rhymeScheme>押韵句：第1句、第4句、第5句、第6句、第8句</shicang:rhymeScheme>
         <shicang:rhymeLines>1,4,5,6,8</shicang:rhymeLines>
         <shicang:studyTheme>深情婉约</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/NalanXingde_MuLanHuaLing.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -6928,7 +6928,7 @@
         <shicang:rhymeScheme>押韵句：第1句、第2句、第3句、第4句、第5句、第6句、第7句、第8句</shicang:rhymeScheme>
         <shicang:rhymeLines>1,2,3,4,5,6,7,8</shicang:rhymeLines>
         <shicang:studyTheme>悲慨沉郁</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/NalanXingde_ChangXiangSi.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -6988,7 +6988,7 @@
         <shicang:rhymeScheme>押韵句：第1句</shicang:rhymeScheme>
         <shicang:rhymeLines>1</shicang:rhymeLines>
         <shicang:studyTheme>旷达超脱</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/YuanMei_CangShanShiHua.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -7022,7 +7022,7 @@
         <shicang:rhymeScheme>押韵句：第1句、第2句</shicang:rhymeScheme>
         <shicang:rhymeLines>1,2</shicang:rhymeLines>
         <shicang:studyTheme>深情婉约</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/CaoXueqin_HongLouMeng.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -7092,7 +7092,7 @@
         <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
         <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
         <shicang:studyTheme>慷慨爱国</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/GongZizhen_YiHaiZaShi_220.html</shicang:studyPage>
     </owl:NamedIndividual>
 
@@ -7123,7 +7123,7 @@
         <shicang:rhymeScheme>押韵句：第2句、第4句、第7句、第9句</shicang:rhymeScheme>
         <shicang:rhymeLines>2,4,7,9</shicang:rhymeLines>
         <shicang:studyTheme>旷达超脱</shicang:studyTheme>
-        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyDepth>deep</shicang:studyDepth>
         <shicang:studyPage>shicang-poem/WangGuowei_RenJianCiHua.html</shicang:studyPage>
     </owl:NamedIndividual>
 
