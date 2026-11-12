@@ -1,0 +1,642 @@
+[
+  {
+    "id": "SuShi_ShuiDiaoGeTou",
+    "cipai": "水调歌头",
+    "title": "明月几时有",
+    "author": "苏轼",
+    "dynasty": "北宋",
+    "year": "1076",
+    "theme": "旷达超脱",
+    "background": "丙辰中秋，苏轼在密州任上，与弟苏辙七年未见。通宵畅饮大醉后作此词，兼怀子由。",
+    "text": "明月几时有，把酒问青天。不知天上宫阙，今夕是何年。我欲乘风归去，又恐琼楼玉宇，高处不胜寒。起舞弄清影，何似在人间。转朱阁，低绮户，照无眠。不应有恨，何事长向别时圆。人有悲欢离合，月有阴晴圆缺，此事古难全。但愿人长久，千里共婵娟。",
+    "vernacular": "皎洁的明月从何时开始照耀人间？我端起酒杯，向苍天发问。不知天上那座仙宫，今夜是哪一年？我想驾着清风回到天上，又怕那美玉砌成的楼宇太高，受不住那份彻骨清寒。在月光下翩然起舞，清影随人摇曳，天上又怎能比得上人间的温暖？\n\n月儿转过朱红楼阁，低低照进雕花窗棂，照着辗转难眠的人。明月不该有什么怨恨吧，为何偏偏在人们别离时才格外圆？人生有悲欢离合的变迁，月亮有阴晴圆缺的轮转，这种事自古以来就难以周全。只愿各自珍重，虽然相隔千里，也能共享这美好的月光。",
+    "english": "How long will the full moon appear?\nWine cup in hand, I ask the sky.\nI do not know in the celestial sphere\nWhat year this night would be.\nI long to ride the wind and fly up there,\nYet fear those crystal palaces so high\nWould be too cold for me to bear.\nI rise and dance with my shadow playing —\nHow can it compare with the human world!\n\nRound the red pavilion, past the latticed door,\nIt shines upon the sleepless one.\nThe moon should bear no grudge, why then\nDoes it turn full when loved ones are apart?\nMen have sorrow and joy, meeting and parting;\nThe moon is bright or dim, wax or wane.\nThis has never been perfect since old times.\nMay we all be blessed with long life,\nThough a thousand miles apart, we share the moon's fair grace.",
+    "structure": [
+      [
+        "起（上片前半）",
+        "把酒问天，欲归又恐。从「明月几时有」破空而来，把对宇宙的追问与人生的困惑融为一体。"
+      ],
+      [
+        "承（上片后半）",
+        "「起舞弄清影」一转，从天上回到人间。与其贪恋高寒仙境，不如珍惜眼前人境。"
+      ],
+      [
+        "转（下片前半）",
+        "月光移过朱阁绮户，照见无眠之人。责问明月「何事长向别时圆」，无理而妙。"
+      ],
+      [
+        "合（下片收尾）",
+        "「人有悲欢离合」一句自解，最后「千里共婵娟」转出大境界：一己之离愁化为普世祝愿。"
+      ]
+    ],
+    "appreciation": "此词是中秋词的千古绝唱。胡仔《苕溪渔隐丛话》云：「中秋词自东坡《水调歌头》一出，余词尽废。」其妙在三：一是问天、问月、问人生，把宇宙意识与人间深情打成一片；二是情感跌宕，想出世又眷恋人间；三是结句超越一己之愁，升华为对天下离人的美好祝愿。"
+  },
+  {
+    "id": "SuShi_NianNuJiao",
+    "cipai": "念奴娇",
+    "title": "大江东去",
+    "author": "苏轼",
+    "dynasty": "北宋",
+    "year": "1082",
+    "theme": "豪放壮阔",
+    "background": "元丰五年，苏轼因乌台诗案贬黄州已两年，游黄冈赤壁矶，借周瑜事迹抒发人生感慨。",
+    "text": "大江东去，浪淘尽，千古风流人物。故垒西边，人道是，三国周郎赤壁。乱石穿空，惊涛拍岸，卷起千堆雪。江山如画，一时多少豪杰。遥想公瑾当年，小乔初嫁了，雄姿英发。羽扇纶巾，谈笑间，樯橹灰飞烟灭。故国神游，多情应笑我，早生华发。人生如梦，一尊还酹江月。",
+    "vernacular": "长江滚滚向东流去，滔滔巨浪淘尽了千古以来的英雄人物。旧时营垒的西边，人们说那就是三国时周瑜大破曹军的赤壁。陡峭的乱石插入云霄，惊涛骇浪拍击江岸，卷起千万堆白雪般的浪花。江山壮美如画，一时间涌现出多少英雄豪杰。\n\n遥想当年的周公瑾，小乔刚刚嫁过来，他英姿勃发，手执羽扇，头戴纶巾，谈笑之间就把曹军的战船烧得灰飞烟灭。神游故国战场，应该笑我太多愁善感，以致过早生出了白发。人生如梦，且洒一杯酒祭奠江上的明月吧。",
+    "english": "The great river surges eastward;\nIts waves have washed away\nAll the heroes of a thousand years.\nWest of the ancient fortress, they say,\nIs the Red Cliff where Zhou Yu fought.\nJagged rocks pierce the clouds,\nThunderous waves beat the shore,\nRolling up a thousand drifts of snow.\nMountains and rivers like a painting —\nHow many heroes once rose here!\n\nI think back to Gongjin in those years:\nNewly wed to the fair Xiao Qiao,\nValiant and bright, feather fan in hand,\nWith a laugh he turned the enemy's ships to ash.\nWandering in spirit through that old kingdom,\nLet them laugh at my sentiment —\nMy hair has turned white too soon.\nLife is but a dream;\nLet me pour a cup to the river moon.",
+    "structure": [
+      [
+        "起",
+        "「大江东去」四字开篇，如万丈洪峰破空而来，把千古兴亡尽付江流，奠定豪放基调。"
+      ],
+      [
+        "承",
+        "点出赤壁、周瑜，接着用「乱石穿空」三句写景，江山形胜与历史硝烟相映。"
+      ],
+      [
+        "转",
+        "「遥想公瑾当年」转入怀古，刻画周瑜少年得志、从容破敌的儒将形象，与自己贬谪失意形成对照。"
+      ],
+      [
+        "合",
+        "「多情应笑我，早生华发」一跌，由历史回到自身，以「一尊还酹江月」收束，悲凉中见超旷。"
+      ]
+    ],
+    "appreciation": "这首词是豪放词的开山之作。俞文豹《吹剑录》载：「学士词，须关西大汉，执铁板，唱『大江东去』。」由景及史，由史及己，苍凉而不颓丧。"
+  },
+  {
+    "id": "LiQingzhao_ShengShengMan",
+    "cipai": "声声慢",
+    "title": "寻寻觅觅",
+    "author": "李清照",
+    "dynasty": "南宋",
+    "year": "约1151",
+    "theme": "悲慨沉郁",
+    "background": "靖康之变后，李清照国破家亡夫死，流寓金华，晚景凄凉，作此词。通篇押入声韵，如泣如诉。",
+    "text": "寻寻觅觅，冷冷清清，凄凄惨惨戚戚。乍暖还寒时候，最难将息。三杯两盏淡酒，怎敌他、晚来风急。雁过也，正伤心，却是旧时相识。满地黄花堆积，憔悴损，如今有谁堪摘。守着窗儿，独自怎生得黑。梧桐更兼细雨，到黄昏、点点滴滴。这次第，怎一个愁字了得。",
+    "vernacular": "苦苦地寻寻觅觅，却只寻到一片冷冷清清，接着就是无尽的凄惨悲戚。忽暖忽冷的时节，最难调养身体。喝三两杯淡酒，又怎能抵挡住傍晚的寒风？大雁飞过时正伤心，细看它们却是旧时相识。\n\n满地黄花堆积，如今憔悴零落，还有什么可摘？守着窗儿独坐，怎么才能熬到天黑？梧桐叶上又落着细雨，到黄昏时分，一点一滴。这般情景，又岂是一个「愁」字所能概括？",
+    "english": "Seek, seek; search, search;\nCold, cold; bare, bare;\nGrief, grief; cruel, cruel grief.\nNow warm, then suddenly cold —\nSuch weather tries one hardest to rest.\nTwo or three cups of weak wine —\nHow can they fend off the sharp evening wind?\nWild geese pass by; they wound my heart —\nOld acquaintances of days gone by.\n\nChrysanthemums pile all over the ground,\nWithered and worn; who is there to pluck?\nAlone by the window,\nHow can I endure till dark?\nOn the wutong leaves a fine rain drips,\nDrip, drip, drop at dusk.\nAt such a moment —\nHow can one word \"sorrow\" say it all?",
+    "structure": [
+      [
+        "起",
+        "开篇十四叠字「寻寻觅觅，冷冷清清，凄凄惨惨戚戚」，由行动而环境而心境，层层递进，为千古创格。"
+      ],
+      [
+        "承",
+        "乍暖还寒、淡酒晚风、过雁，层层渲染秋寒与孤寂。"
+      ],
+      [
+        "转",
+        "下片转入眼前景物：满地黄花、窗前独守、梧桐细雨，由远景收为近景。"
+      ],
+      [
+        "合",
+        "「怎一个愁字了得」，不是收束，是喷涌——千言万语说不尽，全词在哽咽中戛然而止。"
+      ]
+    ],
+    "appreciation": "开篇十四叠字前无古人。张端义《贵耳集》评：「本朝非无能词之士，未曾有一下十四叠字者。」全词押入声韵，短促哽咽，读来如泣如诉。"
+  },
+  {
+    "id": "XinQiji_QingYuAn",
+    "cipai": "青玉案",
+    "title": "东风夜放花千树",
+    "author": "辛弃疾",
+    "dynasty": "南宋",
+    "year": "约1170",
+    "theme": "清雅禅意",
+    "background": "元宵佳节，辛弃疾罢官居上饶，作此词寄托不肯随波逐流的品格。",
+    "text": "东风夜放花千树，更吹落、星如雨。宝马雕车香满路。凤箫声动，玉壶光转，一夜鱼龙舞。蛾儿雪柳黄金缕，笑语盈盈暗香去。众里寻他千百度，蓦然回首，那人却在，灯火阑珊处。",
+    "vernacular": "像是东风在夜里吹开了千树繁花，又吹得焰火坠落，像繁星如雨。骏马雕车驶来，满路芳香。凤箫声起，明月流转，鱼灯龙灯彻夜舞动。\n\n贵妇们头戴蛾儿雪柳，笑语盈盈，暗香飘过。我在人群中千百次地寻找那人，忽然回头，她却独立在灯火稀落之处。",
+    "english": "The east wind at night blooms a thousand trees of flowers,\nAnd blows down stars like showers of rain.\nFine horses and carved carriages fill the road with scent.\nPhoenix flutes resound, the jade moon turns,\nFish and dragon lanterns dance all night.\n\nMoth ornaments, willow pins, golden threads —\nLaughter and faint fragrance drift away.\nIn the crowd I seek her a thousand times;\nSuddenly I turn my head,\nAnd there she stands where lantern light fades.",
+    "structure": [
+      [
+        "起",
+        "上片极力渲染元宵灯会的繁华：花千树、星如雨、宝马雕车、凤箫鱼龙。"
+      ],
+      [
+        "承",
+        "下片前半写游女如云，蛾儿雪柳、笑语盈盈——为最后的「那人」作反衬。"
+      ],
+      [
+        "转",
+        "「众里寻他千百度」陡转，从热闹场中抽身，写出寻找的执着。"
+      ],
+      [
+        "合",
+        "「蓦然回首，那人却在，灯火阑珊处」——不写欢聚，写孤高自赏的背影，繁华落尽处见真意。"
+      ]
+    ],
+    "appreciation": "梁启超评：「自怜幽独，伤心人别有怀抱。」王国维《人间词话》借结句喻为人生三境界之最高境。"
+  },
+  {
+    "id": "LiYu_YuMeiRen",
+    "cipai": "虞美人",
+    "title": "春花秋月何时了",
+    "author": "李煜",
+    "dynasty": "南唐",
+    "year": "978",
+    "theme": "悲慨沉郁",
+    "background": "李煜国亡被俘入宋，囚禁汴京，七夕作此词。宋太宗闻之大怒，赐牵机药，此词遂成绝笔。",
+    "text": "春花秋月何时了，往事知多少。小楼昨夜又东风，故国不堪回首月明中。雕栏玉砌应犹在，只是朱颜改。问君能有几多愁，恰似一江春水向东流。",
+    "vernacular": "春花秋月的美景什么时候才能完结？往事又记得多少。昨夜小楼上又吹来了东风，在这明亮的月光下，故国实在令人不忍回首。\n\n雕花栏杆、玉石台阶应该还在，只是人的容颜已改。问你心中有多少愁？正像那一江春水，滔滔滚滚向东流去。",
+    "english": "When will spring flowers and autumn moon end?\nHow much of the past can one recall?\nLast night east wind came again to my tower;\nIn bright moonlight I cannot bear to look back.\n\nCarved railings and marble steps must still be there —\nOnly fair faces have changed.\nAsk me how much sorrow I can hold?\nIt is like a river of spring water,\nFlowing eastward, endlessly.",
+    "structure": [
+      [
+        "起",
+        "「春花秋月何时了」起得奇崛，以乐景发问，美景反而成了折磨。"
+      ],
+      [
+        "承",
+        "「小楼昨夜又东风」实写眼前，「又」字写出囚居中时间的钝痛。"
+      ],
+      [
+        "转",
+        "「雕栏玉砌应犹在」由眼前转入想象：故国宫殿犹在，物是人非。"
+      ],
+      [
+        "合",
+        "「恰似一江春水向东流」以水喻愁，把抽象的愁化为奔涌不息的江流，千古写愁第一名句。"
+      ]
+    ],
+    "appreciation": "这首词是李煜的绝命词，也是词史上写亡国之痛最深沉的作品。不事雕饰，纯以白描直抒胸臆。"
+  },
+  {
+    "id": "LiuYong_DieLianHua",
+    "cipai": "蝶恋花",
+    "title": "伫倚危楼风细细",
+    "author": "柳永",
+    "dynasty": "北宋",
+    "year": "约1053",
+    "theme": "深情婉约",
+    "background": "柳永仕途失意，漂泊异乡，春暮登楼远望，作此词抒离愁与执着。",
+    "text": "伫倚危楼风细细，望极春愁，黯黯生天际。草色烟光残照里，无言谁会凭阑意。拟把疏狂图一醉，对酒当歌，强乐还无味。衣带渐宽终不悔，为伊消得人憔悴。",
+    "vernacular": "久久倚靠在高楼栏杆上，春风细细。极目远望，春愁从天边黯黯升起。草色映着烟光，笼罩在残阳里，默默无言，谁能理解我凭栏远望的心意？\n\n打算放纵狂饮图个一醉，可是对着酒唱歌，勉强作乐终究觉得无味。衣带渐渐宽松了也绝不后悔，为了她，我甘愿容颜憔悴。",
+    "english": "I lean on the high tower, the wind is thin;\nGazing far, spring sorrow rises dark from the horizon.\nGrass in misty light, in the fading sun —\nSilent, who understands my thoughts against the rail?\n\nI would drink wildly to get drunk,\nSing before my wine — yet forced joy is tasteless.\nMy belt grows loose, but I never regret;\nFor her I would withow and pine away.",
+    "structure": [
+      [
+        "起",
+        "「伫倚危楼风细细」，登楼远望，春愁从天外黯黯生起，愁是被望出来的。"
+      ],
+      [
+        "承",
+        "「草色烟光残照里」写景，残阳草色烘托孤寂，「无言谁会」写无人理解的孤独。"
+      ],
+      [
+        "转",
+        "「拟把疏狂图一醉」欲借酒浇愁，却「强乐还无味」，愁更浓。"
+      ],
+      [
+        "合",
+        "「衣带渐宽终不悔，为伊消得人憔悴」——从春愁落到痴情，王国维以为成大事业者第二境。"
+      ]
+    ],
+    "appreciation": "贺裳《皱水轩词筌》以为此词与韦庄「陌上谁家年少」、欧阳修「衣带渐宽」同读，当为「终不悔」三字击节。"
+  },
+  {
+    "id": "LiQingzhao_RuMengLing",
+    "cipai": "如梦令",
+    "title": "昨夜雨疏风骤",
+    "author": "李清照",
+    "dynasty": "北宋",
+    "year": "约1100",
+    "theme": "清雅禅意",
+    "background": "李清照少女时作，春夜酒醒后问侍女海棠花事，语短情长。",
+    "text": "昨夜雨疏风骤，浓睡不消残酒。试问卷帘人，却道海棠依旧。知否，知否？应是绿肥红瘦。",
+    "vernacular": "昨夜雨点稀疏，晚风急骤。一夜浓睡，酒意还没全消。试着询问那卷帘的侍女，她却说海棠花依然如故。知道吗？知道吗？应该是绿叶繁茂，红花凋零了。",
+    "english": "Last night the rain was light, wind was sharp;\nDeep sleep did not dispel the lingering wine.\nI ask the maid who rolls the screen —\nShe says the crabapple is as before.\nDon't you know? Don't you know?\nNow green must be fat, red must be thin.",
+    "structure": [
+      [
+        "起",
+        "昨夜雨疏风骤、浓睡残酒，从昨晚写起，交代情境。"
+      ],
+      [
+        "承",
+        "问卷帘人——一个生活细节，充满娇憨。"
+      ],
+      [
+        "转",
+        "侍女「海棠依旧」，答得漫不经心，与主人公的敏感形成对比。"
+      ],
+      [
+        "合",
+        "「绿肥红瘦」四字神来之笔，以拟人写花事，以花事叹年华。"
+      ]
+    ],
+    "appreciation": "「绿肥红瘦」一语为千古名句，黄了翁《蓼园词选》评：「『绿肥红瘦』，无限凄婉，却又妙在含蓄。」"
+  },
+  {
+    "id": "YueFei_ManJiangHong",
+    "cipai": "满江红",
+    "title": "怒发冲冠",
+    "author": "岳飞",
+    "dynasty": "南宋",
+    "year": "约1132",
+    "theme": "慷慨爱国",
+    "background": "岳飞抗金途中作此词（一说为后人托名），抒发收复中原的壮志。",
+    "text": "怒发冲冠，凭栏处、潇潇雨歇。抬望眼，仰天长啸，壮怀激烈。三十功名尘与土，八千里路云和月。莫等闲、白了少年头，空悲切。靖康耻，犹未雪；臣子恨，何时灭！驾长车，踏破贺兰山缺。壮志饥餐胡虏肉，笑谈渴饮匈奴血。待从头、收拾旧山河，朝天阙。",
+    "vernacular": "愤怒得头发直竖顶起帽子，倚靠栏杆处，急雨刚刚停歇。抬头远望，仰天长啸，壮烈情怀激烈。三十年的功名如同尘土，八千里征程只有云与月相伴。莫要虚度光阴，等少年头白了，徒自悲伤。\n\n靖康年间的耻辱还没有洗雪，臣子的仇恨何时才能泯灭？我要驾着战车踏破贺兰山口。壮志满怀，饿了就吃敌人的肉，笑谈间渴了就饮敌人的血。待我重新收复旧日山河，再回京向皇帝报捷。",
+    "english": "My hair bristles with rage against my cap;\nLeaning on the rail, the rushing rain has ceased.\nI lift my eyes, cry out to the sky,\nMy heroic heart ablaze.\nThirty years of fame — mere dust and dirt;\nEight thousand miles of march — but clouds and moon.\nDo not idle — let the young head turn white\nIn vain regret.\n\nThe shame of Jingkang is still unwashed;\nA subject's hatred — when will it end?\nI shall drive my war chariots through Helan Pass.\nWith noble hunger I will feast on the foe's flesh,\nLaughing, drink the invader's blood.\nThen I shall start anew, restore the old mountains and rivers,\nAnd pay homage at the imperial court.",
+    "structure": [
+      [
+        "起",
+        "「怒发冲冠」破空而来，倚栏长啸，壮怀激烈，气势凌厉。"
+      ],
+      [
+        "承",
+        "「三十功名尘与土，八千里路云和月」回顾平生，「莫等闲」自勉。"
+      ],
+      [
+        "转",
+        "下片转入国耻——靖康之耻未雪，誓言踏破贺兰山。"
+      ],
+      [
+        "合",
+        "「收拾旧山河，朝天阙」，以必胜信念收束，气壮山河。"
+      ]
+    ],
+    "appreciation": "这首词是爱国词的代表作，千百年来激励了无数仁人志士。词中激昂忠愤之气，直冲斗牛。"
+  },
+  {
+    "id": "SuShi_DingFengBo",
+    "cipai": "定风波",
+    "title": "莫听穿林打叶声",
+    "author": "苏轼",
+    "dynasty": "北宋",
+    "year": "1082",
+    "theme": "旷达超脱",
+    "background": "苏轼贬黄州第三年，途中遇雨，雨具先去，同行皆狼狈，东坡独不觉，作此词。",
+    "text": "莫听穿林打叶声，何妨吟啸且徐行。竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。料峭春风吹酒醒，微冷，山头斜照却相迎。回首向来萧瑟处，归去，也无风雨也无晴。",
+    "vernacular": "不必去听那穿林打叶的雨声，何妨一边吟咏长啸一边从容前行。竹杖草鞋比马还轻快，怕什么？一身蓑衣，任凭烟雨度平生。\n\n春寒料峭的风吹得酒醒了，微微觉得寒冷，山头斜阳却迎面照来。回头望一眼刚才遇雨的萧瑟之处，我信步归去——既无所谓风雨，也无所谓晴。",
+    "english": "Heed not the rain that beats the leaves through the wood;\nWhy not chant and whistle as I walk slowly on?\nBamboo staff and straw shoes are lighter than a horse —\nWho fears?\nIn a straw cape I face the misty rain all my life.\n\nThe chill spring wind sobers my wine,\nA little cold — yet the slanting sun from the hill greets me.\nLooking back at the bleak place where I came from,\nI go on home:\nThere is neither storm nor shine.",
+    "structure": [
+      [
+        "起",
+        "「莫听穿林打叶声」直接破题，把雨景化为人生逆境的象征。"
+      ],
+      [
+        "承",
+        "「何妨吟啸且徐行」写东坡式的从容，「谁怕」一问坦荡。"
+      ],
+      [
+        "转",
+        "「料峭春风吹酒醒」，雨过、酒醒、微冷、斜阳——转折自然。"
+      ],
+      [
+        "合",
+        "「也无风雨也无晴」七字收束，晴雨皆忘，荣辱不惊，是东坡的人生境界。"
+      ]
+    ],
+    "appreciation": "此词写雨却不见狼狈，全是东坡的旷达——人生逆境来时，不必逃避，从容走过便是。"
+  },
+  {
+    "id": "XinQiji_PoZhenZi",
+    "cipai": "破阵子",
+    "title": "醉里挑灯看剑",
+    "author": "辛弃疾",
+    "dynasty": "南宋",
+    "year": "约1188",
+    "theme": "慷慨爱国",
+    "background": "辛弃疾被劾落职，闲居带湖，为好友陈亮（同甫）赋壮词寄怀。",
+    "text": "醉里挑灯看剑，梦回吹角连营。八百里分麾下炙，五十弦翻塞外声，沙场秋点兵。马作的卢飞快，弓如霹雳弦惊。了却君王天下事，赢得生前身后名。可怜白发生！",
+    "vernacular": "醉中挑亮油灯端详宝剑，梦中回到号角声连绵的军营。把牛肉分给部下烤食，军乐奏响塞外悲壮的战歌，秋日沙场上正在阅兵。\n\n战马像的卢马那样飞驰，弓箭像惊雷一样震耳。我一心想为君主完成收复天下的大业，赢得生前死后的英名。可怜——白发已生！",
+    "english": "Drunk, I trim the lamp and gaze at my sword;\nDreaming, I return to the camps where bugles call.\nRoast beef is served to all the ranks,\nFifty strings strike the frontier song,\nAutumn on the battlefield, troops reviewed.\n\nHorses gallop swift as the famed Dilu,\nBows twang like thunder startling the string.\nI would fulfill the king's cause for all under heaven,\nWin fame both in life and after death.\nAlas — white hair is already here!",
+    "structure": [
+      [
+        "起",
+        "醉里看剑、梦回连营，从醉态入梦境，开篇即是壮士的失意。"
+      ],
+      [
+        "承",
+        "八百里炙、五十弦声、沙场点兵，梦境中军容极盛。"
+      ],
+      [
+        "转",
+        "马快弓惊、了却君王事，梦境达到高潮——英雄的抱负。"
+      ],
+      [
+        "合",
+        "「可怜白发生」五字陡落，把梦境击碎，从壮志跌回现实，感慨极深。"
+      ]
+    ],
+    "appreciation": "前九句极写梦中豪壮，末句五字陡跌——现实中壮志未酬鬓已白。这种结构在词中少见，最见辛词的沉郁顿挫。"
+  },
+  {
+    "id": "WangAnshi_GuiZhiXiang",
+    "cipai": "桂枝香",
+    "title": "登临送目",
+    "author": "王安石",
+    "dynasty": "北宋",
+    "year": "约1067",
+    "theme": "怀古沧桑",
+    "background": "王安石晚年退居金陵，登金陵怀古。杨慎《词品》谓「金陵怀古，诸公寄调《桂枝香》者三十余家，惟介甫最为绝唱」。",
+    "text": "登临送目，正故国晚秋，天气初肃。千里澄江似练，翠峰如簇。归帆去棹残阳里，背西风、酒旗斜矗。彩舟云淡，星河鹭起，画图难足。念往昔、繁华竞逐。叹门外楼头，悲恨相续。千古凭高对此，漫嗟荣辱。六朝旧事随流水，但寒烟、芳草凝绿。至今商女，时时犹唱，后庭遗曲。",
+    "vernacular": "登高望远，正是故国晚秋时节，天气初现肃杀之气。千里长江水澄澈如白练，青翠的山峰如箭簇聚集。归来的帆船在残阳里，背对着西风，酒旗斜斜地矗立。彩舟在淡云中，白鹭从沙洲飞起，这样的美景画都难以画出。\n\n回想往昔，多少人在这里争逐繁华。可叹隋兵已到朱雀门外，陈后主还在楼上与宠妃玩乐，悲恨相继不断。千古以来登高对此景，都空叹朝代的荣辱。六朝的旧事已随流水逝去，只剩寒烟芳草凝成一片暗绿。时至今日，卖唱歌女还时时唱着《玉树后庭花》那亡国遗曲。",
+    "english": "I climb and gaze afar —\nLate autumn in the old capital,\nThe air is turning crisp.\nA thousand li of clear river like silk,\nGreen peaks cluster like arrows.\nReturning sails in the setting sun,\nAgainst the west wind wineshop flags slant.\nPainted boats in pale clouds,\nEgrets rise from the sandbars —\nEven a painting could not do it justice.\n\nI think of ages past, when luxury was chased,\nAnd sigh at the tower gate: sorrow and regret on and on.\nFor a thousand years, leaning high, men have sighed at glory and ruin.\nSix dynasties' old tales flow by with the river,\nOnly cold mist and fragrant grass, deep green.\nEven now the singing girls still chant the court's fatal song.",
+    "structure": [
+      [
+        "起",
+        "登临送目、故国晚秋，点明登高题旨，笔力沉雄。"
+      ],
+      [
+        "承",
+        "千里澄江、翠峰归帆、彩舟白鹭，用大笔铺写金陵江山。"
+      ],
+      [
+        "转",
+        "下片「念往昔」转入怀古，门外楼头写陈朝亡国故事。"
+      ],
+      [
+        "合",
+        "结句「至今商女，时时犹唱」化用杜牧句意，寄寓现实忧思，立意高远。"
+      ]
+    ],
+    "appreciation": "这首词是王安石的代表作，也是金陵怀古词的千古绝唱。东坡见之叹曰：「此老乃野狐精也！」"
+  },
+  {
+    "id": "ZhouBangYan_SuMuZhe",
+    "cipai": "苏幕遮",
+    "title": "燎沉香",
+    "author": "周邦彦",
+    "dynasty": "北宋",
+    "year": "约1083",
+    "theme": "深情婉约",
+    "background": "周邦彦在汴京作此词，写夏日清晨之景与思乡之情。",
+    "text": "燎沉香，消溽暑。鸟雀呼晴，侵晓窥檐语。叶上初阳干宿雨，水面清圆，一一风荷举。故乡遥，何日去？家住吴门，久作长安旅。五月渔郎相忆否？小楫轻舟，梦入芙蓉浦。",
+    "vernacular": "点燃沉香，消除潮湿的暑气。鸟雀欢呼天晴，清晨时在檐下窥视啼叫。初升的太阳照干了叶上昨夜的雨珠，水面上荷叶清润圆正，风过处一一擎举。\n\n故乡遥远，何日才能归去？家在吴门，却长久客居京城。五月了，渔郎还记得我吗？我常在梦中划着小船，驶入芙蓉盛开的荷塘。",
+    "english": "Burning aloeswood, I clear the humid heat.\nBirds call for fine weather, peeping under the eaves at dawn.\nMorning sun dries last night's rain from the leaves;\nOn the water, clear and round, lotus leaves lift in the breeze.\n\nHomeland is far — when shall I return?\nMy home is in Wu, yet long I lodge in the capital.\nDo the fishermen remember me this May?\nIn my dreams I take a light boat\nAnd glide into the lotus inlet.",
+    "structure": [
+      [
+        "起",
+        "燎沉香、消溽暑，从嗅觉起笔，夏日清晨的慵懒氛围顿出。"
+      ],
+      [
+        "承",
+        "鸟雀呼晴、风荷举——「举」字写荷叶在风中挺起，极生动，王国维称为「真能得荷之神理者」。"
+      ],
+      [
+        "转",
+        "故乡遥、何日去，由景入情，由眼前转入思乡。"
+      ],
+      [
+        "合",
+        "小楫轻舟、梦入芙蓉浦，以梦归作结，与上片风荷呼应，虚实相生。"
+      ]
+    ],
+    "appreciation": "「叶上初阳干宿雨，水面清圆，一一风荷举」是咏荷名句，不用浓墨重彩，只一「举」字，荷叶神韵全出。"
+  },
+  {
+    "id": "WenTingYun_PuSaMan",
+    "cipai": "菩萨蛮",
+    "title": "小山重叠金明灭",
+    "author": "温庭筠",
+    "dynasty": "唐",
+    "year": "约850",
+    "theme": "深情婉约",
+    "background": "温庭筠为《花间集》之首，此词是其代表作，写闺中少妇晨起梳妆情态。",
+    "text": "小山重叠金明灭，鬓云欲度香腮雪。懒起画蛾眉，弄妆梳洗迟。照花前后镜，花面交相映。新帖绣罗襦，双双金鹧鸪。",
+    "vernacular": "画屏上的小山重重叠叠，金箔在晨光中明灭闪烁。如云的鬓发欲掩过雪白香腮。懒懒地起身描画蛾眉，慢吞吞地梳洗打扮。\n\n簪上花，前后镜子相照，花与容颜交相辉映。身穿新贴的罗襦，上面绣着一双双金色鹧鸪。",
+    "english": "Little hills overlap, gold flickers bright and dim;\nCloud-like tresses drift across snow-fragrant cheeks.\nLazily she rises to paint her moth brows,\nSlowly making her toilet, combing her hair.\n\nShe holds a flower before double mirrors —\nFlower and face reflect each other.\nOn her newly embroidered silk jacket\nPairs of golden partridges gleam.",
+    "structure": [
+      [
+        "起",
+        "首句写闺房屏景，金光明灭暗示晨光，鬓云香腮写女子睡态。"
+      ],
+      [
+        "承",
+        "「懒起」「弄妆」「迟」，层层写慵懒情态。"
+      ],
+      [
+        "转",
+        "照花前后镜，花面交映——梳妆到精致，反见寂寞。"
+      ],
+      [
+        "合",
+        "结句「双双金鹧鸪」以鹧鸪成双反衬人独处，含蓄不尽。"
+      ]
+    ],
+    "appreciation": "此词是花间词的典范，全词无一字直写怨情，而怨情自见——「双双」二字点睛。"
+  },
+  {
+    "id": "LiQingzhao_RuMengLing",
+    "cipai": "如梦令",
+    "title": "常记溪亭日暮",
+    "author": "李清照",
+    "dynasty": "北宋",
+    "theme": "恬淡闲适",
+    "background": "李清照少女时回忆一次郊游兴尽晚归的经历。",
+    "text": "常记溪亭日暮，沉醉不知归路。兴尽晚回舟，误入藕花深处。争渡，争渡，惊起一滩鸥鹭。",
+    "vernacular": "常常记得在溪亭游玩到日暮，沉醉得忘了归路。游兴尽了才乘晚舟回去，却不小心划入荷花深处。怎么划出去？怎么划出去？惊起了一滩上的鸥鹭。",
+    "english": "I oft remember the creek pavilion at sunset,\nSo drunk I knew not the way home.\nWhen joy was spent I turned the boat late,\nAnd strayed deep among the lotuses.\nRow hard! Row hard!\nStartling a whole sandbar of gulls and herons.",
+    "structure": [
+      [
+        "起",
+        "常记、沉醉——回忆开篇，少女郊游的快活跃然纸上。"
+      ],
+      [
+        "承",
+        "兴尽回舟、误入藕花——由乐转迷。"
+      ],
+      [
+        "转",
+        "「争渡，争渡」叠句，情急意切。"
+      ],
+      [
+        "合",
+        "「惊起一滩鸥鹭」由声入色，画面骤然活了，戛然而止。"
+      ]
+    ],
+    "appreciation": "短短三十三字，写出一段极富画面感的少年往事，清照少女时的才情与活泼尽现。",
+    "year": "约1100"
+  },
+  {
+    "id": "QinGuan_QueQiaoXian",
+    "cipai": "鹊桥仙",
+    "title": "纤云弄巧",
+    "author": "秦观",
+    "dynasty": "北宋",
+    "year": "约1097",
+    "theme": "深情婉约",
+    "background": "秦观七夕词，咏牛郎织女故事，翻出新意。",
+    "text": "纤云弄巧，飞星传恨，银汉迢迢暗度。金风玉露一相逢，便胜却人间无数。柔情似水，佳期如梦，忍顾鹊桥归路。两情若是久长时，又岂在朝朝暮暮。",
+    "vernacular": "纤云弄出精巧的花样，流星传递着离愁，牛郎织女悄悄渡过迢迢银河。在金风玉露中相逢一次，就胜过人间无数次相聚。\n\n柔情如流水，佳期如梦幻，怎忍心回望鹊桥上归去的路？两情若能长久，又何必在意朝朝暮暮的厮守。",
+    "english": "Wispy clouds weave their clever patterns,\nFalling stars convey the lovers' sorrow,\nAcross the silver river they meet in secret.\nOne meeting in the autumn wind and jade dew\nSurpasses countless meetings in the mortal world.\n\nTenderness flows like water,\nThe sweet meeting is like a dream —\nHow can I bear to look back at the bridge of magpies?\nIf two hearts stay true for ever,\nWhy need they stay together night and day?",
+    "structure": [
+      [
+        "起",
+        "纤云、飞星、银汉，七夕夜景写得轻灵，烘托牛女相会。"
+      ],
+      [
+        "承",
+        "「金风玉露一相逢」翻案：只要是真正的深情，一次相逢便胜人间无数。"
+      ],
+      [
+        "转",
+        "柔情似水、佳期如梦、忍顾归路——相会的短暂与不舍。"
+      ],
+      [
+        "合",
+        "「两情久长，岂在朝暮」再次翻案，把离情升华为坚贞爱情宣言。"
+      ]
+    ],
+    "appreciation": "明人沈际飞评：「七夕以双星会少别多为恨，独谓情长不在朝暮，化臭腐为神奇。」"
+  },
+  {
+    "id": "ZhangJiXian_QingPingYue",
+    "cipai": "清平乐",
+    "title": "红笺小字",
+    "author": "晏殊",
+    "dynasty": "北宋",
+    "year": "约1040",
+    "theme": "深情婉约",
+    "background": "晏殊写闺中怀远之情，是婉约词的正格。",
+    "text": "红笺小字，说尽平生意。鸿雁在云鱼在水，惆怅此情难寄。斜阳独倚西楼，遥山恰对帘钩。人面不知何处，绿波依旧东流。",
+    "vernacular": "红色信笺上写满小字，说尽了平生的情意。可是鸿雁在云、鱼儿在水，没法传书，惆怅这深情难以寄达。\n\n斜阳中独自倚着西楼，远山正对着窗帘的钩。那人不知去了哪里，绿波依旧悠悠东流。",
+    "english": "On red paper in small characters\nI write out all my lifelong feelings.\nBut wild geese are in the clouds, fish in the water —\nSadly, this love cannot be sent.\n\nIn the slant sun I lean alone on the west tower,\nFar mountains face my curtain hook.\nThat face is gone, none knows where;\nGreen waves still flow eastward as before.",
+    "structure": [
+      [
+        "起",
+        "红笺小字——写信传情，「说尽」写尽情之深。"
+      ],
+      [
+        "承",
+        "鸿雁鱼水，用典而不涩，写音讯难通。"
+      ],
+      [
+        "转",
+        "斜阳倚楼，远山对钩——从室内转到楼上，景中含愁。"
+      ],
+      [
+        "合",
+        "「人面不知何处，绿波依旧东流」化用崔护诗句与江水流意象，结得淡远。"
+      ]
+    ],
+    "appreciation": "晏殊词温润秀洁，此词可见一斑。结尾「绿波依旧东流」以景结情，余韵悠长。"
+  },
+  {
+    "id": "LiuKeZhuang_YuMeiRen",
+    "cipai": "虞美人",
+    "title": "少年听雨歌楼上",
+    "author": "蒋捷",
+    "dynasty": "南宋",
+    "year": "约1290",
+    "theme": "悲慨沉郁",
+    "background": "蒋捷生当宋亡之际，一生漂泊，此词以听雨为线索概括一生。",
+    "text": "少年听雨歌楼上，红烛昏罗帐。壮年听雨客舟中，江阔云低、断雁叫西风。而今听雨僧庐下，鬓已星星也。悲欢离合总无情，一任阶前、点滴到天明。",
+    "vernacular": "少年时在歌楼上听雨，红烛摇曳、罗帐低垂。壮年时在客舟里听雨，江面辽阔、云霭低沉，孤雁在西风中哀鸣。\n\n如今在僧庐下听雨，鬓发已经花白。悲欢离合都已尝遍，也无动于衷了，任凭阶前的雨一点一滴下到天明。",
+    "english": "As a youth I listened to rain in a song tower,\nRed candles dim behind silk curtains.\nIn my prime I listened in a traveler's boat,\nThe river wide, clouds low,\nA lone goose crying in the west wind.\n\nNow I listen under a monk's hut,\nMy temples streaked with gray.\nJoy and sorrow, meeting and parting — all seem passionless;\nI let the drops before the steps\nFall drip by drip till dawn.",
+    "structure": [
+      [
+        "起",
+        "少年听雨歌楼——青春的繁华、温柔、浪漫，一境。"
+      ],
+      [
+        "承",
+        "壮年听雨客舟——漂泊、孤苦、沧桑，二境。"
+      ],
+      [
+        "转",
+        "而今听雨僧庐、鬓已星星——晚年孤寂、心如止水，三境。"
+      ],
+      [
+        "合",
+        "「悲欢离合总无情，一任阶前点滴到天明」，三境叠进，写尽一生的感慨。"
+      ]
+    ],
+    "appreciation": "三幅听雨图写尽人生三个阶段，由绚烂归于平淡，由悲欢归于无情，是宋词中以少总多的杰作。"
+  },
+  {
+    "id": "HuangTingJian_QingPingLe",
+    "cipai": "清平乐",
+    "title": "春归何处",
+    "author": "黄庭坚",
+    "dynasty": "北宋",
+    "year": "约1100",
+    "theme": "恬淡闲适",
+    "background": "黄庭坚贬宜州途中作此惜春词，构思新奇。",
+    "text": "春归何处？寂寞无行路。若有人知春去处，唤取归来同住。春无踪迹谁知？除非问取黄鹂。百啭无人能解，因风飞过蔷薇。",
+    "vernacular": "春天回到哪里去了？寂寞地找不到一点踪迹。如果有谁知道春天的去处，把它喊回来与我们同住吧。\n\n春天没有踪迹谁能知道？除非去问黄鹂鸟。可是黄鹂千百次婉转的啼鸣没人能懂，它顺着风飞过了蔷薇花。",
+    "english": "Where has spring gone?\nSo still, no trace of its path.\nIf anyone knows where spring went,\nCall it back to dwell with us.\n\nSpring leaves no trace; who can know?\nUnless one asks the orioles.\nA hundred songs no one understands;\nThey ride the wind past the roses.",
+    "structure": [
+      [
+        "起",
+        "「春归何处」一问破空而来，把春天拟人化。"
+      ],
+      [
+        "承",
+        "若有人知、唤取同住，痴语妙绝。"
+      ],
+      [
+        "转",
+        "问取黄鹂——把希望寄托在黄鹂身上。"
+      ],
+      [
+        "合",
+        "百啭无人解、因风过蔷薇——黄鹂飞走，蔷薇开时夏已至，春终究归矣。"
+      ]
+    ],
+    "appreciation": "这首词构思奇巧，把惜春之情写得天真烂漫，毫无沉重感，是北宋词中别具一格的佳作。"
+  },
+  {
+    "id": "YanShu_HuanXiSha",
+    "cipai": "浣溪沙",
+    "title": "一曲新词酒一杯",
+    "author": "晏殊",
+    "dynasty": "北宋",
+    "year": "约1042",
+    "theme": "怀古沧桑",
+    "background": "晏殊暮年所作，写花落燕归的惆怅与时光流逝的感慨。",
+    "text": "一曲新词酒一杯，去年天气旧亭台。夕阳西下几时回？无可奈何花落去，似曾相识燕归来。小园香径独徘徊。",
+    "vernacular": "听一曲新词，饮一杯美酒，天气还是去年的天气，亭台还是从前的亭台。夕阳西下，什么时候才能回来？\n\n无可奈何地看花儿纷纷飘落，似曾相识的燕子又飞回来了。我在小园飘香的小路上独自徘徊。",
+    "english": "A new song, a cup of wine —\nThe weather is last year's, the pavilions are old.\nThe sun sets in the west; when will it return?\n\nThere's no help for it — the flowers fall;\nSeeming to know me, swallows come back.\nOn the fragrant path of the little garden\nI linger alone.",
+    "structure": [
+      [
+        "起",
+        "一曲新词、去年天气、旧亭台——新旧对照，时光感顿出。"
+      ],
+      [
+        "承",
+        "夕阳西下几时回——一句问把感慨推开。"
+      ],
+      [
+        "转",
+        "「无可奈何花落去，似曾相识燕归来」，对仗工整，是千古名句。"
+      ],
+      [
+        "合",
+        "小园香径独徘徊——以一个人的身影收束，怅惘未尽。"
+      ]
+    ],
+    "appreciation": "「无可奈何花落去，似曾相识燕归来」是晏殊最著名的对句，天然奇偶，写出了人人心中所有、笔下所无的感触。"
+  },
+  {
+    "id": "ChouNuEr_BoSuanZi",
+    "cipai": "卜算子",
+    "title": "驿外断桥边",
+    "author": "陆游",
+    "dynasty": "南宋",
+    "year": "约1172",
+    "theme": "清雅禅意",
+    "background": "陆游主战被黜，赋梅自喻，写梅花孤高寂寞的品格。",
+    "text": "驿外断桥边，寂寞开无主。已是黄昏独自愁，更著风和雨。无意苦争春，一任群芳妒。零落成泥碾作尘，只有香如故。",
+    "vernacular": "驿站外的断桥边，梅花寂寞地开放，无人过问。已是黄昏时分，独自忧愁，还要遭受风雨的摧残。\n\n无意苦苦争占春光，任凭百花嫉妒。即使凋零飘落成泥，被碾为尘土，清香依然如故。",
+    "english": "By the broken bridge beyond the postern,\nLonely it blooms, with none to own it.\nDusk already, grieving all alone —\nThen wind and rain descend.\n\nIt never strives to steal the spring,\nLet all the flowers envy.\nFallen to mud, ground into dust,\nOnly its fragrance remains the same.",
+    "structure": [
+      [
+        "起",
+        "驿外断桥、寂寞无主——写梅所处环境的荒凉孤寂。"
+      ],
+      [
+        "承",
+        "黄昏独愁、风和雨——叠加摧残，困境至极。"
+      ],
+      [
+        "转",
+        "下片「无意苦争春」一转，由处境转品格。"
+      ],
+      [
+        "合",
+        "「零落成泥碾作尘，只有香如故」——九死不悔，风骨凛然。"
+      ]
+    ],
+    "appreciation": "这首咏梅词是陆游人格的写照。写梅即写己，咏物诗至此达到物我合一的境界。"
+  }
+]

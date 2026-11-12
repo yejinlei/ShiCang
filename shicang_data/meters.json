@@ -1,0 +1,1113 @@
+{
+  "cipai": [
+    {
+      "name": "水调歌头",
+      "alias": [
+        "元会曲",
+        "凯歌",
+        "台城游"
+      ],
+      "chars": 95,
+      "meter": "XXZZPP*PZZZPP*PZPZZPPPZZPPZ*XXZZPP*PZZZPP*PZPZZPPPZZPPZ*PZP*",
+      "split": 48,
+      "rhyme_positions": [
+        5,
+        11,
+        24,
+        53,
+        59,
+        72,
+        95
+      ],
+      "desc": "双调九十五字，上片九句四平韵，下片十句四平韵",
+      "rhyme_type": "平",
+      "examples": [
+        [
+          "明月几时有",
+          "把酒问青天",
+          "不知天上宫阙",
+          "今夕是何年"
+        ]
+      ]
+    },
+    {
+      "name": "念奴娇",
+      "alias": [
+        "百字令",
+        "酹江月",
+        "大江东去",
+        "壶中天",
+        "湘月"
+      ],
+      "chars": 100,
+      "meter": "ZPPZZ*ZPZZPPZ*PPZZPPZZPPZZ*PPZPPZZ*PPZZPPZZPPZ*PPZPPZPPZ*ZZPPZ*ZPPZZPP*PPZPPZZ*",
+      "split": 49,
+      "rhyme_positions": [
+        5,
+        13,
+        28,
+        38,
+        57,
+        67,
+        75,
+        84,
+        99
+      ],
+      "desc": "双调一百字，上片四十九字十句四仄韵，下片五十一字十句四仄韵",
+      "rhyme_type": "仄",
+      "examples": [
+        [
+          "大江东去",
+          "浪淘尽",
+          "千古风流人物"
+        ]
+      ]
+    },
+    {
+      "name": "浣溪沙",
+      "alias": [
+        "小庭花",
+        "满院春",
+        "东风寒",
+        "醉木犀",
+        "霜菊黄",
+        "广寒枝",
+        "试香罗",
+        "清和风",
+        "怨啼鹃"
+      ],
+      "chars": 42,
+      "meter": "XZPPPZZP*PPZZPP*PPZZPPP*XZPPPZZP*PPZZPP*PPZZPPP*",
+      "split": 21,
+      "rhyme_positions": [
+        7,
+        14,
+        20,
+        28,
+        35,
+        41
+      ],
+      "desc": "双调四十二字，上片三句三平韵，下片三句两平韵",
+      "rhyme_type": "平",
+      "examples": [
+        [
+          "一曲新词酒一杯",
+          "去年天气旧亭台"
+        ]
+      ]
+    },
+    {
+      "name": "如梦令",
+      "alias": [
+        "忆仙姿",
+        "宴桃源",
+        "比梅"
+      ],
+      "chars": 33,
+      "meter": "ZZPPPZ*PPPZPPZ*ZZPPPZ*PPP*ZZPPPZ*",
+      "split": 33,
+      "rhyme_positions": [
+        6,
+        12,
+        18,
+        21,
+        26,
+        32
+      ],
+      "desc": "单调三十三字，七句五仄韵一叠韵",
+      "rhyme_type": "仄",
+      "examples": [
+        [
+          "常记溪亭日暮",
+          "沉醉不知归路"
+        ]
+      ]
+    },
+    {
+      "name": "西江月",
+      "alias": [
+        "白苹香",
+        "步虚词",
+        "江月令",
+        "壶天晓"
+      ],
+      "chars": 50,
+      "meter": "XZPPPZZ*PPZZPP*PPZZPPPZ*XZZPPZ*XZPPPZZ*PPZZPP*PPZZPPPZ*XZZPPZ*",
+      "split": 25,
+      "rhyme_positions": [
+        7,
+        14,
+        24,
+        32,
+        39,
+        49
+      ],
+      "desc": "双调五十字，上下片各四句两平韵一叶韵",
+      "rhyme_type": "平仄",
+      "examples": [
+        [
+          "明月别枝惊鹊",
+          "清风半夜鸣蝉"
+        ]
+      ]
+    },
+    {
+      "name": "蝶恋花",
+      "alias": [
+        "鹊踏枝",
+        "黄金缕",
+        "卷珠帘",
+        "明月生南浦",
+        "凤栖梧",
+        "一箩金",
+        "鱼水同欢"
+      ],
+      "chars": 60,
+      "meter": "XZPPPZZ*PPPZZPPZ*PPPZZPPZ*ZZPPPZZ*XZPPPZZ*PPPZZPPZ*PPPZZPPZ*ZZPPPZZ*",
+      "split": 30,
+      "rhyme_positions": [
+        7,
+        15,
+        23,
+        29,
+        37,
+        45,
+        53,
+        59
+      ],
+      "desc": "双调六十字，上下片各四仄韵",
+      "rhyme_type": "仄",
+      "examples": [
+        [
+          "伫倚危楼风细细",
+          "望极春愁黯黯生天际"
+        ]
+      ]
+    },
+    {
+      "name": "临江仙",
+      "alias": [
+        "谢新恩",
+        "雁后归",
+        "画屏春",
+        "庭院深深",
+        "采莲回",
+        "想娉婷",
+        "瑞鹤仙令",
+        "鸳鸯梦",
+        "玉连环"
+      ],
+      "chars": 60,
+      "meter": "XZPPPZZ*PPZZPP*PPZZPPPZZPPPZZPP*XZPPPZZ*PPZZPP*PPZZPPPZZPPPZZPP*",
+      "split": 30,
+      "rhyme_positions": [
+        7,
+        14,
+        29,
+        37,
+        44,
+        59
+      ],
+      "desc": "双调六十字，上下片各五句三平韵",
+      "rhyme_type": "平",
+      "examples": [
+        [
+          "滚滚长江东逝水",
+          "浪花淘尽英雄"
+        ]
+      ]
+    },
+    {
+      "name": "卜算子",
+      "alias": [
+        "百尺楼",
+        "眉峰碧",
+        "缺月挂疏桐",
+        "楚天遥",
+        "白玉阶"
+      ],
+      "chars": 44,
+      "meter": "ZZPPPZ*PPPZZ*ZZPPPZ*PPPZZ*ZZPPPZ*PPPZZ*ZZPPPZ*PPPZZ*",
+      "split": 22,
+      "rhyme_positions": [
+        6,
+        12,
+        17,
+        22,
+        28,
+        34,
+        39,
+        44
+      ],
+      "desc": "双调四十四字，上下片各四句两仄韵",
+      "rhyme_type": "仄",
+      "examples": [
+        [
+          "缺月挂疏桐",
+          "漏断人初静"
+        ]
+      ]
+    },
+    {
+      "name": "满江红",
+      "alias": [
+        "上江虹",
+        "念良游",
+        "伤春曲"
+      ],
+      "chars": 93,
+      "meter": "ZPPP*PPZZPPPZ*PPZ*PPPZZ*PPPZPPZ*ZPPPZZPPZ*PPPZ*PPZPPZZ*PPPZPPZ*PPPZZ*PPPZPPZ*ZPPPZZPPZ*",
+      "split": 47,
+      "rhyme_positions": [
+        3,
+        14,
+        17,
+        23,
+        31,
+        43,
+        50,
+        60,
+        68,
+        74,
+        86
+      ],
+      "desc": "双调九十三字，上片四十六字八句四仄韵，下片四十七字十句五仄韵",
+      "rhyme_type": "仄",
+      "examples": [
+        [
+          "怒发冲冠",
+          "凭栏处潇潇雨歇"
+        ]
+      ]
+    },
+    {
+      "name": "声声慢",
+      "alias": [
+        "胜胜慢",
+        "凤求凰",
+        "寒松叹"
+      ],
+      "chars": 97,
+      "meter": "PPZZ*ZZPPZZ*PPZZPP*ZPPZZ*PPZPPZPPZ*PPZZPPZ*PPZZPPZZ*ZPPZZ*PPZPPZPPZ*ZZPPZZPPZ*",
+      "split": 47,
+      "rhyme_positions": [
+        4,
+        10,
+        16,
+        22,
+        32,
+        42,
+        51,
+        58,
+        64,
+        74,
+        84,
+        95
+      ],
+      "desc": "双调九十七字，上下片各五仄韵（入声韵多用）",
+      "rhyme_type": "仄",
+      "examples": [
+        [
+          "寻寻觅觅",
+          "冷冷清清",
+          "凄凄惨惨戚戚"
+        ]
+      ]
+    },
+    {
+      "name": "虞美人",
+      "alias": [
+        "一江春水",
+        "玉壶冰",
+        "忆柳曲"
+      ],
+      "chars": 56,
+      "meter": "XPPZZPPZ*XPPZZPPZ*XPPZZPP*XPPZZPP*XPPZZPPZ*XPPZZPPZ*XPPZZPP*XPPZZPP*",
+      "split": 28,
+      "rhyme_positions": [
+        7,
+        15,
+        22,
+        27,
+        35,
+        43,
+        50,
+        55
+      ],
+      "desc": "双调五十六字，上下片各四句两仄韵转两平韵",
+      "rhyme_type": "平仄换",
+      "examples": [
+        [
+          "春花秋月何时了",
+          "往事知多少"
+        ]
+      ]
+    },
+    {
+      "name": "沁园春",
+      "alias": [
+        "寿星明",
+        "东仙",
+        "洞庭春色"
+      ],
+      "chars": 114,
+      "meter": "ZZPPPZZPP*PPZZPP*ZZPPPZZ*PPZZPP*PPPZZPPPZZPPZZPP*ZZPPPZZPP*PPZZPP*ZZPPPZZ*PPZZPP*PPPZZPPPZZPPZZPP*PP*",
+      "split": 56,
+      "rhyme_positions": [
+        10,
+        18,
+        26,
+        32,
+        52,
+        66,
+        74,
+        82,
+        88,
+        108,
+        113
+      ],
+      "desc": "双调一百十四字，上片十三句四平韵，下片十二句五平韵",
+      "rhyme_type": "平",
+      "examples": [
+        [
+          "北国风光",
+          "千里冰封",
+          "万里雪飘"
+        ]
+      ]
+    },
+    {
+      "name": "苏幕遮",
+      "alias": [
+        "苏摩遮",
+        "感皇恩"
+      ],
+      "chars": 62,
+      "meter": "XZPPPZPP*XZPPPZPZ*ZPPPZPPXZPPPZPZ*XZPPPZPP*XZPPPZPZ*ZPPPZPPXZPPPZPZ*",
+      "split": 31,
+      "rhyme_positions": [
+        8,
+        17,
+        30,
+        39,
+        48,
+        61
+      ],
+      "desc": "双调六十二字，上下片各七句四仄韵",
+      "rhyme_type": "仄",
+      "examples": []
+    },
+    {
+      "name": "菩萨蛮",
+      "alias": [
+        "菩萨鬘",
+        "重叠金",
+        "子夜歌"
+      ],
+      "chars": 44,
+      "meter": "XZPPZZPP*XZPPZPPZ*PPXZP*PZZPP*XZPPZZPP*XZPPZPPZ*PPXZP*PZZPP*",
+      "split": 22,
+      "rhyme_positions": [
+        7,
+        14,
+        18,
+        21,
+        29,
+        36,
+        40,
+        43
+      ],
+      "desc": "双调四十四字，上下片两仄韵转两平韵",
+      "rhyme_type": "平仄换",
+      "examples": []
+    },
+    {
+      "name": "清平乐",
+      "alias": [
+        "清平乐令",
+        "醉东风",
+        "忆萝月"
+      ],
+      "chars": 46,
+      "meter": "XPPZ*XPPZZ*XZPPZZPP*ZZPPXZP*XPPZPP*PPXZPZPP*XZPPZZPP*ZZPPXZP*",
+      "split": 22,
+      "rhyme_positions": [
+        4,
+        10,
+        20,
+        22,
+        32,
+        42,
+        45
+      ],
+      "desc": "双调四十六字，上片四仄韵下片三平韵",
+      "rhyme_type": "平仄换",
+      "examples": []
+    },
+    {
+      "name": "鹧鸪天",
+      "alias": [
+        "思佳客",
+        "醉梅花"
+      ],
+      "chars": 55,
+      "meter": "XZPPXZPP*XPPZZPP*PPXZPPXZ*XZPPPZZPP*XZPPZPP*XZPPPZZPP*",
+      "split": 28,
+      "rhyme_positions": [
+        7,
+        14,
+        21,
+        27,
+        34,
+        41,
+        54
+      ],
+      "desc": "双调五十五字，上下片各三平韵",
+      "rhyme_type": "平",
+      "examples": []
+    },
+    {
+      "name": "忆秦娥",
+      "alias": [
+        "秦楼月",
+        "碧云深"
+      ],
+      "chars": 46,
+      "meter": "PPZ*XPPZPPZ*PPZ*PPXZPP*PPZ*XPPZPPZ*PPXZPP*PPZ*XPPZPPZ*",
+      "split": 23,
+      "rhyme_positions": [
+        2,
+        8,
+        11,
+        13,
+        19,
+        22,
+        29,
+        32,
+        41,
+        44
+      ],
+      "desc": "双调四十六字，各五句三仄韵一叠韵",
+      "rhyme_type": "仄",
+      "examples": []
+    },
+    {
+      "name": "点绛唇",
+      "alias": [
+        "点樱桃",
+        "南浦月"
+      ],
+      "chars": 41,
+      "meter": "ZPPP*XPPXPPZ*ZPPP*XPPXPP*ZPPP*ZPPP*XPPXPP*ZPPP*XPPXPP*ZPPP*",
+      "split": 20,
+      "rhyme_positions": [
+        4,
+        10,
+        14,
+        19,
+        23,
+        29,
+        33,
+        40
+      ],
+      "desc": "双调四十一字，仄韵",
+      "rhyme_type": "仄",
+      "examples": []
+    },
+    {
+      "name": "踏莎行",
+      "alias": [
+        "踏雪行",
+        "喜朝天"
+      ],
+      "chars": 58,
+      "meter": "ZPPP*XPPZ*XPPZ*XPPZZPPZ*ZPPP*XPPZ*ZPPP*XPPZ*XPPZ*XPPZZPPZ*ZPPP*XPPZ*",
+      "split": 29,
+      "rhyme_positions": [
+        4,
+        8,
+        12,
+        25,
+        33,
+        37,
+        41,
+        54,
+        57
+      ],
+      "desc": "双调五十八字，各五句三仄韵",
+      "rhyme_type": "仄",
+      "examples": []
+    },
+    {
+      "name": "鹊桥仙",
+      "alias": [
+        "金风玉露"
+      ],
+      "chars": 56,
+      "meter": "XPPZZ*PPXZ*XPPZPPZ*XZZPPZPP*XPPZZPPZ*XPPZZ*PPXZ*XPPZPPZ*XZZPPZPP*XPPZZPPZ*",
+      "split": 28,
+      "rhyme_positions": [
+        5,
+        10,
+        17,
+        27,
+        33,
+        38,
+        45,
+        55
+      ],
+      "desc": "双调五十六字，各五句两仄韵",
+      "rhyme_type": "仄",
+      "examples": []
+    },
+    {
+      "name": "采桑子",
+      "alias": [
+        "丑奴儿",
+        "罗敷媚"
+      ],
+      "chars": 44,
+      "meter": "XPPZZPPZ*PPZZPP*XPPZZPPZ*PPZZPP*XPPZZPPZ*PPZZPP*XPPZZPPZ*PPZZPP*",
+      "split": 22,
+      "rhyme_positions": [
+        7,
+        14,
+        21,
+        29,
+        36,
+        43
+      ],
+      "desc": "双调四十四字，各四句三平韵",
+      "rhyme_type": "平",
+      "examples": []
+    },
+    {
+      "name": "相见欢",
+      "alias": [
+        "乌夜啼",
+        "秋夜月"
+      ],
+      "chars": 36,
+      "meter": "XPPZPP*XPPZPP*ZZP*PPZZPP*PPZZPP*XPPZPP*ZZP*PPZZPP*",
+      "split": 18,
+      "rhyme_positions": [
+        5,
+        11,
+        14,
+        17,
+        23,
+        29,
+        32,
+        35
+      ],
+      "desc": "双调三十六字，上片三平韵下片两仄两平",
+      "rhyme_type": "平仄换",
+      "examples": []
+    },
+    {
+      "name": "浪淘沙",
+      "alias": [
+        "浪淘沙令",
+        "卖花声"
+      ],
+      "chars": 54,
+      "meter": "XZZPP*PPZPP*XPPZZPP*XZPPZPP*XZZPP*PPZPP*XPPZZPP*XZPPZPP*",
+      "split": 27,
+      "rhyme_positions": [
+        4,
+        10,
+        17,
+        26,
+        31,
+        37,
+        44,
+        53
+      ],
+      "desc": "双调五十四字，各四平韵",
+      "rhyme_type": "平",
+      "examples": []
+    },
+    {
+      "name": "生查子",
+      "alias": [
+        "楚云深"
+      ],
+      "chars": 40,
+      "meter": "XPPZZPP*ZZPPZ*XPPZZPP*ZZPPZ*XPPZZPP*ZZPPZ*XPPZZPP*ZZPPZ*",
+      "split": 20,
+      "rhyme_positions": [
+        7,
+        13,
+        27,
+        33
+      ],
+      "desc": "双调四十字，各四句两仄韵",
+      "rhyme_type": "仄",
+      "examples": []
+    },
+    {
+      "name": "破阵子",
+      "alias": [
+        "十拍子"
+      ],
+      "chars": 62,
+      "meter": "ZPPZZ*PPXZPP*PPZZPPXZ*ZPPZZPP*XPPZZPP*ZPPZZ*PPXZPP*PPZZPPXZ*ZPPZZPP*XPPZZPP*",
+      "split": 31,
+      "rhyme_positions": [
+        5,
+        12,
+        24,
+        30,
+        36,
+        43,
+        55,
+        61
+      ],
+      "desc": "双调六十二字，各五句三平韵",
+      "rhyme_type": "平",
+      "examples": []
+    },
+    {
+      "name": "渔家傲",
+      "alias": [
+        "荆溪咏"
+      ],
+      "chars": 62,
+      "meter": "XZPPPZZ*XPPZZPPZ*ZPPXZZ*XZPPZZPPZ*XZPPPZZ*XPPZZPPZ*ZPPXZZ*XZPPZZPPZ*",
+      "split": 31,
+      "rhyme_positions": [
+        6,
+        14,
+        20,
+        30,
+        37,
+        45,
+        51,
+        61
+      ],
+      "desc": "双调六十二字，各五句五仄韵",
+      "rhyme_type": "仄",
+      "examples": []
+    },
+    {
+      "name": "青玉案",
+      "alias": [
+        "横塘路"
+      ],
+      "chars": 67,
+      "meter": "XPPZZPPZ*XZPPPZZ*ZZPPPZZ*XPPZZPPZ*XZPPPZZ*XPPZZPPZ*XZPPPZZ*ZZPPPZZ*XPPZZPPZ*XZPPPZZ*",
+      "split": 33,
+      "rhyme_positions": [
+        8,
+        14,
+        20,
+        28,
+        32,
+        41,
+        47,
+        53,
+        61,
+        66
+      ],
+      "desc": "双调六十七字，各六句五仄韵",
+      "rhyme_type": "仄",
+      "examples": []
+    },
+    {
+      "name": "醉花阴",
+      "alias": [
+        "醉春风"
+      ],
+      "chars": 52,
+      "meter": "ZPPZZPPZ*XZPPZ*XPPZZPP*ZZPPZ*XPPZ*ZPPZZPPZ*XZPPZ*XPPZZPP*ZZPPZ*XPPZ*",
+      "split": 26,
+      "rhyme_positions": [
+        7,
+        12,
+        19,
+        25,
+        33,
+        38,
+        45,
+        51
+      ],
+      "desc": "双调五十二字，各五句三仄韵",
+      "rhyme_type": "仄",
+      "examples": []
+    },
+    {
+      "name": "一剪梅",
+      "alias": [
+        "腊梅香"
+      ],
+      "chars": 60,
+      "meter": "XZPPPZZPP*ZZPPPZZPP*XPPZZPP*XPPZZPP*XZPPPZZPP*XZPPPZZPP*ZZPPPZZPP*XPPZZPP*XPPZZPP*XZPPPZZPP*",
+      "split": 30,
+      "rhyme_positions": [
+        9,
+        19,
+        25,
+        29,
+        39,
+        49,
+        59
+      ],
+      "desc": "双调六十字，各六句三平韵",
+      "rhyme_type": "平",
+      "examples": []
+    },
+    {
+      "name": "南乡子",
+      "alias": [
+        "好离乡"
+      ],
+      "chars": 56,
+      "meter": "ZZPPP*XZPP*ZPPZPP*XPPZZPP*XZPPPZZPP*ZZPPP*XZPP*ZPPZPP*XPPZZPP*XZPPPZZPP*",
+      "split": 28,
+      "rhyme_positions": [
+        4,
+        9,
+        15,
+        21,
+        27,
+        32,
+        37,
+        43,
+        49,
+        55
+      ],
+      "desc": "双调五十六字，各五句四平韵",
+      "rhyme_type": "平",
+      "examples": []
+    },
+    {
+      "name": "八声甘州",
+      "alias": [
+        "甘州",
+        "潇潇雨"
+      ],
+      "chars": 97,
+      "meter": "ZPPXZZPPP*PPZZPP*ZPPPZ*ZPPZZ*PPZZPP*PPZZPP*ZPPZZ*XZZPP*ZPPPZZPPP*ZZPPZZ*",
+      "split": 39,
+      "rhyme_positions": [
+        8,
+        14,
+        19,
+        25,
+        31,
+        39,
+        46,
+        51,
+        59,
+        69,
+        77,
+        87,
+        93
+      ],
+      "desc": "双调九十七字，各四平韵",
+      "rhyme_type": "平",
+      "examples": []
+    },
+    {
+      "name": "雨霖铃",
+      "alias": [
+        "雨霖铃慢"
+      ],
+      "chars": 103,
+      "meter": "PPPZ*XZZPP*ZZPPZ*XPPZPP*XZPPZZPZ*PPPZ*PPZPPPZ*ZZPPZPPPZ*XZZPP*XPPZZPP*PPZPPZZPP*PPZ*XPPPZ*PPPZ*PPZPPZ*",
+      "split": 51,
+      "rhyme_positions": [
+        4,
+        10,
+        15,
+        27,
+        32,
+        41,
+        50,
+        57,
+        67,
+        77,
+        83,
+        90,
+        96,
+        102
+      ],
+      "desc": "双调一百三字，各五仄韵",
+      "rhyme_type": "仄",
+      "examples": []
+    }
+  ],
+  "qupai": [
+    {
+      "name": "天净沙",
+      "alias": [],
+      "chars": 28,
+      "meter": "XPPZZPP*XPPZZPP*ZZPPZZ*XPPZPP*XPPZZPP*",
+      "rhyme_positions": [
+        6,
+        12,
+        18,
+        22,
+        27
+      ],
+      "desc": "单调二十八字，五句四平韵一叶韵（北曲越调）",
+      "rhyme_type": "平仄通",
+      "examples": [
+        [
+          "枯藤老树昏鸦",
+          "小桥流水人家",
+          "古道西风瘦马"
+        ]
+      ]
+    },
+    {
+      "name": "沉醉东风",
+      "alias": [],
+      "chars": 40,
+      "meter": "XZZPPPZZ*PPPZZPP*ZZPPPZ*PPPZZ*XPPPZZPP*XZZPPPZZ*PPPZZPP*",
+      "rhyme_positions": [
+        7,
+        14,
+        19,
+        24,
+        33,
+        40
+      ],
+      "desc": "双调，七句三仄韵三叶一平韵",
+      "rhyme_type": "平仄通",
+      "examples": []
+    },
+    {
+      "name": "山坡羊",
+      "alias": [],
+      "chars": 44,
+      "meter": "PPPZ*PPPZ*XPPZZPPZ*ZPP*PZZPP*XPPZZPPZ*PPPZ*PPPZ*XPPZZPPZ*",
+      "rhyme_positions": [
+        4,
+        9,
+        19,
+        22,
+        27,
+        34,
+        39,
+        43
+      ],
+      "desc": "中吕，十一句九韵（含平仄韵通叶）",
+      "rhyme_type": "平仄通",
+      "examples": []
+    },
+    {
+      "name": "水仙子",
+      "alias": [
+        "凌波仙",
+        "湘妃怨",
+        "冯夷曲"
+      ],
+      "chars": 42,
+      "meter": "XPPZZPP*PPPZZPP*XPPZZPPZ*XZZPPPZ*PPPZZPP*PPPZZPP*XZZPPPZ*",
+      "rhyme_positions": [
+        7,
+        14,
+        21,
+        26,
+        32,
+        38
+      ],
+      "desc": "双调，八句七韵（三平韵一叶韵三平韵）",
+      "rhyme_type": "平仄通",
+      "examples": []
+    },
+    {
+      "name": "折桂令",
+      "alias": [
+        "秋风第一枝",
+        "天香引",
+        "蟾宫曲"
+      ],
+      "chars": 52,
+      "meter": "XPPZZPP*ZPPZZPP*ZZPPP*ZPPZZPP*XPPZZPPP*XPPZZPPP*ZZPPPZ*ZPPZZPP*",
+      "rhyme_positions": [
+        7,
+        15,
+        20,
+        26,
+        36,
+        46,
+        52
+      ],
+      "desc": "双调，十一句七韵",
+      "rhyme_type": "平仄通",
+      "examples": []
+    },
+    {
+      "name": "落梅风",
+      "alias": [
+        "寿阳曲"
+      ],
+      "chars": 27,
+      "meter": "PPPZ*PPZ*PPPZZPPZ*PPPZZPPZ*PPPZ*",
+      "rhyme_positions": [
+        4,
+        7,
+        18,
+        27
+      ],
+      "desc": "双调，五句四仄韵一平韵三叶韵",
+      "rhyme_type": "平仄通",
+      "examples": []
+    },
+    {
+      "name": "小桃红",
+      "alias": [
+        "武陵春",
+        "采莲曲"
+      ],
+      "chars": 42,
+      "meter": "XPPZZPP*PPPZZPP*ZZPPPZ*ZPP*XPPZZPPPZ*PPPZZPP*",
+      "rhyme_positions": [
+        7,
+        14,
+        20,
+        24,
+        32,
+        42
+      ],
+      "desc": "越调，八句六韵（平）",
+      "rhyme_type": "平",
+      "examples": []
+    },
+    {
+      "name": "凭阑人",
+      "alias": [],
+      "chars": 24,
+      "meter": "XZPPPZZP*XPPZZPP*XPPZZPP*XZPPPZZP*",
+      "rhyme_positions": [
+        8,
+        15,
+        20,
+        24
+      ],
+      "desc": "越调，四句四平韵",
+      "rhyme_type": "平",
+      "examples": []
+    },
+    {
+      "name": "塞鸿秋",
+      "alias": [],
+      "chars": 43,
+      "meter": "XPPZZPPZ*XPPZZPPZ*XPPZZPPZ*XPPZZPPZ*XPPZZPP*",
+      "rhyme_positions": [
+        7,
+        14,
+        21,
+        28,
+        42
+      ],
+      "desc": "正宫，七句六仄韵",
+      "rhyme_type": "仄",
+      "examples": []
+    },
+    {
+      "name": "叨叨令",
+      "alias": [],
+      "chars": 43,
+      "meter": "XPPZZPPZ*XPPZZPPZ*XPPZZPPZ*XPPZZPPZ*PPZZPPZ*",
+      "rhyme_positions": [
+        7,
+        14,
+        21,
+        28,
+        42
+      ],
+      "desc": "正宫，七句五仄韵或六仄韵",
+      "rhyme_type": "仄",
+      "examples": []
+    },
+    {
+      "name": "红绣鞋",
+      "alias": [
+        "朱履曲"
+      ],
+      "chars": 36,
+      "meter": "XZZPPPZZ*XPPZZPP*PPPZZPP*ZZPPZPP*XPPZZPP*",
+      "rhyme_positions": [
+        7,
+        14,
+        20,
+        27,
+        36
+      ],
+      "desc": "中吕，六句四韵（三平一仄）",
+      "rhyme_type": "平仄通",
+      "examples": []
+    },
+    {
+      "name": "朝天子",
+      "alias": [],
+      "chars": 44,
+      "meter": "ZP*ZP*XZPPPZ*XZZPPPZ*ZZPPPZ*ZPPPZ*XPPZZPP*XZPPPZ*ZPPPZ*",
+      "rhyme_positions": [
+        2,
+        5,
+        11,
+        17,
+        22,
+        27,
+        34,
+        40,
+        44
+      ],
+      "desc": "中吕，十一句九韵（平仄通）",
+      "rhyme_type": "平仄通",
+      "examples": []
+    },
+    {
+      "name": "四块玉",
+      "alias": [],
+      "chars": 29,
+      "meter": "ZZP*PPZ*XZZPPPZ*XZZPPPZZ*ZZP*PPPZ*",
+      "rhyme_positions": [
+        3,
+        6,
+        14,
+        20,
+        23,
+        28
+      ],
+      "desc": "南吕，七句五韵",
+      "rhyme_type": "平仄通",
+      "examples": []
+    },
+    {
+      "name": "快活三",
+      "alias": [],
+      "chars": 22,
+      "meter": "XPPZZPP*XPPZZPP*XPPZZPP*XPPZZPP*",
+      "rhyme_positions": [
+        7,
+        14,
+        22
+      ],
+      "desc": "中吕，四句四韵",
+      "rhyme_type": "平",
+      "examples": []
+    },
+    {
+      "name": "庆东原",
+      "alias": [],
+      "chars": 40,
+      "meter": "PPPZ*PPPZ*XPPZZPPPZ*XPPZZPPPZ*ZZPPPZ*XZZPPPZ*",
+      "rhyme_positions": [
+        4,
+        8,
+        19,
+        29,
+        34,
+        40
+      ],
+      "desc": "双调，八句六韵（仄）",
+      "rhyme_type": "仄",
+      "examples": []
+    }
+  ]
+}

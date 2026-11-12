@@ -1,0 +1,104 @@
+[
+  {
+    "id": "SuShi_ShuiDiaoGeTou",
+    "cipai": "水调歌头",
+    "title": "明月几时有",
+    "author": "苏轼",
+    "dynasty": "北宋",
+    "year": "1076",
+    "background": "丙辰中秋，苏轼在密州任上，与弟苏辙七年未见。通宵畅饮大醉后作此词，兼怀子由。",
+    "text": "明月几时有，把酒问青天。不知天上宫阙，今夕是何年。我欲乘风归去，又恐琼楼玉宇，高处不胜寒。起舞弄清影，何似在人间。转朱阁，低绮户，照无眠。不应有恨，何事长向别时圆。人有悲欢离合，月有阴晴圆缺，此事古难全。但愿人长久，千里共婵娟。",
+    "theme": "旷达超脱",
+    "vernacular": "【今译】\n皎洁的明月从何时开始照耀人间？我端起酒杯，向苍天发问。不知天上那座仙宫，今夜是哪一年？我想驾着清风回到天上，又怕那美玉砌成的楼宇太高，受不住那份彻骨清寒。在月光下翩然起舞，清影随人摇曳，天上又怎能比得上人间的温暖？\n\n月儿转过朱红楼阁，低低照进雕花窗棂，照着辗转难眠的人。明月不该有什么怨恨吧，为何偏偏在人们别离时才格外圆？人生有悲欢离合的变迁，月亮有阴晴圆缺的轮转，这种事自古以来就难以周全。只愿各自珍重，虽然相隔千里，也能共享这美好的月光。",
+    "english": "How long will the full moon appear?\nWine cup in hand, I ask the sky.\nI do not know in the celestial sphere\nWhat year this night would be, high.\nI long to ride the wind and fly up there,\nYet fear those crystal palaces so high\nWould be too cold for me to bear.\nI rise and dance, with my shadow playing —\nHow can it compare with the human world staying!\n\nRound the red pavilion, past the silk-screened door,\nIt shines upon the sleepless one.\nThe moon should bear no grudge, why then\nDoes it turn full when loved ones are apart?\nMen have joys and sorrows, meetings and partings;\nThe moon has wax and wane, bright and dark.\nThis has never been perfect since old times.\nMay we all be blessed with long life,\nThough a thousand miles apart, we share the moon's grace.",
+    "structure": [
+      ["起（上片前半）", "把酒问天，欲归又恐。从「明月几时有」破空而来，把对宇宙的追问与人生的困惑融为一体，化用李白「青天有月来几时，我今停杯一问之」，又加上了自己的超旷。"],
+      ["承（上片后半）", "「起舞弄清影」一转，从天上回到人间。与其贪恋高寒仙境，不如珍惜眼前人境，这是苏轼的通透——入世而不逃避。"],
+      ["转（下片前半）", "月光移过朱阁绮户，照见无眠之人。责问明月「何事长向别时圆」，无理而妙，把离愁都寄在这一质问中。"],
+      ["合（下片收尾）", "「人有悲欢离合」一句自解，以理遣情，最后「千里共婵娟」转出大境界：一己之离愁化为普世的祝愿，成为千古中秋绝唱。"]
+    ],
+    "appreciation": "此词是中秋词的千古绝唱。胡仔《苕溪渔隐丛话》云：「中秋词自东坡《水调歌头》一出，余词尽废。」其妙在三：一是问天、问月、问人生，把宇宙意识与人间深情打成一片；二是情感跌宕，想出世又眷恋人间，怨月圆又自解圆缺，起落自然；三是结句「但愿人长久，千里共婵娟」超越一己之愁，升华为对天下离人的美好祝愿，情怀之大、境界之高，两宋无两。"
+  },
+  {
+    "id": "SuShi_NianNuJiao",
+    "cipai": "念奴娇",
+    "title": "大江东去",
+    "author": "苏轼",
+    "dynasty": "北宋",
+    "year": "1082",
+    "background": "元丰五年，苏轼因乌台诗案贬黄州已两年，游黄冈赤壁矶（并非三国古战场），借周瑜事迹，抒发人生感慨。",
+    "text": "大江东去，浪淘尽，千古风流人物。故垒西边，人道是，三国周郎赤壁。乱石穿空，惊涛拍岸，卷起千堆雪。江山如画，一时多少豪杰。遥想公瑾当年，小乔初嫁了，雄姿英发。羽扇纶巾，谈笑间，樯橹灰飞烟灭。故国神游，多情应笑我，早生华发。人生如梦，一尊还酹江月。",
+    "theme": "豪放壮阔",
+    "vernacular": "【今译】\n长江滚滚向东流去，滔滔巨浪淘尽了千古以来的英雄人物。旧时营垒的西边，人们说那就是三国时周瑜大破曹军的赤壁。陡峭的乱石插入云霄，惊涛骇浪拍击江岸，卷起千万堆白雪般的浪花。江山壮美如画，一时间涌现出多少英雄豪杰。\n\n遥想当年的周公瑾，小乔刚刚嫁过来，他英姿勃发，手执羽扇，头戴纶巾，谈笑之间就把曹军的战船烧得灰飞烟灭。神游故国战场，应该笑我太多愁善感，以致过早生出了白发。人生如梦，且洒一杯酒祭奠江上的明月吧。",
+    "english": "The great river surges eastward;\nIts waves have washed away\nAll the heroes of a thousand years.\nWest of the ancient fortress, they say,\nIs the Red Cliff where young Zhou Yu\nFought in the Three Kingdoms' days.\nJagged rocks pierce the clouds,\nThunderous waves beat the shore,\nRolling up a thousand drifts of snow.\nMountains and rivers like a painting —\nHow many heroes once rose here!\n\nI think back to Gongjin in those years:\nJust married to the fair Xiao Qiao,\nValiant and bright, feather fan in hand,\nSilk-capped, with a laugh he turned\nThe enemy's masts and hulls to ash and smoke.\nWandering in spirit through that old kingdom,\nLet them laugh at me for being so sentimental —\nMy hair has turned white too soon.\nLife is but a dream;\nLet me pour a cup to the river moon.",
+    "structure": [
+      ["起", "「大江东去」四字开篇，如万丈洪峰破空而来，把千古兴亡尽付江流，奠定全词豪放基调。"],
+      ["承", "点出赤壁、周瑜，接着用「乱石穿空，惊涛拍岸，卷起千堆雪」三句写景，江山形胜与历史硝烟相映。"],
+      ["转", "「遥想公瑾当年」转入怀古，着力刻画周瑜少年得志、从容破敌的儒将形象，与自己贬谪失意形成对照。"],
+      ["合", "「多情应笑我，早生华发」一跌，由历史回到自身，但并不消沉，以「一尊还酹江月」收束，悲凉中见超旷。"]
+    ],
+    "appreciation": "这首词是豪放词的开山之作。俞文豹《吹剑录》载，东坡问幕士：「我词何如柳七？」对曰：「柳郎中词，只合十七八女孩儿，执红牙板，歌『杨柳岸晓风残月』；学士词，须关西大汉，执铁板，唱『大江东去』。」公为之绝倒。词中由景及史，由史及己，最后以江月作结，人生感慨苍凉而不颓丧，正是东坡词的高妙处。"
+  },
+  {
+    "id": "LiQingzhao_ShengShengMan",
+    "cipai": "声声慢",
+    "title": "寻寻觅觅",
+    "author": "李清照",
+    "dynasty": "南宋",
+    "year": "约1151",
+    "background": "靖康之变后，李清照国破家亡夫死，流寓金华，晚景凄凉，作此词。通篇押入声韵，如泣如诉。",
+    "text": "寻寻觅觅，冷冷清清，凄凄惨惨戚戚。乍暖还寒时候，最难将息。三杯两盏淡酒，怎敌他、晚来风急。雁过也，正伤心，却是旧时相识。满地黄花堆积，憔悴损，如今有谁堪摘。守着窗儿，独自怎生得黑。梧桐更兼细雨，到黄昏、点点滴滴。这次第，怎一个愁字了得。",
+    "theme": "悲慨沉郁",
+    "vernacular": "【今译】\n苦苦地寻寻觅觅，却只寻到一片冷冷清清，接着就是无尽的凄惨、忧愁和悲戚。忽暖忽冷的时节，最难调养身体。喝三两杯淡酒，又怎能抵挡住傍晚的寒风？大雁飞过时，我正伤心，细看它们却是旧时相识。\n\n满地的黄花堆积枝头，如今憔悴零落，还有什么可摘的呢？守着窗儿独坐，怎么才能熬到天黑？梧桐叶上又落着细雨，到黄昏时分，一点一滴。这般情景，又岂是一个「愁」字所能概括？",
+    "english": "Seek, seek; search, search;\nCold, cold; bare, bare;\nGrief, grief; cruel, cruel grief;\nSad, sad; sick, sick; distressed, distressed;\nNow warm, then suddenly cold —\nSuch weather tries one hardest to rest.\nTwo or three cups of weak wine —\nHow can they fend off\nThe sharp evening wind?\nWild geese pass by;\nThey wound my heart —\nOld acquaintances of days gone by.\n\nChrysanthemums pile all over the ground,\nWithered and worn;\nWho is there now to pluck them?\nAlone by the window,\nHow can I endure till dark?\nOn the wutong leaves a fine rain drips,\nDrip, drip, drop, drop at dusk.\nAt such a moment —\nHow can one word \"sorrow\" say it all?",
+    "structure": [
+      ["起", "开篇十四叠字「寻寻觅觅，冷冷清清，凄凄惨惨戚戚」，由行动而环境而心境，层层递进，为千古创格。"],
+      ["承", "乍暖还寒、淡酒晚风、过雁，层层渲染秋寒与孤寂，把一个「愁」字从外部渗入骨髓。"],
+      ["转", "下片转入眼前景物：满地黄花、窗前独守、梧桐细雨，由远景收为近景，由身外转入内心。"],
+      ["合", "「这次第，怎一个愁字了得」，不是收束，是喷涌——千言万语说不尽，一个「愁」字太轻，全词在哽咽中戛然而止。"]
+    ],
+    "appreciation": "这首词是李清照晚年的代表作，也是婉约词中愁绪写得最沉痛的一首。开篇十四叠字，前无古人：张端义《贵耳集》评曰：「此乃公孙大娘舞剑手，本朝非无能词之士，未曾有一下十四叠字者。」全词押入声韵（觅/戚/息/急/识/积/摘/黑/滴/得），入声字短促哽咽，读来如泣如诉，非普通愁怀，是经历了国破家亡之后沉积的沉痛。"
+  },
+  {
+    "id": "XinQiji_QingYuAn",
+    "cipai": "青玉案",
+    "title": "东风夜放花千树",
+    "author": "辛弃疾",
+    "dynasty": "南宋",
+    "year": "约1170",
+    "background": "元宵佳节，辛弃疾罢官居上饶，作此词寄托政治失意后不肯随波逐流的品格。",
+    "text": "东风夜放花千树，更吹落、星如雨。宝马雕车香满路。凤箫声动，玉壶光转，一夜鱼龙舞。蛾儿雪柳黄金缕，笑语盈盈暗香去。众里寻他千百度，蓦然回首，那人却在，灯火阑珊处。",
+    "theme": "清雅禅意",
+    "vernacular": "【今译】\n像是东风在夜里吹开了千树繁花，又吹得焰火坠落，像繁星如雨。骏马雕车驶来，满路芳香。凤箫声起，明月流转，鱼灯龙灯彻夜舞动。\n\n贵妇们头戴蛾儿雪柳、金丝缕饰，笑语盈盈，暗香飘过。我在人群中千百次地寻找那人，忽然回头，她却独立在灯火稀落之处。",
+    "english": "The east wind at night blooms a thousand trees of flowers,\nAnd blows down stars like showers of rain.\nFine horses and carved carriages fill the road with scent.\nPhoenix flutes resound,\nThe jade pot of moon turns,\nFish and dragon lanterns dance all night.\n\nMoth ornaments, willow pins, golden threads,\nLaughter and faint fragrance drift away.\nIn the crowd I seek her a thousand times;\nSuddenly I turn my head,\nAnd there she stands\nWhere the lantern light is fading.",
+    "structure": [
+      ["起", "上片极力渲染元宵灯会的繁华：花千树、星如雨、宝马雕车、凤箫鱼龙，铺陈出火树银花的盛景。"],
+      ["承", "下片前半写游女如云，蛾儿雪柳、笑语盈盈，繁华到了极致——为最后的「那人」作反衬。"],
+      ["转", "「众里寻他千百度」一句陡转，从热闹场中抽身，写出寻找的执着与焦急。"],
+      ["合", "「蓦然回首，那人却在，灯火阑珊处」——不写欢聚，写孤高自赏的背影，王国维以为古今成大事业者第三境，妙在繁华落尽处见真意。"]
+    ],
+    "appreciation": "梁启超评此词：「自怜幽独，伤心人别有怀抱。」词的表层写元宵寻人，深层是辛弃疾自况——不肯趋炎附势、甘守寂寞的品格，正寄托在灯火阑珊处那个独立身影上。结句成为千古名句，王国维《人间词话》借它喻为人生三境界之最高境：经过千回百折的追寻，才在不经意处得见真谛。"
+  },
+  {
+    "id": "LiYu_YuMeiRen",
+    "cipai": "虞美人",
+    "title": "春花秋月何时了",
+    "author": "李煜",
+    "dynasty": "南唐",
+    "year": "978",
+    "background": "李煜国亡被俘入宋，囚禁汴京，七夕作此词。宋太宗闻之大怒，赐牵机药，此词遂成绝笔。",
+    "text": "春花秋月何时了，往事知多少。小楼昨夜又东风，故国不堪回首月明中。雕栏玉砌应犹在，只是朱颜改。问君能有几多愁，恰似一江春水向东流。",
+    "theme": "悲慨沉郁",
+    "vernacular": "【今译】\n春花秋月的美景什么时候才能完结？往事又记得多少。昨夜小楼上又吹来了东风，在这明亮的月光下，故国实在令人不忍回首。\n\n雕花栏杆、玉石台阶应该还在，只是人的容颜已改。问你心中有多少愁？正像那一江春水，滔滔滚滚向东流去。",
+    "english": "When will the spring flowers and autumn moon end?\nHow much of the past can one recall?\nLast night east wind came again to my little tower;\nIn the bright moonlight I cannot bear to look back\nToward my lost kingdom.\n\nCarved railings and marble steps must still be there —\nOnly the fair faces have changed.\nAsk me how much sorrow I can hold?\nIt is like a river of spring water,\nFlowing eastward, endlessly, endlessly.",
+    "structure": [
+      ["起", "「春花秋月何时了」起得奇崛，以乐景发问，美景反而成了折磨——因为往事太多，美景越盛，愁越深。"],
+      ["承", "「小楼昨夜又东风」实写眼前，东风又起一年过去，「又」字写出囚居中时间的钝痛。"],
+      ["转", "「雕栏玉砌应犹在」由眼前转入想象：故国宫殿犹在，只是朱颜改——物是人非。"],
+      ["合", "「问君能有几多愁，恰似一江春水向东流」，以水喻愁，把抽象的愁化为奔涌不息的江流，成为千古写愁第一名句。"]
+    ],
+    "appreciation": "这首词是李煜的绝命词，也是词史上写亡国之痛最深沉的作品。其绝妙在于不事雕饰，纯以白描直抒胸臆，把一个亡国之君的悲慨化为普世性的愁绪——那种美好逝去不再来的怅惘，人人都能感受。王闿运评：「常语耳，以初见故佳。」看似家常话，实则是血泪凝成。"
+  }
+]
+echo "先写5首深度精读，继续..."
+wc -l scripts/ci_deep.json

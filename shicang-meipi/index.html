@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>诗话眉批 · 诗藏本体论</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;900&family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#f8f1e4;font-family:"Noto Serif SC","STSong",serif;color:#2c1810;min-height:100vh}
+.top{max-width:1200px;margin:0 auto;padding:24px 28px;border-bottom:1px solid #d4c5a0}
+.top h1{font-size:32px;font-weight:900;color:#2c1810;letter-spacing:4px}
+.top h1 span{color:#8B3A2F;margin:0 12px;font-family:"Ma Shan Zheng",serif}
+.top .sub{color:#6b5d48;margin-top:6px;font-size:14px}
+.controls{max-width:1200px;margin:0 auto;padding:14px 28px;display:flex;gap:10px;flex-wrap:wrap;border-bottom:1px solid #e4d8c0;background:rgba(255,250,235,.5)}
+.controls .tab{padding:6px 18px;border:1px solid #c9b896;border-radius:4px;background:#fdfaf2;cursor:pointer;font-size:14px;color:#6b5d48}
+.controls .tab.active{background:#8B3A2F;color:#fff;border-color:#8B3A2F}
+.controls input{border:1px solid #c9b896;border-radius:4px;padding:8px 12px;background:#fdfaf2;font-family:inherit;font-size:14px;width:320px}
+.controls .back{padding:6px 16px;background:#8B3A2F;color:#fdf6e3;border-radius:4px;text-decoration:none;font-size:14px;margin-left:auto}
+.main{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:280px 1fr;gap:20px;padding:20px 28px}
+.book-list{background:#fdf6e3;border:1px solid #d4c5a0;border-radius:6px;padding:14px;max-height:calc(100vh - 200px);overflow-y:auto}
+.book-list h3{font-size:15px;color:#8B3A2F;margin-bottom:10px;padding-bottom:8px;border-bottom:1px solid #e4d8c0}
+.book-list .bi{padding:7px 10px;margin:2px 0;border-radius:4px;cursor:pointer;font-size:13px;color:#4a3828;display:flex;justify-content:space-between}
+.book-list .bi:hover{background:#f4ead0}
+.book-list .bi.active{background:#8B3A2F;color:#fff}
+.book-list .bi .cnt{font-size:11px;color:#8B3A2F}
+.book-list .bi.active .cnt{color:#f4d8a8}
+.content{}
+.card{background:#fdfaf2;border-left:4px solid #c04838;border-radius:0 6px 6px 0;padding:18px 24px;margin-bottom:12px;position:relative}
+.card .src{font-size:12px;color:#8B3A2F;margin-bottom:8px;font-weight:600}
+.card .tgt{display:inline-block;background:#f4d8a8;color:#5a3a1f;padding:2px 8px;border-radius:3px;font-size:12px;margin-left:8px}
+.card .txt{font-size:15px;line-height:1.9;color:#2c1810}
+.pager{display:flex;justify-content:center;gap:10px;padding:16px 0}
+.pager button{padding:6px 16px;border:1px solid #c9b896;background:#fdf6e3;border-radius:4px;cursor:pointer;font-family:inherit}
+.pager span{padding:6px 12px;color:#6b5d48}
+@media(max-width:900px){.main{grid-template-columns:1fr}.book-list{max-height:240px}}
+</style>
+</head>
+<body>
+<div class="top"><h1>诗<span>·</span>话眉批</h1><div class="sub">历代评点 · 313 部诗话词话 · 5001 条眉批评点</div></div>
+<div class="controls">
+  <a href="../index.html" class="back">← 返回诗藏</a>
+  <button class="tab active" onclick="switchType('all',this)">全部</button>
+  <button class="tab" onclick="switchType('shihua',this)">诗话</button>
+  <button class="tab" onclick="switchType('cihua',this)">词话</button>
+  <input type="text" id="search" placeholder="搜索诗人/评论原文/出处...">
+</div>
+<div class="main">
+  <div class="book-list" id="bookList"></div>
+  <div class="content">
+    <div id="listArea"></div>
+    <div class="pager"><button id="prev">上一页</button><span id="pageInfo"></span><button id="next">下一页</button></div>
+  </div>
+</div>
+<script src="meipi_data.js"></script>
+<script>
+let curBook='all', curType='all', page=1, pageSize=20;
+const ann=MP_DATA.annotations, byBook=MP_DATA.byBook;
+const books=Object.keys(byBook).sort((a,b)=>byBook[b].length-byBook[a].length);
+function renderBooks(){
+  let h='<h3>诗话词话（'+books.length+'部）</h3><div class="bi '+(curBook==='all'?'active':'')+'" onclick="sel(\'all\')">全部<span class="cnt">'+ann.length+'</span></div>';
+  books.forEach(b=>{h+='<div class="bi '+(curBook===b?'active':'')+'" onclick="sel(\''+b.replace(/'/g,"\\'")+'\')">'+b+'<span class="cnt">'+byBook[b].length+'</span></div>'});
+  document.getElementById('bookList').innerHTML=h;
+}
+function getList(){
+  let list=curBook==='all'?ann:byBook[curBook]||[];
+  if(curType!=='all') list=list.filter(a=>a.type===curType);
+  const q=document.getElementById('search').value.trim();
+  if(q) list=list.filter(a=>(a.target||'').includes(q)||(a.content||'').includes(q)||(a.source||'').includes(q));
+  return list;
+}
+function render(){
+  const list=getList();
+  const total=Math.ceil(list.length/pageSize);
+  if(page>total)page=total;if(page<1)page=1;
+  const items=list.slice((page-1)*pageSize,page*pageSize);
+  let h='';
+  items.forEach(a=>{
+    h+='<div class="card"><div class="src">'+a.source+(a.target&&a.target!=='诗词'?'<span class="tgt">论'+a.target+'</span>':'')+'</div><div class="txt">'+a.content+'</div></div>';
+  });
+  if(!items.length) h='<div class="card"><div class="txt" style="text-align:center;color:#8a7560;padding:20px">未找到</div></div>';
+  document.getElementById('listArea').innerHTML=h;
+  document.getElementById('pageInfo').textContent='第 '+page+'/'+Math.max(total,1)+' 页 · 共 '+list.length+' 条';
+  document.getElementById('prev').disabled=page<=1;
+  document.getElementById('next').disabled=page>=total;
+}
+function sel(b){curBook=b;page=1;renderBooks();render();}
+function switchType(t,btn){curType=t;page=1;document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));btn.classList.add('active');render();}
+document.getElementById('search').addEventListener('input',()=>{page=1;render();});
+document.getElementById('prev').onclick=()=>{page--;render();window.scrollTo(0,0)};
+document.getElementById('next').onclick=()=>{page++;render();window.scrollTo(0,0)};
+renderBooks();render();
+</script>
+</body>
+</html>

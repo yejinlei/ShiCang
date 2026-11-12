@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>辞赋精读 · 诗藏本体论</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;900&family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#f6efe8;font-family:"Noto Serif SC","STSong",serif;color:#2c1810;min-height:100vh}
+.top{max-width:1200px;margin:0 auto;padding:24px 28px;border-bottom:1px solid #d4c5a0}
+.top h1{font-size:32px;font-weight:900;color:#2c1810;letter-spacing:4px}
+.top h1 span{color:#2E6B4F;margin:0 12px;font-family:"Ma Shan Zheng",serif}
+.top .sub{color:#6b5d48;margin-top:6px;font-size:14px}
+.controls{max-width:1200px;margin:0 auto;padding:14px 28px;display:flex;gap:10px;flex-wrap:wrap;border-bottom:1px solid #e4d8c0;background:rgba(255,250,235,.5)}
+.controls .tab{padding:6px 18px;border:1px solid #c9b896;border-radius:4px;background:#fdfaf2;cursor:pointer;font-size:14px;color:#6b5d48}
+.controls .tab.active{background:#2E6B4F;color:#fff;border-color:#2E6B4F}
+.controls input{border:1px solid #c9b896;border-radius:4px;padding:8px 12px;background:#fdfaf2;font-family:inherit;font-size:14px;width:260px}
+.controls .back{padding:6px 16px;background:#8B3A2F;color:#fdf6e3;border-radius:4px;text-decoration:none;font-size:14px;margin-left:auto}
+.content{max-width:1200px;margin:0 auto;padding:24px 28px}
+.card{background:#fdfaf2;border:1px solid #d4c5a0;border-radius:6px;padding:24px 32px;margin-bottom:18px;position:relative;transition:all .2s}
+.card:hover{box-shadow:0 4px 16px rgba(139,58,47,.1);transform:translateY(-2px)}
+.card::after{content:"辞";position:absolute;top:12px;right:16px;font-family:"Ma Shan Zheng",serif;color:#b8d0c0;font-size:22px;opacity:.5}
+.card.hanfu::after{content:"赋";color:#d0b8a0}
+.card .title-line{font-size:15px;color:#2E6B4F;margin-bottom:10px}
+.card.hanfu .title-line{color:#8B5A2B}
+.card .text{font-size:18px;line-height:2.4;color:#2c1810;letter-spacing:2px}
+.card .xi{color:#2E6B4F;font-weight:600}
+.card .src{margin-top:10px;font-size:12px;color:#8a7560;text-align:right}
+.pager{display:flex;justify-content:center;gap:10px;padding:16px 0}
+.pager button{padding:6px 16px;border:1px solid #c9b896;background:#fdf6e3;border-radius:4px;cursor:pointer;font-family:inherit}
+.pager span{padding:6px 12px;color:#6b5d48}
+@media(max-width:768px){.card{padding:18px}.card .text{font-size:16px}}
+</style>
+</head>
+<body>
+<div class="top"><h1>辞<span>·</span>赋精读</h1><div class="sub">楚辞骚体 · 汉赋骈文 · 7190 段辞赋原文</div></div>
+<div class="controls">
+  <a href="../index.html" class="back">← 返回诗藏</a>
+  <button class="tab active" onclick="switchTab('chuci',this)">楚辞（骚体）</button>
+  <button class="tab" onclick="switchTab('hanfu',this)">汉赋（骈体）</button>
+  <input type="text" id="search" placeholder="搜索正文 / 出处...">
+</div>
+<div class="content">
+  <div id="listArea"></div>
+  <div class="pager"><button id="prev">上一页</button><span id="pageInfo"></span><button id="next">下一页</button></div>
+</div>
+<script src="cf_data.js"></script>
+<script>
+let curTab='chuci', page=1, pageSize=20;
+function getData(){
+  const list = curTab==='chuci'?CF_DATA.chuci:CF_DATA.hanfu;
+  const q=document.getElementById('search').value.trim();
+  if(q) return list.filter(w=>(w.text||'').includes(q)||(w.source||'').includes(q));
+  return list;
+}
+function render(){
+  const list=getData();
+  const total=Math.ceil(list.length/pageSize);
+  if(page>total)page=total;if(page<1)page=1;
+  const items=list.slice((page-1)*pageSize,page*pageSize);
+  let html='';
+  items.forEach(w=>{
+    const text=(w.text||'').slice(0,100);
+    const isHanfu=curTab==='hanfu';
+    // 给"兮"字加颜色
+    let disp=text.replace(/兮/g,'<span class="xi">兮</span>');
+    html+='<div class="card'+(isHanfu?' hanfu':'')+'">'+
+      '<div class="title-line">'+(isHanfu?'【赋】':'【骚】')+' '+w.source+'</div>'+
+      '<div class="text">'+disp+'</div>'+
+      '<div class="src">'+(w.type||'')+' · 约 '+w.chars+' 字'+'</div></div>';
+  });
+  if(!items.length) html='<div class="card"><div class="text" style="text-align:center;color:#8a7560">未找到</div></div>';
+  document.getElementById('listArea').innerHTML=html;
+  document.getElementById('pageInfo').textContent='第 '+page+'/'+Math.max(total,1)+' 页 · 共 '+list.length+' 段';
+  document.getElementById('prev').disabled=page<=1;
+  document.getElementById('next').disabled=page>=total;
+}
+function switchTab(t,btn){curTab=t;page=1;document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));btn.classList.add('active');render();}
+document.getElementById('search').addEventListener('input',()=>{page=1;render();});
+document.getElementById('prev').onclick=()=>{page--;render();window.scrollTo(0,0)};
+document.getElementById('next').onclick=()=>{page++;render();window.scrollTo(0,0)};
+render();
+</script>
+</body>
+</html>

@@ -35245,4 +35245,414 @@
         <shicang:usesCipai rdf:resource="&shicang;Cipai_满江红"/>
     </owl:NamedIndividual>
 
+
+    <owl:Class rdf:about="http://www.shicang.org/ontology#Qupai_天净沙">
+        <rdfs:subClassOf rdf:resource="http://www.shicang.org/ontology#Form"/>
+        <rdfs:label xml:lang="zh">天净沙</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://www.shicang.org/ontology#Qupai_山坡羊">
+        <rdfs:subClassOf rdf:resource="http://www.shicang.org/ontology#Form"/>
+        <rdfs:label xml:lang="zh">山坡羊</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://www.shicang.org/ontology#Qupai_沉醉东风">
+        <rdfs:subClassOf rdf:resource="http://www.shicang.org/ontology#Form"/>
+        <rdfs:label xml:lang="zh">沉醉东风</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://www.shicang.org/ontology#Qupai_水仙子">
+        <rdfs:subClassOf rdf:resource="http://www.shicang.org/ontology#Form"/>
+        <rdfs:label xml:lang="zh">水仙子</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://www.shicang.org/ontology#Qupai_折桂令">
+        <rdfs:subClassOf rdf:resource="http://www.shicang.org/ontology#Form"/>
+        <rdfs:label xml:lang="zh">折桂令</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://www.shicang.org/ontology#Qupai_落梅风">
+        <rdfs:subClassOf rdf:resource="http://www.shicang.org/ontology#Form"/>
+        <rdfs:label xml:lang="zh">落梅风</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://www.shicang.org/ontology#Qupai_小桃红">
+        <rdfs:subClassOf rdf:resource="http://www.shicang.org/ontology#Form"/>
+        <rdfs:label xml:lang="zh">小桃红</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://www.shicang.org/ontology#Qupai_凭阑人">
+        <rdfs:subClassOf rdf:resource="http://www.shicang.org/ontology#Form"/>
+        <rdfs:label xml:lang="zh">凭阑人</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://www.shicang.org/ontology#Qupai_塞鸿秋">
+        <rdfs:subClassOf rdf:resource="http://www.shicang.org/ontology#Form"/>
+        <rdfs:label xml:lang="zh">塞鸿秋</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://www.shicang.org/ontology#Qupai_叨叨令">
+        <rdfs:subClassOf rdf:resource="http://www.shicang.org/ontology#Form"/>
+        <rdfs:label xml:lang="zh">叨叨令</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://www.shicang.org/ontology#Qupai_红绣鞋">
+        <rdfs:subClassOf rdf:resource="http://www.shicang.org/ontology#Form"/>
+        <rdfs:label xml:lang="zh">红绣鞋</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://www.shicang.org/ontology#Qupai_朝天子">
+        <rdfs:subClassOf rdf:resource="http://www.shicang.org/ontology#Form"/>
+        <rdfs:label xml:lang="zh">朝天子</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://www.shicang.org/ontology#Qupai_四块玉">
+        <rdfs:subClassOf rdf:resource="http://www.shicang.org/ontology#Form"/>
+        <rdfs:label xml:lang="zh">四块玉</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://www.shicang.org/ontology#Qupai_快活三">
+        <rdfs:subClassOf rdf:resource="http://www.shicang.org/ontology#Form"/>
+        <rdfs:label xml:lang="zh">快活三</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://www.shicang.org/ontology#Qupai_庆东原">
+        <rdfs:subClassOf rdf:resource="http://www.shicang.org/ontology#Form"/>
+        <rdfs:label xml:lang="zh">庆东原</rdfs:label>
+    </owl:Class>
+
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#DeepCi_SuShi_ShuiDiaoGeTou">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Work"/>
+        <shicang:workTitle>明月几时有</shicang:workTitle>
+        <shicang:cipaiName>水调歌头</shicang:cipaiName>
+        <shicang:formCategory>词</shicang:formCategory>
+        <shicang:workFullText>明月几时有，把酒问青天。不知天上宫阙，今夕是何年。我欲乘风归去，又恐琼楼玉宇，高处不胜寒。起舞弄清影，何似在人间。转朱阁，低绮户，照无眠。不应有恨，何事长向别时圆。人有悲欢离合，月有阴晴圆缺，此事古难全。但愿人长久，千里共婵娟。</shicang:workFullText>
+        <shicang:compositionYear>1076</shicang:compositionYear>
+        <shicang:authorName>苏轼</shicang:authorName>
+        <shicang:dynasty>北宋</shicang:dynasty>
+        <shicang:studyTheme>旷达超脱</shicang:studyTheme>
+        <shicang:vernacularTranslation>皎洁的明月从何时开始照耀人间？我端起酒杯，向苍天发问。不知天上那座仙宫，今夜是哪一年？我想驾着清风回到天上，又怕那美玉砌成的楼宇太高，受不住那份彻骨清寒。在月光下翩然起舞，清影随人摇曳，天上又怎能比得上人间的温暖？  月儿转过朱红楼阁，低低照进雕花窗棂，照着辗转难眠的人。明月不该有什么怨恨吧，为何偏偏在人们别离时才格外圆？人生有悲欢离合的变迁，月亮有阴晴圆缺的轮转，这种事自古以来就难以周全。只愿各自珍重，虽然相隔千里，也能共享这美好的月光。</shicang:vernacularTranslation>
+        <shicang:englishTranslation>How long will the full moon appear? Wine cup in hand, I ask the sky. I do not know in the celestial sphere What year this night would be. I long to ride the wind and fly up there, Yet fear those crystal palaces so high Would be too cold for me to bear. I rise and dance with my shadow playing — How can it compare with the human world!  Round the red pavilion, past the latticed door, It shines upon the sleepless one. The moon should bear no grudge, why then Does it turn full when loved ones are apart? Men have sorrow and joy, meeting and parting; The moon is bright or dim, wax or wane. This has never been perfect since old times. May we all be blessed with long life, Though a thousand miles apart, we share the moon's fair grace.</shicang:englishTranslation>
+        <shicang:appreciation>此词是中秋词的千古绝唱。胡仔《苕溪渔隐丛话》云：「中秋词自东坡《水调歌头》一出，余词尽废。」其妙在三：一是问天、问月、问人生，把宇宙意识与人间深情打成一片；二是情感跌宕，想出世又眷恋人间；三是结句超越一己之愁，升华为对天下离人的美好祝愿。</shicang:appreciation>
+        <shicang:studyDepth>deep</shicang:studyDepth>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#DeepCi_SuShi_NianNuJiao">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Work"/>
+        <shicang:workTitle>大江东去</shicang:workTitle>
+        <shicang:cipaiName>念奴娇</shicang:cipaiName>
+        <shicang:formCategory>词</shicang:formCategory>
+        <shicang:workFullText>大江东去，浪淘尽，千古风流人物。故垒西边，人道是，三国周郎赤壁。乱石穿空，惊涛拍岸，卷起千堆雪。江山如画，一时多少豪杰。遥想公瑾当年，小乔初嫁了，雄姿英发。羽扇纶巾，谈笑间，樯橹灰飞烟灭。故国神游，多情应笑我，早生华发。人生如梦，一尊还酹江月。</shicang:workFullText>
+        <shicang:compositionYear>1082</shicang:compositionYear>
+        <shicang:authorName>苏轼</shicang:authorName>
+        <shicang:dynasty>北宋</shicang:dynasty>
+        <shicang:studyTheme>豪放壮阔</shicang:studyTheme>
+        <shicang:vernacularTranslation>长江滚滚向东流去，滔滔巨浪淘尽了千古以来的英雄人物。旧时营垒的西边，人们说那就是三国时周瑜大破曹军的赤壁。陡峭的乱石插入云霄，惊涛骇浪拍击江岸，卷起千万堆白雪般的浪花。江山壮美如画，一时间涌现出多少英雄豪杰。  遥想当年的周公瑾，小乔刚刚嫁过来，他英姿勃发，手执羽扇，头戴纶巾，谈笑之间就把曹军的战船烧得灰飞烟灭。神游故国战场，应该笑我太多愁善感，以致过早生出了白发。人生如梦，且洒一杯酒祭奠江上的明月吧。</shicang:vernacularTranslation>
+        <shicang:englishTranslation>The great river surges eastward; Its waves have washed away All the heroes of a thousand years. West of the ancient fortress, they say, Is the Red Cliff where Zhou Yu fought. Jagged rocks pierce the clouds, Thunderous waves beat the shore, Rolling up a thousand drifts of snow. Mountains and rivers like a painting — How many heroes once rose here!  I think back to Gongjin in those years: Newly wed to the fair Xiao Qiao, Valiant and bright, feather fan in hand, With a laugh he turned the enemy's ships to ash. Wandering in spirit through that old kingdom, Let them laugh at my sentiment — My hair has turned white too soon. Life is but a dream; Let me pour a cup to the river moon.</shicang:englishTranslation>
+        <shicang:appreciation>这首词是豪放词的开山之作。俞文豹《吹剑录》载：「学士词，须关西大汉，执铁板，唱『大江东去』。」由景及史，由史及己，苍凉而不颓丧。</shicang:appreciation>
+        <shicang:studyDepth>deep</shicang:studyDepth>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#DeepCi_LiQingzhao_ShengShengMan">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Work"/>
+        <shicang:workTitle>寻寻觅觅</shicang:workTitle>
+        <shicang:cipaiName>声声慢</shicang:cipaiName>
+        <shicang:formCategory>词</shicang:formCategory>
+        <shicang:workFullText>寻寻觅觅，冷冷清清，凄凄惨惨戚戚。乍暖还寒时候，最难将息。三杯两盏淡酒，怎敌他、晚来风急。雁过也，正伤心，却是旧时相识。满地黄花堆积，憔悴损，如今有谁堪摘。守着窗儿，独自怎生得黑。梧桐更兼细雨，到黄昏、点点滴滴。这次第，怎一个愁字了得。</shicang:workFullText>
+        <shicang:compositionYear>约1151</shicang:compositionYear>
+        <shicang:authorName>李清照</shicang:authorName>
+        <shicang:dynasty>南宋</shicang:dynasty>
+        <shicang:studyTheme>悲慨沉郁</shicang:studyTheme>
+        <shicang:vernacularTranslation>苦苦地寻寻觅觅，却只寻到一片冷冷清清，接着就是无尽的凄惨悲戚。忽暖忽冷的时节，最难调养身体。喝三两杯淡酒，又怎能抵挡住傍晚的寒风？大雁飞过时正伤心，细看它们却是旧时相识。  满地黄花堆积，如今憔悴零落，还有什么可摘？守着窗儿独坐，怎么才能熬到天黑？梧桐叶上又落着细雨，到黄昏时分，一点一滴。这般情景，又岂是一个「愁」字所能概括？</shicang:vernacularTranslation>
+        <shicang:englishTranslation>Seek, seek; search, search; Cold, cold; bare, bare; Grief, grief; cruel, cruel grief. Now warm, then suddenly cold — Such weather tries one hardest to rest. Two or three cups of weak wine — How can they fend off the sharp evening wind? Wild geese pass by; they wound my heart — Old acquaintances of days gone by.  Chrysanthemums pile all over the ground, Withered and worn; who is there to pluck? Alone by the window, How can I endure till dark? On the wutong leaves a fine rain drips, Drip, drip, drop at dusk. At such a moment — How can one word &quot;sorrow&quot; say it all?</shicang:englishTranslation>
+        <shicang:appreciation>开篇十四叠字前无古人。张端义《贵耳集》评：「本朝非无能词之士，未曾有一下十四叠字者。」全词押入声韵，短促哽咽，读来如泣如诉。</shicang:appreciation>
+        <shicang:studyDepth>deep</shicang:studyDepth>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#DeepCi_XinQiji_QingYuAn">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Work"/>
+        <shicang:workTitle>东风夜放花千树</shicang:workTitle>
+        <shicang:cipaiName>青玉案</shicang:cipaiName>
+        <shicang:formCategory>词</shicang:formCategory>
+        <shicang:workFullText>东风夜放花千树，更吹落、星如雨。宝马雕车香满路。凤箫声动，玉壶光转，一夜鱼龙舞。蛾儿雪柳黄金缕，笑语盈盈暗香去。众里寻他千百度，蓦然回首，那人却在，灯火阑珊处。</shicang:workFullText>
+        <shicang:compositionYear>约1170</shicang:compositionYear>
+        <shicang:authorName>辛弃疾</shicang:authorName>
+        <shicang:dynasty>南宋</shicang:dynasty>
+        <shicang:studyTheme>清雅禅意</shicang:studyTheme>
+        <shicang:vernacularTranslation>像是东风在夜里吹开了千树繁花，又吹得焰火坠落，像繁星如雨。骏马雕车驶来，满路芳香。凤箫声起，明月流转，鱼灯龙灯彻夜舞动。  贵妇们头戴蛾儿雪柳，笑语盈盈，暗香飘过。我在人群中千百次地寻找那人，忽然回头，她却独立在灯火稀落之处。</shicang:vernacularTranslation>
+        <shicang:englishTranslation>The east wind at night blooms a thousand trees of flowers, And blows down stars like showers of rain. Fine horses and carved carriages fill the road with scent. Phoenix flutes resound, the jade moon turns, Fish and dragon lanterns dance all night.  Moth ornaments, willow pins, golden threads — Laughter and faint fragrance drift away. In the crowd I seek her a thousand times; Suddenly I turn my head, And there she stands where lantern light fades.</shicang:englishTranslation>
+        <shicang:appreciation>梁启超评：「自怜幽独，伤心人别有怀抱。」王国维《人间词话》借结句喻为人生三境界之最高境。</shicang:appreciation>
+        <shicang:studyDepth>deep</shicang:studyDepth>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#DeepCi_LiYu_YuMeiRen">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Work"/>
+        <shicang:workTitle>春花秋月何时了</shicang:workTitle>
+        <shicang:cipaiName>虞美人</shicang:cipaiName>
+        <shicang:formCategory>词</shicang:formCategory>
+        <shicang:workFullText>春花秋月何时了，往事知多少。小楼昨夜又东风，故国不堪回首月明中。雕栏玉砌应犹在，只是朱颜改。问君能有几多愁，恰似一江春水向东流。</shicang:workFullText>
+        <shicang:compositionYear>978</shicang:compositionYear>
+        <shicang:authorName>李煜</shicang:authorName>
+        <shicang:dynasty>南唐</shicang:dynasty>
+        <shicang:studyTheme>悲慨沉郁</shicang:studyTheme>
+        <shicang:vernacularTranslation>春花秋月的美景什么时候才能完结？往事又记得多少。昨夜小楼上又吹来了东风，在这明亮的月光下，故国实在令人不忍回首。  雕花栏杆、玉石台阶应该还在，只是人的容颜已改。问你心中有多少愁？正像那一江春水，滔滔滚滚向东流去。</shicang:vernacularTranslation>
+        <shicang:englishTranslation>When will spring flowers and autumn moon end? How much of the past can one recall? Last night east wind came again to my tower; In bright moonlight I cannot bear to look back.  Carved railings and marble steps must still be there — Only fair faces have changed. Ask me how much sorrow I can hold? It is like a river of spring water, Flowing eastward, endlessly.</shicang:englishTranslation>
+        <shicang:appreciation>这首词是李煜的绝命词，也是词史上写亡国之痛最深沉的作品。不事雕饰，纯以白描直抒胸臆。</shicang:appreciation>
+        <shicang:studyDepth>deep</shicang:studyDepth>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#DeepCi_LiuYong_DieLianHua">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Work"/>
+        <shicang:workTitle>伫倚危楼风细细</shicang:workTitle>
+        <shicang:cipaiName>蝶恋花</shicang:cipaiName>
+        <shicang:formCategory>词</shicang:formCategory>
+        <shicang:workFullText>伫倚危楼风细细，望极春愁，黯黯生天际。草色烟光残照里，无言谁会凭阑意。拟把疏狂图一醉，对酒当歌，强乐还无味。衣带渐宽终不悔，为伊消得人憔悴。</shicang:workFullText>
+        <shicang:compositionYear>约1053</shicang:compositionYear>
+        <shicang:authorName>柳永</shicang:authorName>
+        <shicang:dynasty>北宋</shicang:dynasty>
+        <shicang:studyTheme>深情婉约</shicang:studyTheme>
+        <shicang:vernacularTranslation>久久倚靠在高楼栏杆上，春风细细。极目远望，春愁从天边黯黯升起。草色映着烟光，笼罩在残阳里，默默无言，谁能理解我凭栏远望的心意？  打算放纵狂饮图个一醉，可是对着酒唱歌，勉强作乐终究觉得无味。衣带渐渐宽松了也绝不后悔，为了她，我甘愿容颜憔悴。</shicang:vernacularTranslation>
+        <shicang:englishTranslation>I lean on the high tower, the wind is thin; Gazing far, spring sorrow rises dark from the horizon. Grass in misty light, in the fading sun — Silent, who understands my thoughts against the rail?  I would drink wildly to get drunk, Sing before my wine — yet forced joy is tasteless. My belt grows loose, but I never regret; For her I would withow and pine away.</shicang:englishTranslation>
+        <shicang:appreciation>贺裳《皱水轩词筌》以为此词与韦庄「陌上谁家年少」、欧阳修「衣带渐宽」同读，当为「终不悔」三字击节。</shicang:appreciation>
+        <shicang:studyDepth>deep</shicang:studyDepth>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#DeepCi_LiQingzhao_RuMengLing">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Work"/>
+        <shicang:workTitle>昨夜雨疏风骤</shicang:workTitle>
+        <shicang:cipaiName>如梦令</shicang:cipaiName>
+        <shicang:formCategory>词</shicang:formCategory>
+        <shicang:workFullText>昨夜雨疏风骤，浓睡不消残酒。试问卷帘人，却道海棠依旧。知否，知否？应是绿肥红瘦。</shicang:workFullText>
+        <shicang:compositionYear>约1100</shicang:compositionYear>
+        <shicang:authorName>李清照</shicang:authorName>
+        <shicang:dynasty>北宋</shicang:dynasty>
+        <shicang:studyTheme>清雅禅意</shicang:studyTheme>
+        <shicang:vernacularTranslation>昨夜雨点稀疏，晚风急骤。一夜浓睡，酒意还没全消。试着询问那卷帘的侍女，她却说海棠花依然如故。知道吗？知道吗？应该是绿叶繁茂，红花凋零了。</shicang:vernacularTranslation>
+        <shicang:englishTranslation>Last night the rain was light, wind was sharp; Deep sleep did not dispel the lingering wine. I ask the maid who rolls the screen — She says the crabapple is as before. Don't you know? Don't you know? Now green must be fat, red must be thin.</shicang:englishTranslation>
+        <shicang:appreciation>「绿肥红瘦」一语为千古名句，黄了翁《蓼园词选》评：「『绿肥红瘦』，无限凄婉，却又妙在含蓄。」</shicang:appreciation>
+        <shicang:studyDepth>deep</shicang:studyDepth>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#DeepCi_YueFei_ManJiangHong">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Work"/>
+        <shicang:workTitle>怒发冲冠</shicang:workTitle>
+        <shicang:cipaiName>满江红</shicang:cipaiName>
+        <shicang:formCategory>词</shicang:formCategory>
+        <shicang:workFullText>怒发冲冠，凭栏处、潇潇雨歇。抬望眼，仰天长啸，壮怀激烈。三十功名尘与土，八千里路云和月。莫等闲、白了少年头，空悲切。靖康耻，犹未雪；臣子恨，何时灭！驾长车，踏破贺兰山缺。壮志饥餐胡虏肉，笑谈渴饮匈奴血。待从头、收拾旧山河，朝天阙。</shicang:workFullText>
+        <shicang:compositionYear>约1132</shicang:compositionYear>
+        <shicang:authorName>岳飞</shicang:authorName>
+        <shicang:dynasty>南宋</shicang:dynasty>
+        <shicang:studyTheme>慷慨爱国</shicang:studyTheme>
+        <shicang:vernacularTranslation>愤怒得头发直竖顶起帽子，倚靠栏杆处，急雨刚刚停歇。抬头远望，仰天长啸，壮烈情怀激烈。三十年的功名如同尘土，八千里征程只有云与月相伴。莫要虚度光阴，等少年头白了，徒自悲伤。  靖康年间的耻辱还没有洗雪，臣子的仇恨何时才能泯灭？我要驾着战车踏破贺兰山口。壮志满怀，饿了就吃敌人的肉，笑谈间渴了就饮敌人的血。待我重新收复旧日山河，再回京向皇帝报捷。</shicang:vernacularTranslation>
+        <shicang:englishTranslation>My hair bristles with rage against my cap; Leaning on the rail, the rushing rain has ceased. I lift my eyes, cry out to the sky, My heroic heart ablaze. Thirty years of fame — mere dust and dirt; Eight thousand miles of march — but clouds and moon. Do not idle — let the young head turn white In vain regret.  The shame of Jingkang is still unwashed; A subject's hatred — when will it end? I shall drive my war chariots through Helan Pass. With noble hunger I will feast on the foe's flesh, Laughing, drink the invader's blood. Then I shall start anew, restore the old mountains and rivers, And pay homage at the imperial court.</shicang:englishTranslation>
+        <shicang:appreciation>这首词是爱国词的代表作，千百年来激励了无数仁人志士。词中激昂忠愤之气，直冲斗牛。</shicang:appreciation>
+        <shicang:studyDepth>deep</shicang:studyDepth>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#DeepCi_SuShi_DingFengBo">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Work"/>
+        <shicang:workTitle>莫听穿林打叶声</shicang:workTitle>
+        <shicang:cipaiName>定风波</shicang:cipaiName>
+        <shicang:formCategory>词</shicang:formCategory>
+        <shicang:workFullText>莫听穿林打叶声，何妨吟啸且徐行。竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。料峭春风吹酒醒，微冷，山头斜照却相迎。回首向来萧瑟处，归去，也无风雨也无晴。</shicang:workFullText>
+        <shicang:compositionYear>1082</shicang:compositionYear>
+        <shicang:authorName>苏轼</shicang:authorName>
+        <shicang:dynasty>北宋</shicang:dynasty>
+        <shicang:studyTheme>旷达超脱</shicang:studyTheme>
+        <shicang:vernacularTranslation>不必去听那穿林打叶的雨声，何妨一边吟咏长啸一边从容前行。竹杖草鞋比马还轻快，怕什么？一身蓑衣，任凭烟雨度平生。  春寒料峭的风吹得酒醒了，微微觉得寒冷，山头斜阳却迎面照来。回头望一眼刚才遇雨的萧瑟之处，我信步归去——既无所谓风雨，也无所谓晴。</shicang:vernacularTranslation>
+        <shicang:englishTranslation>Heed not the rain that beats the leaves through the wood; Why not chant and whistle as I walk slowly on? Bamboo staff and straw shoes are lighter than a horse — Who fears? In a straw cape I face the misty rain all my life.  The chill spring wind sobers my wine, A little cold — yet the slanting sun from the hill greets me. Looking back at the bleak place where I came from, I go on home: There is neither storm nor shine.</shicang:englishTranslation>
+        <shicang:appreciation>此词写雨却不见狼狈，全是东坡的旷达——人生逆境来时，不必逃避，从容走过便是。</shicang:appreciation>
+        <shicang:studyDepth>deep</shicang:studyDepth>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#DeepCi_XinQiji_PoZhenZi">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Work"/>
+        <shicang:workTitle>醉里挑灯看剑</shicang:workTitle>
+        <shicang:cipaiName>破阵子</shicang:cipaiName>
+        <shicang:formCategory>词</shicang:formCategory>
+        <shicang:workFullText>醉里挑灯看剑，梦回吹角连营。八百里分麾下炙，五十弦翻塞外声，沙场秋点兵。马作的卢飞快，弓如霹雳弦惊。了却君王天下事，赢得生前身后名。可怜白发生！</shicang:workFullText>
+        <shicang:compositionYear>约1188</shicang:compositionYear>
+        <shicang:authorName>辛弃疾</shicang:authorName>
+        <shicang:dynasty>南宋</shicang:dynasty>
+        <shicang:studyTheme>慷慨爱国</shicang:studyTheme>
+        <shicang:vernacularTranslation>醉中挑亮油灯端详宝剑，梦中回到号角声连绵的军营。把牛肉分给部下烤食，军乐奏响塞外悲壮的战歌，秋日沙场上正在阅兵。  战马像的卢马那样飞驰，弓箭像惊雷一样震耳。我一心想为君主完成收复天下的大业，赢得生前死后的英名。可怜——白发已生！</shicang:vernacularTranslation>
+        <shicang:englishTranslation>Drunk, I trim the lamp and gaze at my sword; Dreaming, I return to the camps where bugles call. Roast beef is served to all the ranks, Fifty strings strike the frontier song, Autumn on the battlefield, troops reviewed.  Horses gallop swift as the famed Dilu, Bows twang like thunder startling the string. I would fulfill the king's cause for all under heaven, Win fame both in life and after death. Alas — white hair is already here!</shicang:englishTranslation>
+        <shicang:appreciation>前九句极写梦中豪壮，末句五字陡跌——现实中壮志未酬鬓已白。这种结构在词中少见，最见辛词的沉郁顿挫。</shicang:appreciation>
+        <shicang:studyDepth>deep</shicang:studyDepth>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#DeepCi_WangAnshi_GuiZhiXiang">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Work"/>
+        <shicang:workTitle>登临送目</shicang:workTitle>
+        <shicang:cipaiName>桂枝香</shicang:cipaiName>
+        <shicang:formCategory>词</shicang:formCategory>
+        <shicang:workFullText>登临送目，正故国晚秋，天气初肃。千里澄江似练，翠峰如簇。归帆去棹残阳里，背西风、酒旗斜矗。彩舟云淡，星河鹭起，画图难足。念往昔、繁华竞逐。叹门外楼头，悲恨相续。千古凭高对此，漫嗟荣辱。六朝旧事随流水，但寒烟、芳草凝绿。至今商女，时时犹唱，后庭遗曲。</shicang:workFullText>
+        <shicang:compositionYear>约1067</shicang:compositionYear>
+        <shicang:authorName>王安石</shicang:authorName>
+        <shicang:dynasty>北宋</shicang:dynasty>
+        <shicang:studyTheme>怀古沧桑</shicang:studyTheme>
+        <shicang:vernacularTranslation>登高望远，正是故国晚秋时节，天气初现肃杀之气。千里长江水澄澈如白练，青翠的山峰如箭簇聚集。归来的帆船在残阳里，背对着西风，酒旗斜斜地矗立。彩舟在淡云中，白鹭从沙洲飞起，这样的美景画都难以画出。  回想往昔，多少人在这里争逐繁华。可叹隋兵已到朱雀门外，陈后主还在楼上与宠妃玩乐，悲恨相继不断。千古以来登高对此景，都空叹朝代的荣辱。六朝的旧事已随流水逝去，只剩寒烟芳草凝成一片暗绿。时至今日，卖唱歌女还时时唱着《玉树后庭花》那亡国遗曲。</shicang:vernacularTranslation>
+        <shicang:englishTranslation>I climb and gaze afar — Late autumn in the old capital, The air is turning crisp. A thousand li of clear river like silk, Green peaks cluster like arrows. Returning sails in the setting sun, Against the west wind wineshop flags slant. Painted boats in pale clouds, Egrets rise from the sandbars — Even a painting could not do it justice.  I think of ages past, when luxury was chased, And sigh at the tower gate: sorrow and regret on and on. For a thousand years, leaning high, men have sighed at glory and ruin. Six dynasties' old tales flow by with the river, Only cold mist and fragrant grass, deep green. Even now the singing girls still chant the court's fatal song.</shicang:englishTranslation>
+        <shicang:appreciation>这首词是王安石的代表作，也是金陵怀古词的千古绝唱。东坡见之叹曰：「此老乃野狐精也！」</shicang:appreciation>
+        <shicang:studyDepth>deep</shicang:studyDepth>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#DeepCi_ZhouBangYan_SuMuZhe">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Work"/>
+        <shicang:workTitle>燎沉香</shicang:workTitle>
+        <shicang:cipaiName>苏幕遮</shicang:cipaiName>
+        <shicang:formCategory>词</shicang:formCategory>
+        <shicang:workFullText>燎沉香，消溽暑。鸟雀呼晴，侵晓窥檐语。叶上初阳干宿雨，水面清圆，一一风荷举。故乡遥，何日去？家住吴门，久作长安旅。五月渔郎相忆否？小楫轻舟，梦入芙蓉浦。</shicang:workFullText>
+        <shicang:compositionYear>约1083</shicang:compositionYear>
+        <shicang:authorName>周邦彦</shicang:authorName>
+        <shicang:dynasty>北宋</shicang:dynasty>
+        <shicang:studyTheme>深情婉约</shicang:studyTheme>
+        <shicang:vernacularTranslation>点燃沉香，消除潮湿的暑气。鸟雀欢呼天晴，清晨时在檐下窥视啼叫。初升的太阳照干了叶上昨夜的雨珠，水面上荷叶清润圆正，风过处一一擎举。  故乡遥远，何日才能归去？家在吴门，却长久客居京城。五月了，渔郎还记得我吗？我常在梦中划着小船，驶入芙蓉盛开的荷塘。</shicang:vernacularTranslation>
+        <shicang:englishTranslation>Burning aloeswood, I clear the humid heat. Birds call for fine weather, peeping under the eaves at dawn. Morning sun dries last night's rain from the leaves; On the water, clear and round, lotus leaves lift in the breeze.  Homeland is far — when shall I return? My home is in Wu, yet long I lodge in the capital. Do the fishermen remember me this May? In my dreams I take a light boat And glide into the lotus inlet.</shicang:englishTranslation>
+        <shicang:appreciation>「叶上初阳干宿雨，水面清圆，一一风荷举」是咏荷名句，不用浓墨重彩，只一「举」字，荷叶神韵全出。</shicang:appreciation>
+        <shicang:studyDepth>deep</shicang:studyDepth>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#DeepCi_WenTingYun_PuSaMan">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Work"/>
+        <shicang:workTitle>小山重叠金明灭</shicang:workTitle>
+        <shicang:cipaiName>菩萨蛮</shicang:cipaiName>
+        <shicang:formCategory>词</shicang:formCategory>
+        <shicang:workFullText>小山重叠金明灭，鬓云欲度香腮雪。懒起画蛾眉，弄妆梳洗迟。照花前后镜，花面交相映。新帖绣罗襦，双双金鹧鸪。</shicang:workFullText>
+        <shicang:compositionYear>约850</shicang:compositionYear>
+        <shicang:authorName>温庭筠</shicang:authorName>
+        <shicang:dynasty>唐</shicang:dynasty>
+        <shicang:studyTheme>深情婉约</shicang:studyTheme>
+        <shicang:vernacularTranslation>画屏上的小山重重叠叠，金箔在晨光中明灭闪烁。如云的鬓发欲掩过雪白香腮。懒懒地起身描画蛾眉，慢吞吞地梳洗打扮。  簪上花，前后镜子相照，花与容颜交相辉映。身穿新贴的罗襦，上面绣着一双双金色鹧鸪。</shicang:vernacularTranslation>
+        <shicang:englishTranslation>Little hills overlap, gold flickers bright and dim; Cloud-like tresses drift across snow-fragrant cheeks. Lazily she rises to paint her moth brows, Slowly making her toilet, combing her hair.  She holds a flower before double mirrors — Flower and face reflect each other. On her newly embroidered silk jacket Pairs of golden partridges gleam.</shicang:englishTranslation>
+        <shicang:appreciation>此词是花间词的典范，全词无一字直写怨情，而怨情自见——「双双」二字点睛。</shicang:appreciation>
+        <shicang:studyDepth>deep</shicang:studyDepth>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#DeepCi_LiQingzhao_RuMengLing">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Work"/>
+        <shicang:workTitle>常记溪亭日暮</shicang:workTitle>
+        <shicang:cipaiName>如梦令</shicang:cipaiName>
+        <shicang:formCategory>词</shicang:formCategory>
+        <shicang:workFullText>常记溪亭日暮，沉醉不知归路。兴尽晚回舟，误入藕花深处。争渡，争渡，惊起一滩鸥鹭。</shicang:workFullText>
+        <shicang:compositionYear>约1100</shicang:compositionYear>
+        <shicang:authorName>李清照</shicang:authorName>
+        <shicang:dynasty>北宋</shicang:dynasty>
+        <shicang:studyTheme>恬淡闲适</shicang:studyTheme>
+        <shicang:vernacularTranslation>常常记得在溪亭游玩到日暮，沉醉得忘了归路。游兴尽了才乘晚舟回去，却不小心划入荷花深处。怎么划出去？怎么划出去？惊起了一滩上的鸥鹭。</shicang:vernacularTranslation>
+        <shicang:englishTranslation>I oft remember the creek pavilion at sunset, So drunk I knew not the way home. When joy was spent I turned the boat late, And strayed deep among the lotuses. Row hard! Row hard! Startling a whole sandbar of gulls and herons.</shicang:englishTranslation>
+        <shicang:appreciation>短短三十三字，写出一段极富画面感的少年往事，清照少女时的才情与活泼尽现。</shicang:appreciation>
+        <shicang:studyDepth>deep</shicang:studyDepth>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#DeepCi_QinGuan_QueQiaoXian">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Work"/>
+        <shicang:workTitle>纤云弄巧</shicang:workTitle>
+        <shicang:cipaiName>鹊桥仙</shicang:cipaiName>
+        <shicang:formCategory>词</shicang:formCategory>
+        <shicang:workFullText>纤云弄巧，飞星传恨，银汉迢迢暗度。金风玉露一相逢，便胜却人间无数。柔情似水，佳期如梦，忍顾鹊桥归路。两情若是久长时，又岂在朝朝暮暮。</shicang:workFullText>
+        <shicang:compositionYear>约1097</shicang:compositionYear>
+        <shicang:authorName>秦观</shicang:authorName>
+        <shicang:dynasty>北宋</shicang:dynasty>
+        <shicang:studyTheme>深情婉约</shicang:studyTheme>
+        <shicang:vernacularTranslation>纤云弄出精巧的花样，流星传递着离愁，牛郎织女悄悄渡过迢迢银河。在金风玉露中相逢一次，就胜过人间无数次相聚。  柔情如流水，佳期如梦幻，怎忍心回望鹊桥上归去的路？两情若能长久，又何必在意朝朝暮暮的厮守。</shicang:vernacularTranslation>
+        <shicang:englishTranslation>Wispy clouds weave their clever patterns, Falling stars convey the lovers' sorrow, Across the silver river they meet in secret. One meeting in the autumn wind and jade dew Surpasses countless meetings in the mortal world.  Tenderness flows like water, The sweet meeting is like a dream — How can I bear to look back at the bridge of magpies? If two hearts stay true for ever, Why need they stay together night and day?</shicang:englishTranslation>
+        <shicang:appreciation>明人沈际飞评：「七夕以双星会少别多为恨，独谓情长不在朝暮，化臭腐为神奇。」</shicang:appreciation>
+        <shicang:studyDepth>deep</shicang:studyDepth>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#DeepCi_ZhangJiXian_QingPingYue">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Work"/>
+        <shicang:workTitle>红笺小字</shicang:workTitle>
+        <shicang:cipaiName>清平乐</shicang:cipaiName>
+        <shicang:formCategory>词</shicang:formCategory>
+        <shicang:workFullText>红笺小字，说尽平生意。鸿雁在云鱼在水，惆怅此情难寄。斜阳独倚西楼，遥山恰对帘钩。人面不知何处，绿波依旧东流。</shicang:workFullText>
+        <shicang:compositionYear>约1040</shicang:compositionYear>
+        <shicang:authorName>晏殊</shicang:authorName>
+        <shicang:dynasty>北宋</shicang:dynasty>
+        <shicang:studyTheme>深情婉约</shicang:studyTheme>
+        <shicang:vernacularTranslation>红色信笺上写满小字，说尽了平生的情意。可是鸿雁在云、鱼儿在水，没法传书，惆怅这深情难以寄达。  斜阳中独自倚着西楼，远山正对着窗帘的钩。那人不知去了哪里，绿波依旧悠悠东流。</shicang:vernacularTranslation>
+        <shicang:englishTranslation>On red paper in small characters I write out all my lifelong feelings. But wild geese are in the clouds, fish in the water — Sadly, this love cannot be sent.  In the slant sun I lean alone on the west tower, Far mountains face my curtain hook. That face is gone, none knows where; Green waves still flow eastward as before.</shicang:englishTranslation>
+        <shicang:appreciation>晏殊词温润秀洁，此词可见一斑。结尾「绿波依旧东流」以景结情，余韵悠长。</shicang:appreciation>
+        <shicang:studyDepth>deep</shicang:studyDepth>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#DeepCi_LiuKeZhuang_YuMeiRen">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Work"/>
+        <shicang:workTitle>少年听雨歌楼上</shicang:workTitle>
+        <shicang:cipaiName>虞美人</shicang:cipaiName>
+        <shicang:formCategory>词</shicang:formCategory>
+        <shicang:workFullText>少年听雨歌楼上，红烛昏罗帐。壮年听雨客舟中，江阔云低、断雁叫西风。而今听雨僧庐下，鬓已星星也。悲欢离合总无情，一任阶前、点滴到天明。</shicang:workFullText>
+        <shicang:compositionYear>约1290</shicang:compositionYear>
+        <shicang:authorName>蒋捷</shicang:authorName>
+        <shicang:dynasty>南宋</shicang:dynasty>
+        <shicang:studyTheme>悲慨沉郁</shicang:studyTheme>
+        <shicang:vernacularTranslation>少年时在歌楼上听雨，红烛摇曳、罗帐低垂。壮年时在客舟里听雨，江面辽阔、云霭低沉，孤雁在西风中哀鸣。  如今在僧庐下听雨，鬓发已经花白。悲欢离合都已尝遍，也无动于衷了，任凭阶前的雨一点一滴下到天明。</shicang:vernacularTranslation>
+        <shicang:englishTranslation>As a youth I listened to rain in a song tower, Red candles dim behind silk curtains. In my prime I listened in a traveler's boat, The river wide, clouds low, A lone goose crying in the west wind.  Now I listen under a monk's hut, My temples streaked with gray. Joy and sorrow, meeting and parting — all seem passionless; I let the drops before the steps Fall drip by drip till dawn.</shicang:englishTranslation>
+        <shicang:appreciation>三幅听雨图写尽人生三个阶段，由绚烂归于平淡，由悲欢归于无情，是宋词中以少总多的杰作。</shicang:appreciation>
+        <shicang:studyDepth>deep</shicang:studyDepth>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#DeepCi_HuangTingJian_QingPingLe">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Work"/>
+        <shicang:workTitle>春归何处</shicang:workTitle>
+        <shicang:cipaiName>清平乐</shicang:cipaiName>
+        <shicang:formCategory>词</shicang:formCategory>
+        <shicang:workFullText>春归何处？寂寞无行路。若有人知春去处，唤取归来同住。春无踪迹谁知？除非问取黄鹂。百啭无人能解，因风飞过蔷薇。</shicang:workFullText>
+        <shicang:compositionYear>约1100</shicang:compositionYear>
+        <shicang:authorName>黄庭坚</shicang:authorName>
+        <shicang:dynasty>北宋</shicang:dynasty>
+        <shicang:studyTheme>恬淡闲适</shicang:studyTheme>
+        <shicang:vernacularTranslation>春天回到哪里去了？寂寞地找不到一点踪迹。如果有谁知道春天的去处，把它喊回来与我们同住吧。  春天没有踪迹谁能知道？除非去问黄鹂鸟。可是黄鹂千百次婉转的啼鸣没人能懂，它顺着风飞过了蔷薇花。</shicang:vernacularTranslation>
+        <shicang:englishTranslation>Where has spring gone? So still, no trace of its path. If anyone knows where spring went, Call it back to dwell with us.  Spring leaves no trace; who can know? Unless one asks the orioles. A hundred songs no one understands; They ride the wind past the roses.</shicang:englishTranslation>
+        <shicang:appreciation>这首词构思奇巧，把惜春之情写得天真烂漫，毫无沉重感，是北宋词中别具一格的佳作。</shicang:appreciation>
+        <shicang:studyDepth>deep</shicang:studyDepth>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#DeepCi_YanShu_HuanXiSha">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Work"/>
+        <shicang:workTitle>一曲新词酒一杯</shicang:workTitle>
+        <shicang:cipaiName>浣溪沙</shicang:cipaiName>
+        <shicang:formCategory>词</shicang:formCategory>
+        <shicang:workFullText>一曲新词酒一杯，去年天气旧亭台。夕阳西下几时回？无可奈何花落去，似曾相识燕归来。小园香径独徘徊。</shicang:workFullText>
+        <shicang:compositionYear>约1042</shicang:compositionYear>
+        <shicang:authorName>晏殊</shicang:authorName>
+        <shicang:dynasty>北宋</shicang:dynasty>
+        <shicang:studyTheme>怀古沧桑</shicang:studyTheme>
+        <shicang:vernacularTranslation>听一曲新词，饮一杯美酒，天气还是去年的天气，亭台还是从前的亭台。夕阳西下，什么时候才能回来？  无可奈何地看花儿纷纷飘落，似曾相识的燕子又飞回来了。我在小园飘香的小路上独自徘徊。</shicang:vernacularTranslation>
+        <shicang:englishTranslation>A new song, a cup of wine — The weather is last year's, the pavilions are old. The sun sets in the west; when will it return?  There's no help for it — the flowers fall; Seeming to know me, swallows come back. On the fragrant path of the little garden I linger alone.</shicang:englishTranslation>
+        <shicang:appreciation>「无可奈何花落去，似曾相识燕归来」是晏殊最著名的对句，天然奇偶，写出了人人心中所有、笔下所无的感触。</shicang:appreciation>
+        <shicang:studyDepth>deep</shicang:studyDepth>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#DeepCi_ChouNuEr_BoSuanZi">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Work"/>
+        <shicang:workTitle>驿外断桥边</shicang:workTitle>
+        <shicang:cipaiName>卜算子</shicang:cipaiName>
+        <shicang:formCategory>词</shicang:formCategory>
+        <shicang:workFullText>驿外断桥边，寂寞开无主。已是黄昏独自愁，更著风和雨。无意苦争春，一任群芳妒。零落成泥碾作尘，只有香如故。</shicang:workFullText>
+        <shicang:compositionYear>约1172</shicang:compositionYear>
+        <shicang:authorName>陆游</shicang:authorName>
+        <shicang:dynasty>南宋</shicang:dynasty>
+        <shicang:studyTheme>清雅禅意</shicang:studyTheme>
+        <shicang:vernacularTranslation>驿站外的断桥边，梅花寂寞地开放，无人过问。已是黄昏时分，独自忧愁，还要遭受风雨的摧残。  无意苦苦争占春光，任凭百花嫉妒。即使凋零飘落成泥，被碾为尘土，清香依然如故。</shicang:vernacularTranslation>
+        <shicang:englishTranslation>By the broken bridge beyond the postern, Lonely it blooms, with none to own it. Dusk already, grieving all alone — Then wind and rain descend.  It never strives to steal the spring, Let all the flowers envy. Fallen to mud, ground into dust, Only its fragrance remains the same.</shicang:englishTranslation>
+        <shicang:appreciation>这首咏梅词是陆游人格的写照。写梅即写己，咏物诗至此达到物我合一的境界。</shicang:appreciation>
+        <shicang:studyDepth>deep</shicang:studyDepth>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="http://www.shicang.org/ontology#Scale_v3_2">
+        <rdf:type rdf:resource="http://www.shicang.org/ontology#Dataset"/>
+        <rdfs:label>v3.2全库规模</rdfs:label>
+        <shicang:bookCount>776</shicang:bookCount>
+        <shicang:shiJingduCount>49086</shicang:shiJingduCount>
+        <shicang:ciJingduCount>2972</shicang:ciJingduCount>
+        <shicang:quJingduCount>482</shicang:quJingduCount>
+        <shicang:chuciCount>5933</shicang:chuciCount>
+        <shicang:hanfuCount>1257</shicang:hanfuCount>
+        <shicang:meipiCount>5001</shicang:meipiCount>
+        <shicang:deepCiCount>20</shicang:deepCiCount>
+        <shicang:cipaiCount>32</shicang:cipaiCount>
+        <shicang:qupaiCount>15</shicang:qupaiCount>
+    </owl:NamedIndividual>
 </rdf:RDF>
