@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>楹联集对 · 诗藏</title>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { background:#f6efe0; color:#2b2117; font-family:"Noto Serif CJK SC","STSong","SimSun",serif; line-height:1.8; min-height:100vh; padding:20px; }
+.header { max-width:1100px; margin:0 auto 30px; padding:20px; text-align:center; border-bottom:2px double #c9b996; }
+h1 { font-size:32px; color:#8B3A2F; letter-spacing:8px; margin-bottom:8px; }
+.sub { color:#8a7554; font-size:15px; letter-spacing:2px; }
+.back { position:absolute; left:20px; top:20px; color:#8B3A2F; text-decoration:none; font-size:14px; border:1px solid #8B3A2F; padding:4px 14px; border-radius:3px; }
+.controls { max-width:1100px; margin:0 auto 25px; display:flex; gap:15px; flex-wrap:wrap; align-items:center; justify-content:center; }
+.search { padding:10px 18px; border:1px solid #c9b996; background:#fffdf7; font-family:inherit; font-size:15px; border-radius:4px; width:300px; }
+.btn { padding:8px 18px; border:1px solid #8B3A2F; background:transparent; color:#8B3A2F; font-family:inherit; cursor:pointer; border-radius:4px; transition:.3s; }
+.btn:hover { background:#8B3A2F; color:#f6efe0; }
+.stats { color:#8a7554; font-size:14px; width:100%; text-align:center; margin-top:5px; }
+.container { max-width:1100px; margin:0 auto; display:grid; grid-template-columns:repeat(auto-fill,minmax(340px,1fr)); gap:20px; padding-bottom:50px; }
+.couplet-card { background:linear-gradient(135deg,#fffdf7,#f9f2e3); border:1px solid #d4c4a0; padding:25px 20px; border-radius:6px; position:relative; box-shadow:2px 3px 8px rgba(139,58,47,.08); transition:.3s; }
+.couplet-card:hover { transform:translateY(-2px); box-shadow:3px 6px 15px rgba(139,58,47,.15); }
+.couplet-card::before { content:'联'; position:absolute; right:15px; top:12px; font-size:22px; color:#c9b996; font-family:inherit; opacity:.5; }
+.book { font-size:13px; color:#8a7554; border-bottom:1px dotted #c9b996; padding-bottom:8px; margin-bottom:15px; }
+.up, .down { font-size:22px; line-height:2; letter-spacing:3px; text-align:center; color:#2b2117; }
+.up { border-bottom:1px solid #e8dfca; padding-bottom:12px; margin-bottom:12px; }
+.down .last { color:#8B3A2F; font-weight:bold; position:relative; }
+.down .last::after { content:'●'; position:absolute; right:-14px; top:-2px; font-size:8px; color:#8B3A2F; }
+.up .last { color:#8B3A2F; }
+.pz { margin-top:12px; font-size:12px; color:#8a7554; text-align:center; font-family:monospace; letter-spacing:3px; }
+.seal { position:fixed; right:30px; bottom:30px; width:60px; height:60px; border:2px solid #8B3A2F; color:#8B3A2F; display:flex; align-items:center; justify-content:center; font-size:16px; letter-spacing:1px; writing-mode:vertical-rl; border-radius:4px; opacity:.7; }
+@media(max-width:768px) {
+  .back { position:static; display:inline-block; margin-bottom:15px; }
+  .header h1 { font-size:24px; letter-spacing:4px; }
+  .container { grid-template-columns:1fr; }
+  .up,.down { font-size:19px; }
+}
+</style>
+</head>
+<body>
+<a class="back" href="/ShiCang/">← 返回诗藏</a>
+<div class="header">
+  <h1>楹 联 集 对</h1>
+  <div class="sub">千 古 绝 对 · 对 仗 工 整</div>
+</div>
+<div class="controls">
+  <input class="search" id="search" placeholder="搜索对联文字...">
+  <button class="btn" onclick="randomCouplet()">随机一联</button>
+  <div class="stats" id="stats"></div>
+</div>
+<div class="container" id="list"></div>
+<div class="seal">诗藏</div>
+<script src="duilian_data.js"></script>
+<script>
+const list = document.getElementById('list');
+const stats = document.getElementById('stats');
+const search = document.getElementById('search');
+
+function render(data) {
+  list.innerHTML = '';
+  data.slice(0, 300).forEach(c => {
+    const card = document.createElement('div');
+    card.className = 'couplet-card';
+    const upChars = c.up.split('');
+    const downChars = c.down.split('');
+    const upLast = upChars.pop();
+    const downLast = downChars.pop();
+    card.innerHTML = `
+      <div class="book">出 处：${c.book}</div>
+      <div class="up">${upChars.join('')}<span class="last">${upLast}</span></div>
+      <div class="down">${downChars.join('')}<span class="last">${downLast}</span></div>
+    `;
+    list.appendChild(card);
+  });
+  stats.textContent = `共 ${DL_DATA.couplets.length} 副对联，来自 ${DL_DATA.books.length} 部典籍`;
+}
+
+function randomCouplet() {
+  const c = DL_DATA.couplets[Math.floor(Math.random()*DL_DATA.couplets.length)];
+  list.innerHTML = '';
+  const card = document.createElement('div');
+  card.className = 'couplet-card';
+  card.style.gridColumn = '1/-1';
+  card.style.maxWidth = '600px';
+  card.style.margin = '0 auto';
+  const upChars = c.up.split('');
+  const downChars = c.down.split('');
+  const upLast = upChars.pop();
+  const downLast = downChars.pop();
+  card.innerHTML = `
+    <div class="book">出 处：${c.book}</div>
+    <div class="up" style="font-size:28px; padding:20px 0;">${upChars.join('')}<span class="last">${upLast}</span></div>
+    <div class="down" style="font-size:28px; padding:10px 0;">${downChars.join('')}<span class="last">${downLast}</span></div>
+  `;
+  list.appendChild(card);
+}
+
+search.addEventListener('input', e => {
+  const kw = e.target.value.trim();
+  if (!kw) { render(DL_DATA.couplets); return; }
+  const filtered = DL_DATA.couplets.filter(c => c.up.includes(kw) || c.down.includes(kw) || c.book.includes(kw));
+  render(filtered);
+  stats.textContent = `搜索到 ${filtered.length} 副对联`;
+});
+
+render(DL_DATA.couplets);
+</script>
+</body>
+</html>
