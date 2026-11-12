@@ -1,0 +1,256 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>詩河星海 · 三千年詩人星河 · 詩藏本體論</title>
+<script src="../poets_data.js"></script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{height:100%;overflow:hidden;font-family:"Noto Serif SC","STSong","SimSun",serif}
+body{background:radial-gradient(ellipse at center,#1a1020 0%,#0d0618 60%,#05020a 100%);color:#f0e6d8;position:relative}
+/* 顶部导航 */
+nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:12px 30px;background:linear-gradient(180deg,rgba(26,16,32,.95),rgba(26,16,32,.7));backdrop-filter:blur(10px);border-bottom:1px solid rgba(255,215,100,.15);display:flex;align-items:center;gap:28px}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:#ffd86b;font-size:20px;font-weight:700;letter-spacing:2px;flex-shrink:0}
+.logo-mark{width:40px;height:40px;border-radius:6px;background:#8B3A2F;display:grid;place-items:center;color:#fff;font-weight:700;font-size:22px;font-family:"KaiTi","STKaiti",serif;border:2px solid #ffd86b;box-shadow:0 0 15px rgba(255,215,107,.3)}
+.nav-links{display:flex;gap:18px;flex:1}
+.nav-links a{color:#e8dcc8;text-decoration:none;font-size:15px;padding:4px 0;position:relative;transition:.2s}
+.nav-links a:hover{color:#ffd86b}
+.nav-links a.cur{color:#ffd86b}
+.nav-links a.cur:after{content:"";position:absolute;bottom:0;left:0;right:0;height:2px;background:#ffd86b;border-radius:2px}
+/* 标题区域 */
+.title-area{position:fixed;top:70px;left:0;right:0;text-align:center;z-index:50;pointer-events:none}
+h1{font-size:32px;font-weight:400;letter-spacing:12px;font-family:"KaiTi","STKaiti",serif;color:#ffd86b;text-shadow:0 0 30px rgba(255,215,107,.5);margin-bottom:6px}
+.subtitle{font-size:13px;color:#c9b896;letter-spacing:6px;opacity:.8}
+/* 时间轴 */
+.timeline{position:fixed;bottom:60px;left:60px;right:60px;z-index:50;height:80px}
+.axis{position:absolute;top:30px;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,rgba(255,215,100,.4),transparent)}
+.dynasty-marks{position:absolute;top:0;left:0;right:0;height:60px}
+.dynasty-mark{position:absolute;top:25px;transform:translateX(-50%);text-align:center;pointer-events:auto;cursor:pointer;transition:.2s}
+.dynasty-mark .dot{width:8px;height:8px;border-radius:50%;background:rgba(255,215,100,.6);margin:0 auto 8px;transition:.3s}
+.dynasty-mark.active .dot{width:12px;height:12px;background:#ffd86b;box-shadow:0 0 15px #ffd86b}
+.dynasty-mark .dname{font-size:11px;color:#c9b896;white-space:nowrap;transition:.2s}
+.dynasty-mark.active .dname{color:#ffd86b;font-size:13px;font-weight:700}
+.time-labels{position:absolute;top:42px;left:0;right:0;display:flex;justify-content:space-between;font-size:11px;color:#8b7a60}
+/* 筛选 */
+.controls{position:fixed;top:130px;left:30px;z-index:50;display:flex;flex-direction:column;gap:10px;pointer-events:auto}
+.ctrl-group{background:rgba(26,16,32,.75);backdrop-filter:blur(8px);border:1px solid rgba(255,215,100,.2);border-radius:8px;padding:12px 14px;min-width:160px}
+.ctrl-group h3{font-size:13px;color:#ffd86b;margin-bottom:8px;letter-spacing:2px;font-weight:400}
+.ctrl-group button{display:block;width:100%;padding:6px 0;background:transparent;border:none;color:#c9b896;font-size:12px;text-align:left;cursor:pointer;font-family:inherit;transition:.2s;border-radius:4px}
+.ctrl-group button:hover{color:#ffd86b;background:rgba(255,215,100,.08)}
+.ctrl-group button.active{color:#ffd86b;background:rgba(255,215,100,.15)}
+/* 诗人信息浮卡 */
+.poet-card{position:fixed;pointer-events:none;z-index:200;background:rgba(10,5,20,.92);backdrop-filter:blur(15px);border:1px solid rgba(255,215,100,.3);border-radius:10px;padding:16px 20px;min-width:280px;max-width:340px;color:#e8dcc8;font-size:13px;opacity:0;transform:translateY(8px);transition:opacity .25s,transform .25s;box-shadow:0 10px 40px rgba(255,215,100,.15)}
+.poet-card.show{opacity:1;transform:translateY(0)}
+.poet-card h2{font-size:20px;color:#ffd86b;margin-bottom:4px;font-family:"KaiTi","STKaiti",serif;letter-spacing:3px}
+.poet-card .meta{font-size:11px;color:#a8987c;margin-bottom:10px;display:flex;gap:10px;flex-wrap:wrap}
+.poet-card .meta span{background:rgba(255,215,100,.1);padding:2px 8px;border-radius:10px}
+.poet-card .bio{line-height:1.8;color:#d6c8b0;margin-bottom:8px}
+.poet-card .works{font-size:12px;color:#b8a888;line-height:1.7}
+.poet-card .works strong{color:#ffd86b;font-weight:400}
+.poet-card .go{display:inline-block;margin-top:10px;color:#ffd86b;font-size:12px;border:1px solid rgba(255,215,100,.4);padding:4px 14px;border-radius:15px;text-decoration:none;pointer-events:auto;transition:.2s}
+.poet-card .go:hover{background:#ffd86b;color:#1a1020}
+/* 图例 */
+.legend{position:fixed;bottom:150px;right:30px;z-index:50;background:rgba(26,16,32,.75);backdrop-filter:blur(8px);border:1px solid rgba(255,215,100,.2);border-radius:8px;padding:12px 14px;font-size:11px}
+.legend h3{color:#ffd86b;font-size:12px;margin-bottom:8px;letter-spacing:2px;font-weight:400}
+.legend-item{display:flex;align-items:center;gap:8px;margin:4px 0;color:#c9b896}
+.legend-dot{width:8px;height:8px;border-radius:50%}
+.legend-line{width:20px;height:1px;background:linear-gradient(90deg,transparent,rgba(255,215,100,.4),transparent)}
+/* Canvas */
+#xinghe{position:fixed;top:0;left:0;width:100%;height:100%;z-index:1}
+/* 星空背景 */
+.star-bg{position:fixed;top:0;left:0;width:100%;height:100%;z-index:0}
+/* 提示 */
+.hint{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);z-index:50;font-size:12px;color:#8b7a60;letter-spacing:3px}
+@media(max-width:1024px){.controls{display:none}.legend{display:none}.timeline{left:20px;right:20px;bottom:40px}h1{font-size:22px;letter-spacing:6px}}
+</style></head><body>
+<canvas class="star-bg" id="starbg"></canvas>
+<canvas id="xinghe"></canvas>
+<nav><a href="../" class="logo"><div class="logo-mark">詩</div>詩藏本體論</a><div class="nav-links"><a href="../">首頁</a><a href="../shicang-jingdu/">詩</a><a href="../shicang-ci/">詞</a><a href="../shicang-qu/">曲</a><a href="../shicang-chuci/">辭賦</a><a href="../shicang-poem/">名篇</a><a href="../shicang-poet-journey/">詩人軌跡</a><a href="../shicang-cipai/">詞牌</a><a href="../shicang-imagery/">意象</a><a href="../shicang-meipi/">眉批</a><a href="../shicang-yunshu/">韻書</a> | <a href="../shicang-xinghe/">星河</a><a href="./" class="cur">詩河星海</a></div></nav>
+<div class="title-area"><h1>詩 河 星 海</h1><div class="subtitle">三千年詩人星河 · 一點星光一縷詩魂</div></div>
+<div class="controls"><div class="ctrl-group"><h3>朝 代</h3><button class="active" data-f="all">全部</button><button data-f="han">漢魏六朝</button><button data-f="tang">唐</button><button data-f="song">宋</button><button data-f="yuan">元</button><button data-f="mingqing">明清近代</button></div><div class="ctrl-group"><h3>顯 示</h3><button class="active" data-t="links">交游流光</button><button class="active" data-t="trails">星軌拖尾</button><button data-t="names">姓名懸浮</button></div></div>
+<div class="timeline"><div class="axis"></div><div class="dynasty-marks" id="dmarks"></div><div class="time-labels"><span>-350 先秦</span><span>0 兩漢</span><span>700 盛唐</span><span>1100 兩宋</span><span>1500 明</span><span>1900 近代</span></div></div>
+<div class="legend"><h3>圖 例</h3><div class="legend-item"><div class="legend-dot" style="background:#B22222;box-shadow:0 0 6px #B22222"></div>浪漫/豪放/愛國</div><div class="legend-item"><div class="legend-dot" style="background:#2E8B57;box-shadow:0 0 6px #2E8B57"></div>山水/田園/曠達</div><div class="legend-item"><div class="legend-dot" style="background:#C71585;box-shadow:0 0 6px #C71585"></div>婉約/深情/才女</div><div class="legend-item"><div class="legend-dot" style="background:#9370DB;box-shadow:0 0 6px #9370DB"></div>格律/詞宗/情僧</div><div class="legend-item"><div class="legend-dot" style="background:#8B4513;box-shadow:0 0 6px #8B4513"></div>詩豪/史家/大家</div><div class="legend-item"><div class="legend-line"></div>交游流光</div></div>
+<div class="poet-card" id="pcard"></div>
+<div class="hint">⟐ 移動鼠標拉近星體 · 單擊星光進入詩人的一生 ⟐</div>
+<script>
+const canvas=document.getElementById("xinghe"),ctx=canvas.getContext("2d");
+const bgCanvas=document.getElementById("starbg"),bgctx=bgCanvas.getContext("2d");
+let W,H,mouse={x:0,y:0,active:null};
+function resize(){W=canvas.width=bgCanvas.width=innerWidth;H=canvas.height=bgCanvas.height=innerHeight}
+resize();addEventListener("resize",resize);
+// 坐标映射：x=时间，-350 ~ 1930映射到横向；y=随机正态分布，模拟银河带
+const T_MIN=-350,T_MAX=1930;
+function tx(birth){return 80+(W-160)*(birth-T_MIN)/(T_MAX-T_MIN)}
+// 背景星空
+const bgStars=Array.from({length:600},()=>({x:Math.random()*W,y:Math.random()*H,r:Math.random()*1.2+.2,a:Math.random()*.6+.2,tw:Math.random()*.02+.005,ph:Math.random()*Math.PI*2}));
+function drawBg(){
+  bgctx.clearRect(0,0,W,H);
+  // 银河带光晕
+  const g=bgctx.createLinearGradient(0,H*.35,0,H*.65);
+  g.addColorStop(0,"transparent");g.addColorStop(.5,"rgba(120,80,180,.06)");g.addColorStop(1,"transparent");
+  bgctx.fillStyle=g;bgctx.fillRect(0,H*.3,W,H*.4);
+  const g2=bgctx.createLinearGradient(80,0,W-80,0);
+  g2.addColorStop(0,"rgba(100,60,40,.03)");g2.addColorStop(.5,"rgba(80,60,120,.05)");g2.addColorStop(1,"rgba(60,80,120,.03)");
+  bgctx.fillStyle=g2;bgctx.fillRect(0,0,W,H);
+  bgStars.forEach(s=>{
+    s.ph+=s.tw;
+    const a=s.a*(.7+.3*Math.sin(s.ph));
+    bgctx.fillStyle=`rgba(255,240,200,${a})`;
+    bgctx.beginPath();bgctx.arc(s.x,s.y,s.r,0,Math.PI*2);bgctx.fill();
+  });
+}
+// 诗人节点：沿时间轴呈银河带状分布
+function gauss(){let u=0,v=0;while(!u)u=Math.random();while(!v)v=Math.random();return Math.sqrt(-2*Math.log(u))*Math.cos(2*Math.PI*v)}
+const nodes=POETS.map((p,i)=>{
+  const x=tx(p.birth);
+  const by=(p.birth+p.death)/2;
+  // y: 盛唐北宋稍低、晚唐南宋稍高，加随机散点形成星河
+  let yBase=H*.5+gauss()*H*.13;
+  if(p.dynasty.includes("唐"))yBase-=gauss()*20;
+  if(p.dynasty.includes("宋"))yBase+=gauss()*15;
+  return{...p,x,y:yBase,baseY:yBase,r:5+Math.random()*2,phase:Math.random()*Math.PI*2,pulse:Math.random()*.02+.01,hoverR:0,vx:0,vy:0,alpha:.9,trail:[]};
+});
+// 交游连线
+const links=POET_RELATIONS.map(r=>{
+  const a=POET_BY_NAME[r[0]],b=POET_BY_NAME[r[1]];
+  if(!a||!b)return null;
+  const na=nodes.find(n=>n.name===r[0]),nb=nodes.find(n=>n.name===r[1]);
+  if(!na||!nb)return null;
+  return{a:na,b:nb,type:r[2],desc:r[3],relation:r[4],alpha:.25};
+}).filter(Boolean);
+// 朝代标记
+const dynasties=[{name:"先秦漢魏",from:-350,to:580,color:"#8B4513"},{name:"唐",from:618,to:907,color:"#B22222"},{name:"宋",from:960,to:1279,color:"#2E8B57"},{name:"元",from:1271,to:1368,color:"#5A4A7A"},{name:"明清",from:1368,to:1930,color:"#C71585"}];
+const dmarks=document.getElementById("dmarks");
+dynasties.forEach(d=>{
+  const cx=tx((d.from+d.to)/2);
+  d.cx=cx;
+  const el=document.createElement("div");el.className="dynasty-mark";el.style.left=cx+"px";
+  el.innerHTML=`<div class="dot"></div><div class="dname">${d.name}</div>`;
+  el.addEventListener("click",()=>filterDynasty(d.name));
+  dmarks.appendChild(el);
+});
+// 筛选
+let curFilter="all",showLinks=true,showTrails=true,showNames=true;
+document.querySelectorAll("[data-f]").forEach(b=>b.addEventListener("click",()=>{
+  document.querySelectorAll("[data-f]").forEach(x=>x.classList.remove("active"));b.classList.add("active");
+  curFilter=b.dataset.f;
+}));
+document.querySelectorAll("[data-t]").forEach(b=>b.addEventListener("click",()=>{
+  b.classList.toggle("active");
+  showLinks=document.querySelector('[data-t="links"]').classList.contains("active");
+  showTrails=document.querySelector('[data-t="trails"]').classList.contains("active");
+  showNames=document.querySelector('[data-t="names"]').classList.contains("active");
+}));
+function filterDynasty(name){
+  const map={"先秦漢魏":"han","唐":"tang","宋":"song","元":"yuan","明清":"mingqing","全部":"all"};
+  curFilter=map[name]||"all";
+  document.querySelectorAll("[data-f]").forEach(x=>x.classList.toggle("active",x.dataset.f===curFilter));
+  document.querySelectorAll(".dynasty-mark").forEach(x=>x.classList.toggle("active",x.textContent.trim()===name));
+}
+document.querySelector('[data-f="all"]').addEventListener("click",()=>document.querySelectorAll(".dynasty-mark").forEach(x=>x.classList.remove("active")));
+// 交互
+const pcard=document.getElementById("pcard");
+canvas.addEventListener("mousemove",e=>{
+  mouse.x=e.clientX;mouse.y=e.clientY;
+  let closest=null,minD=40;
+  nodes.forEach(n=>{
+    if(!isVisible(n))return;
+    const d=Math.hypot(n.x-mouse.x,n.y-mouse.y);
+    if(d<minD){minD=d;closest=n}
+  });
+  mouse.active=closest;
+  if(closest){
+    canvas.style.cursor="pointer";
+    pcard.classList.add("show");
+    pcard.style.left=Math.min(W-360,e.clientX+20)+"px";
+    pcard.style.top=Math.min(H-300,e.clientY+20)+"px";
+    const life=(closest.death>0?`${closest.birth} - ${closest.death}`:`${Math.abs(closest.birth)}前 - ${Math.abs(closest.death)}前`);
+    pcard.innerHTML=`<h2>${closest.name}</h2><div class="meta"><span>${closest.dynasty}</span><span>${life}</span>${closest.hao?`<span>${closest.hao.split("·")[0]}</span>`:""}${closest.school?`<span>${closest.school.split("·")[0]}</span>`:""}</div><div class="bio">${closest.bio}</div><div class="works"><strong>代表作：</strong>${(closest.works||[]).join(" · ")}</div><a class="go" href="../shicang-poet-journey/?p=${encodeURIComponent(closest.name)}">進入一生軌跡 →</a>`;
+  }else{
+    canvas.style.cursor="default";
+    pcard.classList.remove("show");
+  }
+});
+canvas.addEventListener("click",()=>{if(mouse.active)location.href=`../shicang-poet-journey/?p=${encodeURIComponent(mouse.active.name)}`});
+canvas.addEventListener("mouseleave",()=>{pcard.classList.remove("show");mouse.active=null});
+function isVisible(n){
+  if(curFilter==="all")return true;
+  const dy=n.dynasty;
+  if(curFilter==="han")return dy.includes("汉")||dy.includes("魏")||dy.includes("晋")||dy.includes("南朝")||dy.includes("北朝")||dy.includes("战国")||dy.includes("西汉")||dy.includes("东晋");
+  if(curFilter==="tang")return dy.includes("唐");
+  if(curFilter==="song")return dy.includes("宋")||dy.includes("南唐");
+  if(curFilter==="yuan")return dy.includes("元");
+  if(curFilter==="mingqing")return dy.includes("明")||dy.includes("清");
+  return true;
+}
+// 动画
+let t=0;
+function draw(){
+  t+=.016;
+  drawBg();
+  ctx.clearRect(0,0,W,H);
+  // 连线：交游流光
+  if(showLinks){
+    links.forEach(l=>{
+      if(!isVisible(l.a)||!isVisible(l.b))return;
+      const ax=l.a.x,ay=l.a.y,bx=l.b.x,by=l.b.y;
+      // 曲线
+      const mx=(ax+bx)/2,my=(ay+by)/2-40;
+      ctx.strokeStyle=`rgba(255,215,107,${l.alpha*.5})`;
+      ctx.lineWidth=.6;
+      ctx.beginPath();ctx.moveTo(ax,ay);ctx.quadraticCurveTo(mx,my,bx,by);ctx.stroke();
+      // 流光粒子沿曲线流动
+      const prog=(t*.5+l.a.idx%7)%1;
+      const px=(1-prog)*(1-prog)*ax+2*(1-prog)*prog*mx+prog*prog*bx;
+      const py=(1-prog)*(1-prog)*ay+2*(1-prog)*prog*my+prog*prog*by;
+      const grad=ctx.createRadialGradient(px,py,0,px,py,6);
+      grad.addColorStop(0,"rgba(255,235,150,.9)");grad.addColorStop(1,"rgba(255,215,100,0)");
+      ctx.fillStyle=grad;ctx.beginPath();ctx.arc(px,py,6,0,Math.PI*2);ctx.fill();
+    });
+  }
+  // 节点
+  nodes.forEach((n,i)=>{
+    if(!isVisible(n)){n.alpha=Math.max(0,n.alpha-.05);if(n.alpha<.02)return}
+    else n.alpha=Math.min(.9,n.alpha+.05);
+    n.phase+=n.pulse;
+    // 鼠标附近引力
+    if(mouse.active===n){
+      n.hoverR=Math.min(20,n.hoverR+.8);
+    }else{n.hoverR=Math.max(0,n.hoverR-.5)}
+    const r=n.r+n.hoverR+Math.sin(n.phase)*.8;
+    // 拖尾
+    if(showTrails&&n.alpha>.3){
+      n.trail.push({x:n.x,y:n.y});
+      if(n.trail.length>12)n.trail.shift();
+      for(let j=0;j<n.trail.length-1;j++){
+        const p1=n.trail[j],p2=n.trail[j+1];
+        ctx.strokeStyle=`${n.style}${Math.floor((j/n.trail.length)*40).toString(16).padStart(2,"0")}`;
+        ctx.lineWidth=j/8;
+        ctx.beginPath();ctx.moveTo(p1.x,p1.y);ctx.lineTo(p2.x,p2.y);ctx.stroke();
+      }
+    }
+    // 外光晕
+    const grad=ctx.createRadialGradient(n.x,n.y,0,n.x,n.y,r*6);
+    grad.addColorStop(0,`${n.style}cc`);
+    grad.addColorStop(.3,`${n.style}66`);
+    grad.addColorStop(1,`${n.style}00`);
+    ctx.fillStyle=grad;ctx.globalAlpha=n.alpha;
+    ctx.beginPath();ctx.arc(n.x,n.y,r*6,0,Math.PI*2);ctx.fill();
+    // 星核
+    ctx.fillStyle="#fff8e8";
+    ctx.beginPath();ctx.arc(n.x,n.y,r*.6,0,Math.PI*2);ctx.fill();
+    ctx.fillStyle=n.style;
+    ctx.beginPath();ctx.arc(n.x,n.y,r,0,Math.PI*2);ctx.fill();
+    // 姓名悬浮
+    if(showNames&&(mouse.active===n||n.hoverR>5)){
+      ctx.fillStyle="#ffd86b";
+      ctx.font="14px KaiTi,STKaiti,serif";
+      ctx.textAlign="center";
+      ctx.fillText(n.name,n.x,n.y-r-10);
+    }
+    ctx.globalAlpha=1;
+  });
+  requestAnimationFrame(draw);
+}
+draw();
+// 支持URL直接进诗人
+const urlP=new URLSearchParams(location.search).get("p");
+if(urlP){setTimeout(()=>{const n=nodes.find(n=>n.name===urlP);if(n){mouse.x=n.x;mouse.y=n.y;mouse.active=n}},500)}
+</script></body></html>

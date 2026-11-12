@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>诗人一生时空轨迹 · 诗藏本体论</title>
+<script src="poets_data.js"></script>
 <script src="journey_data.js"></script>
 <style>
   :root{
@@ -196,7 +197,7 @@
       <a href="/ShiCang/shicang-duilian/" class="shicang-nav-link">对弈</a>
       <a href="/ShiCang/shicang-duilian-corpus/" class="shicang-nav-link">楹联</a>
       <a href="/ShiCang/shicang-map/" class="shicang-nav-link">地图</a>
-      <a href="/ShiCang/shicang-yunshu/" class="shicang-nav-link">韵书</a>
+      <a href="/ShiCang/shicang-yunshu/" class="shicang-nav-link">韵书</a> | <a href="../shicang-xinghe/">星河</a>
     </div>
     <button class="shicang-menu-btn" onclick="document.getElementById('shicangMobileNav').classList.toggle('open')">☰</button>
     <div id="shicangMobileNav" class="shicang-mobile-menu">
@@ -506,6 +507,21 @@
 
   select(poets[4].id); // 默认李白
 })();
+</script>
+
+<script>
+window.addEventListener('DOMContentLoaded',()=>{
+  const pname=new URLSearchParams(location.search).get('p');
+  if(pname){
+    // 先等渲染完成
+    setTimeout(()=>{
+      const items=document.querySelectorAll('.poet-item');
+      for(const it of items){
+        if(it.textContent.includes(pname)){it.click();break;}
+      }
+    },300);
+  }
+});
 </script>
 </body>
 </html>
