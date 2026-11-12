@@ -2,526 +2,1011 @@
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>诗人一生时空轨迹 · 诗藏本体论</title>
-<script src="poets_data.js"></script>
-<script src="journey_data.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>诗国星河 · 历代诗人全局时空图谱 | 诗藏本体论</title>
 <style>
-  :root{
-    --paper:#f5edda; --paper-2:#faf5e8; --ink:#2b2620; --ink-2:#5c5347;
-    --ink-3:#8f8471; --zhu:#8B3A2F; --line:rgba(43,38,32,.14);
-    --ac:#8B3A2F; --ac-soft:rgba(139,58,47,.10);
-  }
-  *{box-sizing:border-box;margin:0;padding:0}
-  html{scroll-behavior:smooth}
-  body{
-    font-family:"Noto Serif SC","Songti SC","STSong",serif;
-    background:var(--paper); color:var(--ink);
-    background-image:
-      radial-gradient(circle at 12% 18%, rgba(255,255,255,.55), transparent 42%),
-      radial-gradient(circle at 88% 76%, rgba(139,58,47,.05), transparent 46%),
-      repeating-linear-gradient(0deg, rgba(120,100,70,.022) 0 1px, transparent 1px 3px);
-    -webkit-font-smoothing:antialiased;
-  }
-  a{color:inherit;text-decoration:none}
-  /* ===== 顶栏 ===== */
-  .topnav{
-    position:sticky;top:0;z-index:50;background:rgba(245,237,218,.82);
-    backdrop-filter:blur(10px);border-bottom:1px solid var(--line);
-  }
-  .topnav .inner{max-width:1280px;margin:0 auto;padding:11px 20px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
-  .brand{font-size:18px;font-weight:700;letter-spacing:2px;color:var(--zhu)}
-  .nav-links{display:flex;gap:14px;flex-wrap:wrap;font-size:13.5px;color:var(--ink-2)}
-  .nav-links a:hover{color:var(--zhu)}
-  .nav-links a.cur{color:var(--zhu);font-weight:700}
-  /* ===== 头部 ===== */
-  header.hero{max-width:1280px;margin:0 auto;padding:40px 20px 22px;text-align:center}
-  .hero h1{font-size:38px;letter-spacing:6px;font-weight:800}
-  .hero .sub{margin-top:12px;font-size:14.5px;color:var(--ink-3);letter-spacing:2px}
-  .hero .rule{width:60px;height:3px;background:var(--zhu);margin:18px auto 0;border-radius:2px;opacity:.85}
-  /* ===== 布局 ===== */
-  .wrap{max-width:1280px;margin:0 auto;padding:8px 20px 70px;display:grid;grid-template-columns:236px 1fr;gap:26px}
-  /* ===== 诗人列表 ===== */
-  .poet-list{position:sticky;top:74px;align-self:start}
-  .poet-list .cap{font-size:12.5px;letter-spacing:3px;color:var(--ink-3);margin-bottom:10px;padding-left:4px}
-  .poet-list .box{background:var(--paper-2);border:1px solid var(--line);border-radius:12px;padding:8px;max-height:calc(100vh - 150px);overflow:auto}
-  .p-item{display:flex;align-items:center;gap:10px;padding:9px 10px;border-radius:8px;cursor:pointer;transition:.18s;position:relative}
-  .p-item:hover{background:var(--ac-soft)}
-  .p-item.on{background:var(--ac-soft)}
-  .p-item.on::before{content:"";position:absolute;left:0;top:8px;bottom:8px;width:3px;border-radius:2px;background:var(--ac)}
-  .p-dot{width:9px;height:9px;border-radius:50%;flex:none}
-  .p-name{font-size:15px;font-weight:700}
-  .p-meta{font-size:11.5px;color:var(--ink-3);margin-left:auto;letter-spacing:.5px}
-  /* ===== 主舞台 ===== */
-  .stage{background:var(--paper-2);border:1px solid var(--line);border-radius:16px;padding:26px 26px 30px;box-shadow:0 1px 0 rgba(255,255,255,.6) inset}
-  .profile{display:grid;grid-template-columns:1fr auto;gap:16px;align-items:start;border-bottom:1px dashed var(--line);padding-bottom:20px}
-  .profile .nm{font-size:34px;font-weight:800;letter-spacing:4px;line-height:1.1}
-  .profile .nm .dyn{font-size:14px;font-weight:600;color:var(--ac);letter-spacing:2px;margin-left:10px;vertical-align:middle;border:1px solid var(--ac);padding:2px 9px;border-radius:20px}
-  .profile .tags{margin-top:10px;display:flex;gap:8px;flex-wrap:wrap}
-  .tag{font-size:12px;color:var(--ink-2);background:rgba(43,38,32,.045);border:1px solid var(--line);padding:3px 10px;border-radius:20px}
-  .profile .bio{margin-top:12px;font-size:13.5px;line-height:1.95;color:var(--ink-2);max-width:760px}
-  .profile .seal{width:76px;height:76px;border:2px solid var(--ac);border-radius:10px;display:flex;align-items:center;justify-content:center;color:var(--ac);font-size:26px;font-weight:800;letter-spacing:2px;opacity:.9;flex:none}
-  /* 小标题 */
-  .sec-h{display:flex;align-items:baseline;gap:12px;margin:26px 0 14px}
-  .sec-h .t{font-size:17px;font-weight:800;letter-spacing:3px}
-  .sec-h .d{font-size:12px;color:var(--ink-3);letter-spacing:1px}
-  /* 时间轴 */
-  .tl-scroll{overflow-x:auto;padding-bottom:6px}
-  .tl-svg{min-width:760px;display:block}
-  .tl-node{cursor:pointer}
-  .tl-node circle{transition:.18s}
-  .tl-node:hover circle{stroke-width:3}
-  .tl-node text{font-size:11px;fill:var(--ink-3);font-family:inherit}
-  /* 双栏：地图 + 事件 */
-  .duo{display:grid;grid-template-columns:minmax(300px,0.92fr) 1.08fr;gap:20px;margin-top:6px}
-  .panel{background:rgba(255,255,255,.42);border:1px solid var(--line);border-radius:12px;padding:14px}
-  .panel .ph{font-size:13px;font-weight:700;letter-spacing:2px;color:var(--ink-2);margin-bottom:10px;display:flex;justify-content:space-between;align-items:center}
-  .panel .ph span{font-size:11.5px;color:var(--ink-3);font-weight:400;letter-spacing:0}
-  .map-svg{width:100%;height:auto;display:block;border-radius:8px;background:
-    radial-gradient(circle at 30% 30%, rgba(255,255,255,.5), transparent 60%), #fbf7ec}
-  .map-dot{cursor:pointer}
-  .map-dot text{font-size:9.5px;fill:var(--ink-2);font-family:inherit}
-  /* 事件流 */
-  .ev-list{max-height:520px;overflow:auto;padding-right:6px}
-  .ev{position:relative;padding:0 0 16px 26px;cursor:pointer}
-  .ev::before{content:"";position:absolute;left:7px;top:6px;bottom:-2px;width:1px;background:var(--line)}
-  .ev:last-child::before{display:none}
-  .ev .dot{position:absolute;left:2px;top:5px;width:11px;height:11px;border-radius:50%;background:var(--paper-2);border:2px solid var(--ac);transition:.18s}
-  .ev.on .dot{background:var(--ac);transform:scale(1.25)}
-  .ev-body{padding:9px 12px;border-radius:9px;border:1px solid transparent;transition:.18s}
-  .ev:hover .ev-body,.ev.on .ev-body{background:var(--ac-soft);border-color:var(--line)}
-  .ev-top{display:flex;align-items:center;gap:9px;flex-wrap:wrap}
-  .ev-yr{font-size:12.5px;font-weight:800;color:var(--ac);letter-spacing:1px}
-  .ev-agem{font-size:11.5px;color:var(--ink-3)}
-  .ev-place{font-size:12px;color:var(--ink-2);border:1px solid var(--line);padding:1px 8px;border-radius:20px}
-  .ev-txt{margin-top:6px;font-size:13px;line-height:1.8;color:var(--ink)}
-  .ev-chips{margin-top:7px;display:flex;gap:6px;flex-wrap:wrap}
-  .chip{font-size:11.5px;padding:2px 9px;border-radius:6px;letter-spacing:.5px}
-  .chip.w{background:rgba(139,58,47,.09);color:var(--zhu);border:1px solid rgba(139,58,47,.22)}
-  .chip.f{background:rgba(47,102,94,.10);color:#2F665E;border:1px solid rgba(47,102,94,.24)}
-  /* 关系 */
-  .rel-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:12px}
-  .rel-card{background:rgba(255,255,255,.5);border:1px solid var(--line);border-radius:11px;padding:13px 14px;transition:.18s;border-left:3px solid var(--ac)}
-  .rel-card:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(43,38,32,.08)}
-  .rel-head{display:flex;align-items:center;gap:8px}
-  .rel-who{font-size:15px;font-weight:700}
-  .rel-type{font-size:11px;color:var(--ac);border:1px solid var(--ac);border-radius:20px;padding:1px 8px}
-  .rel-note{margin-top:8px;font-size:12.5px;line-height:1.75;color:var(--ink-2)}
-  /* 同时代 */
-  .contemp{display:flex;gap:9px;flex-wrap:wrap}
-  .ctag{font-size:12.5px;padding:4px 12px;border-radius:20px;border:1px dashed var(--line);color:var(--ink-2);cursor:pointer;transition:.18s}
-  .ctag:hover{border-style:solid;border-color:var(--ac);color:var(--ac)}
-  /* 底部说明 */
-  .foot{max-width:1280px;margin:0 auto;padding:0 20px 60px;text-align:center;color:var(--ink-3);font-size:12.5px;letter-spacing:1px;line-height:2}
-  @media (max-width:960px){
-    .wrap{grid-template-columns:1fr}
-    .poet-list{position:static}
-    .poet-list .box{max-height:none;display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:4px}
-    .duo{grid-template-columns:1fr}
-    .profile{grid-template-columns:1fr}
-    .profile .seal{display:none}
-    header.hero h1{font-size:28px;letter-spacing:4px}
-  }
-</style>
+*{margin:0;padding:0;box-sizing:border-box;}
+html,body{width:100%;height:100%;overflow-x:hidden;background:#0a0420;color:#fff;font-family:"Noto Serif CJK SC","Songti SC","SimSun","STSong",serif;}
+::-webkit-scrollbar{width:8px;height:8px;}
+::-webkit-scrollbar-track{background:rgba(255,255,255,0.05);}
+::-webkit-scrollbar-thumb{background:rgba(139,92,246,0.5);border-radius:4px;}
+::-webkit-scrollbar-thumb:hover{background:rgba(139,92,246,0.8);}
+#starCanvas{position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;}
+nav{position:fixed;top:0;left:0;width:100%;height:56px;z-index:100;background:linear-gradient(180deg,rgba(20,8,50,0.95) 0%,rgba(20,8,50,0.7) 100%);backdrop-filter:blur(10px);border-bottom:1px solid rgba(139,92,246,0.3);display:flex;align-items:center;padding:0 24px;}
+.logo{display:flex;align-items:center;gap:10px;font-size:20px;font-weight:bold;color:#fff;text-decoration:none;}
+.logo-mark{width:34px;height:34px;border-radius:50%;background:linear-gradient(135deg,#ef4444,#dc2626);display:flex;align-items:center;justify-content:center;font-size:20px;color:#fff;font-weight:bold;box-shadow:0 0 14px rgba(239,68,68,0.7);}
+.logo-text{font-size:18px;background:linear-gradient(90deg,#fff,#c4b5fd);-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
+.nav-links{margin-left:40px;display:flex;gap:2px;flex-wrap:nowrap;}
+.nav-links a{color:#c4b5fd;text-decoration:none;padding:6px 12px;font-size:14px;border-radius:6px;transition:all .2s;white-space:nowrap;}
+.nav-links a:hover{color:#fff;background:rgba(139,92,246,0.2);}
+.nav-links a.active{color:#fff;background:linear-gradient(135deg,rgba(239,68,68,0.3),rgba(139,92,246,0.3));box-shadow:0 0 12px rgba(139,92,246,0.4);}
+main{position:relative;z-index:10;padding-top:72px;padding-bottom:20px;min-height:100vh;}
+.title-area{text-align:center;padding:12px 20px 8px;}
+.title-area h1{font-size:42px;font-weight:bold;background:linear-gradient(135deg,#c4b5fd 0%,#f0abfc 50%,#fcd34d 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;letter-spacing:6px;text-shadow:0 0 30px rgba(196,181,253,0.3);}
+.title-area p{color:#a78bfa;margin-top:6px;font-size:15px;letter-spacing:2px;}
+.tabs{display:flex;justify-content:center;gap:14px;margin:16px 0;}
+.tab-btn{padding:10px 26px;border:1px solid rgba(139,92,246,0.4);background:rgba(20,8,50,0.6);color:#c4b5fd;font-size:15px;border-radius:24px;cursor:pointer;transition:all .3s;letter-spacing:2px;font-family:inherit;backdrop-filter:blur(6px);}
+.tab-btn:hover{border-color:#c4b5fd;color:#fff;box-shadow:0 0 16px rgba(139,92,246,0.5);}
+.tab-btn.active{background:linear-gradient(135deg,rgba(139,92,246,0.4),rgba(236,72,153,0.4));color:#fff;border-color:#e879f9;box-shadow:0 0 24px rgba(232,121,249,0.6);}
 
-<style>
-  .shicang-topnav{
-    position:sticky;top:0;z-index:999;
-    backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
-    background:rgba(246,241,231,.92);
-    border-bottom:1px solid rgba(30,26,21,.11);
-    box-shadow:0 2px 12px rgba(30,26,21,.04);
-    font-family:'PingFang SC','HarmonyOS Sans SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;
-  }
-  .shicang-topnav-inner{
-    max-width:1200px;margin:0 auto;padding:0 16px;
-    height:52px;display:flex;align-items:center;justify-content:space-between;gap:12px;
-  }
-  .shicang-logo{
-    display:flex;align-items:center;gap:8px;text-decoration:none;color:#1e1a15;font-weight:700;
-    font-size:16px;font-family:'Songti SC','STSong','Noto Serif CJK SC',serif;
-  }
-  .shicang-logo-mark{
-    width:28px;height:28px;border-radius:6px;
-    background:linear-gradient(150deg,#ae3a2b,#c85a49);color:#fff;
-    display:flex;align-items:center;justify-content:center;
-    font-size:16px;box-shadow:inset 0 0 0 1px rgba(255,255,255,.25);
-  }
-  .shicang-nav-links{
-    display:flex;gap:4px;align-items:center;overflow-x:auto;scrollbar-width:none;
-  }
-  .shicang-nav-links::-webkit-scrollbar{display:none;}
-  .shicang-nav-link{
-    font-size:13px;color:#4b4237;text-decoration:none;padding:6px 10px;border-radius:999px;white-space:nowrap;
-    transition:all .2s;
-  }
-  .shicang-nav-link:hover{color:#ae3a2b;background:rgba(174,58,43,.07);}
-  .shicang-nav-link.active{color:#ae3a2b;background:rgba(174,58,43,.1);}
-  .shicang-nav-sep{font-size:11px;color:#8a7f6d;padding:0 4px;}
-  .shicang-menu-btn{display:none;font-size:20px;background:transparent;border:none;cursor:pointer;padding:6px;color:#1e1a15;}
-  .shicang-mobile-menu{
-    display:none;position:absolute;top:52px;left:0;right:0;
-    background:rgba(246,241,231,.98);backdrop-filter:blur(14px);
-    border-bottom:1px solid rgba(30,26,21,.11);padding:10px 16px;flex-direction:column;gap:4px;
-  }
-  .shicang-mobile-menu.open{display:flex;}
-  .shicang-mobile-menu .shicang-nav-link{padding:9px 10px;border-radius:8px;}
-  @media(max-width:1024px){
-    .shicang-desktop-links{display:none !important;}
-    .shicang-menu-btn{display:block !important;}
-  }
-</style>
+#galaxy-view{display:block;position:relative;}
+#timeline-view{display:none;}
+.filters{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;padding:10px 20px;margin:0 auto 8px;max-width:1400px;background:rgba(20,8,50,0.4);border-radius:14px;border:1px solid rgba(139,92,246,0.2);backdrop-filter:blur(8px);}
+.filter-group{display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+.filter-group .fg-label{color:#e9d5ff;font-size:13px;margin-right:4px;letter-spacing:1px;}
+.filter-chip{display:inline-flex;align-items:center;gap:4px;padding:4px 10px;border-radius:14px;border:1px solid rgba(255,255,255,0.15);background:rgba(255,255,255,0.04);color:#d8b4fe;font-size:12px;cursor:pointer;transition:all .2s;user-select:none;}
+.filter-chip:hover{border-color:#c4b5fd;}
+.filter-chip.on{background:currentColor;border-color:currentColor;color:#fff;}
+.filter-chip .dot{width:8px;height:8px;border-radius:50%;}
+.galaxy-wrap{position:relative;width:100%;height:calc(100vh - 260px);min-height:560px;max-width:1480px;margin:0 auto;overflow:hidden;border-radius:18px;border:1px solid rgba(139,92,246,0.25);background:radial-gradient(ellipse at center,rgba(40,15,80,0.4) 0%,rgba(8,4,30,0.8) 70%);}
+#galaxySvg{width:100%;height:100%;cursor:grab;display:block;}
+#galaxySvg:active{cursor:grabbing;}
+#tooltip{position:fixed;z-index:200;pointer-events:none;padding:8px 14px;background:rgba(10,4,30,0.9);border:1px solid rgba(196,181,253,0.5);border-radius:10px;color:#fff;font-size:13px;line-height:1.6;display:none;backdrop-filter:blur(8px);box-shadow:0 4px 24px rgba(139,92,246,0.4);white-space:nowrap;}
+#tooltip .tt-name{font-size:15px;font-weight:bold;}
+#tooltip .tt-sub{font-size:12px;color:#c4b5fd;}
 
+.detail-panel{position:fixed;top:56px;right:-480px;width:460px;max-width:90vw;height:calc(100vh - 56px);background:linear-gradient(180deg,rgba(20,8,50,0.95),rgba(10,4,30,0.98));border-left:1px solid rgba(139,92,246,0.4);z-index:150;transition:right .4s cubic-bezier(.4,0,.2,1);overflow-y:auto;padding:24px;box-shadow:-8px 0 40px rgba(139,92,246,0.3);backdrop-filter:blur(12px);}
+.detail-panel.open{right:0;}
+.detail-close{position:absolute;top:16px;right:16px;width:32px;height:32px;border-radius:50%;border:1px solid rgba(239,68,68,0.5);background:rgba(239,68,68,0.1);color:#fca5a5;cursor:pointer;font-size:18px;display:flex;align-items:center;justify-content:center;transition:all .2s;}
+.detail-close:hover{background:rgba(239,68,68,0.3);color:#fff;}
+.dp-header{display:flex;align-items:center;gap:16px;padding-bottom:18px;border-bottom:1px solid rgba(139,92,246,0.2);margin-bottom:18px;}
+.dp-avatar{width:72px;height:72px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:32px;color:#fff;flex-shrink:0;box-shadow:0 0 24px currentColor;}
+.dp-name{font-size:26px;font-weight:bold;color:#fff;}
+.dp-zihao{font-size:13px;color:#c4b5fd;margin-top:4px;}
+.dp-meta{font-size:12px;color:#a78bfa;margin-top:6px;line-height:1.6;}
+.dp-section{margin-bottom:18px;}
+.dp-section h4{font-size:14px;color:#e9d5ff;margin-bottom:8px;padding-left:8px;border-left:3px solid #8b5cf6;letter-spacing:2px;}
+.dp-section p{font-size:13px;color:#ddd6fe;line-height:1.8;text-indent:2em;}
+.dp-tag{display:inline-block;padding:3px 10px;margin:2px 4px 2px 0;border-radius:12px;font-size:12px;background:rgba(139,92,246,0.15);border:1px solid rgba(139,92,246,0.3);color:#c4b5fd;cursor:pointer;transition:all .2s;}
+.dp-tag:hover{background:rgba(139,92,246,0.3);color:#fff;}
+.dp-works li{list-style:none;padding:6px 10px;margin-bottom:6px;background:rgba(255,255,255,0.03);border-left:2px solid #f472b6;border-radius:4px;font-size:13px;color:#fbcfe8;}
+.dp-timeline{position:relative;padding-left:20px;}
+.dp-timeline::before{content:"";position:absolute;left:6px;top:4px;bottom:4px;width:2px;background:linear-gradient(180deg,#8b5cf6,#ec4899);}
+.dp-timeline .ev{position:relative;margin-bottom:10px;font-size:12px;color:#ddd6fe;line-height:1.6;}
+.dp-timeline .ev::before{content:"";position:absolute;left:-18px;top:5px;width:10px;height:10px;border-radius:50%;background:#ec4899;box-shadow:0 0 8px #ec4899;}
+.dp-timeline .ev .yr{color:#f0abfc;font-weight:bold;margin-right:6px;}
+
+#timeline-view{background:rgba(250,245,235,0.97);border-radius:18px;max-width:1480px;margin:0 auto;min-height:calc(100vh - 260px);display:none;overflow:hidden;border:1px solid rgba(139,92,246,0.3);color:#3a2a1a;}
+.timeline-wrap{display:flex;height:calc(100vh - 260px);min-height:560px;}
+.tl-sidebar{width:260px;flex-shrink:0;background:#f5ede0;border-right:1px solid #d9c9a8;overflow-y:auto;padding:12px 0;}
+.tl-dyn-group{margin-bottom:8px;}
+.tl-dyn-title{padding:6px 16px;font-size:13px;font-weight:bold;letter-spacing:2px;border-bottom:1px dashed #c9b896;margin-bottom:4px;}
+.tl-poet-item{padding:8px 20px;cursor:pointer;transition:all .2s;border-left:3px solid transparent;font-size:14px;}
+.tl-poet-item:hover{background:rgba(139,92,246,0.08);}
+.tl-poet-item.active{background:linear-gradient(90deg,rgba(139,92,246,0.2),transparent);color:#7c3aed;font-weight:bold;}
+.tl-poet-item .pi-life{font-size:11px;color:#8b7355;margin-left:6px;font-weight:normal;}
+.tl-content{flex:1;overflow-y:auto;padding:24px 32px;}
+.tlc-head{display:flex;align-items:center;gap:20px;padding-bottom:16px;border-bottom:1px solid #d9c9a8;margin-bottom:20px;}
+.tlc-avatar{width:80px;height:80px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:36px;color:#fff;flex-shrink:0;}
+.tlc-name{font-size:28px;font-weight:bold;color:#3a2a1a;letter-spacing:4px;}
+.tlc-sub{color:#6b5a3f;font-size:14px;margin-top:6px;letter-spacing:1px;}
+.tlc-intro{font-size:14px;line-height:2;color:#4a3a2a;text-indent:2em;margin-bottom:20px;}
+.tlc-block{margin-bottom:22px;}
+.tlc-block h3{font-size:16px;color:#7c3aed;border-left:4px double #8b5cf6;padding-left:10px;margin-bottom:12px;letter-spacing:3px;}
+.tlc-map{width:100%;height:220px;background:linear-gradient(135deg,#ede0c8,#e8d7b8);border-radius:8px;border:1px solid #c9b896;display:flex;align-items:center;justify-content:center;color:#8b7355;font-size:13px;position:relative;overflow:hidden;}
+.tlc-map svg{width:100%;height:100%;}
+.tlc-works{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:10px;}
+.tlc-work{padding:10px 14px;background:#faf5eb;border:1px solid #e0d0b0;border-radius:6px;font-size:13px;line-height:1.7;color:#4a3a2a;}
+.tlc-work .wk-title{font-weight:bold;color:#7c3aed;font-size:14px;margin-bottom:4px;}
+.tlc-events{position:relative;padding-left:24px;}
+.tlc-events::before{content:"";position:absolute;left:8px;top:6px;bottom:6px;width:2px;background:linear-gradient(180deg,#8b5cf6,#ec4899);}
+.tlc-events .ev{position:relative;margin-bottom:12px;}
+.tlc-events .ev::before{content:"";position:absolute;left:-20px;top:6px;width:12px;height:12px;border-radius:50%;background:#ec4899;}
+.tlc-events .ev .yr{font-weight:bold;color:#7c3aed;margin-right:8px;}
+
+@media(max-width:900px){
+  .nav-links{display:none;}
+  .title-area h1{font-size:28px;letter-spacing:3px;}
+  .galaxy-wrap{height:70vh;min-height:440px;}
+  .detail-panel{width:100%;right:-100%;}
+  .timeline-wrap{flex-direction:column;height:auto;}
+  .tl-sidebar{width:100%;height:200px;border-right:none;border-bottom:1px solid #d9c9a8;}
+  .tl-content{padding:16px;}
+}
+</style>
 </head>
 <body>
-
-<nav class="shicang-topnav">
-  <div class="shicang-topnav-inner">
-    <a href="/ShiCang/" class="shicang-logo">
-      <span class="shicang-logo-mark">诗</span>
-      <span>诗藏本体论</span>
-    </a>
-    <div class="shicang-nav-links shicang-desktop-links">
-      <a href="/ShiCang/" class="shicang-nav-link">首页</a>
-      <span class="shicang-nav-sep">|</span>
-      <a href="/ShiCang/shicang-jingdu/" class="shicang-nav-link">诗</a>
-      <a href="/ShiCang/shicang-ci/" class="shicang-nav-link">词</a>
-      <a href="/ShiCang/shicang-qu/" class="shicang-nav-link">曲</a>
-      <a href="/ShiCang/shicang-chuci/" class="shicang-nav-link">辞赋</a>
-      <a href="/ShiCang/shicang-poem/" class="shicang-nav-link">名篇</a>
-      <span class="shicang-nav-sep">|</span>
-      <a href="/ShiCang/shicang-poet-journey/" class="shicang-nav-link active" class="shicang-nav-link">诗人轨迹</a>
-      <a href="/ShiCang/shicang-cipai/" class="shicang-nav-link">词牌</a>
-      <a href="/ShiCang/shicang-imagery/" class="shicang-nav-link">意象</a>
-      <a href="/ShiCang/shicang-meipi/" class="shicang-nav-link">眉批</a>
-      <a href="/ShiCang/shicang-duilian/" class="shicang-nav-link">对弈</a>
-      <a href="/ShiCang/shicang-duilian-corpus/" class="shicang-nav-link">楹联</a>
-      <a href="/ShiCang/shicang-map/" class="shicang-nav-link">地图</a>
-      <a href="/ShiCang/shicang-yunshu/" class="shicang-nav-link">韵书</a> | <a href="../shicang-xinghe/">星河</a>
-    </div>
-    <button class="shicang-menu-btn" onclick="document.getElementById('shicangMobileNav').classList.toggle('open')">☰</button>
-    <div id="shicangMobileNav" class="shicang-mobile-menu">
-      <a href="/ShiCang/" class="shicang-nav-link font-bold">🏠 返回首页</a>
-      <div style="height:1px;background:rgba(30,26,21,.1);margin:6px 0;"></div>
-      <a href="/ShiCang/shicang-jingdu/" class="shicang-nav-link">📚 诗藏精读</a>
-      <a href="/ShiCang/shicang-ci/" class="shicang-nav-link">📝 词林精读</a>
-      <a href="/ShiCang/shicang-qu/" class="shicang-nav-link">🎭 曲林精读</a>
-      <a href="/ShiCang/shicang-chuci/" class="shicang-nav-link">🏮 辞赋精读</a>
-      <a href="/ShiCang/shicang-poem/" class="shicang-nav-link">📜 名篇精读</a>
-      <div style="height:1px;background:rgba(30,26,21,.1);margin:6px 0;"></div>
-      <a href="/ShiCang/shicang-poet-journey/" class="shicang-nav-link active" class="shicang-nav-link">🧭 诗人时空轨迹</a>
-      <a href="/ShiCang/shicang-cipai/" class="shicang-nav-link">🎶 词牌格律谱</a>
-      <a href="/ShiCang/shicang-imagery/" class="shicang-nav-link">🌿 意象关系图</a>
-      <a href="/ShiCang/shicang-meipi/" class="shicang-nav-link">🖋️ 诗话眉批</a>
-      <a href="/ShiCang/shicang-duilian/" class="shicang-nav-link">🀄 对联斗巧</a>
-      <a href="/ShiCang/shicang-duilian-corpus/" class="shicang-nav-link">🧧 楹联集对</a>
-      <a href="/ShiCang/shicang-map/" class="shicang-nav-link">🗺️ 诗词地图</a>
-      <a href="/ShiCang/shicang-yunshu/" class="shicang-nav-link">📖 韵书查询</a>
-    </div>
+<canvas id="starCanvas"></canvas>
+<nav>
+  <a class="logo" href="#"><span class="logo-mark">诗</span><span class="logo-text">诗藏本体论</span></a>
+  <div class="nav-links">
+    <a href="#">首页</a><a href="#">诗</a><a href="#">词</a><a href="#">曲</a><a href="#">辞赋</a><a href="#">名篇</a>
+    <a href="#" class="active">诗人轨迹</a><a href="#">词牌</a><a href="#">意象</a><a href="#">眉批</a>
+    <a href="#">对弈</a><a href="#">楹联</a><a href="#">地图</a><a href="#">韵书</a>
   </div>
 </nav>
+<main>
+  <div class="title-area">
+    <h1>🌌 诗国星河</h1>
+    <p>三千年诗坛时空图谱 · 历代诗人交游宇宙</p>
+  </div>
+  <div class="tabs">
+    <button class="tab-btn active" data-tab="galaxy">⭐ 全局星河</button>
+    <button class="tab-btn" data-tab="timeline">📜 单人轨迹</button>
+  </div>
 
-<header class="hero">
-  <h1>诗人一生时空轨迹</h1>
-  <div class="sub">时间 · 空间 · 事件 · 作品 · 交游　—　与诗藏本体论相连的诗人生命图谱</div>
-  <div class="rule"></div>
-</header>
-
-<div class="wrap">
-  <aside class="poet-list">
-    <div class="cap">历代诗人 · 十五家</div>
-    <div class="box" id="plist"></div>
-  </aside>
-
-  <section class="stage" id="stage">
-    <div class="profile" id="profile"></div>
-
-    <div class="sec-h"><div class="t">一生行迹 · 时间轴</div><div class="d">按生卒年比例排布，点击任一节点查看该年事迹</div></div>
-    <div class="tl-scroll"><svg class="tl-svg" id="tlsvg" viewBox="0 0 900 150" preserveAspectRatio="xMidYMid meet"></svg></div>
-
-    <div class="duo">
-      <div class="panel">
-        <div class="ph">行迹地图 <span id="mapnote">点位与路线示意</span></div>
-        <svg class="map-svg" id="mapsvg" viewBox="0 0 520 380" preserveAspectRatio="xMidYMid meet"></svg>
-      </div>
-      <div class="panel">
-        <div class="ph">生平事件 · 作品 · 交游 <span id="evcount"></span></div>
-        <div class="ev-list" id="evlist"></div>
-      </div>
+  <section id="galaxy-view">
+    <div class="filters">
+      <div class="filter-group" id="dynFilter"><span class="fg-label">朝代</span></div>
+      <div class="filter-group" id="schoolFilter"><span class="fg-label">流派</span></div>
     </div>
-
-    <div class="sec-h"><div class="t">交游 · 师承 · 影响</div><div class="d">本体中有据可循的人物关系</div></div>
-    <div class="rel-grid" id="relgrid"></div>
-
-    <div class="sec-h"><div class="t">同时代诗人</div><div class="d">生卒年与之有交叠，可对比参照</div></div>
-    <div class="contemp" id="contemp"></div>
+    <div class="galaxy-wrap">
+      <svg id="galaxySvg" xmlns="http://www.w3.org/2000/svg"></svg>
+    </div>
   </section>
-</div>
 
-<div class="foot">
-  数据来源：诗藏本体论 shicang:Person / shicang:Poet 个体与生平属性　·　共 15 位诗人 · 114 个关键事件 · 43 条交游关系<br>
-  生卒年、行迹、交游均据学界公认史料录入，事件出处可回溯至《史记》《旧唐书》《宋史》及各家年谱
-</div>
+  <section id="timeline-view">
+    <div class="timeline-wrap">
+      <aside class="tl-sidebar" id="tlSidebar"></aside>
+      <article class="tl-content" id="tlContent"></article>
+    </div>
+  </section>
+</main>
+
+<div id="tooltip"></div>
+<aside class="detail-panel" id="detailPanel">
+  <button class="detail-close" id="detailClose">✕</button>
+  <div id="detailBody"></div>
+</aside>
 
 <script>
-(function(){
-  var D = window.POET_JOURNEYS;
-  if(!D){document.getElementById('stage').innerHTML='<p style="padding:40px;text-align:center">数据加载失败</p>';return;}
-  var poets = D.poets;
-  var curId = null, curEvents = [], curIdx = -1;
+const DYNASTIES = [
+  {id:'xianqin', name:'先秦', color:'#8b5cf6', start:-1100, end:-221},
+  {id:'han',     name:'汉',   color:'#3b82f6', start:-202, end:220},
+  {id:'weijin',  name:'魏晋南北朝', color:'#10b981', start:220, end:589},
+  {id:'tang',    name:'唐',   color:'#ef4444', start:618, end:907},
+  {id:'song',    name:'宋',   color:'#f59e0b', start:960, end:1279},
+  {id:'yuan',    name:'元',   color:'#84cc16', start:1271, end:1368},
+  {id:'ming',    name:'明',   color:'#06b6d4', start:1368, end:1644},
+  {id:'qing',    name:'清',   color:'#ec4899', start:1644, end:1912},
+];
+const SCHOOLS = ['楚辞','汉赋','建安','正始','田园','山水','元嘉','初唐四杰','山水田园','边塞','新乐府','韩孟','元白','晚唐','婉约','豪放','江西诗派','辛派词人','江湖诗人','元曲','公安派','神韵派','性灵派','常州词派'];
+const POETS = [
+  // 先秦
+  {id:'quyuan',   name:'屈原',   zi:'字原，名平', years:[-340,-278], dynasty:'xianqin', title:'中华诗祖 · 楚辞之祖', birth:'楚国秭归', school:'楚辞',
+    intro:'中国浪漫主义文学奠基人，创立楚辞体，《离骚》《九歌》光耀千秋。忠而被谤、投江殉国，成为后世文人精神坐标。',
+    friends:['songyu'],
+    works:['离骚','九歌·湘夫人','天问','九章·涉江'],
+    events:[[-340,'生于楚国贵族之家'],[-314,'任左徒，主张联齐抗秦'],[-278,'郢都破，怀石投汨罗江']]},
+  {id:'songyu',   name:'宋玉',   zi:'字子渊', years:[-298,-222], dynasty:'xianqin', title:'楚辞大家 · 赋体之祖', birth:'楚国鄢城', school:'楚辞',
+    intro:'屈原之后楚辞代表作家，与屈原并称"屈宋"，《九辩》开悲秋文学传统。',
+    friends:['quyuan'],
+    works:['九辩','风赋','高唐赋','神女赋','登徒子好色赋'],
+    events:[[-298,'生于楚国鄢城'],[-270,'为楚襄王文学侍从'],[-222,'楚亡前后终老']]},
+  // 汉
+  {id:'simaxiangru', name:'司马相如', zi:'字长卿', years:[-179,-118], dynasty:'han', title:'辞宗 · 赋圣', birth:'蜀郡成都', school:'汉赋',
+    intro:'汉赋奠基人，以《子虚赋》《上林赋》名动天下，与卓文君凤求凰的爱情千古流传。',
+    friends:[],
+    works:['子虚赋','上林赋','长门赋','凤求凰'],
+    events:[[-179,'生于蜀郡成都'],[-150,'梁孝王门客，作《子虚赋》'],[-138,'被汉武帝召为郎'],[-118,'病卒于家']]},
+  {id:'simaqian', name:'司马迁', zi:'字子长', years:[-145,-86], dynasty:'han', title:'史圣', birth:'左冯翊夏阳', school:'汉赋',
+    intro:'伟大的史学家、文学家，以"究天人之际、通古今之变"的胸襟撰成《史记》，被鲁迅誉为"史家之绝唱，无韵之离骚"。',
+    friends:[],
+    works:['史记·太史公自序','报任安书','史记·项羽本纪','史记·屈原列传'],
+    events:[[-145,'生于夏阳龙门'],[-108,'继任太史令'],[-99,'为李陵辩护遭腐刑'],[-91,'《史记》成书']]},
+  {id:'bangu',    name:'班固',   zi:'字孟坚', years:[32,92], dynasty:'han', title:'汉书作者 · 班兰台', birth:'扶风安陵', school:'汉赋',
+    intro:'东汉史学家、文学家，与司马迁并称"班马"，撰《汉书》为第一部纪传体断代史。',
+    friends:[],
+    works:['汉书','两都赋','幽通赋','咏史'],
+    events:[[32,'生于扶风安陵'],[62,'因私撰国史下狱，弟班超力救'],[82,'《汉书》基本修成'],[92,'受窦宪牵连死于狱中']]},
+  {id:'caocao',   name:'曹操',   zi:'字孟德', years:[155,220], dynasty:'han', title:'魏武帝 · 建安风骨之魂', birth:'沛国谯县', school:'建安',
+    intro:'建安文学领袖，政治家、军事家、诗人。其诗苍凉慷慨、气韵沉雄，开建安风骨之先声。',
+    friends:['caozhi'],
+    works:['短歌行','观沧海','龟虽寿','蒿里行'],
+    events:[[155,'生于沛国谯县'],[196,'迎献帝都许，挟天子令诸侯'],[207,'北征乌桓，作《观沧海》'],[220,'病逝洛阳，谥武王']]},
+  {id:'caozhi',   name:'曹植',   zi:'字子建', years:[192,232], dynasty:'han', title:'陈思王 · 建安之杰', birth:'沛国谯县', school:'建安',
+    intro:'才高八斗，建安文学最高成就者，《洛神赋》千古绝唱。与父操、兄丕合称"三曹"。',
+    friends:['caocao'],
+    works:['洛神赋','白马篇','七步诗','赠白马王彪'],
+    events:[[192,'生于谯县'],[210,'铜雀台赋成，曹操大异之'],[220,'兄丕继位，屡遭贬徙'],[232,'郁郁而终，谥思']]},
+  {id:'caiwenji', name:'蔡文姬', zi:'名琰，字文姬', years:[177,249], dynasty:'han', title:'悲愤诗人', birth:'陈留圉县', school:'建安',
+    intro:'东汉末年著名才女，蔡邕之女。一生三嫁，被掳匈奴十二年，《胡笳十八拍》《悲愤诗》动人心魄。',
+    friends:[],
+    works:['悲愤诗','胡笳十八拍'],
+    events:[[177,'生于陈留圉县'],[195,'战乱中为匈奴所掳，居胡十二年'],[207,'曹操以金璧赎回，重嫁董祀'],[249,'作《悲愤诗》']]},
 
-  /* ---- 诗人列表 ---- */
-  var plist = document.getElementById('plist');
-  function renderList(){
-    plist.innerHTML = poets.map(function(p){
-      return '<div class="p-item'+(p.id===curId?' on':'')+'" data-id="'+p.id+'">'
-        + '<span class="p-dot" style="background:'+p.color+'"></span>'
-        + '<span class="p-name">'+p.name+'</span>'
-        + '<span class="p-meta">'+(p.birth<0?(-p.birth)+'前':p.birth)+'–'+(p.death<0?(-p.death)+'前':p.death)+'</span>'
-        + '</div>';
-    }).join('');
-    Array.prototype.forEach.call(plist.querySelectorAll('.p-item'), function(el){
-      el.onclick = function(){ select(el.getAttribute('data-id')); };
-    });
+  // 魏晋南北朝
+  {id:'jikang',   name:'嵇康',   zi:'字叔夜', years:[223,263], dynasty:'weijin', title:'竹林七贤之冠', birth:'谯国铚县', school:'正始',
+    intro:'竹林七贤领袖，"越名教而任自然"的精神象征，《与山巨源绝交书》千古传诵。临刑东市，索琴弹《广陵散》。',
+    friends:['ruanji'],
+    works:['与山巨源绝交书','赠秀才入军','幽愤诗','琴赋'],
+    events:[[223,'生于谯国铚县'],[249,'与阮籍等共为竹林之游'],[261,'作《与山巨源绝交书》'],[263,'为钟会所谗，临刑索琴弹《广陵散》']]},
+  {id:'ruanji',   name:'阮籍',   zi:'字嗣宗', years:[210,263], dynasty:'weijin', title:'竹林七贤', birth:'陈留尉氏', school:'正始',
+    intro:'竹林七贤核心人物，"建安七子"阮瑀之子。嗜酒能啸，八十二首《咏怀诗》开政治抒情组诗先河。',
+    friends:['jikang'],
+    works:['咏怀八十二首','大人先生传','清思赋'],
+    events:[[210,'生于陈留尉氏'],[249,'与嵇康同游竹林'],[256,'为逃避司马氏求婚大醉六十日'],[263,'卒']]},
+  {id:'luji',     name:'陆机',   zi:'字士衡', years:[261,303], dynasty:'weijin', title:'太康之英', birth:'吴郡吴县', school:'元嘉',
+    intro:'西晋太康文学代表，祖逊、父抗皆吴名将。《文赋》为中国文学批评史上重要文献。与潘岳并称"潘江陆海"。',
+    friends:['panyue','zuosi'],
+    works:['文赋','平复帖','赴洛道中作','吊魏武帝文'],
+    events:[[261,'生于吴郡吴县'],[280,'吴亡，十年不仕'],[289,'与弟云入洛，名动一时'],[303,'八王之乱中被诛于军中']]},
+  {id:'panyue',   name:'潘岳',   zi:'字安仁', years:[247,300], dynasty:'weijin', title:'太康文坛 · 掷果潘郎', birth:'荥阳中牟', school:'元嘉',
+    intro:'西晋著名文学家，中国古代第一美男。与陆机并称"潘陆"，《悼亡诗》三首开悼亡诗先河。',
+    friends:['luji','zuosi'],
+    works:['悼亡诗三首','秋兴赋','闲居赋','藉田赋'],
+    events:[[247,'生于荥阳中牟'],[270,'为河阳令，满县种桃花'],[296,'作《闲居赋》'],[300,'为孙秀诬杀，夷三族']]},
+  {id:'zuosi',    name:'左思',   zi:'字太冲', years:[250,305], dynasty:'weijin', title:'洛阳纸贵', birth:'齐国临淄', school:'元嘉',
+    intro:'西晋文学家，以《三都赋》使"洛阳纸贵"，《咏史》八首创借咏史以咏怀之体。',
+    friends:['luji','panyue'],
+    works:['三都赋','咏史八首','娇女诗'],
+    events:[[250,'生于齐国临淄'],[280,'妹左棻入宫，移居洛阳'],[290,'《三都赋》成，洛阳纸贵'],[305,'张方之乱，举家迁冀州卒']]},
+  {id:'wangxizhi',name:'王羲之', zi:'字逸少', years:[303,361], dynasty:'weijin', title:'书圣', birth:'琅琊临沂', school:'山水',
+    intro:'东晋伟大书法家，被尊为"书圣"。《兰亭集序》被誉为"天下第一行书"，文风书法并臻绝诣。',
+    friends:[],
+    works:['兰亭集序','黄庭经','快雪时晴帖'],
+    events:[[303,'生于琅琊临沂'],[353,'为右军将军、会稽内史'],[353,'兰亭雅集，作《兰亭集序》'],[361,'辞官归隐，卒于金庭']]},
+  {id:'taoyuanming',name:'陶渊明',zi:'字元亮，又名潜',years:[365,427],dynasty:'weijin',title:'靖节先生 · 古今隐逸诗人之宗',birth:'寻阳柴桑',school:'田园',
+    intro:'田园诗派开创者，"不为五斗米折腰"的人格典范。其诗平淡自然、醇厚深远，为后世诗人精神家园。',
+    friends:[],
+    works:['桃花源记','归去来兮辞','饮酒·其五','归园田居','五柳先生传'],
+    events:[[365,'生于寻阳柴桑'],[405,'为彭泽令八十余日辞官归田'],[408,'作《归去来兮辞》《归园田居》'],[427,'卒，友人私谥靖节']]},
+  {id:'xielingyun',name:'谢灵运',zi:'小字客儿', years:[385,433], dynasty:'weijin', title:'山水诗鼻祖 · 谢康乐', birth:'会稽始宁', school:'山水',
+    intro:'东晋名将谢玄之孙，中国山水诗派开创者。"池塘生春草"传颂千古，与陶渊明并称"陶谢"。',
+    friends:[],
+    works:['登池上楼','山居赋','岁暮','入彭蠡湖口'],
+    events:[[385,'生于会稽始宁'],[420,'出为永嘉太守，肆意游遨'],[423,'称疾去职，始宁营别业'],[433,'以谋反罪在广州被杀']]},
+  {id:'baozhao',  name:'鲍照',   zi:'字明远', years:[414,466], dynasty:'weijin', title:'元嘉三大家', birth:'东海郡', school:'元嘉',
+    intro:'南朝宋文学家，与谢灵运、颜延之并称"元嘉三大家"。《拟行路难》十八首首创七言歌行，开唐七言诗先河。',
+    friends:[],
+    works:['拟行路难十八首','芜城赋','登大雷岸与妹书','梅花落'],
+    events:[[414,'生于东海'],[439,'以诗谒临川王刘义庆，为国侍郎'],[461,'为临海王刘子顼前军参军'],[466,'子顼败，为乱兵所杀']]},
+  {id:'yuxin',    name:'庾信',   zi:'字子山', years:[513,581], dynasty:'weijin', title:'南北朝集大成者', birth:'南阳新野', school:'元嘉',
+    intro:'南北朝文学集大成者，初仕梁，后留北朝，"暮年诗赋动江关"。杜甫称"庾信文章老更成"。',
+    friends:[],
+    works:['哀江南赋','枯树赋','小园赋','拟咏怀二十七首'],
+    events:[[513,'生于南阳新野'],[545,'出使西魏被留长安'],[557,'北周代魏，官至骠骑大将军'],[581,'卒，隋文帝深悼之']]},
+
+  // 唐
+  {id:'wangbo',   name:'王勃',   zi:'字子安', years:[650,676], dynasty:'tang', title:'初唐四杰之首', birth:'绛州龙门', school:'初唐四杰',
+    intro:'初唐四杰之首，少年英才，"海内存知己，天涯若比邻"传诵千古。《滕王阁序》为千古第一骈文。',
+    friends:['yangjiong','luzhaolin','luobinwang'],
+    works:['滕王阁序','送杜少府之任蜀州','山中','送杜少府'],
+    events:[[650,'生于绛州龙门'],[666,'为沛王府修撰，作《檄英王鸡文》被逐'],[675,'赴交趾探父，途经洪州作《滕王阁序》'],[676,'渡海溺水，惊悸而卒']]},
+  {id:'yangjiong',name:'杨炯',   zi:'名炯',   years:[650,693], dynasty:'tang', title:'初唐四杰', birth:'华州华阴', school:'初唐四杰',
+    intro:'初唐四杰之一，以边塞诗著称，"宁为百夫长，胜作一书生"豪气干云。',
+    friends:['wangbo','luzhaolin','luobinwang'],
+    works:['从军行','出塞','战城南','夜送赵纵'],
+    events:[[650,'生于华州华阴'],[659,'举神童，待制弘文馆'],[681,'为崇文馆学士'],[693,'卒于盈川令任']]},
+  {id:'luzhaolin',name:'卢照邻', zi:'字升之', years:[636,695], dynasty:'tang', title:'初唐四杰', birth:'幽州范阳', school:'初唐四杰',
+    intro:'初唐四杰之一，以七言歌行见长。"得成比目何辞死，愿作鸳鸯不羡仙"为唐七言佳句。',
+    friends:['wangbo','yangjiong','luobinwang'],
+    works:['长安古意','十五夜观灯','曲池荷','元日述怀'],
+    events:[[636,'生于幽州范阳'],[660,'为邓王李元裕府典签'],[680,'患风疾，隐居太白山'],[695,'不堪病痛，投颍水而死']]},
+  {id:'luobinwang',name:'骆宾王',zi:'字观光', years:[640,684], dynasty:'tang', title:'初唐四杰', birth:'婺州义乌', school:'初唐四杰',
+    intro:'初唐四杰之一，七岁作《咏鹅》，为"初唐四杰"中年辈最老者。徐敬业起兵讨武，作《代李敬业传檄天下文》。',
+    friends:['wangbo','yangjiong','luzhaolin'],
+    works:['咏鹅','代李敬业传檄天下文','在狱咏蝉','于易水送人'],
+    events:[[640,'生于婺州义乌'],[647,'七岁咏鹅，有神童之誉'],[678,'为长安主簿，因事入狱'],[684,'从徐敬业反武，兵败不知所终']]},
+  {id:'chenziang',name:'陈子昂', zi:'字伯玉', years:[659,700], dynasty:'tang', title:'诗骨 · 唐诗之祖', birth:'梓州射洪', school:'建安',
+    intro:'初唐诗文革新先驱，高举"汉魏风骨"旗帜，一扫齐梁绮靡。《登幽州台歌》成为千古绝唱。',
+    friends:[],
+    works:['登幽州台歌','感遇三十八首','与东方左史虬修竹篇序'],
+    events:[[659,'生于梓州射洪'],[684,'举进士，上书言事受武则天赏识'],[696,'随武攸宜征契丹，登蓟北楼作《登幽州台歌》'],[700,'为段简陷害，死于狱中']]},
+  {id:'menghaoran',name:'孟浩然',zi:'名浩，字浩然',years:[689,740],dynasty:'tang',title:'孟山人 · 山水田园先驱',birth:'襄州襄阳',school:'山水田园',
+    intro:'唐代山水田园诗派代表，与王维并称"王孟"。终身不仕，以布衣终老。"春眠不觉晓"妇孺皆知。',
+    friends:['wangwei','libai'],
+    works:['春晓','过故人庄','宿建德江','望洞庭湖赠张丞相','秋登万山寄张五'],
+    events:[[689,'生于襄州襄阳'],[718,'隐鹿门山，闭门读书'],[728,'游长安，与王维、张九龄交'],[740,'疽发背卒，年五十二']]},
+  {id:'wangwei',  name:'王维',   zi:'字摩诘，号摩诘居士',years:[701,761],dynasty:'tang',title:'诗佛',birth:'蒲州河东',school:'山水田园',
+    intro:'山水田园诗派宗匠，诗、书、画、音乐俱绝，人称"诗中有画，画中有诗"。晚年隐居辋川，笃志奉佛。',
+    friends:['menghaoran'],
+    works:['山居秋暝','使至塞上','鹿柴','竹里馆','送元二使安西','九月九日忆山东兄弟'],
+    events:[[701,'生于蒲州河东'],[721,'进士及第，为太乐丞'],[740,'安史之乱中被迫受伪职，乱后获罪'],[761,'卒于辋川别业']]},
+  {id:'libai',    name:'李白',   zi:'字太白，号青莲居士',years:[701,762],dynasty:'tang',title:'诗仙',birth:'陇西成纪/蜀绵州',school:'豪放',
+    intro:'中国文学史上最伟大的浪漫主义诗人，誉为"诗仙"。想象奇谲、气魄豪迈，诗风飘逸纵横。与杜甫并称"李杜"。',
+    friends:['dufu','gaoshi','menghaoran'],
+    works:['将进酒','蜀道难','静夜思','早发白帝城','梦游天姥吟留别','望庐山瀑布'],
+    events:[[701,'生于碎叶，长于绵州昌隆'],[742,'奉诏入京，待诏翰林'],[744,'赐金放还，遇杜甫于洛阳'],[762,'卒于当涂族叔李阳冰家']]},
+  {id:'dufu',     name:'杜甫',   zi:'字子美，自号少陵野老',years:[712,770],dynasty:'tang',title:'诗圣 · 诗史',birth:'河南巩县',school:'新乐府',
+    intro:'中国最伟大的现实主义诗人，誉为"诗圣"，其诗称"诗史"。忧国忧民、沉郁顿挫，与李白双峰并峙。',
+    friends:['libai','gaoshi','censhen'],
+    works:['春望','登高','茅屋为秋风所破歌','三吏三别','蜀相','闻官军收河南河北'],
+    events:[[712,'生于巩县瑶湾'],[744,'与李白相遇洛阳，同游梁宋'],[755,'安史之乱，身陷长安'],[759,'弃官入蜀，筑草堂于浣花溪'],[770,'扁舟下荆楚，卒于耒阳舟中']]},
+  {id:'gaoshi',   name:'高适',   zi:'字达夫', years:[704,765], dynasty:'tang', title:'高常侍 · 边塞诗巨擘', birth:'渤海蓨县', school:'边塞',
+    intro:'盛唐边塞诗派代表，与岑参并称"高岑"。《燕歌行》为边塞诗压卷之作，是唐代诗人中官位最显达者。',
+    friends:['libai','dufu','censhen','wangchangling'],
+    works:['燕歌行','别董大','塞上听吹笛','封丘作'],
+    events:[[704,'生于渤海蓨县'],[744,'与李杜同游梁宋，饮酒论诗'],[755,'安史乱中拜谏议大夫，后为淮南节度使'],[765,'卒，赠礼部尚书']]},
+  {id:'censhen',  name:'岑参',   zi:'名参',   years:[715,770], dynasty:'tang', title:'岑嘉州 · 边塞奇笔', birth:'荆州江陵', school:'边塞',
+    intro:'盛唐边塞诗派代表，曾两度出塞。"忽如一夜春风来，千树万树梨花开"奇绝千古。',
+    friends:['dufu','gaoshi','wangchangling'],
+    works:['白雪歌送武判官归京','走马川行奉送出师西征','逢入京使','碛中作'],
+    events:[[715,'生于荆州江陵'],[749,'首次出塞，赴安西高仙芝幕'],[754,'再赴北庭封常清幕'],[770,'卒于成都旅舍']]},
+  {id:'wangchangling',name:'王昌龄',zi:'字少伯',years:[698,757],dynasty:'tang',title:'七绝圣手 · 诗家夫子',birth:'京兆长安',school:'边塞',
+    intro:'盛唐著名边塞诗人，尤擅七绝，被誉"七绝圣手"。"秦时明月汉时关"堪称七绝压卷。',
+    friends:['gaoshi','censhen','libai','wangzhihuan'],
+    works:['出塞','从军行七首','芙蓉楼送辛渐','闺怨'],
+    events:[[698,'生于京兆长安'],[727,'进士及第，授秘书省校书郎'],[740,'贬龙标尉，李白有诗寄之'],[757,'为亳州刺史闾丘晓所杀']]},
+  {id:'wangzhihuan',name:'王之涣',zi:'字季凌', years:[688,742], dynasty:'tang', title:'边塞名家', birth:'并州晋阳', school:'边塞',
+    intro:'盛唐边塞诗人，与高适、王昌龄、崔国辅等齐名，"旗亭画壁"传为佳话。',
+    friends:['wangchangling','gaoshi'],
+    works:['登鹳雀楼','凉州词·黄河远上白云间','送别'],
+    events:[[688,'生于并州晋阳'],[720,'以门子调补冀州衡水主簿'],[730,'辞官家居十五年'],[742,'补文安郡文安县尉，卒于官']]},
+
+  {id:'weiyingwu',name:'韦应物', zi:'韦苏州', years:[737,792], dynasty:'tang', title:'韦苏州', birth:'京兆长安', school:'山水田园',
+    intro:'中唐山水田园诗人，以"高雅闲淡"自成一家，与柳宗元并称"韦柳"。《滁州西涧》清幽绝伦。',
+    friends:[],
+    works:['滁州西涧','寄全椒山中道士','秋夜寄丘二十二员外','观田家'],
+    events:[[737,'生于京兆长安'],[755,'以三卫郎事玄宗，任侠负气'],[783,'为滁州刺史'],[792,'卒于苏州']]},
+  {id:'jiadao',  name:'贾岛',   zi:'字阆仙，号碣石山人',years:[779,843],dynasty:'tang',title:'诗奴 · 苦吟诗人',birth:'范阳',school:'韩孟',
+    intro:'中唐苦吟诗人代表，与孟郊并称"郊寒岛瘦"。"推敲"典故主角，"鸟宿池边树，僧敲月下门"为苦吟典范。',
+    friends:['hanyu','mengjiao'],
+    works:['题李凝幽居','寻隐者不遇','剑客','忆江上吴处士','题诗后'],
+    events:[[779,'生于范阳'],[805,'初为僧，名无本'],[810,'谒韩愈，愈劝其还俗举进士'],[837,'任长江主簿'],[843,'卒于普州司仓参军任']]},
+  {id:'mengjiao', name:'孟郊',   zi:'字东野', years:[751,814], dynasty:'tang', title:'诗囚', birth:'湖州武康', school:'韩孟',
+    intro:'中唐苦吟诗人代表，与贾岛并称"郊寒岛瘦"，与韩愈交好。"谁言寸草心，报得三春晖"千古传诵。',
+    friends:['hanyu','jiadao'],
+    works:['游子吟','登科后','秋怀','寒地百姓吟'],
+    events:[[751,'生于湖州武康'],[792,'四十六岁方中进士，作《登科后》'],[796,'任溧阳尉'],[814,'赴任兴元军参谋，暴卒于道']]},
+  {id:'hanyu',    name:'韩愈',   zi:'字退之，世称韩昌黎',years:[768,824],dynasty:'tang',title:'文起八代之衰',birth:'河南河阳',school:'韩孟',
+    intro:'唐宋八大家之首，古文运动领袖，文起八代之衰。诗歌奇崛险怪，开创韩孟诗派。',
+    friends:['mengjiao','liuzongyuan','liuyuxi','jiadao'],
+    works:['师说','马说','进学解','左迁至蓝关示侄孙湘','山石','早春呈水部张十八员外'],
+    events:[[768,'生于河南河阳'],[792,'进士及第'],[803,'上书言宫市之弊，贬阳山令'],[819,'谏迎佛骨，贬潮州刺史'],[824,'卒于长安，谥文']]},
+  {id:'liuzongyuan',name:'柳宗元',zi:'字子厚，世称柳河东',years:[773,819],dynasty:'tang',title:'柳河东',birth:'河东解县',school:'山水田园',
+    intro:'唐宋八大家之一，与韩愈并称"韩柳"，共同倡导古文运动。山水游记《永州八记》为千古名篇。',
+    friends:['hanyu','liuyuxi'],
+    works:['永州八记','捕蛇者说','小石潭记','江雪','渔翁','种树郭橐驼传'],
+    events:[[773,'生于长安'],[793,'进士及第'],[805,'参与永贞革新，失败贬永州司马'],[815,'迁柳州刺史'],[819,'卒于柳州任']]},
+  {id:'liuyuxi',  name:'刘禹锡', zi:'字梦得', years:[772,842], dynasty:'tang', title:'诗豪', birth:'洛阳', school:'韩孟',
+    intro:'中唐重要诗人，人称"诗豪"。与柳宗元并称"刘柳"，与白居易并称"刘白"。"沉舟侧畔千帆过"豁达豪迈。',
+    friends:['liuzongyuan','baijuyi','hanyu'],
+    works:['陋室铭','竹枝词','乌衣巷','酬乐天扬州初逢席上见赠','西塞山怀古'],
+    events:[[772,'生于洛阳'],[793,'进士及第'],[805,'参与永贞革新，贬朗州司马'],[826,'与白居易扬州相遇'],[842,'卒，赠户部尚书']]},
+  {id:'baijuyi',  name:'白居易', zi:'字乐天，号香山居士',years:[772,846],dynasty:'tang',title:'诗魔 · 诗王',birth:'河南新郑',school:'新乐府',
+    intro:'中唐伟大诗人，新乐府运动领袖。主张"文章合为时而著，歌诗合为事而作"，诗风平易通俗、老妪能解。',
+    friends:['yuanzhen','liuyuxi','dufu'],
+    works:['长恨歌','琵琶行','赋得古原草送别','卖炭翁','钱塘湖春行','忆江南'],
+    events:[[772,'生于新郑'],[800,'进士及第'],[806,'作《长恨歌》'],[815,'上书请捕刺杀武元衡凶手，贬江州司马，作《琵琶行》'],[822,'任杭州刺史，筑白堤'],[846,'卒于洛阳，葬龙门香山']]},
+  {id:'yuanzhen', name:'元稹',   zi:'字微之', years:[779,831], dynasty:'tang', title:'元才子', birth:'河南洛阳', school:'元白',
+    intro:'中唐诗人，新乐府运动干将，与白居易并称"元白"，"曾经沧海难为水"传诵千古。',
+    friends:['baijuyi'],
+    works:['离思五首','遣悲怀三首','莺莺传','菊花','行宫'],
+    events:[[779,'生于河南洛阳'],[806,'与白居易同科及第，订交终生'],[810,'贬江陵士曹参军'],[822,'拜相三月即出为同州刺史'],[831,'暴卒于武昌军节度使任']]},
+  {id:'lihe',     name:'李贺',   zi:'字长吉', years:[790,816], dynasty:'tang', title:'诗鬼', birth:'河南福昌', school:'韩孟',
+    intro:'中唐天才诗人，诗风奇诡幽冷、想象瑰丽，被誉为"诗鬼"。英年早逝，仅27岁。',
+    friends:['hanyu'],
+    works:['雁门太守行','李凭箜篌引','金铜仙人辞汉歌','致酒行','马诗二十三首'],
+    events:[[790,'生于福昌昌谷，唐宗室后裔'],[807,'以父名"晋肃"避讳不得举进士'],[810,'为奉礼郎，三年辞归'],[816,'病卒，年仅二十七']]},
+  {id:'dumu',     name:'杜牧',   zi:'字牧之，号樊川居士',years:[803,852],dynasty:'tang',title:'小杜',birth:'京兆万年',school:'晚唐',
+    intro:'晚唐杰出诗人，与李商隐并称"小李杜"。七言绝句冠绝晚唐，咏史俊爽清丽。',
+    friends:['lishangyin','wentingyun'],
+    works:['阿房宫赋','泊秦淮','赤壁','清明','江南春','山行','秋夕'],
+    events:[[803,'生于京兆万年'],[828,'进士及第'],[835,'为监察御史'],[848,'任湖州刺史'],[852,'迁中书舍人，岁末病卒']]},
+  {id:'lishangyin',name:'李商隐',zi:'字义山，号玉溪生',years:[813,858],dynasty:'tang',title:'小李杜',birth:'怀州河内',school:'晚唐',
+    intro:'晚唐最杰出的诗人之一，与杜牧并称"小李杜"，与温庭筠并称"温李"。《无题》诗深情绵邈、朦胧瑰丽。',
+    friends:['dumu','wentingyun'],
+    works:['锦瑟','无题·相见时难别亦难','夜雨寄北','登乐游原','嫦娥','无题·昨夜星辰昨夜风'],
+    events:[[813,'生于怀州河内'],[837,'进士及第，入令狐楚幕'],[838,'娶王茂元女，陷牛李党争'],[851,'为东川节度使柳仲郢判官'],[858,'病卒于郑州']]},
+  {id:'wentingyun',name:'温庭筠',zi:'字飞卿', years:[812,866], dynasty:'tang', title:'温八叉 · 花间鼻祖', birth:'太原祁县', school:'晚唐',
+    intro:'晚唐诗人、词人，花间词派鼻祖。才思敏捷，八叉手而成八韵，故称"温八叉"。与李商隐并称"温李"。',
+    friends:['lishangyin','dumu'],
+    works:['菩萨蛮·小山重叠金明灭','商山早行','望江南·梳洗罢','更漏子'],
+    events:[[812,'生于太原祁县'],[835,'以才华受令狐绹举荐'],[855,'贬方城尉，仕途坎坷'],[866,'为国子助教，后流落而卒']]},
+
+  // 宋
+  {id:'linbu',    name:'林逋',   zi:'字君复', years:[967,1028], dynasty:'song', title:'梅妻鹤子 · 和靖先生', birth:'钱塘', school:'晚唐',
+    intro:'北宋著名隐逸诗人，隐居西湖孤山，"梅妻鹤子"传为佳话。"疏影横斜水清浅，暗香浮动月黄昏"为咏梅绝唱。',
+    friends:['fanzhongyan'],
+    works:['山园小梅','长相思·吴山青','点绛唇·金谷年年'],
+    events:[[967,'生于钱塘'],[1008,'隐居西湖孤山二十年'],[1012,'真宗赐粟帛'],[1028,'卒，仁宗赐谥和靖先生']]},
+  {id:'liuyong',  name:'柳永',   zi:'字耆卿，原名三变',years:[984,1053],dynasty:'song',title:'奉旨填词柳三变',birth:'崇安',school:'婉约',
+    intro:'北宋婉约派大家，慢词开创者。"凡有井水处，皆能歌柳词"，对宋词发展贡献巨大。',
+    friends:['yanshu'],
+    works:['雨霖铃·寒蝉凄切','望海潮·东南形胜','八声甘州·对潇潇暮雨洒江天','鹤冲天·黄金榜上'],
+    events:[[984,'生于崇安'],[1024,'应试落第，作《鹤冲天》"忍把浮名换了浅斟低唱"'],[1034,'中进士，后改名柳永'],[1053,'卒于润州，群妓合金葬之']]},
+  {id:'fanzhongyan',name:'范仲淹',zi:'字希文',years:[989,1052],dynasty:'song',title:'范文正公',birth:'苏州吴县',school:'豪放',
+    intro:'北宋政治家、文学家，"先天下之忧而忧，后天下之乐而乐"为千古士大夫精神典范。',
+    friends:['linbu','ouyangxiu'],
+    works:['岳阳楼记','渔家傲·秋思','苏幕遮·怀旧','江上渔者'],
+    events:[[989,'生于苏州吴县'],[1015,'进士及第'],[1040,'任陕西经略副使，御西夏'],[1043,'推行庆历新政'],[1052,'卒于赴颍州途中，谥文正']]},
+  {id:'yanshu',   name:'晏殊',   zi:'字同叔', years:[991,1055], dynasty:'song', title:'晏元献 · 北宋倚声家初祖', birth:'抚州临川', school:'婉约',
+    intro:'北宋著名词人，婉约派代表，七岁能文，十四岁以神童入试。"无可奈何花落去，似曾相识燕归来"千古名句。',
+    friends:['liuyong','ouyangxiu'],
+    works:['浣溪沙·一曲新词酒一杯','蝶恋花·槛菊愁烟兰泣露','破阵子·春景','浣溪沙·一向年光有限身'],
+    events:[[991,'生于抚州临川'],[1005,'以神童召试，赐同进士出身'],[1042,'拜相'],[1055,'卒于京，谥元献']]},
+  {id:'ouyangxiu',name:'欧阳修', zi:'字永叔，号醉翁、六一居士',years:[1007,1072],dynasty:'song',title:'唐宋八大家 · 欧文忠公',birth:'吉州庐陵',school:'唐宋八家',
+    intro:'北宋文坛领袖，唐宋八大家之一，诗文革新运动核心。三苏、曾巩、王安石皆出其门下。',
+    friends:['fanzhongyan','yanshu','suxun','wanganshi','sushi'],
+    works:['醉翁亭记','秋声赋','蝶恋花·庭院深深深几许','生查子·元夕','朋党论'],
+    events:[[1007,'生于吉州庐陵'],[1030,'进士及第'],[1057,'知贡举，拔苏轼兄弟'],[1061,'拜参知政事'],[1072,'卒于颍州，谥文忠']]},
+  {id:'wanganshi',name:'王安石', zi:'字介甫，号半山',years:[1021,1086],dynasty:'song',title:'王荆公 · 临川先生',birth:'抚州临川',school:'唐宋八家',
+    intro:'北宋杰出政治家、思想家、文学家，主持熙宁变法。"春风又绿江南岸"为千锤百炼之名句。',
+    friends:['ouyangxiu','sushi'],
+    works:['泊船瓜洲','登飞来峰','元日','桂枝香·金陵怀古','游褒禅山记','伤仲永'],
+    events:[[1021,'生于抚州临川'],[1042,'进士及第'],[1069,'拜相，推行新法'],[1076,'第二次罢相，退居江宁半山园'],[1086,'新法尽废，忧愤而卒，谥文']]},
+  {id:'suxun',    name:'苏洵',   zi:'字明允，号老泉',years:[1009,1066],dynasty:'song',title:'老苏',birth:'眉州眉山',school:'唐宋八家',
+    intro:'北宋散文家，与子轼、辙合称"三苏"，同列唐宋八大家。二十七始发愤读书，《六国论》传诵千古。',
+    friends:['ouyangxiu','sushi','suche'],
+    works:['六国论','衡论','权书','嘉祐集','送石昌言使北引'],
+    events:[[1009,'生于眉州眉山'],[1036,'二十七始发愤为学'],[1056,'携二子入京，欧阳修荐其文'],[1066,'卒于京']]},
+  {id:'sushi',    name:'苏轼',   zi:'字子瞻，号东坡居士',years:[1037,1101],dynasty:'song',title:'坡仙 · 词圣',birth:'眉州眉山',school:'豪放',
+    intro:'北宋最伟大的文学家，诗、词、文、书、画无不精绝。开创豪放词派，一生命运多舛而旷达自适。与黄庭坚并称"苏黄"。',
+    friends:['ouyangxiu','wanganshi','suxun','suche','huangtingjian','qinguan','xinqiji'],
+    works:['念奴娇·赤壁怀古','水调歌头·明月几时有','赤壁赋','江城子·十年生死两茫茫','定风波·莫听穿林打叶声','题西林壁','饮湖上初晴后雨'],
+    events:[[1037,'生于眉州眉山'],[1057,'进士及第，欧阳修大奇之'],[1079,'乌台诗案，贬黄州团练副使'],[1080,'作《赤壁赋》《念奴娇》'],[1089,'知杭州，浚西湖筑苏堤'],[1094,'贬惠州、儋州'],[1101,'遇赦北归，卒于常州']]},
+  {id:'suche',    name:'苏辙',   zi:'字子由，号颍滨遗老',years:[1039,1112],dynasty:'song',title:'小苏 · 栾城先生',birth:'眉州眉山',school:'唐宋八家',
+    intro:'北宋散文家，苏轼之弟，"三苏"之一，唐宋八大家之一。与兄轼同进退，文风汪洋澹泊。',
+    friends:['suxun','sushi','huangtingjian'],
+    works:['黄州快哉亭记','六国论','栾城集','水调歌头·徐州中秋'],
+    events:[[1039,'生于眉州眉山'],[1057,'与兄轼同榜进士'],[1079,'坐兄乌台诗案贬筠州'],[1089,'官至尚书右丞、门下侍郎'],[1112,'卒，追复端明殿学士']]},
+  {id:'huangtingjian',name:'黄庭坚',zi:'字鲁直，号山谷道人',years:[1045,1105],dynasty:'song',title:'江西诗派开山 · 苏门四学士',birth:'洪州分宁',school:'江西诗派',
+    intro:'北宋著名诗人、书法家，"苏门四学士"之首，江西诗派开创者，与苏轼并称"苏黄"。',
+    friends:['sushi','suche','qinguan'],
+    works:['寄黄几复','清平乐·春归何处','登快阁','题竹石牧牛','雨中登岳阳楼望君山'],
+    events:[[1045,'生于洪州分宁'],[1067,'进士及第'],[1078,'投书苏轼，受知于轼'],[1094,'贬涪州别驾'],[1105,'卒于宜州贬所']]},
+  {id:'qinguan',  name:'秦观',   zi:'字少游，号淮海居士',years:[1049,1100],dynasty:'song',title:'苏门四学士 · 婉约大家',birth:'高邮',school:'婉约',
+    intro:'北宋著名词人，"苏门四学士"之一，婉约派大家。"两情若是久长时，又岂在朝朝暮暮"脍炙人口。',
+    friends:['sushi','huangtingjian'],
+    works:['鹊桥仙·纤云弄巧','踏莎行·郴州旅舍','满庭芳·山抹微云','浣溪沙·漠漠轻寒上小楼'],
+    events:[[1049,'生于高邮'],[1078,'谒苏轼于徐州，受知'],[1085,'进士及第'],[1094,'坐元祐党籍贬郴州、雷州'],[1100,'北归途中卒于藤州']]},
+  {id:'zhoubangyan',name:'周邦彦',zi:'字美成，号清真居士',years:[1057,1121],dynasty:'song',title:'词家之冠 · 集大成者',birth:'钱塘',school:'婉约',
+    intro:'北宋著名词人，格律派集大成者，开南宋姜夔、张炎一派，"词中老杜"。',
+    friends:[],
+    works:['苏幕遮·燎沉香','兰陵王·柳','六丑·蔷薇谢后作','少年游·并刀如水'],
+    events:[[1057,'生于钱塘'],[1084,'献《汴都赋》万余言，神宗异之'],[1100,'除秘书省正字'],[1117,'提举大晟府'],[1121,'卒于南京（商丘）']]},
+  {id:'liqingzhao',name:'李清照',zi:'号易安居士',years:[1084,1155],dynasty:'song',title:'千古第一才女',birth:'济南章丘',school:'婉约',
+    intro:'宋代最伟大的女词人，婉约词派宗主，"词别是一家"之论影响深远。词风"易安体"清丽婉约。',
+    friends:[],
+    works:['声声慢·寻寻觅觅','如梦令·昨夜雨疏风骤','醉花阴·薄雾浓云愁永昼','一剪梅·红藕香残玉簟秋','武陵春·风住尘香花已尽'],
+    events:[[1084,'生于济南章丘，父李格非为苏门后四学士'],[1101,'嫁太学生赵明诚，共研金石'],[1127,'靖康之变，南渡流离'],[1129,'明诚病故，辗转江浙'],[1155,'卒于临安']]},
+
+  {id:'luyou',    name:'陆游',   zi:'字务观，号放翁',years:[1125,1210],dynasty:'song',title:'放翁 · 中兴四大诗人',birth:'越州山阴',school:'辛派词人',
+    intro:'南宋最伟大的爱国诗人，一生作诗近万首。"王师北定中原日，家祭无忘告乃翁"感动千年。',
+    friends:['xinqiji','fanchengda','yangwanli'],
+    works:['示儿','游山西村','钗头凤·红酥手','书愤','十一月四日风雨大作','临安春雨初霁','卜算子·咏梅'],
+    events:[[1125,'生于越州山阴，生于淮河舟中'],[1153,'锁厅试第一，为秦桧所忌'],[1155,'与唐琬离异，作《钗头凤》'],[1170,'入蜀，从王炎军宣抚川陕'],[1210,'临终赋《示儿》而卒']]},
+  {id:'yangwanli',name:'杨万里', zi:'字廷秀，号诚斋',years:[1127,1206],dynasty:'song',title:'诚斋先生 · 中兴四大诗人',birth:'吉州吉水',school:'江湖诗人',
+    intro:'南宋著名诗人，与陆游、范成大、尤袤并称"中兴四大诗人"，创"诚斋体"，清新活泼。',
+    friends:['luyou','fanchengda'],
+    works:['小池','晓出净慈寺送林子方','过松源晨炊漆公店','插秧歌','闲居初夏午睡起'],
+    events:[[1127,'生于吉州吉水'],[1154,'进士及第'],[1170,'知漳州'],[1188,'上书忤孝宗，闲居十五年'],[1206,'闻韩侂胄北伐失败而逝']]},
+  {id:'fanchengda',name:'范成大',zi:'字致能，号石湖居士',years:[1126,1193],dynasty:'song',title:'石湖居士 · 中兴四大诗人',birth:'平江吴县',school:'田园',
+    intro:'南宋著名诗人，中兴四大诗人之一。使金不屈，晚年退居石湖。《四时田园杂兴》为田园诗集大成。',
+    friends:['luyou','yangwanli'],
+    works:['四时田园杂兴六十首','州桥','使金绝句七十二首','车遥遥篇','催租行'],
+    events:[[1126,'生于平江吴县'],[1154,'进士及第'],[1170,'使金，全节而归'],[1178,'知明州、建康'],[1183,'退居石湖'],[1193,'卒，赠少师']]},
+  {id:'xinqiji',  name:'辛弃疾', zi:'字幼安，号稼轩',years:[1140,1207],dynasty:'song',title:'词中之龙',birth:'济南历城',school:'豪放',
+    intro:'南宋最伟大的爱国词人，豪放派集大成者，与苏轼并称"苏辛"。二十余岁率五十骑突入金营擒叛将，一生以恢复为志。',
+    friends:['luyou','sushi'],
+    works:['永遇乐·京口北固亭怀古','破阵子·为陈同甫赋壮词','青玉案·元夕','西江月·夜行黄沙道中','菩萨蛮·书江西造口壁','丑奴儿·书博山道中壁','水龙吟·登建康赏心亭'],
+    events:[[1140,'生于济南历城（金人占领区）'],[1161,'聚众二千抗金，率五十骑入金营擒张安国南归'],[1181,'退居上饶带湖十年'],[1192,'起为福建提点刑狱'],[1207,'病卒铅山，临终大呼"杀贼"']]},
+  {id:'jiangkui', name:'姜夔',   zi:'字尧章，号白石道人',years:[1155,1221],dynasty:'song',title:'白石道人 · 格律派词宗',birth:'饶州鄱阳',school:'婉约',
+    intro:'南宋著名词人、音乐家，终生布衣。词风清空骚雅，自度《扬州慢》等曲，为格律派代表。',
+    friends:[],
+    works:['扬州慢·淮左名都','暗香·旧时月色','疏影·苔枝缀玉','点绛唇·丁未冬过吴松作'],
+    events:[[1155,'生于饶州鄱阳'],[1186,'游长沙，识萧德藻'],[1191,'赴苏州访范成大，作《暗香》《疏影》'],[1221,'卒于西湖，贫不能葬，吴潜等葬之']]},
+  {id:'wentianxiang',name:'文天祥',zi:'字宋瑞，号文山',years:[1236,1283],dynasty:'song',title:'信国公 · 民族英雄',birth:'吉州庐陵',school:'辛派词人',
+    intro:'南宋末年伟大民族英雄、爱国诗人。"人生自古谁无死，留取丹心照汗青"千古不朽。',
+    friends:[],
+    works:['过零丁洋','正气歌','指南录后序','金陵驿'],
+    events:[[1236,'生于吉州庐陵'],[1256,'进士第一（状元）'],[1275,'起兵勤王'],[1278,'兵败被俘，过零丁洋作诗'],[1283,'就义于大都柴市，衣带中藏《正气歌》']]},
+  // 元
+  {id:'yuanhaowen',name:'元好问',zi:'字裕之，号遗山',years:[1190,1257],dynasty:'yuan',title:'北方文雄 · 遗山先生',birth:'太原秀容',school:'元曲',
+    intro:'金元之际最伟大的文学家，"丧乱诗"为杜诗嗣响。"问世间情是何物，直教生死相许"为千古名句。',
+    friends:[],
+    works:['摸鱼儿·雁丘词','歧阳','壬辰十二月车驾东狩后即事','续夷坚志'],
+    events:[[1190,'生于太原秀容（鲜卑拓跋后裔）'],[1221,'进士及第'],[1233,'金亡，被羁管聊城'],[1239,'北归故里，筑"野史亭"修《金史》'],[1257,'卒于获鹿']]},
+  {id:'guanhanqing',name:'关汉卿',zi:'号已斋叟', years:[1220,1300], dynasty:'yuan', title:'曲圣 · 元曲四大家之首', birth:'大都', school:'元曲',
+    intro:'元杂剧奠基人，"元曲四大家"之首，中国最伟大的戏剧家。《窦娥冤》感天动地。',
+    friends:['baipu','mazhiyuan','wangshifu'],
+    works:['窦娥冤','救风尘','望江亭','单刀会','拜月亭','南吕·一枝花·不伏老'],
+    events:[[1220,'生于大都'],[1260,'为金太医院尹（或金末太医院户）'],[1280,'创作《窦娥冤》'],[1300,'卒，一生作杂剧60余种']]},
+  {id:'baipu',    name:'白朴',   zi:'字太素，号兰谷',years:[1226,1306],dynasty:'yuan',title:'元曲四大家',birth:'隩州',school:'元曲',
+    intro:'元曲四大家之一，出身金朝世家，经历国破家亡。《墙头马上》《梧桐雨》为元曲名剧。',
+    friends:['guanhanqing','mazhiyuan','wangshifu'],
+    works:['梧桐雨','墙头马上','东墙记','天净沙·秋'],
+    events:[[1226,'生于隩州，父白华为金枢密院判官'],[1232,'蒙古破汴京，被元好问携北渡'],[1260,'徙居金陵，优游诗酒'],[1306,'卒于金陵']]},
+  {id:'mazhiyuan',name:'马致远', zi:'字千里，号东篱',years:[1250,1321],dynasty:'yuan',title:'曲状元 · 元曲四大家',birth:'大都',school:'元曲',
+    intro:'元曲四大家之一，"曲状元"。《天净沙·秋思》"枯藤老树昏鸦"被誉为"秋思之祖"。',
+    friends:['guanhanqing','baipu','wangshifu'],
+    works:['天净沙·秋思','汉宫秋','夜行船·秋思','荐福碑'],
+    events:[[1250,'生于大都'],[1285,'任江浙行省务官'],[1295,'辞官隐居西湖'],[1321,'卒，有杂剧15种']]},
+  {id:'wangshifu',name:'王实甫', zi:'名德信',   years:[1260,1336],dynasty:'yuan',title:'元曲名家',birth:'大都',school:'元曲',
+    intro:'元代著名杂剧作家，《西厢记》为元杂剧压卷之作，"愿天下有情的都成了眷属"家喻户晓。',
+    friends:['guanhanqing','baipu','mazhiyuan'],
+    works:['西厢记','丽春堂','破窑记'],
+    events:[[1260,'生于大都'],[1290,'为陕西行台监察御史'],[1300,'与关汉卿同时，创作《西厢记》'],[1336,'卒']]},
+
+  // 明
+  {id:'gaoqi',    name:'高启',   zi:'字季迪，号青丘子',years:[1336,1374],dynasty:'ming',title:'明诗之冠 · 吴中四杰',birth:'长洲',school:'元曲',
+    intro:'明初最伟大的诗人，"吴中四杰"之首，被推为"明诗第一"。因作《上梁文》触怒朱元璋被腰斩。',
+    friends:[],
+    works:['梅花九首','登金陵雨花台望大江','青丘子歌','清明馆中呈诸公'],
+    events:[[1336,'生于长洲'],[1368,'应召修《元史》'],[1370,'辞官归隐青丘'],[1374,'为魏观作《上梁文》，触怒朱元璋被腰斩于南京']]},
+  {id:'yuqian',   name:'于谦',   zi:'字廷益', years:[1398,1457], dynasty:'ming', title:'于少保 · 救世宰相', birth:'钱塘', school:'',
+    intro:'明代民族英雄、政治家、诗人。土木之变后保卫北京，"粉骨碎身浑不怕，要留清白在人间"为千古绝唱。',
+    friends:[],
+    works:['石灰吟','咏煤炭','岳忠武王祠','入塞'],
+    events:[[1398,'生于钱塘'],[1421,'进士及第'],[1449,'土木之变，拥立景帝，守北京击退瓦剌'],[1457,'夺门之变，以"谋逆"被杀']]},
+  {id:'tangyin',  name:'唐寅',   zi:'字伯虎，号六如居士',years:[1470,1524],dynasty:'ming',title:'江南第一才子',birth:'吴县',school:'',
+    intro:'明代著名书画家、文学家，"吴中四才子"之首，"明四家"之一。诗书画三绝，风流倜傥。',
+    friends:[],
+    works:['桃花庵歌','画鸡','把酒对月歌','一世歌','言怀'],
+    events:[[1470,'生于吴县吴趋里'],[1498,'科场舞弊案下狱，谪为吏不就'],[1505,'筑桃花庵，卖画为生'],[1514,'应宁王朱宸濠聘，察其反意佯狂归'],[1524,'卒，年五十四']]},
+  {id:'yangshen', name:'杨慎',   zi:'字用修，号升庵',years:[1488,1559],dynasty:'ming',title:'杨状元 · 有明第一博学',birth:'新都',school:'',
+    intro:'明代著名文学家、学者，正德六年状元。博洽冠有明一代，"滚滚长江东逝水"传颂千古。',
+    friends:[],
+    works:['临江仙·滚滚长江东逝水','出郊','鹧鸪天·元宵后独酌','升庵诗话'],
+    events:[[1488,'生于新都，父杨廷和为首辅'],[1511,'状元及第，授翰林修撰'],[1524,'大礼议触怒世宗，廷杖谪戍云南永昌卫'],[1559,'卒于戍所，谪戍三十五年']]},
+  {id:'wangshizhen_ming', name:'王世贞', zi:'字元美，号凤洲、弇州山人',years:[1526,1590],dynasty:'ming',title:'后七子领袖',birth:'太仓',school:'',
+    intro:'明代文学家、史学家，"后七子"领袖，主持文坛二十年。与李攀龙共主文柄，主张"文必西汉，诗必盛唐"。',
+    friends:['guiyouguang'],
+    works:['弇州山人四部稿','艺苑卮言','登太白楼','蔺相如完璧归赵论'],
+    events:[[1526,'生于太仓'],[1547,'进士及第'],[1559,'父王忬为严嵩所害，伏阙讼冤'],[1569,'为浙江右参政'],[1589,'迁南京刑部尚书'],[1590,'卒']]},
+  {id:'guiyouguang',name:'归有光',zi:'字熙甫，号震川',years:[1507,1571],dynasty:'ming',title:'震川先生 · 嘉靖三大家',birth:'昆山',school:'唐宋派',
+    intro:'明代散文大家，唐宋派代表，反对前后七子拟古。《项脊轩志》《先妣事略》深情动人，被誉为"明文第一"。',
+    friends:['wangshizhen_ming'],
+    works:['项脊轩志','先妣事略','寒花葬志','沧浪亭记','项脊轩记'],
+    events:[[1507,'生于昆山'],[1540,'徙居嘉定安亭江上，讲学授徒'],[1565,'六十岁始中进士'],[1568,'任长兴知县'],[1571,'卒于南京太仆寺丞任']]},
+  {id:'yuanhongdao',name:'袁宏道',zi:'字中郎，号石公',years:[1568,1610],dynasty:'ming',title:'公安派领袖',birth:'公安',school:'公安派',
+    intro:'明代文学家，公安派创始人，与兄宗道、弟中道并称"公安三袁"。主张"独抒性灵，不拘格套"。',
+    friends:[],
+    works:['满井游记','虎丘记','徐文长传','西湖杂记','晚游六桥待月记'],
+    events:[[1568,'生于公安'],[1592,'进士及第'],[1596,'任吴县知县，有政声'],[1600,'辞官与兄访李贽'],[1608,'为吏部郎中'],[1610,'卒于沙市，年四十三']]},
+  // 清
+  {id:'qianqianyi',name:'钱谦益', zi:'字受之，号牧斋',years:[1582,1664],dynasty:'qing',title:'江左三大家 · 虞山诗派',birth:'常熟',school:'',
+    intro:'明末清初诗坛领袖，江左三大家之首。明末东林党人，降清后又暗中抗清，与柳如是爱情千古流传。',
+    friends:['wumeiye'],
+    works:['初学集','有学集','投笔集','列朝诗集小传','后秋兴'],
+    events:[[1582,'生于常熟'],[1610,'探花及第，授翰林编修'],[1645,'南都破，降清为礼部侍郎'],[1646,'谢病归，与柳如是暗助抗清'],[1664,'卒，柳如是自缢殉']]},
+  {id:'wumeiye',  name:'吴伟业', zi:'字骏公，号梅村',years:[1609,1672],dynasty:'qing',title:'江左三大家 · 梅村先生',birth:'太仓',school:'',
+    intro:'明末清初著名诗人，江左三大家之一。《圆圆曲》"恸哭六军俱缟素，冲冠一怒为红颜"传诵千古。',
+    friends:['qianqianyi','wangshizhen'],
+    works:['圆圆曲','永和宫词','鸳湖曲','秣陵春','圆圆曲','听女道士卞玉京弹琴歌'],
+    events:[[1609,'生于太仓'],[1631,'会试第一、殿试第二，授编修'],[1653,'被迫出仕清廷，为国子监祭酒'],[1661,'丁母忧归，不复出'],[1672,'卒，临殁遗言葬邓尉山']]},
+  {id:'wangshizhen',name:'王士祯',zi:'字子真，号阮亭、渔洋山人',years:[1634,1711],dynasty:'qing',title:'渔洋山人 · 神韵派领袖',birth:'新城',school:'神韵派',
+    intro:'清初诗坛领袖，创"神韵说"，主盟诗坛数十年。"神韵"含蓄蕴藉、自然清远，一代正宗。',
+    friends:['wumeiye','zhuyizun'],
+    works:['秋柳四首','带经堂诗话','秦淮杂诗','真州绝句','题秋江独钓图'],
+    events:[[1634,'生于新城'],[1658,'进士及第'],[1657,'济南大明湖赋《秋柳》四章，和者数千人'],[1678,'为翰林院侍讲'],[1704,'官至刑部尚书'],[1711,'卒']]},
+  {id:'zhuyizun', name:'朱彝尊', zi:'字锡鬯，号竹垞',years:[1629,1709],dynasty:'qing',title:'浙西词派始祖 · 南朱北王',birth:'秀水',school:'常州词派',
+    intro:'清初著名文学家、学者，浙西词派开创者，与王士祯并称"南朱北王"。词以姜夔、张炎为宗。',
+    friends:['wangshizhen','nalanxingde'],
+    works:['曝书亭集','日下旧闻','经义考','桂殿秋·思往事','卖花声·雨花台'],
+    events:[[1629,'生于秀水'],[1656,'客游南北，参与抗清秘密活动'],[1679,'举博学鸿词科，授检讨'],[1688,'入直南书房'],[1709,'卒，年八十一']]},
+  {id:'nalanxingde',name:'纳兰性德',zi:'字容若，号楞伽山人',years:[1655,1685],dynasty:'qing',title:'清初第一词人',birth:'北京',school:'婉约',
+    intro:'清代最伟大的词人之一，满族贵族，大学士明珠之子。词风"北宋以来，一人而已"（王国维语）。',
+    friends:['zhuyizun'],
+    works:['木兰花令·拟古决绝词','长相思·山一程','浣溪沙·谁念西风独自凉','蝶恋花·辛苦最怜天上月','金缕曲·赠梁汾'],
+    events:[[1655,'生于北京，父明珠为康熙朝大学士'],[1676,'进士及第，授三等侍卫'],[1677,'与顾贞观定交，营救吴兆骞归'],[1685,'病卒，年仅三十一岁']]},
+  {id:'yuanmei',   name:'袁枚',   zi:'字子才，号简斋、随园老人',years:[1716,1797],dynasty:'qing',title:'随园老人 · 性灵派领袖',birth:'钱塘',school:'性灵派',
+    intro:'清代著名诗人、诗论家，"乾隆三大家"之一，创"性灵说"，主张独抒性灵。辞官居江宁随园五十年。',
+    friends:[],
+    works:['随园诗话','小仓山房文集','子不语','祭妹文','苔','马嵬','所见'],
+    events:[[1716,'生于钱塘'],[1739,'进士及第，授翰林院庶吉士'],[1749,'辞官，购江宁随园'],[1759,'起复赴陕西，不久告归'],[1797,'卒于随园，年八十二']]},
+  {id:'gongzizhen',name:'龚自珍',zi:'字璱人，号定盦',years:[1792,1841],dynasty:'qing',title:'近代思想启蒙先驱',birth:'仁和',school:'',
+    intro:'晚清杰出思想家、文学家，开近代思想新风。"我劝天公重抖擞，不拘一格降人才"为近代先声。',
+    friends:[],
+    works:['己亥杂诗','病梅馆记','咏史','夜坐','湘月·天风吹我'],
+    events:[[1792,'生于仁和（杭州），父龚丽正为苏松太兵备道'],[1829,'进士及第'],[1839,'辞官南归，作《己亥杂诗》315首'],[1841,'暴卒于丹阳云阳书院，年五十']]},
+  {id:'huangzunxian',name:'黄遵宪',zi:'字公度',years:[1848,1905],dynasty:'qing',title:'诗界革命旗手',birth:'嘉应州',school:'',
+    intro:'晚清杰出外交家、诗人，"诗界革命"领袖。"我手写我口"倡导诗界革命，开新诗体先声。',
+    friends:[],
+    works:['人境庐诗草','杂感','今别离','哀旅顺','书愤'],
+    events:[[1848,'生于嘉应州'],[1876,'中举，随何如璋使日为参赞'],[1882,'任驻旧金山总领事'],[1894,'任新加坡总领事'],[1897,'署湖南按察使，助陈宝箴行新政'],[1905,'病卒于嘉应']]},
+  {id:'qiujin',   name:'秋瑾',   zi:'字璇卿，号鉴湖女侠',years:[1875,1907],dynasty:'qing',title:'鉴湖女侠',birth:'绍兴',school:'',
+    intro:'近代民主革命志士，"巾帼英雄"。为革命就义于绍兴轩亭口，"一腔热血勤珍重，洒去犹能化碧涛"。',
+    friends:[],
+    works:['满江红','对酒','黄海舟中日人索句','鹧鸪天·祖国沉沦感不禁','宝刀歌'],
+    events:[[1875,'生于福建厦门（祖籍绍兴）'],[1904,'东渡日本留学，加入同盟会'],[1906,'返沪创《中国女报》'],[1907,'主持大通学堂，与徐锡麟谋起义'],[1907,'事泄就义于轩亭口，年三十三']]},
+  {id:'wangguowei',name:'王国维',zi:'字静安，号观堂',years:[1877,1927],dynasty:'qing',title:'观堂先生 · 国学大师',birth:'海宁',school:'',
+    intro:'近代学贯中西的国学大师，《人间词话》"境界说"影响深远。"三种境界说"广为传诵。',
+    friends:[],
+    works:['人间词话','宋元戏曲史','人间词','红楼梦评论','观堂集林'],
+    events:[[1877,'生于海宁'],[1901,'赴日留学'],[1908,'发表《人间词话》'],[1911,'随罗振玉赴日，专治国学'],[1925,'任清华国学研究院导师'],[1927,'自沉昆明湖，遗书"五十之年，只欠一死"']]},
+];
+
+// ============== 星空背景 ==============
+(function initStars(){
+  const cv = document.getElementById('starCanvas');
+  const ctx = cv.getContext('2d');
+  let W,H,stars=[],nebulae=[];
+  function resize(){
+    W = cv.width = window.innerWidth;
+    H = cv.height = window.innerHeight;
   }
-
-  /* ---- 取同时代诗人 ---- */
-  function contemporaries(p){
-    return poets.filter(function(q){
-      if(q.id===p.id) return false;
-      return Math.min(p.death,q.death) - Math.max(p.birth,q.birth) > 0;
-    });
-  }
-
-  /* ---- 主题色 ---- */
-  function applyAccent(color){
-    var r=document.documentElement.style;
-    r.setProperty('--ac', color);
-    // 生成 8% 透明底色
-    var c=color.replace('#','');
-    if(c.length===6){
-      var R=parseInt(c.slice(0,2),16),G=parseInt(c.slice(2,4),16),B=parseInt(c.slice(4,6),16);
-      r.setProperty('--ac-soft','rgba('+R+','+G+','+B+',.10)');
+  function build(){
+    stars = [];
+    const n = Math.floor(W*H/4000);
+    for(let i=0;i<n;i++){
+      stars.push({
+        x:Math.random()*W, y:Math.random()*H,
+        r:Math.random()*1.6+0.3,
+        a:Math.random()*Math.PI*2,
+        sp:Math.random()*0.02+0.005,
+        col:['#fff','#c4b5fd','#fbcfe8','#fde68a','#a5f3fc'][Math.floor(Math.random()*5)]
+      });
     }
-  }
-
-  /* ---- 档案 ---- */
-  function renderProfile(p){
-    var birth=p.birth<0?('前'+(-p.birth)):p.birth;
-    var death=p.death<0?('前'+(-p.death)):p.death;
-    document.getElementById('profile').innerHTML =
-      '<div>'
-      + '<div class="nm">'+p.name+'<span class="dyn">'+p.dynasty+'</span></div>'
-      + '<div class="tags">'
-      +   '<span class="tag">'+p.courtesy+'</span>'
-      +   (p.artname?('<span class="tag">'+p.artname+'</span>'):'')
-      +   '<span class="tag">'+birth+' – '+death+'</span>'
-      +   '<span class="tag">'+p.title+'</span>'
-      +   '<span class="tag">'+p.hometown+'</span>'
-      + '</div>'
-      + '<div class="bio">'+p.bio+'</div>'
-      + '</div>'
-      + '<div class="seal">'+p.name.slice(0,1)+'</div>';
-  }
-
-  /* ---- 时间轴 ---- */
-  function renderTimeline(p){
-    var svg=document.getElementById('tlsvg');
-    var W=900,H=150,padL=48,padR=48;
-    var y0=p.birth, y1=p.death, span=(y1-y0)||1;
-    function X(y){ return padL + (y-y0)/span*(W-padL-padR); }
-    var s='';
-    // 主轴
-    s+='<line x1="'+padL+'" y1="92" x2="'+(W-padR)+'" y2="92" stroke="'+p.color+'" stroke-opacity=".35" stroke-width="2"/>';
-    // 生平跨度条
-    s+='<rect x="'+padL+'" y="88" width="'+(W-padL-padR)+'" height="8" rx="4" fill="'+p.color+'" fill-opacity=".12"/>';
-    // 年份刻度（首末）
-    s+='<text x="'+padL+'" y="126" text-anchor="middle">'+(y0<0?('前'+(-y0)):y0)+'</text>';
-    s+='<text x="'+(W-padR)+'" y="126" text-anchor="middle">'+(y1<0?('前'+(-y1)):y1)+'</text>';
-    s+='<text x="'+(W/2)+'" y="140" text-anchor="middle" fill="'+p.color+'" font-size="11.5" letter-spacing="2">'+(y1-y0)+' 岁人生</text>';
-    // 事件节点：上下交错
-    p.events.forEach(function(e,i){
-      var x=X(e.year);
-      var up = i%2===0;
-      var yNode = up? 62 : 112;
-      var yTxt  = up? 44 : 132;
-      var yr = e.year<0?('前'+(-e.year)):e.year;
-      s+='<g class="tl-node" data-i="'+i+'" data-x="'+x+'">';
-      s+='<line x1="'+x+'" y1="92" x2="'+x+'" y2="'+yNode+'" stroke="'+p.color+'" stroke-opacity=".4" stroke-width="1"/>';
-      s+='<circle cx="'+x+'" cy="'+yNode+'" r="6" fill="#faf5e8" stroke="'+p.color+'" stroke-width="2.4"/>';
-      s+='<text x="'+x+'" y="'+yTxt+'" text-anchor="middle">'+yr+'</text>';
-      s+='</g>';
-    });
-    svg.innerHTML=s;
-    Array.prototype.forEach.call(svg.querySelectorAll('.tl-node'), function(g){
-      g.addEventListener('mouseenter', function(){ var i=+g.getAttribute('data-i'); highlight(i,false); });
-      g.addEventListener('click', function(){ var i=+g.getAttribute('data-i'); highlight(i,true); });
-    });
-  }
-
-  /* ---- 地图 ---- */
-  var LON0=73,LON1=135,LAT0=54,LAT1=18,MW=520,MH=380,MP=34;
-  function proj(lon,lat){
-    return { x: MP + (lon-LON0)/(LON1-LON0)*(MW-2*MP),
-             y: MP + (LAT0-lat)/(LAT0-LAT1)*(MH-2*MP) };
-  }
-  function renderMap(p){
-    var svg=document.getElementById('mapsvg');
-    var s='';
-    // 底纹网格（经纬示意）
-    for(var i=0;i<=6;i++){
-      var gx=MP+i*(MW-2*MP)/6;
-      s+='<line x1="'+gx+'" y1="'+MP+'" x2="'+gx+'" y2="'+(MH-MP)+'" stroke="rgba(43,38,32,.055)" stroke-width="1"/>';
-    }
-    for(var j=0;j<=6;j++){
-      var gy=MP+j*(MH-2*MP)/6;
-      s+='<line x1="'+MP+'" y1="'+gy+'" x2="'+(MW-MP)+'" y2="'+gy+'" stroke="rgba(43,38,32,.055)" stroke-width="1"/>';
-    }
-    // 长江、黄河示意
-    s+='<path d="M60,220 Q180,205 300,232 Q400,252 470,238" fill="none" stroke="rgba(63,102,128,.28)" stroke-width="1.6"/>';
-    s+='<path d="M70,150 Q200,138 320,160 Q420,178 468,162" fill="none" stroke="rgba(150,110,60,.24)" stroke-width="1.6"/>';
-    // 去重后的行迹点（按首次出现）
-    var seen={}, pts=[];
-    p.events.forEach(function(e,i){
-      var key=e.place;
-      var pt=proj(e.lon,e.lat);
-      if(!(key in seen)){ seen[key]=pts.length; pts.push({x:pt.x,y:pt.y,place:e.place,evs:[i]}); }
-      else { pts[seen[key]].evs.push(i); }
-    });
-    // 连线（按事件时序）
-    var seq=pts.map(function(o){return o;});
-    // 按首次事件索引排序以形成行程路线
-    var order=pts.slice().sort(function(a,b){return Math.min.apply(null,a.evs)-Math.min.apply(null,b.evs);});
-    var dpath='';
-    order.forEach(function(o,i){ dpath += (i===0?'M':'L')+o.x.toFixed(1)+','+o.y.toFixed(1)+' '; });
-    s+='<path d="'+dpath+'" fill="none" stroke="'+p.color+'" stroke-opacity=".45" stroke-width="1.6" stroke-dasharray="5 5"/>';
-    // 点
-    pts.forEach(function(o,k){
-      s+='<g class="map-dot" data-k="'+k+'">';
-      s+='<circle cx="'+o.x+'" cy="'+o.y+'" r="5.2" fill="'+p.color+'" fill-opacity=".92" stroke="#faf5e8" stroke-width="1.8"/>';
-      s+='<text x="'+(o.x+9)+'" y="'+(o.y+4)+'" class="map-label">'+o.place+'</text>';
-      s+='</g>';
-    });
-    svg.innerHTML=s;
-    document.getElementById('mapnote').textContent = '行迹点 '+pts.length+' 处 · 虚线为行程脉络';
-  }
-
-  /* ---- 事件流 ---- */
-  function renderEvents(p){
-    var box=document.getElementById('evlist');
-    box.innerHTML = p.events.map(function(e,i){
-      var yr=e.year<0?('前'+(-e.year)):e.year;
-      var chips='';
-      (e.works||[]).forEach(function(w){ chips+='<span class="chip w">《'+w+'》</span>'; });
-      (e.friends||[]).forEach(function(f){ chips+='<span class="chip f">'+f+'</span>'; });
-      return '<div class="ev" data-i="'+i+'">'
-        + '<span class="dot"></span>'
-        + '<div class="ev-body">'
-        + '<div class="ev-top"><span class="ev-yr">'+yr+'</span>'
-        +   (e.age?('<span class="ev-agem">'+(e.age===0?'出生':(e.age+'岁'))+'</span>'):'')
-        +   '<span class="ev-place">'+e.place+'</span></div>'
-        + '<div class="ev-txt">'+e.event+'</div>'
-        + (chips?('<div class="ev-chips">'+chips+'</div>'):'')
-        + '</div></div>';
-    }).join('');
-    Array.prototype.forEach.call(box.querySelectorAll('.ev'), function(el){
-      var i=+el.getAttribute('data-i');
-      el.onclick=function(){ highlight(i,true); };
-      el.addEventListener('mouseenter',function(){ highlight(i,false); });
-    });
-    document.getElementById('evcount').textContent = p.events.length+' 个节点';
-  }
-
-  /* ---- 高亮联动 ---- */
-  function highlight(i,scroll){
-    curIdx=i;
-    // 时间轴
-    var tl=document.getElementById('tlsvg');
-    Array.prototype.forEach.call(tl.querySelectorAll('.tl-node'), function(g){
-      var on=+g.getAttribute('data-i')===i;
-      var c=g.querySelector('circle');
-      c.setAttribute('r', on?'8.2':'6');
-      c.setAttribute('fill', on?getComputedStyle(document.documentElement).getPropertyValue('--ac').trim():'#faf5e8');
-      c.setAttribute('stroke-width', on?'3':'2.4');
-    });
-    // 事件
-    Array.prototype.forEach.call(document.querySelectorAll('#evlist .ev'), function(el){
-      var on=+el.getAttribute('data-i')===i;
-      el.classList.toggle('on',on);
-      if(on && scroll){ el.scrollIntoView({block:'nearest',behavior:'smooth'}); }
-    });
-    // 地图
-    var p=poets.filter(function(x){return x.id===curId;})[0];
-    if(p){
-      var svg=document.getElementById('mapsvg');
-      var evt=p.events[i];
-      Array.prototype.forEach.call(svg.querySelectorAll('.map-dot'), function(g){
-        var lbl=g.querySelector('text');
-        var on = lbl.textContent===evt.place;
-        var c=g.querySelector('circle');
-        c.setAttribute('r', on?'8':'5.2');
-        c.setAttribute('stroke', on?'#8B3A2F':'#faf5e8');
-        c.setAttribute('stroke-width', on?'2.6':'1.8');
+    nebulae=[];
+    for(let i=0;i<5;i++){
+      nebulae.push({
+        x:Math.random()*W, y:Math.random()*H,
+        r:Math.random()*260+200,
+        col:['rgba(139,92,246,0.08)','rgba(236,72,153,0.07)','rgba(59,130,246,0.07)','rgba(244,114,182,0.06)','rgba(168,85,247,0.08)'][i],
+        vx:(Math.random()-0.5)*0.15, vy:(Math.random()-0.5)*0.1
       });
     }
   }
-
-  /* ---- 关系 ---- */
-  function renderRelations(p){
-    var g=document.getElementById('relgrid');
-    g.innerHTML = p.relations.map(function(r){
-      return '<div class="rel-card">'
-        + '<div class="rel-head"><span class="rel-who">'+r.with+'</span><span class="rel-type">'+r.type+'</span></div>'
-        + '<div class="rel-note">'+r.note+'</div></div>';
-    }).join('');
-  }
-
-  /* ---- 同时代 ---- */
-  function renderContemp(p){
-    var cs=contemporaries(p);
-    var g=document.getElementById('contemp');
-    if(!cs.length){ g.innerHTML='<span style="color:var(--ink-3);font-size:12.5px">（生于乱世之端，无同期在场者）</span>'; return; }
-    g.innerHTML = cs.map(function(q){
-      return '<span class="ctag" data-id="'+q.id+'">'+q.name+' · '+q.dynasty+'</span>';
-    }).join('');
-    Array.prototype.forEach.call(g.querySelectorAll('.ctag'), function(el){
-      el.onclick=function(){ select(el.getAttribute('data-id')); };
+  function draw(){
+    const g = ctx.createLinearGradient(0,0,0,H);
+    g.addColorStop(0,'#1a0a3e');
+    g.addColorStop(0.5,'#0c0628');
+    g.addColorStop(1,'#04020f');
+    ctx.fillStyle=g; ctx.fillRect(0,0,W,H);
+    // nebulae
+    nebulae.forEach(n=>{
+      const rg = ctx.createRadialGradient(n.x,n.y,0,n.x,n.y,n.r);
+      rg.addColorStop(0,n.col); rg.addColorStop(1,'transparent');
+      ctx.fillStyle=rg; ctx.beginPath(); ctx.arc(n.x,n.y,n.r,0,Math.PI*2); ctx.fill();
+      n.x+=n.vx; n.y+=n.vy;
+      if(n.x<-n.r) n.x=W+n.r; if(n.x>W+n.r)n.x=-n.r;
+      if(n.y<-n.r) n.y=H+n.r; if(n.y>H+n.r)n.y=-n.r;
     });
+    // stars
+    stars.forEach(s=>{
+      s.a+=s.sp;
+      const alpha = (Math.sin(s.a)+1)/2*0.8+0.2;
+      ctx.globalAlpha=alpha;
+      ctx.fillStyle=s.col;
+      ctx.beginPath(); ctx.arc(s.x,s.y,s.r,0,Math.PI*2); ctx.fill();
+    });
+    ctx.globalAlpha=1;
+    requestAnimationFrame(draw);
   }
-
-  /* ---- 选择诗人 ---- */
-  function select(id){
-    curId=id; curIdx=-1;
-    var p=poets.filter(function(x){return x.id===id;})[0];
-    if(!p) return;
-    applyAccent(p.color);
-    renderList();
-    renderProfile(p);
-    renderTimeline(p);
-    renderMap(p);
-    renderEvents(p);
-    renderRelations(p);
-    renderContemp(p);
-    document.getElementById('stage').scrollIntoView({block:'start',behavior:'smooth'});
-  }
-
-  select(poets[4].id); // 默认李白
+  window.addEventListener('resize',()=>{resize();build();});
+  resize();build();draw();
 })();
-</script>
 
-<script>
-window.addEventListener('DOMContentLoaded',()=>{
-  const pname=new URLSearchParams(location.search).get('p');
-  if(pname){
-    // 先等渲染完成
-    setTimeout(()=>{
-      const items=document.querySelectorAll('.poet-item');
-      for(const it of items){
-        if(it.textContent.includes(pname)){it.click();break;}
-      }
-    },300);
+// ============== 星河图数据准备 ==============
+const poetMap = {};
+POETS.forEach(p=>poetMap[p.id]=p);
+
+// X 坐标：-1100 ~ 1912 -> marginLeft=80, width-160
+const YEAR_MIN=-1100,YEAR_MAX=1912;
+// Y 坐标：按朝代分 8 条基线
+const DYN_Y = {};
+DYNASTIES.forEach((d,i)=>{DYN_Y[d.id]=120+i*72;});
+
+function computeLayout(){
+  const svg = document.getElementById('galaxySvg');
+  const w = svg.clientWidth, h = svg.clientHeight;
+  const padL=80, padR=40, padT=40, padB=80;
+  const gw=w-padL-padR, gh=h-padT-padB;
+  POETS.forEach(p=>{
+    const mid = (p.years[0]+p.years[1])/2;
+    p._x = padL + (mid-YEAR_MIN)/(YEAR_MAX-YEAR_MIN)*gw;
+    const base = DYN_Y[p.dynasty]*(gh/(120+(DYNASTIES.length-1)*72));
+    // 使用固定随机数（seeded by id）
+    let seed=0;for(let i=0;i<p.id.length;i++)seed=(seed*31+p.id.charCodeAt(i))%10000;
+    const jitter=(seed/10000-0.5)*70;
+    p._y = padT + base + jitter;
+    // 半径
+    p._r = p.title && (p.title.includes('圣')||p.title.includes('仙')||p.title.includes('龙')||p.title.includes('冠')||p.name==='苏轼'||p.name==='李白'||p.name==='杜甫'||p.name==='白居易'||p.name==='辛弃疾'||p.name==='李清照'||p.name==='陶渊明'||p.name==='屈原') ? 10 :
+           (p.title && p.title.length>6 ? 8 : 6);
+    p._r += 2; // 统一略大
+  });
+}
+computeLayout();
+window.addEventListener('resize',()=>{computeLayout();renderGalaxy();});
+
+// ============== 筛选器 ==============
+const state = {dyns:new Set(DYNASTIES.map(d=>d.id)), schools:new Set(SCHOOLS), zoom:1, panX:0, panY:0};
+
+function buildFilters(){
+  const dynBox = document.getElementById('dynFilter');
+  DYNASTIES.forEach(d=>{
+    const el=document.createElement('span');
+    el.className='filter-chip on'; el.dataset.dyn=d.id;
+    el.style.color=d.color;
+    el.innerHTML=`<span class="dot" style="background:${d.color}"></span>${d.name}`;
+    el.addEventListener('click',()=>{
+      if(state.dyns.has(d.id)){state.dyns.delete(d.id);el.classList.remove('on');}
+      else {state.dyns.add(d.id);el.classList.add('on');}
+      renderGalaxy();
+    });
+    dynBox.appendChild(el);
+  });
+  const schBox = document.getElementById('schoolFilter');
+  SCHOOLS.forEach(s=>{
+    const el=document.createElement('span');
+    el.className='filter-chip on'; el.dataset.sch=s;
+    el.innerHTML=s;
+    el.addEventListener('click',()=>{
+      if(state.schools.has(s)){state.schools.delete(s);el.classList.remove('on');}
+      else{state.schools.add(s);el.classList.add('on');}
+      renderGalaxy();
+    });
+    schBox.appendChild(el);
+  });
+}
+buildFilters();
+
+// ============== 渲染星河 ==============
+let flowT=0;
+function renderGalaxy(){
+  const svg = document.getElementById('galaxySvg');
+  const w = svg.clientWidth, h = svg.clientHeight;
+  const padL=80, padR=40, padT=40, padB=80;
+  const gw=w-padL-padR;
+  // 先构建显示集合
+  const visible = POETS.filter(p=>state.dyns.has(p.dynasty) && (p.school==='' || state.schools.has(p.school)));
+  const vid = new Set(visible.map(p=>p.id));
+
+  // defs
+  let defs = `<defs>`;
+  DYNASTIES.forEach(d=>{
+    defs+=`<filter id="glow_${d.id}" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>`;
+  });
+  defs+=`</defs>`;
+
+  // 时间轴
+  let axis=`<g class="axis">`;
+  const axisY = h-padB+30;
+  axis+=`<line x1="${padL}" y1="${axisY}" x2="${w-padR}" y2="${axisY}" stroke="rgba(196,181,253,0.3)" stroke-width="1"/>`;
+  // 朝代色块
+  DYNASTIES.forEach(d=>{
+    const x1=padL + Math.max(0,(d.start-YEAR_MIN))/(YEAR_MAX-YEAR_MIN)*gw;
+    const x2=padL + Math.min(gw,(d.end-YEAR_MIN))/(YEAR_MAX-YEAR_MIN)*gw;
+    axis+=`<rect x="${x1}" y="${axisY+8}" width="${x2-x1}" height="14" fill="${d.color}" opacity="0.2" rx="3"/>`;
+    axis+=`<text x="${(x1+x2)/2}" y="${axisY+20}" text-anchor="middle" fill="${d.color}" font-size="11">${d.name}</text>`;
+  });
+  // 关键年份刻度
+  [-1000,-500,0,500,1000,1500,1900].forEach(y=>{
+    const x = padL + (y-YEAR_MIN)/(YEAR_MAX-YEAR_MIN)*gw;
+    const label = y<0?`前${-y}`:y;
+    axis+=`<line x1="${x}" y1="${axisY-3}" x2="${x}" y2="${axisY+3}" stroke="rgba(196,181,253,0.4)"/>`;
+    axis+=`<text x="${x}" y="${axisY-8}" text-anchor="middle" fill="rgba(196,181,253,0.7)" font-size="10">${label}</text>`;
+  });
+  axis+=`</g>`;
+
+  // 连线
+  const links=[];
+  visible.forEach(p=>{
+    (p.friends||[]).forEach(fid=>{
+      if(!vid.has(fid)) return;
+      if(p.id<fid) links.push([p,poetMap[fid]]);
+    });
+  });
+  let linksSvg=`<g class="links">`;
+  links.forEach(([a,b],i)=>{
+    const col = DYNASTIES.find(d=>d.id===a.dynasty).color;
+    linksSvg+=`<line x1="${a._x}" y1="${a._y}" x2="${b._x}" y2="${b._y}" stroke="${col}" stroke-opacity="0.18" stroke-width="1"/>`;
+    // 流光点：沿线段移动
+    const t = ((flowT*0.0004 + i*0.13)%1);
+    const px = a._x + (b._x-a._x)*t;
+    const py = a._y + (b._y-a._y)*t;
+    linksSvg+=`<circle cx="${px}" cy="${py}" r="2" fill="${col}" opacity="0.9">
+      <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite" begin="${i*0.1}s"/>
+    </circle>`;
+  });
+  linksSvg+=`</g>`;
+
+  // 节点
+  let nodesSvg=`<g class="nodes">`;
+  visible.forEach(p=>{
+    const d=DYNASTIES.find(dd=>dd.id===p.dynasty);
+    nodesSvg+=`<g class="node" data-id="${p.id}" transform="translate(${p._x},${p._y})" style="cursor:pointer">
+      <circle r="${p._r+6}" fill="${d.color}" opacity="0.15">
+        <animate attributeName="r" values="${p._r+4};${p._r+10};${p._r+4}" dur="${2+(p._r%3)}s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.1;0.25;0.1" dur="${2+(p._r%3)}s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="${p._r}" fill="${d.color}" filter="url(#glow_${d.id})" stroke="#fff" stroke-opacity="0.3" stroke-width="1"/>
+      <text y="${p._r+14}" text-anchor="middle" fill="${d.color}" font-size="10" opacity="0.85" style="pointer-events:none;text-shadow:0 0 4px ${d.color};">${p.name}</text>
+    </g>`;
+  });
+  nodesSvg+=`</g>`;
+
+  svg.innerHTML = `<g id="galaxyG" transform="translate(${state.panX},${state.panY}) scale(${state.zoom})">${defs}${linksSvg}${nodesSvg}${axis}</g>`;
+  bindNodes();
+}
+
+function animateFlow(){
+  flowT = performance.now();
+  // 只更新流光点位置避免重绘全量——简单起见轻量重绘
+  if(document.getElementById('galaxy-view').style.display!=='none'){
+    // 为性能：节点呼吸动画已用SVG animate，仅节点位置不重算；更新流光可隔帧重绘，但会影响性能，改为setInterval低频
   }
+  requestAnimationFrame(animateFlow);
+}
+setInterval(()=>{if(document.getElementById('galaxy-view').style.display!=='none')renderGalaxy();},80);
+animateFlow();
+
+// ============== 节点交互 ==============
+const tooltip = document.getElementById('tooltip');
+function bindNodes(){
+  document.querySelectorAll('.node').forEach(g=>{
+    g.addEventListener('mouseenter',e=>{
+      const p = poetMap[g.dataset.id];
+      const d = DYNASTIES.find(dd=>dd.id===p.dynasty);
+      tooltip.innerHTML=`<div class="tt-name" style="color:${d.color}">${p.name}${p.title?' · '+p.title.split('·')[0]:''}</div>
+        <div class="tt-sub">${d.name} · ${p.zi}</div>
+        <div class="tt-sub" style="color:${d.color}">${p.birth} · 代表作《${p.works[0]}》</div>`;
+      tooltip.style.display='block';
+      g.querySelector('circle:nth-child(2)').setAttribute('r', p._r*1.5);
+    });
+    g.addEventListener('mousemove',e=>{
+      tooltip.style.left=(e.clientX+14)+'px';
+      tooltip.style.top=(e.clientY+14)+'px';
+    });
+    g.addEventListener('mouseleave',e=>{
+      tooltip.style.display='none';
+      const p=poetMap[g.dataset.id];
+      g.querySelector('circle:nth-child(2)').setAttribute('r', p._r);
+    });
+    g.addEventListener('click',e=>{
+      openDetail(g.dataset.id);
+    });
+  });
+}
+
+// ============== 缩放拖拽 ==============
+const svgEl = document.getElementById('galaxySvg');
+let dragging=false, lastX=0, lastY=0;
+svgEl.addEventListener('mousedown',e=>{
+  if(e.target.closest('.node'))return;
+  dragging=true;lastX=e.clientX;lastY=e.clientY;
 });
+window.addEventListener('mousemove',e=>{
+  if(!dragging)return;
+  state.panX += e.clientX-lastX;
+  state.panY += e.clientY-lastY;
+  lastX=e.clientX;lastY=e.clientY;
+  renderGalaxy();
+});
+window.addEventListener('mouseup',()=>{dragging=false;});
+svgEl.addEventListener('wheel',e=>{
+  e.preventDefault();
+  const rect = svgEl.getBoundingClientRect();
+  const mx = e.clientX-rect.left, my=e.clientY-rect.top;
+  const delta = e.deltaY<0?1.1:0.9;
+  const newZoom = Math.max(0.3, Math.min(4, state.zoom*delta));
+  state.panX = mx - (mx-state.panX)*(newZoom/state.zoom);
+  state.panY = my - (my-state.panY)*(newZoom/state.zoom);
+  state.zoom=newZoom;
+  renderGalaxy();
+},{passive:false});
+
+// ============== 详情面板 ==============
+const panel = document.getElementById('detailPanel');
+const detailBody = document.getElementById('detailBody');
+document.getElementById('detailClose').addEventListener('click',()=>panel.classList.remove('open'));
+function openDetail(id){
+  const p=poetMap[id]; if(!p)return;
+  const d=DYNASTIES.find(dd=>dd.id===p.dynasty);
+  const lifeStr = (p.years[0]<0?`前${-p.years[0]}`:p.years[0])+' — '+(p.years[1]<0?`前${-p.years[1]}`:p.years[1]);
+  let html=`<div class="dp-header">
+    <div class="dp-avatar" style="background:${d.color}">${p.name[0]}</div>
+    <div><div class="dp-name">${p.name}</div>
+      <div class="dp-zihao">${p.zi}${p.title?' · '+p.title:''}</div>
+      <div class="dp-meta">【${d.name}】${lifeStr} · 籍贯：${p.birth}${p.school?' · 流派：'+p.school:''}</div>
+    </div></div>`;
+  html+=`<div class="dp-section"><h4>诗人简介</h4><p>${p.intro}</p></div>`;
+  html+=`<div class="dp-section"><h4>生平要事</h4><div class="dp-timeline">`;
+  p.events.forEach(ev=>{
+    const y = ev[0]<0?`前${-ev[0]}`:ev[0];
+    html+=`<div class="ev"><span class="yr">${y}</span>${ev[1]}</div>`;
+  });
+  html+=`</div></div>`;
+  html+=`<div class="dp-section"><h4>代表作品</h4><ul class="dp-works">`;
+  p.works.forEach(w=>{html+=`<li>《${w}》</li>`;});
+  html+=`</ul></div>`;
+  if(p.friends && p.friends.length){
+    html+=`<div class="dp-section"><h4>交游关系</h4><div>`;
+    p.friends.forEach(fid=>{
+      const fp=poetMap[fid];
+      if(!fp)return;
+      const fd=DYNASTIES.find(dd=>dd.id===fp.dynasty);
+      html+=`<span class="dp-tag" style="border-color:${fd.color};color:${fd.color}" data-fid="${fid}">${fp.name}</span>`;
+    });
+    html+=`</div></div>`;
+  }
+  detailBody.innerHTML=html;
+  panel.classList.add('open');
+  detailBody.querySelectorAll('.dp-tag').forEach(t=>{
+    t.addEventListener('click',()=>openDetail(t.dataset.fid));
+  });
+}
+
+// ============== Tab 切换 ==============
+document.querySelectorAll('.tab-btn').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active');
+    const tab=btn.dataset.tab;
+    document.getElementById('galaxy-view').style.display = tab==='galaxy'?'block':'none';
+    document.getElementById('timeline-view').style.display = tab==='timeline'?'flex':'none';
+    if(tab==='galaxy') setTimeout(renderGalaxy,50);
+  });
+});
+
+// ============== 单人轨迹视图 ==============
+let curPoet = 'baijuyi';
+function buildSidebar(){
+  const sb=document.getElementById('tlSidebar');
+  let html='';
+  DYNASTIES.forEach(d=>{
+    const list = POETS.filter(p=>p.dynasty===d.id);
+    if(!list.length)return;
+    html+=`<div class="tl-dyn-group"><div class="tl-dyn-title" style="color:${d.color}">${d.name}</div>`;
+    list.forEach(p=>{
+      const lifeStr = (p.years[0]<0?`前${-p.years[0]}`:p.years[0])+'-'+(p.years[1]<0?`前${-p.years[1]}`:p.years[1]);
+      html+=`<div class="tl-poet-item" data-id="${p.id}" style="border-left-color:${p.id===curPoet?d.color:'transparent'}"><span style="color:${d.color}">${p.name}</span><span class="pi-life">${lifeStr}</span></div>`;
+    });
+    html+=`</div>`;
+  });
+  sb.innerHTML=html;
+  sb.querySelectorAll('.tl-poet-item').forEach(el=>{
+    el.addEventListener('click',()=>{
+      curPoet=el.dataset.id;
+      buildSidebar();
+      renderTimeline();
+    });
+  });
+}
+
+function renderTimeline(){
+  const p=poetMap[curPoet]; if(!p)return;
+  const d=DYNASTIES.find(dd=>dd.id===p.dynasty);
+  const lifeStr = (p.years[0]<0?`前${-p.years[0]}`:p.years[0])+' — '+(p.years[1]<0?`前${-p.years[1]}`:p.years[1]);
+  const tc=document.getElementById('tlContent');
+
+  // 简化中国轮廓SVG
+  const mapSvg=`<svg viewBox="0 0 500 220" xmlns="http://www.w3.org/2000/svg">
+    <path d="M80,80 Q100,50 140,45 Q180,40 220,50 Q280,45 330,60 Q380,70 420,90 Q440,110 430,140 Q420,170 380,180 Q340,190 300,185 Q260,190 220,180 Q180,185 140,170 Q100,155 80,130 Q70,105 80,80 Z" fill="#e8d7b8" stroke="#b9a27b" stroke-width="1.5"/>
+    <circle cx="240" cy="110" r="4" fill="#8b5cf6"><title>长安</title></circle>
+    <circle cx="300" cy="130" r="4" fill="#ef4444"><title>洛阳</title></circle>
+    <circle cx="330" cy="150" r="4" fill="#f59e0b"><title>江南</title></circle>
+    <text x="240" y="105" font-size="10" fill="#6b5a3f" text-anchor="middle">${p.birth.split(/[、，\/]/)[0]||'籍贯'}</text>
+  </svg>`;
+
+  let html=`<div class="tlc-head">
+    <div class="tlc-avatar" style="background:${d.color}">${p.name[0]}</div>
+    <div><div class="tlc-name">${p.name}</div>
+      <div class="tlc-sub">${p.zi}${p.title?' · '+p.title:''}</div>
+      <div class="tlc-sub">【${d.name}】${lifeStr} · 籍贯：${p.birth}${p.school?' · 流派：'+p.school:''}</div>
+    </div></div>`;
+  html+=`<div class="tlc-intro">${p.intro}</div>`;
+  html+=`<div class="tlc-block"><h3>行迹图</h3><div class="tlc-map">${mapSvg}</div></div>`;
+  html+=`<div class="tlc-block"><h3>生平年表</h3><div class="tlc-events">`;
+  p.events.forEach(ev=>{
+    const y=ev[0]<0?`前${-ev[0]}`:ev[0];
+    html+=`<div class="ev"><span class="yr">${y}年</span>${ev[1]}</div>`;
+  });
+  html+=`</div></div>`;
+  html+=`<div class="tlc-block"><h3>代表作品</h3><div class="tlc-works">`;
+  p.works.forEach(w=>{
+    html+=`<div class="tlc-work"><div class="wk-title" style="color:${d.color}">《${w}》</div><div style="color:#8b7355;font-size:12px">传世名篇</div></div>`;
+  });
+  html+=`</div></div>`;
+  if(p.friends && p.friends.length){
+    html+=`<div class="tlc-block"><h3>交游师友</h3><div>`;
+    p.friends.forEach(fid=>{
+      const fp=poetMap[fid]; if(!fp)return;
+      const fd=DYNASTIES.find(dd=>dd.id===fp.dynasty);
+      html+=`<span class="dp-tag" style="border-color:${fd.color};color:${fd.color}" data-fid="${fid}">${fp.name}</span>`;
+    });
+    html+=`</div></div>`;
+  }
+  tc.innerHTML=html;
+  tc.scrollTop=0;
+  tc.querySelectorAll('.dp-tag').forEach(t=>{
+    t.addEventListener('click',()=>{
+      curPoet=t.dataset.fid;
+      buildSidebar();
+      renderTimeline();
+    });
+  });
+}
+buildSidebar();
+renderTimeline();
+
+// 初始渲染
+renderGalaxy();
 </script>
 </body>
 </html>
