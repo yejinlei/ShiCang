@@ -65,15 +65,37 @@
   .topnav{
     position:sticky;top:0;z-index:40;
     backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
-    background:rgba(246,241,231,.82);
+    background:rgba(246,241,231,.92);
     border-bottom:1px solid var(--line);
+    box-shadow:0 2px 12px rgba(30,26,21,.04);
   }
   .nav-link{
     font-size:13.5px;color:var(--ink-2);text-decoration:none;
-    padding:6px 10px;border-radius:999px;white-space:nowrap;
+    padding:7px 12px;border-radius:999px;white-space:nowrap;
     transition:color .2s,background .2s;
+    position:relative;
   }
   .nav-link:hover{color:var(--zhu);background:rgba(174,58,43,.07);}
+  .nav-link.active{color:var(--zhu);background:rgba(174,58,43,.1);}
+  .nav-group{
+    font-size:11px;color:var(--ink-3);padding:0 8px;letter-spacing:.1em;
+    font-family:var(--mono);
+  }
+  .menu-btn{
+    display:none;font-size:22px;color:var(--ink);background:transparent;border:none;cursor:pointer;padding:6px;
+  }
+  .mobile-menu{
+    display:none;position:absolute;top:58px;left:0;right:0;
+    background:rgba(246,241,231,.98);backdrop-filter:blur(14px);
+    border-bottom:1px solid var(--line);padding:12px 16px;
+    flex-direction:column;gap:4px;
+  }
+  .mobile-menu.open{display:flex;}
+  .mobile-menu .nav-link{padding:10px 12px;border-radius:8px;}
+  @media (max-width:1024px){
+    .desktop-nav{display:none !important;}
+    .menu-btn{display:block !important;}
+  }
 
   .badge{
     display:inline-flex;align-items:center;gap:7px;
@@ -181,6 +203,8 @@
   .chart-box{min-width:320px;}
 
   .anchor-target{scroll-margin-top:78px;}
+  .scrollbar-hide::-webkit-scrollbar{display:none;}
+  .scrollbar-hide{-ms-overflow-style:none;scrollbar-width:none;}
 
   .kpi-num{font-family:var(--serif);font-weight:700;font-size:34px;line-height:1;color:var(--zhu);}
   .kpi-lbl{font-size:12.5px;color:var(--ink-3);margin-top:5px;}
@@ -238,27 +262,63 @@
 
 <!-- ========== 顶部导航 ========== -->
 <nav class="topnav">
-  <div class="max-w-[1180px] mx-auto px-4 md:px-8 h-[58px] flex items-center justify-between gap-4">
-    <a href="#top" class="flex items-center gap-2.5 no-underline">
-      <span style="width:30px;height:30px;border-radius:8px;background:linear-gradient(150deg,var(--zhu),var(--zhu-2));display:flex;align-items:center;justify-content:center;color:#fff;font-family:var(--serif);font-weight:700;font-size:17px;box-shadow:inset 0 0 0 1px rgba(255,255,255,.25);">诗</span>
+  <div class="max-w-[1280px] mx-auto px-4 md:px-6 h-[58px] flex items-center justify-between gap-3 relative">
+    <a href="/ShiCang/" class="flex items-center gap-2.5 no-underline">
+      <span style="width:32px;height:32px;border-radius:8px;background:linear-gradient(150deg,var(--zhu),var(--zhu-2));display:flex;align-items:center;justify-content:center;color:#fff;font-family:var(--serif);font-weight:700;font-size:18px;box-shadow:inset 0 0 0 1px rgba(255,255,255,.25);">诗</span>
       <span class="serif font-bold text-[17px] text-[var(--ink)]">诗藏本体论</span>
     </a>
-    <div class="hidden lg:flex items-center gap-0.5">
+    <div class="desktop-nav hidden lg:flex items-center gap-0.5 overflow-x-auto pb-0 scrollbar-hide">
+      <span class="nav-group">|</span>
       <a href="#layers" class="nav-link">七层架构</a>
       <a href="#classes" class="nav-link">类体系</a>
       <a href="#relations" class="nav-link">关系网络</a>
       <a href="#canon" class="nav-link">典籍体系</a>
-      <a href="#library" class="nav-link">诗藏原典</a>
-      <a href="#study" class="nav-link">名篇精读</a>
-      
-      <a href="#theory" class="nav-link">诗学论要</a>
-      <a href="#network" class="nav-link">交游典故</a>
-      <a href="#imagery" class="nav-link">意象情感</a>
-      <a href="#schools" class="nav-link">流派谱系</a>
-      <a href="#people" class="nav-link">代表人物</a>
-      <a href="#about" class="nav-link">说明</a>
+      <span class="nav-group">| 精读</span>
+      <a href="shicang-jingdu/" class="nav-link">诗藏</a>
+      <a href="shicang-ci/" class="nav-link">词林</a>
+      <a href="shicang-qu/" class="nav-link">曲林</a>
+      <a href="shicang-chuci/" class="nav-link">辞赋</a>
+      <a href="shicang-poem/" class="nav-link">名篇</a>
+      <span class="nav-group">| 雅集</span>
+      <a href="shicang-cipai/" class="nav-link">词牌谱</a>
+      <a href="shicang-imagery/" class="nav-link">意象图</a>
+      <a href="shicang-meipi/" class="nav-link">诗话眉批</a>
+      <a href="shicang-duilian/" class="nav-link">对联斗巧</a>
+      <a href="shicang-duilian-corpus/" class="nav-link">楹联集</a>
+      <a href="shicang-map/" class="nav-link">诗词地图</a>
+      <a href="shicang-yunshu/" class="nav-link">韵书</a>
+      <a href="#library" class="nav-link">原典</a>
     </div>
-    <a href="#layers" class="text-[13px] font-semibold text-white px-4 py-2 rounded-full no-underline" style="background:var(--zhu);">开始浏览</a>
+    <div class="flex items-center gap-2">
+      <a href="shicang-jingdu/" class="hidden md:inline text-[13px] font-semibold text-white px-4 py-2 rounded-full no-underline" style="background:var(--zhu);">开始精读 →</a>
+      <button class="menu-btn lg:hidden" onclick="document.getElementById('mobileMenu').classList.toggle('open')">☰</button>
+    </div>
+    <div id="mobileMenu" class="mobile-menu">
+      <a href="/ShiCang/" class="nav-link font-semibold">🏠 诗藏首页</a>
+      <div style="height:1px;background:var(--line);margin:6px 0;"></div>
+      <div class="nav-group">本体架构</div>
+      <a href="#layers" class="nav-link" onclick="document.getElementById('mobileMenu').classList.remove('open')">七层架构</a>
+      <a href="#classes" class="nav-link" onclick="document.getElementById('mobileMenu').classList.remove('open')">类体系</a>
+      <a href="#relations" class="nav-link" onclick="document.getElementById('mobileMenu').classList.remove('open')">关系网络</a>
+      <a href="#canon" class="nav-link" onclick="document.getElementById('mobileMenu').classList.remove('open')">典籍体系</a>
+      <div style="height:1px;background:var(--line);margin:6px 0;"></div>
+      <div class="nav-group">精读文库</div>
+      <a href="shicang-jingdu/" class="nav-link">📚 诗藏精读 · 近体诗</a>
+      <a href="shicang-ci/" class="nav-link">📝 词林精读 · 词</a>
+      <a href="shicang-qu/" class="nav-link">🎭 曲林精读 · 元曲</a>
+      <a href="shicang-chuci/" class="nav-link">🏮 辞赋精读 · 楚辞汉赋</a>
+      <a href="shicang-poem/" class="nav-link">📜 名篇深度精读</a>
+      <div style="height:1px;background:var(--line);margin:6px 0;"></div>
+      <div class="nav-group">诗词雅集 · 工具</div>
+      <a href="shicang-cipai/" class="nav-link">🎶 词牌格律谱</a>
+      <a href="shicang-imagery/" class="nav-link">🌿 意象关系图</a>
+      <a href="shicang-meipi/" class="nav-link">🖋️ 历代诗话眉批</a>
+      <a href="shicang-duilian/" class="nav-link">🀄 对联斗巧游戏</a>
+      <a href="shicang-duilian-corpus/" class="nav-link">🧧 楹联集对</a>
+      <a href="shicang-map/" class="nav-link">🗺️ 诗词地图</a>
+      <a href="shicang-yunshu/" class="nav-link">📖 韵书查询</a>
+      <a href="#library" class="nav-link" onclick="document.getElementById('mobileMenu').classList.remove('open')">📚 776部原典</a>
+    </div>
   </div>
 </nav>
 
@@ -267,7 +327,7 @@
   <div class="max-w-[1180px] mx-auto px-5 md:px-8 pt-12 md:pt-16 pb-10">
     <div class="grid md:grid-cols-[1.12fr_.88fr] gap-9 md:gap-12 items-center">
       <div class="reveal reveal-1">
-        <span class="badge">ShiCang Ontology · v1.0</span>
+        <span class="badge">ShiCang Ontology · v3.3</span>
         <h1 class="serif font-bold mt-4 mb-4 text-[42px] leading-[1.05] md:text-[64px] lg:text-[72px] tracking-tight">
           诗藏<span style="color:var(--zhu);">本体论</span>
         </h1>
@@ -296,16 +356,16 @@
         <div class="kpi-num" data-count="7">7</div><div class="kpi-lbl">本体层级 L0–L6</div>
       </div>
       <div class="bg-[var(--card)] rounded-xl px-4 py-4" style="border:1px solid var(--line);">
-        <div class="kpi-num" data-count="75">75</div><div class="kpi-lbl">OWL 类</div>
+        <div class="kpi-num" data-count="99">99</div><div class="kpi-lbl">OWL 类</div>
       </div>
       <div class="bg-[var(--card)] rounded-xl px-4 py-4" style="border:1px solid var(--line);">
-        <div class="kpi-num" data-count="27">27</div><div class="kpi-lbl">对象属性</div>
+        <div class="kpi-num" data-count="35">35</div><div class="kpi-lbl">对象属性</div>
       </div>
       <div class="bg-[var(--card)] rounded-xl px-4 py-4" style="border:1px solid var(--line);">
-        <div class="kpi-num" data-count="16">16</div><div class="kpi-lbl">数据属性</div>
+        <div class="kpi-num" data-count="55">55</div><div class="kpi-lbl">数据属性</div>
       </div>
       <div class="bg-[var(--card)] rounded-xl px-4 py-4" style="border:1px solid var(--line);">
-        <div class="kpi-num" data-count="776">776</div><div class="kpi-lbl">诗藏典籍（部）</div>
+        <div class="kpi-num" data-count="776">776</div><div class="kpi-lbl">诗藏典籍（部） · 6.3万篇精读</div>
       </div>
     </div>
   </div>
@@ -1023,7 +1083,7 @@
         <div class="app-icon">读</div>
         <div class="app-body">
           <div class="app-title">名篇精读</div>
-          <div class="app-desc">82 篇千古名篇，逐字注音、平仄、韵脚、今译、英译、赏析十三层互动。</div>
+          <div class="app-desc">82 篇千古名诗 + 20 首名词，逐字注音、平仄、韵脚、今译、英译、赏析十三层互动。</div>
         </div>
         <div class="app-go">→</div>
       </a>
@@ -1031,7 +1091,7 @@
         <div class="app-icon">诗</div>
         <div class="app-body">
           <div class="app-title">诗藏精读库</div>
-          <div class="app-desc">全库 4.9 万首近体诗，96 部诗选集逐字注音、平仄、韵脚、句式精读。</div>
+          <div class="app-desc">99 部诗选集，近 5 万首近体诗，依平水韵逐字标注平仄、韵脚、句式。</div>
         </div>
         <div class="app-go">→</div>
       </a>
@@ -1039,7 +1099,7 @@
         <div class="app-icon">词</div>
         <div class="app-body">
           <div class="app-title">词林精读</div>
-          <div class="app-desc">136 部词集，32 个词牌近 3000 首词，逐字平仄韵脚、上下两片分读；含 20 首名词深度精读（今译/英译/起承转合/赏析）。</div>
+          <div class="app-desc">111 部词集，32 个词牌近 3000 首词，词林正韵逐字标注；含 20 首名词深度精读。</div>
         </div>
         <div class="app-go">→</div>
       </a>
@@ -1047,7 +1107,7 @@
         <div class="app-icon">曲</div>
         <div class="app-body">
           <div class="app-title">曲林精读</div>
-          <div class="app-desc">150 部剧曲，15 个北曲曲牌 482 首元曲（天净沙、山坡羊、折桂令等），依中原音韵逐字平仄、韵位标注。</div>
+          <div class="app-desc">74 部剧曲集，15 个北曲曲牌 482 首元曲，依中原音韵逐字平仄、韵位标注。</div>
         </div>
         <div class="app-go">→</div>
       </a>
@@ -1055,7 +1115,7 @@
         <div class="app-icon">辞</div>
         <div class="app-body">
           <div class="app-title">辞赋精读</div>
-          <div class="app-desc">楚辞 10 部 + 汉赋 4 部，骚体「兮」字句与骈体四六文共 7190 段，标注句末韵脚，还原屈宋风骚与两汉大赋气象。</div>
+          <div class="app-desc">楚辞 10 部 + 汉赋 4 部，骚体「兮」字句与骈体四六文共 7190 段，标注句末韵脚。</div>
         </div>
         <div class="app-go">→</div>
       </a>
@@ -1063,7 +1123,7 @@
         <div class="app-icon">批</div>
         <div class="app-body">
           <div class="app-title">诗话眉批</div>
-          <div class="app-desc">210 部诗话 + 103 部词话，共 5001 条历代评点，按书检索，可按诗人、诗句查询历代批评家论诗语。</div>
+          <div class="app-desc">经典诗话词话共 5001 条历代评点，按书检索，可按诗人、诗句查询历代论诗语。</div>
         </div>
         <div class="app-go">→</div>
       </a>

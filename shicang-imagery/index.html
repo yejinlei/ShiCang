@@ -64,8 +64,102 @@ footer{text-align:center;padding:24px;color:#a08060;font-size:12px;letter-spacin
 }
 .search-box:focus{border-color:#8B3A2F}
 </style>
+
+<style>
+  .shicang-topnav{
+    position:sticky;top:0;z-index:999;
+    backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+    background:rgba(246,241,231,.92);
+    border-bottom:1px solid rgba(30,26,21,.11);
+    box-shadow:0 2px 12px rgba(30,26,21,.04);
+    font-family:'PingFang SC','HarmonyOS Sans SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;
+  }
+  .shicang-topnav-inner{
+    max-width:1200px;margin:0 auto;padding:0 16px;
+    height:52px;display:flex;align-items:center;justify-content:space-between;gap:12px;
+  }
+  .shicang-logo{
+    display:flex;align-items:center;gap:8px;text-decoration:none;color:#1e1a15;font-weight:700;
+    font-size:16px;font-family:'Songti SC','STSong','Noto Serif CJK SC',serif;
+  }
+  .shicang-logo-mark{
+    width:28px;height:28px;border-radius:6px;
+    background:linear-gradient(150deg,#ae3a2b,#c85a49);color:#fff;
+    display:flex;align-items:center;justify-content:center;
+    font-size:16px;box-shadow:inset 0 0 0 1px rgba(255,255,255,.25);
+  }
+  .shicang-nav-links{
+    display:flex;gap:4px;align-items:center;overflow-x:auto;scrollbar-width:none;
+  }
+  .shicang-nav-links::-webkit-scrollbar{display:none;}
+  .shicang-nav-link{
+    font-size:13px;color:#4b4237;text-decoration:none;padding:6px 10px;border-radius:999px;white-space:nowrap;
+    transition:all .2s;
+  }
+  .shicang-nav-link:hover{color:#ae3a2b;background:rgba(174,58,43,.07);}
+  .shicang-nav-link.active{color:#ae3a2b;background:rgba(174,58,43,.1);}
+  .shicang-nav-sep{font-size:11px;color:#8a7f6d;padding:0 4px;}
+  .shicang-menu-btn{display:none;font-size:20px;background:transparent;border:none;cursor:pointer;padding:6px;color:#1e1a15;}
+  .shicang-mobile-menu{
+    display:none;position:absolute;top:52px;left:0;right:0;
+    background:rgba(246,241,231,.98);backdrop-filter:blur(14px);
+    border-bottom:1px solid rgba(30,26,21,.11);padding:10px 16px;flex-direction:column;gap:4px;
+  }
+  .shicang-mobile-menu.open{display:flex;}
+  .shicang-mobile-menu .shicang-nav-link{padding:9px 10px;border-radius:8px;}
+  @media(max-width:1024px){
+    .shicang-desktop-links{display:none !important;}
+    .shicang-menu-btn{display:block !important;}
+  }
+</style>
+
 </head>
 <body>
+
+<nav class="shicang-topnav">
+  <div class="shicang-topnav-inner">
+    <a href="/ShiCang/" class="shicang-logo">
+      <span class="shicang-logo-mark">诗</span>
+      <span>诗藏本体论</span>
+    </a>
+    <div class="shicang-nav-links shicang-desktop-links">
+      <a href="/ShiCang/" class="shicang-nav-link">首页</a>
+      <span class="shicang-nav-sep">|</span>
+      <a href="/ShiCang/shicang-jingdu/" class="shicang-nav-link">诗</a>
+      <a href="/ShiCang/shicang-ci/" class="shicang-nav-link">词</a>
+      <a href="/ShiCang/shicang-qu/" class="shicang-nav-link">曲</a>
+      <a href="/ShiCang/shicang-chuci/" class="shicang-nav-link">辞赋</a>
+      <a href="/ShiCang/shicang-poem/" class="shicang-nav-link">名篇</a>
+      <span class="shicang-nav-sep">|</span>
+      <a href="/ShiCang/shicang-cipai/" class="shicang-nav-link">词牌</a>
+      <a href="/ShiCang/shicang-imagery/" class="shicang-nav-link active" class="shicang-nav-link active" class="shicang-nav-link">意象</a>
+      <a href="/ShiCang/shicang-meipi/" class="shicang-nav-link">眉批</a>
+      <a href="/ShiCang/shicang-duilian/" class="shicang-nav-link">对弈</a>
+      <a href="/ShiCang/shicang-duilian-corpus/" class="shicang-nav-link">楹联</a>
+      <a href="/ShiCang/shicang-map/" class="shicang-nav-link">地图</a>
+      <a href="/ShiCang/shicang-yunshu/" class="shicang-nav-link">韵书</a>
+    </div>
+    <button class="shicang-menu-btn" onclick="document.getElementById('shicangMobileNav').classList.toggle('open')">☰</button>
+    <div id="shicangMobileNav" class="shicang-mobile-menu">
+      <a href="/ShiCang/" class="shicang-nav-link font-bold">🏠 返回首页</a>
+      <div style="height:1px;background:rgba(30,26,21,.1);margin:6px 0;"></div>
+      <a href="/ShiCang/shicang-jingdu/" class="shicang-nav-link">📚 诗藏精读</a>
+      <a href="/ShiCang/shicang-ci/" class="shicang-nav-link">📝 词林精读</a>
+      <a href="/ShiCang/shicang-qu/" class="shicang-nav-link">🎭 曲林精读</a>
+      <a href="/ShiCang/shicang-chuci/" class="shicang-nav-link">🏮 辞赋精读</a>
+      <a href="/ShiCang/shicang-poem/" class="shicang-nav-link">📜 名篇精读</a>
+      <div style="height:1px;background:rgba(30,26,21,.1);margin:6px 0;"></div>
+      <a href="/ShiCang/shicang-cipai/" class="shicang-nav-link">🎶 词牌格律谱</a>
+      <a href="/ShiCang/shicang-imagery/" class="shicang-nav-link active" class="shicang-nav-link active" class="shicang-nav-link">🌿 意象关系图</a>
+      <a href="/ShiCang/shicang-meipi/" class="shicang-nav-link">🖋️ 诗话眉批</a>
+      <a href="/ShiCang/shicang-duilian/" class="shicang-nav-link">🀄 对联斗巧</a>
+      <a href="/ShiCang/shicang-duilian-corpus/" class="shicang-nav-link">🧧 楹联集对</a>
+      <a href="/ShiCang/shicang-map/" class="shicang-nav-link">🗺️ 诗词地图</a>
+      <a href="/ShiCang/shicang-yunshu/" class="shicang-nav-link">📖 韵书查询</a>
+    </div>
+  </div>
+</nav>
+
 <header>
   <a class="back" href="../index.html">← 返回诗藏</a>
   <h1>意象关系图</h1>
