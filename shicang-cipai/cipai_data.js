@@ -1142,5 +1142,1702 @@ const CIPAI_DATA = [
     ],
     "rhyme_notes": "平韵格，格局开张，宜抒壮阔豪迈之情",
     "form_notes": "双调一百十四字，前段十三句四平韵，后段十二句五平韵"
+  },
+  {
+    "name": "菩萨蛮",
+    "alias": [
+      "重叠金",
+      "子夜歌",
+      "花间意"
+    ],
+    "dynasty": "唐",
+    "meter_type": "平仄韵转换格",
+    "total_chars": 44,
+    "slabs": [
+      {
+        "name": "全阕",
+        "lines": [
+          {
+            "chars": 7,
+            "pattern": "○○△▲○○▣",
+            "note": "平林漠漠烟如织",
+            "rhyme": true
+          },
+          {
+            "chars": 7,
+            "pattern": "△▲△○○▲●",
+            "note": "寒山一带伤心碧",
+            "rhyme": false
+          },
+          {
+            "chars": 5,
+            "pattern": "○▲●○▣",
+            "note": "暝色入高楼",
+            "rhyme": true
+          },
+          {
+            "chars": 5,
+            "pattern": "△○○▲▣",
+            "note": "有人楼上愁",
+            "rhyme": true
+          },
+          {
+            "chars": 5,
+            "pattern": "△○○▲▲",
+            "note": "玉阶空伫立",
+            "rhyme": false
+          },
+          {
+            "chars": 5,
+            "pattern": "▲●○○▣",
+            "note": "宿鸟归飞急",
+            "rhyme": true
+          },
+          {
+            "chars": 5,
+            "pattern": "○▲●○▣",
+            "note": "何处是归程",
+            "rhyme": true
+          },
+          {
+            "chars": 5,
+            "pattern": "△○○▲▣",
+            "note": "长亭更短亭",
+            "rhyme": true
+          }
+        ]
+      }
+    ],
+    "form_notes": "两句一换韵，凡四易韵，前后片各两仄韵、两平韵。",
+    "rhyme_notes": "依词林正韵，前后片分叶。"
+  },
+  {
+    "name": "清平乐",
+    "alias": [
+      "清平乐令",
+      "忆萝月",
+      "醉东风"
+    ],
+    "dynasty": "唐",
+    "meter_type": "平仄韵转换格",
+    "total_chars": 46,
+    "slabs": [
+      {
+        "name": "全阕",
+        "lines": [
+          {
+            "chars": 4,
+            "pattern": "△○△▲",
+            "note": "春归何处",
+            "rhyme": false
+          },
+          {
+            "chars": 5,
+            "pattern": "△▲○○▣",
+            "note": "寂寞无行路",
+            "rhyme": true
+          },
+          {
+            "chars": 7,
+            "pattern": "▲▲○○○▲●",
+            "note": "若有人知春去处",
+            "rhyme": false
+          },
+          {
+            "chars": 6,
+            "pattern": "▲▲○○△▲",
+            "note": "唤取归来同住",
+            "rhyme": false
+          },
+          {
+            "chars": 6,
+            "pattern": "○○▲●○▣",
+            "note": "春无踪迹谁知",
+            "rhyme": true
+          },
+          {
+            "chars": 6,
+            "pattern": "△▲△○▲▣",
+            "note": "除非问取黄鹂",
+            "rhyme": true
+          },
+          {
+            "chars": 6,
+            "pattern": "△▲○○▲▲",
+            "note": "百啭无人能解",
+            "rhyme": false
+          },
+          {
+            "chars": 6,
+            "pattern": "○○▲●○▣",
+            "note": "因风飞过蔷薇",
+            "rhyme": true
+          }
+        ]
+      }
+    ],
+    "form_notes": "前片四仄韵，后片三平韵。",
+    "rhyme_notes": "依词林正韵，前后片分叶。"
+  },
+  {
+    "name": "鹧鸪天",
+    "alias": [
+      "思佳客",
+      "思越人",
+      "醉梅花"
+    ],
+    "dynasty": "北宋",
+    "meter_type": "平韵格",
+    "total_chars": 55,
+    "slabs": [
+      {
+        "name": "全阕",
+        "lines": [
+          {
+            "chars": 7,
+            "pattern": "△▲○○▲●▣",
+            "note": "彩袖殷勤捧玉钟",
+            "rhyme": true
+          },
+          {
+            "chars": 7,
+            "pattern": "△○○▲●○▣",
+            "note": "当年拚却醉颜红",
+            "rhyme": true
+          },
+          {
+            "chars": 7,
+            "pattern": "○○▲▲○○●",
+            "note": "舞低杨柳楼心月",
+            "rhyme": false
+          },
+          {
+            "chars": 7,
+            "pattern": "△▲○○▲●▣",
+            "note": "歌尽桃花扇底风",
+            "rhyme": true
+          },
+          {
+            "chars": 3,
+            "pattern": "○▲▲",
+            "note": "从别后",
+            "rhyme": false
+          },
+          {
+            "chars": 3,
+            "pattern": "●○▣",
+            "note": "忆相逢",
+            "rhyme": true
+          },
+          {
+            "chars": 7,
+            "pattern": "△○○▲●○▣",
+            "note": "几回魂梦与君同",
+            "rhyme": true
+          },
+          {
+            "chars": 7,
+            "pattern": "△○▲▲○○●",
+            "note": "今宵剩把银釭照",
+            "rhyme": false
+          },
+          {
+            "chars": 7,
+            "pattern": "△▲○○▲●▣",
+            "note": "犹恐相逢是梦中",
+            "rhyme": true
+          }
+        ]
+      }
+    ],
+    "form_notes": "由七律化来，过片三字两句对偶。",
+    "rhyme_notes": "依词林正韵，前后片分叶。"
+  },
+  {
+    "name": "忆秦娥",
+    "alias": [
+      "秦楼月",
+      "碧云深",
+      "双荷叶"
+    ],
+    "dynasty": "唐",
+    "meter_type": "仄韵格（多用入声）",
+    "total_chars": 46,
+    "slabs": [
+      {
+        "name": "全阕",
+        "lines": [
+          {
+            "chars": 3,
+            "pattern": "○○▲",
+            "note": "箫声咽",
+            "rhyme": false
+          },
+          {
+            "chars": 7,
+            "pattern": "△○▲▲○○▣",
+            "note": "秦娥梦断秦楼月",
+            "rhyme": true
+          },
+          {
+            "chars": 3,
+            "pattern": "○○▣",
+            "note": "秦楼月",
+            "rhyme": true
+          },
+          {
+            "chars": 4,
+            "pattern": "△○△▲",
+            "note": "年年柳色",
+            "rhyme": false
+          },
+          {
+            "chars": 4,
+            "pattern": "▲○○▣",
+            "note": "灞陵伤别",
+            "rhyme": true
+          },
+          {
+            "chars": 7,
+            "pattern": "△○▲▲○○▲",
+            "note": "乐游原上清秋节",
+            "rhyme": false
+          },
+          {
+            "chars": 7,
+            "pattern": "△○▲▲○○▣",
+            "note": "咸阳古道音尘绝",
+            "rhyme": true
+          },
+          {
+            "chars": 3,
+            "pattern": "○○▣",
+            "note": "音尘绝",
+            "rhyme": true
+          },
+          {
+            "chars": 4,
+            "pattern": "△○△▲",
+            "note": "西风残照",
+            "rhyme": false
+          },
+          {
+            "chars": 4,
+            "pattern": "▲○○▣",
+            "note": "汉家陵阙",
+            "rhyme": true
+          }
+        ]
+      }
+    ],
+    "form_notes": "叠三字句，入声韵为主。",
+    "rhyme_notes": "依词林正韵，前后片分叶。"
+  },
+  {
+    "name": "点绛唇",
+    "alias": [
+      "点樱桃",
+      "十八香",
+      "南浦月"
+    ],
+    "dynasty": "北宋",
+    "meter_type": "仄韵格",
+    "total_chars": 41,
+    "slabs": [
+      {
+        "name": "全阕",
+        "lines": [
+          {
+            "chars": 4,
+            "pattern": "▲●○○",
+            "note": "蹴罢秋千",
+            "rhyme": false
+          },
+          {
+            "chars": 7,
+            "pattern": "△○▲●○○▣",
+            "note": "起来慵整纤纤手",
+            "rhyme": true
+          },
+          {
+            "chars": 4,
+            "pattern": "△○▲▲",
+            "note": "露浓花瘦",
+            "rhyme": false
+          },
+          {
+            "chars": 5,
+            "pattern": "▲●○○▣",
+            "note": "薄汗轻衣透",
+            "rhyme": true
+          },
+          {
+            "chars": 4,
+            "pattern": "△▲○○",
+            "note": "见有人来",
+            "rhyme": false
+          },
+          {
+            "chars": 6,
+            "pattern": "△▲○○▲●",
+            "note": "袜刬金钗溜",
+            "rhyme": false
+          },
+          {
+            "chars": 4,
+            "pattern": "○○▲▲",
+            "note": "和羞走",
+            "rhyme": false
+          },
+          {
+            "chars": 4,
+            "pattern": "△○△▲",
+            "note": "倚门回首",
+            "rhyme": false
+          },
+          {
+            "chars": 5,
+            "pattern": "△▲○○▣",
+            "note": "却把青梅嗅",
+            "rhyme": true
+          }
+        ]
+      }
+    ],
+    "form_notes": "四换韵，前片三仄韵后片四仄韵。",
+    "rhyme_notes": "依词林正韵，前后片分叶。"
+  },
+  {
+    "name": "踏莎行",
+    "alias": [
+      "柳长春",
+      "踏雪行",
+      "喜朝天"
+    ],
+    "dynasty": "北宋",
+    "meter_type": "仄韵格",
+    "total_chars": 58,
+    "slabs": [
+      {
+        "name": "全阕",
+        "lines": [
+          {
+            "chars": 4,
+            "pattern": "△▲○○",
+            "note": "细草愁烟",
+            "rhyme": false
+          },
+          {
+            "chars": 4,
+            "pattern": "△○▲▲",
+            "note": "幽花怯露",
+            "rhyme": false
+          },
+          {
+            "chars": 7,
+            "pattern": "△○▲▲○○▣",
+            "note": "凭阑总是消魂处",
+            "rhyme": true
+          },
+          {
+            "chars": 7,
+            "pattern": "△○▲▲●○○",
+            "note": "日高深院静无人",
+            "rhyme": false
+          },
+          {
+            "chars": 7,
+            "pattern": "△○▲▲○○▣",
+            "note": "时时海燕双飞去",
+            "rhyme": true
+          },
+          {
+            "chars": 4,
+            "pattern": "△▲○○",
+            "note": "带缓罗衣",
+            "rhyme": false
+          },
+          {
+            "chars": 4,
+            "pattern": "△○▲▲",
+            "note": "香残蕙炷",
+            "rhyme": false
+          },
+          {
+            "chars": 7,
+            "pattern": "△○▲▲○○▣",
+            "note": "天长不禁迢迢路",
+            "rhyme": true
+          },
+          {
+            "chars": 7,
+            "pattern": "△○▲▲●○○",
+            "note": "垂杨只解惹春风",
+            "rhyme": false
+          },
+          {
+            "chars": 7,
+            "pattern": "△○▲▲○○▣",
+            "note": "何曾系得行人住",
+            "rhyme": true
+          }
+        ]
+      }
+    ],
+    "form_notes": "前后片起首两句例用对偶。",
+    "rhyme_notes": "依词林正韵，前后片分叶。"
+  },
+  {
+    "name": "鹊桥仙",
+    "alias": [
+      "鹊桥仙令",
+      "忆人人",
+      "金风玉露相逢曲"
+    ],
+    "dynasty": "北宋",
+    "meter_type": "仄韵格",
+    "total_chars": 56,
+    "slabs": [
+      {
+        "name": "全阕",
+        "lines": [
+          {
+            "chars": 4,
+            "pattern": "△○△▲",
+            "note": "纤云弄巧",
+            "rhyme": false
+          },
+          {
+            "chars": 4,
+            "pattern": "△○△▲",
+            "note": "飞星传恨",
+            "rhyme": false
+          },
+          {
+            "chars": 6,
+            "pattern": "▲▲○○○▲▣",
+            "note": "银汉迢迢暗度",
+            "rhyme": true
+          },
+          {
+            "chars": 7,
+            "pattern": "△▲△○○▲▲",
+            "note": "金风玉露一相逢",
+            "rhyme": false
+          },
+          {
+            "chars": 3,
+            "pattern": "△▲▲",
+            "note": "便胜却",
+            "rhyme": false
+          },
+          {
+            "chars": 4,
+            "pattern": "△○○▲▣",
+            "note": "人间无数",
+            "rhyme": true
+          },
+          {
+            "chars": 4,
+            "pattern": "△○△▲",
+            "note": "柔情似水",
+            "rhyme": false
+          },
+          {
+            "chars": 4,
+            "pattern": "△○△▲",
+            "note": "佳期如梦",
+            "rhyme": false
+          },
+          {
+            "chars": 6,
+            "pattern": "▲▲○○○▲▣",
+            "note": "忍顾鹊桥归路",
+            "rhyme": true
+          },
+          {
+            "chars": 7,
+            "pattern": "△▲△○○▲▲",
+            "note": "两情若是久长时",
+            "rhyme": false
+          },
+          {
+            "chars": 3,
+            "pattern": "△▲▲",
+            "note": "又岂在",
+            "rhyme": false
+          },
+          {
+            "chars": 4,
+            "pattern": "△○○▲▣",
+            "note": "朝朝暮暮",
+            "rhyme": true
+          }
+        ]
+      }
+    ],
+    "form_notes": "五十六字，上下片各两仄韵。",
+    "rhyme_notes": "依词林正韵，前后片分叶。"
+  },
+  {
+    "name": "采桑子",
+    "alias": [
+      "丑奴儿",
+      "罗敷媚",
+      "罗敷艳歌"
+    ],
+    "dynasty": "五代",
+    "meter_type": "平韵格",
+    "total_chars": 44,
+    "slabs": [
+      {
+        "name": "全阕",
+        "lines": [
+          {
+            "chars": 7,
+            "pattern": "△○▲▲○○●",
+            "note": "轻舟短棹西湖好",
+            "rhyme": false
+          },
+          {
+            "chars": 4,
+            "pattern": "▲●○▣",
+            "note": "绿水逶迤",
+            "rhyme": true
+          },
+          {
+            "chars": 11,
+            "pattern": "△▲○○▲●▣",
+            "note": "芳草长堤，隐隐笙歌处处随",
+            "rhyme": true
+          },
+          {
+            "chars": 7,
+            "pattern": "△○▲▲○○●",
+            "note": "无风水面琉璃滑",
+            "rhyme": false
+          },
+          {
+            "chars": 4,
+            "pattern": "▲●○▣",
+            "note": "不觉船移",
+            "rhyme": true
+          },
+          {
+            "chars": 11,
+            "pattern": "△▲○○▲●▣",
+            "note": "微动涟漪，惊起沙禽掠岸飞",
+            "rhyme": true
+          }
+        ]
+      }
+    ],
+    "form_notes": "四十四字，前后片各三平韵。",
+    "rhyme_notes": "依词林正韵，前后片分叶。"
+  },
+  {
+    "name": "相见欢",
+    "alias": [
+      "乌夜啼",
+      "秋夜月",
+      "上西楼"
+    ],
+    "dynasty": "五代",
+    "meter_type": "平仄韵错叶格",
+    "total_chars": 36,
+    "slabs": [
+      {
+        "name": "全阕",
+        "lines": [
+          {
+            "chars": 6,
+            "pattern": "△○△▲○▣",
+            "note": "无言独上西楼",
+            "rhyme": true
+          },
+          {
+            "chars": 3,
+            "pattern": "●○▣",
+            "note": "月如钩",
+            "rhyme": true
+          },
+          {
+            "chars": 6,
+            "pattern": "▲●△○○▲",
+            "note": "寂寞梧桐深院",
+            "rhyme": false
+          },
+          {
+            "chars": 3,
+            "pattern": "●○▣",
+            "note": "锁清秋",
+            "rhyme": true
+          },
+          {
+            "chars": 3,
+            "pattern": "▲○▲",
+            "note": "剪不断",
+            "rhyme": false
+          },
+          {
+            "chars": 3,
+            "pattern": "●○▲",
+            "note": "理还乱",
+            "rhyme": false
+          },
+          {
+            "chars": 3,
+            "pattern": "●○▣",
+            "note": "是离愁",
+            "rhyme": true
+          },
+          {
+            "chars": 6,
+            "pattern": "▲●△○○▲▲",
+            "note": "别是一般滋味",
+            "rhyme": false
+          },
+          {
+            "chars": 3,
+            "pattern": "●○▣",
+            "note": "在心头",
+            "rhyme": true
+          }
+        ]
+      }
+    ],
+    "form_notes": "两平韵间插两仄韵。",
+    "rhyme_notes": "依词林正韵，前后片分叶。"
+  },
+  {
+    "name": "浪淘沙",
+    "alias": [
+      "浪淘沙令",
+      "卖花声",
+      "过龙门"
+    ],
+    "dynasty": "五代",
+    "meter_type": "平韵格",
+    "total_chars": 54,
+    "slabs": [
+      {
+        "name": "全阕",
+        "lines": [
+          {
+            "chars": 5,
+            "pattern": "▲●●○▣",
+            "note": "帘外雨潺潺",
+            "rhyme": true
+          },
+          {
+            "chars": 4,
+            "pattern": "△▲○▣",
+            "note": "春意阑珊",
+            "rhyme": true
+          },
+          {
+            "chars": 7,
+            "pattern": "△○▲▲●○▣",
+            "note": "罗衾不耐五更寒",
+            "rhyme": true
+          },
+          {
+            "chars": 7,
+            "pattern": "▲▲△○○▲▲",
+            "note": "梦里不知身是客",
+            "rhyme": false
+          },
+          {
+            "chars": 4,
+            "pattern": "▲●○▣",
+            "note": "一晌贪欢",
+            "rhyme": true
+          },
+          {
+            "chars": 5,
+            "pattern": "▲▲●○▲",
+            "note": "独自莫凭栏",
+            "rhyme": false
+          },
+          {
+            "chars": 4,
+            "pattern": "▲●○▣",
+            "note": "无限江山",
+            "rhyme": true
+          },
+          {
+            "chars": 7,
+            "pattern": "△○▲▲●○▣",
+            "note": "别时容易见时难",
+            "rhyme": true
+          },
+          {
+            "chars": 7,
+            "pattern": "▲▲△○○▲▲",
+            "note": "流水落花春去也",
+            "rhyme": false
+          },
+          {
+            "chars": 4,
+            "pattern": "△▲○▣",
+            "note": "天上人间",
+            "rhyme": true
+          }
+        ]
+      }
+    ],
+    "form_notes": "上下片各四平韵。",
+    "rhyme_notes": "依词林正韵，前后片分叶。"
+  },
+  {
+    "name": "生查子",
+    "alias": [
+      "楚云深",
+      "梅和柳",
+      "晴色入青山"
+    ],
+    "dynasty": "五代",
+    "meter_type": "仄韵格",
+    "total_chars": 40,
+    "slabs": [
+      {
+        "name": "全阕",
+        "lines": [
+          {
+            "chars": 5,
+            "pattern": "△○△▲○",
+            "note": "去年元夜时",
+            "rhyme": false
+          },
+          {
+            "chars": 5,
+            "pattern": "△▲○○▲",
+            "note": "花市灯如昼",
+            "rhyme": false
+          },
+          {
+            "chars": 5,
+            "pattern": "△▲●○○",
+            "note": "月上柳梢头",
+            "rhyme": false
+          },
+          {
+            "chars": 5,
+            "pattern": "△▲○○▲",
+            "note": "人约黄昏后",
+            "rhyme": false
+          },
+          {
+            "chars": 5,
+            "pattern": "△○△▲○",
+            "note": "今年元夜时",
+            "rhyme": false
+          },
+          {
+            "chars": 5,
+            "pattern": "△▲○○▲",
+            "note": "月与灯依旧",
+            "rhyme": false
+          },
+          {
+            "chars": 5,
+            "pattern": "△▲●○○",
+            "note": "不见去年人",
+            "rhyme": false
+          },
+          {
+            "chars": 5,
+            "pattern": "△▲○○▣",
+            "note": "泪湿春衫袖",
+            "rhyme": true
+          }
+        ]
+      }
+    ],
+    "form_notes": "五言八句，类仄韵五言律诗。",
+    "rhyme_notes": "依词林正韵，前后片分叶。"
+  },
+  {
+    "name": "破阵子",
+    "alias": [
+      "十拍子"
+    ],
+    "dynasty": "北宋",
+    "meter_type": "平韵格",
+    "total_chars": 62,
+    "slabs": [
+      {
+        "name": "全阕",
+        "lines": [
+          {
+            "chars": 6,
+            "pattern": "▲▲△○△▲",
+            "note": "醉里挑灯看剑",
+            "rhyme": false
+          },
+          {
+            "chars": 6,
+            "pattern": "○○▲●○▣",
+            "note": "梦回吹角连营",
+            "rhyme": true
+          },
+          {
+            "chars": 7,
+            "pattern": "▲▲○○○▲▲",
+            "note": "八百里分麾下炙",
+            "rhyme": false
+          },
+          {
+            "chars": 7,
+            "pattern": "△▲○○▲●▣",
+            "note": "五十弦翻塞外声",
+            "rhyme": true
+          },
+          {
+            "chars": 5,
+            "pattern": "△○○▲▣",
+            "note": "沙场秋点兵",
+            "rhyme": true
+          },
+          {
+            "chars": 6,
+            "pattern": "▲▲△○▲●",
+            "note": "马作的卢飞快",
+            "rhyme": false
+          },
+          {
+            "chars": 6,
+            "pattern": "○○△▲○▣",
+            "note": "弓如霹雳弦惊",
+            "rhyme": true
+          },
+          {
+            "chars": 7,
+            "pattern": "▲▲○○○▲▲",
+            "note": "了却君王天下事",
+            "rhyme": false
+          },
+          {
+            "chars": 7,
+            "pattern": "▲▲○○▲●▣",
+            "note": "赢得生前身后名",
+            "rhyme": true
+          },
+          {
+            "chars": 5,
+            "pattern": "△○○▲▣",
+            "note": "可怜白发生",
+            "rhyme": true
+          }
+        ]
+      }
+    ],
+    "form_notes": "前后片各三平韵，六七言偶句居多。",
+    "rhyme_notes": "依词林正韵，前后片分叶。"
+  },
+  {
+    "name": "渔家傲",
+    "alias": [
+      "荆溪咏",
+      "游仙咏"
+    ],
+    "dynasty": "北宋",
+    "meter_type": "仄韵格",
+    "total_chars": 62,
+    "slabs": [
+      {
+        "name": "全阕",
+        "lines": [
+          {
+            "chars": 7,
+            "pattern": "▲▲○○○▲▣",
+            "note": "塞下秋来风景异",
+            "rhyme": true
+          },
+          {
+            "chars": 7,
+            "pattern": "○○▲▲○○▣",
+            "note": "衡阳雁去无留意",
+            "rhyme": true
+          },
+          {
+            "chars": 7,
+            "pattern": "▲▲○○○▲▣",
+            "note": "四面边声连角起",
+            "rhyme": true
+          },
+          {
+            "chars": 3,
+            "pattern": "○▲▲",
+            "note": "千嶂里",
+            "rhyme": false
+          },
+          {
+            "chars": 7,
+            "pattern": "▲▲○○○▲▣",
+            "note": "长烟落日孤城闭",
+            "rhyme": true
+          },
+          {
+            "chars": 7,
+            "pattern": "▲▲○○○▲▣",
+            "note": "浊酒一杯家万里",
+            "rhyme": true
+          },
+          {
+            "chars": 7,
+            "pattern": "△▲△○○▲▣",
+            "note": "燕然未勒归无计",
+            "rhyme": true
+          },
+          {
+            "chars": 7,
+            "pattern": "▲▲○○○▲▣",
+            "note": "羌管悠悠霜满地",
+            "rhyme": true
+          },
+          {
+            "chars": 3,
+            "pattern": "○▲▲",
+            "note": "人不寐",
+            "rhyme": false
+          },
+          {
+            "chars": 7,
+            "pattern": "△▲○○○▲▣",
+            "note": "将军白发征夫泪",
+            "rhyme": true
+          }
+        ]
+      }
+    ],
+    "form_notes": "句句押韵，前后片各五仄韵。",
+    "rhyme_notes": "依词林正韵，前后片分叶。"
+  },
+  {
+    "name": "青玉案",
+    "alias": [
+      "横塘路",
+      "西湖路"
+    ],
+    "dynasty": "北宋",
+    "meter_type": "仄韵格",
+    "total_chars": 67,
+    "slabs": [
+      {
+        "name": "全阕",
+        "lines": [
+          {
+            "chars": 7,
+            "pattern": "△○▲▲○○▣",
+            "note": "凌波不过横塘路",
+            "rhyme": true
+          },
+          {
+            "chars": 3,
+            "pattern": "△▲▲",
+            "note": "但目送",
+            "rhyme": false
+          },
+          {
+            "chars": 3,
+            "pattern": "○○▲",
+            "note": "芳尘去",
+            "rhyme": false
+          },
+          {
+            "chars": 7,
+            "pattern": "▲▲○○○▲▲",
+            "note": "锦瑟华年谁与度",
+            "rhyme": false
+          },
+          {
+            "chars": 4,
+            "pattern": "△○○▲",
+            "note": "月桥花院",
+            "rhyme": false
+          },
+          {
+            "chars": 4,
+            "pattern": "△○▲▲",
+            "note": "琐窗朱户",
+            "rhyme": false
+          },
+          {
+            "chars": 5,
+            "pattern": "▲▲○○▣",
+            "note": "只有春知处",
+            "rhyme": true
+          },
+          {
+            "chars": 7,
+            "pattern": "△○▲▲○○▣",
+            "note": "飞云冉冉蘅皋暮",
+            "rhyme": true
+          },
+          {
+            "chars": 7,
+            "pattern": "△▲▲●○○▲",
+            "note": "彩笔新题断肠句",
+            "rhyme": false
+          },
+          {
+            "chars": 7,
+            "pattern": "▲▲○○○▲▲",
+            "note": "试问闲愁都几许",
+            "rhyme": false
+          },
+          {
+            "chars": 4,
+            "pattern": "△○△▲",
+            "note": "一川烟草",
+            "rhyme": false
+          },
+          {
+            "chars": 4,
+            "pattern": "△○△▲",
+            "note": "满城风絮",
+            "rhyme": false
+          },
+          {
+            "chars": 5,
+            "pattern": "△▲○○▣",
+            "note": "梅子黄时雨",
+            "rhyme": true
+          }
+        ]
+      }
+    ],
+    "form_notes": "前后片各五仄韵。",
+    "rhyme_notes": "依词林正韵，前后片分叶。"
+  },
+  {
+    "name": "醉花阴",
+    "alias": [
+      "九回肠"
+    ],
+    "dynasty": "北宋",
+    "meter_type": "仄韵格",
+    "total_chars": 52,
+    "slabs": [
+      {
+        "name": "全阕",
+        "lines": [
+          {
+            "chars": 7,
+            "pattern": "▲▲○○○▲▣",
+            "note": "薄雾浓云愁永昼",
+            "rhyme": true
+          },
+          {
+            "chars": 5,
+            "pattern": "△▲○○▣",
+            "note": "瑞脑销金兽",
+            "rhyme": true
+          },
+          {
+            "chars": 5,
+            "pattern": "▲▲●○○",
+            "note": "佳节又重阳",
+            "rhyme": false
+          },
+          {
+            "chars": 4,
+            "pattern": "△▲○○",
+            "note": "玉枕纱厨",
+            "rhyme": false
+          },
+          {
+            "chars": 5,
+            "pattern": "▲▲○○▲",
+            "note": "半夜凉初透",
+            "rhyme": false
+          },
+          {
+            "chars": 7,
+            "pattern": "△○▲▲○○▲",
+            "note": "东篱把酒黄昏后",
+            "rhyme": false
+          },
+          {
+            "chars": 5,
+            "pattern": "△▲○○▣",
+            "note": "有暗香盈袖",
+            "rhyme": true
+          },
+          {
+            "chars": 5,
+            "pattern": "▲▲●○○",
+            "note": "莫道不销魂",
+            "rhyme": false
+          },
+          {
+            "chars": 4,
+            "pattern": "△▲○○",
+            "note": "帘卷西风",
+            "rhyme": false
+          },
+          {
+            "chars": 5,
+            "pattern": "▲▲○○▣",
+            "note": "人比黄花瘦",
+            "rhyme": true
+          }
+        ]
+      }
+    ],
+    "form_notes": "前后片各三仄韵。",
+    "rhyme_notes": "依词林正韵，前后片分叶。"
+  },
+  {
+    "name": "一剪梅",
+    "alias": [
+      "腊梅香",
+      "玉簟秋"
+    ],
+    "dynasty": "北宋",
+    "meter_type": "平韵格",
+    "total_chars": 60,
+    "slabs": [
+      {
+        "name": "全阕",
+        "lines": [
+          {
+            "chars": 7,
+            "pattern": "▲▲○○▲●▣",
+            "note": "红藕香残玉簟秋",
+            "rhyme": true
+          },
+          {
+            "chars": 4,
+            "pattern": "▲●○▣",
+            "note": "轻解罗裳",
+            "rhyme": true
+          },
+          {
+            "chars": 4,
+            "pattern": "▲●○▣",
+            "note": "独上兰舟",
+            "rhyme": true
+          },
+          {
+            "chars": 7,
+            "pattern": "△○▲▲●○○",
+            "note": "云中谁寄锦书来",
+            "rhyme": false
+          },
+          {
+            "chars": 4,
+            "pattern": "▲●○▣",
+            "note": "雁字回时",
+            "rhyme": true
+          },
+          {
+            "chars": 4,
+            "pattern": "▲●○▣",
+            "note": "月满西楼",
+            "rhyme": true
+          },
+          {
+            "chars": 7,
+            "pattern": "△▲○○▲●▣",
+            "note": "花自飘零水自流",
+            "rhyme": true
+          },
+          {
+            "chars": 4,
+            "pattern": "▲●○△",
+            "note": "一种相思",
+            "rhyme": true
+          },
+          {
+            "chars": 4,
+            "pattern": "▲●○▣",
+            "note": "两处闲愁",
+            "rhyme": true
+          },
+          {
+            "chars": 7,
+            "pattern": "△○▲▲●○○",
+            "note": "此情无计可消除",
+            "rhyme": false
+          },
+          {
+            "chars": 4,
+            "pattern": "△▲○○",
+            "note": "才下眉头",
+            "rhyme": false
+          },
+          {
+            "chars": 4,
+            "pattern": "▲●○▣",
+            "note": "却上心头",
+            "rhyme": true
+          }
+        ]
+      }
+    ],
+    "form_notes": "前后片各三平韵，每片有四字偶句。",
+    "rhyme_notes": "依词林正韵，前后片分叶。"
+  },
+  {
+    "name": "南乡子",
+    "alias": [
+      "好离乡",
+      "蕉叶怨"
+    ],
+    "dynasty": "五代",
+    "meter_type": "平韵格",
+    "total_chars": 56,
+    "slabs": [
+      {
+        "name": "全阕",
+        "lines": [
+          {
+            "chars": 5,
+            "pattern": "▲▲●○▣",
+            "note": "何处望神州",
+            "rhyme": true
+          },
+          {
+            "chars": 7,
+            "pattern": "△▲○○▲●▣",
+            "note": "满眼风光北固楼",
+            "rhyme": true
+          },
+          {
+            "chars": 7,
+            "pattern": "▲▲○○○▲▲",
+            "note": "千古兴亡多少事",
+            "rhyme": false
+          },
+          {
+            "chars": 2,
+            "pattern": "○○",
+            "note": "悠悠",
+            "rhyme": false
+          },
+          {
+            "chars": 7,
+            "pattern": "▲▲○○▲●▣",
+            "note": "不尽长江滚滚流",
+            "rhyme": true
+          },
+          {
+            "chars": 5,
+            "pattern": "▲▲●○▣",
+            "note": "年少万兜鍪",
+            "rhyme": true
+          },
+          {
+            "chars": 7,
+            "pattern": "▲▲○○▲●▣",
+            "note": "坐断东南战未休",
+            "rhyme": true
+          },
+          {
+            "chars": 7,
+            "pattern": "▲▲○○○▲▲",
+            "note": "天下英雄谁敌手",
+            "rhyme": false
+          },
+          {
+            "chars": 2,
+            "pattern": "○○",
+            "note": "曹刘",
+            "rhyme": false
+          },
+          {
+            "chars": 7,
+            "pattern": "▲●○○▲●▣",
+            "note": "生子当如孙仲谋",
+            "rhyme": true
+          }
+        ]
+      }
+    ],
+    "form_notes": "前后片各四平韵。",
+    "rhyme_notes": "依词林正韵，前后片分叶。"
+  },
+  {
+    "name": "八声甘州",
+    "alias": [
+      "甘州",
+      "潇潇雨",
+      "宴瑶池"
+    ],
+    "dynasty": "北宋",
+    "meter_type": "平韵格",
+    "total_chars": 97,
+    "slabs": [
+      {
+        "name": "全阕",
+        "lines": [
+          {
+            "chars": 8,
+            "pattern": "▲○○▲▲●○○",
+            "note": "对潇潇暮雨洒江天",
+            "rhyme": false
+          },
+          {
+            "chars": 5,
+            "pattern": "▲▲●○▣",
+            "note": "一番洗清秋",
+            "rhyme": true
+          },
+          {
+            "chars": 5,
+            "pattern": "▲○○△▲",
+            "note": "渐霜风凄紧",
+            "rhyme": false
+          },
+          {
+            "chars": 4,
+            "pattern": "△○▲▲",
+            "note": "关河冷落",
+            "rhyme": false
+          },
+          {
+            "chars": 4,
+            "pattern": "△▲○▣",
+            "note": "残照当楼",
+            "rhyme": true
+          },
+          {
+            "chars": 6,
+            "pattern": "△○△▲",
+            "note": "是处红衰翠减",
+            "rhyme": false
+          },
+          {
+            "chars": 5,
+            "pattern": "△▲▲",
+            "note": "苒苒物华休",
+            "rhyme": false
+          },
+          {
+            "chars": 5,
+            "pattern": "△○△▲",
+            "note": "惟有长江水",
+            "rhyme": false
+          },
+          {
+            "chars": 4,
+            "pattern": "△▲○▣",
+            "note": "无语东流",
+            "rhyme": true
+          },
+          {
+            "chars": 6,
+            "pattern": "△○▲▲",
+            "note": "不忍登高临远",
+            "rhyme": false
+          },
+          {
+            "chars": 5,
+            "pattern": "▲○○△▲",
+            "note": "望故乡渺邈",
+            "rhyme": false
+          },
+          {
+            "chars": 4,
+            "pattern": "△▲○▣",
+            "note": "归思难收",
+            "rhyme": true
+          },
+          {
+            "chars": 5,
+            "pattern": "△○▲▲",
+            "note": "叹年来踪迹",
+            "rhyme": false
+          },
+          {
+            "chars": 4,
+            "pattern": "△▲○△",
+            "note": "何事苦淹留",
+            "rhyme": false
+          },
+          {
+            "chars": 7,
+            "pattern": "△▲▲○○●",
+            "note": "想佳人妆楼颙望",
+            "rhyme": false
+          },
+          {
+            "chars": 3,
+            "pattern": "△▲▲",
+            "note": "误几回",
+            "rhyme": false
+          },
+          {
+            "chars": 5,
+            "pattern": "△▲○▣",
+            "note": "天际识归舟",
+            "rhyme": true
+          },
+          {
+            "chars": 7,
+            "pattern": "△○○▲▲",
+            "note": "争知我倚阑干处",
+            "rhyme": false
+          },
+          {
+            "chars": 4,
+            "pattern": "△▲▲",
+            "note": "正恁凝愁",
+            "rhyme": false
+          }
+        ]
+      }
+    ],
+    "form_notes": "慢词，前后片共八韵，八声故曰八声甘州。",
+    "rhyme_notes": "依词林正韵，前后片分叶。"
+  },
+  {
+    "name": "雨霖铃",
+    "alias": [
+      "雨霖铃慢",
+      "雨淋铃"
+    ],
+    "dynasty": "北宋",
+    "meter_type": "仄韵格（多用入声）",
+    "total_chars": 103,
+    "slabs": [
+      {
+        "name": "全阕",
+        "lines": [
+          {
+            "chars": 4,
+            "pattern": "△○○▲",
+            "note": "寒蝉凄切",
+            "rhyme": false
+          },
+          {
+            "chars": 4,
+            "pattern": "▲○▲▲",
+            "note": "对长亭晚",
+            "rhyme": false
+          },
+          {
+            "chars": 4,
+            "pattern": "△○▲▲▲",
+            "note": "骤雨初歇",
+            "rhyme": false
+          },
+          {
+            "chars": 7,
+            "pattern": "△○△▲▲○○",
+            "note": "都门帐饮无绪",
+            "rhyme": false
+          },
+          {
+            "chars": 3,
+            "pattern": "△▲▲",
+            "note": "留恋处",
+            "rhyme": false
+          },
+          {
+            "chars": 4,
+            "pattern": "▲○○▣",
+            "note": "兰舟催发",
+            "rhyme": true
+          },
+          {
+            "chars": 4,
+            "pattern": "△▲▲",
+            "note": "执手相看",
+            "rhyme": false
+          },
+          {
+            "chars": 2,
+            "pattern": "○○▲▲",
+            "note": "泪眼",
+            "rhyme": false
+          },
+          {
+            "chars": 5,
+            "pattern": "▲▲○○▲",
+            "note": "竟无语凝噎",
+            "rhyme": false
+          },
+          {
+            "chars": 3,
+            "pattern": "▲▲▲",
+            "note": "念去去",
+            "rhyme": false
+          },
+          {
+            "chars": 14,
+            "pattern": "△▲▲○●●○○",
+            "note": "千里烟波，暮霭沉沉楚天阔",
+            "rhyme": false
+          },
+          {
+            "chars": 7,
+            "pattern": "△○▲▲○○▲",
+            "note": "多情自古伤离别",
+            "rhyme": false
+          },
+          {
+            "chars": 3,
+            "pattern": "▲▲▲",
+            "note": "更那堪",
+            "rhyme": false
+          },
+          {
+            "chars": 5,
+            "pattern": "▲▲○○▣",
+            "note": "冷落清秋节",
+            "rhyme": true
+          },
+          {
+            "chars": 6,
+            "pattern": "△○▲▲",
+            "note": "今宵酒醒何处",
+            "rhyme": false
+          },
+          {
+            "chars": 3,
+            "pattern": "△▲▲",
+            "note": "杨柳岸",
+            "rhyme": false
+          },
+          {
+            "chars": 4,
+            "pattern": "△○○▣",
+            "note": "晓风残月",
+            "rhyme": true
+          },
+          {
+            "chars": 4,
+            "pattern": "△▲▲○○▲",
+            "note": "此去经年",
+            "rhyme": false
+          },
+          {
+            "chars": 7,
+            "pattern": "▲▲△○▲●",
+            "note": "应是良辰好景虚设",
+            "rhyme": false
+          },
+          {
+            "chars": 7,
+            "pattern": "△▲▲▲○○●",
+            "note": "便纵有千种风情",
+            "rhyme": false
+          },
+          {
+            "chars": 5,
+            "pattern": "▲▲▲○▲",
+            "note": "更与何人说",
+            "rhyme": false
+          }
+        ]
+      }
+    ],
+    "form_notes": "入声韵，前后片各五仄韵。",
+    "rhyme_notes": "依词林正韵，前后片分叶。"
+  },
+  {
+    "name": "苏幕遮",
+    "alias": [
+      "鬓云松令"
+    ],
+    "dynasty": "北宋",
+    "meter_type": "仄韵格",
+    "total_chars": 62,
+    "slabs": [
+      {
+        "name": "全阕",
+        "lines": [
+          {
+            "chars": 3,
+            "pattern": "●○○",
+            "note": "碧云天",
+            "rhyme": false
+          },
+          {
+            "chars": 3,
+            "pattern": "○▲▲",
+            "note": "黄叶地",
+            "rhyme": false
+          },
+          {
+            "chars": 4,
+            "pattern": "▲▲○○",
+            "note": "秋色连波",
+            "rhyme": false
+          },
+          {
+            "chars": 5,
+            "pattern": "△▲○○▲",
+            "note": "波上寒烟翠",
+            "rhyme": false
+          },
+          {
+            "chars": 7,
+            "pattern": "▲▲○○○▲▲",
+            "note": "山映斜阳天接水",
+            "rhyme": false
+          },
+          {
+            "chars": 4,
+            "pattern": "▲▲○○",
+            "note": "芳草无情",
+            "rhyme": false
+          },
+          {
+            "chars": 5,
+            "pattern": "▲▲○○▲",
+            "note": "更在斜阳外",
+            "rhyme": false
+          },
+          {
+            "chars": 3,
+            "pattern": "△▲○○",
+            "note": "黯乡魂",
+            "rhyme": false
+          },
+          {
+            "chars": 3,
+            "pattern": "▲▲○",
+            "note": "追旅思",
+            "rhyme": false
+          },
+          {
+            "chars": 4,
+            "pattern": "▲▲○○",
+            "note": "夜夜除非",
+            "rhyme": false
+          },
+          {
+            "chars": 5,
+            "pattern": "▲▲○○▲",
+            "note": "好梦留人睡",
+            "rhyme": false
+          },
+          {
+            "chars": 7,
+            "pattern": "▲▲○○○▲▲",
+            "note": "明月楼高休独倚",
+            "rhyme": false
+          },
+          {
+            "chars": 4,
+            "pattern": "△▲○○",
+            "note": "酒入愁肠",
+            "rhyme": false
+          },
+          {
+            "chars": 5,
+            "pattern": "▲▲○○▲",
+            "note": "化作相思泪",
+            "rhyme": false
+          }
+        ]
+      }
+    ],
+    "form_notes": "前后片各四仄韵，三四五七字句交错。",
+    "rhyme_notes": "依词林正韵，前后片分叶。"
   }
 ];
