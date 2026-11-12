@@ -1377,3 +1377,289 @@ if(okEcharts){
 
 </body>
 </html>
+<!-- 先加载本地字体 -->
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@300;400;600;700&display=swap');
+
+/* 古诗词控制开关组 - 仿古签条样式 */
+.poem-control-bar {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  display: flex;
+  gap: 10px;
+  z-index: 10;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+.poem-card:hover .poem-control-bar { opacity: 1; }
+
+.ctrl-toggle {
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+}
+.ctrl-toggle input { position: absolute; opacity: 0; cursor: pointer; }
+.ctrl-toggle .ctrl-label {
+  display: inline-block;
+  padding: 4px 10px;
+  font-family: 'Noto Serif SC', 'KaiTi', 'STKaiti', serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #6b5842;
+  background: rgba(246, 239, 224, 0.9);
+  border: 1px solid #c2b294;
+  border-radius: 2px;
+  transition: all 0.25s ease;
+  position: relative;
+  letter-spacing: 1px;
+}
+.ctrl-toggle .ctrl-label::before {
+  content: '';
+  position: absolute;
+  top: 2px; left: 2px;
+  width: 4px; height: 4px;
+  background: transparent;
+  border-radius: 50%;
+  transition: all 0.25s ease;
+}
+.ctrl-toggle input:checked ~ .ctrl-label {
+  background: rgba(192, 57, 43, 0.08);
+  border-color: #c0392b;
+  color: #a93226;
+  font-weight: 600;
+}
+.ctrl-toggle input:checked ~ .ctrl-label::before {
+  background: #c0392b;
+}
+.ctrl-toggle:hover .ctrl-label {
+  border-color: #a93226;
+  color: #a93226;
+}
+.ctrl-toggle .ctrl-tip {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin-top: 6px;
+  padding: 4px 8px;
+  background: rgba(44, 62, 80, 0.9);
+  color: #f8f5f0;
+  font-size: 11px;
+  border-radius: 2px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+  font-family: 'Noto Serif SC', serif;
+  letter-spacing: 0;
+}
+.ctrl-toggle:hover .ctrl-tip { opacity: 1; }
+
+/* 生僻字注音样式 */
+ruby { font-size: inherit; }
+rt {
+  font-family: 'Noto Serif SC', serif;
+  font-size: 0.5em;
+  color: #95a5a6;
+  font-weight: 300;
+}
+.poem-body.no-pinyin rt { display: none; }
+
+/* 批注样式 */
+.poem-annotation {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dashed #7f8c8d;
+  cursor: help;
+}
+.poem-annotation::after {
+  content: attr(data-note);
+  position: absolute;
+  left: 50%;
+  bottom: 120%;
+  transform: translateX(-50%);
+  padding: 6px 10px;
+  background: #fef9e7;
+  border: 1px solid #d4ac0d;
+  color: #7d6608;
+  font-size: 13px;
+  line-height: 1.6;
+  white-space: nowrap;
+  border-radius: 2px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+  z-index: 20;
+  font-family: 'KaiTi', 'STKaiti', serif;
+  max-width: 280px;
+  white-space: normal;
+  width: max-content;
+  max-width: 240px;
+}
+.poem-annotation:hover::after { opacity: 1; }
+.poem-body.no-annotate .poem-annotation {
+  border-bottom: none;
+  cursor: default;
+}
+.poem-body.no-annotate .poem-annotation::after { display: none; }
+
+/* 典故高亮样式 */
+.poem-allusion {
+  color: #8e44ad;
+  font-weight: 500;
+  border-bottom: 1px dotted #8e44ad;
+  cursor: pointer;
+  position: relative;
+}
+.poem-allusion::after {
+  content: "「典故」" attr(data-allusion);
+  position: absolute;
+  left: 50%;
+  bottom: 120%;
+  transform: translateX(-50%);
+  padding: 6px 10px;
+  background: #f5eef8;
+  border: 1px solid #8e44ad;
+  color: #6c3483;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 2px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+  z-index: 20;
+  font-family: 'KaiTi', serif;
+  white-space: normal;
+  width: max-content;
+  max-width: 200px;
+}
+.poem-allusion:hover::after { opacity: 1; }
+.poem-body.no-allusion .poem-allusion {
+  color: inherit;
+  font-weight: inherit;
+  border-bottom: none;
+  cursor: default;
+}
+.poem-body.no-allusion .poem-allusion::after { display: none; }
+
+/* 交游关联标记 */
+.poem-friend-tag {
+  display: inline-block;
+  padding: 0 6px;
+  margin: 0 2px;
+  background: rgba(52, 152, 219, 0.1);
+  border-left: 2px solid #3498db;
+  font-size: 0.9em;
+  color: #2471a3;
+  cursor: pointer;
+}
+.poem-friend-tag:hover { background: rgba(52, 152, 219, 0.2); }
+.poem-body.no-friend .poem-friend-tag { display: none; }
+
+/* 诗词卡片主题样式 */
+.poem-card.theme-on { transition: background 0.6s ease, box-shadow 0.6s ease; }
+.poem-card.theme-on.theme-haofang { background: linear-gradient(135deg, #fdf6e3 0%, #fdebd0 100%); }
+.poem-card.theme-on.theme-tiandan { background: linear-gradient(135deg, #f4faf0 0%, #eafaf1 100%); }
+.poem-card.theme-on.theme-wanyue { background: linear-gradient(135deg, #fbf5fc 0%, #f5eef8 100%); }
+.poem-card.theme-on.theme-beikai { background: linear-gradient(135deg, #f5f5f5 0%, #eaecee 100%); }
+.poem-card.theme-on.theme-aiguo { background: linear-gradient(135deg, #fef9f0 0%, #fdedec 100%); }
+.poem-card.theme-on.theme-kuangda { background: linear-gradient(135deg, #f0f7fc 0%, #ebf5fb 100%); }
+.poem-card.theme-on.theme-huaigu { background: linear-gradient(135deg, #faf6f0 0%, #f5eee6 100%); }
+.poem-card.theme-on.theme-chan yi { background: linear-gradient(135deg, #f5f8f9 0%, #eaeff1 100%); }
+
+/* 印章装饰 */
+.poem-seal {
+  position: absolute;
+  bottom: 16px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #c0392b;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #c0392b;
+  font-family: 'Ma Shan Zheng', 'STXingkai', cursive;
+  font-size: 18px;
+  opacity: 0.6;
+  transform: rotate(-3deg);
+}
+</style>
+<script>
+// 加载用户开关偏好
+function loadCtrlPrefs() {
+  const defaults = {
+    pinyin: false,
+    annotate: true,
+    allusion: true,
+    friend: true,
+    theme: true
+  };
+  try {
+    const saved = JSON.parse(localStorage.getItem('shicang_ctrl_prefs') || '{}');
+    return {...defaults, ...saved};
+  } catch(e) { return defaults; }
+}
+let ctrlPrefs = loadCtrlPrefs();
+function saveCtrlPrefs() {
+  localStorage.setItem('shicang_ctrl_prefs', JSON.stringify(ctrlPrefs));
+}
+
+// 渲染单篇诗词控制栏
+function renderPoemControls(poem) {
+  return `
+    <div class="poem-control-bar">
+      <label class="ctrl-toggle">
+        <input type="checkbox" ${ctrlPrefs.pinyin?'checked':''} data-ctrl="pinyin">
+        <span class="ctrl-label">注音</span>
+        <span class="ctrl-tip">生僻字读音标注</span>
+      </label>
+      <label class="ctrl-toggle">
+        <input type="checkbox" ${ctrlPrefs.annotate?'checked':''} data-ctrl="annotate">
+        <span class="ctrl-label">批注</span>
+        <span class="ctrl-tip">字词随文批注</span>
+      </label>
+      <label class="ctrl-toggle">
+        <input type="checkbox" ${ctrlPrefs.allusion?'checked':''} data-ctrl="allusion">
+        <span class="ctrl-label">典故</span>
+        <span class="ctrl-tip">用典出处说明</span>
+      </label>
+      <label class="ctrl-toggle">
+        <input type="checkbox" ${ctrlPrefs.friend?'checked':''} data-ctrl="friend">
+        <span class="ctrl-label">交游</span>
+        <span class="ctrl-tip">相关人物关联</span>
+      </label>
+      <label class="ctrl-toggle">
+        <input type="checkbox" ${ctrlPrefs.theme?'checked':''} data-ctrl="theme">
+        <span class="ctrl-label">意境</span>
+        <span class="ctrl-tip">切换专属主题氛围</span>
+      </label>
+    </div>
+    <div class="poem-seal">${poem.author ? poem.author.charAt(0) : '诗'}</div>
+  `;
+}
+
+// 应用开关状态到所有诗词
+function applyCtrlState() {
+  document.querySelectorAll('.poem-body').forEach(body => {
+    body.classList.toggle('no-pinyin', !ctrlPrefs.pinyin);
+    body.classList.toggle('no-annotate', !ctrlPrefs.annotate);
+    body.classList.toggle('no-allusion', !ctrlPrefs.allusion);
+    body.classList.toggle('no-friend', !ctrlPrefs.friend);
+  });
+  document.querySelectorAll('.poem-card').forEach(card => {
+    card.classList.toggle('theme-on', ctrlPrefs.theme);
+  });
+  saveCtrlPrefs();
+}
+
+// 绑定开关事件
+document.addEventListener('change', (e) => {
+  if(e.target.matches('.ctrl-toggle input')) {
+    const key = e.target.dataset.ctrl;
+    ctrlPrefs[key] = e.target.checked;
+    applyCtrlState();
+  }
+});
+</script>

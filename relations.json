@@ -1,0 +1,292 @@
+{
+  "relations": [
+    {
+      "sub": "SongYu",
+      "pred": "discipleOf",
+      "obj": "QuYuan",
+      "source": "史记·屈原贾生列传：宋玉祖屈原之从容辞令"
+    },
+    {
+      "sub": "RuanJi",
+      "pred": "friendOf",
+      "obj": "JiKang",
+      "source": "竹林七贤：阮籍嵇康为友，同游竹林"
+    },
+    {
+      "sub": "WangBo",
+      "pred": "friendOf",
+      "obj": "ChenZiang",
+      "source": "初唐诗坛同代人"
+    },
+    {
+      "sub": "LiBai",
+      "pred": "friendOf",
+      "obj": "DuFu",
+      "source": "李杜交游：天宝三载同游梁宋，饮酒论诗"
+    },
+    {
+      "sub": "LiBai",
+      "pred": "friendOf",
+      "obj": "HeZhizhang",
+      "source": "饮中八仙：贺知章称李白为谪仙人，金龟换酒"
+    },
+    {
+      "sub": "LiBai",
+      "pred": "friendOf",
+      "obj": "WangChangling",
+      "source": "李王交游：王昌龄贬龙标，李白闻而寄诗"
+    },
+    {
+      "sub": "LiBai",
+      "pred": "influenced",
+      "obj": "DuFu",
+      "source": "杜甫论诗：白也诗无敌，飘然思不群，深受李白影响"
+    },
+    {
+      "sub": "GaoShi",
+      "pred": "friendOf",
+      "obj": "CenShen",
+      "source": "高岑并称，同为盛唐边塞诗派代表"
+    },
+    {
+      "sub": "GaoShi",
+      "pred": "friendOf",
+      "obj": "LiBai",
+      "source": "梁宋同游：李白、杜甫、高适三人同游梁宋"
+    },
+    {
+      "sub": "GaoShi",
+      "pred": "friendOf",
+      "obj": "DuFu",
+      "source": "梁宋同游"
+    },
+    {
+      "sub": "WangWei",
+      "pred": "friendOf",
+      "obj": "MengHaoran",
+      "source": "王孟交游：王维过郢州画孟浩然像于刺史亭"
+    },
+    {
+      "sub": "MengHaoran",
+      "pred": "friendOf",
+      "obj": "LiBai",
+      "source": "李孟交游：李白赠孟浩然吾爱孟夫子，风流天下闻"
+    },
+    {
+      "sub": "HanYu",
+      "pred": "influenced",
+      "obj": "JiaDao",
+      "source": "韩孟诗派：韩愈奖掖贾岛，推敲典故出韩愈"
+    },
+    {
+      "sub": "HanYu",
+      "pred": "friendOf",
+      "obj": "MengJiao",
+      "source": "韩孟并称，孟郊死后韩愈作《贞曜先生墓志铭》"
+    },
+    {
+      "sub": "BaiJuyi",
+      "pred": "friendOf",
+      "obj": "YuanZhen",
+      "source": "元白齐名：新乐府运动同道，生死之交，元稹死后白居易作墓志铭"
+    },
+    {
+      "sub": "BaiJuyi",
+      "pred": "friendOf",
+      "obj": "LiuYuxi",
+      "source": "刘白并称：晚年同隐洛阳，唱和极多"
+    },
+    {
+      "sub": "BaiJuyi",
+      "pred": "respondsTo",
+      "obj": "YuanZhen",
+      "source": "元白唱和集：唱和诗近千首，开唱和之风"
+    },
+    {
+      "sub": "DuMu",
+      "pred": "friendOf",
+      "obj": "LiShangyin",
+      "source": "小李杜：杜牧与李商隐并称，杜牧极赞李义山诗"
+    },
+    {
+      "sub": "WenTingyun",
+      "pred": "friendOf",
+      "obj": "LiShangyin",
+      "source": "温李并称，晚唐唯美诗派代表"
+    },
+    {
+      "sub": "LiShangyin",
+      "pred": "influenced",
+      "obj": "WenTingyun",
+      "source": "温李并称，李先出，温承其风"
+    },
+    {
+      "sub": "LiuZongyuan",
+      "pred": "friendOf",
+      "obj": "HanYu",
+      "source": "韩柳并称，古文运动领袖，同倡古文"
+    },
+    {
+      "sub": "LiuZongyuan",
+      "pred": "friendOf",
+      "obj": "LiuYuxi",
+      "source": "刘柳交游：永贞革新同党，同贬南荒，唱和不断"
+    },
+    {
+      "sub": "WenTingyun",
+      "pred": "influenced",
+      "obj": "WeiZhuang",
+      "source": "花间派：温庭筠为花间鼻祖，韦庄继之，并称温韦"
+    },
+    {
+      "sub": "LiuYong",
+      "pred": "influenced",
+      "obj": "SuShi",
+      "source": "苏轼词虽豪放，实从柳永词出，苏轼曾问我词比柳七如何"
+    },
+    {
+      "sub": "YanShu",
+      "pred": "discipleOf",
+      "obj": "OuYangXiu",
+      "source": "晏殊出欧阳修门下，师生"
+    },
+    {
+      "sub": "OuyangXiu",
+      "pred": "influenced",
+      "obj": "SuShi",
+      "source": "欧阳修赏识苏轼，说读轼书不觉汗出，快哉！老夫当避路，放他出一头地，苏轼出其门下"
+    },
+    {
+      "sub": "SuShi",
+      "pred": "discipleOf",
+      "obj": "OuyangXiu",
+      "source": "苏轼嘉祐二年中进士，主考官欧阳修，座师"
+    },
+    {
+      "sub": "SuShi",
+      "pred": "friendOf",
+      "obj": "HuangTingjian",
+      "source": "苏黄并称，黄庭坚为苏门四学士之首"
+    },
+    {
+      "sub": "SuShi",
+      "pred": "friendOf",
+      "obj": "QinGuan",
+      "source": "秦观为苏门四学士，苏轼极赏其才"
+    },
+    {
+      "sub": "HuangTingjian",
+      "pred": "discipleOf",
+      "obj": "SuShi",
+      "source": "江西诗派奉杜甫为祖，黄庭坚师苏轼"
+    },
+    {
+      "sub": "HuangTingjian",
+      "pred": "influenced",
+      "obj": "JiangXiSchool",
+      "source": "黄庭坚为江西诗派开山之祖，一祖三宗以其为首"
+    },
+    {
+      "sub": "LiQingzhao",
+      "pred": "friendOf",
+      "obj": "ZhaoMingcheng",
+      "source": "李清照丈夫赵明诚，金石学家，夫妻志同道合"
+    },
+    {
+      "sub": "LiQingzhao",
+      "pred": "influenced",
+      "obj": "XinQiji",
+      "source": "易安体开南宋婉约先河，稼轩亦有仿易安体之作"
+    },
+    {
+      "sub": "LuYou",
+      "pred": "discipleOf",
+      "obj": "ZengJi",
+      "source": "陆游师从曾几，江西诗派传衍"
+    },
+    {
+      "sub": "XinQiji",
+      "pred": "friendOf",
+      "obj": "ChenLiang",
+      "source": "鹅湖之会：辛弃疾与陈亮鹅湖寺同游十日，长歌相答，作破阵子赠之"
+    },
+    {
+      "sub": "JiangKui",
+      "pred": "influenced",
+      "obj": "ZhouBangyan",
+      "source": "姜夔词承周邦彦格律一派，并称周姜"
+    },
+    {
+      "sub": "ZhouBangyan",
+      "pred": "influenced",
+      "obj": "JiangKui",
+      "source": "周邦彦为词中老杜，格律派开山，姜夔继之"
+    },
+    {
+      "sub": "YanYu",
+      "pred": "influenced",
+      "obj": "WangShizhenQing",
+      "source": "沧浪诗话妙悟说直接影响王士禛神韵说"
+    },
+    {
+      "sub": "YanYu",
+      "pred": "influenced",
+      "obj": "WangGuowei",
+      "source": "沧浪兴趣说影响王国维境界说"
+    },
+    {
+      "sub": "GuanHanqing",
+      "pred": "friendOf",
+      "obj": "MaZhiyuan",
+      "source": "元曲四大家，同时代曲家"
+    },
+    {
+      "sub": "NalanXingde",
+      "pred": "influenced",
+      "obj": "LiYu",
+      "source": "纳兰词深受南唐李煜词风影响，李煜为词帝，纳兰为清初第一词人，一脉相承"
+    },
+    {
+      "sub": "NalanXingde",
+      "pred": "friendOf",
+      "obj": "GuZhenguan",
+      "source": "纳兰与顾贞观为生死交，营救吴兆骞事千古传为美谈"
+    },
+    {
+      "sub": "YuanMei",
+      "pred": "influenced",
+      "obj": "XingLingSchool",
+      "source": "袁枚为性灵说集大成，继袁宏道公安三袁性灵论"
+    },
+    {
+      "sub": "WangShizhenQing",
+      "pred": "influenced",
+      "obj": "ShenYunSchool",
+      "source": "王士禛创神韵说"
+    },
+    {
+      "sub": "ShenDeqian",
+      "pred": "influenced",
+      "obj": "GeDiaoSchool",
+      "source": "沈德潜创格调说"
+    },
+    {
+      "sub": "WengFanggang",
+      "pred": "influenced",
+      "obj": "JiLiSchool",
+      "source": "翁方纲创肌理说"
+    },
+    {
+      "sub": "WangGuowei",
+      "pred": "influenced",
+      "obj": "NalanXingde",
+      "source": "王国维人间词话极赏纳兰性德，谓其北宋以来一人而已"
+    },
+    {
+      "sub": "WangGuowei",
+      "pred": "influenced",
+      "obj": "YanYu",
+      "source": "王国维境界说承沧浪诗话妙悟兴趣一脉，融西方美学"
+    }
+  ]
+}
