@@ -733,6 +733,44 @@
         <rdfs:range rdf:resource="&xsd;integer"/>
     </owl:DatatypeProperty>
 
+    <owl:DatatypeProperty rdf:about="&shicang;compositionPlace">
+        <rdfs:label>创作地点</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;Poetry"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:comment>作品创作的具体地理地点。</rdfs:comment>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="&shicang;contextType">
+        <rdfs:label>情境类型</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;Poetry"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:comment>作品所属的情境类型：豪放壮阔/恬淡闲适/深情婉约/悲慨沉郁/慷慨爱国/旷达超脱/怀古沧桑/清雅禅意。</rdfs:comment>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="&shicang;themeColor">
+        <rdfs:label>主题主色</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;Poetry"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="&shicang;themeAccent">
+        <rdfs:label>主题辅色</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;Poetry"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="&shicang;themeBg">
+        <rdfs:label>主题底色</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;Poetry"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="&shicang;compositionSeason">
+        <rdfs:label>创作季节</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;Poetry"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="&shicang;creationBackground">
+        <rdfs:label>创作背景</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;Poetry"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:comment>作品创作时的时代背景、作者处境与创作缘起。</rdfs:comment>
+    </owl:DatatypeProperty>
     <owl:DatatypeProperty rdf:about="&shicang;compositionYear">
         <rdfs:label>创作年代</rdfs:label>
         <rdfs:domain rdf:resource="&shicang;ShiCangEntity"/>
@@ -4111,4 +4149,3037 @@
         <shicang:influenced rdf:resource="http://www.shicang.org/ontology#皎然"/>
         <shicang:sourceText xml:lang="zh">[本体·公认关系] 诗式承谢</shicang:sourceText>
     </owl:NamedIndividual>
+
+
+    <!-- ==========================================
+         L4 作品层扩展：核心名篇实例
+         ========================================== -->
+
+    <owl:NamedIndividual rdf:about="&shicang;QuYuan_LiSao">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>离骚</rdfs:label>
+        <shicang:title>离骚</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;QuYuan"/>
+        <shicang:dynasty>战国</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">-300</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;ChuCi"/>
+        <shicang:content>路漫漫其修远兮，吾将上下而求索</shicang:content>
+        <shicang:containsImagery>兰</shicang:containsImagery>
+        <shicang:containsImagery>芷</shicang:containsImagery>
+        <shicang:containsImagery>荃</shicang:containsImagery>
+        <shicang:containsImagery>蕙</shicang:containsImagery>
+        <shicang:containsImagery>鸷鸟</shicang:containsImagery>
+        <shicang:expressesEmotion>忧国</shicang:expressesEmotion>
+        <shicang:expressesEmotion>孤愤</shicang:expressesEmotion>
+        <shicang:expressesEmotion>求索</shicang:expressesEmotion>
+        <shicang:hasTheme>抒怀</shicang:hasTheme>
+        <shicang:creationBackground>屈原被楚怀王疏远后，怀忠被谗，忧愁幽思而作离骚</shicang:creationBackground>
+        <shicang:sourceDataset>楚辞</shicang:sourceDataset>
+        <shicang:compositionPlace>沅湘流域（湖南）</shicang:compositionPlace>
+        <shicang:contextType>贬谪抒怀</shicang:contextType>
+        <shicang:compositionSeason>夏</shicang:compositionSeason>
+        <shicang:themeColor>#7F8C8D</shicang:themeColor>
+        <shicang:themeAccent>#2C3E50</shicang:themeAccent>
+        <shicang:themeBg>#F5F5F5</shicang:themeBg>
+    
+        <shicang:rhymeGroup>八齐</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1</shicang:rhymeLines>
+        <shicang:studyTheme>慷慨爱国</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/QuYuan_LiSao.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;QuYuan_JiuGe_JiangJun">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>九歌·国殇</rdfs:label>
+        <shicang:title>九歌·国殇</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;QuYuan"/>
+        <shicang:dynasty>战国</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">-300</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;ChuCi"/>
+        <shicang:content>身既死兮神以灵，子魂魄兮为鬼雄</shicang:content>
+        <shicang:containsImagery>吴戈</shicang:containsImagery>
+        <shicang:containsImagery>犀甲</shicang:containsImagery>
+        <shicang:containsImagery>长剑</shicang:containsImagery>
+        <shicang:containsImagery>秦弓</shicang:containsImagery>
+        <shicang:expressesEmotion>悲壮</shicang:expressesEmotion>
+        <shicang:expressesEmotion>爱国</shicang:expressesEmotion>
+        <shicang:hasTheme>战争祭祀</shicang:hasTheme>
+        <shicang:creationBackground>祭祀为国战死的楚军将士</shicang:creationBackground>
+        <shicang:sourceDataset>楚辞</shicang:sourceDataset>
+        <shicang:compositionPlace>楚地（湖北湖南）</shicang:compositionPlace>
+        <shicang:contextType>战争祭祀</shicang:contextType>
+        <shicang:compositionSeason>秋</shicang:compositionSeason>
+        <shicang:themeColor>#D35400</shicang:themeColor>
+        <shicang:themeAccent>#C0392B</shicang:themeAccent>
+        <shicang:themeBg>#FEF9F0</shicang:themeBg>
+    
+        <shicang:rhymeGroup>八庚</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1</shicang:rhymeLines>
+        <shicang:studyTheme>慷慨爱国</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/QuYuan_JiuGe_JiangJun.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;CaoCao_DuanGeXing">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>短歌行</rdfs:label>
+        <shicang:title>短歌行</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;CaoCao"/>
+        <shicang:dynasty>东汉</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">208</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;YueFu"/>
+        <shicang:content>对酒当歌，人生几何？譬如朝露，去日苦多。周公吐哺，天下归心</shicang:content>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_周公吐"/>
+        <shicang:containsImagery>朝露</shicang:containsImagery>
+        <shicang:containsImagery>明月</shicang:containsImagery>
+        <shicang:containsImagery>乌鹊</shicang:containsImagery>
+        <shicang:containsImagery>杜康</shicang:containsImagery>
+        <shicang:expressesEmotion>求贤</shicang:expressesEmotion>
+        <shicang:expressesEmotion>慷慨</shicang:expressesEmotion>
+        <shicang:expressesEmotion>忧思</shicang:expressesEmotion>
+        <shicang:hasTheme>宴饮抒怀</shicang:hasTheme>
+        <shicang:creationBackground>赤壁之战前，曹操宴饮群臣，求贤若渴而作</shicang:creationBackground>
+        <shicang:sourceDataset>乐府诗集</shicang:sourceDataset>
+        <shicang:compositionPlace>长江赤壁战场</shicang:compositionPlace>
+        <shicang:contextType>宴饮求贤</shicang:contextType>
+        <shicang:compositionSeason>冬</shicang:compositionSeason>
+        <shicang:themeColor>#C0392B</shicang:themeColor>
+        <shicang:themeAccent>#E67E22</shicang:themeAccent>
+        <shicang:themeBg>#FDF6E3</shicang:themeBg>
+    
+        <shicang:rhymeGroup>五歌</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句、第4句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,4</shicang:rhymeLines>
+        <shicang:studyTheme>悲慨沉郁</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/CaoCao_DuanGeXing.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;CaoCao_GuanCangHai">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>观沧海</rdfs:label>
+        <shicang:title>观沧海</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;CaoCao"/>
+        <shicang:dynasty>东汉</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">207</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;YueFu"/>
+        <shicang:content>东临碣石，以观沧海。日月之行，若出其中；星汉灿烂，若出其里</shicang:content>
+        <shicang:containsImagery>沧海</shicang:containsImagery>
+        <shicang:containsImagery>日月</shicang:containsImagery>
+        <shicang:containsImagery>洪波</shicang:containsImagery>
+        <shicang:containsImagery>碣石</shicang:containsImagery>
+        <shicang:expressesEmotion>豪迈</shicang:expressesEmotion>
+        <shicang:expressesEmotion>壮阔</shicang:expressesEmotion>
+        <shicang:hasTheme>山水抒怀</shicang:hasTheme>
+        <shicang:creationBackground>北征乌桓得胜回师，登碣石山望海而作</shicang:creationBackground>
+        <shicang:sourceDataset>乐府诗集</shicang:sourceDataset>
+        <shicang:compositionPlace>碣石山（河北昌黎）</shicang:compositionPlace>
+        <shicang:contextType>登山望海</shicang:contextType>
+        <shicang:compositionSeason>秋</shicang:compositionSeason>
+        <shicang:themeColor>#C0392B</shicang:themeColor>
+        <shicang:themeAccent>#E67E22</shicang:themeAccent>
+        <shicang:themeBg>#FDF6E3</shicang:themeBg>
+    
+        <shicang:rhymeGroup>支</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1</shicang:rhymeLines>
+        <shicang:studyTheme>豪放壮阔</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/CaoCao_GuanCangHai.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;CaoZhi_LuoShenFu">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>洛神赋</rdfs:label>
+        <shicang:title>洛神赋</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;CaoZhi"/>
+        <shicang:dynasty>三国魏</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">223</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;Fu"/>
+        <shicang:content>翩若惊鸿，婉若游龙，荣曜秋菊，华茂春松</shicang:content>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_宓妃"/>
+        <shicang:containsImagery>洛神</shicang:containsImagery>
+        <shicang:containsImagery>惊鸿</shicang:containsImagery>
+        <shicang:containsImagery>游龙</shicang:containsImagery>
+        <shicang:containsImagery>秋水</shicang:containsImagery>
+        <shicang:containsImagery>春松</shicang:containsImagery>
+        <shicang:expressesEmotion>怅惘</shicang:expressesEmotion>
+        <shicang:expressesEmotion>爱慕</shicang:expressesEmotion>
+        <shicang:hasTheme>爱情抒情</shicang:hasTheme>
+        <shicang:creationBackground>曹植过洛水，感宋玉神女之事而作</shicang:creationBackground>
+        <shicang:sourceDataset>文选</shicang:sourceDataset>
+        <shicang:compositionPlace>洛水之滨（河南洛阳）</shicang:compositionPlace>
+        <shicang:contextType>感梦抒怀</shicang:contextType>
+        <shicang:compositionSeason>秋</shicang:compositionSeason>
+        <shicang:themeColor>#8E44AD</shicang:themeColor>
+        <shicang:themeAccent>#E91E63</shicang:themeAccent>
+        <shicang:themeBg>#FBF5FC</shicang:themeBg>
+    
+        <shicang:rhymeGroup>二冬</shicang:rhymeGroup>
+        <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
+        <shicang:studyTheme>深情婉约</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/CaoZhi_LuoShenFu.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;TaoYuanming_YinJiu">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>饮酒·其五</rdfs:label>
+        <shicang:title>饮酒·其五</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;TaoYuanming"/>
+        <shicang:dynasty>东晋</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">417</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;GuTiShi"/>
+        <shicang:content>采菊东篱下，悠然见南山。山气日夕佳，飞鸟相与还</shicang:content>
+        <shicang:containsImagery>菊</shicang:containsImagery>
+        <shicang:containsImagery>东篱</shicang:containsImagery>
+        <shicang:containsImagery>南山</shicang:containsImagery>
+        <shicang:containsImagery>飞鸟</shicang:containsImagery>
+        <shicang:expressesEmotion>闲适</shicang:expressesEmotion>
+        <shicang:expressesEmotion>淡泊</shicang:expressesEmotion>
+        <shicang:expressesEmotion>悠然</shicang:expressesEmotion>
+        <shicang:hasTheme>田园隐逸</shicang:hasTheme>
+        <shicang:creationBackground>辞官归隐田园后作，写隐居生活之乐</shicang:creationBackground>
+        <shicang:sourceDataset>陶渊明集</shicang:sourceDataset>
+        <shicang:compositionPlace>柴桑栗里（江西九江）</shicang:compositionPlace>
+        <shicang:contextType>田园隐居</shicang:contextType>
+        <shicang:compositionSeason>秋</shicang:compositionSeason>
+        <shicang:themeColor>#27AE60</shicang:themeColor>
+        <shicang:themeAccent>#16A085</shicang:themeAccent>
+        <shicang:themeBg>#F4FAF0</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十五删</shicang:rhymeGroup>
+        <shicang:rhymeScheme>二、四句押韵（abcb 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>2,4</shicang:rhymeLines>
+        <shicang:studyTheme>恬淡闲适</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/TaoYuanming_YinJiu.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;TaoYuanming_GuiQuLaiXi">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>归去来兮辞</rdfs:label>
+        <shicang:title>归去来兮辞</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;TaoYuanming"/>
+        <shicang:dynasty>东晋</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">405</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;Fu"/>
+        <shicang:content>归去来兮，田园将芜胡不归？木欣欣以向荣，泉涓涓而始流</shicang:content>
+        <shicang:containsImagery>松菊</shicang:containsImagery>
+        <shicang:containsImagery>孤舟</shicang:containsImagery>
+        <shicang:containsImagery>归鸟</shicang:containsImagery>
+        <shicang:containsImagery>田园</shicang:containsImagery>
+        <shicang:expressesEmotion>释然</shicang:expressesEmotion>
+        <shicang:expressesEmotion>喜悦</shicang:expressesEmotion>
+        <shicang:expressesEmotion>归隐</shicang:expressesEmotion>
+        <shicang:hasTheme>归隐抒怀</shicang:hasTheme>
+        <shicang:creationBackground>辞去彭泽县令，归隐之初作</shicang:creationBackground>
+        <shicang:sourceDataset>陶渊明集</shicang:sourceDataset>
+        <shicang:compositionPlace>彭泽归乡途中</shicang:compositionPlace>
+        <shicang:contextType>辞官归隐</shicang:contextType>
+        <shicang:compositionSeason>春</shicang:compositionSeason>
+        <shicang:themeColor>#27AE60</shicang:themeColor>
+        <shicang:themeAccent>#16A085</shicang:themeAccent>
+        <shicang:themeBg>#F4FAF0</shicang:themeBg>
+    
+        <shicang:rhymeGroup>八齐</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句、第2句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2</shicang:rhymeLines>
+        <shicang:studyTheme>恬淡闲适</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/TaoYuanming_GuiQuLaiXi.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;TaoYuanming_TaoHuaYuan">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>桃花源记</rdfs:label>
+        <shicang:title>桃花源记</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;TaoYuanming"/>
+        <shicang:dynasty>东晋</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">421</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;Fu"/>
+        <shicang:content>阡陌交通，鸡犬相闻。黄发垂髫，并怡然自乐</shicang:content>
+        <shicang:containsImagery>桃花</shicang:containsImagery>
+        <shicang:containsImagery>良田</shicang:containsImagery>
+        <shicang:containsImagery>美池</shicang:containsImagery>
+        <shicang:containsImagery>桑竹</shicang:containsImagery>
+        <shicang:expressesEmotion>理想</shicang:expressesEmotion>
+        <shicang:expressesEmotion>安宁</shicang:expressesEmotion>
+        <shicang:hasTheme>理想社会</shicang:hasTheme>
+        <shicang:creationBackground>不满东晋乱世，构想理想社会图景</shicang:creationBackground>
+        <shicang:sourceDataset>陶渊明集</shicang:sourceDataset>
+        <shicang:compositionPlace>浔阳（江西九江）</shicang:compositionPlace>
+        <shicang:contextType>理想虚构</shicang:contextType>
+        <shicang:compositionSeason>春</shicang:compositionSeason>
+        <shicang:themeColor>#27AE60</shicang:themeColor>
+        <shicang:themeAccent>#16A085</shicang:themeAccent>
+        <shicang:themeBg>#F4FAF0</shicang:themeBg>
+    
+        <shicang:rhymeGroup>一东</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1</shicang:rhymeLines>
+        <shicang:studyTheme>旷达超脱</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/TaoYuanming_TaoHuaYuan.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;XieLingyun_DengChiShangLou">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>登池上楼</rdfs:label>
+        <shicang:title>登池上楼</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;XieLingyun"/>
+        <shicang:dynasty>南朝宋</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">423</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;GuTiShi"/>
+        <shicang:content>池塘生春草，园柳变鸣禽</shicang:content>
+        <shicang:containsImagery>池塘</shicang:containsImagery>
+        <shicang:containsImagery>春草</shicang:containsImagery>
+        <shicang:containsImagery>园柳</shicang:containsImagery>
+        <shicang:containsImagery>鸣禽</shicang:containsImagery>
+        <shicang:expressesEmotion>闲适</shicang:expressesEmotion>
+        <shicang:hasTheme>山水</shicang:hasTheme>
+        <shicang:creationBackground>永嘉太守任上病起登楼</shicang:creationBackground>
+        <shicang:sourceDataset>谢康乐集</shicang:sourceDataset>
+        <shicang:compositionPlace>永嘉（浙江温州）</shicang:compositionPlace>
+        <shicang:contextType>病起登楼</shicang:contextType>
+        <shicang:compositionSeason>春</shicang:compositionSeason>
+        <shicang:themeColor>#27AE60</shicang:themeColor>
+        <shicang:themeAccent>#16A085</shicang:themeAccent>
+        <shicang:themeBg>#F4FAF0</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十九皓</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1</shicang:rhymeLines>
+        <shicang:studyTheme>恬淡闲适</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/XieLingyun_DengChiShangLou.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;WangBo_TengWangGeXu">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>滕王阁序</rdfs:label>
+        <shicang:title>滕王阁序</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;WangBo"/>
+        <shicang:dynasty>唐</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">675</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;PianWen"/>
+        <shicang:content>落霞与孤鹜齐飞，秋水共长天一色。老当益壮，宁移白首之心？穷且益坚，不坠青云之志</shicang:content>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_冯唐易"/>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_李广难"/>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_孟尝高"/>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_阮籍猖"/>
+        <shicang:containsImagery>落霞</shicang:containsImagery>
+        <shicang:containsImagery>孤鹜</shicang:containsImagery>
+        <shicang:containsImagery>秋水</shicang:containsImagery>
+        <shicang:containsImagery>长天</shicang:containsImagery>
+        <shicang:containsImagery>滕王阁</shicang:containsImagery>
+        <shicang:expressesEmotion>豪迈</shicang:expressesEmotion>
+        <shicang:expressesEmotion>壮志</shicang:expressesEmotion>
+        <shicang:expressesEmotion>怅惘</shicang:expressesEmotion>
+        <shicang:hasTheme>宴集登临</shicang:hasTheme>
+        <shicang:creationBackground>赴交趾探父路过南昌，参加滕王阁宴集即席而作</shicang:creationBackground>
+        <shicang:sourceDataset>王子安集</shicang:sourceDataset>
+        <shicang:compositionPlace>洪州滕王阁（江西南昌）</shicang:compositionPlace>
+        <shicang:contextType>宴集登临</shicang:contextType>
+        <shicang:compositionSeason>秋</shicang:compositionSeason>
+        <shicang:themeColor>#C0392B</shicang:themeColor>
+        <shicang:themeAccent>#E67E22</shicang:themeAccent>
+        <shicang:themeBg>#FDF6E3</shicang:themeBg>
+    
+        <shicang:rhymeGroup>五微</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1</shicang:rhymeLines>
+        <shicang:studyTheme>豪放壮阔</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/WangBo_TengWangGeXu.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;WangBo_SongDuShaoFu">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>送杜少府之任蜀州</rdfs:label>
+        <shicang:title>送杜少府之任蜀州</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;WangBo"/>
+        <shicang:dynasty>唐</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">670</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;WuLv"/>
+        <shicang:content>海内存知己，天涯若比邻。无为在歧路，儿女共沾巾</shicang:content>
+        <shicang:containsImagery>城阙</shicang:containsImagery>
+        <shicang:containsImagery>风烟</shicang:containsImagery>
+        <shicang:containsImagery>歧路</shicang:containsImagery>
+        <shicang:expressesEmotion>送别</shicang:expressesEmotion>
+        <shicang:expressesEmotion>豁达</shicang:expressesEmotion>
+        <shicang:expressesEmotion>惜别</shicang:expressesEmotion>
+        <shicang:hasTheme>送别</shicang:hasTheme>
+        <shicang:creationBackground>送别友人入蜀为官</shicang:creationBackground>
+        <shicang:sourceDataset>全唐诗</shicang:sourceDataset>
+        <shicang:compositionPlace>长安（陕西西安）</shicang:compositionPlace>
+        <shicang:contextType>送别</shicang:contextType>
+        <shicang:compositionSeason>秋</shicang:compositionSeason>
+        <shicang:themeColor>#2980B9</shicang:themeColor>
+        <shicang:themeAccent>#3498DB</shicang:themeAccent>
+        <shicang:themeBg>#F0F7FC</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十一真</shicang:rhymeGroup>
+        <shicang:rhymeScheme>二、四句押韵（abcb 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>2,4</shicang:rhymeLines>
+        <shicang:studyTheme>旷达超脱</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/WangBo_SongDuShaoFu.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;ChenZiang_DengYouZhouTai">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>登幽州台歌</rdfs:label>
+        <shicang:title>登幽州台歌</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;ChenZiang"/>
+        <shicang:dynasty>唐</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">696</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;GuTiShi"/>
+        <shicang:content>前不见古人，后不见来者。念天地之悠悠，独怆然而涕下</shicang:content>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_燕昭王"/>
+        <shicang:containsImagery>幽州台</shicang:containsImagery>
+        <shicang:containsImagery>天地</shicang:containsImagery>
+        <shicang:containsImagery>悠悠</shicang:containsImagery>
+        <shicang:expressesEmotion>孤独</shicang:expressesEmotion>
+        <shicang:expressesEmotion>怀才不遇</shicang:expressesEmotion>
+        <shicang:expressesEmotion>苍凉</shicang:expressesEmotion>
+        <shicang:hasTheme>登临怀古</shicang:hasTheme>
+        <shicang:creationBackground>随武攸宜征契丹，献策不被用，登蓟北楼而作</shicang:creationBackground>
+        <shicang:sourceDataset>全唐诗</shicang:sourceDataset>
+        <shicang:compositionPlace>蓟北楼（北京）</shicang:compositionPlace>
+        <shicang:contextType>登高怀古</shicang:contextType>
+        <shicang:compositionSeason>秋</shicang:compositionSeason>
+        <shicang:themeColor>#7F8C8D</shicang:themeColor>
+        <shicang:themeAccent>#2C3E50</shicang:themeAccent>
+        <shicang:themeBg>#F5F5F5</shicang:themeBg>
+    
+        <shicang:rhymeGroup>廿一马</shicang:rhymeGroup>
+        <shicang:rhymeScheme>二、四句押韵（abcb 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>2,4</shicang:rhymeLines>
+        <shicang:studyTheme>怀古沧桑</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/ChenZiang_DengYouZhouTai.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;HeZhizhang_HuiXiangOuShu">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>回乡偶书</rdfs:label>
+        <shicang:title>回乡偶书</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;HeZhizhang"/>
+        <shicang:dynasty>唐</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">744</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;QiJue"/>
+        <shicang:content>少小离家老大回，乡音无改鬓毛衰。儿童相见不相识，笑问客从何处来</shicang:content>
+        <shicang:containsImagery>乡音</shicang:containsImagery>
+        <shicang:containsImagery>鬓毛</shicang:containsImagery>
+        <shicang:containsImagery>儿童</shicang:containsImagery>
+        <shicang:expressesEmotion>乡愁</shicang:expressesEmotion>
+        <shicang:expressesEmotion>沧桑</shicang:expressesEmotion>
+        <shicang:hasTheme>思乡</shicang:hasTheme>
+        <shicang:creationBackground>八十六岁辞官返乡，距离乡已五十余年</shicang:creationBackground>
+        <shicang:sourceDataset>全唐诗</shicang:sourceDataset>
+        <shicang:compositionPlace>越州永兴（浙江萧山）</shicang:compositionPlace>
+        <shicang:contextType>辞官归乡</shicang:contextType>
+        <shicang:compositionSeason>春</shicang:compositionSeason>
+        <shicang:themeColor>#7F8C8D</shicang:themeColor>
+        <shicang:themeAccent>#2C3E50</shicang:themeAccent>
+        <shicang:themeBg>#F5F5F5</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十灰</shicang:rhymeGroup>
+        <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
+        <shicang:studyTheme>怀古沧桑</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/HeZhizhang_HuiXiangOuShu.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;WangWei_ShanJuQiuMing">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>山居秋暝</rdfs:label>
+        <shicang:title>山居秋暝</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;WangWei"/>
+        <shicang:dynasty>唐</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">740</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;WuLv"/>
+        <shicang:content>空山新雨后，天气晚来秋。明月松间照，清泉石上流。竹喧归浣女，莲动下渔舟</shicang:content>
+        <shicang:containsImagery>空山</shicang:containsImagery>
+        <shicang:containsImagery>新雨</shicang:containsImagery>
+        <shicang:containsImagery>明月</shicang:containsImagery>
+        <shicang:containsImagery>青松</shicang:containsImagery>
+        <shicang:containsImagery>清泉</shicang:containsImagery>
+        <shicang:containsImagery>石</shicang:containsImagery>
+        <shicang:containsImagery>竹</shicang:containsImagery>
+        <shicang:containsImagery>莲</shicang:containsImagery>
+        <shicang:containsImagery>渔舟</shicang:containsImagery>
+        <shicang:expressesEmotion>宁静</shicang:expressesEmotion>
+        <shicang:expressesEmotion>闲适</shicang:expressesEmotion>
+        <shicang:expressesEmotion>恬淡</shicang:expressesEmotion>
+        <shicang:hasTheme>山水田园</shicang:hasTheme>
+        <shicang:creationBackground>晚年隐居辋川别业时作</shicang:creationBackground>
+        <shicang:sourceDataset>王右丞集</shicang:sourceDataset>
+        <shicang:compositionPlace>辋川别业（陕西蓝田）</shicang:compositionPlace>
+        <shicang:contextType>山居秋暝</shicang:contextType>
+        <shicang:compositionSeason>秋</shicang:compositionSeason>
+        <shicang:themeColor>#607D8B</shicang:themeColor>
+        <shicang:themeAccent>#78909C</shicang:themeAccent>
+        <shicang:themeBg>#F5F8F9</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十一尤</shicang:rhymeGroup>
+        <shicang:rhymeScheme>偶句押韵，一韵到底</shicang:rhymeScheme>
+        <shicang:rhymeLines>2,4,6,8</shicang:rhymeLines>
+        <shicang:studyTheme>恬淡闲适</shicang:studyTheme>
+        <shicang:studyDepth>deep</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/WangWei_ShanJuQiuMing.html</shicang:studyPage>
+        <shicang:vernacularTranslation>空寂的山中刚下过一场新雨。　傍晚时分，天气带来阵阵秋意。　明月的清辉洒落在松林之间。　清澈的泉水在山石上淙淙流淌。　竹林喧笑，是洗衣的姑娘归来。　莲叶摇动，是渔船顺流而下。　任凭春天的芳菲凋歇吧。　山中的秋色，我自可以留连。</shicang:vernacularTranslation>
+        <shicang:englishTranslation>In the empty hills just after the new rain, The evening air brings the feel of autumn. Bright moonlight shines among the pines; Clear spring water flows over the stones. In the bamboos a noise—the washer girls come home; The lotus stirs—a fishing boat goes down. Let the spring's fragrance fade as it will; The prince may well stay on in these hills.</shicang:englishTranslation>
+        <shicang:appreciation>此诗为『诗中有画』的典范。颔联『明月松间照，清泉石上流』，上句静、下句动，以光写洁、以声写幽；颈联『竹喧』『莲动』，以喧衬静、以动见净，浣女渔舟皆是人间，却无一点尘嚣。尾联反用《招隐士》之意，把『不可久留』翻成『自可留』，山水之乐与出尘之志，全在其中。</shicang:appreciation>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;WangWei_SongYuanErShiAnXi">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>送元二使安西</rdfs:label>
+        <shicang:title>送元二使安西</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;WangWei"/>
+        <shicang:dynasty>唐</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">730</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;QiJue"/>
+        <shicang:content>渭城朝雨浥轻尘，客舍青青柳色新。劝君更尽一杯酒，西出阳关无故人</shicang:content>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_阳关"/>
+        <shicang:containsImagery>朝雨</shicang:containsImagery>
+        <shicang:containsImagery>轻尘</shicang:containsImagery>
+        <shicang:containsImagery>客舍</shicang:containsImagery>
+        <shicang:containsImagery>柳</shicang:containsImagery>
+        <shicang:containsImagery>酒</shicang:containsImagery>
+        <shicang:expressesEmotion>送别</shicang:expressesEmotion>
+        <shicang:expressesEmotion>惜别</shicang:expressesEmotion>
+        <shicang:hasTheme>送别</shicang:hasTheme>
+        <shicang:creationBackground>送别友人元二出使安西都护府</shicang:creationBackground>
+        <shicang:sourceDataset>全唐诗</shicang:sourceDataset>
+        <shicang:compositionPlace>渭城（陕西咸阳）</shicang:compositionPlace>
+        <shicang:contextType>送别</shicang:contextType>
+        <shicang:compositionSeason>春</shicang:compositionSeason>
+        <shicang:themeColor>#8E44AD</shicang:themeColor>
+        <shicang:themeAccent>#E91E63</shicang:themeAccent>
+        <shicang:themeBg>#FBF5FC</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十一真</shicang:rhymeGroup>
+        <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
+        <shicang:studyTheme>旷达超脱</shicang:studyTheme>
+        <shicang:studyDepth>deep</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/WangWei_SongYuanErShiAnXi.html</shicang:studyPage>
+        <shicang:vernacularTranslation>渭城清晨的一场细雨，润湿了路上的轻尘。　旅舍旁青青的柳色，被雨洗得格外清新。　劝你再喝完这一杯酒吧。　向西出了阳关，就再也见不到老朋友了。</shicang:vernacularTranslation>
+        <shicang:englishTranslation>The morning rain of Weicheng wets the light dust; Around the inn the willows look fresh and green. I urge you to drain one more cup of wine: West of Yangguan there is no old friend.</shicang:englishTranslation>
+        <shicang:appreciation>送别诗之绝唱，后谱入乐府为《阳关三叠》。前两句写景，『朝雨』『柳色』暗含『留』意（柳谐『留』），一场小雨把离别洗净得清新而清冷。三四句直抒，妙在一个『更』字——已经劝过多次，还要再劝一杯，因为杯中装的是所有说不出口的话，也是此后无可再见的深情。</shicang:appreciation>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;WangWei_JiuYueJiuRiYi">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>九月九日忆山东兄弟</rdfs:label>
+        <shicang:title>九月九日忆山东兄弟</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;WangWei"/>
+        <shicang:dynasty>唐</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">718</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;QiJue"/>
+        <shicang:content>独在异乡为异客，每逢佳节倍思亲。遥知兄弟登高处，遍插茱萸少一人</shicang:content>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_重阳节"/>
+        <shicang:containsImagery>茱萸</shicang:containsImagery>
+        <shicang:containsImagery>登高</shicang:containsImagery>
+        <shicang:expressesEmotion>思乡</shicang:expressesEmotion>
+        <shicang:expressesEmotion>怀亲</shicang:expressesEmotion>
+        <shicang:hasTheme>思乡</shicang:hasTheme>
+        <shicang:creationBackground>十七岁时在长安，重阳节思念家乡兄弟</shicang:creationBackground>
+        <shicang:sourceDataset>全唐诗</shicang:sourceDataset>
+        <shicang:compositionPlace>长安（陕西西安）</shicang:compositionPlace>
+        <shicang:contextType>重阳思亲</shicang:contextType>
+        <shicang:compositionSeason>秋</shicang:compositionSeason>
+        <shicang:themeColor>#8E44AD</shicang:themeColor>
+        <shicang:themeAccent>#E91E63</shicang:themeAccent>
+        <shicang:themeBg>#FBF5FC</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十一真</shicang:rhymeGroup>
+        <shicang:rhymeScheme>二、四句押韵（abcb 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>2,4</shicang:rhymeLines>
+        <shicang:studyTheme>旷达超脱</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/WangWei_JiuYueJiuRiYi.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;MengHaoran_ChunXiao">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>春晓</rdfs:label>
+        <shicang:title>春晓</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;MengHaoran"/>
+        <shicang:dynasty>唐</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">730</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;WuJue"/>
+        <shicang:content>春眠不觉晓，处处闻啼鸟。夜来风雨声，花落知多少</shicang:content>
+        <shicang:containsImagery>春眠</shicang:containsImagery>
+        <shicang:containsImagery>啼鸟</shicang:containsImagery>
+        <shicang:containsImagery>风雨</shicang:containsImagery>
+        <shicang:containsImagery>落花</shicang:containsImagery>
+        <shicang:expressesEmotion>闲适</shicang:expressesEmotion>
+        <shicang:expressesEmotion>惜春</shicang:expressesEmotion>
+        <shicang:hasTheme>田园春景</shicang:hasTheme>
+        <shicang:creationBackground>隐居鹿门山春日清晨即景</shicang:creationBackground>
+        <shicang:sourceDataset>孟浩然集</shicang:sourceDataset>
+        <shicang:compositionPlace>鹿门山（湖北襄阳）</shicang:compositionPlace>
+        <shicang:contextType>春晨即景</shicang:contextType>
+        <shicang:compositionSeason>春</shicang:compositionSeason>
+        <shicang:themeColor>#27AE60</shicang:themeColor>
+        <shicang:themeAccent>#16A085</shicang:themeAccent>
+        <shicang:themeBg>#F4FAF0</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十七筱</shicang:rhymeGroup>
+        <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
+        <shicang:studyTheme>恬淡闲适</shicang:studyTheme>
+        <shicang:studyDepth>deep</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/MengHaoran_ChunXiao.html</shicang:studyPage>
+        <shicang:vernacularTranslation>春夜好眠，不知不觉天已破晓。　醒来时只听得处处都是鸟儿的啼鸣。　回想夜里隐隐的风雨之声。　不知那院中的花被打落了多少。</shicang:vernacularTranslation>
+        <shicang:englishTranslation>I slept in spring and knew not it was dawn; I hear birds crying all around. Last night there came the sound of wind and rain; How many flowers, I wonder, have fallen down.</shicang:englishTranslation>
+        <shicang:appreciation>诗不写春景却处处是春。首句写人之慵懒，次句写听觉之欢快，三句一转由『闻』入『忆』，末句由忆生惜——落花之问，是全诗的魂，惜春之情尽在其中。全篇以声写春、以问写情，含蓄婉转。</shicang:appreciation>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;MengHaoran_GuoGuRenZhuang">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>过故人庄</rdfs:label>
+        <shicang:title>过故人庄</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;MengHaoran"/>
+        <shicang:dynasty>唐</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">730</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;WuLv"/>
+        <shicang:content>故人具鸡黍，邀我至田家。绿树村边合，青山郭外斜。开轩面场圃，把酒话桑麻。待到重阳日，还来就菊花</shicang:content>
+        <shicang:containsImagery>鸡黍</shicang:containsImagery>
+        <shicang:containsImagery>田家</shicang:containsImagery>
+        <shicang:containsImagery>绿树</shicang:containsImagery>
+        <shicang:containsImagery>青山</shicang:containsImagery>
+        <shicang:containsImagery>场圃</shicang:containsImagery>
+        <shicang:containsImagery>桑麻</shicang:containsImagery>
+        <shicang:containsImagery>菊花</shicang:containsImagery>
+        <shicang:expressesEmotion>恬淡</shicang:expressesEmotion>
+        <shicang:expressesEmotion>友情</shicang:expressesEmotion>
+        <shicang:expressesEmotion>闲适</shicang:expressesEmotion>
+        <shicang:hasTheme>田园访友</shicang:hasTheme>
+        <shicang:creationBackground>应邀到乡村友人家做客</shicang:creationBackground>
+        <shicang:sourceDataset>孟浩然集</shicang:sourceDataset>
+        <shicang:compositionPlace>襄阳乡村（湖北）</shicang:compositionPlace>
+        <shicang:contextType>田园访友</shicang:contextType>
+        <shicang:compositionSeason>秋</shicang:compositionSeason>
+        <shicang:themeColor>#27AE60</shicang:themeColor>
+        <shicang:themeAccent>#16A085</shicang:themeAccent>
+        <shicang:themeBg>#F4FAF0</shicang:themeBg>
+    
+        <shicang:rhymeGroup>六麻</shicang:rhymeGroup>
+        <shicang:rhymeScheme>偶句押韵，一韵到底</shicang:rhymeScheme>
+        <shicang:rhymeLines>2,4,6,8</shicang:rhymeLines>
+        <shicang:studyTheme>恬淡闲适</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/MengHaoran_GuoGuRenZhuang.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;LiBai_JiangJinJiu">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>将进酒</rdfs:label>
+        <shicang:title>将进酒</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;LiBai"/>
+        <shicang:dynasty>唐</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">752</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;YueFu"/>
+        <shicang:content>君不见黄河之水天上来，奔流到海不复回。天生我材必有用，千金散尽还复来</shicang:content>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_陈王昔"/>
+        <shicang:containsImagery>黄河</shicang:containsImagery>
+        <shicang:containsImagery>美酒</shicang:containsImagery>
+        <shicang:containsImagery>青丝</shicang:containsImagery>
+        <shicang:containsImagery>白雪</shicang:containsImagery>
+        <shicang:containsImagery>明镜</shicang:containsImagery>
+        <shicang:expressesEmotion>豪放</shicang:expressesEmotion>
+        <shicang:expressesEmotion>狂放</shicang:expressesEmotion>
+        <shicang:expressesEmotion>愤懑</shicang:expressesEmotion>
+        <shicang:expressesEmotion>豪迈</shicang:expressesEmotion>
+        <shicang:hasTheme>宴饮抒怀</shicang:hasTheme>
+        <shicang:creationBackground>被赐金放还后，与友人岑勋、元丹丘嵩山饮酒作</shicang:creationBackground>
+        <shicang:sourceDataset>李太白集</shicang:sourceDataset>
+        <shicang:compositionPlace>嵩山（河南登封）</shicang:compositionPlace>
+        <shicang:contextType>饮酒抒怀</shicang:contextType>
+        <shicang:compositionSeason>秋</shicang:compositionSeason>
+        <shicang:themeColor>#C0392B</shicang:themeColor>
+        <shicang:themeAccent>#E67E22</shicang:themeAccent>
+        <shicang:themeBg>#FDF6E3</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十灰</shicang:rhymeGroup>
+        <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
+        <shicang:studyTheme>豪放壮阔</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/LiBai_JiangJinJiu.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;LiBai_ShuDaoNan">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>蜀道难</rdfs:label>
+        <shicang:title>蜀道难</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;LiBai"/>
+        <shicang:dynasty>唐</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">742</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;YueFu"/>
+        <shicang:content>蜀道之难，难于上青天！黄鹤之飞尚不得过，猿猱欲度愁攀援</shicang:content>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_蚕丛及"/>
+        <shicang:containsImagery>蜀山</shicang:containsImagery>
+        <shicang:containsImagery>黄鹤</shicang:containsImagery>
+        <shicang:containsImagery>猿猱</shicang:containsImagery>
+        <shicang:containsImagery>剑阁</shicang:containsImagery>
+        <shicang:containsImagery>青泥</shicang:containsImagery>
+        <shicang:expressesEmotion>雄奇</shicang:expressesEmotion>
+        <shicang:expressesEmotion>惊叹</shicang:expressesEmotion>
+        <shicang:expressesEmotion>豪放</shicang:expressesEmotion>
+        <shicang:hasTheme>山川行旅</shicang:hasTheme>
+        <shicang:creationBackground>初到长安见贺知章所作，贺读后称其为谪仙人</shicang:creationBackground>
+        <shicang:sourceDataset>李太白集</shicang:sourceDataset>
+        <shicang:compositionPlace>长安往蜀道途中</shicang:compositionPlace>
+        <shicang:contextType>咏山川</shicang:contextType>
+        <shicang:compositionSeason>秋</shicang:compositionSeason>
+        <shicang:themeColor>#C0392B</shicang:themeColor>
+        <shicang:themeAccent>#E67E22</shicang:themeAccent>
+        <shicang:themeBg>#FDF6E3</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十四寒</shicang:rhymeGroup>
+        <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
+        <shicang:studyTheme>豪放壮阔</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/LiBai_ShuDaoNan.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;LiBai_JingYeSi">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>静夜思</rdfs:label>
+        <shicang:title>静夜思</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;LiBai"/>
+        <shicang:dynasty>唐</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">726</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;WuJue"/>
+        <shicang:content>床前明月光，疑是地上霜。举头望明月，低头思故乡</shicang:content>
+        <shicang:containsImagery>明月</shicang:containsImagery>
+        <shicang:containsImagery>霜</shicang:containsImagery>
+        <shicang:expressesEmotion>思乡</shicang:expressesEmotion>
+        <shicang:hasTheme>思乡</shicang:hasTheme>
+        <shicang:creationBackground>二十六岁客居扬州旅舍，秋夜望月思乡</shicang:creationBackground>
+        <shicang:sourceDataset>李太白集</shicang:sourceDataset>
+        <shicang:compositionPlace>扬州旅舍（江苏）</shicang:compositionPlace>
+        <shicang:contextType>旅夜思乡</shicang:contextType>
+        <shicang:compositionSeason>秋</shicang:compositionSeason>
+        <shicang:themeColor>#8E44AD</shicang:themeColor>
+        <shicang:themeAccent>#E91E63</shicang:themeAccent>
+        <shicang:themeBg>#FBF5FC</shicang:themeBg>
+    
+        <shicang:rhymeGroup>七阳</shicang:rhymeGroup>
+        <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
+        <shicang:studyTheme>旷达超脱</shicang:studyTheme>
+        <shicang:studyDepth>deep</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/LiBai_JingYeSi.html</shicang:studyPage>
+        <shicang:vernacularTranslation>明亮的月光洒在床前，一片清冷。　恍惚间以为是地上结了一层白霜。　抬起头来，望着天上那轮明月。　低下头去，思念起远方的故乡。</shicang:vernacularTranslation>
+        <shicang:englishTranslation>Before my bed the moonlight glimmers bright; I take it for white frost upon the ground. I lift my head and gaze upon the moon; I bow my head and think of my old home.</shicang:englishTranslation>
+        <shicang:appreciation>全诗二十字，无一难字，无一僻典，却成为千年思乡第一诗。妙处在『疑』字：月色与霜色本难分辨，一『疑』写尽夜半初醒的恍惚。三四句以『举头』『低头』一组对称动作收束，空间上由地上而天上、由天上而心中，乡愁不著一字而尽得风流。</shicang:appreciation>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;LiBai_WangLuShanPuBu">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>望庐山瀑布</rdfs:label>
+        <shicang:title>望庐山瀑布</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;LiBai"/>
+        <shicang:dynasty>唐</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">725</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;QiJue"/>
+        <shicang:content>日照香炉生紫烟，遥看瀑布挂前川。飞流直下三千尺，疑是银河落九天</shicang:content>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_银河"/>
+        <shicang:containsImagery>香炉峰</shicang:containsImagery>
+        <shicang:containsImagery>紫烟</shicang:containsImagery>
+        <shicang:containsImagery>瀑布</shicang:containsImagery>
+        <shicang:containsImagery>银河</shicang:containsImagery>
+        <shicang:expressesEmotion>雄奇</shicang:expressesEmotion>
+        <shicang:expressesEmotion>赞叹</shicang:expressesEmotion>
+        <shicang:hasTheme>山水</shicang:hasTheme>
+        <shicang:creationBackground>出蜀漫游途中登庐山作</shicang:creationBackground>
+        <shicang:sourceDataset>李太白集</shicang:sourceDataset>
+        <shicang:compositionPlace>庐山香炉峰（江西九江）</shicang:compositionPlace>
+        <shicang:contextType>登山观瀑</shicang:contextType>
+        <shicang:compositionSeason>夏</shicang:compositionSeason>
+        <shicang:themeColor>#C0392B</shicang:themeColor>
+        <shicang:themeAccent>#E67E22</shicang:themeAccent>
+        <shicang:themeBg>#FDF6E3</shicang:themeBg>
+    
+        <shicang:rhymeGroup>一先</shicang:rhymeGroup>
+        <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
+        <shicang:studyTheme>恬淡闲适</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/LiBai_WangLuShanPuBu.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;LiBai_MengYouTianLao">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>梦游天姥吟留别</rdfs:label>
+        <shicang:title>梦游天姥吟留别</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;LiBai"/>
+        <shicang:dynasty>唐</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">745</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;QiYanGuFeng"/>
+        <shicang:content>安能摧眉折腰事权贵，使我不得开心颜</shicang:content>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_天姥山"/>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_谢灵运"/>
+        <shicang:containsImagery>天姥山</shicang:containsImagery>
+        <shicang:containsImagery>云霓</shicang:containsImagery>
+        <shicang:containsImagery>青冥</shicang:containsImagery>
+        <shicang:containsImagery>白鹿</shicang:containsImagery>
+        <shicang:expressesEmotion>傲岸</shicang:expressesEmotion>
+        <shicang:expressesEmotion>豪放</shicang:expressesEmotion>
+        <shicang:expressesEmotion>愤懑</shicang:expressesEmotion>
+        <shicang:hasTheme>记梦抒怀</shicang:hasTheme>
+        <shicang:creationBackground>被排挤离开长安，东游鲁郡前作别友人</shicang:creationBackground>
+        <shicang:sourceDataset>李太白集</shicang:sourceDataset>
+        <shicang:compositionPlace>东鲁（山东）</shicang:compositionPlace>
+        <shicang:contextType>记梦抒怀</shicang:contextType>
+        <shicang:compositionSeason>秋</shicang:compositionSeason>
+        <shicang:themeColor>#C0392B</shicang:themeColor>
+        <shicang:themeAccent>#E67E22</shicang:themeAccent>
+        <shicang:themeBg>#FDF6E3</shicang:themeBg>
+    
+        <shicang:rhymeGroup>五未</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1</shicang:rhymeLines>
+        <shicang:studyTheme>豪放壮阔</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/LiBai_MengYouTianLao.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;LiBai_ZengWangLun">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>赠汪伦</rdfs:label>
+        <shicang:title>赠汪伦</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;LiBai"/>
+        <shicang:dynasty>唐</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">755</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;QiJue"/>
+        <shicang:content>桃花潭水深千尺，不及汪伦送我情</shicang:content>
+        <shicang:containsImagery>桃花潭</shicang:containsImagery>
+        <shicang:containsImagery>舟</shicang:containsImagery>
+        <shicang:expressesEmotion>友情</shicang:expressesEmotion>
+        <shicang:expressesEmotion>送别</shicang:expressesEmotion>
+        <shicang:hasTheme>送别</shicang:hasTheme>
+        <shicang:creationBackground>游泾县桃花潭，村人汪伦盛情款待送别</shicang:creationBackground>
+        <shicang:sourceDataset>李太白集</shicang:sourceDataset>
+        <shicang:compositionPlace>泾县桃花潭（安徽）</shicang:compositionPlace>
+        <shicang:contextType>送别</shicang:contextType>
+        <shicang:compositionSeason>春</shicang:compositionSeason>
+        <shicang:themeColor>#8E44AD</shicang:themeColor>
+        <shicang:themeAccent>#E91E63</shicang:themeAccent>
+        <shicang:themeBg>#FBF5FC</shicang:themeBg>
+    
+        <shicang:rhymeGroup>支</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1</shicang:rhymeLines>
+        <shicang:studyTheme>深情婉约</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/LiBai_ZengWangLun.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;LiBai_HuangHeLouSongMeng">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>黄鹤楼送孟浩然之广陵</rdfs:label>
+        <shicang:title>黄鹤楼送孟浩然之广陵</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;LiBai"/>
+        <shicang:dynasty>唐</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">730</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;QiJue"/>
+        <shicang:content>故人西辞黄鹤楼，烟花三月下扬州。孤帆远影碧空尽，唯见长江天际流</shicang:content>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_黄鹤楼"/>
+        <shicang:containsImagery>黄鹤楼</shicang:containsImagery>
+        <shicang:containsImagery>烟花</shicang:containsImagery>
+        <shicang:containsImagery>扬州</shicang:containsImagery>
+        <shicang:containsImagery>孤帆</shicang:containsImagery>
+        <shicang:containsImagery>长江</shicang:containsImagery>
+        <shicang:containsImagery>碧空</shicang:containsImagery>
+        <shicang:expressesEmotion>送别</shicang:expressesEmotion>
+        <shicang:expressesEmotion>怅惘</shicang:expressesEmotion>
+        <shicang:expressesEmotion>友情</shicang:expressesEmotion>
+        <shicang:hasTheme>送别</shicang:hasTheme>
+        <shicang:creationBackground>在黄鹤楼送孟浩然东游扬州</shicang:creationBackground>
+        <shicang:sourceDataset>李太白集</shicang:sourceDataset>
+        <shicang:compositionPlace>黄鹤楼（湖北武汉）</shicang:compositionPlace>
+        <shicang:contextType>送别</shicang:contextType>
+        <shicang:compositionSeason>春</shicang:compositionSeason>
+        <shicang:themeColor>#8E44AD</shicang:themeColor>
+        <shicang:themeAccent>#E91E63</shicang:themeAccent>
+        <shicang:themeBg>#FBF5FC</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十一尤</shicang:rhymeGroup>
+        <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
+        <shicang:studyTheme>深情婉约</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/LiBai_HuangHeLouSongMeng.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;GaoShi_BieDongDa">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>别董大</rdfs:label>
+        <shicang:title>别董大</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;GaoShi"/>
+        <shicang:dynasty>唐</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">747</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;QiJue"/>
+        <shicang:content>千里黄云白日曛，北风吹雁雪纷纷。莫愁前路无知己，天下谁人不识君</shicang:content>
+        <shicang:containsImagery>黄云</shicang:containsImagery>
+        <shicang:containsImagery>北风</shicang:containsImagery>
+        <shicang:containsImagery>雁</shicang:containsImagery>
+        <shicang:containsImagery>雪</shicang:containsImagery>
+        <shicang:expressesEmotion>送别</shicang:expressesEmotion>
+        <shicang:expressesEmotion>豪迈</shicang:expressesEmotion>
+        <shicang:expressesEmotion>激励</shicang:expressesEmotion>
+        <shicang:hasTheme>送别</shicang:hasTheme>
+        <shicang:creationBackground>送别琴师董庭兰</shicang:creationBackground>
+        <shicang:sourceDataset>高常侍集</shicang:sourceDataset>
+        <shicang:compositionPlace>睢阳（河南商丘）</shicang:compositionPlace>
+        <shicang:contextType>送别</shicang:contextType>
+        <shicang:compositionSeason>冬</shicang:compositionSeason>
+        <shicang:themeColor>#C0392B</shicang:themeColor>
+        <shicang:themeAccent>#E67E22</shicang:themeAccent>
+        <shicang:themeBg>#FDF6E3</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十二文</shicang:rhymeGroup>
+        <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
+        <shicang:studyTheme>豪放壮阔</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/GaoShi_BieDongDa.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;CenShen_BaiXueGe">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>白雪歌送武判官归京</rdfs:label>
+        <shicang:title>白雪歌送武判官归京</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;CenShen"/>
+        <shicang:dynasty>唐</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">754</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;QiYanGeXing"/>
+        <shicang:content>北风卷地白草折，胡天八月即飞雪。忽如一夜春风来，千树万树梨花开</shicang:content>
+        <shicang:containsImagery>北风</shicang:containsImagery>
+        <shicang:containsImagery>飞雪</shicang:containsImagery>
+        <shicang:containsImagery>梨花</shicang:containsImagery>
+        <shicang:containsImagery>红旗</shicang:containsImagery>
+        <shicang:containsImagery>瀚海</shicang:containsImagery>
+        <shicang:containsImagery>冰山</shicang:containsImagery>
+        <shicang:expressesEmotion>奇丽</shicang:expressesEmotion>
+        <shicang:expressesEmotion>送别</shicang:expressesEmotion>
+        <shicang:expressesEmotion>豪迈</shicang:expressesEmotion>
+        <shicang:hasTheme>边塞送别</shicang:hasTheme>
+        <shicang:creationBackground>在安西节度使封常清幕中送武判官归京</shicang:creationBackground>
+        <shicang:sourceDataset>岑嘉州诗集</shicang:sourceDataset>
+        <shicang:compositionPlace>轮台（新疆）</shicang:compositionPlace>
+        <shicang:contextType>边塞送别</shicang:contextType>
+        <shicang:compositionSeason>冬</shicang:compositionSeason>
+        <shicang:themeColor>#C0392B</shicang:themeColor>
+        <shicang:themeAccent>#E67E22</shicang:themeAccent>
+        <shicang:themeBg>#FDF6E3</shicang:themeBg>
+    
+        <shicang:rhymeGroup>歌</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句、第2句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2</shicang:rhymeLines>
+        <shicang:studyTheme>豪放壮阔</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/CenShen_BaiXueGe.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;WangChangling_ChuSai">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>出塞</rdfs:label>
+        <shicang:title>出塞</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;WangChangling"/>
+        <shicang:dynasty>唐</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">724</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;QiJue"/>
+        <shicang:content>秦时明月汉时关，万里长征人未还。但使龙城飞将在，不教胡马度阴山</shicang:content>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_李广飞"/>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_龙城"/>
+        <shicang:containsImagery>明月</shicang:containsImagery>
+        <shicang:containsImagery>边关</shicang:containsImagery>
+        <shicang:containsImagery>阴山</shicang:containsImagery>
+        <shicang:expressesEmotion>边塞</shicang:expressesEmotion>
+        <shicang:expressesEmotion>豪迈</shicang:expressesEmotion>
+        <shicang:expressesEmotion>爱国</shicang:expressesEmotion>
+        <shicang:expressesEmotion>感慨</shicang:expressesEmotion>
+        <shicang:hasTheme>边塞</shicang:hasTheme>
+        <shicang:creationBackground>漫游西北边塞时作，七绝压卷之作</shicang:creationBackground>
+        <shicang:sourceDataset>全唐诗</shicang:sourceDataset>
+        <shicang:compositionPlace>西北边塞</shicang:compositionPlace>
+        <shicang:contextType>边塞抒怀</shicang:contextType>
+        <shicang:compositionSeason>秋</shicang:compositionSeason>
+        <shicang:themeColor>#D35400</shicang:themeColor>
+        <shicang:themeAccent>#C0392B</shicang:themeAccent>
+        <shicang:themeBg>#FEF9F0</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十五删</shicang:rhymeGroup>
+        <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
+        <shicang:studyTheme>慷慨爱国</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/WangChangling_ChuSai.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;WangChangling_FuRongLou">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>芙蓉楼送辛渐</rdfs:label>
+        <shicang:title>芙蓉楼送辛渐</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;WangChangling"/>
+        <shicang:dynasty>唐</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">742</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;QiJue"/>
+        <shicang:content>寒雨连江夜入吴，平明送客楚山孤。洛阳亲友如相问，一片冰心在玉壶</shicang:content>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_冰心玉"/>
+        <shicang:containsImagery>寒雨</shicang:containsImagery>
+        <shicang:containsImagery>江</shicang:containsImagery>
+        <shicang:containsImagery>楚山</shicang:containsImagery>
+        <shicang:containsImagery>冰心</shicang:containsImagery>
+        <shicang:containsImagery>玉壶</shicang:containsImagery>
+        <shicang:expressesEmotion>送别</shicang:expressesEmotion>
+        <shicang:expressesEmotion>高洁</shicang:expressesEmotion>
+        <shicang:expressesEmotion>坚贞</shicang:expressesEmotion>
+        <shicang:hasTheme>送别</shicang:hasTheme>
+        <shicang:creationBackground>被贬江宁丞时，送友人辛渐北上洛阳</shicang:creationBackground>
+        <shicang:sourceDataset>全唐诗</shicang:sourceDataset>
+        <shicang:compositionPlace>润州芙蓉楼（江苏镇江）</shicang:compositionPlace>
+        <shicang:contextType>送别</shicang:contextType>
+        <shicang:compositionSeason>秋</shicang:compositionSeason>
+        <shicang:themeColor>#607D8B</shicang:themeColor>
+        <shicang:themeAccent>#78909C</shicang:themeAccent>
+        <shicang:themeBg>#F5F8F9</shicang:themeBg>
+    
+        <shicang:rhymeGroup>七虞</shicang:rhymeGroup>
+        <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
+        <shicang:studyTheme>旷达超脱</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/WangChangling_FuRongLou.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;DuFu_ChunWang">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>春望</rdfs:label>
+        <shicang:title>春望</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;DuFu"/>
+        <shicang:dynasty>唐</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">757</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;WuLv"/>
+        <shicang:content>国破山河在，城春草木深。感时花溅泪，恨别鸟惊心。烽火连三月，家书抵万金</shicang:content>
+        <shicang:containsImagery>山河</shicang:containsImagery>
+        <shicang:containsImagery>草木</shicang:containsImagery>
+        <shicang:containsImagery>花</shicang:containsImagery>
+        <shicang:containsImagery>鸟</shicang:containsImagery>
+        <shicang:containsImagery>烽火</shicang:containsImagery>
+        <shicang:containsImagery>家书</shicang:containsImagery>
+        <shicang:containsImagery>白头</shicang:containsImagery>
+        <shicang:expressesEmotion>忧国</shicang:expressesEmotion>
+        <shicang:expressesEmotion>思亲</shicang:expressesEmotion>
+        <shicang:expressesEmotion>悲痛</shicang:expressesEmotion>
+        <shicang:expressesEmotion>沉郁</shicang:expressesEmotion>
+        <shicang:hasTheme>战乱忧国</shicang:hasTheme>
+        <shicang:creationBackground>安史之乱中被困长安春日所见</shicang:creationBackground>
+        <shicang:sourceDataset>杜工部集</shicang:sourceDataset>
+        <shicang:compositionPlace>长安（陕西西安）</shicang:compositionPlace>
+        <shicang:contextType>安史乱中被困</shicang:contextType>
+        <shicang:compositionSeason>春</shicang:compositionSeason>
+        <shicang:themeColor>#7F8C8D</shicang:themeColor>
+        <shicang:themeAccent>#2C3E50</shicang:themeAccent>
+        <shicang:themeBg>#F5F5F5</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十二侵</shicang:rhymeGroup>
+        <shicang:rhymeScheme>偶句押韵，一韵到底</shicang:rhymeScheme>
+        <shicang:rhymeLines>2,4,6,8</shicang:rhymeLines>
+        <shicang:studyTheme>慷慨爱国</shicang:studyTheme>
+        <shicang:studyDepth>deep</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/DuFu_ChunWang.html</shicang:studyPage>
+        <shicang:vernacularTranslation>国都沦陷，山河依旧存在。　长安的春天到了，草木疯长，一片荒芜。　感伤时局，见花开也溅泪。　痛恨离别，闻鸟鸣也惊心。　战火连绵，已经三月不绝。　一封家书，抵得上万两黄金。　满头白发，越搔越短。　简直要连发簪都插不住了。</shicang:vernacularTranslation>
+        <shicang:englishTranslation>The kingdom is destroyed; its hills and rivers remain; In the spring of the city, the grass and trees grow deep. Moved by the times, flowers shed tears on my behalf; Bitter at parting, birds startle my heart. The beacon fires have flared for three months without end; A letter from home is worth ten thousand pieces of gold. My white head, scratched, grows shorter still; I am fit only to be without a hair-clasp.</shicang:englishTranslation>
+        <shicang:appreciation>开篇『国破』而『山河在』，『城春』而『草木深』，反差之中写尽黍离之悲——明是写景，实是写情。颔联『花溅泪』『鸟惊心』以物之有情反衬人之至痛，为移情之绝唱。颈联由情及事，『烽火』与『家书』对举，乱世之痛可触。尾联以白发搔短、不胜簪作结，忧愁之深，全在形体之衰上见出。</shicang:appreciation>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;DuFu_MaoWuWeiQiuFeng">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>茅屋为秋风所破歌</rdfs:label>
+        <shicang:title>茅屋为秋风所破歌</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;DuFu"/>
+        <shicang:dynasty>唐</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">761</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;QiYanGeXing"/>
+        <shicang:content>安得广厦千万间，大庇天下寒士俱欢颜，风雨不动安如山</shicang:content>
+        <shicang:containsImagery>茅屋</shicang:containsImagery>
+        <shicang:containsImagery>秋风</shicang:containsImagery>
+        <shicang:containsImagery>广厦</shicang:containsImagery>
+        <shicang:containsImagery>寒士</shicang:containsImagery>
+        <shicang:expressesEmotion>忧民</shicang:expressesEmotion>
+        <shicang:expressesEmotion>悲悯</shicang:expressesEmotion>
+        <shicang:expressesEmotion>博大</shicang:expressesEmotion>
+        <shicang:hasTheme>民生疾苦</shicang:hasTheme>
+        <shicang:creationBackground>成都草堂被秋风吹破，夜雨屋漏作此</shicang:creationBackground>
+        <shicang:sourceDataset>杜工部集</shicang:sourceDataset>
+        <shicang:compositionPlace>成都浣花溪草堂</shicang:compositionPlace>
+        <shicang:contextType>夜雨屋漏</shicang:contextType>
+        <shicang:compositionSeason>秋</shicang:compositionSeason>
+        <shicang:themeColor>#7F8C8D</shicang:themeColor>
+        <shicang:themeAccent>#2C3E50</shicang:themeAccent>
+        <shicang:themeBg>#F5F5F5</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十五删</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句、第2句、第3句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,3</shicang:rhymeLines>
+        <shicang:studyTheme>悲慨沉郁</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/DuFu_MaoWuWeiQiuFeng.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;DuFu_DengGao">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>登高</rdfs:label>
+        <shicang:title>登高</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;DuFu"/>
+        <shicang:dynasty>唐</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">767</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;QiLv"/>
+        <shicang:content>风急天高猿啸哀，渚清沙白鸟飞回。无边落木萧萧下，不尽长江滚滚来。万里悲秋常作客，百年多病独登台</shicang:content>
+        <shicang:containsImagery>风</shicang:containsImagery>
+        <shicang:containsImagery>天</shicang:containsImagery>
+        <shicang:containsImagery>猿</shicang:containsImagery>
+        <shicang:containsImagery>渚</shicang:containsImagery>
+        <shicang:containsImagery>沙</shicang:containsImagery>
+        <shicang:containsImagery>鸟</shicang:containsImagery>
+        <shicang:containsImagery>落木</shicang:containsImagery>
+        <shicang:containsImagery>长江</shicang:containsImagery>
+        <shicang:containsImagery>秋</shicang:containsImagery>
+        <shicang:containsImagery>台</shicang:containsImagery>
+        <shicang:expressesEmotion>沉郁</shicang:expressesEmotion>
+        <shicang:expressesEmotion>悲秋</shicang:expressesEmotion>
+        <shicang:expressesEmotion>老病</shicang:expressesEmotion>
+        <shicang:expressesEmotion>孤独</shicang:expressesEmotion>
+        <shicang:hasTheme>登高悲秋</shicang:hasTheme>
+        <shicang:creationBackground>夔州重阳节登高，寓居巴蜀多病</shicang:creationBackground>
+        <shicang:sourceDataset>杜工部集，古今七言律第一</shicang:sourceDataset>
+        <shicang:compositionPlace>夔州（重庆奉节）</shicang:compositionPlace>
+        <shicang:contextType>重阳登高</shicang:contextType>
+        <shicang:compositionSeason>秋</shicang:compositionSeason>
+        <shicang:themeColor>#7F8C8D</shicang:themeColor>
+        <shicang:themeAccent>#2C3E50</shicang:themeAccent>
+        <shicang:themeBg>#F5F5F5</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十灰</shicang:rhymeGroup>
+        <shicang:rhymeScheme>首句入韵，逐偶句押韵，一韵到底</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4,6,8</shicang:rhymeLines>
+        <shicang:studyTheme>悲慨沉郁</shicang:studyTheme>
+        <shicang:studyDepth>deep</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/DuFu_DengGao.html</shicang:studyPage>
+        <shicang:vernacularTranslation>秋风劲急，天宇高远，猿声凄厉哀转。　水清沙白的洲渚上，鸟儿在风中盘旋。　无边无际的落叶萧萧地飘落。　奔流不尽的江水滚滚而来。　悲叹秋日，万里漂泊常年为客。　一生多病，今日独自登临高台。　历尽艰难，深恨这满头如霜的白发。　穷愁潦倒，偏偏新近又停下了浊酒杯。</shicang:vernacularTranslation>
+        <shicang:englishTranslation>The wind is sharp, the sky is high, the apes howl in grief; Over the clear isle and white sand the birds wheel back. The boundless falling leaves rustle down without end; The endless Long River rolls on and on. Ten thousand li from home, I sorrow in autumn, ever a stranger; A hundred years of many ills, alone I climb the height. Through hardship and bitter regret my temples frost with white; Poor and ill, I have newly given up my cup of cloudy wine.</shicang:englishTranslation>
+        <shicang:appreciation>被誉为『古今七律第一』。前四句写景，以『急』『高』『哀』『清』『白』『无边』『不尽』等字层层催逼，苍茫阔大中透出肃杀；后四句抒情，『万里』对『百年』，『悲秋』对『多病』，『常作客』对『独登台』，八重愁绪如浪叠来。结句以因病戒酒作结，欲悲无酒，沉郁至极。八句皆对仗，却无板滞之迹。</shicang:appreciation>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;DuFu_SanLiSanBie">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>三吏三别</rdfs:label>
+        <shicang:title>三吏三别</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;DuFu"/>
+        <shicang:dynasty>唐</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">759</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;YueFu"/>
+        <shicang:content>暮投石壕村，有吏夜捉人</shicang:content>
+        <shicang:containsImagery>吏</shicang:containsImagery>
+        <shicang:containsImagery>石壕村</shicang:containsImagery>
+        <shicang:containsImagery>老兵</shicang:containsImagery>
+        <shicang:containsImagery>征人</shicang:containsImagery>
+        <shicang:expressesEmotion>悲悯</shicang:expressesEmotion>
+        <shicang:expressesEmotion>忧民</shicang:expressesEmotion>
+        <shicang:expressesEmotion>沉痛</shicang:expressesEmotion>
+        <shicang:hasTheme>战乱民生</shicang:hasTheme>
+        <shicang:creationBackground>安史之乱中从洛阳回华州途中所见民生疾苦</shicang:creationBackground>
+        <shicang:sourceDataset>杜工部集</shicang:sourceDataset>
+        <shicang:compositionPlace>新安/石壕/潼关（河南）</shicang:compositionPlace>
+        <shicang:contextType>战乱途中所见</shicang:contextType>
+        <shicang:compositionSeason>春</shicang:compositionSeason>
+        <shicang:themeColor>#7F8C8D</shicang:themeColor>
+        <shicang:themeAccent>#2C3E50</shicang:themeAccent>
+        <shicang:themeBg>#F5F5F5</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十三元</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句、第2句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2</shicang:rhymeLines>
+        <shicang:studyTheme>悲慨沉郁</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/DuFu_SanLiSanBie.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;BaiJuyi_ChangHenGe">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>长恨歌</rdfs:label>
+        <shicang:title>长恨歌</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;BaiJuyi"/>
+        <shicang:dynasty>唐</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">806</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;QiYanGeXing"/>
+        <shicang:content>在天愿作比翼鸟，在地愿为连理枝。天长地久有时尽，此恨绵绵无绝期</shicang:content>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_杨贵妃"/>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_唐玄宗"/>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_马嵬坡"/>
+        <shicang:containsImagery>芙蓉如面柳如眉</shicang:containsImagery>
+        <shicang:containsImagery>比翼鸟</shicang:containsImagery>
+        <shicang:containsImagery>连理枝</shicang:containsImagery>
+        <shicang:containsImagery>长生殿</shicang:containsImagery>
+        <shicang:expressesEmotion>爱情</shicang:expressesEmotion>
+        <shicang:expressesEmotion>怅惘</shicang:expressesEmotion>
+        <shicang:expressesEmotion>悲悯</shicang:expressesEmotion>
+        <shicang:hasTheme>爱情叙事</shicang:hasTheme>
+        <shicang:creationBackground>盩厔县尉任上，与友人陈鸿、王质夫同游仙游寺，话及唐玄宗杨贵妃事而作</shicang:creationBackground>
+        <shicang:sourceDataset>白氏长庆集</shicang:sourceDataset>
+        <shicang:compositionPlace>盩厔仙游寺（陕西周至）</shicang:compositionPlace>
+        <shicang:contextType>与友话天宝遗事</shicang:contextType>
+        <shicang:compositionSeason>秋</shicang:compositionSeason>
+        <shicang:themeColor>#8E44AD</shicang:themeColor>
+        <shicang:themeAccent>#E91E63</shicang:themeAccent>
+        <shicang:themeBg>#FBF5FC</shicang:themeBg>
+    
+        <shicang:rhymeGroup>四支</shicang:rhymeGroup>
+        <shicang:rhymeScheme>二、四句押韵（abcb 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>2,4</shicang:rhymeLines>
+        <shicang:studyTheme>深情婉约</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/BaiJuyi_ChangHenGe.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;BaiJuyi_PiPaXing">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>琵琶行</rdfs:label>
+        <shicang:title>琵琶行</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;BaiJuyi"/>
+        <shicang:dynasty>唐</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">816</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;QiYanGeXing"/>
+        <shicang:content>同是天涯沦落人，相逢何必曾相识。千呼万唤始出来，犹抱琵琶半遮面</shicang:content>
+        <shicang:containsImagery>琵琶</shicang:containsImagery>
+        <shicang:containsImagery>江月</shicang:containsImagery>
+        <shicang:containsImagery>荻花</shicang:containsImagery>
+        <shicang:containsImagery>枫叶</shicang:containsImagery>
+        <shicang:containsImagery>青衫</shicang:containsImagery>
+        <shicang:expressesEmotion>贬谪</shicang:expressesEmotion>
+        <shicang:expressesEmotion>共鸣</shicang:expressesEmotion>
+        <shicang:expressesEmotion>悲慨</shicang:expressesEmotion>
+        <shicang:hasTheme>贬谪抒怀</shicang:hasTheme>
+        <shicang:creationBackground>贬江州司马秋夜送客，闻长安故妓弹琵琶而作</shicang:creationBackground>
+        <shicang:sourceDataset>白氏长庆集</shicang:sourceDataset>
+        <shicang:compositionPlace>江州湓浦口（江西九江）</shicang:compositionPlace>
+        <shicang:contextType>江头送客闻琵琶</shicang:contextType>
+        <shicang:compositionSeason>秋</shicang:compositionSeason>
+        <shicang:themeColor>#7F8C8D</shicang:themeColor>
+        <shicang:themeAccent>#2C3E50</shicang:themeAccent>
+        <shicang:themeBg>#F5F5F5</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十一真</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1</shicang:rhymeLines>
+        <shicang:studyTheme>悲慨沉郁</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/BaiJuyi_PiPaXing.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;BaiJuyi_MaiTanWeng">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>卖炭翁</rdfs:label>
+        <shicang:title>卖炭翁</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;BaiJuyi"/>
+        <shicang:dynasty>唐</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">810</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;XinYueFu"/>
+        <shicang:content>卖炭翁，伐薪烧炭南山中。满面尘灰烟火色，两鬓苍苍十指黑。可怜身上衣正单，心忧炭贱愿天寒</shicang:content>
+        <shicang:containsImagery>炭</shicang:containsImagery>
+        <shicang:containsImagery>南山</shicang:containsImagery>
+        <shicang:containsImagery>黄衣使者</shicang:containsImagery>
+        <shicang:containsImagery>牛困人饥</shicang:containsImagery>
+        <shicang:expressesEmotion>悲悯</shicang:expressesEmotion>
+        <shicang:expressesEmotion>忧民</shicang:expressesEmotion>
+        <shicang:expressesEmotion>愤懑</shicang:expressesEmotion>
+        <shicang:hasTheme>民生疾苦</shicang:hasTheme>
+        <shicang:creationBackground>新乐府组诗之一，讽宫市之弊</shicang:creationBackground>
+        <shicang:sourceDataset>白氏长庆集</shicang:sourceDataset>
+        <shicang:compositionPlace>长安（陕西西安）</shicang:compositionPlace>
+        <shicang:contextType>讽喻民生</shicang:contextType>
+        <shicang:compositionSeason>冬</shicang:compositionSeason>
+        <shicang:themeColor>#7F8C8D</shicang:themeColor>
+        <shicang:themeAccent>#2C3E50</shicang:themeAccent>
+        <shicang:themeBg>#F5F5F5</shicang:themeBg>
+    
+        <shicang:rhymeGroup>一东</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句、第2句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2</shicang:rhymeLines>
+        <shicang:studyTheme>悲慨沉郁</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/BaiJuyi_MaiTanWeng.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;YuanZhen_LiSi">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>离思·其四</rdfs:label>
+        <shicang:title>离思·其四</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;YuanZhen"/>
+        <shicang:dynasty>唐</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">809</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;QiJue"/>
+        <shicang:content>曾经沧海难为水，除却巫山不是云。取次花丛懒回顾，半缘修道半缘君</shicang:content>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_巫山云"/>
+        <shicang:containsImagery>沧海</shicang:containsImagery>
+        <shicang:containsImagery>巫山云</shicang:containsImagery>
+        <shicang:containsImagery>花丛</shicang:containsImagery>
+        <shicang:expressesEmotion>悼亡</shicang:expressesEmotion>
+        <shicang:expressesEmotion>忠贞</shicang:expressesEmotion>
+        <shicang:expressesEmotion>思念</shicang:expressesEmotion>
+        <shicang:hasTheme>悼亡</shicang:hasTheme>
+        <shicang:creationBackground>悼念亡妻韦丛而作</shicang:creationBackground>
+        <shicang:sourceDataset>元氏长庆集</shicang:sourceDataset>
+        <shicang:compositionPlace>长安（陕西西安）</shicang:compositionPlace>
+        <shicang:contextType>悼亡妻</shicang:contextType>
+        <shicang:compositionSeason>春</shicang:compositionSeason>
+        <shicang:themeColor>#8E44AD</shicang:themeColor>
+        <shicang:themeAccent>#E91E63</shicang:themeAccent>
+        <shicang:themeBg>#FBF5FC</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十二文</shicang:rhymeGroup>
+        <shicang:rhymeScheme>二、四句押韵（abcb 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>2,4</shicang:rhymeLines>
+        <shicang:studyTheme>深情婉约</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/YuanZhen_LiSi.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;LiuYuxi_LouShiMing">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>陋室铭</rdfs:label>
+        <shicang:title>陋室铭</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;LiuYuxi"/>
+        <shicang:dynasty>唐</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">825</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;Ming"/>
+        <shicang:content>山不在高，有仙则名；水不在深，有龙则灵。斯是陋室，惟吾德馨</shicang:content>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_诸葛庐"/>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_子云亭"/>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_孔子何"/>
+        <shicang:containsImagery>陋室</shicang:containsImagery>
+        <shicang:containsImagery>苔痕</shicang:containsImagery>
+        <shicang:containsImagery>草色</shicang:containsImagery>
+        <shicang:containsImagery>素琴</shicang:containsImagery>
+        <shicang:containsImagery>金经</shicang:containsImagery>
+        <shicang:expressesEmotion>高洁</shicang:expressesEmotion>
+        <shicang:expressesEmotion>傲岸</shicang:expressesEmotion>
+        <shicang:expressesEmotion>旷达</shicang:expressesEmotion>
+        <shicang:hasTheme>抒怀明志</shicang:hasTheme>
+        <shicang:creationBackground>被贬和州刺史，居于陋室而作</shicang:creationBackground>
+        <shicang:sourceDataset>刘梦得文集</shicang:sourceDataset>
+        <shicang:compositionPlace>和州陋室（安徽和县）</shicang:compositionPlace>
+        <shicang:contextType>贬谪明志</shicang:contextType>
+        <shicang:compositionSeason>夏</shicang:compositionSeason>
+        <shicang:themeColor>#2980B9</shicang:themeColor>
+        <shicang:themeAccent>#3498DB</shicang:themeAccent>
+        <shicang:themeBg>#F0F7FC</shicang:themeBg>
+    
+        <shicang:rhymeGroup>八庚</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第2句、第3句、第4句、第6句</shicang:rhymeScheme>
+        <shicang:rhymeLines>2,3,4,6</shicang:rhymeLines>
+        <shicang:studyTheme>旷达超脱</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/LiuYuxi_LouShiMing.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;LiuYuxi_WuYiXiang">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>乌衣巷</rdfs:label>
+        <shicang:title>乌衣巷</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;LiuYuxi"/>
+        <shicang:dynasty>唐</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">826</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;QiJue"/>
+        <shicang:content>朱雀桥边野草花，乌衣巷口夕阳斜。旧时王谢堂前燕，飞入寻常百姓家</shicang:content>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_王导谢"/>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_乌衣巷"/>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_朱雀桥"/>
+        <shicang:containsImagery>野草</shicang:containsImagery>
+        <shicang:containsImagery>夕阳</shicang:containsImagery>
+        <shicang:containsImagery>燕子</shicang:containsImagery>
+        <shicang:containsImagery>王谢堂</shicang:containsImagery>
+        <shicang:expressesEmotion>怀古</shicang:expressesEmotion>
+        <shicang:expressesEmotion>沧桑</shicang:expressesEmotion>
+        <shicang:expressesEmotion>兴亡感慨</shicang:expressesEmotion>
+        <shicang:hasTheme>怀古</shicang:hasTheme>
+        <shicang:creationBackground>和州任上游金陵作《金陵五题》之二</shicang:creationBackground>
+        <shicang:sourceDataset>刘梦得文集</shicang:sourceDataset>
+        <shicang:compositionPlace>金陵乌衣巷（江苏南京）</shicang:compositionPlace>
+        <shicang:contextType>登临怀古</shicang:contextType>
+        <shicang:compositionSeason>春</shicang:compositionSeason>
+        <shicang:themeColor>#795548</shicang:themeColor>
+        <shicang:themeAccent>#8D6E63</shicang:themeAccent>
+        <shicang:themeBg>#FAF6F0</shicang:themeBg>
+    
+        <shicang:rhymeGroup>六麻</shicang:rhymeGroup>
+        <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
+        <shicang:studyTheme>怀古沧桑</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/LiuYuxi_WuYiXiang.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;LiuYuxi_ChouLeTian">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>酬乐天扬州初逢席上见赠</rdfs:label>
+        <shicang:title>酬乐天扬州初逢席上见赠</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;LiuYuxi"/>
+        <shicang:dynasty>唐</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">826</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;QiLv"/>
+        <shicang:content>沉舟侧畔千帆过，病树前头万木春。今日听君歌一曲，暂凭杯酒长精神</shicang:content>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_闻笛赋"/>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_烂柯人"/>
+        <shicang:containsImagery>沉舟</shicang:containsImagery>
+        <shicang:containsImagery>千帆</shicang:containsImagery>
+        <shicang:containsImagery>病树</shicang:containsImagery>
+        <shicang:containsImagery>万木</shicang:containsImagery>
+        <shicang:containsImagery>酒</shicang:containsImagery>
+        <shicang:expressesEmotion>豁达</shicang:expressesEmotion>
+        <shicang:expressesEmotion>振作</shicang:expressesEmotion>
+        <shicang:expressesEmotion>感慨</shicang:expressesEmotion>
+        <shicang:hasTheme>酬赠抒怀</shicang:hasTheme>
+        <shicang:creationBackground>罢和州刺史返洛阳，扬州初遇白居易，席上酬答</shicang:creationBackground>
+        <shicang:sourceDataset>刘梦得文集</shicang:sourceDataset>
+        <shicang:compositionPlace>扬州（江苏）</shicang:compositionPlace>
+        <shicang:contextType>席上酬答</shicang:contextType>
+        <shicang:compositionSeason>冬</shicang:compositionSeason>
+        <shicang:themeColor>#2980B9</shicang:themeColor>
+        <shicang:themeAccent>#3498DB</shicang:themeAccent>
+        <shicang:themeBg>#F0F7FC</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十一真</shicang:rhymeGroup>
+        <shicang:rhymeScheme>二、四句押韵（abcb 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>2,4</shicang:rhymeLines>
+        <shicang:studyTheme>旷达超脱</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/LiuYuxi_ChouLeTian.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;LiHe_YanMenTaiShouXing">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>雁门太守行</rdfs:label>
+        <shicang:title>雁门太守行</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;LiHe"/>
+        <shicang:dynasty>唐</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">809</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;YueFu"/>
+        <shicang:content>黑云压城城欲摧，甲光向日金鳞开。报君黄金台上意，提携玉龙为君死</shicang:content>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_黄金台"/>
+        <shicang:containsImagery>黑云</shicang:containsImagery>
+        <shicang:containsImagery>甲光</shicang:containsImagery>
+        <shicang:containsImagery>金鳞</shicang:containsImagery>
+        <shicang:containsImagery>角声</shicang:containsImagery>
+        <shicang:containsImagery>胭脂</shicang:containsImagery>
+        <shicang:containsImagery>夜紫</shicang:containsImagery>
+        <shicang:containsImagery>红旗</shicang:containsImagery>
+        <shicang:containsImagery>玉龙</shicang:containsImagery>
+        <shicang:expressesEmotion>悲壮</shicang:expressesEmotion>
+        <shicang:expressesEmotion>忠勇</shicang:expressesEmotion>
+        <shicang:expressesEmotion>奇诡</shicang:expressesEmotion>
+        <shicang:hasTheme>边塞战争</shicang:hasTheme>
+        <shicang:creationBackground>谒韩愈时呈献此诗，写平叛战事</shicang:creationBackground>
+        <shicang:sourceDataset>李长吉歌诗</shicang:sourceDataset>
+        <shicang:compositionPlace>雁门郡（山西代县）</shicang:compositionPlace>
+        <shicang:contextType>平叛战事</shicang:contextType>
+        <shicang:compositionSeason>秋</shicang:compositionSeason>
+        <shicang:themeColor>#D35400</shicang:themeColor>
+        <shicang:themeAccent>#C0392B</shicang:themeAccent>
+        <shicang:themeBg>#FEF9F0</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十灰</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句、第2句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2</shicang:rhymeLines>
+        <shicang:studyTheme>悲慨沉郁</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/LiHe_YanMenTaiShouXing.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;DuMu_AFangGongFu">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>阿房宫赋</rdfs:label>
+        <shicang:title>阿房宫赋</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;DuMu"/>
+        <shicang:dynasty>唐</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">825</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;Fu"/>
+        <shicang:content>六王毕，四海一。蜀山兀，阿房出。后人哀之而不鉴之，亦使后人而复哀后人也</shicang:content>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_秦始皇"/>
+        <shicang:containsImagery>阿房宫</shicang:containsImagery>
+        <shicang:containsImagery>蜀山</shicang:containsImagery>
+        <shicang:containsImagery>廊腰缦回</shicang:containsImagery>
+        <shicang:containsImagery>檐牙高啄</shicang:containsImagery>
+        <shicang:expressesEmotion>警示</shicang:expressesEmotion>
+        <shicang:expressesEmotion>感慨</shicang:expressesEmotion>
+        <shicang:hasTheme>咏史讽喻</shicang:hasTheme>
+        <shicang:creationBackground>敬宗大起宫室，作此赋以讽谏</shicang:creationBackground>
+        <shicang:sourceDataset>樊川文集</shicang:sourceDataset>
+        <shicang:compositionPlace>长安（陕西西安）</shicang:compositionPlace>
+        <shicang:contextType>讽喻时弊</shicang:contextType>
+        <shicang:compositionSeason>秋</shicang:compositionSeason>
+        <shicang:themeColor>#795548</shicang:themeColor>
+        <shicang:themeAccent>#8D6E63</shicang:themeAccent>
+        <shicang:themeBg>#FAF6F0</shicang:themeBg>
+    
+        <shicang:rhymeGroup>支</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句、第2句、第3句、第4句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,3,4</shicang:rhymeLines>
+        <shicang:studyTheme>怀古沧桑</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/DuMu_AFangGongFu.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;DuMu_QingMing">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>清明</rdfs:label>
+        <shicang:title>清明</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;DuMu"/>
+        <shicang:dynasty>唐</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">840</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;QiJue"/>
+        <shicang:content>清明时节雨纷纷，路上行人欲断魂。借问酒家何处有，牧童遥指杏花村</shicang:content>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_清明节"/>
+        <shicang:containsImagery>春雨</shicang:containsImagery>
+        <shicang:containsImagery>行人</shicang:containsImagery>
+        <shicang:containsImagery>酒家</shicang:containsImagery>
+        <shicang:containsImagery>牧童</shicang:containsImagery>
+        <shicang:containsImagery>杏花村</shicang:containsImagery>
+        <shicang:expressesEmotion>怅惘</shicang:expressesEmotion>
+        <shicang:expressesEmotion>清明愁绪</shicang:expressesEmotion>
+        <shicang:hasTheme>节令行旅</shicang:hasTheme>
+        <shicang:sourceDataset>全唐诗</shicang:sourceDataset>
+        <shicang:compositionPlace>池州（安徽贵池）</shicang:compositionPlace>
+        <shicang:contextType>清明行旅</shicang:contextType>
+        <shicang:compositionSeason>春</shicang:compositionSeason>
+        <shicang:themeColor>#607D8B</shicang:themeColor>
+        <shicang:themeAccent>#78909C</shicang:themeAccent>
+        <shicang:themeBg>#F5F8F9</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十三元</shicang:rhymeGroup>
+        <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
+        <shicang:studyTheme>悲慨沉郁</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/DuMu_QingMing.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;DuMu_BoQinHuai">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>泊秦淮</rdfs:label>
+        <shicang:title>泊秦淮</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;DuMu"/>
+        <shicang:dynasty>唐</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">840</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;QiJue"/>
+        <shicang:content>烟笼寒水月笼沙，夜泊秦淮近酒家。商女不知亡国恨，隔江犹唱后庭花</shicang:content>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_陈后主"/>
+        <shicang:containsImagery>烟</shicang:containsImagery>
+        <shicang:containsImagery>寒水</shicang:containsImagery>
+        <shicang:containsImagery>月</shicang:containsImagery>
+        <shicang:containsImagery>沙</shicang:containsImagery>
+        <shicang:containsImagery>秦淮河</shicang:containsImagery>
+        <shicang:containsImagery>酒家</shicang:containsImagery>
+        <shicang:containsImagery>商女</shicang:containsImagery>
+        <shicang:expressesEmotion>忧国</shicang:expressesEmotion>
+        <shicang:expressesEmotion>讽喻</shicang:expressesEmotion>
+        <shicang:expressesEmotion>感慨</shicang:expressesEmotion>
+        <shicang:hasTheme>咏史讽喻</shicang:hasTheme>
+        <shicang:creationBackground>夜泊秦淮河，闻歌女唱玉树后庭花感晚唐国运作</shicang:creationBackground>
+        <shicang:sourceDataset>樊川文集</shicang:sourceDataset>
+        <shicang:compositionPlace>金陵秦淮河（江苏南京）</shicang:compositionPlace>
+        <shicang:contextType>夜泊闻歌</shicang:contextType>
+        <shicang:compositionSeason>秋</shicang:compositionSeason>
+        <shicang:themeColor>#795548</shicang:themeColor>
+        <shicang:themeAccent>#8D6E63</shicang:themeAccent>
+        <shicang:themeBg>#FAF6F0</shicang:themeBg>
+    
+        <shicang:rhymeGroup>六麻</shicang:rhymeGroup>
+        <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
+        <shicang:studyTheme>慷慨爱国</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/DuMu_BoQinHuai.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;DuMu_ChiBi">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>赤壁</rdfs:label>
+        <shicang:title>赤壁</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;DuMu"/>
+        <shicang:dynasty>唐</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">842</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;QiJue"/>
+        <shicang:content>折戟沉沙铁未销，自将磨洗认前朝。东风不与周郎便，铜雀春深锁二乔</shicang:content>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_赤壁之"/>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_周瑜"/>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_铜雀台"/>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_二乔"/>
+        <shicang:containsImagery>折戟</shicang:containsImagery>
+        <shicang:containsImagery>沉沙</shicang:containsImagery>
+        <shicang:containsImagery>东风</shicang:containsImagery>
+        <shicang:containsImagery>铜雀台</shicang:containsImagery>
+        <shicang:expressesEmotion>怀古</shicang:expressesEmotion>
+        <shicang:expressesEmotion>感慨</shicang:expressesEmotion>
+        <shicang:hasTheme>怀古咏史</shicang:hasTheme>
+        <shicang:creationBackground>黄州刺史任上经赤壁古战场作</shicang:creationBackground>
+        <shicang:sourceDataset>樊川文集</shicang:sourceDataset>
+        <shicang:compositionPlace>黄州赤壁（湖北黄冈）</shicang:compositionPlace>
+        <shicang:contextType>登临怀古</shicang:contextType>
+        <shicang:compositionSeason>夏</shicang:compositionSeason>
+        <shicang:themeColor>#795548</shicang:themeColor>
+        <shicang:themeAccent>#8D6E63</shicang:themeAccent>
+        <shicang:themeBg>#FAF6F0</shicang:themeBg>
+    
+        <shicang:rhymeGroup>二萧</shicang:rhymeGroup>
+        <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
+        <shicang:studyTheme>怀古沧桑</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/DuMu_ChiBi.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;LiShangyin_JinSe">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>锦瑟</rdfs:label>
+        <shicang:title>锦瑟</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;LiShangyin"/>
+        <shicang:dynasty>唐</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">858</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;QiLv"/>
+        <shicang:content>锦瑟无端五十弦，一弦一柱思华年。庄生晓梦迷蝴蝶，望帝春心托杜鹃。沧海月明珠有泪，蓝田日暖玉生烟</shicang:content>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_庄周梦"/>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_望帝啼"/>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_沧海珠"/>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_蓝田玉"/>
+        <shicang:containsImagery>锦瑟</shicang:containsImagery>
+        <shicang:containsImagery>蝴蝶</shicang:containsImagery>
+        <shicang:containsImagery>杜鹃</shicang:containsImagery>
+        <shicang:containsImagery>珠泪</shicang:containsImagery>
+        <shicang:containsImagery>玉烟</shicang:containsImagery>
+        <shicang:expressesEmotion>怅惘</shicang:expressesEmotion>
+        <shicang:expressesEmotion>朦胧</shicang:expressesEmotion>
+        <shicang:expressesEmotion>追忆</shicang:expressesEmotion>
+        <shicang:expressesEmotion>感伤</shicang:expressesEmotion>
+        <shicang:hasTheme>追忆抒怀</shicang:hasTheme>
+        <shicang:creationBackground>晚年临终前自序诗，义山诗压卷之作，诗家总爱西昆好</shicang:creationBackground>
+        <shicang:sourceDataset>李义山诗集</shicang:sourceDataset>
+        <shicang:compositionPlace>郑州（河南）</shicang:compositionPlace>
+        <shicang:contextType>晚年自序</shicang:contextType>
+        <shicang:compositionSeason>秋</shicang:compositionSeason>
+        <shicang:themeColor>#8E44AD</shicang:themeColor>
+        <shicang:themeAccent>#E91E63</shicang:themeAccent>
+        <shicang:themeBg>#FBF5FC</shicang:themeBg>
+    
+        <shicang:rhymeGroup>一先</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句、第2句、第4句、第6句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4,6</shicang:rhymeLines>
+        <shicang:studyTheme>旷达超脱</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/LiShangyin_JinSe.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;LiShangyin_WuTi">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>无题·相见时难别亦难</rdfs:label>
+        <shicang:title>无题·相见时难别亦难</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;LiShangyin"/>
+        <shicang:dynasty>唐</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">845</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;QiLv"/>
+        <shicang:content>相见时难别亦难，东风无力百花残。春蚕到死丝方尽，蜡炬成灰泪始干</shicang:content>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_蓬山"/>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_青鸟"/>
+        <shicang:containsImagery>东风</shicang:containsImagery>
+        <shicang:containsImagery>百花</shicang:containsImagery>
+        <shicang:containsImagery>春蚕</shicang:containsImagery>
+        <shicang:containsImagery>蜡炬</shicang:containsImagery>
+        <shicang:containsImagery>蓬山</shicang:containsImagery>
+        <shicang:containsImagery>青鸟</shicang:containsImagery>
+        <shicang:containsImagery>云鬓</shicang:containsImagery>
+        <shicang:containsImagery>月光</shicang:containsImagery>
+        <shicang:expressesEmotion>爱情</shicang:expressesEmotion>
+        <shicang:expressesEmotion>相思</shicang:expressesEmotion>
+        <shicang:expressesEmotion>坚贞</shicang:expressesEmotion>
+        <shicang:expressesEmotion>凄美</shicang:expressesEmotion>
+        <shicang:hasTheme>爱情</shicang:hasTheme>
+        <shicang:creationBackground>无题爱情诗经典，写离别相思之苦</shicang:creationBackground>
+        <shicang:sourceDataset>李义山诗集</shicang:sourceDataset>
+        <shicang:compositionPlace>泾原（甘肃泾川）</shicang:compositionPlace>
+        <shicang:contextType>爱情抒怀</shicang:contextType>
+        <shicang:compositionSeason>春</shicang:compositionSeason>
+        <shicang:themeColor>#8E44AD</shicang:themeColor>
+        <shicang:themeAccent>#E91E63</shicang:themeAccent>
+        <shicang:themeBg>#FBF5FC</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十四寒</shicang:rhymeGroup>
+        <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
+        <shicang:studyTheme>深情婉约</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/LiShangyin_WuTi.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;LiShangyin_YeYuJiBei">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>夜雨寄北</rdfs:label>
+        <shicang:title>夜雨寄北</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;LiShangyin"/>
+        <shicang:dynasty>唐</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">848</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;QiJue"/>
+        <shicang:content>君问归期未有期，巴山夜雨涨秋池。何当共剪西窗烛，却话巴山夜雨时</shicang:content>
+        <shicang:containsImagery>巴山</shicang:containsImagery>
+        <shicang:containsImagery>夜雨</shicang:containsImagery>
+        <shicang:containsImagery>秋池</shicang:containsImagery>
+        <shicang:containsImagery>西窗</shicang:containsImagery>
+        <shicang:containsImagery>烛</shicang:containsImagery>
+        <shicang:expressesEmotion>相思</shicang:expressesEmotion>
+        <shicang:expressesEmotion>归思</shicang:expressesEmotion>
+        <shicang:expressesEmotion>温情</shicang:expressesEmotion>
+        <shicang:hasTheme>思亲怀人</shicang:hasTheme>
+        <shicang:creationBackground>客居巴蜀，寄给长安妻子王氏</shicang:creationBackground>
+        <shicang:sourceDataset>李义山诗集</shicang:sourceDataset>
+        <shicang:compositionPlace>巴蜀（四川）</shicang:compositionPlace>
+        <shicang:contextType>寄妻思亲</shicang:contextType>
+        <shicang:compositionSeason>秋</shicang:compositionSeason>
+        <shicang:themeColor>#8E44AD</shicang:themeColor>
+        <shicang:themeAccent>#E91E63</shicang:themeAccent>
+        <shicang:themeBg>#FBF5FC</shicang:themeBg>
+    
+        <shicang:rhymeGroup>四支</shicang:rhymeGroup>
+        <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
+        <shicang:studyTheme>深情婉约</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/LiShangyin_YeYuJiBei.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;LiYu_YuMeiRen">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>虞美人·春花秋月何时了</rdfs:label>
+        <shicang:title>虞美人·春花秋月何时了</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;LiYu"/>
+        <shicang:dynasty>南唐</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">978</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;Ci"/>
+        <shicang:content>春花秋月何时了？往事知多少。小楼昨夜又东风，故国不堪回首月明中。问君能有几多愁？恰似一江春水向东流</shicang:content>
+        <shicang:containsImagery>春花</shicang:containsImagery>
+        <shicang:containsImagery>秋月</shicang:containsImagery>
+        <shicang:containsImagery>小楼</shicang:containsImagery>
+        <shicang:containsImagery>东风</shicang:containsImagery>
+        <shicang:containsImagery>明月</shicang:containsImagery>
+        <shicang:containsImagery>雕栏玉砌</shicang:containsImagery>
+        <shicang:containsImagery>春水</shicang:containsImagery>
+        <shicang:expressesEmotion>亡国之痛</shicang:expressesEmotion>
+        <shicang:expressesEmotion>愁绪</shicang:expressesEmotion>
+        <shicang:expressesEmotion>故国之思</shicang:expressesEmotion>
+        <shicang:hasTheme>亡国抒怀</shicang:hasTheme>
+        <shicang:creationBackground>亡国降宋后被囚汴京，七夕生日作此词，宋太宗闻之赐牵机药毒死</shicang:creationBackground>
+        <shicang:sourceDataset>南唐二主词</shicang:sourceDataset>
+        <shicang:compositionPlace>汴京囚所（河南开封）</shicang:compositionPlace>
+        <shicang:contextType>亡国囚居</shicang:contextType>
+        <shicang:compositionSeason>春</shicang:compositionSeason>
+        <shicang:themeColor>#7F8C8D</shicang:themeColor>
+        <shicang:themeAccent>#2C3E50</shicang:themeAccent>
+        <shicang:themeBg>#F5F5F5</shicang:themeBg>
+    
+        <shicang:rhymeGroup>一东</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第3句、第4句</shicang:rhymeScheme>
+        <shicang:rhymeLines>3,4</shicang:rhymeLines>
+        <shicang:studyTheme>悲慨沉郁</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/LiYu_YuMeiRen.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;LiYu_LangTaoSha">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>浪淘沙令·帘外雨潺潺</rdfs:label>
+        <shicang:title>浪淘沙令·帘外雨潺潺</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;LiYu"/>
+        <shicang:dynasty>南唐</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">978</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;Ci"/>
+        <shicang:content>帘外雨潺潺，春意阑珊。罗衾不耐五更寒。梦里不知身是客，一晌贪欢。流水落花春去也，天上人间</shicang:content>
+        <shicang:containsImagery>雨</shicang:containsImagery>
+        <shicang:containsImagery>罗衾</shicang:containsImagery>
+        <shicang:containsImagery>五更寒</shicang:containsImagery>
+        <shicang:containsImagery>梦里</shicang:containsImagery>
+        <shicang:containsImagery>流水</shicang:containsImagery>
+        <shicang:containsImagery>落花</shicang:containsImagery>
+        <shicang:expressesEmotion>亡国</shicang:expressesEmotion>
+        <shicang:expressesEmotion>凄凉</shicang:expressesEmotion>
+        <shicang:expressesEmotion>惆怅</shicang:expressesEmotion>
+        <shicang:hasTheme>亡国抒怀</shicang:hasTheme>
+        <shicang:creationBackground>囚汴京时作</shicang:creationBackground>
+        <shicang:sourceDataset>南唐二主词</shicang:sourceDataset>
+        <shicang:compositionPlace>汴京囚所（河南开封）</shicang:compositionPlace>
+        <shicang:contextType>亡国囚居</shicang:contextType>
+        <shicang:compositionSeason>春</shicang:compositionSeason>
+        <shicang:themeColor>#7F8C8D</shicang:themeColor>
+        <shicang:themeAccent>#2C3E50</shicang:themeAccent>
+        <shicang:themeBg>#F5F5F5</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十四寒</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句、第2句、第3句、第5句、第7句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,3,5,7</shicang:rhymeLines>
+        <shicang:studyTheme>旷达超脱</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/LiYu_LangTaoSha.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;FanZhongyan_YuJiaAo">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>渔家傲·秋思</rdfs:label>
+        <shicang:title>渔家傲·秋思</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;FanZhongyan"/>
+        <shicang:dynasty>北宋</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">1040</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;Ci"/>
+        <shicang:content>塞下秋来风景异，衡阳雁去无留意。浊酒一杯家万里，燕然未勒归无计。羌管悠悠霜满地，人不寐，将军白发征夫泪</shicang:content>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_燕然勒"/>
+        <shicang:containsImagery>塞下秋</shicang:containsImagery>
+        <shicang:containsImagery>雁</shicang:containsImagery>
+        <shicang:containsImagery>浊酒</shicang:containsImagery>
+        <shicang:containsImagery>羌管</shicang:containsImagery>
+        <shicang:containsImagery>霜</shicang:containsImagery>
+        <shicang:containsImagery>白发</shicang:containsImagery>
+        <shicang:containsImagery>征夫泪</shicang:containsImagery>
+        <shicang:expressesEmotion>边塞</shicang:expressesEmotion>
+        <shicang:expressesEmotion>思乡</shicang:expressesEmotion>
+        <shicang:expressesEmotion>忧国</shicang:expressesEmotion>
+        <shicang:expressesEmotion>苍凉</shicang:expressesEmotion>
+        <shicang:hasTheme>边塞军旅</shicang:hasTheme>
+        <shicang:creationBackground>陕西经略副使任上守边时作，开宋词豪放先声</shicang:creationBackground>
+        <shicang:sourceDataset>范文正公集</shicang:sourceDataset>
+        <shicang:compositionPlace>延州（陕西延安）</shicang:compositionPlace>
+        <shicang:contextType>守边抒怀</shicang:contextType>
+        <shicang:compositionSeason>秋</shicang:compositionSeason>
+        <shicang:themeColor>#D35400</shicang:themeColor>
+        <shicang:themeAccent>#C0392B</shicang:themeAccent>
+        <shicang:themeBg>#FEF9F0</shicang:themeBg>
+    
+        <shicang:rhymeGroup>四寘</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句、第2句、第3句、第4句、第5句、第6句、第7句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,3,4,5,6,7</shicang:rhymeLines>
+        <shicang:studyTheme>慷慨爱国</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/FanZhongyan_YuJiaAo.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;LiuYong_YuLinLing">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>雨霖铃·寒蝉凄切</rdfs:label>
+        <shicang:title>雨霖铃·寒蝉凄切</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;LiuYong"/>
+        <shicang:dynasty>北宋</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">1024</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;Ci"/>
+        <shicang:content>寒蝉凄切，对长亭晚，骤雨初歇。执手相看泪眼，竟无语凝噎。多情自古伤离别，更那堪冷落清秋节！今宵酒醒何处？杨柳岸晓风残月</shicang:content>
+        <shicang:containsImagery>寒蝉</shicang:containsImagery>
+        <shicang:containsImagery>长亭</shicang:containsImagery>
+        <shicang:containsImagery>骤雨</shicang:containsImagery>
+        <shicang:containsImagery>兰舟</shicang:containsImagery>
+        <shicang:containsImagery>泪眼</shicang:containsImagery>
+        <shicang:containsImagery>杨柳岸</shicang:containsImagery>
+        <shicang:containsImagery>晓风</shicang:containsImagery>
+        <shicang:containsImagery>残月</shicang:containsImagery>
+        <shicang:expressesEmotion>离别</shicang:expressesEmotion>
+        <shicang:expressesEmotion>凄苦</shicang:expressesEmotion>
+        <shicang:expressesEmotion>相思</shicang:expressesEmotion>
+        <shicang:hasTheme>离别送别</shicang:hasTheme>
+        <shicang:creationBackground>离汴京南下与情人话别作，宋金十大名曲之首</shicang:creationBackground>
+        <shicang:sourceDataset>乐章集</shicang:sourceDataset>
+        <shicang:compositionPlace>汴京汴河堤岸（河南开封）</shicang:compositionPlace>
+        <shicang:contextType>送别情人</shicang:contextType>
+        <shicang:compositionSeason>秋</shicang:compositionSeason>
+        <shicang:themeColor>#8E44AD</shicang:themeColor>
+        <shicang:themeAccent>#E91E63</shicang:themeAccent>
+        <shicang:themeBg>#FBF5FC</shicang:themeBg>
+    
+        <shicang:rhymeGroup>歌</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句、第3句、第5句、第6句、第7句、第9句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,3,5,6,7,9</shicang:rhymeLines>
+        <shicang:studyTheme>深情婉约</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/LiuYong_YuLinLing.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;YanShu_HuanXiSha">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>浣溪沙·一曲新词酒一杯</rdfs:label>
+        <shicang:title>浣溪沙·一曲新词酒一杯</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;YanShu"/>
+        <shicang:dynasty>北宋</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">1040</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;Ci"/>
+        <shicang:content>一曲新词酒一杯，去年天气旧亭台。夕阳西下几时回？无可奈何花落去，似曾相识燕归来。小园香径独徘徊</shicang:content>
+        <shicang:containsImagery>新词</shicang:containsImagery>
+        <shicang:containsImagery>酒</shicang:containsImagery>
+        <shicang:containsImagery>亭台</shicang:containsImagery>
+        <shicang:containsImagery>夕阳</shicang:containsImagery>
+        <shicang:containsImagery>落花</shicang:containsImagery>
+        <shicang:containsImagery>归燕</shicang:containsImagery>
+        <shicang:containsImagery>香径</shicang:containsImagery>
+        <shicang:expressesEmotion>伤春</shicang:expressesEmotion>
+        <shicang:expressesEmotion>惆怅</shicang:expressesEmotion>
+        <shicang:expressesEmotion>闲愁</shicang:expressesEmotion>
+        <shicang:hasTheme>伤春抒怀</shicang:hasTheme>
+        <shicang:creationBackground>晏殊宴游即景</shicang:creationBackground>
+        <shicang:sourceDataset>珠玉词</shicang:sourceDataset>
+        <shicang:compositionPlace>汴京西园（河南开封）</shicang:compositionPlace>
+        <shicang:contextType>宴游即景</shicang:contextType>
+        <shicang:compositionSeason>春</shicang:compositionSeason>
+        <shicang:themeColor>#607D8B</shicang:themeColor>
+        <shicang:themeAccent>#78909C</shicang:themeAccent>
+        <shicang:themeBg>#F5F8F9</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十灰</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句、第2句、第3句、第5句、第6句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,3,5,6</shicang:rhymeLines>
+        <shicang:studyTheme>悲慨沉郁</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/YanShu_HuanXiSha.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;OuyangXiu_ZuiWengTingJi">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>醉翁亭记</rdfs:label>
+        <shicang:title>醉翁亭记</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;OuyangXiu"/>
+        <shicang:dynasty>北宋</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">1046</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;SanWen"/>
+        <shicang:content>醉翁之意不在酒，在乎山水之间也。山水之乐，得之心而寓之酒也</shicang:content>
+        <shicang:containsImagery>醉翁亭</shicang:containsImagery>
+        <shicang:containsImagery>琅琊山</shicang:containsImagery>
+        <shicang:containsImagery>酿泉</shicang:containsImagery>
+        <shicang:containsImagery>林霏</shicang:containsImagery>
+        <shicang:containsImagery>酒</shicang:containsImagery>
+        <shicang:expressesEmotion>旷达</shicang:expressesEmotion>
+        <shicang:expressesEmotion>闲适</shicang:expressesEmotion>
+        <shicang:expressesEmotion>与民同乐</shicang:expressesEmotion>
+        <shicang:hasTheme>山水游记</shicang:hasTheme>
+        <shicang:creationBackground>贬滁州知州，自号醉翁，作亭记</shicang:creationBackground>
+        <shicang:sourceDataset>欧阳文忠公文集</shicang:sourceDataset>
+        <shicang:compositionPlace>滁州琅琊山（安徽）</shicang:compositionPlace>
+        <shicang:contextType>贬谪宴游</shicang:contextType>
+        <shicang:compositionSeason>春</shicang:compositionSeason>
+        <shicang:themeColor>#27AE60</shicang:themeColor>
+        <shicang:themeAccent>#16A085</shicang:themeAccent>
+        <shicang:themeBg>#F4FAF0</shicang:themeBg>
+    
+        <shicang:rhymeGroup>廿一马</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第2句、第3句、第4句</shicang:rhymeScheme>
+        <shicang:rhymeLines>2,3,4</shicang:rhymeLines>
+        <shicang:studyTheme>恬淡闲适</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/OuyangXiu_ZuiWengTingJi.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;WangAnshi_BoChuanGuaZhou">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>泊船瓜洲</rdfs:label>
+        <shicang:title>泊船瓜洲</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;WangAnshi"/>
+        <shicang:dynasty>北宋</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">1075</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;QiJue"/>
+        <shicang:content>京口瓜洲一水间，钟山只隔数重山。春风又绿江南岸，明月何时照我还</shicang:content>
+        <shicang:containsImagery>瓜洲</shicang:containsImagery>
+        <shicang:containsImagery>钟山</shicang:containsImagery>
+        <shicang:containsImagery>春风</shicang:containsImagery>
+        <shicang:containsImagery>江南岸</shicang:containsImagery>
+        <shicang:containsImagery>明月</shicang:containsImagery>
+        <shicang:expressesEmotion>思乡</shicang:expressesEmotion>
+        <shicang:hasTheme>行旅思乡</shicang:hasTheme>
+        <shicang:creationBackground>第二次拜相奉诏进京途中泊瓜洲作</shicang:creationBackground>
+        <shicang:sourceDataset>临川先生文集</shicang:sourceDataset>
+        <shicang:compositionPlace>瓜洲渡（江苏扬州）</shicang:compositionPlace>
+        <shicang:contextType>奉召进京途中</shicang:contextType>
+        <shicang:compositionSeason>春</shicang:compositionSeason>
+        <shicang:themeColor>#8E44AD</shicang:themeColor>
+        <shicang:themeAccent>#E91E63</shicang:themeAccent>
+        <shicang:themeBg>#FBF5FC</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十五删</shicang:rhymeGroup>
+        <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
+        <shicang:studyTheme>旷达超脱</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/WangAnshi_BoChuanGuaZhou.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;SuShi_ShuiDiaoGeTou">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>水调歌头·明月几时有</rdfs:label>
+        <shicang:title>水调歌头·明月几时有</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;SuShi"/>
+        <shicang:dynasty>北宋</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">1076</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;Ci"/>
+        <shicang:content>明月几时有？把酒问青天。人有悲欢离合，月有阴晴圆缺，此事古难全。但愿人长久，千里共婵娟</shicang:content>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_嫦娥婵"/>
+        <shicang:containsImagery>明月</shicang:containsImagery>
+        <shicang:containsImagery>青天</shicang:containsImagery>
+        <shicang:containsImagery>宫阙</shicang:containsImagery>
+        <shicang:containsImagery>琼楼玉宇</shicang:containsImagery>
+        <shicang:containsImagery>婵娟</shicang:containsImagery>
+        <shicang:expressesEmotion>思亲</shicang:expressesEmotion>
+        <shicang:expressesEmotion>旷达</shicang:expressesEmotion>
+        <shicang:expressesEmotion>中秋</shicang:expressesEmotion>
+        <shicang:expressesEmotion>祝福</shicang:expressesEmotion>
+        <shicang:hasTheme>中秋怀人</shicang:hasTheme>
+        <shicang:creationBackground>密州知州任上中秋，怀念弟弟苏辙七年未见，醉后作</shicang:creationBackground>
+        <shicang:sourceDataset>东坡乐府，中秋词千古第一</shicang:sourceDataset>
+        <shicang:compositionPlace>密州（山东诸城）</shicang:compositionPlace>
+        <shicang:contextType>中秋怀弟</shicang:contextType>
+        <shicang:compositionSeason>秋</shicang:compositionSeason>
+        <shicang:themeColor>#2980B9</shicang:themeColor>
+        <shicang:themeAccent>#3498DB</shicang:themeAccent>
+        <shicang:themeBg>#F0F7FC</shicang:themeBg>
+    
+        <shicang:rhymeGroup>一先</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句、第2句、第3句、第4句、第5句、第6句、第7句、第8句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,3,4,5,6,7,8</shicang:rhymeLines>
+        <shicang:studyTheme>旷达超脱</shicang:studyTheme>
+        <shicang:studyDepth>deep</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/SuShi_ShuiDiaoGeTou.html</shicang:studyPage>
+        <shicang:vernacularTranslation>明月是什么时候才有的呢？我端起酒杯询问青天。　不知道天上的宫阙，今夜是何年何月。　我想驾着长风回到天上去，又怕那琼楼玉宇，太高太冷经受不住。　起身舞蹈，玩赏着清朗的影子，哪里比得上在人间呢。　月光转过朱红的楼阁，低低照进雕花的窗户，照着睡不着的人。　明月该不是有什么怨恨吧，为何总在人们离别时才圆呢？　人有悲欢离合，月有阴晴圆缺，此事自古难以两全。　只愿人能够长久平安，即使相隔千里，也能共享这一轮明月。</shicang:vernacularTranslation>
+        <shicang:englishTranslation>When did the bright moon first appear? Wine cup in hand, I ask the blue sky. I do not know in the palace of heaven what year tonight it is. I would ride the wind and go back, yet fear the jade towers and courts, too high to bear the cold. Rising to dance with my clear shadow, how could it compare with the world of men? The moon turns round the vermilion tower, dips low through the carved windows, shining on the sleepless. It should hold no grudge—why then is it always full when people part? Men have sorrow and joy, parting and meeting; the moon waxes and wanes: nothing has ever been perfect. Would that we might live long, sharing the same fair moon though a thousand li apart.</shicang:englishTranslation>
+        <shicang:appreciation>此词以问月起，以共月起收，一『问』一『愿』，把神话、哲思与骨肉之情熔于一炉。上片由『欲乘风归去』到『何似在人间』，是出世与入世的徘徊，最终落定于人间；下片由月之照人写到人之怨月，复以『此事古难全』自我宽解，最后翻出『但愿人长久，千里共婵娟』——从个人的离愁中超脱出来，化作对天下人的祝愿。旷达而不冷漠，深情而不粘滞。</shicang:appreciation>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;SuShi_NianNuJiao">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>念奴娇·赤壁怀古</rdfs:label>
+        <shicang:title>念奴娇·赤壁怀古</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;SuShi"/>
+        <shicang:dynasty>北宋</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">1082</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;Ci"/>
+        <shicang:content>大江东去，浪淘尽千古风流人物。故垒西边，人道是三国周郎赤壁。乱石穿空，惊涛拍岸，卷起千堆雪。人生如梦，一尊还酹江月</shicang:content>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_周瑜赤"/>
+        <shicang:containsImagery>大江</shicang:containsImagery>
+        <shicang:containsImagery>浪</shicang:containsImagery>
+        <shicang:containsImagery>乱石</shicang:containsImagery>
+        <shicang:containsImagery>惊涛</shicang:containsImagery>
+        <shicang:containsImagery>雪</shicang:containsImagery>
+        <shicang:containsImagery>羽扇纶巾</shicang:containsImagery>
+        <shicang:containsImagery>樯橹</shicang:containsImagery>
+        <shicang:containsImagery>江月</shicang:containsImagery>
+        <shicang:expressesEmotion>豪放</shicang:expressesEmotion>
+        <shicang:expressesEmotion>怀古</shicang:expressesEmotion>
+        <shicang:expressesEmotion>感慨</shicang:expressesEmotion>
+        <shicang:expressesEmotion>旷达</shicang:expressesEmotion>
+        <shicang:hasTheme>怀古咏史</shicang:hasTheme>
+        <shicang:creationBackground>贬黄州团练副使，游黄冈赤壁作，豪放词压卷</shicang:creationBackground>
+        <shicang:sourceDataset>东坡乐府</shicang:sourceDataset>
+        <shicang:compositionPlace>黄州赤壁（湖北黄冈）</shicang:compositionPlace>
+        <shicang:contextType>贬谪怀古</shicang:contextType>
+        <shicang:compositionSeason>秋</shicang:compositionSeason>
+        <shicang:themeColor>#C0392B</shicang:themeColor>
+        <shicang:themeAccent>#E67E22</shicang:themeAccent>
+        <shicang:themeBg>#FDF6E3</shicang:themeBg>
+    
+        <shicang:rhymeGroup>歌</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句、第2句、第3句、第4句、第5句、第6句、第7句、第8句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,3,4,5,6,7,8</shicang:rhymeLines>
+        <shicang:studyTheme>怀古沧桑</shicang:studyTheme>
+        <shicang:studyDepth>deep</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/SuShi_NianNuJiao.html</shicang:studyPage>
+        <shicang:vernacularTranslation>大江浩浩东流，浪涛淘尽了千古以来的英雄人物。　旧营垒的西边，人们说，那就是三国周瑜鏖战的赤壁。　乱石嶙峋，直插云天；惊涛拍击江岸，卷起千堆白雪般的浪花。　江山美如图画，一时之间涌现了多少豪杰。　遥想周瑜当年，小乔刚刚嫁给他，他英姿勃发。　手执羽扇，头戴纶巾，谈笑之间，曹军的战船便灰飞烟灭。　神游故国，多情的人应该笑我，早早生出了满头花白。　人生如梦，且把这杯酒洒向江中的明月。</shicang:vernacularTranslation>
+        <shicang:englishTranslation>The great river flows east; its waves wash away all the gallant heroes of a thousand years. West of the old ramparts, people say, is the Red Cliff where Zhou Yu of the Three Kingdoms fought. Jagged rocks pierce the sky; angry waves beat the shore, rolling up a thousand heaps of snow. Rivers and hills are like a painting; for a time how many heroes were there? I think back to Gongjin in his prime, when Xiaoqiao had just married him, splendid and heroic. With feather fan and silken cap, amid talk and laughter, the enemy's masts and oars turned to flying ash. In spirit I roam the old kingdom; men would laugh at my sentiment, my hair turning grey so soon. Life is like a dream—let me pour a cup of wine to the moon on the river.</shicang:englishTranslation>
+        <shicang:appreciation>开篇『大江东去』四字如巨浪奔涌，把时间、空间与人事一并卷走，气象之宏大，千古罕匹。上片写景，『乱石穿空』『惊涛拍岸』『卷起千堆雪』，声、色、势俱足；下片写人，以『小乔初嫁』点其年少得意，以『羽扇纶巾』『谈笑间』写其从容破敌，周郎之英发与词人之迟暮相映。结句『人生如梦，一尊还酹江月』，把怀古的苍凉升华成对宇宙人生的旷达之悟。</shicang:appreciation>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;SuShi_TiXiLinBi">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>题西林壁</rdfs:label>
+        <shicang:title>题西林壁</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;SuShi"/>
+        <shicang:dynasty>北宋</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">1084</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;QiJue"/>
+        <shicang:content>横看成岭侧成峰，远近高低各不同。不识庐山真面目，只缘身在此山中</shicang:content>
+        <shicang:containsImagery>庐山</shicang:containsImagery>
+        <shicang:containsImagery>峰</shicang:containsImagery>
+        <shicang:containsImagery>岭</shicang:containsImagery>
+        <shicang:expressesEmotion>哲理</shicang:expressesEmotion>
+        <shicang:expressesEmotion>理趣</shicang:expressesEmotion>
+        <shicang:hasTheme>山水哲理</shicang:hasTheme>
+        <shicang:creationBackground>游庐山题于西林寺壁</shicang:creationBackground>
+        <shicang:sourceDataset>东坡七集</shicang:sourceDataset>
+        <shicang:compositionPlace>庐山（江西九江）</shicang:compositionPlace>
+        <shicang:contextType>游山题壁</shicang:contextType>
+        <shicang:compositionSeason>夏</shicang:compositionSeason>
+        <shicang:themeColor>#2980B9</shicang:themeColor>
+        <shicang:themeAccent>#3498DB</shicang:themeAccent>
+        <shicang:themeBg>#F0F7FC</shicang:themeBg>
+    
+        <shicang:rhymeGroup>一东</shicang:rhymeGroup>
+        <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
+        <shicang:studyTheme>恬淡闲适</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/SuShi_TiXiLinBi.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;SuShi_DingFengBo">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>定风波·莫听穿林打叶声</rdfs:label>
+        <shicang:title>定风波·莫听穿林打叶声</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;SuShi"/>
+        <shicang:dynasty>北宋</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">1082</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;Ci"/>
+        <shicang:content>莫听穿林打叶声，何妨吟啸且徐行。竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。回首向来萧瑟处，归去，也无风雨也无晴</shicang:content>
+        <shicang:containsImagery>林</shicang:containsImagery>
+        <shicang:containsImagery>叶</shicang:containsImagery>
+        <shicang:containsImagery>竹杖</shicang:containsImagery>
+        <shicang:containsImagery>芒鞋</shicang:containsImagery>
+        <shicang:containsImagery>烟雨</shicang:containsImagery>
+        <shicang:containsImagery>萧瑟</shicang:containsImagery>
+        <shicang:containsImagery>晴</shicang:containsImagery>
+        <shicang:expressesEmotion>旷达</shicang:expressesEmotion>
+        <shicang:expressesEmotion>超脱</shicang:expressesEmotion>
+        <shicang:expressesEmotion>豁达</shicang:expressesEmotion>
+        <shicang:hasTheme>抒怀明志</shicang:hasTheme>
+        <shicang:creationBackground>黄州途中遇雨，同行皆狼狈，余独不觉，作此明旷达之志</shicang:creationBackground>
+        <shicang:sourceDataset>东坡乐府</shicang:sourceDataset>
+        <shicang:compositionPlace>黄州沙湖道中（湖北黄冈）</shicang:compositionPlace>
+        <shicang:contextType>途中遇雨</shicang:contextType>
+        <shicang:compositionSeason>春</shicang:compositionSeason>
+        <shicang:themeColor>#2980B9</shicang:themeColor>
+        <shicang:themeAccent>#3498DB</shicang:themeAccent>
+        <shicang:themeBg>#F0F7FC</shicang:themeBg>
+    
+        <shicang:rhymeGroup>八庚</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句、第2句、第5句、第8句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,5,8</shicang:rhymeLines>
+        <shicang:studyTheme>旷达超脱</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/SuShi_DingFengBo.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;LiQingzhao_ShengShengMan">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>声声慢·寻寻觅觅</rdfs:label>
+        <shicang:title>声声慢·寻寻觅觅</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;LiQingzhao"/>
+        <shicang:dynasty>南宋</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">1151</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;Ci"/>
+        <shicang:content>寻寻觅觅，冷冷清清，凄凄惨惨戚戚。乍暖还寒时候，最难将息。梧桐更兼细雨，到黄昏点点滴滴。这次第，怎一个愁字了得</shicang:content>
+        <shicang:containsImagery>淡酒</shicang:containsImagery>
+        <shicang:containsImagery>晚风</shicang:containsImagery>
+        <shicang:containsImagery>过雁</shicang:containsImagery>
+        <shicang:containsImagery>黄花</shicang:containsImagery>
+        <shicang:containsImagery>梧桐</shicang:containsImagery>
+        <shicang:containsImagery>细雨</shicang:containsImagery>
+        <shicang:containsImagery>黄昏</shicang:containsImagery>
+        <shicang:expressesEmotion>愁绪</shicang:expressesEmotion>
+        <shicang:expressesEmotion>孤苦</shicang:expressesEmotion>
+        <shicang:expressesEmotion>晚年凄凉</shicang:expressesEmotion>
+        <shicang:expressesEmotion>亡国丧夫之痛</shicang:expressesEmotion>
+        <shicang:hasTheme>晚年抒怀</shicang:hasTheme>
+        <shicang:creationBackground>南渡后丈夫去世，孤身漂泊江南，暮秋作</shicang:creationBackground>
+        <shicang:sourceDataset>漱玉词</shicang:sourceDataset>
+        <shicang:compositionPlace>临安（浙江杭州）</shicang:compositionPlace>
+        <shicang:contextType>晚年寡居</shicang:contextType>
+        <shicang:compositionSeason>秋</shicang:compositionSeason>
+        <shicang:themeColor>#7F8C8D</shicang:themeColor>
+        <shicang:themeAccent>#2C3E50</shicang:themeAccent>
+        <shicang:themeBg>#F5F5F5</shicang:themeBg>
+    
+        <shicang:rhymeGroup>支</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句、第3句、第5句、第7句、第9句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,3,5,7,9</shicang:rhymeLines>
+        <shicang:studyTheme>悲慨沉郁</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/LiQingzhao_ShengShengMan.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;LiQingzhao_RuMengLing">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>如梦令·常记溪亭日暮</rdfs:label>
+        <shicang:title>如梦令·常记溪亭日暮</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;LiQingzhao"/>
+        <shicang:dynasty>北宋</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">1099</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;Ci"/>
+        <shicang:content>常记溪亭日暮，沉醉不知归路。兴尽晚回舟，误入藕花深处。争渡，争渡，惊起一滩鸥鹭</shicang:content>
+        <shicang:containsImagery>溪亭</shicang:containsImagery>
+        <shicang:containsImagery>日暮</shicang:containsImagery>
+        <shicang:containsImagery>舟</shicang:containsImagery>
+        <shicang:containsImagery>藕花</shicang:containsImagery>
+        <shicang:containsImagery>鸥鹭</shicang:containsImagery>
+        <shicang:expressesEmotion>欢快</shicang:expressesEmotion>
+        <shicang:expressesEmotion>闲适</shicang:expressesEmotion>
+        <shicang:expressesEmotion>少女情怀</shicang:expressesEmotion>
+        <shicang:hasTheme>纪游</shicang:hasTheme>
+        <shicang:creationBackground>少女时代济南郊游作</shicang:creationBackground>
+        <shicang:sourceDataset>漱玉词</shicang:sourceDataset>
+        <shicang:compositionPlace>济南溪亭（山东）</shicang:compositionPlace>
+        <shicang:contextType>少女郊游</shicang:contextType>
+        <shicang:compositionSeason>夏</shicang:compositionSeason>
+        <shicang:themeColor>#27AE60</shicang:themeColor>
+        <shicang:themeAccent>#16A085</shicang:themeAccent>
+        <shicang:themeBg>#F4FAF0</shicang:themeBg>
+    
+        <shicang:rhymeGroup>七遇</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句、第2句、第4句、第5句、第6句、第7句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4,5,6,7</shicang:rhymeLines>
+        <shicang:studyTheme>恬淡闲适</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/LiQingzhao_RuMengLing.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;LiQingzhao_ZuiHuaYin">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>醉花阴·薄雾浓云愁永昼</rdfs:label>
+        <shicang:title>醉花阴·薄雾浓云愁永昼</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;LiQingzhao"/>
+        <shicang:dynasty>北宋</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">1103</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;Ci"/>
+        <shicang:content>薄雾浓云愁永昼，瑞脑消金兽。东篱把酒黄昏后，有暗香盈袖。莫道不消魂，帘卷西风，人比黄花瘦</shicang:content>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_东篱（"/>
+        <shicang:containsImagery>薄雾</shicang:containsImagery>
+        <shicang:containsImagery>浓云</shicang:containsImagery>
+        <shicang:containsImagery>瑞脑</shicang:containsImagery>
+        <shicang:containsImagery>金兽</shicang:containsImagery>
+        <shicang:containsImagery>东篱</shicang:containsImagery>
+        <shicang:containsImagery>酒</shicang:containsImagery>
+        <shicang:containsImagery>黄昏</shicang:containsImagery>
+        <shicang:containsImagery>暗香</shicang:containsImagery>
+        <shicang:containsImagery>西风</shicang:containsImagery>
+        <shicang:containsImagery>黄花</shicang:containsImagery>
+        <shicang:expressesEmotion>相思</shicang:expressesEmotion>
+        <shicang:expressesEmotion>重阳思夫</shicang:expressesEmotion>
+        <shicang:expressesEmotion>愁绪</shicang:expressesEmotion>
+        <shicang:hasTheme>重阳怀人</shicang:hasTheme>
+        <shicang:creationBackground>重阳佳节写给丈夫赵明诚</shicang:creationBackground>
+        <shicang:sourceDataset>漱玉词</shicang:sourceDataset>
+        <shicang:compositionPlace>青州（山东）</shicang:compositionPlace>
+        <shicang:contextType>重阳思夫</shicang:contextType>
+        <shicang:compositionSeason>秋</shicang:compositionSeason>
+        <shicang:themeColor>#8E44AD</shicang:themeColor>
+        <shicang:themeAccent>#E91E63</shicang:themeAccent>
+        <shicang:themeBg>#FBF5FC</shicang:themeBg>
+    
+        <shicang:rhymeGroup>廿六宥</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句、第2句、第3句、第4句、第7句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,3,4,7</shicang:rhymeLines>
+        <shicang:studyTheme>深情婉约</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/LiQingzhao_ZuiHuaYin.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;LuYou_ShiEr">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>示儿</rdfs:label>
+        <shicang:title>示儿</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;LuYou"/>
+        <shicang:dynasty>南宋</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">1210</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;QiJue"/>
+        <shicang:content>死去元知万事空，但悲不见九州同。王师北定中原日，家祭无忘告乃翁</shicang:content>
+        <shicang:containsImagery>九州</shicang:containsImagery>
+        <shicang:containsImagery>王师</shicang:containsImagery>
+        <shicang:containsImagery>中原</shicang:containsImagery>
+        <shicang:expressesEmotion>爱国</shicang:expressesEmotion>
+        <shicang:expressesEmotion>遗恨</shicang:expressesEmotion>
+        <shicang:expressesEmotion>期盼</shicang:expressesEmotion>
+        <shicang:hasTheme>爱国临终</shicang:hasTheme>
+        <shicang:creationBackground>八十五岁临终绝笔，写给儿子</shicang:creationBackground>
+        <shicang:sourceDataset>剑南诗稿</shicang:sourceDataset>
+        <shicang:compositionPlace>山阴家中（浙江绍兴）</shicang:compositionPlace>
+        <shicang:contextType>临终绝笔</shicang:contextType>
+        <shicang:compositionSeason>冬</shicang:compositionSeason>
+        <shicang:themeColor>#D35400</shicang:themeColor>
+        <shicang:themeAccent>#C0392B</shicang:themeAccent>
+        <shicang:themeBg>#FEF9F0</shicang:themeBg>
+    
+        <shicang:rhymeGroup>一东</shicang:rhymeGroup>
+        <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
+        <shicang:studyTheme>慷慨爱国</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/LuYou_ShiEr.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;LuYou_YouShanXiCun">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>游山西村</rdfs:label>
+        <shicang:title>游山西村</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;LuYou"/>
+        <shicang:dynasty>南宋</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">1167</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;QiLv"/>
+        <shicang:content>莫笑农家腊酒浑，丰年留客足鸡豚。山重水复疑无路，柳暗花明又一村</shicang:content>
+        <shicang:containsImagery>腊酒</shicang:containsImagery>
+        <shicang:containsImagery>鸡豚</shicang:containsImagery>
+        <shicang:containsImagery>山重水复</shicang:containsImagery>
+        <shicang:containsImagery>柳暗花明</shicang:containsImagery>
+        <shicang:containsImagery>箫鼓</shicang:containsImagery>
+        <shicang:containsImagery>春社</shicang:containsImagery>
+        <shicang:expressesEmotion>欣喜</shicang:expressesEmotion>
+        <shicang:expressesEmotion>田园</shicang:expressesEmotion>
+        <shicang:expressesEmotion>希望</shicang:expressesEmotion>
+        <shicang:hasTheme>田园纪游</shicang:hasTheme>
+        <shicang:creationBackground>罢官闲居山阴，游山西村作</shicang:creationBackground>
+        <shicang:sourceDataset>剑南诗稿</shicang:sourceDataset>
+        <shicang:compositionPlace>山阴乡村（浙江绍兴）</shicang:compositionPlace>
+        <shicang:contextType>闲居纪游</shicang:contextType>
+        <shicang:compositionSeason>春</shicang:compositionSeason>
+        <shicang:themeColor>#27AE60</shicang:themeColor>
+        <shicang:themeAccent>#16A085</shicang:themeAccent>
+        <shicang:themeBg>#F4FAF0</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十三元</shicang:rhymeGroup>
+        <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
+        <shicang:studyTheme>恬淡闲适</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/LuYou_YouShanXiCun.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;LuYou_ChaiTouFeng">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>钗头凤·红酥手</rdfs:label>
+        <shicang:title>钗头凤·红酥手</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;LuYou"/>
+        <shicang:dynasty>南宋</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">1155</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;Ci"/>
+        <shicang:content>红酥手，黄縢酒，满城春色宫墙柳。东风恶，欢情薄。一怀愁绪，几年离索。错、错、错。山盟虽在，锦书难托。莫、莫、莫</shicang:content>
+        <shicang:containsImagery>红酥手</shicang:containsImagery>
+        <shicang:containsImagery>黄縢酒</shicang:containsImagery>
+        <shicang:containsImagery>宫墙柳</shicang:containsImagery>
+        <shicang:containsImagery>东风</shicang:containsImagery>
+        <shicang:containsImagery>桃花</shicang:containsImagery>
+        <shicang:containsImagery>闲池阁</shicang:containsImagery>
+        <shicang:expressesEmotion>爱情悲剧</shicang:expressesEmotion>
+        <shicang:expressesEmotion>悔恨</shicang:expressesEmotion>
+        <shicang:expressesEmotion>惆怅</shicang:expressesEmotion>
+        <shicang:hasTheme>爱情悼亡</shicang:hasTheme>
+        <shicang:creationBackground>沈园遇前妻唐琬，和词题壁</shicang:creationBackground>
+        <shicang:sourceDataset>渭南词</shicang:sourceDataset>
+        <shicang:compositionPlace>沈园（浙江绍兴）</shicang:compositionPlace>
+        <shicang:contextType>遇前妻唐琬</shicang:contextType>
+        <shicang:compositionSeason>春</shicang:compositionSeason>
+        <shicang:themeColor>#8E44AD</shicang:themeColor>
+        <shicang:themeAccent>#E91E63</shicang:themeAccent>
+        <shicang:themeBg>#FBF5FC</shicang:themeBg>
+    
+        <shicang:rhymeGroup>七遇</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第4句、第5句、第7句、第8句、第10句、第11句</shicang:rhymeScheme>
+        <shicang:rhymeLines>4,5,7,8,10,11</shicang:rhymeLines>
+        <shicang:studyTheme>深情婉约</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/LuYou_ChaiTouFeng.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;XinQiji_QingYuAn">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>青玉案·元夕</rdfs:label>
+        <shicang:title>青玉案·元夕</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;XinQiji"/>
+        <shicang:dynasty>南宋</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">1174</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;Ci"/>
+        <shicang:content>东风夜放花千树，更吹落星如雨。宝马雕车香满路。凤箫声动，玉壶光转，一夜鱼龙舞。众里寻他千百度，蓦然回首，那人却在灯火阑珊处</shicang:content>
+        <shicang:containsImagery>东风</shicang:containsImagery>
+        <shicang:containsImagery>花千树</shicang:containsImagery>
+        <shicang:containsImagery>星雨</shicang:containsImagery>
+        <shicang:containsImagery>宝马雕车</shicang:containsImagery>
+        <shicang:containsImagery>凤箫</shicang:containsImagery>
+        <shicang:containsImagery>玉壶</shicang:containsImagery>
+        <shicang:containsImagery>鱼龙舞</shicang:containsImagery>
+        <shicang:containsImagery>灯火</shicang:containsImagery>
+        <shicang:containsImagery>阑珊</shicang:containsImagery>
+        <shicang:expressesEmotion>孤高</shicang:expressesEmotion>
+        <shicang:expressesEmotion>寂寞</shicang:expressesEmotion>
+        <shicang:expressesEmotion>追求</shicang:expressesEmotion>
+        <shicang:expressesEmotion>元宵</shicang:expressesEmotion>
+        <shicang:hasTheme>元夕抒怀</shicang:hasTheme>
+        <shicang:creationBackground>临安元宵节作，王国维评此为古今成大事业大学问第三境界</shicang:creationBackground>
+        <shicang:sourceDataset>稼轩长短句</shicang:sourceDataset>
+        <shicang:compositionPlace>临安（浙江杭州）</shicang:compositionPlace>
+        <shicang:contextType>元夕观灯</shicang:contextType>
+        <shicang:compositionSeason>春</shicang:compositionSeason>
+        <shicang:themeColor>#607D8B</shicang:themeColor>
+        <shicang:themeAccent>#78909C</shicang:themeAccent>
+        <shicang:themeBg>#F5F8F9</shicang:themeBg>
+    
+        <shicang:rhymeGroup>七遇</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句、第2句、第3句、第6句、第7句、第9句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,3,6,7,9</shicang:rhymeLines>
+        <shicang:studyTheme>悲慨沉郁</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/XinQiji_QingYuAn.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;XinQiji_PoZhenZi">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>破阵子·为陈同甫赋壮词以寄之</rdfs:label>
+        <shicang:title>破阵子·为陈同甫赋壮词以寄之</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;XinQiji"/>
+        <shicang:dynasty>南宋</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">1188</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;Ci"/>
+        <shicang:content>醉里挑灯看剑，梦回吹角连营。八百里分麾下炙，五十弦翻塞外声，沙场秋点兵。了却君王天下事，赢得生前身后名。可怜白发生</shicang:content>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_八百里"/>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_五十弦"/>
+        <shicang:containsImagery>灯</shicang:containsImagery>
+        <shicang:containsImagery>剑</shicang:containsImagery>
+        <shicang:containsImagery>号角连营</shicang:containsImagery>
+        <shicang:containsImagery>炙</shicang:containsImagery>
+        <shicang:containsImagery>沙场</shicang:containsImagery>
+        <shicang:containsImagery>点兵</shicang:containsImagery>
+        <shicang:containsImagery>白发</shicang:containsImagery>
+        <shicang:expressesEmotion>壮志难酬</shicang:expressesEmotion>
+        <shicang:expressesEmotion>悲愤</shicang:expressesEmotion>
+        <shicang:expressesEmotion>豪迈</shicang:expressesEmotion>
+        <shicang:expressesEmotion>爱国</shicang:expressesEmotion>
+        <shicang:hasTheme>军旅抒怀</shicang:hasTheme>
+        <shicang:creationBackground>与陈亮鹅湖之会后赋壮词寄之</shicang:creationBackground>
+        <shicang:sourceDataset>稼轩长短句</shicang:sourceDataset>
+        <shicang:compositionPlace>铅山瓢泉（江西铅山）</shicang:compositionPlace>
+        <shicang:contextType>鹅湖之会后赋词</shicang:contextType>
+        <shicang:compositionSeason>秋</shicang:compositionSeason>
+        <shicang:themeColor>#D35400</shicang:themeColor>
+        <shicang:themeAccent>#C0392B</shicang:themeAccent>
+        <shicang:themeBg>#FEF9F0</shicang:themeBg>
+    
+        <shicang:rhymeGroup>八庚</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第2句、第4句、第5句、第7句、第8句</shicang:rhymeScheme>
+        <shicang:rhymeLines>2,4,5,7,8</shicang:rhymeLines>
+        <shicang:studyTheme>慷慨爱国</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/XinQiji_PoZhenZi.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;XinQiji_YongYuLe">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>永遇乐·京口北固亭怀古</rdfs:label>
+        <shicang:title>永遇乐·京口北固亭怀古</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;XinQiji"/>
+        <shicang:dynasty>南宋</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">1205</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;Ci"/>
+        <shicang:content>千古江山，英雄无觅孙仲谋处。舞榭歌台，风流总被雨打风吹去。斜阳草树，寻常巷陌，人道寄奴曾住。想当年金戈铁马，气吞万里如虎。廉颇老矣，尚能饭否</shicang:content>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_孙权"/>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_刘裕（"/>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_刘义隆"/>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_佛狸祠"/>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_廉颇"/>
+        <shicang:containsImagery>江山</shicang:containsImagery>
+        <shicang:containsImagery>舞榭歌台</shicang:containsImagery>
+        <shicang:containsImagery>斜阳草树</shicang:containsImagery>
+        <shicang:containsImagery>金戈铁马</shicang:containsImagery>
+        <shicang:containsImagery>烽火</shicang:containsImagery>
+        <shicang:containsImagery>扬州路</shicang:containsImagery>
+        <shicang:containsImagery>廉颇</shicang:containsImagery>
+        <shicang:expressesEmotion>怀古</shicang:expressesEmotion>
+        <shicang:expressesEmotion>爱国</shicang:expressesEmotion>
+        <shicang:expressesEmotion>壮志难酬</shicang:expressesEmotion>
+        <shicang:expressesEmotion>悲愤</shicang:expressesEmotion>
+        <shicang:hasTheme>怀古抒怀</shicang:hasTheme>
+        <shicang:creationBackground>镇江知府任上登北固亭作，辛词压卷</shicang:creationBackground>
+        <shicang:sourceDataset>稼轩长短句</shicang:sourceDataset>
+        <shicang:compositionPlace>京口北固亭（江苏镇江）</shicang:compositionPlace>
+        <shicang:contextType>登临怀古</shicang:contextType>
+        <shicang:compositionSeason>秋</shicang:compositionSeason>
+        <shicang:themeColor>#795548</shicang:themeColor>
+        <shicang:themeAccent>#8D6E63</shicang:themeAccent>
+        <shicang:themeBg>#FAF6F0</shicang:themeBg>
+    
+        <shicang:rhymeGroup>七遇</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第2句、第5句、第7句、第9句</shicang:rhymeScheme>
+        <shicang:rhymeLines>2,5,7,9</shicang:rhymeLines>
+        <shicang:studyTheme>慷慨爱国</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/XinQiji_YongYuLe.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;JiangKui_YangZhouMan">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>扬州慢·淮左名都</rdfs:label>
+        <shicang:title>扬州慢·淮左名都</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;JiangKui"/>
+        <shicang:dynasty>南宋</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">1176</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;Ci"/>
+        <shicang:content>淮左名都，竹西佳处，解鞍少驻初程。过春风十里，尽荠麦青青。自胡马窥江去后，废池乔木，犹厌言兵。二十四桥仍在，波心荡冷月无声。念桥边红药，年年知为谁生</shicang:content>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_杜牧扬"/>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_二十四"/>
+        <shicang:containsImagery>竹西亭</shicang:containsImagery>
+        <shicang:containsImagery>春风十里</shicang:containsImagery>
+        <shicang:containsImagery>荠麦</shicang:containsImagery>
+        <shicang:containsImagery>废池乔木</shicang:containsImagery>
+        <shicang:containsImagery>清角</shicang:containsImagery>
+        <shicang:containsImagery>二十四桥</shicang:containsImagery>
+        <shicang:containsImagery>冷月</shicang:containsImagery>
+        <shicang:containsImagery>红药</shicang:containsImagery>
+        <shicang:expressesEmotion>黍离之悲</shicang:expressesEmotion>
+        <shicang:expressesEmotion>战乱荒凉</shicang:expressesEmotion>
+        <shicang:expressesEmotion>兴亡感慨</shicang:expressesEmotion>
+        <shicang:hasTheme>战乱抒怀</shicang:hasTheme>
+        <shicang:creationBackground>二十余岁过扬州，见金兵南侵后扬州残破，感而作</shicang:creationBackground>
+        <shicang:sourceDataset>白石道人歌曲</shicang:sourceDataset>
+        <shicang:compositionPlace>扬州（江苏）</shicang:compositionPlace>
+        <shicang:contextType>过扬州感战乱</shicang:contextType>
+        <shicang:compositionSeason>冬</shicang:compositionSeason>
+        <shicang:themeColor>#795548</shicang:themeColor>
+        <shicang:themeAccent>#8D6E63</shicang:themeAccent>
+        <shicang:themeBg>#FAF6F0</shicang:themeBg>
+    
+        <shicang:rhymeGroup>八庚</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第3句、第5句、第8句、第10句、第12句</shicang:rhymeScheme>
+        <shicang:rhymeLines>3,5,8,10,12</shicang:rhymeLines>
+        <shicang:studyTheme>悲慨沉郁</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/JiangKui_YangZhouMan.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;WenTianXian_GuoLingDingYang">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>过零丁洋</rdfs:label>
+        <shicang:title>过零丁洋</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;WenTianxiang"/>
+        <shicang:dynasty>南宋</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">1279</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;QiLv"/>
+        <shicang:content>辛苦遭逢起一经，干戈寥落四周星。山河破碎风飘絮，身世浮沉雨打萍。惶恐滩头说惶恐，零丁洋里叹零丁。人生自古谁无死，留取丹心照汗青</shicang:content>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_惶恐滩"/>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_零丁洋"/>
+        <shicang:containsImagery>干戈</shicang:containsImagery>
+        <shicang:containsImagery>山河破碎</shicang:containsImagery>
+        <shicang:containsImagery>风飘絮</shicang:containsImagery>
+        <shicang:containsImagery>雨打萍</shicang:containsImagery>
+        <shicang:containsImagery>丹心</shicang:containsImagery>
+        <shicang:containsImagery>汗青</shicang:containsImagery>
+        <shicang:expressesEmotion>爱国</shicang:expressesEmotion>
+        <shicang:expressesEmotion>正气</shicang:expressesEmotion>
+        <shicang:expressesEmotion>视死如归</shicang:expressesEmotion>
+        <shicang:expressesEmotion>悲壮</shicang:expressesEmotion>
+        <shicang:hasTheme>明志殉国</shicang:hasTheme>
+        <shicang:creationBackground>兵败被元军俘虏，过零丁洋所作，拒绝张世杰招降时作</shicang:creationBackground>
+        <shicang:sourceDataset>文山先生全集</shicang:sourceDataset>
+        <shicang:compositionPlace>零丁洋（广东珠江口）</shicang:compositionPlace>
+        <shicang:contextType>兵败被俘</shicang:contextType>
+        <shicang:compositionSeason>冬</shicang:compositionSeason>
+        <shicang:themeColor>#D35400</shicang:themeColor>
+        <shicang:themeAccent>#C0392B</shicang:themeAccent>
+        <shicang:themeBg>#FEF9F0</shicang:themeBg>
+    
+        <shicang:rhymeGroup>九青</shicang:rhymeGroup>
+        <shicang:rhymeScheme>首句入韵，逐偶句押韵，一韵到底</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4,6,8</shicang:rhymeLines>
+        <shicang:studyTheme>慷慨爱国</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/WenTianXian_GuoLingDingYang.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;MaZhiyuan_TianJingSha_QiuSi">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>天净沙·秋思</rdfs:label>
+        <shicang:title>天净沙·秋思</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;MaZhiyuan"/>
+        <shicang:dynasty>元</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">1300</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;SanQuXiaoLing"/>
+        <shicang:content>枯藤老树昏鸦，小桥流水人家，古道西风瘦马。夕阳西下，断肠人在天涯</shicang:content>
+        <shicang:containsImagery>枯藤</shicang:containsImagery>
+        <shicang:containsImagery>老树</shicang:containsImagery>
+        <shicang:containsImagery>昏鸦</shicang:containsImagery>
+        <shicang:containsImagery>小桥</shicang:containsImagery>
+        <shicang:containsImagery>流水</shicang:containsImagery>
+        <shicang:containsImagery>人家</shicang:containsImagery>
+        <shicang:containsImagery>古道</shicang:containsImagery>
+        <shicang:containsImagery>西风</shicang:containsImagery>
+        <shicang:containsImagery>瘦马</shicang:containsImagery>
+        <shicang:containsImagery>夕阳</shicang:containsImagery>
+        <shicang:containsImagery>天涯</shicang:containsImagery>
+        <shicang:expressesEmotion>秋思</shicang:expressesEmotion>
+        <shicang:expressesEmotion>漂泊</shicang:expressesEmotion>
+        <shicang:expressesEmotion>思乡</shicang:expressesEmotion>
+        <shicang:expressesEmotion>孤寂</shicang:expressesEmotion>
+        <shicang:hasTheme>羁旅秋思</shicang:hasTheme>
+        <shicang:creationBackground>元人小令压卷之作，秋思之祖</shicang:creationBackground>
+        <shicang:sourceDataset>东篱乐府</shicang:sourceDataset>
+        <shicang:compositionPlace>浙西道中（浙江）</shicang:compositionPlace>
+        <shicang:contextType>羁旅秋思</shicang:contextType>
+        <shicang:compositionSeason>秋</shicang:compositionSeason>
+        <shicang:themeColor>#7F8C8D</shicang:themeColor>
+        <shicang:themeAccent>#2C3E50</shicang:themeAccent>
+        <shicang:themeBg>#F5F5F5</shicang:themeBg>
+    
+        <shicang:rhymeGroup>六麻</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句、第2句、第5句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,5</shicang:rhymeLines>
+        <shicang:studyTheme>悲慨沉郁</shicang:studyTheme>
+        <shicang:studyDepth>deep</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/MaZhiyuan_TianJingSha_QiuSi.html</shicang:studyPage>
+        <shicang:vernacularTranslation>枯藤缠绕着老树，树上落着黄昏归巢的乌鸦。　小桥下流水潺潺，旁边是几户人家。　古老的道路上，秋风萧瑟，一匹瘦马缓缓前行。　夕阳向西缓缓落下。　漂泊天涯的游子，愁肠寸断。</shicang:vernacularTranslation>
+        <shicang:englishTranslation>Withered vines, old tree, a crow at dusk; A small bridge, flowing water, a few houses; An ancient road, the west wind, a lean horse; The sun sets in the west— And a heart-broken man is far at the edge of the world.</shicang:englishTranslation>
+        <shicang:appreciation>二十八字，前三句纯用名词并置，如三组静物写生：『枯藤老树昏鸦』写荒败，『小桥流水人家』写温馨，『古道西风瘦马』写漂泊——一暖一冷，两两相形，愈见游子之孤。第四句『夕阳西下』以时间收拢画面，末句『断肠人在天涯』点破题旨。全篇不着一个『愁』字，而秋思满纸，被推为『秋思之祖』。</shicang:appreciation>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;ZhangYanghao_ShanPoYang">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>山坡羊·潼关怀古</rdfs:label>
+        <shicang:title>山坡羊·潼关怀古</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;ZhangYanghao"/>
+        <shicang:dynasty>元</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">1329</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;SanQuXiaoLing"/>
+        <shicang:content>峰峦如聚，波涛如怒，山河表里潼关路。望西都，意踌躇。伤心秦汉经行处，宫阙万间都做了土。兴，百姓苦；亡，百姓苦</shicang:content>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_西都长"/>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_秦汉宫"/>
+        <shicang:containsImagery>峰峦</shicang:containsImagery>
+        <shicang:containsImagery>波涛</shicang:containsImagery>
+        <shicang:containsImagery>潼关</shicang:containsImagery>
+        <shicang:containsImagery>西都</shicang:containsImagery>
+        <shicang:containsImagery>宫阙</shicang:containsImagery>
+        <shicang:expressesEmotion>怀古</shicang:expressesEmotion>
+        <shicang:expressesEmotion>忧民</shicang:expressesEmotion>
+        <shicang:expressesEmotion>沉郁</shicang:expressesEmotion>
+        <shicang:hasTheme>怀古忧民</shicang:hasTheme>
+        <shicang:creationBackground>陕西行台中丞任上赈灾过潼关作</shicang:creationBackground>
+        <shicang:sourceDataset>云庄休居自适小乐府</shicang:sourceDataset>
+        <shicang:compositionPlace>潼关（陕西）</shicang:compositionPlace>
+        <shicang:contextType>赈灾途中怀古</shicang:contextType>
+        <shicang:compositionSeason>秋</shicang:compositionSeason>
+        <shicang:themeColor>#7F8C8D</shicang:themeColor>
+        <shicang:themeAccent>#2C3E50</shicang:themeAccent>
+        <shicang:themeBg>#F5F5F5</shicang:themeBg>
+    
+        <shicang:rhymeGroup>七麌</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句、第2句、第3句、第6句、第7句、第9句、第11句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,3,6,7,9,11</shicang:rhymeLines>
+        <shicang:studyTheme>怀古沧桑</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/ZhangYanghao_ShanPoYang.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;TangYin_TaoHuaAnGe">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>桃花庵歌</rdfs:label>
+        <shicang:title>桃花庵歌</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;TangYin"/>
+        <shicang:dynasty>明</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">1505</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;QiYanGuFeng"/>
+        <shicang:content>桃花坞里桃花庵，桃花庵下桃花仙。桃花仙人种桃树，又摘桃花换酒钱。别人笑我忒疯癫，我笑他人看不穿。不见五陵豪杰墓，无花无酒锄作田</shicang:content>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_五陵豪"/>
+        <shicang:containsImagery>桃花坞</shicang:containsImagery>
+        <shicang:containsImagery>桃花庵</shicang:containsImagery>
+        <shicang:containsImagery>桃花仙</shicang:containsImagery>
+        <shicang:containsImagery>桃树</shicang:containsImagery>
+        <shicang:containsImagery>酒</shicang:containsImagery>
+        <shicang:containsImagery>花</shicang:containsImagery>
+        <shicang:expressesEmotion>旷达</shicang:expressesEmotion>
+        <shicang:expressesEmotion>傲岸</shicang:expressesEmotion>
+        <shicang:expressesEmotion>风流</shicang:expressesEmotion>
+        <shicang:expressesEmotion>超脱</shicang:expressesEmotion>
+        <shicang:hasTheme>抒怀明志</shicang:hasTheme>
+        <shicang:creationBackground>科场舞弊案后绝意仕进，居苏州桃花坞作</shicang:creationBackground>
+        <shicang:sourceDataset>六如居士集</shicang:sourceDataset>
+        <shicang:compositionPlace>苏州桃花坞（江苏）</shicang:compositionPlace>
+        <shicang:contextType>隐居明志</shicang:contextType>
+        <shicang:compositionSeason>春</shicang:compositionSeason>
+        <shicang:themeColor>#27AE60</shicang:themeColor>
+        <shicang:themeAccent>#16A085</shicang:themeAccent>
+        <shicang:themeBg>#F4FAF0</shicang:themeBg>
+    
+        <shicang:rhymeGroup>一先</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句、第2句、第4句、第5句、第6句、第8句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4,5,6,8</shicang:rhymeLines>
+        <shicang:studyTheme>旷达超脱</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/TangYin_TaoHuaAnGe.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;YangShen_LinJiangXian">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>临江仙·滚滚长江东逝水</rdfs:label>
+        <shicang:title>临江仙·滚滚长江东逝水</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;YangShen"/>
+        <shicang:dynasty>明</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">1530</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;Ci"/>
+        <shicang:content>滚滚长江东逝水，浪花淘尽英雄。是非成败转头空。青山依旧在，几度夕阳红。白发渔樵江渚上，惯看秋月春风。一壶浊酒喜相逢。古今多少事，都付笑谈中</shicang:content>
+        <shicang:containsImagery>长江</shicang:containsImagery>
+        <shicang:containsImagery>浪花</shicang:containsImagery>
+        <shicang:containsImagery>英雄</shicang:containsImagery>
+        <shicang:containsImagery>青山</shicang:containsImagery>
+        <shicang:containsImagery>夕阳</shicang:containsImagery>
+        <shicang:containsImagery>渔樵</shicang:containsImagery>
+        <shicang:containsImagery>秋月春风</shicang:containsImagery>
+        <shicang:containsImagery>浊酒</shicang:containsImagery>
+        <shicang:expressesEmotion>旷达</shicang:expressesEmotion>
+        <shicang:expressesEmotion>怀古</shicang:expressesEmotion>
+        <shicang:expressesEmotion>沧桑</shicang:expressesEmotion>
+        <shicang:expressesEmotion>看透世事</shicang:expressesEmotion>
+        <shicang:hasTheme>怀古咏史</shicang:hasTheme>
+        <shicang:creationBackground>贬谪云南途中作，后为《三国演义》开篇词</shicang:creationBackground>
+        <shicang:sourceDataset>升庵词话</shicang:sourceDataset>
+        <shicang:compositionPlace>云南贬所</shicang:compositionPlace>
+        <shicang:contextType>贬谪抒怀</shicang:contextType>
+        <shicang:compositionSeason>秋</shicang:compositionSeason>
+        <shicang:themeColor>#2980B9</shicang:themeColor>
+        <shicang:themeAccent>#3498DB</shicang:themeAccent>
+        <shicang:themeBg>#F0F7FC</shicang:themeBg>
+    
+        <shicang:rhymeGroup>一东</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第2句、第3句、第5句、第7句、第8句、第10句</shicang:rhymeScheme>
+        <shicang:rhymeLines>2,3,5,7,8,10</shicang:rhymeLines>
+        <shicang:studyTheme>怀古沧桑</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/YangShen_LinJiangXian.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;NalanXingde_MuLanHuaLing">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>木兰花令·拟古决绝词</rdfs:label>
+        <shicang:title>木兰花令·拟古决绝词</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;NalanXingde"/>
+        <shicang:dynasty>清</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">1679</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;Ci"/>
+        <shicang:content>人生若只如初见，何事秋风悲画扇。等闲变却故人心，却道故人心易变。骊山语罢清宵半，泪雨霖铃终不怨。何如薄幸锦衣郎，比翼连枝当日愿</shicang:content>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_班婕妤"/>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_唐玄宗"/>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_白居易"/>
+        <shicang:containsImagery>秋风画扇</shicang:containsImagery>
+        <shicang:containsImagery>骊山</shicang:containsImagery>
+        <shicang:containsImagery>泪雨霖铃</shicang:containsImagery>
+        <shicang:containsImagery>比翼连枝</shicang:containsImagery>
+        <shicang:expressesEmotion>爱情</shicang:expressesEmotion>
+        <shicang:expressesEmotion>决绝</shicang:expressesEmotion>
+        <shicang:expressesEmotion>怅惘</shicang:expressesEmotion>
+        <shicang:hasTheme>爱情决绝词</shicang:hasTheme>
+        <shicang:creationBackground>拟古乐府决绝词，写友情/爱情变故</shicang:creationBackground>
+        <shicang:sourceDataset>饮水词</shicang:sourceDataset>
+        <shicang:compositionPlace>北京</shicang:compositionPlace>
+        <shicang:contextType>拟古决绝词</shicang:contextType>
+        <shicang:compositionSeason>秋</shicang:compositionSeason>
+        <shicang:themeColor>#8E44AD</shicang:themeColor>
+        <shicang:themeAccent>#E91E63</shicang:themeAccent>
+        <shicang:themeBg>#FBF5FC</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十七霰</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句、第4句、第5句、第6句、第8句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,4,5,6,8</shicang:rhymeLines>
+        <shicang:studyTheme>深情婉约</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/NalanXingde_MuLanHuaLing.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;NalanXingde_ChangXiangSi">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>长相思·山一程</rdfs:label>
+        <shicang:title>长相思·山一程</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;NalanXingde"/>
+        <shicang:dynasty>清</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">1682</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;Ci"/>
+        <shicang:content>山一程，水一程，身向榆关那畔行，夜深千帐灯。风一更，雪一更，聒碎乡心梦不成，故园无此声</shicang:content>
+        <shicang:containsImagery>山</shicang:containsImagery>
+        <shicang:containsImagery>水</shicang:containsImagery>
+        <shicang:containsImagery>榆关</shicang:containsImagery>
+        <shicang:containsImagery>千帐灯</shicang:containsImagery>
+        <shicang:containsImagery>风</shicang:containsImagery>
+        <shicang:containsImagery>雪</shicang:containsImagery>
+        <shicang:containsImagery>故园</shicang:containsImagery>
+        <shicang:expressesEmotion>思乡</shicang:expressesEmotion>
+        <shicang:expressesEmotion>孤寂</shicang:expressesEmotion>
+        <shicang:expressesEmotion>行旅</shicang:expressesEmotion>
+        <shicang:hasTheme>边塞思乡</shicang:hasTheme>
+        <shicang:creationBackground>随康熙东巡盛京，出山海关途中作</shicang:creationBackground>
+        <shicang:sourceDataset>饮水词</shicang:sourceDataset>
+        <shicang:compositionPlace>山海关外（辽宁）</shicang:compositionPlace>
+        <shicang:contextType>随驾东巡</shicang:contextType>
+        <shicang:compositionSeason>冬</shicang:compositionSeason>
+        <shicang:themeColor>#8E44AD</shicang:themeColor>
+        <shicang:themeAccent>#E91E63</shicang:themeAccent>
+        <shicang:themeBg>#FBF5FC</shicang:themeBg>
+    
+        <shicang:rhymeGroup>八庚</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句、第2句、第3句、第4句、第5句、第6句、第7句、第8句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,3,4,5,6,7,8</shicang:rhymeLines>
+        <shicang:studyTheme>悲慨沉郁</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/NalanXingde_ChangXiangSi.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;ZhengXie_ZhuShi">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>竹石</rdfs:label>
+        <shicang:title>竹石</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;ZhengXie"/>
+        <shicang:dynasty>清</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">1740</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;QiJue"/>
+        <shicang:content>咬定青山不放松，立根原在破岩中。千磨万击还坚劲，任尔东西南北风</shicang:content>
+        <shicang:containsImagery>青山</shicang:containsImagery>
+        <shicang:containsImagery>竹</shicang:containsImagery>
+        <shicang:containsImagery>破岩</shicang:containsImagery>
+        <shicang:containsImagery>风</shicang:containsImagery>
+        <shicang:expressesEmotion>坚劲</shicang:expressesEmotion>
+        <shicang:expressesEmotion>刚正</shicang:expressesEmotion>
+        <shicang:expressesEmotion>高洁</shicang:expressesEmotion>
+        <shicang:expressesEmotion>傲岸</shicang:expressesEmotion>
+        <shicang:hasTheme>题画明志</shicang:hasTheme>
+        <shicang:creationBackground>题自己画的竹石图，自明气节</shicang:creationBackground>
+        <shicang:sourceDataset>板桥集</shicang:sourceDataset>
+        <shicang:compositionPlace>扬州（江苏）</shicang:compositionPlace>
+        <shicang:contextType>题画竹石</shicang:contextType>
+        <shicang:compositionSeason>秋</shicang:compositionSeason>
+        <shicang:themeColor>#2980B9</shicang:themeColor>
+        <shicang:themeAccent>#3498DB</shicang:themeAccent>
+        <shicang:themeBg>#F0F7FC</shicang:themeBg>
+    
+        <shicang:rhymeGroup>一东</shicang:rhymeGroup>
+        <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
+        <shicang:studyTheme>旷达超脱</shicang:studyTheme>
+        <shicang:studyDepth>deep</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/ZhengXie_ZhuShi.html</shicang:studyPage>
+        <shicang:vernacularTranslation>紧紧咬住青山，绝不放松。　它的根原本就扎在破裂的岩石之中。　经历千万次磨难打击，依然坚韧刚劲。　任凭你从东西南北刮来狂风。</shicang:vernacularTranslation>
+        <shicang:englishTranslation>Biting firm the green mountain, it will not let go; Its roots were planted deep in broken rock. Through a thousand grindings and ten thousand blows it stays strong: Let the winds blow from east, west, south, or north.</shicang:englishTranslation>
+        <shicang:appreciation>这是一首题画诗，画的是竹，写的是人。『咬定』『立根』以拟人之笔写竹之根性，一个『咬』字把竹的倔强写活；三四句由形入神，『千磨万击』『东西南北风』极写外境之恶，而竹『还坚劲』『任尔』，从容不屈。全诗借物咏志，正是诗人清正刚直、不随流俗的人格写照。</shicang:appreciation>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;YuanMei_CangShanShiHua">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>随园诗话</rdfs:label>
+        <shicang:title>随园诗话</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;YuanMei"/>
+        <shicang:dynasty>清</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">1760</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;ShiHua"/>
+        <shicang:content>诗言志，诗缘情，诗者，情之所钟，正在我辈</shicang:content>
+        <shicang:expressesEmotion>性灵</shicang:expressesEmotion>
+        <shicang:hasTheme>诗论</shicang:hasTheme>
+        <shicang:creationBackground>辞官居南京随园，论诗主性灵，记当时诗坛轶事</shicang:creationBackground>
+        <shicang:sourceDataset>随园诗话</shicang:sourceDataset>
+    
+        <shicang:rhymeGroup>四寘</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1</shicang:rhymeLines>
+        <shicang:studyTheme>旷达超脱</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/YuanMei_CangShanShiHua.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;CaoXueqin_HongLouMeng">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>葬花吟</rdfs:label>
+        <shicang:title>葬花吟</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;CaoXueqin"/>
+        <shicang:dynasty>清</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">1750</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;QiYanGuFeng"/>
+        <shicang:content>花谢花飞花满天，红消香断有谁怜？质本洁来还洁去，强于污淖陷渠沟。一朝春尽红颜老，花落人亡两不知</shicang:content>
+        <shicang:containsImagery>落花</shicang:containsImagery>
+        <shicang:containsImagery>花冢</shicang:containsImagery>
+        <shicang:containsImagery>洁质</shicang:containsImagery>
+        <shicang:containsImagery>红颜</shicang:containsImagery>
+        <shicang:expressesEmotion>凄美</shicang:expressesEmotion>
+        <shicang:expressesEmotion>哀婉</shicang:expressesEmotion>
+        <shicang:expressesEmotion>孤高</shicang:expressesEmotion>
+        <shicang:hasTheme>抒情写人</shicang:hasTheme>
+        <shicang:creationBackground>《红楼梦》中林黛玉葬花时作</shicang:creationBackground>
+        <shicang:sourceDataset>红楼梦</shicang:sourceDataset>
+        <shicang:compositionPlace>北京西山</shicang:compositionPlace>
+        <shicang:contextType>悼红轩著书</shicang:contextType>
+        <shicang:compositionSeason>春</shicang:compositionSeason>
+        <shicang:themeColor>#8E44AD</shicang:themeColor>
+        <shicang:themeAccent>#E91E63</shicang:themeAccent>
+        <shicang:themeBg>#FBF5FC</shicang:themeBg>
+    
+        <shicang:rhymeGroup>一先</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句、第2句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2</shicang:rhymeLines>
+        <shicang:studyTheme>深情婉约</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/CaoXueqin_HongLouMeng.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;GongZizhen_YiHaiZaShi">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>己亥杂诗·其五</rdfs:label>
+        <shicang:title>己亥杂诗·其五</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;GongZizhen"/>
+        <shicang:dynasty>清</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">1839</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;QiJue"/>
+        <shicang:content>浩荡离愁白日斜，吟鞭东指即天涯。落红不是无情物，化作春泥更护花</shicang:content>
+        <shicang:containsImagery>白日</shicang:containsImagery>
+        <shicang:containsImagery>吟鞭</shicang:containsImagery>
+        <shicang:containsImagery>落红</shicang:containsImagery>
+        <shicang:containsImagery>春泥</shicang:containsImagery>
+        <shicang:containsImagery>花</shicang:containsImagery>
+        <shicang:expressesEmotion>忧国</shicang:expressesEmotion>
+        <shicang:expressesEmotion>奉献</shicang:expressesEmotion>
+        <shicang:expressesEmotion>离京愁绪</shicang:expressesEmotion>
+        <shicang:hasTheme>离京抒怀</shicang:hasTheme>
+        <shicang:creationBackground>辞官南归途中作己亥杂诗315首</shicang:creationBackground>
+        <shicang:sourceDataset>龚自珍全集</shicang:sourceDataset>
+        <shicang:compositionPlace>南归途中（江苏）</shicang:compositionPlace>
+        <shicang:contextType>辞官离京</shicang:contextType>
+        <shicang:compositionSeason>春</shicang:compositionSeason>
+        <shicang:themeColor>#2980B9</shicang:themeColor>
+        <shicang:themeAccent>#3498DB</shicang:themeAccent>
+        <shicang:themeBg>#F0F7FC</shicang:themeBg>
+    
+        <shicang:rhymeGroup>六麻</shicang:rhymeGroup>
+        <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
+        <shicang:studyTheme>慷慨爱国</shicang:studyTheme>
+        <shicang:studyDepth>deep</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/GongZizhen_YiHaiZaShi.html</shicang:studyPage>
+        <shicang:vernacularTranslation>无边的离愁随着西斜的白日涌起。　挥鞭向东，从此便是远隔天涯。　飘落的花瓣并非无情之物。　它化作春泥，反而更能养护新花。</shicang:vernacularTranslation>
+        <shicang:englishTranslation>Vast, vast my parting sorrow as the white sun slants; Whipping east, at once I am at the world's end. Fallen blossoms are not heartless things: Turned to spring mud, they better nourish the flowers.</shicang:englishTranslation>
+        <shicang:appreciation>诗人辞官南归途中所作。前两句以『浩荡离愁』与『白日斜』『天涯』写去国之悲，苍茫沉重；后两句忽作翻转，以『落红』自喻——虽离枝飘落，却化作春泥去滋养新花，把个人的失意升华为对国家未来的深情托付。一抑一扬，境界顿开，成为千古传诵的名句。</shicang:appreciation>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;GongZizhen_YiHaiZaShi_220">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>己亥杂诗·其二百二十</rdfs:label>
+        <shicang:title>己亥杂诗·其二百二十</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;GongZizhen"/>
+        <shicang:dynasty>清</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">1839</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;QiJue"/>
+        <shicang:content>九州生气恃风雷，万马齐喑究可哀。我劝天公重抖擞，不拘一格降人才</shicang:content>
+        <shicang:containsImagery>风雷</shicang:containsImagery>
+        <shicang:containsImagery>万马</shicang:containsImagery>
+        <shicang:containsImagery>天公</shicang:containsImagery>
+        <shicang:expressesEmotion>忧国</shicang:expressesEmotion>
+        <shicang:expressesEmotion>呼唤变革</shicang:expressesEmotion>
+        <shicang:hasTheme>讽喻抒怀</shicang:hasTheme>
+        <shicang:creationBackground>过镇江应道士请撰青词，抒发改革愿望</shicang:creationBackground>
+        <shicang:sourceDataset>龚自珍全集</shicang:sourceDataset>
+        <shicang:compositionPlace>镇江（江苏）</shicang:compositionPlace>
+        <shicang:contextType>应道士青词</shicang:contextType>
+        <shicang:compositionSeason>夏</shicang:compositionSeason>
+        <shicang:themeColor>#D35400</shicang:themeColor>
+        <shicang:themeAccent>#C0392B</shicang:themeAccent>
+        <shicang:themeBg>#FEF9F0</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十灰</shicang:rhymeGroup>
+        <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
+        <shicang:studyTheme>慷慨爱国</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/GongZizhen_YiHaiZaShi_220.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="&shicang;WangGuowei_RenJianCiHua">
+        <rdf:type rdf:resource="&shicang;Poetry"/>
+        <rdfs:label>人间词话三境界</rdfs:label>
+        <shicang:title>人间词话三境界</shicang:title>
+        <shicang:authoredBy rdf:resource="&shicang;WangGuowei"/>
+        <shicang:dynasty>近代</shicang:dynasty>
+        <shicang:compositionYear rdf:datatype="&xsd;integer">1910</shicang:compositionYear>
+        <shicang:hasGenre rdf:resource="&shicang;CiHua"/>
+        <shicang:content>古今之成大事业、大学问者，必经过三种之境界：昨夜西风凋碧树，独上高楼，望尽天涯路；衣带渐宽终不悔，为伊消得人憔悴；众里寻他千百度，蓦然回首，那人却在灯火阑珊处</shicang:content>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_晏殊蝶"/>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_柳永蝶"/>
+        <shicang:alludesTo rdf:resource="&shicang;Allusion_辛弃疾"/>
+        <shicang:expressesEmotion>境界</shicang:expressesEmotion>
+        <shicang:hasTheme>词论</shicang:hasTheme>
+        <shicang:creationBackground>融合康德叔本华美学与中国传统诗学，提出境界说</shicang:creationBackground>
+        <shicang:sourceDataset>人间词话</shicang:sourceDataset>
+        <shicang:compositionPlace>北京/上海</shicang:compositionPlace>
+        <shicang:contextType>词学著述</shicang:contextType>
+        <shicang:compositionSeason>秋</shicang:compositionSeason>
+        <shicang:themeColor>#607D8B</shicang:themeColor>
+        <shicang:themeAccent>#78909C</shicang:themeAccent>
+        <shicang:themeBg>#F5F8F9</shicang:themeBg>
+    
+        <shicang:rhymeGroup>七遇</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第2句、第4句、第7句、第9句</shicang:rhymeScheme>
+        <shicang:rhymeLines>2,4,7,9</shicang:rhymeLines>
+        <shicang:studyTheme>旷达超脱</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/WangGuowei_RenJianCiHua.html</shicang:studyPage>
+    </owl:NamedIndividual>
+
+    <!-- 精读层数据属性（追加） -->
+    <owl:DatatypeProperty rdf:about="&shicang;rhymeGroup">
+        <rdfs:label>rhymeGroup</rdfs:label>
+        <rdfs:comment>所属平水韵韵部（如「十一真」）</rdfs:comment>
+        <rdfs:domain rdf:resource="&shicang;Poetry"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="&shicang;rhymeScheme">
+        <rdfs:label>rhymeScheme</rdfs:label>
+        <rdfs:comment>韵式说明（如「首句入韵，二、四句押韵」）</rdfs:comment>
+        <rdfs:domain rdf:resource="&shicang;Poetry"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="&shicang;rhymeLines">
+        <rdfs:label>rhymeLines</rdfs:label>
+        <rdfs:comment>押韵句序号（逗号分隔）</rdfs:comment>
+        <rdfs:domain rdf:resource="&shicang;Poetry"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="&shicang;studyTheme">
+        <rdfs:label>studyTheme</rdfs:label>
+        <rdfs:comment>精读情境主题（八类之一）</rdfs:comment>
+        <rdfs:domain rdf:resource="&shicang;Poetry"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="&shicang;studyDepth">
+        <rdfs:label>studyDepth</rdfs:label>
+        <rdfs:comment>精读深度（deep 深度精读 / standard 标准精读）</rdfs:comment>
+        <rdfs:domain rdf:resource="&shicang;Poetry"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="&shicang;studyPage">
+        <rdfs:label>studyPage</rdfs:label>
+        <rdfs:comment>精读页站内相对链接</rdfs:comment>
+        <rdfs:domain rdf:resource="&shicang;Poetry"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="&shicang;vernacularTranslation">
+        <rdfs:label>vernacularTranslation</rdfs:label>
+        <rdfs:comment>今译（白话译文）</rdfs:comment>
+        <rdfs:domain rdf:resource="&shicang;Poetry"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="&shicang;englishTranslation">
+        <rdfs:label>englishTranslation</rdfs:label>
+        <rdfs:comment>英译（本站整理）</rdfs:comment>
+        <rdfs:domain rdf:resource="&shicang;Poetry"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="&shicang;appreciation">
+        <rdfs:label>appreciation</rdfs:label>
+        <rdfs:comment>赏析</rdfs:comment>
+        <rdfs:domain rdf:resource="&shicang;Poetry"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
 </rdf:RDF>

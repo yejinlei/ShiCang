@@ -4181,6 +4181,13 @@
         <shicang:themeColor>#7F8C8D</shicang:themeColor>
         <shicang:themeAccent>#2C3E50</shicang:themeAccent>
         <shicang:themeBg>#F5F5F5</shicang:themeBg>
+    
+        <shicang:rhymeGroup>八齐</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1</shicang:rhymeLines>
+        <shicang:studyTheme>慷慨爱国</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/QuYuan_LiSao.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;QuYuan_JiuGe_JiangJun">
@@ -4207,6 +4214,13 @@
         <shicang:themeColor>#D35400</shicang:themeColor>
         <shicang:themeAccent>#C0392B</shicang:themeAccent>
         <shicang:themeBg>#FEF9F0</shicang:themeBg>
+    
+        <shicang:rhymeGroup>八庚</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1</shicang:rhymeLines>
+        <shicang:studyTheme>慷慨爱国</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/QuYuan_JiuGe_JiangJun.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;CaoCao_DuanGeXing">
@@ -4235,6 +4249,13 @@
         <shicang:themeColor>#C0392B</shicang:themeColor>
         <shicang:themeAccent>#E67E22</shicang:themeAccent>
         <shicang:themeBg>#FDF6E3</shicang:themeBg>
+    
+        <shicang:rhymeGroup>五歌</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句、第4句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,4</shicang:rhymeLines>
+        <shicang:studyTheme>悲慨沉郁</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/CaoCao_DuanGeXing.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;CaoCao_GuanCangHai">
@@ -4261,6 +4282,13 @@
         <shicang:themeColor>#C0392B</shicang:themeColor>
         <shicang:themeAccent>#E67E22</shicang:themeAccent>
         <shicang:themeBg>#FDF6E3</shicang:themeBg>
+    
+        <shicang:rhymeGroup>支</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1</shicang:rhymeLines>
+        <shicang:studyTheme>豪放壮阔</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/CaoCao_GuanCangHai.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;CaoZhi_LuoShenFu">
@@ -4289,6 +4317,13 @@
         <shicang:themeColor>#8E44AD</shicang:themeColor>
         <shicang:themeAccent>#E91E63</shicang:themeAccent>
         <shicang:themeBg>#FBF5FC</shicang:themeBg>
+    
+        <shicang:rhymeGroup>二冬</shicang:rhymeGroup>
+        <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
+        <shicang:studyTheme>深情婉约</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/CaoZhi_LuoShenFu.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;TaoYuanming_YinJiu">
@@ -4316,6 +4351,13 @@
         <shicang:themeColor>#27AE60</shicang:themeColor>
         <shicang:themeAccent>#16A085</shicang:themeAccent>
         <shicang:themeBg>#F4FAF0</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十五删</shicang:rhymeGroup>
+        <shicang:rhymeScheme>二、四句押韵（abcb 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>2,4</shicang:rhymeLines>
+        <shicang:studyTheme>恬淡闲适</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/TaoYuanming_YinJiu.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;TaoYuanming_GuiQuLaiXi">
@@ -4343,6 +4385,13 @@
         <shicang:themeColor>#27AE60</shicang:themeColor>
         <shicang:themeAccent>#16A085</shicang:themeAccent>
         <shicang:themeBg>#F4FAF0</shicang:themeBg>
+    
+        <shicang:rhymeGroup>八齐</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句、第2句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2</shicang:rhymeLines>
+        <shicang:studyTheme>恬淡闲适</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/TaoYuanming_GuiQuLaiXi.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;TaoYuanming_TaoHuaYuan">
@@ -4369,6 +4418,13 @@
         <shicang:themeColor>#27AE60</shicang:themeColor>
         <shicang:themeAccent>#16A085</shicang:themeAccent>
         <shicang:themeBg>#F4FAF0</shicang:themeBg>
+    
+        <shicang:rhymeGroup>一东</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1</shicang:rhymeLines>
+        <shicang:studyTheme>旷达超脱</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/TaoYuanming_TaoHuaYuan.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;XieLingyun_DengChiShangLou">
@@ -4394,6 +4450,13 @@
         <shicang:themeColor>#27AE60</shicang:themeColor>
         <shicang:themeAccent>#16A085</shicang:themeAccent>
         <shicang:themeBg>#F4FAF0</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十九皓</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1</shicang:rhymeLines>
+        <shicang:studyTheme>恬淡闲适</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/XieLingyun_DengChiShangLou.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;WangBo_TengWangGeXu">
@@ -4426,6 +4489,13 @@
         <shicang:themeColor>#C0392B</shicang:themeColor>
         <shicang:themeAccent>#E67E22</shicang:themeAccent>
         <shicang:themeBg>#FDF6E3</shicang:themeBg>
+    
+        <shicang:rhymeGroup>五微</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1</shicang:rhymeLines>
+        <shicang:studyTheme>豪放壮阔</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/WangBo_TengWangGeXu.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;WangBo_SongDuShaoFu">
@@ -4452,6 +4522,13 @@
         <shicang:themeColor>#2980B9</shicang:themeColor>
         <shicang:themeAccent>#3498DB</shicang:themeAccent>
         <shicang:themeBg>#F0F7FC</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十一真</shicang:rhymeGroup>
+        <shicang:rhymeScheme>二、四句押韵（abcb 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>2,4</shicang:rhymeLines>
+        <shicang:studyTheme>旷达超脱</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/WangBo_SongDuShaoFu.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;ChenZiang_DengYouZhouTai">
@@ -4479,6 +4556,13 @@
         <shicang:themeColor>#7F8C8D</shicang:themeColor>
         <shicang:themeAccent>#2C3E50</shicang:themeAccent>
         <shicang:themeBg>#F5F5F5</shicang:themeBg>
+    
+        <shicang:rhymeGroup>廿一马</shicang:rhymeGroup>
+        <shicang:rhymeScheme>二、四句押韵（abcb 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>2,4</shicang:rhymeLines>
+        <shicang:studyTheme>怀古沧桑</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/ChenZiang_DengYouZhouTai.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;HeZhizhang_HuiXiangOuShu">
@@ -4504,6 +4588,13 @@
         <shicang:themeColor>#7F8C8D</shicang:themeColor>
         <shicang:themeAccent>#2C3E50</shicang:themeAccent>
         <shicang:themeBg>#F5F5F5</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十灰</shicang:rhymeGroup>
+        <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
+        <shicang:studyTheme>怀古沧桑</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/HeZhizhang_HuiXiangOuShu.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;WangWei_ShanJuQiuMing">
@@ -4536,6 +4627,16 @@
         <shicang:themeColor>#607D8B</shicang:themeColor>
         <shicang:themeAccent>#78909C</shicang:themeAccent>
         <shicang:themeBg>#F5F8F9</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十一尤</shicang:rhymeGroup>
+        <shicang:rhymeScheme>偶句押韵，一韵到底</shicang:rhymeScheme>
+        <shicang:rhymeLines>2,4,6,8</shicang:rhymeLines>
+        <shicang:studyTheme>恬淡闲适</shicang:studyTheme>
+        <shicang:studyDepth>deep</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/WangWei_ShanJuQiuMing.html</shicang:studyPage>
+        <shicang:vernacularTranslation>空寂的山中刚下过一场新雨。　傍晚时分，天气带来阵阵秋意。　明月的清辉洒落在松林之间。　清澈的泉水在山石上淙淙流淌。　竹林喧笑，是洗衣的姑娘归来。　莲叶摇动，是渔船顺流而下。　任凭春天的芳菲凋歇吧。　山中的秋色，我自可以留连。</shicang:vernacularTranslation>
+        <shicang:englishTranslation>In the empty hills just after the new rain, The evening air brings the feel of autumn. Bright moonlight shines among the pines; Clear spring water flows over the stones. In the bamboos a noise—the washer girls come home; The lotus stirs—a fishing boat goes down. Let the spring's fragrance fade as it will; The prince may well stay on in these hills.</shicang:englishTranslation>
+        <shicang:appreciation>此诗为『诗中有画』的典范。颔联『明月松间照，清泉石上流』，上句静、下句动，以光写洁、以声写幽；颈联『竹喧』『莲动』，以喧衬静、以动见净，浣女渔舟皆是人间，却无一点尘嚣。尾联反用《招隐士》之意，把『不可久留』翻成『自可留』，山水之乐与出尘之志，全在其中。</shicang:appreciation>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;WangWei_SongYuanErShiAnXi">
@@ -4564,6 +4665,16 @@
         <shicang:themeColor>#8E44AD</shicang:themeColor>
         <shicang:themeAccent>#E91E63</shicang:themeAccent>
         <shicang:themeBg>#FBF5FC</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十一真</shicang:rhymeGroup>
+        <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
+        <shicang:studyTheme>旷达超脱</shicang:studyTheme>
+        <shicang:studyDepth>deep</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/WangWei_SongYuanErShiAnXi.html</shicang:studyPage>
+        <shicang:vernacularTranslation>渭城清晨的一场细雨，润湿了路上的轻尘。　旅舍旁青青的柳色，被雨洗得格外清新。　劝你再喝完这一杯酒吧。　向西出了阳关，就再也见不到老朋友了。</shicang:vernacularTranslation>
+        <shicang:englishTranslation>The morning rain of Weicheng wets the light dust; Around the inn the willows look fresh and green. I urge you to drain one more cup of wine: West of Yangguan there is no old friend.</shicang:englishTranslation>
+        <shicang:appreciation>送别诗之绝唱，后谱入乐府为《阳关三叠》。前两句写景，『朝雨』『柳色』暗含『留』意（柳谐『留』），一场小雨把离别洗净得清新而清冷。三四句直抒，妙在一个『更』字——已经劝过多次，还要再劝一杯，因为杯中装的是所有说不出口的话，也是此后无可再见的深情。</shicang:appreciation>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;WangWei_JiuYueJiuRiYi">
@@ -4589,6 +4700,13 @@
         <shicang:themeColor>#8E44AD</shicang:themeColor>
         <shicang:themeAccent>#E91E63</shicang:themeAccent>
         <shicang:themeBg>#FBF5FC</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十一真</shicang:rhymeGroup>
+        <shicang:rhymeScheme>二、四句押韵（abcb 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>2,4</shicang:rhymeLines>
+        <shicang:studyTheme>旷达超脱</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/WangWei_JiuYueJiuRiYi.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;MengHaoran_ChunXiao">
@@ -4615,6 +4733,16 @@
         <shicang:themeColor>#27AE60</shicang:themeColor>
         <shicang:themeAccent>#16A085</shicang:themeAccent>
         <shicang:themeBg>#F4FAF0</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十七筱</shicang:rhymeGroup>
+        <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
+        <shicang:studyTheme>恬淡闲适</shicang:studyTheme>
+        <shicang:studyDepth>deep</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/MengHaoran_ChunXiao.html</shicang:studyPage>
+        <shicang:vernacularTranslation>春夜好眠，不知不觉天已破晓。　醒来时只听得处处都是鸟儿的啼鸣。　回想夜里隐隐的风雨之声。　不知那院中的花被打落了多少。</shicang:vernacularTranslation>
+        <shicang:englishTranslation>I slept in spring and knew not it was dawn; I hear birds crying all around. Last night there came the sound of wind and rain; How many flowers, I wonder, have fallen down.</shicang:englishTranslation>
+        <shicang:appreciation>诗不写春景却处处是春。首句写人之慵懒，次句写听觉之欢快，三句一转由『闻』入『忆』，末句由忆生惜——落花之问，是全诗的魂，惜春之情尽在其中。全篇以声写春、以问写情，含蓄婉转。</shicang:appreciation>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;MengHaoran_GuoGuRenZhuang">
@@ -4645,6 +4773,13 @@
         <shicang:themeColor>#27AE60</shicang:themeColor>
         <shicang:themeAccent>#16A085</shicang:themeAccent>
         <shicang:themeBg>#F4FAF0</shicang:themeBg>
+    
+        <shicang:rhymeGroup>六麻</shicang:rhymeGroup>
+        <shicang:rhymeScheme>偶句押韵，一韵到底</shicang:rhymeScheme>
+        <shicang:rhymeLines>2,4,6,8</shicang:rhymeLines>
+        <shicang:studyTheme>恬淡闲适</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/MengHaoran_GuoGuRenZhuang.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;LiBai_JiangJinJiu">
@@ -4675,6 +4810,13 @@
         <shicang:themeColor>#C0392B</shicang:themeColor>
         <shicang:themeAccent>#E67E22</shicang:themeAccent>
         <shicang:themeBg>#FDF6E3</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十灰</shicang:rhymeGroup>
+        <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
+        <shicang:studyTheme>豪放壮阔</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/LiBai_JiangJinJiu.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;LiBai_ShuDaoNan">
@@ -4704,6 +4846,13 @@
         <shicang:themeColor>#C0392B</shicang:themeColor>
         <shicang:themeAccent>#E67E22</shicang:themeAccent>
         <shicang:themeBg>#FDF6E3</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十四寒</shicang:rhymeGroup>
+        <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
+        <shicang:studyTheme>豪放壮阔</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/LiBai_ShuDaoNan.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;LiBai_JingYeSi">
@@ -4727,6 +4876,16 @@
         <shicang:themeColor>#8E44AD</shicang:themeColor>
         <shicang:themeAccent>#E91E63</shicang:themeAccent>
         <shicang:themeBg>#FBF5FC</shicang:themeBg>
+    
+        <shicang:rhymeGroup>七阳</shicang:rhymeGroup>
+        <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
+        <shicang:studyTheme>旷达超脱</shicang:studyTheme>
+        <shicang:studyDepth>deep</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/LiBai_JingYeSi.html</shicang:studyPage>
+        <shicang:vernacularTranslation>明亮的月光洒在床前，一片清冷。　恍惚间以为是地上结了一层白霜。　抬起头来，望着天上那轮明月。　低下头去，思念起远方的故乡。</shicang:vernacularTranslation>
+        <shicang:englishTranslation>Before my bed the moonlight glimmers bright; I take it for white frost upon the ground. I lift my head and gaze upon the moon; I bow my head and think of my old home.</shicang:englishTranslation>
+        <shicang:appreciation>全诗二十字，无一难字，无一僻典，却成为千年思乡第一诗。妙处在『疑』字：月色与霜色本难分辨，一『疑』写尽夜半初醒的恍惚。三四句以『举头』『低头』一组对称动作收束，空间上由地上而天上、由天上而心中，乡愁不著一字而尽得风流。</shicang:appreciation>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;LiBai_WangLuShanPuBu">
@@ -4754,6 +4913,13 @@
         <shicang:themeColor>#C0392B</shicang:themeColor>
         <shicang:themeAccent>#E67E22</shicang:themeAccent>
         <shicang:themeBg>#FDF6E3</shicang:themeBg>
+    
+        <shicang:rhymeGroup>一先</shicang:rhymeGroup>
+        <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
+        <shicang:studyTheme>恬淡闲适</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/LiBai_WangLuShanPuBu.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;LiBai_MengYouTianLao">
@@ -4783,6 +4949,13 @@
         <shicang:themeColor>#C0392B</shicang:themeColor>
         <shicang:themeAccent>#E67E22</shicang:themeAccent>
         <shicang:themeBg>#FDF6E3</shicang:themeBg>
+    
+        <shicang:rhymeGroup>五未</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1</shicang:rhymeLines>
+        <shicang:studyTheme>豪放壮阔</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/LiBai_MengYouTianLao.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;LiBai_ZengWangLun">
@@ -4807,6 +4980,13 @@
         <shicang:themeColor>#8E44AD</shicang:themeColor>
         <shicang:themeAccent>#E91E63</shicang:themeAccent>
         <shicang:themeBg>#FBF5FC</shicang:themeBg>
+    
+        <shicang:rhymeGroup>支</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1</shicang:rhymeLines>
+        <shicang:studyTheme>深情婉约</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/LiBai_ZengWangLun.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;LiBai_HuangHeLouSongMeng">
@@ -4837,6 +5017,13 @@
         <shicang:themeColor>#8E44AD</shicang:themeColor>
         <shicang:themeAccent>#E91E63</shicang:themeAccent>
         <shicang:themeBg>#FBF5FC</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十一尤</shicang:rhymeGroup>
+        <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
+        <shicang:studyTheme>深情婉约</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/LiBai_HuangHeLouSongMeng.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;GaoShi_BieDongDa">
@@ -4864,6 +5051,13 @@
         <shicang:themeColor>#C0392B</shicang:themeColor>
         <shicang:themeAccent>#E67E22</shicang:themeAccent>
         <shicang:themeBg>#FDF6E3</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十二文</shicang:rhymeGroup>
+        <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
+        <shicang:studyTheme>豪放壮阔</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/GaoShi_BieDongDa.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;CenShen_BaiXueGe">
@@ -4893,6 +5087,13 @@
         <shicang:themeColor>#C0392B</shicang:themeColor>
         <shicang:themeAccent>#E67E22</shicang:themeAccent>
         <shicang:themeBg>#FDF6E3</shicang:themeBg>
+    
+        <shicang:rhymeGroup>歌</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句、第2句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2</shicang:rhymeLines>
+        <shicang:studyTheme>豪放壮阔</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/CenShen_BaiXueGe.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;WangChangling_ChuSai">
@@ -4922,6 +5123,13 @@
         <shicang:themeColor>#D35400</shicang:themeColor>
         <shicang:themeAccent>#C0392B</shicang:themeAccent>
         <shicang:themeBg>#FEF9F0</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十五删</shicang:rhymeGroup>
+        <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
+        <shicang:studyTheme>慷慨爱国</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/WangChangling_ChuSai.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;WangChangling_FuRongLou">
@@ -4951,6 +5159,13 @@
         <shicang:themeColor>#607D8B</shicang:themeColor>
         <shicang:themeAccent>#78909C</shicang:themeAccent>
         <shicang:themeBg>#F5F8F9</shicang:themeBg>
+    
+        <shicang:rhymeGroup>七虞</shicang:rhymeGroup>
+        <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
+        <shicang:studyTheme>旷达超脱</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/WangChangling_FuRongLou.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;DuFu_ChunWang">
@@ -4982,6 +5197,16 @@
         <shicang:themeColor>#7F8C8D</shicang:themeColor>
         <shicang:themeAccent>#2C3E50</shicang:themeAccent>
         <shicang:themeBg>#F5F5F5</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十二侵</shicang:rhymeGroup>
+        <shicang:rhymeScheme>偶句押韵，一韵到底</shicang:rhymeScheme>
+        <shicang:rhymeLines>2,4,6,8</shicang:rhymeLines>
+        <shicang:studyTheme>慷慨爱国</shicang:studyTheme>
+        <shicang:studyDepth>deep</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/DuFu_ChunWang.html</shicang:studyPage>
+        <shicang:vernacularTranslation>国都沦陷，山河依旧存在。　长安的春天到了，草木疯长，一片荒芜。　感伤时局，见花开也溅泪。　痛恨离别，闻鸟鸣也惊心。　战火连绵，已经三月不绝。　一封家书，抵得上万两黄金。　满头白发，越搔越短。　简直要连发簪都插不住了。</shicang:vernacularTranslation>
+        <shicang:englishTranslation>The kingdom is destroyed; its hills and rivers remain; In the spring of the city, the grass and trees grow deep. Moved by the times, flowers shed tears on my behalf; Bitter at parting, birds startle my heart. The beacon fires have flared for three months without end; A letter from home is worth ten thousand pieces of gold. My white head, scratched, grows shorter still; I am fit only to be without a hair-clasp.</shicang:englishTranslation>
+        <shicang:appreciation>开篇『国破』而『山河在』，『城春』而『草木深』，反差之中写尽黍离之悲——明是写景，实是写情。颔联『花溅泪』『鸟惊心』以物之有情反衬人之至痛，为移情之绝唱。颈联由情及事，『烽火』与『家书』对举，乱世之痛可触。尾联以白发搔短、不胜簪作结，忧愁之深，全在形体之衰上见出。</shicang:appreciation>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;DuFu_MaoWuWeiQiuFeng">
@@ -5009,6 +5234,13 @@
         <shicang:themeColor>#7F8C8D</shicang:themeColor>
         <shicang:themeAccent>#2C3E50</shicang:themeAccent>
         <shicang:themeBg>#F5F5F5</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十五删</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句、第2句、第3句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,3</shicang:rhymeLines>
+        <shicang:studyTheme>悲慨沉郁</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/DuFu_MaoWuWeiQiuFeng.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;DuFu_DengGao">
@@ -5043,6 +5275,16 @@
         <shicang:themeColor>#7F8C8D</shicang:themeColor>
         <shicang:themeAccent>#2C3E50</shicang:themeAccent>
         <shicang:themeBg>#F5F5F5</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十灰</shicang:rhymeGroup>
+        <shicang:rhymeScheme>首句入韵，逐偶句押韵，一韵到底</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4,6,8</shicang:rhymeLines>
+        <shicang:studyTheme>悲慨沉郁</shicang:studyTheme>
+        <shicang:studyDepth>deep</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/DuFu_DengGao.html</shicang:studyPage>
+        <shicang:vernacularTranslation>秋风劲急，天宇高远，猿声凄厉哀转。　水清沙白的洲渚上，鸟儿在风中盘旋。　无边无际的落叶萧萧地飘落。　奔流不尽的江水滚滚而来。　悲叹秋日，万里漂泊常年为客。　一生多病，今日独自登临高台。　历尽艰难，深恨这满头如霜的白发。　穷愁潦倒，偏偏新近又停下了浊酒杯。</shicang:vernacularTranslation>
+        <shicang:englishTranslation>The wind is sharp, the sky is high, the apes howl in grief; Over the clear isle and white sand the birds wheel back. The boundless falling leaves rustle down without end; The endless Long River rolls on and on. Ten thousand li from home, I sorrow in autumn, ever a stranger; A hundred years of many ills, alone I climb the height. Through hardship and bitter regret my temples frost with white; Poor and ill, I have newly given up my cup of cloudy wine.</shicang:englishTranslation>
+        <shicang:appreciation>被誉为『古今七律第一』。前四句写景，以『急』『高』『哀』『清』『白』『无边』『不尽』等字层层催逼，苍茫阔大中透出肃杀；后四句抒情，『万里』对『百年』，『悲秋』对『多病』，『常作客』对『独登台』，八重愁绪如浪叠来。结句以因病戒酒作结，欲悲无酒，沉郁至极。八句皆对仗，却无板滞之迹。</shicang:appreciation>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;DuFu_SanLiSanBie">
@@ -5070,6 +5312,13 @@
         <shicang:themeColor>#7F8C8D</shicang:themeColor>
         <shicang:themeAccent>#2C3E50</shicang:themeAccent>
         <shicang:themeBg>#F5F5F5</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十三元</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句、第2句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2</shicang:rhymeLines>
+        <shicang:studyTheme>悲慨沉郁</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/DuFu_SanLiSanBie.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;BaiJuyi_ChangHenGe">
@@ -5100,6 +5349,13 @@
         <shicang:themeColor>#8E44AD</shicang:themeColor>
         <shicang:themeAccent>#E91E63</shicang:themeAccent>
         <shicang:themeBg>#FBF5FC</shicang:themeBg>
+    
+        <shicang:rhymeGroup>四支</shicang:rhymeGroup>
+        <shicang:rhymeScheme>二、四句押韵（abcb 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>2,4</shicang:rhymeLines>
+        <shicang:studyTheme>深情婉约</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/BaiJuyi_ChangHenGe.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;BaiJuyi_PiPaXing">
@@ -5128,6 +5384,13 @@
         <shicang:themeColor>#7F8C8D</shicang:themeColor>
         <shicang:themeAccent>#2C3E50</shicang:themeAccent>
         <shicang:themeBg>#F5F5F5</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十一真</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1</shicang:rhymeLines>
+        <shicang:studyTheme>悲慨沉郁</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/BaiJuyi_PiPaXing.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;BaiJuyi_MaiTanWeng">
@@ -5155,6 +5418,13 @@
         <shicang:themeColor>#7F8C8D</shicang:themeColor>
         <shicang:themeAccent>#2C3E50</shicang:themeAccent>
         <shicang:themeBg>#F5F5F5</shicang:themeBg>
+    
+        <shicang:rhymeGroup>一东</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句、第2句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2</shicang:rhymeLines>
+        <shicang:studyTheme>悲慨沉郁</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/BaiJuyi_MaiTanWeng.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;YuanZhen_LiSi">
@@ -5182,6 +5452,13 @@
         <shicang:themeColor>#8E44AD</shicang:themeColor>
         <shicang:themeAccent>#E91E63</shicang:themeAccent>
         <shicang:themeBg>#FBF5FC</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十二文</shicang:rhymeGroup>
+        <shicang:rhymeScheme>二、四句押韵（abcb 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>2,4</shicang:rhymeLines>
+        <shicang:studyTheme>深情婉约</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/YuanZhen_LiSi.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;LiuYuxi_LouShiMing">
@@ -5213,6 +5490,13 @@
         <shicang:themeColor>#2980B9</shicang:themeColor>
         <shicang:themeAccent>#3498DB</shicang:themeAccent>
         <shicang:themeBg>#F0F7FC</shicang:themeBg>
+    
+        <shicang:rhymeGroup>八庚</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第2句、第3句、第4句、第6句</shicang:rhymeScheme>
+        <shicang:rhymeLines>2,3,4,6</shicang:rhymeLines>
+        <shicang:studyTheme>旷达超脱</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/LiuYuxi_LouShiMing.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;LiuYuxi_WuYiXiang">
@@ -5243,6 +5527,13 @@
         <shicang:themeColor>#795548</shicang:themeColor>
         <shicang:themeAccent>#8D6E63</shicang:themeAccent>
         <shicang:themeBg>#FAF6F0</shicang:themeBg>
+    
+        <shicang:rhymeGroup>六麻</shicang:rhymeGroup>
+        <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
+        <shicang:studyTheme>怀古沧桑</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/LiuYuxi_WuYiXiang.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;LiuYuxi_ChouLeTian">
@@ -5273,6 +5564,13 @@
         <shicang:themeColor>#2980B9</shicang:themeColor>
         <shicang:themeAccent>#3498DB</shicang:themeAccent>
         <shicang:themeBg>#F0F7FC</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十一真</shicang:rhymeGroup>
+        <shicang:rhymeScheme>二、四句押韵（abcb 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>2,4</shicang:rhymeLines>
+        <shicang:studyTheme>旷达超脱</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/LiuYuxi_ChouLeTian.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;LiHe_YanMenTaiShouXing">
@@ -5305,6 +5603,13 @@
         <shicang:themeColor>#D35400</shicang:themeColor>
         <shicang:themeAccent>#C0392B</shicang:themeAccent>
         <shicang:themeBg>#FEF9F0</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十灰</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句、第2句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2</shicang:rhymeLines>
+        <shicang:studyTheme>悲慨沉郁</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/LiHe_YanMenTaiShouXing.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;DuMu_AFangGongFu">
@@ -5332,6 +5637,13 @@
         <shicang:themeColor>#795548</shicang:themeColor>
         <shicang:themeAccent>#8D6E63</shicang:themeAccent>
         <shicang:themeBg>#FAF6F0</shicang:themeBg>
+    
+        <shicang:rhymeGroup>支</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句、第2句、第3句、第4句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,3,4</shicang:rhymeLines>
+        <shicang:studyTheme>怀古沧桑</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/DuMu_AFangGongFu.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;DuMu_QingMing">
@@ -5359,6 +5671,13 @@
         <shicang:themeColor>#607D8B</shicang:themeColor>
         <shicang:themeAccent>#78909C</shicang:themeAccent>
         <shicang:themeBg>#F5F8F9</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十三元</shicang:rhymeGroup>
+        <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
+        <shicang:studyTheme>悲慨沉郁</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/DuMu_QingMing.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;DuMu_BoQinHuai">
@@ -5390,6 +5709,13 @@
         <shicang:themeColor>#795548</shicang:themeColor>
         <shicang:themeAccent>#8D6E63</shicang:themeAccent>
         <shicang:themeBg>#FAF6F0</shicang:themeBg>
+    
+        <shicang:rhymeGroup>六麻</shicang:rhymeGroup>
+        <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
+        <shicang:studyTheme>慷慨爱国</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/DuMu_BoQinHuai.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;DuMu_ChiBi">
@@ -5420,6 +5746,13 @@
         <shicang:themeColor>#795548</shicang:themeColor>
         <shicang:themeAccent>#8D6E63</shicang:themeAccent>
         <shicang:themeBg>#FAF6F0</shicang:themeBg>
+    
+        <shicang:rhymeGroup>二萧</shicang:rhymeGroup>
+        <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
+        <shicang:studyTheme>怀古沧桑</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/DuMu_ChiBi.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;LiShangyin_JinSe">
@@ -5453,6 +5786,13 @@
         <shicang:themeColor>#8E44AD</shicang:themeColor>
         <shicang:themeAccent>#E91E63</shicang:themeAccent>
         <shicang:themeBg>#FBF5FC</shicang:themeBg>
+    
+        <shicang:rhymeGroup>一先</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句、第2句、第4句、第6句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4,6</shicang:rhymeLines>
+        <shicang:studyTheme>旷达超脱</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/LiShangyin_JinSe.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;LiShangyin_WuTi">
@@ -5487,6 +5827,13 @@
         <shicang:themeColor>#8E44AD</shicang:themeColor>
         <shicang:themeAccent>#E91E63</shicang:themeAccent>
         <shicang:themeBg>#FBF5FC</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十四寒</shicang:rhymeGroup>
+        <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
+        <shicang:studyTheme>深情婉约</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/LiShangyin_WuTi.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;LiShangyin_YeYuJiBei">
@@ -5515,6 +5862,13 @@
         <shicang:themeColor>#8E44AD</shicang:themeColor>
         <shicang:themeAccent>#E91E63</shicang:themeAccent>
         <shicang:themeBg>#FBF5FC</shicang:themeBg>
+    
+        <shicang:rhymeGroup>四支</shicang:rhymeGroup>
+        <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
+        <shicang:studyTheme>深情婉约</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/LiShangyin_YeYuJiBei.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;LiYu_YuMeiRen">
@@ -5545,6 +5899,13 @@
         <shicang:themeColor>#7F8C8D</shicang:themeColor>
         <shicang:themeAccent>#2C3E50</shicang:themeAccent>
         <shicang:themeBg>#F5F5F5</shicang:themeBg>
+    
+        <shicang:rhymeGroup>一东</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第3句、第4句</shicang:rhymeScheme>
+        <shicang:rhymeLines>3,4</shicang:rhymeLines>
+        <shicang:studyTheme>悲慨沉郁</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/LiYu_YuMeiRen.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;LiYu_LangTaoSha">
@@ -5574,6 +5935,13 @@
         <shicang:themeColor>#7F8C8D</shicang:themeColor>
         <shicang:themeAccent>#2C3E50</shicang:themeAccent>
         <shicang:themeBg>#F5F5F5</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十四寒</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句、第2句、第3句、第5句、第7句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,3,5,7</shicang:rhymeLines>
+        <shicang:studyTheme>旷达超脱</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/LiYu_LangTaoSha.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;FanZhongyan_YuJiaAo">
@@ -5606,6 +5974,13 @@
         <shicang:themeColor>#D35400</shicang:themeColor>
         <shicang:themeAccent>#C0392B</shicang:themeAccent>
         <shicang:themeBg>#FEF9F0</shicang:themeBg>
+    
+        <shicang:rhymeGroup>四寘</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句、第2句、第3句、第4句、第5句、第6句、第7句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,3,4,5,6,7</shicang:rhymeLines>
+        <shicang:studyTheme>慷慨爱国</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/FanZhongyan_YuJiaAo.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;LiuYong_YuLinLing">
@@ -5637,6 +6012,13 @@
         <shicang:themeColor>#8E44AD</shicang:themeColor>
         <shicang:themeAccent>#E91E63</shicang:themeAccent>
         <shicang:themeBg>#FBF5FC</shicang:themeBg>
+    
+        <shicang:rhymeGroup>歌</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句、第3句、第5句、第6句、第7句、第9句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,3,5,6,7,9</shicang:rhymeLines>
+        <shicang:studyTheme>深情婉约</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/LiuYong_YuLinLing.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;YanShu_HuanXiSha">
@@ -5667,6 +6049,13 @@
         <shicang:themeColor>#607D8B</shicang:themeColor>
         <shicang:themeAccent>#78909C</shicang:themeAccent>
         <shicang:themeBg>#F5F8F9</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十灰</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句、第2句、第3句、第5句、第6句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,3,5,6</shicang:rhymeLines>
+        <shicang:studyTheme>悲慨沉郁</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/YanShu_HuanXiSha.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;OuyangXiu_ZuiWengTingJi">
@@ -5695,6 +6084,13 @@
         <shicang:themeColor>#27AE60</shicang:themeColor>
         <shicang:themeAccent>#16A085</shicang:themeAccent>
         <shicang:themeBg>#F4FAF0</shicang:themeBg>
+    
+        <shicang:rhymeGroup>廿一马</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第2句、第3句、第4句</shicang:rhymeScheme>
+        <shicang:rhymeLines>2,3,4</shicang:rhymeLines>
+        <shicang:studyTheme>恬淡闲适</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/OuyangXiu_ZuiWengTingJi.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;WangAnshi_BoChuanGuaZhou">
@@ -5721,6 +6117,13 @@
         <shicang:themeColor>#8E44AD</shicang:themeColor>
         <shicang:themeAccent>#E91E63</shicang:themeAccent>
         <shicang:themeBg>#FBF5FC</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十五删</shicang:rhymeGroup>
+        <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
+        <shicang:studyTheme>旷达超脱</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/WangAnshi_BoChuanGuaZhou.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;SuShi_ShuiDiaoGeTou">
@@ -5751,6 +6154,16 @@
         <shicang:themeColor>#2980B9</shicang:themeColor>
         <shicang:themeAccent>#3498DB</shicang:themeAccent>
         <shicang:themeBg>#F0F7FC</shicang:themeBg>
+    
+        <shicang:rhymeGroup>一先</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句、第2句、第3句、第4句、第5句、第6句、第7句、第8句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,3,4,5,6,7,8</shicang:rhymeLines>
+        <shicang:studyTheme>旷达超脱</shicang:studyTheme>
+        <shicang:studyDepth>deep</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/SuShi_ShuiDiaoGeTou.html</shicang:studyPage>
+        <shicang:vernacularTranslation>明月是什么时候才有的呢？我端起酒杯询问青天。　不知道天上的宫阙，今夜是何年何月。　我想驾着长风回到天上去，又怕那琼楼玉宇，太高太冷经受不住。　起身舞蹈，玩赏着清朗的影子，哪里比得上在人间呢。　月光转过朱红的楼阁，低低照进雕花的窗户，照着睡不着的人。　明月该不是有什么怨恨吧，为何总在人们离别时才圆呢？　人有悲欢离合，月有阴晴圆缺，此事自古难以两全。　只愿人能够长久平安，即使相隔千里，也能共享这一轮明月。</shicang:vernacularTranslation>
+        <shicang:englishTranslation>When did the bright moon first appear? Wine cup in hand, I ask the blue sky. I do not know in the palace of heaven what year tonight it is. I would ride the wind and go back, yet fear the jade towers and courts, too high to bear the cold. Rising to dance with my clear shadow, how could it compare with the world of men? The moon turns round the vermilion tower, dips low through the carved windows, shining on the sleepless. It should hold no grudge—why then is it always full when people part? Men have sorrow and joy, parting and meeting; the moon waxes and wanes: nothing has ever been perfect. Would that we might live long, sharing the same fair moon though a thousand li apart.</shicang:englishTranslation>
+        <shicang:appreciation>此词以问月起，以共月起收，一『问』一『愿』，把神话、哲思与骨肉之情熔于一炉。上片由『欲乘风归去』到『何似在人间』，是出世与入世的徘徊，最终落定于人间；下片由月之照人写到人之怨月，复以『此事古难全』自我宽解，最后翻出『但愿人长久，千里共婵娟』——从个人的离愁中超脱出来，化作对天下人的祝愿。旷达而不冷漠，深情而不粘滞。</shicang:appreciation>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;SuShi_NianNuJiao">
@@ -5784,6 +6197,16 @@
         <shicang:themeColor>#C0392B</shicang:themeColor>
         <shicang:themeAccent>#E67E22</shicang:themeAccent>
         <shicang:themeBg>#FDF6E3</shicang:themeBg>
+    
+        <shicang:rhymeGroup>歌</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句、第2句、第3句、第4句、第5句、第6句、第7句、第8句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,3,4,5,6,7,8</shicang:rhymeLines>
+        <shicang:studyTheme>怀古沧桑</shicang:studyTheme>
+        <shicang:studyDepth>deep</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/SuShi_NianNuJiao.html</shicang:studyPage>
+        <shicang:vernacularTranslation>大江浩浩东流，浪涛淘尽了千古以来的英雄人物。　旧营垒的西边，人们说，那就是三国周瑜鏖战的赤壁。　乱石嶙峋，直插云天；惊涛拍击江岸，卷起千堆白雪般的浪花。　江山美如图画，一时之间涌现了多少豪杰。　遥想周瑜当年，小乔刚刚嫁给他，他英姿勃发。　手执羽扇，头戴纶巾，谈笑之间，曹军的战船便灰飞烟灭。　神游故国，多情的人应该笑我，早早生出了满头花白。　人生如梦，且把这杯酒洒向江中的明月。</shicang:vernacularTranslation>
+        <shicang:englishTranslation>The great river flows east; its waves wash away all the gallant heroes of a thousand years. West of the old ramparts, people say, is the Red Cliff where Zhou Yu of the Three Kingdoms fought. Jagged rocks pierce the sky; angry waves beat the shore, rolling up a thousand heaps of snow. Rivers and hills are like a painting; for a time how many heroes were there? I think back to Gongjin in his prime, when Xiaoqiao had just married him, splendid and heroic. With feather fan and silken cap, amid talk and laughter, the enemy's masts and oars turned to flying ash. In spirit I roam the old kingdom; men would laugh at my sentiment, my hair turning grey so soon. Life is like a dream—let me pour a cup of wine to the moon on the river.</shicang:englishTranslation>
+        <shicang:appreciation>开篇『大江东去』四字如巨浪奔涌，把时间、空间与人事一并卷走，气象之宏大，千古罕匹。上片写景，『乱石穿空』『惊涛拍岸』『卷起千堆雪』，声、色、势俱足；下片写人，以『小乔初嫁』点其年少得意，以『羽扇纶巾』『谈笑间』写其从容破敌，周郎之英发与词人之迟暮相映。结句『人生如梦，一尊还酹江月』，把怀古的苍凉升华成对宇宙人生的旷达之悟。</shicang:appreciation>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;SuShi_TiXiLinBi">
@@ -5809,6 +6232,13 @@
         <shicang:themeColor>#2980B9</shicang:themeColor>
         <shicang:themeAccent>#3498DB</shicang:themeAccent>
         <shicang:themeBg>#F0F7FC</shicang:themeBg>
+    
+        <shicang:rhymeGroup>一东</shicang:rhymeGroup>
+        <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
+        <shicang:studyTheme>恬淡闲适</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/SuShi_TiXiLinBi.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;SuShi_DingFengBo">
@@ -5839,6 +6269,13 @@
         <shicang:themeColor>#2980B9</shicang:themeColor>
         <shicang:themeAccent>#3498DB</shicang:themeAccent>
         <shicang:themeBg>#F0F7FC</shicang:themeBg>
+    
+        <shicang:rhymeGroup>八庚</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句、第2句、第5句、第8句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,5,8</shicang:rhymeLines>
+        <shicang:studyTheme>旷达超脱</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/SuShi_DingFengBo.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;LiQingzhao_ShengShengMan">
@@ -5870,6 +6307,13 @@
         <shicang:themeColor>#7F8C8D</shicang:themeColor>
         <shicang:themeAccent>#2C3E50</shicang:themeAccent>
         <shicang:themeBg>#F5F5F5</shicang:themeBg>
+    
+        <shicang:rhymeGroup>支</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句、第3句、第5句、第7句、第9句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,3,5,7,9</shicang:rhymeLines>
+        <shicang:studyTheme>悲慨沉郁</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/LiQingzhao_ShengShengMan.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;LiQingzhao_RuMengLing">
@@ -5898,6 +6342,13 @@
         <shicang:themeColor>#27AE60</shicang:themeColor>
         <shicang:themeAccent>#16A085</shicang:themeAccent>
         <shicang:themeBg>#F4FAF0</shicang:themeBg>
+    
+        <shicang:rhymeGroup>七遇</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句、第2句、第4句、第5句、第6句、第7句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4,5,6,7</shicang:rhymeLines>
+        <shicang:studyTheme>恬淡闲适</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/LiQingzhao_RuMengLing.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;LiQingzhao_ZuiHuaYin">
@@ -5932,6 +6383,13 @@
         <shicang:themeColor>#8E44AD</shicang:themeColor>
         <shicang:themeAccent>#E91E63</shicang:themeAccent>
         <shicang:themeBg>#FBF5FC</shicang:themeBg>
+    
+        <shicang:rhymeGroup>廿六宥</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句、第2句、第3句、第4句、第7句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,3,4,7</shicang:rhymeLines>
+        <shicang:studyTheme>深情婉约</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/LiQingzhao_ZuiHuaYin.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;LuYou_ShiEr">
@@ -5958,6 +6416,13 @@
         <shicang:themeColor>#D35400</shicang:themeColor>
         <shicang:themeAccent>#C0392B</shicang:themeAccent>
         <shicang:themeBg>#FEF9F0</shicang:themeBg>
+    
+        <shicang:rhymeGroup>一东</shicang:rhymeGroup>
+        <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
+        <shicang:studyTheme>慷慨爱国</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/LuYou_ShiEr.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;LuYou_YouShanXiCun">
@@ -5987,6 +6452,13 @@
         <shicang:themeColor>#27AE60</shicang:themeColor>
         <shicang:themeAccent>#16A085</shicang:themeAccent>
         <shicang:themeBg>#F4FAF0</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十三元</shicang:rhymeGroup>
+        <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
+        <shicang:studyTheme>恬淡闲适</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/LuYou_YouShanXiCun.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;LuYou_ChaiTouFeng">
@@ -6016,6 +6488,13 @@
         <shicang:themeColor>#8E44AD</shicang:themeColor>
         <shicang:themeAccent>#E91E63</shicang:themeAccent>
         <shicang:themeBg>#FBF5FC</shicang:themeBg>
+    
+        <shicang:rhymeGroup>七遇</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第4句、第5句、第7句、第8句、第10句、第11句</shicang:rhymeScheme>
+        <shicang:rhymeLines>4,5,7,8,10,11</shicang:rhymeLines>
+        <shicang:studyTheme>深情婉约</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/LuYou_ChaiTouFeng.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;XinQiji_QingYuAn">
@@ -6049,6 +6528,13 @@
         <shicang:themeColor>#607D8B</shicang:themeColor>
         <shicang:themeAccent>#78909C</shicang:themeAccent>
         <shicang:themeBg>#F5F8F9</shicang:themeBg>
+    
+        <shicang:rhymeGroup>七遇</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句、第2句、第3句、第6句、第7句、第9句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,3,6,7,9</shicang:rhymeLines>
+        <shicang:studyTheme>悲慨沉郁</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/XinQiji_QingYuAn.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;XinQiji_PoZhenZi">
@@ -6082,6 +6568,13 @@
         <shicang:themeColor>#D35400</shicang:themeColor>
         <shicang:themeAccent>#C0392B</shicang:themeAccent>
         <shicang:themeBg>#FEF9F0</shicang:themeBg>
+    
+        <shicang:rhymeGroup>八庚</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第2句、第4句、第5句、第7句、第8句</shicang:rhymeScheme>
+        <shicang:rhymeLines>2,4,5,7,8</shicang:rhymeLines>
+        <shicang:studyTheme>慷慨爱国</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/XinQiji_PoZhenZi.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;XinQiji_YongYuLe">
@@ -6118,6 +6611,13 @@
         <shicang:themeColor>#795548</shicang:themeColor>
         <shicang:themeAccent>#8D6E63</shicang:themeAccent>
         <shicang:themeBg>#FAF6F0</shicang:themeBg>
+    
+        <shicang:rhymeGroup>七遇</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第2句、第5句、第7句、第9句</shicang:rhymeScheme>
+        <shicang:rhymeLines>2,5,7,9</shicang:rhymeLines>
+        <shicang:studyTheme>慷慨爱国</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/XinQiji_YongYuLe.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;JiangKui_YangZhouMan">
@@ -6151,6 +6651,13 @@
         <shicang:themeColor>#795548</shicang:themeColor>
         <shicang:themeAccent>#8D6E63</shicang:themeAccent>
         <shicang:themeBg>#FAF6F0</shicang:themeBg>
+    
+        <shicang:rhymeGroup>八庚</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第3句、第5句、第8句、第10句、第12句</shicang:rhymeScheme>
+        <shicang:rhymeLines>3,5,8,10,12</shicang:rhymeLines>
+        <shicang:studyTheme>悲慨沉郁</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/JiangKui_YangZhouMan.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;WenTianXian_GuoLingDingYang">
@@ -6183,6 +6690,13 @@
         <shicang:themeColor>#D35400</shicang:themeColor>
         <shicang:themeAccent>#C0392B</shicang:themeAccent>
         <shicang:themeBg>#FEF9F0</shicang:themeBg>
+    
+        <shicang:rhymeGroup>九青</shicang:rhymeGroup>
+        <shicang:rhymeScheme>首句入韵，逐偶句押韵，一韵到底</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4,6,8</shicang:rhymeLines>
+        <shicang:studyTheme>慷慨爱国</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/WenTianXian_GuoLingDingYang.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;MaZhiyuan_TianJingSha_QiuSi">
@@ -6218,6 +6732,16 @@
         <shicang:themeColor>#7F8C8D</shicang:themeColor>
         <shicang:themeAccent>#2C3E50</shicang:themeAccent>
         <shicang:themeBg>#F5F5F5</shicang:themeBg>
+    
+        <shicang:rhymeGroup>六麻</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句、第2句、第5句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,5</shicang:rhymeLines>
+        <shicang:studyTheme>悲慨沉郁</shicang:studyTheme>
+        <shicang:studyDepth>deep</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/MaZhiyuan_TianJingSha_QiuSi.html</shicang:studyPage>
+        <shicang:vernacularTranslation>枯藤缠绕着老树，树上落着黄昏归巢的乌鸦。　小桥下流水潺潺，旁边是几户人家。　古老的道路上，秋风萧瑟，一匹瘦马缓缓前行。　夕阳向西缓缓落下。　漂泊天涯的游子，愁肠寸断。</shicang:vernacularTranslation>
+        <shicang:englishTranslation>Withered vines, old tree, a crow at dusk; A small bridge, flowing water, a few houses; An ancient road, the west wind, a lean horse; The sun sets in the west— And a heart-broken man is far at the edge of the world.</shicang:englishTranslation>
+        <shicang:appreciation>二十八字，前三句纯用名词并置，如三组静物写生：『枯藤老树昏鸦』写荒败，『小桥流水人家』写温馨，『古道西风瘦马』写漂泊——一暖一冷，两两相形，愈见游子之孤。第四句『夕阳西下』以时间收拢画面，末句『断肠人在天涯』点破题旨。全篇不着一个『愁』字，而秋思满纸，被推为『秋思之祖』。</shicang:appreciation>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;ZhangYanghao_ShanPoYang">
@@ -6248,6 +6772,13 @@
         <shicang:themeColor>#7F8C8D</shicang:themeColor>
         <shicang:themeAccent>#2C3E50</shicang:themeAccent>
         <shicang:themeBg>#F5F5F5</shicang:themeBg>
+    
+        <shicang:rhymeGroup>七麌</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句、第2句、第3句、第6句、第7句、第9句、第11句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,3,6,7,9,11</shicang:rhymeLines>
+        <shicang:studyTheme>怀古沧桑</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/ZhangYanghao_ShanPoYang.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;TangYin_TaoHuaAnGe">
@@ -6279,6 +6810,13 @@
         <shicang:themeColor>#27AE60</shicang:themeColor>
         <shicang:themeAccent>#16A085</shicang:themeAccent>
         <shicang:themeBg>#F4FAF0</shicang:themeBg>
+    
+        <shicang:rhymeGroup>一先</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句、第2句、第4句、第5句、第6句、第8句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4,5,6,8</shicang:rhymeLines>
+        <shicang:studyTheme>旷达超脱</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/TangYin_TaoHuaAnGe.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;YangShen_LinJiangXian">
@@ -6311,6 +6849,13 @@
         <shicang:themeColor>#2980B9</shicang:themeColor>
         <shicang:themeAccent>#3498DB</shicang:themeAccent>
         <shicang:themeBg>#F0F7FC</shicang:themeBg>
+    
+        <shicang:rhymeGroup>一东</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第2句、第3句、第5句、第7句、第8句、第10句</shicang:rhymeScheme>
+        <shicang:rhymeLines>2,3,5,7,8,10</shicang:rhymeLines>
+        <shicang:studyTheme>怀古沧桑</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/YangShen_LinJiangXian.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;NalanXingde_MuLanHuaLing">
@@ -6341,6 +6886,13 @@
         <shicang:themeColor>#8E44AD</shicang:themeColor>
         <shicang:themeAccent>#E91E63</shicang:themeAccent>
         <shicang:themeBg>#FBF5FC</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十七霰</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句、第4句、第5句、第6句、第8句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,4,5,6,8</shicang:rhymeLines>
+        <shicang:studyTheme>深情婉约</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/NalanXingde_MuLanHuaLing.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;NalanXingde_ChangXiangSi">
@@ -6371,6 +6923,13 @@
         <shicang:themeColor>#8E44AD</shicang:themeColor>
         <shicang:themeAccent>#E91E63</shicang:themeAccent>
         <shicang:themeBg>#FBF5FC</shicang:themeBg>
+    
+        <shicang:rhymeGroup>八庚</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句、第2句、第3句、第4句、第5句、第6句、第7句、第8句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,3,4,5,6,7,8</shicang:rhymeLines>
+        <shicang:studyTheme>悲慨沉郁</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/NalanXingde_ChangXiangSi.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;ZhengXie_ZhuShi">
@@ -6399,6 +6958,16 @@
         <shicang:themeColor>#2980B9</shicang:themeColor>
         <shicang:themeAccent>#3498DB</shicang:themeAccent>
         <shicang:themeBg>#F0F7FC</shicang:themeBg>
+    
+        <shicang:rhymeGroup>一东</shicang:rhymeGroup>
+        <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
+        <shicang:studyTheme>旷达超脱</shicang:studyTheme>
+        <shicang:studyDepth>deep</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/ZhengXie_ZhuShi.html</shicang:studyPage>
+        <shicang:vernacularTranslation>紧紧咬住青山，绝不放松。　它的根原本就扎在破裂的岩石之中。　经历千万次磨难打击，依然坚韧刚劲。　任凭你从东西南北刮来狂风。</shicang:vernacularTranslation>
+        <shicang:englishTranslation>Biting firm the green mountain, it will not let go; Its roots were planted deep in broken rock. Through a thousand grindings and ten thousand blows it stays strong: Let the winds blow from east, west, south, or north.</shicang:englishTranslation>
+        <shicang:appreciation>这是一首题画诗，画的是竹，写的是人。『咬定』『立根』以拟人之笔写竹之根性，一个『咬』字把竹的倔强写活；三四句由形入神，『千磨万击』『东西南北风』极写外境之恶，而竹『还坚劲』『任尔』，从容不屈。全诗借物咏志，正是诗人清正刚直、不随流俗的人格写照。</shicang:appreciation>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;YuanMei_CangShanShiHua">
@@ -6414,6 +6983,13 @@
         <shicang:hasTheme>诗论</shicang:hasTheme>
         <shicang:creationBackground>辞官居南京随园，论诗主性灵，记当时诗坛轶事</shicang:creationBackground>
         <shicang:sourceDataset>随园诗话</shicang:sourceDataset>
+    
+        <shicang:rhymeGroup>四寘</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1</shicang:rhymeLines>
+        <shicang:studyTheme>旷达超脱</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/YuanMei_CangShanShiHua.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;CaoXueqin_HongLouMeng">
@@ -6441,6 +7017,13 @@
         <shicang:themeColor>#8E44AD</shicang:themeColor>
         <shicang:themeAccent>#E91E63</shicang:themeAccent>
         <shicang:themeBg>#FBF5FC</shicang:themeBg>
+    
+        <shicang:rhymeGroup>一先</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第1句、第2句</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2</shicang:rhymeLines>
+        <shicang:studyTheme>深情婉约</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/CaoXueqin_HongLouMeng.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;GongZizhen_YiHaiZaShi">
@@ -6469,6 +7052,16 @@
         <shicang:themeColor>#2980B9</shicang:themeColor>
         <shicang:themeAccent>#3498DB</shicang:themeAccent>
         <shicang:themeBg>#F0F7FC</shicang:themeBg>
+    
+        <shicang:rhymeGroup>六麻</shicang:rhymeGroup>
+        <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
+        <shicang:studyTheme>慷慨爱国</shicang:studyTheme>
+        <shicang:studyDepth>deep</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/GongZizhen_YiHaiZaShi.html</shicang:studyPage>
+        <shicang:vernacularTranslation>无边的离愁随着西斜的白日涌起。　挥鞭向东，从此便是远隔天涯。　飘落的花瓣并非无情之物。　它化作春泥，反而更能养护新花。</shicang:vernacularTranslation>
+        <shicang:englishTranslation>Vast, vast my parting sorrow as the white sun slants; Whipping east, at once I am at the world's end. Fallen blossoms are not heartless things: Turned to spring mud, they better nourish the flowers.</shicang:englishTranslation>
+        <shicang:appreciation>诗人辞官南归途中所作。前两句以『浩荡离愁』与『白日斜』『天涯』写去国之悲，苍茫沉重；后两句忽作翻转，以『落红』自喻——虽离枝飘落，却化作春泥去滋养新花，把个人的失意升华为对国家未来的深情托付。一抑一扬，境界顿开，成为千古传诵的名句。</shicang:appreciation>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;GongZizhen_YiHaiZaShi_220">
@@ -6494,6 +7087,13 @@
         <shicang:themeColor>#D35400</shicang:themeColor>
         <shicang:themeAccent>#C0392B</shicang:themeAccent>
         <shicang:themeBg>#FEF9F0</shicang:themeBg>
+    
+        <shicang:rhymeGroup>十灰</shicang:rhymeGroup>
+        <shicang:rhymeScheme>首句入韵，二、四句押韵（aaaa／aaba 型）</shicang:rhymeScheme>
+        <shicang:rhymeLines>1,2,4</shicang:rhymeLines>
+        <shicang:studyTheme>慷慨爱国</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/GongZizhen_YiHaiZaShi_220.html</shicang:studyPage>
     </owl:NamedIndividual>
 
     <owl:NamedIndividual rdf:about="&shicang;WangGuowei_RenJianCiHua">
@@ -6518,6 +7118,68 @@
         <shicang:themeColor>#607D8B</shicang:themeColor>
         <shicang:themeAccent>#78909C</shicang:themeAccent>
         <shicang:themeBg>#F5F8F9</shicang:themeBg>
+    
+        <shicang:rhymeGroup>七遇</shicang:rhymeGroup>
+        <shicang:rhymeScheme>押韵句：第2句、第4句、第7句、第9句</shicang:rhymeScheme>
+        <shicang:rhymeLines>2,4,7,9</shicang:rhymeLines>
+        <shicang:studyTheme>旷达超脱</shicang:studyTheme>
+        <shicang:studyDepth>standard</shicang:studyDepth>
+        <shicang:studyPage>shicang-poem/WangGuowei_RenJianCiHua.html</shicang:studyPage>
     </owl:NamedIndividual>
 
+    <!-- 精读层数据属性（追加） -->
+    <owl:DatatypeProperty rdf:about="&shicang;rhymeGroup">
+        <rdfs:label>rhymeGroup</rdfs:label>
+        <rdfs:comment>所属平水韵韵部（如「十一真」）</rdfs:comment>
+        <rdfs:domain rdf:resource="&shicang;Poetry"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="&shicang;rhymeScheme">
+        <rdfs:label>rhymeScheme</rdfs:label>
+        <rdfs:comment>韵式说明（如「首句入韵，二、四句押韵」）</rdfs:comment>
+        <rdfs:domain rdf:resource="&shicang;Poetry"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="&shicang;rhymeLines">
+        <rdfs:label>rhymeLines</rdfs:label>
+        <rdfs:comment>押韵句序号（逗号分隔）</rdfs:comment>
+        <rdfs:domain rdf:resource="&shicang;Poetry"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="&shicang;studyTheme">
+        <rdfs:label>studyTheme</rdfs:label>
+        <rdfs:comment>精读情境主题（八类之一）</rdfs:comment>
+        <rdfs:domain rdf:resource="&shicang;Poetry"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="&shicang;studyDepth">
+        <rdfs:label>studyDepth</rdfs:label>
+        <rdfs:comment>精读深度（deep 深度精读 / standard 标准精读）</rdfs:comment>
+        <rdfs:domain rdf:resource="&shicang;Poetry"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="&shicang;studyPage">
+        <rdfs:label>studyPage</rdfs:label>
+        <rdfs:comment>精读页站内相对链接</rdfs:comment>
+        <rdfs:domain rdf:resource="&shicang;Poetry"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="&shicang;vernacularTranslation">
+        <rdfs:label>vernacularTranslation</rdfs:label>
+        <rdfs:comment>今译（白话译文）</rdfs:comment>
+        <rdfs:domain rdf:resource="&shicang;Poetry"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="&shicang;englishTranslation">
+        <rdfs:label>englishTranslation</rdfs:label>
+        <rdfs:comment>英译（本站整理）</rdfs:comment>
+        <rdfs:domain rdf:resource="&shicang;Poetry"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="&shicang;appreciation">
+        <rdfs:label>appreciation</rdfs:label>
+        <rdfs:comment>赏析</rdfs:comment>
+        <rdfs:domain rdf:resource="&shicang;Poetry"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
 </rdf:RDF>
