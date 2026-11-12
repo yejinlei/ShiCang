@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>意象关系图 · 诗藏本体论</title>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="imagery_data.js"></script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  font-family:'Noto Serif SC','Songti SC','SimSun',serif;
+  background:#f6efe0 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='0.85' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 0.55 0 0 0 0 0.45 0 0 0 0 0.3 0 0 0 0.08 0'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)'/%3E%3C/svg%3E");
+  color:#2c1810;min-height:100vh;
+}
+header{
+  text-align:center;padding:36px 20px 20px;position:relative;
+  background:rgba(246,239,224,.95);border-bottom:1px solid rgba(139,90,43,.15);
+}
+.back{position:absolute;top:24px;left:28px;color:#8B3A2F;text-decoration:none;font-size:14px;
+  padding:6px 14px;border:1px solid #8B3A2F;border-radius:2px;transition:all .3s}
+.back:hover{background:#8B3A2F;color:#f6efe0}
+h1{font-size:36px;font-weight:700;letter-spacing:10px;color:#8B3A2F;margin-bottom:6px}
+.subtitle{color:#8B5A2B;font-size:13px;letter-spacing:5px}
+.controls{
+  max-width:1300px;margin:16px auto;padding:0 20px;
+  display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:center;
+}
+.filter-btn{
+  padding:6px 16px;font-size:13px;letter-spacing:2px;cursor:pointer;
+  background:rgba(255,250,240,.8);border:1px solid rgba(139,58,47,.3);color:#5c3020;
+  font-family:inherit;transition:all .3s;border-radius:1px;
+}
+.filter-btn.active{background:#8B3A2F;color:#f6efe0;border-color:#8B3A2F}
+#graph-container{
+  width:100%;max-width:1300px;margin:0 auto;padding:0 20px;
+  position:relative;
+}
+svg{width:100%;background:rgba(255,250,240,.6);border:1px solid rgba(139,90,43,.2)}
+.node{cursor:grab}
+.node:active{cursor:grabbing}
+.node text{pointer-events:none;font-family:'Noto Serif SC',serif;font-weight:500}
+.link{stroke-opacity:.4;fill:none}
+.tooltip{
+  position:absolute;background:rgba(250,245,230,.97);border:1px solid #c9a96e;
+  padding:14px 18px;border-radius:2px;font-size:14px;pointer-events:none;
+  box-shadow:2px 4px 16px rgba(139,90,43,.15);max-width:300px;line-height:1.8;
+  opacity:0;transition:opacity .2s;z-index:10;
+}
+.tooltip.visible{opacity:1}
+.tt-title{font-size:18px;color:#8B3A2F;font-weight:600;letter-spacing:2px;margin-bottom:8px;padding-bottom:6px;border-bottom:1px solid rgba(139,90,43,.2)}
+.tt-row{font-size:13px;color:#3c2820;margin:3px 0}
+.tt-label{color:#a08060;font-size:12px;letter-spacing:1px}
+.legend{
+  max-width:1300px;margin:0 auto;padding:16px 20px 32px;
+  display:flex;justify-content:center;gap:20px;flex-wrap:wrap;
+}
+.lg-item{display:flex;align-items:center;gap:6px;font-size:13px;letter-spacing:1px}
+.lg-dot{width:14px;height:14px;border-radius:50%}
+footer{text-align:center;padding:24px;color:#a08060;font-size:12px;letter-spacing:3px}
+.search-box{
+  padding:6px 12px;border:1px solid rgba(139,58,47,.3);background:rgba(255,250,240,.8);
+  font-family:inherit;font-size:14px;color:#3c2820;outline:none;letter-spacing:1px;
+}
+.search-box:focus{border-color:#8B3A2F}
+</style>
+</head>
+<body>
+<header>
+  <a class="back" href="../index.html">← 返回诗藏</a>
+  <h1>意象关系图</h1>
+  <div class="subtitle">Imagery Network · 意象 · 情感 · 作品 · 诗人</div>
+</header>
+<div class="controls">
+  <span style="color:#8B5A2B;font-size:13px;letter-spacing:2px">节点类型：</span>
+  <button class="filter-btn active" data-type="all">全部</button>
+  <button class="filter-btn" data-type="imagery">意象</button>
+  <button class="filter-btn" data-type="emotion">情感</button>
+  <button class="filter-btn" data-type="work">作品</button>
+  <button class="filter-btn" data-type="poet">诗人</button>
+  <span style="margin-left:20px"></span>
+  <input class="search-box" id="searchBox" placeholder="搜索意象/诗人/作品…"/>
+</div>
+<div id="graph-container">
+  <svg id="graph" height="720"></svg>
+  <div class="tooltip" id="tooltip"></div>
+</div>
+<div class="legend">
+  <div class="lg-item"><div class="lg-dot" style="background:#C9A96E"></div>意象</div>
+  <div class="lg-item"><div class="lg-dot" style="background:#C0392B"></div>情感</div>
+  <div class="lg-item"><div class="lg-dot" style="background:#2E7D32"></div>作品</div>
+  <div class="lg-item"><div class="lg-dot" style="background:#8B3A2F"></div>诗人</div>
+</div>
+<footer>诗藏本体论 · 拖动节点可调整布局 · 点击节点查看详情</footer>
+<script>
+const data=IMAGERY_DATA;
+const svg=d3.select("#graph"),container=document.getElementById("graph-container");
+const width=container.clientWidth-40,height=720;
+svg.attr("viewBox",[0,0,width,height]);
+const tooltip=document.getElementById("tooltip");
+
+const nodeColors={imagery:d=>d.color||"#C9A96E",emotion:"#C0392B",work:"#2E7D32",poet:"#8B3A2F"};
+const linkColors={evokes:"#C0392B",usedIn:"#2E7D32",authored:"#8B3A2F"};
+
+let filterType="all";
+let searchTerm="";
+
+function getVisible(){
+  const showNode=n=>{
+    if(filterType!=="all"&&n.type!==filterType)return false;
+    if(searchTerm&&!n.id.includes(searchTerm))return false;
+    return true;
+  };
+  const vis=new Set();
+  data.nodes.forEach(n=>{if(showNode(n))vis.add(n.id)});
+  // 保留一级邻居
+  data.links.forEach(l=>{
+    if(vis.has(l.source)||vis.has(l.target)){vis.add(l.source);vis.add(l.target)}
+  });
+  const nodes=data.nodes.filter(n=>vis.has(n.id));
+  const nodeIds=new Set(nodes.map(n=>n.id));
+  const links=data.links.filter(l=>nodeIds.has(l.source)&&nodeIds.has(l.target));
+  return{nodes,links};
+}
+
+function render(){
+  svg.selectAll("*").remove();
+  const{Nodes:nodes,links:links}=getVisible();
+  
+  // copy to add index
+  const simNodes=nodes.map(d=>({...d}));
+  const simLinks=links.map(d=>({...d}));
+
+  const link=svg.append("g").selectAll("line").data(simLinks).join("line")
+    .attr("class","link")
+    .attr("stroke",d=>linkColors[d.type]||"#999")
+    .attr("stroke-width",d=>d.type==="evokes"?1.2:d.type==="authored"?1.5:1);
+
+  const node=svg.append("g").selectAll("g").data(simNodes).join("g")
+    .attr("class","node")
+    .call(d3.drag()
+      .on("start",(event,d)=>{if(!event.active)sim.alphaTarget(.3).restart();d.fx=d.x;d.fy=d.y})
+      .on("drag",(event,d)=>{d.fx=event.x;d.fy=event.y})
+      .on("end",(event,d)=>{if(!event.active)sim.alphaTarget(0);d.fx=null;d.fy=null}));
+
+  node.append("circle")
+    .attr("r",d=>Math.max(4,Math.min(d.size||6,16)))
+    .attr("fill",d=>typeof nodeColors[d.type]==="function"?nodeColors[d.type](d):nodeColors[d.type])
+    .attr("stroke",d=>d.type==="imagery"?"#8B5A2B":"#fff")
+    .attr("stroke-width",d=>d.type==="imagery"?2:1.5)
+    .attr("fill-opacity",.85);
+
+  node.append("text")
+    .text(d=>d.id)
+    .attr("x",0).attr("y",d=>-Math.max(4,Math.min(d.size||6,16))-4)
+    .attr("text-anchor","middle")
+    .attr("font-size",d=>d.type==="poet"||d.type==="imagery"?"14px":"11px")
+    .attr("fill",d=>d.type==="poet"?"#8B3A2F":"#3c2820");
+
+  node.on("mouseover",(ev,d)=>{
+    let html=`<div class="tt-title">${d.id}</div>`;
+    const orig=data.imagery_detail[d.id];
+    if(orig){
+      html+=`<div class="tt-row"><span class="tt-label">类　　别：</span>${orig.category}</div>`;
+      html+=`<div class="tt-row"><span class="tt-label">关联情感：</span>${orig.emotions.join(" · ")}</div>`;
+      html+=`<div class="tt-row"><span class="tt-label">名篇引用：</span>${orig.works.slice(0,6).join("、")}</div>`;
+    }else if(d.type==="emotion"){
+      html+=`<div class="tt-row"><span class="tt-label">情感类型</span></div>`;
+    }else if(d.type==="poet"){
+      html+=`<div class="tt-row"><span class="tt-label">诗　　人</span></div>`;
+    }else if(d.type==="work"){
+      html+=`<div class="tt-row"><span class="tt-label">诗 词 作 品</span></div>`;
+    }
+    tooltip.innerHTML=html;
+    tooltip.classList.add("visible");
+  }).on("mousemove",ev=>{
+    const rect=container.getBoundingClientRect();
+    tooltip.style.left=(ev.clientX-rect.left+12)+"px";
+    tooltip.style.top=(ev.clientY-rect.top-10)+"px";
+  }).on("mouseout",()=>{tooltip.classList.remove("visible")});
+
+  const sim=d3.forceSimulation(simNodes)
+    .force("link",d3.forceLink(simLinks).id(d=>d.id).distance(d=>d.type==="authored"?60:50).strength(.4))
+    .force("charge",d3.forceManyBody().strength(-120))
+    .force("center",d3.forceCenter(width/2,height/2))
+    .force("collide",d3.forceCollide().radius(d=>Math.max(4,Math.min(d.size||6,16))+12))
+    .on("tick",()=>{
+      link.attr("x1",d=>d.source.x).attr("y1",d=>d.source.y)
+        .attr("x2",d=>d.target.x).attr("y2",d=>d.target.y);
+      node.attr("transform",d=>`translate(${d.x},${d.y})`);
+    });
+}
+
+document.querySelectorAll(".filter-btn").forEach(b=>{
+  b.onclick=()=>{
+    document.querySelectorAll(".filter-btn").forEach(x=>x.classList.remove("active"));
+    b.classList.add("active");
+    filterType=b.dataset.type;
+    render();
+  };
+});
+document.getElementById("searchBox").oninput=e=>{
+  searchTerm=e.target.value.trim();
+  render();
+};
+
+// 响应式
+window.addEventListener("resize",()=>{
+  const w=container.clientWidth-40;
+  svg.attr("viewBox",[0,0,w,height]);
+  render();
+});
+render();
+</script>
+</body>
+</html>

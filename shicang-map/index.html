@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>詩詞地圖 · 詩藏本體論</title>
+<script src="map_data.js"></script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  font-family:'Noto Serif SC','Songti SC','SimSun',serif;
+  background:#f6efe0 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='0.85' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 0.55 0 0 0 0 0.45 0 0 0 0 0.3 0 0 0 0.08 0'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)'/%3E%3C/svg%3E");
+  color:#2c1810;min-height:100vh;line-height:1.8;
+}
+header{text-align:center;padding:36px 20px 20px;position:relative;
+  background:rgba(246,239,224,.95);border-bottom:1px solid rgba(139,90,43,.15)}
+.back{position:absolute;top:24px;left:28px;color:#8B3A2F;text-decoration:none;font-size:14px;
+  padding:6px 14px;border:1px solid #8B3A2F;border-radius:2px;transition:all .3s}
+.back:hover{background:#8B3A2F;color:#f6efe0}
+h1{font-size:36px;font-weight:700;letter-spacing:10px;color:#8B3A2F;margin-bottom:6px}
+.subtitle{color:#8B5A2B;font-size:13px;letter-spacing:5px}
+.map-container{
+  max-width:1200px;margin:24px auto;padding:0 20px;
+  display:grid;grid-template-columns:1fr 320px;gap:20px;
+}
+.map-box{
+  background:rgba(255,250,240,.9);border:1px solid rgba(139,90,43,.2);
+  padding:20px;position:relative;
+}
+#map-svg{width:100%;height:560px;background:rgba(246,239,224,.3);cursor:grab}
+.side-panel{
+  background:rgba(255,250,240,.9);border:1px solid rgba(139,90,43,.2);
+  padding:20px;overflow-y:auto;max-height:600px;
+}
+.side-title{font-size:16px;color:#8B3A2F;letter-spacing:4px;margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid rgba(139,90,43,.15)}
+.place-list{}
+.place-item{padding:8px 10px;margin-bottom:4px;cursor:pointer;border-left:2px solid transparent;transition:all .25s;font-size:14px;letter-spacing:1px}
+.place-item:hover{background:rgba(139,58,47,.07);border-left-color:#c9a96e}
+.place-item.active{background:rgba(139,58,47,.1);border-left-color:#8B3A2F;color:#8B3A2F}
+.place-item .era{font-size:11px;color:#a08060;letter-spacing:1px;margin-left:6px}
+.route-toggle{display:flex;gap:8px;margin:10px 0;flex-wrap:wrap}
+.rt-btn{padding:4px 10px;font-size:12px;font-family:inherit;letter-spacing:2px;
+  background:transparent;border:1px solid rgba(139,58,47,.3);color:#5c3020;
+  cursor:pointer;border-radius:1px;transition:all .2s}
+.rt-btn.active{background:#8B3A2F;color:#f6efe0;border-color:#8B3A2F}
+.detail-card{
+  margin-top:16px;padding:16px;background:rgba(246,239,224,.7);
+  border-left:3px solid #c9a96e;display:none;
+}
+.detail-card.visible{display:block}
+.detail-name{font-size:22px;color:#8B3A2F;letter-spacing:3px;margin-bottom:8px}
+.detail-era{font-size:12px;color:#a08060;letter-spacing:2px;margin-bottom:10px}
+.detail-desc{font-size:14px;color:#3c2820;line-height:1.8;margin-bottom:10px}
+.detail-works{font-size:13px;color:#5c3020;margin-bottom:6px}
+.detail-works span{color:#8B3A2F;cursor:pointer;border-bottom:1px dotted #c9a96e;margin-right:10px}
+.detail-poets{font-size:13px;color:#5c3020}
+.map-marker{cursor:pointer;transition:all .2s}
+.map-marker:hover circle{r:8}
+.map-marker text{pointer-events:none;font-family:'Noto Serif SC',serif;font-size:12px;fill:#2c1810}
+.map-label{font-family:'Noto Serif SC',serif;font-size:11px;fill:#5c3020;pointer-events:none}
+.tooltip{
+  position:absolute;background:rgba(250,245,230,.97);border:1px solid #c9a96e;
+  padding:10px 14px;border-radius:2px;font-size:13px;pointer-events:none;
+  box-shadow:2px 4px 12px rgba(139,90,43,.15);line-height:1.7;
+  opacity:0;transition:opacity .15s;z-index:10;max-width:220px;
+}
+.tooltip.visible{opacity:1}
+footer{text-align:center;padding:24px;color:#a08060;font-size:12px;letter-spacing:3px}
+.controls{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.ctrl-label{font-size:13px;color:#8B5A2B;letter-spacing:2px}
+</style>
+</head>
+<body>
+<header>
+  <a class="back" href="../index.html">← 返回詩藏</a>
+  <h1>詩 詞 地 圖</h1>
+  <div class="subtitle">Poetry Map · 千年詩路· 名篇故里</div>
+</header>
+<div class="controls" style="margin-top:16px">
+  <span class="ctrl-label">詩人行跡：</span>
+  <button class="rt-btn active" data-route="none">不顯示</button>
+</div>
+<div class="map-container">
+  <div class="map-box" style="position:relative">
+    <svg id="map-svg" viewBox="0 0 800 600"></svg>
+    <div class="tooltip" id="mtip"></div>
+  </div>
+  <div class="side-panel">
+    <div class="side-title">名 篇 故 里</div>
+    <div class="place-list" id="placeList"></div>
+    <div class="detail-card" id="detailCard">
+      <div class="detail-name" id="dName"></div>
+      <div class="detail-era" id="dEra"></div>
+      <div class="detail-desc" id="dDesc"></div>
+      <div class="detail-works" id="dWorks"></div>
+      <div class="detail-poets" id="dPoets"></div>
+    </div>
+  </div>
+</div>
+<footer>詩藏本體論 · 詩路千年 · 江山代有才人出</footer>
+<script>
+const data=MAP_DATA;
+const svg=d3.select("#map-svg");
+const W=800,H=600;
+// 经纬度范围（中国东中部，覆盖诗词核心区域）
+const lngMin=98,lngMax=124,latMin=20,latMax=44;
+function proj(lng,lat){
+  const x=(lng-lngMin)/(lngMax-lngMin)*W;
+  const y=(latMax-lat)/(latMax-latMin)*H;
+  return [x,y];
+}
+const container=document.querySelector(".map-box");
+const tip=document.getElementById("mtip");
+
+// 中国轮廓简化示意（水墨风边界，做艺术化表达，不追求精确国界）
+const outlinePath="M 80,280 Q 90,240 130,220 Q 180,200 230,200 Q 290,180 340,170 Q 400,150 460,140 Q 520,130 580,130 Q 640,125 690,140 Q 730,160 750,200 Q 765,240 760,280 Q 755,340 730,380 Q 700,420 660,450 Q 620,480 570,495 Q 510,510 460,515 Q 400,520 340,520 Q 280,520 230,510 Q 180,495 140,470 Q 100,440 80,400 Q 65,360 70,320 Q 75,300 80,280 Z";
+const rivers=[
+  // 黄河
+  "M 160,220 Q 230,230 300,250 Q 370,270 430,260 Q 500,240 560,250 Q 620,260 680,260",
+  // 长江
+  "M 130,360 Q 220,350 300,340 Q 380,330 440,350 Q 510,370 580,380 Q 640,390 700,400",
+  // 珠江
+  "M 400,470 Q 460,490 520,500",
+];
+
+// 背景
+svg.append("rect").attr("width",W).attr("height",H).attr("fill","rgba(246,239,224,.3)");
+// 国界线
+svg.append("path").attr("d",outlinePath)
+  .attr("fill","rgba(139,90,43,0.05)").attr("stroke","rgba(139,90,43,0.4)").attr("stroke-width",1.5)
+  .attr("stroke-dasharray","4,3");
+// 河流
+rivers.forEach((p,i)=>{
+  svg.append("path").attr("d",p)
+    .attr("fill","none").attr("stroke",i===0?"#8B7355":"#5D8AA8").attr("stroke-width",i===2?1:2).attr("stroke-opacity",.4);
+});
+
+// 地点标记
+const gMarkers=svg.append("g");
+data.places.forEach((p,i)=>{
+  const[x,y]=proj(p.lng,p.lat);
+  const g=gMarkers.append("g").attr("class","map-marker").attr("transform",`translate(${x},${y})`)
+    .on("click",()=>selectPlace(i))
+    .on("mouseover",(e)=>{
+      tip.innerHTML=`<strong style="color:${p.color};letter-spacing:2px">${p.name}</strong><br/><span style="font-size:12px;color:#8B5A2B">${p.era}</span>`;
+      tip.classList.add("visible");
+    }).on("mousemove",e=>{
+      const rect=container.getBoundingClientRect();
+      const svgbox=document.getElementById("map-svg").getBoundingClientRect();
+      const sx=e.clientX-svgbox.left+12;
+      const sy=e.clientY-svgbox.top-10;
+      tip.style.left=sx+"px";tip.style.top=sy+"px";
+    }).on("mouseout",()=>tip.classList.remove("visible"));
+  g.append("circle").attr("r",5).attr("fill",p.color).attr("fill-opacity",.7).attr("stroke","#fff").attr("stroke-width",1.5);
+  g.append("circle").attr("r",10).attr("fill",p.color).attr("fill-opacity",.15);
+  g.append("text").attr("y",-10).attr("text-anchor","middle").text(p.name.split("（")[0]);
+});
+
+// 路线（初始隐藏）
+const gRoutes=svg.append("g").attr("id","routesLayer").style("display","none");
+data.routes.forEach(r=>{
+  const pathD="M "+r.path.map(pt=>proj(pt[0],pt[1]).join(",")).join(" L ");
+  gRoutes.append("path").attr("d",pathD).attr("fill","none")
+    .attr("stroke",r.color).attr("stroke-width",2).attr("stroke-dasharray","6,4")
+    .attr("stroke-opacity",.7);
+  // 起点终点小圆
+  r.path.forEach(pt=>{
+    const[x,y]=proj(pt[0],pt[1]);
+    gRoutes.append("circle").attr("cx",x).attr("cy",y).attr("r",3).attr("fill",r.color);
+  });
+});
+
+// 侧栏地点列表
+const pl=document.getElementById("placeList");
+data.places.forEach((p,i)=>{
+  const d=document.createElement("div");
+  d.className="place-item";d.dataset.i=i;
+  d.innerHTML=`${p.name}<span class="era">· ${p.era}</span>`;
+  d.onclick=()=>selectPlace(i);
+  pl.appendChild(d);
+});
+
+// 路线按钮
+const ctrl=document.querySelector(".controls");
+data.routes.forEach((r,i)=>{
+  const b=document.createElement("button");
+  b.className="rt-btn";b.dataset.ri=i;b.textContent=r.poet+"行迹";
+  b.onclick=()=>{
+    document.querySelectorAll(".rt-btn").forEach(x=>x.classList.remove("active"));
+    b.classList.add("active");
+    document.getElementById("routesLayer").style.display="block";
+    // 仅显示该条
+    gRoutes.selectAll("path").style("opacity",0).style("stroke-width",1);
+    gRoutes.selectAll("circle").style("opacity",0);
+    gRoutes.selectAll("path").filter((d,j)=>j===i).style("opacity",1).style("stroke-width",3);
+  };
+  ctrl.appendChild(b);
+});
+document.querySelector(".rt-btn[data-route=none]").onclick=function(){
+  document.querySelectorAll(".rt-btn").forEach(x=>x.classList.remove("active"));
+  this.classList.add("active");
+  document.getElementById("routesLayer").style.display="none";
+};
+
+let active=-1;
+function selectPlace(i){
+  active=i;
+  document.querySelectorAll(".place-item").forEach((el,j)=>el.classList.toggle("active",j===i));
+  const p=data.places[i];
+  const card=document.getElementById("detailCard");
+  card.classList.add("visible");
+  document.getElementById("dName").textContent=p.name;
+  document.getElementById("dEra").textContent=p.era;
+  document.getElementById("dDesc").textContent=p.desc;
+  document.getElementById("dWorks").innerHTML=`<span style="color:#a08060">名　篇：</span>`+
+    p.works.map(w=>`<span>${w}</span>`).join("");
+  document.getElementById("dPoets").innerHTML=`<span style="color:#a08060">诗　人：</span>`+p.poets.join(" · ");
+  // 高亮对应marker
+  gMarkers.selectAll("circle").attr("stroke-width",1.5).attr("r",5);
+  const node=gMarkers.selectAll("g").filter((d,j)=>j===i);
+  node.select("circle").attr("r",8).attr("stroke-width",2.5);
+}
+
+// 拖拽平移
+let drag=false,lastX=0,lastY=0,tx=0,ty=0;
+svg.on("mousedown",e=>{drag=true;lastX=e.clientX;lastY=e.clientY});
+window.addEventListener("mousemove",e=>{
+  if(!drag)return;
+  tx+=e.clientX-lastX;ty+=e.clientY-lastY;
+  lastX=e.clientX;lastY=e.clientY;
+  gMarkers.attr("transform",`translate(${tx},${ty})`);
+  gRoutes.attr("transform",`translate(${tx},${ty})`);
+});
+window.addEventListener("mouseup",()=>drag=false);
+
+selectPlace(0);
+</script>
+</body>
+</html>

@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>韻書查詢 · 詩藏本體論</title>
+<script src="yunshu_data.js"></script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  font-family:'Noto Serif SC','Songti SC','SimSun',serif;
+  background:#f6efe0 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='0.85' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 0.55 0 0 0 0 0.45 0 0 0 0 0.3 0 0 0 0.08 0'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)'/%3E%3C/svg%3E");
+  color:#2c1810;min-height:100vh;line-height:1.8;
+}
+header{text-align:center;padding:36px 20px 20px;position:relative;
+  background:rgba(246,239,224,.95);border-bottom:1px solid rgba(139,90,43,.15)}
+.back{position:absolute;top:24px;left:28px;color:#8B3A2F;text-decoration:none;font-size:14px;
+  padding:6px 14px;border:1px solid #8B3A2F;border-radius:2px;transition:all .3s}
+.back:hover{background:#8B3A2F;color:#f6efe0}
+h1{font-size:36px;font-weight:700;letter-spacing:10px;color:#8B3A2F;margin-bottom:6px}
+.subtitle{color:#8B5A2B;font-size:13px;letter-spacing:5px}
+
+.tabs{max-width:1100px;margin:20px auto 0;padding:0 20px;display:flex;gap:8px;flex-wrap:wrap;justify-content:center}
+.tab{padding:8px 20px;cursor:pointer;font-size:14px;letter-spacing:3px;
+  border:1px solid rgba(139,58,47,.3);background:rgba(255,250,240,.7);color:#5c3020;font-family:inherit;
+  transition:all .3s;border-radius:1px}
+.tab.active{background:#8B3A2F;color:#f6efe0;border-color:#8B3A2F}
+
+.container{max-width:1100px;margin:24px auto;padding:0 20px}
+.panel{background:rgba(255,250,240,.9);border:1px solid rgba(139,90,43,.2);padding:28px 32px;display:none}
+.panel.active{display:block}
+
+/* 韵目浏览 */
+.tone-tabs{display:flex;justify-content:center;gap:10px;margin-bottom:20px;flex-wrap:wrap}
+.tone-tab{padding:6px 16px;font-family:inherit;font-size:13px;letter-spacing:2px;cursor:pointer;
+  background:transparent;border:1px solid rgba(139,58,47,.3);color:#5c3020;transition:all .2s}
+.tone-tab.active{background:#8B3A2F;color:#f6efe0;border-color:#8B3A2F}
+.yunmu-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(80px,1fr));gap:8px;margin:12px 0}
+.yunmu-item{padding:8px;text-align:center;cursor:pointer;font-size:14px;letter-spacing:1px;
+  background:rgba(246,239,224,.6);border:1px solid rgba(139,90,43,.2);transition:all .2s}
+.yunmu-item:hover{background:rgba(139,58,47,.1);border-color:#c9a96e}
+.yunmu-item.active{background:#8B3A2F;color:#f6efe0;border-color:#8B3A2F}
+.yunmu-item.ru{border-left:3px solid #C62828}
+
+.char-display{
+  margin-top:20px;padding:20px;background:rgba(246,239,224,.5);border-left:3px solid #c9a96e;
+  min-height:100px;line-height:2.2;
+}
+.char-display .ch{
+  display:inline-block;width:40px;height:40px;line-height:40px;text-align:center;
+  font-size:22px;margin:3px;background:rgba(255,250,240,.8);border:1px solid rgba(139,90,43,.15);
+  cursor:pointer;transition:all .2s;
+}
+.char-display .ch:hover{background:#8B3A2F;color:#f6efe0;border-color:#8B3A2F}
+.yun-info{font-size:14px;color:#8B5A2B;letter-spacing:2px;margin-bottom:10px;padding-bottom:8px;border-bottom:1px solid rgba(139,90,43,.15)}
+.yun-info strong{color:#8B3A2F;font-size:16px;letter-spacing:3px}
+
+/* 单字查询 */
+.search-area{max-width:700px;margin:0 auto 20px}
+.search-box{width:100%;padding:12px 18px;font-family:inherit;font-size:20px;letter-spacing:4px;
+  border:1px solid #c9a96e;background:rgba(255,250,240,.8);color:#2c1810;outline:none;text-align:center}
+.search-box:focus{border-color:#8B3A2F;box-shadow:0 0 0 2px rgba(139,58,47,.1)}
+.result-area{margin-top:20px}
+.char-result{padding:20px;margin-bottom:16px;background:rgba(246,239,224,.6);border-left:4px solid #c9a96e;display:none}
+.char-result.visible{display:block}
+.char-char{font-size:48px;color:#8B3A2F;letter-spacing:4px;display:inline-block;vertical-align:middle;margin-right:20px}
+.char-meta{display:inline-block;vertical-align:middle}
+.char-tone{font-size:16px;letter-spacing:2px;color:#2c1810}
+.char-yunbu{font-size:14px;color:#8B5A2B;letter-spacing:2px;margin-top:4px}
+.pz-tag{display:inline-block;padding:2px 10px;font-size:12px;letter-spacing:2px;margin-right:8px;border-radius:1px}
+.pz-ping{background:rgba(46,125,50,.1);color:#2E7D32;border:1px solid rgba(46,125,50,.3)}
+.pz-ze{background:rgba(198,40,40,.1);color:#C62828;border:1px solid rgba(198,40,40,.3)}
+.not-found{padding:20px;text-align:center;color:#a08060;font-size:15px;letter-spacing:2px}
+
+/* 平仄校验 */
+.check-area{max-width:700px;margin:0 auto 20px}
+.check-textarea{width:100%;padding:12px 18px;font-family:inherit;font-size:18px;letter-spacing:4px;
+  border:1px solid #c9a96e;background:rgba(255,250,240,.8);color:#2c1810;outline:none;resize:vertical;min-height:100px;line-height:2}
+.check-textarea:focus{border-color:#8B3A2F}
+.btn-row{margin:12px 0;display:flex;justify-content:center;gap:10px}
+.btn{padding:8px 24px;font-family:inherit;font-size:14px;letter-spacing:3px;cursor:pointer;
+  background:#8B3A2F;color:#f6efe0;border:1px solid #8B3A2F;transition:all .3s}
+.btn:hover{background:#702d24}
+.check-result{margin-top:20px}
+.check-line{padding:8px 0;font-size:20px;letter-spacing:6px;line-height:2.4;display:flex;align-items:center;flex-wrap:wrap}
+.check-ch{display:inline-flex;flex-direction:column;align-items:center;width:40px;margin:3px;position:relative}
+.check-ch .zp{font-size:22px}
+.check-ch .zptag{font-size:10px;letter-spacing:0;margin-top:1px}
+.check-ch.ping .zp{color:#2E7D32}
+.check-ch.ze .zp{color:#C62828}
+.check-ch.ru::after{content:"入";position:absolute;top:-2px;right:-2px;font-size:9px;color:#C62828;background:rgba(246,239,224,.8);padding:0 2px}
+.check-ch.unknown .zp{color:#bbb}
+.check-summary{margin-top:16px;padding:12px;background:rgba(246,239,224,.5);font-size:14px;line-height:1.8;color:#3c2820;border-left:3px solid #c9a96e}
+
+footer{text-align:center;padding:24px;color:#a08060;font-size:12px;letter-spacing:3px}
+</style>
+</head>
+<body>
+<header>
+  <a class="back" href="../index.html">← 返回詩藏</a>
+  <h1>韻 書 查 詢</h1>
+  <div class="subtitle">Rhyme Dictionary · 平水韻·字平仄查·韻律校對</div>
+  <div class="tabs">
+    <div class="tab active" data-tab="browse">韻目瀏覽</div>
+    <div class="tab" data-tab="search">單字查韻</div>
+    <div class="tab" data-tab="check">平仄校對</div>
+  </div>
+</header>
+<div class="container">
+  <!-- 韵目浏览 -->
+  <div class="panel active" id="panel-browse">
+    <div class="tone-tabs">
+      <div class="tone-tab active" data-tone="all">全部</div>
+      <div class="tone-tab" data-tone="上平">上平聲 15 部</div>
+      <div class="tone-tab" data-tone="下平">下平聲 15 部</div>
+      <div class="tone-tab" data-tone="上声">上聲 29 部</div>
+      <div class="tone-tab" data-tone="去声">去聲 30 部</div>
+      <div class="tone-tab" data-tone="入声" style="border-color:#C62828;color:#C62828">入聲 17 部（仄）</div>
+    </div>
+    <div class="yunmu-grid" id="yunmuGrid"></div>
+    <div class="char-display" id="charDisplay">
+      <div class="yun-info">點擊上方韻目查看韻字</div>
+    </div>
+  </div>
+
+  <!-- 单字查询 -->
+  <div class="panel" id="panel-search">
+    <div class="search-area">
+      <input class="search-box" id="searchBox" placeholder="輸入漢字（可一次輸入多字）查韻部和平仄"/>
+    </div>
+    <div class="result-area" id="searchResult">
+      <div class="not-found">請輸入要查詢的漢字</div>
+    </div>
+  </div>
+
+  <!-- 平仄校对 -->
+  <div class="panel" id="panel-check">
+    <div class="check-area">
+      <textarea class="check-textarea" id="checkInput" placeholder="輸入詩句，系統自動標註平仄與入聲字&#10;例如：明月幾時有，把酒問青天"></textarea>
+      <div class="btn-row">
+        <button class="btn" onclick="checkPoem()">校 對 平 仄</button>
+        <button class="btn" onclick="document.getElementById('checkInput').value='';document.getElementById('checkResult').innerHTML=''">清 空</button>
+      </div>
+    </div>
+    <div class="check-result" id="checkResult"></div>
+  </div>
+</div>
+<footer>詩藏本體論 · 平水韻一百零六部</footer>
+
+<script>
+const groups=YUNSHU_DATA["ping-shui-yun"].groups;
+const pingSet=new Set(PING_CHARS_SET);
+const zeSet=new Set(ZE_CHARS_SET);
+const ruSet=new Set(RU_CHARS_SET);
+
+function charPingze(ch){
+  if(ruSet.has(ch))return {tone:'入',pz:'ze',ru:true};
+  if(pingSet.has(ch))return {tone:'平',pz:'ping',ru:false};
+  if(zeSet.has(ch))return {tone:'仄',pz:'ze',ru:false};
+  return {tone:'?',pz:'unknown',ru:false};
+}
+function findGroup(ch){
+  for(let g of groups){
+    if(g.chars.includes(ch))return g;
+  }
+  return null;
+}
+
+// Tabs
+document.querySelectorAll('.tab').forEach(t=>{
+  t.onclick=()=>{
+    document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
+    document.querySelectorAll('.panel').forEach(x=>x.classList.remove('active'));
+    t.classList.add('active');
+    document.getElementById('panel-'+t.dataset.tab).classList.add('active');
+  };
+});
+
+// 韵目浏览
+let currentTone='all';
+let currentGroup=0;
+function renderYunmu(){
+  const grid=document.getElementById('yunmuGrid');
+  grid.innerHTML='';
+  groups.forEach((g,i)=>{
+    if(currentTone!=='all'&&g.tone!==currentTone)return;
+    const d=document.createElement('div');
+    d.className='yunmu-item'+(g.is_ru?' ru':'');
+    d.textContent=g.name;
+    d.onclick=()=>showGroup(i);
+    grid.appendChild(d);
+  });
+}
+document.querySelectorAll('.tone-tab').forEach(t=>{
+  t.onclick=()=>{
+    document.querySelectorAll('.tone-tab').forEach(x=>x.classList.remove('active'));
+    t.classList.add('active');
+    currentTone=t.dataset.tone;
+    renderYunmu();
+  };
+});
+function showGroup(i){
+  currentGroup=i;
+  document.querySelectorAll('.yunmu-item').forEach((el,j)=>{
+    // highlight: find index
+  });
+  const g=groups[i];
+  const disp=document.getElementById('charDisplay');
+  const toneLabel=g.tone+(g.is_ru?'（入聲，皆仄）':'');
+  const pzLabel=(g.tone==='上平'||g.tone==='下平')?'<span class="pz-tag pz-ping">平聲</span>':'<span class="pz-tag pz-ze">仄聲</span>';
+  let html=`<div class="yun-info"><strong>${g.name}</strong> ${pzLabel} <span style="margin-left:12px">${toneLabel}</span> · 共 ${g.chars.length} 字</div>`;
+  html+='<div>';
+  for(const ch of g.chars){
+    html+=`<span class="ch" onclick="searchChar('${ch}')">${ch}</span>`;
+  }
+  html+='</div>';
+  disp.innerHTML=html;
+}
+function searchChar(ch){
+  // 切换到搜索tab
+  document.querySelector('[data-tab=search]').click();
+  document.getElementById('searchBox').value=ch;
+  doSearch();
+}
+renderYunmu();
+// 默认显示一东
+setTimeout(()=>showGroup(0),100);
+
+// 单字搜索
+document.getElementById('searchBox').addEventListener('input',doSearch);
+function doSearch(){
+  const val=document.getElementById('searchBox').value.trim();
+  const res=document.getElementById('searchResult');
+  if(!val){res.innerHTML='<div class="not-found">請輸入要查詢的漢字</div>';return}
+  let html='';
+  let missCount=0;
+  for(const ch of val){
+    if(/[\u4e00-\u9fa5]/.test(ch)){
+      const info=charPingze(ch);
+      const g=findGroup(ch);
+      if(g){
+        const pzClass=info.pz==='ping'?'pz-ping':'pz-ze';
+        const pzText=info.ru?'仄（入聲）':info.tone;
+        html+=`<div class="char-result visible">
+          <span class="char-char">${ch}</span>
+          <span class="char-meta">
+            <div><span class="pz-tag ${pzClass}">${pzText}</span><span class="char-tone">${g.tone}聲</span></div>
+            <div class="char-yunbu">韻部：${g.name}${info.ru?' · 入聲字':''}</div>
+          </span>
+        </div>`;
+      }else{missCount++}
+    }
+  }
+  if(!html)html=`<div class="not-found">未能在平水韻中查到${missCount>0?val:'相關字'}，可能為非常用字或系統未收</div>`;
+  res.innerHTML=html;
+}
+
+// 平仄校对
+function checkPoem(){
+  const text=document.getElementById('checkInput').value;
+  const res=document.getElementById('checkResult');
+  if(!text.trim()){res.innerHTML='<div class="not-found">請輸入詩句</div>';return}
+  const lines=text.split(/[\n，,。.；;！!？?、]/g).filter(l=>l.trim());
+  let html='';
+  let pingCount=0,zeCount=0,ruCount=0,unknown=0;
+  lines.forEach(line=>{
+    if(!line.trim())return;
+    html+=`<div class="check-line">`;
+    for(const ch of line){
+      if(/[\u4e00-\u9fa5]/.test(ch)){
+        const info=charPingze(ch);
+        let cls='check-ch';
+        if(info.pz==='ping'){cls+=' ping';pingCount++}
+        else if(info.pz==='ze'){cls+=' ze';zeCount++}
+        else{cls+=' unknown';unknown++}
+        if(info.ru){cls+=' ru';ruCount++}
+        const tag=info.ru?'入':info.tone;
+        html+=`<span class="${cls}"><span class="zp">${ch}</span><span class="zptag">${tag}</span></span>`;
+      }
+    }
+    html+=`</div>`;
+  });
+  const total=pingCount+zeCount+unknown;
+  html+=`<div class="check-summary">
+    <strong style="color:#8B3A2F;letter-spacing:2px">校對結果：</strong><br/>
+    共 ${total} 字 · <span style="color:#2E7D32">平聲 ${pingCount}</span> · <span style="color:#C62828">仄聲 ${zeCount}</span>（其中入聲 ${ruCount}） · 未收 ${unknown} 字<br/>
+    <span style="color:#8B5A2B;font-size:13px">提示：近體詩（律絕）講究「一三五不論，二四六分明」，對聯須「仄起平收」。</span>
+  </div>`;
+  res.innerHTML=html;
+}
+document.getElementById('checkInput').value='明月幾時有，把酒問青天';
+checkPoem();
+</script>
+</body>
+</html>

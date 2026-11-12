@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>詩詞對弈 · 對聯遊戲 · 詩藏本體論</title>
+<script src="pingze_data.js"></script>
+<script src="duilian_data.js"></script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  font-family:'Noto Serif SC','Songti SC','SimSun',serif;
+  background:#f6efe0 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='0.85' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 0.55 0 0 0 0 0.45 0 0 0 0 0.3 0 0 0 0.08 0'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)'/%3E%3C/svg%3E");
+  color:#2c1810;min-height:100vh;line-height:1.8;
+}
+header{text-align:center;padding:36px 20px 20px;position:relative;
+  background:rgba(246,239,224,.95);border-bottom:1px solid rgba(139,90,43,.15)}
+.back{position:absolute;top:24px;left:28px;color:#8B3A2F;text-decoration:none;font-size:14px;
+  padding:6px 14px;border:1px solid #8B3A2F;border-radius:2px;transition:all .3s}
+.back:hover{background:#8B3A2F;color:#f6efe0}
+h1{font-size:36px;font-weight:700;letter-spacing:10px;color:#8B3A2F;margin-bottom:6px}
+.subtitle{color:#8B5A2B;font-size:13px;letter-spacing:5px}
+.tabs{max-width:960px;margin:24px auto 0;padding:0 20px;display:flex;justify-content:center;gap:8px}
+.tab{padding:8px 24px;cursor:pointer;font-size:15px;letter-spacing:3px;
+  border:1px solid rgba(139,58,47,.3);background:rgba(255,250,240,.7);color:#5c3020;font-family:inherit;
+  transition:all .3s;border-radius:1px}
+.tab.active{background:#8B3A2F;color:#f6efe0;border-color:#8B3A2F}
+.container{max-width:960px;margin:24px auto;padding:0 20px}
+.panel{background:rgba(255,250,240,.9);border:1px solid rgba(139,90,43,.2);padding:36px 40px;display:none}
+.panel.active{display:block}
+
+/* 对联游戏样式 */
+.dui-area{display:flex;gap:24px;margin:28px 0;justify-content:center;align-items:stretch;flex-wrap:wrap}
+.couplet-col{flex:1;min-width:200px;max-width:260px;text-align:center}
+.couplet-label{font-size:14px;color:#8B5A2B;letter-spacing:4px;margin-bottom:12px}
+.couplet-text{
+  writing-mode:vertical-rl;
+  background:rgba(246,239,224,.8);border:2px solid #c9a96e;padding:24px 14px;
+  font-size:32px;letter-spacing:12px;color:#2c1810;min-height:340px;
+  display:flex;align-items:center;justify-content:center;
+  font-weight:500;
+  background-image:repeating-linear-gradient(0deg,rgba(139,90,43,.06) 0px,rgba(139,90,43,.06) 1px,transparent 1px,transparent 46px);
+}
+.couplet-text.input-col{
+  writing-mode:vertical-rl;border-style:dashed;color:#8B3A2F;
+  background:rgba(139,58,47,.03);
+}
+.couplet-text.input-col.has-answer{border-style:solid;color:#2c1810}
+.char-cell{
+  width:40px;height:40px;display:inline-flex;align-items:center;justify-content:center;
+  margin:4px 0;position:relative;font-size:30px;
+}
+.char-cell .pz{position:absolute;left:-18px;top:50%;transform:translateY(-50%);font-size:12px;letter-spacing:0}
+.ping-mark{color:#2E7D32}
+.ze-mark{color:#C62828}
+.hengpi{
+  text-align:center;margin:18px auto;padding:10px 20px;
+  border:1px solid #c9a96e;background:rgba(246,239,224,.8);
+  font-size:20px;letter-spacing:6px;color:#8B3A2F;display:inline-block;
+}
+.hengpi-wrap{text-align:center;margin-bottom:8px}
+
+.input-wrap{margin:24px 0;text-align:center}
+.char-input{
+  font-family:inherit;font-size:22px;letter-spacing:14px;
+  padding:10px 18px;border:1px solid #c9a96e;background:rgba(255,250,240,.8);
+  color:#2c1810;text-align:center;outline:none;width:320px;
+}
+.char-input:focus{border-color:#8B3A2F;box-shadow:0 0 0 2px rgba(139,58,47,.1)}
+.btn-row{display:flex;justify-content:center;gap:12px;margin:18px 0;flex-wrap:wrap}
+.btn{
+  padding:8px 24px;font-family:inherit;font-size:14px;letter-spacing:3px;cursor:pointer;
+  background:rgba(139,58,47,.85);color:#f6efe0;border:1px solid #8B3A2F;
+  transition:all .3s;border-radius:1px;
+}
+.btn:hover{background:#8B3A2F}
+.btn.ghost{background:transparent;color:#8B3A2F}
+.btn.ghost:hover{background:rgba(139,58,47,.1)}
+
+.result-box{margin-top:20px;padding:16px 20px;border:1px dashed #c9a96e;background:rgba(246,239,224,.6);display:none}
+.result-box.visible{display:block}
+.result-title{font-size:16px;color:#8B3A2F;letter-spacing:3px;margin-bottom:10px}
+.score-row{display:flex;gap:16px;flex-wrap:wrap;margin:8px 0;font-size:14px}
+.score-item{padding:4px 10px;background:rgba(255,250,240,.8);border-left:2px solid #c9a96e}
+.score-good{color:#2E7D32;border-left-color:#2E7D32}
+.score-bad{color:#C62828;border-left-color:#C62828}
+.advice{margin-top:10px;padding:10px;background:rgba(139,58,47,.06);font-size:14px;color:#5c3020;line-height:1.8}
+
+/* 笠翁对韵学习 */
+.lidui-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px;margin:18px 0}
+.lidui-card{padding:14px 16px;background:rgba(255,250,240,.7);border-left:3px solid #c9a96e;cursor:pointer;transition:all .3s}
+.lidui-card:hover{background:rgba(246,239,224,.9);border-left-color:#8B3A2F;transform:translateX(3px)}
+.lidui-shang{font-size:18px;color:#8B3A2F;letter-spacing:3px}
+.lidui-xia{font-size:18px;color:#2c1810;letter-spacing:3px;margin-top:4px}
+.lidui-hint{font-size:12px;color:#a08060;letter-spacing:1px;margin-top:6px}
+
+.info-note{font-size:13px;color:#8B5A2B;text-align:center;margin:12px 0;letter-spacing:2px}
+footer{text-align:center;padding:24px;color:#a08060;font-size:12px;letter-spacing:3px}
+
+/* 平仄配色 */
+.pz-ping{color:#2E7D32;font-weight:500}
+.pz-ze{color:#C62828;font-weight:500}
+.pz-unknown{color:#999}
+</style>
+</head>
+<body>
+<header>
+  <a class="back" href="../index.html">← 返回詩藏</a>
+  <h1>詩 詞 對 弈</h1>
+  <div class="subtitle">Couplet Game · 吟詩作對 · 平仄自校</div>
+  <div class="tabs">
+    <div class="tab active" data-tab="game">對聯闘巧</div>
+    <div class="tab" data-tab="learn">笠翁對韻</div>
+    <div class="tab" data-tab="rules">對聯格律</div>
+  </div>
+</header>
+<div class="container">
+  <!-- 对联游戏 -->
+  <div class="panel active" id="panel-game">
+    <div class="info-note">已抽選上聯，請輸入對仗工整的下聯，系統將自動校驗平仄、字數、對仗</div>
+    <div class="hengpi-wrap"><div class="hengpi" id="hengpi">橫 批</div></div>
+    <div class="dui-area">
+      <div class="couplet-col">
+        <div class="couplet-label">上 聯（出 句）</div>
+        <div class="couplet-text" id="shanglian-box"></div>
+      </div>
+      <div class="couplet-col">
+        <div class="couplet-label">下 聯（對 句）</div>
+        <div class="couplet-text input-col" id="xialian-box">請在下方輸入</div>
+      </div>
+    </div>
+    <div class="input-wrap">
+      <input class="char-input" id="userInput" placeholder="請輸入下聯（繁體字）" maxlength="30"/>
+    </div>
+    <div class="btn-row">
+      <button class="btn" onclick="checkAnswer()">校 對 點 評</button>
+      <button class="btn ghost" onclick="revealAnswer()">顯 示 答 案</button>
+      <button class="btn ghost" onclick="newQuestion()">換 一 題</button>
+    </div>
+    <div class="result-box" id="resultBox">
+      <div class="result-title" id="resultTitle">點評結果</div>
+      <div id="resultScores"></div>
+      <div class="advice" id="resultAdvice"></div>
+    </div>
+  </div>
+
+  <!-- 笠翁对韵学习 -->
+  <div class="panel" id="panel-learn">
+    <div class="info-note">《笠翁對韻》是古代啓蒙對聯教材，研讀範例可掌握對仗規律</div>
+    <div class="lidui-grid" id="liduiGrid"></div>
+  </div>
+
+  <!-- 对联格律规则 -->
+  <div class="panel" id="panel-rules">
+    <h2 style="color:#8B3A2F;font-size:22px;letter-spacing:4px;text-align:center;margin-bottom:20px">對 聯 基 本 格 律</h2>
+    <div style="line-height:2;font-size:15px;color:#3c2820">
+      <p style="margin-bottom:12px"><strong style="color:#8B3A2F">一、字數相等，句式一致：</strong>上下聯字數必須相同，斷句位置一致。</p>
+      <p style="margin-bottom:12px"><strong style="color:#8B3A2F">二、平仄相對，仄起平收：</strong>對應位置平仄相反；上聯尾字為仄聲，下聯尾字為平聲，此為「仄起平收」鐵律。</p>
+      <p style="margin-bottom:12px"><strong style="color:#8B3A2F">三、詞性對仗：</strong>名詞對名詞、動詞對動詞、形容詞對形容詞、數詞對數詞、顏色對顏色、方位對方位。</p>
+      <p style="margin-bottom:12px"><strong style="color:#8B3A2F">四、內容相關：</strong>上下聯意境須和諧統一，可正對、反對、流水對，不可風馬牛不相及。</p>
+      <p style="margin-bottom:12px"><strong style="color:#8B3A2F">五、節奏相應：</strong>五言「二/三」，七言「二/二/三」或「四/三」。</p>
+      <div style="margin-top:20px;padding:16px 20px;background:rgba(246,239,224,.7);border-left:3px solid #8B3A2F">
+        <p style="color:#8B3A2F;letter-spacing:3px;margin-bottom:8px">平 仄 說 明</p>
+        <p>　<span class="pz-ping">○ 平聲</span>：現代漢語陰平（一聲）、陽平（二聲）中歸平的字；<br/>
+        　<span class="pz-ze">● 仄聲</span>：上聲（三聲）、去聲（四聲），以及古入聲字（現代漢語中已派入四聲，古時皆為仄）。<br/>
+        　<span style="color:#8B5A2B">▣ 韻腳</span>：上下聯尾字須仄起平收，無須押韻。</p>
+      </div>
+    </div>
+  </div>
+</div>
+<footer>詩藏本體論 · ShiCang Ontology · 吟詩作對·平仄自動校驗</footer>
+
+<script>
+// 平仄判定
+const ruSet=new Set(RU_SHENG);
+const pingSet=new Set(PING_CHARS);
+const zeSet=new Set(ZE_CHARS);
+function charPingze(ch){
+  if(zeSet.has(ch)||ruSet.has(ch))return 'ze';
+  if(pingSet.has(ch))return 'ping';
+  // 默认推断：按常用字表简单判定
+  return 'unknown';
+}
+function isZe(ch){return charPingze(ch)==='ze'}
+function isPing(ch){return charPingze(ch)==='ping'}
+
+// Tabs
+document.querySelectorAll('.tab').forEach(t=>{
+  t.onclick=()=>{
+    document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
+    document.querySelectorAll('.panel').forEach(x=>x.classList.remove('active'));
+    t.classList.add('active');
+    document.getElementById('panel-'+t.dataset.tab).classList.add('active');
+  };
+});
+
+// 当前题
+let currentQ=null;
+let currentAnswer=null;
+
+function renderCouplet(text, boxId, showPz){
+  const box=document.getElementById(boxId);
+  box.innerHTML='';
+  for(let i=0;i<text.length;i++){
+    const ch=text[i];
+    const cell=document.createElement('div');
+    cell.className='char-cell';
+    cell.innerHTML=ch;
+    if(showPz){
+      const pz=charPingze(ch);
+      const m=document.createElement('span');
+      m.className='pz '+(pz==='ping'?'ping-mark':pz==='ze'?'ze-mark':'');
+      m.textContent=pz==='ping'?'平':pz==='ze'?'仄':'?';
+      cell.appendChild(m);
+      // 字色
+      if(pz==='ping')cell.classList.add('pz-ping');
+      else if(pz==='ze')cell.classList.add('pz-ze');
+    }
+    box.appendChild(cell);
+  }
+}
+
+function newQuestion(){
+  document.getElementById('resultBox').classList.remove('visible');
+  document.getElementById('userInput').value='';
+  document.getElementById('xialian-box').classList.remove('has-answer');
+  document.getElementById('xialian-box').textContent='請在下方輸入';
+  // 随机选上联
+  const idx=Math.floor(Math.random()*SHANGLIAN_SET.length);
+  currentQ=SHANGLIAN_SET[idx];
+  // 找答案：从examples中找
+  currentAnswer=null;
+  DUILIAN_EXAMPLES.forEach(ex=>{
+    if(ex.shang===currentQ)currentAnswer=ex.xia;
+  });
+  // 横批
+  const hengpi=['妙對天成','意境深遠','辭采華茂','對仗工整','清辭麗句','意韻悠長','詩情畫意'];
+  document.getElementById('hengpi').textContent=hengpi[Math.floor(Math.random()*hengpi.length)];
+  renderCouplet(currentQ,'shanglian-box',true);
+}
+
+function checkAnswer(){
+  const input=document.getElementById('userInput').value.trim();
+  if(!input){alert('請輸入下聯');return}
+  const box=document.getElementById('xialian-box');
+  box.classList.add('has-answer');
+  renderCouplet(input,'xialian-box',true);
+
+  // 评分
+  let scoreLen=input.length===currentQ.length;
+  let lastShangZe=isZe(currentQ[currentQ.length-1]);
+  let lastXiaPing=isPing(input[input.length-1]);
+  let scoreEnd=lastXiaPing && lastShangZe;
+
+  // 平仄相对
+  let pzMatch=0,pzTotal=0;
+  const minLen=Math.min(input.length,currentQ.length);
+  for(let i=0;i<minLen;i++){
+    const pz1=charPingze(currentQ[i]),pz2=charPingze(input[i]);
+    if(pz1!=='unknown'&&pz2!=='unknown'){
+      pzTotal++;
+      if((pz1==='ping'&&pz2==='ze')||(pz1==='ze'&&pz2==='ping'))pzMatch++;
+    }
+  }
+  const pzRate=pzTotal?pzMatch/pzTotal:0;
+  let scorePz=pzRate>=0.6;
+
+  let scores=[],totalScore=0,fullScore=40;
+  if(scoreLen){scores.push({ok:true,txt:`字數相符(${input.length}字)`});totalScore+=10}
+  else{scores.push({ok:false,txt:`字數不符（上聯${currentQ.length}字，下聯${input.length}字）`})}
+  if(scoreEnd){scores.push({ok:true,txt:'仄起平收（上仄下平）合格'});totalScore+=10}
+  else{
+    let m='尾字平仄不合格';
+    if(!lastShangZe)m+='（上聯尾字應仄）';
+    if(!lastXiaPing)m+='（下聯尾字應平）';
+    scores.push({ok:false,txt:m});
+  }
+  if(scorePz){scores.push({ok:true,txt:`平仄相對率${Math.round(pzRate*100)}%`});totalScore+=10}
+  else{scores.push({ok:false,txt:`平仄相對率偏低（${Math.round(pzRate*100)}%），需調整字位平仄`})}
+  scores.push({ok:totalScore>=20,txt:`綜合得分 ${totalScore}/30`,isScore:true});
+
+  // 建议
+  let advice='';
+  if(totalScore>=28)advice='妙對！平仄工整、對仗得體，頗見功力。';
+  else if(totalScore>=20)advice='不錯！整體合格，可在個別字位的平仄和詞性上再作推敲。';
+  else advice='繼續努力，建議先從字數與尾字平仄入手，再打磨對仗。可先看「笠翁對韻」學習經典範例。';
+
+  if(currentAnswer){
+    advice+=`<br/><span style="color:#8B3A2F">參考對法：</span><strong style="font-size:18px;letter-spacing:4px">${currentAnswer}</strong>`;
+  }
+
+  const rb=document.getElementById('resultBox');
+  rb.classList.add('visible');
+  document.getElementById('resultTitle').textContent=totalScore>=28?'點評 · 妙對！':'點評';
+  document.getElementById('resultScores').innerHTML=scores.map(s=>
+    `<div class="score-item${s.ok?' score-good':' score-bad'}">${s.ok?'✓ ':'✗ '}${s.txt}</div>`
+  ).join('');
+  document.getElementById('resultAdvice').innerHTML=advice;
+}
+
+function revealAnswer(){
+  if(!currentQ)return;
+  if(!currentAnswer){
+    alert('本題無固定答案，請自由對對子');
+    return;
+  }
+  document.getElementById('userInput').value=currentAnswer;
+  checkAnswer();
+}
+
+// 笠翁对韵列表
+function renderLidui(){
+  const g=document.getElementById('liduiGrid');
+  g.innerHTML=DUILIAN_EXAMPLES.map(ex=>`
+    <div class="lidui-card" onclick="loadLidui('${ex.shang}','${ex.xia}')">
+      <div class="lidui-shang">${ex.shang}</div>
+      <div class="lidui-xia">${ex.xia}</div>
+      <div class="lidui-hint">${ex.hint}</div>
+    </div>`).join('');
+}
+function loadLidui(sh,x){
+  document.querySelector('[data-tab=game]').click();
+  document.getElementById('userInput').value=x;
+  currentQ=sh;currentAnswer=x;
+  renderCouplet(sh,'shanglian-box',true);
+  checkAnswer();
+}
+
+document.getElementById('userInput').addEventListener('keydown',e=>{
+  if(e.key==='Enter')checkAnswer();
+});
+
+renderLidui();
+newQuestion();
+</script>
+</body>
+</html>

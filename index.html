@@ -960,9 +960,102 @@
   </div>
 </section>
 
+<!-- ================= 创意应用模块 ================= -->
+<section class="relative z-10 py-14 md:py-20 px-5 md:px-8">
+  <div class="max-w-[1180px] mx-auto">
+    <div class="flex items-end justify-between mb-8 gap-5 flex-wrap">
+      <div>
+        <div class="sec-eyebrow mb-3">Interactive Tools</div>
+        <h2 class="sec-title text-[34px] md:text-[44px] m-0">诗词雅集 · 创意应用</h2>
+        <p class="text-[14.5px] text-[var(--ink-3)] mt-3 max-w-[680px]">从本体知识出发，构建可欣赏、可学习、可互动、可创作的诗词空间。</p>
+      </div>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      <a class="app-card group" href="shicang-cipai/" style="--ac:#8B3A2F">
+        <div class="app-icon">词</div>
+        <div class="app-body">
+          <div class="app-title">词牌格律谱</div>
+          <div class="app-desc">12 个常用词牌标准平仄图谱，上下片逐字标注，可视化平仄与韵脚。</div>
+        </div>
+        <div class="app-go">→</div>
+      </a>
+      <a class="app-card group" href="shicang-imagery/" style="--ac:#2E7D32">
+        <div class="app-icon">象</div>
+        <div class="app-body">
+          <div class="app-title">意象关系图</div>
+          <div class="app-desc">38 核心意象 × 69 情感 × 60 作品 × 41 诗人，力导向图呈现意象网络。</div>
+        </div>
+        <div class="app-go">→</div>
+      </a>
+      <a class="app-card group" href="shicang-duilian/" style="--ac:#C62828">
+        <div class="app-icon">对</div>
+        <div class="app-body">
+          <div class="app-title">诗词对弈</div>
+          <div class="app-desc">对联游戏：随机出题，自动校验字数、平仄、对仗，附笠翁对韵学习。</div>
+        </div>
+        <div class="app-go">→</div>
+      </a>
+      <a class="app-card group" href="shicang-map/" style="--ac:#2980B9">
+        <div class="app-icon">图</div>
+        <div class="app-body">
+          <div class="app-title">诗词地图</div>
+          <div class="app-desc">30 处名篇故里，苏轼、李白等五大诗人行迹路线，一图览尽千年诗路。</div>
+        </div>
+        <div class="app-go">→</div>
+      </a>
+      <a class="app-card group" href="shicang-yunshu/" style="--ac:#A67C2E">
+        <div class="app-icon">韵</div>
+        <div class="app-body">
+          <div class="app-title">韵书查询</div>
+          <div class="app-desc">平水韵106部完整韵字，单字查韵、诗句平仄校对、入声字自动识别。</div>
+        </div>
+        <div class="app-go">→</div>
+      </a>
+      <a class="app-card group" href="shicang-poem/" style="--ac:#8E44AD">
+        <div class="app-icon">读</div>
+        <div class="app-body">
+          <div class="app-title">名篇精读</div>
+          <div class="app-desc">82 篇千古名篇，逐字注音、平仄、韵脚、今译、英译、赏析十三层互动。</div>
+        </div>
+        <div class="app-go">→</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<style>
+.app-card{
+  display:flex;align-items:center;gap:18px;
+  background:var(--card);border:1px solid var(--line);border-radius:14px;
+  padding:22px 24px;text-decoration:none;color:var(--ink);
+  transition:transform .3s cubic-bezier(.2,.8,.2,1),box-shadow .3s,border-color .3s;
+  position:relative;overflow:hidden;
+}
+.app-card::before{
+  content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--ac);
+  transition:width .3s cubic-bezier(.2,.8,.2,1);
+}
+.app-card:hover{transform:translateY(-3px);box-shadow:0 14px 30px rgba(30,26,21,.08);border-color:var(--ac);}
+.app-card:hover::before{width:100%;opacity:.05}
+.app-icon{
+  width:52px;height:52px;flex-shrink:0;
+  background:linear-gradient(135deg,var(--ac),color-mix(in srgb,var(--ac) 60%,#fff));
+  color:#fff;font-size:24px;font-weight:700;
+  display:flex;align-items:center;justify-content:center;
+  border-radius:10px;font-family:var(--serif);letter-spacing:1px;
+  box-shadow:0 4px 12px color-mix(in srgb,var(--ac) 30%,transparent);
+}
+.app-body{flex:1;min-width:0}
+.app-title{font-family:var(--serif);font-size:18px;font-weight:700;color:var(--ink);margin-bottom:5px;letter-spacing:1px}
+.app-desc{font-size:13px;color:var(--ink-3);line-height:1.6;}
+.app-go{font-size:20px;color:var(--ac);opacity:.5;transition:all .3s;font-family:var(--serif)}
+.app-card:hover .app-go{opacity:1;transform:translateX(4px)}
+@media (max-width:640px){.app-card{padding:18px}.app-icon{width:44px;height:44px;font-size:20px}}
+</style>
+
 <footer class="relative z-10 py-10" style="border-top:1px solid var(--line);">
   <div class="max-w-[1180px] mx-auto px-5 md:px-8 flex flex-wrap items-center justify-between gap-3">
-    <p class="text-[13px] text-[var(--ink-3)] m-0">诗藏本体论 ShiCang Ontology · v1.0 · 中国古典诗歌领域知识本体</p>
+    <p class="text-[13px] text-[var(--ink-3)] m-0">诗藏本体论 ShiCang Ontology · v2.1 · 中国古典诗歌领域知识本体</p>
     <p class="text-[13px] text-[var(--ink-3)] m-0">方法论参照 佛藏本体论 · 语料底座 殆知阁诗藏</p>
   </div>
 </footer>

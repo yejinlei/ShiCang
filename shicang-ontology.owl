@@ -30,6 +30,76 @@
         <rdfs:seeAlso rdf:resource="http://www.shicang.org/ontology.html"/>
     </owl:Ontology>
 
+    <!-- ===================== v3.0 创意应用扩展类 ===================== -->
+    <owl:Class rdf:about="&shicang;CiPaiMeter">
+        <rdfs:label xml:lang="zh">词牌格律</rdfs:label>
+        <rdfs:comment xml:lang="zh">词牌的标准格律规范，含字数、句式、平仄格式、韵脚位置</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="&shicang;Form"/>
+    </owl:Class>
+    <owl:Class rdf:about="&shicang;RhymeBook">
+        <rdfs:label xml:lang="zh">韵书</rdfs:label>
+        <rdfs:comment xml:lang="zh">韵书如平水韵、词林正韵、中华新韵的规范体系</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="&shicang;RhymeGroup">
+        <rdfs:label xml:lang="zh">韵部</rdfs:label>
+        <rdfs:comment xml:lang="zh">韵书中的韵部，如平水韵一东二冬</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="&shicang;PoeticPlace">
+        <rdfs:label xml:lang="zh">诗词地点</rdfs:label>
+        <rdfs:comment xml:lang="zh">与诗词创作相关的地理地点，含经纬度坐标与关联作品</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="&shicang;Location"/>
+    </owl:Class>
+    <owl:Class rdf:about="&shicang;PoetRoute">
+        <rdfs:label xml:lang="zh">诗人行迹</rdfs:label>
+        <rdfs:comment xml:lang="zh">诗人一生的宦游行迹路线</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="&shicang;Couplet">
+        <rdfs:label xml:lang="zh">对联</rdfs:label>
+        <rdfs:comment xml:lang="zh">格律对联作品，含上联下联与平仄对仗关系</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="&shicang;Work"/>
+    </owl:Class>
+    <owl:ObjectProperty rdf:about="&shicang;followsMeter">
+        <rdfs:label xml:lang="zh">遵循词牌格律</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;Work"/>
+        <rdfs:range rdf:resource="&shicang;CiPaiMeter"/>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="&shicang;belongsToRhymeGroup">
+        <rdfs:label xml:lang="zh">归属韵部</rdfs:label>
+        <rdfs:range rdf:resource="&shicang;RhymeGroup"/>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="&shicang;composedAt">
+        <rdfs:label xml:lang="zh">创作于</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;Work"/>
+        <rdfs:range rdf:resource="&shicang;PoeticPlace"/>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="&shicang;traveledThrough">
+        <rdfs:label xml:lang="zh">行经</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;Poet"/>
+        <rdfs:range rdf:resource="&shicang;PoeticPlace"/>
+    </owl:ObjectProperty>
+    <owl:DatatypeProperty rdf:about="&shicang;pingzePattern">
+        <rdfs:label xml:lang="zh">平仄格式</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;CiPaiMeter"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="&shicang;longitude">
+        <rdfs:label xml:lang="zh">经度</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;PoeticPlace"/>
+        <rdfs:range rdf:resource="&xsd;decimal"/>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="&shicang;latitude">
+        <rdfs:label xml:lang="zh">纬度</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;PoeticPlace"/>
+        <rdfs:range rdf:resource="&xsd;decimal"/>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="&shicang;rhymeTone">
+        <rdfs:label xml:lang="zh">声调</rdfs:label>
+        <rdfs:domain rdf:resource="&shicang;RhymeGroup"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+
+
+
     <!-- 
     ==========================================
     L0 元模型层 (Meta-Model Layer)
