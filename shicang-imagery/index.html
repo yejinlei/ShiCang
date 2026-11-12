@@ -223,7 +223,7 @@ function getVisible(){
 
 function render(){
   svg.selectAll("*").remove();
-  const{Nodes:nodes,links:links}=getVisible();
+  const{nodes:nodes,links:links}=getVisible();
   
   // copy to add index
   const simNodes=nodes.map(d=>({...d}));
