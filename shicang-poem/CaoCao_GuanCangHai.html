@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>观沧海 · 诗藏精读</title>
+<style>
+:root{--main:#C0392B;--accent:#E67E22;--paper:#FDF6E3;
+  --ink:#2b2117;--ink2:#5d5142;--ink3:#8a7554;--rule:#c9b996;--seal:#a8322f;}
+*{box-sizing:border-box;}
+html,body{margin:0;padding:0;}
+body{
+  background:var(--paper);
+  background-image:
+    radial-gradient(circle at 20% 12%, rgba(255,255,255,.55), transparent 42%),
+    radial-gradient(circle at 82% 78%, rgba(0,0,0,.028), transparent 46%),
+    repeating-linear-gradient(90deg, rgba(120,95,60,.030) 0 1px, transparent 1px 4px),
+    repeating-linear-gradient(0deg, rgba(120,95,60,.024) 0 1px, transparent 1px 5px);
+  color:var(--ink);
+  font-family:'Noto Serif CJK SC','Songti SC','STSong','SimSun',serif;
+  line-height:2;font-size:17px;transition:background-color .7s ease;
+}
+a{color:var(--main);text-decoration:none;}
+.topbar{max-width:900px;margin:0 auto;padding:22px 26px 0;
+  display:flex;justify-content:space-between;align-items:center;font-size:13.5px;
+  color:var(--ink3);letter-spacing:.06em;}
+.topbar .back{border:1px solid var(--main);color:var(--main);
+  padding:3px 13px;border-radius:20px;transition:.35s;}
+.topbar .back:hover{background:var(--main);color:#fff;}
+.head{max-width:900px;margin:0 auto;padding:26px 26px 4px;text-align:center;position:relative;}
+h1{font-family:'STKaiti','KaiTi','Noto Serif CJK SC',serif;
+  font-size:clamp(30px,5vw,42px);letter-spacing:.22em;text-indent:.22em;
+  color:var(--main);margin:8px 0 10px;font-weight:600;}
+.sub{font-size:14px;color:var(--ink3);letter-spacing:.16em;}
+.sub .dot{margin:0 8px;opacity:.5;}
+.theme-note{margin-top:10px;font-size:12.5px;color:var(--accent);letter-spacing:.12em;}
+.seal{position:absolute;right:26px;top:38px;width:52px;height:52px;border:2px solid var(--seal);
+  color:var(--seal);border-radius:6px;display:flex;align-items:center;justify-content:center;
+  font-family:'STKaiti','KaiTi',serif;font-size:18px;line-height:1.05;letter-spacing:0;
+  transform:rotate(-4deg);opacity:.82;}
+.hr{max-width:900px;margin:20px auto 6px;height:0;border-top:1px solid var(--rule);
+  border-bottom:1px solid var(--rule);}
+.controls{max-width:900px;margin:6px auto 4px;padding:10px 26px 0;
+  display:flex;flex-wrap:wrap;gap:9px;justify-content:center;}
+.ctrl-label{width:100%;text-align:center;font-size:12px;color:var(--ink3);
+  letter-spacing:.3em;margin:2px 0;}
+.sw{border:1px solid var(--rule);background:rgba(255,255,255,.5);color:var(--ink2);
+  padding:5px 15px;border-radius:20px;font-size:13.5px;cursor:pointer;
+  font-family:inherit;letter-spacing:.1em;transition:.28s;user-select:none;}
+.sw:hover{border-color:var(--main);color:var(--main);}
+.sw.on{background:var(--main);border-color:var(--main);color:#fff;
+  box-shadow:0 3px 12px -4px var(--main);}
+main{max-width:900px;margin:0 auto;padding:20px 26px 70px;}
+.poem{margin:24px 0 8px;text-align:center;}
+.pline{margin:0 0 10px;transition:.35s;}
+.chline{display:flex;justify-content:center;flex-wrap:wrap;}
+.ch{display:inline-flex;flex-direction:column;align-items:center;
+  padding:0 clamp(2px,1.1vw,9px);position:relative;transition:.3s;}
+.ch .zi{font-family:'STKaiti','KaiTi','Noto Serif CJK SC',serif;
+  font-size:clamp(25px,4.1vw,33px);line-height:1.5;transition:.35s;}
+.ch .py,.ch .pz{font-size:11px;color:var(--ink3);font-family:'Times New Roman',serif;
+  height:1.5em;line-height:1.5em;opacity:0;transition:.32s;}
+.ch .pz{font-family:'Noto Serif CJK SC',serif;color:var(--accent);}
+body.opt-py .ch .py{opacity:.78;}
+body.opt-pz .ch .pz{opacity:.9;}
+body.opt-pz .ch .zi{color:var(--ink2);}
+.ch.is-rhyme .zi{color:var(--main);}
+body.opt-rhyme .ch.is-rhyme::after{content:'';position:absolute;top:1.35em;left:50%;
+  transform:translateX(-50%);width:1.35em;height:1.35em;border-radius:50%;
+  border:1.5px solid var(--main);opacity:.85;}
+.ch.is-allu .zi{border-bottom:1.5px dotted var(--seal);}
+.ch.is-note .zi{border-bottom:1.5px dotted var(--ink3);}
+body.opt-allu .ch.is-allu .zi{background:rgba(168,50,47,.10);border-radius:3px;}
+body.opt-rare .ch.is-rare .zi{color:var(--seal);}
+body.opt-rare .ch.is-rare::before{content:'生僻';position:absolute;top:-.9em;left:50%;
+  transform:translateX(-50%);font-size:8.5px;color:var(--seal);white-space:nowrap;}
+.seg{display:none;font-size:12px;color:var(--accent);letter-spacing:.3em;margin:-2px 0 4px;}
+body.opt-seg .seg{display:block;}
+.trl,.trl-en{display:none;font-size:14.5px;color:var(--ink2);max-width:640px;
+  margin:0 auto 2px;letter-spacing:.03em;}
+.trl-en{font-family:'Times New Roman',Georgia,serif;font-style:italic;
+  font-size:13.5px;color:var(--ink3);}
+body.opt-tr .trl{display:block;}
+body.opt-en .trl-en{display:block;}
+.panels{margin-top:34px;}
+.panel{display:none;border:1px solid var(--rule);border-radius:10px;
+  padding:18px 22px;margin:16px 0;background:rgba(255,255,255,.42);
+  box-shadow:0 2px 18px -12px rgba(80,60,30,.5);}
+body.opt-note .panel-note,body.opt-allu .panel-allu,body.opt-appr .panel-appr,
+body.opt-st .panel-st,body.opt-meta .panel-meta,body.opt-img .panel-img,
+body.opt-bg .panel-bg{display:block;}
+.panel h3{font-size:15px;color:var(--main);letter-spacing:.2em;margin:0 0 12px;
+  font-weight:600;display:flex;align-items:center;gap:10px;}
+.panel h3::before{content:'';width:14px;height:2px;background:var(--main);display:inline-block;}
+.note-item{margin:0 0 9px;font-size:14.5px;line-height:1.85;}
+.note-term{color:var(--seal);font-weight:600;margin-right:8px;border-bottom:1px solid var(--seal);}
+.note-exp{color:var(--ink2);}
+.allu-tag{display:inline-block;border:1px solid var(--seal);color:var(--seal);
+  border-radius:16px;padding:2px 14px;margin:4px 8px 4px 0;font-size:13.5px;}
+.chip-row{margin:6px 0;display:flex;flex-wrap:wrap;align-items:center;gap:8px;}
+.chip-label{font-size:13px;color:var(--ink3);letter-spacing:.16em;flex:none;}
+.chip{font-size:13px;padding:2px 12px;border-radius:14px;border:1px solid var(--rule);color:var(--ink2);}
+.chip.img{border-color:var(--accent);color:var(--accent);}
+.chip.emo{border-color:var(--main);color:var(--main);}
+.st-item{display:flex;gap:14px;margin:7px 0;font-size:14.5px;}
+.st-key{color:#fff;background:var(--main);border-radius:4px;padding:0 10px;
+  font-size:13px;letter-spacing:.14em;flex:none;line-height:1.85;}
+.st-val{color:var(--ink2);}
+.appr{font-size:15px;color:var(--ink2);line-height:2.05;text-align:justify;}
+.bg-src{margin-top:10px;font-size:12.5px;color:var(--ink3);text-align:right;}
+.meta-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;}
+.meta-cell{font-size:14px;color:var(--ink2);}
+.meta-cell b{color:var(--main);font-weight:600;}
+footer{max-width:900px;margin:40px auto 0;padding:18px 26px 40px;text-align:center;
+  font-size:12.5px;color:var(--ink3);border-top:1px solid var(--rule);}
+</style>
+</head>
+<body class="opt-py">
+<div class="topbar">
+  <a class="back" href="index.html">← 名篇精读</a>
+  <span>诗藏 · 名篇精读</span>
+</div>
+<div class="head">
+  <div class="seal">诗藏</div>
+  <h1>观沧海</h1>
+  <div class="sub">东汉<span class="dot">·</span>CaoCao<span class="dot">·</span>YueFu<span class="dot">·</span>标准精读</div>
+  <div class="theme-note">豪放壮阔　金戈铁马、大江东去，雄健豪迈的壮美之境</div>
+</div>
+<div class="hr"></div>
+<div class="controls">
+  <div class="ctrl-label">读 懂 此 篇 · 开 关</div>
+  <button class="sw on" data-opt="py">注音</button><button class="sw" data-opt="pz">平仄</button><button class="sw on" data-opt="rhyme">韵脚</button><button class="sw" data-opt="seg">句式</button><button class="sw" data-opt="meta">格律小结</button><button class="sw" data-opt="img">意象·情感</button><button class="sw" data-opt="rare">生僻字</button>
+</div>
+<main>
+  <div class="poem"><div class="pline" data-line="1"><div class="chline"><span class="ch"><span class="py">dōng</span><span class="zi">东</span><span class="pz">平</span></span><span class="ch"><span class="py">lín</span><span class="zi">临</span><span class="pz">平</span></span><span class="ch"><span class="py">jié</span><span class="zi">碣</span><span class="pz">仄</span></span><span class="ch is-rhyme"><span class="py">shí</span><span class="zi">石</span><span class="pz">仄</span></span></div><div class="seg">2／2</div></div><div class="pline" data-line="2"><div class="chline"><span class="ch"><span class="py">yǐ</span><span class="zi">以</span><span class="pz">仄</span></span><span class="ch"><span class="py">guān</span><span class="zi">观</span><span class="pz">平</span></span><span class="ch"><span class="py">cāng</span><span class="zi">沧</span><span class="pz">平</span></span><span class="ch"><span class="py">hǎi</span><span class="zi">海</span><span class="pz">仄</span></span></div><div class="seg">2／2</div></div><div class="pline" data-line="3"><div class="chline"><span class="ch"><span class="py">rì</span><span class="zi">日</span><span class="pz">仄</span></span><span class="ch"><span class="py">yuè</span><span class="zi">月</span><span class="pz">仄</span></span><span class="ch"><span class="py">zhī</span><span class="zi">之</span><span class="pz">平</span></span><span class="ch"><span class="py">xíng</span><span class="zi">行</span><span class="pz">平</span></span></div><div class="seg">2／2</div></div><div class="pline" data-line="4"><div class="chline"><span class="ch"><span class="py">ruò</span><span class="zi">若</span><span class="pz">仄</span></span><span class="ch"><span class="py">chū</span><span class="zi">出</span><span class="pz">仄</span></span><span class="ch"><span class="py">qí</span><span class="zi">其</span><span class="pz">平</span></span><span class="ch"><span class="py">zhōng</span><span class="zi">中</span><span class="pz">平</span></span></div><div class="seg">2／2</div></div><div class="pline" data-line="5"><div class="chline"><span class="ch"><span class="py">xīng</span><span class="zi">星</span><span class="pz">平</span></span><span class="ch"><span class="py">hàn</span><span class="zi">汉</span><span class="pz">仄</span></span><span class="ch"><span class="py">càn</span><span class="zi">灿</span><span class="pz">仄</span></span><span class="ch"><span class="py">làn</span><span class="zi">烂</span><span class="pz">仄</span></span></div><div class="seg">2／2</div></div><div class="pline" data-line="6"><div class="chline"><span class="ch"><span class="py">ruò</span><span class="zi">若</span><span class="pz">仄</span></span><span class="ch"><span class="py">chū</span><span class="zi">出</span><span class="pz">仄</span></span><span class="ch"><span class="py">qí</span><span class="zi">其</span><span class="pz">平</span></span><span class="ch"><span class="py">lǐ</span><span class="zi">里</span><span class="pz">仄</span></span></div><div class="seg">2／2</div></div></div>
+  <div class="panels"><div class="panel panel-meta"><h3>格律小结</h3><div class="meta-grid"><div class="meta-cell"><b>体裁</b>　YueFu</div><div class="meta-cell"><b>篇幅</b>　6句</div><div class="meta-cell"><b>韵部</b>　支（入声韵）</div><div class="meta-cell"><b>韵式</b>　押韵句：第1句</div><div class="meta-cell"><b>韵脚</b>　石</div><div class="meta-cell"><b>对仗</b>　第1、2、2、3、4、5、5、6句间见对仗</div></div></div><div class="panel panel-img"><h3>核心意象 · 情感基调</h3><div class="chip-row"><span class="chip-label">意象</span><span class="chip img">沧海</span><span class="chip img">日月</span><span class="chip img">洪波</span><span class="chip img">碣石</span></div><div class="chip-row"><span class="chip-label">情感</span><span class="chip emo">豪迈</span><span class="chip emo">壮阔</span></div></div></div>
+</main>
+<footer>诗藏 · 名篇精读　|　数据出自诗藏本体论（ShiCang Ontology）<br>
+韵部依平水韵，注音依现代汉语，英译与今译为本站整理</footer>
+<script>
+document.querySelectorAll('.sw').forEach(function(btn){
+  var opt=btn.getAttribute('data-opt'),cls='opt-'+opt;
+  function sync(){btn.classList.toggle('on',document.body.classList.contains(cls));}
+  sync();
+  btn.addEventListener('click',function(){document.body.classList.toggle(cls);sync();});
+});
+</script>
+</body>
+</html>

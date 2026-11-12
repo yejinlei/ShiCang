@@ -193,6 +193,43 @@
   .tab-panel{display:none;}
   .tab-panel.active{display:block;}
 </style>
+
+<style id="study-style">
+.study-marquee{position:relative;overflow:hidden;padding:16px 0;margin:6px 0 22px;
+  -webkit-mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent);
+  mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent);}
+.mq-track{display:flex;width:max-content;animation:mqmove 90s linear infinite;}
+.study-marquee:hover .mq-track{animation-play-state:paused;}
+@keyframes mqmove{from{transform:translateX(0);}to{transform:translateX(-50%);}}
+.mq-group{display:flex;gap:12px;padding-right:12px;}
+.mq-card{flex:none;display:flex;align-items:center;gap:9px;border:1px solid var(--line,#e2d7bd);
+  border-radius:999px;padding:7px 18px;background:rgba(255,255,255,.62);text-decoration:none;
+  color:var(--ink);transition:.28s;box-shadow:0 2px 10px -8px rgba(90,70,40,.8);}
+.mq-card:hover{border-color:var(--sc);transform:translateY(-2px);}
+.mq-dy{font-size:11px;color:#fff;background:var(--sc);border-radius:8px;padding:0 7px;line-height:1.7;}
+.mq-ti{font-family:var(--serif);font-size:15px;color:var(--sc);letter-spacing:.03em;}
+.mq-au{font-size:12px;color:var(--ink-3);}
+.study-toolbar{display:flex;justify-content:space-between;align-items:center;margin:0 0 14px;flex-wrap:wrap;gap:10px;}
+.st-count{font-size:13px;color:var(--ink-3);letter-spacing:.06em;}
+.st-all{font-size:13px;color:var(--zhu);text-decoration:none;border:1px solid var(--zhu);
+  border-radius:999px;padding:4px 15px;transition:.25s;}
+.st-all:hover{background:var(--zhu);color:#fff;}
+.study-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(228px,1fr));gap:14px;}
+.study-card{position:relative;display:block;border:1px solid var(--line,#e2d7bd);border-radius:11px;
+  padding:16px 17px 13px;background:linear-gradient(180deg,rgba(255,255,255,.75),rgba(255,255,255,.4));
+  text-decoration:none;color:inherit;transition:.3s;overflow:hidden;
+  box-shadow:0 3px 14px -12px rgba(90,70,40,.8);}
+.study-card::before{content:'';position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--sc);}
+.study-card:hover{transform:translateY(-4px);border-color:var(--sc);
+  box-shadow:0 16px 32px -20px rgba(90,70,40,1);}
+.sc-tag{position:absolute;right:11px;top:11px;font-size:10px;letter-spacing:.05em;
+  color:var(--ink-3);border:1px solid var(--line,#e2d7bd);border-radius:9px;padding:0 7px;line-height:1.7;}
+.sc-tag.deep{color:#fff;background:var(--sc);border-color:var(--sc);}
+.sc-title{font-family:var(--serif);font-size:20px;color:var(--sc);letter-spacing:.05em;margin-bottom:5px;}
+.sc-meta{font-size:12px;color:var(--ink-3);letter-spacing:.05em;margin-bottom:10px;}
+.sc-line{font-family:var(--serif);font-size:15px;color:var(--ink-2);border-top:1px dashed var(--line,#e2d7bd);
+  padding-top:9px;letter-spacing:.05em;}
+</style>
 </head>
 <body>
 <div class="paper-grain"></div>
@@ -210,6 +247,7 @@
       <a href="#relations" class="nav-link">关系网络</a>
       <a href="#canon" class="nav-link">典籍体系</a>
       <a href="#library" class="nav-link">诗藏原典</a>
+      <a href="#study" class="nav-link">名篇精读</a>
       <a href="#theory" class="nav-link">诗学论要</a>
       <a href="#network" class="nav-link">交游典故</a>
       <a href="#imagery" class="nav-link">意象情感</a>
@@ -398,6 +436,277 @@
 </section>
 
 <!-- ========== 意象情感 ========== -->
+
+
+<!-- STUDY-SECTION -->
+<section id="study" class="relative z-10 anchor-target py-14 md:py-20" style="background:linear-gradient(180deg,transparent,rgba(139,47,47,.05),transparent);">
+  <div class="max-w-[1180px] mx-auto px-5 md:px-8">
+    <div class="mb-8">
+      <div class="sec-eyebrow">04c · Reading</div>
+      <h2 class="sec-title text-[28px] md:text-[40px] mt-2">名篇精读 · 读懂诗词</h2>
+      <p class="text-[15.5px] text-[var(--ink-2)] leading-relaxed mt-3 max-w-[880px]">
+        不只欣赏，更能读懂、学会。每篇配 <b>注音 / 平仄 / 韵脚 / 句式 / 注释 / 今译 / 英译 / 典故 / 创作背景 / 赏析</b> 十余层开关，
+        点击标题即可进入精读页，按需逐层展开。韵部依<b>平水韵</b>自动标注，平仄含入声校正，全部可逐字核对。
+      </p>
+    </div>
+
+    <div class="study-marquee" aria-label="名篇时序走马灯">
+      <div class="mq-track"><div class="mq-group"><a class="mq-card" href="shicang-poem/QuYuan_LiSao.html" style="--sc:#D35400"><span class="mq-dy">战国</span><span class="mq-ti">离骚</span><span class="mq-au">QuYuan</span></a>
+<a class="mq-card" href="shicang-poem/QuYuan_JiuGe_JiangJun.html" style="--sc:#D35400"><span class="mq-dy">战国</span><span class="mq-ti">九歌·国殇</span><span class="mq-au">QuYuan</span></a>
+<a class="mq-card" href="shicang-poem/CaoCao_GuanCangHai.html" style="--sc:#C0392B"><span class="mq-dy">东汉</span><span class="mq-ti">观沧海</span><span class="mq-au">CaoCao</span></a>
+<a class="mq-card" href="shicang-poem/CaoCao_DuanGeXing.html" style="--sc:#7F8C8D"><span class="mq-dy">东汉</span><span class="mq-ti">短歌行</span><span class="mq-au">CaoCao</span></a>
+<a class="mq-card" href="shicang-poem/CaoZhi_LuoShenFu.html" style="--sc:#8E44AD"><span class="mq-dy">三国魏</span><span class="mq-ti">洛神赋</span><span class="mq-au">CaoZhi</span></a>
+<a class="mq-card" href="shicang-poem/TaoYuanming_GuiQuLaiXi.html" style="--sc:#27AE60"><span class="mq-dy">东晋</span><span class="mq-ti">归去来兮辞</span><span class="mq-au">TaoYuanming</span></a>
+<a class="mq-card" href="shicang-poem/TaoYuanming_YinJiu.html" style="--sc:#27AE60"><span class="mq-dy">东晋</span><span class="mq-ti">饮酒·其五</span><span class="mq-au">TaoYuanming</span></a>
+<a class="mq-card" href="shicang-poem/TaoYuanming_TaoHuaYuan.html" style="--sc:#2980B9"><span class="mq-dy">东晋</span><span class="mq-ti">桃花源记</span><span class="mq-au">TaoYuanming</span></a>
+<a class="mq-card" href="shicang-poem/XieLingyun_DengChiShangLou.html" style="--sc:#27AE60"><span class="mq-dy">南朝宋</span><span class="mq-ti">登池上楼</span><span class="mq-au">XieLingyun</span></a>
+<a class="mq-card" href="shicang-poem/WangBo_SongDuShaoFu.html" style="--sc:#2980B9"><span class="mq-dy">唐</span><span class="mq-ti">送杜少府之任蜀州</span><span class="mq-au">WangBo</span></a>
+<a class="mq-card" href="shicang-poem/WangBo_TengWangGeXu.html" style="--sc:#C0392B"><span class="mq-dy">唐</span><span class="mq-ti">滕王阁序</span><span class="mq-au">WangBo</span></a>
+<a class="mq-card" href="shicang-poem/ChenZiang_DengYouZhouTai.html" style="--sc:#795548"><span class="mq-dy">唐</span><span class="mq-ti">登幽州台歌</span><span class="mq-au">ChenZiang</span></a>
+<a class="mq-card" href="shicang-poem/WangWei_JiuYueJiuRiYi.html" style="--sc:#2980B9"><span class="mq-dy">唐</span><span class="mq-ti">九月九日忆山东兄弟</span><span class="mq-au">WangWei</span></a>
+<a class="mq-card" href="shicang-poem/WangChangling_ChuSai.html" style="--sc:#D35400"><span class="mq-dy">唐</span><span class="mq-ti">出塞</span><span class="mq-au">WangChangling</span></a>
+<a class="mq-card" href="shicang-poem/LiBai_WangLuShanPuBu.html" style="--sc:#27AE60"><span class="mq-dy">唐</span><span class="mq-ti">望庐山瀑布</span><span class="mq-au">LiBai</span></a>
+<a class="mq-card" href="shicang-poem/LiBai_JingYeSi.html" style="--sc:#2980B9"><span class="mq-dy">唐</span><span class="mq-ti">静夜思</span><span class="mq-au">LiBai</span></a>
+<a class="mq-card" href="shicang-poem/WangWei_SongYuanErShiAnXi.html" style="--sc:#2980B9"><span class="mq-dy">唐</span><span class="mq-ti">送元二使安西</span><span class="mq-au">WangWei</span></a>
+<a class="mq-card" href="shicang-poem/MengHaoran_ChunXiao.html" style="--sc:#27AE60"><span class="mq-dy">唐</span><span class="mq-ti">春晓</span><span class="mq-au">MengHaoran</span></a>
+<a class="mq-card" href="shicang-poem/MengHaoran_GuoGuRenZhuang.html" style="--sc:#27AE60"><span class="mq-dy">唐</span><span class="mq-ti">过故人庄</span><span class="mq-au">MengHaoran</span></a>
+<a class="mq-card" href="shicang-poem/LiBai_HuangHeLouSongMeng.html" style="--sc:#8E44AD"><span class="mq-dy">唐</span><span class="mq-ti">黄鹤楼送孟浩然之广陵</span><span class="mq-au">LiBai</span></a>
+<a class="mq-card" href="shicang-poem/WangWei_ShanJuQiuMing.html" style="--sc:#27AE60"><span class="mq-dy">唐</span><span class="mq-ti">山居秋暝</span><span class="mq-au">WangWei</span></a>
+<a class="mq-card" href="shicang-poem/LiBai_ShuDaoNan.html" style="--sc:#C0392B"><span class="mq-dy">唐</span><span class="mq-ti">蜀道难</span><span class="mq-au">LiBai</span></a>
+<a class="mq-card" href="shicang-poem/WangChangling_FuRongLou.html" style="--sc:#2980B9"><span class="mq-dy">唐</span><span class="mq-ti">芙蓉楼送辛渐</span><span class="mq-au">WangChangling</span></a>
+<a class="mq-card" href="shicang-poem/HeZhizhang_HuiXiangOuShu.html" style="--sc:#795548"><span class="mq-dy">唐</span><span class="mq-ti">回乡偶书</span><span class="mq-au">HeZhizhang</span></a>
+<a class="mq-card" href="shicang-poem/LiBai_MengYouTianLao.html" style="--sc:#C0392B"><span class="mq-dy">唐</span><span class="mq-ti">梦游天姥吟留别</span><span class="mq-au">LiBai</span></a>
+<a class="mq-card" href="shicang-poem/GaoShi_BieDongDa.html" style="--sc:#C0392B"><span class="mq-dy">唐</span><span class="mq-ti">别董大</span><span class="mq-au">GaoShi</span></a>
+<a class="mq-card" href="shicang-poem/LiBai_JiangJinJiu.html" style="--sc:#C0392B"><span class="mq-dy">唐</span><span class="mq-ti">将进酒</span><span class="mq-au">LiBai</span></a>
+<a class="mq-card" href="shicang-poem/CenShen_BaiXueGe.html" style="--sc:#C0392B"><span class="mq-dy">唐</span><span class="mq-ti">白雪歌送武判官归京</span><span class="mq-au">CenShen</span></a>
+<a class="mq-card" href="shicang-poem/LiBai_ZengWangLun.html" style="--sc:#8E44AD"><span class="mq-dy">唐</span><span class="mq-ti">赠汪伦</span><span class="mq-au">LiBai</span></a>
+<a class="mq-card" href="shicang-poem/DuFu_ChunWang.html" style="--sc:#D35400"><span class="mq-dy">唐</span><span class="mq-ti">春望</span><span class="mq-au">DuFu</span></a>
+<a class="mq-card" href="shicang-poem/DuFu_SanLiSanBie.html" style="--sc:#7F8C8D"><span class="mq-dy">唐</span><span class="mq-ti">三吏三别</span><span class="mq-au">DuFu</span></a>
+<a class="mq-card" href="shicang-poem/DuFu_MaoWuWeiQiuFeng.html" style="--sc:#7F8C8D"><span class="mq-dy">唐</span><span class="mq-ti">茅屋为秋风所破歌</span><span class="mq-au">DuFu</span></a>
+<a class="mq-card" href="shicang-poem/DuFu_DengGao.html" style="--sc:#7F8C8D"><span class="mq-dy">唐</span><span class="mq-ti">登高</span><span class="mq-au">DuFu</span></a>
+<a class="mq-card" href="shicang-poem/BaiJuyi_ChangHenGe.html" style="--sc:#8E44AD"><span class="mq-dy">唐</span><span class="mq-ti">长恨歌</span><span class="mq-au">BaiJuyi</span></a>
+<a class="mq-card" href="shicang-poem/YuanZhen_LiSi.html" style="--sc:#8E44AD"><span class="mq-dy">唐</span><span class="mq-ti">离思·其四</span><span class="mq-au">YuanZhen</span></a>
+<a class="mq-card" href="shicang-poem/LiHe_YanMenTaiShouXing.html" style="--sc:#7F8C8D"><span class="mq-dy">唐</span><span class="mq-ti">雁门太守行</span><span class="mq-au">LiHe</span></a>
+<a class="mq-card" href="shicang-poem/BaiJuyi_MaiTanWeng.html" style="--sc:#7F8C8D"><span class="mq-dy">唐</span><span class="mq-ti">卖炭翁</span><span class="mq-au">BaiJuyi</span></a>
+<a class="mq-card" href="shicang-poem/BaiJuyi_PiPaXing.html" style="--sc:#7F8C8D"><span class="mq-dy">唐</span><span class="mq-ti">琵琶行</span><span class="mq-au">BaiJuyi</span></a>
+<a class="mq-card" href="shicang-poem/LiuYuxi_LouShiMing.html" style="--sc:#2980B9"><span class="mq-dy">唐</span><span class="mq-ti">陋室铭</span><span class="mq-au">LiuYuxi</span></a>
+<a class="mq-card" href="shicang-poem/DuMu_AFangGongFu.html" style="--sc:#795548"><span class="mq-dy">唐</span><span class="mq-ti">阿房宫赋</span><span class="mq-au">DuMu</span></a>
+<a class="mq-card" href="shicang-poem/LiuYuxi_WuYiXiang.html" style="--sc:#795548"><span class="mq-dy">唐</span><span class="mq-ti">乌衣巷</span><span class="mq-au">LiuYuxi</span></a>
+<a class="mq-card" href="shicang-poem/LiuYuxi_ChouLeTian.html" style="--sc:#2980B9"><span class="mq-dy">唐</span><span class="mq-ti">酬乐天扬州初逢席上见赠</span><span class="mq-au">LiuYuxi</span></a>
+<a class="mq-card" href="shicang-poem/DuMu_QingMing.html" style="--sc:#7F8C8D"><span class="mq-dy">唐</span><span class="mq-ti">清明</span><span class="mq-au">DuMu</span></a>
+<a class="mq-card" href="shicang-poem/DuMu_BoQinHuai.html" style="--sc:#D35400"><span class="mq-dy">唐</span><span class="mq-ti">泊秦淮</span><span class="mq-au">DuMu</span></a>
+<a class="mq-card" href="shicang-poem/DuMu_ChiBi.html" style="--sc:#795548"><span class="mq-dy">唐</span><span class="mq-ti">赤壁</span><span class="mq-au">DuMu</span></a>
+<a class="mq-card" href="shicang-poem/LiShangyin_WuTi.html" style="--sc:#8E44AD"><span class="mq-dy">唐</span><span class="mq-ti">无题·相见时难别亦难</span><span class="mq-au">LiShangyin</span></a>
+<a class="mq-card" href="shicang-poem/LiShangyin_YeYuJiBei.html" style="--sc:#8E44AD"><span class="mq-dy">唐</span><span class="mq-ti">夜雨寄北</span><span class="mq-au">LiShangyin</span></a>
+<a class="mq-card" href="shicang-poem/LiShangyin_JinSe.html" style="--sc:#2980B9"><span class="mq-dy">唐</span><span class="mq-ti">锦瑟</span><span class="mq-au">LiShangyin</span></a>
+<a class="mq-card" href="shicang-poem/LiYu_YuMeiRen.html" style="--sc:#7F8C8D"><span class="mq-dy">南唐</span><span class="mq-ti">虞美人·春花秋月何时了</span><span class="mq-au">LiYu</span></a>
+<a class="mq-card" href="shicang-poem/LiYu_LangTaoSha.html" style="--sc:#2980B9"><span class="mq-dy">南唐</span><span class="mq-ti">浪淘沙令·帘外雨潺潺</span><span class="mq-au">LiYu</span></a>
+<a class="mq-card" href="shicang-poem/LiuYong_YuLinLing.html" style="--sc:#8E44AD"><span class="mq-dy">北宋</span><span class="mq-ti">雨霖铃·寒蝉凄切</span><span class="mq-au">LiuYong</span></a>
+<a class="mq-card" href="shicang-poem/FanZhongyan_YuJiaAo.html" style="--sc:#D35400"><span class="mq-dy">北宋</span><span class="mq-ti">渔家傲·秋思</span><span class="mq-au">FanZhongyan</span></a>
+<a class="mq-card" href="shicang-poem/YanShu_HuanXiSha.html" style="--sc:#7F8C8D"><span class="mq-dy">北宋</span><span class="mq-ti">浣溪沙·一曲新词酒一杯</span><span class="mq-au">YanShu</span></a>
+<a class="mq-card" href="shicang-poem/OuyangXiu_ZuiWengTingJi.html" style="--sc:#27AE60"><span class="mq-dy">北宋</span><span class="mq-ti">醉翁亭记</span><span class="mq-au">OuyangXiu</span></a>
+<a class="mq-card" href="shicang-poem/WangAnshi_BoChuanGuaZhou.html" style="--sc:#2980B9"><span class="mq-dy">北宋</span><span class="mq-ti">泊船瓜洲</span><span class="mq-au">WangAnshi</span></a>
+<a class="mq-card" href="shicang-poem/SuShi_ShuiDiaoGeTou.html" style="--sc:#2980B9"><span class="mq-dy">北宋</span><span class="mq-ti">水调歌头·明月几时有</span><span class="mq-au">SuShi</span></a>
+<a class="mq-card" href="shicang-poem/SuShi_NianNuJiao.html" style="--sc:#795548"><span class="mq-dy">北宋</span><span class="mq-ti">念奴娇·赤壁怀古</span><span class="mq-au">SuShi</span></a>
+<a class="mq-card" href="shicang-poem/SuShi_DingFengBo.html" style="--sc:#2980B9"><span class="mq-dy">北宋</span><span class="mq-ti">定风波·莫听穿林打叶声</span><span class="mq-au">SuShi</span></a>
+<a class="mq-card" href="shicang-poem/SuShi_TiXiLinBi.html" style="--sc:#27AE60"><span class="mq-dy">北宋</span><span class="mq-ti">题西林壁</span><span class="mq-au">SuShi</span></a>
+<a class="mq-card" href="shicang-poem/LiQingzhao_RuMengLing.html" style="--sc:#27AE60"><span class="mq-dy">北宋</span><span class="mq-ti">如梦令·常记溪亭日暮</span><span class="mq-au">LiQingzhao</span></a>
+<a class="mq-card" href="shicang-poem/LiQingzhao_ZuiHuaYin.html" style="--sc:#8E44AD"><span class="mq-dy">北宋</span><span class="mq-ti">醉花阴·薄雾浓云愁永昼</span><span class="mq-au">LiQingzhao</span></a>
+<a class="mq-card" href="shicang-poem/LiQingzhao_ShengShengMan.html" style="--sc:#7F8C8D"><span class="mq-dy">南宋</span><span class="mq-ti">声声慢·寻寻觅觅</span><span class="mq-au">LiQingzhao</span></a>
+<a class="mq-card" href="shicang-poem/LuYou_ChaiTouFeng.html" style="--sc:#8E44AD"><span class="mq-dy">南宋</span><span class="mq-ti">钗头凤·红酥手</span><span class="mq-au">LuYou</span></a>
+<a class="mq-card" href="shicang-poem/LuYou_YouShanXiCun.html" style="--sc:#27AE60"><span class="mq-dy">南宋</span><span class="mq-ti">游山西村</span><span class="mq-au">LuYou</span></a>
+<a class="mq-card" href="shicang-poem/XinQiji_QingYuAn.html" style="--sc:#7F8C8D"><span class="mq-dy">南宋</span><span class="mq-ti">青玉案·元夕</span><span class="mq-au">XinQiji</span></a>
+<a class="mq-card" href="shicang-poem/JiangKui_YangZhouMan.html" style="--sc:#7F8C8D"><span class="mq-dy">南宋</span><span class="mq-ti">扬州慢·淮左名都</span><span class="mq-au">JiangKui</span></a>
+<a class="mq-card" href="shicang-poem/XinQiji_PoZhenZi.html" style="--sc:#D35400"><span class="mq-dy">南宋</span><span class="mq-ti">破阵子·为陈同甫赋壮词以寄之</span><span class="mq-au">XinQiji</span></a>
+<a class="mq-card" href="shicang-poem/XinQiji_YongYuLe.html" style="--sc:#D35400"><span class="mq-dy">南宋</span><span class="mq-ti">永遇乐·京口北固亭怀古</span><span class="mq-au">XinQiji</span></a>
+<a class="mq-card" href="shicang-poem/LuYou_ShiEr.html" style="--sc:#D35400"><span class="mq-dy">南宋</span><span class="mq-ti">示儿</span><span class="mq-au">LuYou</span></a>
+<a class="mq-card" href="shicang-poem/WenTianXian_GuoLingDingYang.html" style="--sc:#D35400"><span class="mq-dy">南宋</span><span class="mq-ti">过零丁洋</span><span class="mq-au">WenTianxiang</span></a>
+<a class="mq-card" href="shicang-poem/MaZhiyuan_TianJingSha_QiuSi.html" style="--sc:#7F8C8D"><span class="mq-dy">元</span><span class="mq-ti">天净沙·秋思</span><span class="mq-au">MaZhiyuan</span></a>
+<a class="mq-card" href="shicang-poem/ZhangYanghao_ShanPoYang.html" style="--sc:#795548"><span class="mq-dy">元</span><span class="mq-ti">山坡羊·潼关怀古</span><span class="mq-au">ZhangYanghao</span></a>
+<a class="mq-card" href="shicang-poem/TangYin_TaoHuaAnGe.html" style="--sc:#2980B9"><span class="mq-dy">明</span><span class="mq-ti">桃花庵歌</span><span class="mq-au">TangYin</span></a>
+<a class="mq-card" href="shicang-poem/YangShen_LinJiangXian.html" style="--sc:#795548"><span class="mq-dy">明</span><span class="mq-ti">临江仙·滚滚长江东逝水</span><span class="mq-au">YangShen</span></a>
+<a class="mq-card" href="shicang-poem/NalanXingde_MuLanHuaLing.html" style="--sc:#8E44AD"><span class="mq-dy">清</span><span class="mq-ti">木兰花令·拟古决绝词</span><span class="mq-au">NalanXingde</span></a>
+<a class="mq-card" href="shicang-poem/NalanXingde_ChangXiangSi.html" style="--sc:#7F8C8D"><span class="mq-dy">清</span><span class="mq-ti">长相思·山一程</span><span class="mq-au">NalanXingde</span></a>
+<a class="mq-card" href="shicang-poem/ZhengXie_ZhuShi.html" style="--sc:#2980B9"><span class="mq-dy">清</span><span class="mq-ti">竹石</span><span class="mq-au">ZhengXie</span></a>
+<a class="mq-card" href="shicang-poem/CaoXueqin_HongLouMeng.html" style="--sc:#8E44AD"><span class="mq-dy">清</span><span class="mq-ti">葬花吟</span><span class="mq-au">CaoXueqin</span></a>
+<a class="mq-card" href="shicang-poem/YuanMei_CangShanShiHua.html" style="--sc:#2980B9"><span class="mq-dy">清</span><span class="mq-ti">随园诗话</span><span class="mq-au">YuanMei</span></a>
+<a class="mq-card" href="shicang-poem/GongZizhen_YiHaiZaShi.html" style="--sc:#D35400"><span class="mq-dy">清</span><span class="mq-ti">己亥杂诗·其五</span><span class="mq-au">GongZizhen</span></a>
+<a class="mq-card" href="shicang-poem/GongZizhen_YiHaiZaShi_220.html" style="--sc:#D35400"><span class="mq-dy">清</span><span class="mq-ti">己亥杂诗·其二百二十</span><span class="mq-au">GongZizhen</span></a>
+<a class="mq-card" href="shicang-poem/WangGuowei_RenJianCiHua.html" style="--sc:#2980B9"><span class="mq-dy">近代</span><span class="mq-ti">人间词话三境界</span><span class="mq-au">WangGuowei</span></a></div><div class="mq-group"><a class="mq-card" href="shicang-poem/QuYuan_LiSao.html" style="--sc:#D35400"><span class="mq-dy">战国</span><span class="mq-ti">离骚</span><span class="mq-au">QuYuan</span></a>
+<a class="mq-card" href="shicang-poem/QuYuan_JiuGe_JiangJun.html" style="--sc:#D35400"><span class="mq-dy">战国</span><span class="mq-ti">九歌·国殇</span><span class="mq-au">QuYuan</span></a>
+<a class="mq-card" href="shicang-poem/CaoCao_GuanCangHai.html" style="--sc:#C0392B"><span class="mq-dy">东汉</span><span class="mq-ti">观沧海</span><span class="mq-au">CaoCao</span></a>
+<a class="mq-card" href="shicang-poem/CaoCao_DuanGeXing.html" style="--sc:#7F8C8D"><span class="mq-dy">东汉</span><span class="mq-ti">短歌行</span><span class="mq-au">CaoCao</span></a>
+<a class="mq-card" href="shicang-poem/CaoZhi_LuoShenFu.html" style="--sc:#8E44AD"><span class="mq-dy">三国魏</span><span class="mq-ti">洛神赋</span><span class="mq-au">CaoZhi</span></a>
+<a class="mq-card" href="shicang-poem/TaoYuanming_GuiQuLaiXi.html" style="--sc:#27AE60"><span class="mq-dy">东晋</span><span class="mq-ti">归去来兮辞</span><span class="mq-au">TaoYuanming</span></a>
+<a class="mq-card" href="shicang-poem/TaoYuanming_YinJiu.html" style="--sc:#27AE60"><span class="mq-dy">东晋</span><span class="mq-ti">饮酒·其五</span><span class="mq-au">TaoYuanming</span></a>
+<a class="mq-card" href="shicang-poem/TaoYuanming_TaoHuaYuan.html" style="--sc:#2980B9"><span class="mq-dy">东晋</span><span class="mq-ti">桃花源记</span><span class="mq-au">TaoYuanming</span></a>
+<a class="mq-card" href="shicang-poem/XieLingyun_DengChiShangLou.html" style="--sc:#27AE60"><span class="mq-dy">南朝宋</span><span class="mq-ti">登池上楼</span><span class="mq-au">XieLingyun</span></a>
+<a class="mq-card" href="shicang-poem/WangBo_SongDuShaoFu.html" style="--sc:#2980B9"><span class="mq-dy">唐</span><span class="mq-ti">送杜少府之任蜀州</span><span class="mq-au">WangBo</span></a>
+<a class="mq-card" href="shicang-poem/WangBo_TengWangGeXu.html" style="--sc:#C0392B"><span class="mq-dy">唐</span><span class="mq-ti">滕王阁序</span><span class="mq-au">WangBo</span></a>
+<a class="mq-card" href="shicang-poem/ChenZiang_DengYouZhouTai.html" style="--sc:#795548"><span class="mq-dy">唐</span><span class="mq-ti">登幽州台歌</span><span class="mq-au">ChenZiang</span></a>
+<a class="mq-card" href="shicang-poem/WangWei_JiuYueJiuRiYi.html" style="--sc:#2980B9"><span class="mq-dy">唐</span><span class="mq-ti">九月九日忆山东兄弟</span><span class="mq-au">WangWei</span></a>
+<a class="mq-card" href="shicang-poem/WangChangling_ChuSai.html" style="--sc:#D35400"><span class="mq-dy">唐</span><span class="mq-ti">出塞</span><span class="mq-au">WangChangling</span></a>
+<a class="mq-card" href="shicang-poem/LiBai_WangLuShanPuBu.html" style="--sc:#27AE60"><span class="mq-dy">唐</span><span class="mq-ti">望庐山瀑布</span><span class="mq-au">LiBai</span></a>
+<a class="mq-card" href="shicang-poem/LiBai_JingYeSi.html" style="--sc:#2980B9"><span class="mq-dy">唐</span><span class="mq-ti">静夜思</span><span class="mq-au">LiBai</span></a>
+<a class="mq-card" href="shicang-poem/WangWei_SongYuanErShiAnXi.html" style="--sc:#2980B9"><span class="mq-dy">唐</span><span class="mq-ti">送元二使安西</span><span class="mq-au">WangWei</span></a>
+<a class="mq-card" href="shicang-poem/MengHaoran_ChunXiao.html" style="--sc:#27AE60"><span class="mq-dy">唐</span><span class="mq-ti">春晓</span><span class="mq-au">MengHaoran</span></a>
+<a class="mq-card" href="shicang-poem/MengHaoran_GuoGuRenZhuang.html" style="--sc:#27AE60"><span class="mq-dy">唐</span><span class="mq-ti">过故人庄</span><span class="mq-au">MengHaoran</span></a>
+<a class="mq-card" href="shicang-poem/LiBai_HuangHeLouSongMeng.html" style="--sc:#8E44AD"><span class="mq-dy">唐</span><span class="mq-ti">黄鹤楼送孟浩然之广陵</span><span class="mq-au">LiBai</span></a>
+<a class="mq-card" href="shicang-poem/WangWei_ShanJuQiuMing.html" style="--sc:#27AE60"><span class="mq-dy">唐</span><span class="mq-ti">山居秋暝</span><span class="mq-au">WangWei</span></a>
+<a class="mq-card" href="shicang-poem/LiBai_ShuDaoNan.html" style="--sc:#C0392B"><span class="mq-dy">唐</span><span class="mq-ti">蜀道难</span><span class="mq-au">LiBai</span></a>
+<a class="mq-card" href="shicang-poem/WangChangling_FuRongLou.html" style="--sc:#2980B9"><span class="mq-dy">唐</span><span class="mq-ti">芙蓉楼送辛渐</span><span class="mq-au">WangChangling</span></a>
+<a class="mq-card" href="shicang-poem/HeZhizhang_HuiXiangOuShu.html" style="--sc:#795548"><span class="mq-dy">唐</span><span class="mq-ti">回乡偶书</span><span class="mq-au">HeZhizhang</span></a>
+<a class="mq-card" href="shicang-poem/LiBai_MengYouTianLao.html" style="--sc:#C0392B"><span class="mq-dy">唐</span><span class="mq-ti">梦游天姥吟留别</span><span class="mq-au">LiBai</span></a>
+<a class="mq-card" href="shicang-poem/GaoShi_BieDongDa.html" style="--sc:#C0392B"><span class="mq-dy">唐</span><span class="mq-ti">别董大</span><span class="mq-au">GaoShi</span></a>
+<a class="mq-card" href="shicang-poem/LiBai_JiangJinJiu.html" style="--sc:#C0392B"><span class="mq-dy">唐</span><span class="mq-ti">将进酒</span><span class="mq-au">LiBai</span></a>
+<a class="mq-card" href="shicang-poem/CenShen_BaiXueGe.html" style="--sc:#C0392B"><span class="mq-dy">唐</span><span class="mq-ti">白雪歌送武判官归京</span><span class="mq-au">CenShen</span></a>
+<a class="mq-card" href="shicang-poem/LiBai_ZengWangLun.html" style="--sc:#8E44AD"><span class="mq-dy">唐</span><span class="mq-ti">赠汪伦</span><span class="mq-au">LiBai</span></a>
+<a class="mq-card" href="shicang-poem/DuFu_ChunWang.html" style="--sc:#D35400"><span class="mq-dy">唐</span><span class="mq-ti">春望</span><span class="mq-au">DuFu</span></a>
+<a class="mq-card" href="shicang-poem/DuFu_SanLiSanBie.html" style="--sc:#7F8C8D"><span class="mq-dy">唐</span><span class="mq-ti">三吏三别</span><span class="mq-au">DuFu</span></a>
+<a class="mq-card" href="shicang-poem/DuFu_MaoWuWeiQiuFeng.html" style="--sc:#7F8C8D"><span class="mq-dy">唐</span><span class="mq-ti">茅屋为秋风所破歌</span><span class="mq-au">DuFu</span></a>
+<a class="mq-card" href="shicang-poem/DuFu_DengGao.html" style="--sc:#7F8C8D"><span class="mq-dy">唐</span><span class="mq-ti">登高</span><span class="mq-au">DuFu</span></a>
+<a class="mq-card" href="shicang-poem/BaiJuyi_ChangHenGe.html" style="--sc:#8E44AD"><span class="mq-dy">唐</span><span class="mq-ti">长恨歌</span><span class="mq-au">BaiJuyi</span></a>
+<a class="mq-card" href="shicang-poem/YuanZhen_LiSi.html" style="--sc:#8E44AD"><span class="mq-dy">唐</span><span class="mq-ti">离思·其四</span><span class="mq-au">YuanZhen</span></a>
+<a class="mq-card" href="shicang-poem/LiHe_YanMenTaiShouXing.html" style="--sc:#7F8C8D"><span class="mq-dy">唐</span><span class="mq-ti">雁门太守行</span><span class="mq-au">LiHe</span></a>
+<a class="mq-card" href="shicang-poem/BaiJuyi_MaiTanWeng.html" style="--sc:#7F8C8D"><span class="mq-dy">唐</span><span class="mq-ti">卖炭翁</span><span class="mq-au">BaiJuyi</span></a>
+<a class="mq-card" href="shicang-poem/BaiJuyi_PiPaXing.html" style="--sc:#7F8C8D"><span class="mq-dy">唐</span><span class="mq-ti">琵琶行</span><span class="mq-au">BaiJuyi</span></a>
+<a class="mq-card" href="shicang-poem/LiuYuxi_LouShiMing.html" style="--sc:#2980B9"><span class="mq-dy">唐</span><span class="mq-ti">陋室铭</span><span class="mq-au">LiuYuxi</span></a>
+<a class="mq-card" href="shicang-poem/DuMu_AFangGongFu.html" style="--sc:#795548"><span class="mq-dy">唐</span><span class="mq-ti">阿房宫赋</span><span class="mq-au">DuMu</span></a>
+<a class="mq-card" href="shicang-poem/LiuYuxi_WuYiXiang.html" style="--sc:#795548"><span class="mq-dy">唐</span><span class="mq-ti">乌衣巷</span><span class="mq-au">LiuYuxi</span></a>
+<a class="mq-card" href="shicang-poem/LiuYuxi_ChouLeTian.html" style="--sc:#2980B9"><span class="mq-dy">唐</span><span class="mq-ti">酬乐天扬州初逢席上见赠</span><span class="mq-au">LiuYuxi</span></a>
+<a class="mq-card" href="shicang-poem/DuMu_QingMing.html" style="--sc:#7F8C8D"><span class="mq-dy">唐</span><span class="mq-ti">清明</span><span class="mq-au">DuMu</span></a>
+<a class="mq-card" href="shicang-poem/DuMu_BoQinHuai.html" style="--sc:#D35400"><span class="mq-dy">唐</span><span class="mq-ti">泊秦淮</span><span class="mq-au">DuMu</span></a>
+<a class="mq-card" href="shicang-poem/DuMu_ChiBi.html" style="--sc:#795548"><span class="mq-dy">唐</span><span class="mq-ti">赤壁</span><span class="mq-au">DuMu</span></a>
+<a class="mq-card" href="shicang-poem/LiShangyin_WuTi.html" style="--sc:#8E44AD"><span class="mq-dy">唐</span><span class="mq-ti">无题·相见时难别亦难</span><span class="mq-au">LiShangyin</span></a>
+<a class="mq-card" href="shicang-poem/LiShangyin_YeYuJiBei.html" style="--sc:#8E44AD"><span class="mq-dy">唐</span><span class="mq-ti">夜雨寄北</span><span class="mq-au">LiShangyin</span></a>
+<a class="mq-card" href="shicang-poem/LiShangyin_JinSe.html" style="--sc:#2980B9"><span class="mq-dy">唐</span><span class="mq-ti">锦瑟</span><span class="mq-au">LiShangyin</span></a>
+<a class="mq-card" href="shicang-poem/LiYu_YuMeiRen.html" style="--sc:#7F8C8D"><span class="mq-dy">南唐</span><span class="mq-ti">虞美人·春花秋月何时了</span><span class="mq-au">LiYu</span></a>
+<a class="mq-card" href="shicang-poem/LiYu_LangTaoSha.html" style="--sc:#2980B9"><span class="mq-dy">南唐</span><span class="mq-ti">浪淘沙令·帘外雨潺潺</span><span class="mq-au">LiYu</span></a>
+<a class="mq-card" href="shicang-poem/LiuYong_YuLinLing.html" style="--sc:#8E44AD"><span class="mq-dy">北宋</span><span class="mq-ti">雨霖铃·寒蝉凄切</span><span class="mq-au">LiuYong</span></a>
+<a class="mq-card" href="shicang-poem/FanZhongyan_YuJiaAo.html" style="--sc:#D35400"><span class="mq-dy">北宋</span><span class="mq-ti">渔家傲·秋思</span><span class="mq-au">FanZhongyan</span></a>
+<a class="mq-card" href="shicang-poem/YanShu_HuanXiSha.html" style="--sc:#7F8C8D"><span class="mq-dy">北宋</span><span class="mq-ti">浣溪沙·一曲新词酒一杯</span><span class="mq-au">YanShu</span></a>
+<a class="mq-card" href="shicang-poem/OuyangXiu_ZuiWengTingJi.html" style="--sc:#27AE60"><span class="mq-dy">北宋</span><span class="mq-ti">醉翁亭记</span><span class="mq-au">OuyangXiu</span></a>
+<a class="mq-card" href="shicang-poem/WangAnshi_BoChuanGuaZhou.html" style="--sc:#2980B9"><span class="mq-dy">北宋</span><span class="mq-ti">泊船瓜洲</span><span class="mq-au">WangAnshi</span></a>
+<a class="mq-card" href="shicang-poem/SuShi_ShuiDiaoGeTou.html" style="--sc:#2980B9"><span class="mq-dy">北宋</span><span class="mq-ti">水调歌头·明月几时有</span><span class="mq-au">SuShi</span></a>
+<a class="mq-card" href="shicang-poem/SuShi_NianNuJiao.html" style="--sc:#795548"><span class="mq-dy">北宋</span><span class="mq-ti">念奴娇·赤壁怀古</span><span class="mq-au">SuShi</span></a>
+<a class="mq-card" href="shicang-poem/SuShi_DingFengBo.html" style="--sc:#2980B9"><span class="mq-dy">北宋</span><span class="mq-ti">定风波·莫听穿林打叶声</span><span class="mq-au">SuShi</span></a>
+<a class="mq-card" href="shicang-poem/SuShi_TiXiLinBi.html" style="--sc:#27AE60"><span class="mq-dy">北宋</span><span class="mq-ti">题西林壁</span><span class="mq-au">SuShi</span></a>
+<a class="mq-card" href="shicang-poem/LiQingzhao_RuMengLing.html" style="--sc:#27AE60"><span class="mq-dy">北宋</span><span class="mq-ti">如梦令·常记溪亭日暮</span><span class="mq-au">LiQingzhao</span></a>
+<a class="mq-card" href="shicang-poem/LiQingzhao_ZuiHuaYin.html" style="--sc:#8E44AD"><span class="mq-dy">北宋</span><span class="mq-ti">醉花阴·薄雾浓云愁永昼</span><span class="mq-au">LiQingzhao</span></a>
+<a class="mq-card" href="shicang-poem/LiQingzhao_ShengShengMan.html" style="--sc:#7F8C8D"><span class="mq-dy">南宋</span><span class="mq-ti">声声慢·寻寻觅觅</span><span class="mq-au">LiQingzhao</span></a>
+<a class="mq-card" href="shicang-poem/LuYou_ChaiTouFeng.html" style="--sc:#8E44AD"><span class="mq-dy">南宋</span><span class="mq-ti">钗头凤·红酥手</span><span class="mq-au">LuYou</span></a>
+<a class="mq-card" href="shicang-poem/LuYou_YouShanXiCun.html" style="--sc:#27AE60"><span class="mq-dy">南宋</span><span class="mq-ti">游山西村</span><span class="mq-au">LuYou</span></a>
+<a class="mq-card" href="shicang-poem/XinQiji_QingYuAn.html" style="--sc:#7F8C8D"><span class="mq-dy">南宋</span><span class="mq-ti">青玉案·元夕</span><span class="mq-au">XinQiji</span></a>
+<a class="mq-card" href="shicang-poem/JiangKui_YangZhouMan.html" style="--sc:#7F8C8D"><span class="mq-dy">南宋</span><span class="mq-ti">扬州慢·淮左名都</span><span class="mq-au">JiangKui</span></a>
+<a class="mq-card" href="shicang-poem/XinQiji_PoZhenZi.html" style="--sc:#D35400"><span class="mq-dy">南宋</span><span class="mq-ti">破阵子·为陈同甫赋壮词以寄之</span><span class="mq-au">XinQiji</span></a>
+<a class="mq-card" href="shicang-poem/XinQiji_YongYuLe.html" style="--sc:#D35400"><span class="mq-dy">南宋</span><span class="mq-ti">永遇乐·京口北固亭怀古</span><span class="mq-au">XinQiji</span></a>
+<a class="mq-card" href="shicang-poem/LuYou_ShiEr.html" style="--sc:#D35400"><span class="mq-dy">南宋</span><span class="mq-ti">示儿</span><span class="mq-au">LuYou</span></a>
+<a class="mq-card" href="shicang-poem/WenTianXian_GuoLingDingYang.html" style="--sc:#D35400"><span class="mq-dy">南宋</span><span class="mq-ti">过零丁洋</span><span class="mq-au">WenTianxiang</span></a>
+<a class="mq-card" href="shicang-poem/MaZhiyuan_TianJingSha_QiuSi.html" style="--sc:#7F8C8D"><span class="mq-dy">元</span><span class="mq-ti">天净沙·秋思</span><span class="mq-au">MaZhiyuan</span></a>
+<a class="mq-card" href="shicang-poem/ZhangYanghao_ShanPoYang.html" style="--sc:#795548"><span class="mq-dy">元</span><span class="mq-ti">山坡羊·潼关怀古</span><span class="mq-au">ZhangYanghao</span></a>
+<a class="mq-card" href="shicang-poem/TangYin_TaoHuaAnGe.html" style="--sc:#2980B9"><span class="mq-dy">明</span><span class="mq-ti">桃花庵歌</span><span class="mq-au">TangYin</span></a>
+<a class="mq-card" href="shicang-poem/YangShen_LinJiangXian.html" style="--sc:#795548"><span class="mq-dy">明</span><span class="mq-ti">临江仙·滚滚长江东逝水</span><span class="mq-au">YangShen</span></a>
+<a class="mq-card" href="shicang-poem/NalanXingde_MuLanHuaLing.html" style="--sc:#8E44AD"><span class="mq-dy">清</span><span class="mq-ti">木兰花令·拟古决绝词</span><span class="mq-au">NalanXingde</span></a>
+<a class="mq-card" href="shicang-poem/NalanXingde_ChangXiangSi.html" style="--sc:#7F8C8D"><span class="mq-dy">清</span><span class="mq-ti">长相思·山一程</span><span class="mq-au">NalanXingde</span></a>
+<a class="mq-card" href="shicang-poem/ZhengXie_ZhuShi.html" style="--sc:#2980B9"><span class="mq-dy">清</span><span class="mq-ti">竹石</span><span class="mq-au">ZhengXie</span></a>
+<a class="mq-card" href="shicang-poem/CaoXueqin_HongLouMeng.html" style="--sc:#8E44AD"><span class="mq-dy">清</span><span class="mq-ti">葬花吟</span><span class="mq-au">CaoXueqin</span></a>
+<a class="mq-card" href="shicang-poem/YuanMei_CangShanShiHua.html" style="--sc:#2980B9"><span class="mq-dy">清</span><span class="mq-ti">随园诗话</span><span class="mq-au">YuanMei</span></a>
+<a class="mq-card" href="shicang-poem/GongZizhen_YiHaiZaShi.html" style="--sc:#D35400"><span class="mq-dy">清</span><span class="mq-ti">己亥杂诗·其五</span><span class="mq-au">GongZizhen</span></a>
+<a class="mq-card" href="shicang-poem/GongZizhen_YiHaiZaShi_220.html" style="--sc:#D35400"><span class="mq-dy">清</span><span class="mq-ti">己亥杂诗·其二百二十</span><span class="mq-au">GongZizhen</span></a>
+<a class="mq-card" href="shicang-poem/WangGuowei_RenJianCiHua.html" style="--sc:#2980B9"><span class="mq-dy">近代</span><span class="mq-ti">人间词话三境界</span><span class="mq-au">WangGuowei</span></a></div></div>
+    </div>
+
+    <div class="study-toolbar">
+      <span class="st-count">共 82 篇 · 深度精读 11 篇</span>
+      <a class="st-all" href="shicang-poem/index.html">进入精读总览 →</a>
+    </div>
+
+    <div class="study-grid">
+<a class="study-card" href="shicang-poem/QuYuan_LiSao.html" style="--sc:#D35400"><span class="sc-tag">标准</span><div class="sc-title">离骚</div><div class="sc-meta">战国 · QuYuan · ChuCi</div><div class="sc-line">路漫漫其修远兮…</div></a>
+<a class="study-card" href="shicang-poem/QuYuan_JiuGe_JiangJun.html" style="--sc:#D35400"><span class="sc-tag">标准</span><div class="sc-title">九歌·国殇</div><div class="sc-meta">战国 · QuYuan · ChuCi</div><div class="sc-line">身既死兮神以灵…</div></a>
+<a class="study-card" href="shicang-poem/CaoCao_GuanCangHai.html" style="--sc:#C0392B"><span class="sc-tag">标准</span><div class="sc-title">观沧海</div><div class="sc-meta">东汉 · CaoCao · YueFu</div><div class="sc-line">东临碣石…</div></a>
+<a class="study-card" href="shicang-poem/CaoCao_DuanGeXing.html" style="--sc:#7F8C8D"><span class="sc-tag">标准</span><div class="sc-title">短歌行</div><div class="sc-meta">东汉 · CaoCao · YueFu</div><div class="sc-line">对酒当歌…</div></a>
+<a class="study-card" href="shicang-poem/CaoZhi_LuoShenFu.html" style="--sc:#8E44AD"><span class="sc-tag">标准</span><div class="sc-title">洛神赋</div><div class="sc-meta">三国魏 · CaoZhi · Fu</div><div class="sc-line">翩若惊鸿…</div></a>
+<a class="study-card" href="shicang-poem/TaoYuanming_GuiQuLaiXi.html" style="--sc:#27AE60"><span class="sc-tag">标准</span><div class="sc-title">归去来兮辞</div><div class="sc-meta">东晋 · TaoYuanming · Fu</div><div class="sc-line">归去来兮…</div></a>
+<a class="study-card" href="shicang-poem/TaoYuanming_YinJiu.html" style="--sc:#27AE60"><span class="sc-tag">标准</span><div class="sc-title">饮酒·其五</div><div class="sc-meta">东晋 · TaoYuanming · GuTiShi</div><div class="sc-line">采菊东篱下…</div></a>
+<a class="study-card" href="shicang-poem/TaoYuanming_TaoHuaYuan.html" style="--sc:#2980B9"><span class="sc-tag">标准</span><div class="sc-title">桃花源记</div><div class="sc-meta">东晋 · TaoYuanming · Fu</div><div class="sc-line">阡陌交通…</div></a>
+<a class="study-card" href="shicang-poem/XieLingyun_DengChiShangLou.html" style="--sc:#27AE60"><span class="sc-tag">标准</span><div class="sc-title">登池上楼</div><div class="sc-meta">南朝宋 · XieLingyun · GuTiShi</div><div class="sc-line">池塘生春草…</div></a>
+<a class="study-card" href="shicang-poem/WangBo_SongDuShaoFu.html" style="--sc:#2980B9"><span class="sc-tag">标准</span><div class="sc-title">送杜少府之任蜀州</div><div class="sc-meta">唐 · WangBo · WuLv</div><div class="sc-line">海内存知己…</div></a>
+<a class="study-card" href="shicang-poem/WangBo_TengWangGeXu.html" style="--sc:#C0392B"><span class="sc-tag">标准</span><div class="sc-title">滕王阁序</div><div class="sc-meta">唐 · WangBo · PianWen</div><div class="sc-line">落霞与孤鹜齐飞…</div></a>
+<a class="study-card" href="shicang-poem/ChenZiang_DengYouZhouTai.html" style="--sc:#795548"><span class="sc-tag">标准</span><div class="sc-title">登幽州台歌</div><div class="sc-meta">唐 · ChenZiang · GuTiShi</div><div class="sc-line">前不见古人…</div></a>
+<a class="study-card" href="shicang-poem/WangWei_JiuYueJiuRiYi.html" style="--sc:#2980B9"><span class="sc-tag">标准</span><div class="sc-title">九月九日忆山东兄弟</div><div class="sc-meta">唐 · WangWei · QiJue</div><div class="sc-line">独在异乡为异客…</div></a>
+<a class="study-card" href="shicang-poem/WangChangling_ChuSai.html" style="--sc:#D35400"><span class="sc-tag">标准</span><div class="sc-title">出塞</div><div class="sc-meta">唐 · WangChangling · QiJue</div><div class="sc-line">秦时明月汉时关…</div></a>
+<a class="study-card" href="shicang-poem/LiBai_WangLuShanPuBu.html" style="--sc:#27AE60"><span class="sc-tag">标准</span><div class="sc-title">望庐山瀑布</div><div class="sc-meta">唐 · LiBai · QiJue</div><div class="sc-line">日照香炉生紫烟…</div></a>
+<a class="study-card" href="shicang-poem/LiBai_JingYeSi.html" style="--sc:#2980B9"><span class="sc-tag deep">深度</span><div class="sc-title">静夜思</div><div class="sc-meta">唐 · LiBai · WuJue</div><div class="sc-line">床前明月光…</div></a>
+<a class="study-card" href="shicang-poem/WangWei_SongYuanErShiAnXi.html" style="--sc:#2980B9"><span class="sc-tag deep">深度</span><div class="sc-title">送元二使安西</div><div class="sc-meta">唐 · WangWei · QiJue</div><div class="sc-line">渭城朝雨浥轻尘…</div></a>
+<a class="study-card" href="shicang-poem/MengHaoran_ChunXiao.html" style="--sc:#27AE60"><span class="sc-tag deep">深度</span><div class="sc-title">春晓</div><div class="sc-meta">唐 · MengHaoran · WuJue</div><div class="sc-line">春眠不觉晓…</div></a>
+<a class="study-card" href="shicang-poem/MengHaoran_GuoGuRenZhuang.html" style="--sc:#27AE60"><span class="sc-tag">标准</span><div class="sc-title">过故人庄</div><div class="sc-meta">唐 · MengHaoran · WuLv</div><div class="sc-line">故人具鸡黍…</div></a>
+<a class="study-card" href="shicang-poem/LiBai_HuangHeLouSongMeng.html" style="--sc:#8E44AD"><span class="sc-tag">标准</span><div class="sc-title">黄鹤楼送孟浩然之广陵</div><div class="sc-meta">唐 · LiBai · QiJue</div><div class="sc-line">故人西辞黄鹤楼…</div></a>
+<a class="study-card" href="shicang-poem/WangWei_ShanJuQiuMing.html" style="--sc:#27AE60"><span class="sc-tag deep">深度</span><div class="sc-title">山居秋暝</div><div class="sc-meta">唐 · WangWei · WuLv</div><div class="sc-line">空山新雨后…</div></a>
+<a class="study-card" href="shicang-poem/LiBai_ShuDaoNan.html" style="--sc:#C0392B"><span class="sc-tag">标准</span><div class="sc-title">蜀道难</div><div class="sc-meta">唐 · LiBai · YueFu</div><div class="sc-line">蜀道之难…</div></a>
+<a class="study-card" href="shicang-poem/WangChangling_FuRongLou.html" style="--sc:#2980B9"><span class="sc-tag">标准</span><div class="sc-title">芙蓉楼送辛渐</div><div class="sc-meta">唐 · WangChangling · QiJue</div><div class="sc-line">寒雨连江夜入吴…</div></a>
+<a class="study-card" href="shicang-poem/HeZhizhang_HuiXiangOuShu.html" style="--sc:#795548"><span class="sc-tag">标准</span><div class="sc-title">回乡偶书</div><div class="sc-meta">唐 · HeZhizhang · QiJue</div><div class="sc-line">少小离家老大回…</div></a>
+<a class="study-card" href="shicang-poem/LiBai_MengYouTianLao.html" style="--sc:#C0392B"><span class="sc-tag">标准</span><div class="sc-title">梦游天姥吟留别</div><div class="sc-meta">唐 · LiBai · QiYanGuFeng</div><div class="sc-line">安能摧眉折腰事权贵…</div></a>
+<a class="study-card" href="shicang-poem/GaoShi_BieDongDa.html" style="--sc:#C0392B"><span class="sc-tag">标准</span><div class="sc-title">别董大</div><div class="sc-meta">唐 · GaoShi · QiJue</div><div class="sc-line">千里黄云白日曛…</div></a>
+<a class="study-card" href="shicang-poem/LiBai_JiangJinJiu.html" style="--sc:#C0392B"><span class="sc-tag">标准</span><div class="sc-title">将进酒</div><div class="sc-meta">唐 · LiBai · YueFu</div><div class="sc-line">君不见黄河之水天上来…</div></a>
+<a class="study-card" href="shicang-poem/CenShen_BaiXueGe.html" style="--sc:#C0392B"><span class="sc-tag">标准</span><div class="sc-title">白雪歌送武判官归京</div><div class="sc-meta">唐 · CenShen · QiYanGeXing</div><div class="sc-line">北风卷地白草折…</div></a>
+<a class="study-card" href="shicang-poem/LiBai_ZengWangLun.html" style="--sc:#8E44AD"><span class="sc-tag">标准</span><div class="sc-title">赠汪伦</div><div class="sc-meta">唐 · LiBai · QiJue</div><div class="sc-line">桃花潭水深千尺…</div></a>
+<a class="study-card" href="shicang-poem/DuFu_ChunWang.html" style="--sc:#D35400"><span class="sc-tag deep">深度</span><div class="sc-title">春望</div><div class="sc-meta">唐 · DuFu · WuLv</div><div class="sc-line">国破山河在…</div></a>
+<a class="study-card" href="shicang-poem/DuFu_SanLiSanBie.html" style="--sc:#7F8C8D"><span class="sc-tag">标准</span><div class="sc-title">三吏三别</div><div class="sc-meta">唐 · DuFu · YueFu</div><div class="sc-line">暮投石壕村…</div></a>
+<a class="study-card" href="shicang-poem/DuFu_MaoWuWeiQiuFeng.html" style="--sc:#7F8C8D"><span class="sc-tag">标准</span><div class="sc-title">茅屋为秋风所破歌</div><div class="sc-meta">唐 · DuFu · QiYanGeXing</div><div class="sc-line">安得广厦千万间…</div></a>
+<a class="study-card" href="shicang-poem/DuFu_DengGao.html" style="--sc:#7F8C8D"><span class="sc-tag deep">深度</span><div class="sc-title">登高</div><div class="sc-meta">唐 · DuFu · QiLv</div><div class="sc-line">风急天高猿啸哀…</div></a>
+<a class="study-card" href="shicang-poem/BaiJuyi_ChangHenGe.html" style="--sc:#8E44AD"><span class="sc-tag">标准</span><div class="sc-title">长恨歌</div><div class="sc-meta">唐 · BaiJuyi · QiYanGeXing</div><div class="sc-line">在天愿作比翼鸟…</div></a>
+<a class="study-card" href="shicang-poem/YuanZhen_LiSi.html" style="--sc:#8E44AD"><span class="sc-tag">标准</span><div class="sc-title">离思·其四</div><div class="sc-meta">唐 · YuanZhen · QiJue</div><div class="sc-line">曾经沧海难为水…</div></a>
+<a class="study-card" href="shicang-poem/LiHe_YanMenTaiShouXing.html" style="--sc:#7F8C8D"><span class="sc-tag">标准</span><div class="sc-title">雁门太守行</div><div class="sc-meta">唐 · LiHe · YueFu</div><div class="sc-line">黑云压城城欲摧…</div></a>
+<a class="study-card" href="shicang-poem/BaiJuyi_MaiTanWeng.html" style="--sc:#7F8C8D"><span class="sc-tag">标准</span><div class="sc-title">卖炭翁</div><div class="sc-meta">唐 · BaiJuyi · XinYueFu</div><div class="sc-line">卖炭翁…</div></a>
+<a class="study-card" href="shicang-poem/BaiJuyi_PiPaXing.html" style="--sc:#7F8C8D"><span class="sc-tag">标准</span><div class="sc-title">琵琶行</div><div class="sc-meta">唐 · BaiJuyi · QiYanGeXing</div><div class="sc-line">同是天涯沦落人…</div></a>
+<a class="study-card" href="shicang-poem/LiuYuxi_LouShiMing.html" style="--sc:#2980B9"><span class="sc-tag">标准</span><div class="sc-title">陋室铭</div><div class="sc-meta">唐 · LiuYuxi · Ming</div><div class="sc-line">山不在高…</div></a>
+<a class="study-card" href="shicang-poem/DuMu_AFangGongFu.html" style="--sc:#795548"><span class="sc-tag">标准</span><div class="sc-title">阿房宫赋</div><div class="sc-meta">唐 · DuMu · Fu</div><div class="sc-line">六王毕…</div></a>
+<a class="study-card" href="shicang-poem/LiuYuxi_WuYiXiang.html" style="--sc:#795548"><span class="sc-tag">标准</span><div class="sc-title">乌衣巷</div><div class="sc-meta">唐 · LiuYuxi · QiJue</div><div class="sc-line">朱雀桥边野草花…</div></a>
+<a class="study-card" href="shicang-poem/LiuYuxi_ChouLeTian.html" style="--sc:#2980B9"><span class="sc-tag">标准</span><div class="sc-title">酬乐天扬州初逢席上见赠</div><div class="sc-meta">唐 · LiuYuxi · QiLv</div><div class="sc-line">沉舟侧畔千帆过…</div></a>
+<a class="study-card" href="shicang-poem/DuMu_QingMing.html" style="--sc:#7F8C8D"><span class="sc-tag">标准</span><div class="sc-title">清明</div><div class="sc-meta">唐 · DuMu · QiJue</div><div class="sc-line">清明时节雨纷纷…</div></a>
+<a class="study-card" href="shicang-poem/DuMu_BoQinHuai.html" style="--sc:#D35400"><span class="sc-tag">标准</span><div class="sc-title">泊秦淮</div><div class="sc-meta">唐 · DuMu · QiJue</div><div class="sc-line">烟笼寒水月笼沙…</div></a>
+<a class="study-card" href="shicang-poem/DuMu_ChiBi.html" style="--sc:#795548"><span class="sc-tag">标准</span><div class="sc-title">赤壁</div><div class="sc-meta">唐 · DuMu · QiJue</div><div class="sc-line">折戟沉沙铁未销…</div></a>
+<a class="study-card" href="shicang-poem/LiShangyin_WuTi.html" style="--sc:#8E44AD"><span class="sc-tag">标准</span><div class="sc-title">无题·相见时难别亦难</div><div class="sc-meta">唐 · LiShangyin · QiLv</div><div class="sc-line">相见时难别亦难…</div></a>
+<a class="study-card" href="shicang-poem/LiShangyin_YeYuJiBei.html" style="--sc:#8E44AD"><span class="sc-tag">标准</span><div class="sc-title">夜雨寄北</div><div class="sc-meta">唐 · LiShangyin · QiJue</div><div class="sc-line">君问归期未有期…</div></a>
+<a class="study-card" href="shicang-poem/LiShangyin_JinSe.html" style="--sc:#2980B9"><span class="sc-tag">标准</span><div class="sc-title">锦瑟</div><div class="sc-meta">唐 · LiShangyin · QiLv</div><div class="sc-line">锦瑟无端五十弦…</div></a>
+<a class="study-card" href="shicang-poem/LiYu_YuMeiRen.html" style="--sc:#7F8C8D"><span class="sc-tag">标准</span><div class="sc-title">虞美人·春花秋月何时了</div><div class="sc-meta">南唐 · LiYu · Ci</div><div class="sc-line">春花秋月何时了？往事知多少。小楼…</div></a>
+<a class="study-card" href="shicang-poem/LiYu_LangTaoSha.html" style="--sc:#2980B9"><span class="sc-tag">标准</span><div class="sc-title">浪淘沙令·帘外雨潺潺</div><div class="sc-meta">南唐 · LiYu · Ci</div><div class="sc-line">帘外雨潺潺…</div></a>
+<a class="study-card" href="shicang-poem/LiuYong_YuLinLing.html" style="--sc:#8E44AD"><span class="sc-tag">标准</span><div class="sc-title">雨霖铃·寒蝉凄切</div><div class="sc-meta">北宋 · LiuYong · Ci</div><div class="sc-line">寒蝉凄切…</div></a>
+<a class="study-card" href="shicang-poem/FanZhongyan_YuJiaAo.html" style="--sc:#D35400"><span class="sc-tag">标准</span><div class="sc-title">渔家傲·秋思</div><div class="sc-meta">北宋 · FanZhongyan · Ci</div><div class="sc-line">塞下秋来风景异…</div></a>
+<a class="study-card" href="shicang-poem/YanShu_HuanXiSha.html" style="--sc:#7F8C8D"><span class="sc-tag">标准</span><div class="sc-title">浣溪沙·一曲新词酒一杯</div><div class="sc-meta">北宋 · YanShu · Ci</div><div class="sc-line">一曲新词酒一杯…</div></a>
+<a class="study-card" href="shicang-poem/OuyangXiu_ZuiWengTingJi.html" style="--sc:#27AE60"><span class="sc-tag">标准</span><div class="sc-title">醉翁亭记</div><div class="sc-meta">北宋 · OuyangXiu · SanWen</div><div class="sc-line">醉翁之意不在酒…</div></a>
+<a class="study-card" href="shicang-poem/WangAnshi_BoChuanGuaZhou.html" style="--sc:#2980B9"><span class="sc-tag">标准</span><div class="sc-title">泊船瓜洲</div><div class="sc-meta">北宋 · WangAnshi · QiJue</div><div class="sc-line">京口瓜洲一水间…</div></a>
+<a class="study-card" href="shicang-poem/SuShi_ShuiDiaoGeTou.html" style="--sc:#2980B9"><span class="sc-tag deep">深度</span><div class="sc-title">水调歌头·明月几时有</div><div class="sc-meta">北宋 · SuShi · Ci</div><div class="sc-line">明月几时有？把酒问青天。人有悲欢…</div></a>
+<a class="study-card" href="shicang-poem/SuShi_NianNuJiao.html" style="--sc:#795548"><span class="sc-tag deep">深度</span><div class="sc-title">念奴娇·赤壁怀古</div><div class="sc-meta">北宋 · SuShi · Ci</div><div class="sc-line">大江东去…</div></a>
+<a class="study-card" href="shicang-poem/SuShi_DingFengBo.html" style="--sc:#2980B9"><span class="sc-tag">标准</span><div class="sc-title">定风波·莫听穿林打叶声</div><div class="sc-meta">北宋 · SuShi · Ci</div><div class="sc-line">莫听穿林打叶声…</div></a>
+<a class="study-card" href="shicang-poem/SuShi_TiXiLinBi.html" style="--sc:#27AE60"><span class="sc-tag">标准</span><div class="sc-title">题西林壁</div><div class="sc-meta">北宋 · SuShi · QiJue</div><div class="sc-line">横看成岭侧成峰…</div></a>
+<a class="study-card" href="shicang-poem/LiQingzhao_RuMengLing.html" style="--sc:#27AE60"><span class="sc-tag">标准</span><div class="sc-title">如梦令·常记溪亭日暮</div><div class="sc-meta">北宋 · LiQingzhao · Ci</div><div class="sc-line">常记溪亭日暮…</div></a>
+<a class="study-card" href="shicang-poem/LiQingzhao_ZuiHuaYin.html" style="--sc:#8E44AD"><span class="sc-tag">标准</span><div class="sc-title">醉花阴·薄雾浓云愁永昼</div><div class="sc-meta">北宋 · LiQingzhao · Ci</div><div class="sc-line">薄雾浓云愁永昼…</div></a>
+<a class="study-card" href="shicang-poem/LiQingzhao_ShengShengMan.html" style="--sc:#7F8C8D"><span class="sc-tag">标准</span><div class="sc-title">声声慢·寻寻觅觅</div><div class="sc-meta">南宋 · LiQingzhao · Ci</div><div class="sc-line">寻寻觅觅…</div></a>
+<a class="study-card" href="shicang-poem/LuYou_ChaiTouFeng.html" style="--sc:#8E44AD"><span class="sc-tag">标准</span><div class="sc-title">钗头凤·红酥手</div><div class="sc-meta">南宋 · LuYou · Ci</div><div class="sc-line">红酥手…</div></a>
+<a class="study-card" href="shicang-poem/LuYou_YouShanXiCun.html" style="--sc:#27AE60"><span class="sc-tag">标准</span><div class="sc-title">游山西村</div><div class="sc-meta">南宋 · LuYou · QiLv</div><div class="sc-line">莫笑农家腊酒浑…</div></a>
+<a class="study-card" href="shicang-poem/XinQiji_QingYuAn.html" style="--sc:#7F8C8D"><span class="sc-tag">标准</span><div class="sc-title">青玉案·元夕</div><div class="sc-meta">南宋 · XinQiji · Ci</div><div class="sc-line">东风夜放花千树…</div></a>
+<a class="study-card" href="shicang-poem/JiangKui_YangZhouMan.html" style="--sc:#7F8C8D"><span class="sc-tag">标准</span><div class="sc-title">扬州慢·淮左名都</div><div class="sc-meta">南宋 · JiangKui · Ci</div><div class="sc-line">淮左名都…</div></a>
+<a class="study-card" href="shicang-poem/XinQiji_PoZhenZi.html" style="--sc:#D35400"><span class="sc-tag">标准</span><div class="sc-title">破阵子·为陈同甫赋壮词以寄之</div><div class="sc-meta">南宋 · XinQiji · Ci</div><div class="sc-line">醉里挑灯看剑…</div></a>
+<a class="study-card" href="shicang-poem/XinQiji_YongYuLe.html" style="--sc:#D35400"><span class="sc-tag">标准</span><div class="sc-title">永遇乐·京口北固亭怀古</div><div class="sc-meta">南宋 · XinQiji · Ci</div><div class="sc-line">千古江山…</div></a>
+<a class="study-card" href="shicang-poem/LuYou_ShiEr.html" style="--sc:#D35400"><span class="sc-tag">标准</span><div class="sc-title">示儿</div><div class="sc-meta">南宋 · LuYou · QiJue</div><div class="sc-line">死去元知万事空…</div></a>
+<a class="study-card" href="shicang-poem/WenTianXian_GuoLingDingYang.html" style="--sc:#D35400"><span class="sc-tag">标准</span><div class="sc-title">过零丁洋</div><div class="sc-meta">南宋 · WenTianxiang · QiLv</div><div class="sc-line">辛苦遭逢起一经…</div></a>
+<a class="study-card" href="shicang-poem/MaZhiyuan_TianJingSha_QiuSi.html" style="--sc:#7F8C8D"><span class="sc-tag deep">深度</span><div class="sc-title">天净沙·秋思</div><div class="sc-meta">元 · MaZhiyuan · SanQuXiaoLing</div><div class="sc-line">枯藤老树昏鸦…</div></a>
+<a class="study-card" href="shicang-poem/ZhangYanghao_ShanPoYang.html" style="--sc:#795548"><span class="sc-tag">标准</span><div class="sc-title">山坡羊·潼关怀古</div><div class="sc-meta">元 · ZhangYanghao · SanQuXiaoLing</div><div class="sc-line">峰峦如聚…</div></a>
+<a class="study-card" href="shicang-poem/TangYin_TaoHuaAnGe.html" style="--sc:#2980B9"><span class="sc-tag">标准</span><div class="sc-title">桃花庵歌</div><div class="sc-meta">明 · TangYin · QiYanGuFeng</div><div class="sc-line">桃花坞里桃花庵…</div></a>
+<a class="study-card" href="shicang-poem/YangShen_LinJiangXian.html" style="--sc:#795548"><span class="sc-tag">标准</span><div class="sc-title">临江仙·滚滚长江东逝水</div><div class="sc-meta">明 · YangShen · Ci</div><div class="sc-line">滚滚长江东逝水…</div></a>
+<a class="study-card" href="shicang-poem/NalanXingde_MuLanHuaLing.html" style="--sc:#8E44AD"><span class="sc-tag">标准</span><div class="sc-title">木兰花令·拟古决绝词</div><div class="sc-meta">清 · NalanXingde · Ci</div><div class="sc-line">人生若只如初见…</div></a>
+<a class="study-card" href="shicang-poem/NalanXingde_ChangXiangSi.html" style="--sc:#7F8C8D"><span class="sc-tag">标准</span><div class="sc-title">长相思·山一程</div><div class="sc-meta">清 · NalanXingde · Ci</div><div class="sc-line">山一程…</div></a>
+<a class="study-card" href="shicang-poem/ZhengXie_ZhuShi.html" style="--sc:#2980B9"><span class="sc-tag deep">深度</span><div class="sc-title">竹石</div><div class="sc-meta">清 · ZhengXie · QiJue</div><div class="sc-line">咬定青山不放松…</div></a>
+<a class="study-card" href="shicang-poem/CaoXueqin_HongLouMeng.html" style="--sc:#8E44AD"><span class="sc-tag">标准</span><div class="sc-title">葬花吟</div><div class="sc-meta">清 · CaoXueqin · QiYanGuFeng</div><div class="sc-line">花谢花飞花满天…</div></a>
+<a class="study-card" href="shicang-poem/YuanMei_CangShanShiHua.html" style="--sc:#2980B9"><span class="sc-tag">标准</span><div class="sc-title">随园诗话</div><div class="sc-meta">清 · YuanMei · ShiHua</div><div class="sc-line">诗言志…</div></a>
+<a class="study-card" href="shicang-poem/GongZizhen_YiHaiZaShi.html" style="--sc:#D35400"><span class="sc-tag deep">深度</span><div class="sc-title">己亥杂诗·其五</div><div class="sc-meta">清 · GongZizhen · QiJue</div><div class="sc-line">浩荡离愁白日斜…</div></a>
+<a class="study-card" href="shicang-poem/GongZizhen_YiHaiZaShi_220.html" style="--sc:#D35400"><span class="sc-tag">标准</span><div class="sc-title">己亥杂诗·其二百二十</div><div class="sc-meta">清 · GongZizhen · QiJue</div><div class="sc-line">九州生气恃风雷…</div></a>
+<a class="study-card" href="shicang-poem/WangGuowei_RenJianCiHua.html" style="--sc:#2980B9"><span class="sc-tag">标准</span><div class="sc-title">人间词话三境界</div><div class="sc-meta">近代 · WangGuowei · CiHua</div><div class="sc-line">古今之成大事业、大学问者…</div></a>
+    </div>
+  </div>
+</section>
 
 <!-- ========== 诗学论要 · 基于313部诗话词话原文提取 ========== -->
 <section id="theory" class="relative z-10 anchor-target py-14 md:py-20" style="background:linear-gradient(180deg,transparent,rgba(139,47,47,.04),transparent);">
