@@ -1,0 +1,16 @@
+{
+  "bookId": "book_cpo_songci",
+  "title": "全宋词（chinese-poetry）",
+  "author": "宋代诸家",
+  "dynasty": "宋",
+  "category": "词集",
+  "volumes": [
+    "cpo_songci/ci_000.json",
+    "cpo_songci/ci_001.json",
+    "cpo_songci/ci_002.json",
+    "cpo_songci/ci_003.json",
+    "cpo_songci/ci_004.json"
+  ],
+  "totalPoems": 2050,
+  "description": "chinese-poetry开源数据集，收录宋词共2050首"
+}

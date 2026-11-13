@@ -1,1 +1,597 @@
-{"books": [{"slug": "shi_84", "book": "御选宋金元明四朝诗", "cat": "诗集", "count": 8608}, {"slug": "shi_49", "book": "石仓历代诗选", "cat": "诗集", "count": 8309}, {"slug": "shi_82", "book": "御定全唐诗", "cat": "诗集", "count": 5207}, {"slug": "shi_80", "book": "御定佩文斋咏物诗选", "cat": "诗集", "count": 3145}, {"slug": "shi_32", "book": "两宋名贤小集", "cat": "诗集", "count": 2695}, {"slug": "shi_66", "book": "万首唐人绝句", "cat": "诗集", "count": 2204}, {"slug": "shi_79", "book": "御定历代题画诗类", "cat": "诗集", "count": 1508}, {"slug": "shi_53", "book": "宋元诗会", "cat": "诗集", "count": 1363}, {"slug": "shi_51", "book": "宋百家诗存", "cat": "诗集", "count": 1265}, {"slug": "shi_35", "book": "明诗综", "cat": "诗集", "count": 1187}, {"slug": "shi_29", "book": "江湖小集", "cat": "诗集", "count": 1153}, {"slug": "shi_83", "book": "御定全唐诗录", "cat": "诗集", "count": 1102}, {"slug": "shi_96", "book": "檇李诗系", "cat": "诗集", "count": 1037}, {"slug": "shi_58", "book": "唐诗品汇唐诗拾遗", "cat": "诗集", "count": 805}, {"slug": "shi_78", "book": "御订全金诗增补中州集", "cat": "诗集", "count": 709}, {"slug": "shi_74", "book": "甬上耆旧诗", "cat": "诗集", "count": 657}, {"slug": "shi_92", "book": "粤西诗载粤西文载粤西丛载", "cat": "诗集", "count": 546}, {"slug": "shi_11", "book": "古今禅藻集", "cat": "诗集", "count": 507}, {"slug": "shi_28", "book": "江湖后集", "cat": "诗集", "count": 455}, {"slug": "shi_52", "book": "宋艺圃集", "cat": "诗集", "count": 389}, {"slug": "shi_16", "book": "古诗镜唐诗镜", "cat": "诗集", "count": 340}, {"slug": "shi_23", "book": "翰苑英华中州集", "cat": "诗集", "count": 338}, {"slug": "shi_73", "book": "瀛奎律髓", "cat": "诗集", "count": 332}, {"slug": "shi_12", "book": "古今诗删", "cat": "诗集", "count": 289}, {"slug": "shi_54", "book": "嵗时杂咏", "cat": "诗集", "count": 278}, {"slug": "shi_3", "book": "草堂雅集", "cat": "诗集", "count": 271}, {"slug": "shi_67", "book": "文氏五家集", "cat": "诗集", "count": 255}, {"slug": "shi_34", "book": "闽中十子诗", "cat": "诗集", "count": 251}, {"slug": "shi_43", "book": "三华集", "cat": "诗集", "count": 237}, {"slug": "shi_62", "book": "天台前集天台续集", "cat": "诗集", "count": 217}, {"slug": "shi_88", "book": "元诗体要", "cat": "诗集", "count": 187}, {"slug": "shi_55", "book": "唐百家诗选", "cat": "诗集", "count": 178}, {"slug": "shi_89", "book": "元音", "cat": "诗集", "count": 171}, {"slug": "shi_42", "book": "清江三孔集", "cat": "诗集", "count": 166}, {"slug": "shi_1", "book": "才调集", "cat": "诗集", "count": 160}, {"slug": "shi_69", "book": "新安文献志", "cat": "诗集", "count": 156}, {"slug": "shi_86", "book": "御选唐宋诗醇", "cat": "诗集", "count": 151}, {"slug": "shi_87", "book": "元风雅", "cat": "诗集", "count": 146}, {"slug": "shi_39", "book": "鄱阳五家集", "cat": "诗集", "count": 125}, {"slug": "shi_65", "book": "宛陵羣英集", "cat": "诗集", "count": 116}, {"slug": "shi_26", "book": "会稽掇英总集", "cat": "诗集", "count": 112}, {"slug": "shi_94", "book": "中州集中州乐府", "cat": "诗集", "count": 101}, {"slug": "shi_56", "book": "唐僧弘秀集", "cat": "诗集", "count": 96}, {"slug": "shi_37", "book": "南州集存", "cat": "诗集", "count": 87}, {"slug": "shi_90", "book": "元音遗响", "cat": "诗集", "count": 86}, {"slug": "shi_0", "book": "白香集", "cat": "诗集", "count": 77}, {"slug": "shi_76", "book": "玉山名胜集", "cat": "诗集", "count": 75}, {"slug": "shi_50", "book": "松陵集", "cat": "诗集", "count": 68}, {"slug": "shi_21", "book": "海岱会集", "cat": "诗集", "count": 67}, {"slug": "shi_48", "book": "诗家鼎脔", "cat": "诗集", "count": 67}, {"slug": "shi_40", "book": "乾坤清气", "cat": "诗集", "count": 58}, {"slug": "shi_72", "book": "严陵集", "cat": "诗集", "count": 55}, {"slug": "shi_2", "book": "沧海遗珠", "cat": "诗集", "count": 54}, {"slug": "shi_7", "book": "二皇甫集", "cat": "诗集", "count": 50}, {"slug": "shi_47", "book": "声画集", "cat": "诗集", "count": 47}, {"slug": "shi_5", "book": "大雅集", "cat": "诗集", "count": 47}, {"slug": "shi_46", "book": "三体唐诗", "cat": "诗集", "count": 46}, {"slug": "shi_33", "book": "梅花百咏", "cat": "诗集", "count": 43}, {"slug": "shi_38", "book": "坡门酬唱集", "cat": "诗集", "count": 35}, {"slug": "shi_59", "book": "唐四僧诗", "cat": "诗集", "count": 34}, {"slug": "shi_61", "book": "唐音", "cat": "诗集", "count": 32}, {"slug": "shi_71", "book": "雅颂正音", "cat": "诗集", "count": 32}, {"slug": "shi_75", "book": "玉山纪游", "cat": "诗集", "count": 32}, {"slug": "shi_10", "book": "二妙集", "cat": "诗集", "count": 31}, {"slug": "shi_20", "book": "国秀集", "cat": "诗集", "count": 31}, {"slug": "shi_4", "book": "柴氏四隐集", "cat": "诗集", "count": 31}, {"slug": "shi_68", "book": "西昆詶唱集", "cat": "诗集", "count": 29}, {"slug": "shi_93", "book": "中兴间气集", "cat": "诗集", "count": 28}, {"slug": "shi_41", "book": "钦定千叟宴诗", "cat": "诗集", "count": 27}, {"slug": "shi_60", "book": "唐贤三昧集", "cat": "诗集", "count": 26}, {"slug": "shi_19", "book": "圭塘欵乃集", "cat": "诗集", "count": 23}, {"slug": "shi_24", "book": "河汾诸老诗集", "cat": "诗集", "count": 22}, {"slug": "shi_70", "book": "薛涛李冶诗集", "cat": "诗集", "count": 22}, {"slug": "shi_9", "book": "二家诗选", "cat": "诗集", "count": 22}, {"slug": "shi_15", "book": "古诗纪", "cat": "诗集", "count": 20}, {"slug": "shi_30", "book": "荆南倡和诗集", "cat": "诗集", "count": 19}, {"slug": "shi_95", "book": "忠义集", "cat": "诗集", "count": 19}, {"slug": "shi_17", "book": "广州四先生诗", "cat": "诗集", "count": 15}, {"slug": "shi_6", "book": "窦氏联珠集", "cat": "诗集", "count": 15}, {"slug": "shi_22", "book": "汉魏六朝百三家集", "cat": "诗集", "count": 13}, {"slug": "shi_27", "book": "极玄集", "cat": "诗集", "count": 13}, {"slug": "shi_63", "book": "天下同文集", "cat": "诗集", "count": 13}, {"slug": "shi_18", "book": "圭塘欸乃集", "cat": "诗集", "count": 12}, {"slug": "shi_64", "book": "同文馆唱和诗", "cat": "诗集", "count": 10}, {"slug": "shi_36", "book": "南宋襍事诗", "cat": "诗集", "count": 7}, {"slug": "shi_57", "book": "唐诗鼓吹", "cat": "诗集", "count": 5}, {"slug": "shi_77", "book": "玉台新咏考异", "cat": "诗集", "count": 4}, {"slug": "shi_13", "book": "古乐府", "cat": "诗集", "count": 2}, {"slug": "shi_45", "book": "三刘家集", "cat": "诗集", "count": 2}, {"slug": "shi_81", "book": "御定千叟宴诗", "cat": "诗集", "count": 2}, {"slug": "shi_91", "book": "月泉吟社诗", "cat": "诗集", "count": 2}, {"slug": "shi_14", "book": "古乐苑", "cat": "诗集", "count": 1}, {"slug": "shi_25", "book": "皇明诗选", "cat": "诗集", "count": 1}, {"slug": "shi_31", "book": "李义山诗集注", "cat": "诗集", "count": 1}, {"slug": "shi_8", "book": "二家宫词", "cat": "诗集", "count": 1}, {"slug": "shi_85", "book": "御选唐诗", "cat": "诗集", "count": 1}], "total": 49086}
+{
+  "books": [
+    {
+      "slug": "cpo_songci",
+      "book": "全宋词（chinese-poetry）",
+      "cat": "词集",
+      "count": 2050,
+      "dynasty": "宋",
+      "indexPath": "cpo_songci_index.json"
+    },
+    {
+      "slug": "cpo_tang",
+      "book": "全唐诗（chinese-poetry）",
+      "cat": "诗集",
+      "count": 16595,
+      "dynasty": "唐",
+      "indexPath": "cpo_tang_index.json"
+    },
+    {
+      "slug": "shi_84",
+      "book": "御选宋金元明四朝诗",
+      "cat": "诗集",
+      "count": 8608
+    },
+    {
+      "slug": "shi_49",
+      "book": "石仓历代诗选",
+      "cat": "诗集",
+      "count": 8309
+    },
+    {
+      "slug": "shi_82",
+      "book": "御定全唐诗",
+      "cat": "诗集",
+      "count": 5207
+    },
+    {
+      "slug": "shi_80",
+      "book": "御定佩文斋咏物诗选",
+      "cat": "诗集",
+      "count": 3145
+    },
+    {
+      "slug": "shi_32",
+      "book": "两宋名贤小集",
+      "cat": "诗集",
+      "count": 2695
+    },
+    {
+      "slug": "shi_66",
+      "book": "万首唐人绝句",
+      "cat": "诗集",
+      "count": 2204
+    },
+    {
+      "slug": "shi_79",
+      "book": "御定历代题画诗类",
+      "cat": "诗集",
+      "count": 1508
+    },
+    {
+      "slug": "shi_53",
+      "book": "宋元诗会",
+      "cat": "诗集",
+      "count": 1363
+    },
+    {
+      "slug": "shi_51",
+      "book": "宋百家诗存",
+      "cat": "诗集",
+      "count": 1265
+    },
+    {
+      "slug": "shi_35",
+      "book": "明诗综",
+      "cat": "诗集",
+      "count": 1187
+    },
+    {
+      "slug": "shi_29",
+      "book": "江湖小集",
+      "cat": "诗集",
+      "count": 1153
+    },
+    {
+      "slug": "shi_83",
+      "book": "御定全唐诗录",
+      "cat": "诗集",
+      "count": 1102
+    },
+    {
+      "slug": "shi_96",
+      "book": "檇李诗系",
+      "cat": "诗集",
+      "count": 1037
+    },
+    {
+      "slug": "shi_58",
+      "book": "唐诗品汇唐诗拾遗",
+      "cat": "诗集",
+      "count": 805
+    },
+    {
+      "slug": "shi_78",
+      "book": "御订全金诗增补中州集",
+      "cat": "诗集",
+      "count": 709
+    },
+    {
+      "slug": "shi_74",
+      "book": "甬上耆旧诗",
+      "cat": "诗集",
+      "count": 657
+    },
+    {
+      "slug": "shi_92",
+      "book": "粤西诗载粤西文载粤西丛载",
+      "cat": "诗集",
+      "count": 546
+    },
+    {
+      "slug": "shi_11",
+      "book": "古今禅藻集",
+      "cat": "诗集",
+      "count": 507
+    },
+    {
+      "slug": "shi_28",
+      "book": "江湖后集",
+      "cat": "诗集",
+      "count": 455
+    },
+    {
+      "slug": "shi_52",
+      "book": "宋艺圃集",
+      "cat": "诗集",
+      "count": 389
+    },
+    {
+      "slug": "shi_16",
+      "book": "古诗镜唐诗镜",
+      "cat": "诗集",
+      "count": 340
+    },
+    {
+      "slug": "shi_23",
+      "book": "翰苑英华中州集",
+      "cat": "诗集",
+      "count": 338
+    },
+    {
+      "slug": "shi_73",
+      "book": "瀛奎律髓",
+      "cat": "诗集",
+      "count": 332
+    },
+    {
+      "slug": "shi_12",
+      "book": "古今诗删",
+      "cat": "诗集",
+      "count": 289
+    },
+    {
+      "slug": "shi_54",
+      "book": "嵗时杂咏",
+      "cat": "诗集",
+      "count": 278
+    },
+    {
+      "slug": "shi_3",
+      "book": "草堂雅集",
+      "cat": "诗集",
+      "count": 271
+    },
+    {
+      "slug": "shi_67",
+      "book": "文氏五家集",
+      "cat": "诗集",
+      "count": 255
+    },
+    {
+      "slug": "shi_34",
+      "book": "闽中十子诗",
+      "cat": "诗集",
+      "count": 251
+    },
+    {
+      "slug": "shi_43",
+      "book": "三华集",
+      "cat": "诗集",
+      "count": 237
+    },
+    {
+      "slug": "shi_62",
+      "book": "天台前集天台续集",
+      "cat": "诗集",
+      "count": 217
+    },
+    {
+      "slug": "shi_88",
+      "book": "元诗体要",
+      "cat": "诗集",
+      "count": 187
+    },
+    {
+      "slug": "shi_55",
+      "book": "唐百家诗选",
+      "cat": "诗集",
+      "count": 178
+    },
+    {
+      "slug": "shi_89",
+      "book": "元音",
+      "cat": "诗集",
+      "count": 171
+    },
+    {
+      "slug": "shi_42",
+      "book": "清江三孔集",
+      "cat": "诗集",
+      "count": 166
+    },
+    {
+      "slug": "shi_1",
+      "book": "才调集",
+      "cat": "诗集",
+      "count": 160
+    },
+    {
+      "slug": "shi_69",
+      "book": "新安文献志",
+      "cat": "诗集",
+      "count": 156
+    },
+    {
+      "slug": "shi_86",
+      "book": "御选唐宋诗醇",
+      "cat": "诗集",
+      "count": 151
+    },
+    {
+      "slug": "shi_87",
+      "book": "元风雅",
+      "cat": "诗集",
+      "count": 146
+    },
+    {
+      "slug": "shi_39",
+      "book": "鄱阳五家集",
+      "cat": "诗集",
+      "count": 125
+    },
+    {
+      "slug": "shi_65",
+      "book": "宛陵羣英集",
+      "cat": "诗集",
+      "count": 116
+    },
+    {
+      "slug": "shi_26",
+      "book": "会稽掇英总集",
+      "cat": "诗集",
+      "count": 112
+    },
+    {
+      "slug": "shi_94",
+      "book": "中州集中州乐府",
+      "cat": "诗集",
+      "count": 101
+    },
+    {
+      "slug": "shi_56",
+      "book": "唐僧弘秀集",
+      "cat": "诗集",
+      "count": 96
+    },
+    {
+      "slug": "shi_37",
+      "book": "南州集存",
+      "cat": "诗集",
+      "count": 87
+    },
+    {
+      "slug": "shi_90",
+      "book": "元音遗响",
+      "cat": "诗集",
+      "count": 86
+    },
+    {
+      "slug": "shi_0",
+      "book": "白香集",
+      "cat": "诗集",
+      "count": 77
+    },
+    {
+      "slug": "shi_76",
+      "book": "玉山名胜集",
+      "cat": "诗集",
+      "count": 75
+    },
+    {
+      "slug": "shi_50",
+      "book": "松陵集",
+      "cat": "诗集",
+      "count": 68
+    },
+    {
+      "slug": "shi_21",
+      "book": "海岱会集",
+      "cat": "诗集",
+      "count": 67
+    },
+    {
+      "slug": "shi_48",
+      "book": "诗家鼎脔",
+      "cat": "诗集",
+      "count": 67
+    },
+    {
+      "slug": "shi_40",
+      "book": "乾坤清气",
+      "cat": "诗集",
+      "count": 58
+    },
+    {
+      "slug": "shi_72",
+      "book": "严陵集",
+      "cat": "诗集",
+      "count": 55
+    },
+    {
+      "slug": "shi_2",
+      "book": "沧海遗珠",
+      "cat": "诗集",
+      "count": 54
+    },
+    {
+      "slug": "shi_7",
+      "book": "二皇甫集",
+      "cat": "诗集",
+      "count": 50
+    },
+    {
+      "slug": "shi_47",
+      "book": "声画集",
+      "cat": "诗集",
+      "count": 47
+    },
+    {
+      "slug": "shi_5",
+      "book": "大雅集",
+      "cat": "诗集",
+      "count": 47
+    },
+    {
+      "slug": "shi_46",
+      "book": "三体唐诗",
+      "cat": "诗集",
+      "count": 46
+    },
+    {
+      "slug": "shi_33",
+      "book": "梅花百咏",
+      "cat": "诗集",
+      "count": 43
+    },
+    {
+      "slug": "shi_38",
+      "book": "坡门酬唱集",
+      "cat": "诗集",
+      "count": 35
+    },
+    {
+      "slug": "shi_59",
+      "book": "唐四僧诗",
+      "cat": "诗集",
+      "count": 34
+    },
+    {
+      "slug": "shi_61",
+      "book": "唐音",
+      "cat": "诗集",
+      "count": 32
+    },
+    {
+      "slug": "shi_71",
+      "book": "雅颂正音",
+      "cat": "诗集",
+      "count": 32
+    },
+    {
+      "slug": "shi_75",
+      "book": "玉山纪游",
+      "cat": "诗集",
+      "count": 32
+    },
+    {
+      "slug": "shi_10",
+      "book": "二妙集",
+      "cat": "诗集",
+      "count": 31
+    },
+    {
+      "slug": "shi_20",
+      "book": "国秀集",
+      "cat": "诗集",
+      "count": 31
+    },
+    {
+      "slug": "shi_4",
+      "book": "柴氏四隐集",
+      "cat": "诗集",
+      "count": 31
+    },
+    {
+      "slug": "shi_68",
+      "book": "西昆詶唱集",
+      "cat": "诗集",
+      "count": 29
+    },
+    {
+      "slug": "shi_93",
+      "book": "中兴间气集",
+      "cat": "诗集",
+      "count": 28
+    },
+    {
+      "slug": "shi_41",
+      "book": "钦定千叟宴诗",
+      "cat": "诗集",
+      "count": 27
+    },
+    {
+      "slug": "shi_60",
+      "book": "唐贤三昧集",
+      "cat": "诗集",
+      "count": 26
+    },
+    {
+      "slug": "shi_19",
+      "book": "圭塘欵乃集",
+      "cat": "诗集",
+      "count": 23
+    },
+    {
+      "slug": "shi_24",
+      "book": "河汾诸老诗集",
+      "cat": "诗集",
+      "count": 22
+    },
+    {
+      "slug": "shi_70",
+      "book": "薛涛李冶诗集",
+      "cat": "诗集",
+      "count": 22
+    },
+    {
+      "slug": "shi_9",
+      "book": "二家诗选",
+      "cat": "诗集",
+      "count": 22
+    },
+    {
+      "slug": "shi_15",
+      "book": "古诗纪",
+      "cat": "诗集",
+      "count": 20
+    },
+    {
+      "slug": "shi_30",
+      "book": "荆南倡和诗集",
+      "cat": "诗集",
+      "count": 19
+    },
+    {
+      "slug": "shi_95",
+      "book": "忠义集",
+      "cat": "诗集",
+      "count": 19
+    },
+    {
+      "slug": "shi_17",
+      "book": "广州四先生诗",
+      "cat": "诗集",
+      "count": 15
+    },
+    {
+      "slug": "shi_6",
+      "book": "窦氏联珠集",
+      "cat": "诗集",
+      "count": 15
+    },
+    {
+      "slug": "shi_22",
+      "book": "汉魏六朝百三家集",
+      "cat": "诗集",
+      "count": 13
+    },
+    {
+      "slug": "shi_27",
+      "book": "极玄集",
+      "cat": "诗集",
+      "count": 13
+    },
+    {
+      "slug": "shi_63",
+      "book": "天下同文集",
+      "cat": "诗集",
+      "count": 13
+    },
+    {
+      "slug": "shi_18",
+      "book": "圭塘欸乃集",
+      "cat": "诗集",
+      "count": 12
+    },
+    {
+      "slug": "shi_64",
+      "book": "同文馆唱和诗",
+      "cat": "诗集",
+      "count": 10
+    },
+    {
+      "slug": "shi_36",
+      "book": "南宋襍事诗",
+      "cat": "诗集",
+      "count": 7
+    },
+    {
+      "slug": "shi_57",
+      "book": "唐诗鼓吹",
+      "cat": "诗集",
+      "count": 5
+    },
+    {
+      "slug": "shi_77",
+      "book": "玉台新咏考异",
+      "cat": "诗集",
+      "count": 4
+    },
+    {
+      "slug": "shi_13",
+      "book": "古乐府",
+      "cat": "诗集",
+      "count": 2
+    },
+    {
+      "slug": "shi_45",
+      "book": "三刘家集",
+      "cat": "诗集",
+      "count": 2
+    },
+    {
+      "slug": "shi_81",
+      "book": "御定千叟宴诗",
+      "cat": "诗集",
+      "count": 2
+    },
+    {
+      "slug": "shi_91",
+      "book": "月泉吟社诗",
+      "cat": "诗集",
+      "count": 2
+    },
+    {
+      "slug": "shi_14",
+      "book": "古乐苑",
+      "cat": "诗集",
+      "count": 1
+    },
+    {
+      "slug": "shi_25",
+      "book": "皇明诗选",
+      "cat": "诗集",
+      "count": 1
+    },
+    {
+      "slug": "shi_31",
+      "book": "李义山诗集注",
+      "cat": "诗集",
+      "count": 1
+    },
+    {
+      "slug": "shi_8",
+      "book": "二家宫词",
+      "cat": "诗集",
+      "count": 1
+    },
+    {
+      "slug": "shi_85",
+      "book": "御选唐诗",
+      "cat": "诗集",
+      "count": 1
+    }
+  ],
+  "total": 67731
+}

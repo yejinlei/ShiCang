@@ -323,10 +323,46 @@ async function openBook(slug){
   document.querySelectorAll("aside .bk").forEach(x=>{
     x.classList.toggle("on",x.dataset.slug===slug);
   });
-  const r=await fetch(DATA+slug+".json");const d=await r.json();
-  CUR=slug;WORKS=d.works||[];
+  // 查找书籍元数据
+  const bmeta = INDEX.books.find(b=>b.slug===slug);
+  let WORKS = [];
+  let bookTitle = slug, bookCat = '';
+  if(bmeta && bmeta.indexPath){
+    // 多分卷格式（chinese-poetry等）
+    const idxR = await fetch(DATA + bmeta.indexPath);
+    const bookIdx = await idxR.json();
+    bookTitle = bookIdx.title;
+    bookCat = bookIdx.category;
+    // 加载所有分卷
+    for(const volPath of bookIdx.volumes){
+      try{
+        const vr = await fetch(DATA + volPath);
+        const vd = await vr.json();
+        // 转换chinese-poetry格式为诗精读格式
+        vd.forEach(p=>{
+          WORKS.push({
+            title: p.title,
+            author: p.author,
+            text: p.text,
+            lines: p.lines,
+            pz: p.pingsheng || [],
+            yunjiao: p.yunjiao || [],
+            source: p.source || bookTitle
+          });
+        });
+      }catch(e){console.warn('加载分卷失败', volPath, e);}
+    }
+  }else{
+    // 原有单文件格式
+    const r=await fetch(DATA+slug+".json");const d=await r.json();
+    WORKS=d.works||[];
+    bookTitle = d.book;
+    bookCat = d.cat;
+  }
+  CUR=slug;
+  window.WORKS=WORKS;
   document.getElementById("bhead").innerHTML=
-    `<h2>${esc(d.book)}</h2><div class="m">${esc(d.cat)} · 共 ${WORKS.length} 首精读</div>`;
+    `<h2>${esc(bookTitle)}</h2><div class="m">${esc(bookCat)} · 共 ${WORKS.length.toLocaleString()} 首精读</div>`;
   document.getElementById("q").value="";
   applyFilter();
 }

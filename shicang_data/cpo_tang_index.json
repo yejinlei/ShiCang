@@ -1,0 +1,28 @@
+{
+  "bookId": "book_cpo_tang",
+  "title": "全唐诗（chinese-poetry）",
+  "author": "唐代诸家",
+  "dynasty": "唐",
+  "category": "诗集",
+  "volumes": [
+    "cpo_tang/tang_000.json",
+    "cpo_tang/tang_001.json",
+    "cpo_tang/tang_002.json",
+    "cpo_tang/tang_003.json",
+    "cpo_tang/tang_004.json",
+    "cpo_tang/tang_005.json",
+    "cpo_tang/tang_006.json",
+    "cpo_tang/tang_007.json",
+    "cpo_tang/tang_008.json",
+    "cpo_tang/tang_009.json",
+    "cpo_tang/tang_010.json",
+    "cpo_tang/tang_011.json",
+    "cpo_tang/tang_012.json",
+    "cpo_tang/tang_013.json",
+    "cpo_tang/tang_014.json",
+    "cpo_tang/tang_015.json",
+    "cpo_tang/tang_016.json"
+  ],
+  "totalPoems": 16595,
+  "description": "chinese-poetry开源数据集，收录唐代诗歌共16595首"
+}
