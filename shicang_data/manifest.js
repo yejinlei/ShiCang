@@ -1,0 +1,7874 @@
+const SHICANG_MANIFEST = {
+  "version": "v4.4",
+  "updatedAt": "2026-11-14",
+  "total": 776,
+  "categories": {
+    "楚辞": {
+      "count": 10,
+      "books": [
+        "book_0300",
+        "book_0426",
+        "book_0427",
+        "book_0428",
+        "book_0429",
+        "book_0430",
+        "book_0431",
+        "book_0432",
+        "book_0539",
+        "book_0729"
+      ]
+    },
+    "汉赋": {
+      "count": 6,
+      "books": [
+        "book_0032",
+        "book_0034",
+        "book_0200",
+        "book_0214",
+        "book_0331",
+        "book_0366"
+      ]
+    },
+    "诗集": {
+      "count": 275,
+      "books": [
+        "book_0002",
+        "book_0003",
+        "book_0004",
+        "book_0005",
+        "book_0008",
+        "book_0013",
+        "book_0014",
+        "book_0015",
+        "book_0016",
+        "book_0017",
+        "book_0031",
+        "book_0035",
+        "book_0036",
+        "book_0038",
+        "book_0039",
+        "book_0047",
+        "book_0051",
+        "book_0053",
+        "book_0055",
+        "book_0056",
+        "book_0060",
+        "book_0061",
+        "book_0062",
+        "book_0063",
+        "book_0064",
+        "book_0065",
+        "book_0066",
+        "book_0067",
+        "book_0068",
+        "book_0069",
+        "book_0078",
+        "book_0079",
+        "book_0083",
+        "book_0148",
+        "book_0151",
+        "book_0154",
+        "book_0155",
+        "book_0158",
+        "book_0159",
+        "book_0160",
+        "book_0164",
+        "book_0165",
+        "book_0167",
+        "book_0169",
+        "book_0171",
+        "book_0173",
+        "book_0174",
+        "book_0175",
+        "book_0188",
+        "book_0189",
+        "book_0193",
+        "book_0195",
+        "book_0196",
+        "book_0197",
+        "book_0198",
+        "book_0199",
+        "book_0201",
+        "book_0202",
+        "book_0203",
+        "book_0205",
+        "book_0210",
+        "book_0216",
+        "book_0217",
+        "book_0218",
+        "book_0219",
+        "book_0223",
+        "book_0225",
+        "book_0226",
+        "book_0228",
+        "book_0229",
+        "book_0230",
+        "book_0231",
+        "book_0232",
+        "book_0233",
+        "book_0234",
+        "book_0235",
+        "book_0238",
+        "book_0240",
+        "book_0241",
+        "book_0242",
+        "book_0243",
+        "book_0245",
+        "book_0248",
+        "book_0249",
+        "book_0250",
+        "book_0251",
+        "book_0252",
+        "book_0253",
+        "book_0254",
+        "book_0255",
+        "book_0259",
+        "book_0261",
+        "book_0263",
+        "book_0264",
+        "book_0265",
+        "book_0267",
+        "book_0268",
+        "book_0269",
+        "book_0271",
+        "book_0276",
+        "book_0277",
+        "book_0278",
+        "book_0280",
+        "book_0281",
+        "book_0283",
+        "book_0284",
+        "book_0285",
+        "book_0288",
+        "book_0290",
+        "book_0293",
+        "book_0297",
+        "book_0298",
+        "book_0301",
+        "book_0306",
+        "book_0309",
+        "book_0311",
+        "book_0312",
+        "book_0316",
+        "book_0320",
+        "book_0325",
+        "book_0327",
+        "book_0328",
+        "book_0329",
+        "book_0330",
+        "book_0332",
+        "book_0335",
+        "book_0336",
+        "book_0338",
+        "book_0339",
+        "book_0340",
+        "book_0344",
+        "book_0347",
+        "book_0353",
+        "book_0360",
+        "book_0363",
+        "book_0364",
+        "book_0367",
+        "book_0370",
+        "book_0372",
+        "book_0373",
+        "book_0381",
+        "book_0383",
+        "book_0384",
+        "book_0385",
+        "book_0386",
+        "book_0389",
+        "book_0398",
+        "book_0399",
+        "book_0402",
+        "book_0403",
+        "book_0405",
+        "book_0408",
+        "book_0409",
+        "book_0412",
+        "book_0416",
+        "book_0419",
+        "book_0420",
+        "book_0422",
+        "book_0435",
+        "book_0437",
+        "book_0440",
+        "book_0441",
+        "book_0442",
+        "book_0443",
+        "book_0444",
+        "book_0445",
+        "book_0447",
+        "book_0448",
+        "book_0449",
+        "book_0453",
+        "book_0456",
+        "book_0463",
+        "book_0464",
+        "book_0465",
+        "book_0476",
+        "book_0477",
+        "book_0480",
+        "book_0481",
+        "book_0486",
+        "book_0487",
+        "book_0488",
+        "book_0489",
+        "book_0490",
+        "book_0493",
+        "book_0499",
+        "book_0506",
+        "book_0507",
+        "book_0509",
+        "book_0515",
+        "book_0517",
+        "book_0518",
+        "book_0519",
+        "book_0522",
+        "book_0525",
+        "book_0545",
+        "book_0548",
+        "book_0552",
+        "book_0553",
+        "book_0554",
+        "book_0555",
+        "book_0557",
+        "book_0559",
+        "book_0561",
+        "book_0564",
+        "book_0569",
+        "book_0570",
+        "book_0576",
+        "book_0578",
+        "book_0583",
+        "book_0586",
+        "book_0590",
+        "book_0591",
+        "book_0592",
+        "book_0595",
+        "book_0596",
+        "book_0597",
+        "book_0601",
+        "book_0602",
+        "book_0605",
+        "book_0606",
+        "book_0608",
+        "book_0616",
+        "book_0620",
+        "book_0627",
+        "book_0628",
+        "book_0629",
+        "book_0634",
+        "book_0665",
+        "book_0666",
+        "book_0667",
+        "book_0668",
+        "book_0669",
+        "book_0672",
+        "book_0673",
+        "book_0674",
+        "book_0675",
+        "book_0676",
+        "book_0678",
+        "book_0680",
+        "book_0683",
+        "book_0692",
+        "book_0693",
+        "book_0696",
+        "book_0697",
+        "book_0698",
+        "book_0700",
+        "book_0701",
+        "book_0703",
+        "book_0704",
+        "book_0705",
+        "book_0707",
+        "book_0714",
+        "book_0719",
+        "book_0720",
+        "book_0721",
+        "book_0724",
+        "book_0726",
+        "book_0728",
+        "book_0734",
+        "book_0735",
+        "book_0738",
+        "book_0739",
+        "book_0742",
+        "book_0743",
+        "book_0749",
+        "book_0750",
+        "book_0753",
+        "book_0754",
+        "book_0758",
+        "book_0759",
+        "book_0760",
+        "book_0763",
+        "book_0764",
+        "book_0769",
+        "book_0771"
+      ]
+    },
+    "词集": {
+      "count": 172,
+      "books": [
+        "book_0001",
+        "book_0006",
+        "book_0009",
+        "book_0011",
+        "book_0012",
+        "book_0019",
+        "book_0022",
+        "book_0023",
+        "book_0025",
+        "book_0026",
+        "book_0027",
+        "book_0028",
+        "book_0029",
+        "book_0030",
+        "book_0037",
+        "book_0041",
+        "book_0044",
+        "book_0049",
+        "book_0050",
+        "book_0058",
+        "book_0074",
+        "book_0075",
+        "book_0077",
+        "book_0082",
+        "book_0084",
+        "book_0153",
+        "book_0156",
+        "book_0161",
+        "book_0163",
+        "book_0166",
+        "book_0168",
+        "book_0178",
+        "book_0185",
+        "book_0187",
+        "book_0190",
+        "book_0213",
+        "book_0215",
+        "book_0224",
+        "book_0244",
+        "book_0246",
+        "book_0247",
+        "book_0257",
+        "book_0262",
+        "book_0270",
+        "book_0279",
+        "book_0282",
+        "book_0289",
+        "book_0296",
+        "book_0299",
+        "book_0302",
+        "book_0310",
+        "book_0313",
+        "book_0317",
+        "book_0319",
+        "book_0321",
+        "book_0322",
+        "book_0337",
+        "book_0341",
+        "book_0346",
+        "book_0348",
+        "book_0349",
+        "book_0354",
+        "book_0356",
+        "book_0358",
+        "book_0359",
+        "book_0361",
+        "book_0362",
+        "book_0368",
+        "book_0375",
+        "book_0376",
+        "book_0377",
+        "book_0378",
+        "book_0388",
+        "book_0400",
+        "book_0411",
+        "book_0415",
+        "book_0417",
+        "book_0418",
+        "book_0434",
+        "book_0436",
+        "book_0451",
+        "book_0457",
+        "book_0458",
+        "book_0459",
+        "book_0462",
+        "book_0469",
+        "book_0470",
+        "book_0471",
+        "book_0472",
+        "book_0474",
+        "book_0484",
+        "book_0494",
+        "book_0496",
+        "book_0497",
+        "book_0508",
+        "book_0520",
+        "book_0523",
+        "book_0524",
+        "book_0526",
+        "book_0527",
+        "book_0528",
+        "book_0531",
+        "book_0536",
+        "book_0541",
+        "book_0543",
+        "book_0546",
+        "book_0549",
+        "book_0551",
+        "book_0556",
+        "book_0558",
+        "book_0560",
+        "book_0565",
+        "book_0566",
+        "book_0567",
+        "book_0568",
+        "book_0571",
+        "book_0572",
+        "book_0580",
+        "book_0584",
+        "book_0585",
+        "book_0587",
+        "book_0589",
+        "book_0593",
+        "book_0594",
+        "book_0599",
+        "book_0603",
+        "book_0609",
+        "book_0610",
+        "book_0611",
+        "book_0619",
+        "book_0626",
+        "book_0630",
+        "book_0636",
+        "book_0638",
+        "book_0639",
+        "book_0640",
+        "book_0641",
+        "book_0642",
+        "book_0643",
+        "book_0644",
+        "book_0647",
+        "book_0648",
+        "book_0649",
+        "book_0650",
+        "book_0651",
+        "book_0652",
+        "book_0657",
+        "book_0658",
+        "book_0659",
+        "book_0663",
+        "book_0664",
+        "book_0709",
+        "book_0710",
+        "book_0711",
+        "book_0712",
+        "book_0713",
+        "book_0716",
+        "book_0717",
+        "book_0722",
+        "book_0748",
+        "book_0751",
+        "book_0752",
+        "book_0755",
+        "book_0761",
+        "book_0762",
+        "book_0765",
+        "book_0766",
+        "book_0767",
+        "book_0773",
+        "book_0774",
+        "book_0775",
+        "book_0776"
+      ]
+    },
+    "词话": {
+      "count": 59,
+      "books": [
+        "book_0024",
+        "book_0045",
+        "book_0046",
+        "book_0172",
+        "book_0179",
+        "book_0181",
+        "book_0186",
+        "book_0191",
+        "book_0192",
+        "book_0209",
+        "book_0211",
+        "book_0256",
+        "book_0260",
+        "book_0273",
+        "book_0295",
+        "book_0304",
+        "book_0307",
+        "book_0334",
+        "book_0342",
+        "book_0350",
+        "book_0352",
+        "book_0357",
+        "book_0382",
+        "book_0401",
+        "book_0454",
+        "book_0467",
+        "book_0478",
+        "book_0482",
+        "book_0483",
+        "book_0498",
+        "book_0514",
+        "book_0516",
+        "book_0534",
+        "book_0537",
+        "book_0538",
+        "book_0581",
+        "book_0588",
+        "book_0598",
+        "book_0607",
+        "book_0614",
+        "book_0631",
+        "book_0645",
+        "book_0646",
+        "book_0653",
+        "book_0654",
+        "book_0655",
+        "book_0656",
+        "book_0660",
+        "book_0661",
+        "book_0662",
+        "book_0702",
+        "book_0725",
+        "book_0730",
+        "book_0731",
+        "book_0733",
+        "book_0744",
+        "book_0746",
+        "book_0747",
+        "book_0770"
+      ]
+    },
+    "剧曲": {
+      "count": 107,
+      "books": [
+        "book_0042",
+        "book_0054",
+        "book_0059",
+        "book_0070",
+        "book_0071",
+        "book_0072",
+        "book_0073",
+        "book_0087",
+        "book_0088",
+        "book_0089",
+        "book_0090",
+        "book_0091",
+        "book_0092",
+        "book_0093",
+        "book_0094",
+        "book_0095",
+        "book_0096",
+        "book_0097",
+        "book_0098",
+        "book_0099",
+        "book_0100",
+        "book_0101",
+        "book_0102",
+        "book_0103",
+        "book_0104",
+        "book_0105",
+        "book_0106",
+        "book_0107",
+        "book_0108",
+        "book_0109",
+        "book_0110",
+        "book_0111",
+        "book_0112",
+        "book_0113",
+        "book_0114",
+        "book_0115",
+        "book_0116",
+        "book_0117",
+        "book_0118",
+        "book_0119",
+        "book_0120",
+        "book_0121",
+        "book_0122",
+        "book_0123",
+        "book_0124",
+        "book_0125",
+        "book_0126",
+        "book_0127",
+        "book_0128",
+        "book_0129",
+        "book_0130",
+        "book_0131",
+        "book_0132",
+        "book_0133",
+        "book_0134",
+        "book_0135",
+        "book_0136",
+        "book_0137",
+        "book_0138",
+        "book_0139",
+        "book_0140",
+        "book_0141",
+        "book_0142",
+        "book_0143",
+        "book_0144",
+        "book_0145",
+        "book_0146",
+        "book_0157",
+        "book_0176",
+        "book_0222",
+        "book_0315",
+        "book_0318",
+        "book_0324",
+        "book_0333",
+        "book_0351",
+        "book_0369",
+        "book_0380",
+        "book_0390",
+        "book_0391",
+        "book_0392",
+        "book_0393",
+        "book_0394",
+        "book_0395",
+        "book_0396",
+        "book_0397",
+        "book_0413",
+        "book_0424",
+        "book_0425",
+        "book_0460",
+        "book_0461",
+        "book_0485",
+        "book_0510",
+        "book_0511",
+        "book_0512",
+        "book_0521",
+        "book_0535",
+        "book_0544",
+        "book_0577",
+        "book_0579",
+        "book_0600",
+        "book_0622",
+        "book_0625",
+        "book_0633",
+        "book_0699",
+        "book_0715",
+        "book_0723",
+        "book_0732"
+      ]
+    },
+    "诗话": {
+      "count": 142,
+      "books": [
+        "book_0007",
+        "book_0010",
+        "book_0018",
+        "book_0020",
+        "book_0021",
+        "book_0033",
+        "book_0040",
+        "book_0043",
+        "book_0048",
+        "book_0052",
+        "book_0057",
+        "book_0076",
+        "book_0080",
+        "book_0081",
+        "book_0085",
+        "book_0086",
+        "book_0147",
+        "book_0149",
+        "book_0150",
+        "book_0152",
+        "book_0162",
+        "book_0170",
+        "book_0177",
+        "book_0180",
+        "book_0182",
+        "book_0183",
+        "book_0184",
+        "book_0194",
+        "book_0204",
+        "book_0206",
+        "book_0207",
+        "book_0208",
+        "book_0212",
+        "book_0220",
+        "book_0221",
+        "book_0227",
+        "book_0236",
+        "book_0237",
+        "book_0239",
+        "book_0258",
+        "book_0266",
+        "book_0272",
+        "book_0274",
+        "book_0275",
+        "book_0286",
+        "book_0287",
+        "book_0294",
+        "book_0303",
+        "book_0305",
+        "book_0308",
+        "book_0314",
+        "book_0323",
+        "book_0326",
+        "book_0343",
+        "book_0345",
+        "book_0355",
+        "book_0365",
+        "book_0371",
+        "book_0387",
+        "book_0404",
+        "book_0406",
+        "book_0407",
+        "book_0410",
+        "book_0414",
+        "book_0421",
+        "book_0423",
+        "book_0438",
+        "book_0439",
+        "book_0446",
+        "book_0450",
+        "book_0452",
+        "book_0455",
+        "book_0466",
+        "book_0468",
+        "book_0473",
+        "book_0475",
+        "book_0479",
+        "book_0491",
+        "book_0492",
+        "book_0495",
+        "book_0500",
+        "book_0501",
+        "book_0502",
+        "book_0503",
+        "book_0504",
+        "book_0505",
+        "book_0513",
+        "book_0529",
+        "book_0530",
+        "book_0532",
+        "book_0533",
+        "book_0540",
+        "book_0542",
+        "book_0547",
+        "book_0550",
+        "book_0562",
+        "book_0563",
+        "book_0573",
+        "book_0574",
+        "book_0575",
+        "book_0582",
+        "book_0604",
+        "book_0612",
+        "book_0613",
+        "book_0615",
+        "book_0617",
+        "book_0618",
+        "book_0621",
+        "book_0623",
+        "book_0624",
+        "book_0632",
+        "book_0635",
+        "book_0637",
+        "book_0670",
+        "book_0671",
+        "book_0677",
+        "book_0679",
+        "book_0681",
+        "book_0682",
+        "book_0684",
+        "book_0685",
+        "book_0686",
+        "book_0687",
+        "book_0688",
+        "book_0689",
+        "book_0690",
+        "book_0691",
+        "book_0694",
+        "book_0695",
+        "book_0706",
+        "book_0708",
+        "book_0718",
+        "book_0727",
+        "book_0736",
+        "book_0737",
+        "book_0740",
+        "book_0741",
+        "book_0745",
+        "book_0756",
+        "book_0757",
+        "book_0768",
+        "book_0772"
+      ]
+    },
+    "对联": {
+      "count": 5,
+      "books": [
+        "book_0291",
+        "book_0292",
+        "book_0374",
+        "book_0379",
+        "book_0433"
+      ]
+    },
+    "chinesePoetry": {
+      "count": 337925,
+      "books": [
+        "cp_tangshi",
+        "cp_songshi",
+        "cp_songci",
+        "cp_shijing",
+        "cp_nineteen",
+        "cp_mengxue"
+      ]
+    }
+  },
+  "books": [
+    {
+      "id": "book_0001",
+      "title": "七颂堂词绎",
+      "category": "词集",
+      "path": "shicang-books/七颂堂词绎.html",
+      "size": 19102,
+      "wordCount": 6367,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0002",
+      "title": "万首唐人绝句",
+      "category": "诗集",
+      "path": "shicang-books/万首唐人绝句.html",
+      "size": 1084685,
+      "wordCount": 361561,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0003",
+      "title": "三体唐诗",
+      "category": "诗集",
+      "path": "shicang-books/三体唐诗.html",
+      "size": 147284,
+      "wordCount": 49094,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0004",
+      "title": "三刘家集",
+      "category": "诗集",
+      "path": "shicang-books/三刘家集.html",
+      "size": 86303,
+      "wordCount": 28767,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0005",
+      "title": "三华集",
+      "category": "诗集",
+      "path": "shicang-books/三华集.html",
+      "size": 254104,
+      "wordCount": 84701,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0006",
+      "title": "三家宫词",
+      "category": "词集",
+      "path": "shicang-books/三家宫词.html",
+      "size": 41582,
+      "wordCount": 13860,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0007",
+      "title": "三家诗话",
+      "category": "诗话",
+      "path": "shicang-books/三家诗话.html",
+      "size": 19094,
+      "wordCount": 6364,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0008",
+      "title": "不下带编",
+      "category": "诗集",
+      "path": "shicang-books/不下带编.html",
+      "size": 227001,
+      "wordCount": 75667,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0009",
+      "title": "东坡词",
+      "category": "词集",
+      "path": "shicang-books/东坡词.html",
+      "size": 91217,
+      "wordCount": 30405,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0010",
+      "title": "东坡诗话",
+      "category": "诗话",
+      "path": "shicang-books/东坡诗话.html",
+      "size": 70279,
+      "wordCount": 23426,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0011",
+      "title": "东堂词",
+      "category": "词集",
+      "path": "shicang-books/东堂词.html",
+      "size": 54330,
+      "wordCount": 18110,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0012",
+      "title": "东浦词孏窟词",
+      "category": "词集",
+      "path": "shicang-books/东浦词孏窟词.html",
+      "size": 40040,
+      "wordCount": 13346,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0013",
+      "title": "东海渔歌",
+      "category": "诗集",
+      "path": "shicang-books/东海渔歌.html",
+      "size": 189916,
+      "wordCount": 63305,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0014",
+      "title": "两宋名贤小集",
+      "category": "诗集",
+      "path": "shicang-books/两宋名贤小集.html",
+      "size": 3630232,
+      "wordCount": 1210077,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0015",
+      "title": "严陵集",
+      "category": "诗集",
+      "path": "shicang-books/严陵集.html",
+      "size": 146345,
+      "wordCount": 48781,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0016",
+      "title": "中兴间气集",
+      "category": "诗集",
+      "path": "shicang-books/中兴间气集.html",
+      "size": 43131,
+      "wordCount": 14377,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0017",
+      "title": "中原音韵",
+      "category": "诗集",
+      "path": "shicang-books/中原音韵.html",
+      "size": 90067,
+      "wordCount": 30022,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0018",
+      "title": "中山诗话",
+      "category": "诗话",
+      "path": "shicang-books/中山诗话.html",
+      "size": 32531,
+      "wordCount": 10843,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0019",
+      "title": "中州集中州乐府",
+      "category": "词集",
+      "path": "shicang-books/中州集中州乐府.html",
+      "size": 612653,
+      "wordCount": 204217,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0020",
+      "title": "临汉隐居诗话",
+      "category": "诗话",
+      "path": "shicang-books/临汉隐居诗话.html",
+      "size": 41166,
+      "wordCount": 13722,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0021",
+      "title": "丽白楼诗话",
+      "category": "诗话",
+      "path": "shicang-books/丽白楼诗话.html",
+      "size": 25487,
+      "wordCount": 8495,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0022",
+      "title": "乐府余论",
+      "category": "词集",
+      "path": "shicang-books/乐府余论.html",
+      "size": 21446,
+      "wordCount": 7148,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0023",
+      "title": "乐府古题要解",
+      "category": "词集",
+      "path": "shicang-books/乐府古题要解.html",
+      "size": 45621,
+      "wordCount": 15207,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0024",
+      "title": "乐府指迷",
+      "category": "词话",
+      "path": "shicang-books/乐府指迷.html",
+      "size": 15125,
+      "wordCount": 5041,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0025",
+      "title": "乐府补题",
+      "category": "词集",
+      "path": "shicang-books/乐府补题.html",
+      "size": 23242,
+      "wordCount": 7747,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0026",
+      "title": "乐府诗集",
+      "category": "词集",
+      "path": "shicang-books/乐府诗集.html",
+      "size": 1393037,
+      "wordCount": 464345,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0027",
+      "title": "乐府阳春白雪",
+      "category": "词集",
+      "path": "shicang-books/乐府阳春白雪.html",
+      "size": 167377,
+      "wordCount": 55792,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0028",
+      "title": "乐府雅词",
+      "category": "词集",
+      "path": "shicang-books/乐府雅词.html",
+      "size": 228491,
+      "wordCount": 76163,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0029",
+      "title": "乐章集",
+      "category": "词集",
+      "path": "shicang-books/乐章集.html",
+      "size": 64487,
+      "wordCount": 21495,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0030",
+      "title": "书舟词",
+      "category": "词集",
+      "path": "shicang-books/书舟词.html",
+      "size": 41438,
+      "wordCount": 13812,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0031",
+      "title": "乾坤清气",
+      "category": "诗集",
+      "path": "shicang-books/乾坤清气.html",
+      "size": 247554,
+      "wordCount": 82518,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0032",
+      "title": "二京赋",
+      "category": "汉赋",
+      "path": "shicang-books/二京赋.html",
+      "size": 35161,
+      "wordCount": 11720,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0033",
+      "title": "二十四诗品",
+      "category": "诗话",
+      "path": "shicang-books/二十四诗品.html",
+      "size": 13328,
+      "wordCount": 4442,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0034",
+      "title": "二十四赋品",
+      "category": "汉赋",
+      "path": "shicang-books/二十四赋品.html",
+      "size": 10050,
+      "wordCount": 3350,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0035",
+      "title": "二南密旨",
+      "category": "诗集",
+      "path": "shicang-books/二南密旨.html",
+      "size": 15787,
+      "wordCount": 5262,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0036",
+      "title": "二妙集",
+      "category": "诗集",
+      "path": "shicang-books/二妙集.html",
+      "size": 117684,
+      "wordCount": 39228,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0037",
+      "title": "二家宫词",
+      "category": "词集",
+      "path": "shicang-books/二家宫词.html",
+      "size": 42780,
+      "wordCount": 14260,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0038",
+      "title": "二家诗选",
+      "category": "诗集",
+      "path": "shicang-books/二家诗选.html",
+      "size": 42809,
+      "wordCount": 14269,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0039",
+      "title": "二皇甫集",
+      "category": "诗集",
+      "path": "shicang-books/二皇甫集.html",
+      "size": 63296,
+      "wordCount": 21098,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0040",
+      "title": "二老堂诗话",
+      "category": "诗话",
+      "path": "shicang-books/二老堂诗话.html",
+      "size": 35265,
+      "wordCount": 11755,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0041",
+      "title": "于湖词",
+      "category": "词集",
+      "path": "shicang-books/于湖词.html",
+      "size": 51515,
+      "wordCount": 17171,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0042",
+      "title": "云谣集杂曲子",
+      "category": "剧曲",
+      "path": "shicang-books/云谣集杂曲子.html",
+      "size": 32941,
+      "wordCount": 10980,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0043",
+      "title": "五代诗话",
+      "category": "诗话",
+      "path": "shicang-books/五代诗话.html",
+      "size": 509942,
+      "wordCount": 169980,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0044",
+      "title": "京华慷慨竹枝词",
+      "category": "词集",
+      "path": "shicang-books/京华慷慨竹枝词.html",
+      "size": 19795,
+      "wordCount": 6598,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0045",
+      "title": "人间词话",
+      "category": "词话",
+      "path": "shicang-books/人间词话.html",
+      "size": 23344,
+      "wordCount": 7781,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0046",
+      "title": "人间词话删稿",
+      "category": "词话",
+      "path": "shicang-books/人间词话删稿.html",
+      "size": 39000,
+      "wordCount": 13000,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0047",
+      "title": "仄韵声律启蒙",
+      "category": "诗集",
+      "path": "shicang-books/仄韵声律启蒙.html",
+      "size": 33598,
+      "wordCount": 11199,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0048",
+      "title": "今传是楼诗话",
+      "category": "诗话",
+      "path": "shicang-books/今传是楼诗话.html",
+      "size": 708067,
+      "wordCount": 236022,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0049",
+      "title": "介存斋论词杂著",
+      "category": "词集",
+      "path": "shicang-books/介存斋论词杂著.html",
+      "size": 22017,
+      "wordCount": 7339,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0050",
+      "title": "介庵词",
+      "category": "词集",
+      "path": "shicang-books/介庵词.html",
+      "size": 41160,
+      "wordCount": 13720,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0051",
+      "title": "众妙集",
+      "category": "诗集",
+      "path": "shicang-books/众妙集.html",
+      "size": 61164,
+      "wordCount": 20388,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0052",
+      "title": "优古堂诗话",
+      "category": "诗话",
+      "path": "shicang-books/优古堂诗话.html",
+      "size": 69498,
+      "wordCount": 23166,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0053",
+      "title": "会稽掇英总集",
+      "category": "诗集",
+      "path": "shicang-books/会稽掇英总集.html",
+      "size": 316871,
+      "wordCount": 105623,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0054",
+      "title": "传奇汇考标目",
+      "category": "剧曲",
+      "path": "shicang-books/传奇汇考标目.html",
+      "size": 41481,
+      "wordCount": 13827,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0055",
+      "title": "余墨偶谈",
+      "category": "诗集",
+      "path": "shicang-books/余墨偶谈.html",
+      "size": 71465,
+      "wordCount": 23821,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0056",
+      "title": "俞楼诗记",
+      "category": "诗集",
+      "path": "shicang-books/俞楼诗记.html",
+      "size": 27301,
+      "wordCount": 9100,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0057",
+      "title": "偷闲庐诗话",
+      "category": "诗话",
+      "path": "shicang-books/偷闲庐诗话.html",
+      "size": 125718,
+      "wordCount": 41906,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0058",
+      "title": "元宫词百章笺注",
+      "category": "词集",
+      "path": "shicang-books/元宫词百章笺注.html",
+      "size": 200457,
+      "wordCount": 66819,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0059",
+      "title": "元曲选",
+      "category": "剧曲",
+      "path": "shicang-books/元曲选.html",
+      "size": 4226265,
+      "wordCount": 1408755,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0060",
+      "title": "元诗体要",
+      "category": "诗集",
+      "path": "shicang-books/元诗体要.html",
+      "size": 338479,
+      "wordCount": 112826,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0061",
+      "title": "元诗别裁集",
+      "category": "诗集",
+      "path": "shicang-books/元诗别裁集.html",
+      "size": 189419,
+      "wordCount": 63139,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0062",
+      "title": "元诗纪事",
+      "category": "诗集",
+      "path": "shicang-books/元诗纪事.html",
+      "size": 2299178,
+      "wordCount": 766392,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0063",
+      "title": "元诗选",
+      "category": "诗集",
+      "path": "shicang-books/元诗选.html",
+      "size": 6328288,
+      "wordCount": 2109429,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0064",
+      "title": "元音",
+      "category": "诗集",
+      "path": "shicang-books/元音.html",
+      "size": 300728,
+      "wordCount": 100242,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0065",
+      "title": "元音遗响",
+      "category": "诗集",
+      "path": "shicang-books/元音遗响.html",
+      "size": 292406,
+      "wordCount": 97468,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0066",
+      "title": "元风雅",
+      "category": "诗集",
+      "path": "shicang-books/元风雅.html",
+      "size": 258408,
+      "wordCount": 86136,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0067",
+      "title": "先秦汉魏晋南北朝诗",
+      "category": "诗集",
+      "path": "shicang-books/先秦汉魏晋南北朝诗.html",
+      "size": 3546712,
+      "wordCount": 1182237,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0068",
+      "title": "光宣以来诗坛旁记",
+      "category": "诗集",
+      "path": "shicang-books/光宣以来诗坛旁记.html",
+      "size": 262723,
+      "wordCount": 87574,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0069",
+      "title": "光宣诗坛点将录",
+      "category": "诗集",
+      "path": "shicang-books/光宣诗坛点将录.html",
+      "size": 128411,
+      "wordCount": 42803,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0070",
+      "title": "全元散曲",
+      "category": "剧曲",
+      "path": "shicang-books/全元散曲.html",
+      "size": 1592228,
+      "wordCount": 530742,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0071",
+      "title": "全元曲",
+      "category": "剧曲",
+      "path": "shicang-books/全元曲.html",
+      "size": 8163657,
+      "wordCount": 2721219,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0072",
+      "title": "全元曲戏文",
+      "category": "剧曲",
+      "path": "shicang-books/全元曲戏文.html",
+      "size": 1045249,
+      "wordCount": 348416,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0073",
+      "title": "全元曲杂剧",
+      "category": "剧曲",
+      "path": "shicang-books/全元曲杂剧.html",
+      "size": 6327592,
+      "wordCount": 2109197,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0074",
+      "title": "全史宫词",
+      "category": "词集",
+      "path": "shicang-books/全史宫词.html",
+      "size": 991461,
+      "wordCount": 330487,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0075",
+      "title": "全唐五代词",
+      "category": "词集",
+      "path": "shicang-books/全唐五代词.html",
+      "size": 672183,
+      "wordCount": 224061,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0076",
+      "title": "全唐五代诗格",
+      "category": "诗话",
+      "path": "shicang-books/全唐五代诗格.html",
+      "size": 123513,
+      "wordCount": 41171,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0077",
+      "title": "全唐词",
+      "category": "词集",
+      "path": "shicang-books/全唐词.html",
+      "size": 379827,
+      "wordCount": 126609,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0078",
+      "title": "全唐诗",
+      "category": "诗集",
+      "path": "shicang-books/全唐诗.html",
+      "size": 13749427,
+      "wordCount": 4583142,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0079",
+      "title": "全唐诗补编",
+      "category": "诗集",
+      "path": "shicang-books/全唐诗补编.html",
+      "size": 2094675,
+      "wordCount": 698225,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0080",
+      "title": "全唐诗话",
+      "category": "诗话",
+      "path": "shicang-books/全唐诗话.html",
+      "size": 278661,
+      "wordCount": 92887,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0081",
+      "title": "全唐诗话续编",
+      "category": "诗话",
+      "path": "shicang-books/全唐诗话续编.html",
+      "size": 98578,
+      "wordCount": 32859,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0082",
+      "title": "全宋词",
+      "category": "词集",
+      "path": "shicang-books/全宋词.html",
+      "size": 6143230,
+      "wordCount": 2047743,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0083",
+      "title": "全宋诗",
+      "category": "诗集",
+      "path": "shicang-books/全宋诗.html",
+      "size": 956972,
+      "wordCount": 318990,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0084",
+      "title": "全金元词",
+      "category": "词集",
+      "path": "shicang-books/全金元词.html",
+      "size": 2454333,
+      "wordCount": 818111,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0085",
+      "title": "全闽诗话",
+      "category": "诗话",
+      "path": "shicang-books/全闽诗话.html",
+      "size": 862630,
+      "wordCount": 287543,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0086",
+      "title": "六一诗话",
+      "category": "诗话",
+      "path": "shicang-books/六一诗话.html",
+      "size": 21429,
+      "wordCount": 7143,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0087",
+      "title": "六十种曲三元记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲三元记.html",
+      "size": 135158,
+      "wordCount": 45052,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0088",
+      "title": "六十种曲东郭记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲东郭记.html",
+      "size": 164168,
+      "wordCount": 54722,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0089",
+      "title": "六十种曲义侠记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲义侠记.html",
+      "size": 143907,
+      "wordCount": 47969,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0090",
+      "title": "六十种曲八义记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲八义记.html",
+      "size": 135066,
+      "wordCount": 45022,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0091",
+      "title": "六十种曲千金记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲千金记.html",
+      "size": 218720,
+      "wordCount": 72906,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0092",
+      "title": "六十种曲南柯记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲南柯记.html",
+      "size": 192998,
+      "wordCount": 64332,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0093",
+      "title": "六十种曲双烈记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲双烈记.html",
+      "size": 173349,
+      "wordCount": 57783,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0094",
+      "title": "六十种曲双珠记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲双珠记.html",
+      "size": 248525,
+      "wordCount": 82841,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0095",
+      "title": "六十种曲四喜记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲四喜记.html",
+      "size": 144343,
+      "wordCount": 48114,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0096",
+      "title": "六十种曲四贤记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲四贤记.html",
+      "size": 142927,
+      "wordCount": 47642,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0097",
+      "title": "六十种曲寻亲记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲寻亲记.html",
+      "size": 159720,
+      "wordCount": 53240,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0098",
+      "title": "六十种曲幽闺记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲幽闺记.html",
+      "size": 161427,
+      "wordCount": 53809,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0099",
+      "title": "六十种曲彩毫记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲彩毫记.html",
+      "size": 166066,
+      "wordCount": 55355,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0100",
+      "title": "六十种曲怀香记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲怀香记.html",
+      "size": 192833,
+      "wordCount": 64277,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0101",
+      "title": "六十种曲投梭记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲投梭记.html",
+      "size": 193321,
+      "wordCount": 64440,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0102",
+      "title": "六十种曲明珠记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲明珠记.html",
+      "size": 199186,
+      "wordCount": 66395,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0103",
+      "title": "六十种曲昙花记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲昙花记.html",
+      "size": 269359,
+      "wordCount": 89786,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0104",
+      "title": "六十种曲春芜记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲春芜记.html",
+      "size": 110247,
+      "wordCount": 36749,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0105",
+      "title": "六十种曲杀狗记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲杀狗记.html",
+      "size": 179666,
+      "wordCount": 59888,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0106",
+      "title": "六十种曲水浒记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲水浒记.html",
+      "size": 144416,
+      "wordCount": 48138,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0107",
+      "title": "六十种曲浣纱记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲浣纱记.html",
+      "size": 228541,
+      "wordCount": 76180,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0108",
+      "title": "六十种曲灌园记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲灌园记.html",
+      "size": 93285,
+      "wordCount": 31095,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0109",
+      "title": "六十种曲焚香记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲焚香记.html",
+      "size": 173702,
+      "wordCount": 57900,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0110",
+      "title": "六十种曲狮吼记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲狮吼记.html",
+      "size": 144855,
+      "wordCount": 48285,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0111",
+      "title": "六十种曲玉合记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲玉合记.html",
+      "size": 188388,
+      "wordCount": 62796,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0112",
+      "title": "六十种曲玉玦记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲玉玦记.html",
+      "size": 164598,
+      "wordCount": 54866,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0113",
+      "title": "六十种曲玉环记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲玉环记.html",
+      "size": 189262,
+      "wordCount": 63087,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0114",
+      "title": "六十种曲玉簪记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲玉簪记.html",
+      "size": 122286,
+      "wordCount": 40762,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0115",
+      "title": "六十种曲玉镜台记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲玉镜台记.html",
+      "size": 157223,
+      "wordCount": 52407,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0116",
+      "title": "六十种曲琴心记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲琴心记.html",
+      "size": 205636,
+      "wordCount": 68545,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0117",
+      "title": "六十种曲琵琶记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲琵琶记.html",
+      "size": 230722,
+      "wordCount": 76907,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0118",
+      "title": "六十种曲白兔记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲白兔记.html",
+      "size": 125265,
+      "wordCount": 41755,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0119",
+      "title": "六十种曲目录",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲目录.html",
+      "size": 11982,
+      "wordCount": 3994,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0120",
+      "title": "六十种曲种玉记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲种玉记.html",
+      "size": 100198,
+      "wordCount": 33399,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0121",
+      "title": "六十种曲精忠记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲精忠记.html",
+      "size": 127168,
+      "wordCount": 42389,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0122",
+      "title": "六十种曲紫箫记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲紫箫记.html",
+      "size": 200809,
+      "wordCount": 66936,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0123",
+      "title": "六十种曲紫钗记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲紫钗记.html",
+      "size": 214652,
+      "wordCount": 71550,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0124",
+      "title": "六十种曲红拂记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲红拂记.html",
+      "size": 102990,
+      "wordCount": 34330,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0125",
+      "title": "六十种曲红梨记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲红梨记.html",
+      "size": 134623,
+      "wordCount": 44874,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0126",
+      "title": "六十种曲绣襦记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲绣襦记.html",
+      "size": 153433,
+      "wordCount": 51144,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0127",
+      "title": "六十种曲节侠记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲节侠记.html",
+      "size": 116296,
+      "wordCount": 38765,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0128",
+      "title": "六十种曲荆钗记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲荆钗记.html",
+      "size": 196132,
+      "wordCount": 65377,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0129",
+      "title": "六十种曲蕉帕记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲蕉帕记.html",
+      "size": 177213,
+      "wordCount": 59071,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0130",
+      "title": "六十种曲西厢记-明-崔时佩",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲西厢记-明-崔时佩.html",
+      "size": 150409,
+      "wordCount": 50136,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0131",
+      "title": "六十种曲西厢记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲西厢记.html",
+      "size": 143363,
+      "wordCount": 47787,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0132",
+      "title": "六十种曲西楼记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲西楼记.html",
+      "size": 204548,
+      "wordCount": 68182,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0133",
+      "title": "六十种曲赠书记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲赠书记.html",
+      "size": 119784,
+      "wordCount": 39928,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0134",
+      "title": "六十种曲运甓记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲运甓记.html",
+      "size": 205160,
+      "wordCount": 68386,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0135",
+      "title": "六十种曲还魂记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲还魂记.html",
+      "size": 282355,
+      "wordCount": 94118,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0136",
+      "title": "六十种曲邯郸记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲邯郸记.html",
+      "size": 164505,
+      "wordCount": 54835,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0137",
+      "title": "六十种曲金莲记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲金莲记.html",
+      "size": 159851,
+      "wordCount": 53283,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0138",
+      "title": "六十种曲金雀记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲金雀记.html",
+      "size": 122921,
+      "wordCount": 40973,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0139",
+      "title": "六十种曲锦笺记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲锦笺记.html",
+      "size": 181842,
+      "wordCount": 60614,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0140",
+      "title": "六十种曲霞笺记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲霞笺记.html",
+      "size": 110776,
+      "wordCount": 36925,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0141",
+      "title": "六十种曲青衫记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲青衫记.html",
+      "size": 94025,
+      "wordCount": 31341,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0142",
+      "title": "六十种曲飞丸记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲飞丸记.html",
+      "size": 149453,
+      "wordCount": 49817,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0143",
+      "title": "六十种曲香囊记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲香囊记.html",
+      "size": 182959,
+      "wordCount": 60986,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0144",
+      "title": "六十种曲鸣凤记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲鸣凤记.html",
+      "size": 257610,
+      "wordCount": 85870,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0145",
+      "title": "六十种曲鸾鎞记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲鸾鎞记.html",
+      "size": 94362,
+      "wordCount": 31454,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0146",
+      "title": "六十种曲龙膏记",
+      "category": "剧曲",
+      "path": "shicang-books/六十种曲龙膏记.html",
+      "size": 138677,
+      "wordCount": 46225,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0147",
+      "title": "兰丛诗话",
+      "category": "诗话",
+      "path": "shicang-books/兰丛诗话.html",
+      "size": 30784,
+      "wordCount": 10261,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0148",
+      "title": "关大王独赴单刀会",
+      "category": "诗集",
+      "path": "shicang-books/关大王独赴单刀会.html",
+      "size": 35698,
+      "wordCount": 11899,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0149",
+      "title": "养一斋李杜诗话",
+      "category": "诗话",
+      "path": "shicang-books/养一斋李杜诗话.html",
+      "size": 89577,
+      "wordCount": 29859,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0150",
+      "title": "养一斋诗话",
+      "category": "诗话",
+      "path": "shicang-books/养一斋诗话.html",
+      "size": 268815,
+      "wordCount": 89605,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0151",
+      "title": "冯延巳祠集评",
+      "category": "诗集",
+      "path": "shicang-books/冯延巳祠集评.html",
+      "size": 59771,
+      "wordCount": 19923,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0152",
+      "title": "冷禅室诗话",
+      "category": "诗话",
+      "path": "shicang-books/冷禅室诗话.html",
+      "size": 64628,
+      "wordCount": 21542,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0153",
+      "title": "分春馆词",
+      "category": "词集",
+      "path": "shicang-books/分春馆词.html",
+      "size": 87948,
+      "wordCount": 29316,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0154",
+      "title": "列朝诗集",
+      "category": "诗集",
+      "path": "shicang-books/列朝诗集.html",
+      "size": 6672139,
+      "wordCount": 2224046,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0155",
+      "title": "初学晬盘",
+      "category": "诗集",
+      "path": "shicang-books/初学晬盘.html",
+      "size": 37624,
+      "wordCount": 12541,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0156",
+      "title": "初寮词圣求词",
+      "category": "词集",
+      "path": "shicang-books/初寮词圣求词.html",
+      "size": 54746,
+      "wordCount": 18248,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0157",
+      "title": "剧曲-顾曲杂言",
+      "category": "剧曲",
+      "path": "shicang-books/剧曲-顾曲杂言.html",
+      "size": 27910,
+      "wordCount": 9303,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0158",
+      "title": "剧话",
+      "category": "诗集",
+      "path": "shicang-books/剧话.html",
+      "size": 56996,
+      "wordCount": 18998,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0159",
+      "title": "剧说",
+      "category": "诗集",
+      "path": "shicang-books/剧说.html",
+      "size": 267850,
+      "wordCount": 89283,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0160",
+      "title": "剧谈录",
+      "category": "诗集",
+      "path": "shicang-books/剧谈录.html",
+      "size": 80923,
+      "wordCount": 26974,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0161",
+      "title": "化人游词曲",
+      "category": "词集",
+      "path": "shicang-books/化人游词曲.html",
+      "size": 67348,
+      "wordCount": 22449,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0162",
+      "title": "北江诗话",
+      "category": "诗话",
+      "path": "shicang-books/北江诗话.html",
+      "size": 141669,
+      "wordCount": 47223,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0163",
+      "title": "十五家词",
+      "category": "词集",
+      "path": "shicang-books/十五家词.html",
+      "size": 782144,
+      "wordCount": 260714,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0164",
+      "title": "十先生奥论注",
+      "category": "诗集",
+      "path": "shicang-books/十先生奥论注.html",
+      "size": 658487,
+      "wordCount": 219495,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0165",
+      "title": "十八家诗抄",
+      "category": "诗集",
+      "path": "shicang-books/十八家诗抄.html",
+      "size": 1998084,
+      "wordCount": 666028,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0166",
+      "title": "十年都门竹枝词",
+      "category": "词集",
+      "path": "shicang-books/十年都门竹枝词.html",
+      "size": 14747,
+      "wordCount": 4915,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0167",
+      "title": "十朝诗乘",
+      "category": "诗集",
+      "path": "shicang-books/十朝诗乘.html",
+      "size": 2045171,
+      "wordCount": 681723,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0168",
+      "title": "十香词",
+      "category": "词集",
+      "path": "shicang-books/十香词.html",
+      "size": 6149,
+      "wordCount": 2049,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0169",
+      "title": "千家诗",
+      "category": "诗集",
+      "path": "shicang-books/千家诗.html",
+      "size": 61104,
+      "wordCount": 20368,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0170",
+      "title": "升庵诗话",
+      "category": "诗话",
+      "path": "shicang-books/升庵诗话.html",
+      "size": 383966,
+      "wordCount": 127988,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0171",
+      "title": "半九亭集",
+      "category": "诗集",
+      "path": "shicang-books/半九亭集.html",
+      "size": 22046,
+      "wordCount": 7348,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0172",
+      "title": "南亭词话",
+      "category": "词话",
+      "path": "shicang-books/南亭词话.html",
+      "size": 39135,
+      "wordCount": 13045,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0173",
+      "title": "南宋襍事诗",
+      "category": "诗集",
+      "path": "shicang-books/南宋襍事诗.html",
+      "size": 399668,
+      "wordCount": 133222,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0174",
+      "title": "南岳倡酬集",
+      "category": "诗集",
+      "path": "shicang-books/南岳倡酬集.html",
+      "size": 66814,
+      "wordCount": 22271,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0175",
+      "title": "南州集存",
+      "category": "诗集",
+      "path": "shicang-books/南州集存.html",
+      "size": 318594,
+      "wordCount": 106198,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0176",
+      "title": "南曲入声客问",
+      "category": "剧曲",
+      "path": "shicang-books/南曲入声客问.html",
+      "size": 18609,
+      "wordCount": 6203,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0177",
+      "title": "南濠诗话",
+      "category": "诗话",
+      "path": "shicang-books/南濠诗话.html",
+      "size": 48440,
+      "wordCount": 16146,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0178",
+      "title": "南词叙录",
+      "category": "词集",
+      "path": "shicang-books/南词叙录.html",
+      "size": 36381,
+      "wordCount": 12127,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0179",
+      "title": "卧庐词话",
+      "category": "词话",
+      "path": "shicang-books/卧庐词话.html",
+      "size": 25881,
+      "wordCount": 8627,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0180",
+      "title": "卧雪诗话",
+      "category": "诗话",
+      "path": "shicang-books/卧雪诗话.html",
+      "size": 459795,
+      "wordCount": 153265,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0181",
+      "title": "历代词话",
+      "category": "词话",
+      "path": "shicang-books/历代词话.html",
+      "size": 342169,
+      "wordCount": 114056,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0182",
+      "title": "历代诗话",
+      "category": "诗话",
+      "path": "shicang-books/历代诗话.html",
+      "size": 1339672,
+      "wordCount": 446557,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0183",
+      "title": "历代诗话索考",
+      "category": "诗话",
+      "path": "shicang-books/历代诗话索考.html",
+      "size": 33186,
+      "wordCount": 11062,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0184",
+      "title": "原诗",
+      "category": "诗话",
+      "path": "shicang-books/原诗.html",
+      "size": 108230,
+      "wordCount": 36076,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0185",
+      "title": "友古词",
+      "category": "词集",
+      "path": "shicang-books/友古词.html",
+      "size": 51203,
+      "wordCount": 17067,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0186",
+      "title": "双砚斋词话",
+      "category": "词话",
+      "path": "shicang-books/双砚斋词话.html",
+      "size": 18210,
+      "wordCount": 6070,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0187",
+      "title": "古乐府",
+      "category": "词集",
+      "path": "shicang-books/古乐府.html",
+      "size": 248917,
+      "wordCount": 82972,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0188",
+      "title": "古乐苑",
+      "category": "诗集",
+      "path": "shicang-books/古乐苑.html",
+      "size": 1279406,
+      "wordCount": 426468,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0189",
+      "title": "古今禅藻集",
+      "category": "诗集",
+      "path": "shicang-books/古今禅藻集.html",
+      "size": 636437,
+      "wordCount": 212145,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0190",
+      "title": "古今词论",
+      "category": "词集",
+      "path": "shicang-books/古今词论.html",
+      "size": 35425,
+      "wordCount": 11808,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0191",
+      "title": "古今词话-清-沈雄",
+      "category": "词话",
+      "path": "shicang-books/古今词话-清-沈雄.html",
+      "size": 423074,
+      "wordCount": 141024,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0192",
+      "title": "古今词话",
+      "category": "词话",
+      "path": "shicang-books/古今词话.html",
+      "size": 58580,
+      "wordCount": 19526,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0193",
+      "title": "古今诗删",
+      "category": "诗集",
+      "path": "shicang-books/古今诗删.html",
+      "size": 482441,
+      "wordCount": 160813,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0194",
+      "title": "古今诗话",
+      "category": "诗话",
+      "path": "shicang-books/古今诗话.html",
+      "size": 336615,
+      "wordCount": 112205,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0195",
+      "title": "古今风谣",
+      "category": "诗集",
+      "path": "shicang-books/古今风谣.html",
+      "size": 71707,
+      "wordCount": 23902,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0196",
+      "title": "古诗源",
+      "category": "诗集",
+      "path": "shicang-books/古诗源.html",
+      "size": 383963,
+      "wordCount": 127987,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0197",
+      "title": "古诗纪",
+      "category": "诗集",
+      "path": "shicang-books/古诗纪.html",
+      "size": 2359121,
+      "wordCount": 786373,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0198",
+      "title": "古诗镜唐诗镜",
+      "category": "诗集",
+      "path": "shicang-books/古诗镜唐诗镜.html",
+      "size": 1593633,
+      "wordCount": 531211,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0199",
+      "title": "古谣谚",
+      "category": "诗集",
+      "path": "shicang-books/古谣谚.html",
+      "size": 490335,
+      "wordCount": 163445,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0200",
+      "title": "古赋辩体",
+      "category": "汉赋",
+      "path": "shicang-books/古赋辩体.html",
+      "size": 288627,
+      "wordCount": 96209,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0201",
+      "title": "台湾杂咏合刻",
+      "category": "诗集",
+      "path": "shicang-books/台湾杂咏合刻.html",
+      "size": 95192,
+      "wordCount": 31730,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0202",
+      "title": "台湾诗乘",
+      "category": "诗集",
+      "path": "shicang-books/台湾诗乘.html",
+      "size": 414344,
+      "wordCount": 138114,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0203",
+      "title": "台湾诗钞",
+      "category": "诗集",
+      "path": "shicang-books/台湾诗钞.html",
+      "size": 688894,
+      "wordCount": 229631,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0204",
+      "title": "台阳诗话",
+      "category": "诗话",
+      "path": "shicang-books/台阳诗话.html",
+      "size": 151405,
+      "wordCount": 50468,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0205",
+      "title": "同文馆唱和诗",
+      "category": "诗集",
+      "path": "shicang-books/同文馆唱和诗.html",
+      "size": 63530,
+      "wordCount": 21176,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0206",
+      "title": "名山诗话",
+      "category": "诗话",
+      "path": "shicang-books/名山诗话.html",
+      "size": 126866,
+      "wordCount": 42288,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0207",
+      "title": "后山诗话",
+      "category": "诗话",
+      "path": "shicang-books/后山诗话.html",
+      "size": 25601,
+      "wordCount": 8533,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0208",
+      "title": "后村诗话",
+      "category": "诗话",
+      "path": "shicang-books/后村诗话.html",
+      "size": 381574,
+      "wordCount": 127191,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0209",
+      "title": "听秋声馆词话",
+      "category": "词话",
+      "path": "shicang-books/听秋声馆词话.html",
+      "size": 487065,
+      "wordCount": 162355,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0210",
+      "title": "吴下谚联",
+      "category": "诗集",
+      "path": "shicang-books/吴下谚联.html",
+      "size": 195809,
+      "wordCount": 65269,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0211",
+      "title": "吴礼部词话",
+      "category": "词话",
+      "path": "shicang-books/吴礼部词话.html",
+      "size": 9523,
+      "wordCount": 3174,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0212",
+      "title": "吴礼部诗话",
+      "category": "诗话",
+      "path": "shicang-books/吴礼部诗话.html",
+      "size": 74162,
+      "wordCount": 24720,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0213",
+      "title": "和清真词",
+      "category": "词集",
+      "path": "shicang-books/和清真词.html",
+      "size": 37393,
+      "wordCount": 12464,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0214",
+      "title": "哀江南赋",
+      "category": "汉赋",
+      "path": "shicang-books/哀江南赋.html",
+      "size": 18455,
+      "wordCount": 6151,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0215",
+      "title": "哭庵词集",
+      "category": "词集",
+      "path": "shicang-books/哭庵词集.html",
+      "size": 215961,
+      "wordCount": 71987,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0216",
+      "title": "唐人万首绝句选",
+      "category": "诗集",
+      "path": "shicang-books/唐人万首绝句选.html",
+      "size": 142437,
+      "wordCount": 47479,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0217",
+      "title": "唐僧弘秀集",
+      "category": "诗集",
+      "path": "shicang-books/唐僧弘秀集.html",
+      "size": 101919,
+      "wordCount": 33973,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0218",
+      "title": "唐四僧诗",
+      "category": "诗集",
+      "path": "shicang-books/唐四僧诗.html",
+      "size": 33525,
+      "wordCount": 11175,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0219",
+      "title": "唐子西文录",
+      "category": "诗集",
+      "path": "shicang-books/唐子西文录.html",
+      "size": 14257,
+      "wordCount": 4752,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0220",
+      "title": "唐宋分门名贤诗话",
+      "category": "诗话",
+      "path": "shicang-books/唐宋分门名贤诗话.html",
+      "size": 128831,
+      "wordCount": 42943,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0221",
+      "title": "唐宋名贤诗话",
+      "category": "诗话",
+      "path": "shicang-books/唐宋名贤诗话.html",
+      "size": 7478,
+      "wordCount": 2492,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0222",
+      "title": "唐宋大曲考",
+      "category": "剧曲",
+      "path": "shicang-books/唐宋大曲考.html",
+      "size": 63997,
+      "wordCount": 21332,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0223",
+      "title": "唐宋诗醇",
+      "category": "诗集",
+      "path": "shicang-books/唐宋诗醇.html",
+      "size": 1622493,
+      "wordCount": 540831,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0224",
+      "title": "唐宋诸贤绝妙词选",
+      "category": "词集",
+      "path": "shicang-books/唐宋诸贤绝妙词选.html",
+      "size": 174477,
+      "wordCount": 58159,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0225",
+      "title": "唐尊前集",
+      "category": "诗集",
+      "path": "shicang-books/唐尊前集.html",
+      "size": 66304,
+      "wordCount": 22101,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0226",
+      "title": "唐百家诗选",
+      "category": "诗集",
+      "path": "shicang-books/唐百家诗选.html",
+      "size": 305101,
+      "wordCount": 101700,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0227",
+      "title": "唐诗品汇唐诗拾遗",
+      "category": "诗话",
+      "path": "shicang-books/唐诗品汇唐诗拾遗.html",
+      "size": 1799797,
+      "wordCount": 599932,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0228",
+      "title": "唐诗纪事",
+      "category": "诗集",
+      "path": "shicang-books/唐诗纪事.html",
+      "size": 1637231,
+      "wordCount": 545743,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0229",
+      "title": "唐诗鼓吹",
+      "category": "诗集",
+      "path": "shicang-books/唐诗鼓吹.html",
+      "size": 365353,
+      "wordCount": 121784,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0230",
+      "title": "唐贤三昧集",
+      "category": "诗集",
+      "path": "shicang-books/唐贤三昧集.html",
+      "size": 99794,
+      "wordCount": 33264,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0231",
+      "title": "唐音",
+      "category": "诗集",
+      "path": "shicang-books/唐音.html",
+      "size": 590540,
+      "wordCount": 196846,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0232",
+      "title": "唐音癸签",
+      "category": "诗集",
+      "path": "shicang-books/唐音癸签.html",
+      "size": 439686,
+      "wordCount": 146562,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0233",
+      "title": "唐音癸籖",
+      "category": "诗集",
+      "path": "shicang-books/唐音癸籖.html",
+      "size": 443608,
+      "wordCount": 147869,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0234",
+      "title": "四书韵对",
+      "category": "诗集",
+      "path": "shicang-books/四书韵对.html",
+      "size": 24637,
+      "wordCount": 8212,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0235",
+      "title": "四六法海",
+      "category": "诗集",
+      "path": "shicang-books/四六法海.html",
+      "size": 966120,
+      "wordCount": 322040,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0236",
+      "title": "四溟诗话",
+      "category": "诗话",
+      "path": "shicang-books/四溟诗话.html",
+      "size": 166884,
+      "wordCount": 55628,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0237",
+      "title": "围炉诗话",
+      "category": "诗话",
+      "path": "shicang-books/围炉诗话.html",
+      "size": 327632,
+      "wordCount": 109210,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0238",
+      "title": "国朝诗评",
+      "category": "诗集",
+      "path": "shicang-books/国朝诗评.html",
+      "size": 14174,
+      "wordCount": 4724,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0239",
+      "title": "国朝诗话",
+      "category": "诗话",
+      "path": "shicang-books/国朝诗话.html",
+      "size": 133761,
+      "wordCount": 44587,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0240",
+      "title": "国秀集",
+      "category": "诗集",
+      "path": "shicang-books/国秀集.html",
+      "size": 50904,
+      "wordCount": 16968,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0241",
+      "title": "圭塘欵乃集",
+      "category": "诗集",
+      "path": "shicang-books/圭塘欵乃集.html",
+      "size": 94542,
+      "wordCount": 31514,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0242",
+      "title": "圭塘欸乃集",
+      "category": "诗集",
+      "path": "shicang-books/圭塘欸乃集.html",
+      "size": 93624,
+      "wordCount": 31208,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0243",
+      "title": "坡门酬唱集",
+      "category": "诗集",
+      "path": "shicang-books/坡门酬唱集.html",
+      "size": 318441,
+      "wordCount": 106147,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0244",
+      "title": "坦庵词",
+      "category": "词集",
+      "path": "shicang-books/坦庵词.html",
+      "size": 48903,
+      "wordCount": 16301,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0245",
+      "title": "堂东老劝破家子弟",
+      "category": "诗集",
+      "path": "shicang-books/堂东老劝破家子弟.html",
+      "size": 65369,
+      "wordCount": 21789,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0246",
+      "title": "填词杂说",
+      "category": "词集",
+      "path": "shicang-books/填词杂说.html",
+      "size": 11629,
+      "wordCount": 3876,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0247",
+      "title": "填词浅说",
+      "category": "词集",
+      "path": "shicang-books/填词浅说.html",
+      "size": 26244,
+      "wordCount": 8748,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0248",
+      "title": "增注唐策",
+      "category": "诗集",
+      "path": "shicang-books/增注唐策.html",
+      "size": 274584,
+      "wordCount": 91528,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0249",
+      "title": "声律发蒙",
+      "category": "诗集",
+      "path": "shicang-books/声律发蒙.html",
+      "size": 21422,
+      "wordCount": 7140,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0250",
+      "title": "声律启蒙-清-车万育",
+      "category": "诗集",
+      "path": "shicang-books/声律启蒙-清-车万育.html",
+      "size": 30934,
+      "wordCount": 10311,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0251",
+      "title": "声律启蒙",
+      "category": "诗集",
+      "path": "shicang-books/声律启蒙.html",
+      "size": 32695,
+      "wordCount": 10898,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0252",
+      "title": "声执",
+      "category": "诗集",
+      "path": "shicang-books/声执.html",
+      "size": 93244,
+      "wordCount": 31081,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0253",
+      "title": "声画集",
+      "category": "诗集",
+      "path": "shicang-books/声画集.html",
+      "size": 224053,
+      "wordCount": 74684,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0254",
+      "title": "声调谱",
+      "category": "诗集",
+      "path": "shicang-books/声调谱.html",
+      "size": 45317,
+      "wordCount": 15105,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0255",
+      "title": "处囊诀",
+      "category": "诗集",
+      "path": "shicang-books/处囊诀.html",
+      "size": 6585,
+      "wordCount": 2195,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0256",
+      "title": "复堂词话",
+      "category": "词话",
+      "path": "shicang-books/复堂词话.html",
+      "size": 47572,
+      "wordCount": 15857,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0257",
+      "title": "复雅歌词",
+      "category": "词集",
+      "path": "shicang-books/复雅歌词.html",
+      "size": 12015,
+      "wordCount": 4005,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0258",
+      "title": "大唐三藏取经诗话",
+      "category": "诗话",
+      "path": "shicang-books/大唐三藏取经诗话.html",
+      "size": 47285,
+      "wordCount": 15761,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0259",
+      "title": "大雅集",
+      "category": "诗集",
+      "path": "shicang-books/大雅集.html",
+      "size": 109742,
+      "wordCount": 36580,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0260",
+      "title": "大鹤山人词话",
+      "category": "词话",
+      "path": "shicang-books/大鹤山人词话.html",
+      "size": 73932,
+      "wordCount": 24644,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0261",
+      "title": "天下同文集",
+      "category": "诗集",
+      "path": "shicang-books/天下同文集.html",
+      "size": 190616,
+      "wordCount": 63538,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0262",
+      "title": "天倪阁词",
+      "category": "词集",
+      "path": "shicang-books/天倪阁词.html",
+      "size": 35310,
+      "wordCount": 11770,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0263",
+      "title": "天厨禁脔",
+      "category": "诗集",
+      "path": "shicang-books/天厨禁脔.html",
+      "size": 51855,
+      "wordCount": 17285,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0264",
+      "title": "天台前集天台续集",
+      "category": "诗集",
+      "path": "shicang-books/天台前集天台续集.html",
+      "size": 364834,
+      "wordCount": 121611,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0265",
+      "title": "天籁集",
+      "category": "诗集",
+      "path": "shicang-books/天籁集.html",
+      "size": 50591,
+      "wordCount": 16863,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0266",
+      "title": "夷白斋诗话",
+      "category": "诗话",
+      "path": "shicang-books/夷白斋诗话.html",
+      "size": 21495,
+      "wordCount": 7165,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0267",
+      "title": "夹竹桃顶针千家诗山歌",
+      "category": "诗集",
+      "path": "shicang-books/夹竹桃顶针千家诗山歌.html",
+      "size": 35242,
+      "wordCount": 11747,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0268",
+      "title": "妇人集",
+      "category": "诗集",
+      "path": "shicang-books/妇人集.html",
+      "size": 66180,
+      "wordCount": 22060,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0269",
+      "title": "妙绝古今",
+      "category": "诗集",
+      "path": "shicang-books/妙绝古今.html",
+      "size": 158445,
+      "wordCount": 52815,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0270",
+      "title": "姑溪词溪堂词",
+      "category": "词集",
+      "path": "shicang-books/姑溪词溪堂词.html",
+      "size": 41090,
+      "wordCount": 13696,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0271",
+      "title": "娇红记",
+      "category": "诗集",
+      "path": "shicang-books/娇红记.html",
+      "size": 245577,
+      "wordCount": 81859,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0272",
+      "title": "娱书堂诗话",
+      "category": "诗话",
+      "path": "shicang-books/娱书堂诗话.html",
+      "size": 54936,
+      "wordCount": 18312,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0273",
+      "title": "孑楼诗词话",
+      "category": "词话",
+      "path": "shicang-books/孑楼诗词话.html",
+      "size": 82490,
+      "wordCount": 27496,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0274",
+      "title": "存余堂诗话",
+      "category": "诗话",
+      "path": "shicang-books/存余堂诗话.html",
+      "size": 19657,
+      "wordCount": 6552,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0275",
+      "title": "学山诗话",
+      "category": "诗话",
+      "path": "shicang-books/学山诗话.html",
+      "size": 101173,
+      "wordCount": 33724,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0276",
+      "title": "安陆集",
+      "category": "诗集",
+      "path": "shicang-books/安陆集.html",
+      "size": 44970,
+      "wordCount": 14990,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0277",
+      "title": "宋人集",
+      "category": "诗集",
+      "path": "shicang-books/宋人集.html",
+      "size": 46967,
+      "wordCount": 15655,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0278",
+      "title": "宋元诗会",
+      "category": "诗集",
+      "path": "shicang-books/宋元诗会.html",
+      "size": 2741987,
+      "wordCount": 913995,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0279",
+      "title": "宋四家词选目录序论",
+      "category": "词集",
+      "path": "shicang-books/宋四家词选目录序论.html",
+      "size": 13320,
+      "wordCount": 4440,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0280",
+      "title": "宋百家诗存",
+      "category": "诗集",
+      "path": "shicang-books/宋百家诗存.html",
+      "size": 1628822,
+      "wordCount": 542940,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0281",
+      "title": "宋艺圃集",
+      "category": "诗集",
+      "path": "shicang-books/宋艺圃集.html",
+      "size": 547188,
+      "wordCount": 182396,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0282",
+      "title": "宋词三百首",
+      "category": "词集",
+      "path": "shicang-books/宋词三百首.html",
+      "size": 121556,
+      "wordCount": 40518,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0283",
+      "title": "宋诗纪事",
+      "category": "诗集",
+      "path": "shicang-books/宋诗纪事.html",
+      "size": 2826228,
+      "wordCount": 942076,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0284",
+      "title": "宋诗钞",
+      "category": "诗集",
+      "path": "shicang-books/宋诗钞.html",
+      "size": 6145701,
+      "wordCount": 2048567,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0285",
+      "title": "宋诗钞补",
+      "category": "诗集",
+      "path": "shicang-books/宋诗钞补.html",
+      "size": 752609,
+      "wordCount": 250869,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0286",
+      "title": "定庵诗话",
+      "category": "诗话",
+      "path": "shicang-books/定庵诗话.html",
+      "size": 180675,
+      "wordCount": 60225,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0287",
+      "title": "定庵诗话续编",
+      "category": "诗话",
+      "path": "shicang-books/定庵诗话续编.html",
+      "size": 151306,
+      "wordCount": 50435,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0288",
+      "title": "宛陵羣英集",
+      "category": "诗集",
+      "path": "shicang-books/宛陵羣英集.html",
+      "size": 191436,
+      "wordCount": 63812,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0289",
+      "title": "审斋词",
+      "category": "词集",
+      "path": "shicang-books/审斋词.html",
+      "size": 27350,
+      "wordCount": 9116,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0290",
+      "title": "对床夜语",
+      "category": "诗集",
+      "path": "shicang-books/对床夜语.html",
+      "size": 77682,
+      "wordCount": 25894,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0291",
+      "title": "对类",
+      "category": "对联",
+      "path": "shicang-books/对类.html",
+      "size": 21558,
+      "wordCount": 7186,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0292",
+      "title": "对联话",
+      "category": "对联",
+      "path": "shicang-books/对联话.html",
+      "size": 685119,
+      "wordCount": 228373,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0293",
+      "title": "尊前集",
+      "category": "诗集",
+      "path": "shicang-books/尊前集.html",
+      "size": 48477,
+      "wordCount": 16159,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0294",
+      "title": "尊瓠室诗话",
+      "category": "诗话",
+      "path": "shicang-books/尊瓠室诗话.html",
+      "size": 164304,
+      "wordCount": 54768,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0295",
+      "title": "小三吾亭词话",
+      "category": "词话",
+      "path": "shicang-books/小三吾亭词话.html",
+      "size": 152063,
+      "wordCount": 50687,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0296",
+      "title": "小山词",
+      "category": "词集",
+      "path": "shicang-books/小山词.html",
+      "size": 66771,
+      "wordCount": 22257,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0297",
+      "title": "小栖霞说稗",
+      "category": "诗集",
+      "path": "shicang-books/小栖霞说稗.html",
+      "size": 74957,
+      "wordCount": 24985,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0298",
+      "title": "小清华园诗谈",
+      "category": "诗集",
+      "path": "shicang-books/小清华园诗谈.html",
+      "size": 102418,
+      "wordCount": 34139,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0299",
+      "title": "山中白云词",
+      "category": "词集",
+      "path": "shicang-books/山中白云词.html",
+      "size": 129148,
+      "wordCount": 43049,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0300",
+      "title": "山带阁注楚辞楚辞余论楚辞说韵",
+      "category": "楚辞",
+      "path": "shicang-books/山带阁注楚辞楚辞余论楚辞说韵.html",
+      "size": 371832,
+      "wordCount": 123944,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0301",
+      "title": "山歌",
+      "category": "诗集",
+      "path": "shicang-books/山歌.html",
+      "size": 116915,
+      "wordCount": 38971,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0302",
+      "title": "山谷词",
+      "category": "词集",
+      "path": "shicang-books/山谷词.html",
+      "size": 216264,
+      "wordCount": 72088,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0303",
+      "title": "岁寒堂诗话",
+      "category": "诗话",
+      "path": "shicang-books/岁寒堂诗话.html",
+      "size": 49930,
+      "wordCount": 16643,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0304",
+      "title": "岁寒居词话",
+      "category": "词话",
+      "path": "shicang-books/岁寒居词话.html",
+      "size": 23574,
+      "wordCount": 7858,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0305",
+      "title": "嵗寒堂诗话",
+      "category": "诗话",
+      "path": "shicang-books/嵗寒堂诗话.html",
+      "size": 44135,
+      "wordCount": 14711,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0306",
+      "title": "嵗时杂咏",
+      "category": "诗集",
+      "path": "shicang-books/嵗时杂咏.html",
+      "size": 534370,
+      "wordCount": 178123,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0307",
+      "title": "左庵词话",
+      "category": "词话",
+      "path": "shicang-books/左庵词话.html",
+      "size": 112100,
+      "wordCount": 37366,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0308",
+      "title": "巩溪诗话",
+      "category": "诗话",
+      "path": "shicang-books/巩溪诗话.html",
+      "size": 101091,
+      "wordCount": 33697,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0309",
+      "title": "师友诗传录",
+      "category": "诗集",
+      "path": "shicang-books/师友诗传录.html",
+      "size": 52699,
+      "wordCount": 17566,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0310",
+      "title": "平斋词",
+      "category": "词集",
+      "path": "shicang-books/平斋词.html",
+      "size": 20092,
+      "wordCount": 6697,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0311",
+      "title": "幽闺记",
+      "category": "诗集",
+      "path": "shicang-books/幽闺记.html",
+      "size": 152465,
+      "wordCount": 50821,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0312",
+      "title": "广州四先生诗",
+      "category": "诗集",
+      "path": "shicang-books/广州四先生诗.html",
+      "size": 56899,
+      "wordCount": 18966,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0313",
+      "title": "广沪上竹枝词",
+      "category": "词集",
+      "path": "shicang-books/广沪上竹枝词.html",
+      "size": 10793,
+      "wordCount": 3597,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0314",
+      "title": "庚溪诗话",
+      "category": "诗话",
+      "path": "shicang-books/庚溪诗话.html",
+      "size": 57245,
+      "wordCount": 19081,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0315",
+      "title": "度曲须知",
+      "category": "剧曲",
+      "path": "shicang-books/度曲须知.html",
+      "size": 42132,
+      "wordCount": 14044,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0316",
+      "title": "张协状元",
+      "category": "诗集",
+      "path": "shicang-books/张协状元.html",
+      "size": 160232,
+      "wordCount": 53410,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0317",
+      "title": "张惠言论词",
+      "category": "词集",
+      "path": "shicang-books/张惠言论词.html",
+      "size": 12510,
+      "wordCount": 4170,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0318",
+      "title": "弦索西厢",
+      "category": "剧曲",
+      "path": "shicang-books/弦索西厢.html",
+      "size": 181426,
+      "wordCount": 60475,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0319",
+      "title": "彊村老人评词",
+      "category": "词集",
+      "path": "shicang-books/彊村老人评词.html",
+      "size": 15986,
+      "wordCount": 5328,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0320",
+      "title": "彊村语业",
+      "category": "诗集",
+      "path": "shicang-books/彊村语业.html",
+      "size": 188463,
+      "wordCount": 62821,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0321",
+      "title": "归愚词",
+      "category": "词集",
+      "path": "shicang-books/归愚词.html",
+      "size": 18588,
+      "wordCount": 6196,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0322",
+      "title": "归愚词克斋词龙川词",
+      "category": "词集",
+      "path": "shicang-books/归愚词克斋词龙川词.html",
+      "size": 42923,
+      "wordCount": 14307,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0323",
+      "title": "归田诗话",
+      "category": "诗话",
+      "path": "shicang-books/归田诗话.html",
+      "size": 91380,
+      "wordCount": 30460,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0324",
+      "title": "录曲余谈",
+      "category": "剧曲",
+      "path": "shicang-books/录曲余谈.html",
+      "size": 23164,
+      "wordCount": 7721,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0325",
+      "title": "录鬼簿",
+      "category": "诗集",
+      "path": "shicang-books/录鬼簿.html",
+      "size": 165783,
+      "wordCount": 55261,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0326",
+      "title": "彦周诗话",
+      "category": "诗话",
+      "path": "shicang-books/彦周诗话.html",
+      "size": 46708,
+      "wordCount": 15569,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0327",
+      "title": "御定佩文斋咏物诗选",
+      "category": "诗集",
+      "path": "shicang-books/御定佩文斋咏物诗选.html",
+      "size": 3293253,
+      "wordCount": 1097751,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0328",
+      "title": "御定全唐诗",
+      "category": "诗集",
+      "path": "shicang-books/御定全唐诗.html",
+      "size": 11626156,
+      "wordCount": 3875385,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0329",
+      "title": "御定全唐诗录",
+      "category": "诗集",
+      "path": "shicang-books/御定全唐诗录.html",
+      "size": 2665999,
+      "wordCount": 888666,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0330",
+      "title": "御定千叟宴诗",
+      "category": "诗集",
+      "path": "shicang-books/御定千叟宴诗.html",
+      "size": 152462,
+      "wordCount": 50820,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0331",
+      "title": "御定历代赋汇",
+      "category": "汉赋",
+      "path": "shicang-books/御定历代赋汇.html",
+      "size": 6628123,
+      "wordCount": 2209374,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0332",
+      "title": "御定历代题画诗类",
+      "category": "诗集",
+      "path": "shicang-books/御定历代题画诗类.html",
+      "size": 2556004,
+      "wordCount": 852001,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0333",
+      "title": "御定曲谱",
+      "category": "剧曲",
+      "path": "shicang-books/御定曲谱.html",
+      "size": 548413,
+      "wordCount": 182804,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0334",
+      "title": "御定词谱",
+      "category": "词话",
+      "path": "shicang-books/御定词谱.html",
+      "size": 1968489,
+      "wordCount": 656163,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0335",
+      "title": "御览诗",
+      "category": "诗集",
+      "path": "shicang-books/御览诗.html",
+      "size": 55947,
+      "wordCount": 18649,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0336",
+      "title": "御订全金诗增补中州集",
+      "category": "诗集",
+      "path": "shicang-books/御订全金诗增补中州集.html",
+      "size": 1585879,
+      "wordCount": 528626,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0337",
+      "title": "御选历代诗余",
+      "category": "词集",
+      "path": "shicang-books/御选历代诗余.html",
+      "size": 3348305,
+      "wordCount": 1116101,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0338",
+      "title": "御选唐宋诗醇",
+      "category": "诗集",
+      "path": "shicang-books/御选唐宋诗醇.html",
+      "size": 1490460,
+      "wordCount": 496820,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0339",
+      "title": "御选唐诗",
+      "category": "诗集",
+      "path": "shicang-books/御选唐诗.html",
+      "size": 3152663,
+      "wordCount": 1050887,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0340",
+      "title": "御选宋金元明四朝诗",
+      "category": "诗集",
+      "path": "shicang-books/御选宋金元明四朝诗.html",
+      "size": 10012937,
+      "wordCount": 3337645,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0341",
+      "title": "徽城竹枝词",
+      "category": "词集",
+      "path": "shicang-books/徽城竹枝词.html",
+      "size": 27414,
+      "wordCount": 9138,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0342",
+      "title": "忍古楼词话",
+      "category": "词话",
+      "path": "shicang-books/忍古楼词话.html",
+      "size": 145741,
+      "wordCount": 48580,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0343",
+      "title": "忍古楼诗话",
+      "category": "诗话",
+      "path": "shicang-books/忍古楼诗话.html",
+      "size": 70299,
+      "wordCount": 23433,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0344",
+      "title": "忠义集",
+      "category": "诗集",
+      "path": "shicang-books/忠义集.html",
+      "size": 104434,
+      "wordCount": 34811,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0345",
+      "title": "怀麓堂诗话",
+      "category": "诗话",
+      "path": "shicang-books/怀麓堂诗话.html",
+      "size": 61600,
+      "wordCount": 20533,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0346",
+      "title": "思益堂词钞",
+      "category": "词集",
+      "path": "shicang-books/思益堂词钞.html",
+      "size": 14026,
+      "wordCount": 4675,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0347",
+      "title": "悦心集",
+      "category": "诗集",
+      "path": "shicang-books/悦心集.html",
+      "size": 60947,
+      "wordCount": 20315,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0348",
+      "title": "惜香乐府",
+      "category": "词集",
+      "path": "shicang-books/惜香乐府.html",
+      "size": 105518,
+      "wordCount": 35172,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0349",
+      "title": "愚鼓词",
+      "category": "词集",
+      "path": "shicang-books/愚鼓词.html",
+      "size": 13052,
+      "wordCount": 4350,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0350",
+      "title": "憩园词话",
+      "category": "词话",
+      "path": "shicang-books/憩园词话.html",
+      "size": 301171,
+      "wordCount": 100390,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0351",
+      "title": "戏曲考源",
+      "category": "剧曲",
+      "path": "shicang-books/戏曲考源.html",
+      "size": 38794,
+      "wordCount": 12931,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0352",
+      "title": "戏鸥居词话",
+      "category": "词话",
+      "path": "shicang-books/戏鸥居词话.html",
+      "size": 36791,
+      "wordCount": 12263,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0353",
+      "title": "才调集",
+      "category": "诗集",
+      "path": "shicang-books/才调集.html",
+      "size": 252310,
+      "wordCount": 84103,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0354",
+      "title": "扬州清曲曲词卷",
+      "category": "词集",
+      "path": "shicang-books/扬州清曲曲词卷.html",
+      "size": 246176,
+      "wordCount": 82058,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0355",
+      "title": "抱真堂诗话",
+      "category": "诗话",
+      "path": "shicang-books/抱真堂诗话.html",
+      "size": 22473,
+      "wordCount": 7491,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0356",
+      "title": "拙政园诗余",
+      "category": "词集",
+      "path": "shicang-books/拙政园诗余.html",
+      "size": 35090,
+      "wordCount": 11696,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0357",
+      "title": "拙轩词话",
+      "category": "词话",
+      "path": "shicang-books/拙轩词话.html",
+      "size": 14973,
+      "wordCount": 4991,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0358",
+      "title": "拟两晋南北史乐府",
+      "category": "词集",
+      "path": "shicang-books/拟两晋南北史乐府.html",
+      "size": 71225,
+      "wordCount": 23741,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0359",
+      "title": "捣尘集词钞",
+      "category": "词集",
+      "path": "shicang-books/捣尘集词钞.html",
+      "size": 15631,
+      "wordCount": 5210,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0360",
+      "title": "搜玉小集",
+      "category": "诗集",
+      "path": "shicang-books/搜玉小集.html",
+      "size": 26726,
+      "wordCount": 8908,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0361",
+      "title": "放翁词",
+      "category": "词集",
+      "path": "shicang-books/放翁词.html",
+      "size": 45977,
+      "wordCount": 15325,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0362",
+      "title": "散花庵词",
+      "category": "词集",
+      "path": "shicang-books/散花庵词.html",
+      "size": 19381,
+      "wordCount": 6460,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0363",
+      "title": "敦煌歌辞总编",
+      "category": "诗集",
+      "path": "shicang-books/敦煌歌辞总编.html",
+      "size": 505871,
+      "wordCount": 168623,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0364",
+      "title": "文氏五家集",
+      "category": "诗集",
+      "path": "shicang-books/文氏五家集.html",
+      "size": 287039,
+      "wordCount": 95679,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0365",
+      "title": "文苑诗格",
+      "category": "诗话",
+      "path": "shicang-books/文苑诗格.html",
+      "size": 9349,
+      "wordCount": 3116,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0366",
+      "title": "文赋",
+      "category": "汉赋",
+      "path": "shicang-books/文赋.html",
+      "size": 11693,
+      "wordCount": 3897,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0367",
+      "title": "文镜秘府论",
+      "category": "诗集",
+      "path": "shicang-books/文镜秘府论.html",
+      "size": 214642,
+      "wordCount": 71547,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0368",
+      "title": "断肠词",
+      "category": "词集",
+      "path": "shicang-books/断肠词.html",
+      "size": 12924,
+      "wordCount": 4308,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0369",
+      "title": "新传奇品",
+      "category": "剧曲",
+      "path": "shicang-books/新传奇品.html",
+      "size": 28976,
+      "wordCount": 9658,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0370",
+      "title": "新安文献志",
+      "category": "诗集",
+      "path": "shicang-books/新安文献志.html",
+      "size": 2907894,
+      "wordCount": 969298,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0371",
+      "title": "新定诗格",
+      "category": "诗话",
+      "path": "shicang-books/新定诗格.html",
+      "size": 13323,
+      "wordCount": 4441,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0372",
+      "title": "新缀白裘",
+      "category": "诗集",
+      "path": "shicang-books/新缀白裘.html",
+      "size": 650793,
+      "wordCount": 216931,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0373",
+      "title": "新编杨椒山表忠蚺蛇胆",
+      "category": "诗集",
+      "path": "shicang-books/新编杨椒山表忠蚺蛇胆.html",
+      "size": 186097,
+      "wordCount": 62032,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0374",
+      "title": "方言巧对",
+      "category": "对联",
+      "path": "shicang-books/方言巧对.html",
+      "size": 33603,
+      "wordCount": 11201,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0375",
+      "title": "无住词",
+      "category": "词集",
+      "path": "shicang-books/无住词.html",
+      "size": 12018,
+      "wordCount": 4006,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0376",
+      "title": "无住词潄玉词",
+      "category": "词集",
+      "path": "shicang-books/无住词潄玉词.html",
+      "size": 19750,
+      "wordCount": 6583,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0377",
+      "title": "无根树词注解",
+      "category": "词集",
+      "path": "shicang-books/无根树词注解.html",
+      "size": 89863,
+      "wordCount": 29954,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0378",
+      "title": "无盦词",
+      "category": "词集",
+      "path": "shicang-books/无盦词.html",
+      "size": 69980,
+      "wordCount": 23326,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0379",
+      "title": "时古对类",
+      "category": "对联",
+      "path": "shicang-books/时古对类.html",
+      "size": 19187,
+      "wordCount": 6395,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0380",
+      "title": "时贤本事曲子集",
+      "category": "剧曲",
+      "path": "shicang-books/时贤本事曲子集.html",
+      "size": 16173,
+      "wordCount": 5391,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0381",
+      "title": "昆腔原始",
+      "category": "诗集",
+      "path": "shicang-books/昆腔原始.html",
+      "size": 8994,
+      "wordCount": 2998,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0382",
+      "title": "明词综",
+      "category": "词话",
+      "path": "shicang-books/明词综.html",
+      "size": 269926,
+      "wordCount": 89975,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0383",
+      "title": "明诗别裁集",
+      "category": "诗集",
+      "path": "shicang-books/明诗别裁集.html",
+      "size": 359644,
+      "wordCount": 119881,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0384",
+      "title": "明诗平论二集",
+      "category": "诗集",
+      "path": "shicang-books/明诗平论二集.html",
+      "size": 1209218,
+      "wordCount": 403072,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0385",
+      "title": "明诗综",
+      "category": "诗集",
+      "path": "shicang-books/明诗综.html",
+      "size": 2976279,
+      "wordCount": 992093,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0386",
+      "title": "明诗评",
+      "category": "诗集",
+      "path": "shicang-books/明诗评.html",
+      "size": 57046,
+      "wordCount": 19015,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0387",
+      "title": "春酒堂诗话",
+      "category": "诗话",
+      "path": "shicang-books/春酒堂诗话.html",
+      "size": 26683,
+      "wordCount": 8894,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0388",
+      "title": "晁无咎词",
+      "category": "词集",
+      "path": "shicang-books/晁无咎词.html",
+      "size": 50168,
+      "wordCount": 16722,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0389",
+      "title": "晚晴簃诗汇",
+      "category": "诗集",
+      "path": "shicang-books/晚晴簃诗汇.html",
+      "size": 9488563,
+      "wordCount": 3162854,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0390",
+      "title": "晩清文学丛钞小说戏曲研究卷",
+      "category": "剧曲",
+      "path": "shicang-books/晩清文学丛钞小说戏曲研究卷.html",
+      "size": 1208516,
+      "wordCount": 402838,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0391",
+      "title": "曲品",
+      "category": "剧曲",
+      "path": "shicang-books/曲品.html",
+      "size": 64665,
+      "wordCount": 21555,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0392",
+      "title": "曲律-明-魏良辅",
+      "category": "剧曲",
+      "path": "shicang-books/曲律-明-魏良辅.html",
+      "size": 9842,
+      "wordCount": 3280,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0393",
+      "title": "曲律",
+      "category": "剧曲",
+      "path": "shicang-books/曲律.html",
+      "size": 192195,
+      "wordCount": 64065,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0394",
+      "title": "曲海总目提要",
+      "category": "剧曲",
+      "path": "shicang-books/曲海总目提要.html",
+      "size": 2567422,
+      "wordCount": 855807,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0395",
+      "title": "曲目新编",
+      "category": "剧曲",
+      "path": "shicang-books/曲目新编.html",
+      "size": 41681,
+      "wordCount": 13893,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0396",
+      "title": "曲藻",
+      "category": "剧曲",
+      "path": "shicang-books/曲藻.html",
+      "size": 31636,
+      "wordCount": 10545,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0397",
+      "title": "曲话",
+      "category": "剧曲",
+      "path": "shicang-books/曲话.html",
+      "size": 118842,
+      "wordCount": 39614,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0398",
+      "title": "月泉吟社诗",
+      "category": "诗集",
+      "path": "shicang-books/月泉吟社诗.html",
+      "size": 53456,
+      "wordCount": 17818,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0399",
+      "title": "木天禁语",
+      "category": "诗集",
+      "path": "shicang-books/木天禁语.html",
+      "size": 21438,
+      "wordCount": 7146,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0400",
+      "title": "木皮散人鼓词",
+      "category": "词集",
+      "path": "shicang-books/木皮散人鼓词.html",
+      "size": 25926,
+      "wordCount": 8642,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0401",
+      "title": "本事词",
+      "category": "词话",
+      "path": "shicang-books/本事词.html",
+      "size": 144365,
+      "wordCount": 48121,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0402",
+      "title": "本事诗",
+      "category": "诗集",
+      "path": "shicang-books/本事诗.html",
+      "size": 37295,
+      "wordCount": 12431,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0403",
+      "title": "李义山诗集注",
+      "category": "诗集",
+      "path": "shicang-books/李义山诗集注.html",
+      "size": 439774,
+      "wordCount": 146591,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0404",
+      "title": "李希声诗话",
+      "category": "诗话",
+      "path": "shicang-books/李希声诗话.html",
+      "size": 12250,
+      "wordCount": 4083,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0405",
+      "title": "李清照集校注",
+      "category": "诗集",
+      "path": "shicang-books/李清照集校注.html",
+      "size": 153240,
+      "wordCount": 51080,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0406",
+      "title": "杜工部草堂诗话",
+      "category": "诗话",
+      "path": "shicang-books/杜工部草堂诗话.html",
+      "size": 56135,
+      "wordCount": 18711,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0407",
+      "title": "杨时诗话",
+      "category": "诗话",
+      "path": "shicang-books/杨时诗话.html",
+      "size": 20086,
+      "wordCount": 6695,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0408",
+      "title": "松陵集",
+      "category": "诗集",
+      "path": "shicang-books/松陵集.html",
+      "size": 214596,
+      "wordCount": 71532,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0409",
+      "title": "极玄集",
+      "category": "诗集",
+      "path": "shicang-books/极玄集.html",
+      "size": 27373,
+      "wordCount": 9124,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0410",
+      "title": "柏岩感旧诗话",
+      "category": "诗话",
+      "path": "shicang-books/柏岩感旧诗话.html",
+      "size": 81291,
+      "wordCount": 27097,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0411",
+      "title": "柯亭词论",
+      "category": "词集",
+      "path": "shicang-books/柯亭词论.html",
+      "size": 33732,
+      "wordCount": 11244,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0412",
+      "title": "柴氏四隐集",
+      "category": "诗集",
+      "path": "shicang-books/柴氏四隐集.html",
+      "size": 65606,
+      "wordCount": 21868,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0413",
+      "title": "桃花扇",
+      "category": "剧曲",
+      "path": "shicang-books/桃花扇.html",
+      "size": 321152,
+      "wordCount": 107050,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0414",
+      "title": "桐江诗话",
+      "category": "诗话",
+      "path": "shicang-books/桐江诗话.html",
+      "size": 21831,
+      "wordCount": 7277,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0415",
+      "title": "桐花阁词钞",
+      "category": "词集",
+      "path": "shicang-books/桐花阁词钞.html",
+      "size": 16881,
+      "wordCount": 5627,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0416",
+      "title": "梁山泊同窗琴书记",
+      "category": "诗集",
+      "path": "shicang-books/梁山泊同窗琴书记.html",
+      "size": 125585,
+      "wordCount": 41861,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0417",
+      "title": "梅溪词",
+      "category": "词集",
+      "path": "shicang-books/梅溪词.html",
+      "size": 46145,
+      "wordCount": 15381,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0418",
+      "title": "梅溪词散花庵词",
+      "category": "词集",
+      "path": "shicang-books/梅溪词散花庵词.html",
+      "size": 53508,
+      "wordCount": 17836,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0419",
+      "title": "梅花百咏",
+      "category": "诗集",
+      "path": "shicang-books/梅花百咏.html",
+      "size": 51079,
+      "wordCount": 17026,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0420",
+      "title": "梅苑",
+      "category": "诗集",
+      "path": "shicang-books/梅苑.html",
+      "size": 113156,
+      "wordCount": 37718,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0421",
+      "title": "梅间诗话",
+      "category": "诗话",
+      "path": "shicang-books/梅间诗话.html",
+      "size": 200872,
+      "wordCount": 66957,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0422",
+      "title": "梦窗稿",
+      "category": "诗集",
+      "path": "shicang-books/梦窗稿.html",
+      "size": 136663,
+      "wordCount": 45554,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0423",
+      "title": "梦苕盦诗话",
+      "category": "诗话",
+      "path": "shicang-books/梦苕盦诗话.html",
+      "size": 643539,
+      "wordCount": 214513,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0424",
+      "title": "梨园原",
+      "category": "剧曲",
+      "path": "shicang-books/梨园原.html",
+      "size": 29382,
+      "wordCount": 9794,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0425",
+      "title": "楚曲十种临潼斗宝",
+      "category": "剧曲",
+      "path": "shicang-books/楚曲十种临潼斗宝.html",
+      "size": 29321,
+      "wordCount": 9773,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0426",
+      "title": "楚辞",
+      "category": "楚辞",
+      "path": "shicang-books/楚辞.html",
+      "size": 135252,
+      "wordCount": 45084,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0427",
+      "title": "楚辞章句",
+      "category": "楚辞",
+      "path": "shicang-books/楚辞章句.html",
+      "size": 339646,
+      "wordCount": 113215,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0428",
+      "title": "楚辞章句疏证",
+      "category": "楚辞",
+      "path": "shicang-books/楚辞章句疏证.html",
+      "size": 580914,
+      "wordCount": 193638,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0429",
+      "title": "楚辞芳草谱",
+      "category": "楚辞",
+      "path": "shicang-books/楚辞芳草谱.html",
+      "size": 14146,
+      "wordCount": 4715,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0430",
+      "title": "楚辞补注",
+      "category": "楚辞",
+      "path": "shicang-books/楚辞补注.html",
+      "size": 600095,
+      "wordCount": 200031,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0431",
+      "title": "楚辞集注楚辞辩证楚辞后语",
+      "category": "楚辞",
+      "path": "shicang-books/楚辞集注楚辞辩证楚辞后语.html",
+      "size": 380988,
+      "wordCount": 126996,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0432",
+      "title": "楚辞集注辩证后语",
+      "category": "楚辞",
+      "path": "shicang-books/楚辞集注辩证后语.html",
+      "size": 533429,
+      "wordCount": 177809,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0433",
+      "title": "楹联丛话全编",
+      "category": "对联",
+      "path": "shicang-books/楹联丛话全编.html",
+      "size": 1021699,
+      "wordCount": 340566,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0434",
+      "title": "樵隐词",
+      "category": "词集",
+      "path": "shicang-books/樵隐词.html",
+      "size": 21134,
+      "wordCount": 7044,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0435",
+      "title": "檇李诗系",
+      "category": "诗集",
+      "path": "shicang-books/檇李诗系.html",
+      "size": 1569781,
+      "wordCount": 523260,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0436",
+      "title": "欧阳修词集评",
+      "category": "词集",
+      "path": "shicang-books/欧阳修词集评.html",
+      "size": 85761,
+      "wordCount": 28587,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0437",
+      "title": "比红儿诗注",
+      "category": "诗集",
+      "path": "shicang-books/比红儿诗注.html",
+      "size": 41072,
+      "wordCount": 13690,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0438",
+      "title": "民权素诗话",
+      "category": "诗话",
+      "path": "shicang-books/民权素诗话.html",
+      "size": 209431,
+      "wordCount": 69810,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0439",
+      "title": "汉皋诗话",
+      "category": "诗话",
+      "path": "shicang-books/汉皋诗话.html",
+      "size": 19264,
+      "wordCount": 6421,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0440",
+      "title": "汉诗总说",
+      "category": "诗集",
+      "path": "shicang-books/汉诗总说.html",
+      "size": 19925,
+      "wordCount": 6641,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0441",
+      "title": "汉魏六朝百三家集",
+      "category": "诗集",
+      "path": "shicang-books/汉魏六朝百三家集.html",
+      "size": 5397872,
+      "wordCount": 1799290,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0442",
+      "title": "江湖后集",
+      "category": "诗集",
+      "path": "shicang-books/江湖后集.html",
+      "size": 476021,
+      "wordCount": 158673,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0443",
+      "title": "江湖小集",
+      "category": "诗集",
+      "path": "shicang-books/江湖小集.html",
+      "size": 1133317,
+      "wordCount": 377772,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0444",
+      "title": "江西诗派小序",
+      "category": "诗集",
+      "path": "shicang-books/江西诗派小序.html",
+      "size": 16464,
+      "wordCount": 5488,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0445",
+      "title": "江西诗社宗派图录",
+      "category": "诗集",
+      "path": "shicang-books/江西诗社宗派图录.html",
+      "size": 63244,
+      "wordCount": 21081,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0446",
+      "title": "沧浪诗话",
+      "category": "诗话",
+      "path": "shicang-books/沧浪诗话.html",
+      "size": 45543,
+      "wordCount": 15181,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0447",
+      "title": "沧海遗珠",
+      "category": "诗集",
+      "path": "shicang-books/沧海遗珠.html",
+      "size": 78736,
+      "wordCount": 26245,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0448",
+      "title": "河岳英灵集",
+      "category": "诗集",
+      "path": "shicang-books/河岳英灵集.html",
+      "size": 90496,
+      "wordCount": 30165,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0449",
+      "title": "河汾诸老诗集",
+      "category": "诗集",
+      "path": "shicang-books/河汾诸老诗集.html",
+      "size": 57160,
+      "wordCount": 19053,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0450",
+      "title": "法藏碎金录诗话辑录",
+      "category": "诗话",
+      "path": "shicang-books/法藏碎金录诗话辑录.html",
+      "size": 34829,
+      "wordCount": 11609,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0451",
+      "title": "波外乐章",
+      "category": "词集",
+      "path": "shicang-books/波外乐章.html",
+      "size": 51546,
+      "wordCount": 17182,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0452",
+      "title": "洪驹父诗话",
+      "category": "诗话",
+      "path": "shicang-books/洪驹父诗话.html",
+      "size": 21751,
+      "wordCount": 7250,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0453",
+      "title": "流类手鉴",
+      "category": "诗集",
+      "path": "shicang-books/流类手鉴.html",
+      "size": 10179,
+      "wordCount": 3393,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0454",
+      "title": "浩然斋词话",
+      "category": "词话",
+      "path": "shicang-books/浩然斋词话.html",
+      "size": 23996,
+      "wordCount": 7998,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0455",
+      "title": "海天诗话",
+      "category": "诗话",
+      "path": "shicang-books/海天诗话.html",
+      "size": 36276,
+      "wordCount": 12092,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0456",
+      "title": "海岱会集",
+      "category": "诗集",
+      "path": "shicang-books/海岱会集.html",
+      "size": 139440,
+      "wordCount": 46480,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0457",
+      "title": "海绡说词",
+      "category": "词集",
+      "path": "shicang-books/海绡说词.html",
+      "size": 62420,
+      "wordCount": 20806,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0458",
+      "title": "海野词审斋词",
+      "category": "词集",
+      "path": "shicang-books/海野词审斋词.html",
+      "size": 50323,
+      "wordCount": 16774,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0459",
+      "title": "淮海词",
+      "category": "词集",
+      "path": "shicang-books/淮海词.html",
+      "size": 34493,
+      "wordCount": 11497,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0460",
+      "title": "清代燕都梨园史料正编",
+      "category": "剧曲",
+      "path": "shicang-books/清代燕都梨园史料正编.html",
+      "size": 1528855,
+      "wordCount": 509618,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0461",
+      "title": "清代燕都梨园史料续编",
+      "category": "剧曲",
+      "path": "shicang-books/清代燕都梨园史料续编.html",
+      "size": 497340,
+      "wordCount": 165780,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0462",
+      "title": "清宫词",
+      "category": "词集",
+      "path": "shicang-books/清宫词.html",
+      "size": 62532,
+      "wordCount": 20844,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0463",
+      "title": "清忠谱",
+      "category": "诗集",
+      "path": "shicang-books/清忠谱.html",
+      "size": 190727,
+      "wordCount": 63575,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0464",
+      "title": "清江三孔集",
+      "category": "诗集",
+      "path": "shicang-books/清江三孔集.html",
+      "size": 633791,
+      "wordCount": 211263,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0465",
+      "title": "清诗别裁集",
+      "category": "诗集",
+      "path": "shicang-books/清诗别裁集.html",
+      "size": 1624719,
+      "wordCount": 541573,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0466",
+      "title": "渔洋诗话",
+      "category": "诗话",
+      "path": "shicang-books/渔洋诗话.html",
+      "size": 92895,
+      "wordCount": 30965,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0467",
+      "title": "渚山堂词话",
+      "category": "词话",
+      "path": "shicang-books/渚山堂词话.html",
+      "size": 50095,
+      "wordCount": 16698,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0468",
+      "title": "温公续诗话",
+      "category": "诗话",
+      "path": "shicang-books/温公续诗话.html",
+      "size": 18039,
+      "wordCount": 6013,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0469",
+      "title": "温凉盏鼓词",
+      "category": "词集",
+      "path": "shicang-books/温凉盏鼓词.html",
+      "size": 265689,
+      "wordCount": 88563,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0470",
+      "title": "湘绮楼评词",
+      "category": "词集",
+      "path": "shicang-books/湘绮楼评词.html",
+      "size": 17342,
+      "wordCount": 5780,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0471",
+      "title": "湘绮楼词钞",
+      "category": "词集",
+      "path": "shicang-books/湘绮楼词钞.html",
+      "size": 12694,
+      "wordCount": 4231,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0472",
+      "title": "湘雨楼词钞",
+      "category": "词集",
+      "path": "shicang-books/湘雨楼词钞.html",
+      "size": 33813,
+      "wordCount": 11271,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0473",
+      "title": "漫叟诗话",
+      "category": "诗话",
+      "path": "shicang-books/漫叟诗话.html",
+      "size": 41309,
+      "wordCount": 13769,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0474",
+      "title": "漱玉词",
+      "category": "词集",
+      "path": "shicang-books/漱玉词.html",
+      "size": 16801,
+      "wordCount": 5600,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0475",
+      "title": "潘子真诗话",
+      "category": "诗话",
+      "path": "shicang-books/潘子真诗话.html",
+      "size": 33414,
+      "wordCount": 11138,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0476",
+      "title": "潜溪诗眼",
+      "category": "诗集",
+      "path": "shicang-books/潜溪诗眼.html",
+      "size": 56603,
+      "wordCount": 18867,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0477",
+      "title": "瀛奎律髓",
+      "category": "诗集",
+      "path": "shicang-books/瀛奎律髓.html",
+      "size": 955188,
+      "wordCount": 318396,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0478",
+      "title": "灵芬馆词话",
+      "category": "词话",
+      "path": "shicang-books/灵芬馆词话.html",
+      "size": 69541,
+      "wordCount": 23180,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0479",
+      "title": "炙毂子诗格",
+      "category": "诗话",
+      "path": "shicang-books/炙毂子诗格.html",
+      "size": 10735,
+      "wordCount": 3578,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0480",
+      "title": "然脂余韵",
+      "category": "诗集",
+      "path": "shicang-books/然脂余韵.html",
+      "size": 457503,
+      "wordCount": 152501,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0481",
+      "title": "煮药漫抄",
+      "category": "诗集",
+      "path": "shicang-books/煮药漫抄.html",
+      "size": 79615,
+      "wordCount": 26538,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0482",
+      "title": "爰园词话",
+      "category": "词话",
+      "path": "shicang-books/爰园词话.html",
+      "size": 11428,
+      "wordCount": 3809,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0483",
+      "title": "片玉山房词话",
+      "category": "词话",
+      "path": "shicang-books/片玉山房词话.html",
+      "size": 70060,
+      "wordCount": 23353,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0484",
+      "title": "片玉词",
+      "category": "词集",
+      "path": "shicang-books/片玉词.html",
+      "size": 68014,
+      "wordCount": 22671,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0485",
+      "title": "牡丹亭",
+      "category": "剧曲",
+      "path": "shicang-books/牡丹亭.html",
+      "size": 284590,
+      "wordCount": 94863,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0486",
+      "title": "玉台新咏",
+      "category": "诗集",
+      "path": "shicang-books/玉台新咏.html",
+      "size": 186437,
+      "wordCount": 62145,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0487",
+      "title": "玉台新咏考异",
+      "category": "诗集",
+      "path": "shicang-books/玉台新咏考异.html",
+      "size": 241112,
+      "wordCount": 80370,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0488",
+      "title": "玉山名胜集",
+      "category": "诗集",
+      "path": "shicang-books/玉山名胜集.html",
+      "size": 277467,
+      "wordCount": 92489,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0489",
+      "title": "玉山纪游",
+      "category": "诗集",
+      "path": "shicang-books/玉山纪游.html",
+      "size": 59212,
+      "wordCount": 19737,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0490",
+      "title": "玉栖述雅",
+      "category": "诗集",
+      "path": "shicang-books/玉栖述雅.html",
+      "size": 35968,
+      "wordCount": 11989,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0491",
+      "title": "王直方诗话",
+      "category": "诗话",
+      "path": "shicang-books/王直方诗话.html",
+      "size": 212298,
+      "wordCount": 70766,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0492",
+      "title": "环溪诗话",
+      "category": "诗话",
+      "path": "shicang-books/环溪诗话.html",
+      "size": 66500,
+      "wordCount": 22166,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0493",
+      "title": "现成话",
+      "category": "诗集",
+      "path": "shicang-books/现成话.html",
+      "size": 94171,
+      "wordCount": 31390,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0494",
+      "title": "珂雪词",
+      "category": "词集",
+      "path": "shicang-books/珂雪词.html",
+      "size": 84200,
+      "wordCount": 28066,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0495",
+      "title": "珊瑚钩诗话",
+      "category": "诗话",
+      "path": "shicang-books/珊瑚钩诗话.html",
+      "size": 53821,
+      "wordCount": 17940,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0496",
+      "title": "珠玉词",
+      "category": "词集",
+      "path": "shicang-books/珠玉词.html",
+      "size": 41631,
+      "wordCount": 13877,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0497",
+      "title": "珠玉词六一词",
+      "category": "词集",
+      "path": "shicang-books/珠玉词六一词.html",
+      "size": 68933,
+      "wordCount": 22977,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0498",
+      "title": "珠花簃词话",
+      "category": "词话",
+      "path": "shicang-books/珠花簃词话.html",
+      "size": 28806,
+      "wordCount": 9602,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0499",
+      "title": "瑶溪集",
+      "category": "诗集",
+      "path": "shicang-books/瑶溪集.html",
+      "size": 31734,
+      "wordCount": 10578,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0500",
+      "title": "瓯北诗话",
+      "category": "诗话",
+      "path": "shicang-books/瓯北诗话.html",
+      "size": 319696,
+      "wordCount": 106565,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0501",
+      "title": "瓶粟斋诗话",
+      "category": "诗话",
+      "path": "shicang-books/瓶粟斋诗话.html",
+      "size": 201294,
+      "wordCount": 67098,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0502",
+      "title": "瓶粟斋诗话三编",
+      "category": "诗话",
+      "path": "shicang-books/瓶粟斋诗话三编.html",
+      "size": 126896,
+      "wordCount": 42298,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0503",
+      "title": "瓶粟斋诗话五编",
+      "category": "诗话",
+      "path": "shicang-books/瓶粟斋诗话五编.html",
+      "size": 72591,
+      "wordCount": 24197,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0504",
+      "title": "瓶粟斋诗话四编",
+      "category": "诗话",
+      "path": "shicang-books/瓶粟斋诗话四编.html",
+      "size": 110523,
+      "wordCount": 36841,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0505",
+      "title": "瓶粟斋诗话续编",
+      "category": "诗话",
+      "path": "shicang-books/瓶粟斋诗话续编.html",
+      "size": 135650,
+      "wordCount": 45216,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0506",
+      "title": "甬上耆旧诗",
+      "category": "诗集",
+      "path": "shicang-books/甬上耆旧诗.html",
+      "size": 1017234,
+      "wordCount": 339078,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0507",
+      "title": "申培诗说",
+      "category": "诗集",
+      "path": "shicang-books/申培诗说.html",
+      "size": 67733,
+      "wordCount": 22577,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0508",
+      "title": "疏香阁词",
+      "category": "词集",
+      "path": "shicang-books/疏香阁词.html",
+      "size": 29482,
+      "wordCount": 9827,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0509",
+      "title": "白华山人诗说",
+      "category": "诗集",
+      "path": "shicang-books/白华山人诗说.html",
+      "size": 29567,
+      "wordCount": 9855,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0510",
+      "title": "白朴元曲集",
+      "category": "剧曲",
+      "path": "shicang-books/白朴元曲集.html",
+      "size": 9497,
+      "wordCount": 3165,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0511",
+      "title": "白石道人歌曲",
+      "category": "剧曲",
+      "path": "shicang-books/白石道人歌曲.html",
+      "size": 58816,
+      "wordCount": 19605,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0512",
+      "title": "白石道人歌曲疏证",
+      "category": "剧曲",
+      "path": "shicang-books/白石道人歌曲疏证.html",
+      "size": 147718,
+      "wordCount": 49239,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0513",
+      "title": "白石道人诗说",
+      "category": "诗话",
+      "path": "shicang-books/白石道人诗说.html",
+      "size": 10232,
+      "wordCount": 3410,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0514",
+      "title": "白雨斋词话",
+      "category": "词话",
+      "path": "shicang-books/白雨斋词话.html",
+      "size": 293320,
+      "wordCount": 97773,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0515",
+      "title": "白雪遗音",
+      "category": "诗集",
+      "path": "shicang-books/白雪遗音.html",
+      "size": 586208,
+      "wordCount": 195402,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0516",
+      "title": "白香词谱",
+      "category": "词话",
+      "path": "shicang-books/白香词谱.html",
+      "size": 106483,
+      "wordCount": 35494,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0517",
+      "title": "白香集",
+      "category": "诗集",
+      "path": "shicang-books/白香集.html",
+      "size": 181130,
+      "wordCount": 60376,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0518",
+      "title": "百香诗选",
+      "category": "诗集",
+      "path": "shicang-books/百香诗选.html",
+      "size": 20114,
+      "wordCount": 6704,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0519",
+      "title": "皇明诗选",
+      "category": "诗集",
+      "path": "shicang-books/皇明诗选.html",
+      "size": 486306,
+      "wordCount": 162102,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0520",
+      "title": "皱水轩词筌",
+      "category": "词集",
+      "path": "shicang-books/皱水轩词筌.html",
+      "size": 35789,
+      "wordCount": 11929,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0521",
+      "title": "盛明杂剧初集二集",
+      "category": "剧曲",
+      "path": "shicang-books/盛明杂剧初集二集.html",
+      "size": 1420490,
+      "wordCount": 473496,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0522",
+      "title": "看山阁集闲笔",
+      "category": "诗集",
+      "path": "shicang-books/看山阁集闲笔.html",
+      "size": 11971,
+      "wordCount": 3990,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0523",
+      "title": "知稼翁词",
+      "category": "词集",
+      "path": "shicang-books/知稼翁词.html",
+      "size": 13973,
+      "wordCount": 4657,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0524",
+      "title": "知稼翁词蒲江词",
+      "category": "词集",
+      "path": "shicang-books/知稼翁词蒲江词.html",
+      "size": 23205,
+      "wordCount": 7735,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0525",
+      "title": "石仓历代诗选",
+      "category": "诗集",
+      "path": "shicang-books/石仓历代诗选.html",
+      "size": 9633373,
+      "wordCount": 3211124,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0526",
+      "title": "石屏词",
+      "category": "词集",
+      "path": "shicang-books/石屏词.html",
+      "size": 19024,
+      "wordCount": 6341,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0527",
+      "title": "石屏词断肠词",
+      "category": "词集",
+      "path": "shicang-books/石屏词断肠词.html",
+      "size": 24552,
+      "wordCount": 8184,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0528",
+      "title": "石林词丹阳词",
+      "category": "词集",
+      "path": "shicang-books/石林词丹阳词.html",
+      "size": 54246,
+      "wordCount": 18082,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0529",
+      "title": "石林诗话",
+      "category": "诗话",
+      "path": "shicang-books/石林诗话.html",
+      "size": 59090,
+      "wordCount": 19696,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0530",
+      "title": "石洲诗话",
+      "category": "诗话",
+      "path": "shicang-books/石洲诗话.html",
+      "size": 225152,
+      "wordCount": 75050,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0531",
+      "title": "石湖词",
+      "category": "词集",
+      "path": "shicang-books/石湖词.html",
+      "size": 34516,
+      "wordCount": 11505,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0532",
+      "title": "石遗室诗话",
+      "category": "诗话",
+      "path": "shicang-books/石遗室诗话.html",
+      "size": 1068430,
+      "wordCount": 356143,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0533",
+      "title": "石遗室诗话续编",
+      "category": "诗话",
+      "path": "shicang-books/石遗室诗话续编.html",
+      "size": 543044,
+      "wordCount": 181014,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0534",
+      "title": "砚斋词话",
+      "category": "词话",
+      "path": "shicang-books/砚斋词话.html",
+      "size": 18205,
+      "wordCount": 6068,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0535",
+      "title": "破幽梦孤雁汉宫秋",
+      "category": "剧曲",
+      "path": "shicang-books/破幽梦孤雁汉宫秋.html",
+      "size": 32271,
+      "wordCount": 10757,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0536",
+      "title": "碧山乐府",
+      "category": "词集",
+      "path": "shicang-books/碧山乐府.html",
+      "size": 134082,
+      "wordCount": 44694,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0537",
+      "title": "碧鸡漫志",
+      "category": "词话",
+      "path": "shicang-books/碧鸡漫志.html",
+      "size": 86310,
+      "wordCount": 28770,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0538",
+      "title": "碧鸡漫志乐府指迷",
+      "category": "词话",
+      "path": "shicang-books/碧鸡漫志乐府指迷.html",
+      "size": 51367,
+      "wordCount": 17122,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0539",
+      "title": "离骚草木疏",
+      "category": "楚辞",
+      "path": "shicang-books/离骚草木疏.html",
+      "size": 77299,
+      "wordCount": 25766,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0540",
+      "title": "秋星阁诗话",
+      "category": "诗话",
+      "path": "shicang-books/秋星阁诗话.html",
+      "size": 14141,
+      "wordCount": 4713,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0541",
+      "title": "稼轩词",
+      "category": "词集",
+      "path": "shicang-books/稼轩词.html",
+      "size": 166004,
+      "wordCount": 55334,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0542",
+      "title": "空轩诗话",
+      "category": "诗话",
+      "path": "shicang-books/空轩诗话.html",
+      "size": 223093,
+      "wordCount": 74364,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0543",
+      "title": "窥词管见",
+      "category": "词集",
+      "path": "shicang-books/窥词管见.html",
+      "size": 23907,
+      "wordCount": 7969,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0544",
+      "title": "窦娥冤",
+      "category": "剧曲",
+      "path": "shicang-books/窦娥冤.html",
+      "size": 52507,
+      "wordCount": 17502,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0545",
+      "title": "窦氏联珠集",
+      "category": "诗集",
+      "path": "shicang-books/窦氏联珠集.html",
+      "size": 43946,
+      "wordCount": 14648,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0546",
+      "title": "竹坡词",
+      "category": "词集",
+      "path": "shicang-books/竹坡词.html",
+      "size": 43041,
+      "wordCount": 14347,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0547",
+      "title": "竹坡诗话",
+      "category": "诗话",
+      "path": "shicang-books/竹坡诗话.html",
+      "size": 40761,
+      "wordCount": 13587,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0548",
+      "title": "竹屋痴语",
+      "category": "诗集",
+      "path": "shicang-books/竹屋痴语.html",
+      "size": 33946,
+      "wordCount": 11315,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0549",
+      "title": "竹山词",
+      "category": "词集",
+      "path": "shicang-books/竹山词.html",
+      "size": 42688,
+      "wordCount": 14229,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0550",
+      "title": "竹庄诗话",
+      "category": "诗话",
+      "path": "shicang-books/竹庄诗话.html",
+      "size": 509956,
+      "wordCount": 169985,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0551",
+      "title": "竹斋诗余",
+      "category": "词集",
+      "path": "shicang-books/竹斋诗余.html",
+      "size": 35452,
+      "wordCount": 11817,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0552",
+      "title": "笔札华梁",
+      "category": "诗集",
+      "path": "shicang-books/笔札华梁.html",
+      "size": 17471,
+      "wordCount": 5823,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0553",
+      "title": "笠翁对韵",
+      "category": "诗集",
+      "path": "shicang-books/笠翁对韵.html",
+      "size": 40449,
+      "wordCount": 13483,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0554",
+      "title": "笠阁批评旧戏目",
+      "category": "诗集",
+      "path": "shicang-books/笠阁批评旧戏目.html",
+      "size": 19383,
+      "wordCount": 6461,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0555",
+      "title": "答万季埜诗问",
+      "category": "诗集",
+      "path": "shicang-books/答万季埜诗问.html",
+      "size": 25268,
+      "wordCount": 8422,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0556",
+      "title": "筠谿乐府",
+      "category": "词集",
+      "path": "shicang-books/筠谿乐府.html",
+      "size": 39998,
+      "wordCount": 13332,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0557",
+      "title": "箧中集",
+      "category": "诗集",
+      "path": "shicang-books/箧中集.html",
+      "size": 15208,
+      "wordCount": 5069,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0558",
+      "title": "类聚名贤乐府群玉",
+      "category": "词集",
+      "path": "shicang-books/类聚名贤乐府群玉.html",
+      "size": 158619,
+      "wordCount": 52873,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0559",
+      "title": "粤西诗载粤西文载粤西丛载",
+      "category": "诗集",
+      "path": "shicang-books/粤西诗载粤西文载粤西丛载.html",
+      "size": 4436761,
+      "wordCount": 1478920,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0560",
+      "title": "粤词雅",
+      "category": "词集",
+      "path": "shicang-books/粤词雅.html",
+      "size": 23327,
+      "wordCount": 7775,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0561",
+      "title": "精忠旗",
+      "category": "诗集",
+      "path": "shicang-books/精忠旗.html",
+      "size": 192360,
+      "wordCount": 64120,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0562",
+      "title": "紫微诗话",
+      "category": "诗话",
+      "path": "shicang-books/紫微诗话.html",
+      "size": 29518,
+      "wordCount": 9839,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0563",
+      "title": "紫薇诗话",
+      "category": "诗话",
+      "path": "shicang-books/紫薇诗话.html",
+      "size": 27215,
+      "wordCount": 9071,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0564",
+      "title": "綴白裘",
+      "category": "诗集",
+      "path": "shicang-books/綴白裘.html",
+      "size": 3218640,
+      "wordCount": 1072880,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0565",
+      "title": "纳兰词全集",
+      "category": "词集",
+      "path": "shicang-books/纳兰词全集.html",
+      "size": 98028,
+      "wordCount": 32676,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0566",
+      "title": "绝妙好词",
+      "category": "词集",
+      "path": "shicang-books/绝妙好词.html",
+      "size": 227091,
+      "wordCount": 75697,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0567",
+      "title": "绝妙好词笺",
+      "category": "词集",
+      "path": "shicang-books/绝妙好词笺.html",
+      "size": 205710,
+      "wordCount": 68570,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0568",
+      "title": "续刊上海竹枝词",
+      "category": "词集",
+      "path": "shicang-books/续刊上海竹枝词.html",
+      "size": 25806,
+      "wordCount": 8602,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0569",
+      "title": "续文章正宗",
+      "category": "诗集",
+      "path": "shicang-books/续文章正宗.html",
+      "size": 792092,
+      "wordCount": 264030,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0570",
+      "title": "续眉庐丛话",
+      "category": "诗集",
+      "path": "shicang-books/续眉庐丛话.html",
+      "size": 112886,
+      "wordCount": 37628,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0571",
+      "title": "续词余丛话",
+      "category": "词集",
+      "path": "shicang-books/续词余丛话.html",
+      "size": 65611,
+      "wordCount": 21870,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0572",
+      "title": "续词品",
+      "category": "词集",
+      "path": "shicang-books/续词品.html",
+      "size": 8126,
+      "wordCount": 2708,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0573",
+      "title": "续诗品",
+      "category": "诗话",
+      "path": "shicang-books/续诗品.html",
+      "size": 12822,
+      "wordCount": 4274,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0574",
+      "title": "续诗话",
+      "category": "诗话",
+      "path": "shicang-books/续诗话.html",
+      "size": 16693,
+      "wordCount": 5564,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0575",
+      "title": "缘情手鉴诗格",
+      "category": "诗话",
+      "path": "shicang-books/缘情手鉴诗格.html",
+      "size": 6051,
+      "wordCount": 2017,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0576",
+      "title": "翰苑英华中州集",
+      "category": "诗集",
+      "path": "shicang-books/翰苑英华中州集.html",
+      "size": 691756,
+      "wordCount": 230585,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0577",
+      "title": "聊斋俚曲集",
+      "category": "剧曲",
+      "path": "shicang-books/聊斋俚曲集.html",
+      "size": 1496736,
+      "wordCount": 498912,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0578",
+      "title": "聊斋剧作三种",
+      "category": "诗集",
+      "path": "shicang-books/聊斋剧作三种.html",
+      "size": 31792,
+      "wordCount": 10597,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0579",
+      "title": "聊斋小曲",
+      "category": "剧曲",
+      "path": "shicang-books/聊斋小曲.html",
+      "size": 20922,
+      "wordCount": 6974,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0580",
+      "title": "聱园词剩",
+      "category": "词集",
+      "path": "shicang-books/聱园词剩.html",
+      "size": 20503,
+      "wordCount": 6834,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0581",
+      "title": "能改斋词话",
+      "category": "词话",
+      "path": "shicang-books/能改斋词话.html",
+      "size": 56180,
+      "wordCount": 18726,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0582",
+      "title": "艇斋诗话",
+      "category": "诗话",
+      "path": "shicang-books/艇斋诗话.html",
+      "size": 77232,
+      "wordCount": 25744,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0583",
+      "title": "艺圃撷余",
+      "category": "诗集",
+      "path": "shicang-books/艺圃撷余.html",
+      "size": 23892,
+      "wordCount": 7964,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0584",
+      "title": "艺概词曲概",
+      "category": "词集",
+      "path": "shicang-books/艺概词曲概.html",
+      "size": 18748,
+      "wordCount": 6249,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0585",
+      "title": "艺概词概",
+      "category": "词集",
+      "path": "shicang-books/艺概词概.html",
+      "size": 28702,
+      "wordCount": 9567,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0586",
+      "title": "艺苑雌黄",
+      "category": "诗集",
+      "path": "shicang-books/艺苑雌黄.html",
+      "size": 108348,
+      "wordCount": 36116,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0587",
+      "title": "芦川词",
+      "category": "词集",
+      "path": "shicang-books/芦川词.html",
+      "size": 54781,
+      "wordCount": 18260,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0588",
+      "title": "芬陀利室词话",
+      "category": "词话",
+      "path": "shicang-books/芬陀利室词话.html",
+      "size": 84549,
+      "wordCount": 28183,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0589",
+      "title": "花庵词选",
+      "category": "词集",
+      "path": "shicang-books/花庵词选.html",
+      "size": 369453,
+      "wordCount": 123151,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0590",
+      "title": "花笺记",
+      "category": "诗集",
+      "path": "shicang-books/花笺记.html",
+      "size": 102173,
+      "wordCount": 34057,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0591",
+      "title": "花草稡编",
+      "category": "诗集",
+      "path": "shicang-books/花草稡编.html",
+      "size": 989701,
+      "wordCount": 329900,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0592",
+      "title": "花部农谭",
+      "category": "诗集",
+      "path": "shicang-books/花部农谭.html",
+      "size": 17755,
+      "wordCount": 5918,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0593",
+      "title": "花间集",
+      "category": "词集",
+      "path": "shicang-books/花间集.html",
+      "size": 125436,
+      "wordCount": 41812,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0594",
+      "title": "苍筤词钞",
+      "category": "词集",
+      "path": "shicang-books/苍筤词钞.html",
+      "size": 14702,
+      "wordCount": 4900,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0595",
+      "title": "苏六娘",
+      "category": "诗集",
+      "path": "shicang-books/苏六娘.html",
+      "size": 83724,
+      "wordCount": 27908,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0596",
+      "title": "苏门六君子文粹",
+      "category": "诗集",
+      "path": "shicang-books/苏门六君子文粹.html",
+      "size": 903011,
+      "wordCount": 301003,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0597",
+      "title": "苕溪渔隐丛话",
+      "category": "诗集",
+      "path": "shicang-books/苕溪渔隐丛话.html",
+      "size": 1444749,
+      "wordCount": 481583,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0598",
+      "title": "苕溪渔隐词话",
+      "category": "词话",
+      "path": "shicang-books/苕溪渔隐词话.html",
+      "size": 42080,
+      "wordCount": 14026,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0599",
+      "title": "茗柯词",
+      "category": "词集",
+      "path": "shicang-books/茗柯词.html",
+      "size": 21263,
+      "wordCount": 7087,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0600",
+      "title": "茯苓仙传奇",
+      "category": "剧曲",
+      "path": "shicang-books/茯苓仙传奇.html",
+      "size": 67697,
+      "wordCount": 22565,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0601",
+      "title": "荆南倡和诗集",
+      "category": "诗集",
+      "path": "shicang-books/荆南倡和诗集.html",
+      "size": 57063,
+      "wordCount": 19021,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0602",
+      "title": "荆釵记",
+      "category": "诗集",
+      "path": "shicang-books/荆釵记.html",
+      "size": 196183,
+      "wordCount": 65394,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0603",
+      "title": "草堂诗余",
+      "category": "词集",
+      "path": "shicang-books/草堂诗余.html",
+      "size": 167291,
+      "wordCount": 55763,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0604",
+      "title": "草堂诗话",
+      "category": "诗话",
+      "path": "shicang-books/草堂诗话.html",
+      "size": 85439,
+      "wordCount": 28479,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0605",
+      "title": "草堂雅集",
+      "category": "诗集",
+      "path": "shicang-books/草堂雅集.html",
+      "size": 510038,
+      "wordCount": 170012,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0606",
+      "title": "荔镜记荔枝记",
+      "category": "诗集",
+      "path": "shicang-books/荔镜记荔枝记.html",
+      "size": 266852,
+      "wordCount": 88950,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0607",
+      "title": "莲子居词话",
+      "category": "词话",
+      "path": "shicang-books/莲子居词话.html",
+      "size": 152546,
+      "wordCount": 50848,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0608",
+      "title": "菌阁琐谈",
+      "category": "诗集",
+      "path": "shicang-books/菌阁琐谈.html",
+      "size": 35426,
+      "wordCount": 11808,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0609",
+      "title": "蒲江词",
+      "category": "词集",
+      "path": "shicang-books/蒲江词.html",
+      "size": 67885,
+      "wordCount": 22628,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0610",
+      "title": "蒿庵论词",
+      "category": "词集",
+      "path": "shicang-books/蒿庵论词.html",
+      "size": 27584,
+      "wordCount": 9194,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0611",
+      "title": "蓼园词评",
+      "category": "词集",
+      "path": "shicang-books/蓼园词评.html",
+      "size": 98853,
+      "wordCount": 32951,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0612",
+      "title": "蔡宽夫诗话",
+      "category": "诗话",
+      "path": "shicang-books/蔡宽夫诗话.html",
+      "size": 72707,
+      "wordCount": 24235,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0613",
+      "title": "蕉庵诗话",
+      "category": "诗话",
+      "path": "shicang-books/蕉庵诗话.html",
+      "size": 72866,
+      "wordCount": 24288,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0614",
+      "title": "蕙风词话",
+      "category": "词话",
+      "path": "shicang-books/蕙风词话.html",
+      "size": 318696,
+      "wordCount": 106232,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0615",
+      "title": "薑斋诗话",
+      "category": "诗话",
+      "path": "shicang-books/薑斋诗话.html",
+      "size": 75172,
+      "wordCount": 25057,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0616",
+      "title": "薛涛李冶诗集",
+      "category": "诗集",
+      "path": "shicang-books/薛涛李冶诗集.html",
+      "size": 25994,
+      "wordCount": 8664,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0617",
+      "title": "藏斋诗话",
+      "category": "诗话",
+      "path": "shicang-books/藏斋诗话.html",
+      "size": 168071,
+      "wordCount": 56023,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0618",
+      "title": "藏海诗话",
+      "category": "诗话",
+      "path": "shicang-books/藏海诗话.html",
+      "size": 28418,
+      "wordCount": 9472,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0619",
+      "title": "蜕岩词",
+      "category": "词集",
+      "path": "shicang-books/蜕岩词.html",
+      "size": 59756,
+      "wordCount": 19918,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0620",
+      "title": "蜗牛舍说诗新话",
+      "category": "诗集",
+      "path": "shicang-books/蜗牛舍说诗新话.html",
+      "size": 48780,
+      "wordCount": 16260,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0621",
+      "title": "蠲戏斋诗话",
+      "category": "诗话",
+      "path": "shicang-books/蠲戏斋诗话.html",
+      "size": 114316,
+      "wordCount": 38105,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0622",
+      "title": "衡曲麈谭",
+      "category": "剧曲",
+      "path": "shicang-books/衡曲麈谭.html",
+      "size": 18636,
+      "wordCount": 6212,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0623",
+      "title": "补诗品",
+      "category": "诗话",
+      "path": "shicang-books/补诗品.html",
+      "size": 10642,
+      "wordCount": 3547,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0624",
+      "title": "褒碧斋诗话",
+      "category": "诗话",
+      "path": "shicang-books/褒碧斋诗话.html",
+      "size": 37488,
+      "wordCount": 12496,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0625",
+      "title": "西厢记",
+      "category": "剧曲",
+      "path": "shicang-books/西厢记.html",
+      "size": 159127,
+      "wordCount": 53042,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0626",
+      "title": "西圃词说",
+      "category": "词集",
+      "path": "shicang-books/西圃词说.html",
+      "size": 39919,
+      "wordCount": 13306,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0627",
+      "title": "西昆詶唱集",
+      "category": "诗集",
+      "path": "shicang-books/西昆詶唱集.html",
+      "size": 65563,
+      "wordCount": 21854,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0628",
+      "title": "西晋文纪",
+      "category": "诗集",
+      "path": "shicang-books/西晋文纪.html",
+      "size": 890537,
+      "wordCount": 296845,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0629",
+      "title": "西樵语业",
+      "category": "诗集",
+      "path": "shicang-books/西樵语业.html",
+      "size": 18361,
+      "wordCount": 6120,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0630",
+      "title": "西樵语业樵隠词",
+      "category": "词集",
+      "path": "shicang-books/西樵语业樵隠词.html",
+      "size": 31350,
+      "wordCount": 10450,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0631",
+      "title": "西河词话",
+      "category": "词话",
+      "path": "shicang-books/西河词话.html",
+      "size": 44311,
+      "wordCount": 14770,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0632",
+      "title": "西清诗话",
+      "category": "诗话",
+      "path": "shicang-books/西清诗话.html",
+      "size": 68011,
+      "wordCount": 22670,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0633",
+      "title": "西游记戏文",
+      "category": "剧曲",
+      "path": "shicang-books/西游记戏文.html",
+      "size": 136472,
+      "wordCount": 45490,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0634",
+      "title": "西湖竹枝集",
+      "category": "诗集",
+      "path": "shicang-books/西湖竹枝集.html",
+      "size": 43802,
+      "wordCount": 14600,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0635",
+      "title": "观林诗话",
+      "category": "诗话",
+      "path": "shicang-books/观林诗话.html",
+      "size": 38319,
+      "wordCount": 12773,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0636",
+      "title": "论词随笔",
+      "category": "词集",
+      "path": "shicang-books/论词随笔.html",
+      "size": 21618,
+      "wordCount": 7206,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0637",
+      "title": "评诗格",
+      "category": "诗话",
+      "path": "shicang-books/评诗格.html",
+      "size": 7569,
+      "wordCount": 2523,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0638",
+      "title": "词余丛话",
+      "category": "词集",
+      "path": "shicang-books/词余丛话.html",
+      "size": 103814,
+      "wordCount": 34604,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0639",
+      "title": "词品-清-郭麟",
+      "category": "词集",
+      "path": "shicang-books/词品-清-郭麟.html",
+      "size": 8215,
+      "wordCount": 2738,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0640",
+      "title": "词品",
+      "category": "词集",
+      "path": "shicang-books/词品.html",
+      "size": 189646,
+      "wordCount": 63215,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0641",
+      "title": "词坛丛话",
+      "category": "词集",
+      "path": "shicang-books/词坛丛话.html",
+      "size": 34526,
+      "wordCount": 11508,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0642",
+      "title": "词学集成",
+      "category": "词集",
+      "path": "shicang-books/词学集成.html",
+      "size": 147998,
+      "wordCount": 49332,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0643",
+      "title": "词征",
+      "category": "词集",
+      "path": "shicang-books/词征.html",
+      "size": 156055,
+      "wordCount": 52018,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0644",
+      "title": "词径",
+      "category": "词集",
+      "path": "shicang-books/词径.html",
+      "size": 11864,
+      "wordCount": 3954,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0645",
+      "title": "词律",
+      "category": "词话",
+      "path": "shicang-books/词律.html",
+      "size": 786238,
+      "wordCount": 262079,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0646",
+      "title": "词律校勘记",
+      "category": "词话",
+      "path": "shicang-books/词律校勘记.html",
+      "size": 96338,
+      "wordCount": 32112,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0647",
+      "title": "词徵",
+      "category": "词集",
+      "path": "shicang-books/词徵.html",
+      "size": 156037,
+      "wordCount": 52012,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0648",
+      "title": "词旨",
+      "category": "词集",
+      "path": "shicang-books/词旨.html",
+      "size": 84895,
+      "wordCount": 28298,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0649",
+      "title": "词林正韵",
+      "category": "词集",
+      "path": "shicang-books/词林正韵.html",
+      "size": 33484,
+      "wordCount": 11161,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0650",
+      "title": "词概",
+      "category": "词集",
+      "path": "shicang-books/词概.html",
+      "size": 28705,
+      "wordCount": 9568,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0651",
+      "title": "词洁辑评",
+      "category": "词集",
+      "path": "shicang-books/词洁辑评.html",
+      "size": 43500,
+      "wordCount": 14500,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0652",
+      "title": "词源",
+      "category": "词集",
+      "path": "shicang-books/词源.html",
+      "size": 56905,
+      "wordCount": 18968,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0653",
+      "title": "词综",
+      "category": "词话",
+      "path": "shicang-books/词综.html",
+      "size": 731666,
+      "wordCount": 243888,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0654",
+      "title": "词综偶评",
+      "category": "词话",
+      "path": "shicang-books/词综偶评.html",
+      "size": 62716,
+      "wordCount": 20905,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0655",
+      "title": "词苑丛谈",
+      "category": "词话",
+      "path": "shicang-books/词苑丛谈.html",
+      "size": 355847,
+      "wordCount": 118615,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0656",
+      "title": "词苑萃编",
+      "category": "词话",
+      "path": "shicang-books/词苑萃编.html",
+      "size": 716024,
+      "wordCount": 238674,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0657",
+      "title": "词莂",
+      "category": "词集",
+      "path": "shicang-books/词莂.html",
+      "size": 49331,
+      "wordCount": 16443,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0658",
+      "title": "词论-清-张祥龄",
+      "category": "词集",
+      "path": "shicang-books/词论-清-张祥龄.html",
+      "size": 8787,
+      "wordCount": 2929,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0659",
+      "title": "词论",
+      "category": "词集",
+      "path": "shicang-books/词论.html",
+      "size": 18206,
+      "wordCount": 6068,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0660",
+      "title": "词话-四六话",
+      "category": "词话",
+      "path": "shicang-books/词话-四六话.html",
+      "size": 44014,
+      "wordCount": 14671,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0661",
+      "title": "词话-四六谈麈",
+      "category": "词话",
+      "path": "shicang-books/词话-四六谈麈.html",
+      "size": 20758,
+      "wordCount": 6919,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0662",
+      "title": "词话-顾曲杂言",
+      "category": "词话",
+      "path": "shicang-books/词话-顾曲杂言.html",
+      "size": 25036,
+      "wordCount": 8345,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0663",
+      "title": "词说",
+      "category": "词集",
+      "path": "shicang-books/词说.html",
+      "size": 22843,
+      "wordCount": 7614,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0664",
+      "title": "词谑",
+      "category": "词集",
+      "path": "shicang-books/词谑.html",
+      "size": 147535,
+      "wordCount": 49178,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0665",
+      "title": "诗义固说",
+      "category": "诗集",
+      "path": "shicang-books/诗义固说.html",
+      "size": 31256,
+      "wordCount": 10418,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0666",
+      "title": "诗人主客图",
+      "category": "诗集",
+      "path": "shicang-books/诗人主客图.html",
+      "size": 34190,
+      "wordCount": 11396,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0667",
+      "title": "诗人玉屑",
+      "category": "诗集",
+      "path": "shicang-books/诗人玉屑.html",
+      "size": 630418,
+      "wordCount": 210139,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0668",
+      "title": "诗史-宋-蔡居厚",
+      "category": "诗集",
+      "path": "shicang-books/诗史-宋-蔡居厚.html",
+      "size": 115408,
+      "wordCount": 38469,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0669",
+      "title": "诗史",
+      "category": "诗集",
+      "path": "shicang-books/诗史.html",
+      "size": 107535,
+      "wordCount": 35845,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0670",
+      "title": "诗史阁诗话",
+      "category": "诗话",
+      "path": "shicang-books/诗史阁诗话.html",
+      "size": 128534,
+      "wordCount": 42844,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0671",
+      "title": "诗品",
+      "category": "诗话",
+      "path": "shicang-books/诗品.html",
+      "size": 29563,
+      "wordCount": 9854,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0672",
+      "title": "诗女史纂",
+      "category": "诗集",
+      "path": "shicang-books/诗女史纂.html",
+      "size": 293797,
+      "wordCount": 97932,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0673",
+      "title": "诗学渊源",
+      "category": "诗集",
+      "path": "shicang-books/诗学渊源.html",
+      "size": 326371,
+      "wordCount": 108790,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0674",
+      "title": "诗学源流考",
+      "category": "诗集",
+      "path": "shicang-books/诗学源流考.html",
+      "size": 19099,
+      "wordCount": 6366,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0675",
+      "title": "诗学禁脔",
+      "category": "诗集",
+      "path": "shicang-books/诗学禁脔.html",
+      "size": 13484,
+      "wordCount": 4494,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0676",
+      "title": "诗家鼎脔",
+      "category": "诗集",
+      "path": "shicang-books/诗家鼎脔.html",
+      "size": 40985,
+      "wordCount": 13661,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0677",
+      "title": "诗式",
+      "category": "诗话",
+      "path": "shicang-books/诗式.html",
+      "size": 133022,
+      "wordCount": 44340,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0678",
+      "title": "诗林广记",
+      "category": "诗集",
+      "path": "shicang-books/诗林广记.html",
+      "size": 498449,
+      "wordCount": 166149,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0679",
+      "title": "诗格",
+      "category": "诗话",
+      "path": "shicang-books/诗格.html",
+      "size": 47070,
+      "wordCount": 15690,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0680",
+      "title": "诗概",
+      "category": "诗集",
+      "path": "shicang-books/诗概.html",
+      "size": 51181,
+      "wordCount": 17060,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0681",
+      "title": "诗法家数",
+      "category": "诗话",
+      "path": "shicang-books/诗法家数.html",
+      "size": 19499,
+      "wordCount": 6499,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0682",
+      "title": "诗筏",
+      "category": "诗话",
+      "path": "shicang-books/诗筏.html",
+      "size": 121924,
+      "wordCount": 40641,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0683",
+      "title": "诗纪匡谬",
+      "category": "诗集",
+      "path": "shicang-books/诗纪匡谬.html",
+      "size": 33794,
+      "wordCount": 11264,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0684",
+      "title": "诗话-四六话",
+      "category": "诗话",
+      "path": "shicang-books/诗话-四六话.html",
+      "size": 37849,
+      "wordCount": 12616,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0685",
+      "title": "诗话-四六谈麈",
+      "category": "诗话",
+      "path": "shicang-books/诗话-四六谈麈.html",
+      "size": 18420,
+      "wordCount": 6140,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0686",
+      "title": "诗话后编",
+      "category": "诗话",
+      "path": "shicang-books/诗话后编.html",
+      "size": 69309,
+      "wordCount": 23103,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0687",
+      "title": "诗话总龟",
+      "category": "诗话",
+      "path": "shicang-books/诗话总龟.html",
+      "size": 1010614,
+      "wordCount": 336871,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0688",
+      "title": "诗话总龟前集",
+      "category": "诗话",
+      "path": "shicang-books/诗话总龟前集.html",
+      "size": 787307,
+      "wordCount": 262435,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0689",
+      "title": "诗话总龟后集",
+      "category": "诗话",
+      "path": "shicang-books/诗话总龟后集.html",
+      "size": 576290,
+      "wordCount": 192096,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0690",
+      "title": "诗话补遗",
+      "category": "诗话",
+      "path": "shicang-books/诗话补遗.html",
+      "size": 66801,
+      "wordCount": 22267,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0691",
+      "title": "诗谱",
+      "category": "诗话",
+      "path": "shicang-books/诗谱.html",
+      "size": 10094,
+      "wordCount": 3364,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0692",
+      "title": "诗辩坻",
+      "category": "诗集",
+      "path": "shicang-books/诗辩坻.html",
+      "size": 146345,
+      "wordCount": 48781,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0693",
+      "title": "诗镜总论",
+      "category": "诗集",
+      "path": "shicang-books/诗镜总论.html",
+      "size": 40139,
+      "wordCount": 13379,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0694",
+      "title": "诚斋诗话",
+      "category": "诗话",
+      "path": "shicang-books/诚斋诗话.html",
+      "size": 48845,
+      "wordCount": 16281,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0695",
+      "title": "说诗晬语",
+      "category": "诗话",
+      "path": "shicang-books/说诗晬语.html",
+      "size": 76243,
+      "wordCount": 25414,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0696",
+      "title": "谈艺录",
+      "category": "诗集",
+      "path": "shicang-books/谈艺录.html",
+      "size": 17978,
+      "wordCount": 5992,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0697",
+      "title": "谈龙录",
+      "category": "诗集",
+      "path": "shicang-books/谈龙录.html",
+      "size": 20646,
+      "wordCount": 6882,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0698",
+      "title": "谪星说诗",
+      "category": "诗集",
+      "path": "shicang-books/谪星说诗.html",
+      "size": 88307,
+      "wordCount": 29435,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0699",
+      "title": "谭曲杂札",
+      "category": "剧曲",
+      "path": "shicang-books/谭曲杂札.html",
+      "size": 21248,
+      "wordCount": 7082,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0700",
+      "title": "谷音",
+      "category": "诗集",
+      "path": "shicang-books/谷音.html",
+      "size": 40170,
+      "wordCount": 13390,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0701",
+      "title": "豹隐纪谈",
+      "category": "诗集",
+      "path": "shicang-books/豹隐纪谈.html",
+      "size": 12461,
+      "wordCount": 4153,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0702",
+      "title": "赌棋山庄词话",
+      "category": "词话",
+      "path": "shicang-books/赌棋山庄词话.html",
+      "size": 484434,
+      "wordCount": 161478,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0703",
+      "title": "赤城集",
+      "category": "诗集",
+      "path": "shicang-books/赤城集.html",
+      "size": 315434,
+      "wordCount": 105144,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0704",
+      "title": "赵氏孤儿大报仇",
+      "category": "诗集",
+      "path": "shicang-books/赵氏孤儿大报仇.html",
+      "size": 60420,
+      "wordCount": 20140,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0705",
+      "title": "赵盼儿风月救风尘",
+      "category": "诗集",
+      "path": "shicang-books/赵盼儿风月救风尘.html",
+      "size": 31310,
+      "wordCount": 10436,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0706",
+      "title": "载酒园诗话",
+      "category": "诗话",
+      "path": "shicang-books/载酒园诗话.html",
+      "size": 722297,
+      "wordCount": 240765,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0707",
+      "title": "辍锻录",
+      "category": "诗集",
+      "path": "shicang-books/辍锻录.html",
+      "size": 19754,
+      "wordCount": 6584,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0708",
+      "title": "辽诗话",
+      "category": "诗话",
+      "path": "shicang-books/辽诗话.html",
+      "size": 53584,
+      "wordCount": 17861,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0709",
+      "title": "辽金元宫词",
+      "category": "词集",
+      "path": "shicang-books/辽金元宫词.html",
+      "size": 284571,
+      "wordCount": 94857,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0710",
+      "title": "近三百年名家词选",
+      "category": "词集",
+      "path": "shicang-books/近三百年名家词选.html",
+      "size": 286058,
+      "wordCount": 95352,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0711",
+      "title": "近代词人逸事",
+      "category": "词集",
+      "path": "shicang-books/近代词人逸事.html",
+      "size": 15082,
+      "wordCount": 5027,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0712",
+      "title": "近体乐府",
+      "category": "词集",
+      "path": "shicang-books/近体乐府.html",
+      "size": 9870,
+      "wordCount": 3290,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0713",
+      "title": "近词丛话",
+      "category": "词集",
+      "path": "shicang-books/近词丛话.html",
+      "size": 25056,
+      "wordCount": 8352,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0714",
+      "title": "远山堂剧品",
+      "category": "诗集",
+      "path": "shicang-books/远山堂剧品.html",
+      "size": 62718,
+      "wordCount": 20906,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0715",
+      "title": "远山堂曲品",
+      "category": "剧曲",
+      "path": "shicang-books/远山堂曲品.html",
+      "size": 128012,
+      "wordCount": 42670,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0716",
+      "title": "远志斋词衷",
+      "category": "词集",
+      "path": "shicang-books/远志斋词衷.html",
+      "size": 42198,
+      "wordCount": 14066,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0717",
+      "title": "逃禅词",
+      "category": "词集",
+      "path": "shicang-books/逃禅词.html",
+      "size": 50193,
+      "wordCount": 16731,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0718",
+      "title": "逸老堂诗话",
+      "category": "诗话",
+      "path": "shicang-books/逸老堂诗话.html",
+      "size": 77001,
+      "wordCount": 25667,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0719",
+      "title": "道诗精华录",
+      "category": "诗集",
+      "path": "shicang-books/道诗精华录.html",
+      "size": 18008,
+      "wordCount": 6002,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0720",
+      "title": "遯斋闲览",
+      "category": "诗集",
+      "path": "shicang-books/遯斋闲览.html",
+      "size": 26382,
+      "wordCount": 8794,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0721",
+      "title": "鄱阳五家集",
+      "category": "诗集",
+      "path": "shicang-books/鄱阳五家集.html",
+      "size": 379430,
+      "wordCount": 126476,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0722",
+      "title": "酒边词",
+      "category": "词集",
+      "path": "shicang-books/酒边词.html",
+      "size": 50334,
+      "wordCount": 16778,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0723",
+      "title": "重订曲海总目",
+      "category": "剧曲",
+      "path": "shicang-books/重订曲海总目.html",
+      "size": 46744,
+      "wordCount": 15581,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0724",
+      "title": "金声巧联",
+      "category": "诗集",
+      "path": "shicang-books/金声巧联.html",
+      "size": 18459,
+      "wordCount": 6153,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0725",
+      "title": "金粟词话",
+      "category": "词话",
+      "path": "shicang-books/金粟词话.html",
+      "size": 10441,
+      "wordCount": 3480,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0726",
+      "title": "金花女",
+      "category": "诗集",
+      "path": "shicang-books/金花女.html",
+      "size": 71018,
+      "wordCount": 23672,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0727",
+      "title": "金针诗格",
+      "category": "诗话",
+      "path": "shicang-books/金针诗格.html",
+      "size": 10798,
+      "wordCount": 3599,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0728",
+      "title": "钦定千叟宴诗",
+      "category": "诗集",
+      "path": "shicang-books/钦定千叟宴诗.html",
+      "size": 1130373,
+      "wordCount": 376791,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0729",
+      "title": "钦定补绘萧云从离骚全图",
+      "category": "楚辞",
+      "path": "shicang-books/钦定补绘萧云从离骚全图.html",
+      "size": 67212,
+      "wordCount": 22404,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0730",
+      "title": "钦定词谱",
+      "category": "词话",
+      "path": "shicang-books/钦定词谱.html",
+      "size": 2658230,
+      "wordCount": 886076,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0731",
+      "title": "铜鼓书堂词话",
+      "category": "词话",
+      "path": "shicang-books/铜鼓书堂词话.html",
+      "size": 17589,
+      "wordCount": 5863,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0732",
+      "title": "长生殿",
+      "category": "剧曲",
+      "path": "shicang-books/长生殿.html",
+      "size": 279289,
+      "wordCount": 93096,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0733",
+      "title": "问花楼词话",
+      "category": "词话",
+      "path": "shicang-books/问花楼词话.html",
+      "size": 16537,
+      "wordCount": 5512,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0734",
+      "title": "闺艳秦声",
+      "category": "诗集",
+      "path": "shicang-books/闺艳秦声.html",
+      "size": 34395,
+      "wordCount": 11465,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0735",
+      "title": "闽中十子诗",
+      "category": "诗集",
+      "path": "shicang-books/闽中十子诗.html",
+      "size": 429987,
+      "wordCount": 143329,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0736",
+      "title": "闽川闺秀诗话",
+      "category": "诗话",
+      "path": "shicang-books/闽川闺秀诗话.html",
+      "size": 101368,
+      "wordCount": 33789,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0737",
+      "title": "防溪诗话",
+      "category": "诗话",
+      "path": "shicang-books/防溪诗话.html",
+      "size": 75702,
+      "wordCount": 25234,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0738",
+      "title": "阳春集",
+      "category": "诗集",
+      "path": "shicang-books/阳春集.html",
+      "size": 30672,
+      "wordCount": 10224,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0739",
+      "title": "陈石遗先生谈艺录",
+      "category": "诗集",
+      "path": "shicang-books/陈石遗先生谈艺录.html",
+      "size": 22663,
+      "wordCount": 7554,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0740",
+      "title": "陈辅之诗话",
+      "category": "诗话",
+      "path": "shicang-books/陈辅之诗话.html",
+      "size": 15729,
+      "wordCount": 5243,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0741",
+      "title": "随园诗话",
+      "category": "诗话",
+      "path": "shicang-books/随园诗话.html",
+      "size": 1166204,
+      "wordCount": 388734,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0742",
+      "title": "雅道机要",
+      "category": "诗集",
+      "path": "shicang-books/雅道机要.html",
+      "size": 20826,
+      "wordCount": 6942,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0743",
+      "title": "雅颂正音",
+      "category": "诗集",
+      "path": "shicang-books/雅颂正音.html",
+      "size": 100929,
+      "wordCount": 33643,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0744",
+      "title": "雕菰楼词话",
+      "category": "词话",
+      "path": "shicang-books/雕菰楼词话.html",
+      "size": 15252,
+      "wordCount": 5084,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0745",
+      "title": "雕虫诗话",
+      "category": "诗话",
+      "path": "shicang-books/雕虫诗话.html",
+      "size": 609587,
+      "wordCount": 203195,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0746",
+      "title": "雨华盦词话",
+      "category": "词话",
+      "path": "shicang-books/雨华盦词话.html",
+      "size": 9140,
+      "wordCount": 3046,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0747",
+      "title": "雨村词话",
+      "category": "词话",
+      "path": "shicang-books/雨村词话.html",
+      "size": 84675,
+      "wordCount": 28225,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0748",
+      "title": "雪压轩词",
+      "category": "词集",
+      "path": "shicang-books/雪压轩词.html",
+      "size": 11662,
+      "wordCount": 3887,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0749",
+      "title": "雷峰塔",
+      "category": "诗集",
+      "path": "shicang-books/雷峰塔.html",
+      "size": 160728,
+      "wordCount": 53576,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0750",
+      "title": "霓裳续谱",
+      "category": "诗集",
+      "path": "shicang-books/霓裳续谱.html",
+      "size": 327844,
+      "wordCount": 109281,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0751",
+      "title": "霜厓词录",
+      "category": "词集",
+      "path": "shicang-books/霜厓词录.html",
+      "size": 64801,
+      "wordCount": 21600,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0752",
+      "title": "静志居琴趣",
+      "category": "词集",
+      "path": "shicang-books/静志居琴趣.html",
+      "size": 29062,
+      "wordCount": 9687,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0753",
+      "title": "韵语阳秋",
+      "category": "诗集",
+      "path": "shicang-books/韵语阳秋.html",
+      "size": 345581,
+      "wordCount": 115193,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0754",
+      "title": "须贾大夫谇范叔",
+      "category": "诗集",
+      "path": "shicang-books/须贾大夫谇范叔.html",
+      "size": 195895,
+      "wordCount": 65298,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0755",
+      "title": "顾太清词选",
+      "category": "词集",
+      "path": "shicang-books/顾太清词选.html",
+      "size": 39657,
+      "wordCount": 13219,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0756",
+      "title": "颐山诗话",
+      "category": "诗话",
+      "path": "shicang-books/颐山诗话.html",
+      "size": 29619,
+      "wordCount": 9873,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0757",
+      "title": "风月堂诗话",
+      "category": "诗话",
+      "path": "shicang-books/风月堂诗话.html",
+      "size": 38489,
+      "wordCount": 12829,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0758",
+      "title": "风雅翼",
+      "category": "诗集",
+      "path": "shicang-books/风雅翼.html",
+      "size": 410777,
+      "wordCount": 136925,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0759",
+      "title": "风骚旨格",
+      "category": "诗集",
+      "path": "shicang-books/风骚旨格.html",
+      "size": 14723,
+      "wordCount": 4907,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0760",
+      "title": "风骚要式",
+      "category": "诗集",
+      "path": "shicang-books/风骚要式.html",
+      "size": 8871,
+      "wordCount": 2957,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0761",
+      "title": "饮冰室评词",
+      "category": "词集",
+      "path": "shicang-books/饮冰室评词.html",
+      "size": 10899,
+      "wordCount": 3633,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0762",
+      "title": "饮水词",
+      "category": "词集",
+      "path": "shicang-books/饮水词.html",
+      "size": 38075,
+      "wordCount": 12691,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0763",
+      "title": "香宇诗谈",
+      "category": "诗集",
+      "path": "shicang-books/香宇诗谈.html",
+      "size": 12684,
+      "wordCount": 4228,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0764",
+      "title": "香宋杂记",
+      "category": "诗集",
+      "path": "shicang-books/香宋杂记.html",
+      "size": 23232,
+      "wordCount": 7744,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0765",
+      "title": "香宋词",
+      "category": "词集",
+      "path": "shicang-books/香宋词.html",
+      "size": 177474,
+      "wordCount": 59158,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0766",
+      "title": "香销酒醒词",
+      "category": "词集",
+      "path": "shicang-books/香销酒醒词.html",
+      "size": 41049,
+      "wordCount": 13683,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0767",
+      "title": "驻梦词",
+      "category": "词集",
+      "path": "shicang-books/驻梦词.html",
+      "size": 22591,
+      "wordCount": 7530,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0768",
+      "title": "高斋诗话",
+      "category": "诗话",
+      "path": "shicang-books/高斋诗话.html",
+      "size": 18963,
+      "wordCount": 6321,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0769",
+      "title": "高氏三宴诗集",
+      "category": "诗集",
+      "path": "shicang-books/高氏三宴诗集.html",
+      "size": 18287,
+      "wordCount": 6095,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0770",
+      "title": "魏庆之词话",
+      "category": "词话",
+      "path": "shicang-books/魏庆之词话.html",
+      "size": 31385,
+      "wordCount": 10461,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0771",
+      "title": "鹦鹉洲",
+      "category": "诗集",
+      "path": "shicang-books/鹦鹉洲.html",
+      "size": 116251,
+      "wordCount": 38750,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0772",
+      "title": "麓堂诗话",
+      "category": "诗话",
+      "path": "shicang-books/麓堂诗话.html",
+      "size": 59059,
+      "wordCount": 19686,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0773",
+      "title": "黄庭坚词",
+      "category": "词集",
+      "path": "shicang-books/黄庭坚词.html",
+      "size": 216218,
+      "wordCount": 72072,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0774",
+      "title": "黔苗竹枝词",
+      "category": "词集",
+      "path": "shicang-books/黔苗竹枝词.html",
+      "size": 26223,
+      "wordCount": 8741,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0775",
+      "title": "龙川词",
+      "category": "词集",
+      "path": "shicang-books/龙川词.html",
+      "size": 21525,
+      "wordCount": 7175,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "book_0776",
+      "title": "龙洲词",
+      "category": "词集",
+      "path": "shicang-books/龙洲词.html",
+      "size": 34987,
+      "wordCount": 11662,
+      "source": "殆知阁四库本"
+    },
+    {
+      "id": "cp_tangshi",
+      "title": "全唐诗（chinese-poetry）",
+      "category": "chinesePoetry",
+      "poemCount": 55000,
+      "source": "chinese-poetry MIT协议",
+      "status": "待网络恢复后导入",
+      "type": "诗"
+    },
+    {
+      "id": "cp_songshi",
+      "title": "全宋诗（chinese-poetry）",
+      "category": "chinesePoetry",
+      "poemCount": 260000,
+      "source": "chinese-poetry MIT协议",
+      "status": "待网络恢复后导入",
+      "type": "诗"
+    },
+    {
+      "id": "cp_songci",
+      "title": "全宋词（chinese-poetry）",
+      "category": "chinesePoetry",
+      "poemCount": 21000,
+      "source": "chinese-poetry MIT协议",
+      "status": "待网络恢复后导入",
+      "type": "词"
+    },
+    {
+      "id": "cp_shijing",
+      "title": "诗经（chinese-poetry）",
+      "category": "chinesePoetry",
+      "poemCount": 305,
+      "source": "chinese-poetry MIT协议",
+      "status": "待网络恢复后导入",
+      "type": "诗"
+    },
+    {
+      "id": "cp_nineteen",
+      "title": "古诗十九首·汉乐府（chinese-poetry）",
+      "category": "chinesePoetry",
+      "poemCount": 120,
+      "source": "chinese-poetry MIT协议",
+      "status": "待网络恢复后导入",
+      "type": "诗"
+    },
+    {
+      "id": "cp_mengxue",
+      "title": "蒙学集·论语（chinese-poetry）",
+      "category": "chinesePoetry",
+      "poemCount": 1500,
+      "source": "chinese-poetry MIT协议",
+      "status": "待网络恢复后导入",
+      "type": "蒙学"
+    }
+  ]
+};
