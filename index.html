@@ -318,13 +318,13 @@
         <div class="kpi-num" data-count="7">7</div><div class="kpi-lbl">本体层级 L0–L6</div>
       </div>
       <div class="bg-[var(--card)] rounded-xl px-4 py-4" style="border:1px solid var(--line);">
-        <div class="kpi-num" data-count="99">99</div><div class="kpi-lbl">OWL 类</div>
+        <div class="kpi-num" data-count="155">155</div><div class="kpi-lbl">OWL 类</div>
       </div>
       <div class="bg-[var(--card)] rounded-xl px-4 py-4" style="border:1px solid var(--line);">
-        <div class="kpi-num" data-count="34">34</div><div class="kpi-lbl">对象属性</div>
+        <div class="kpi-num" data-count="51">51</div><div class="kpi-lbl">对象属性</div>
       </div>
       <div class="bg-[var(--card)] rounded-xl px-4 py-4" style="border:1px solid var(--line);">
-        <div class="kpi-num" data-count="46">46</div><div class="kpi-lbl">数据属性</div>
+        <div class="kpi-num" data-count="74">74</div><div class="kpi-lbl">数据属性</div>
       </div>
       <div class="bg-[var(--card)] rounded-xl px-4 py-4" style="border:1px solid var(--line);">
         <div class="kpi-num" data-count="776">776</div><div class="kpi-lbl">诗藏典籍（部） · 6.3万篇精读</div>
@@ -355,7 +355,7 @@
   <div class="max-w-[1180px] mx-auto px-5 md:px-8">
     <div class="mb-8">
       <div class="sec-eyebrow">02 / Classes</div>
-      <h2 class="sec-title text-[28px] md:text-[40px] mt-2">类体系 · 99 类</h2>
+      <h2 class="sec-title text-[28px] md:text-[40px] mt-2">类体系 · 155 类（八大典籍专属细化）</h2>
       <p class="text-[15.5px] text-[var(--ink-2)] leading-relaxed mt-3 max-w-[720px]">
         点击层级切换查看该层定义的全部类。类的层级以 <span class="mono text-[13px] text-[var(--dian)]">rdfs:subClassOf</span> 表达，顶层元类 <span class="mono text-[13px] text-[var(--dian)]">ShiCangEntity</span> 统摄 L1–L6 全部实体类。
       </p>
@@ -372,10 +372,10 @@
     <div class="grid md:grid-cols-[.9fr_1.1fr] gap-6 md:gap-12 items-end mb-9">
       <div>
         <div class="sec-eyebrow">03 / Relations</div>
-        <h2 class="sec-title text-[28px] md:text-[40px] mt-2">关系网络 · 34 对象属性</h2>
+        <h2 class="sec-title text-[28px] md:text-[40px] mt-2">关系网络 · 51 对象属性</h2>
       </div>
       <p class="text-[15.5px] text-[var(--ink-2)] leading-relaxed md:pb-2">
-        关系是本体的「网」。34 个对象属性覆盖创作归属、体裁形式、意象情感、流派宗匠、典籍收录与人物传承；其中 <b style="color:var(--qing)">影响</b>具传递性、<b style="color:var(--qing)">交游</b>与<b style="color:var(--qing)">同时代</b>具对称性，多组逆属性支撑双向推理。
+        关系是本体的「网」。51 个对象属性覆盖创作归属、体裁形式、意象情感、流派宗匠、典籍收录与人物传承；其中 <b style="color:var(--qing)">影响</b>具传递性、<b style="color:var(--qing)">交游</b>与<b style="color:var(--qing)">同时代</b>具对称性，多组逆属性支撑双向推理。
       </p>
     </div>
 
@@ -402,6 +402,41 @@
       <h2 class="sec-title text-[28px] md:text-[40px] mt-2">L4 文本载体层 · 典籍体系</h2>
       <p class="text-[15.5px] text-[var(--ink-2)] leading-relaxed mt-3 max-w-[760px]">
         诗藏的实体文献分八大类，合计 <b>776 部</b>。它们是本体中「实例」的主要来源，也是语料可下载、可扩充的基底。
+      <div class="mt-8 grid grid-cols-2 md:grid-cols-4 gap-3 text-[13px]">
+        <div class="xuan-card p-4 border-l-4" style="border-color:#8b2f2f">
+          <div class="serif font-bold text-[15px] mb-2" style="color:#8b2f2f">詩 · 诗集类</div>
+          <div class="text-[var(--ink-3)] leading-relaxed">细分古风/近体/乐府/歌行；近体再分五律/七律/五绝/七绝/排律；专属属性：<b>shiType诗体</b>、<b>yunbu平水韵部</b>、<b>pingsheng平仄</b>、<b>yunjiao韵脚</b>。</div>
+        </div>
+        <div class="xuan-card p-4 border-l-4" style="border-color:#3F6680">
+          <div class="serif font-bold text-[15px] mb-2" style="color:#3F6680">詞 · 词集类</div>
+          <div class="text-[var(--ink-3)] leading-relaxed">按字数分小令/中调/长调；专属属性：<b>cipaiName词牌</b>、<b>cipaiPattern格律谱</b>、<b>ciLength长度</b>、<b>ciRhymeType押韵方式</b>，关联49+词牌类。</div>
+        </div>
+        <div class="xuan-card p-4 border-l-4" style="border-color:#6A4C93">
+          <div class="serif font-bold text-[15px] mb-2" style="color:#6A4C93">曲 · 剧曲类</div>
+          <div class="text-[var(--ink-3)] leading-relaxed">分北曲/南曲/散曲/杂剧/传奇；散曲再分小令/套数；专属属性：<b>qudiaoName曲牌</b>、<b>quGongdiao宫调</b>，关联15+北曲牌类。</div>
+        </div>
+        <div class="xuan-card p-4 border-l-4" style="border-color:#5F8F6F">
+          <div class="serif font-bold text-[15px] mb-2" style="color:#5F8F6F">騷 · 楚辞类</div>
+          <div class="text-[var(--ink-3)] leading-relaxed">按体分离骚体/九歌体/天问体/九章体；专属属性：<b>saoXiCount兮字数量</b>，楚地巫风文化特有文体，兮字为句腰标志。</div>
+        </div>
+        <div class="xuan-card p-4 border-l-4" style="border-color:#8B5A2B">
+          <div class="serif font-bold text-[15px] mb-2" style="color:#8B5A2B">賦 · 汉赋类</div>
+          <div class="text-[var(--ink-3)] leading-relaxed">按发展分骚体赋/汉大赋/抒情小赋/骈赋/律赋/文赋六子类；专属属性：<b>fuType赋体</b>，铺采摛文，体物写志。</div>
+        </div>
+        <div class="xuan-card p-4 border-l-4" style="border-color:#C23B22">
+          <div class="serif font-bold text-[15px] mb-2" style="color:#C23B22">聯 · 对联类</div>
+          <div class="text-[var(--ink-3)] leading-relaxed">按用途分春联/楹联/挽联/赠联/书斋联/喜联/集句联/题赠联八子类；专属属性：<b>duilianUpper上联</b>/<b>duilianLower下联</b>/<b>duilianHengpi横批</b>/<b>duilianScore格律评分</b>/<b>duilianZeqiPingshou仄起平收</b>。</div>
+        </div>
+        <div class="xuan-card p-4 border-l-4" style="border-color:#5a3a2f">
+          <div class="serif font-bold text-[15px] mb-2" style="color:#5a3a2f">話 · 诗话类</div>
+          <div class="text-[var(--ink-3)] leading-relaxed">按体例分诗话/诗评/诗品/诗格/纪事五子类；专属属性：<b>commentContent评点正文</b>、<b>commentTarget评点对象</b>，与评点实例类关联，记录历代诗学理论。</div>
+        </div>
+        <div class="xuan-card p-4 border-l-4" style="border-color:#7A3A7F">
+          <div class="serif font-bold text-[15px] mb-2" style="color:#7A3A7F">評 · 词话类</div>
+          <div class="text-[var(--ink-3)] leading-relaxed">词学评论文体，与诗话同属诗学理论大类；属性同诗话，记载词体流变、词人高下、词律辨析，支持常州词派/浙西词派等词学流派归属。</div>
+        </div>
+      </div>
+
       </p>
     </div>
 
@@ -947,9 +982,9 @@
           前缀用法示例：shicang:Poet · shicang:authored · shicang:containsImagery
         </div>
         <ul class="text-[14.5px] text-[var(--ink-2)] mt-3 space-y-1.5 list-none p-0">
-          <li>· 99 个类（owl:Class）</li>
-          <li>· 34 个对象属性（owl:ObjectProperty）</li>
-          <li>· 46 个数据属性（owl:DatatypeProperty）</li>
+          <li>· 155 个类（owl:Class），含八大典籍专属子类体系</li>
+          <li>· 51 个对象属性（owl:ObjectProperty）</li>
+          <li>· 74 个数据属性（owl:DatatypeProperty），为每类典籍定制专属属性</li>
           <li>· 85 个实例（owl:NamedIndividual）</li>
         </ul>
       </div>
