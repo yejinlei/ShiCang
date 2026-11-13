@@ -170,55 +170,32 @@ main.body{flex:1;min-width:0;padding:16px 26px 80px}
   }
 </style>
 
+<link rel="stylesheet" href="../global.css">
 </head>
 <body>
-
-
-<nav class="shicang-topnav">
-  <div class="shicang-topnav-inner">
-    <a href="/ShiCang/" class="shicang-logo">
-      <span class="shicang-logo-mark">诗</span>
-      <span>诗藏本体论</span>
-    </a>
-    <div class="shicang-nav-links shicang-desktop-links">
-      <a href="/ShiCang/" class="shicang-nav-link">首页</a>
-      <span class="shicang-nav-sep">|</span>
-      <a href="/ShiCang/shicang-jingdu/" class="shicang-nav-link active" class="shicang-nav-link">诗</a>
-      <a href="/ShiCang/shicang-ci/" class="shicang-nav-link">词</a>
-      <a href="/ShiCang/shicang-qu/" class="shicang-nav-link">曲</a>
-      <a href="/ShiCang/shicang-chuci/" class="shicang-nav-link">辞赋</a>
-      <a href="/ShiCang/shicang-poem/" class="shicang-nav-link">名篇</a>
-      <span class="shicang-nav-sep">|</span>
-      <a href="/ShiCang/shicang-poet-journey/" class="shicang-nav-link">诗人轨迹</a>
-      <a href="/ShiCang/shicang-cipai/" class="shicang-nav-link">词牌</a>
-      <a href="/ShiCang/shicang-imagery/" class="shicang-nav-link">意象</a>
-      <a href="/ShiCang/shicang-meipi/" class="shicang-nav-link">眉批</a>
-      <a href="/ShiCang/shicang-duilian/" class="shicang-nav-link">对弈</a>
-      <a href="/ShiCang/shicang-duilian-corpus/" class="shicang-nav-link">楹联</a>
-      <a href="/ShiCang/shicang-map/" class="shicang-nav-link">地图</a>
-      <a href="/ShiCang/shicang-yunshu/" class="shicang-nav-link">韵书</a> | <a href="../shicang-xinghe/">星河</a>
-    </div>
-    <button class="shicang-menu-btn" onclick="document.getElementById('shicangMobileNav').classList.toggle('open')">☰</button>
-    <div id="shicangMobileNav" class="shicang-mobile-menu">
-      <a href="/ShiCang/" class="shicang-nav-link font-bold">🏠 返回首页</a>
-      <div style="height:1px;background:rgba(30,26,21,.1);margin:6px 0;"></div>
-      <a href="/ShiCang/shicang-jingdu/" class="shicang-nav-link active" class="shicang-nav-link">📚 诗藏精读</a>
-      <a href="/ShiCang/shicang-ci/" class="shicang-nav-link">📝 词林精读</a>
-      <a href="/ShiCang/shicang-qu/" class="shicang-nav-link">🎭 曲林精读</a>
-      <a href="/ShiCang/shicang-chuci/" class="shicang-nav-link">🏮 辞赋精读</a>
-      <a href="/ShiCang/shicang-poem/" class="shicang-nav-link">📜 名篇精读</a>
-      <div style="height:1px;background:rgba(30,26,21,.1);margin:6px 0;"></div>
-      <a href="/ShiCang/shicang-poet-journey/" class="shicang-nav-link">🧭 诗人时空轨迹</a>
-      <a href="/ShiCang/shicang-cipai/" class="shicang-nav-link">🎶 词牌格律谱</a>
-      <a href="/ShiCang/shicang-imagery/" class="shicang-nav-link">🌿 意象关系图</a>
-      <a href="/ShiCang/shicang-meipi/" class="shicang-nav-link">🖋️ 诗话眉批</a>
-      <a href="/ShiCang/shicang-duilian/" class="shicang-nav-link">🀄 对联斗巧</a>
-      <a href="/ShiCang/shicang-duilian-corpus/" class="shicang-nav-link">🧧 楹联集对</a>
-      <a href="/ShiCang/shicang-map/" class="shicang-nav-link">🗺️ 诗词地图</a>
-      <a href="/ShiCang/shicang-yunshu/" class="shicang-nav-link">📖 韵书查询</a>
-    </div>
+<nav class="nav scroll-unfold">
+  <div class="nav-logo"><div class="seal">詩</div><span>诗藏本体论</span></div>
+  <div class="nav-links">
+    <a href="../index.html">首页</a>
+    <a href="../shicang-jingdu/" class="active">诗</a>
+    <a href="../shicang-ci/">词</a>
+    <a href="../shicang-qu/">曲</a>
+    <a href="../shicang-chuci/">辞赋</a>
+    <a href="../shicang-poem/">名篇</a>
+    <a href="../shicang-poet-journey/">诗人</a>
+    <a href="../shicang-xinghe/">星河</a>
+    <a href="../shicang-cipai/">词牌</a>
+    <a href="../shicang-imagery/">意象</a>
+    <a href="../shicang-meipi/">眉批</a>
+    <a href="../shicang-duilian/">对弈</a>
+    <a href="../shicang-duilian-corpus/">楹联</a>
+    <a href="../shicang-map/">地图</a>
+    <a href="../shicang-yunshu/">韵书</a>
   </div>
 </nav>
+
+
+
 
 
 <header class="top">
@@ -375,6 +352,51 @@ async function init(){
   openBook(first.slug);
 }
 init();
+</script>
+<div class="back-to-top" id="backToTop">歸</div>
+<div class="idle-seal" onclick="togglePetals()" title="点此开/关落花">閑章</div>
+<div class="colophon">诗藏本体论 · 岁在丙午 · 辑于西泠</div>
+<script>
+window.addEventListener('scroll', ()=>{
+  const btn = document.getElementById('backToTop');
+  if(btn) btn.classList.toggle('show', window.scrollY>300);
+});
+document.addEventListener('click', (e)=>{
+  if(e.target.id === 'backToTop') window.scrollTo({top:0,behavior:'smooth'});
+});
+let petalsOn = localStorage.getItem('petals')==='true';
+let petalTimer = null;
+function togglePetals(){
+  petalsOn = !petalsOn;
+  localStorage.setItem('petals', petalsOn);
+  petalsOn ? startPetals() : stopPetals();
+}
+function startPetals(){
+  if(petalTimer) return;
+  petalTimer = setInterval(()=>{
+    const p = document.createElement('div');
+    p.className = 'petal';
+    p.style.left = Math.random()*100 + 'vw';
+    p.style.animationDuration = (7 + Math.random()*7) + 's';
+    const s = 6 + Math.random()*8;
+    p.style.width = p.style.height = s + 'px';
+    document.body.appendChild(p);
+    setTimeout(()=>p.remove(), 15000);
+  }, 700);
+}
+function stopPetals(){
+  clearInterval(petalTimer);
+  petalTimer = null;
+}
+if(petalsOn) startPetals();
+// 夜读模式兼容
+document.querySelectorAll('.night-btn, [onclick*="night"]').forEach(btn=>{
+  btn.addEventListener('click', ()=>document.body.classList.toggle('night'));
+});
+// 卷轴入场
+document.addEventListener('DOMContentLoaded', ()=>{
+  document.querySelector('.container, .main, .content')?.classList.add('scroll-unfold');
+});
 </script>
 </body>
 </html>

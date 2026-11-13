@@ -143,6 +143,7 @@ footer{text-align:center;padding:24px;color:#a08060;font-size:12px;letter-spacin
   }
 </style>
 
+<link rel="stylesheet" href="../global.css">
 </head>
 <body>
 
@@ -390,4 +391,35 @@ document.getElementById('checkInput').value='明月幾時有，把酒問青天';
 checkPoem();
 </script>
 </body>
+<div class="back-to-top" id="backToTop">歸</div>
+<div class="idle-seal" onclick="togglePetals()" title="点此开/关落花">閑章</div>
+<div class="colophon">诗藏本体论 · 岁在丙午 · 辑于西泠</div>
+<script>
+window.addEventListener('scroll', ()=>{
+  document.getElementById('backToTop').classList.toggle('show', window.scrollY>300);
+});
+document.getElementById('backToTop').addEventListener('click', ()=>window.scrollTo({top:0,behavior:'smooth'}));
+let petalsOn = localStorage.getItem('petals')==='true';
+let petalTimer;
+function togglePetals(){
+  petalsOn=!petalsOn; localStorage.setItem('petals',petalsOn);
+  petalsOn?startPetals():stopPetals();
+}
+function startPetals(){
+  if(petalTimer)return;
+  petalTimer=setInterval(()=>{
+    const p=document.createElement('div');p.className='petal';
+    p.style.left=Math.random()*100+'vw';
+    p.style.animationDuration=(7+Math.random()*7)+'s';
+    const s=6+Math.random()*8;p.style.width=p.style.height=s+'px';
+    document.body.appendChild(p);setTimeout(()=>p.remove(),15000);
+  },700);
+}
+function stopPetals(){clearInterval(petalTimer);petalTimer=null;}
+if(petalsOn)startPetals();
+// 夜读模式兼容
+document.querySelectorAll('[class*=night]').forEach(btn=>{
+  btn.addEventListener('click',()=>document.body.classList.toggle('night'));
+});
+</script>
 </html>

@@ -1,0 +1,402 @@
+/* 诗藏本体论 全局统一浪漫美学样式 v4.0 */
+:root {
+  --paper: #f7f1e3;
+  --paper-deep: #f0e6d2;
+  --ink: #2b2620;
+  --ink-light: #5a4f41;
+  --cinnabar: #8b2f2f;
+  --cinnabar-light: #a83a3a;
+  --ochre: #8b5a2b;
+  --seal: #7a2828;
+  --shadow-light: rgba(139, 47, 47, 0.08);
+  --shadow-deep: rgba(0,0,0,0.06);
+}
+
+/* 全局基础 */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: "Noto Serif SC", "Source Han Serif SC", "Songti SC", "SimSun", serif;
+  background: var(--paper);
+  color: var(--ink);
+  line-height: 2;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* 宣纸纹理底 */
+body::before {
+  content: "";
+  position: fixed;
+  top:0; left:0; right:0; bottom:0;
+  background: 
+    repeating-linear-gradient(45deg, rgba(139,90,43,0.015) 0 1px, transparent 1px 8px),
+    repeating-linear-gradient(-45deg, rgba(139,47,47,0.01) 0 1px, transparent 1px 12px),
+    radial-gradient(ellipse at 20% 30%, rgba(139,90,43,0.03) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 70%, rgba(139,47,47,0.02) 0%, transparent 50%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* 淡墨梅枝边角装饰 */
+body::after {
+  content: "";
+  position: fixed;
+  bottom: 0; right: 0;
+  width: 300px; height: 300px;
+  background: radial-gradient(circle at 80% 80%, rgba(43,38,32,0.04) 0%, transparent 70%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* 字体层级 */
+h1 {
+  font-size: 2.4em;
+  font-weight: normal;
+  font-family: "STKaiti", "KaiTi", "Noto Serif SC", serif;
+  color: var(--cinnabar);
+  letter-spacing: 3px;
+  text-align: center;
+  margin: 1em 0 0.5em;
+  position: relative;
+}
+h1::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--cinnabar), transparent);
+  margin: 0.3em auto 0;
+}
+h2 {
+  font-size: 1.5em;
+  font-weight: normal;
+  color: var(--ink);
+  letter-spacing: 2px;
+  margin: 1.5em 0 0.8em;
+  border-left: 3px solid var(--cinnabar);
+  padding-left: 0.8em;
+}
+h3 { font-size: 1.2em; color: var(--ink-light); margin: 1em 0 0.5em; }
+p { margin: 0.8em 0; text-indent: 2em; color: var(--ink); }
+a { color: var(--cinnabar); text-decoration: none; transition: all 0.3s ease; }
+a:hover { color: var(--cinnabar-light); text-shadow: 0 0 8px rgba(139,47,47,0.15); }
+
+/* 朱印按钮体系 */
+.btn-seal {
+  display: inline-block;
+  padding: 0.5em 1.2em;
+  border: 1px solid var(--cinnabar);
+  color: var(--cinnabar);
+  background: rgba(139,47,47,0.02);
+  font-family: inherit;
+  font-size: 0.95em;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+.btn-seal::before {
+  content: "";
+  position: absolute;
+  top:50%; left:50%;
+  width: 0; height: 0;
+  background: radial-gradient(circle, rgba(139,47,47,0.15) 0%, transparent 70%);
+  transform: translate(-50%,-50%);
+  transition: all 0.5s ease;
+  border-radius: 50%;
+}
+.btn-seal:hover::before { width: 200%; height: 200%; }
+.btn-seal:hover {
+  background: rgba(139,47,47,0.08);
+  box-shadow: 0 2px 8px var(--shadow-light);
+}
+.btn-seal.active {
+  background: var(--cinnabar);
+  color: var(--paper);
+}
+
+.btn-ink {
+  display: inline-block;
+  padding: 0.4em 1em;
+  border: 1px solid var(--ink-light);
+  color: var(--ink-light);
+  background: transparent;
+  font-family: inherit;
+  font-size: 0.9em;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.btn-ink:hover {
+  background: rgba(43,38,32,0.05);
+  color: var(--ink);
+}
+
+/* 标签 */
+.tag {
+  display: inline-block;
+  padding: 0.2em 0.8em;
+  background: rgba(139,47,47,0.08);
+  color: var(--cinnabar);
+  font-size: 0.85em;
+  border-radius: 12px;
+  margin: 0.2em;
+  border: 1px solid rgba(139,47,47,0.15);
+}
+.tag-ink {
+  background: rgba(43,38,32,0.05);
+  color: var(--ink-light);
+  border-color: rgba(43,38,32,0.1);
+}
+.tag-ochre {
+  background: rgba(139,90,43,0.08);
+  color: var(--ochre);
+  border-color: rgba(139,90,43,0.15);
+}
+
+/* 卡片 */
+.card {
+  background: rgba(255,252,245,0.7);
+  border: 1px solid rgba(139,90,43,0.12);
+  border-radius: 4px;
+  padding: 1.5em;
+  margin: 1em 0;
+  box-shadow: 0 3px 12px var(--shadow-deep);
+  transition: all 0.3s ease;
+  position: relative;
+}
+.card:hover {
+  box-shadow: 0 6px 20px rgba(139,47,47,0.08);
+  transform: translateY(-2px);
+  border-color: rgba(139,47,47,0.2);
+}
+.card::before {
+  content: "";
+  position: absolute;
+  top: 8px; left: 8px; right: 8px; bottom: 8px;
+  border: 1px solid rgba(139,90,43,0.08);
+  pointer-events: none;
+  border-radius: 2px;
+}
+
+/* 输入框 */
+input, textarea {
+  font-family: inherit;
+  background: rgba(255,252,245,0.8);
+  border: 1px solid rgba(139,90,43,0.2);
+  border-radius: 4px;
+  padding: 0.7em 1em;
+  font-size: 1em;
+  color: var(--ink);
+  transition: all 0.3s ease;
+  outline: none;
+}
+input:focus, textarea:focus {
+  border-color: var(--cinnabar);
+  box-shadow: 0 0 0 3px rgba(139,47,47,0.08);
+}
+
+/* 卷轴入场动画 */
+@keyframes scrollUnfold {
+  0% { opacity: 0; transform: scaleY(0.9); clip-path: inset(50% 0); }
+  100% { opacity: 1; transform: scaleY(1); clip-path: inset(0 0); }
+}
+.scroll-unfold {
+  animation: scrollUnfold 0.8s ease-out forwards;
+}
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(10px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+.fade-in { animation: fadeIn 0.6s ease-out forwards; }
+
+/* 印章样式 */
+.seal {
+  display: inline-block;
+  width: 2.5em; height: 2.5em;
+  line-height: 2.5em;
+  text-align: center;
+  background: var(--seal);
+  color: var(--paper);
+  font-family: "STKaiti", "KaiTi", serif;
+  font-size: 0.9em;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transform: rotate(-3deg);
+}
+.seal.small { width: 1.8em; height: 1.8em; line-height: 1.8em; font-size: 0.8em; }
+.seal.large { width: 3.5em; height: 3.5em; line-height: 3.5em; font-size: 1em; }
+
+/* 分隔线 */
+.divider {
+  text-align: center;
+  margin: 2em 0;
+  color: rgba(139,90,43,0.4);
+  font-size: 0.8em;
+  letter-spacing: 0.5em;
+}
+.divider::before, .divider::after {
+  content: "";
+  display: inline-block;
+  width: 80px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(139,90,43,0.3), transparent);
+  vertical-align: middle;
+  margin: 0 1em;
+}
+
+/* 回到顶部印章按钮 */
+.back-to-top {
+  position: fixed;
+  bottom: 2em; right: 2em;
+  width: 48px; height: 48px;
+  line-height: 48px;
+  text-align: center;
+  background: var(--seal);
+  color: var(--paper);
+  border-radius: 2px;
+  font-family: "STKaiti", serif;
+  font-size: 0.9em;
+  cursor: pointer;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.3s ease;
+  z-index: 999;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+}
+.back-to-top.show { opacity: 1; transform: translateY(0); }
+.back-to-top:hover { background: var(--cinnabar); transform: translateY(-2px); box-shadow: 0 5px 12px rgba(0,0,0,0.2); }
+
+/* 夜读模式（灯下质感） */
+body.night {
+  --paper: #1a1715;
+  --paper-deep: #211d1a;
+  --ink: #e8ddd0;
+  --ink-light: #c7b9a7;
+  --cinnabar: #d45d5d;
+  --cinnabar-light: #e07070;
+  --ochre: #b88d5f;
+  --shadow-light: rgba(0,0,0,0.2);
+  --shadow-deep: rgba(0,0,0,0.3);
+}
+body.night::before {
+  background: 
+    radial-gradient(ellipse at center, rgba(255,200,100,0.05) 0%, transparent 70%),
+    repeating-linear-gradient(45deg, rgba(184,141,95,0.02) 0 1px, transparent 1px 8px);
+}
+body.night .card {
+  background: rgba(30,26,23,0.8);
+  border-color: rgba(184,141,95,0.15);
+}
+body.night input, body.night textarea {
+  background: rgba(30,26,23,0.8);
+  border-color: rgba(184,141,95,0.2);
+  color: var(--ink);
+}
+
+/* 导航栏统一 */
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(247,241,227,0.92);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(139,90,43,0.1);
+  padding: 0.8em 2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body.night .nav { background: rgba(26,23,21,0.92); border-bottom-color: rgba(184,141,95,0.1); }
+.nav-logo {
+  display: flex; align-items: center; gap: 0.5em;
+  font-family: "STKaiti", serif;
+  font-size: 1.3em;
+  color: var(--ink);
+}
+.nav-logo .seal { width: 1.8em; height: 1.8em; line-height: 1.8em; font-size: 0.8em; }
+.nav-links { display: flex; gap: 1.5em; align-items: center; flex-wrap: wrap; }
+.nav-links a {
+  color: var(--ink-light);
+  font-size: 1.05em;
+  padding: 0.3em 0;
+  position: relative;
+}
+.nav-links a.active {
+  color: var(--cinnabar);
+  font-weight: 500;
+}
+.nav-links a.active::after {
+  content: "";
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  height: 2px;
+  background: var(--cinnabar);
+}
+.nav-hamburger {
+  display: none;
+  font-size: 1.5em;
+  cursor: pointer;
+  color: var(--ink);
+}
+
+/* 容器 */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2em;
+  position: relative;
+  z-index: 1;
+}
+
+/* 闲章 */
+.idle-seal {
+  position: fixed;
+  top: 6em; right: 2em;
+  width: 60px; height: 60px;
+  background: rgba(122,40,40,0.85);
+  color: var(--paper);
+  font-family: "STKaiti", serif;
+  font-size: 0.75em;
+  writing-mode: vertical-rl;
+  text-align: center;
+  line-height: 60px;
+  letter-spacing: 2px;
+  border-radius: 2px;
+  transform: rotate(5deg);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  z-index: 50;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.idle-seal:hover { transform: rotate(3deg) scale(1.05); }
+
+/* 落款 */
+.colophon {
+  text-align: right;
+  margin: 3em 2em 2em;
+  color: var(--ink-light);
+  font-family: "STKaiti", serif;
+  font-size: 0.9em;
+  opacity: 0.7;
+}
+
+/* 落花动画 */
+.petal {
+  position: fixed;
+  width: 12px; height: 12px;
+  background: radial-gradient(circle, rgba(255,180,180,0.8) 0%, rgba(255,150,150,0.4) 100%);
+  border-radius: 50% 0 50% 50%;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.6;
+  animation: fall linear forwards;
+}
+@keyframes fall {
+  0% { transform: translateY(-10vh) rotate(0deg); opacity: 0; }
+  10% { opacity: 0.6; }
+  90% { opacity: 0.6; }
+  100% { transform: translateY(110vh) rotate(360deg); opacity: 0; }
+}

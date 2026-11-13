@@ -69,8 +69,29 @@ body{background:#f8f1e4;font-family:"Noto Serif SC","STSong",serif;color:#2c1810
 .shicang-mobile-menu .shicang-nav-link{padding:9px 10px;border-radius:8px}
 @media(max-width:1024px){.shicang-desktop-links{display:none !important}.shicang-menu-btn{display:block !important}}
 </style>
+<link rel="stylesheet" href="../global.css">
 </head>
 <body>
+<nav class="nav scroll-unfold">
+  <div class="nav-logo"><div class="seal">詩</div><span>诗藏本体论</span></div>
+  <div class="nav-links">
+    <a href="../index.html">首页</a>
+    <a href="../shicang-jingdu/">诗</a>
+    <a href="../shicang-ci/">词</a>
+    <a href="../shicang-qu/">曲</a>
+    <a href="../shicang-chuci/">辞赋</a>
+    <a href="../shicang-poem/">名篇</a>
+    <a href="../shicang-poet-journey/">诗人</a>
+    <a href="../shicang-xinghe/">星河</a>
+    <a href="../shicang-cipai/">词牌</a>
+    <a href="../shicang-imagery/">意象</a>
+    <a href="../shicang-meipi/" class="active">眉批</a>
+    <a href="../shicang-duilian/">对弈</a>
+    <a href="../shicang-duilian-corpus/">楹联</a>
+    <a href="../shicang-map/">地图</a>
+    <a href="../shicang-yunshu/">韵书</a>
+  </div>
+</nav>
 
 <nav class="shicang-topnav">
   <div class="shicang-topnav-inner">
@@ -280,4 +301,43 @@ document.getElementById('poetFilter').addEventListener('input',(e)=>{poetKw=e.ta
 renderBooks();renderPoets();render();
 </script>
 </body>
+<div class="back-to-top" id="backToTop">歸</div>
+<div class="idle-seal" onclick="togglePetals()">落花</div>
+<div class="colophon">诗藏本体论 · 岁在丙午 · 辑于西泠</div>
+<script>
+// 回到顶部
+window.addEventListener('scroll', ()=>{
+  document.getElementById('backToTop').classList.toggle('show', window.scrollY>300);
+});
+document.getElementById('backToTop').addEventListener('click', ()=>window.scrollTo({top:0,behavior:'smooth'}));
+
+// 落花效果
+let petalsEnabled = localStorage.getItem('petals') === 'true';
+function togglePetals(){
+  petalsEnabled = !petalsEnabled;
+  localStorage.setItem('petals', petalsEnabled);
+  if(petalsEnabled) startPetals(); else stopPetals();
+}
+let petalInterval;
+function startPetals(){
+  if(petalInterval) return;
+  petalInterval = setInterval(()=>{
+    const p = document.createElement('div');
+    p.className = 'petal';
+    p.style.left = Math.random()*100 + 'vw';
+    p.style.animationDuration = (8 + Math.random()*6) + 's';
+    p.style.width = p.style.height = (8 + Math.random()*8) + 'px';
+    document.body.appendChild(p);
+    setTimeout(()=>p.remove(), 14000);
+  }, 800);
+}
+function stopPetals(){ clearInterval(petalInterval); petalInterval=null; }
+if(petalsEnabled) startPetals();
+
+// 夜读模式切换（自动识别原有夜读按钮）
+const nightBtn = document.querySelector('.night-btn, button:contains("夜读")');
+if(nightBtn){
+  nightBtn.addEventListener('click', ()=>document.body.classList.toggle('night'));
+}
+</script>
 </html>

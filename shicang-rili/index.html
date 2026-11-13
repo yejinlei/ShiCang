@@ -216,30 +216,32 @@
     .calendar-nav { flex-wrap: wrap; }
   }
 </style>
+<link rel="stylesheet" href="../global.css">
 </head>
 <body>
-
-<nav class="navbar">
-  <a href="../index.html" class="navbar-brand">诗藏</a>
-  <button class="nav-toggle" onclick="document.querySelector('.navbar-links').classList.toggle('show')">☰</button>
-  <div class="navbar-links">
+<nav class="nav scroll-unfold">
+  <div class="nav-logo"><div class="seal">詩</div><span>诗藏本体论</span></div>
+  <div class="nav-links">
+    <a href="../index.html">首页</a>
     <a href="../shicang-jingdu/">诗</a>
     <a href="../shicang-ci/">词</a>
     <a href="../shicang-qu/">曲</a>
     <a href="../shicang-chuci/">辞赋</a>
     <a href="../shicang-poem/">名篇</a>
-    <a href="../shicang-poet-journey/">诗人轨迹</a>
-    <a href="../shicang-cipai/">词牌谱</a>
-    <a href="../shicang-imagery/">意象图</a>
-    <a href="../shicang-meipi/">诗话眉批</a>
-    <a href="../shicang-duilian/">AI 对诗</a>
-    <a href="../shicang-duilian-corpus/">楹联集对</a>
-    <a href="../shicang-map/">诗词地图</a>
-    <a href="../shicang-yunshu/">韵书</a> | <a href="../shicang-xinghe/">星河</a>
-    <a href="index.html" class="active">诗词日历</a>
-    <a href="../shicang-zoumadeng/">诗人走马灯</a>
+    <a href="../shicang-poet-journey/">诗人</a>
+    <a href="../shicang-xinghe/">星河</a>
+    <a href="../shicang-cipai/">词牌</a>
+    <a href="../shicang-imagery/">意象</a>
+    <a href="../shicang-meipi/">眉批</a>
+    <a href="../shicang-duilian/">对弈</a>
+    <a href="../shicang-duilian-corpus/">楹联</a>
+    <a href="../shicang-map/">地图</a>
+    <a href="../shicang-yunshu/">韵书</a>
+    <a href="../shicang-rili/" class="active">日历</a>
   </div>
 </nav>
+
+
 
 <div class="container">
   <div class="page-header">
@@ -555,5 +557,50 @@ function goToday() {
 renderCalendar();
 </script>
 
+<div class="back-to-top" id="backToTop">歸</div>
+<div class="idle-seal" onclick="togglePetals()" title="点此开/关落花">閑章</div>
+<div class="colophon">诗藏本体论 · 岁在丙午 · 辑于西泠</div>
+<script>
+window.addEventListener('scroll', ()=>{
+  const btn = document.getElementById('backToTop');
+  if(btn) btn.classList.toggle('show', window.scrollY>300);
+});
+document.addEventListener('click', (e)=>{
+  if(e.target.id === 'backToTop') window.scrollTo({top:0,behavior:'smooth'});
+});
+let petalsOn = localStorage.getItem('petals')==='true';
+let petalTimer = null;
+function togglePetals(){
+  petalsOn = !petalsOn;
+  localStorage.setItem('petals', petalsOn);
+  petalsOn ? startPetals() : stopPetals();
+}
+function startPetals(){
+  if(petalTimer) return;
+  petalTimer = setInterval(()=>{
+    const p = document.createElement('div');
+    p.className = 'petal';
+    p.style.left = Math.random()*100 + 'vw';
+    p.style.animationDuration = (7 + Math.random()*7) + 's';
+    const s = 6 + Math.random()*8;
+    p.style.width = p.style.height = s + 'px';
+    document.body.appendChild(p);
+    setTimeout(()=>p.remove(), 15000);
+  }, 700);
+}
+function stopPetals(){
+  clearInterval(petalTimer);
+  petalTimer = null;
+}
+if(petalsOn) startPetals();
+// 夜读模式兼容
+document.querySelectorAll('.night-btn, [onclick*="night"]').forEach(btn=>{
+  btn.addEventListener('click', ()=>document.body.classList.toggle('night'));
+});
+// 卷轴入场
+document.addEventListener('DOMContentLoaded', ()=>{
+  document.querySelector('.container, .main, .content')?.classList.add('scroll-unfold');
+});
+</script>
 </body>
 </html>
