@@ -1,22 +1,6 @@
 {
   "books": [
     {
-      "slug": "cpo_songci",
-      "book": "全宋词（chinese-poetry）",
-      "cat": "词集",
-      "count": 2050,
-      "dynasty": "宋",
-      "indexPath": "cpo_songci_index.json"
-    },
-    {
-      "slug": "cpo_tang",
-      "book": "全唐诗（chinese-poetry）",
-      "cat": "诗集",
-      "count": 16595,
-      "dynasty": "唐",
-      "indexPath": "cpo_tang_index.json"
-    },
-    {
       "slug": "shi_84",
       "book": "御选宋金元明四朝诗",
       "cat": "诗集",
@@ -591,7 +575,31 @@
       "book": "御选唐诗",
       "cat": "诗集",
       "count": 1
+    },
+    {
+      "slug": "cpo_tang",
+      "book": "全唐诗（chinese-poetry）",
+      "cat": "诗集",
+      "count": 57603,
+      "dynasty": "唐",
+      "indexPath": "cpo_tang_index.json"
+    },
+    {
+      "slug": "cpo_songci",
+      "book": "全宋词（chinese-poetry）",
+      "cat": "词集",
+      "count": 21050,
+      "dynasty": "宋",
+      "indexPath": "cpo_songci_index.json"
+    },
+    {
+      "slug": "cpo_songshi",
+      "book": "全宋诗（chinese-poetry）",
+      "cat": "诗集",
+      "count": 213224,
+      "dynasty": "宋",
+      "indexPath": "cpo_songshi_index.json"
     }
   ],
-  "total": 67731
+  "total": 340963
 }

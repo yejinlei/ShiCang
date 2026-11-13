@@ -241,8 +241,9 @@ function charHtml(ch, isRhyme){
 
 function renderWork(w){
   const unit=w.u, txt=w.l, rset=new Set(w.r||[]);
-  const lines=[];
-  for(let i=0;i<txt.length;i+=unit) lines.push(txt.substr(i,unit));
+  let lines=[];
+  if(unit&&unit>0){ for(let i=0;i<txt.length;i+=unit) lines.push(txt.substr(i,unit)); }
+  else{ lines=txt.split(/(?<=[。！？；])/).filter(s=>s.length); }
   let poem="";
   lines.forEach((ln,li)=>{
     const isRh=rset.has(li+1);
@@ -266,7 +267,7 @@ function renderWork(w){
       <div>押韵句：${(w.r||[]).map(n=>"第"+n+"句").join("　")||"—"}</div>
     </div>
     <div class="poem">${poem}</div>
-    <div class="segs">句式：每句${unit}字（${seg}，切分 ${unit===5?"2/3":"2/2/3"}）　·　韵脚朱圈为押韵字</div>
+    <div class="segs">${unit>0?"句式：每句"+unit+"字（"+seg+"，切分 "+(unit===5?"2/3":"2/2/3")+"）":"句读切分"}　·　韵脚朱圈为押韵字</div>
   `;
 }
 
@@ -338,17 +339,14 @@ async function openBook(slug){
       try{
         const vr = await fetch(DATA + volPath);
         const vd = await vr.json();
-        // 转换chinese-poetry格式为诗精读格式
+        // chinese-poetry 分卷记录已为 {t,l,u,g,r,d,ru} 格式，直接并入
         vd.forEach(p=>{
-          WORKS.push({
-            title: p.title,
-            author: p.author,
-            text: p.text,
-            lines: p.lines,
-            pz: p.pingsheng || [],
-            yunjiao: p.yunjiao || [],
-            source: p.source || bookTitle
-          });
+          if(p.t!==undefined){ WORKS.push(p); }
+          else{
+            const ls=p.lines||p.paragraphs||[];
+            WORKS.push({t:p.title||'',l:(Array.isArray(ls)?ls.join(''):String(ls)),
+                        u:(Array.isArray(ls)&&ls[0])?ls[0].length:0,g:null,r:[],d:'',ru:0});
+          }
         });
       }catch(e){console.warn('加载分卷失败', volPath, e);}
     }
