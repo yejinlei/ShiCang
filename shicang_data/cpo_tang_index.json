@@ -1,0 +1,300 @@
+{
+  "id": "cpo_tang",
+  "title": "全唐诗",
+  "dynasty": "唐",
+  "type": "shi",
+  "total": 57603,
+  "volumes": [
+    {
+      "start": 0,
+      "file": "cpo_tang_0.json",
+      "count": 1000
+    },
+    {
+      "start": 1000,
+      "file": "cpo_tang_1000.json",
+      "count": 1000
+    },
+    {
+      "start": 2000,
+      "file": "cpo_tang_2000.json",
+      "count": 1002
+    },
+    {
+      "start": 3000,
+      "file": "cpo_tang_3000.json",
+      "count": 1001
+    },
+    {
+      "start": 4000,
+      "file": "cpo_tang_4000.json",
+      "count": 1000
+    },
+    {
+      "start": 5000,
+      "file": "cpo_tang_5000.json",
+      "count": 1000
+    },
+    {
+      "start": 6000,
+      "file": "cpo_tang_6000.json",
+      "count": 1001
+    },
+    {
+      "start": 7000,
+      "file": "cpo_tang_7000.json",
+      "count": 1003
+    },
+    {
+      "start": 8000,
+      "file": "cpo_tang_8000.json",
+      "count": 1001
+    },
+    {
+      "start": 9000,
+      "file": "cpo_tang_9000.json",
+      "count": 1000
+    },
+    {
+      "start": 10000,
+      "file": "cpo_tang_10000.json",
+      "count": 1000
+    },
+    {
+      "start": 11000,
+      "file": "cpo_tang_11000.json",
+      "count": 1000
+    },
+    {
+      "start": 12000,
+      "file": "cpo_tang_12000.json",
+      "count": 1000
+    },
+    {
+      "start": 13000,
+      "file": "cpo_tang_13000.json",
+      "count": 1000
+    },
+    {
+      "start": 14000,
+      "file": "cpo_tang_14000.json",
+      "count": 1000
+    },
+    {
+      "start": 15000,
+      "file": "cpo_tang_15000.json",
+      "count": 1000
+    },
+    {
+      "start": 16000,
+      "file": "cpo_tang_16000.json",
+      "count": 1000
+    },
+    {
+      "start": 17000,
+      "file": "cpo_tang_17000.json",
+      "count": 1000
+    },
+    {
+      "start": 18000,
+      "file": "cpo_tang_18000.json",
+      "count": 1001
+    },
+    {
+      "start": 19000,
+      "file": "cpo_tang_19000.json",
+      "count": 1002
+    },
+    {
+      "start": 20000,
+      "file": "cpo_tang_20000.json",
+      "count": 1002
+    },
+    {
+      "start": 21000,
+      "file": "cpo_tang_21000.json",
+      "count": 1000
+    },
+    {
+      "start": 22000,
+      "file": "cpo_tang_22000.json",
+      "count": 1000
+    },
+    {
+      "start": 23000,
+      "file": "cpo_tang_23000.json",
+      "count": 1000
+    },
+    {
+      "start": 24000,
+      "file": "cpo_tang_24000.json",
+      "count": 1000
+    },
+    {
+      "start": 25000,
+      "file": "cpo_tang_25000.json",
+      "count": 1002
+    },
+    {
+      "start": 26000,
+      "file": "cpo_tang_26000.json",
+      "count": 1000
+    },
+    {
+      "start": 27000,
+      "file": "cpo_tang_27000.json",
+      "count": 1000
+    },
+    {
+      "start": 28000,
+      "file": "cpo_tang_28000.json",
+      "count": 1000
+    },
+    {
+      "start": 29000,
+      "file": "cpo_tang_29000.json",
+      "count": 1000
+    },
+    {
+      "start": 30000,
+      "file": "cpo_tang_30000.json",
+      "count": 1000
+    },
+    {
+      "start": 31000,
+      "file": "cpo_tang_31000.json",
+      "count": 1000
+    },
+    {
+      "start": 32000,
+      "file": "cpo_tang_32000.json",
+      "count": 1001
+    },
+    {
+      "start": 33000,
+      "file": "cpo_tang_33000.json",
+      "count": 1000
+    },
+    {
+      "start": 34000,
+      "file": "cpo_tang_34000.json",
+      "count": 1000
+    },
+    {
+      "start": 35000,
+      "file": "cpo_tang_35000.json",
+      "count": 1001
+    },
+    {
+      "start": 36000,
+      "file": "cpo_tang_36000.json",
+      "count": 1000
+    },
+    {
+      "start": 37000,
+      "file": "cpo_tang_37000.json",
+      "count": 1001
+    },
+    {
+      "start": 38000,
+      "file": "cpo_tang_38000.json",
+      "count": 1002
+    },
+    {
+      "start": 39000,
+      "file": "cpo_tang_39000.json",
+      "count": 1001
+    },
+    {
+      "start": 40000,
+      "file": "cpo_tang_40000.json",
+      "count": 1000
+    },
+    {
+      "start": 41000,
+      "file": "cpo_tang_41000.json",
+      "count": 1001
+    },
+    {
+      "start": 42000,
+      "file": "cpo_tang_42000.json",
+      "count": 1000
+    },
+    {
+      "start": 43000,
+      "file": "cpo_tang_43000.json",
+      "count": 1000
+    },
+    {
+      "start": 44000,
+      "file": "cpo_tang_44000.json",
+      "count": 1001
+    },
+    {
+      "start": 45000,
+      "file": "cpo_tang_45000.json",
+      "count": 1000
+    },
+    {
+      "start": 46000,
+      "file": "cpo_tang_46000.json",
+      "count": 1000
+    },
+    {
+      "start": 47000,
+      "file": "cpo_tang_47000.json",
+      "count": 1001
+    },
+    {
+      "start": 48000,
+      "file": "cpo_tang_48000.json",
+      "count": 997
+    },
+    {
+      "start": 49000,
+      "file": "cpo_tang_49000.json",
+      "count": 1000
+    },
+    {
+      "start": 50000,
+      "file": "cpo_tang_50000.json",
+      "count": 999
+    },
+    {
+      "start": 51000,
+      "file": "cpo_tang_51000.json",
+      "count": 996
+    },
+    {
+      "start": 52000,
+      "file": "cpo_tang_52000.json",
+      "count": 1000
+    },
+    {
+      "start": 53000,
+      "file": "cpo_tang_53000.json",
+      "count": 999
+    },
+    {
+      "start": 54000,
+      "file": "cpo_tang_54000.json",
+      "count": 1000
+    },
+    {
+      "start": 55000,
+      "file": "cpo_tang_55000.json",
+      "count": 998
+    },
+    {
+      "start": 56000,
+      "file": "cpo_tang_56000.json",
+      "count": 999
+    },
+    {
+      "start": 57000,
+      "file": "cpo_tang_57000.json",
+      "count": 591
+    }
+  ],
+  "source": "chinese-poetry 开源数据集 (MIT协议)"
+}

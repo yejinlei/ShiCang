@@ -1,0 +1,98 @@
+[
+ {
+  "key": "清诗别裁集",
+  "slug": "qingshi",
+  "count": 3531,
+  "meta": {
+   "name": "清诗别裁集",
+   "dynasty": "清",
+   "color": "#7F8C8D",
+   "editor": "清·沈德潜 编",
+   "note": "清代诗坛总览，名家名篇萃集"
+  }
+ },
+ {
+  "key": "明诗别裁集",
+  "slug": "mingshi",
+  "count": 955,
+  "meta": {
+   "name": "明诗别裁集",
+   "dynasty": "明",
+   "color": "#27AE60",
+   "editor": "清·沈德潜 编",
+   "note": "明代诗歌之精华，附选家评语"
+  }
+ },
+ {
+  "key": "唐人万首绝句选",
+  "slug": "wanshou",
+  "count": 765,
+  "meta": {
+   "name": "唐人万首绝句选",
+   "dynasty": "唐",
+   "color": "#D35400",
+   "editor": "清·王士禛 选",
+   "note": "唐人绝句精华，五七言绝句之大观"
+  }
+ },
+ {
+  "key": "元诗别裁集",
+  "slug": "yuanshi",
+  "count": 543,
+  "meta": {
+   "name": "元诗别裁集",
+   "dynasty": "元",
+   "color": "#16A085",
+   "editor": "清·张景星等 编",
+   "note": "元代诗歌之精华"
+  }
+ },
+ {
+  "key": "近三百年名家词选",
+  "slug": "jin300",
+  "count": 420,
+  "meta": {
+   "name": "近三百年名家词选",
+   "dynasty": "清",
+   "color": "#8E44AD",
+   "editor": "龙榆生 选编",
+   "note": "明末至近代名家词"
+  }
+ },
+ {
+  "key": "绝妙好词",
+  "slug": "jumiaohaoci",
+  "count": 409,
+  "meta": {
+   "name": "绝妙好词",
+   "dynasty": "宋",
+   "color": "#6A4C93",
+   "editor": "宋·周密 编",
+   "note": "南宋词选之精粹，词家之准的"
+  }
+ },
+ {
+  "key": "宋词三百首",
+  "slug": "songci300",
+  "count": 233,
+  "meta": {
+   "name": "宋词三百首",
+   "dynasty": "宋",
+   "color": "#2E86AB",
+   "editor": "清·朱祖谋 编",
+   "note": "两宋词人八十五家，词三百十阕"
+  }
+ },
+ {
+  "key": "千家诗",
+  "slug": "qianjiashi",
+  "count": 191,
+  "meta": {
+   "name": "千家诗",
+   "dynasty": "唐宋",
+   "color": "#C0392B",
+   "editor": "宋·谢枋得 辑",
+   "note": "蒙学经典，唐宋名篇之总汇"
+  }
+ }
+]

@@ -1,0 +1,1286 @@
+{
+  "id": "cpo_songshi",
+  "title": "全宋诗",
+  "author": "御定",
+  "dynasty": "宋",
+  "description": "chinese-poetry开源数据集·全宋诗共255卷",
+  "total": 254225,
+  "volumes": [
+    {
+      "start": 0,
+      "file": "cpo_songshi_0.json",
+      "count": 1000
+    },
+    {
+      "start": 1000,
+      "file": "cpo_songshi_1000.json",
+      "count": 1000
+    },
+    {
+      "start": 2000,
+      "file": "cpo_songshi_2000.json",
+      "count": 999
+    },
+    {
+      "start": 3000,
+      "file": "cpo_songshi_3000.json",
+      "count": 1000
+    },
+    {
+      "start": 4000,
+      "file": "cpo_songshi_4000.json",
+      "count": 1000
+    },
+    {
+      "start": 5000,
+      "file": "cpo_songshi_5000.json",
+      "count": 1000
+    },
+    {
+      "start": 6000,
+      "file": "cpo_songshi_6000.json",
+      "count": 1000
+    },
+    {
+      "start": 7000,
+      "file": "cpo_songshi_7000.json",
+      "count": 1000
+    },
+    {
+      "start": 8000,
+      "file": "cpo_songshi_8000.json",
+      "count": 1000
+    },
+    {
+      "start": 9000,
+      "file": "cpo_songshi_9000.json",
+      "count": 1000
+    },
+    {
+      "start": 10000,
+      "file": "cpo_songshi_10000.json",
+      "count": 1000
+    },
+    {
+      "start": 11000,
+      "file": "cpo_songshi_11000.json",
+      "count": 1000
+    },
+    {
+      "start": 12000,
+      "file": "cpo_songshi_12000.json",
+      "count": 1000
+    },
+    {
+      "start": 13000,
+      "file": "cpo_songshi_13000.json",
+      "count": 1000
+    },
+    {
+      "start": 14000,
+      "file": "cpo_songshi_14000.json",
+      "count": 1000
+    },
+    {
+      "start": 15000,
+      "file": "cpo_songshi_15000.json",
+      "count": 1000
+    },
+    {
+      "start": 16000,
+      "file": "cpo_songshi_16000.json",
+      "count": 1000
+    },
+    {
+      "start": 17000,
+      "file": "cpo_songshi_17000.json",
+      "count": 1000
+    },
+    {
+      "start": 18000,
+      "file": "cpo_songshi_18000.json",
+      "count": 1000
+    },
+    {
+      "start": 19000,
+      "file": "cpo_songshi_19000.json",
+      "count": 1000
+    },
+    {
+      "start": 20000,
+      "file": "cpo_songshi_20000.json",
+      "count": 1001
+    },
+    {
+      "start": 21000,
+      "file": "cpo_songshi_21000.json",
+      "count": 1000
+    },
+    {
+      "start": 22000,
+      "file": "cpo_songshi_22000.json",
+      "count": 1000
+    },
+    {
+      "start": 23000,
+      "file": "cpo_songshi_23000.json",
+      "count": 1000
+    },
+    {
+      "start": 24000,
+      "file": "cpo_songshi_24000.json",
+      "count": 1000
+    },
+    {
+      "start": 25000,
+      "file": "cpo_songshi_25000.json",
+      "count": 1000
+    },
+    {
+      "start": 26000,
+      "file": "cpo_songshi_26000.json",
+      "count": 1001
+    },
+    {
+      "start": 27000,
+      "file": "cpo_songshi_27000.json",
+      "count": 1000
+    },
+    {
+      "start": 28000,
+      "file": "cpo_songshi_28000.json",
+      "count": 1000
+    },
+    {
+      "start": 29000,
+      "file": "cpo_songshi_29000.json",
+      "count": 1000
+    },
+    {
+      "start": 30000,
+      "file": "cpo_songshi_30000.json",
+      "count": 1000
+    },
+    {
+      "start": 31000,
+      "file": "cpo_songshi_31000.json",
+      "count": 1000
+    },
+    {
+      "start": 32000,
+      "file": "cpo_songshi_32000.json",
+      "count": 1000
+    },
+    {
+      "start": 33000,
+      "file": "cpo_songshi_33000.json",
+      "count": 1000
+    },
+    {
+      "start": 34000,
+      "file": "cpo_songshi_34000.json",
+      "count": 1000
+    },
+    {
+      "start": 35000,
+      "file": "cpo_songshi_35000.json",
+      "count": 1000
+    },
+    {
+      "start": 36000,
+      "file": "cpo_songshi_36000.json",
+      "count": 1000
+    },
+    {
+      "start": 37000,
+      "file": "cpo_songshi_37000.json",
+      "count": 1000
+    },
+    {
+      "start": 38000,
+      "file": "cpo_songshi_38000.json",
+      "count": 1000
+    },
+    {
+      "start": 39000,
+      "file": "cpo_songshi_39000.json",
+      "count": 1000
+    },
+    {
+      "start": 40000,
+      "file": "cpo_songshi_40000.json",
+      "count": 1000
+    },
+    {
+      "start": 41000,
+      "file": "cpo_songshi_41000.json",
+      "count": 1000
+    },
+    {
+      "start": 42000,
+      "file": "cpo_songshi_42000.json",
+      "count": 1000
+    },
+    {
+      "start": 43000,
+      "file": "cpo_songshi_43000.json",
+      "count": 1000
+    },
+    {
+      "start": 44000,
+      "file": "cpo_songshi_44000.json",
+      "count": 1000
+    },
+    {
+      "start": 45000,
+      "file": "cpo_songshi_45000.json",
+      "count": 1000
+    },
+    {
+      "start": 46000,
+      "file": "cpo_songshi_46000.json",
+      "count": 1000
+    },
+    {
+      "start": 47000,
+      "file": "cpo_songshi_47000.json",
+      "count": 1000
+    },
+    {
+      "start": 48000,
+      "file": "cpo_songshi_48000.json",
+      "count": 1000
+    },
+    {
+      "start": 49000,
+      "file": "cpo_songshi_49000.json",
+      "count": 1000
+    },
+    {
+      "start": 50000,
+      "file": "cpo_songshi_50000.json",
+      "count": 1000
+    },
+    {
+      "start": 51000,
+      "file": "cpo_songshi_51000.json",
+      "count": 1001
+    },
+    {
+      "start": 52000,
+      "file": "cpo_songshi_52000.json",
+      "count": 1000
+    },
+    {
+      "start": 53000,
+      "file": "cpo_songshi_53000.json",
+      "count": 1001
+    },
+    {
+      "start": 54000,
+      "file": "cpo_songshi_54000.json",
+      "count": 1000
+    },
+    {
+      "start": 55000,
+      "file": "cpo_songshi_55000.json",
+      "count": 1000
+    },
+    {
+      "start": 56000,
+      "file": "cpo_songshi_56000.json",
+      "count": 1000
+    },
+    {
+      "start": 57000,
+      "file": "cpo_songshi_57000.json",
+      "count": 1000
+    },
+    {
+      "start": 58000,
+      "file": "cpo_songshi_58000.json",
+      "count": 1000
+    },
+    {
+      "start": 59000,
+      "file": "cpo_songshi_59000.json",
+      "count": 1000
+    },
+    {
+      "start": 60000,
+      "file": "cpo_songshi_60000.json",
+      "count": 1000
+    },
+    {
+      "start": 61000,
+      "file": "cpo_songshi_61000.json",
+      "count": 1000
+    },
+    {
+      "start": 62000,
+      "file": "cpo_songshi_62000.json",
+      "count": 1000
+    },
+    {
+      "start": 63000,
+      "file": "cpo_songshi_63000.json",
+      "count": 1000
+    },
+    {
+      "start": 64000,
+      "file": "cpo_songshi_64000.json",
+      "count": 1001
+    },
+    {
+      "start": 65000,
+      "file": "cpo_songshi_65000.json",
+      "count": 1000
+    },
+    {
+      "start": 66000,
+      "file": "cpo_songshi_66000.json",
+      "count": 1000
+    },
+    {
+      "start": 67000,
+      "file": "cpo_songshi_67000.json",
+      "count": 1000
+    },
+    {
+      "start": 68000,
+      "file": "cpo_songshi_68000.json",
+      "count": 1000
+    },
+    {
+      "start": 69000,
+      "file": "cpo_songshi_69000.json",
+      "count": 1000
+    },
+    {
+      "start": 70000,
+      "file": "cpo_songshi_70000.json",
+      "count": 1000
+    },
+    {
+      "start": 71000,
+      "file": "cpo_songshi_71000.json",
+      "count": 1000
+    },
+    {
+      "start": 72000,
+      "file": "cpo_songshi_72000.json",
+      "count": 1000
+    },
+    {
+      "start": 73000,
+      "file": "cpo_songshi_73000.json",
+      "count": 1000
+    },
+    {
+      "start": 74000,
+      "file": "cpo_songshi_74000.json",
+      "count": 1000
+    },
+    {
+      "start": 75000,
+      "file": "cpo_songshi_75000.json",
+      "count": 1000
+    },
+    {
+      "start": 76000,
+      "file": "cpo_songshi_76000.json",
+      "count": 1000
+    },
+    {
+      "start": 77000,
+      "file": "cpo_songshi_77000.json",
+      "count": 1000
+    },
+    {
+      "start": 78000,
+      "file": "cpo_songshi_78000.json",
+      "count": 1000
+    },
+    {
+      "start": 79000,
+      "file": "cpo_songshi_79000.json",
+      "count": 1000
+    },
+    {
+      "start": 80000,
+      "file": "cpo_songshi_80000.json",
+      "count": 1001
+    },
+    {
+      "start": 81000,
+      "file": "cpo_songshi_81000.json",
+      "count": 1000
+    },
+    {
+      "start": 82000,
+      "file": "cpo_songshi_82000.json",
+      "count": 1000
+    },
+    {
+      "start": 83000,
+      "file": "cpo_songshi_83000.json",
+      "count": 1000
+    },
+    {
+      "start": 84000,
+      "file": "cpo_songshi_84000.json",
+      "count": 1000
+    },
+    {
+      "start": 85000,
+      "file": "cpo_songshi_85000.json",
+      "count": 1000
+    },
+    {
+      "start": 86000,
+      "file": "cpo_songshi_86000.json",
+      "count": 1000
+    },
+    {
+      "start": 87000,
+      "file": "cpo_songshi_87000.json",
+      "count": 1000
+    },
+    {
+      "start": 88000,
+      "file": "cpo_songshi_88000.json",
+      "count": 1000
+    },
+    {
+      "start": 89000,
+      "file": "cpo_songshi_89000.json",
+      "count": 1000
+    },
+    {
+      "start": 90000,
+      "file": "cpo_songshi_90000.json",
+      "count": 1000
+    },
+    {
+      "start": 91000,
+      "file": "cpo_songshi_91000.json",
+      "count": 1000
+    },
+    {
+      "start": 92000,
+      "file": "cpo_songshi_92000.json",
+      "count": 1000
+    },
+    {
+      "start": 93000,
+      "file": "cpo_songshi_93000.json",
+      "count": 1000
+    },
+    {
+      "start": 94000,
+      "file": "cpo_songshi_94000.json",
+      "count": 1000
+    },
+    {
+      "start": 95000,
+      "file": "cpo_songshi_95000.json",
+      "count": 1000
+    },
+    {
+      "start": 96000,
+      "file": "cpo_songshi_96000.json",
+      "count": 1000
+    },
+    {
+      "start": 97000,
+      "file": "cpo_songshi_97000.json",
+      "count": 1000
+    },
+    {
+      "start": 98000,
+      "file": "cpo_songshi_98000.json",
+      "count": 1000
+    },
+    {
+      "start": 99000,
+      "file": "cpo_songshi_99000.json",
+      "count": 1000
+    },
+    {
+      "start": 100000,
+      "file": "cpo_songshi_100000.json",
+      "count": 1000
+    },
+    {
+      "start": 101000,
+      "file": "cpo_songshi_101000.json",
+      "count": 1000
+    },
+    {
+      "start": 102000,
+      "file": "cpo_songshi_102000.json",
+      "count": 1000
+    },
+    {
+      "start": 103000,
+      "file": "cpo_songshi_103000.json",
+      "count": 1000
+    },
+    {
+      "start": 104000,
+      "file": "cpo_songshi_104000.json",
+      "count": 1000
+    },
+    {
+      "start": 105000,
+      "file": "cpo_songshi_105000.json",
+      "count": 1000
+    },
+    {
+      "start": 106000,
+      "file": "cpo_songshi_106000.json",
+      "count": 999
+    },
+    {
+      "start": 107000,
+      "file": "cpo_songshi_107000.json",
+      "count": 1000
+    },
+    {
+      "start": 108000,
+      "file": "cpo_songshi_108000.json",
+      "count": 1000
+    },
+    {
+      "start": 109000,
+      "file": "cpo_songshi_109000.json",
+      "count": 1000
+    },
+    {
+      "start": 110000,
+      "file": "cpo_songshi_110000.json",
+      "count": 1000
+    },
+    {
+      "start": 111000,
+      "file": "cpo_songshi_111000.json",
+      "count": 1000
+    },
+    {
+      "start": 112000,
+      "file": "cpo_songshi_112000.json",
+      "count": 1000
+    },
+    {
+      "start": 113000,
+      "file": "cpo_songshi_113000.json",
+      "count": 1000
+    },
+    {
+      "start": 114000,
+      "file": "cpo_songshi_114000.json",
+      "count": 1000
+    },
+    {
+      "start": 115000,
+      "file": "cpo_songshi_115000.json",
+      "count": 1000
+    },
+    {
+      "start": 116000,
+      "file": "cpo_songshi_116000.json",
+      "count": 1000
+    },
+    {
+      "start": 117000,
+      "file": "cpo_songshi_117000.json",
+      "count": 1000
+    },
+    {
+      "start": 118000,
+      "file": "cpo_songshi_118000.json",
+      "count": 1000
+    },
+    {
+      "start": 119000,
+      "file": "cpo_songshi_119000.json",
+      "count": 1000
+    },
+    {
+      "start": 120000,
+      "file": "cpo_songshi_120000.json",
+      "count": 1001
+    },
+    {
+      "start": 121000,
+      "file": "cpo_songshi_121000.json",
+      "count": 1000
+    },
+    {
+      "start": 122000,
+      "file": "cpo_songshi_122000.json",
+      "count": 1000
+    },
+    {
+      "start": 123000,
+      "file": "cpo_songshi_123000.json",
+      "count": 1001
+    },
+    {
+      "start": 124000,
+      "file": "cpo_songshi_124000.json",
+      "count": 1000
+    },
+    {
+      "start": 125000,
+      "file": "cpo_songshi_125000.json",
+      "count": 1000
+    },
+    {
+      "start": 126000,
+      "file": "cpo_songshi_126000.json",
+      "count": 1000
+    },
+    {
+      "start": 127000,
+      "file": "cpo_songshi_127000.json",
+      "count": 1000
+    },
+    {
+      "start": 128000,
+      "file": "cpo_songshi_128000.json",
+      "count": 1000
+    },
+    {
+      "start": 129000,
+      "file": "cpo_songshi_129000.json",
+      "count": 1000
+    },
+    {
+      "start": 130000,
+      "file": "cpo_songshi_130000.json",
+      "count": 1000
+    },
+    {
+      "start": 131000,
+      "file": "cpo_songshi_131000.json",
+      "count": 1000
+    },
+    {
+      "start": 132000,
+      "file": "cpo_songshi_132000.json",
+      "count": 1000
+    },
+    {
+      "start": 133000,
+      "file": "cpo_songshi_133000.json",
+      "count": 1000
+    },
+    {
+      "start": 134000,
+      "file": "cpo_songshi_134000.json",
+      "count": 1000
+    },
+    {
+      "start": 135000,
+      "file": "cpo_songshi_135000.json",
+      "count": 1000
+    },
+    {
+      "start": 136000,
+      "file": "cpo_songshi_136000.json",
+      "count": 1000
+    },
+    {
+      "start": 137000,
+      "file": "cpo_songshi_137000.json",
+      "count": 1000
+    },
+    {
+      "start": 138000,
+      "file": "cpo_songshi_138000.json",
+      "count": 1000
+    },
+    {
+      "start": 139000,
+      "file": "cpo_songshi_139000.json",
+      "count": 1000
+    },
+    {
+      "start": 140000,
+      "file": "cpo_songshi_140000.json",
+      "count": 1000
+    },
+    {
+      "start": 141000,
+      "file": "cpo_songshi_141000.json",
+      "count": 1000
+    },
+    {
+      "start": 142000,
+      "file": "cpo_songshi_142000.json",
+      "count": 1000
+    },
+    {
+      "start": 143000,
+      "file": "cpo_songshi_143000.json",
+      "count": 1000
+    },
+    {
+      "start": 144000,
+      "file": "cpo_songshi_144000.json",
+      "count": 1000
+    },
+    {
+      "start": 145000,
+      "file": "cpo_songshi_145000.json",
+      "count": 1000
+    },
+    {
+      "start": 146000,
+      "file": "cpo_songshi_146000.json",
+      "count": 1000
+    },
+    {
+      "start": 147000,
+      "file": "cpo_songshi_147000.json",
+      "count": 1000
+    },
+    {
+      "start": 148000,
+      "file": "cpo_songshi_148000.json",
+      "count": 1000
+    },
+    {
+      "start": 149000,
+      "file": "cpo_songshi_149000.json",
+      "count": 1000
+    },
+    {
+      "start": 150000,
+      "file": "cpo_songshi_150000.json",
+      "count": 1000
+    },
+    {
+      "start": 151000,
+      "file": "cpo_songshi_151000.json",
+      "count": 1000
+    },
+    {
+      "start": 152000,
+      "file": "cpo_songshi_152000.json",
+      "count": 1000
+    },
+    {
+      "start": 153000,
+      "file": "cpo_songshi_153000.json",
+      "count": 1000
+    },
+    {
+      "start": 154000,
+      "file": "cpo_songshi_154000.json",
+      "count": 1000
+    },
+    {
+      "start": 155000,
+      "file": "cpo_songshi_155000.json",
+      "count": 999
+    },
+    {
+      "start": 156000,
+      "file": "cpo_songshi_156000.json",
+      "count": 1000
+    },
+    {
+      "start": 157000,
+      "file": "cpo_songshi_157000.json",
+      "count": 1000
+    },
+    {
+      "start": 158000,
+      "file": "cpo_songshi_158000.json",
+      "count": 1000
+    },
+    {
+      "start": 159000,
+      "file": "cpo_songshi_159000.json",
+      "count": 1000
+    },
+    {
+      "start": 160000,
+      "file": "cpo_songshi_160000.json",
+      "count": 1000
+    },
+    {
+      "start": 161000,
+      "file": "cpo_songshi_161000.json",
+      "count": 1000
+    },
+    {
+      "start": 162000,
+      "file": "cpo_songshi_162000.json",
+      "count": 1000
+    },
+    {
+      "start": 163000,
+      "file": "cpo_songshi_163000.json",
+      "count": 1000
+    },
+    {
+      "start": 164000,
+      "file": "cpo_songshi_164000.json",
+      "count": 1000
+    },
+    {
+      "start": 165000,
+      "file": "cpo_songshi_165000.json",
+      "count": 1000
+    },
+    {
+      "start": 166000,
+      "file": "cpo_songshi_166000.json",
+      "count": 1000
+    },
+    {
+      "start": 167000,
+      "file": "cpo_songshi_167000.json",
+      "count": 1000
+    },
+    {
+      "start": 168000,
+      "file": "cpo_songshi_168000.json",
+      "count": 1000
+    },
+    {
+      "start": 169000,
+      "file": "cpo_songshi_169000.json",
+      "count": 1000
+    },
+    {
+      "start": 170000,
+      "file": "cpo_songshi_170000.json",
+      "count": 1000
+    },
+    {
+      "start": 171000,
+      "file": "cpo_songshi_171000.json",
+      "count": 1000
+    },
+    {
+      "start": 172000,
+      "file": "cpo_songshi_172000.json",
+      "count": 1000
+    },
+    {
+      "start": 173000,
+      "file": "cpo_songshi_173000.json",
+      "count": 1000
+    },
+    {
+      "start": 174000,
+      "file": "cpo_songshi_174000.json",
+      "count": 1000
+    },
+    {
+      "start": 175000,
+      "file": "cpo_songshi_175000.json",
+      "count": 1000
+    },
+    {
+      "start": 176000,
+      "file": "cpo_songshi_176000.json",
+      "count": 1000
+    },
+    {
+      "start": 177000,
+      "file": "cpo_songshi_177000.json",
+      "count": 1000
+    },
+    {
+      "start": 178000,
+      "file": "cpo_songshi_178000.json",
+      "count": 1000
+    },
+    {
+      "start": 179000,
+      "file": "cpo_songshi_179000.json",
+      "count": 1000
+    },
+    {
+      "start": 180000,
+      "file": "cpo_songshi_180000.json",
+      "count": 1000
+    },
+    {
+      "start": 181000,
+      "file": "cpo_songshi_181000.json",
+      "count": 1000
+    },
+    {
+      "start": 182000,
+      "file": "cpo_songshi_182000.json",
+      "count": 1000
+    },
+    {
+      "start": 183000,
+      "file": "cpo_songshi_183000.json",
+      "count": 1000
+    },
+    {
+      "start": 184000,
+      "file": "cpo_songshi_184000.json",
+      "count": 1000
+    },
+    {
+      "start": 185000,
+      "file": "cpo_songshi_185000.json",
+      "count": 1000
+    },
+    {
+      "start": 186000,
+      "file": "cpo_songshi_186000.json",
+      "count": 1000
+    },
+    {
+      "start": 187000,
+      "file": "cpo_songshi_187000.json",
+      "count": 1000
+    },
+    {
+      "start": 188000,
+      "file": "cpo_songshi_188000.json",
+      "count": 1000
+    },
+    {
+      "start": 189000,
+      "file": "cpo_songshi_189000.json",
+      "count": 1000
+    },
+    {
+      "start": 190000,
+      "file": "cpo_songshi_190000.json",
+      "count": 1000
+    },
+    {
+      "start": 191000,
+      "file": "cpo_songshi_191000.json",
+      "count": 1000
+    },
+    {
+      "start": 192000,
+      "file": "cpo_songshi_192000.json",
+      "count": 981
+    },
+    {
+      "start": 193000,
+      "file": "cpo_songshi_193000.json",
+      "count": 1000
+    },
+    {
+      "start": 194000,
+      "file": "cpo_songshi_194000.json",
+      "count": 1000
+    },
+    {
+      "start": 195000,
+      "file": "cpo_songshi_195000.json",
+      "count": 1000
+    },
+    {
+      "start": 196000,
+      "file": "cpo_songshi_196000.json",
+      "count": 1000
+    },
+    {
+      "start": 197000,
+      "file": "cpo_songshi_197000.json",
+      "count": 1000
+    },
+    {
+      "start": 198000,
+      "file": "cpo_songshi_198000.json",
+      "count": 1000
+    },
+    {
+      "start": 199000,
+      "file": "cpo_songshi_199000.json",
+      "count": 1000
+    },
+    {
+      "start": 200000,
+      "file": "cpo_songshi_200000.json",
+      "count": 1000
+    },
+    {
+      "start": 201000,
+      "file": "cpo_songshi_201000.json",
+      "count": 1000
+    },
+    {
+      "start": 202000,
+      "file": "cpo_songshi_202000.json",
+      "count": 1000
+    },
+    {
+      "start": 203000,
+      "file": "cpo_songshi_203000.json",
+      "count": 1000
+    },
+    {
+      "start": 204000,
+      "file": "cpo_songshi_204000.json",
+      "count": 1000
+    },
+    {
+      "start": 205000,
+      "file": "cpo_songshi_205000.json",
+      "count": 1000
+    },
+    {
+      "start": 206000,
+      "file": "cpo_songshi_206000.json",
+      "count": 1000
+    },
+    {
+      "start": 207000,
+      "file": "cpo_songshi_207000.json",
+      "count": 1000
+    },
+    {
+      "start": 208000,
+      "file": "cpo_songshi_208000.json",
+      "count": 1000
+    },
+    {
+      "start": 209000,
+      "file": "cpo_songshi_209000.json",
+      "count": 1001
+    },
+    {
+      "start": 210000,
+      "file": "cpo_songshi_210000.json",
+      "count": 1000
+    },
+    {
+      "start": 211000,
+      "file": "cpo_songshi_211000.json",
+      "count": 1000
+    },
+    {
+      "start": 212000,
+      "file": "cpo_songshi_212000.json",
+      "count": 1000
+    },
+    {
+      "start": 213000,
+      "file": "cpo_songshi_213000.json",
+      "count": 1000
+    },
+    {
+      "start": 214000,
+      "file": "cpo_songshi_214000.json",
+      "count": 1000
+    },
+    {
+      "start": 215000,
+      "file": "cpo_songshi_215000.json",
+      "count": 1000
+    },
+    {
+      "start": 216000,
+      "file": "cpo_songshi_216000.json",
+      "count": 1000
+    },
+    {
+      "start": 217000,
+      "file": "cpo_songshi_217000.json",
+      "count": 1000
+    },
+    {
+      "start": 218000,
+      "file": "cpo_songshi_218000.json",
+      "count": 1000
+    },
+    {
+      "start": 219000,
+      "file": "cpo_songshi_219000.json",
+      "count": 1000
+    },
+    {
+      "start": 220000,
+      "file": "cpo_songshi_220000.json",
+      "count": 1000
+    },
+    {
+      "start": 221000,
+      "file": "cpo_songshi_221000.json",
+      "count": 1000
+    },
+    {
+      "start": 222000,
+      "file": "cpo_songshi_222000.json",
+      "count": 1000
+    },
+    {
+      "start": 223000,
+      "file": "cpo_songshi_223000.json",
+      "count": 1000
+    },
+    {
+      "start": 224000,
+      "file": "cpo_songshi_224000.json",
+      "count": 1000
+    },
+    {
+      "start": 225000,
+      "file": "cpo_songshi_225000.json",
+      "count": 1000
+    },
+    {
+      "start": 226000,
+      "file": "cpo_songshi_226000.json",
+      "count": 1000
+    },
+    {
+      "start": 227000,
+      "file": "cpo_songshi_227000.json",
+      "count": 1000
+    },
+    {
+      "start": 228000,
+      "file": "cpo_songshi_228000.json",
+      "count": 1000
+    },
+    {
+      "start": 229000,
+      "file": "cpo_songshi_229000.json",
+      "count": 1000
+    },
+    {
+      "start": 230000,
+      "file": "cpo_songshi_230000.json",
+      "count": 1000
+    },
+    {
+      "start": 231000,
+      "file": "cpo_songshi_231000.json",
+      "count": 1000
+    },
+    {
+      "start": 232000,
+      "file": "cpo_songshi_232000.json",
+      "count": 1000
+    },
+    {
+      "start": 233000,
+      "file": "cpo_songshi_233000.json",
+      "count": 1001
+    },
+    {
+      "start": 234000,
+      "file": "cpo_songshi_234000.json",
+      "count": 1000
+    },
+    {
+      "start": 235000,
+      "file": "cpo_songshi_235000.json",
+      "count": 1000
+    },
+    {
+      "start": 236000,
+      "file": "cpo_songshi_236000.json",
+      "count": 1000
+    },
+    {
+      "start": 237000,
+      "file": "cpo_songshi_237000.json",
+      "count": 1000
+    },
+    {
+      "start": 238000,
+      "file": "cpo_songshi_238000.json",
+      "count": 1000
+    },
+    {
+      "start": 239000,
+      "file": "cpo_songshi_239000.json",
+      "count": 1000
+    },
+    {
+      "start": 240000,
+      "file": "cpo_songshi_240000.json",
+      "count": 1000
+    },
+    {
+      "start": 241000,
+      "file": "cpo_songshi_241000.json",
+      "count": 1000
+    },
+    {
+      "start": 242000,
+      "file": "cpo_songshi_242000.json",
+      "count": 1000
+    },
+    {
+      "start": 243000,
+      "file": "cpo_songshi_243000.json",
+      "count": 1000
+    },
+    {
+      "start": 244000,
+      "file": "cpo_songshi_244000.json",
+      "count": 1000
+    },
+    {
+      "start": 245000,
+      "file": "cpo_songshi_245000.json",
+      "count": 1000
+    },
+    {
+      "start": 246000,
+      "file": "cpo_songshi_246000.json",
+      "count": 1000
+    },
+    {
+      "start": 247000,
+      "file": "cpo_songshi_247000.json",
+      "count": 1000
+    },
+    {
+      "start": 248000,
+      "file": "cpo_songshi_248000.json",
+      "count": 1000
+    },
+    {
+      "start": 249000,
+      "file": "cpo_songshi_249000.json",
+      "count": 1000
+    },
+    {
+      "start": 250000,
+      "file": "cpo_songshi_250000.json",
+      "count": 1000
+    },
+    {
+      "start": 251000,
+      "file": "cpo_songshi_251000.json",
+      "count": 1000
+    },
+    {
+      "start": 252000,
+      "file": "cpo_songshi_252000.json",
+      "count": 1000
+    },
+    {
+      "start": 253000,
+      "file": "cpo_songshi_253000.json",
+      "count": 1000
+    },
+    {
+      "start": 254000,
+      "file": "cpo_songshi_254000.json",
+      "count": 237
+    }
+  ],
+  "source": "chinese-poetry 开源数据集 (MIT协议)"
+}

@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>名篇集萃 · 诗藏</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='5' fill='%238b2f2f'/%3E%3Ctext x='16' y='24' font-size='21' fill='%23f7f1e3' text-anchor='middle' font-family='serif'%3E%E8%A9%A9%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../global.css">
+<style>
+.shicang-topnav{
+    position:sticky;top:0;z-index:999;
+    backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+    background:rgba(246,241,231,.92);
+    border-bottom:1px solid rgba(30,26,21,.11);
+    box-shadow:0 2px 12px rgba(30,26,21,.04);
+    font-family:'PingFang SC','HarmonyOS Sans SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;
+  }
+  .shicang-topnav-inner{
+    max-width:1200px;margin:0 auto;padding:0 16px;
+    height:52px;display:flex;align-items:center;justify-content:space-between;gap:12px;
+  }
+  .shicang-logo{
+    display:flex;align-items:center;gap:8px;text-decoration:none;color:#1e1a15;font-weight:700;
+    font-size:16px;font-family:'Songti SC','STSong','Noto Serif CJK SC',serif;
+  }
+  .shicang-logo-mark{
+    width:28px;height:28px;border-radius:6px;
+    background:linear-gradient(150deg,#ae3a2b,#c85a49);color:#fff;
+    display:flex;align-items:center;justify-content:center;
+    font-size:16px;box-shadow:inset 0 0 0 1px rgba(255,255,255,.25);
+  }
+  .shicang-nav-links{
+    display:flex;gap:4px;align-items:center;overflow-x:auto;scrollbar-width:none;
+  }
+  .shicang-nav-links::-webkit-scrollbar{display:none;}
+  .shicang-nav-link{
+    font-size:13px;color:#4b4237;text-decoration:none;padding:6px 10px;border-radius:999px;white-space:nowrap;
+    transition:all .2s;
+  }
+  .shicang-nav-link:hover{color:#ae3a2b;background:rgba(174,58,43,.07);}
+  .shicang-nav-link.active{color:#ae3a2b;background:rgba(174,58,43,.1);}
+  .shicang-nav-sep{font-size:11px;color:#8a7f6d;padding:0 4px;}
+  .shicang-menu-btn{display:none;font-size:20px;background:transparent;border:none;cursor:pointer;padding:6px;color:#1e1a15;}
+  .shicang-mobile-menu{
+    display:none;position:absolute;top:52px;left:0;right:0;
+    background:rgba(246,241,231,.98);backdrop-filter:blur(14px);
+    border-bottom:1px solid rgba(30,26,21,.11);padding:10px 16px;flex-direction:column;gap:4px;
+  }
+  .shicang-mobile-menu.open{display:flex;}
+  .shicang-mobile-menu .shicang-nav-link{padding:9px 10px;border-radius:8px;}
+  @media(max-width:1024px){
+    .shicang-desktop-links{display:none !important;}
+    .shicang-menu-btn{display:block !important;}
+  }
+
+/* ===== 名篇集萃 页面样式 ===== */
+.mp-hero{max-width:1240px;margin:0 auto;padding:54px 26px 10px;text-align:center;position:relative;z-index:2;}
+.mp-hero h1{font-family:'STKaiti','KaiTi','Noto Serif SC',serif;font-size:clamp(32px,5.4vw,50px);
+  letter-spacing:.28em;text-indent:.28em;color:#8b2f2f;font-weight:600;margin:0 0 12px;}
+.mp-hero .sub{font-size:14px;color:#8b5a2b;letter-spacing:.24em;}
+.mp-hero .stat{margin-top:16px;font-size:13px;color:#8a7554;letter-spacing:.12em;}
+.mp-hero .stat b{color:#8b2f2f;font-weight:600;font-size:17px;font-family:'STKaiti',serif;}
+.mp-seal{position:absolute;right:calc(50% - 250px);top:52px;width:56px;height:56px;
+  border:2.5px solid #a8322f;color:#a8322f;border-radius:8px;display:flex;align-items:center;
+  justify-content:center;font-family:'STKaiti',serif;font-size:22px;transform:rotate(-5deg);opacity:.82;}
+.mp-rule{max-width:1240px;margin:22px auto 0;padding:0 26px;position:relative;z-index:2;}
+.mp-rule div{height:0;border-top:1px solid #d8c7a6;border-bottom:3px double #d8c7a6;}
+
+.mp-tool{max-width:1240px;margin:20px auto 0;padding:0 26px;position:relative;z-index:2;}
+.mp-anths{display:flex;flex-wrap:wrap;gap:9px;justify-content:center;margin-bottom:16px;}
+.mp-ab{border:1px solid #d8c7a6;background:rgba(255,255,255,.55);color:#5a4a38;
+  padding:6px 16px;border-radius:20px;font-size:13.5px;cursor:pointer;font-family:inherit;
+  letter-spacing:.06em;transition:.26s;display:flex;align-items:center;gap:6px;}
+.mp-ab .dot{width:7px;height:7px;border-radius:50%;display:inline-block;}
+.mp-ab:hover{border-color:#8b2f2f;color:#8b2f2f;transform:translateY(-1px);}
+.mp-ab.on{background:#8b2f2f;border-color:#8b2f2f;color:#f7f1e3;box-shadow:0 4px 14px -6px #8b2f2f;}
+.mp-ab.on .dot{background:#f7f1e3 !important;}
+.mp-ab .cnt{font-size:11px;opacity:.72;}
+
+.mp-sbox{max-width:520px;margin:0 auto;position:relative;}
+.mp-sbox input{width:100%;padding:11px 44px 11px 20px;border:1px solid #d8c7a6;border-radius:24px;
+  background:rgba(255,255,255,.72);font-family:inherit;font-size:14.5px;color:#2b2620;letter-spacing:.04em;outline:none;transition:.26s;}
+.mp-sbox input:focus{border-color:#8b2f2f;box-shadow:0 0 0 3px rgba(139,47,47,.08);}
+.mp-sbox .ico{position:absolute;right:18px;top:50%;transform:translateY(-50%);color:#a08a66;font-size:15px;}
+
+.mp-grid{max-width:1240px;margin:28px auto 40px;padding:0 26px;
+  display:grid;grid-template-columns:repeat(auto-fill,minmax(255px,1fr));gap:16px;position:relative;z-index:2;}
+.mp-card{display:block;text-decoration:none;color:inherit;position:relative;
+  border:1px solid #e0d3b8;border-radius:11px;padding:17px 19px 15px;overflow:hidden;
+  background:linear-gradient(178deg,rgba(255,255,255,.72),rgba(250,245,232,.5));
+  transition:.32s;box-shadow:0 2px 10px -8px rgba(90,70,40,.6);}
+.mp-card::before{content:'';position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--c);opacity:.85;}
+.mp-card:hover{transform:translateY(-4px);box-shadow:0 16px 30px -20px rgba(90,70,40,.85);
+  border-color:var(--c);background:linear-gradient(178deg,rgba(255,255,255,.92),rgba(250,245,232,.7));}
+.mp-card:hover .mp-card-t{color:var(--c);}
+.mp-card-t{font-family:'STKaiti','KaiTi',serif;font-size:20px;letter-spacing:.06em;color:#33291c;
+  margin-bottom:5px;transition:.26s;line-height:1.45;}
+.mp-card-a{font-size:12.5px;color:#7d6c55;letter-spacing:.08em;margin-bottom:9px;}
+.mp-card-f{font-family:'STKaiti',serif;font-size:14.5px;color:#5c4e3c;letter-spacing:.04em;
+  border-top:1px dashed #ddd0b6;padding-top:9px;line-height:1.7;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.mp-card-src{position:absolute;right:13px;top:13px;font-size:10px;letter-spacing:.04em;
+  color:var(--c);border:1px solid var(--c);border-radius:9px;padding:0 7px;opacity:.72;}
+.mp-card-badge{position:absolute;right:13px;bottom:11px;font-size:10px;color:#a8322f;
+  border:1px solid #a8322f;border-radius:8px;padding:0 6px;opacity:.9;}
+.mp-more{text-align:center;color:#a08a66;font-size:13.5px;letter-spacing:.24em;padding:14px 0 50px;}
+.mp-empty{text-align:center;color:#a08a66;padding:60px 0;letter-spacing:.16em;}
+footer{max-width:1240px;margin:0 auto;padding:26px;text-align:center;color:#a08a66;
+  font-size:12.5px;letter-spacing:.14em;border-top:1px solid #e3d7bd;position:relative;z-index:2;}
+</style>
+</head>
+<body>
+<nav class="shicang-topnav">
+  <div class="shicang-topnav-inner">
+    <a href="/ShiCang/" class="shicang-logo">
+      <span class="shicang-logo-mark">诗</span>
+      <span>诗藏本体论</span>
+    </a>
+    <div class="shicang-nav-links shicang-desktop-links">
+      <a href="/ShiCang/" class="shicang-nav-link">首页</a>
+      <span class="shicang-nav-sep">|</span>
+      <a href="/ShiCang/shicang-jingdu/" class="shicang-nav-link">诗</a>
+      <a href="/ShiCang/shicang-ci/" class="shicang-nav-link">词</a>
+      <a href="/ShiCang/shicang-qu/" class="shicang-nav-link">曲</a>
+      <a href="/ShiCang/shicang-chuci/" class="shicang-nav-link">辞赋</a>
+      <a href="/ShiCang/shicang-poem/" class="shicang-nav-link active" class="shicang-nav-link">名篇</a>
+      <span class="shicang-nav-sep">|</span>
+      <a href="/ShiCang/shicang-poet-journey/" class="shicang-nav-link">诗人轨迹</a>
+      <a href="/ShiCang/shicang-cipai/" class="shicang-nav-link">词牌</a>
+      <a href="/ShiCang/shicang-imagery/" class="shicang-nav-link">意象</a>
+      <a href="/ShiCang/shicang-meipi/" class="shicang-nav-link">眉批</a>
+      <a href="/ShiCang/shicang-duilian/" class="shicang-nav-link">对弈</a>
+      <a href="/ShiCang/shicang-duilian-corpus/" class="shicang-nav-link">楹联</a>
+      <a href="/ShiCang/shicang-map/" class="shicang-nav-link">地图</a>
+      <a href="/ShiCang/shicang-yunshu/" class="shicang-nav-link">韵书</a> | <a href="../shicang-xinghe/">星河</a>
+    </div>
+    <button class="shicang-menu-btn" onclick="document.getElementById('shicangMobileNav').classList.toggle('open')">☰</button>
+    <div id="shicangMobileNav" class="shicang-mobile-menu">
+      <a href="/ShiCang/" class="shicang-nav-link font-bold">🏠 返回首页</a>
+      <div style="height:1px;background:rgba(30,26,21,.1);margin:6px 0;"></div>
+      <a href="/ShiCang/shicang-jingdu/" class="shicang-nav-link">📚 诗藏精读</a>
+      <a href="/ShiCang/shicang-ci/" class="shicang-nav-link">📝 词林精读</a>
+      <a href="/ShiCang/shicang-qu/" class="shicang-nav-link">🎭 曲林精读</a>
+      <a href="/ShiCang/shicang-chuci/" class="shicang-nav-link">🏮 辞赋精读</a>
+      <a href="/ShiCang/shicang-poem/" class="shicang-nav-link active" class="shicang-nav-link">📜 名篇精读</a>
+      <div style="height:1px;background:rgba(30,26,21,.1);margin:6px 0;"></div>
+      <a href="/ShiCang/shicang-poet-journey/" class="shicang-nav-link">🧭 诗人时空轨迹</a>
+      <a href="/ShiCang/shicang-cipai/" class="shicang-nav-link">🎶 词牌格律谱</a>
+      <a href="/ShiCang/shicang-imagery/" class="shicang-nav-link">🌿 意象关系图</a>
+      <a href="/ShiCang/shicang-meipi/" class="shicang-nav-link">🖋️ 诗话眉批</a>
+      <a href="/ShiCang/shicang-duilian/" class="shicang-nav-link">🀄 对联斗巧</a>
+      <a href="/ShiCang/shicang-duilian-corpus/" class="shicang-nav-link">🧧 楹联集对</a>
+      <a href="/ShiCang/shicang-map/" class="shicang-nav-link">🗺️ 诗词地图</a>
+      <a href="/ShiCang/shicang-yunshu/" class="shicang-nav-link">📖 韵书查询</a>
+    </div>
+  </div>
+</nav>
+
+<header class="mp-hero">
+  <div class="mp-seal">選</div>
+  <h1>名篇集萃</h1>
+  <div class="sub">歷代八大名選 · 名章七千篇</div>
+  <div class="stat">凡 <b id="sc-anth">8</b> 部名選，收 <b id="sc-total">7047</b> 篇名章，出 <b id="sc-author">1771</b> 位詩人之手</div>
+</header>
+<div class="mp-rule"><div></div></div>
+
+<section class="mp-tool">
+  <div class="mp-anths" id="anths"></div>
+  <div class="mp-sbox">
+    <input id="q" type="text" placeholder="搜索题名 · 作者 · 诗句…">
+    <span class="ico">尋</span>
+  </div>
+</section>
+
+<main class="mp-grid" id="grid"></main>
+<div class="mp-more" id="more"></div>
+<footer>诗藏本体论 · 名篇集萃 · 岁时辑于西泠</footer>
+
+<script src="../romantic.js"></script>
+<script>
+const ANTHS = [{"key": "清诗别裁集", "slug": "qingshi", "count": 3531, "meta": {"name": "清诗别裁集", "dynasty": "清", "color": "#7F8C8D", "editor": "清·沈德潜 编", "note": "清代诗坛总览，名家名篇萃集"}}, {"key": "明诗别裁集", "slug": "mingshi", "count": 955, "meta": {"name": "明诗别裁集", "dynasty": "明", "color": "#27AE60", "editor": "清·沈德潜 编", "note": "明代诗歌之精华，附选家评语"}}, {"key": "唐人万首绝句选", "slug": "wanshou", "count": 765, "meta": {"name": "唐人万首绝句选", "dynasty": "唐", "color": "#D35400", "editor": "清·王士禛 选", "note": "唐人绝句精华，五七言绝句之大观"}}, {"key": "元诗别裁集", "slug": "yuanshi", "count": 543, "meta": {"name": "元诗别裁集", "dynasty": "元", "color": "#16A085", "editor": "清·张景星等 编", "note": "元代诗歌之精华"}}, {"key": "近三百年名家词选", "slug": "jin300", "count": 420, "meta": {"name": "近三百年名家词选", "dynasty": "清", "color": "#8E44AD", "editor": "龙榆生 选编", "note": "明末至近代名家词"}}, {"key": "绝妙好词", "slug": "jumiaohaoci", "count": 409, "meta": {"name": "绝妙好词", "dynasty": "宋", "color": "#6A4C93", "editor": "宋·周密 编", "note": "南宋词选之精粹，词家之准的"}}, {"key": "宋词三百首", "slug": "songci300", "count": 233, "meta": {"name": "宋词三百首", "dynasty": "宋", "color": "#2E86AB", "editor": "清·朱祖谋 编", "note": "两宋词人八十五家，词三百十阕"}}, {"key": "千家诗", "slug": "qianjiashi", "count": 191, "meta": {"name": "千家诗", "dynasty": "唐宋", "color": "#C0392B", "editor": "宋·谢枋得 辑", "note": "蒙学经典，唐宋名篇之总汇"}}];
+let LIGHT = [];
+let filter = 'all', keyword = '', shown = 0;
+const PAGE = 60;
+const $ = id => document.getElementById(id);
+
+function anthMeta(key){
+  const it = ANTHS.find(a => a.key === key);
+  return it ? it.meta : {name:'', color:'#8b2f2f'};
+}
+
+function renderAnths(){
+  const box = $('anths');
+  let html = '<button class="mp-ab on" data-a="all"><span class="dot" style="background:#8b2f2f"></span>全部 <span class="cnt">' + LIGHT.length + '</span></button>';
+  ANTHS.forEach(it => {
+    html += '<button class="mp-ab" data-a="' + it.key + '"><span class="dot" style="background:' + it.meta.color + '"></span>'
+      + it.meta.name + ' <span class="cnt">' + it.count + '</span></button>';
+  });
+  box.innerHTML = html;
+  box.querySelectorAll('.mp-ab').forEach(b => b.onclick = () => {
+    filter = b.dataset.a; shown = 0;
+    box.querySelectorAll('.mp-ab').forEach(x => x.classList.remove('on'));
+    b.classList.add('on');
+    render(true);
+  });
+}
+
+function matched(){
+  const kw = keyword.trim();
+  return LIGHT.filter(p => {
+    if (filter !== 'all' && p.n !== filter) return false;
+    if (!kw) return true;
+    return p.t.includes(kw) || p.a.includes(kw) || p.f.includes(kw);
+  });
+}
+
+function render(reset){
+  const list = matched();
+  const grid = $('grid');
+  if (reset){ grid.innerHTML = ''; shown = 0; }
+  if (!list.length){ grid.innerHTML = '<div class="mp-empty">未得匹配之名章</div>'; $('more').textContent = ''; return; }
+  const next = list.slice(shown, shown + PAGE);
+  const frag = document.createDocumentFragment();
+  next.forEach(p => {
+    const m = anthMeta(p.n);
+    const a = document.createElement('a');
+    a.className = 'mp-card';
+    a.href = 'view.html?s=' + p.s;
+    a.style.setProperty('--c', m.color);
+    let inner = '<div class="mp-card-t">' + p.t + '</div>'
+      + '<div class="mp-card-a">' + p.d + ' · ' + p.a + '</div>'
+      + '<div class="mp-card-f">' + (p.f || '') + '…</div>'
+      + '<span class="mp-card-src">' + p.n + '</span>';
+    if (p.x) inner += '<span class="mp-card-badge">深度精读</span>';
+    a.innerHTML = inner;
+    frag.appendChild(a);
+  });
+  grid.appendChild(frag);
+  shown += next.length;
+  $('more').textContent = shown < list.length ? '展卷中…（已见 ' + shown + ' / ' + list.length + '）' : (list.length > PAGE ? '— 已尽 —' : '');
+}
+
+let st;
+$('q').addEventListener('input', e => {
+  clearTimeout(st);
+  st = setTimeout(() => { keyword = e.target.value; render(true); }, 180);
+});
+window.addEventListener('scroll', () => {
+  if (window.innerHeight + window.scrollY > document.body.offsetHeight - 500){
+    const list = matched();
+    if (shown < list.length) render(false);
+  }
+});
+
+fetch('../shicang_data/mingpian/light.json').then(r => r.json()).then(data => {
+  LIGHT = data;
+  const authors = new Set(data.map(p => p.a));
+  $('sc-total').textContent = data.length;
+  $('sc-author').textContent = authors.size;
+  $('sc-anth').textContent = ANTHS.length;
+  renderAnths();
+  render(true);
+});
+</script>
+</body>
+</html>

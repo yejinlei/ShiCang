@@ -1,0 +1,120 @@
+{
+  "id": "cpo_songci",
+  "title": "全宋词",
+  "dynasty": "宋",
+  "type": "ci",
+  "total": 21050,
+  "volumes": [
+    {
+      "start": 0,
+      "file": "cpo_song_0.json",
+      "count": 1000
+    },
+    {
+      "start": 1000,
+      "file": "cpo_song_1000.json",
+      "count": 1000
+    },
+    {
+      "start": 2000,
+      "file": "cpo_song_2000.json",
+      "count": 1000
+    },
+    {
+      "start": 3000,
+      "file": "cpo_song_3000.json",
+      "count": 1000
+    },
+    {
+      "start": 4000,
+      "file": "cpo_song_4000.json",
+      "count": 1000
+    },
+    {
+      "start": 5000,
+      "file": "cpo_song_5000.json",
+      "count": 1000
+    },
+    {
+      "start": 6000,
+      "file": "cpo_song_6000.json",
+      "count": 1000
+    },
+    {
+      "start": 7000,
+      "file": "cpo_song_7000.json",
+      "count": 1000
+    },
+    {
+      "start": 8000,
+      "file": "cpo_song_8000.json",
+      "count": 1000
+    },
+    {
+      "start": 9000,
+      "file": "cpo_song_9000.json",
+      "count": 1000
+    },
+    {
+      "start": 10000,
+      "file": "cpo_song_10000.json",
+      "count": 1000
+    },
+    {
+      "start": 11000,
+      "file": "cpo_song_11000.json",
+      "count": 1000
+    },
+    {
+      "start": 12000,
+      "file": "cpo_song_12000.json",
+      "count": 1000
+    },
+    {
+      "start": 13000,
+      "file": "cpo_song_13000.json",
+      "count": 1000
+    },
+    {
+      "start": 14000,
+      "file": "cpo_song_14000.json",
+      "count": 1000
+    },
+    {
+      "start": 15000,
+      "file": "cpo_song_15000.json",
+      "count": 1000
+    },
+    {
+      "start": 16000,
+      "file": "cpo_song_16000.json",
+      "count": 1000
+    },
+    {
+      "start": 17000,
+      "file": "cpo_song_17000.json",
+      "count": 1000
+    },
+    {
+      "start": 18000,
+      "file": "cpo_song_18000.json",
+      "count": 1000
+    },
+    {
+      "start": 19000,
+      "file": "cpo_song_19000.json",
+      "count": 1000
+    },
+    {
+      "start": 20000,
+      "file": "cpo_song_20000.json",
+      "count": 1000
+    },
+    {
+      "start": 21000,
+      "file": "cpo_song_21000.json",
+      "count": 50
+    }
+  ],
+  "source": "chinese-poetry 开源数据集 (MIT协议)"
+}
