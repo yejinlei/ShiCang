@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>诗路千年 · 诗藏本体论</title>
+<link rel="stylesheet" href="../shicang-assets/global.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<style>
+/* 宣纸地图风格 */
+.road-hero {
+  text-align: center;
+  padding: 40px 20px 20px;
+  position: relative;
+}
+.road-hero h1 {
+  font-family: "STKaiti", "KaiTi", serif;
+  font-size: 2.8em;
+  color: #8b2f2f;
+  margin: 0;
+  letter-spacing: 0.5em;
+  text-shadow: 2px 2px 8px rgba(139,47,47,0.15);
+}
+.road-hero .subtitle {
+  font-family: "STKaiti", serif;
+  font-size: 1em;
+  color: #7a5c3c;
+  letter-spacing: 0.3em;
+  margin: 15px 0 10px;
+}
+.road-hero .seal {
+  position: absolute;
+  right: 10%;
+  top: 30px;
+  width: 56px;
+  height: 56px;
+  background: #8b2f2f;
+  color: #f7f1e3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "STKaiti", serif;
+  font-size: 1.4em;
+  transform: rotate(6deg);
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+  writing-mode: vertical-rl;
+}
+
+.view-switch {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin: 20px auto;
+}
+.view-btn {
+  padding: 8px 24px;
+  background: rgba(247,241,227,0.9);
+  border: 1px solid #8b2f2f44;
+  color: #7a5c3c;
+  border-radius: 4px;
+  font-family: "STKaiti", serif;
+  font-size: 1em;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.view-btn.active {
+  background: #8b2f2f;
+  color: #f7f1e3;
+  border-color: #8b2f2f;
+}
+.view-btn:hover {
+  background: #8b2f2fcc;
+  color: #f7f1e3;
+}
+
+/* 时空年表视图 */
+#timeline-view {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto 30px;
+  padding: 20px;
+  background: rgba(247,241,227,0.7);
+  border: 1px solid #d4b896;
+  border-radius: 8px;
+}
+.dynasty-bar {
+  display: flex;
+  height: 40px;
+  margin-bottom: 30px;
+  border: 1px solid #c4a886;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.dynasty-seg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f7f1e3;
+  font-family: "STKaiti", serif;
+  font-size: 0.9em;
+  position: relative;
+}
+.dynasty-seg .count {
+  position: absolute;
+  bottom: -22px;
+  font-size: 0.8em;
+  color: #7a5c3c;
+}
+.poet-chart {
+  position: relative;
+  height: 600px;
+  overflow-x: auto;
+  background: linear-gradient(to bottom, transparent 0%, transparent 99%, #d4b896 99%, #d4b896 100%);
+  background-size: 100% 60px;
+}
+.poet-dot {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+.poet-dot:hover {
+  transform: translate(-50%, -50%) scale(1.8);
+  z-index: 10;
+}
+.poet-dot .tip {
+  display: none;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff9f0;
+  border: 1px solid #d4b896;
+  padding: 8px 12px;
+  border-radius: 4px;
+  white-space: nowrap;
+  font-size: 0.9em;
+  z-index: 20;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+.poet-dot:hover .tip {
+  display: block;
+}
+.relation-line {
+  position: absolute;
+  height: 1px;
+  background: linear-gradient(to right, transparent, #8b2f2f66, transparent);
+  transform-origin: left center;
+  z-index: 1;
+}
+
+/* 地理地图视图 */
+#map-view {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto 30px;
+  display: none;
+}
+.poet-selector {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 15px;
+  justify-content: center;
+}
+.poet-btn {
+  padding: 6px 16px;
+  background: rgba(247,241,227,0.9);
+  border: 1px solid #8b2f2f44;
+  color: #7a5c3c;
+  border-radius: 20px;
+  font-family: "STKaiti", serif;
+  font-size: 0.95em;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.poet-btn.active {
+  background: #8b2f2f;
+  color: #f7f1e3;
+  border-color: #8b2f2f;
+}
+.poet-btn:hover {
+  background: #8b2f2fcc;
+  color: #f7f1e3;
+}
+#poetry-map {
+  height: 650px;
+  border: 1px solid #d4b896;
+  border-radius: 8px;
+  background: #f7f1e3;
+}
+/* 覆盖Leaflet样式适配宣纸风格 */
+.leaflet-container {
+  background: #f7f1e3 !important;
+  font-family: "STSong", serif;
+}
+.leaflet-popup-content-wrapper {
+  background: #fff9f0;
+  color: #3a2a1a;
+  border-radius: 4px;
+  border: 1px solid #d4b896;
+}
+.leaflet-popup-tip {
+  background: #fff9f0;
+}
+.place-marker {
+  background: #8b2f2f;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid #f7f1e3;
+  box-shadow: 0 0 4px rgba(0,0,0,0.3);
+}
+.place-label {
+  font-family: "STKaiti", serif;
+  font-size: 12px;
+  color: #5a3a2a;
+  background: rgba(255,249,240,0.8);
+  padding: 2px 6px;
+  border-radius: 3px;
+  white-space: nowrap;
+  border: none;
+  box-shadow: none;
+}
+/* 名篇故里面板 */
+.places-panel {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+}
+.place-card {
+  padding: 12px;
+  background: rgba(255,249,240,0.8);
+  border: 1px solid #d4b896;
+  border-left: 3px solid #8b2f2f;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.place-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 2px 2px 8px rgba(139,47,47,0.15);
+}
+.place-card h4 {
+  margin: 0 0 6px;
+  color: #8b2f2f;
+  font-family: "STKaiti", serif;
+  font-size: 1.1em;
+}
+.place-card .era {
+  font-size: 0.85em;
+  color: #9a7c5c;
+  margin-bottom: 6px;
+}
+.place-card p {
+  margin: 0;
+  font-size: 0.85em;
+  color: #5a4a3a;
+  line-height: 1.5;
+}
+</style>
+</head>
+<body>
+<!-- 顶栏导航 -->
+<nav class="shicang-topnav" id="topnav">
+  <div class="brand">
+    <span class="seal-mini">詩</span>
+    <a href="../" class="brand-name">詩藏本體論</a>
+  </div>
+  <div class="nav-links">
+    <a href="../">首页</a>
+    <a href="../shicang-jingdu/">名篇精读</a>
+    <a href="../shicang-poet-journey/" class="active">诗路千年</a>
+    <a href="../shicang-xinghe/">诗河星海</a>
+    <a href="../shicang-cipai/">词牌格律</a>
+    <a href="../shicang-imagery/">意象图谱</a>
+    <a href="../shicang-meipi/">诗话眉批</a>
+    <a href="../shicang-duilian/">楹联对弈</a>
+    <a href="../shicang-duilian-corpus/">联语集对</a>
+    <a href="../shicang-map/">诗词地图</a>
+    <a href="../shicang-yunshu/">韵书查询</a>
+  </div>
+  <button class="menu-toggle" id="menuToggle">☰</button>
+</nav>
+
+<div class="road-hero">
+  <h1>诗路千年</h1>
+  <div class="subtitle">行跡萬里 · 詩脈千年</div>
+  <div class="seal">路</div>
+</div>
+
+<div class="view-switch">
+  <button class="view-btn active" data-view="timeline">时空年表</button>
+  <button class="view-btn" data-view="map">地理行迹</button>
+</div>
+
+<!-- 时空年表视图：按朝代展示诗人时间分布与交游关系 -->
+<div id="timeline-view">
+  <div class="dynasty-bar" id="dynastyBar"></div>
+  <div class="poet-chart" id="poetChart"></div>
+</div>
+
+<!-- 地理行迹视图：地图展示诗人真实行迹与名篇故里 -->
+<div id="map-view">
+  <div class="poet-selector" id="poetSelector"></div>
+  <div id="poetry-map"></div>
+  <h3 style="font-family: STKaiti,serif; color:#8b2f2f; margin:25px 0 15px; border-bottom:1px solid #d4b896; padding-bottom:8px;">名篇故里</h3>
+  <div class="places-panel" id="placesPanel"></div>
+</div>
+
+<!-- 节气条 + 页脚 -->
+<div class="jieqi-badge" id="jieqiBadge"></div>
+<div class="seal-back" id="sealBack">歸</div>
+<footer class="shicang-footer">诗藏本体论 · 岁在丙午 · 辑于西泠</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="../shicang-assets/romantic.js"></script>
+<script src="road_data.js"></script>
+<script>
+// 视图切换
+document.querySelectorAll('.view-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.view-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    const view = btn.dataset.view;
+    document.getElementById('timeline-view').style.display = view === 'timeline' ? 'block' : 'none';
+    document.getElementById('map-view').style.display = view === 'map' ? 'block' : 'none';
+    if(view === 'map' && !mapInited) initMap();
+  });
+});
+
+// ============ 时空年表渲染 ============
+const dynastyColors = {
+  "先秦": '#5D4E37', "汉": '#3A5F7A', "魏晋南北朝": '#2E7D5B',
+  "唐": '#C0392B', "宋": '#E67E22', "元": '#27AE60',
+  "明": '#2980B9', "清": '#8E44AD'
+};
+const dynastyRange = {
+  "先秦": [-1000, -202], "汉": [-202, 220], "魏晋南北朝": [220, 581],
+  "唐": [618, 907], "宋": [960, 1279], "元": [1271, 1368],
+  "明": [1368, 1644], "清": [1644, 1912]
+};
+
+function renderTimeline() {
+  const bar = document.getElementById('dynastyBar');
+  const totalSpan = 1912 - (-1000);
+  // 朝代条
+  Object.entries(dynastyRange).forEach(([dyn, [start, end]]) => {
+    const seg = document.createElement('div');
+    seg.className = 'dynasty-seg';
+    seg.style.width = ((end - start)/totalSpan * 100) + '%';
+    seg.style.background = dynastyColors[dyn];
+    seg.textContent = dyn;
+    const count = ROAD_DATA.poets.filter(p => p.dynasty === dyn).length;
+    seg.innerHTML += `<span class="count">${count}位</span>`;
+    bar.appendChild(seg);
+  });
+
+  const chart = document.getElementById('poetChart');
+  const chartW = chart.offsetWidth;
+  const chartH = chart.offsetHeight;
+  // 绘制诗人点：x按生卒年均值，y按流派分组偏移
+  const schools = [...new Set(ROAD_DATA.poets.map(p => p.school || '其他'))];
+  const schoolY = {};
+  schools.forEach((s, i) => schoolY[s] = 60 + i * 50);
+  chart.style.height = Math.max(600, schools.length * 50 + 100) + 'px';
+
+  ROAD_DATA.poets.forEach(p => {
+    if(!p.birthYear) return;
+    const midYear = (p.birthYear + (p.deathYear || p.birthYear + 60)) / 2;
+    const x = ((midYear - (-1000)) / totalSpan) * chartW;
+    const y = schoolY[p.school || '其他'] + (Math.random() - 0.5) * 30;
+    const dot = document.createElement('div');
+    dot.className = 'poet-dot';
+    dot.style.left = x + 'px';
+    dot.style.top = y + 'px';
+    dot.style.background = p.color || dynastyColors[p.dynasty];
+    dot.innerHTML = `<div class="tip">
+      <strong>${p.name}</strong>（${p.dynasty}）<br>
+      ${p.birthYear} - ${p.deathYear || '?'}<br>
+      <small>${p.school || ''} · ${p.representativeWorks?.slice(0,2).join('、') || ''}</small>
+    </div>`;
+    dot.addEventListener('click', () => showPoetDetail(p));
+    chart.appendChild(dot);
+  });
+
+  // 绘制交游关系线
+  ROAD_DATA.relations.forEach(r => {
+    const p1 = ROAD_DATA.poets.find(p => p.id === r.from);
+    const p2 = ROAD_DATA.poets.find(p => p.id === r.to);
+    if(!p1 || !p2 || !p1.birthYear || !p2.birthYear) return;
+    const mid1 = (p1.birthYear + (p1.deathYear || p1.birthYear + 60)) / 2;
+    const mid2 = (p2.birthYear + (p2.deathYear || p2.birthYear + 60)) / 2;
+    const x1 = ((mid1 - (-1000))/totalSpan)*chartW;
+    const y1 = schoolY[p1.school || '其他'];
+    const x2 = ((mid2 - (-1000))/totalSpan)*chartW;
+    const y2 = schoolY[p2.school || '其他'];
+    const length = Math.sqrt((x2-x1)**2 + (y2-y1)**2);
+    const angle = Math.atan2(y2-y1, x2-x1) * 180 / Math.PI;
+    const line = document.createElement('div');
+    line.className = 'relation-line';
+    line.style.left = x1 + 'px';
+    line.style.top = y1 + 'px';
+    line.style.width = length + 'px';
+    line.style.transform = `rotate(${angle}deg)`;
+    chart.appendChild(line);
+  });
+}
+
+function showPoetDetail(p) {
+  // 点击诗人点自动切换到地图视图显示其行迹
+  document.querySelector('[data-view="map"]').click();
+  setTimeout(() => selectPoet(p.id), 300);
+}
+
+// ============ 地理行迹地图渲染 ============
+let mapInited = false;
+let map, currentRoute;
+function initMap() {
+  mapInited = true;
+  map = L.map('poetry-map', {
+    center: [35, 110],
+    zoom: 5,
+    zoomControl: true
+  });
+  // 使用浅色国风地图底图（无需key）
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '诗藏本体论',
+    maxZoom: 10,
+    className: 'paper-tile'
+  }).addTo(map);
+
+  // 渲染诗人选择按钮
+  const selector = document.getElementById('poetSelector');
+  ROAD_DATA.poets.filter(p => p.route?.length > 1).forEach(p => {
+    const btn = document.createElement('button');
+    btn.className = 'poet-btn';
+    btn.dataset.poet = p.id;
+    btn.textContent = p.name;
+    btn.addEventListener('click', () => selectPoet(p.id));
+    selector.appendChild(btn);
+  });
+
+  // 渲染名篇故里卡片
+  const panel = document.getElementById('placesPanel');
+  ROAD_DATA.places.forEach(place => {
+    const card = document.createElement('div');
+    card.className = 'place-card';
+    card.innerHTML = `<h4>${place.name}</h4>
+      <div class="era">${place.era}</div>
+      <p>${place.desc}</p>`;
+    card.addEventListener('click', () => {
+      map.flyTo([place.lat, place.lng], 7);
+      L.popup()
+        .setLatLng([place.lat, place.lng])
+        .setContent(`<strong>${place.name}</strong><br>${place.desc}<br><small>相关诗人：${place.poets.join('、')}<br>名篇：${place.works.join('、')}</small>`)
+        .openOn(map);
+    });
+    panel.appendChild(card);
+    // 添加地名标注
+    L.marker([place.lat, place.lng], {
+      icon: L.divIcon({
+        className: 'place-label',
+        html: place.name.split('（')[0],
+        iconSize: [60, 20],
+        iconAnchor: [30, 10]
+      })
+    }).addTo(map);
+  });
+
+  // 默认展示李白行迹
+  selectPoet('李白');
+}
+
+function selectPoet(poetId) {
+  // 清除旧路线
+  if(currentRoute) map.removeLayer(currentRoute);
+  document.querySelectorAll('.poet-btn').forEach(b => b.classList.remove('active'));
+  const btn = document.querySelector(`[data-poet="${poetId}"]`);
+  if(btn) btn.classList.add('active');
+
+  const poet = ROAD_DATA.poets.find(p => p.id === poetId);
+  if(!poet || !poet.route?.length) return;
+
+  const coords = poet.route.map(r => [r.lat, r.lng]);
+  // 绘制行迹路线
+  currentRoute = L.polyline(coords, {
+    color: poet.color || '#8b2f2f',
+    weight: 3,
+    opacity: 0.7,
+    dashArray: '5,8'
+  }).addTo(map);
+
+  // 添加行迹点
+  poet.route.forEach(r => {
+    L.circleMarker([r.lat, r.lng], {
+      radius: 6,
+      fillColor: poet.color || '#8b2f2f',
+      color: '#f7f1e3',
+      weight: 2,
+      fillOpacity: 0.9
+    }).bindPopup(`<strong>${r.place}</strong><br>${r.year || ''}<br><small>${r.event || ''}</small>`).addTo(map);
+  });
+
+  // 自动缩放到路线范围
+  map.fitBounds(currentRoute.getBounds(), {padding: [50,50]});
+}
+
+// 初始化
+window.addEventListener('load', () => {
+  renderTimeline();
+});
+</script>
+</body>
+</html>
