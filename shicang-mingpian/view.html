@@ -89,6 +89,22 @@ main{max-width:880px;margin:0 auto;padding:22px 26px 60px;position:relative;z-in
   color:#a08a66;font-family:'Times New Roman',serif;letter-spacing:.02em;opacity:0;transition:.2s;}
 .ch .pz{position:absolute;bottom:-15px;left:50%;transform:translateX(-50%);font-size:10px;
   color:#9a8560;opacity:0;transition:.2s;}
+/* 英文翻译 */
+.en-lines{margin:28px auto 0;max-width:640px;padding:18px 22px 20px;
+  background:linear-gradient(180deg,rgba(255,255,255,.55),rgba(255,255,255,.3));
+  border:1px solid var(--rule);border-radius:8px;opacity:0;max-height:0;overflow:hidden;
+  transition:opacity .35s,max-height .4s ease,padding .35s,margin .35s;}
+body.opt-en .en-lines{opacity:1;max-height:4000px;padding:18px 22px 20px;margin-top:28px;}
+.en-head{font-family:'STKaiti',serif;font-size:15px;color:var(--seal);letter-spacing:.12em;
+  text-align:center;padding-bottom:10px;margin-bottom:12px;border-bottom:1px dashed var(--rule);}
+.en-head .en-title{display:block;font-family:'Cormorant Garamond','EB Garamond','Times New Roman',serif;
+  font-size:18px;font-style:italic;color:var(--ink);letter-spacing:.03em;margin-top:4px;font-weight:600;}
+.en-head .en-author{font-size:12.5px;color:var(--ink3);font-family:'Times New Roman',serif;letter-spacing:.08em;margin-top:2px;}
+.en-line{font-family:'Cormorant Garamond','EB Garamond','Times New Roman',serif;
+  font-size:15px;line-height:1.75;color:#3a3227;text-align:center;letter-spacing:.01em;
+  font-style:italic;margin:0 0 6px;}
+.en-note{margin-top:14px;padding-top:10px;border-top:1px dashed var(--rule);text-align:center;
+  font-size:11.5px;color:#a08a66;letter-spacing:.08em;}
 body.opt-py .ch .py{opacity:1;}
 body.opt-pz .ch .pz{opacity:1;}
 body.opt-py .pline{margin-bottom:26px;}
@@ -118,6 +134,7 @@ body.vt .pline{margin:0 4px;}
 body.vt .ch{display:block;margin:5px 0;}
 body.vt .ch .py{top:50%;left:auto;right:-14px;transform:translateY(-50%);}
 body.vt .ch .pz{bottom:auto;left:-14px;top:50%;transform:translateY(-50%);}
+body.vt .en-lines{writing-mode:horizontal-tb;max-width:520px;margin:22px auto 0;}
 body.big .ch .zi{font-size:31px;}
 body.big .pline{margin-bottom:20px;}
 footer{max-width:880px;margin:0 auto;padding:26px;text-align:center;color:#a08a66;
@@ -139,7 +156,7 @@ footer{max-width:880px;margin:0 auto;padding:26px;text-align:center;color:#a08a6
       <a href="/ShiCang/shicang-ci/" class="shicang-nav-link">词</a>
       <a href="/ShiCang/shicang-qu/" class="shicang-nav-link">曲</a>
       <a href="/ShiCang/shicang-chuci/" class="shicang-nav-link">辞赋</a>
-      <a href="/ShiCang/shicang-poem/" class="shicang-nav-link active" class="shicang-nav-link">名篇</a>
+      <a href="/ShiCang/shicang-mingpian/" class="shicang-nav-link active">名篇</a>
       <span class="shicang-nav-sep">|</span>
       <a href="/ShiCang/shicang-poet-journey/" class="shicang-nav-link">诗人轨迹</a>
       <a href="/ShiCang/shicang-cipai/" class="shicang-nav-link">词牌</a>
@@ -158,7 +175,7 @@ footer{max-width:880px;margin:0 auto;padding:26px;text-align:center;color:#a08a6
       <a href="/ShiCang/shicang-ci/" class="shicang-nav-link">📝 词林精读</a>
       <a href="/ShiCang/shicang-qu/" class="shicang-nav-link">🎭 曲林精读</a>
       <a href="/ShiCang/shicang-chuci/" class="shicang-nav-link">🏮 辞赋精读</a>
-      <a href="/ShiCang/shicang-poem/" class="shicang-nav-link active" class="shicang-nav-link">📜 名篇精读</a>
+      <a href="/ShiCang/shicang-mingpian/" class="shicang-nav-link active">📜 名篇精读</a>
       <div style="height:1px;background:rgba(30,26,21,.1);margin:6px 0;"></div>
       <a href="/ShiCang/shicang-poet-journey/" class="shicang-nav-link">🧭 诗人时空轨迹</a>
       <a href="/ShiCang/shicang-cipai/" class="shicang-nav-link">🎶 词牌格律谱</a>
@@ -187,11 +204,21 @@ footer{max-width:880px;margin:0 auto;padding:26px;text-align:center;color:#a08a6
   <button class="sw on" data-opt="opt-py">注音</button>
   <button class="sw" data-opt="opt-pz">平仄</button>
   <button class="sw on" data-opt="opt-rhyme">韵脚</button>
+  <button class="sw" data-opt="opt-en">英译</button>
   <button class="sw" data-opt="vt">竖排</button>
   <button class="sw" data-opt="big">大字</button>
 </div>
 <main>
   <div class="poem" id="poem"><div class="loading">展 卷 中…</div></div>
+  <div class="en-lines" id="enBox" style="display:none">
+    <div class="en-head">
+      <span>Ｅｎｇｌｉｓｈ　Ｔｒａｎｓｌａｔｉｏｎ</span>
+      <span class="en-title" id="enTitle"></span>
+      <span class="en-author" id="enAuthor"></span>
+    </div>
+    <div id="enLines"></div>
+    <div class="en-note">Translated by ShiCang · 诗藏自译</div>
+  </div>
   <div class="note-line" id="note" style="display:none"></div>
   <div class="deepbox" id="deepbox" style="display:none"></div>
 </main>
@@ -251,6 +278,19 @@ function renderPoem(p){
     html += '</span></div>';
   });
   poem.innerHTML = html;
+
+  // 英译
+  const enBox = $('enBox');
+  if (p.en_body && p.en_body.some(x => x)){
+    enBox.style.display = '';
+    $('enTitle').textContent = p.en_title || p.title;
+    const au = p.en_author && !/[\u4e00-\u9fff]/.test(p.en_author) ? p.en_author : '';
+    $('enAuthor').textContent = (p.en_dynasty||'') + (au ? ' · ' + au : '');
+    const elBox = $('enLines');
+    elBox.innerHTML = p.en_body.map((e,i) => '<div class="en-line">' + (e||'') + '</div>').join('');
+  } else {
+    enBox.style.display = 'none';
+  }
 }
 
 function renderMeta(p){
