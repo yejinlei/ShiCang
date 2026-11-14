@@ -1,0 +1,824 @@
+{
+  "deep": [
+    {
+      "slug": "QuYuan_LiSao",
+      "title": "离骚",
+      "author": "屈原",
+      "dynasty": "战国",
+      "genre": "楚辞",
+      "file": "QuYuan_LiSao.html"
+    },
+    {
+      "slug": "QuYuan_JiuGe_JiangJun",
+      "title": "九歌·国殇",
+      "author": "屈原",
+      "dynasty": "战国",
+      "genre": "楚辞",
+      "file": "QuYuan_JiuGe_JiangJun.html"
+    },
+    {
+      "slug": "CaoCao_DuanGeXing",
+      "title": "短歌行",
+      "author": "曹操",
+      "dynasty": "东汉",
+      "genre": "诗",
+      "file": "CaoCao_DuanGeXing.html"
+    },
+    {
+      "slug": "CaoCao_GuanCangHai",
+      "title": "观沧海",
+      "author": "曹操",
+      "dynasty": "东汉",
+      "genre": "诗",
+      "file": "CaoCao_GuanCangHai.html"
+    },
+    {
+      "slug": "CaoZhi_LuoShenFu",
+      "title": "洛神赋",
+      "author": "曹植",
+      "dynasty": "三国",
+      "genre": "赋",
+      "file": "CaoZhi_LuoShenFu.html"
+    },
+    {
+      "slug": "TaoYuanming_GuiQuLaiXi",
+      "title": "归去来兮辞",
+      "author": "陶渊明",
+      "dynasty": "东晋",
+      "genre": "辞",
+      "file": "TaoYuanming_GuiQuLaiXi.html"
+    },
+    {
+      "slug": "TaoYuanming_TaoHuaYuan",
+      "title": "桃花源记",
+      "author": "陶渊明",
+      "dynasty": "东晋",
+      "genre": "文",
+      "file": "TaoYuanming_TaoHuaYuan.html"
+    },
+    {
+      "slug": "TaoYuanming_YinJiu",
+      "title": "饮酒·其五",
+      "author": "陶渊明",
+      "dynasty": "东晋",
+      "genre": "诗",
+      "file": "TaoYuanming_YinJiu.html"
+    },
+    {
+      "slug": "XieLingyun_DengChiShangLou",
+      "title": "登池上楼",
+      "author": "谢灵运",
+      "dynasty": "南朝宋",
+      "genre": "诗",
+      "file": "XieLingyun_DengChiShangLou.html"
+    },
+    {
+      "slug": "WangBo_SongDuShaoFu",
+      "title": "送杜少府之任蜀州",
+      "author": "王勃",
+      "dynasty": "唐",
+      "genre": "诗",
+      "file": "WangBo_SongDuShaoFu.html"
+    },
+    {
+      "slug": "WangBo_TengWangGeXu",
+      "title": "滕王阁序",
+      "author": "王勃",
+      "dynasty": "唐",
+      "genre": "文",
+      "file": "WangBo_TengWangGeXu.html"
+    },
+    {
+      "slug": "ChenZiang_DengYouZhouTai",
+      "title": "登幽州台歌",
+      "author": "陈子昂",
+      "dynasty": "唐",
+      "genre": "诗",
+      "file": "ChenZiang_DengYouZhouTai.html"
+    },
+    {
+      "slug": "HeZhizhang_HuiXiangOuShu",
+      "title": "回乡偶书",
+      "author": "贺知章",
+      "dynasty": "唐",
+      "genre": "诗",
+      "file": "HeZhizhang_HuiXiangOuShu.html"
+    },
+    {
+      "slug": "MengHaoran_ChunXiao",
+      "title": "春晓",
+      "author": "孟浩然",
+      "dynasty": "唐",
+      "genre": "诗",
+      "file": "MengHaoran_ChunXiao.html"
+    },
+    {
+      "slug": "MengHaoran_GuoGuRenZhuang",
+      "title": "过故人庄",
+      "author": "孟浩然",
+      "dynasty": "唐",
+      "genre": "诗",
+      "file": "MengHaoran_GuoGuRenZhuang.html"
+    },
+    {
+      "slug": "WangChangling_ChuSai",
+      "title": "出塞",
+      "author": "王昌龄",
+      "dynasty": "唐",
+      "genre": "诗",
+      "file": "WangChangling_ChuSai.html"
+    },
+    {
+      "slug": "WangChangling_FuRongLou",
+      "title": "芙蓉楼送辛渐",
+      "author": "王昌龄",
+      "dynasty": "唐",
+      "genre": "诗",
+      "file": "WangChangling_FuRongLou.html"
+    },
+    {
+      "slug": "WangWei_JiuYueJiuRiYi",
+      "title": "九月九日忆山东兄弟",
+      "author": "王维",
+      "dynasty": "唐",
+      "genre": "诗",
+      "file": "WangWei_JiuYueJiuRiYi.html"
+    },
+    {
+      "slug": "WangWei_ShanJuQiuMing",
+      "title": "山居秋暝",
+      "author": "王维",
+      "dynasty": "唐",
+      "genre": "诗",
+      "file": "WangWei_ShanJuQiuMing.html"
+    },
+    {
+      "slug": "WangWei_SongYuanErShiAnXi",
+      "title": "送元二使安西",
+      "author": "王维",
+      "dynasty": "唐",
+      "genre": "诗",
+      "file": "WangWei_SongYuanErShiAnXi.html"
+    },
+    {
+      "slug": "LiBai_JingYeSi",
+      "title": "静夜思",
+      "author": "李白",
+      "dynasty": "唐",
+      "genre": "诗",
+      "file": "LiBai_JingYeSi.html"
+    },
+    {
+      "slug": "LiBai_JiangJinJiu",
+      "title": "将进酒",
+      "author": "李白",
+      "dynasty": "唐",
+      "genre": "诗",
+      "file": "LiBai_JiangJinJiu.html"
+    },
+    {
+      "slug": "LiBai_ShuDaoNan",
+      "title": "蜀道难",
+      "author": "李白",
+      "dynasty": "唐",
+      "genre": "诗",
+      "file": "LiBai_ShuDaoNan.html"
+    },
+    {
+      "slug": "LiBai_MengYouTianLao",
+      "title": "梦游天姥吟留别",
+      "author": "李白",
+      "dynasty": "唐",
+      "genre": "诗",
+      "file": "LiBai_MengYouTianLao.html"
+    },
+    {
+      "slug": "LiBai_HuangHeLouSongMeng",
+      "title": "黄鹤楼送孟浩然之广陵",
+      "author": "李白",
+      "dynasty": "唐",
+      "genre": "诗",
+      "file": "LiBai_HuangHeLouSongMeng.html"
+    },
+    {
+      "slug": "LiBai_ZengWangLun",
+      "title": "赠汪伦",
+      "author": "李白",
+      "dynasty": "唐",
+      "genre": "诗",
+      "file": "LiBai_ZengWangLun.html"
+    },
+    {
+      "slug": "LiBai_WangLuShanPuBu",
+      "title": "望庐山瀑布",
+      "author": "李白",
+      "dynasty": "唐",
+      "genre": "诗",
+      "file": "LiBai_WangLuShanPuBu.html"
+    },
+    {
+      "slug": "CenShen_BaiXueGe",
+      "title": "白雪歌送武判官归京",
+      "author": "岑参",
+      "dynasty": "唐",
+      "genre": "诗",
+      "file": "CenShen_BaiXueGe.html"
+    },
+    {
+      "slug": "GaoShi_BieDongDa",
+      "title": "别董大",
+      "author": "高适",
+      "dynasty": "唐",
+      "genre": "诗",
+      "file": "GaoShi_BieDongDa.html"
+    },
+    {
+      "slug": "DuFu_ChunWang",
+      "title": "春望",
+      "author": "杜甫",
+      "dynasty": "唐",
+      "genre": "诗",
+      "file": "DuFu_ChunWang.html"
+    },
+    {
+      "slug": "DuFu_DengGao",
+      "title": "登高",
+      "author": "杜甫",
+      "dynasty": "唐",
+      "genre": "诗",
+      "file": "DuFu_DengGao.html"
+    },
+    {
+      "slug": "DuFu_MaoWuWeiQiuFeng",
+      "title": "茅屋为秋风所破歌",
+      "author": "杜甫",
+      "dynasty": "唐",
+      "genre": "诗",
+      "file": "DuFu_MaoWuWeiQiuFeng.html"
+    },
+    {
+      "slug": "DuFu_SanLiSanBie",
+      "title": "三吏三别",
+      "author": "杜甫",
+      "dynasty": "唐",
+      "genre": "诗",
+      "file": "DuFu_SanLiSanBie.html"
+    },
+    {
+      "slug": "LiuYuxi_LouShiMing",
+      "title": "陋室铭",
+      "author": "刘禹锡",
+      "dynasty": "唐",
+      "genre": "文",
+      "file": "LiuYuxi_LouShiMing.html"
+    },
+    {
+      "slug": "LiuYuxi_ChouLeTian",
+      "title": "酬乐天扬州初逢席上见赠",
+      "author": "刘禹锡",
+      "dynasty": "唐",
+      "genre": "诗",
+      "file": "LiuYuxi_ChouLeTian.html"
+    },
+    {
+      "slug": "LiuYuxi_WuYiXiang",
+      "title": "乌衣巷",
+      "author": "刘禹锡",
+      "dynasty": "唐",
+      "genre": "诗",
+      "file": "LiuYuxi_WuYiXiang.html"
+    },
+    {
+      "slug": "BaiJuyi_ChangHenGe",
+      "title": "长恨歌",
+      "author": "白居易",
+      "dynasty": "唐",
+      "genre": "诗",
+      "file": "BaiJuyi_ChangHenGe.html"
+    },
+    {
+      "slug": "BaiJuyi_PiPaXing",
+      "title": "琵琶行",
+      "author": "白居易",
+      "dynasty": "唐",
+      "genre": "诗",
+      "file": "BaiJuyi_PiPaXing.html"
+    },
+    {
+      "slug": "BaiJuyi_MaiTanWeng",
+      "title": "卖炭翁",
+      "author": "白居易",
+      "dynasty": "唐",
+      "genre": "诗",
+      "file": "BaiJuyi_MaiTanWeng.html"
+    },
+    {
+      "slug": "YuanZhen_LiSi",
+      "title": "离思五首·其四",
+      "author": "元稹",
+      "dynasty": "唐",
+      "genre": "诗",
+      "file": "YuanZhen_LiSi.html"
+    },
+    {
+      "slug": "LiHe_YanMenTaiShouXing",
+      "title": "雁门太守行",
+      "author": "李贺",
+      "dynasty": "唐",
+      "genre": "诗",
+      "file": "LiHe_YanMenTaiShouXing.html"
+    },
+    {
+      "slug": "DuMu_BoQinHuai",
+      "title": "泊秦淮",
+      "author": "杜牧",
+      "dynasty": "唐",
+      "genre": "诗",
+      "file": "DuMu_BoQinHuai.html"
+    },
+    {
+      "slug": "DuMu_ChiBi",
+      "title": "赤壁",
+      "author": "杜牧",
+      "dynasty": "唐",
+      "genre": "诗",
+      "file": "DuMu_ChiBi.html"
+    },
+    {
+      "slug": "DuMu_QingMing",
+      "title": "清明",
+      "author": "杜牧",
+      "dynasty": "唐",
+      "genre": "诗",
+      "file": "DuMu_QingMing.html"
+    },
+    {
+      "slug": "DuMu_AFangGongFu",
+      "title": "阿房宫赋",
+      "author": "杜牧",
+      "dynasty": "唐",
+      "genre": "赋",
+      "file": "DuMu_AFangGongFu.html"
+    },
+    {
+      "slug": "LiShangyin_JinSe",
+      "title": "锦瑟",
+      "author": "李商隐",
+      "dynasty": "唐",
+      "genre": "诗",
+      "file": "LiShangyin_JinSe.html"
+    },
+    {
+      "slug": "LiShangyin_WuTi",
+      "title": "无题·相见时难别亦难",
+      "author": "李商隐",
+      "dynasty": "唐",
+      "genre": "诗",
+      "file": "LiShangyin_WuTi.html"
+    },
+    {
+      "slug": "LiShangyin_YeYuJiBei",
+      "title": "夜雨寄北",
+      "author": "李商隐",
+      "dynasty": "唐",
+      "genre": "诗",
+      "file": "LiShangyin_YeYuJiBei.html"
+    },
+    {
+      "slug": "WenTianXian_GuoLingDingYang",
+      "title": "过零丁洋",
+      "author": "文天祥",
+      "dynasty": "宋",
+      "genre": "诗",
+      "file": "WenTianXian_GuoLingDingYang.html"
+    },
+    {
+      "slug": "FanZhongyan_YuJiaAo",
+      "title": "渔家傲·秋思",
+      "author": "范仲淹",
+      "dynasty": "宋",
+      "genre": "词",
+      "file": "FanZhongyan_YuJiaAo.html"
+    },
+    {
+      "slug": "LiuYong_YuLinLing",
+      "title": "雨霖铃·寒蝉凄切",
+      "author": "柳永",
+      "dynasty": "宋",
+      "genre": "词",
+      "file": "LiuYong_YuLinLing.html"
+    },
+    {
+      "slug": "YanShu_HuanXiSha",
+      "title": "浣溪沙·一曲新词酒一杯",
+      "author": "晏殊",
+      "dynasty": "宋",
+      "genre": "词",
+      "file": "YanShu_HuanXiSha.html"
+    },
+    {
+      "slug": "OuyangXiu_ZuiWengTingJi",
+      "title": "醉翁亭记",
+      "author": "欧阳修",
+      "dynasty": "宋",
+      "genre": "文",
+      "file": "OuyangXiu_ZuiWengTingJi.html"
+    },
+    {
+      "slug": "WangAnshi_BoChuanGuaZhou",
+      "title": "泊船瓜洲",
+      "author": "王安石",
+      "dynasty": "宋",
+      "genre": "诗",
+      "file": "WangAnshi_BoChuanGuaZhou.html"
+    },
+    {
+      "slug": "SuShi_ShuiDiaoGeTou",
+      "title": "水调歌头·明月几时有",
+      "author": "苏轼",
+      "dynasty": "宋",
+      "genre": "词",
+      "file": "SuShi_ShuiDiaoGeTou.html"
+    },
+    {
+      "slug": "SuShi_NianNuJiao",
+      "title": "念奴娇·赤壁怀古",
+      "author": "苏轼",
+      "dynasty": "宋",
+      "genre": "词",
+      "file": "SuShi_NianNuJiao.html"
+    },
+    {
+      "slug": "SuShi_DingFengBo",
+      "title": "定风波·莫听穿林打叶声",
+      "author": "苏轼",
+      "dynasty": "宋",
+      "genre": "词",
+      "file": "SuShi_DingFengBo.html"
+    },
+    {
+      "slug": "SuShi_TiXiLinBi",
+      "title": "题西林壁",
+      "author": "苏轼",
+      "dynasty": "宋",
+      "genre": "诗",
+      "file": "SuShi_TiXiLinBi.html"
+    },
+    {
+      "slug": "LiQingzhao_RuMengLing",
+      "title": "如梦令·常记溪亭日暮",
+      "author": "李清照",
+      "dynasty": "宋",
+      "genre": "词",
+      "file": "LiQingzhao_RuMengLing.html"
+    },
+    {
+      "slug": "LiQingzhao_ZuiHuaYin",
+      "title": "醉花阴·薄雾浓云愁永昼",
+      "author": "李清照",
+      "dynasty": "宋",
+      "genre": "词",
+      "file": "LiQingzhao_ZuiHuaYin.html"
+    },
+    {
+      "slug": "LiQingzhao_ShengShengMan",
+      "title": "声声慢·寻寻觅觅",
+      "author": "李清照",
+      "dynasty": "宋",
+      "genre": "词",
+      "file": "LiQingzhao_ShengShengMan.html"
+    },
+    {
+      "slug": "LuYou_ChaiTouFeng",
+      "title": "钗头凤·红酥手",
+      "author": "陆游",
+      "dynasty": "宋",
+      "genre": "词",
+      "file": "LuYou_ChaiTouFeng.html"
+    },
+    {
+      "slug": "LuYou_YouShanXiCun",
+      "title": "游山西村",
+      "author": "陆游",
+      "dynasty": "宋",
+      "genre": "诗",
+      "file": "LuYou_YouShanXiCun.html"
+    },
+    {
+      "slug": "LuYou_ShiEr",
+      "title": "示儿",
+      "author": "陆游",
+      "dynasty": "宋",
+      "genre": "诗",
+      "file": "LuYou_ShiEr.html"
+    },
+    {
+      "slug": "XinQiji_QingYuAn",
+      "title": "青玉案·元夕",
+      "author": "辛弃疾",
+      "dynasty": "宋",
+      "genre": "词",
+      "file": "XinQiji_QingYuAn.html"
+    },
+    {
+      "slug": "XinQiji_PoZhenZi",
+      "title": "破阵子·为陈同甫赋壮词以寄之",
+      "author": "辛弃疾",
+      "dynasty": "宋",
+      "genre": "词",
+      "file": "XinQiji_PoZhenZi.html"
+    },
+    {
+      "slug": "XinQiji_YongYuLe",
+      "title": "永遇乐·京口北固亭怀古",
+      "author": "辛弃疾",
+      "dynasty": "宋",
+      "genre": "词",
+      "file": "XinQiji_YongYuLe.html"
+    },
+    {
+      "slug": "JiangKui_YangZhouMan",
+      "title": "扬州慢·淮左名都",
+      "author": "姜夔",
+      "dynasty": "宋",
+      "genre": "词",
+      "file": "JiangKui_YangZhouMan.html"
+    },
+    {
+      "slug": "LiYu_YuMeiRen",
+      "title": "虞美人·春花秋月何时了",
+      "author": "李煜",
+      "dynasty": "五代",
+      "genre": "词",
+      "file": "LiYu_YuMeiRen.html"
+    },
+    {
+      "slug": "LiYu_LangTaoSha",
+      "title": "浪淘沙·帘外雨潺潺",
+      "author": "李煜",
+      "dynasty": "五代",
+      "genre": "词",
+      "file": "LiYu_LangTaoSha.html"
+    },
+    {
+      "slug": "MaZhiyuan_TianJingSha_QiuSi",
+      "title": "天净沙·秋思",
+      "author": "马致远",
+      "dynasty": "元",
+      "genre": "曲",
+      "file": "MaZhiyuan_TianJingSha_QiuSi.html"
+    },
+    {
+      "slug": "ZhangYanghao_ShanPoYang",
+      "title": "山坡羊·潼关怀古",
+      "author": "张养浩",
+      "dynasty": "元",
+      "genre": "曲",
+      "file": "ZhangYanghao_ShanPoYang.html"
+    },
+    {
+      "slug": "TangYin_TaoHuaAnGe",
+      "title": "桃花庵歌",
+      "author": "唐寅",
+      "dynasty": "明",
+      "genre": "诗",
+      "file": "TangYin_TaoHuaAnGe.html"
+    },
+    {
+      "slug": "YangShen_LinJiangXian",
+      "title": "临江仙·滚滚长江东逝水",
+      "author": "杨慎",
+      "dynasty": "明",
+      "genre": "词",
+      "file": "YangShen_LinJiangXian.html"
+    },
+    {
+      "slug": "GongZizhen_YiHaiZaShi",
+      "title": "己亥杂诗·九州生气恃风雷",
+      "author": "龚自珍",
+      "dynasty": "清",
+      "genre": "诗",
+      "file": "GongZizhen_YiHaiZaShi.html"
+    },
+    {
+      "slug": "GongZizhen_YiHaiZaShi_220",
+      "title": "己亥杂诗·浩荡离愁白日斜",
+      "author": "龚自珍",
+      "dynasty": "清",
+      "genre": "诗",
+      "file": "GongZizhen_YiHaiZaShi_220.html"
+    },
+    {
+      "slug": "NalanXingde_ChangXiangSi",
+      "title": "长相思·山一程",
+      "author": "纳兰性德",
+      "dynasty": "清",
+      "genre": "词",
+      "file": "NalanXingde_ChangXiangSi.html"
+    },
+    {
+      "slug": "NalanXingde_MuLanHuaLing",
+      "title": "木兰花令·拟古决绝词",
+      "author": "纳兰性德",
+      "dynasty": "清",
+      "genre": "词",
+      "file": "NalanXingde_MuLanHuaLing.html"
+    },
+    {
+      "slug": "YuanMei_CangShanShiHua",
+      "title": "随园诗话（节选）",
+      "author": "袁枚",
+      "dynasty": "清",
+      "genre": "诗话",
+      "file": "YuanMei_CangShanShiHua.html"
+    },
+    {
+      "slug": "ZhengXie_ZhuShi",
+      "title": "竹石",
+      "author": "郑燮",
+      "dynasty": "清",
+      "genre": "诗",
+      "file": "ZhengXie_ZhuShi.html"
+    },
+    {
+      "slug": "CaoXueqin_HongLouMeng",
+      "title": "红楼梦·葬花吟",
+      "author": "曹雪芹",
+      "dynasty": "清",
+      "genre": "诗",
+      "file": "CaoXueqin_HongLouMeng.html"
+    },
+    {
+      "slug": "WangGuowei_RenJianCiHua",
+      "title": "人间词话（节选）",
+      "author": "王国维",
+      "dynasty": "近代",
+      "genre": "词话",
+      "file": "WangGuowei_RenJianCiHua.html"
+    }
+  ],
+  "anth": [
+    {
+      "key": "qianjiashi",
+      "name": "千家诗",
+      "dynasty": "宋明",
+      "genre": "诗",
+      "count": 191
+    },
+    {
+      "key": "songci300",
+      "name": "宋词三百首",
+      "dynasty": "清",
+      "genre": "词",
+      "count": 233
+    },
+    {
+      "key": "jin300",
+      "name": "近三百年名家词选",
+      "dynasty": "民国",
+      "genre": "词",
+      "count": 420
+    },
+    {
+      "key": "jumiaohaoci",
+      "name": "绝妙好词",
+      "dynasty": "宋",
+      "genre": "词",
+      "count": 409
+    },
+    {
+      "key": "wanshou",
+      "name": "唐人万首绝句选",
+      "dynasty": "清",
+      "genre": "诗",
+      "count": 765
+    },
+    {
+      "key": "yuanshi",
+      "name": "元诗别裁集",
+      "dynasty": "清",
+      "genre": "诗",
+      "count": 543
+    },
+    {
+      "key": "mingshi",
+      "name": "明诗别裁集",
+      "dynasty": "清",
+      "genre": "诗",
+      "count": 955
+    },
+    {
+      "key": "qingshi",
+      "name": "清诗别裁集",
+      "dynasty": "清",
+      "genre": "诗",
+      "count": 3530
+    }
+  ],
+  "collections": [
+    {
+      "id": "cpo_tang",
+      "title": "全唐诗",
+      "dynasty": "唐",
+      "genre": "诗",
+      "count": 57603
+    },
+    {
+      "id": "cpo_songci",
+      "title": "全宋词",
+      "dynasty": "宋",
+      "genre": "词",
+      "count": 21050
+    },
+    {
+      "id": "cpo_songshi",
+      "title": "全宋诗",
+      "dynasty": "宋",
+      "genre": "诗",
+      "count": 254225
+    },
+    {
+      "id": "cpo_yuanqu",
+      "title": "全元散曲",
+      "dynasty": "元",
+      "genre": "曲",
+      "count": 10914
+    },
+    {
+      "id": "cpo_shijing",
+      "title": "诗经",
+      "dynasty": "先秦",
+      "genre": "诗",
+      "count": 305
+    },
+    {
+      "id": "cpo_chuci",
+      "title": "楚辞",
+      "dynasty": "先秦",
+      "genre": "辞",
+      "count": 65
+    },
+    {
+      "id": "cpo_huajianji",
+      "title": "花间集",
+      "dynasty": "五代",
+      "genre": "词",
+      "count": 499
+    },
+    {
+      "id": "cpo_nalan",
+      "title": "纳兰词",
+      "dynasty": "清",
+      "genre": "词",
+      "count": 258
+    },
+    {
+      "id": "cpo_nantang",
+      "title": "南唐二主词",
+      "dynasty": "五代",
+      "genre": "词",
+      "count": 45
+    },
+    {
+      "id": "cpo_shuimo",
+      "title": "水墨唐诗",
+      "dynasty": "唐",
+      "genre": "诗",
+      "count": 176
+    },
+    {
+      "id": "cpo_caocao",
+      "title": "曹操诗集",
+      "dynasty": "东汉",
+      "genre": "诗",
+      "count": 26
+    },
+    {
+      "id": "cpo_lunyu",
+      "title": "论语",
+      "dynasty": "春秋",
+      "genre": "文",
+      "count": 20
+    },
+    {
+      "id": "cpo_mengzi",
+      "title": "孟子",
+      "dynasty": "战国",
+      "genre": "文",
+      "count": 14
+    },
+    {
+      "id": "cpo_youmengying",
+      "title": "幽梦影",
+      "dynasty": "清",
+      "genre": "文",
+      "count": 219
+    }
+  ],
+  "stat": {
+    "deep": 82,
+    "anth": 7046,
+    "collections": 345419,
+    "grand": 352547
+  }
+}
