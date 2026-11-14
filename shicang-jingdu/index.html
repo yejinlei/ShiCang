@@ -10,72 +10,84 @@
 :root{--main:#8b2f2f;--ink:#2b2620;--ink2:#5a4f41;--ink3:#8a7554;--rule:#d8c7a6;--seal:#a8322f;--paper:#f6efe0;--paper2:#fbf7ec;--gold:#a8862f;}
 *{box-sizing:border-box}
 body{margin:0;background:var(--paper);color:var(--ink);font-family:"Noto Serif SC","Songti SC","STSong",serif;line-height:1.8;
-  background-image:radial-gradient(circle at 20% 10%, rgba(180,150,100,.06), transparent 40%),radial-gradient(circle at 80% 90%, rgba(140,110,70,.05), transparent 45%);}
-.hero{max-width:1100px;margin:0 auto;padding:40px 26px 22px;text-align:center;position:relative;}
-.hero .seal{position:absolute;right:16px;top:30px;width:62px;height:62px;border:2px solid var(--seal);color:var(--seal);border-radius:6px;display:flex;align-items:center;justify-content:center;font-family:'STKaiti',serif;font-size:22px;transform:rotate(-4deg);opacity:.8;letter-spacing:0;writing-mode:vertical-rl;padding-top:6px;}
-.hero h1{font-family:'STKaiti','KaiTi',serif;font-size:clamp(30px,5vw,44px);color:var(--main);letter-spacing:.3em;text-indent:.3em;font-weight:600;margin:8px 0 12px;}
-.hero .sub{font-size:14px;color:var(--ink3);letter-spacing:.2em;}
-.hero .stat-row{margin-top:18px;display:flex;justify-content:center;gap:22px;flex-wrap:wrap;font-size:13px;color:var(--ink2);}
-.hero .stat-row b{color:var(--main);font-weight:600;font-size:18px;font-family:'STKaiti',serif;margin:0 4px;}
-.hr{max-width:1100px;margin:8px auto 4px;height:0;border-top:1px solid var(--rule);border-bottom:3px double var(--rule);}
+  background-image:
+    radial-gradient(circle at 20% 10%, rgba(180,150,100,.06), transparent 40%),
+    radial-gradient(circle at 80% 90%, rgba(140,110,70,.05), transparent 45%);}
+
+.hero{max-width:1100px;margin:0 auto;padding:52px 26px 26px;text-align:center;position:relative;}
+.hero .seal{display:inline-block;margin-top:8px;width:68px;height:68px;border:2px solid var(--seal);color:var(--seal);border-radius:6px;display:inline-flex;align-items:center;justify-content:center;font-family:'STKaiti',serif;font-size:24px;letter-spacing:0;writing-mode:vertical-rl;padding-top:6px;transform:rotate(-4deg);opacity:.85;background:rgba(255,250,240,.5);box-shadow:inset 0 0 0 1px rgba(168,50,47,.15);}
+.hero h1{font-family:'STKaiti','KaiTi',serif;font-size:clamp(32px,5.2vw,48px);color:var(--main);letter-spacing:.32em;text-indent:.32em;font-weight:600;margin:18px 0 14px;}
+.hero .sub{font-size:14px;color:var(--ink3);letter-spacing:.22em;}
+.hero .stat-row{margin-top:22px;display:flex;justify-content:center;gap:28px;flex-wrap:wrap;font-size:13px;color:var(--ink2);}
+.hero .stat-row b{color:var(--main);font-weight:600;font-size:20px;font-family:'STKaiti',serif;margin:0 5px;}
+.hero .rule-deco{max-width:240px;margin:18px auto 0;height:0;border-top:1px solid var(--rule);border-bottom:3px double var(--rule);}
 
 /* 分区 */
-.section{max-width:1100px;margin:0 auto;padding:26px 26px 6px;}
-.sec-head{display:flex;align-items:baseline;gap:12px;margin-bottom:12px;padding-bottom:8px;border-bottom:1px dashed var(--rule);}
-.sec-head h2{font-family:'STKaiti',serif;font-size:22px;color:var(--main);letter-spacing:.18em;margin:0;font-weight:600;}
-.sec-head .sec-sub{font-size:12.5px;color:var(--ink3);letter-spacing:.1em;}
+.section{max-width:1100px;margin:0 auto;padding:32px 26px 6px;}
+.sec-head{display:flex;align-items:baseline;gap:14px;margin-bottom:16px;padding-bottom:10px;border-bottom:1px dashed var(--rule);flex-wrap:wrap;}
+.sec-head h2{font-family:'STKaiti',serif;font-size:24px;color:var(--main);letter-spacing:.2em;margin:0;font-weight:600;}
+.sec-head .sec-sub{font-size:12.5px;color:var(--ink3);letter-spacing:.12em;}
 .sec-head .sec-count{margin-left:auto;font-size:13px;color:var(--gold);letter-spacing:.08em;}
 .sec-tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px;}
-.sec-tab{border:1px solid var(--rule);background:rgba(255,255,255,.5);color:var(--ink2);padding:5px 16px;border-radius:18px;font-size:13px;cursor:pointer;font-family:inherit;letter-spacing:.08em;transition:.25s;user-select:none;}
+.sec-tab{border:1px solid var(--rule);background:rgba(255,255,255,.5);color:var(--ink2);padding:6px 18px;border-radius:18px;font-size:13px;cursor:pointer;font-family:inherit;letter-spacing:.08em;transition:.25s;user-select:none;}
 .sec-tab:hover{border-color:var(--main);color:var(--main);}
 .sec-tab.on{background:var(--main);border-color:var(--main);color:#f7f1e3;}
 
 /* 名作网格 */
-.grid-deep{display:grid;grid-template-columns:repeat(auto-fill,minmax(155px,1fr));gap:10px;}
-.deep-card{border:1px solid var(--rule);border-radius:8px;background:var(--paper2);padding:12px 10px 10px;text-align:center;cursor:pointer;text-decoration:none;color:var(--ink);transition:.22s;display:block;position:relative;}
-.deep-card::before{content:'';position:absolute;left:8px;top:8px;width:6px;height:6px;background:var(--seal);border-radius:50%;opacity:.45;}
-.deep-card:hover{border-color:var(--seal);transform:translateY(-2px);box-shadow:0 6px 18px -10px rgba(139,47,47,.35);color:var(--main);}
-.deep-card .t{font-family:'STKaiti',serif;font-size:16px;font-weight:600;letter-spacing:.08em;margin-bottom:4px;}
-.deep-card .a{font-size:12px;color:var(--ink3);letter-spacing:.06em;}
-.deep-card .g{position:absolute;right:8px;bottom:6px;font-size:10px;color:var(--gold);letter-spacing:.08em;}
+.grid-deep{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px;}
+.deep-card{border:1px solid var(--rule);border-radius:8px;background:var(--paper2);padding:14px 10px 12px;text-align:center;cursor:pointer;text-decoration:none;color:var(--ink);transition:.22s;display:block;position:relative;}
+.deep-card::before{content:'';position:absolute;left:10px;top:10px;width:6px;height:6px;background:var(--seal);border-radius:50%;opacity:.5;}
+.deep-card:hover{border-color:var(--seal);transform:translateY(-3px);box-shadow:0 8px 22px -12px rgba(139,47,47,.4);color:var(--main);}
+.deep-card .t{font-family:'STKaiti',serif;font-size:17px;font-weight:600;letter-spacing:.08em;margin-bottom:6px;}
+.deep-card .a{font-size:12.5px;color:var(--ink3);letter-spacing:.06em;}
+.deep-card .g{position:absolute;right:10px;bottom:8px;font-size:10.5px;color:var(--gold);letter-spacing:.08em;}
 
 /* 选本/全集 卡片 */
-.grid-anth{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:12px;}
-.anth-card{border:1px solid var(--rule);border-radius:10px;background:var(--paper2);padding:14px 16px 12px;cursor:pointer;transition:.25s;display:block;text-decoration:none;color:var(--ink);position:relative;overflow:hidden;}
-.anth-card:hover{border-color:var(--main);transform:translateY(-2px);box-shadow:0 8px 22px -12px rgba(139,47,47,.3);}
-.anth-card .anth-name{font-family:'STKaiti',serif;font-size:19px;color:var(--main);letter-spacing:.14em;font-weight:600;margin-bottom:4px;}
-.anth-card .anth-meta{font-size:12.5px;color:var(--ink3);letter-spacing:.08em;margin-bottom:8px;}
+.grid-anth{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px;}
+.anth-card{border:1px solid var(--rule);border-radius:10px;background:var(--paper2);padding:16px 18px 14px;cursor:pointer;transition:.25s;display:block;text-decoration:none;color:var(--ink);position:relative;overflow:hidden;}
+.anth-card:hover{border-color:var(--main);transform:translateY(-3px);box-shadow:0 10px 26px -14px rgba(139,47,47,.35);}
+.anth-card .anth-name{font-family:'STKaiti',serif;font-size:20px;color:var(--main);letter-spacing:.16em;font-weight:600;margin-bottom:6px;}
+.anth-card .anth-meta{font-size:12.5px;color:var(--ink3);letter-spacing:.08em;margin-bottom:10px;}
 .anth-card .anth-num{font-size:13px;color:var(--ink2);}
-.anth-card .anth-num b{color:var(--seal);font-family:'STKaiti',serif;font-size:16px;margin:0 3px;}
-.anth-card::after{content:'';position:absolute;right:-18px;bottom:-18px;width:70px;height:70px;background:radial-gradient(circle at center, rgba(168,134,47,.12), transparent 70%);border-radius:50%;}
+.anth-card .anth-num b{color:var(--seal);font-family:'STKaiti',serif;font-size:17px;margin:0 4px;}
+.anth-card::after{content:'';position:absolute;right:-20px;bottom:-20px;width:80px;height:80px;background:radial-gradient(circle at center, rgba(168,134,47,.13), transparent 70%);border-radius:50%;pointer-events:none;}
 
 /* 列表视图（全集内部） */
-.bread{font-size:13px;color:var(--ink3);margin:0 0 12px;letter-spacing:.08em;}
+.bread{font-size:13px;color:var(--ink3);margin:0 0 14px;letter-spacing:.08em;}
 .bread a{color:var(--main);text-decoration:none;cursor:pointer;border-bottom:1px dashed var(--main);}
-.tools{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:0 0 12px;}
-.tools input{flex:1;min-width:220px;padding:9px 14px;border:1px solid var(--rule);border-radius:22px;background:var(--paper2);font-family:inherit;font-size:14px;color:var(--ink);outline:none;}
+.tools{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:0 0 14px;}
+.tools input{flex:1;min-width:220px;padding:10px 16px;border:1px solid var(--rule);border-radius:22px;background:var(--paper2);font-family:inherit;font-size:14px;color:var(--ink);outline:none;}
 .tools input:focus{border-color:var(--seal);}
-.list{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:8px;}
-.card{border:1px solid var(--rule);border-radius:7px;background:var(--paper2);padding:9px 13px;cursor:pointer;transition:.18s;}
-.card:hover{border-color:var(--seal);box-shadow:0 3px 10px -6px rgba(139,47,47,.25);background:#fffaf0;}
-.card .ct{font-size:15px;font-weight:600;color:var(--ink);margin-bottom:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.list{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:10px;}
+.card{border:1px solid var(--rule);border-radius:8px;background:var(--paper2);padding:10px 14px;cursor:pointer;transition:.18s;}
+.card:hover{border-color:var(--seal);box-shadow:0 4px 12px -6px rgba(139,47,47,.28);background:#fffaf0;}
+.card .ct{font-size:15px;font-weight:600;color:var(--ink);margin-bottom:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
 .card .cl{font-size:12.5px;color:var(--ink3);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
-.card .cg{font-size:11px;color:var(--gold);margin-top:2px;letter-spacing:.08em;}
-.pager{display:flex;gap:8px;align-items:center;justify-content:center;margin:20px 0;font-size:13px;color:var(--ink2);flex-wrap:wrap;}
-.pager button{border:1px solid var(--rule);background:var(--paper2);border-radius:18px;padding:5px 14px;font-family:inherit;cursor:pointer;color:var(--ink2);transition:.2s;}
+.card .cg{font-size:11px;color:var(--gold);margin-top:3px;letter-spacing:.08em;}
+.pager{display:flex;gap:10px;align-items:center;justify-content:center;margin:24px 0;font-size:13px;color:var(--ink2);flex-wrap:wrap;}
+.pager button{border:1px solid var(--rule);background:var(--paper2);border-radius:18px;padding:6px 16px;font-family:inherit;cursor:pointer;color:var(--ink2);transition:.2s;}
 .pager button:hover{border-color:var(--main);color:var(--main);}
 .pager button:disabled{opacity:.4;cursor:not-allowed;}
 .pager .cur{color:var(--main);font-weight:600;}
 
-.back-btn{display:inline-block;border:1px solid var(--main);color:var(--main);padding:4px 14px;border-radius:18px;text-decoration:none;font-size:13px;cursor:pointer;transition:.25s;letter-spacing:.08em;}
+.back-btn{display:inline-block;border:1px solid var(--main);color:var(--main);padding:6px 16px;border-radius:18px;text-decoration:none;font-size:13px;cursor:pointer;transition:.25s;letter-spacing:.08em;background:transparent;}
 .back-btn:hover{background:var(--main);color:#fff;}
 
-footer{max-width:1100px;margin:40px auto 0;padding:20px 26px 40px;text-align:center;color:var(--ink3);font-size:12.5px;letter-spacing:.18em;border-top:1px solid var(--rule);}
-.loading{text-align:center;color:var(--ink3);letter-spacing:.3em;padding:50px 0;font-family:'STKaiti',serif;font-size:16px;}
+footer{max-width:1100px;margin:50px auto 0;padding:26px 26px 44px;text-align:center;color:var(--ink3);font-size:12.5px;letter-spacing:.2em;border-top:1px solid var(--rule);}
+.loading{text-align:center;color:var(--ink3);letter-spacing:.3em;padding:40px 0;font-family:'STKaiti',serif;font-size:16px;}
+.loading::before{content:'❋';color:var(--gold);margin-right:8px;opacity:.6;}
 
 /* 选本名篇筛选条 */
-.anth-filter{display:none;}
-.anth-filter.show{display:block;}
+.coll-view{display:none;}
+.coll-view.show{display:block;}
+
+@media (max-width:640px){
+  .hero{padding:30px 18px 18px;}
+  .hero .seal{width:54px;height:54px;font-size:19px;}
+  .section{padding:24px 16px 4px;}
+  .grid-deep{grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:8px;}
+  .grid-anth{grid-template-columns:1fr;gap:10px;}
+}
 </style>
 </head>
 <body>
@@ -117,32 +129,20 @@ footer{max-width:1100px;margin:40px auto 0;padding:20px 26px 40px;text-align:cen
       <a href="/ShiCang/shicang-yunshu/" class="shicang-nav-link">📖 韵书查询</a>
       <a href="/ShiCang/shicang-xinghe/" class="shicang-nav-link">✨ 诗河星海</a>
     </div>
-      <a href="/ShiCang/shicang-jingdu/" class="shicang-nav-link active">📖 名篇精读</a>
-      <div style="height:1px;background:rgba(30,26,21,.1);margin:6px 0;"></div>
-      <a href="/ShiCang/shicang-poet-journey/" class="shicang-nav-link">🧭 诗人轨迹</a>
-      <a href="/ShiCang/shicang-cipai/" class="shicang-nav-link">🎶 词牌格律</a>
-      <a href="/ShiCang/shicang-imagery/" class="shicang-nav-link">🌿 意象图谱</a>
-      <a href="/ShiCang/shicang-meipi/" class="shicang-nav-link">🖋️ 诗话眉批</a>
-      <a href="/ShiCang/shicang-duilian/" class="shicang-nav-link">🀄 对联斗巧</a>
-      <a href="/ShiCang/shicang-duilian-corpus/" class="shicang-nav-link">🧧 楹联集对</a>
-      <a href="/ShiCang/shicang-map/" class="shicang-nav-link">🗺️ 诗词地图</a>
-      <a href="/ShiCang/shicang-yunshu/" class="shicang-nav-link">📖 韵书查询</a>
-      <a href="/ShiCang/shicang-xinghe/" class="shicang-nav-link">✨ 诗河星海</a>
-    </div>
   </div>
 </nav>
 
 <div class="hero">
-  <div class="seal">精讀</div>
+  <span class="seal">精讀</span>
   <h1>名篇精读</h1>
   <div class="sub">逐字注音 · 平仄韵脚 · 中英对译 · 竖排大字</div>
-  <div class="stat-row" id="statRow">
-    <span>深度名作<b id="sDeep">82</b>篇</span>
-    <span>历代选本<b id="sAnth">7046</b>篇</span>
-    <span>全本总集<b id="sColl">34万</b>首</span>
+  <div class="stat-row">
+    <span>深度名作<b id="sDeep">—</b>篇</span>
+    <span>历代选本<b id="sAnth">—</b>篇</span>
+    <span>全本总集<b id="sColl">—</b>首</span>
   </div>
+  <div class="rule-deco"></div>
 </div>
-<div class="hr"></div>
 
 <!-- 一、深度名作 -->
 <div class="section" id="sec-deep">
@@ -164,7 +164,7 @@ footer{max-width:1100px;margin:40px auto 0;padding:20px 26px 40px;text-align:cen
   <div class="grid-anth" id="anthGrid"><div class="loading">展 卷 中…</div></div>
 </div>
 
-<!-- 三、全集浏览（诗/词/曲/辞/文） -->
+<!-- 三、全集浏览 -->
 <div class="section" id="sec-coll">
   <div class="sec-head">
     <h2>全集浏览</h2>
@@ -175,11 +175,11 @@ footer{max-width:1100px;margin:40px auto 0;padding:20px 26px 40px;text-align:cen
 </div>
 
 <!-- 全集浏览容器（动态显示） -->
-<div class="section anth-filter" id="collView" style="display:none;">
+<div class="section coll-view" id="collView">
   <div class="bread" id="collBread"></div>
   <div class="tools">
     <input id="collSearch" placeholder="在本集中搜索标题、作者…">
-    <span class="back-btn" onclick="closeColl()">← 返回目录</span>
+    <button class="back-btn" onclick="closeColl()">← 返回目录</button>
   </div>
   <div class="sec-tabs" id="volTabs"></div>
   <div class="list" id="collList"><div class="loading">展 卷 中…</div></div>
@@ -191,219 +191,201 @@ footer{max-width:1100px;margin:40px auto 0;padding:20px 26px 40px;text-align:cen
   八百精选 · 万首名篇 · 三十万卷原文
 </footer>
 
-<!-- loader.js 兼容占位（不显示） -->
-<div id="bookList" style="display:none"></div>
-<div id="poemList" style="display:none"></div>
-<div id="poemView" style="display:none"></div>
-<div id="stats" style="display:none"></div>
-<div id="loading" style="display:none"></div>
-<input id="searchInput" type="hidden">
-<button id="searchBtn" style="display:none"></button>
-<div id="backBtn" style="display:none"></div>
-<div id="bookTitle" style="display:none"></div>
-<div id="bookMeta" style="display:none"></div>
-
 <script src="../romantic.js"></script>
-<script src="chartab.js"></script>
-<script src="loader.js"></script>
 <script>
-const $ = id => document.getElementById(id);
-let CATALOG = null;
-const FMT = n => n >= 10000 ? (n/10000).toFixed(n>=100000?0:1).replace(/\.0$/,'')+'万' : n.toLocaleString();
+(function(){
+  const $ = id => document.getElementById(id);
+  const FMT = n => {
+    if(n==null) return '—';
+    if(n>=10000) return (n/10000).toFixed(n>=100000?0:1).replace(/\.0$/,'')+'万';
+    return n.toLocaleString();
+  };
 
-function renderDeep(list){
-  $('cDeep').textContent = '共 '+list.length+' 篇';
-  $('sDeep').textContent = list.length;
-  const g = $('deepGrid');
-  g.innerHTML = list.map(d => {
-    const genreTag = d.genre || '诗';
-    return '<a class="deep-card" href="../shicang-poem/'+d.file+'"><div class="t">'+d.title+'</div><div class="a">'+(d.dynasty||'')+'·'+(d.author||'')+'</div><div class="g">'+genreTag+'</div></a>';
-  }).join('');
-}
-
-function renderAnth(list){
-  const total = list.reduce((s,x)=>s+x.count,0);
-  $('cAnth').textContent = '共 '+total.toLocaleString()+' 篇';
-  $('sAnth').textContent = total.toLocaleString();
-  const g = $('anthGrid');
-  g.innerHTML = list.map(a => {
-    return '<a class="anth-card" href="view.html?anth='+a.key+'"><div class="anth-name">'+a.name+'</div><div class="anth-meta">'+(a.dynasty||'')+'编选 · '+a.genre+'</div><div class="anth-num"><b>'+a.count.toLocaleString()+'</b>篇</div></a>';
-  }).join('');
-}
-
-function renderColl(list){
-  const total = list.reduce((s,x)=>s+x.count,0);
-  $('cColl').textContent = '共 '+FMT(total)+' 首';
-  $('sColl').textContent = FMT(total);
-  // 排序: 四大总集在前
-  const ORDER = ['cpo_tang','cpo_songci','cpo_songshi','cpo_yuanqu','cpo_shijing','cpo_chuci','cpo_huajianji','cpo_nalan','cpo_nantang','cpo_shuimo','cpo_caocao','cpo_youmengying','cpo_lunyu','cpo_mengzi'];
-  list.sort((a,b) => ORDER.indexOf(a.id) - ORDER.indexOf(b.id));
-  const g = $('collGrid');
-  g.innerHTML = list.map(c => {
-    return '<div class="anth-card" onclick="openColl(\''+c.id+'\')"><div class="anth-name">'+c.title+'</div><div class="anth-meta">'+(c.dynasty||'')+' · '+c.genre+'</div><div class="anth-num"><b>'+FMT(c.count)+'</b>首</div></div>';
-  }).join('');
-}
-
-// ---- 全集浏览 ----
-let CUR_COLL = null;
-let CUR_VOL = 0;
-let CUR_PAGE = 0;
-const PAGE_SIZE = 100;
-let CUR_WORKS = [];
-let FILTERED = [];
-let VOL_META = []; // 从 index.json 读的 volumes 列表
-
-function closeColl(){
-  $('collView').style.display='none';
-  $('sec-deep').style.display='';
-  $('sec-anth').style.display='';
-  $('sec-coll').style.display='';
-  window.scrollTo({top:$('#sec-coll').offsetTop-60,behavior:'smooth'});
-}
-
-async function openColl(id){
-  const meta = CATALOG.collections.find(c=>c.id===id);
-  if(!meta) return;
-  CUR_COLL = meta;
-  CUR_VOL = 0; CUR_PAGE = 0;
-  $('sec-deep').style.display='none';
-  $('sec-anth').style.display='none';
-  $('sec-coll').style.display='none';
-  $('collView').style.display='block';
-  $('collBread').innerHTML = '<a onclick="closeColl()">← 名篇精读</a>　/　<b style="color:var(--main);font-family:STKaiti,serif;letter-spacing:.15em;font-size:15px;">'+meta.title+'</b>　<span style="color:var(--ink3);">'+meta.dynasty+' · '+meta.genre+' · '+FMT(meta.count)+'首</span>';
-  $('collSearch').value='';
-  $('collList').innerHTML = '<div class="loading">加载卷目…</div>';
-
-  // 读取 index.json 获取 volumes
-  let idx;
-  try{
-    idx = await fetch('../shicang_data/jingdu_lib/'+id+'_index.json').then(r=>r.json());
-  }catch(e){
-    $('collList').innerHTML = '<div class="loading">卷目加载失败</div>'; return;
+  function renderDeep(list){
+    if(!list || !list.length){ $('deepGrid').innerHTML='<div class="loading">无数据</div>'; return; }
+    $('cDeep').textContent = '共 '+list.length.toLocaleString()+' 篇';
+    $('sDeep').textContent = list.length.toLocaleString();
+    $('deepGrid').innerHTML = list.map(d=>{
+      const genreTag = d.genre || '诗';
+      const href = d.file ? ('../shicang-poem/'+d.file) : 'view.html?deep='+encodeURIComponent(d.id||d.title);
+      return '<a class="deep-card" href="'+href+'"><div class="t">'+escapeHtml(d.title||'')+'</div><div class="a">'+escapeHtml((d.dynasty||'')+'·'+(d.author||''))+'</div><div class="g">'+escapeHtml(genreTag)+'</div></a>';
+    }).join('');
   }
-  // 统一取 volumes 列表
-  let vols = [];
-  if (idx.volumes && Array.isArray(idx.volumes)){
-    let off=0;
-    vols = idx.volumes.map(v => {
-      if(typeof v==='string'){
-        const o = {file:'../shicang_data/jingdu_lib/'+v, count:1000, start:off, label:''}; off += 1000; return o;
-      }
-      const cnt = v.count||1000;
-      const o = {file:'../shicang_data/jingdu_lib/'+(v.file||v.path||''), count:cnt, start:off, label:v.label||''};
-      off += cnt; return o;
+
+  function renderAnth(list){
+    if(!list || !list.length){ $('anthGrid').innerHTML='<div class="loading">无数据</div>'; return; }
+    const total = list.reduce((s,x)=>s+(x.count||0),0);
+    $('cAnth').textContent = '共 '+total.toLocaleString()+' 篇';
+    $('sAnth').textContent = total.toLocaleString();
+    $('anthGrid').innerHTML = list.map(a=>{
+      return '<a class="anth-card" href="view.html?s='+encodeURIComponent(a.key)+'&i=0"><div class="anth-name">'+escapeHtml(a.name||'')+'</div><div class="anth-meta">'+escapeHtml((a.dynasty||'')+'编选 · '+(a.genre||''))+'</div><div class="anth-num"><b>'+(a.count||0).toLocaleString()+'</b>篇</div></a>';
+    }).join('');
+  }
+
+  function renderColl(list){
+    if(!list || !list.length){ $('collGrid').innerHTML='<div class="loading">无数据</div>'; return; }
+    const total = list.reduce((s,x)=>s+(x.count||0),0);
+    $('cColl').textContent = '共 '+FMT(total)+' 首';
+    $('sColl').textContent = FMT(total);
+    const ORDER = ['cpo_tang','cpo_songci','cpo_songshi','cpo_yuanqu','cpo_shijing','cpo_chuci','cpo_huajianji','cpo_nalan','cpo_nantang','cpo_shuimo','cpo_caocao','cpo_youmengying','cpo_lunyu','cpo_mengzi'];
+    list = list.slice().sort((a,b)=>{
+      const ia = ORDER.indexOf(a.id), ib = ORDER.indexOf(b.id);
+      return (ia===-1?999:ia)-(ib===-1?999:ib);
     });
-  } else if (idx.category && Array.isArray(idx.category)){
-    let off=0;
-    for(const c of idx.category){
-      if(c.file){ vols.push({file:'../shicang_data/jingdu_lib/'+c.file, count:c.count||1000, start:off, label:c.title||c.name||''}); off += c.count||1000; }
-      else if(c.chapters){
-        for(const ch of c.chapters||[]){
-          if(ch.file){ vols.push({file:'../shicang_data/jingdu_lib/'+ch.file, count:ch.count||1000, start:off, label:ch.title||''}); off += ch.count||1000; }
+    $('collGrid').innerHTML = list.map(c=>{
+      return '<div class="anth-card" onclick="openColl(\''+c.id+'\')"><div class="anth-name">'+escapeHtml(c.title||c.id)+'</div><div class="anth-meta">'+escapeHtml((c.dynasty||'')+' · '+(c.genre||''))+'</div><div class="anth-num"><b>'+FMT(c.count)+'</b>首</div></div>';
+    }).join('');
+    window._CATALOG_COLLS = list;
+  }
+
+  function escapeHtml(s){
+    return String(s==null?'':s).replace(/[&<>"']/g, m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+  }
+
+  // ---- 全集浏览 ----
+  let CUR_COLL = null, CUR_VOL=0, CUR_PAGE=0, CUR_WORKS=[], FILTERED=[], VOL_META=[];
+  const PAGE_SIZE = 100;
+
+  window.closeColl = function(){
+    $('collView').classList.remove('show');
+    ['sec-deep','sec-anth','sec-coll'].forEach(id=>$(id).style.display='');
+    window.scrollTo({top:$('sec-coll').offsetTop-60,behavior:'smooth'});
+  };
+
+  window.openColl = async function(id){
+    const meta = (window._CATALOG_COLLS||[]).find(c=>c.id===id);
+    if(!meta) return;
+    CUR_COLL = meta; CUR_VOL=0; CUR_PAGE=0;
+    ['sec-deep','sec-anth','sec-coll'].forEach(xid=>$(xid).style.display='none');
+    $('collView').classList.add('show');
+    $('collBread').innerHTML = '<a onclick="closeColl()">← 名篇精读</a>　/　<b style="color:var(--main);font-family:STKaiti,serif;letter-spacing:.15em;font-size:15px;">'+escapeHtml(meta.title)+'</b>　<span style="color:var(--ink3);">'+escapeHtml((meta.dynasty||'')+' · '+(meta.genre||'')+' · '+FMT(meta.count)+'首')+'</span>';
+    $('collSearch').value='';
+    $('collList').innerHTML='<div class="loading">加载卷目…</div>';
+
+    let idx;
+    try{
+      idx = await fetch('../shicang_data/jingdu_lib/'+id+'_index.json',{cache:'no-cache'}).then(r=>{
+        if(!r.ok) throw new Error('http '+r.status);
+        return r.json();
+      });
+    }catch(e){
+      $('collList').innerHTML = '<div class="loading" style="color:#a8322f;">卷目加载失败：'+escapeHtml(e.message)+'</div>';
+      return;
+    }
+
+    let vols=[];
+    if(Array.isArray(idx.volumes)){
+      let off=0;
+      idx.volumes.forEach(v=>{
+        if(typeof v==='string'){
+          vols.push({file:'../shicang_data/jingdu_lib/'+v,count:1000,start:off,label:''}); off+=1000;
+        }else{
+          const cnt=v.count||1000;
+          vols.push({file:'../shicang_data/jingdu_lib/'+(v.file||v.path||''),count:cnt,start:off,label:v.label||v.title||''});
+          off+=cnt;
+        }
+      });
+    }else if(Array.isArray(idx.category)){
+      let off=0;
+      for(const c of idx.category){
+        if(c.file){ vols.push({file:'../shicang_data/jingdu_lib/'+c.file,count:c.count||1000,start:off,label:c.title||c.name||''}); off+=c.count||1000; }
+        if(c.chapters) for(const ch of c.chapters){
+          if(ch.file){ vols.push({file:'../shicang_data/jingdu_lib/'+ch.file,count:ch.count||1000,start:off,label:ch.title||''}); off+=ch.count||1000; }
         }
       }
     }
-  }
-  // 兜底：单文件
-  if(vols.length===0){
-    const guesses = ['../shicang_data/jingdu_lib/'+id+'.json',
-                     '../shicang_data/jingdu_lib/'+id+'/'+id+'.json'];
-    vols = [{file:guesses[0], count:meta.count}];
-  }
-  VOL_META = vols;
-
-  // 卷标签
-  const tabs = $('volTabs');
-  tabs.innerHTML = '';
-  if(vols.length>1){
-    vols.forEach((v,i)=>{
-      const b = document.createElement('button');
-      b.className = 'sec-tab'+(i===0?' on':'');
-      b.textContent = v.label || ('卷'+(i+1));
-      b.onclick = ()=>{CUR_VOL=i;CUR_PAGE=0;document.querySelectorAll('#volTabs .sec-tab').forEach(x=>x.classList.remove('on'));b.classList.add('on');loadVol();};
-      tabs.appendChild(b);
-    });
-  } else {
-    tabs.innerHTML = '<span style="color:var(--ink3);font-size:13px;letter-spacing:.1em;">全集</span>';
-  }
-  loadVol();
-}
-
-async function loadVol(){
-  const list = $('collList');
-  list.innerHTML = '<div class="loading">加载中…</div>';
-  const v = VOL_META[CUR_VOL] || VOL_META[0];
-  if(!v){ list.innerHTML='<div class="loading">无数据</div>'; return; }
-  try{
-    const data = await fetch(v.file).then(r=>{
-      if(!r.ok) throw new Error('http '+r.status);
-      return r.json();
-    });
-    CUR_WORKS = Array.isArray(data) ? data : (data.works||data.poems||data.content||[]);
-  }catch(e){
-    list.innerHTML = '<div class="loading">加载失败：'+v.file+'</div>'; return;
-  }
-  applyFilter();
-}
-
-function applyFilter(){
-  const q = $('collSearch').value.trim();
-  FILTERED = q ? CUR_WORKS.filter(w => {
-    const t = (w.t||w.title||'')+(w.a||w.author||'');
-    return t.indexOf(q)>=0;
-  }) : CUR_WORKS;
-  CUR_PAGE = 0;
-  renderPage();
-}
-
-function renderPage(){
-  const total = FILTERED.length;
-  const pages = Math.max(1, Math.ceil(total/PAGE_SIZE));
-  if(CUR_PAGE>=pages) CUR_PAGE = pages-1;
-  const start = CUR_PAGE*PAGE_SIZE;
-  const slice = FILTERED.slice(start, start+PAGE_SIZE);
-  const list = $('collList');
-  list.innerHTML = slice.map((w,i)=>{
-    const t = w.t || w.title || '(无标题)';
-    const a = w.a || w.author || '';
-    // 取首行/首句预览
-    let l = '';
-    if(w.l){
-      if(Array.isArray(w.l)) l = (w.l[0]||'').slice(0,20);
-      else l = String(w.l).slice(0,20);
+    if(vols.length===0){
+      vols=[{file:'../shicang_data/jingdu_lib/'+id+'.json',count:meta.count||0,label:'全集'}];
     }
-    // 构造 view 链接
-    const idx = CUR_WORKS.indexOf(w);
-    return '<div class="card" onclick="openWork(\''+CUR_COLL.id+'\','+idx+')"><div class="ct">'+t+(a?'　<span style="color:var(--ink3);font-size:13px;font-weight:normal;">'+a+'</span>':'')+'</div><div class="cl">'+l+'</div><div class="cg">'+CUR_COLL.dynasty+' · '+CUR_COLL.genre+'</div></div>';
-  }).join('');
-  // pager
-  const pg = $('collPager');
-  if(pages<=1){ pg.innerHTML=''; return; }
-  let html = '<button onclick="goPage('+(CUR_PAGE-1)+')"'+(CUR_PAGE===0?' disabled':'')+'>← 上一页</button>';
-  html += '<span>第 <span class="cur">'+(CUR_PAGE+1)+'</span> / '+pages+' 页 · 共 '+total.toLocaleString()+' 首</span>';
-  html += '<button onclick="goPage('+(CUR_PAGE+1)+')"'+(CUR_PAGE===pages-1?' disabled':'')+'>下一页 →</button>';
-  pg.innerHTML = html;
-}
-function goPage(p){ CUR_PAGE=p; renderPage(); window.scrollTo({top:$('collBread').offsetTop-70,behavior:'smooth'}); }
+    VOL_META = vols;
 
-function openWork(collId, idx){
-  // 跳转到统一 view 页，用 src=collId&i=idx 参数
-  location.href = 'view.html?src='+collId+'&i='+idx;
-}
+    const tabs=$('volTabs'); tabs.innerHTML='';
+    if(vols.length>1){
+      vols.forEach((v,i)=>{
+        const b=document.createElement('button');
+        b.className='sec-tab'+(i===0?' on':'');
+        b.textContent = v.label || ('卷'+(i+1));
+        b.onclick=()=>{CUR_VOL=i;CUR_PAGE=0;document.querySelectorAll('#volTabs .sec-tab').forEach(x=>x.classList.remove('on'));b.classList.add('on');loadVol();};
+        tabs.appendChild(b);
+      });
+    }else{
+      tabs.innerHTML='<span style="color:var(--ink3);font-size:13px;letter-spacing:.1em;">全集</span>';
+    }
+    loadVol();
+  };
 
-$('collSearch').addEventListener('input', ()=>{ clearTimeout(window._st); window._st=setTimeout(applyFilter,200); });
+  async function loadVol(){
+    const list=$('collList'); list.innerHTML='<div class="loading">加载中…</div>';
+    const v = VOL_META[CUR_VOL]||VOL_META[0];
+    if(!v){ list.innerHTML='<div class="loading">无数据</div>'; return; }
+    try{
+      const data = await fetch(v.file,{cache:'no-cache'}).then(r=>{
+        if(!r.ok) throw new Error('http '+r.status);
+        return r.json();
+      });
+      CUR_WORKS = Array.isArray(data) ? data : (data.works||data.poems||data.content||[]);
+    }catch(e){
+      list.innerHTML='<div class="loading" style="color:#a8322f;">加载失败：'+escapeHtml(v.file)+' '+escapeHtml(e.message)+'</div>';
+      return;
+    }
+    applyFilter();
+  }
 
-// ---- 初始化 ----
-fetch('../shicang_data/jingdu/catalog.json').then(r=>r.json()).then(c=>{
-  CATALOG = c;
-  renderDeep(c.deep);
-  renderAnth(c.anth);
-  renderColl(c.collections);
-}).catch(e=>{
-  console.error(e);
-});
+  function applyFilter(){
+    const q = $('collSearch').value.trim();
+    FILTERED = q ? CUR_WORKS.filter(w=>{
+      const t=(w.t||w.title||'')+' '+(w.a||w.author||'');
+      return t.indexOf(q)>=0;
+    }) : CUR_WORKS;
+    CUR_PAGE=0; renderPage();
+  }
 
-// 默认状态下首页锚点处理
+  function renderPage(){
+    const total=FILTERED.length;
+    const pages=Math.max(1,Math.ceil(total/PAGE_SIZE));
+    if(CUR_PAGE>=pages) CUR_PAGE=pages-1;
+    const start=CUR_PAGE*PAGE_SIZE;
+    const slice=FILTERED.slice(start,start+PAGE_SIZE);
+    const list=$('collList');
+    list.innerHTML=slice.map(w=>{
+      const t=w.t||w.title||'(无标题)';
+      const a=w.a||w.author||'';
+      let l='';
+      if(w.l){
+        if(Array.isArray(w.l)) l=(w.l[0]||'').slice(0,24);
+        else l=String(w.l).slice(0,24);
+      }
+      const idx = CUR_WORKS.indexOf(w);
+      return '<div class="card" onclick="openWork(\''+CUR_COLL.id+'\','+idx+')"><div class="ct">'+escapeHtml(t)+(a?'　<span style="color:var(--ink3);font-size:13px;font-weight:normal;">'+escapeHtml(a)+'</span>':'')+'</div>'+(l?'<div class="cl">'+escapeHtml(l)+'</div>':'')+'<div class="cg">'+escapeHtml((CUR_COLL.dynasty||'')+' · '+(CUR_COLL.genre||''))+'</div></div>';
+    }).join('') || '<div class="loading">未找到匹配篇目</div>';
+    const pg=$('collPager');
+    if(pages<=1){pg.innerHTML='';return;}
+    let html='<button onclick="goPage('+(CUR_PAGE-1)+')"'+(CUR_PAGE===0?' disabled':'')+'>← 上一页</button>';
+    html+='<span>第 <span class="cur">'+(CUR_PAGE+1)+'</span> / '+pages+' 页 · 共 '+total.toLocaleString()+' 首</span>';
+    html+='<button onclick="goPage('+(CUR_PAGE+1)+')"'+(CUR_PAGE===pages-1?' disabled':'')+'>下一页 →</button>';
+    pg.innerHTML=html;
+  }
+  window.goPage = function(p){ CUR_PAGE=p; renderPage(); window.scrollTo({top:$('collBread').offsetTop-70,behavior:'smooth'}); };
+  window.openWork = function(collId,idx){ location.href='view.html?src='+encodeURIComponent(collId)+'&i='+idx; };
+
+  $('collSearch').addEventListener('input',()=>{clearTimeout(window._st);window._st=setTimeout(applyFilter,220);});
+
+  // 初始化
+  fetch('../shicang_data/jingdu/catalog.json',{cache:'no-cache'}).then(r=>{
+    if(!r.ok) throw new Error('http '+r.status);
+    return r.json();
+  }).then(c=>{
+    window._CATALOG = c;
+    renderDeep(c.deep);
+    renderAnth(c.anth);
+    renderColl(c.collections);
+  }).catch(e=>{
+    console.error('catalog load failed',e);
+    ['deepGrid','anthGrid','collGrid'].forEach(id=>{
+      $(id).innerHTML = '<div class="loading" style="color:#a8322f;">目录加载失败：'+escapeHtml(e.message)+'</div>';
+    });
+  });
+})();
 </script>
 </body>
 </html>

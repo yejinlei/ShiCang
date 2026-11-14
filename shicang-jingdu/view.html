@@ -225,11 +225,15 @@ footer{max-width:880px;margin:0 auto;padding:26px;text-align:center;color:#a08a6
 <script>
 const $ = id => document.getElementById(id);
 const params = new URLSearchParams(location.search);
-const slug = params.get('s') || '';
+// 兼容三种入参：?anth=<key> 老链接 / ?s=<key>[_slug]&i=N 选本 / ?src=<id>&i=N 全集
+let anthParam = params.get('anth') || '';
+let sParam = params.get('s') || '';
 const srcParam = params.get('src') || '';
 const iParam = parseInt(params.get('i') || '0', 10);
-const aslug = slug.split('_')[0];
-let CHAR = {}, POEMS = [], CUR = null, MODE = 'anth'; // anth | coll
+// 当 s 不含下划线，说明是整个选本入口（首篇）；此时不预先拼 slug，直接从分片里取 i 首
+let slug = (sParam && sParam.indexOf('_')>=0) ? sParam : '';
+let aslug = (anthParam || (sParam && sParam.split('_')[0]) || '');
+let CHAR = {}, POEMS = [], CUR = null, MODE = anthParam||sParam ? 'anth' : 'coll';
 
 const ANTH_SLUG = {qianjiashi:'千家诗',songci300:'宋词三百首',jumiaohaoci:'绝妙好词',
   jin300:'近三百年名家词选',wanshou:'唐人万首绝句选',yuanshi:'元诗别裁集',
@@ -433,35 +437,37 @@ async function loadColl(){
 
 function loadAnth(){
   MODE='anth';
+  if(!aslug){
+    $('poem').innerHTML = '<div class="loading">未指定选本</div>'; return;
+  }
   Promise.all([
     fetch('../shicang_data/char_info.json').then(r => r.json()).catch(() => ({})),
-    fetch('../shicang_data/mingpian/data_' + aslug + '.json').then(r => r.json())
+    fetch('../shicang_data/mingpian/data_' + aslug + '.json').then(r => {
+      if(!r.ok) throw new Error('http '+r.status);
+      return r.json();
+    })
   ]).then(([chars, poems]) => {
     CHAR = chars; POEMS = poems;
-    const idx = poems.findIndex(x => x.slug === slug);
-    if (idx < 0){ $('poem').innerHTML = '<div class="loading">未 得 此 篇</div>'; return; }
+    // 两种定位：有 slug 按 slug 找，没有则按 iParam
+    let idx = -1;
+    if(slug) idx = poems.findIndex(x => x.slug === slug);
+    if(idx < 0) idx = Math.max(0, Math.min(iParam, poems.length-1));
+    if(idx < 0 || !poems[idx]){ $('poem').innerHTML = '<div class="loading">未 得 此 篇</div>'; return; }
     CUR = poems[idx];
     renderMeta(CUR);
     renderPoem(CUR);
     renderPN(idx);
   }).catch(e=>{
-    $('poem').innerHTML = '<div class="loading">加 载 失 败</div>';
+    $('poem').innerHTML = '<div class="loading">加 载 失 败：'+(e.message||'')+'</div>';
   });
 }
 
-// 等待 loader.js 加载完 POEM_BOOKS
-function waitLoader(){
-  if(srcParam){
-    if(window.POEM_BOOKS || document.readyState==='complete'){
-      loadColl();
-    } else {
-      setTimeout(waitLoader, 50);
-    }
-  } else {
-    loadAnth();
-  }
+// 启动
+if(MODE==='anth'){
+  loadAnth();
+} else {
+  loadColl();
 }
-waitLoader();
 </script>
 </body>
 </html>
