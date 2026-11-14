@@ -1,0 +1,12 @@
+{
+  "bookId": "book_cpo_chuci",
+  "title": "楚辞",
+  "author": "屈原等",
+  "dynasty": "先秦",
+  "category": "辞赋",
+  "volumes": [
+    "cpo_chuci/cpo_chuci.json"
+  ],
+  "totalPoems": 65,
+  "description": "chinese-poetry开源数据集·楚辞"
+}

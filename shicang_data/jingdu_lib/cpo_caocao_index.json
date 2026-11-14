@@ -1,0 +1,12 @@
+{
+  "bookId": "book_cpo_caocao",
+  "title": "曹操诗集",
+  "author": "曹操",
+  "dynasty": "汉",
+  "category": "诗集",
+  "volumes": [
+    "cpo_caocao/cpo_caocao.json"
+  ],
+  "totalPoems": 26,
+  "description": "chinese-poetry开源数据集·曹操诗集"
+}

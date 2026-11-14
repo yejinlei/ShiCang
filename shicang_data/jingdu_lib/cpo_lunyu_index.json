@@ -1,0 +1,12 @@
+{
+  "bookId": "book_cpo_lunyu",
+  "title": "论语",
+  "author": "孔子门人",
+  "dynasty": "先秦",
+  "category": "经部",
+  "volumes": [
+    "cpo_lunyu/cpo_lunyu.json"
+  ],
+  "totalPoems": 20,
+  "description": "chinese-poetry开源数据集·论语"
+}

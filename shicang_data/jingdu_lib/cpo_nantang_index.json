@@ -1,0 +1,12 @@
+{
+  "bookId": "book_cpo_nantang",
+  "title": "南唐词",
+  "author": "李璟李煜等",
+  "dynasty": "五代",
+  "category": "词集",
+  "volumes": [
+    "cpo_nantang/cpo_nantang.json"
+  ],
+  "totalPoems": 45,
+  "description": "chinese-poetry开源数据集·南唐二主词"
+}

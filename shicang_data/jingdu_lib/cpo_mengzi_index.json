@@ -1,0 +1,12 @@
+{
+  "bookId": "book_cpo_mengzi",
+  "title": "孟子",
+  "author": "孟子",
+  "dynasty": "先秦",
+  "category": "经部",
+  "volumes": [
+    "cpo_mengzi/cpo_mengzi.json"
+  ],
+  "totalPoems": 14,
+  "description": "chinese-poetry开源数据集·孟子"
+}

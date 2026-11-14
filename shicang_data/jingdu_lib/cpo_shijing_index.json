@@ -1,0 +1,12 @@
+{
+  "bookId": "book_cpo_shijing",
+  "title": "诗经",
+  "author": "佚名",
+  "dynasty": "先秦",
+  "category": "诗集",
+  "volumes": [
+    "cpo_shijing/cpo_shijing.json"
+  ],
+  "totalPoems": 305,
+  "description": "chinese-poetry开源数据集·诗经305篇"
+}

@@ -1,0 +1,22 @@
+{
+  "bookId": "book_cpo_yuanqu",
+  "title": "元曲",
+  "author": "元代诸家",
+  "dynasty": "元",
+  "category": "曲集",
+  "volumes": [
+    "cpo_yuanqu/cpo_yuanqu_0.json",
+    "cpo_yuanqu/cpo_yuanqu_1000.json",
+    "cpo_yuanqu/cpo_yuanqu_2000.json",
+    "cpo_yuanqu/cpo_yuanqu_3000.json",
+    "cpo_yuanqu/cpo_yuanqu_4000.json",
+    "cpo_yuanqu/cpo_yuanqu_5000.json",
+    "cpo_yuanqu/cpo_yuanqu_6000.json",
+    "cpo_yuanqu/cpo_yuanqu_7000.json",
+    "cpo_yuanqu/cpo_yuanqu_8000.json",
+    "cpo_yuanqu/cpo_yuanqu_9000.json",
+    "cpo_yuanqu/cpo_yuanqu_10000.json"
+  ],
+  "totalPoems": 10914,
+  "description": "chinese-poetry开源数据集·元曲"
+}

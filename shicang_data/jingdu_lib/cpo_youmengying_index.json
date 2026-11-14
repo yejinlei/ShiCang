@@ -1,0 +1,12 @@
+{
+  "bookId": "book_cpo_youmengying",
+  "title": "幽梦影",
+  "author": "张潮",
+  "dynasty": "清",
+  "category": "文集",
+  "volumes": [
+    "cpo_youmengying/cpo_youmengying.json"
+  ],
+  "totalPoems": 219,
+  "description": "chinese-poetry开源数据集·幽梦影"
+}

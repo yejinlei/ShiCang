@@ -1,0 +1,12 @@
+{
+  "bookId": "book_cpo_shuimo",
+  "title": "水墨唐诗",
+  "author": "唐代诸家",
+  "dynasty": "唐",
+  "category": "诗集",
+  "volumes": [
+    "cpo_shuimo/cpo_shuimo.json"
+  ],
+  "totalPoems": 176,
+  "description": "chinese-poetry开源数据集·水墨唐诗"
+}

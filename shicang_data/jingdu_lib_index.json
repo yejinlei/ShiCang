@@ -4,7 +4,7 @@
       "slug": "cpo_songshi",
       "book": "全宋诗 (chinese-poetry)",
       "cat": "诗集",
-      "count": 213224,
+      "count": 254225,
       "indexPath": "cpo_songshi_index.json"
     },
     {
@@ -20,6 +20,76 @@
       "cat": "词集",
       "count": 21050,
       "indexPath": "cpo_songci_index.json"
+    },
+    {
+      "slug": "cpo_yuanqu",
+      "book": "元曲 (chinese-poetry)",
+      "cat": "曲集",
+      "count": 10914,
+      "indexPath": "cpo_yuanqu_index.json"
+    },
+    {
+      "slug": "cpo_shijing",
+      "book": "诗经 (chinese-poetry)",
+      "cat": "诗集",
+      "count": 305,
+      "indexPath": "cpo_shijing_index.json"
+    },
+    {
+      "slug": "cpo_nalan",
+      "book": "纳兰性德诗集 (chinese-poetry)",
+      "cat": "词集",
+      "count": 258,
+      "indexPath": "cpo_nalan_index.json"
+    },
+    {
+      "slug": "cpo_youmengying",
+      "book": "幽梦影 (chinese-poetry)",
+      "cat": "文集",
+      "count": 219,
+      "indexPath": "cpo_youmengying_index.json"
+    },
+    {
+      "slug": "cpo_shuimo",
+      "book": "水墨唐诗 (chinese-poetry)",
+      "cat": "诗集",
+      "count": 176,
+      "indexPath": "cpo_shuimo_index.json"
+    },
+    {
+      "slug": "cpo_chuci",
+      "book": "楚辞 (chinese-poetry)",
+      "cat": "辞赋",
+      "count": 65,
+      "indexPath": "cpo_chuci_index.json"
+    },
+    {
+      "slug": "cpo_nantang",
+      "book": "南唐词 (chinese-poetry)",
+      "cat": "词集",
+      "count": 45,
+      "indexPath": "cpo_nantang_index.json"
+    },
+    {
+      "slug": "cpo_caocao",
+      "book": "曹操诗集 (chinese-poetry)",
+      "cat": "诗集",
+      "count": 26,
+      "indexPath": "cpo_caocao_index.json"
+    },
+    {
+      "slug": "cpo_lunyu",
+      "book": "论语 (chinese-poetry)",
+      "cat": "经部",
+      "count": 20,
+      "indexPath": "cpo_lunyu_index.json"
+    },
+    {
+      "slug": "cpo_mengzi",
+      "book": "孟子 (chinese-poetry)",
+      "cat": "经部",
+      "count": 14,
+      "indexPath": "cpo_mengzi_index.json"
     },
     {
       "slug": "shi_84",
@@ -605,5 +675,5 @@
       "count": 1
     }
   ],
-  "total": 343935
+  "total": 396978
 }

@@ -1,0 +1,12 @@
+{
+  "bookId": "book_cpo_nalan",
+  "title": "纳兰性德诗集",
+  "author": "纳兰性德",
+  "dynasty": "清",
+  "category": "词集",
+  "volumes": [
+    "cpo_nalan/cpo_nalan.json"
+  ],
+  "totalPoems": 258,
+  "description": "chinese-poetry开源数据集·纳兰词"
+}
