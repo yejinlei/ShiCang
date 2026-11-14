@@ -1,0 +1,16 @@
+{
+  "id": "cpo_huajianji",
+  "title": "花间集",
+  "author": "赵崇祚辑",
+  "dynasty": "五代",
+  "type": "ci",
+  "total": 499,
+  "volumes": [
+    {
+      "start": 0,
+      "file": "cpo_huajianji.json",
+      "count": 499
+    }
+  ],
+  "description": "五代后蜀赵崇祚辑，中国最早文人词总集，收温庭筠、韦庄等十八家五百首"
+}

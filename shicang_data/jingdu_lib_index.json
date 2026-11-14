@@ -15,6 +15,13 @@
       "indexPath": "cpo_tang_index.json"
     },
     {
+      "slug": "cpo_huajianji",
+      "book": "花间集 (chinese-poetry)",
+      "cat": "词集",
+      "count": 499,
+      "indexPath": "cpo_huajianji.json"
+    },
+    {
       "slug": "cpo_songci",
       "book": "全宋词 (chinese-poetry)",
       "cat": "词集",
@@ -675,5 +682,5 @@
       "count": 1
     }
   ],
-  "total": 396978
+  "total": 397477
 }
