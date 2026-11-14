@@ -326,29 +326,44 @@ async function openBook(slug){
   });
   // 查找书籍元数据
   const bmeta = INDEX.books.find(b=>b.slug===slug);
-  let WORKS = [];
+  WORKS = [];                         // 修复：原为 let WORKS，遮蔽全局变量，导致 applyFilter 读到空数组、列表恒为 0 首
   let bookTitle = slug, bookCat = '';
+  const _bh=document.getElementById("bhead"), _lst=document.getElementById("list");
   if(bmeta && bmeta.indexPath){
     // 多分卷格式（chinese-poetry等）
     const idxR = await fetch(DATA + bmeta.indexPath);
     const bookIdx = await idxR.json();
     bookTitle = bookIdx.title;
-    bookCat = bookIdx.category;
-    // 加载所有分卷
-    for(const volPath of bookIdx.volumes){
-      try{
-        const vr = await fetch(DATA + volPath);
-        const vd = await vr.json();
-        // chinese-poetry 分卷记录已为 {t,l,u,g,r,d,ru} 格式，直接并入
-        vd.forEach(p=>{
-          if(p.t!==undefined){ WORKS.push(p); }
-          else{
-            const ls=p.lines||p.paragraphs||[];
-            WORKS.push({t:p.title||'',l:(Array.isArray(ls)?ls.join(''):String(ls)),
-                        u:(Array.isArray(ls)&&ls[0])?ls[0].length:0,g:null,r:[],d:'',ru:0});
-          }
-        });
-      }catch(e){console.warn('加载分卷失败', volPath, e);}
+    bookCat = bookIdx.category || bmeta.cat || '';
+    const _vols = bookIdx.volumes || [];
+    const _push = (vd)=>{ (vd||[]).forEach(p=>{
+        if(p.t!==undefined){ WORKS.push(p); }
+        else{
+          const ls=p.lines||p.paragraphs||[];
+          WORKS.push({t:p.title||'',l:(Array.isArray(ls)?ls.join(''):String(ls)),
+                      u:(Array.isArray(ls)&&ls[0])?ls[0].length:0,g:null,r:[],d:'',ru:0});
+        }
+      }); };
+    const _tip=(done)=>{
+      if(_bh) _bh.innerHTML=`<h2>${esc(bookTitle)}</h2><div class="m">${esc(bookCat)} · 展卷中… ${done}/${_vols.length} 卷（已载 ${WORKS.length.toLocaleString()} 首）</div>`;
+      if(_lst) _lst.innerHTML='<div class="nores">展卷中…</div>';
+      const _pg=document.getElementById("pager"); if(_pg) _pg.innerHTML="";
+    };
+    _tip(0);
+    // 每批 8 卷并发加载，渐进渲染：先载先看，不必等全部卷完成
+    const _BATCH = 8;
+    let _done = 0;
+    for(let i=0;i<_vols.length;i+=_BATCH){
+      const _batch=_vols.slice(i,i+_BATCH);
+      const _res=await Promise.all(_batch.map(async v=>{
+        try{ const r=await fetch(DATA+v); return await r.json(); }
+        catch(e){ console.warn('加载分卷失败', v, e); return []; }
+      }));
+      _res.forEach(_push);
+      _done += _batch.length;
+      window.WORKS = WORKS;
+      if(_done < _vols.length) _tip(_done);
+      applyFilter();
     }
   }else{
     // 原有单文件格式

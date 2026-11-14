@@ -1,6 +1,27 @@
 {
   "books": [
     {
+      "slug": "cpo_songshi",
+      "book": "全宋诗 (chinese-poetry)",
+      "cat": "诗集",
+      "count": 213224,
+      "indexPath": "cpo_songshi_index.json"
+    },
+    {
+      "slug": "cpo_tang",
+      "book": "全唐诗 (chinese-poetry)",
+      "cat": "诗集",
+      "count": 57603,
+      "indexPath": "cpo_tang_index.json"
+    },
+    {
+      "slug": "cpo_songci",
+      "book": "全宋词 (chinese-poetry)",
+      "cat": "词集",
+      "count": 21050,
+      "indexPath": "cpo_songci_index.json"
+    },
+    {
       "slug": "shi_84",
       "book": "御选宋金元明四朝诗",
       "cat": "诗集",
@@ -23,6 +44,13 @@
       "book": "御定佩文斋咏物诗选",
       "cat": "诗集",
       "count": 3145
+    },
+    {
+      "slug": "ci_collected",
+      "book": "四库本词集（111部）",
+      "cat": "词集",
+      "count": 2972,
+      "legacyCi": true
     },
     {
       "slug": "shi_32",
@@ -325,14 +353,14 @@
       "count": 50
     },
     {
-      "slug": "shi_47",
-      "book": "声画集",
+      "slug": "shi_5",
+      "book": "大雅集",
       "cat": "诗集",
       "count": 47
     },
     {
-      "slug": "shi_5",
-      "book": "大雅集",
+      "slug": "shi_47",
+      "book": "声画集",
       "cat": "诗集",
       "count": 47
     },
@@ -379,6 +407,12 @@
       "count": 32
     },
     {
+      "slug": "shi_4",
+      "book": "柴氏四隐集",
+      "cat": "诗集",
+      "count": 31
+    },
+    {
       "slug": "shi_10",
       "book": "二妙集",
       "cat": "诗集",
@@ -387,12 +421,6 @@
     {
       "slug": "shi_20",
       "book": "国秀集",
-      "cat": "诗集",
-      "count": 31
-    },
-    {
-      "slug": "shi_4",
-      "book": "柴氏四隐集",
       "cat": "诗集",
       "count": 31
     },
@@ -427,6 +455,12 @@
       "count": 23
     },
     {
+      "slug": "shi_9",
+      "book": "二家诗选",
+      "cat": "诗集",
+      "count": 22
+    },
+    {
       "slug": "shi_24",
       "book": "河汾诸老诗集",
       "cat": "诗集",
@@ -435,12 +469,6 @@
     {
       "slug": "shi_70",
       "book": "薛涛李冶诗集",
-      "cat": "诗集",
-      "count": 22
-    },
-    {
-      "slug": "shi_9",
-      "book": "二家诗选",
       "cat": "诗集",
       "count": 22
     },
@@ -463,14 +491,14 @@
       "count": 19
     },
     {
-      "slug": "shi_17",
-      "book": "广州四先生诗",
+      "slug": "shi_6",
+      "book": "窦氏联珠集",
       "cat": "诗集",
       "count": 15
     },
     {
-      "slug": "shi_6",
-      "book": "窦氏联珠集",
+      "slug": "shi_17",
+      "book": "广州四先生诗",
       "cat": "诗集",
       "count": 15
     },
@@ -547,6 +575,12 @@
       "count": 2
     },
     {
+      "slug": "shi_8",
+      "book": "二家宫词",
+      "cat": "诗集",
+      "count": 1
+    },
+    {
       "slug": "shi_14",
       "book": "古乐苑",
       "cat": "诗集",
@@ -565,41 +599,11 @@
       "count": 1
     },
     {
-      "slug": "shi_8",
-      "book": "二家宫词",
-      "cat": "诗集",
-      "count": 1
-    },
-    {
       "slug": "shi_85",
       "book": "御选唐诗",
       "cat": "诗集",
       "count": 1
-    },
-    {
-      "slug": "cpo_tang",
-      "book": "全唐诗（chinese-poetry）",
-      "cat": "诗集",
-      "count": 57603,
-      "dynasty": "唐",
-      "indexPath": "cpo_tang_index.json"
-    },
-    {
-      "slug": "cpo_songci",
-      "book": "全宋词（chinese-poetry）",
-      "cat": "词集",
-      "count": 21050,
-      "dynasty": "宋",
-      "indexPath": "cpo_songci_index.json"
-    },
-    {
-      "slug": "cpo_songshi",
-      "book": "全宋诗（chinese-poetry）",
-      "cat": "诗集",
-      "count": 213224,
-      "dynasty": "宋",
-      "indexPath": "cpo_songshi_index.json"
     }
   ],
-  "total": 340963
+  "total": 343935
 }
