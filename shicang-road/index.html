@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>诗路千年 · 诗藏本体论</title>
-<link rel="stylesheet" href="../shicang-assets/global.css">
+<link rel="stylesheet" href="../global.css">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <style>
 /* 宣纸地图风格 */
@@ -275,14 +275,13 @@
   <div class="nav-links">
     <a href="../">首页</a>
     <a href="../shicang-jingdu/">名篇精读</a>
-    <a href="../shicang-poet-journey/" class="active">诗路千年</a>
+    <a href="./" class="active">诗路千年</a>
     <a href="../shicang-xinghe/">诗河星海</a>
     <a href="../shicang-cipai/">词牌格律</a>
     <a href="../shicang-imagery/">意象图谱</a>
     <a href="../shicang-meipi/">诗话眉批</a>
     <a href="../shicang-duilian/">楹联对弈</a>
     <a href="../shicang-duilian-corpus/">联语集对</a>
-    <a href="../shicang-map/">诗词地图</a>
     <a href="../shicang-yunshu/">韵书查询</a>
   </div>
   <button class="menu-toggle" id="menuToggle">☰</button>
@@ -319,8 +318,9 @@
 <footer class="shicang-footer">诗藏本体论 · 岁在丙午 · 辑于西泠</footer>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<script src="../shicang-assets/romantic.js"></script>
+<script src="../romantic.js"></script>
 <script src="road_data.js"></script>
+<script src="road_data_patch.js"></script>
 <script>
 // 视图切换
 document.querySelectorAll('.view-btn').forEach(btn => {

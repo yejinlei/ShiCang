@@ -211,7 +211,7 @@ footer{max-width:880px;margin:0 auto;padding:26px;text-align:center;color:#a08a6
       <span class="en-author" id="enAuthor"></span>
     </div>
     <div id="enLines"></div>
-    <div class="en-note">Translated by ShiCang · 诗藏自译</div>
+    <div class="en-note" id="enNote">Translated by ShiCang · 诗藏自译</div>
   </div>
   <div class="note-line" id="note" style="display:none"></div>
   <div class="deepbox" id="deepbox" style="display:none"></div>
@@ -221,9 +221,46 @@ footer{max-width:880px;margin:0 auto;padding:26px;text-align:center;color:#a08a6
 
 <script src="../romantic.js"></script>
 <script src="chartab.js"></script>
+<script src="translations.js"></script>
 
 <script>
-const $ = id => document.getElementById(id);
+// 尝试从名家译本库匹配译文；匹配时忽略标点、空白和常见副标题前缀
+function lookupMaster(author, title){
+  if (!author || !title || !window.MASTER_TRANSLATIONS) return null;
+  const norm = s => String(s).replace(/[\s·•·，。！？；：、,.!?;:）(（)）【】\[\]·\u3000]/g,'')
+    .replace(/^[\(（].+?[\)）]/g,'')
+    .replace(/(其一|其二|其三|其四|其五|其六|其七|其八|选录|节选|外一首|之一|之二)$/,'');
+  const a = norm(author);
+  // 精确匹配
+  const t0 = norm(title);
+  const k1 = a+'|'+t0;
+  if (MASTER_TRANSLATIONS[k1]) return MASTER_TRANSLATIONS[k1];
+  // 去掉词牌后试
+  const t = t0.replace(/^(水调歌头|念奴娇|江城子|蝶恋花|定风波|声声慢|一剪梅|武陵春|永遇乐|青玉案|破阵子|雨霖铃|浣溪沙|虞美人|相见欢|浪淘沙令|鹊桥仙|钗头凤|满江红|渔家傲|临江仙|望江南|苏幕遮|菩萨蛮|渔歌子|八声甘州|桂枝香|望海潮|木兰花|采桑子|清平乐|鹧鸪天|踏莎行|摸鱼儿|贺新郎|卜算子|青玉案|阮郎归|点绛唇|长相思)/, '');
+  const k2 = a+'|'+t;
+  if (MASTER_TRANSLATIONS[k2]) return MASTER_TRANSLATIONS[k2];
+  // 遍历所有key模糊匹配
+  for (const k in MASTER_TRANSLATIONS){
+    const [ka, kt] = k.split('|');
+    if (ka === a && (kt.startsWith(t0) || t0.startsWith(kt) || kt.includes(t0.slice(0,4)))) return MASTER_TRANSLATIONS[k];
+  }
+  return null;
+}
+
+function attachTranslation(p){
+  const m = lookupMaster(p.author, p.title) || lookupMaster(p.author, p.title+(p.subtitle||''));
+  if (m){
+    p.en_title = m.et;
+    p.en_author = p.author;
+    p.en_dynasty = p.dynasty || '';
+    p.en_body = m.eb;
+    p.en_translator = m.tr;
+  } else {
+    p.en_translator = '';
+  }
+}
+
+
 const params = new URLSearchParams(location.search);
 // 兼容三种入参：?anth=<key> 老链接 / ?s=<key>[_slug]&i=N 选本 / ?src=<id>&i=N 全集
 let anthParam = params.get('anth') || '';
@@ -319,7 +356,8 @@ function renderPoem(p){
     const au = p.en_author && !/[\u4e00-\u9fff]/.test(p.en_author) ? p.en_author : '';
     $('enAuthor').textContent = (p.en_dynasty||'') + (au ? ' · ' + au : '');
     const elBox = $('enLines');
-    elBox.innerHTML = p.en_body.map((e,i) => '<div class="en-line">' + (e||'') + '</div>').join('');
+    elBox.innerHTML = p.en_body.map((e,i) => '<div class="en-line">' + (e||'&nbsp;') + '</div>').join('');
+    $('enNote').textContent = p.en_translator ? ('Translated by ' + p.en_translator + ' · ' + p.en_translator + '译') : 'Translated by ShiCang · 诗藏自译';
   } else {
     enBox.style.display = 'none';
   }
@@ -427,6 +465,7 @@ async function loadColl(){
     const w = POEMS[idxInVol] || POEMS[0];
     CUR = normalizeWork(w, meta);
     CHAR = window.SC_CHARTAB || window.CHARTAB || {};
+    attachTranslation(CUR);
     renderMeta(CUR);
     renderPoem(CUR);
     renderPN(idxInVol);
@@ -452,6 +491,7 @@ function loadAnth(){
     let idx = -1;
     if(slug) idx = poems.findIndex(x => x.slug === slug);
     if(idx < 0) idx = Math.max(0, Math.min(iParam, poems.length-1));
+    attachTranslation(CUR);
     if(idx < 0 || !poems[idx]){ $('poem').innerHTML = '<div class="loading">未 得 此 篇</div>'; return; }
     CUR = poems[idx];
     renderMeta(CUR);
