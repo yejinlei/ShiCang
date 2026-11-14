@@ -152,11 +152,7 @@ footer{max-width:880px;margin:0 auto;padding:26px;text-align:center;color:#a08a6
     <div class="shicang-nav-links shicang-desktop-links">
       <a href="/ShiCang/" class="shicang-nav-link">首页</a>
       <span class="shicang-nav-sep">|</span>
-      <a href="/ShiCang/shicang-jingdu/" class="shicang-nav-link">诗</a>
-      <a href="/ShiCang/shicang-ci/" class="shicang-nav-link">词</a>
-      <a href="/ShiCang/shicang-qu/" class="shicang-nav-link">曲</a>
-      <a href="/ShiCang/shicang-chuci/" class="shicang-nav-link">辞赋</a>
-      <a href="/ShiCang/shicang-mingpian/" class="shicang-nav-link active">名篇</a>
+      <a href="/ShiCang/shicang-jingdu/" class="shicang-nav-link active">名篇精读</a>
       <span class="shicang-nav-sep">|</span>
       <a href="/ShiCang/shicang-poet-journey/" class="shicang-nav-link">诗人轨迹</a>
       <a href="/ShiCang/shicang-cipai/" class="shicang-nav-link">词牌</a>
@@ -165,12 +161,25 @@ footer{max-width:880px;margin:0 auto;padding:26px;text-align:center;color:#a08a6
       <a href="/ShiCang/shicang-duilian/" class="shicang-nav-link">对弈</a>
       <a href="/ShiCang/shicang-duilian-corpus/" class="shicang-nav-link">楹联</a>
       <a href="/ShiCang/shicang-map/" class="shicang-nav-link">地图</a>
-      <a href="/ShiCang/shicang-yunshu/" class="shicang-nav-link">韵书</a> | <a href="../shicang-xinghe/">星河</a>
+      <a href="/ShiCang/shicang-yunshu/" class="shicang-nav-link">韵书</a>
+      <a href="/ShiCang/shicang-xinghe/" class="shicang-nav-link">星河</a>
     </div>
     <button class="shicang-menu-btn" onclick="document.getElementById('shicangMobileNav').classList.toggle('open')">☰</button>
     <div id="shicangMobileNav" class="shicang-mobile-menu">
-      <a href="/ShiCang/" class="shicang-nav-link font-bold">🏠 返回首页</a>
+      <a href="/ShiCang/" class="shicang-nav-link">🏠 返回首页</a>
       <div style="height:1px;background:rgba(30,26,21,.1);margin:6px 0;"></div>
+      <a href="/ShiCang/shicang-jingdu/" class="shicang-nav-link active">📖 名篇精读</a>
+      <div style="height:1px;background:rgba(30,26,21,.1);margin:6px 0;"></div>
+      <a href="/ShiCang/shicang-poet-journey/" class="shicang-nav-link">🧭 诗人轨迹</a>
+      <a href="/ShiCang/shicang-cipai/" class="shicang-nav-link">🎶 词牌格律</a>
+      <a href="/ShiCang/shicang-imagery/" class="shicang-nav-link">🌿 意象图谱</a>
+      <a href="/ShiCang/shicang-meipi/" class="shicang-nav-link">🖋️ 诗话眉批</a>
+      <a href="/ShiCang/shicang-duilian/" class="shicang-nav-link">🀄 对联斗巧</a>
+      <a href="/ShiCang/shicang-duilian-corpus/" class="shicang-nav-link">🧧 楹联集对</a>
+      <a href="/ShiCang/shicang-map/" class="shicang-nav-link">🗺️ 诗词地图</a>
+      <a href="/ShiCang/shicang-yunshu/" class="shicang-nav-link">📖 韵书查询</a>
+      <a href="/ShiCang/shicang-xinghe/" class="shicang-nav-link">✨ 诗河星海</a>
+    </div>
       <a href="/ShiCang/shicang-jingdu/" class="shicang-nav-link">📚 诗藏精读</a>
       <a href="/ShiCang/shicang-ci/" class="shicang-nav-link">📝 词林精读</a>
       <a href="/ShiCang/shicang-qu/" class="shicang-nav-link">🎭 曲林精读</a>
@@ -190,7 +199,7 @@ footer{max-width:880px;margin:0 auto;padding:26px;text-align:center;color:#a08a6
 </nav>
 
 <div class="topbar">
-  <a class="back" href="index.html">← 名篇集萃</a>
+  <a class="back" href="index.html">← 选本</a>
   <span id="anth-name">诗藏 · 名篇集萃</span>
 </div>
 <div class="head">
@@ -226,12 +235,16 @@ footer{max-width:880px;margin:0 auto;padding:26px;text-align:center;color:#a08a6
 <footer>诗藏本体论 · 名篇集萃</footer>
 
 <script src="../romantic.js"></script>
+<script src="../shicang-jingdu/chartab.js"></script>
+<script src="../shicang-jingdu/loader.js"></script>
 <script>
 const $ = id => document.getElementById(id);
 const params = new URLSearchParams(location.search);
 const slug = params.get('s') || '';
+const srcParam = params.get('src') || '';
+const iParam = parseInt(params.get('i') || '0', 10);
 const aslug = slug.split('_')[0];
-let CHAR = {}, POEMS = [], CUR = null;
+let CHAR = {}, POEMS = [], CUR = null, MODE = 'anth'; // anth | coll
 
 const ANTH_SLUG = {qianjiashi:'千家诗',songci300:'宋词三百首',jumiaohaoci:'绝妙好词',
   jin300:'近三百年名家词选',wanshou:'唐人万首绝句选',yuanshi:'元诗别裁集',
@@ -239,11 +252,35 @@ const ANTH_SLUG = {qianjiashi:'千家诗',songci300:'宋词三百首',jumiaohaoc
 
 function pick(ch){ return CHAR[ch] || null; }
 
+// 将全本数据（{t,a,l,u,g,r,...}）归一化为 view 渲染所需格式 {title,author,dynasty,genre,body,subtitle}
+function normalizeWork(w, meta){
+  const title = w.t || w.title || '(无题)';
+  const author = w.a || w.author || '';
+  let body = [];
+  if(Array.isArray(w.l)) body = w.l.filter(x=>x);
+  else if(w.l) body = String(w.l).split(/(?<=[，。！？；：、])/);
+  else if(w.text) {
+    // 按句末标点断句
+    const t = w.text.replace(/\s+/g,'');
+    body = t.match(/[^，。！？；：、,.!?]+[，。！？；：、,.!?]?/g) || [t];
+  }
+  let genre = w.g || w.genre || meta.genre || '诗';
+  if(w.cipai) genre='词';
+  if(w.tune||w.qupai) genre='曲';
+  const dynasty = w.dynasty || meta.dynasty || '';
+  return {
+    title, subtitle: w.subtitle || (w.cipai && w.title ? w.cipai : ''),
+    author, dynasty, genre,
+    body,
+    main_a: meta.title,
+    en_title: '', en_author: '', en_dynasty: '', en_body: [],
+  };
+}
+
 function renderPoem(p){
   const poem = $('poem');
   const lines = (p.body || []).filter(x => x);
   const PUNC = /[，。！？；：、,.!?;:）)]/;
-  // 收集句末字，统计韵部，确定主韵
   const endChars = [];
   lines.forEach(line => {
     const cs = Array.from(line);
@@ -279,7 +316,6 @@ function renderPoem(p){
   });
   poem.innerHTML = html;
 
-  // 英译
   const enBox = $('enBox');
   if (p.en_body && p.en_body.some(x => x)){
     enBox.style.display = '';
@@ -295,31 +331,42 @@ function renderPoem(p){
 
 function renderMeta(p){
   $('h1').textContent = p.title + (p.subtitle ? '　' + p.subtitle : '');
-  $('sub').innerHTML = p.dynasty + '<span class="dot">·</span>' + p.author
-    + '<span class="dot">·</span>' + (p.genre === '词' ? '词' : '诗');
-  const anth = ANTH_SLUG[aslug] || p.main_a;
-  $('anth-name').textContent = '诗藏 · ' + anth;
-  let fromHtml = '选自《' + (p.main_a) + '》';
-  if (p.anthologies && p.anthologies.length > 1) fromHtml += '　兼见《' + p.anthologies.slice(1).join('》《') + '》';
-  $('from').innerHTML = fromHtml;
-  document.getElementById('seal').textContent = p.genre === '词' ? '詞' : '詩';
+  $('sub').innerHTML = (p.dynasty||'') + (p.author?'<span class="dot">·</span>'+p.author:'') + '<span class="dot">·</span>' + (p.genre||'诗');
+  const lab = MODE==='anth' ? (ANTH_SLUG[aslug] || p.main_a) : p.main_a;
+  $('anth-name').textContent = '诗藏 · ' + lab;
+  $('from').innerHTML = '选自《' + (p.main_a||lab) + '》';
+  document.getElementById('seal').textContent = p.genre === '词' ? '詞' : (p.genre==='曲'?'曲':(p.genre==='辞'||p.genre==='赋'?'賦':(p.genre==='文'?'文':'詩')));
   if (p.note){
     $('note').style.display = 'block';
     $('note').innerHTML = '<span class="lab">選家評曰　</span>' + p.note;
+  } else {
+    $('note').style.display = 'none';
   }
   if (p.deep){
     $('deepbox').style.display = 'block';
     $('deepbox').innerHTML = '<a href="../shicang-poem/' + p.deep + '.html">展深度精读 · 今译赏析 →</a>';
+  } else if (p.anthologies && p.anthologies.length > 1){
+    $('deepbox').style.display = 'block';
+    $('deepbox').innerHTML = '<span style="color:var(--gold);font-size:13px;">兼见：' + p.anthologies.slice(1).map(a=>'《'+a+'》').join('　') + '</span>';
+  } else {
+    $('deepbox').style.display = 'none';
   }
-  document.title = p.title + ' · 名篇集萃 · 诗藏';
+  document.title = p.title + ' · 名篇精读 · 诗藏';
 }
 
 function renderPN(idx){
   const box = $('pn');
   const prev = POEMS[idx-1], next = POEMS[idx+1];
   let html = '';
-  html += prev ? '<a href="view.html?s=' + prev.slug + '"><span>上一篇</span>' + prev.title + '</a>' : '<div class="ph"></div>';
-  html += next ? '<a class="next" href="view.html?s=' + next.slug + '"><span>下一篇</span>' + next.title + '</a>' : '<div class="ph"></div>';
+  if (MODE==='anth'){
+    html += prev ? '<a href="view.html?s=' + prev.slug + '"><span>上一篇</span>' + (prev.title||'') + '</a>' : '<div class="ph"></div>';
+    html += next ? '<a class="next" href="view.html?s=' + next.slug + '"><span>下一篇</span>' + (next.title||'') + '</a>' : '<div class="ph"></div>';
+  } else {
+    html += prev ? '<a href="view.html?src='+srcParam+'&i='+(idx-1)+'"><span>上一篇</span>' + (prev.t||prev.title||'') + '</a>' : '<div class="ph"></div>';
+    html += next ? '<a class="next" href="view.html?src='+srcParam+'&i='+(idx+1)+'"><span>下一篇</span>' + (next.t||next.title||'') + '</a>' : '<div class="ph"></div>';
+    // 加上"返回目录"
+    html = '<a class="back" href="index.html" style="position:absolute;left:26px;bottom:40px;font-size:13px;color:var(--ink3);text-decoration:none;border-bottom:1px dashed var(--ink3);">← 返回目录</a>' + html;
+  }
   box.innerHTML = html;
 }
 
@@ -328,18 +375,86 @@ document.querySelectorAll('.sw').forEach(b => b.onclick = () => {
   document.body.classList.toggle(b.dataset.opt);
 });
 
-Promise.all([
-  fetch('../shicang_data/char_info.json').then(r => r.json()).catch(() => ({})),
-  fetch('../shicang_data/mingpian/data_' + aslug + '.json').then(r => r.json())
-]).then(([chars, poems]) => {
-  CHAR = chars; POEMS = poems;
-  const idx = poems.findIndex(x => x.slug === slug);
-  if (idx < 0){ $('poem').innerHTML = '<div class="loading">未 得 此 篇</div>'; return; }
-  CUR = poems[idx];
-  renderMeta(CUR);
-  renderPoem(CUR);
-  renderPN(idx);
-});
+// 加载全集数据
+async function loadColl(){
+  MODE='coll';
+  // 找 book
+  const book = (window.POEM_BOOKS||[]).find(b=>b.id===srcParam) || (window.POEM_BOOKS||[]).find(b=>b.id===srcParam.replace('cpo_',''));
+  // 找元数据
+  const cat = await fetch('../shicang_data/jingdu/catalog.json').then(r=>r.json()).catch(()=>({collections:[]}));
+  const meta = cat.collections.find(c=>c.id===srcParam) || {title:srcParam,dynasty:'',genre:'诗'};
+
+  let allWorks = [];
+  if(book && book.volumes){
+    // 定位包含 iParam 的卷
+    let offset = 0, targetFile = book.volumes[0].file;
+    for(const v of book.volumes){
+      if(iParam < offset + v.count){ targetFile = v.file; break; }
+      offset += v.count;
+    }
+    // 为了上下篇切换，我们也需要相邻卷。简单处理：只加载当前卷；若越界则加载相邻卷。
+    const idxInVol = iParam - offset;
+    try{
+      const data = await fetch(targetFile).then(r=>r.json());
+      // 把 idx 映射到本卷起始
+      POEMS = data;
+      CUR = normalizeWork(data[idxInVol]||data[0], meta);
+      CUR._idx = idxInVol;
+      CHAR = window.CHARTAB || {};
+      renderMeta(CUR);
+      renderPoem(CUR);
+      renderPN(idxInVol);
+    }catch(e){
+      $('poem').innerHTML = '<div class="loading">加 载 失 败</div>';
+    }
+  } else {
+    // 单文件
+    const url = '../shicang_data/jingdu_lib/'+srcParam+'.json';
+    try{
+      const data = await fetch(url).then(r=>r.json());
+      POEMS = data;
+      CUR = normalizeWork(data[iParam]||data[0], meta);
+      CHAR = window.CHARTAB || {};
+      renderMeta(CUR);
+      renderPoem(CUR);
+      renderPN(iParam);
+    }catch(e){
+      $('poem').innerHTML = '<div class="loading">加 载 失 败</div>';
+    }
+  }
+}
+
+function loadAnth(){
+  MODE='anth';
+  Promise.all([
+    fetch('../shicang_data/char_info.json').then(r => r.json()).catch(() => ({})),
+    fetch('../shicang_data/mingpian/data_' + aslug + '.json').then(r => r.json())
+  ]).then(([chars, poems]) => {
+    CHAR = chars; POEMS = poems;
+    const idx = poems.findIndex(x => x.slug === slug);
+    if (idx < 0){ $('poem').innerHTML = '<div class="loading">未 得 此 篇</div>'; return; }
+    CUR = poems[idx];
+    renderMeta(CUR);
+    renderPoem(CUR);
+    renderPN(idx);
+  }).catch(e=>{
+    $('poem').innerHTML = '<div class="loading">加 载 失 败</div>';
+  });
+}
+
+// 等待 loader.js 加载完 POEM_BOOKS
+function waitLoader(){
+  if(srcParam){
+    if(window.POEM_BOOKS || document.readyState==='complete'){
+      loadColl();
+    } else {
+      setTimeout(waitLoader, 50);
+    }
+  } else {
+    loadAnth();
+  }
+}
+waitLoader();
 </script>
 </body>
 </html>

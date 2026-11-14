@@ -1,452 +1,409 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>诗藏精读库 · 诗藏</title>
-<style>
-:root{
-  --paper:#f6efe0; --paper2:#fbf7ec; --ink:#2b2318; --ink2:#5c5346;
-  --zhu:#8b3a2f; --zhu2:#b5503f; --line:#d9cbb1; --gold:#a8862f;
-}
-*{box-sizing:border-box}
-html,body{margin:0;padding:0}
-body{
-  background:var(--paper);
-  color:var(--ink);
-  font-family:"Noto Serif SC","Songti SC","STSong",serif;
-  line-height:1.9;
-  background-image:
-    radial-gradient(circle at 20% 10%, rgba(180,150,100,.06), transparent 40%),
-    radial-gradient(circle at 80% 90%, rgba(140,110,70,.05), transparent 45%);
-}
-a{color:var(--zhu);text-decoration:none}
-header.top{
-  position:sticky; top:0; z-index:20;
-  background:rgba(246,239,224,.92);
-  backdrop-filter:blur(8px);
-  border-bottom:1px solid var(--line);
-  padding:10px 18px;
-  display:flex; align-items:center; gap:14px; flex-wrap:wrap;
-}
-header.top .back{font-size:14px;color:var(--ink2)}
-header.top h1{
-  font-size:20px;margin:0;letter-spacing:.18em;color:var(--zhu);
-  font-weight:600;
-}
-header.top .sub{font-size:12.5px;color:var(--ink2);letter-spacing:.05em}
-header.top .spacer{flex:1}
-header.top .stat{font-size:12.5px;color:var(--ink2)}
-.layout{display:flex;align-items:flex-start;gap:0;min-height:calc(100vh - 56px)}
-aside.books{
-  width:270px;flex:0 0 270px;border-right:1px solid var(--line);
-  height:calc(100vh - 56px);overflow:auto;padding:12px 8px 40px;
-  position:sticky;top:56px;
-}
-aside.books .cat{font-size:12px;color:var(--gold);letter-spacing:.2em;margin:12px 8px 6px}
-aside.books .bk{
-  display:flex;justify-content:space-between;gap:8px;
-  padding:7px 10px;border-radius:6px;cursor:pointer;font-size:14px;
-  color:var(--ink2);
-}
-aside.books .bk:hover{background:rgba(139,58,47,.07)}
-aside.books .bk.on{background:rgba(139,58,47,.12);color:var(--zhu);font-weight:600}
-aside.books .bk .n{font-size:11.5px;color:#9a8f7c}
-main.body{flex:1;min-width:0;padding:16px 26px 80px}
-.tools{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:12px}
-.tools input{
-  flex:1;min-width:220px;padding:9px 14px;border:1px solid var(--line);
-  border-radius:22px;background:var(--paper2);font-family:inherit;font-size:14px;
-  color:var(--ink);outline:none;
-}
-.tools input:focus{border-color:var(--zhu2)}
-.tools .hint{font-size:12.5px;color:#9a8f7c}
-.bookhead{margin:6px 0 14px;padding-bottom:10px;border-bottom:1px dashed var(--line)}
-.bookhead h2{margin:0 0 4px;font-size:22px;color:var(--zhu);letter-spacing:.08em}
-.bookhead .m{font-size:13px;color:var(--ink2)}
-.list{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:10px}
-.card{
-  border:1px solid var(--line);border-radius:8px;background:var(--paper2);
-  padding:10px 14px;cursor:pointer;transition:.18s;
-}
-.card:hover{border-color:var(--zhu2);box-shadow:0 3px 12px rgba(139,58,47,.10)}
-.card .ct{font-size:15.5px;font-weight:600;color:var(--ink);margin-bottom:3px}
-.card .cl{font-size:13px;color:var(--ink2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.card .cg{font-size:11.5px;color:var(--gold);margin-top:3px}
-.pager{display:flex;gap:8px;align-items:center;justify-content:center;margin:18px 0;font-size:13.5px;color:var(--ink2)}
-.pager button{
-  border:1px solid var(--line);background:var(--paper2);border-radius:18px;
-  padding:5px 14px;font-family:inherit;cursor:pointer;color:var(--ink2);
-}
-.pager button:disabled{opacity:.4;cursor:default}
-/* 精读弹层 */
-.veil{position:fixed;inset:0;background:rgba(30,24,16,.45);display:none;z-index:40}
-.veil.on{display:block}
-.reader{
-  position:fixed;z-index:50;top:50%;left:50%;transform:translate(-50%,-50%);
-  width:min(760px,94vw);max-height:88vh;overflow:auto;
-  background:var(--paper);
-  border:1px solid #c9b898;border-radius:10px;
-  box-shadow:0 20px 60px rgba(0,0,0,.35);
-  padding:26px 30px 34px;display:none;
-}
-.reader.on{display:block}
-.reader .rh{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:10px;margin-bottom:16px}
-.reader .rh h3{margin:0;font-size:22px;color:var(--zhu);letter-spacing:.08em}
-.reader .rh .meta{font-size:12.5px;color:var(--ink2)}
-.reader .rh .x{margin-left:auto;cursor:pointer;color:var(--ink2);font-size:22px;line-height:1}
-.poem{margin:6px 0 18px}
-.pl{white-space:nowrap;margin:0 0 2px;text-align:center}
-.ch{display:inline-block;position:relative;padding:16px 3px 16px;font-size:26px;line-height:1.2}
-.ch .py{position:absolute;top:0;left:0;right:0;font-size:10.5px;color:#8a7f6a;font-family:system-ui,sans-serif;text-align:center;letter-spacing:0}
-.ch .pz{position:absolute;bottom:0;left:0;right:0;font-size:10.5px;color:#a89878;text-align:center}
-.ch.rh .zi{color:var(--zhu);font-weight:600}
-.ch.rh::after{
-  content:"";position:absolute;left:50%;bottom:2px;width:7px;height:7px;
-  margin-left:-3.5px;border-radius:50%;background:var(--zhu2);opacity:.75;
-}
-.ch .zi{position:relative}
-.ch .zi.rare{color:#9c5a2e}
-.ch.rh .py{color:#9a6a5a}
-.rz{
-  background:rgba(139,58,47,.06);border:1px solid var(--line);border-radius:8px;
-  padding:10px 14px;font-size:13.5px;color:var(--ink2);margin-bottom:12px;
-}
-.rz b{color:var(--zhu)}
-.segs{font-size:12.5px;color:#8a7f6a;text-align:center;letter-spacing:.05em}
-.nores{color:#9a8f7c;font-size:14px;padding:30px 0;text-align:center}
-@media(max-width:820px){
-  aside.books{display:none}
-  main.body{padding:14px 14px 60px}
-  .ch{font-size:22px;padding:15px 2px}
-}
-</style>
-
-<style>
-  .shicang-topnav{
-    position:sticky;top:0;z-index:999;
-    backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
-    background:rgba(246,241,231,.92);
-    border-bottom:1px solid rgba(30,26,21,.11);
-    box-shadow:0 2px 12px rgba(30,26,21,.04);
-    font-family:'PingFang SC','HarmonyOS Sans SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;
-  }
-  .shicang-topnav-inner{
-    max-width:1200px;margin:0 auto;padding:0 16px;
-    height:52px;display:flex;align-items:center;justify-content:space-between;gap:12px;
-  }
-  .shicang-logo{
-    display:flex;align-items:center;gap:8px;text-decoration:none;color:#1e1a15;font-weight:700;
-    font-size:16px;font-family:'Songti SC','STSong','Noto Serif CJK SC',serif;
-  }
-  .shicang-logo-mark{
-    width:28px;height:28px;border-radius:6px;
-    background:linear-gradient(150deg,#ae3a2b,#c85a49);color:#fff;
-    display:flex;align-items:center;justify-content:center;
-    font-size:16px;box-shadow:inset 0 0 0 1px rgba(255,255,255,.25);
-  }
-  .shicang-nav-links{
-    display:flex;gap:4px;align-items:center;overflow-x:auto;scrollbar-width:none;
-  }
-  .shicang-nav-links::-webkit-scrollbar{display:none;}
-  .shicang-nav-link{
-    font-size:13px;color:#4b4237;text-decoration:none;padding:6px 10px;border-radius:999px;white-space:nowrap;
-    transition:all .2s;
-  }
-  .shicang-nav-link:hover{color:#ae3a2b;background:rgba(174,58,43,.07);}
-  .shicang-nav-link.active{color:#ae3a2b;background:rgba(174,58,43,.1);}
-  .shicang-nav-sep{font-size:11px;color:#8a7f6d;padding:0 4px;}
-  .shicang-menu-btn{display:none;font-size:20px;background:transparent;border:none;cursor:pointer;padding:6px;color:#1e1a15;}
-  .shicang-mobile-menu{
-    display:none;position:absolute;top:52px;left:0;right:0;
-    background:rgba(246,241,231,.98);backdrop-filter:blur(14px);
-    border-bottom:1px solid rgba(30,26,21,.11);padding:10px 16px;flex-direction:column;gap:4px;
-  }
-  .shicang-mobile-menu.open{display:flex;}
-  .shicang-mobile-menu .shicang-nav-link{padding:9px 10px;border-radius:8px;}
-  @media(max-width:1024px){
-    .shicang-desktop-links{display:none !important;}
-    .shicang-menu-btn{display:block !important;}
-  }
-</style>
-
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>名篇精读 · 诗藏</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='5' fill='%238b2f2f'/%3E%3Ctext x='16' y='24' font-size='21' fill='%23f7f1e3' text-anchor='middle' font-family='serif'%3E%E8%AE%80%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="../global.css">
+<style>
+:root{--main:#8b2f2f;--ink:#2b2620;--ink2:#5a4f41;--ink3:#8a7554;--rule:#d8c7a6;--seal:#a8322f;--paper:#f6efe0;--paper2:#fbf7ec;--gold:#a8862f;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:"Noto Serif SC","Songti SC","STSong",serif;line-height:1.8;
+  background-image:radial-gradient(circle at 20% 10%, rgba(180,150,100,.06), transparent 40%),radial-gradient(circle at 80% 90%, rgba(140,110,70,.05), transparent 45%);}
+.hero{max-width:1100px;margin:0 auto;padding:40px 26px 22px;text-align:center;position:relative;}
+.hero .seal{position:absolute;right:16px;top:30px;width:62px;height:62px;border:2px solid var(--seal);color:var(--seal);border-radius:6px;display:flex;align-items:center;justify-content:center;font-family:'STKaiti',serif;font-size:22px;transform:rotate(-4deg);opacity:.8;letter-spacing:0;writing-mode:vertical-rl;padding-top:6px;}
+.hero h1{font-family:'STKaiti','KaiTi',serif;font-size:clamp(30px,5vw,44px);color:var(--main);letter-spacing:.3em;text-indent:.3em;font-weight:600;margin:8px 0 12px;}
+.hero .sub{font-size:14px;color:var(--ink3);letter-spacing:.2em;}
+.hero .stat-row{margin-top:18px;display:flex;justify-content:center;gap:22px;flex-wrap:wrap;font-size:13px;color:var(--ink2);}
+.hero .stat-row b{color:var(--main);font-weight:600;font-size:18px;font-family:'STKaiti',serif;margin:0 4px;}
+.hr{max-width:1100px;margin:8px auto 4px;height:0;border-top:1px solid var(--rule);border-bottom:3px double var(--rule);}
+
+/* 分区 */
+.section{max-width:1100px;margin:0 auto;padding:26px 26px 6px;}
+.sec-head{display:flex;align-items:baseline;gap:12px;margin-bottom:12px;padding-bottom:8px;border-bottom:1px dashed var(--rule);}
+.sec-head h2{font-family:'STKaiti',serif;font-size:22px;color:var(--main);letter-spacing:.18em;margin:0;font-weight:600;}
+.sec-head .sec-sub{font-size:12.5px;color:var(--ink3);letter-spacing:.1em;}
+.sec-head .sec-count{margin-left:auto;font-size:13px;color:var(--gold);letter-spacing:.08em;}
+.sec-tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px;}
+.sec-tab{border:1px solid var(--rule);background:rgba(255,255,255,.5);color:var(--ink2);padding:5px 16px;border-radius:18px;font-size:13px;cursor:pointer;font-family:inherit;letter-spacing:.08em;transition:.25s;user-select:none;}
+.sec-tab:hover{border-color:var(--main);color:var(--main);}
+.sec-tab.on{background:var(--main);border-color:var(--main);color:#f7f1e3;}
+
+/* 名作网格 */
+.grid-deep{display:grid;grid-template-columns:repeat(auto-fill,minmax(155px,1fr));gap:10px;}
+.deep-card{border:1px solid var(--rule);border-radius:8px;background:var(--paper2);padding:12px 10px 10px;text-align:center;cursor:pointer;text-decoration:none;color:var(--ink);transition:.22s;display:block;position:relative;}
+.deep-card::before{content:'';position:absolute;left:8px;top:8px;width:6px;height:6px;background:var(--seal);border-radius:50%;opacity:.45;}
+.deep-card:hover{border-color:var(--seal);transform:translateY(-2px);box-shadow:0 6px 18px -10px rgba(139,47,47,.35);color:var(--main);}
+.deep-card .t{font-family:'STKaiti',serif;font-size:16px;font-weight:600;letter-spacing:.08em;margin-bottom:4px;}
+.deep-card .a{font-size:12px;color:var(--ink3);letter-spacing:.06em;}
+.deep-card .g{position:absolute;right:8px;bottom:6px;font-size:10px;color:var(--gold);letter-spacing:.08em;}
+
+/* 选本/全集 卡片 */
+.grid-anth{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:12px;}
+.anth-card{border:1px solid var(--rule);border-radius:10px;background:var(--paper2);padding:14px 16px 12px;cursor:pointer;transition:.25s;display:block;text-decoration:none;color:var(--ink);position:relative;overflow:hidden;}
+.anth-card:hover{border-color:var(--main);transform:translateY(-2px);box-shadow:0 8px 22px -12px rgba(139,47,47,.3);}
+.anth-card .anth-name{font-family:'STKaiti',serif;font-size:19px;color:var(--main);letter-spacing:.14em;font-weight:600;margin-bottom:4px;}
+.anth-card .anth-meta{font-size:12.5px;color:var(--ink3);letter-spacing:.08em;margin-bottom:8px;}
+.anth-card .anth-num{font-size:13px;color:var(--ink2);}
+.anth-card .anth-num b{color:var(--seal);font-family:'STKaiti',serif;font-size:16px;margin:0 3px;}
+.anth-card::after{content:'';position:absolute;right:-18px;bottom:-18px;width:70px;height:70px;background:radial-gradient(circle at center, rgba(168,134,47,.12), transparent 70%);border-radius:50%;}
+
+/* 列表视图（全集内部） */
+.bread{font-size:13px;color:var(--ink3);margin:0 0 12px;letter-spacing:.08em;}
+.bread a{color:var(--main);text-decoration:none;cursor:pointer;border-bottom:1px dashed var(--main);}
+.tools{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:0 0 12px;}
+.tools input{flex:1;min-width:220px;padding:9px 14px;border:1px solid var(--rule);border-radius:22px;background:var(--paper2);font-family:inherit;font-size:14px;color:var(--ink);outline:none;}
+.tools input:focus{border-color:var(--seal);}
+.list{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:8px;}
+.card{border:1px solid var(--rule);border-radius:7px;background:var(--paper2);padding:9px 13px;cursor:pointer;transition:.18s;}
+.card:hover{border-color:var(--seal);box-shadow:0 3px 10px -6px rgba(139,47,47,.25);background:#fffaf0;}
+.card .ct{font-size:15px;font-weight:600;color:var(--ink);margin-bottom:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.card .cl{font-size:12.5px;color:var(--ink3);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.card .cg{font-size:11px;color:var(--gold);margin-top:2px;letter-spacing:.08em;}
+.pager{display:flex;gap:8px;align-items:center;justify-content:center;margin:20px 0;font-size:13px;color:var(--ink2);flex-wrap:wrap;}
+.pager button{border:1px solid var(--rule);background:var(--paper2);border-radius:18px;padding:5px 14px;font-family:inherit;cursor:pointer;color:var(--ink2);transition:.2s;}
+.pager button:hover{border-color:var(--main);color:var(--main);}
+.pager button:disabled{opacity:.4;cursor:not-allowed;}
+.pager .cur{color:var(--main);font-weight:600;}
+
+.back-btn{display:inline-block;border:1px solid var(--main);color:var(--main);padding:4px 14px;border-radius:18px;text-decoration:none;font-size:13px;cursor:pointer;transition:.25s;letter-spacing:.08em;}
+.back-btn:hover{background:var(--main);color:#fff;}
+
+footer{max-width:1100px;margin:40px auto 0;padding:20px 26px 40px;text-align:center;color:var(--ink3);font-size:12.5px;letter-spacing:.18em;border-top:1px solid var(--rule);}
+.loading{text-align:center;color:var(--ink3);letter-spacing:.3em;padding:50px 0;font-family:'STKaiti',serif;font-size:16px;}
+
+/* 选本名篇筛选条 */
+.anth-filter{display:none;}
+.anth-filter.show{display:block;}
+</style>
 </head>
 <body>
-<nav class="nav scroll-unfold">
-  <div class="nav-logo"><div class="seal">詩</div><span>诗藏本体论</span></div>
-  <div class="nav-links">
-    <a href="../index.html">首页</a>
-    <a href="../shicang-jingdu/" class="active">诗</a>
-    <a href="../shicang-ci/">词</a>
-    <a href="../shicang-qu/">曲</a>
-    <a href="../shicang-chuci/">辞赋</a>
-    <a href="../shicang-poem/">名篇</a>
-    <a href="../shicang-poet-journey/">诗人</a>
-    <a href="../shicang-xinghe/">星河</a>
-    <a href="../shicang-cipai/">词牌</a>
-    <a href="../shicang-imagery/">意象</a>
-    <a href="../shicang-meipi/">眉批</a>
-    <a href="../shicang-duilian/">对弈</a>
-    <a href="../shicang-duilian-corpus/">楹联</a>
-    <a href="../shicang-map/">地图</a>
-    <a href="../shicang-yunshu/">韵书</a>
+
+<nav class="shicang-topnav">
+  <div class="shicang-topnav-inner">
+    <a href="/ShiCang/" class="shicang-logo">
+      <span class="shicang-logo-mark">詩</span>
+      <span>诗藏本体论</span>
+    </a>
+    <div class="shicang-nav-links shicang-desktop-links">
+      <a href="/ShiCang/" class="shicang-nav-link">首页</a>
+      <span class="shicang-nav-sep">|</span>
+      <a href="/ShiCang/shicang-jingdu/" class="shicang-nav-link active">名篇精读</a>
+      <span class="shicang-nav-sep">|</span>
+      <a href="/ShiCang/shicang-poet-journey/" class="shicang-nav-link">诗人轨迹</a>
+      <a href="/ShiCang/shicang-cipai/" class="shicang-nav-link">词牌</a>
+      <a href="/ShiCang/shicang-imagery/" class="shicang-nav-link">意象</a>
+      <a href="/ShiCang/shicang-meipi/" class="shicang-nav-link">眉批</a>
+      <a href="/ShiCang/shicang-duilian/" class="shicang-nav-link">对弈</a>
+      <a href="/ShiCang/shicang-duilian-corpus/" class="shicang-nav-link">楹联</a>
+      <a href="/ShiCang/shicang-map/" class="shicang-nav-link">地图</a>
+      <a href="/ShiCang/shicang-yunshu/" class="shicang-nav-link">韵书</a>
+      <a href="/ShiCang/shicang-xinghe/" class="shicang-nav-link">星河</a>
+    </div>
+    <button class="shicang-menu-btn" onclick="document.getElementById('shicangMobileNav').classList.toggle('open')">☰</button>
+    <div id="shicangMobileNav" class="shicang-mobile-menu">
+      <a href="/ShiCang/" class="shicang-nav-link">🏠 返回首页</a>
+      <div style="height:1px;background:rgba(30,26,21,.1);margin:6px 0;"></div>
+      <a href="/ShiCang/shicang-jingdu/" class="shicang-nav-link active">📖 名篇精读</a>
+      <div style="height:1px;background:rgba(30,26,21,.1);margin:6px 0;"></div>
+      <a href="/ShiCang/shicang-poet-journey/" class="shicang-nav-link">🧭 诗人轨迹</a>
+      <a href="/ShiCang/shicang-cipai/" class="shicang-nav-link">🎶 词牌格律</a>
+      <a href="/ShiCang/shicang-imagery/" class="shicang-nav-link">🌿 意象图谱</a>
+      <a href="/ShiCang/shicang-meipi/" class="shicang-nav-link">🖋️ 诗话眉批</a>
+      <a href="/ShiCang/shicang-duilian/" class="shicang-nav-link">🀄 对联斗巧</a>
+      <a href="/ShiCang/shicang-duilian-corpus/" class="shicang-nav-link">🧧 楹联集对</a>
+      <a href="/ShiCang/shicang-map/" class="shicang-nav-link">🗺️ 诗词地图</a>
+      <a href="/ShiCang/shicang-yunshu/" class="shicang-nav-link">📖 韵书查询</a>
+      <a href="/ShiCang/shicang-xinghe/" class="shicang-nav-link">✨ 诗河星海</a>
+    </div>
+      <a href="/ShiCang/shicang-jingdu/" class="shicang-nav-link active">📖 名篇精读</a>
+      <div style="height:1px;background:rgba(30,26,21,.1);margin:6px 0;"></div>
+      <a href="/ShiCang/shicang-poet-journey/" class="shicang-nav-link">🧭 诗人轨迹</a>
+      <a href="/ShiCang/shicang-cipai/" class="shicang-nav-link">🎶 词牌格律</a>
+      <a href="/ShiCang/shicang-imagery/" class="shicang-nav-link">🌿 意象图谱</a>
+      <a href="/ShiCang/shicang-meipi/" class="shicang-nav-link">🖋️ 诗话眉批</a>
+      <a href="/ShiCang/shicang-duilian/" class="shicang-nav-link">🀄 对联斗巧</a>
+      <a href="/ShiCang/shicang-duilian-corpus/" class="shicang-nav-link">🧧 楹联集对</a>
+      <a href="/ShiCang/shicang-map/" class="shicang-nav-link">🗺️ 诗词地图</a>
+      <a href="/ShiCang/shicang-yunshu/" class="shicang-nav-link">📖 韵书查询</a>
+      <a href="/ShiCang/shicang-xinghe/" class="shicang-nav-link">✨ 诗河星海</a>
+    </div>
   </div>
 </nav>
 
+<div class="hero">
+  <div class="seal">精讀</div>
+  <h1>名篇精读</h1>
+  <div class="sub">逐字注音 · 平仄韵脚 · 中英对译 · 竖排大字</div>
+  <div class="stat-row" id="statRow">
+    <span>深度名作<b id="sDeep">82</b>篇</span>
+    <span>历代选本<b id="sAnth">7046</b>篇</span>
+    <span>全本总集<b id="sColl">34万</b>首</span>
+  </div>
+</div>
+<div class="hr"></div>
 
-
-
-
-<header class="top">
-  <a class="back" href="../index.html">← 返回诗藏</a>
-  <h1>诗藏精读库</h1>
-  <span class="sub">唐诗文 · 逐字注音 · 平仄韵脚 · 句式精读</span>
-  <span class="spacer"></span>
-  <span class="stat" id="stat">加载中…</span>
-</header>
-
-<div class="layout">
-  <aside class="books" id="booklist"></aside>
-  <main class="body">
-    <div class="tools">
-      <input id="q" type="search" placeholder="在本集内检索诗题或诗句，如「明月」「送」"/>
-      <span class="hint" id="qhint"></span>
-    </div>
-    <div class="bookhead" id="bhead"></div>
-    <div class="list" id="list"></div>
-    <div class="pager" id="pager"></div>
-  </main>
+<!-- 一、深度名作 -->
+<div class="section" id="sec-deep">
+  <div class="sec-head">
+    <h2>深度名作</h2>
+    <span class="sec-sub">今译英译 · 注释典故 · 起承转合</span>
+    <span class="sec-count" id="cDeep"></span>
+  </div>
+  <div class="grid-deep" id="deepGrid"><div class="loading">展 卷 中…</div></div>
 </div>
 
-<div class="veil" id="veil"></div>
-<div class="reader" id="reader"></div>
+<!-- 二、历代选本名篇 -->
+<div class="section" id="sec-anth">
+  <div class="sec-head">
+    <h2>历代选本名篇</h2>
+    <span class="sec-sub">以历代权威选本为据</span>
+    <span class="sec-count" id="cAnth"></span>
+  </div>
+  <div class="grid-anth" id="anthGrid"><div class="loading">展 卷 中…</div></div>
+</div>
 
+<!-- 三、全集浏览（诗/词/曲/辞/文） -->
+<div class="section" id="sec-coll">
+  <div class="sec-head">
+    <h2>全集浏览</h2>
+    <span class="sec-sub">全唐诗·全宋词·全宋诗·全元曲·诗经·楚辞…</span>
+    <span class="sec-count" id="cColl"></span>
+  </div>
+  <div class="grid-anth" id="collGrid"><div class="loading">展 卷 中…</div></div>
+</div>
+
+<!-- 全集浏览容器（动态显示） -->
+<div class="section anth-filter" id="collView" style="display:none;">
+  <div class="bread" id="collBread"></div>
+  <div class="tools">
+    <input id="collSearch" placeholder="在本集中搜索标题、作者…">
+    <span class="back-btn" onclick="closeColl()">← 返回目录</span>
+  </div>
+  <div class="sec-tabs" id="volTabs"></div>
+  <div class="list" id="collList"><div class="loading">展 卷 中…</div></div>
+  <div class="pager" id="collPager"></div>
+</div>
+
+<footer>
+  诗藏本体论 · 名篇精读<br>
+  八百精选 · 万首名篇 · 三十万卷原文
+</footer>
+
+<!-- loader.js 兼容占位（不显示） -->
+<div id="bookList" style="display:none"></div>
+<div id="poemList" style="display:none"></div>
+<div id="poemView" style="display:none"></div>
+<div id="stats" style="display:none"></div>
+<div id="loading" style="display:none"></div>
+<input id="searchInput" type="hidden">
+<button id="searchBtn" style="display:none"></button>
+<div id="backBtn" style="display:none"></div>
+<div id="bookTitle" style="display:none"></div>
+<div id="bookMeta" style="display:none"></div>
+
+<script src="../romantic.js"></script>
 <script src="chartab.js"></script>
+<script src="loader.js"></script>
 <script>
-const DATA="../shicang_data/jingdu_lib/";
-const IDX="../shicang_data/jingdu_lib_index.json";
-let INDEX=null, CUR=null, WORKS=[], FILTERED=[], PAGE=1, PER=48;
-const TAB=window.SC_CHARTAB||{};
-const esc=s=>String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+const $ = id => document.getElementById(id);
+let CATALOG = null;
+const FMT = n => n >= 10000 ? (n/10000).toFixed(n>=100000?0:1).replace(/\.0$/,'')+'万' : n.toLocaleString();
 
-function charHtml(ch, isRhyme){
-  const info=TAB[ch]||"";
-  const [py,pz]=info.split("|");
-  const cls="ch"+(isRhyme?" rh":"");
-  return `<span class="${cls}"><span class="py">${py||""}</span>`+
-         `<span class="zi">${esc(ch)}</span>`+
-         `<span class="pz">${pz||""}</span></span>`;
+function renderDeep(list){
+  $('cDeep').textContent = '共 '+list.length+' 篇';
+  $('sDeep').textContent = list.length;
+  const g = $('deepGrid');
+  g.innerHTML = list.map(d => {
+    const genreTag = d.genre || '诗';
+    return '<a class="deep-card" href="../shicang-poem/'+d.file+'"><div class="t">'+d.title+'</div><div class="a">'+(d.dynasty||'')+'·'+(d.author||'')+'</div><div class="g">'+genreTag+'</div></a>';
+  }).join('');
 }
 
-function renderWork(w){
-  const unit=w.u, txt=w.l, rset=new Set(w.r||[]);
-  let lines=[];
-  if(unit&&unit>0){ for(let i=0;i<txt.length;i+=unit) lines.push(txt.substr(i,unit)); }
-  else{ lines=txt.split(/(?<=[。！？；])/).filter(s=>s.length); }
-  let poem="";
-  lines.forEach((ln,li)=>{
-    const isRh=rset.has(li+1);
-    let inner="";
-    for(const ch of ln){
-      const last=(ln[ln.length-1]===ch);
-      inner+=charHtml(ch, isRh && last);
-    }
-    const grp = unit===5?"2/3":(unit===7?"2/2/3":"");
-    poem+=`<div class="pl">${inner}</div>`;
-  });
-  const seg = unit===5?"五言":(unit===7?"七言":"");
-  return `
-    <div class="rh">
-      <h3>${esc(w.t)}</h3>
-      <span class="meta">${seg} · ${lines.length}句 · 韵部：<b>${esc(w.g||"未定")}</b>${w.ru?"（入声韵）":""}</span>
-      <span class="x" onclick="closeReader()">×</span>
-    </div>
-    <div class="rz">
-      <div><b>韵式</b>：${esc(w.d||"")}</div>
-      <div>押韵句：${(w.r||[]).map(n=>"第"+n+"句").join("　")||"—"}</div>
-    </div>
-    <div class="poem">${poem}</div>
-    <div class="segs">${unit>0?"句式：每句"+unit+"字（"+seg+"，切分 "+(unit===5?"2/3":"2/2/3")+"）":"句读切分"}　·　韵脚朱圈为押韵字</div>
-  `;
+function renderAnth(list){
+  const total = list.reduce((s,x)=>s+x.count,0);
+  $('cAnth').textContent = '共 '+total.toLocaleString()+' 篇';
+  $('sAnth').textContent = total.toLocaleString();
+  const g = $('anthGrid');
+  g.innerHTML = list.map(a => {
+    return '<a class="anth-card" href="view.html?anth='+a.key+'"><div class="anth-name">'+a.name+'</div><div class="anth-meta">'+(a.dynasty||'')+'编选 · '+a.genre+'</div><div class="anth-num"><b>'+a.count.toLocaleString()+'</b>篇</div></a>';
+  }).join('');
 }
 
-function openWork(i){
-  const w=FILTERED[i];
-  document.getElementById("reader").innerHTML=renderWork(w);
-  document.getElementById("reader").classList.add("on");
-  document.getElementById("veil").classList.add("on");
+function renderColl(list){
+  const total = list.reduce((s,x)=>s+x.count,0);
+  $('cColl').textContent = '共 '+FMT(total)+' 首';
+  $('sColl').textContent = FMT(total);
+  // 排序: 四大总集在前
+  const ORDER = ['cpo_tang','cpo_songci','cpo_songshi','cpo_yuanqu','cpo_shijing','cpo_chuci','cpo_huajianji','cpo_nalan','cpo_nantang','cpo_shuimo','cpo_caocao','cpo_youmengying','cpo_lunyu','cpo_mengzi'];
+  list.sort((a,b) => ORDER.indexOf(a.id) - ORDER.indexOf(b.id));
+  const g = $('collGrid');
+  g.innerHTML = list.map(c => {
+    return '<div class="anth-card" onclick="openColl(\''+c.id+'\')"><div class="anth-name">'+c.title+'</div><div class="anth-meta">'+(c.dynasty||'')+' · '+c.genre+'</div><div class="anth-num"><b>'+FMT(c.count)+'</b>首</div></div>';
+  }).join('');
 }
-function closeReader(){
-  document.getElementById("reader").classList.remove("on");
-  document.getElementById("veil").classList.remove("on");
-}
-document.getElementById("veil").onclick=closeReader;
-document.addEventListener("keydown",e=>{if(e.key==="Escape")closeReader();});
 
-function renderList(){
-  const el=document.getElementById("list");
-  const total=FILTERED.length, pages=Math.max(1,Math.ceil(total/PER));
-  if(PAGE>pages)PAGE=pages;
-  const st=(PAGE-1)*PER, seg=FILTERED.slice(st,st+PER);
-  if(!seg.length){el.innerHTML='<div class="nores">未找到匹配的诗作</div>';}
-  else{
-    el.innerHTML=seg.map((w,k)=>{
-      const i=st+k;
-      const preview=w.l.slice(0,22);
-      return `<div class="card" onclick="openWork(${i})">
-        <div class="ct">${esc(w.t)}</div>
-        <div class="cl">${esc(preview)}…</div>
-        <div class="cg">${w.u}言 · 韵：${esc(w.g||"—")}</div>
-      </div>`;
-    }).join("");
+// ---- 全集浏览 ----
+let CUR_COLL = null;
+let CUR_VOL = 0;
+let CUR_PAGE = 0;
+const PAGE_SIZE = 100;
+let CUR_WORKS = [];
+let FILTERED = [];
+let VOL_META = []; // 从 index.json 读的 volumes 列表
+
+function closeColl(){
+  $('collView').style.display='none';
+  $('sec-deep').style.display='';
+  $('sec-anth').style.display='';
+  $('sec-coll').style.display='';
+  window.scrollTo({top:$('#sec-coll').offsetTop-60,behavior:'smooth'});
+}
+
+async function openColl(id){
+  const meta = CATALOG.collections.find(c=>c.id===id);
+  if(!meta) return;
+  CUR_COLL = meta;
+  CUR_VOL = 0; CUR_PAGE = 0;
+  $('sec-deep').style.display='none';
+  $('sec-anth').style.display='none';
+  $('sec-coll').style.display='none';
+  $('collView').style.display='block';
+  $('collBread').innerHTML = '<a onclick="closeColl()">← 名篇精读</a>　/　<b style="color:var(--main);font-family:STKaiti,serif;letter-spacing:.15em;font-size:15px;">'+meta.title+'</b>　<span style="color:var(--ink3);">'+meta.dynasty+' · '+meta.genre+' · '+FMT(meta.count)+'首</span>';
+  $('collSearch').value='';
+  $('collList').innerHTML = '<div class="loading">加载卷目…</div>';
+
+  // 读取 index.json 获取 volumes
+  let idx;
+  try{
+    idx = await fetch('../shicang_data/jingdu_lib/'+id+'_index.json').then(r=>r.json());
+  }catch(e){
+    $('collList').innerHTML = '<div class="loading">卷目加载失败</div>'; return;
   }
-  const pg=document.getElementById("pager");
-  pg.innerHTML=`<button ${PAGE<=1?"disabled":""} onclick="go(${PAGE-1})">上一页</button>
-    <span>第 ${PAGE} / ${pages} 页　共 ${total} 首</span>
-    <button ${PAGE>=pages?"disabled":""} onclick="go(${PAGE+1})">下一页</button>`;
-}
-function go(p){PAGE=p;renderList();window.scrollTo({top:0,behavior:"smooth"});}
-
-function applyFilter(){
-  const q=document.getElementById("q").value.trim();
-  FILTERED = q ? WORKS.filter(w=>w.t.includes(q)||w.l.includes(q)) :
-                 WORKS.slice();
-  PAGE=1;
-  document.getElementById("qhint").textContent = q?`命中 ${FILTERED.length} 首`:"";
-  renderList();
-}
-document.getElementById("q").addEventListener("input",()=>{
-  clearTimeout(window._t);window._t=setTimeout(applyFilter,180);
-});
-
-async function openBook(slug){
-  document.querySelectorAll("aside .bk").forEach(x=>{
-    x.classList.toggle("on",x.dataset.slug===slug);
-  });
-  // 查找书籍元数据
-  const bmeta = INDEX.books.find(b=>b.slug===slug);
-  WORKS = [];                         // 修复：原为 let WORKS，遮蔽全局变量，导致 applyFilter 读到空数组、列表恒为 0 首
-  let bookTitle = slug, bookCat = '';
-  const _bh=document.getElementById("bhead"), _lst=document.getElementById("list");
-  if(bmeta && bmeta.indexPath){
-    // 多分卷格式（chinese-poetry等）
-    const idxR = await fetch(DATA + bmeta.indexPath);
-    const bookIdx = await idxR.json();
-    bookTitle = bookIdx.title;
-    bookCat = bookIdx.category || bmeta.cat || '';
-    const _vols = bookIdx.volumes || [];
-    const _push = (vd)=>{ (vd||[]).forEach(p=>{
-        if(p.t!==undefined){ WORKS.push(p); }
-        else{
-          const ls=p.lines||p.paragraphs||[];
-          WORKS.push({t:p.title||'',l:(Array.isArray(ls)?ls.join(''):String(ls)),
-                      u:(Array.isArray(ls)&&ls[0])?ls[0].length:0,g:null,r:[],d:'',ru:0});
+  // 统一取 volumes 列表
+  let vols = [];
+  if (idx.volumes && Array.isArray(idx.volumes)){
+    let off=0;
+    vols = idx.volumes.map(v => {
+      if(typeof v==='string'){
+        const o = {file:'../shicang_data/jingdu_lib/'+v, count:1000, start:off, label:''}; off += 1000; return o;
+      }
+      const cnt = v.count||1000;
+      const o = {file:'../shicang_data/jingdu_lib/'+(v.file||v.path||''), count:cnt, start:off, label:v.label||''};
+      off += cnt; return o;
+    });
+  } else if (idx.category && Array.isArray(idx.category)){
+    let off=0;
+    for(const c of idx.category){
+      if(c.file){ vols.push({file:'../shicang_data/jingdu_lib/'+c.file, count:c.count||1000, start:off, label:c.title||c.name||''}); off += c.count||1000; }
+      else if(c.chapters){
+        for(const ch of c.chapters||[]){
+          if(ch.file){ vols.push({file:'../shicang_data/jingdu_lib/'+ch.file, count:ch.count||1000, start:off, label:ch.title||''}); off += ch.count||1000; }
         }
-      }); };
-    const _tip=(done)=>{
-      if(_bh) _bh.innerHTML=`<h2>${esc(bookTitle)}</h2><div class="m">${esc(bookCat)} · 展卷中… ${done}/${_vols.length} 卷（已载 ${WORKS.length.toLocaleString()} 首）</div>`;
-      if(_lst) _lst.innerHTML='<div class="nores">展卷中…</div>';
-      const _pg=document.getElementById("pager"); if(_pg) _pg.innerHTML="";
-    };
-    _tip(0);
-    // 每批 8 卷并发加载，渐进渲染：先载先看，不必等全部卷完成
-    const _BATCH = 8;
-    let _done = 0;
-    for(let i=0;i<_vols.length;i+=_BATCH){
-      const _batch=_vols.slice(i,i+_BATCH);
-      const _res=await Promise.all(_batch.map(async v=>{
-        try{ const r=await fetch(DATA+v); return await r.json(); }
-        catch(e){ console.warn('加载分卷失败', v, e); return []; }
-      }));
-      _res.forEach(_push);
-      _done += _batch.length;
-      window.WORKS = WORKS;
-      if(_done < _vols.length) _tip(_done);
-      applyFilter();
+      }
     }
-  }else{
-    // 原有单文件格式
-    const r=await fetch(DATA+slug+".json");const d=await r.json();
-    WORKS=d.works||[];
-    bookTitle = d.book;
-    bookCat = d.cat;
   }
-  CUR=slug;
-  window.WORKS=WORKS;
-  document.getElementById("bhead").innerHTML=
-    `<h2>${esc(bookTitle)}</h2><div class="m">${esc(bookCat)} · 共 ${WORKS.length.toLocaleString()} 首精读</div>`;
-  document.getElementById("q").value="";
+  // 兜底：单文件
+  if(vols.length===0){
+    const guesses = ['../shicang_data/jingdu_lib/'+id+'.json',
+                     '../shicang_data/jingdu_lib/'+id+'/'+id+'.json'];
+    vols = [{file:guesses[0], count:meta.count}];
+  }
+  VOL_META = vols;
+
+  // 卷标签
+  const tabs = $('volTabs');
+  tabs.innerHTML = '';
+  if(vols.length>1){
+    vols.forEach((v,i)=>{
+      const b = document.createElement('button');
+      b.className = 'sec-tab'+(i===0?' on':'');
+      b.textContent = v.label || ('卷'+(i+1));
+      b.onclick = ()=>{CUR_VOL=i;CUR_PAGE=0;document.querySelectorAll('#volTabs .sec-tab').forEach(x=>x.classList.remove('on'));b.classList.add('on');loadVol();};
+      tabs.appendChild(b);
+    });
+  } else {
+    tabs.innerHTML = '<span style="color:var(--ink3);font-size:13px;letter-spacing:.1em;">全集</span>';
+  }
+  loadVol();
+}
+
+async function loadVol(){
+  const list = $('collList');
+  list.innerHTML = '<div class="loading">加载中…</div>';
+  const v = VOL_META[CUR_VOL] || VOL_META[0];
+  if(!v){ list.innerHTML='<div class="loading">无数据</div>'; return; }
+  try{
+    const data = await fetch(v.file).then(r=>{
+      if(!r.ok) throw new Error('http '+r.status);
+      return r.json();
+    });
+    CUR_WORKS = Array.isArray(data) ? data : (data.works||data.poems||data.content||[]);
+  }catch(e){
+    list.innerHTML = '<div class="loading">加载失败：'+v.file+'</div>'; return;
+  }
   applyFilter();
 }
 
-async function init(){
-  const r=await fetch(IDX);const idx=await r.json();
-  INDEX=idx;
-  document.getElementById("stat").textContent=
-    `${idx.books.length} 部典籍 · ${idx.total.toLocaleString()} 首诗文`;
-  const aside=document.getElementById("booklist");
-  const cats={};
-  idx.books.forEach(b=>(cats[b.cat]=cats[b.cat]||[]).push(b));
-  let html="";
-  for(const c in cats){
-    html+=`<div class="cat">${c} · ${cats[c].length}部</div>`;
-    cats[c].sort((a,b)=>b.count-a.count);
-    html+=cats[c].map(b=>
-      `<div class="bk" data-slug="${b.slug}" onclick="openBook('${b.slug}')">
-        <span>${esc(b.book)}</span><span class="n">${b.count}</span></div>`).join("");
-  }
-  aside.innerHTML=html;
-  const first=idx.books.slice().sort((a,b)=>b.count-a.count)[0];
-  openBook(first.slug);
+function applyFilter(){
+  const q = $('collSearch').value.trim();
+  FILTERED = q ? CUR_WORKS.filter(w => {
+    const t = (w.t||w.title||'')+(w.a||w.author||'');
+    return t.indexOf(q)>=0;
+  }) : CUR_WORKS;
+  CUR_PAGE = 0;
+  renderPage();
 }
-init();
+
+function renderPage(){
+  const total = FILTERED.length;
+  const pages = Math.max(1, Math.ceil(total/PAGE_SIZE));
+  if(CUR_PAGE>=pages) CUR_PAGE = pages-1;
+  const start = CUR_PAGE*PAGE_SIZE;
+  const slice = FILTERED.slice(start, start+PAGE_SIZE);
+  const list = $('collList');
+  list.innerHTML = slice.map((w,i)=>{
+    const t = w.t || w.title || '(无标题)';
+    const a = w.a || w.author || '';
+    // 取首行/首句预览
+    let l = '';
+    if(w.l){
+      if(Array.isArray(w.l)) l = (w.l[0]||'').slice(0,20);
+      else l = String(w.l).slice(0,20);
+    }
+    // 构造 view 链接
+    const idx = CUR_WORKS.indexOf(w);
+    return '<div class="card" onclick="openWork(\''+CUR_COLL.id+'\','+idx+')"><div class="ct">'+t+(a?'　<span style="color:var(--ink3);font-size:13px;font-weight:normal;">'+a+'</span>':'')+'</div><div class="cl">'+l+'</div><div class="cg">'+CUR_COLL.dynasty+' · '+CUR_COLL.genre+'</div></div>';
+  }).join('');
+  // pager
+  const pg = $('collPager');
+  if(pages<=1){ pg.innerHTML=''; return; }
+  let html = '<button onclick="goPage('+(CUR_PAGE-1)+')"'+(CUR_PAGE===0?' disabled':'')+'>← 上一页</button>';
+  html += '<span>第 <span class="cur">'+(CUR_PAGE+1)+'</span> / '+pages+' 页 · 共 '+total.toLocaleString()+' 首</span>';
+  html += '<button onclick="goPage('+(CUR_PAGE+1)+')"'+(CUR_PAGE===pages-1?' disabled':'')+'>下一页 →</button>';
+  pg.innerHTML = html;
+}
+function goPage(p){ CUR_PAGE=p; renderPage(); window.scrollTo({top:$('collBread').offsetTop-70,behavior:'smooth'}); }
+
+function openWork(collId, idx){
+  // 跳转到统一 view 页，用 src=collId&i=idx 参数
+  location.href = 'view.html?src='+collId+'&i='+idx;
+}
+
+$('collSearch').addEventListener('input', ()=>{ clearTimeout(window._st); window._st=setTimeout(applyFilter,200); });
+
+// ---- 初始化 ----
+fetch('../shicang_data/jingdu/catalog.json').then(r=>r.json()).then(c=>{
+  CATALOG = c;
+  renderDeep(c.deep);
+  renderAnth(c.anth);
+  renderColl(c.collections);
+}).catch(e=>{
+  console.error(e);
+});
+
+// 默认状态下首页锚点处理
 </script>
-<div class="back-to-top" id="backToTop">歸</div>
-<div class="idle-seal" onclick="togglePetals()" title="点此开/关落花">閑章</div>
-<div class="colophon">诗藏本体论 · 岁在丙午 · 辑于西泠</div>
-<script>
-window.addEventListener('scroll', ()=>{
-  const btn = document.getElementById('backToTop');
-  if(btn) btn.classList.toggle('show', window.scrollY>300);
-});
-document.addEventListener('click', (e)=>{
-  if(e.target.id === 'backToTop') window.scrollTo({top:0,behavior:'smooth'});
-});
-let petalsOn = localStorage.getItem('petals')==='true';
-let petalTimer = null;
-function togglePetals(){
-  petalsOn = !petalsOn;
-  localStorage.setItem('petals', petalsOn);
-  petalsOn ? startPetals() : stopPetals();
-}
-function startPetals(){
-  if(petalTimer) return;
-  petalTimer = setInterval(()=>{
-    const p = document.createElement('div');
-    p.className = 'petal';
-    p.style.left = Math.random()*100 + 'vw';
-    p.style.animationDuration = (7 + Math.random()*7) + 's';
-    const s = 6 + Math.random()*8;
-    p.style.width = p.style.height = s + 'px';
-    document.body.appendChild(p);
-    setTimeout(()=>p.remove(), 15000);
-  }, 700);
-}
-function stopPetals(){
-  clearInterval(petalTimer);
-  petalTimer = null;
-}
-if(petalsOn) startPetals();
-// 夜读模式兼容
-document.querySelectorAll('.night-btn, [onclick*="night"]').forEach(btn=>{
-  btn.addEventListener('click', ()=>document.body.classList.toggle('night'));
-});
-// 卷轴入场
-document.addEventListener('DOMContentLoaded', ()=>{
-  document.querySelector('.container, .main, .content')?.classList.add('scroll-unfold');
-});
-</script>
-<script src="../romantic.js"></script>
 </body>
 </html>

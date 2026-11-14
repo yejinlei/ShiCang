@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>名篇精读 · 诗藏</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='5' fill='%238b2f2f'/%3E%3Ctext x='16' y='24' font-size='21' fill='%23f7f1e3' text-anchor='middle' font-family='serif'%3E%E8%A9%A9%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../global.css">
+<style>
+.shicang-topnav{
+    position:sticky;top:0;z-index:999;
+    backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+    background:rgba(246,241,231,.92);
+    border-bottom:1px solid rgba(30,26,21,.11);
+    box-shadow:0 2px 12px rgba(30,26,21,.04);
+    font-family:'PingFang SC','HarmonyOS Sans SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;
+  }
+  .shicang-topnav-inner{
+    max-width:1200px;margin:0 auto;padding:0 16px;
+    height:52px;display:flex;align-items:center;justify-content:space-between;gap:12px;
+  }
+  .shicang-logo{
+    display:flex;align-items:center;gap:8px;text-decoration:none;color:#1e1a15;font-weight:700;
+    font-size:16px;font-family:'Songti SC','STSong','Noto Serif CJK SC',serif;
+  }
+  .shicang-logo-mark{
+    width:28px;height:28px;border-radius:6px;
+    background:linear-gradient(150deg,#ae3a2b,#c85a49);color:#fff;
+    display:flex;align-items:center;justify-content:center;
+    font-size:16px;box-shadow:inset 0 0 0 1px rgba(255,255,255,.25);
+  }
+  .shicang-nav-links{
+    display:flex;gap:4px;align-items:center;overflow-x:auto;scrollbar-width:none;
+  }
+  .shicang-nav-links::-webkit-scrollbar{display:none;}
+  .shicang-nav-link{
+    font-size:13px;color:#4b4237;text-decoration:none;padding:6px 10px;border-radius:999px;white-space:nowrap;
+    transition:all .2s;
+  }
+  .shicang-nav-link:hover{color:#ae3a2b;background:rgba(174,58,43,.07);}
+  .shicang-nav-link.active{color:#ae3a2b;background:rgba(174,58,43,.1);}
+  .shicang-nav-sep{font-size:11px;color:#8a7f6d;padding:0 4px;}
+  .shicang-menu-btn{display:none;font-size:20px;background:transparent;border:none;cursor:pointer;padding:6px;color:#1e1a15;}
+  .shicang-mobile-menu{
+    display:none;position:absolute;top:52px;left:0;right:0;
+    background:rgba(246,241,231,.98);backdrop-filter:blur(14px);
+    border-bottom:1px solid rgba(30,26,21,.11);padding:10px 16px;flex-direction:column;gap:4px;
+  }
+  .shicang-mobile-menu.open{display:flex;}
+  .shicang-mobile-menu .shicang-nav-link{padding:9px 10px;border-radius:8px;}
+  @media(max-width:1024px){
+    .shicang-desktop-links{display:none !important;}
+    .shicang-menu-btn{display:block !important;}
+  }
+
+/* ===== 详情页 ===== */
+:root{--main:#8b2f2f;--ink:#2b2620;--ink2:#5a4f41;--ink3:#8a7554;--rule:#d8c7a6;--seal:#a8322f;}
+.topbar{max-width:880px;margin:0 auto;padding:20px 26px 0;display:flex;
+  justify-content:space-between;align-items:center;font-size:13px;color:var(--ink3);letter-spacing:.06em;position:relative;z-index:2;}
+.topbar .back{border:1px solid var(--main);color:var(--main);padding:3px 14px;border-radius:20px;
+  text-decoration:none;transition:.3s;}
+.topbar .back:hover{background:var(--main);color:#fff;}
+.head{max-width:880px;margin:0 auto;padding:24px 26px 4px;text-align:center;position:relative;z-index:2;}
+.head .seal{position:absolute;right:26px;top:30px;width:52px;height:52px;border:2px solid var(--seal);
+  color:var(--seal);border-radius:6px;display:flex;align-items:center;justify-content:center;
+  font-family:'STKaiti',serif;font-size:19px;transform:rotate(-4deg);opacity:.82;}
+.head h1{font-family:'STKaiti','KaiTi',serif;font-size:clamp(26px,4.4vw,38px);letter-spacing:.2em;
+  text-indent:.2em;color:var(--main);font-weight:600;margin:6px 0 10px;}
+.head .sub{font-size:13.5px;color:var(--ink3);letter-spacing:.16em;}
+.head .sub .dot{margin:0 8px;opacity:.5;}
+.head .from{margin-top:10px;font-size:12.5px;color:#8b5a2b;letter-spacing:.12em;}
+.head .from a{color:var(--main);text-decoration:none;border-bottom:1px dashed var(--main);}
+.hr{max-width:880px;margin:18px auto 4px;height:0;border-top:1px solid var(--rule);
+  border-bottom:3px double var(--rule);position:relative;z-index:2;}
+.controls{max-width:880px;margin:8px auto 0;padding:10px 26px 0;display:flex;flex-wrap:wrap;
+  gap:9px;justify-content:center;position:relative;z-index:2;}
+.sw{border:1px solid var(--rule);background:rgba(255,255,255,.55);color:var(--ink2);
+  padding:5px 15px;border-radius:20px;font-size:13px;cursor:pointer;font-family:inherit;
+  letter-spacing:.08em;transition:.26s;user-select:none;}
+.sw:hover{border-color:var(--main);color:var(--main);}
+.sw.on{background:var(--main);border-color:var(--main);color:#f7f1e3;box-shadow:0 3px 12px -5px var(--main);}
+main{max-width:880px;margin:0 auto;padding:22px 26px 60px;position:relative;z-index:2;}
+.poem{text-align:center;}
+.pline{margin:0 0 16px;}
+.chline{display:inline-block;}
+.ch{display:inline-block;position:relative;margin:0 3px;}
+.ch .zi{font-family:'STKaiti','KaiTi',serif;font-size:25px;color:var(--ink);letter-spacing:.04em;}
+.ch .py{position:absolute;top:-15px;left:50%;transform:translateX(-50%);font-size:10.5px;
+  color:#a08a66;font-family:'Times New Roman',serif;letter-spacing:.02em;opacity:0;transition:.2s;}
+.ch .pz{position:absolute;bottom:-15px;left:50%;transform:translateX(-50%);font-size:10px;
+  color:#9a8560;opacity:0;transition:.2s;}
+/* 英文翻译 */
+.en-lines{margin:28px auto 0;max-width:640px;padding:18px 22px 20px;
+  background:linear-gradient(180deg,rgba(255,255,255,.55),rgba(255,255,255,.3));
+  border:1px solid var(--rule);border-radius:8px;opacity:0;max-height:0;overflow:hidden;
+  transition:opacity .35s,max-height .4s ease,padding .35s,margin .35s;}
+body.opt-en .en-lines{opacity:1;max-height:4000px;padding:18px 22px 20px;margin-top:28px;}
+.en-head{font-family:'STKaiti',serif;font-size:15px;color:var(--seal);letter-spacing:.12em;
+  text-align:center;padding-bottom:10px;margin-bottom:12px;border-bottom:1px dashed var(--rule);}
+.en-head .en-title{display:block;font-family:'Cormorant Garamond','EB Garamond','Times New Roman',serif;
+  font-size:18px;font-style:italic;color:var(--ink);letter-spacing:.03em;margin-top:4px;font-weight:600;}
+.en-head .en-author{font-size:12.5px;color:var(--ink3);font-family:'Times New Roman',serif;letter-spacing:.08em;margin-top:2px;}
+.en-line{font-family:'Cormorant Garamond','EB Garamond','Times New Roman',serif;
+  font-size:15px;line-height:1.75;color:#3a3227;text-align:center;letter-spacing:.01em;
+  font-style:italic;margin:0 0 6px;}
+.en-note{margin-top:14px;padding-top:10px;border-top:1px dashed var(--rule);text-align:center;
+  font-size:11.5px;color:#a08a66;letter-spacing:.08em;}
+body.opt-py .ch .py{opacity:1;}
+body.opt-pz .ch .pz{opacity:1;}
+body.opt-py .pline{margin-bottom:26px;}
+body.opt-pz .pline{margin-bottom:26px;}
+.ch.is-rhyme .zi{color:var(--main);}
+body.opt-rhyme .ch.is-rhyme .zi{background:rgba(139,47,47,.09);border-radius:5px;padding:0 2px;}
+.ch.is-rhyme .pz{color:var(--main);}
+.note-line{margin:26px auto 6px;max-width:620px;font-family:'STKaiti',serif;font-size:14.5px;
+  color:#7a6a52;letter-spacing:.06em;border-top:1px dashed var(--rule);padding-top:14px;text-align:center;}
+.note-line .lab{color:var(--seal);}
+.deepbox{margin:30px auto 0;max-width:620px;text-align:center;}
+.deepbox a{display:inline-block;border:1px solid var(--main);color:var(--main);padding:8px 22px;
+  border-radius:22px;text-decoration:none;font-size:13.5px;letter-spacing:.1em;transition:.3s;}
+.deepbox a:hover{background:var(--main);color:#f7f1e3;}
+.pn{max-width:880px;margin:34px auto 0;padding:20px 26px 0;display:flex;justify-content:space-between;
+  gap:14px;border-top:1px solid var(--rule);position:relative;z-index:2;}
+.pn a{flex:1;text-decoration:none;color:var(--ink2);font-size:13.5px;letter-spacing:.04em;
+  border:1px solid #e3d7bd;border-radius:10px;padding:12px 16px;transition:.28s;background:rgba(255,255,255,.5);}
+.pn a:hover{border-color:var(--main);color:var(--main);transform:translateY(-2px);}
+.pn a span{display:block;font-size:11px;color:#a08a66;letter-spacing:.1em;margin-bottom:3px;}
+.pn a.next{text-align:right;}
+.pn .ph{flex:1;}
+body.vt .chline{writing-mode:vertical-rl;text-orientation:upright;}
+body.vt .line-v{display:inline-block;}
+body.vt .poem{display:flex;flex-wrap:wrap;justify-content:center;gap:4px;}
+body.vt .pline{margin:0 4px;}
+body.vt .ch{display:block;margin:5px 0;}
+body.vt .ch .py{top:50%;left:auto;right:-14px;transform:translateY(-50%);}
+body.vt .ch .pz{bottom:auto;left:-14px;top:50%;transform:translateY(-50%);}
+body.vt .en-lines{writing-mode:horizontal-tb;max-width:520px;margin:22px auto 0;}
+body.big .ch .zi{font-size:31px;}
+body.big .pline{margin-bottom:20px;}
+footer{max-width:880px;margin:0 auto;padding:26px;text-align:center;color:#a08a66;
+  font-size:12.5px;letter-spacing:.14em;position:relative;z-index:2;}
+.loading{text-align:center;color:#a08a66;letter-spacing:.3em;padding:70px 0;font-family:'STKaiti',serif;}
+</style>
+</head>
+<body class="opt-py opt-rhyme">
+<nav class="shicang-topnav">
+  <div class="shicang-topnav-inner">
+    <a href="/ShiCang/" class="shicang-logo">
+      <span class="shicang-logo-mark">诗</span>
+      <span>诗藏本体论</span>
+    </a>
+    <div class="shicang-nav-links shicang-desktop-links">
+      <a href="/ShiCang/" class="shicang-nav-link">首页</a>
+      <span class="shicang-nav-sep">|</span>
+      <a href="/ShiCang/shicang-jingdu/" class="shicang-nav-link active">名篇精读</a>
+      <span class="shicang-nav-sep">|</span>
+      <a href="/ShiCang/shicang-poet-journey/" class="shicang-nav-link">诗人轨迹</a>
+      <a href="/ShiCang/shicang-cipai/" class="shicang-nav-link">词牌</a>
+      <a href="/ShiCang/shicang-imagery/" class="shicang-nav-link">意象</a>
+      <a href="/ShiCang/shicang-meipi/" class="shicang-nav-link">眉批</a>
+      <a href="/ShiCang/shicang-duilian/" class="shicang-nav-link">对弈</a>
+      <a href="/ShiCang/shicang-duilian-corpus/" class="shicang-nav-link">楹联</a>
+      <a href="/ShiCang/shicang-map/" class="shicang-nav-link">地图</a>
+      <a href="/ShiCang/shicang-yunshu/" class="shicang-nav-link">韵书</a>
+      <a href="/ShiCang/shicang-xinghe/" class="shicang-nav-link">星河</a>
+    </div>
+    <button class="shicang-menu-btn" onclick="document.getElementById('shicangMobileNav').classList.toggle('open')">☰</button>
+    <div id="shicangMobileNav" class="shicang-mobile-menu">
+      <a href="/ShiCang/" class="shicang-nav-link">🏠 返回首页</a>
+      <div style="height:1px;background:rgba(30,26,21,.1);margin:6px 0;"></div>
+      <a href="/ShiCang/shicang-jingdu/" class="shicang-nav-link active">📖 名篇精读</a>
+      <div style="height:1px;background:rgba(30,26,21,.1);margin:6px 0;"></div>
+      <a href="/ShiCang/shicang-poet-journey/" class="shicang-nav-link">🧭 诗人轨迹</a>
+      <a href="/ShiCang/shicang-cipai/" class="shicang-nav-link">🎶 词牌格律</a>
+      <a href="/ShiCang/shicang-imagery/" class="shicang-nav-link">🌿 意象图谱</a>
+      <a href="/ShiCang/shicang-meipi/" class="shicang-nav-link">🖋️ 诗话眉批</a>
+      <a href="/ShiCang/shicang-duilian/" class="shicang-nav-link">🀄 对联斗巧</a>
+      <a href="/ShiCang/shicang-duilian-corpus/" class="shicang-nav-link">🧧 楹联集对</a>
+      <a href="/ShiCang/shicang-map/" class="shicang-nav-link">🗺️ 诗词地图</a>
+      <a href="/ShiCang/shicang-yunshu/" class="shicang-nav-link">📖 韵书查询</a>
+      <a href="/ShiCang/shicang-xinghe/" class="shicang-nav-link">✨ 诗河星海</a>
+    </div>
+  </div>
+</nav>
+
+<div class="topbar">
+  <a class="back" href="index.html">← 名篇精读</a>
+  <span id="anth-name">诗藏 · 名篇精读</span>
+</div>
+<div class="head">
+  <div class="seal" id="seal">選</div>
+  <h1 id="h1">…</h1>
+  <div class="sub" id="sub"></div>
+  <div class="from" id="from"></div>
+</div>
+<div class="hr"></div>
+<div class="controls">
+  <button class="sw on" data-opt="opt-py">注音</button>
+  <button class="sw" data-opt="opt-pz">平仄</button>
+  <button class="sw on" data-opt="opt-rhyme">韵脚</button>
+  <button class="sw" data-opt="opt-en">英译</button>
+  <button class="sw" data-opt="vt">竖排</button>
+  <button class="sw" data-opt="big">大字</button>
+</div>
+<main>
+  <div class="poem" id="poem"><div class="loading">展 卷 中…</div></div>
+  <div class="en-lines" id="enBox" style="display:none">
+    <div class="en-head">
+      <span>Ｅｎｇｌｉｓｈ　Ｔｒａｎｓｌａｔｉｏｎ</span>
+      <span class="en-title" id="enTitle"></span>
+      <span class="en-author" id="enAuthor"></span>
+    </div>
+    <div id="enLines"></div>
+    <div class="en-note">Translated by ShiCang · 诗藏自译</div>
+  </div>
+  <div class="note-line" id="note" style="display:none"></div>
+  <div class="deepbox" id="deepbox" style="display:none"></div>
+</main>
+<div class="pn" id="pn"></div>
+<footer>诗藏本体论 · 名篇精读</footer>
+
+<script src="../romantic.js"></script>
+<script src="chartab.js"></script>
+
+<script>
+const $ = id => document.getElementById(id);
+const params = new URLSearchParams(location.search);
+const slug = params.get('s') || '';
+const srcParam = params.get('src') || '';
+const iParam = parseInt(params.get('i') || '0', 10);
+const aslug = slug.split('_')[0];
+let CHAR = {}, POEMS = [], CUR = null, MODE = 'anth'; // anth | coll
+
+const ANTH_SLUG = {qianjiashi:'千家诗',songci300:'宋词三百首',jumiaohaoci:'绝妙好词',
+  jin300:'近三百年名家词选',wanshou:'唐人万首绝句选',yuanshi:'元诗别裁集',
+  mingshi:'明诗别裁集',qingshi:'清诗别裁集'};
+
+function pick(ch){
+  const raw = CHAR[ch];
+  if(!raw) return null;
+  if(typeof raw === 'object') return raw;
+  // string format: "pinyin|tone|rhyme"
+  const parts = String(raw).split('|');
+  return { pinyin: parts[0]||'', tone: parts[1]||'', rhyme: parts[2]||'' };
+}
+
+// 将全本数据（{t,a,l,u,g,r,...}）归一化为 view 渲染所需格式 {title,author,dynasty,genre,body,subtitle}
+function normalizeWork(w, meta){
+  const title = w.t || w.title || '(无题)';
+  const author = w.a || w.author || '';
+  let body = [];
+  if(Array.isArray(w.l)) body = w.l.filter(x=>x);
+  else if(w.l) body = String(w.l).split(/(?<=[，。！？；：、])/);
+  else if(w.text) {
+    // 按句末标点断句
+    const t = w.text.replace(/\s+/g,'');
+    body = t.match(/[^，。！？；：、,.!?]+[，。！？；：、,.!?]?/g) || [t];
+  }
+  let genre = w.g || w.genre || meta.genre || '诗';
+  if(w.cipai) genre='词';
+  if(w.tune||w.qupai) genre='曲';
+  const dynasty = w.dynasty || meta.dynasty || '';
+  return {
+    title, subtitle: w.subtitle || (w.cipai && w.title ? w.cipai : ''),
+    author, dynasty, genre,
+    body,
+    main_a: meta.title,
+    en_title: '', en_author: '', en_dynasty: '', en_body: [],
+  };
+}
+
+function renderPoem(p){
+  const poem = $('poem');
+  const lines = (p.body || []).filter(x => x);
+  const PUNC = /[，。！？；：、,.!?;:）)]/;
+  const endChars = [];
+  lines.forEach(line => {
+    const cs = Array.from(line);
+    for (let i = 0; i < cs.length - 1; i++){
+      if (!PUNC.test(cs[i]) && PUNC.test(cs[i+1])) endChars.push(cs[i]);
+    }
+  });
+  const rc = {};
+  endChars.forEach(c => { const inf = pick(c); if (inf && inf.rhyme) rc[inf.rhyme] = (rc[inf.rhyme]||0)+1; });
+  let mainRhyme = '', best = 0;
+  for (const r in rc){ if (rc[r] > best){ best = rc[r]; mainRhyme = r; } }
+  const rhymeOK = c => { const inf = pick(c); return best >= 2 && inf && inf.rhyme && inf.rhyme === mainRhyme; };
+  let html = '';
+  lines.forEach(line => {
+    html += '<div class="pline"><span class="chline">';
+    const chars = Array.from(line);
+    for (let i = 0; i < chars.length; i++){
+      const ch = chars[i];
+      if (/[，。！？；：、,.!?;:）)]/.test(ch)){
+        html += '<span class="ch"><span class="zi" style="color:#9a8560">' + ch + '</span></span>';
+        continue;
+      }
+      const info = pick(ch) || {};
+      const isEnd = i+1 < chars.length && /[，。！？；：、,.!?;:）)]/.test(chars[i+1]);
+      const isR = isEnd && rhymeOK(ch);
+      html += '<span class="ch' + (isR ? ' is-rhyme' : '') + '">'
+        + (info.pinyin ? '<span class="py">' + info.pinyin + '</span>' : '')
+        + '<span class="zi">' + ch + '</span>'
+        + (info.tone ? '<span class="pz">' + info.tone + '</span>' : '')
+        + '</span>';
+    }
+    html += '</span></div>';
+  });
+  poem.innerHTML = html;
+
+  const enBox = $('enBox');
+  if (p.en_body && p.en_body.some(x => x)){
+    enBox.style.display = '';
+    $('enTitle').textContent = p.en_title || p.title;
+    const au = p.en_author && !/[\u4e00-\u9fff]/.test(p.en_author) ? p.en_author : '';
+    $('enAuthor').textContent = (p.en_dynasty||'') + (au ? ' · ' + au : '');
+    const elBox = $('enLines');
+    elBox.innerHTML = p.en_body.map((e,i) => '<div class="en-line">' + (e||'') + '</div>').join('');
+  } else {
+    enBox.style.display = 'none';
+  }
+}
+
+function renderMeta(p){
+  $('h1').textContent = p.title + (p.subtitle ? '　' + p.subtitle : '');
+  $('sub').innerHTML = (p.dynasty||'') + (p.author?'<span class="dot">·</span>'+p.author:'') + '<span class="dot">·</span>' + (p.genre||'诗');
+  const lab = MODE==='anth' ? (ANTH_SLUG[aslug] || p.main_a) : p.main_a;
+  $('anth-name').textContent = '诗藏 · ' + lab;
+  $('from').innerHTML = '选自《' + (p.main_a||lab) + '》';
+  document.getElementById('seal').textContent = p.genre === '词' ? '詞' : (p.genre==='曲'?'曲':(p.genre==='辞'||p.genre==='赋'?'賦':(p.genre==='文'?'文':'詩')));
+  if (p.note){
+    $('note').style.display = 'block';
+    $('note').innerHTML = '<span class="lab">選家評曰　</span>' + p.note;
+  } else {
+    $('note').style.display = 'none';
+  }
+  if (p.deep){
+    $('deepbox').style.display = 'block';
+    $('deepbox').innerHTML = '<a href="../shicang-poem/' + p.deep + '.html">展深度精读 · 今译赏析 →</a>';
+  } else if (p.anthologies && p.anthologies.length > 1){
+    $('deepbox').style.display = 'block';
+    $('deepbox').innerHTML = '<span style="color:var(--gold);font-size:13px;">兼见：' + p.anthologies.slice(1).map(a=>'《'+a+'》').join('　') + '</span>';
+  } else {
+    $('deepbox').style.display = 'none';
+  }
+  document.title = p.title + ' · 名篇精读 · 诗藏';
+}
+
+function renderPN(idx){
+  const box = $('pn');
+  let html = '';
+  if (MODE==='anth'){
+    const prev = POEMS[idx-1], next = POEMS[idx+1];
+    html += prev ? '<a href="view.html?s=' + prev.slug + '"><span>上一篇</span>' + (prev.title||'') + '</a>' : '<div class="ph"></div>';
+    html += next ? '<a class="next" href="view.html?s=' + next.slug + '"><span>下一篇</span>' + (next.title||'') + '</a>' : '<div class="ph"></div>';
+  } else {
+    const prev = idx > 0 ? POEMS[idx-1] : null;
+    const next = idx < POEMS.length-1 ? POEMS[idx+1] : null;
+    const globalNext = iParam + 1;
+    const globalPrev = iParam - 1;
+    html += prev ? '<a href="view.html?src='+srcParam+'&i='+globalPrev+'"><span>上一篇</span>' + (prev.t||prev.title||'') + '</a>' : '<div class="ph"></div>';
+    html += next ? '<a class="next" href="view.html?src='+srcParam+'&i='+globalNext+'"><span>下一篇</span>' + (next.t||next.title||'') + '</a>' : '<div class="ph"></div>';
+    // 加上"返回目录"
+    html += '<a class="back" href="index.html" style="position:absolute;left:26px;bottom:40px;font-size:13px;color:var(--ink3);text-decoration:none;border-bottom:1px dashed var(--ink3);">← 返回目录</a>';
+    // 卷末提示
+    if(!next){
+      html += '<div style="position:absolute;right:26px;bottom:40px;font-size:12px;color:var(--ink3);">本卷已尽</div>';
+    }
+  }
+  box.innerHTML = html;
+}
+
+document.querySelectorAll('.sw').forEach(b => b.onclick = () => {
+  b.classList.toggle('on');
+  document.body.classList.toggle(b.dataset.opt);
+});
+
+// 加载全集数据
+async function loadColl(){
+  MODE='coll';
+  // 读取 index.json 获取 volumes
+  let idx;
+  try{
+    idx = await fetch('../shicang_data/jingdu_lib/'+srcParam+'_index.json').then(r=>r.json());
+  }catch(e){
+    $('poem').innerHTML = '<div class="loading">加 载 失 败</div>'; return;
+  }
+  const cat = await fetch('../shicang_data/jingdu/catalog.json').then(r=>r.json()).catch(()=>({collections:[]}));
+  const meta = cat.collections.find(c=>c.id===srcParam) || {title:srcParam,dynasty:'',genre:'诗'};
+
+  let vols = [];
+  if (idx.volumes && Array.isArray(idx.volumes)){
+    let off = 0;
+    vols = idx.volumes.map(v => {
+      if(typeof v==='string'){
+        const o = {file:'../shicang_data/jingdu_lib/'+v, start:off, count:1000}; off += 1000; return o;
+      }
+      const cnt = v.count || 1000;
+      const o = {file:'../shicang_data/jingdu_lib/'+(v.file||v.path||''), start:off, count:cnt, label:v.label||''};
+      off += cnt;
+      return o;
+    });
+  } else if (idx.category && Array.isArray(idx.category)){
+    let off=0;
+    for(const c of idx.category){
+      if(c.file){ vols.push({file:'../shicang_data/jingdu_lib/'+c.file, start:off, count:c.count||1000}); off += c.count||1000; }
+      else if(c.chapters){ for(const ch of c.chapters||[]){ if(ch.file){ vols.push({file:'../shicang_data/jingdu_lib/'+ch.file, start:off, count:ch.count||1000}); off += ch.count||1000;} } }
+    }
+  }
+  if(vols.length===0){
+    vols = [{file:'../shicang_data/jingdu_lib/'+srcParam+'.json', start:0, count:meta.count}];
+  }
+
+  // 定位卷
+  let targetVol = vols[0], offset = 0, idxInVol = iParam;
+  for(const v of vols){
+    if(iParam < v.start + v.count){ targetVol = v; idxInVol = iParam - v.start; break; }
+    offset = v.start + v.count;
+  }
+  try{
+    const data = await fetch(targetVol.file).then(r=>r.json());
+    POEMS = Array.isArray(data) ? data : (data.works||[]);
+    const w = POEMS[idxInVol] || POEMS[0];
+    CUR = normalizeWork(w, meta);
+    CHAR = window.SC_CHARTAB || window.CHARTAB || {};
+    renderMeta(CUR);
+    renderPoem(CUR);
+    renderPN(idxInVol);
+  }catch(e){
+    $('poem').innerHTML = '<div class="loading">加 载 失 败</div>';
+  }
+}
+
+function loadAnth(){
+  MODE='anth';
+  Promise.all([
+    fetch('../shicang_data/char_info.json').then(r => r.json()).catch(() => ({})),
+    fetch('../shicang_data/mingpian/data_' + aslug + '.json').then(r => r.json())
+  ]).then(([chars, poems]) => {
+    CHAR = chars; POEMS = poems;
+    const idx = poems.findIndex(x => x.slug === slug);
+    if (idx < 0){ $('poem').innerHTML = '<div class="loading">未 得 此 篇</div>'; return; }
+    CUR = poems[idx];
+    renderMeta(CUR);
+    renderPoem(CUR);
+    renderPN(idx);
+  }).catch(e=>{
+    $('poem').innerHTML = '<div class="loading">加 载 失 败</div>';
+  });
+}
+
+// 等待 loader.js 加载完 POEM_BOOKS
+function waitLoader(){
+  if(srcParam){
+    if(window.POEM_BOOKS || document.readyState==='complete'){
+      loadColl();
+    } else {
+      setTimeout(waitLoader, 50);
+    }
+  } else {
+    loadAnth();
+  }
+}
+waitLoader();
+</script>
+</body>
+</html>
