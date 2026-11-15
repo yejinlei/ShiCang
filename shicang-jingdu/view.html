@@ -119,6 +119,23 @@ body.opt-rhyme .ch.is-rhyme .zi{background:rgba(139,47,47,.09);border-radius:5px
 .deepbox a{display:inline-block;border:1px solid var(--main);color:var(--main);padding:8px 22px;
   border-radius:22px;text-decoration:none;font-size:13.5px;letter-spacing:.1em;transition:.3s;}
 .deepbox a:hover{background:var(--main);color:#f7f1e3;}
+.deep-panels{max-width:820px;margin:28px auto 0;padding:22px 20px 24px;border-top:1px solid var(--seal);position:relative;}
+.deep-panels::before{content:'深 · 深度精读';position:absolute;top:-12px;left:50%;transform:translateX(-50%);
+  background:var(--paper);padding:0 14px;color:var(--seal);font-size:13px;letter-spacing:.3em;}
+.deep-sw{border:1px solid var(--rule);background:rgba(255,255,255,.4);color:var(--ink2);
+  padding:4px 12px;border-radius:16px;font-size:12.5px;cursor:pointer;margin:3px 4px;
+  font-family:inherit;letter-spacing:.1em;transition:.25s;}
+.deep-sw:hover{border-color:var(--main);color:var(--main);}
+.deep-sw.on{background:var(--main);border-color:var(--main);color:#fff;}
+.dp-panel{margin-top:16px;padding:16px 20px;border:1px solid var(--rule);border-radius:8px;
+  background:rgba(255,255,255,.45);font-size:15px;color:var(--ink);line-height:1.95;text-align:justify;}
+.dp-panel h4{margin:0 0 8px;color:var(--main);font-size:14.5px;letter-spacing:.2em;font-weight:600;}
+.dp-note-item{margin:6px 0;font-size:14.5px;}
+.dp-note-term{color:var(--seal);font-weight:600;border-bottom:1px solid var(--seal);margin-right:6px;}
+.dp-st-row{display:flex;gap:12px;margin:7px 0;align-items:flex-start;}
+.dp-st-key{background:var(--main);color:#fff;border-radius:4px;padding:1px 10px;font-size:13px;letter-spacing:.14em;flex:none;line-height:1.9;}
+.dp-st-val{color:var(--ink2);font-size:14.5px;flex:1;}
+.dp-img-tag{display:inline-block;border:1px solid var(--seal);color:var(--seal);border-radius:14px;padding:2px 12px;margin:4px 6px 4px 0;font-size:13px;}
 .pn{max-width:880px;margin:34px auto 0;padding:20px 26px 0;display:flex;justify-content:space-between;
   gap:14px;border-top:1px solid var(--rule);position:relative;z-index:2;}
 .pn a{flex:1;text-decoration:none;color:var(--ink2);font-size:13.5px;letter-spacing:.04em;
@@ -174,6 +191,23 @@ footer{max-width:880px;margin:0 auto;padding:26px;text-align:center;color:#a08a6
   </div>
   <div class="note-line" id="note" style="display:none"></div>
   <div class="deepbox" id="deepbox" style="display:none"></div>
+  <!-- 十三层精读面板（深度名作） -->
+  <div id="deepPanels" class="deep-panels" style="display:none">
+    <button class="deep-sw on" data-dp="note">注释</button>
+    <button class="deep-sw" data-dp="tr">今译</button>
+    <button class="deep-sw" data-dp="appr">赏析</button>
+    <button class="deep-sw" data-dp="st">起承转合</button>
+    <button class="deep-sw" data-dp="img">意象</button>
+    <button class="deep-sw" data-dp="bg">背景</button>
+    <button class="deep-sw" data-dp="theme">题旨</button>
+    <div class="dp-panel" id="dp-note"></div>
+    <div class="dp-panel" id="dp-tr" style="display:none"></div>
+    <div class="dp-panel" id="dp-appr" style="display:none"></div>
+    <div class="dp-panel" id="dp-st" style="display:none"></div>
+    <div class="dp-panel" id="dp-img" style="display:none"></div>
+    <div class="dp-panel" id="dp-bg" style="display:none"></div>
+    <div class="dp-panel" id="dp-theme" style="display:none"></div>
+  </div>
 </main>
 <div class="pn" id="pn"></div>
 <footer>诗藏本体论 · 名篇精读</footer>
@@ -183,6 +217,7 @@ footer{max-width:880px;margin:0 auto;padding:26px;text-align:center;color:#a08a6
 <script src="translations.js"></script>
 
 <script>
+const $ = id => document.getElementById(id);
 // 尝试从名家译本库匹配译文；匹配时忽略标点、空白和常见副标题前缀
 function lookupMaster(author, title){
   if (!author || !title || !window.MASTER_TRANSLATIONS) return null;
@@ -221,15 +256,16 @@ function attachTranslation(p){
 
 
 const params = new URLSearchParams(location.search);
-// 兼容三种入参：?anth=<key> 老链接 / ?s=<key>[_slug]&i=N 选本 / ?src=<id>&i=N 全集
+// 兼容四种入参：?anth=<key> 老链接 / ?s=<key>[_slug]&i=N 选本 / ?src=<id>&i=N 全集 / ?deep=<slug> 深度名作
 let anthParam = params.get('anth') || '';
 let sParam = params.get('s') || '';
 const srcParam = params.get('src') || '';
+const deepParam = params.get('deep') || '';
 const iParam = parseInt(params.get('i') || '0', 10);
 // 当 s 不含下划线，说明是整个选本入口（首篇）；此时不预先拼 slug，直接从分片里取 i 首
 let slug = (sParam && sParam.indexOf('_')>=0) ? sParam : '';
 let aslug = (anthParam || (sParam && sParam.split('_')[0]) || '');
-let CHAR = {}, POEMS = [], CUR = null, MODE = anthParam||sParam ? 'anth' : 'coll';
+let CHAR = {}, POEMS = [], CUR = null, MODE = deepParam ? 'deep' : (anthParam||sParam ? 'anth' : 'coll');
 
 const ANTH_SLUG = {qianjiashi:'千家诗',songci300:'宋词三百首',jumiaohaoci:'绝妙好词',
   jin300:'近三百年名家词选',wanshou:'唐人万首绝句选',yuanshi:'元诗别裁集',
@@ -326,9 +362,10 @@ function renderMeta(p){
   $('h1').textContent = p.title + (p.subtitle ? '　' + p.subtitle : '');
   $('sub').innerHTML = (p.dynasty||'') + (p.author?'<span class="dot">·</span>'+p.author:'') + '<span class="dot">·</span>' + (p.genre||'诗');
   const lab = MODE==='anth' ? (ANTH_SLUG[aslug] || p.main_a) : p.main_a;
-  $('anth-name').textContent = '诗藏 · ' + lab;
+  if($('anth-name')) $('anth-name').textContent = '诗藏 · ' + lab;
   $('from').innerHTML = '选自《' + (p.main_a||lab) + '》';
-  document.getElementById('seal').textContent = p.genre === '词' ? '詞' : (p.genre==='曲'?'曲':(p.genre==='辞'||p.genre==='赋'?'賦':(p.genre==='文'?'文':'詩')));
+  const sealEl = document.getElementById('seal');
+  if(sealEl) sealEl.textContent = p.genre === '词' ? '詞' : (p.genre==='曲'?'曲':(p.genre==='辞'||p.genre==='赋'?'賦':(p.genre==='文'?'文':'詩')));
   if (p.note){
     $('note').style.display = 'block';
     $('note').innerHTML = '<span class="lab">選家評曰　</span>' + p.note;
@@ -427,6 +464,7 @@ async function loadColl(){
     attachTranslation(CUR);
     renderMeta(CUR);
     renderPoem(CUR);
+    if(typeof hookAfterRender==="function") hookAfterRender(CUR);
     renderPN(idxInVol);
   }catch(e){
     $('poem').innerHTML = '<div class="loading">加 载 失 败</div>';
@@ -455,18 +493,138 @@ function loadAnth(){
     CUR = poems[idx];
     renderMeta(CUR);
     renderPoem(CUR);
+    if(typeof hookAfterRender==="function") hookAfterRender(CUR);
     renderPN(idx);
   }).catch(e=>{
     $('poem').innerHTML = '<div class="loading">加 载 失 败：'+(e.message||'')+'</div>';
   });
 }
 
-// 启动
-if(MODE==='anth'){
-  loadAnth();
-} else {
-  loadColl();
+// ===== 深度名作十三层精读 =====
+let DEEP_WORKS = null;
+let CURRENT_DEEP = null;
+async function loadDeepWorks(){
+  try{
+    const r = await fetch('../shicang_data/jingdu/deep_works.json?_=' + Date.now());
+    if(!r.ok) return;
+    const d = await r.json();
+    DEEP_WORKS = d.works || [];
+  }catch(e){ console.warn('deep_works load failed', e); }
 }
+
+function matchDeep(p){
+  if(!DEEP_WORKS || !p) return null;
+  const t = (p.title||'').replace(/[·\s　·]/g,'');
+  const a = (p.author||'').replace(/[·\s　]/g,'');
+  // 先精确匹配
+  let hit = DEEP_WORKS.find(w => {
+    const wt = (w.title||'').replace(/[·\s　]/g,'');
+    const wa = (w.author||'').replace(/[·\s　]/g,'');
+    return (wt === t || t.includes(wt) || wt.includes(t)) && (wa === a || a.includes(wa) || wa.includes(a));
+  });
+  return hit || null;
+}
+
+function renderDeepPanels(dw){
+  CURRENT_DEEP = dw;
+  const panelsBox = $('deepPanels');
+  if(!dw){ panelsBox.style.display = 'none'; return; }
+  panelsBox.style.display = 'block';
+  // 注释
+  $('dp-note').innerHTML = '<h4>注　释</h4>' + (dw.notes||[]).map(n =>
+    '<div class="dp-note-item"><span class="dp-note-term">' + (n.term||'') + '</span>' + (n.exp||'') + '</div>'
+  ).join('') || '<div class="dp-note-item">本篇为经典名篇，字词古雅，品读时注意体会。</div>';
+  // 今译
+  $('dp-tr').innerHTML = '<h4>白话今译</h4>' + (dw.translation || '（今译参见名家译注。）');
+  // 赏析
+  $('dp-appr').innerHTML = '<h4>赏　析</h4>' + (dw.appreciation || '');
+  // 起承转合
+  $('dp-st').innerHTML = '<h4>起 承 转 合</h4>' + (dw.structure||[]).map(s =>
+    '<div class="dp-st-row"><span class="dp-st-key">' + (s.key||'') + '</span><span class="dp-st-val">' + (s.val||'') + '</span></div>'
+  ).join('');
+  // 意象
+  $('dp-img').innerHTML = '<h4>诗中意象</h4><div style="margin:8px 0 4px">' + (dw.imagery||[]).map(i =>
+    '<span class="dp-img-tag">' + (i.word||'') + '</span>'
+  ).join('') + '</div>' + (dw.imagery||[]).map(i =>
+    '<div class="dp-note-item"><span class="dp-note-term">' + (i.word||'') + '</span>' + (i.meaning||'') + '</div>'
+  ).join('');
+  // 背景
+  $('dp-bg').innerHTML = '<h4>创作背景</h4>' + (dw.background || '');
+  // 题旨
+  $('dp-theme').innerHTML = '<h4>题　旨</h4>' + (dw.theme || '');
+  // 英译优先用深度译本（如已有）
+  if(dw.en_translation && !p_enHas){
+    const enBox = $('enBox');
+    enBox.style.display = '';
+    $('enTitle').textContent = dw.title;
+    $('enAuthor').textContent = dw.dynasty + ' · ' + dw.author;
+    $('enLines').innerHTML = '<div class="en-line">' + dw.en_translation + '</div>';
+    $('enNote').textContent = dw.en_translator || '诗藏自译';
+  }
+  // 开关绑定
+  document.querySelectorAll('.deep-sw').forEach(btn => {
+    btn.onclick = () => {
+      document.querySelectorAll('.deep-sw').forEach(b => b.classList.remove('on'));
+      btn.classList.add('on');
+      ['note','tr','appr','st','img','bg','theme'].forEach(k => $('dp-'+k).style.display='none');
+      $('dp-'+btn.dataset.dp).style.display = 'block';
+    };
+  });
+  // 初始显示注释
+  document.querySelectorAll('.deep-sw').forEach(b => b.classList.remove('on'));
+  document.querySelector('.deep-sw[data-dp="note"]').classList.add('on');
+  ['note','tr','appr','st','img','bg','theme'].forEach(k => $('dp-'+k).style.display='none');
+  $('dp-note').style.display = 'block';
+}
+
+let p_enHas = false;
+function hookAfterRender(p){
+  p_enHas = !!(p.en_body && p.en_body.some(x => x));
+  // 不覆盖已有独立深度页链接
+  if(p.deep) { $('deepPanels').style.display = 'none'; return; }
+  const dw = matchDeep(p);
+  renderDeepPanels(dw);
+}
+
+async function loadDeepMode(){
+  MODE='deep';
+  await loadDeepWorks();
+  // 加载注音/平仄字典
+  try{ CHAR = await fetch('../shicang_data/char_info.json').then(r=>r.json()).catch(()=>({})); }catch(e){ CHAR = {}; }
+  const dw = DEEP_WORKS.find(w => w.slug === deepParam);
+  if(!dw){
+    $('poem').innerHTML = '<div class="loading" style="color:#a8322f">未找到该深度作品</div>';
+    return;
+  }
+  // 转为标准 poem 结构
+  const body = (dw.lines && dw.lines.length) ? dw.lines : (dw.incipit ? [dw.incipit] : []);
+  const p = {
+    title: dw.title, subtitle: '', author: dw.author, dynasty: dw.dynasty, genre: dw.genre||'诗',
+    body, main_a: '深度名作',
+    en_title: dw.title, en_author: dw.author, en_dynasty: dw.dynasty,
+    en_body: dw.en_translation ? [dw.en_translation] : [],
+    en_translator: dw.en_translator,
+    note: ''
+  };
+  POEMS = [p];
+  CUR = p;
+  renderMeta(p);
+  renderPoem(p);
+  hookAfterRender(p);
+  renderPN(0);
+}
+
+// 启动
+(async function(){
+  await loadDeepWorks();
+  if(MODE==='deep'){
+    loadDeepMode();
+  } else if(MODE==='anth'){
+    loadAnth();
+  } else {
+    loadColl();
+  }
+})();
 </script>
   <script src="../topnav.js"></script>
 </body>

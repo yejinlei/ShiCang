@@ -164,7 +164,7 @@ footer{max-width:1100px;margin:50px auto 0;padding:26px 26px 44px;text-align:cen
     $('sDeep').textContent = list.length.toLocaleString();
     $('deepGrid').innerHTML = list.map(d=>{
       const genreTag = d.genre || '诗';
-      const href = d.file ? ('../shicang-poem/'+d.file) : 'view.html?deep='+encodeURIComponent(d.id||d.title);
+      const href = d.href || (d.file ? ('../shicang-poem/'+d.file) : 'view.html?deep='+encodeURIComponent(d.id||d.slug||d.title));
       return '<a class="deep-card" href="'+href+'"><div class="t">'+escapeHtml(d.title||'')+'</div><div class="a">'+escapeHtml((d.dynasty||'')+'·'+(d.author||''))+'</div><div class="g">'+escapeHtml(genreTag)+'</div></a>';
     }).join('');
   }
@@ -328,12 +328,23 @@ footer{max-width:1100px;margin:50px auto 0;padding:26px 26px 44px;text-align:cen
   $('collSearch').addEventListener('input',()=>{clearTimeout(window._st);window._st=setTimeout(applyFilter,220);});
 
   // 初始化
-  fetch('../shicang_data/jingdu/catalog.json',{cache:'no-cache'}).then(r=>{
-    if(!r.ok) throw new Error('http '+r.status);
-    return r.json();
-  }).then(c=>{
+  Promise.all([
+    fetch('../shicang_data/jingdu/catalog.json',{cache:'no-cache'}).then(r=>r.json()),
+    fetch('../shicang_data/jingdu/deep_works.json',{cache:'no-cache'}).then(r=>r.json()).catch(()=>({works:[]}))
+  ]).then(([c,deep])=>{
     window._CATALOG = c;
-    renderDeep(c.deep);
+    // 用 deep_works.json 中的 818 篇作为深度名作列表（与原有独立深度页合并）
+    const extraDeep = (deep.works||[]).map(w => ({
+      title: w.title, author: w.author, dynasty: w.dynasty, genre: w.genre || '诗',
+      slug: w.slug, file: null,
+      // 跳转到对应作品的详情页（优先匹配选本名篇，找不到则默认展示）
+      href: 'view.html?deep=' + encodeURIComponent(w.slug)
+    }));
+    // 合并原有独立深度页
+    const mergedDeep = [...(c.deep||[]), ...extraDeep];
+    renderDeep(mergedDeep);
+    // 更新计数
+    $('sDeep').textContent = mergedDeep.length.toLocaleString();
     renderAnth(c.anth);
     renderColl(c.collections);
   }).catch(e=>{
