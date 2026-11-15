@@ -578,12 +578,68 @@ function renderDeepPanels(dw){
 }
 
 let p_enHas = false;
-function hookAfterRender(p){
+const DEEP_CACHE = {}; // slug -> deep data
+const DEEP_IDX_CACHE = {loaded:false, map:null};
+async function loadDeepForSlug(slug){
+  if(!slug) return null;
+  if(DEEP_CACHE[slug]) return DEEP_CACHE[slug];
+  try{
+    if(!DEEP_IDX_CACHE.loaded){
+      const r = await fetch('../shicang_data/mingpian/deep_lib/_index.json?_='+Date.now());
+      DEEP_IDX_CACHE.map = await r.json();
+      DEEP_IDX_CACHE.loaded = true;
+    }
+    const sid = DEEP_IDX_CACHE.map[slug];
+    if(typeof sid !== 'number') return null;
+    const shard = await fetch('../shicang_data/mingpian/deep_lib/shard_'+sid+'.json?_='+Date.now()).then(r=>r.json());
+    Object.assign(DEEP_CACHE, shard);
+    return DEEP_CACHE[slug] || null;
+  }catch(e){ console.warn('load deep failed', e); return null; }
+}
+
+function renderAnthDeep(dw){
+  const panelsBox = $('deepPanels');
+  if(!dw){ panelsBox.style.display='none'; return; }
+  panelsBox.style.display = 'block';
+  $('dp-note').innerHTML = '<h4>注　释</h4>' + (Array.isArray(dw.note) ? dw.note.map(n=>'<div class="dp-note-item">'+n+'</div>').join('') : (dw.note||''));
+  $('dp-tr').innerHTML = '<h4>白话今译</h4>' + (dw.tr||'（今译由诗藏整理。）');
+  $('dp-appr').innerHTML = '<h4>赏　析</h4>' + (dw.appr||'');
+  $('dp-st').innerHTML = '<h4>起 承 转 合</h4>' + (dw.st||'');
+  $('dp-img').innerHTML = '<h4>诗中意象</h4>' + (dw.img||'');
+  $('dp-bg').innerHTML = '<h4>创作背景</h4>' + (dw.bg||'');
+  $('dp-theme').innerHTML = '<h4>题　旨</h4>' + (dw.theme||'');
+  document.querySelectorAll('.deep-sw').forEach(btn => {
+    btn.onclick = () => {
+      document.querySelectorAll('.deep-sw').forEach(b => b.classList.remove('on'));
+      btn.classList.add('on');
+      ['note','tr','appr','st','img','bg','theme'].forEach(k => $('dp-'+k).style.display='none');
+      $('dp-'+btn.dataset.dp).style.display = 'block';
+    };
+  });
+  document.querySelectorAll('.deep-sw').forEach(b => b.classList.remove('on'));
+  const first = document.querySelector('.deep-sw[data-dp="note"]'); if(first) first.classList.add('on');
+  ['note','tr','appr','st','img','bg','theme'].forEach(k => $('dp-'+k).style.display='none');
+  $('dp-note').style.display = 'block';
+}
+
+async function hookAfterRender(p){
   p_enHas = !!(p.en_body && p.en_body.some(x => x));
-  // 不覆盖已有独立深度页链接
-  if(p.deep) { $('deepPanels').style.display = 'none'; return; }
-  const dw = matchDeep(p);
-  renderDeepPanels(dw);
+  if(p.deep) { $('deepPanels').style.display='none'; return; }
+  // 1) 优先尝试深度名作库（独立82/原有）
+  if(DEEP_WORKS){
+    const dw = matchDeep(p);
+    if(dw){ renderDeepPanels(dw); return; }
+  } else {
+    await loadDeepWorks();
+    const dw = matchDeep(p);
+    if(dw){ renderDeepPanels(dw); return; }
+  }
+  // 2) anth模式：加载自动生成的深度shard
+  if(MODE === 'anth' && p.slug){
+    const adw = await loadDeepForSlug(p.slug);
+    if(adw){ renderAnthDeep(adw); return; }
+  }
+  $('deepPanels').style.display='none';
 }
 
 async function loadDeepMode(){
@@ -628,4 +684,18 @@ async function loadDeepMode(){
 </script>
   <script src="../topnav.js"></script>
 </body>
-</html>
+</html><style>
+.dp-note-term{color:var(--main);font-weight:600;margin-right:8px;}
+.dp-note-item b{color:var(--main);font-weight:600;margin-right:4px;}
+.img-tags{margin-bottom:8px;}
+.img-tag{display:inline-block;border:1px solid var(--seal);color:var(--seal);border-radius:14px;padding:2px 12px;margin:4px 6px 4px 0;font-size:13px;background:rgba(139,47,47,.05);}
+.img-list{list-style:none;padding:0;margin:0;}
+.img-list li{margin:6px 0;font-size:14.5px;}
+.img-list li b{color:var(--main);font-weight:600;margin-right:6px;}
+.st-blocks{display:grid;grid-template-columns:1fr 1fr;gap:10px;}
+.st-b{border:1px dashed var(--rule);padding:10px 14px;border-radius:6px;background:rgba(255,255,255,.3);}
+.st-b h5{margin:0 0 6px;color:var(--main);font-size:14px;letter-spacing:.25em;}
+.st-b p{margin:0 0 6px;font-size:14px;line-height:1.7;color:var(--ink);}
+.st-b blockquote{margin:4px 0 0;padding:6px 10px;border-left:3px solid var(--seal);background:rgba(139,47,47,.04);font-size:13.5px;color:var(--ink2);line-height:1.7;}
+@media(max-width:640px){.st-blocks{grid-template-columns:1fr;}}
+</style>
