@@ -106,35 +106,7 @@ main{position:relative;z-index:10;padding-top:72px;padding-bottom:20px;min-heigh
 </style>
 <link rel="stylesheet" href="../global.css">
 </head>
-<body>
-<nav class="shicang-topnav"><div class="shicang-topnav-inner"><a href="/ShiCang/" class="shicang-logo"><span class="shicang-logo-mark">詩</span><span>诗藏本体论</span></a>    <div class="shicang-nav-links shicang-desktop-links">
-      <a href="/ShiCang/" class="shicang-nav-link">首页</a>
-      <span class="shicang-nav-sep">|</span>
-      <a href="/ShiCang/shicang-jingdu/" class="shicang-nav-link">名篇精读</a>
-      <span class="shicang-nav-sep">|</span>
-      <a href="/ShiCang/shicang-road/" class="shicang-nav-link">诗路千年</a>
-      <a href="/ShiCang/shicang-xinghe/" class="shicang-nav-link">星河</a>
-      <a href="/ShiCang/shicang-cipai/" class="shicang-nav-link">词牌</a>
-      <a href="/ShiCang/shicang-imagery/" class="shicang-nav-link">意象</a>
-      <a href="/ShiCang/shicang-meipi/" class="shicang-nav-link">眉批</a>
-      <a href="/ShiCang/shicang-duilian/" class="shicang-nav-link">对弈</a>
-      <a href="/ShiCang/shicang-duilian-corpus/" class="shicang-nav-link">楹联</a>
-      <a href="/ShiCang/shicang-yunshu/" class="shicang-nav-link">韵书</a>
-    </div>
-    <button class="shicang-menu-btn" onclick="document.getElementById('shicangMobileNav').classList.toggle('open')">☰</button>
-    <div class="shicang-mobile-nav" id="shicangMobileNav">
-      <a href="/ShiCang/" class="shicang-mnav-link">首页</a>
-      <a href="/ShiCang/shicang-jingdu/" class="shicang-mnav-link">名篇精读</a>
-      <a href="/ShiCang/shicang-road/" class="shicang-mnav-link">诗路千年</a>
-      <a href="/ShiCang/shicang-xinghe/" class="shicang-mnav-link">星河</a>
-      <a href="/ShiCang/shicang-cipai/" class="shicang-mnav-link">词牌格律</a>
-      <a href="/ShiCang/shicang-imagery/" class="shicang-mnav-link">意象图谱</a>
-      <a href="/ShiCang/shicang-meipi/" class="shicang-mnav-link">诗话眉批</a>
-      <a href="/ShiCang/shicang-duilian/" class="shicang-mnav-link">对联斗巧</a>
-      <a href="/ShiCang/shicang-duilian-corpus/" class="shicang-mnav-link">联语集对</a>
-      <a href="/ShiCang/shicang-yunshu/" class="shicang-mnav-link">韵书查询</a>
-    </div></div></nav>
-<nav class="nav scroll-unfold">
+<body><nav class="nav scroll-unfold">
   <div class="nav-logo"><div class="seal">詩</div><span>诗藏本体论</span></div>
   <div class="nav-links">
     <a href="../index.html">首页</a>
@@ -712,7 +684,9 @@ DYNASTIES.forEach((d,i)=>{DYN_Y[d.id]=120+i*72;});
 
 function computeLayout(){
   const svg = document.getElementById('galaxySvg');
-  const w = svg.clientWidth, h = svg.clientHeight;
+  let w = svg.clientWidth, h = svg.clientHeight;
+  if(w<200){ w = 1200; }
+  if(h<200){ h = 700; }
   const padL=80, padR=40, padT=40, padB=80;
   const gw=w-padL-padR, gh=h-padT-padB;
   POETS.forEach(p=>{
@@ -1095,5 +1069,13 @@ document.addEventListener('DOMContentLoaded', ()=>{
 });
 </script>
 <script src="../romantic.js"></script>
+  <script src="../topnav.js"></script>
+<script>
+// 若直接访问（非 iframe 嵌入），重定向到统一的诗路星河入口
+if(window.top===window){
+  location.replace('../shicang-galaxy/');
+}
+</script>
+
 </body>
 </html>

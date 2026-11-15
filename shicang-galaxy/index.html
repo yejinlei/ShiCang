@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>诗路星河 · 诗藏</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='5' fill='%238b2f2f'/%3E%3Ctext x='16' y='24' font-size='20' fill='%23f7f1e3' text-anchor='middle' font-family='serif'%3E%E6%B2%B3%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../global.css">
+<style>
+:root{--main:#8b2f2f;--ink:#2b2620;--ink2:#5a4f41;--ink3:#8a7554;--rule:#d8c7a6;--seal:#a8322f;--paper:#f6efe0;--paper2:#fbf7ec;--gold:#a8862f;--night:#1a0f2e;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:"Noto Serif SC","Songti SC","STSong",serif;line-height:1.8;
+  background-image:
+    radial-gradient(circle at 20% 10%, rgba(180,150,100,.06), transparent 40%),
+    radial-gradient(circle at 80% 90%, rgba(140,110,70,.05), transparent 45%);}
+
+.hero{max-width:1200px;margin:0 auto;padding:40px 26px 20px;text-align:center;position:relative;}
+.hero .seal{display:inline-flex;width:68px;height:68px;border:2px solid var(--seal);color:var(--seal);border-radius:6px;align-items:center;justify-content:center;font-family:'STKaiti',serif;font-size:22px;letter-spacing:4px;writing-mode:vertical-rl;padding-top:4px;transform:rotate(-4deg);opacity:.9;background:rgba(255,250,240,.5);box-shadow:inset 0 0 0 1px rgba(168,50,47,.15);margin:0 auto 10px;}
+.hero h1{font-family:'STKaiti',serif;font-size:clamp(30px,4.8vw,44px);color:var(--main);letter-spacing:.32em;text-indent:.32em;font-weight:600;margin:14px 0 10px;}
+.hero .sub{font-size:14px;color:var(--ink3);letter-spacing:.22em;margin-bottom:18px;}
+.rule-deco{max-width:220px;margin:0 auto 18px;height:0;border-top:1px solid var(--rule);border-bottom:3px double var(--rule);}
+
+/* 三视图切换 tab */
+.view-tabs{max-width:1200px;margin:0 auto;padding:0 26px;display:flex;gap:0;justify-content:center;border-bottom:1px solid var(--rule);}
+.view-tab{padding:12px 28px;font-family:'STKaiti',serif;font-size:17px;letter-spacing:.2em;color:var(--ink2);cursor:pointer;background:transparent;border:none;border-bottom:3px solid transparent;margin-bottom:-1px;transition:.25s;position:relative;}
+.view-tab:hover{color:var(--main);}
+.view-tab.active{color:var(--main);font-weight:600;border-bottom-color:var(--main);}
+.view-tab .tab-dot{display:inline-block;width:6px;height:6px;background:var(--seal);border-radius:50%;margin-right:8px;vertical-align:middle;opacity:.5;}
+.view-tab.active .tab-dot{opacity:1;box-shadow:0 0 8px rgba(168,50,47,.5);}
+.tab-tip{text-align:center;font-size:12.5px;color:var(--ink3);letter-spacing:.1em;padding:8px 26px 0;max-width:1200px;margin:0 auto;}
+
+/* iframe 容器 */
+.view-wrap{max-width:1400px;margin:18px auto 40px;padding:0 10px;position:relative;}
+.view-frame{width:100%;height:calc(100vh - 220px);min-height:620px;border:1px solid var(--rule);border-radius:8px;background:#fff;box-shadow:0 6px 22px -10px rgba(100,60,30,.2);display:none;}
+.view-frame.active{display:block;}
+/* 星河视图使用深色背景 */
+#view-galaxy{background:#14091f;}
+
+.view-intro{display:flex;justify-content:center;gap:24px;max-width:1200px;margin:0 auto;padding:0 26px 22px;flex-wrap:wrap;}
+.vic{text-align:center;padding:10px 16px;}
+.vic .n{font-family:'STKaiti',serif;font-size:22px;color:var(--main);font-weight:600;}
+.vic .l{font-size:12px;color:var(--ink3);letter-spacing:.12em;margin-top:2px;}
+
+footer{max-width:1200px;margin:40px auto 0;padding:24px 26px 44px;text-align:center;color:var(--ink3);font-size:12.5px;letter-spacing:.2em;border-top:1px solid var(--rule);}
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="seal">星河</div>
+  <h1>诗路星河</h1>
+  <div class="sub">千年行迹 · 时空流转 · 交游星河</div>
+  <div class="view-intro">
+    <div class="vic"><div class="n">80+</div><div class="l">诗人行迹</div></div>
+    <div class="vic"><div class="n">3000年</div><div class="l">诗史跨度</div></div>
+    <div class="vic"><div class="n">49组</div><div class="l">交游流光</div></div>
+  </div>
+  <div class="rule-deco"></div>
+</div>
+
+<div class="view-tabs" id="viewTabs">
+  <button class="view-tab active" data-view="timeline"><span class="tab-dot"></span>时空年表</button>
+  <button class="view-tab" data-view="map"><span class="tab-dot"></span>地理行迹</button>
+  <button class="view-tab" data-view="galaxy"><span class="tab-dot"></span>星河交游</button>
+</div>
+<div class="tab-tip" id="tabTip">按诗人朝代与生卒时间排布，点选诗人查看生平交游。</div>
+
+<div class="view-wrap">
+  <iframe id="view-timeline" class="view-frame active" src="../shicang-poet-journey/"></iframe>
+  <iframe id="view-map" class="view-frame" src="../shicang-road/" data-loaded="0"></iframe>
+  <iframe id="view-galaxy" class="view-frame" src="../shicang-xinghe/" data-loaded="0"></iframe>
+</div>
+
+<footer>诗藏本体论 · 岁在丙午 · 诗路星河 · 仅供学习与雅赏</footer>
+
+<script>
+var tabs = document.querySelectorAll('.view-tab');
+var frames = document.querySelectorAll('.view-frame');
+var tip = document.getElementById('tabTip');
+var tips = {
+  timeline:'按诗人朝代与生卒时间排布 · 点选诗人查看生平交游',
+  map:'真实地理坐标 · 点击诗人按钮查看一生行迹路线与名篇',
+  galaxy:'三千年诗人银河 · 星点为诗人 · 金色流光为交游师承'
+};
+tabs.forEach(function(t){
+  t.addEventListener('click',function(){
+    var k = t.getAttribute('data-view');
+    tabs.forEach(x=>x.classList.remove('active'));
+    t.classList.add('active');
+    frames.forEach(function(f){
+      if(f.id==='view-'+k){
+        f.classList.add('active');
+        // 懒加载：第一次点击才加载 iframe
+        if(f.getAttribute('data-loaded')==='0'){
+          f.src = f.getAttribute('src');
+          f.setAttribute('data-loaded','1');
+        }
+      }else{
+        f.classList.remove('active');
+      }
+    });
+    tip.textContent = tips[k];
+  });
+});
+</script>
+<script src="../topnav.js"></script>
+<script src="../romantic.js"></script>
+</body>
+</html>

@@ -516,5 +516,13 @@ window.addEventListener('load', () => {
   renderTimeline();
 });
 </script>
+  <script src="../topnav.js"></script>
+<script>
+// 若直接访问（非 iframe 嵌入），重定向到统一的诗路星河入口
+if(window.top===window){
+  location.replace('../shicang-galaxy/');
+}
+</script>
+
 </body>
 </html>
