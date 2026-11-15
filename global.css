@@ -354,7 +354,7 @@ body.night .nav { background: rgba(26,23,21,0.92); border-bottom-color: rgba(184
 /* 闲章 */
 .idle-seal {
   position: fixed;
-  top: 6em; right: 2em;
+  top: 80px; right: 2em;
   width: 60px; height: 60px;
   background: rgba(122,40,40,0.85);
   color: var(--paper);
@@ -429,3 +429,8 @@ body.night .nav { background: rgba(26,23,21,0.92); border-bottom-color: rgba(184
 }
 /* 给 body 留出顶栏空间 */
 body{padding-top:0!important;}
+
+/* 顶栏占位，避免内容被 sticky 顶栏盖住 */
+body > .container { padding-top: 1.2rem; }
+body > .hero { padding-top: 1.2rem; }
+body > section { padding-top: 1.2rem; }

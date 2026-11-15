@@ -5,7 +5,6 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>名篇集萃 · 诗藏</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='5' fill='%238b2f2f'/%3E%3Ctext x='16' y='24' font-size='21' fill='%23f7f1e3' text-anchor='middle' font-family='serif'%3E%E8%A9%A9%3C/text%3E%3C/svg%3E">
-<link rel="stylesheet" href="../global.css">
 <style>
 .shicang-topnav{
     position:sticky;top:0;z-index:999;
@@ -108,8 +107,10 @@
 footer{max-width:1240px;margin:0 auto;padding:26px;text-align:center;color:#a08a66;
   font-size:12.5px;letter-spacing:.14em;border-top:1px solid #e3d7bd;position:relative;z-index:2;}
 </style>
+<link rel="stylesheet" href="../global.css">
 </head>
-<body><header class="mp-hero">
+<body>
+<nav class="shicang-topnav" id="shicangSiteNav"><div class="shicang-topnav-inner"><a href="../" class="shicang-logo"><span class="shicang-logo-mark">詩</span><span>诗藏本体论</span></a><div class="shicang-nav-links"><a href="../index.html" class="shicang-nav-link active">首页</a><span class="shicang-nav-sep">·</span><a href="../shicang-jingdu/" class="shicang-nav-link">名篇精读</a><span class="shicang-nav-sep">·</span><a href="../shicang-galaxy/" class="shicang-nav-link">诗路星河</a><span class="shicang-nav-sep">·</span><a href="../shicang-cipai/" class="shicang-nav-link">词牌</a><span class="shicang-nav-sep">·</span><a href="../shicang-imagery/" class="shicang-nav-link">意象</a><span class="shicang-nav-sep">·</span><a href="../shicang-meipi/" class="shicang-nav-link">眉批</a><span class="shicang-nav-sep">·</span><a href="../shicang-duilian/" class="shicang-nav-link">对弈</a><span class="shicang-nav-sep">·</span><a href="../shicang-yunshu/" class="shicang-nav-link">韵书</a></div><button class="shicang-menu-btn" id="shicangMenuBtn" aria-label="菜单">☰</button><div class="shicang-mobile-menu" id="shicangMobileMenu"><a href="../index.html" class="shicang-mnav-link active">首页</a><a href="../shicang-jingdu/" class="shicang-mnav-link">名篇精读</a><a href="../shicang-galaxy/" class="shicang-mnav-link">诗路星河</a><a href="../shicang-cipai/" class="shicang-mnav-link">词牌</a><a href="../shicang-imagery/" class="shicang-mnav-link">意象</a><a href="../shicang-meipi/" class="shicang-mnav-link">眉批</a><a href="../shicang-duilian/" class="shicang-mnav-link">对弈</a><a href="../shicang-yunshu/" class="shicang-mnav-link">韵书</a></div></div></nav><header class="mp-hero">
   <div class="mp-seal">選</div>
   <h1>名篇集萃</h1>
   <div class="sub">歷代八大名選 · 名章七千篇</div>
@@ -128,8 +129,6 @@ footer{max-width:1240px;margin:0 auto;padding:26px;text-align:center;color:#a08a
 <main class="mp-grid" id="grid"></main>
 <div class="mp-more" id="more"></div>
 <footer>诗藏本体论 · 名篇集萃 · 岁时辑于西泠</footer>
-
-<script src="../romantic.js"></script>
 <script>
 const ANTHS = [{"key": "清诗别裁集", "slug": "qingshi", "count": 3531, "meta": {"name": "清诗别裁集", "dynasty": "清", "color": "#7F8C8D", "editor": "清·沈德潜 编", "note": "清代诗坛总览，名家名篇萃集"}}, {"key": "明诗别裁集", "slug": "mingshi", "count": 955, "meta": {"name": "明诗别裁集", "dynasty": "明", "color": "#27AE60", "editor": "清·沈德潜 编", "note": "明代诗歌之精华，附选家评语"}}, {"key": "唐人万首绝句选", "slug": "wanshou", "count": 765, "meta": {"name": "唐人万首绝句选", "dynasty": "唐", "color": "#D35400", "editor": "清·王士禛 选", "note": "唐人绝句精华，五七言绝句之大观"}}, {"key": "元诗别裁集", "slug": "yuanshi", "count": 543, "meta": {"name": "元诗别裁集", "dynasty": "元", "color": "#16A085", "editor": "清·张景星等 编", "note": "元代诗歌之精华"}}, {"key": "近三百年名家词选", "slug": "jin300", "count": 420, "meta": {"name": "近三百年名家词选", "dynasty": "清", "color": "#8E44AD", "editor": "龙榆生 选编", "note": "明末至近代名家词"}}, {"key": "绝妙好词", "slug": "jumiaohaoci", "count": 409, "meta": {"name": "绝妙好词", "dynasty": "宋", "color": "#6A4C93", "editor": "宋·周密 编", "note": "南宋词选之精粹，词家之准的"}}, {"key": "宋词三百首", "slug": "songci300", "count": 233, "meta": {"name": "宋词三百首", "dynasty": "宋", "color": "#2E86AB", "editor": "清·朱祖谋 编", "note": "两宋词人八十五家，词三百十阕"}}, {"key": "千家诗", "slug": "qianjiashi", "count": 191, "meta": {"name": "千家诗", "dynasty": "唐宋", "color": "#C0392B", "editor": "宋·谢枋得 辑", "note": "蒙学经典，唐宋名篇之总汇"}}];
 let LIGHT = [];
@@ -215,6 +214,17 @@ fetch('../shicang_data/mingpian/light.json').then(r => r.json()).then(data => {
   render(true);
 });
 </script>
-  <script src="../topnav.js"></script>
+<script>
+(function(){
+  var btn=document.getElementById('shicangMenuBtn'),menu=document.getElementById('shicangMobileMenu');
+  if(btn&&menu){
+    btn.addEventListener('click',function(e){e.stopPropagation();menu.classList.toggle('open');});
+    document.addEventListener('click',function(e){
+      if(!menu.contains(e.target)&&e.target!==btn)menu.classList.remove('open');
+    });
+  }
+})();
+</script>
+<script src="../romantic.js"></script>
 </body>
 </html>
