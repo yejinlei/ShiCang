@@ -307,7 +307,19 @@ function normalizeWork(w, meta){
 
 function renderPoem(p){
   const poem = $('poem');
-  const lines = (p.body || []).filter(x => x);
+  // 把 body 里的整段/整阕文本按句末标点（。！？；）拆成独立诗句显示
+  const rawLines = (p.body || []).filter(x => x);
+  const SPLIT_RE = /(?<=[。！？；])/;  // 按句末标点拆分（保留标点）
+  const lines = [];
+  rawLines.forEach(seg => {
+    if(typeof seg !== 'string'){ lines.push(String(seg)); return; }
+    const parts = seg.split(SPLIT_RE).map(s => s.trim()).filter(s => s);
+    // 短句合并到上一句（避免只剩标点）
+    parts.forEach(pt => {
+      if(pt.length <= 1 && lines.length){ lines[lines.length-1] += pt; }
+      else lines.push(pt);
+    });
+  });
   const PUNC = /[，。！？；：、,.!?;:）)]/;
   const endChars = [];
   lines.forEach(line => {
