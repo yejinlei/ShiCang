@@ -307,6 +307,8 @@ body.opt-big .ch .zi{font-size:28px;}
       title, author, dynasty, genre, body,
       note, tr, appr, st, img, bg, theme,
       en_body, en_note,
+      zh_lines: w.zh_lines || [],
+      en_lines_per: w.en_lines_per || [],
       slug: w.slug||'', incipit: w.incipit||'',
       main_a: meta.title||''
     };
@@ -332,24 +334,28 @@ body.opt-big .ch .zi{font-size:28px;}
   // 渲染正文（原句+白话+英文逐句上下对照）
   function renderPoem(p){
     const endChars = [];
-    // 白话句子数组（优先用tr字段，fallback到translation）
-    const zhSents = splitToSentences(p.tr || p.translation || '');
-    // 英文句子数组（把en_body的段落再按句切分）
-    let enSentsAll = [];
-    if(p.en_body){
+    // 逐句对齐的白话/英文（优先使用预生成的逐句数据）
+    const zhLines = Array.isArray(p.zh_lines) ? p.zh_lines : [];
+    const enLines = Array.isArray(p.en_lines_per) ? p.en_lines_per : [];
+    // 如果没有预生成的逐句对齐，fallback到按句切分整段译文
+    let zhSents = zhLines.length ? zhLines : splitToSentences(p.tr || p.translation || '');
+    let enSentsPer = enLines.length ? enLines : [];
+    // 英文fallback：如果en_lines_per为空，把en_body段落按句切分
+    if(enSentsPer.filter(Boolean).length === 0 && p.en_body){
+      let enAll = [];
       for(const para of p.en_body){
         const ss = String(para).split(/(?<=[.!?])\s+/).map(s=>s.trim()).filter(s=>s && s.length>2);
-        enSentsAll = enSentsAll.concat(ss);
+        enAll = enAll.concat(ss);
       }
+      enAll = enAll.filter(s => !/This classical Chinese poem is rendered/i.test(s) && !/For full appreciation/i.test(s));
+      enSentsPer = enAll;
     }
-    // 过滤掉模板英文句子
-    enSentsAll = enSentsAll.filter(s => !/This classical Chinese poem is rendered/i.test(s) && !/For full appreciation/i.test(s));
 
     let html = '';
     for(let i=0;i<p.body.length;i++){
       const line = p.body[i];
-      // 原句
       html += '<div class="pline">';
+      // 原句
       html += '<span class="chline">';
       const chars = Array.from(line);
       for(let ci=0;ci<chars.length;ci++){
@@ -365,36 +371,35 @@ body.opt-big .ch .zi{font-size:28px;}
         html += `<span class="ch${isR?' is-rhyme':''}">${info.pinyin?`<span class="py">${info.pinyin}</span>`:''}<span class="zi">${ch}</span>${info.tone?`<span class="pz">${info.tone}</span>`:''}</span>`;
       }
       html += '</span>';
-      // 对应白话句（按索引取，没有则显示空，超出部分不重复显示）
+      // 白话句
       const zh = zhSents[i];
       if(zh){
         html += `<span class="zh-line">${zh}</span>`;
       }
-      // 对应英文句
-      const en = enSentsAll[i];
+      // 英文句
+      const en = enSentsPer[i];
       if(en){
         html += `<span class="en-line">${en}</span>`;
       }
       html += '</div>';
     }
     $('poem').innerHTML = html;
-    // 白话完整译文（底部保留完整版本，逐句之外的内容也显示）
+    // 白话完整译文（精读面板里有完整版，底部zh-box仅在有剩余内容时显示）
     const zhText = p.tr || p.translation || '';
     if(zhText){
       $('zhContent').innerHTML = zhText.replace(/\n/g,'<br>');
     } else {
       $('zhContent').textContent = '白话译文整理中';
     }
-    // 英译（完整版本）
+    // 英译完整版
     const box = $('enBox');
-    if(p.en_body && p.en_body.some(x=>x) && enSentsAll.length>0){
-      $('enTitle').textContent = p.title;
-      $('enAuthor').textContent = p.dynasty + (p.author?' · '+p.author:'');
+    const hasPerEn = enSentsPer.filter(Boolean).length > 0;
+    $('enTitle').textContent = p.title;
+    $('enAuthor').textContent = p.dynasty + (p.author?' · '+p.author:'');
+    if(p.en_body && p.en_body.some(x=>x)){
       $('enLines').innerHTML = p.en_body.map(e=>`<div class="en-line">${e||'&nbsp;'}</div>`).join('');
-      $('enNote').textContent = p.en_note;
+      $('enNote').textContent = p.en_note || '诗藏自译 (Shicang Translation)';
     } else {
-      $('enTitle').textContent = p.title;
-      $('enAuthor').textContent = p.dynasty + (p.author?' · '+p.author:'');
       $('enLines').innerHTML = `<div class="en-line">English translation in progress.</div>`;
       $('enNote').textContent = '英译整理中';
     }
