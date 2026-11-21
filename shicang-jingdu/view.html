@@ -14,7 +14,11 @@ main{max-width:820px;margin:0 auto;padding:60px 24px 80px;}
 .work-sub{text-align:center;color:#8b6f5c;font-size:15px;margin-bottom:40px;letter-spacing:1px;}
 .work-from{text-align:center;color:#a08873;font-size:13px;margin-bottom:30px;font-style:italic;}
 #poem{font-size:22px;line-height:2.4;text-align:center;margin:30px 0 40px;color:#1a100c;}
-.pline{margin:8px 0;}
+.pline{margin:14px 0;text-align:center;}
+.pline .zh-line{display:none;font-size:15px;color:#5a3a20;margin:6px auto 2px;font-family:"Songti SC","SimSun",serif;line-height:1.8;letter-spacing:1px;max-width:640px;}
+.pline .en-line{display:none;font-size:14px;color:#5a4a3a;margin:2px auto 10px;font-family:"Georgia",serif;line-height:1.7;font-style:italic;max-width:680px;}
+body.opt-zh .pline .zh-line{display:block;}
+body.opt-en .pline .en-line{display:block;}
 .chline{display:inline-flex;flex-wrap:wrap;justify-content:center;}
 .ch{display:inline-flex;flex-direction:column;align-items:center;margin:0 1px;position:relative;}
 .ch .py{font-size:11px;color:#a08873;height:16px;line-height:16px;font-family:sans-serif;opacity:0;transition:opacity .2s;}
@@ -29,17 +33,17 @@ body.opt-rhyme .ch.is-rhyme .zi{border-bottom:2px solid #8b2f2f;}
 .sw{padding:6px 14px;border:1px solid #c4b09a;background:transparent;color:#5c4636;border-radius:20px;font-size:13px;cursor:pointer;transition:all .2s;font-family:inherit;}
 .sw:hover{border-color:#8b2f2f;color:#8b2f2f;}
 .sw.on{background:#8b2f2f;color:#f7f1e3;border-color:#8b2f2f;}
-.en-box{max-width:700px;margin:20px auto;padding:20px 28px;background:rgba(139,47,47,.04);border-left:3px solid #8b2f2f;display:none;}
+.zh-box{display:none;max-width:700px;margin:20px auto;padding:20px 28px;background:rgba(101,67,33,.05);border-left:3px solid #654321;}
+.zh-title{font-size:17px;font-weight:600;margin-bottom:10px;color:#5a3a20;}
+.zh-content{font-size:15.5px;line-height:2;color:#2a2018;font-family:"Songti SC","SimSun",serif;white-space:pre-wrap;}
+.en-box{display:none;max-width:700px;margin:20px auto;padding:20px 28px;background:rgba(139,47,47,.04);border-left:3px solid #8b2f2f;}
 .en-title{font-size:18px;font-weight:600;margin-bottom:8px;color:#1a100c;}
 .en-author{font-size:13px;color:#8b6f5c;margin-bottom:14px;}
 .en-lines{font-size:15px;line-height:1.9;color:#3a2f2a;font-family:"Georgia",serif;}
 .en-line{margin:6px 0;}
 .en-note{margin-top:14px;padding-top:12px;border-top:1px dashed #c4b09a;font-size:12px;color:#8b6f5c;font-style:italic;}
-.zh-box{max-width:700px;margin:20px auto;padding:20px 28px;background:rgba(101,67,33,.05);border-left:3px solid #654321;display:none;}
-.zh-title{font-size:17px;font-weight:600;margin-bottom:10px;color:#5a3a20;}
-.zh-content{font-size:15.5px;line-height:2;color:#2a2018;font-family:"Songti SC","SimSun",serif;white-space:pre-wrap;}
-body.opt-en .en-box{display:block;}
 body.opt-zh .zh-box{display:block;}
+body.opt-en .en-box{display:block;}
 body.opt-vt #poem{writing-mode:vertical-rl;height:60vh;margin:0 auto;}
 body.opt-vt .chline{flex-direction:row;}
 body.opt-big #poem{font-size:28px;}
@@ -316,42 +320,83 @@ body.opt-big .ch .zi{font-size:28px;}
     return {pinyin:parts[0]||'', tone:parts[1]||'', rhyme:parts[2]||''};
   }
 
-  // 渲染正文
+  // 把整段文本按句末标点切分为句子数组（用于逐句对照）
+  function splitToSentences(text){
+    if(!text) return [];
+    const clean = String(text).replace(/\s+/g,' ').trim();
+    // 按句末标点切分，保留标点；中文按 。！？ 切，英文按 .?! 切
+    const parts = clean.split(/(?<=[。！？!?])/).map(s=>s.trim()).filter(s=>s && s.length>1);
+    return parts;
+  }
+
+  // 渲染正文（原句+白话+英文逐句上下对照）
   function renderPoem(p){
     const endChars = [];
+    // 白话句子数组（优先用tr字段，fallback到translation）
+    const zhSents = splitToSentences(p.tr || p.translation || '');
+    // 英文句子数组（把en_body的段落再按句切分）
+    let enSentsAll = [];
+    if(p.en_body){
+      for(const para of p.en_body){
+        const ss = String(para).split(/(?<=[.!?])\s+/).map(s=>s.trim()).filter(s=>s && s.length>2);
+        enSentsAll = enSentsAll.concat(ss);
+      }
+    }
+    // 过滤掉模板英文句子
+    enSentsAll = enSentsAll.filter(s => !/This classical Chinese poem is rendered/i.test(s) && !/For full appreciation/i.test(s));
+
     let html = '';
-    for(const line of p.body){
-      html += '<div class="pline"><span class="chline">';
+    for(let i=0;i<p.body.length;i++){
+      const line = p.body[i];
+      // 原句
+      html += '<div class="pline">';
+      html += '<span class="chline">';
       const chars = Array.from(line);
-      for(let i=0;i<chars.length;i++){
-        const ch = chars[i];
+      for(let ci=0;ci<chars.length;ci++){
+        const ch = chars[ci];
         if(/[，。！？；：、,.!?;:）)（(]/.test(ch)){
           html += `<span class="ch"><span class="zi" style="color:#9a8560">${ch}</span></span>`;
           continue;
         }
         const info = pick(ch) || {};
-        const isEnd = i+1<chars.length && /[，。！？；：、,.!?;:)）]/.test(chars[i+1]);
+        const isEnd = ci+1<chars.length && /[，。！？；：、,.!?;:)）]/.test(chars[ci+1]);
         if(isEnd) endChars.push(ch);
         const isR = isEnd && isRhyme(ch, endChars);
         html += `<span class="ch${isR?' is-rhyme':''}">${info.pinyin?`<span class="py">${info.pinyin}</span>`:''}<span class="zi">${ch}</span>${info.tone?`<span class="pz">${info.tone}</span>`:''}</span>`;
       }
-      html += '</span></div>';
+      html += '</span>';
+      // 对应白话句（按索引取，没有则显示空，超出部分不重复显示）
+      const zh = zhSents[i];
+      if(zh){
+        html += `<span class="zh-line">${zh}</span>`;
+      }
+      // 对应英文句
+      const en = enSentsAll[i];
+      if(en){
+        html += `<span class="en-line">${en}</span>`;
+      }
+      html += '</div>';
     }
     $('poem').innerHTML = html;
-    // 白话译文（优先使用白话字段，没有则用 translation 字段）
-    const zhText = p.白话 || p.translation || '';
+    // 白话完整译文（底部保留完整版本，逐句之外的内容也显示）
+    const zhText = p.tr || p.translation || '';
     if(zhText){
-      $('zhContent').textContent = zhText.replace(/<[^>]+>/g,'').replace(/\s+\n/g,'\n');
+      $('zhContent').innerHTML = zhText.replace(/\n/g,'<br>');
     } else {
       $('zhContent').textContent = '白话译文整理中';
     }
-    // 英译
+    // 英译（完整版本）
     const box = $('enBox');
-    if(p.en_body && p.en_body.some(x=>x)){
+    if(p.en_body && p.en_body.some(x=>x) && enSentsAll.length>0){
       $('enTitle').textContent = p.title;
       $('enAuthor').textContent = p.dynasty + (p.author?' · '+p.author:'');
       $('enLines').innerHTML = p.en_body.map(e=>`<div class="en-line">${e||'&nbsp;'}</div>`).join('');
       $('enNote').textContent = p.en_note;
+    } else {
+      $('enTitle').textContent = p.title;
+      $('enAuthor').textContent = p.dynasty + (p.author?' · '+p.author:'');
+      $('enLines').innerHTML = `<div class="en-line">English translation in progress.</div>`;
+      $('enNote').textContent = '英译整理中';
     }
   }
 
