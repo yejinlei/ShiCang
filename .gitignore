@@ -6,5 +6,5 @@ download_books.py
 shicang_data/books.json
 shicang_data/missing.json
 .DS_Store
-shicang_data/jingdu/
+# shicang_data/jingdu/
 chinese-poetry/
