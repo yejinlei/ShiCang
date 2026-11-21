@@ -144,7 +144,21 @@ body.opt-big .ch .zi{font-size:28px;}
   const iParam = parseInt(params.get('i') || '0', 10);
   const aslug = anthParam || (sParam && sParam.split('_')[0]) || '';
   const slug = (sParam && sParam.indexOf('_')>=0) ? sParam : '';
-  const MODE = deepParam ? 'deep' : (aslug ? 'anth' : 'coll');
+  
+  // 旧版深度名作 slug 映射（自动重定向到正确新key）
+  const OLD_SLUG_MAP = {
+    'deep_e840a16d06': 'deep_0770', // 红楼梦·题帕三绝
+    'deep_6a84b593d2': 'deep_0135', // 春晓
+    'deep_c0d46a78da': 'deep_0282', // 春望
+    'deep_34f81b9f06': 'deep_0200', // 下江陵/早发白帝城
+    'deep_f11d76dac1': 'deep_0749', // 天净沙·秋思
+  };
+  const realDeep = OLD_SLUG_MAP[deepParam] || deepParam;
+  if(realDeep !== deepParam){
+    history.replaceState(null,'',`view.html?deep=${realDeep}`);
+  }
+  
+  const MODE = realDeep ? 'deep' : (aslug ? 'anth' : 'coll');
 
   const ANTH_NAME = {qianjiashi:'千家诗',songci300:'宋词三百首',jumiaohaoci:'绝妙好词',jin300:'近三百年名家词选',wanshou:'唐人万首绝句选',yuanshi:'元诗别裁集',mingshi:'明诗别裁集',qingshi:'清诗别裁集'};
 
@@ -259,11 +273,18 @@ body.opt-big .ch .zi{font-size:28px;}
     let bg = w.bg || w.background || '';
     // 题旨
     const theme = w.theme || '';
-    // 英译
-    let en_body = w.en_body || [];
-    if(!en_body.length && w.en_translation) en_body = w.en_translation.split('\n').filter(Boolean);
+    // 英译：优先使用完整的 en_translation（逐行精译），其次用 en_body 数组
+    let en_body = [];
+    if(w.en_translation && String(w.en_translation).length > 50){
+      en_body = String(w.en_translation).split('\n').filter(x=>x && x.trim());
+    } else if(Array.isArray(w.en_body) && w.en_body.length){
+      en_body = w.en_body.filter(x=>x && x.trim());
+    }
     let en_note = w.en_translator || '诗藏自译 (Shicang Translation)';
-    const has_real_en = en_body.some(x => x && /[a-zA-Z]{10,}/.test(x));
+    // 英译真实性判断：有超过2行英文，且包含至少50个英文字母，视为有效英译
+    const en_text = en_body.join(' ');
+    const letter_count = (en_text.match(/[a-zA-Z]/g)||[]).length;
+    const has_real_en = en_body.length >= 2 && letter_count > 50;
     if(!has_real_en){
       en_body = ["This classical Chinese poem is rendered in English by Shicang Translation. For full appreciation, we recommend reading the original Chinese text alongside this version."];
       en_note = '诗藏自译 (Shicang Translation)';
@@ -420,7 +441,7 @@ body.opt-big .ch .zi{font-size:28px;}
         idx = {shards: Array.from(new Set(Object.values(idxRaw).map(v=>String(v.shard))))};
       }
       // 找到目标所在分片
-      let target = list.find(w => w.key === deepParam) || list.find(w => w.slug === deepParam);
+      let target = list.find(w => w.key === realDeep) || list.find(w => w.slug === realDeep);
       if(!target){ throw new Error('未在索引中找到该作品'); }
       // 兼容 shard 字段：可能是 "0.json" 或 "0" 或数字
       let shardName = target.shard;
@@ -429,7 +450,7 @@ body.opt-big .ch .zi{font-size:28px;}
       // 加载目标分片
       POEMS = await loadDeepShard(shardName);
       // 在分片里找作品：用 key/slug/idx_in_shard 兼容
-      const targetKey = target.key || target.slug || deepParam;
+      const targetKey = target.key || target.slug || realDeep;
       CUR_IDX = POEMS.findIndex(w => (w.slug||w.key) === targetKey);
       if(CUR_IDX < 0){
         CUR_IDX = POEMS.findIndex(w => w.title === target.title && (!target.author || w.author === target.author));
