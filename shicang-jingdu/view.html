@@ -191,7 +191,11 @@ body.opt-big .ch .zi{font-size:28px;}
     // 正文：兼容 lines/body/paragraphs/l/text
     const raw = w.body || w.lines || w.paragraphs || w.l || w.text;
     let body = [];
-    if(Array.isArray(raw)){
+    // 预分行的作品（如楚辞离骚等长诗已按句切好），不做二次切分
+    const preLines = Array.isArray(raw) && raw.length >= 10 && raw.every(x => typeof x === 'string' && x.length < 60);
+    if(preLines){
+      body = raw.map(s=>String(s).trim()).filter(Boolean);
+    } else if(Array.isArray(raw)){
       for(const it of raw){
         if(Array.isArray(it)){
           for(const l of it){ if(l && String(l).trim()) body.push(String(l).trim()); }
@@ -274,10 +278,12 @@ body.opt-big .ch .zi{font-size:28px;}
     const theme = w.theme || '';
     // 英译：优先使用完整的 en_translation（逐行精译），其次用 en_body 数组
     let en_body = [];
-    if(w.en_translation && String(w.en_translation).length > 50){
+    if(Array.isArray(w.en_translation) && w.en_translation.length){
+      en_body = w.en_translation.filter(x=>x && String(x).trim()).map(x=>String(x).trim());
+    } else if(w.en_translation && String(w.en_translation).length > 50){
       en_body = String(w.en_translation).split('\n').filter(x=>x && x.trim());
     } else if(Array.isArray(w.en_body) && w.en_body.length){
-      en_body = w.en_body.filter(x=>x && x.trim());
+      en_body = w.en_body.filter(x=>x && x.trim()).map(x=>String(x).trim());
     }
     let en_note = w.en_translator || '诗藏自译 (Shicang Translation)';
     // 英译真实性判断：有超过2行英文，且包含至少50个英文字母，视为有效英译
@@ -293,8 +299,8 @@ body.opt-big .ch .zi{font-size:28px;}
       title, author, dynasty, genre, body,
       note, tr, appr, st, img, bg, theme,
       en_body, en_note,
-      zh_lines: w.zh_lines || [],
-      en_lines_per: w.en_lines_per || [],
+      zh_lines: w.zh_lines || w.baihua_lines || w.baihua || [],
+      en_lines_per: w.en_lines_per || w.en_lines || w.en_text || w.en_translation || [],
       slug: w.slug||'', incipit: w.incipit||'',
       main_a: meta.title||''
     };
