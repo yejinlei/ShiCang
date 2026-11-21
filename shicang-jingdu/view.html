@@ -112,12 +112,13 @@ body.opt-big .ch .zi{font-size:28px;}
   <div class="deep-panels" id="panels" style="display:none">
     <div class="deep-tabs">
       <button class="deep-sw on" data-dp="note">注释</button>
-      <button class="deep-sw" data-dp="tr">今译</button>
+      <button class="deep-sw" data-dp="tr">白话</button>
       <button class="deep-sw" data-dp="appr">赏析</button>
       <button class="deep-sw" data-dp="st">起承转合</button>
       <button class="deep-sw" data-dp="img">意象</button>
       <button class="deep-sw" data-dp="bg">背景</button>
       <button class="deep-sw" data-dp="theme">题旨</button>
+      <button class="deep-sw" data-dp="en">英译</button>
     </div>
     <div class="dp-panel active" id="dp-note"></div>
     <div class="dp-panel" id="dp-tr"></div>
@@ -126,6 +127,7 @@ body.opt-big .ch .zi{font-size:28px;}
     <div class="dp-panel" id="dp-img"></div>
     <div class="dp-panel" id="dp-bg"></div>
     <div class="dp-panel" id="dp-theme"></div>
+    <div class="dp-panel" id="dp-en"></div>
   </div>
 </main>
 <div class="pn" id="pn"></div>
@@ -367,8 +369,8 @@ body.opt-big .ch .zi{font-size:28px;}
       const m = l.match(/^【(.+?)】(.*)$/);
       return m ? `<div class="dp-note-item"><span class="dp-note-term">${m[1]}</span>${m[2]}</div>` : `<div class="dp-note-item">${l}</div>`;
     }).join('') : '<div style="color:#a08873">本篇字词古雅，品读时注意体会语境。</div>');
-    // 今译
-    $('dp-tr').innerHTML = '<h4>白话今译</h4>' + (p.tr ? `<div style="line-height:2">${p.tr.replace(/\n/g,'<br>')}</div>` : '<div style="color:#a08873">今译参见名家译注。</div>');
+    // 白话译文
+    $('dp-tr').innerHTML = '<h4>白话译文</h4>' + (p.tr ? `<div style="line-height:2">${p.tr.replace(/\n/g,'<br>')}</div>` : '<div style="color:#a08873">白话译文参见名家译注。</div>');
     // 赏析
     $('dp-appr').innerHTML = '<h4>赏　析</h4>' + (p.appr ? `<div style="line-height:2">${p.appr.replace(/\n/g,'<br>')}</div>` : '<div style="color:#a08873">赏析整理中。</div>');
     // 起承转合
