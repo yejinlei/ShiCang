@@ -206,7 +206,10 @@ body.opt-big .ch .zi{font-size:28px;}
     if(!note && Array.isArray(w.notes)){
       note = w.notes.map(n => {
         if(typeof n === 'string') return n;
-        if(n && n.term && n.exp) return `【${n.term}】${n.exp}`;
+        if(n && n.term){
+          const exp = n.explanation || n.exp || n.desc || n.text || '';
+          return `【${n.term}】${exp}`;
+        }
         return '';
       }).filter(Boolean).join('\n');
     }
