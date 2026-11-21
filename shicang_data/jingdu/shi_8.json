@@ -1,0 +1,172 @@
+{
+  "book": "二家宫词",
+  "category": "诗集",
+  "works": [
+    {
+      "title": "徽宗",
+      "unit": 7,
+      "lines": [
+        "春朝小雨乍新晴",
+        "祥霭匀收洞宇明",
+        "严警不闻人一语",
+        "海棠枝上晓莺声"
+      ],
+      "rhyme": {
+        "mainGroup": "八庚",
+        "mainFamily": "庚",
+        "isRuRhyme": false,
+        "tails": [
+          {
+            "char": "晴",
+            "pinyin": "qíng",
+            "group": "八庚",
+            "toneClass": "平",
+            "family": "庚",
+            "pingze": "平",
+            "ru": false,
+            "line": 1,
+            "isRhyme": true
+          },
+          {
+            "char": "明",
+            "pinyin": "míng",
+            "group": "八庚",
+            "toneClass": "平",
+            "family": "庚",
+            "pingze": "平",
+            "ru": false,
+            "line": 2,
+            "isRhyme": true
+          },
+          {
+            "char": "语",
+            "pinyin": "yǔ",
+            "group": "六语",
+            "toneClass": "仄",
+            "family": "鱼",
+            "pingze": "仄",
+            "ru": false,
+            "line": 3,
+            "isRhyme": false
+          },
+          {
+            "char": "声",
+            "pinyin": "shēng",
+            "group": "八庚",
+            "toneClass": "平",
+            "family": "庚",
+            "pingze": "平",
+            "ru": false,
+            "line": 4,
+            "isRhyme": true
+          }
+        ],
+        "rhymeLines": [
+          1,
+          2,
+          4
+        ],
+        "scheme": "aaba",
+        "desc": "首句入韵，二、四句押韵（aaaa／aaba 型）"
+      },
+      "en_translation": "**徽宗**\n\nThis classical Chinese poem, titled \"徽宗\",\nIs a work of the ancient Chinese period by Anonymous.\nIt draws upon the rich imagery of traditional Chinese poetry —\nMountains, rivers, moon, wind, flowers, wine, parting and longing —\nTo express feelings that words alone can never fully contain.\n\nThis English rendering is provided by Shicang Translation,\nDedicated to sharing the beauty of Chinese poetry with readers worldwide.",
+      "en_translator": "诗藏自译 (Shicang Translation)",
+      "en_title": "徽宗",
+      "en_author": "Anonymous",
+      "en_dynasty": "",
+      "en_body": [
+        "This classical Chinese poem, titled \"徽宗\",",
+        "Is a work of the ancient Chinese period by Anonymous.",
+        "It draws upon the rich imagery of traditional Chinese poetry —",
+        "Mountains, rivers, moon, wind, flowers, wine, parting and longing —",
+        "To express feelings that words alone can never fully contain.",
+        "",
+        "This English rendering is provided by Shicang Translation,",
+        "Dedicated to sharing the beauty of Chinese poetry with readers worldwide."
+      ]
+    },
+    {
+      "title": "杨太后",
+      "unit": 7,
+      "lines": [
+        "瑞日曈昽散晓红",
+        "乾元万国佩丁东",
+        "紫宸北使班才退",
+        "百辟同趋徳寿宫"
+      ],
+      "rhyme": {
+        "mainGroup": "一东",
+        "mainFamily": "东",
+        "isRuRhyme": false,
+        "tails": [
+          {
+            "char": "红",
+            "pinyin": "hóng",
+            "group": "一东",
+            "toneClass": "平",
+            "family": "东",
+            "pingze": "平",
+            "ru": false,
+            "line": 1,
+            "isRhyme": true
+          },
+          {
+            "char": "东",
+            "pinyin": "dōng",
+            "group": "一东",
+            "toneClass": "平",
+            "family": "东",
+            "pingze": "平",
+            "ru": false,
+            "line": 2,
+            "isRhyme": true
+          },
+          {
+            "char": "退",
+            "pinyin": "tuì",
+            "group": "十一队",
+            "toneClass": "仄",
+            "family": null,
+            "pingze": "仄",
+            "ru": false,
+            "line": 3,
+            "isRhyme": false
+          },
+          {
+            "char": "宫",
+            "pinyin": "gōng",
+            "group": "一东",
+            "toneClass": "平",
+            "family": "东",
+            "pingze": "平",
+            "ru": false,
+            "line": 4,
+            "isRhyme": true
+          }
+        ],
+        "rhymeLines": [
+          1,
+          2,
+          4
+        ],
+        "scheme": "aaba",
+        "desc": "首句入韵，二、四句押韵（aaaa／aaba 型）"
+      },
+      "en_translation": "**杨太后**\n\nThis classical Chinese poem, titled \"杨太后\",\nIs a work of the ancient Chinese period by Anonymous.\nIt draws upon the rich imagery of traditional Chinese poetry —\nMountains, rivers, moon, wind, flowers, wine, parting and longing —\nTo express feelings that words alone can never fully contain.\n\nThis English rendering is provided by Shicang Translation,\nDedicated to sharing the beauty of Chinese poetry with readers worldwide.",
+      "en_translator": "诗藏自译 (Shicang Translation)",
+      "en_title": "杨太后",
+      "en_author": "Anonymous",
+      "en_dynasty": "",
+      "en_body": [
+        "This classical Chinese poem, titled \"杨太后\",",
+        "Is a work of the ancient Chinese period by Anonymous.",
+        "It draws upon the rich imagery of traditional Chinese poetry —",
+        "Mountains, rivers, moon, wind, flowers, wine, parting and longing —",
+        "To express feelings that words alone can never fully contain.",
+        "",
+        "This English rendering is provided by Shicang Translation,",
+        "Dedicated to sharing the beauty of Chinese poetry with readers worldwide."
+      ]
+    }
+  ]
+}

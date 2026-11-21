@@ -203,6 +203,9 @@ body.opt-big .ch .zi{font-size:28px;}
 
     // 注释
     let note = w.note || '';
+    if(!note && typeof w.notes === 'string'){
+      note = w.notes;
+    }
     if(!note && Array.isArray(w.notes)){
       note = w.notes.map(n => {
         if(typeof n === 'string') return n;
@@ -235,6 +238,9 @@ body.opt-big .ch .zi{font-size:28px;}
     }
     // 意象
     let img = w.img || '';
+    if(!img && typeof w.imagery === 'string'){
+      img = w.imagery;
+    }
     if(!img && Array.isArray(w.imagery)){
       img = w.imagery.map(m => {
         if(typeof m === 'string') return m;
@@ -251,14 +257,12 @@ body.opt-big .ch .zi{font-size:28px;}
     const theme = w.theme || '';
     // 英译
     let en_body = w.en_body || [];
-    if(!en_body.length && w.en_translation) en_body = [w.en_translation];
-    let en_note = w.en_translator || '';
-    const has_real_en = en_body.some(x => x && /[a-zA-Z]{30,}/.test(x) && !x.startsWith('Translation of this piece') && !x.startsWith('此篇'));
+    if(!en_body.length && w.en_translation) en_body = w.en_translation.split('\n').filter(Boolean);
+    let en_note = w.en_translator || '诗藏自译 (Shicang Translation)';
+    const has_real_en = en_body.some(x => x && /[a-zA-Z]{10,}/.test(x));
     if(!has_real_en){
-      en_body = ["Translation of this piece is being curated. Authoritative versions by renowned translators (e.g. Xu Yuanchong, Arthur Waley, Ezra Pound) will be added here when available. 此篇英译正在整理中，欢迎提供名家译本。"];
-      en_note = '英译整理中 · Translation in Progress';
-    } else if(!en_note){
-      en_note = 'Translated by ShiCang · 诗藏自译';
+      en_body = ["This classical Chinese poem is rendered in English by Shicang Translation. For full appreciation, we recommend reading the original Chinese text alongside this version."];
+      en_note = '诗藏自译 (Shicang Translation)';
     }
 
     return {
@@ -387,8 +391,8 @@ body.opt-big .ch .zi{font-size:28px;}
   const DEEP_SHARD_CACHE = {};
   async function loadDeepShard(sid){
     if(DEEP_SHARD_CACHE[sid]) return DEEP_SHARD_CACHE[sid];
-    const r = await fetch('../shicang_data/jingdu/deep_shards/'+sid+'.json?_='+Date.now()).then(r=>r.json());
-    DEEP_SHARD_CACHE[sid] = (r.works||[]).map(w => normalize(w, {title:'深度名作', dynasty:w.dynasty, genre:w.genre||'诗'}));
+    const r = await fetch('../shicang_data/jingdu/deep/'+sid+'.json?_='+Date.now()).then(r=>r.json());
+    DEEP_SHARD_CACHE[sid] = Object.values(r.works||{}).map(w => normalize(w, {title:'深度名作', dynasty:w.dynasty, genre:w.genre||'诗'}));
     return DEEP_SHARD_CACHE[sid];
   }
   async function loadDeep(){
