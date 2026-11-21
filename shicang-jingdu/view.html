@@ -110,16 +110,6 @@ body.opt-big .ch .zi{font-size:28px;}
     <button class="sw" data-opt="opt-big">大字</button>
   </div>
   <div id="poem"><div class="loading">展 卷 中…</div></div>
-  <div class="zh-box" id="zhBox" style="display:none;">
-    <div class="zh-title">白话译文</div>
-    <div class="zh-content" id="zhContent"></div>
-  </div>
-  <div class="en-box" id="enBox">
-    <div class="en-title" id="enTitle"></div>
-    <div class="en-author" id="enAuthor"></div>
-    <div class="en-lines" id="enLines"></div>
-    <div class="en-note" id="enNote"></div>
-  </div>
   <div class="deep-panels" id="panels" style="display:none">
     <div class="deep-tabs">
       <button class="deep-sw on" data-dp="note">注释</button>
@@ -381,39 +371,19 @@ body.opt-big .ch .zi{font-size:28px;}
     }
     $('poem').innerHTML = html;
     // 英文译者署名（仅在开启英译时显示）
-    const hasPerEn = enSentsPer.filter(Boolean).length > 0;
-    if(hasPerEn){
+    const hasAnyEn = enSentsPer.filter(Boolean).length > 0;
+    if(hasAnyEn){
       const note = document.createElement('div');
       note.className = 'en-translator';
       note.style.cssText = 'text-align:center;font-size:12px;color:#8b6f5c;font-style:italic;margin-top:20px;font-family:Georgia,serif;display:none;';
       note.textContent = p.en_note || '诗藏自译 (Shicang Translation)';
       $('poem').appendChild(note);
-      // 用CSS控制显示
-      const style = document.createElement('style');
-      style.textContent = 'body.opt-en .en-translator{display:block!important;}';
       if(!document.getElementById('en-note-style')){
+        const style = document.createElement('style');
         style.id = 'en-note-style';
+        style.textContent = 'body.opt-en .en-translator{display:block!important;}';
         document.head.appendChild(style);
       }
-    }
-    // 白话完整译文（精读面板里有完整版，底部zh-box仅在有剩余内容时显示）
-    const zhText = p.tr || p.translation || '';
-    if(zhText){
-      $('zhContent').innerHTML = zhText.replace(/\n/g,'<br>');
-    } else {
-      $('zhContent').textContent = '白话译文整理中';
-    }
-    // 英译完整版
-    const box = $('enBox');
-    const hasPerEn = enSentsPer.filter(Boolean).length > 0;
-    $('enTitle').textContent = p.title;
-    $('enAuthor').textContent = p.dynasty + (p.author?' · '+p.author:'');
-    if(p.en_body && p.en_body.some(x=>x)){
-      $('enLines').innerHTML = p.en_body.map(e=>`<div class="en-line">${e||'&nbsp;'}</div>`).join('');
-      $('enNote').textContent = p.en_note || '诗藏自译 (Shicang Translation)';
-    } else {
-      $('enLines').innerHTML = `<div class="en-line">English translation in progress.</div>`;
-      $('enNote').textContent = '英译整理中';
     }
   }
 
