@@ -402,32 +402,42 @@ body.opt-big .ch .zi{font-size:28px;}
       const chars = await fetch('../shicang_data/char_info.json').then(r=>r.json()).catch(()=>({}));
       CHAR = chars;
       // 加载索引
-      const idx = await fetch('../shicang_data/jingdu/deep_index.json?_='+Date.now()).then(r=>r.json());
-      const list = idx.works||[];
-      // 找到目标所在分片（字段兼容 key/slug）
+      const idxRaw = await fetch('../shicang_data/jingdu/deep_index.json?_='+Date.now()).then(r=>r.json());
+      // 兼容两种格式：字典 {deep_xxxx:{shard,idx}} 或 {works:[{key,slug,shard,...}]}
+      let idx, list;
+      if(idxRaw.works && Array.isArray(idxRaw.works)){
+        idx = idxRaw;
+        list = idxRaw.works;
+      } else {
+        // 字典格式，转成数组
+        list = Object.entries(idxRaw).map(([k,v])=>({
+          key:k, slug:k, shard:v.shard, idx_in_shard:v.idx, idx:v.idx
+        }));
+        idx = {shards: Array.from(new Set(Object.values(idxRaw).map(v=>String(v.shard))))};
+      }
+      // 找到目标所在分片
       let target = list.find(w => w.key === deepParam) || list.find(w => w.slug === deepParam);
-      if(!target){ target = list[0]; }
-      if(!target){ throw new Error('索引为空'); }
+      if(!target){ throw new Error('未在索引中找到该作品'); }
       // 兼容 shard 字段：可能是 "0.json" 或 "0" 或数字
       let shardName = target.shard;
-      if(typeof shardName === 'number') shardName = String(shardName)+'.json';
-      if(typeof shardName === 'string' && !/\.json$/.test(shardName)) shardName = shardName + '.json';
+      if(typeof shardName === 'number') shardName = String(shardName);
+      if(typeof shardName === 'string' && !/\.json$/.test(shardName)) shardName = shardName;
       // 加载目标分片
       POEMS = await loadDeepShard(shardName);
-      // 在分片里找作品：用 key/slug/title+author 兼容
+      // 在分片里找作品：用 key/slug/idx_in_shard 兼容
       const targetKey = target.key || target.slug || deepParam;
       CUR_IDX = POEMS.findIndex(w => (w.slug||w.key) === targetKey);
       if(CUR_IDX < 0){
         CUR_IDX = POEMS.findIndex(w => w.title === target.title && (!target.author || w.author === target.author));
       }
-      if(CUR_IDX < 0) CUR_IDX = target.idx_in_shard || 0;
+      if(CUR_IDX < 0) CUR_IDX = target.idx_in_shard || target.idx || 0;
       if(CUR_IDX < 0 || CUR_IDX >= POEMS.length) CUR_IDX = 0;
       CUR = POEMS[CUR_IDX];
       // 预加载相邻分片（后台）
-      const shardIds = (idx.shards||[]).map(s => typeof s === 'string' && !/\.json$/.test(s) ? s+'.json' : s);
-      const curShardIdx = shardIds.indexOf(shardName);
+      const shardIds = idx.shards || Array.from(new Set(list.map(x=>String(x.shard))));
+      const curShardIdx = shardIds.indexOf(String(shardName));
       [curShardIdx-1, curShardIdx+1].forEach(i => {
-        if(i>=0 && i<shardIds.length) loadDeepShard(shardIds[i]).catch(()=>{});
+        if(i>=0 && i<shardIds.length) loadDeepShard(String(shardIds[i])).catch(()=>{});
       });
     }catch(e){
       $('poem').innerHTML = `<div class="loading">加载失败：${e.message}</div>`;
