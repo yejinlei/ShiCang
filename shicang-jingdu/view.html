@@ -42,8 +42,6 @@ body.opt-rhyme .ch.is-rhyme .zi{border-bottom:2px solid #8b2f2f;}
 .en-lines{font-size:15px;line-height:1.9;color:#3a2f2a;font-family:"Georgia",serif;}
 .en-line{margin:6px 0;}
 .en-note{margin-top:14px;padding-top:12px;border-top:1px dashed #c4b09a;font-size:12px;color:#8b6f5c;font-style:italic;}
-body.opt-zh .zh-box{display:block;}
-body.opt-en .en-box{display:block;}
 body.opt-vt #poem{writing-mode:vertical-rl;height:60vh;margin:0 auto;}
 body.opt-vt .chline{flex-direction:row;}
 body.opt-big #poem{font-size:28px;}
@@ -124,16 +122,14 @@ body.opt-big .ch .zi{font-size:28px;}
   </div>
   <div class="deep-panels" id="panels" style="display:none">
     <div class="deep-tabs">
-      <button class="deep-sw on" data-dp="tr">白话</button>
-      <button class="deep-sw" data-dp="note">注释</button>
+      <button class="deep-sw on" data-dp="note">注释</button>
       <button class="deep-sw" data-dp="appr">赏析</button>
       <button class="deep-sw" data-dp="st">起承转合</button>
       <button class="deep-sw" data-dp="img">意象</button>
       <button class="deep-sw" data-dp="bg">背景</button>
       <button class="deep-sw" data-dp="theme">题旨</button>
     </div>
-    <div class="dp-panel" id="dp-note"></div>
-    <div class="dp-panel active" id="dp-tr"></div>
+    <div class="dp-panel active" id="dp-note"></div>
     <div class="dp-panel" id="dp-appr"></div>
     <div class="dp-panel" id="dp-st"></div>
     <div class="dp-panel" id="dp-img"></div>
@@ -384,6 +380,22 @@ body.opt-big .ch .zi{font-size:28px;}
       html += '</div>';
     }
     $('poem').innerHTML = html;
+    // 英文译者署名（仅在开启英译时显示）
+    const hasPerEn = enSentsPer.filter(Boolean).length > 0;
+    if(hasPerEn){
+      const note = document.createElement('div');
+      note.className = 'en-translator';
+      note.style.cssText = 'text-align:center;font-size:12px;color:#8b6f5c;font-style:italic;margin-top:20px;font-family:Georgia,serif;display:none;';
+      note.textContent = p.en_note || '诗藏自译 (Shicang Translation)';
+      $('poem').appendChild(note);
+      // 用CSS控制显示
+      const style = document.createElement('style');
+      style.textContent = 'body.opt-en .en-translator{display:block!important;}';
+      if(!document.getElementById('en-note-style')){
+        style.id = 'en-note-style';
+        document.head.appendChild(style);
+      }
+    }
     // 白话完整译文（精读面板里有完整版，底部zh-box仅在有剩余内容时显示）
     const zhText = p.tr || p.translation || '';
     if(zhText){
@@ -425,7 +437,7 @@ body.opt-big .ch .zi{font-size:28px;}
 
   // 渲染七项面板
   function renderPanels(p){
-    const has = !!(p.note || p.tr || p.appr || p.st || p.img || p.bg || p.theme);
+    const has = !!(p.note || p.appr || p.st || p.img || p.bg || p.theme);
     if(!has){ $('panels').style.display='none'; return; }
     $('panels').style.display='block';
     // 注释
@@ -433,8 +445,6 @@ body.opt-big .ch .zi{font-size:28px;}
       const m = l.match(/^【(.+?)】(.*)$/);
       return m ? `<div class="dp-note-item"><span class="dp-note-term">${m[1]}</span>${m[2]}</div>` : `<div class="dp-note-item">${l}</div>`;
     }).join('') : '<div style="color:#a08873">本篇字词古雅，品读时注意体会语境。</div>');
-    // 白话译文
-    $('dp-tr').innerHTML = '<h4>白话译文</h4>' + (p.tr ? `<div style="line-height:2">${p.tr.replace(/\n/g,'<br>')}</div>` : '<div style="color:#a08873">白话译文参见名家译注。</div>');
     // 赏析
     $('dp-appr').innerHTML = '<h4>赏　析</h4>' + (p.appr ? `<div style="line-height:2">${p.appr.replace(/\n/g,'<br>')}</div>` : '<div style="color:#a08873">赏析整理中。</div>');
     // 起承转合
