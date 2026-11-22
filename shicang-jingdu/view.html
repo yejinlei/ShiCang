@@ -26,9 +26,10 @@ body.opt-en .pline .en-line{display:block;}
 .ch .pz{font-size:10px;color:#8b2f2f;height:14px;line-height:14px;font-family:sans-serif;opacity:0;transition:opacity .2s;}
 body.opt-py .ch .py{opacity:1;}
 body.opt-pz .ch .pz{opacity:1;}
-.ch.is-rhyme .zi{color:#8b2f2f;font-weight:600;}
-.ch.is-rhyme::after{content:'韵';position:absolute;top:-3px;right:-6px;font-size:9px;color:#8b2f2f;font-family:sans-serif;}
-body.opt-rhyme .ch.is-rhyme .zi{border-bottom:2px solid #8b2f2f;}
+.ch.is-rhyme::after{content:'韵';position:absolute;top:-3px;right:-6px;font-size:9px;color:#8b2f2f;font-family:sans-serif;opacity:0;transition:opacity .2s;}
+.ch.is-rhyme .zi{transition:all .2s;}
+body.opt-rhyme .ch.is-rhyme .zi{color:#8b2f2f;font-weight:600;border-bottom:2px solid #8b2f2f;}
+body.opt-rhyme .ch.is-rhyme::after{opacity:1;}
 .toolbar{display:flex;justify-content:center;flex-wrap:wrap;gap:8px;margin:30px 0;}
 .sw{padding:6px 14px;border:1px solid #c4b09a;background:transparent;color:#5c4636;border-radius:20px;font-size:13px;cursor:pointer;transition:all .2s;font-family:inherit;}
 .sw:hover{border-color:#8b2f2f;color:#8b2f2f;}
