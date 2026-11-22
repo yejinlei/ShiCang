@@ -192,8 +192,15 @@ body.opt-big .ch .zi{font-size:28px;}
     // 正文：兼容 lines/body/paragraphs/l/text
     const raw = w.body || w.lines || w.paragraphs || w.l || w.text;
     let body = [];
-    // 预分行的作品（如楚辞离骚等长诗已按句切好），不做二次切分
-    const preLines = Array.isArray(raw) && raw.length >= 10 && raw.every(x => typeof x === 'string' && x.length < 60);
+    // 预分行的作品（已按句切好的数组）：每行≤30字且无连续多句（句末标点总数≤1），就不再二次切分
+    const preLines = Array.isArray(raw) && raw.length >= 2 && raw.every(x => {
+      if(typeof x !== 'string') return false;
+      const s = x.trim();
+      if(!s) return false;
+      if(s.length > 40) return false;
+      // 句末标点（。！？）数量 ≤1 视为已逐句切好
+      return (s.match(/[。！？!?]/g) || []).length <= 1;
+    });
     if(preLines){
       body = raw.map(s=>String(s).trim()).filter(Boolean);
     } else if(Array.isArray(raw)){
@@ -202,11 +209,11 @@ body.opt-big .ch .zi{font-size:28px;}
           for(const l of it){ if(l && String(l).trim()) body.push(String(l).trim()); }
         } else if(it && String(it).trim()){
           const s = String(it).trim();
-          // 按句末标点切分诗句：句号/感叹号/问号一定切；诗体裁中逗号也切（五/七言诗每句以逗号或句号结尾）
-          const isPoem = /诗|绝句|律|乐府|古風|古风|骚/.test(genre);
-          if(s.length > 8 && /[。！？，,]/.test(s.slice(1))){
-            // 诗体裁：逗号和句末标点都作为切分点；其他体裁只按句末标点切
-            const splitRe = isPoem ? /(?<=[。！？!?，,])/ : /(?<=[。！？!?])/;
+          // 按句末标点切分诗句：诗/词/曲 都按逗号+句末标点切分；骚体只按句末标点切
+          const isSao = /兮|猗/.test(s) || /骚|楚辞/.test(genre);
+          const isVerse = !isSao && /诗|词|曲|绝句|律|乐府|古風|古风|骚|牌|令|引|近|慢|调/.test(genre);
+          if(s.length > 8 && /[。！？!?，,]/.test(s.slice(1))){
+            const splitRe = isVerse ? /(?<=[。！？!?，,])/ : /(?<=[。！？!?])/;
             const parts = s.split(splitRe);
             for(const pt of parts){ if(pt.trim()) body.push(pt.trim()); }
           } else {
@@ -217,20 +224,17 @@ body.opt-big .ch .zi{font-size:28px;}
     } else if(raw){
       const s = String(raw).replace(/\s+/g,'');
       let parts = s.split(/(?<=[。！？!?])/).filter(x=>x && x.trim()).map(x=>x.trim());
-      // 二次分句：仅近体诗（单逗号一联）拆开；骚体/词曲保留原行
+      // 二次分句：骚体保留原行；诗/词/曲都按单逗号拆
       const isSao = /兮|猗/.test(s) || /骚|楚辞/.test(genre);
-      const isCiQu = /词|曲|牌|天净沙|如梦令|蝶恋花|水调歌头|念奴娇|沁园春/.test(genre||'');
       const expanded = [];
       for(const line of parts){
-        if(isSao || isCiQu){ expanded.push(line); continue; }
+        if(isSao){ expanded.push(line); continue; }
         const stripped = line.replace(/[。！？!?]+$/,'');
-        const commaCount = (stripped.match(/[，,]/g) || []).length;
-        if(commaCount !== 1){ expanded.push(line); continue; }
         const commaIdx = Math.max(stripped.lastIndexOf('，'), stripped.lastIndexOf(','));
         if(commaIdx > 1 && commaIdx < stripped.length - 1){
           const a = stripped.slice(0, commaIdx+1);
           const b = stripped.slice(commaIdx+1) + (line.match(/[。！？!?]+$/)?.[0] || '');
-          if(a.length>=2 && b.length>=2 && a.length<=16 && b.length<=16){
+          if(a.length>=2 && b.length>=2 && a.length<=30 && b.length<=30){
             expanded.push(a); expanded.push(b); continue;
           }
         }
