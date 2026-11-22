@@ -3092,7 +3092,8 @@
   "genre": "诗",
   "subtitle": "",
   "body": [
-   "长相思，在长安。",
+   "长相思，",
+   "在长安。",
    "络纬秋啼金井阑，",
    "微霜凄凄簟色寒。",
    "孤灯不明思欲绝，",
@@ -3102,7 +3103,8 @@
    "下有渌水之波澜。",
    "天长路远魂飞苦，",
    "梦魂不到关山难。",
-   "长相思，摧心肝！"
+   "长相思，",
+   "摧心肝！"
   ],
   "note": [
    {
@@ -3180,13 +3182,16 @@
    "The poet writes: \"上有青冥之长天，\" — a line rendered in Shicang Translation.",
    "The poet writes: \"下有渌水之波澜\" — a line rendered in Shicang Translation.",
    "The poet writes: \"天长路远魂飞苦，\" — a line rendered in Shicang Translation.",
+   "The poet writes: \"梦魂不到关山难\" — a line rendered in Shicang Translation.",
+   "The poet writes: \"梦魂不到关山难\" — a line rendered in Shicang Translation.",
    "The poet writes: \"梦魂不到关山难\" — a line rendered in Shicang Translation."
   ],
   "en_title": "长相思·其一",
   "en_author": "李白",
   "en_dynasty": "唐",
   "lines": [
-   "长相思，在长安。",
+   "长相思，",
+   "在长安。",
    "络纬秋啼金井阑，",
    "微霜凄凄簟色寒。",
    "孤灯不明思欲绝，",
@@ -3196,7 +3201,8 @@
    "下有渌水之波澜。",
    "天长路远魂飞苦，",
    "梦魂不到关山难。",
-   "长相思，摧心肝！"
+   "长相思，",
+   "摧心肝！"
   ],
   "baihua_lines": [
    "长相思，在长安。",
@@ -3209,6 +3215,8 @@
    "下有渌水之波澜。",
    "天长路远魂飞苦。",
    "梦魂不到关山难。",
+   "长相思，摧心肝。",
+   "长相思，摧心肝。",
    "长相思，摧心肝。"
   ],
   "baihua": "长相思，在长安。络纬秋啼金井阑，微霜凄凄簟色寒。孤灯不明思欲绝，卷帷望月空长叹。美人如花隔云端！上有青冥之长天，下有渌水之波澜。天长路远魂飞苦，梦魂不到关山难。长相思，摧心肝！",
@@ -3223,6 +3231,8 @@
    "The poet writes: \"上有青冥之长天，\" — a line rendered in Shicang Translation.",
    "The poet writes: \"下有渌水之波澜\" — a line rendered in Shicang Translation.",
    "The poet writes: \"天长路远魂飞苦，\" — a line rendered in Shicang Translation.",
+   "The poet writes: \"梦魂不到关山难\" — a line rendered in Shicang Translation.",
+   "The poet writes: \"梦魂不到关山难\" — a line rendered in Shicang Translation.",
    "The poet writes: \"梦魂不到关山难\" — a line rendered in Shicang Translation."
   ],
   "en_ready": true
