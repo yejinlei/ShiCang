@@ -67,9 +67,9 @@ footer{max-width:1200px;margin:40px auto 0;padding:24px 26px 44px;text-align:cen
 <div class="tab-tip" id="tabTip">按诗人朝代与生卒时间排布，点选诗人查看生平交游。</div>
 
 <div class="view-wrap">
-  <iframe id="view-timeline" class="view-frame active" src="../shicang-poet-journey/"></iframe>
-  <iframe id="view-map" class="view-frame" src="../shicang-road/" data-loaded="0"></iframe>
-  <iframe id="view-galaxy" class="view-frame" src="../shicang-xinghe/" data-loaded="0"></iframe>
+  <iframe id="view-timeline" class="view-frame active" src="../shicang-poet-journey/?embed=1"></iframe>
+  <iframe id="view-map" class="view-frame" src="../shicang-road/?embed=1" data-loaded="0"></iframe>
+  <iframe id="view-galaxy" class="view-frame" src="../shicang-xinghe/?embed=1" data-loaded="0"></iframe>
 </div>
 
 <footer>诗藏本体论 · 岁在丙午 · 诗路星河 · 仅供学习与雅赏</footer>
@@ -93,7 +93,7 @@ tabs.forEach(function(t){
         f.classList.add('active');
         // 懒加载：第一次点击才加载 iframe
         if(f.getAttribute('data-loaded')==='0'){
-          f.src = f.getAttribute('src');
+          var s=f.getAttribute('src');if(s.indexOf('embed=1')<0){s+=(s.indexOf('?')>=0?'&':'?')+'embed=1';}f.src=s;
           f.setAttribute('data-loaded','1');
         }
       }else{

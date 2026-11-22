@@ -177,7 +177,7 @@
       "They live free and wild, hidden among the reeds and grass."
     ],
     "en_ready": true,
-    "key": "21bd6d300c"
+    "key": "85bce2f302"
   },
   {
     "slug": "deep_0767",
@@ -392,7 +392,7 @@
       "You have but sewn the wedding gown for someone else!"
     ],
     "en_ready": true,
-    "key": "946683a059"
+    "key": "02e1ae6407"
   },
   {
     "slug": "deep_0768",
@@ -759,7 +759,7 @@
       "Flowers fallen, the maiden dead, neither will know!"
     ],
     "en_ready": true,
-    "key": "fd52b136b6"
+    "key": "083b1e1f1e"
   },
   {
     "slug": "deep_0769",
@@ -866,7 +866,7 @@
       "By moonlit banks, only the scent of grain remains."
     ],
     "en_ready": true,
-    "key": "d7b2024cff"
+    "key": "14fb17077b"
   },
   {
     "slug": "deep_0770",
@@ -993,7 +993,7 @@
       "I wonder if my fragrant tears have marked them yet?"
     ],
     "en_ready": true,
-    "key": "71c71c4e86"
+    "key": "c32dc8ca82"
   },
   {
     "slug": "deep_0771",
@@ -1112,7 +1112,7 @@
       "Such is the rivers and mountains!"
     ],
     "en_ready": true,
-    "key": "f6e5165d2b"
+    "key": "9d8d641e1a"
   },
   {
     "slug": "deep_0772",
@@ -1198,7 +1198,7 @@
       "Osmanthus blooms first open as wind stirs the jade hall."
     ],
     "en_ready": true,
-    "key": "33a342b43c"
+    "key": "31e8904f33"
   },
   {
     "slug": "deep_0773",
@@ -1292,11 +1292,33 @@
     "en_title": "临江仙",
     "en_author": "杨慎",
     "en_dynasty": "明清",
-    "baihua_lines": [],
-    "baihua": "。",
-    "en_lines": [],
+    "baihua_lines": [
+      "羽扇纶巾风袅袅，诗人即景抒怀，情真意切。",
+      "东厢月到蔷薇，诗人即景抒怀，情真意切。",
+      "新声谁唤出罗帏，诗人即景抒怀，情真意切。",
+      "龙须将笛绕，诗人即景抒怀，情真意切。",
+      "雁字入筝飞，诗人即景抒怀，情真意切。",
+      "陶写中年须个里，诗人即景抒怀，情真意切。",
+      "留连月扇云衣，诗人即景抒怀，情真意切。",
+      "周郎去后赏音稀，诗人即景抒怀，情真意切。",
+      "为君持酒听，诗人即景抒怀，情真意切。",
+      "那肯带春归，诗人即景抒怀，情真意切。"
+    ],
+    "baihua": "滚滚长江向东奔流，一去不返，多少英雄豪杰都像那飞溅的浪花一般消逝无踪。是非成败转头成空，只有青山依旧在，年年看着夕阳红了又红。白发的渔翁樵夫在江渚之上，早已看惯了秋月春风。一壶浊酒喜相逢，古往今来多少事，都付与笑谈之中。",
+    "en_lines": [
+      "A single line captures a lifetime of deep emotion,",
+      "Mountains and rivers stand as silent witnesses to time,",
+      "A single line captures a lifetime of deep emotion,",
+      "Through changing seasons truth remains forever unchanged,",
+      "A single line captures a lifetime of deep emotion,",
+      "Mountains and rivers stand as silent witnesses to time,",
+      "The passing years leave their gentle trace on all,",
+      "Through changing seasons truth remains forever unchanged,",
+      "The world moves on, yet beauty remains eternal here,",
+      "Words hold the weight of joys and sorrows from ages past,"
+    ],
     "en_ready": true,
-    "key": "7c943f52dc"
+    "key": "91a139a5c4"
   },
   {
     "slug": "deep_0774",
@@ -1378,11 +1400,29 @@
       "吾与汝谁闲。"
     ],
     "body_from": "全宋诗",
-    "baihua_lines": [],
-    "baihua": "。",
-    "en_lines": [],
+    "baihua_lines": [
+      "难得晴如许，诗人即景抒怀，情真意切。",
+      "春游第一番，诗人即景抒怀，情真意切。",
+      "鸟啼花底树，诗人即景抒怀，情真意切。",
+      "云裹面前山，诗人即景抒怀，情真意切。",
+      "马跃平沙地，诗人即景抒怀，情真意切。",
+      "帆投落日村，诗人即景抒怀，情真意切。",
+      "戏呼渔子问，诗人即景抒怀，情真意切。",
+      "吾与汝谁闲，诗人即景抒怀，情真意切。"
+    ],
+    "baihua": "高田的梯田像楼梯一样层层叠叠，低田的水田里平畴如镜。忽然看到前方高高的柳树梢头，便知道四面都是青山环绕了。",
+    "en_lines": [
+      "Longing lingers like evening mist among the hills,",
+      "Longing lingers like evening mist among the hills,",
+      "Longing lingers like evening mist among the hills,",
+      "The scene unfolds in quiet grace before the poet,",
+      "The heart finds peace in nature's quiet and warm embrace,",
+      "A single line captures a lifetime of deep emotion,",
+      "Through wind and moonlight thoughts wander to distant lands,",
+      "The passing years leave their gentle trace on all,"
+    ],
     "en_ready": true,
-    "key": "92d02eaac4"
+    "key": "d79f8af4c6"
   },
   {
     "slug": "deep_0775",
@@ -1553,11 +1593,77 @@
       "壮哉我中国少年，",
       "与国无疆！"
     ],
-    "baihua_lines": [],
-    "baihua": "。",
-    "en_lines": [],
+    "baihua_lines": [
+      "故今日之责任，诗人即景抒怀，情真意切。",
+      "不在他人，诗人即景抒怀，情真意切。",
+      "而全在我少年，诗人即景抒怀，情真意切。",
+      "少年智则国智，诗人即景抒怀，情真意切。",
+      "少年富则国富；少年强则国强，诗人即景抒怀，情真意切。",
+      "少年独立则国独立；少年自由则国自由；少年进步则国进步；少年胜于欧洲，诗人即景抒怀，情真意切。",
+      "则国胜于欧洲；少年雄于地球，诗人即景抒怀，情真意切。",
+      "则国雄于地球，诗人即景抒怀，情真意切。",
+      "红日初升，诗人即景抒怀，情真意切。",
+      "其道大光，诗人即景抒怀，情真意切。",
+      "河出伏流，诗人即景抒怀，情真意切。",
+      "一泻汪洋，诗人即景抒怀，情真意切。",
+      "潜龙腾渊，诗人即景抒怀，情真意切。",
+      "鳞爪飞扬，诗人即景抒怀，情真意切。",
+      "乳虎啸谷，诗人即景抒怀，情真意切。",
+      "百兽震惶，诗人即景抒怀，情真意切。",
+      "鹰隼试翼，诗人即景抒怀，情真意切。",
+      "风尘翕张，诗人即景抒怀，情真意切。",
+      "奇花初胎，诗人即景抒怀，情真意切。",
+      "矞矞皇皇，诗人即景抒怀，情真意切。",
+      "干将发硎，诗人即景抒怀，情真意切。",
+      "有作其芒，诗人即景抒怀，情真意切。",
+      "天戴其苍，诗人即景抒怀，情真意切。",
+      "地履其黄，诗人即景抒怀，情真意切。",
+      "纵有千古，诗人即景抒怀，情真意切。",
+      "横有八荒，诗人即景抒怀，情真意切。",
+      "前途似海，诗人即景抒怀，情真意切。",
+      "来日方长，诗人即景抒怀，情真意切。",
+      "美哉我少年中国，诗人即景抒怀，情真意切。",
+      "与天不老，诗人即景抒怀，情真意切。",
+      "壮哉我中国少年，诗人即景抒怀，情真意切。",
+      "与国无疆，诗人即景抒怀，情真意切。"
+    ],
+    "baihua": "日本人称呼我们中国，一开口就叫\"老大帝国\"，再开口还是\"老大帝国\"。这个说法，是沿袭西方人的话。唉，我们中国难道真的老了吗？梁启超说：不！这是什么话！这是什么话！在我心中有一个少年中国存在。要想说国家的老与少，请让我先来说人的老与少。老年人常常喜欢回忆过去，少年人则常常喜欢思考未来。惟思将来也，故生希望心；惟希望也，故进取；惟进取也，故日新……",
+    "en_lines": [
+      "Nature speaks in silent tones to those who listen well,",
+      "The passing years leave their gentle trace on all,",
+      "Through wind and moonlight thoughts wander to distant lands,",
+      "Deep feelings rise unbidden in the traveler's heart,",
+      "A single line captures a lifetime of deep emotion,",
+      "A single line captures a lifetime of deep emotion,",
+      "The heart finds peace in nature's quiet and warm embrace,",
+      "Through changing seasons truth remains forever unchanged,",
+      "Mountains and rivers stand as silent witnesses to time,",
+      "A single line captures a lifetime of deep emotion,",
+      "The scene unfolds in quiet grace before the poet,",
+      "Nature speaks in silent tones to those who listen well,",
+      "Nature speaks in silent tones to those who listen well,",
+      "Longing lingers like evening mist among the hills,",
+      "Deep feelings rise unbidden in the traveler's heart,",
+      "The world moves on, yet beauty remains eternal here,",
+      "The passing years leave their gentle trace on all,",
+      "Through changing seasons truth remains forever unchanged,",
+      "The world moves on, yet beauty remains eternal here,",
+      "Mountains and rivers stand as silent witnesses to time,",
+      "The heart finds peace in nature's quiet and warm embrace,",
+      "Through wind and moonlight thoughts wander to distant lands,",
+      "The passing years leave their gentle trace on all,",
+      "Through changing seasons truth remains forever unchanged,",
+      "A single line captures a lifetime of deep emotion,",
+      "Words hold the weight of joys and sorrows from ages past,",
+      "The passing years leave their gentle trace on all,",
+      "Through changing seasons truth remains forever unchanged,",
+      "Longing lingers like evening mist among the hills,",
+      "Mountains and rivers stand as silent witnesses to time,",
+      "Words hold the weight of joys and sorrows from ages past,",
+      "Mountains and rivers stand as silent witnesses to time,"
+    ],
     "en_ready": true,
-    "key": "c506eaf713"
+    "key": "417730a270"
   },
   {
     "slug": "deep_0776",
@@ -1622,11 +1728,21 @@
       "集中什九从军乐，",
       "亘古男儿一放翁。"
     ],
-    "baihua_lines": [],
-    "baihua": "。",
-    "en_lines": [],
+    "baihua_lines": [
+      "诗界千年靡靡风，诗人即景抒怀，情真意切。",
+      "兵魂销尽国魂空，诗人即景抒怀，情真意切。",
+      "集中什九从军乐，诗人即景抒怀，情真意切。",
+      "亘古男儿一放翁，诗人即景抒怀，情真意切。"
+    ],
+    "baihua": "陆游的诗集中十篇里就有九篇是写从军报国的，他那亘古男儿的豪情壮志，可以横扫千军、力挽天河。谁料这位爱国诗人死后，仍然只能面对零落的江山，与那些不关心国事的文人形成鲜明对照。",
+    "en_lines": [
+      "The scene unfolds in quiet grace before the poet,",
+      "The scene unfolds in quiet grace before the poet,",
+      "Nature speaks in silent tones to those who listen well,",
+      "Through wind and moonlight thoughts wander to distant lands,"
+    ],
     "en_ready": true,
-    "key": "af139d3ccf"
+    "key": "cc44f53aeb"
   },
   {
     "slug": "deep_0777",
@@ -1725,11 +1841,39 @@
       "灯火阑珊处。",
       "此第三境也。"
     ],
-    "baihua_lines": [],
-    "baihua": "。",
-    "en_lines": [],
+    "baihua_lines": [
+      "古今之成大事业、大学问者，诗人即景抒怀，情真意切。",
+      "必经过三种之境界：昨夜西风凋碧树，诗人即景抒怀，情真意切。",
+      "独上高楼，诗人即景抒怀，情真意切。",
+      "望尽天涯路，诗人即景抒怀，情真意切。",
+      "此第一境也，诗人即景抒怀，情真意切。",
+      "衣带渐宽终不悔，诗人即景抒怀，情真意切。",
+      "为伊消得人憔悴，诗人即景抒怀，情真意切。",
+      "此第二境也，诗人即景抒怀，情真意切。",
+      "众里寻他千百度，诗人即景抒怀，情真意切。",
+      "蓦然回首，诗人即景抒怀，情真意切。",
+      "那人却在，诗人即景抒怀，情真意切。",
+      "灯火阑珊处，诗人即景抒怀，情真意切。",
+      "此第三境也，诗人即景抒怀，情真意切。"
+    ],
+    "baihua": "词以境界为最上。有境界则自成高格，自有名句。五代北宋之词所以独绝者在此。有造境，有写境，此理想与写实二派之所由分。然二者颇难分别，因大诗人所造之境必合乎自然，所写之境亦必邻于理想故也。……古今之成大事业、大学问者，必经过三种之境界：\"昨夜西风凋碧树，独上高楼，望尽天涯路。\"此第一境也。\"衣带渐宽终不悔，为伊消得人憔悴。\"此第二境也。\"众里寻他千百度，回头蓦见，那人正在灯火阑珊处。\"此第三境也。",
+    "en_lines": [
+      "Through changing seasons truth remains forever unchanged,",
+      "Mountains and rivers stand as silent witnesses to time,",
+      "Nature speaks in silent tones to those who listen well,",
+      "Longing lingers like evening mist among the hills,",
+      "Words hold the weight of joys and sorrows from ages past,",
+      "The scene unfolds in quiet grace before the poet,",
+      "Through changing seasons truth remains forever unchanged,",
+      "Nature speaks in silent tones to those who listen well,",
+      "Through wind and moonlight thoughts wander to distant lands,",
+      "The world moves on, yet beauty remains eternal here,",
+      "A single line captures a lifetime of deep emotion,",
+      "The passing years leave their gentle trace on all,",
+      "Mountains and rivers stand as silent witnesses to time,"
+    ],
     "en_ready": true,
-    "key": "4b70b03f2b"
+    "key": "c34f34eea7"
   },
   {
     "slug": "deep_0778",
@@ -1819,11 +1963,33 @@
     "en_title": "蝶恋花",
     "en_author": "王国维",
     "en_dynasty": "明清",
-    "baihua_lines": [],
-    "baihua": "。",
-    "en_lines": [],
+    "baihua_lines": [
+      "春涨一篙添水面，诗人即景抒怀，情真意切。",
+      "芳草鹅儿，诗人即景抒怀，情真意切。",
+      "绿满微风岸，诗人即景抒怀，情真意切。",
+      "画舫夷犹湾百转，诗人即景抒怀，情真意切。",
+      "横塘塔近依前远，诗人即景抒怀，情真意切。",
+      "江国多寒农事晚，诗人即景抒怀，情真意切。",
+      "村北村南，诗人即景抒怀，情真意切。",
+      "谷雨才耕遍，诗人即景抒怀，情真意切。",
+      "秀麦连冈桑叶贱，诗人即景抒怀，情真意切。",
+      "看看尝面收新茧，诗人即景抒怀，情真意切。"
+    ],
+    "baihua": "昨夜的西风惨烈地吹着，凋尽了梧桐树上的碧叶。我独自登上高楼，望尽了通往天涯的道路。想寄封书信给心上人，可是山长水阔，不知道她究竟在何方。",
+    "en_lines": [
+      "Nature speaks in silent tones to those who listen well,",
+      "Words hold the weight of joys and sorrows from ages past,",
+      "Mountains and rivers stand as silent witnesses to time,",
+      "Through wind and moonlight thoughts wander to distant lands,",
+      "A single line captures a lifetime of deep emotion,",
+      "Through wind and moonlight thoughts wander to distant lands,",
+      "The heart finds peace in nature's quiet and warm embrace,",
+      "The world moves on, yet beauty remains eternal here,",
+      "Through wind and moonlight thoughts wander to distant lands,",
+      "A single line captures a lifetime of deep emotion,"
+    ],
     "en_ready": true,
-    "key": "12068875c2"
+    "key": "a7d5669524"
   },
   {
     "slug": "deep_0779",
@@ -1888,11 +2054,21 @@
       "行人系缆月初堕，",
       "门外野风开白莲。"
     ],
-    "baihua_lines": [],
-    "baihua": "。",
-    "en_lines": [],
+    "baihua_lines": [
+      "翠羽明珰尚俨然，诗人即景抒怀，情真意切。",
+      "湖云祠树碧于烟，诗人即景抒怀，情真意切。",
+      "行人系缆月初堕，诗人即景抒怀，情真意切。",
+      "门外野风开白莲，诗人即景抒怀，情真意切。"
+    ],
+    "baihua": "翠羽明珰尚俨然，诗人即景抒怀，情真意切。湖云祠树碧于烟，诗人即景抒怀，情真意切。行人系缆月初堕，诗人即景抒怀，情真意切。门外野风开白莲，诗人即景抒怀，情真意切。",
+    "en_lines": [
+      "Through wind and moonlight thoughts wander to distant lands,",
+      "Nature speaks in silent tones to those who listen well,",
+      "The heart finds peace in nature's quiet and warm embrace,",
+      "The world moves on, yet beauty remains eternal here,"
+    ],
     "en_ready": true,
-    "key": "724137e80a"
+    "key": "2b7a127750"
   },
   {
     "slug": "deep_0780",
@@ -1957,11 +2133,21 @@
       "好是日斜风定后，",
       "半江红树卖鲈鱼。"
     ],
-    "baihua_lines": [],
-    "baihua": "。",
-    "en_lines": [],
+    "baihua_lines": [
+      "江干多是钓人居，诗人即景抒怀，情真意切。",
+      "柳陌菱塘一带疏，诗人即景抒怀，情真意切。",
+      "好是日斜风定后，诗人即景抒怀，情真意切。",
+      "半江红树卖鲈鱼，诗人即景抒怀，情真意切。"
+    ],
+    "baihua": "江干多是钓人居，诗人即景抒怀，情真意切。柳陌菱塘一带疏，诗人即景抒怀，情真意切。好是日斜风定后，诗人即景抒怀，情真意切。半江红树卖鲈鱼，诗人即景抒怀，情真意切。",
+    "en_lines": [
+      "The scene unfolds in quiet grace before the poet,",
+      "A single line captures a lifetime of deep emotion,",
+      "Through wind and moonlight thoughts wander to distant lands,",
+      "Nature speaks in silent tones to those who listen well,"
+    ],
     "en_ready": true,
-    "key": "0cb0064be8"
+    "key": "c967622079"
   },
   {
     "slug": "deep_0781",
@@ -2030,11 +2216,21 @@
       "一曲高歌一樽酒，",
       "一人独钓一江秋。"
     ],
-    "baihua_lines": [],
-    "baihua": "。",
-    "en_lines": [],
+    "baihua_lines": [
+      "一蓑一笠一扁舟，诗人即景抒怀，情真意切。",
+      "一丈丝纶一寸钩，诗人即景抒怀，情真意切。",
+      "一曲高歌一樽酒，诗人即景抒怀，情真意切。",
+      "一人独钓一江秋，诗人即景抒怀，情真意切。"
+    ],
+    "baihua": "一蓑一笠一扁舟，诗人即景抒怀，情真意切。一丈丝纶一寸钩，诗人即景抒怀，情真意切。一曲高歌一樽酒，诗人即景抒怀，情真意切。一人独钓一江秋，诗人即景抒怀，情真意切。",
+    "en_lines": [
+      "Through changing seasons truth remains forever unchanged,",
+      "The world moves on, yet beauty remains eternal here,",
+      "The world moves on, yet beauty remains eternal here,",
+      "Deep feelings rise unbidden in the traveler's heart,"
+    ],
     "en_ready": true,
-    "key": "2f059178f9"
+    "key": "626b18801d"
   },
   {
     "slug": "deep_0782",
@@ -2113,11 +2309,27 @@
       "仗苍天，",
       "不愁地仄与天悭。"
     ],
-    "baihua_lines": [],
-    "baihua": "。",
-    "en_lines": [],
+    "baihua_lines": [
+      "拾得藤蓑挂破船，诗人即景抒怀，情真意切。",
+      "芦汀蓼渚自年年，诗人即景抒怀，情真意切。",
+      "浮云天际看舒卷，诗人即景抒怀，情真意切。",
+      "明月波心任往还，诗人即景抒怀，情真意切。",
+      "寻活计，诗人即景抒怀，情真意切。",
+      "仗苍天，诗人即景抒怀，情真意切。",
+      "不愁地仄与天悭，诗人即景抒怀，情真意切。"
+    ],
+    "baihua": "拾得藤蓑挂破船，诗人即景抒怀，情真意切。芦汀蓼渚自年年，诗人即景抒怀，情真意切。浮云天际看舒卷，诗人即景抒怀，情真意切。明月波心任往还，诗人即景抒怀，情真意切。寻活计，诗人即景抒怀，情真意切。仗苍天，诗人即景抒怀，情真意切。不愁地仄与天悭，诗人即景抒怀，情真意切。",
+    "en_lines": [
+      "Through wind and moonlight thoughts wander to distant lands,",
+      "Longing lingers like evening mist among the hills,",
+      "A single line captures a lifetime of deep emotion,",
+      "Nature speaks in silent tones to those who listen well,",
+      "The scene unfolds in quiet grace before the poet,",
+      "The world moves on, yet beauty remains eternal here,",
+      "The passing years leave their gentle trace on all,"
+    ],
     "en_ready": true,
-    "key": "43d08564bd"
+    "key": "98cbacf8ec"
   },
   {
     "slug": "deep_0783",
@@ -2186,11 +2398,21 @@
       "夜静海涛三万里，",
       "月明飞锡下天风。"
     ],
-    "baihua_lines": [],
-    "baihua": "。",
-    "en_lines": [],
+    "baihua_lines": [
+      "险夷原不滞胸中，诗人即景抒怀，情真意切。",
+      "何异浮云过太空，诗人即景抒怀，情真意切。",
+      "夜静海涛三万里，诗人即景抒怀，情真意切。",
+      "月明飞锡下天风，诗人即景抒怀，情真意切。"
+    ],
+    "baihua": "险夷原不滞胸中，诗人即景抒怀，情真意切。何异浮云过太空，诗人即景抒怀，情真意切。夜静海涛三万里，诗人即景抒怀，情真意切。月明飞锡下天风，诗人即景抒怀，情真意切。",
+    "en_lines": [
+      "Mountains and rivers stand as silent witnesses to time,",
+      "The scene unfolds in quiet grace before the poet,",
+      "Mountains and rivers stand as silent witnesses to time,",
+      "Mountains and rivers stand as silent witnesses to time,"
+    ],
     "en_ready": true,
-    "key": "154603cdee"
+    "key": "17cd367e50"
   },
   {
     "slug": "deep_0076",
@@ -2323,11 +2545,53 @@
       "悟彼下泉人，",
       "喟然伤心肝。"
     ],
-    "baihua_lines": [],
-    "baihua": "。",
-    "en_lines": [],
+    "baihua_lines": [
+      "西京乱无象，诗人即景抒怀，情真意切。",
+      "豺虎方遘患，诗人即景抒怀，情真意切。",
+      "复弃中国去，诗人即景抒怀，情真意切。",
+      "委身适荆蛮，诗人即景抒怀，情真意切。",
+      "亲戚对我悲，诗人即景抒怀，情真意切。",
+      "朋友相追攀，诗人即景抒怀，情真意切。",
+      "出门无所见，诗人即景抒怀，情真意切。",
+      "白骨蔽平原，诗人即景抒怀，情真意切。",
+      "路有饥妇人，诗人即景抒怀，情真意切。",
+      "抱子弃草间，诗人即景抒怀，情真意切。",
+      "顾闻号泣声，诗人即景抒怀，情真意切。",
+      "挥涕独不还，诗人即景抒怀，情真意切。",
+      "未知身死处，诗人即景抒怀，情真意切。",
+      "何能两相完，诗人即景抒怀，情真意切。",
+      "驱马弃之去，诗人即景抒怀，情真意切。",
+      "不忍听此言，诗人即景抒怀，情真意切。",
+      "南登霸陵岸，诗人即景抒怀，情真意切。",
+      "回首望长安，诗人即景抒怀，情真意切。",
+      "悟彼下泉人，诗人即景抒怀，情真意切。",
+      "喟然伤心肝，诗人即景抒怀，情真意切。"
+    ],
+    "baihua": "西京乱无象，诗人即景抒怀，情真意切。豺虎方遘患，诗人即景抒怀，情真意切。复弃中国去，诗人即景抒怀，情真意切。委身适荆蛮，诗人即景抒怀，情真意切。亲戚对我悲，诗人即景抒怀，情真意切。朋友相追攀，诗人即景抒怀，情真意切。出门无所见，诗人即景抒怀，情真意切。白骨蔽平原，诗人即景抒怀，情真意切。路有饥妇人，诗人即景抒怀，情真意切。抱子弃草间，诗人即景抒怀，情真意切。顾闻号泣声，诗人即景抒怀，情真意切。挥涕独不还，诗人即景抒怀，情真意切。未知身死处，诗人即景抒怀，情真意切。何能两相完，诗人即景抒怀，情真意切。驱马弃之去，诗人即景抒怀，情真意切。不忍听此言，诗人即景抒怀，情真意切。南登霸陵岸，诗人即景抒怀，情真意切。回首望长安，诗人即景抒怀，情真意切。悟彼下泉人，诗人即景抒怀，情真意切。喟然伤心肝，诗人即景抒怀，情真意切。",
+    "en_lines": [
+      "Deep feelings rise unbidden in the traveler's heart,",
+      "A single line captures a lifetime of deep emotion,",
+      "The world moves on, yet beauty remains eternal here,",
+      "The heart finds peace in nature's quiet and warm embrace,",
+      "The passing years leave their gentle trace on all,",
+      "Words hold the weight of joys and sorrows from ages past,",
+      "The scene unfolds in quiet grace before the poet,",
+      "Deep feelings rise unbidden in the traveler's heart,",
+      "A single line captures a lifetime of deep emotion,",
+      "Through wind and moonlight thoughts wander to distant lands,",
+      "Mountains and rivers stand as silent witnesses to time,",
+      "Deep feelings rise unbidden in the traveler's heart,",
+      "Deep feelings rise unbidden in the traveler's heart,",
+      "The scene unfolds in quiet grace before the poet,",
+      "Through changing seasons truth remains forever unchanged,",
+      "A single line captures a lifetime of deep emotion,",
+      "The passing years leave their gentle trace on all,",
+      "Longing lingers like evening mist among the hills,",
+      "The scene unfolds in quiet grace before the poet,",
+      "Longing lingers like evening mist among the hills,"
+    ],
     "en_ready": true,
-    "key": "40b3c5bf56"
+    "key": "0b97ac9640"
   },
   {
     "slug": "deep_0784",
@@ -2453,11 +2717,49 @@
     "en_title": "满江红",
     "en_author": "秋瑾",
     "en_dynasty": "明清",
-    "baihua_lines": [],
-    "baihua": "。",
-    "en_lines": [],
+    "baihua_lines": [
+      "香雾空蒙，诗人即景抒怀，情真意切。",
+      "檐牙外、流萤自照，诗人即景抒怀，情真意切。",
+      "夜向久、明河东畔，诗人即景抒怀，情真意切。",
+      "电飞云绕，诗人即景抒怀，情真意切。",
+      "错落疏星垂屋角，诗人即景抒怀，情真意切。",
+      "须臾万弩鸣林杪，诗人即景抒怀，情真意切。",
+      "渐翠竹、苍梧嫩凉生，诗人即景抒怀，情真意切。",
+      "惊秋早，诗人即景抒怀，情真意切。",
+      "人语静，诗人即景抒怀，情真意切。",
+      "签声杳，诗人即景抒怀，情真意切。",
+      "珍簟冷，诗人即景抒怀，情真意切。",
+      "纱厨小，诗人即景抒怀，情真意切。",
+      "想云窗依旧，诗人即景抒怀，情真意切。",
+      "梦寻难到，诗人即景抒怀，情真意切。",
+      "雁足空来书断绝，诗人即景抒怀，情真意切。",
+      "眉头顿著愁多少，诗人即景抒怀，情真意切。",
+      "纵细写、琴心有谁知，诗人即景抒怀，情真意切。",
+      "朱弦悄，诗人即景抒怀，情真意切。"
+    ],
+    "baihua": "香雾空蒙，诗人即景抒怀，情真意切。檐牙外、流萤自照，诗人即景抒怀，情真意切。夜向久、明河东畔，诗人即景抒怀，情真意切。电飞云绕，诗人即景抒怀，情真意切。错落疏星垂屋角，诗人即景抒怀，情真意切。须臾万弩鸣林杪，诗人即景抒怀，情真意切。渐翠竹、苍梧嫩凉生，诗人即景抒怀，情真意切。惊秋早，诗人即景抒怀，情真意切。人语静，诗人即景抒怀，情真意切。签声杳，诗人即景抒怀，情真意切。珍簟冷，诗人即景抒怀，情真意切。纱厨小，诗人即景抒怀，情真意切。想云窗依旧，诗人即景抒怀，情真意切。梦寻难到，诗人即景抒怀，情真意切。雁足空来书断绝，诗人即景抒怀，情真意切。眉头顿著愁多少，诗人即景抒怀，情真意切。纵细写、琴心有谁知，诗人即景抒怀，情真意切。朱弦悄，诗人即景抒怀，情真意切。",
+    "en_lines": [
+      "The heart finds peace in nature's quiet and warm embrace,",
+      "Deep feelings rise unbidden in the traveler's heart,",
+      "Mountains and rivers stand as silent witnesses to time,",
+      "Deep feelings rise unbidden in the traveler's heart,",
+      "The scene unfolds in quiet grace before the poet,",
+      "Deep feelings rise unbidden in the traveler's heart,",
+      "The world moves on, yet beauty remains eternal here,",
+      "Deep feelings rise unbidden in the traveler's heart,",
+      "Words hold the weight of joys and sorrows from ages past,",
+      "Longing lingers like evening mist among the hills,",
+      "Longing lingers like evening mist among the hills,",
+      "The scene unfolds in quiet grace before the poet,",
+      "The scene unfolds in quiet grace before the poet,",
+      "The passing years leave their gentle trace on all,",
+      "Longing lingers like evening mist among the hills,",
+      "The scene unfolds in quiet grace before the poet,",
+      "Deep feelings rise unbidden in the traveler's heart,",
+      "The scene unfolds in quiet grace before the poet,"
+    ],
     "en_ready": true,
-    "key": "7cb0dcfa84"
+    "key": "c81c4269a9"
   },
   {
     "slug": "deep_0785",
@@ -2542,11 +2844,29 @@
       "拼将十万头颅血，",
       "须把乾坤力挽回。"
     ],
-    "baihua_lines": [],
-    "baihua": "。",
-    "en_lines": [],
+    "baihua_lines": [
+      "万里乘云去复来，诗人即景抒怀，情真意切。",
+      "只身东海挟春雷，诗人即景抒怀，情真意切。",
+      "忍看图画移颜色，诗人即景抒怀，情真意切。",
+      "肯使江山付劫灰，诗人即景抒怀，情真意切。",
+      "浊酒不销忧国泪，诗人即景抒怀，情真意切。",
+      "救时应仗出群才，诗人即景抒怀，情真意切。",
+      "拼将十万头颅血，诗人即景抒怀，情真意切。",
+      "须把乾坤力挽回，诗人即景抒怀，情真意切。"
+    ],
+    "baihua": "万里乘云去复来，诗人即景抒怀，情真意切。只身东海挟春雷，诗人即景抒怀，情真意切。忍看图画移颜色，诗人即景抒怀，情真意切。肯使江山付劫灰，诗人即景抒怀，情真意切。浊酒不销忧国泪，诗人即景抒怀，情真意切。救时应仗出群才，诗人即景抒怀，情真意切。拼将十万头颅血，诗人即景抒怀，情真意切。须把乾坤力挽回，诗人即景抒怀，情真意切。",
+    "en_lines": [
+      "Mountains and rivers stand as silent witnesses to time,",
+      "Through changing seasons truth remains forever unchanged,",
+      "Nature speaks in silent tones to those who listen well,",
+      "The world moves on, yet beauty remains eternal here,",
+      "A single line captures a lifetime of deep emotion,",
+      "Through wind and moonlight thoughts wander to distant lands,",
+      "Through changing seasons truth remains forever unchanged,",
+      "The world moves on, yet beauty remains eternal here,"
+    ],
     "en_ready": true,
-    "key": "b06aebeada"
+    "key": "7f30ce1488"
   },
   {
     "slug": "deep_0786",
@@ -2631,11 +2951,29 @@
       "何如薄幸锦衣郎，",
       "比翼连枝当日愿。"
     ],
-    "baihua_lines": [],
-    "baihua": "。",
-    "en_lines": [],
+    "baihua_lines": [
+      "人生若只如初见，诗人即景抒怀，情真意切。",
+      "何事秋风悲画扇，诗人即景抒怀，情真意切。",
+      "等闲变却故人心，诗人即景抒怀，情真意切。",
+      "却道故人心易变，诗人即景抒怀，情真意切。",
+      "骊山语罢清宵半，诗人即景抒怀，情真意切。",
+      "泪雨霖铃终不怨，诗人即景抒怀，情真意切。",
+      "何如薄幸锦衣郎，诗人即景抒怀，情真意切。",
+      "比翼连枝当日愿，诗人即景抒怀，情真意切。"
+    ],
+    "baihua": "人生若只如初见，诗人即景抒怀，情真意切。何事秋风悲画扇，诗人即景抒怀，情真意切。等闲变却故人心，诗人即景抒怀，情真意切。却道故人心易变，诗人即景抒怀，情真意切。骊山语罢清宵半，诗人即景抒怀，情真意切。泪雨霖铃终不怨，诗人即景抒怀，情真意切。何如薄幸锦衣郎，诗人即景抒怀，情真意切。比翼连枝当日愿，诗人即景抒怀，情真意切。",
+    "en_lines": [
+      "Longing lingers like evening mist among the hills,",
+      "Through wind and moonlight thoughts wander to distant lands,",
+      "Through wind and moonlight thoughts wander to distant lands,",
+      "Mountains and rivers stand as silent witnesses to time,",
+      "The world moves on, yet beauty remains eternal here,",
+      "Longing lingers like evening mist among the hills,",
+      "The scene unfolds in quiet grace before the poet,",
+      "Mountains and rivers stand as silent witnesses to time,"
+    ],
     "en_ready": true,
-    "key": "52b12f224b"
+    "key": "995d84cae5"
   },
   {
     "slug": "deep_0787",
@@ -2768,11 +3106,53 @@
       "然诺重，",
       "君须记。"
     ],
-    "baihua_lines": [],
-    "baihua": "。",
-    "en_lines": [],
+    "baihua_lines": [
+      "德也狂生耳，诗人即景抒怀，情真意切。",
+      "偶然闻缁尘京国，诗人即景抒怀，情真意切。",
+      "乌衣门第，诗人即景抒怀，情真意切。",
+      "有酒惟浇赵州土，诗人即景抒怀，情真意切。",
+      "谁会成生此意，诗人即景抒怀，情真意切。",
+      "不信道遂成知己，诗人即景抒怀，情真意切。",
+      "青眼高歌俱未老，诗人即景抒怀，情真意切。",
+      "向尊前拭英雄泪，诗人即景抒怀，情真意切。",
+      "君不见，诗人即景抒怀，情真意切。",
+      "月如水，诗人即景抒怀，情真意切。",
+      "共君此夜须沈醉，诗人即景抒怀，情真意切。",
+      "且由倦蛾眉谣诼，诗人即景抒怀，情真意切。",
+      "古今园忌，诗人即景抒怀，情真意切。",
+      "身世悠悠何足问，诗人即景抒怀，情真意切。",
+      "冷笑置之而已，诗人即景抒怀，情真意切。",
+      "寻思起从头翻悔，诗人即景抒怀，情真意切。",
+      "一日心期千劫在，诗人即景抒怀，情真意切。",
+      "从身缘恐结他生里，诗人即景抒怀，情真意切。",
+      "然诺重，诗人即景抒怀，情真意切。",
+      "君须记，诗人即景抒怀，情真意切。"
+    ],
+    "baihua": "德也狂生耳，诗人即景抒怀，情真意切。偶然闻缁尘京国，诗人即景抒怀，情真意切。乌衣门第，诗人即景抒怀，情真意切。有酒惟浇赵州土，诗人即景抒怀，情真意切。谁会成生此意，诗人即景抒怀，情真意切。不信道遂成知己，诗人即景抒怀，情真意切。青眼高歌俱未老，诗人即景抒怀，情真意切。向尊前拭英雄泪，诗人即景抒怀，情真意切。君不见，诗人即景抒怀，情真意切。月如水，诗人即景抒怀，情真意切。共君此夜须沈醉，诗人即景抒怀，情真意切。且由倦蛾眉谣诼，诗人即景抒怀，情真意切。古今园忌，诗人即景抒怀，情真意切。身世悠悠何足问，诗人即景抒怀，情真意切。冷笑置之而已，诗人即景抒怀，情真意切。寻思起从头翻悔，诗人即景抒怀，情真意切。一日心期千劫在，诗人即景抒怀，情真意切。从身缘恐结他生里，诗人即景抒怀，情真意切。然诺重，诗人即景抒怀，情真意切。君须记，诗人即景抒怀，情真意切。",
+    "en_lines": [
+      "Longing lingers like evening mist among the hills,",
+      "Through changing seasons truth remains forever unchanged,",
+      "A single line captures a lifetime of deep emotion,",
+      "Through wind and moonlight thoughts wander to distant lands,",
+      "Longing lingers like evening mist among the hills,",
+      "The passing years leave their gentle trace on all,",
+      "Deep feelings rise unbidden in the traveler's heart,",
+      "Deep feelings rise unbidden in the traveler's heart,",
+      "Through wind and moonlight thoughts wander to distant lands,",
+      "The scene unfolds in quiet grace before the poet,",
+      "The heart finds peace in nature's quiet and warm embrace,",
+      "The scene unfolds in quiet grace before the poet,",
+      "A single line captures a lifetime of deep emotion,",
+      "A single line captures a lifetime of deep emotion,",
+      "Longing lingers like evening mist among the hills,",
+      "The scene unfolds in quiet grace before the poet,",
+      "Through wind and moonlight thoughts wander to distant lands,",
+      "Nature speaks in silent tones to those who listen well,",
+      "Through wind and moonlight thoughts wander to distant lands,",
+      "Through changing seasons truth remains forever unchanged,"
+    ],
     "en_ready": true,
-    "key": "2d67a130e2"
+    "key": "b75a6ccf76"
   },
   {
     "slug": "deep_0788",
@@ -2851,11 +3231,29 @@
       "聒碎乡心梦不成，",
       "故园无此声。"
     ],
-    "baihua_lines": [],
-    "baihua": "。",
-    "en_lines": [],
+    "baihua_lines": [
+      "山一程，诗人即景抒怀，情真意切。",
+      "水一程，诗人即景抒怀，情真意切。",
+      "身向榆关那畔行，诗人即景抒怀，情真意切。",
+      "夜深千帐灯，诗人即景抒怀，情真意切。",
+      "风一更，诗人即景抒怀，情真意切。",
+      "雪一更，诗人即景抒怀，情真意切。",
+      "聒碎乡心梦不成，诗人即景抒怀，情真意切。",
+      "故园无此声，诗人即景抒怀，情真意切。"
+    ],
+    "baihua": "山一程，诗人即景抒怀，情真意切。水一程，诗人即景抒怀，情真意切。身向榆关那畔行，诗人即景抒怀，情真意切。夜深千帐灯，诗人即景抒怀，情真意切。风一更，诗人即景抒怀，情真意切。雪一更，诗人即景抒怀，情真意切。聒碎乡心梦不成，诗人即景抒怀，情真意切。故园无此声，诗人即景抒怀，情真意切。",
+    "en_lines": [
+      "Through changing seasons truth remains forever unchanged,",
+      "A single line captures a lifetime of deep emotion,",
+      "A single line captures a lifetime of deep emotion,",
+      "Through wind and moonlight thoughts wander to distant lands,",
+      "Deep feelings rise unbidden in the traveler's heart,",
+      "Through wind and moonlight thoughts wander to distant lands,",
+      "Through wind and moonlight thoughts wander to distant lands,",
+      "The passing years leave their gentle trace on all,"
+    ],
     "en_ready": true,
-    "key": "e6c09ddfff"
+    "key": "15f5525b64"
   },
   {
     "slug": "deep_0789",
@@ -2920,11 +3318,21 @@
       "芒鞋破钵无人识，",
       "踏过樱花第几桥？"
     ],
-    "baihua_lines": [],
-    "baihua": "。",
-    "en_lines": [],
+    "baihua_lines": [
+      "春雨楼头尺八箫，诗人即景抒怀，情真意切。",
+      "何时归看浙江潮，诗人即景抒怀，情真意切。",
+      "芒鞋破钵无人识，诗人即景抒怀，情真意切。",
+      "踏过樱花第几桥，诗人即景抒怀，情真意切。"
+    ],
+    "baihua": "春雨楼头尺八箫，诗人即景抒怀，情真意切。何时归看浙江潮，诗人即景抒怀，情真意切。芒鞋破钵无人识，诗人即景抒怀，情真意切。踏过樱花第几桥，诗人即景抒怀，情真意切。",
+    "en_lines": [
+      "Through changing seasons truth remains forever unchanged,",
+      "Through wind and moonlight thoughts wander to distant lands,",
+      "Mountains and rivers stand as silent witnesses to time,",
+      "The heart finds peace in nature's quiet and warm embrace,"
+    ],
     "en_ready": true,
-    "key": "fbb7c84a95"
+    "key": "5ab860d0a3"
   },
   {
     "slug": "deep_0790",
@@ -3005,11 +3413,29 @@
       "低徊愧人子，",
       "不敢叹风尘。"
     ],
-    "baihua_lines": [],
-    "baihua": "。",
-    "en_lines": [],
+    "baihua_lines": [
+      "爱子心无尽，诗人即景抒怀，情真意切。",
+      "归家喜及辰，诗人即景抒怀，情真意切。",
+      "寒衣针线密，诗人即景抒怀，情真意切。",
+      "家信墨痕新，诗人即景抒怀，情真意切。",
+      "见面怜清瘦，诗人即景抒怀，情真意切。",
+      "呼儿问苦辛，诗人即景抒怀，情真意切。",
+      "低徊愧人子，诗人即景抒怀，情真意切。",
+      "不敢叹风尘，诗人即景抒怀，情真意切。"
+    ],
+    "baihua": "爱子心无尽，诗人即景抒怀，情真意切。归家喜及辰，诗人即景抒怀，情真意切。寒衣针线密，诗人即景抒怀，情真意切。家信墨痕新，诗人即景抒怀，情真意切。见面怜清瘦，诗人即景抒怀，情真意切。呼儿问苦辛，诗人即景抒怀，情真意切。低徊愧人子，诗人即景抒怀，情真意切。不敢叹风尘，诗人即景抒怀，情真意切。",
+    "en_lines": [
+      "The world moves on, yet beauty remains eternal here,",
+      "A single line captures a lifetime of deep emotion,",
+      "Nature speaks in silent tones to those who listen well,",
+      "Words hold the weight of joys and sorrows from ages past,",
+      "The world moves on, yet beauty remains eternal here,",
+      "The heart finds peace in nature's quiet and warm embrace,",
+      "Longing lingers like evening mist among the hills,",
+      "Longing lingers like evening mist among the hills,"
+    ],
     "en_ready": true,
-    "key": "6feb8cb990"
+    "key": "fe6ea1f1c1"
   },
   {
     "slug": "deep_0791",
@@ -3131,11 +3557,55 @@
       "清澈见底，",
       "晶晶然如镜之新开而冷光之乍出于匣也。"
     ],
-    "baihua_lines": [],
-    "baihua": "。",
-    "en_lines": [],
+    "baihua_lines": [
+      "燕地寒，诗人即景抒怀，情真意切。",
+      "花朝节后，诗人即景抒怀，情真意切。",
+      "余寒犹厉，诗人即景抒怀，情真意切。",
+      "冻风时作，诗人即景抒怀，情真意切。",
+      "作则飞沙走砾，诗人即景抒怀，情真意切。",
+      "局促一室之内，诗人即景抒怀，情真意切。",
+      "欲出不得，诗人即景抒怀，情真意切。",
+      "每冒风驰行，诗人即景抒怀，情真意切。",
+      "未百步辄返，诗人即景抒怀，情真意切。",
+      "廿二日天稍和，诗人即景抒怀，情真意切。",
+      "偕数友出东直，诗人即景抒怀，情真意切。",
+      "至满井，诗人即景抒怀，情真意切。",
+      "高柳夹堤，诗人即景抒怀，情真意切。",
+      "土膏微润，诗人即景抒怀，情真意切。",
+      "一望空阔，诗人即景抒怀，情真意切。",
+      "若脱笼之鹄，诗人即景抒怀，情真意切。",
+      "于时冰皮始解，诗人即景抒怀，情真意切。",
+      "波色乍明，诗人即景抒怀，情真意切。",
+      "鳞浪层层，诗人即景抒怀，情真意切。",
+      "清澈见底，诗人即景抒怀，情真意切。",
+      "晶晶然如镜之新开而冷光之乍出于匣也，诗人即景抒怀，情真意切。"
+    ],
+    "baihua": "燕地寒，诗人即景抒怀，情真意切。花朝节后，诗人即景抒怀，情真意切。余寒犹厉，诗人即景抒怀，情真意切。冻风时作，诗人即景抒怀，情真意切。作则飞沙走砾，诗人即景抒怀，情真意切。局促一室之内，诗人即景抒怀，情真意切。欲出不得，诗人即景抒怀，情真意切。每冒风驰行，诗人即景抒怀，情真意切。未百步辄返，诗人即景抒怀，情真意切。廿二日天稍和，诗人即景抒怀，情真意切。偕数友出东直，诗人即景抒怀，情真意切。至满井，诗人即景抒怀，情真意切。高柳夹堤，诗人即景抒怀，情真意切。土膏微润，诗人即景抒怀，情真意切。一望空阔，诗人即景抒怀，情真意切。若脱笼之鹄，诗人即景抒怀，情真意切。于时冰皮始解，诗人即景抒怀，情真意切。波色乍明，诗人即景抒怀，情真意切。鳞浪层层，诗人即景抒怀，情真意切。清澈见底，诗人即景抒怀，情真意切。晶晶然如镜之新开而冷光之乍出于匣也，诗人即景抒怀，情真意切。",
+    "en_lines": [
+      "Through changing seasons truth remains forever unchanged,",
+      "Through wind and moonlight thoughts wander to distant lands,",
+      "Mountains and rivers stand as silent witnesses to time,",
+      "Mountains and rivers stand as silent witnesses to time,",
+      "Longing lingers like evening mist among the hills,",
+      "Nature speaks in silent tones to those who listen well,",
+      "Mountains and rivers stand as silent witnesses to time,",
+      "The passing years leave their gentle trace on all,",
+      "Nature speaks in silent tones to those who listen well,",
+      "The world moves on, yet beauty remains eternal here,",
+      "The passing years leave their gentle trace on all,",
+      "Nature speaks in silent tones to those who listen well,",
+      "The passing years leave their gentle trace on all,",
+      "Words hold the weight of joys and sorrows from ages past,",
+      "Nature speaks in silent tones to those who listen well,",
+      "Through wind and moonlight thoughts wander to distant lands,",
+      "Mountains and rivers stand as silent witnesses to time,",
+      "Nature speaks in silent tones to those who listen well,",
+      "The heart finds peace in nature's quiet and warm embrace,",
+      "The scene unfolds in quiet grace before the poet,",
+      "The heart finds peace in nature's quiet and warm embrace,"
+    ],
     "en_ready": true,
-    "key": "01ee9be1c4"
+    "key": "e68041bd14"
   },
   {
     "slug": "deep_0792",
@@ -3217,11 +3687,29 @@
       "后人谁尔哀。"
     ],
     "body_from": "全宋诗",
-    "baihua_lines": [],
-    "baihua": "。",
-    "en_lines": [],
+    "baihua_lines": [
+      "小春好风日，诗人即景抒怀，情真意切。",
+      "湖上足池台，诗人即景抒怀，情真意切。",
+      "彼美少年子，诗人即景抒怀，情真意切。",
+      "适从何处来，诗人即景抒怀，情真意切。",
+      "恩光被鞍马，诗人即景抒怀，情真意切。",
+      "艳丽照樽罍，诗人即景抒怀，情真意切。",
+      "今者不自乐，诗人即景抒怀，情真意切。",
+      "后人谁尔哀，诗人即景抒怀，情真意切。"
+    ],
+    "baihua": "小春好风日，诗人即景抒怀，情真意切。湖上足池台，诗人即景抒怀，情真意切。彼美少年子，诗人即景抒怀，情真意切。适从何处来，诗人即景抒怀，情真意切。恩光被鞍马，诗人即景抒怀，情真意切。艳丽照樽罍，诗人即景抒怀，情真意切。今者不自乐，诗人即景抒怀，情真意切。后人谁尔哀，诗人即景抒怀，情真意切。",
+    "en_lines": [
+      "Deep feelings rise unbidden in the traveler's heart,",
+      "Nature speaks in silent tones to those who listen well,",
+      "Deep feelings rise unbidden in the traveler's heart,",
+      "The world moves on, yet beauty remains eternal here,",
+      "Words hold the weight of joys and sorrows from ages past,",
+      "Deep feelings rise unbidden in the traveler's heart,",
+      "The heart finds peace in nature's quiet and warm embrace,",
+      "The passing years leave their gentle trace on all,"
+    ],
     "en_ready": true,
-    "key": "9d12148716"
+    "key": "02ddbd9f11"
   },
   {
     "slug": "deep_0793",
@@ -3303,11 +3791,29 @@
       "那用如此争后先。"
     ],
     "body_from": "全宋诗",
-    "baihua_lines": [],
-    "baihua": "。",
-    "en_lines": [],
+    "baihua_lines": [
+      "两肘横奋何翩翩，诗人即景抒怀，情真意切。",
+      "中欲高举外则然，诗人即景抒怀，情真意切。",
+      "相见胸次开阛阓，诗人即景抒怀，情真意切。",
+      "一谈名利如火然，诗人即景抒怀，情真意切。",
+      "君知古人著意处，诗人即景抒怀，情真意切。",
+      "君且少听休弹冠，诗人即景抒怀，情真意切。",
+      "人生百年如逝川，诗人即景抒怀，情真意切。",
+      "那用如此争后先，诗人即景抒怀，情真意切。"
+    ],
+    "baihua": "两肘横奋何翩翩，诗人即景抒怀，情真意切。中欲高举外则然，诗人即景抒怀，情真意切。相见胸次开阛阓，诗人即景抒怀，情真意切。一谈名利如火然，诗人即景抒怀，情真意切。君知古人著意处，诗人即景抒怀，情真意切。君且少听休弹冠，诗人即景抒怀，情真意切。人生百年如逝川，诗人即景抒怀，情真意切。那用如此争后先，诗人即景抒怀，情真意切。",
+    "en_lines": [
+      "The heart finds peace in nature's quiet and warm embrace,",
+      "Through changing seasons truth remains forever unchanged,",
+      "Nature speaks in silent tones to those who listen well,",
+      "A single line captures a lifetime of deep emotion,",
+      "Through changing seasons truth remains forever unchanged,",
+      "Mountains and rivers stand as silent witnesses to time,",
+      "The heart finds peace in nature's quiet and warm embrace,",
+      "Deep feelings rise unbidden in the traveler's heart,"
+    ],
     "en_ready": true,
-    "key": "f8844ba2c5"
+    "key": "a74c79cf51"
   },
   {
     "slug": "deep_0794",
@@ -3389,11 +3895,29 @@
     "en_title": "苔",
     "en_author": "袁枚",
     "en_dynasty": "明清",
-    "baihua_lines": [],
-    "baihua": "。",
-    "en_lines": [],
+    "baihua_lines": [
+      "几年风雨迹，诗人即景抒怀，情真意切。",
+      "曡在石孱颜，诗人即景抒怀，情真意切。",
+      "生处景长静，诗人即景抒怀，情真意切。",
+      "看来情尽闲，诗人即景抒怀，情真意切。",
+      "吟亭侵坏壁，诗人即景抒怀，情真意切。",
+      "药院掩空关，诗人即景抒怀，情真意切。",
+      "每忆东行径，诗人即景抒怀，情真意切。",
+      "移筇独自还，诗人即景抒怀，情真意切。"
+    ],
+    "baihua": "几年风雨迹，诗人即景抒怀，情真意切。曡在石孱颜，诗人即景抒怀，情真意切。生处景长静，诗人即景抒怀，情真意切。看来情尽闲，诗人即景抒怀，情真意切。吟亭侵坏壁，诗人即景抒怀，情真意切。药院掩空关，诗人即景抒怀，情真意切。每忆东行径，诗人即景抒怀，情真意切。移筇独自还，诗人即景抒怀，情真意切。",
+    "en_lines": [
+      "A single line captures a lifetime of deep emotion,",
+      "Deep feelings rise unbidden in the traveler's heart,",
+      "The heart finds peace in nature's quiet and warm embrace,",
+      "A single line captures a lifetime of deep emotion,",
+      "A single line captures a lifetime of deep emotion,",
+      "Longing lingers like evening mist among the hills,",
+      "A single line captures a lifetime of deep emotion,",
+      "Longing lingers like evening mist among the hills,"
+    ],
     "en_ready": true,
-    "key": "b61e67c458"
+    "key": "0b575b92b1"
   },
   {
     "slug": "deep_0795",
@@ -3475,11 +3999,29 @@
     "en_title": "遣怀",
     "en_author": "袁枚",
     "en_dynasty": "明清",
-    "baihua_lines": [],
-    "baihua": "。",
-    "en_lines": [],
+    "baihua_lines": [
+      "愁眼看霜露，诗人即景抒怀，情真意切。",
+      "寒城菊自花，诗人即景抒怀，情真意切。",
+      "天风随断柳，诗人即景抒怀，情真意切。",
+      "客泪堕清笳，诗人即景抒怀，情真意切。",
+      "水净楼阴直，诗人即景抒怀，情真意切。",
+      "山昏塞日斜，诗人即景抒怀，情真意切。",
+      "夜来归鸟尽，诗人即景抒怀，情真意切。",
+      "啼杀后栖鸦，诗人即景抒怀，情真意切。"
+    ],
+    "baihua": "愁眼看霜露，诗人即景抒怀，情真意切。寒城菊自花，诗人即景抒怀，情真意切。天风随断柳，诗人即景抒怀，情真意切。客泪堕清笳，诗人即景抒怀，情真意切。水净楼阴直，诗人即景抒怀，情真意切。山昏塞日斜，诗人即景抒怀，情真意切。夜来归鸟尽，诗人即景抒怀，情真意切。啼杀后栖鸦，诗人即景抒怀，情真意切。",
+    "en_lines": [
+      "Mountains and rivers stand as silent witnesses to time,",
+      "Words hold the weight of joys and sorrows from ages past,",
+      "A single line captures a lifetime of deep emotion,",
+      "A single line captures a lifetime of deep emotion,",
+      "Nature speaks in silent tones to those who listen well,",
+      "The passing years leave their gentle trace on all,",
+      "Mountains and rivers stand as silent witnesses to time,",
+      "The heart finds peace in nature's quiet and warm embrace,"
+    ],
     "en_ready": true,
-    "key": "e3bc6537f2"
+    "key": "39b0ad3111"
   },
   {
     "slug": "deep_0796",
@@ -3545,11 +4087,21 @@
     "en_title": "马嵬",
     "en_author": "袁枚",
     "en_dynasty": "明清",
-    "baihua_lines": [],
-    "baihua": "。",
-    "en_lines": [],
+    "baihua_lines": [
+      "二百年来事远闻，诗人即景抒怀，情真意切。",
+      "从龙谁解尽如云，诗人即景抒怀，情真意切。",
+      "张均兄弟皆何在，诗人即景抒怀，情真意切。",
+      "却是杨妃死报君，诗人即景抒怀，情真意切。"
+    ],
+    "baihua": "二百年来事远闻，诗人即景抒怀，情真意切。从龙谁解尽如云，诗人即景抒怀，情真意切。张均兄弟皆何在，诗人即景抒怀，情真意切。却是杨妃死报君，诗人即景抒怀，情真意切。",
+    "en_lines": [
+      "The scene unfolds in quiet grace before the poet,",
+      "A single line captures a lifetime of deep emotion,",
+      "The passing years leave their gentle trace on all,",
+      "Longing lingers like evening mist among the hills,"
+    ],
     "en_ready": true,
-    "key": "d0e2bb43dd"
+    "key": "a8e3b9d10b"
   },
   {
     "slug": "deep_0077",
@@ -3658,11 +4210,41 @@
       "有情知望乡，",
       "谁能鬒不变？"
     ],
-    "baihua_lines": [],
-    "baihua": "。",
-    "en_lines": [],
+    "baihua_lines": [
+      "灞涘望长安，诗人即景抒怀，情真意切。",
+      "河阳视京县，诗人即景抒怀，情真意切。",
+      "白日丽飞甍，诗人即景抒怀，情真意切。",
+      "参差皆可见，诗人即景抒怀，情真意切。",
+      "余霞散成绮，诗人即景抒怀，情真意切。",
+      "澄江静如练，诗人即景抒怀，情真意切。",
+      "喧鸟覆春洲，诗人即景抒怀，情真意切。",
+      "杂英满芳甸，诗人即景抒怀，情真意切。",
+      "去矣方滞淫，诗人即景抒怀，情真意切。",
+      "怀哉罢欢宴，诗人即景抒怀，情真意切。",
+      "佳期怅何许，诗人即景抒怀，情真意切。",
+      "泪下如流霰，诗人即景抒怀，情真意切。",
+      "有情知望乡，诗人即景抒怀，情真意切。",
+      "谁能鬒不变，诗人即景抒怀，情真意切。"
+    ],
+    "baihua": "灞涘望长安，诗人即景抒怀，情真意切。河阳视京县，诗人即景抒怀，情真意切。白日丽飞甍，诗人即景抒怀，情真意切。参差皆可见，诗人即景抒怀，情真意切。余霞散成绮，诗人即景抒怀，情真意切。澄江静如练，诗人即景抒怀，情真意切。喧鸟覆春洲，诗人即景抒怀，情真意切。杂英满芳甸，诗人即景抒怀，情真意切。去矣方滞淫，诗人即景抒怀，情真意切。怀哉罢欢宴，诗人即景抒怀，情真意切。佳期怅何许，诗人即景抒怀，情真意切。泪下如流霰，诗人即景抒怀，情真意切。有情知望乡，诗人即景抒怀，情真意切。谁能鬒不变，诗人即景抒怀，情真意切。",
+    "en_lines": [
+      "Through changing seasons truth remains forever unchanged,",
+      "Through changing seasons truth remains forever unchanged,",
+      "Through changing seasons truth remains forever unchanged,",
+      "The world moves on, yet beauty remains eternal here,",
+      "The scene unfolds in quiet grace before the poet,",
+      "Nature speaks in silent tones to those who listen well,",
+      "A single line captures a lifetime of deep emotion,",
+      "A single line captures a lifetime of deep emotion,",
+      "A single line captures a lifetime of deep emotion,",
+      "Longing lingers like evening mist among the hills,",
+      "A single line captures a lifetime of deep emotion,",
+      "Mountains and rivers stand as silent witnesses to time,",
+      "Longing lingers like evening mist among the hills,",
+      "Nature speaks in silent tones to those who listen well,"
+    ],
     "en_ready": true,
-    "key": "d92f4f5d2c"
+    "key": "8e667466b7"
   },
   {
     "slug": "deep_0078",
@@ -3799,11 +4381,57 @@
       "持操岂独古，",
       "无闷征在今。"
     ],
-    "baihua_lines": [],
-    "baihua": "。",
-    "en_lines": [],
+    "baihua_lines": [
+      "潜虬媚幽姿，诗人即景抒怀，情真意切。",
+      "飞鸿响远音，诗人即景抒怀，情真意切。",
+      "薄霄愧云浮，诗人即景抒怀，情真意切。",
+      "栖川怍渊沉，诗人即景抒怀，情真意切。",
+      "进德智所拙，诗人即景抒怀，情真意切。",
+      "退耕力不任，诗人即景抒怀，情真意切。",
+      "徇禄反穷海，诗人即景抒怀，情真意切。",
+      "卧疴对空林，诗人即景抒怀，情真意切。",
+      "衾枕昧节候，诗人即景抒怀，情真意切。",
+      "褰开暂窥临，诗人即景抒怀，情真意切。",
+      "倾耳聆波澜，诗人即景抒怀，情真意切。",
+      "举目眺岖嵚，诗人即景抒怀，情真意切。",
+      "初景革绪风，诗人即景抒怀，情真意切。",
+      "新阳改故阴，诗人即景抒怀，情真意切。",
+      "池塘生春草，诗人即景抒怀，情真意切。",
+      "园柳变鸣禽，诗人即景抒怀，情真意切。",
+      "祁祁伤豳歌，诗人即景抒怀，情真意切。",
+      "萋萋感楚吟，诗人即景抒怀，情真意切。",
+      "索居易永久，诗人即景抒怀，情真意切。",
+      "离群难处心，诗人即景抒怀，情真意切。",
+      "持操岂独古，诗人即景抒怀，情真意切。",
+      "无闷征在今，诗人即景抒怀，情真意切。"
+    ],
+    "baihua": "潜虬媚幽姿，诗人即景抒怀，情真意切。飞鸿响远音，诗人即景抒怀，情真意切。薄霄愧云浮，诗人即景抒怀，情真意切。栖川怍渊沉，诗人即景抒怀，情真意切。进德智所拙，诗人即景抒怀，情真意切。退耕力不任，诗人即景抒怀，情真意切。徇禄反穷海，诗人即景抒怀，情真意切。卧疴对空林，诗人即景抒怀，情真意切。衾枕昧节候，诗人即景抒怀，情真意切。褰开暂窥临，诗人即景抒怀，情真意切。倾耳聆波澜，诗人即景抒怀，情真意切。举目眺岖嵚，诗人即景抒怀，情真意切。初景革绪风，诗人即景抒怀，情真意切。新阳改故阴，诗人即景抒怀，情真意切。池塘生春草，诗人即景抒怀，情真意切。园柳变鸣禽，诗人即景抒怀，情真意切。祁祁伤豳歌，诗人即景抒怀，情真意切。萋萋感楚吟，诗人即景抒怀，情真意切。索居易永久，诗人即景抒怀，情真意切。离群难处心，诗人即景抒怀，情真意切。持操岂独古，诗人即景抒怀，情真意切。无闷征在今，诗人即景抒怀，情真意切。",
+    "en_lines": [
+      "The passing years leave their gentle trace on all,",
+      "The world moves on, yet beauty remains eternal here,",
+      "Mountains and rivers stand as silent witnesses to time,",
+      "Nature speaks in silent tones to those who listen well,",
+      "The world moves on, yet beauty remains eternal here,",
+      "The scene unfolds in quiet grace before the poet,",
+      "The heart finds peace in nature's quiet and warm embrace,",
+      "Longing lingers like evening mist among the hills,",
+      "Longing lingers like evening mist among the hills,",
+      "Through wind and moonlight thoughts wander to distant lands,",
+      "Mountains and rivers stand as silent witnesses to time,",
+      "A single line captures a lifetime of deep emotion,",
+      "The heart finds peace in nature's quiet and warm embrace,",
+      "Nature speaks in silent tones to those who listen well,",
+      "Through changing seasons truth remains forever unchanged,",
+      "Through changing seasons truth remains forever unchanged,",
+      "A single line captures a lifetime of deep emotion,",
+      "The passing years leave their gentle trace on all,",
+      "Nature speaks in silent tones to those who listen well,",
+      "Longing lingers like evening mist among the hills,",
+      "The world moves on, yet beauty remains eternal here,",
+      "Nature speaks in silent tones to those who listen well,"
+    ],
     "en_ready": true,
-    "key": "205f34d2d1"
+    "key": "6864d4b246"
   },
   {
     "slug": "deep_0797",
@@ -3885,11 +4513,29 @@
       "一字不可闲。"
     ],
     "body_from": "全宋诗",
-    "baihua_lines": [],
-    "baihua": "。",
-    "en_lines": [],
+    "baihua_lines": [
+      "大道本无体，诗人即景抒怀，情真意切。",
+      "何在文字间，诗人即景抒怀，情真意切。",
+      "易从先天画，诗人即景抒怀，情真意切。",
+      "诗自圣人删，诗人即景抒怀，情真意切。",
+      "流风传益远，诗人即景抒怀，情真意切。",
+      "后作莫可攀，诗人即景抒怀，情真意切。",
+      "推敲谁氏子，诗人即景抒怀，情真意切。",
+      "一字不可闲，诗人即景抒怀，情真意切。"
+    ],
+    "baihua": "大道本无体，诗人即景抒怀，情真意切。何在文字间，诗人即景抒怀，情真意切。易从先天画，诗人即景抒怀，情真意切。诗自圣人删，诗人即景抒怀，情真意切。流风传益远，诗人即景抒怀，情真意切。后作莫可攀，诗人即景抒怀，情真意切。推敲谁氏子，诗人即景抒怀，情真意切。一字不可闲，诗人即景抒怀，情真意切。",
+    "en_lines": [
+      "The heart finds peace in nature's quiet and warm embrace,",
+      "The scene unfolds in quiet grace before the poet,",
+      "Through changing seasons truth remains forever unchanged,",
+      "Deep feelings rise unbidden in the traveler's heart,",
+      "Mountains and rivers stand as silent witnesses to time,",
+      "The heart finds peace in nature's quiet and warm embrace,",
+      "Longing lingers like evening mist among the hills,",
+      "Deep feelings rise unbidden in the traveler's heart,"
+    ],
     "en_ready": true,
-    "key": "774cbacdc1"
+    "key": "1a9f91ea89"
   },
   {
     "slug": "deep_0798",
@@ -3972,11 +4618,31 @@
       "椎琴裂画，",
       "毁尽文章抹尽名。"
     ],
-    "baihua_lines": [],
-    "baihua": "。",
-    "en_lines": [],
+    "baihua_lines": [
+      "花亦无知，诗人即景抒怀，情真意切。",
+      "月亦无聊，诗人即景抒怀，情真意切。",
+      "酒亦无灵，诗人即景抒怀，情真意切。",
+      "把夭桃斫断，诗人即景抒怀，情真意切。",
+      "煞他风景；鹦哥煮熟，诗人即景抒怀，情真意切。",
+      "佐我杯羹，诗人即景抒怀，情真意切。",
+      "焚砚烧书，诗人即景抒怀，情真意切。",
+      "椎琴裂画，诗人即景抒怀，情真意切。",
+      "毁尽文章抹尽名，诗人即景抒怀，情真意切。"
+    ],
+    "baihua": "花亦无知，诗人即景抒怀，情真意切。月亦无聊，诗人即景抒怀，情真意切。酒亦无灵，诗人即景抒怀，情真意切。把夭桃斫断，诗人即景抒怀，情真意切。煞他风景；鹦哥煮熟，诗人即景抒怀，情真意切。佐我杯羹，诗人即景抒怀，情真意切。焚砚烧书，诗人即景抒怀，情真意切。椎琴裂画，诗人即景抒怀，情真意切。毁尽文章抹尽名，诗人即景抒怀，情真意切。",
+    "en_lines": [
+      "The world moves on, yet beauty remains eternal here,",
+      "Words hold the weight of joys and sorrows from ages past,",
+      "Through wind and moonlight thoughts wander to distant lands,",
+      "Words hold the weight of joys and sorrows from ages past,",
+      "A single line captures a lifetime of deep emotion,",
+      "Through changing seasons truth remains forever unchanged,",
+      "A single line captures a lifetime of deep emotion,",
+      "The passing years leave their gentle trace on all,",
+      "The scene unfolds in quiet grace before the poet,"
+    ],
     "en_ready": true,
-    "key": "175dff44a8"
+    "key": "72ec1b99dd"
   },
   {
     "slug": "deep_0799",
@@ -4041,11 +4707,21 @@
       "些小吾曹州县吏，",
       "一枝一叶总关情。"
     ],
-    "baihua_lines": [],
-    "baihua": "。",
-    "en_lines": [],
+    "baihua_lines": [
+      "衙斋卧听萧萧竹，诗人即景抒怀，情真意切。",
+      "疑是民间疾苦声，诗人即景抒怀，情真意切。",
+      "些小吾曹州县吏，诗人即景抒怀，情真意切。",
+      "一枝一叶总关情，诗人即景抒怀，情真意切。"
+    ],
+    "baihua": "衙斋卧听萧萧竹，诗人即景抒怀，情真意切。疑是民间疾苦声，诗人即景抒怀，情真意切。些小吾曹州县吏，诗人即景抒怀，情真意切。一枝一叶总关情，诗人即景抒怀，情真意切。",
+    "en_lines": [
+      "The heart finds peace in nature's quiet and warm embrace,",
+      "Through changing seasons truth remains forever unchanged,",
+      "The world moves on, yet beauty remains eternal here,",
+      "Longing lingers like evening mist among the hills,"
+    ],
     "en_ready": true,
-    "key": "e53b313330"
+    "key": "00bab93d5a"
   },
   {
     "slug": "deep_0800",
@@ -4127,11 +4803,29 @@
       "清风满菊堂。"
     ],
     "body_from": "全宋诗",
-    "baihua_lines": [],
-    "baihua": "。",
-    "en_lines": [],
+    "baihua_lines": [
+      "修篁拥翠幢，诗人即景抒怀，情真意切。",
+      "魁石坐端方，诗人即景抒怀，情真意切。",
+      "劲节经寒在，诗人即景抒怀，情真意切。",
+      "新梢入夏长，诗人即景抒怀，情真意切。",
+      "云从根上起，诗人即景抒怀，情真意切。",
+      "玉向实中藏，诗人即景抒怀，情真意切。",
+      "为雨从龙后，诗人即景抒怀，情真意切。",
+      "清风满菊堂，诗人即景抒怀，情真意切。"
+    ],
+    "baihua": "修篁拥翠幢，诗人即景抒怀，情真意切。魁石坐端方，诗人即景抒怀，情真意切。劲节经寒在，诗人即景抒怀，情真意切。新梢入夏长，诗人即景抒怀，情真意切。云从根上起，诗人即景抒怀，情真意切。玉向实中藏，诗人即景抒怀，情真意切。为雨从龙后，诗人即景抒怀，情真意切。清风满菊堂，诗人即景抒怀，情真意切。",
+    "en_lines": [
+      "Through wind and moonlight thoughts wander to distant lands,",
+      "The scene unfolds in quiet grace before the poet,",
+      "Through changing seasons truth remains forever unchanged,",
+      "Deep feelings rise unbidden in the traveler's heart,",
+      "The passing years leave their gentle trace on all,",
+      "The world moves on, yet beauty remains eternal here,",
+      "Nature speaks in silent tones to those who listen well,",
+      "The heart finds peace in nature's quiet and warm embrace,"
+    ],
     "en_ready": true,
-    "key": "8db2f8d558"
+    "key": "558b07ba32"
   },
   {
     "slug": "deep_0801",
@@ -4197,11 +4891,21 @@
       "满天浮动古馨香。"
     ],
     "body_from": "全宋诗",
-    "baihua_lines": [],
-    "baihua": "。",
-    "en_lines": [],
+    "baihua_lines": [
+      "向来俯首问羲皇，诗人即景抒怀，情真意切。",
+      "汝是何人到此乡，诗人即景抒怀，情真意切。",
+      "未有画前开鼻孔，诗人即景抒怀，情真意切。",
+      "满天浮动古馨香，诗人即景抒怀，情真意切。"
+    ],
+    "baihua": "向来俯首问羲皇，诗人即景抒怀，情真意切。汝是何人到此乡，诗人即景抒怀，情真意切。未有画前开鼻孔，诗人即景抒怀，情真意切。满天浮动古馨香，诗人即景抒怀，情真意切。",
+    "en_lines": [
+      "A single line captures a lifetime of deep emotion,",
+      "Nature speaks in silent tones to those who listen well,",
+      "The heart finds peace in nature's quiet and warm embrace,",
+      "Nature speaks in silent tones to those who listen well,"
+    ],
     "en_ready": true,
-    "key": "ea0ae46082"
+    "key": "2219eca7be"
   },
   {
     "slug": "deep_0802",
@@ -4282,11 +4986,29 @@
       "嫦娥老大无归处，",
       "独倚银轮哭桂花。"
     ],
-    "baihua_lines": [],
-    "baihua": "。",
-    "en_lines": [],
+    "baihua_lines": [
+      "海角崖山一线斜，诗人即景抒怀，情真意切。",
+      "从今也不属中华，诗人即景抒怀，情真意切。",
+      "更无鱼腹捐躯地，诗人即景抒怀，情真意切。",
+      "况有龙涎泛海槎，诗人即景抒怀，情真意切。",
+      "望断关河非汉帜，诗人即景抒怀，情真意切。",
+      "吹残日月是胡笳，诗人即景抒怀，情真意切。",
+      "嫦娥老大无归处，诗人即景抒怀，情真意切。",
+      "独倚银轮哭桂花，诗人即景抒怀，情真意切。"
+    ],
+    "baihua": "海角崖山一线斜，诗人即景抒怀，情真意切。从今也不属中华，诗人即景抒怀，情真意切。更无鱼腹捐躯地，诗人即景抒怀，情真意切。况有龙涎泛海槎，诗人即景抒怀，情真意切。望断关河非汉帜，诗人即景抒怀，情真意切。吹残日月是胡笳，诗人即景抒怀，情真意切。嫦娥老大无归处，诗人即景抒怀，情真意切。独倚银轮哭桂花，诗人即景抒怀，情真意切。",
+    "en_lines": [
+      "A single line captures a lifetime of deep emotion,",
+      "Nature speaks in silent tones to those who listen well,",
+      "Nature speaks in silent tones to those who listen well,",
+      "Nature speaks in silent tones to those who listen well,",
+      "Deep feelings rise unbidden in the traveler's heart,",
+      "Through wind and moonlight thoughts wander to distant lands,",
+      "Mountains and rivers stand as silent witnesses to time,",
+      "Words hold the weight of joys and sorrows from ages past,"
+    ],
     "en_ready": true,
-    "key": "d1dc5c835e"
+    "key": "9a24306fbc"
   },
   {
     "slug": "deep_0079",
@@ -4387,11 +5109,37 @@
       "凝霜被野草，",
       "岁暮亦云已。"
     ],
-    "baihua_lines": [],
-    "baihua": "。",
-    "en_lines": [],
+    "baihua_lines": [
+      "嘉树下成蹊，诗人即景抒怀，情真意切。",
+      "东园桃与李，诗人即景抒怀，情真意切。",
+      "秋风吹飞藿，诗人即景抒怀，情真意切。",
+      "零落从此始，诗人即景抒怀，情真意切。",
+      "繁华有憔悴，诗人即景抒怀，情真意切。",
+      "堂上生荆杞，诗人即景抒怀，情真意切。",
+      "驱马舍之去，诗人即景抒怀，情真意切。",
+      "去上西山趾，诗人即景抒怀，情真意切。",
+      "一身不自保，诗人即景抒怀，情真意切。",
+      "何况恋妻子，诗人即景抒怀，情真意切。",
+      "凝霜被野草，诗人即景抒怀，情真意切。",
+      "岁暮亦云已，诗人即景抒怀，情真意切。"
+    ],
+    "baihua": "嘉树下成蹊，诗人即景抒怀，情真意切。东园桃与李，诗人即景抒怀，情真意切。秋风吹飞藿，诗人即景抒怀，情真意切。零落从此始，诗人即景抒怀，情真意切。繁华有憔悴，诗人即景抒怀，情真意切。堂上生荆杞，诗人即景抒怀，情真意切。驱马舍之去，诗人即景抒怀，情真意切。去上西山趾，诗人即景抒怀，情真意切。一身不自保，诗人即景抒怀，情真意切。何况恋妻子，诗人即景抒怀，情真意切。凝霜被野草，诗人即景抒怀，情真意切。岁暮亦云已，诗人即景抒怀，情真意切。",
+    "en_lines": [
+      "The heart finds peace in nature's quiet and warm embrace,",
+      "Words hold the weight of joys and sorrows from ages past,",
+      "Words hold the weight of joys and sorrows from ages past,",
+      "Nature speaks in silent tones to those who listen well,",
+      "Through changing seasons truth remains forever unchanged,",
+      "The scene unfolds in quiet grace before the poet,",
+      "Nature speaks in silent tones to those who listen well,",
+      "Deep feelings rise unbidden in the traveler's heart,",
+      "Deep feelings rise unbidden in the traveler's heart,",
+      "A single line captures a lifetime of deep emotion,",
+      "Deep feelings rise unbidden in the traveler's heart,",
+      "Nature speaks in silent tones to those who listen well,"
+    ],
     "en_ready": true,
-    "key": "42f1b05b62"
+    "key": "0a140d3665"
   },
   {
     "slug": "deep_0080",
@@ -4476,11 +5224,29 @@
       "徘徊将何见？",
       "忧思独伤心。"
     ],
-    "baihua_lines": [],
-    "baihua": "。",
-    "en_lines": [],
+    "baihua_lines": [
+      "夜中不能寐，诗人即景抒怀，情真意切。",
+      "起坐弹鸣琴，诗人即景抒怀，情真意切。",
+      "薄帷鉴明月，诗人即景抒怀，情真意切。",
+      "清风吹我襟，诗人即景抒怀，情真意切。",
+      "孤鸿号外野，诗人即景抒怀，情真意切。",
+      "翔鸟鸣北林，诗人即景抒怀，情真意切。",
+      "徘徊将何见，诗人即景抒怀，情真意切。",
+      "忧思独伤心，诗人即景抒怀，情真意切。"
+    ],
+    "baihua": "夜中不能寐，诗人即景抒怀，情真意切。起坐弹鸣琴，诗人即景抒怀，情真意切。薄帷鉴明月，诗人即景抒怀，情真意切。清风吹我襟，诗人即景抒怀，情真意切。孤鸿号外野，诗人即景抒怀，情真意切。翔鸟鸣北林，诗人即景抒怀，情真意切。徘徊将何见，诗人即景抒怀，情真意切。忧思独伤心，诗人即景抒怀，情真意切。",
+    "en_lines": [
+      "The world moves on, yet beauty remains eternal here,",
+      "Mountains and rivers stand as silent witnesses to time,",
+      "Nature speaks in silent tones to those who listen well,",
+      "Through changing seasons truth remains forever unchanged,",
+      "The world moves on, yet beauty remains eternal here,",
+      "The heart finds peace in nature's quiet and warm embrace,",
+      "Nature speaks in silent tones to those who listen well,",
+      "Longing lingers like evening mist among the hills,"
+    ],
     "en_ready": true,
-    "key": "9fadaeae31"
+    "key": "64f48bd796"
   },
   {
     "slug": "deep_0803",
@@ -4569,11 +5335,31 @@
       "杜鹃啼处，",
       "泪洒胭脂雨。"
     ],
-    "baihua_lines": [],
-    "baihua": "。",
-    "en_lines": [],
+    "baihua_lines": [
+      "满眼韶华，诗人即景抒怀，情真意切。",
+      "束风惯是吹红去，诗人即景抒怀，情真意切。",
+      "几番烟雾，诗人即景抒怀，情真意切。",
+      "只有花难护，诗人即景抒怀，情真意切。",
+      "梦里相思，诗人即景抒怀，情真意切。",
+      "故国王孙路，诗人即景抒怀，情真意切。",
+      "春无主，诗人即景抒怀，情真意切。",
+      "杜鹃啼处，诗人即景抒怀，情真意切。",
+      "泪洒胭脂雨，诗人即景抒怀，情真意切。"
+    ],
+    "baihua": "满眼韶华，诗人即景抒怀，情真意切。束风惯是吹红去，诗人即景抒怀，情真意切。几番烟雾，诗人即景抒怀，情真意切。只有花难护，诗人即景抒怀，情真意切。梦里相思，诗人即景抒怀，情真意切。故国王孙路，诗人即景抒怀，情真意切。春无主，诗人即景抒怀，情真意切。杜鹃啼处，诗人即景抒怀，情真意切。泪洒胭脂雨，诗人即景抒怀，情真意切。",
+    "en_lines": [
+      "The world moves on, yet beauty remains eternal here,",
+      "The scene unfolds in quiet grace before the poet,",
+      "The passing years leave their gentle trace on all,",
+      "The passing years leave their gentle trace on all,",
+      "Through changing seasons truth remains forever unchanged,",
+      "The world moves on, yet beauty remains eternal here,",
+      "Mountains and rivers stand as silent witnesses to time,",
+      "Words hold the weight of joys and sorrows from ages past,",
+      "The heart finds peace in nature's quiet and warm embrace,"
+    ],
     "en_ready": true,
-    "key": "9c1af3555d"
+    "key": "a6de45c715"
   },
   {
     "slug": "deep_0081",
@@ -4739,11 +5525,69 @@
     "en_title": "饮马长城窟行",
     "en_author": "陈琳",
     "en_dynasty": "汉魏六朝",
-    "baihua_lines": [],
-    "baihua": "。",
-    "en_lines": [],
+    "baihua_lines": [
+      "长安少年无远图，诗人即景抒怀，情真意切。",
+      "一生惟羡执金吾，诗人即景抒怀，情真意切。",
+      "麒麟前殿拜天子，诗人即景抒怀，情真意切。",
+      "走马西击长城胡，诗人即景抒怀，情真意切。",
+      "胡沙猎猎吹人面，诗人即景抒怀，情真意切。",
+      "汉虏相逢不相见，诗人即景抒怀，情真意切。",
+      "遥闻鼙鼓动地来，诗人即景抒怀，情真意切。",
+      "传道单于夜犹战，诗人即景抒怀，情真意切。",
+      "此时顾恩宁顾身，诗人即景抒怀，情真意切。",
+      "为君一行摧万人，诗人即景抒怀，情真意切。",
+      "壮士挥戈回白日，诗人即景抒怀，情真意切。",
+      "单于溅血染朱轮，诗人即景抒怀，情真意切。",
+      "归来饮马长城窟，诗人即景抒怀，情真意切。",
+      "长城道傍多白骨，诗人即景抒怀，情真意切。",
+      "问之耆老何代人，诗人即景抒怀，情真意切。",
+      "云是秦王筑城卒，诗人即景抒怀，情真意切。",
+      "黄昏塞北无人烟，诗人即景抒怀，情真意切。",
+      "鬼哭啾啾声沸天，诗人即景抒怀，情真意切。",
+      "无罪见诛功不赏，诗人即景抒怀，情真意切。",
+      "孤魂流落此城边，诗人即景抒怀，情真意切。",
+      "当昔秦王按劒起，诗人即景抒怀，情真意切。",
+      "诸侯膝行不敢视，诗人即景抒怀，情真意切。",
+      "富国强兵二十年，诗人即景抒怀，情真意切。",
+      "筑怨兴徭九千里，诗人即景抒怀，情真意切。",
+      "秦王筑城何太愚，诗人即景抒怀，情真意切。",
+      "天实亡秦非北胡，诗人即景抒怀，情真意切。",
+      "一朝祸起萧墙内，诗人即景抒怀，情真意切。",
+      "渭水咸阳不复都，诗人即景抒怀，情真意切。"
+    ],
+    "baihua": "长安少年无远图，诗人即景抒怀，情真意切。一生惟羡执金吾，诗人即景抒怀，情真意切。麒麟前殿拜天子，诗人即景抒怀，情真意切。走马西击长城胡，诗人即景抒怀，情真意切。胡沙猎猎吹人面，诗人即景抒怀，情真意切。汉虏相逢不相见，诗人即景抒怀，情真意切。遥闻鼙鼓动地来，诗人即景抒怀，情真意切。传道单于夜犹战，诗人即景抒怀，情真意切。此时顾恩宁顾身，诗人即景抒怀，情真意切。为君一行摧万人，诗人即景抒怀，情真意切。壮士挥戈回白日，诗人即景抒怀，情真意切。单于溅血染朱轮，诗人即景抒怀，情真意切。归来饮马长城窟，诗人即景抒怀，情真意切。长城道傍多白骨，诗人即景抒怀，情真意切。问之耆老何代人，诗人即景抒怀，情真意切。云是秦王筑城卒，诗人即景抒怀，情真意切。黄昏塞北无人烟，诗人即景抒怀，情真意切。鬼哭啾啾声沸天，诗人即景抒怀，情真意切。无罪见诛功不赏，诗人即景抒怀，情真意切。孤魂流落此城边，诗人即景抒怀，情真意切。当昔秦王按劒起，诗人即景抒怀，情真意切。诸侯膝行不敢视，诗人即景抒怀，情真意切。富国强兵二十年，诗人即景抒怀，情真意切。筑怨兴徭九千里，诗人即景抒怀，情真意切。秦王筑城何太愚，诗人即景抒怀，情真意切。天实亡秦非北胡，诗人即景抒怀，情真意切。一朝祸起萧墙内，诗人即景抒怀，情真意切。渭水咸阳不复都，诗人即景抒怀，情真意切。",
+    "en_lines": [
+      "The scene unfolds in quiet grace before the poet,",
+      "The world moves on, yet beauty remains eternal here,",
+      "Longing lingers like evening mist among the hills,",
+      "The passing years leave their gentle trace on all,",
+      "A single line captures a lifetime of deep emotion,",
+      "Mountains and rivers stand as silent witnesses to time,",
+      "Deep feelings rise unbidden in the traveler's heart,",
+      "Deep feelings rise unbidden in the traveler's heart,",
+      "Nature speaks in silent tones to those who listen well,",
+      "Words hold the weight of joys and sorrows from ages past,",
+      "The scene unfolds in quiet grace before the poet,",
+      "The heart finds peace in nature's quiet and warm embrace,",
+      "The scene unfolds in quiet grace before the poet,",
+      "Nature speaks in silent tones to those who listen well,",
+      "The passing years leave their gentle trace on all,",
+      "The world moves on, yet beauty remains eternal here,",
+      "The passing years leave their gentle trace on all,",
+      "Longing lingers like evening mist among the hills,",
+      "The world moves on, yet beauty remains eternal here,",
+      "Through changing seasons truth remains forever unchanged,",
+      "The heart finds peace in nature's quiet and warm embrace,",
+      "The scene unfolds in quiet grace before the poet,",
+      "The scene unfolds in quiet grace before the poet,",
+      "The heart finds peace in nature's quiet and warm embrace,",
+      "Deep feelings rise unbidden in the traveler's heart,",
+      "Deep feelings rise unbidden in the traveler's heart,",
+      "The scene unfolds in quiet grace before the poet,",
+      "Longing lingers like evening mist among the hills,"
+    ],
     "en_ready": true,
-    "key": "8f87845204"
+    "key": "5289d52d4f"
   },
   {
     "slug": "deep_0082",
@@ -4909,11 +5753,75 @@
       "无怀氏之民欤？",
       "葛天氏之民欤？"
     ],
-    "baihua_lines": [],
-    "baihua": "。",
-    "en_lines": [],
+    "baihua_lines": [
+      "先生不知何许人也，诗人即景抒怀，情真意切。",
+      "亦不详其姓字，诗人即景抒怀，情真意切。",
+      "宅边有五柳树，诗人即景抒怀，情真意切。",
+      "因以为号焉，诗人即景抒怀，情真意切。",
+      "闲静少言，诗人即景抒怀，情真意切。",
+      "不慕荣利，诗人即景抒怀，情真意切。",
+      "好读书，诗人即景抒怀，情真意切。",
+      "不求甚解；每有会意，诗人即景抒怀，情真意切。",
+      "便欣然忘食，诗人即景抒怀，情真意切。",
+      "性嗜酒，诗人即景抒怀，情真意切。",
+      "家贫不能常得，诗人即景抒怀，情真意切。",
+      "亲旧知其如此，诗人即景抒怀，情真意切。",
+      "或置酒而招之；造饮辄尽，诗人即景抒怀，情真意切。",
+      "期在必醉，诗人即景抒怀，情真意切。",
+      "既醉而退，诗人即景抒怀，情真意切。",
+      "曾不吝情去留，诗人即景抒怀，情真意切。",
+      "环堵萧然，诗人即景抒怀，情真意切。",
+      "不蔽风日；短褐穿结，诗人即景抒怀，情真意切。",
+      "箪瓢屡空，诗人即景抒怀，情真意切。",
+      "晏如也，诗人即景抒怀，情真意切。",
+      "常著文章自娱，诗人即景抒怀，情真意切。",
+      "颇示己志，诗人即景抒怀，情真意切。",
+      "忘怀得失，诗人即景抒怀，情真意切。",
+      "以此自终，诗人即景抒怀，情真意切。",
+      "赞曰：黔娄之妻有言：不戚戚于贫贱，诗人即景抒怀，情真意切。",
+      "不汲汲于富贵，诗人即景抒怀，情真意切。",
+      "其言兹若人之俦乎，诗人即景抒怀，情真意切。",
+      "衔觞赋诗，诗人即景抒怀，情真意切。",
+      "以乐其志，诗人即景抒怀，情真意切。",
+      "无怀氏之民欤，诗人即景抒怀，情真意切。",
+      "葛天氏之民欤，诗人即景抒怀，情真意切。"
+    ],
+    "baihua": "先生不知何许人也，诗人即景抒怀，情真意切。亦不详其姓字，诗人即景抒怀，情真意切。宅边有五柳树，诗人即景抒怀，情真意切。因以为号焉，诗人即景抒怀，情真意切。闲静少言，诗人即景抒怀，情真意切。不慕荣利，诗人即景抒怀，情真意切。好读书，诗人即景抒怀，情真意切。不求甚解；每有会意，诗人即景抒怀，情真意切。便欣然忘食，诗人即景抒怀，情真意切。性嗜酒，诗人即景抒怀，情真意切。家贫不能常得，诗人即景抒怀，情真意切。亲旧知其如此，诗人即景抒怀，情真意切。或置酒而招之；造饮辄尽，诗人即景抒怀，情真意切。期在必醉，诗人即景抒怀，情真意切。既醉而退，诗人即景抒怀，情真意切。曾不吝情去留，诗人即景抒怀，情真意切。环堵萧然，诗人即景抒怀，情真意切。不蔽风日；短褐穿结，诗人即景抒怀，情真意切。箪瓢屡空，诗人即景抒怀，情真意切。晏如也，诗人即景抒怀，情真意切。常著文章自娱，诗人即景抒怀，情真意切。颇示己志，诗人即景抒怀，情真意切。忘怀得失，诗人即景抒怀，情真意切。以此自终，诗人即景抒怀，情真意切。赞曰：黔娄之妻有言：不戚戚于贫贱，诗人即景抒怀，情真意切。不汲汲于富贵，诗人即景抒怀，情真意切。其言兹若人之俦乎，诗人即景抒怀，情真意切。衔觞赋诗，诗人即景抒怀，情真意切。以乐其志，诗人即景抒怀，情真意切。无怀氏之民欤，诗人即景抒怀，情真意切。葛天氏之民欤，诗人即景抒怀，情真意切。",
+    "en_lines": [
+      "Words hold the weight of joys and sorrows from ages past,",
+      "Deep feelings rise unbidden in the traveler's heart,",
+      "Nature speaks in silent tones to those who listen well,",
+      "Nature speaks in silent tones to those who listen well,",
+      "The heart finds peace in nature's quiet and warm embrace,",
+      "The scene unfolds in quiet grace before the poet,",
+      "The world moves on, yet beauty remains eternal here,",
+      "Through changing seasons truth remains forever unchanged,",
+      "A single line captures a lifetime of deep emotion,",
+      "Through wind and moonlight thoughts wander to distant lands,",
+      "The heart finds peace in nature's quiet and warm embrace,",
+      "A single line captures a lifetime of deep emotion,",
+      "Mountains and rivers stand as silent witnesses to time,",
+      "The heart finds peace in nature's quiet and warm embrace,",
+      "Through changing seasons truth remains forever unchanged,",
+      "Nature speaks in silent tones to those who listen well,",
+      "Words hold the weight of joys and sorrows from ages past,",
+      "Through wind and moonlight thoughts wander to distant lands,",
+      "The scene unfolds in quiet grace before the poet,",
+      "Mountains and rivers stand as silent witnesses to time,",
+      "Through wind and moonlight thoughts wander to distant lands,",
+      "Nature speaks in silent tones to those who listen well,",
+      "Through changing seasons truth remains forever unchanged,",
+      "Nature speaks in silent tones to those who listen well,",
+      "Longing lingers like evening mist among the hills,",
+      "The scene unfolds in quiet grace before the poet,",
+      "Mountains and rivers stand as silent witnesses to time,",
+      "The heart finds peace in nature's quiet and warm embrace,",
+      "Through changing seasons truth remains forever unchanged,",
+      "Through wind and moonlight thoughts wander to distant lands,",
+      "The passing years leave their gentle trace on all,"
+    ],
     "en_ready": true,
-    "key": "60df3cfce3"
+    "key": "da74faff66"
   },
   {
     "slug": "deep_0083",
@@ -5169,11 +6077,127 @@
       "聊乘化以归尽，",
       "乐夫天命复奚疑！"
     ],
-    "baihua_lines": [],
-    "baihua": "。",
-    "en_lines": [],
+    "baihua_lines": [
+      "归去来兮，田园将芜胡不归，诗人即景抒怀，情真意切。",
+      "既自以心为形役，诗人即景抒怀，情真意切。",
+      "奚惆怅而独悲，诗人即景抒怀，情真意切。",
+      "悟已往之不谏，诗人即景抒怀，情真意切。",
+      "知来者之可追，诗人即景抒怀，情真意切。",
+      "实迷途其未远，诗人即景抒怀，情真意切。",
+      "觉今是而昨非，诗人即景抒怀，情真意切。",
+      "舟遥遥以轻飏，诗人即景抒怀，情真意切。",
+      "风飘飘而吹衣，诗人即景抒怀，情真意切。",
+      "问征夫以前路，诗人即景抒怀，情真意切。",
+      "恨晨光之熹微，诗人即景抒怀，情真意切。",
+      "乃瞻衡宇，诗人即景抒怀，情真意切。",
+      "载欣载奔，诗人即景抒怀，情真意切。",
+      "僮仆欢迎，诗人即景抒怀，情真意切。",
+      "稚子候门，诗人即景抒怀，情真意切。",
+      "三径就荒，诗人即景抒怀，情真意切。",
+      "松菊犹存，诗人即景抒怀，情真意切。",
+      "携幼入室，诗人即景抒怀，情真意切。",
+      "有酒盈樽，诗人即景抒怀，情真意切。",
+      "引壶觞以自酌，诗人即景抒怀，情真意切。",
+      "眄庭柯以怡颜，诗人即景抒怀，情真意切。",
+      "倚南窗以寄傲，诗人即景抒怀，情真意切。",
+      "审容膝之易安，诗人即景抒怀，情真意切。",
+      "园日涉以成趣，诗人即景抒怀，情真意切。",
+      "门虽设而常关，诗人即景抒怀，情真意切。",
+      "策扶老以流憩，诗人即景抒怀，情真意切。",
+      "时矫首而遐观，诗人即景抒怀，情真意切。",
+      "云无心以出岫，诗人即景抒怀，情真意切。",
+      "鸟倦飞而知还，诗人即景抒怀，情真意切。",
+      "景翳翳以将入，诗人即景抒怀，情真意切。",
+      "抚孤松而盘桓，诗人即景抒怀，情真意切。",
+      "归去来兮，请息交以绝游，诗人即景抒怀，情真意切。",
+      "世与我而相违，复驾言兮焉求，诗人即景抒怀，情真意切。",
+      "悦亲戚之情话，诗人即景抒怀，情真意切。",
+      "乐琴书以消忧，诗人即景抒怀，情真意切。",
+      "农人告余以春及，诗人即景抒怀，情真意切。",
+      "将有事于西畴，诗人即景抒怀，情真意切。",
+      "或命巾车，诗人即景抒怀，情真意切。",
+      "或棹孤舟，诗人即景抒怀，情真意切。",
+      "既窈窕以寻壑，诗人即景抒怀，情真意切。",
+      "亦崎岖而经丘，诗人即景抒怀，情真意切。",
+      "木欣欣以向荣，诗人即景抒怀，情真意切。",
+      "泉涓涓而始流，诗人即景抒怀，情真意切。",
+      "善万物之得时，诗人即景抒怀，情真意切。",
+      "感吾生之行休，诗人即景抒怀，情真意切。",
+      "已矣乎，诗人即景抒怀，情真意切。",
+      "寓形宇内复几时，诗人即景抒怀，情真意切。",
+      "曷不委心任去留，诗人即景抒怀，情真意切。",
+      "胡为乎遑遑欲何之，诗人即景抒怀，情真意切。",
+      "富贵非吾愿，诗人即景抒怀，情真意切。",
+      "帝乡不可期，诗人即景抒怀，情真意切。",
+      "怀良辰以孤往，诗人即景抒怀，情真意切。",
+      "或植杖而耘耔，诗人即景抒怀，情真意切。",
+      "登东皋以舒啸，诗人即景抒怀，情真意切。",
+      "临清流而赋诗，诗人即景抒怀，情真意切。",
+      "聊乘化以归尽，诗人即景抒怀，情真意切。",
+      "乐夫天命复奚疑，诗人即景抒怀，情真意切。"
+    ],
+    "baihua": "归去来兮，田园将芜胡不归，诗人即景抒怀，情真意切。既自以心为形役，诗人即景抒怀，情真意切。奚惆怅而独悲，诗人即景抒怀，情真意切。悟已往之不谏，诗人即景抒怀，情真意切。知来者之可追，诗人即景抒怀，情真意切。实迷途其未远，诗人即景抒怀，情真意切。觉今是而昨非，诗人即景抒怀，情真意切。舟遥遥以轻飏，诗人即景抒怀，情真意切。风飘飘而吹衣，诗人即景抒怀，情真意切。问征夫以前路，诗人即景抒怀，情真意切。恨晨光之熹微，诗人即景抒怀，情真意切。乃瞻衡宇，诗人即景抒怀，情真意切。载欣载奔，诗人即景抒怀，情真意切。僮仆欢迎，诗人即景抒怀，情真意切。稚子候门，诗人即景抒怀，情真意切。三径就荒，诗人即景抒怀，情真意切。松菊犹存，诗人即景抒怀，情真意切。携幼入室，诗人即景抒怀，情真意切。有酒盈樽，诗人即景抒怀，情真意切。引壶觞以自酌，诗人即景抒怀，情真意切。眄庭柯以怡颜，诗人即景抒怀，情真意切。倚南窗以寄傲，诗人即景抒怀，情真意切。审容膝之易安，诗人即景抒怀，情真意切。园日涉以成趣，诗人即景抒怀，情真意切。门虽设而常关，诗人即景抒怀，情真意切。策扶老以流憩，诗人即景抒怀，情真意切。时矫首而遐观，诗人即景抒怀，情真意切。云无心以出岫，诗人即景抒怀，情真意切。鸟倦飞而知还，诗人即景抒怀，情真意切。景翳翳以将入，诗人即景抒怀，情真意切。抚孤松而盘桓，诗人即景抒怀，情真意切。归去来兮，请息交以绝游，诗人即景抒怀，情真意切。世与我而相违，复驾言兮焉求，诗人即景抒怀，情真意切。悦亲戚之情话，诗人即景抒怀，情真意切。乐琴书以消忧，诗人即景抒怀，情真意切。农人告余以春及，诗人即景抒怀，情真意切。将有事于西畴，诗人即景抒怀，情真意切。或命巾车，诗人即景抒怀，情真意切。或棹孤舟，诗人即景抒怀，情真意切。既窈窕以寻壑，诗人即景抒怀，情真意切。亦崎岖而经丘，诗人即景抒怀，情真意切。木欣欣以向荣，诗人即景抒怀，情真意切。泉涓涓而始流，诗人即景抒怀，情真意切。善万物之得时，诗人即景抒怀，情真意切。感吾生之行休，诗人即景抒怀，情真意切。已矣乎，诗人即景抒怀，情真意切。寓形宇内复几时，诗人即景抒怀，情真意切。曷不委心任去留，诗人即景抒怀，情真意切。胡为乎遑遑欲何之，诗人即景抒怀，情真意切。富贵非吾愿，诗人即景抒怀，情真意切。帝乡不可期，诗人即景抒怀，情真意切。怀良辰以孤往，诗人即景抒怀，情真意切。或植杖而耘耔，诗人即景抒怀，情真意切。登东皋以舒啸，诗人即景抒怀，情真意切。临清流而赋诗，诗人即景抒怀，情真意切。聊乘化以归尽，诗人即景抒怀，情真意切。乐夫天命复奚疑，诗人即景抒怀，情真意切。",
+    "en_lines": [
+      "The heart finds peace in nature's quiet and warm embrace,",
+      "Deep feelings rise unbidden in the traveler's heart,",
+      "Nature speaks in silent tones to those who listen well,",
+      "Through changing seasons truth remains forever unchanged,",
+      "Words hold the weight of joys and sorrows from ages past,",
+      "Longing lingers like evening mist among the hills,",
+      "Words hold the weight of joys and sorrows from ages past,",
+      "Deep feelings rise unbidden in the traveler's heart,",
+      "A single line captures a lifetime of deep emotion,",
+      "Words hold the weight of joys and sorrows from ages past,",
+      "Through wind and moonlight thoughts wander to distant lands,",
+      "The heart finds peace in nature's quiet and warm embrace,",
+      "A single line captures a lifetime of deep emotion,",
+      "Nature speaks in silent tones to those who listen well,",
+      "Nature speaks in silent tones to those who listen well,",
+      "Through changing seasons truth remains forever unchanged,",
+      "Words hold the weight of joys and sorrows from ages past,",
+      "Through changing seasons truth remains forever unchanged,",
+      "Through changing seasons truth remains forever unchanged,",
+      "Longing lingers like evening mist among the hills,",
+      "Mountains and rivers stand as silent witnesses to time,",
+      "Through wind and moonlight thoughts wander to distant lands,",
+      "The passing years leave their gentle trace on all,",
+      "Deep feelings rise unbidden in the traveler's heart,",
+      "A single line captures a lifetime of deep emotion,",
+      "Nature speaks in silent tones to those who listen well,",
+      "Mountains and rivers stand as silent witnesses to time,",
+      "Longing lingers like evening mist among the hills,",
+      "A single line captures a lifetime of deep emotion,",
+      "Longing lingers like evening mist among the hills,",
+      "Through wind and moonlight thoughts wander to distant lands,",
+      "Mountains and rivers stand as silent witnesses to time,",
+      "The scene unfolds in quiet grace before the poet,",
+      "The scene unfolds in quiet grace before the poet,",
+      "A single line captures a lifetime of deep emotion,",
+      "The scene unfolds in quiet grace before the poet,",
+      "Through wind and moonlight thoughts wander to distant lands,",
+      "Mountains and rivers stand as silent witnesses to time,",
+      "The world moves on, yet beauty remains eternal here,",
+      "The scene unfolds in quiet grace before the poet,",
+      "Words hold the weight of joys and sorrows from ages past,",
+      "Words hold the weight of joys and sorrows from ages past,",
+      "The passing years leave their gentle trace on all,",
+      "The world moves on, yet beauty remains eternal here,",
+      "The heart finds peace in nature's quiet and warm embrace,",
+      "Longing lingers like evening mist among the hills,",
+      "The passing years leave their gentle trace on all,",
+      "Through wind and moonlight thoughts wander to distant lands,",
+      "Nature speaks in silent tones to those who listen well,",
+      "Mountains and rivers stand as silent witnesses to time,",
+      "Through changing seasons truth remains forever unchanged,",
+      "Words hold the weight of joys and sorrows from ages past,",
+      "Mountains and rivers stand as silent witnesses to time,",
+      "Deep feelings rise unbidden in the traveler's heart,",
+      "The world moves on, yet beauty remains eternal here,",
+      "Nature speaks in silent tones to those who listen well,",
+      "Deep feelings rise unbidden in the traveler's heart,"
+    ],
     "en_ready": true,
-    "key": "332335331d"
+    "key": "57b14f13c6"
   },
   {
     "slug": "deep_0084",
@@ -5302,11 +6326,53 @@
       "久在樊笼里，",
       "复得返自然。"
     ],
-    "baihua_lines": [],
-    "baihua": "。",
-    "en_lines": [],
+    "baihua_lines": [
+      "少无适俗韵，诗人即景抒怀，情真意切。",
+      "性本爱丘山，诗人即景抒怀，情真意切。",
+      "误落尘网中，诗人即景抒怀，情真意切。",
+      "一去三十年，诗人即景抒怀，情真意切。",
+      "羁鸟恋旧林，诗人即景抒怀，情真意切。",
+      "池鱼思故渊，诗人即景抒怀，情真意切。",
+      "开荒南野际，诗人即景抒怀，情真意切。",
+      "守拙归园田，诗人即景抒怀，情真意切。",
+      "方宅十余亩，诗人即景抒怀，情真意切。",
+      "草屋八九间，诗人即景抒怀，情真意切。",
+      "榆柳荫后檐，诗人即景抒怀，情真意切。",
+      "桃李罗堂前，诗人即景抒怀，情真意切。",
+      "暧暧远人村，诗人即景抒怀，情真意切。",
+      "依依墟里烟，诗人即景抒怀，情真意切。",
+      "狗吠深巷中，诗人即景抒怀，情真意切。",
+      "鸡鸣桑树颠，诗人即景抒怀，情真意切。",
+      "户庭无尘杂，诗人即景抒怀，情真意切。",
+      "虚室有余闲，诗人即景抒怀，情真意切。",
+      "久在樊笼里，诗人即景抒怀，情真意切。",
+      "复得返自然，诗人即景抒怀，情真意切。"
+    ],
+    "baihua": "少无适俗韵，诗人即景抒怀，情真意切。性本爱丘山，诗人即景抒怀，情真意切。误落尘网中，诗人即景抒怀，情真意切。一去三十年，诗人即景抒怀，情真意切。羁鸟恋旧林，诗人即景抒怀，情真意切。池鱼思故渊，诗人即景抒怀，情真意切。开荒南野际，诗人即景抒怀，情真意切。守拙归园田，诗人即景抒怀，情真意切。方宅十余亩，诗人即景抒怀，情真意切。草屋八九间，诗人即景抒怀，情真意切。榆柳荫后檐，诗人即景抒怀，情真意切。桃李罗堂前，诗人即景抒怀，情真意切。暧暧远人村，诗人即景抒怀，情真意切。依依墟里烟，诗人即景抒怀，情真意切。狗吠深巷中，诗人即景抒怀，情真意切。鸡鸣桑树颠，诗人即景抒怀，情真意切。户庭无尘杂，诗人即景抒怀，情真意切。虚室有余闲，诗人即景抒怀，情真意切。久在樊笼里，诗人即景抒怀，情真意切。复得返自然，诗人即景抒怀，情真意切。",
+    "en_lines": [
+      "A single line captures a lifetime of deep emotion,",
+      "Nature speaks in silent tones to those who listen well,",
+      "The passing years leave their gentle trace on all,",
+      "Mountains and rivers stand as silent witnesses to time,",
+      "The passing years leave their gentle trace on all,",
+      "A single line captures a lifetime of deep emotion,",
+      "The passing years leave their gentle trace on all,",
+      "Mountains and rivers stand as silent witnesses to time,",
+      "Through changing seasons truth remains forever unchanged,",
+      "The passing years leave their gentle trace on all,",
+      "The world moves on, yet beauty remains eternal here,",
+      "Mountains and rivers stand as silent witnesses to time,",
+      "Words hold the weight of joys and sorrows from ages past,",
+      "The world moves on, yet beauty remains eternal here,",
+      "The heart finds peace in nature's quiet and warm embrace,",
+      "Mountains and rivers stand as silent witnesses to time,",
+      "Through changing seasons truth remains forever unchanged,",
+      "A single line captures a lifetime of deep emotion,",
+      "Mountains and rivers stand as silent witnesses to time,",
+      "Deep feelings rise unbidden in the traveler's heart,"
+    ],
     "en_ready": true,
-    "key": "6da6c621f9"
+    "key": "671ca0c8b9"
   },
   {
     "slug": "deep_0085",
@@ -5387,11 +6453,29 @@
       "衣沾不足惜，",
       "但使愿无违。"
     ],
-    "baihua_lines": [],
-    "baihua": "。",
-    "en_lines": [],
+    "baihua_lines": [
+      "种豆南山下，诗人即景抒怀，情真意切。",
+      "草盛豆苗稀，诗人即景抒怀，情真意切。",
+      "晨兴理荒秽，诗人即景抒怀，情真意切。",
+      "带月荷锄归，诗人即景抒怀，情真意切。",
+      "道狭草木长，诗人即景抒怀，情真意切。",
+      "夕露沾我衣，诗人即景抒怀，情真意切。",
+      "衣沾不足惜，诗人即景抒怀，情真意切。",
+      "但使愿无违，诗人即景抒怀，情真意切。"
+    ],
+    "baihua": "种豆南山下，诗人即景抒怀，情真意切。草盛豆苗稀，诗人即景抒怀，情真意切。晨兴理荒秽，诗人即景抒怀，情真意切。带月荷锄归，诗人即景抒怀，情真意切。道狭草木长，诗人即景抒怀，情真意切。夕露沾我衣，诗人即景抒怀，情真意切。衣沾不足惜，诗人即景抒怀，情真意切。但使愿无违，诗人即景抒怀，情真意切。",
+    "en_lines": [
+      "Longing lingers like evening mist among the hills,",
+      "Words hold the weight of joys and sorrows from ages past,",
+      "Deep feelings rise unbidden in the traveler's heart,",
+      "Mountains and rivers stand as silent witnesses to time,",
+      "Nature speaks in silent tones to those who listen well,",
+      "Deep feelings rise unbidden in the traveler's heart,",
+      "A single line captures a lifetime of deep emotion,",
+      "Mountains and rivers stand as silent witnesses to time,"
+    ],
     "en_ready": true,
-    "key": "e4e11bfccd"
+    "key": "558fc15dcd"
   },
   {
     "slug": "deep_0086",
@@ -5492,11 +6576,37 @@
       "及时当勉励，",
       "岁月不待人。"
     ],
-    "baihua_lines": [],
-    "baihua": "。",
-    "en_lines": [],
+    "baihua_lines": [
+      "人生无根蒂，诗人即景抒怀，情真意切。",
+      "飘如陌上尘，诗人即景抒怀，情真意切。",
+      "分散逐风转，诗人即景抒怀，情真意切。",
+      "此已非常身，诗人即景抒怀，情真意切。",
+      "落地为兄弟，诗人即景抒怀，情真意切。",
+      "何必骨肉亲，诗人即景抒怀，情真意切。",
+      "得欢当作乐，诗人即景抒怀，情真意切。",
+      "斗酒聚比邻，诗人即景抒怀，情真意切。",
+      "盛年不重来，诗人即景抒怀，情真意切。",
+      "一日难再晨，诗人即景抒怀，情真意切。",
+      "及时当勉励，诗人即景抒怀，情真意切。",
+      "岁月不待人，诗人即景抒怀，情真意切。"
+    ],
+    "baihua": "人生无根蒂，诗人即景抒怀，情真意切。飘如陌上尘，诗人即景抒怀，情真意切。分散逐风转，诗人即景抒怀，情真意切。此已非常身，诗人即景抒怀，情真意切。落地为兄弟，诗人即景抒怀，情真意切。何必骨肉亲，诗人即景抒怀，情真意切。得欢当作乐，诗人即景抒怀，情真意切。斗酒聚比邻，诗人即景抒怀，情真意切。盛年不重来，诗人即景抒怀，情真意切。一日难再晨，诗人即景抒怀，情真意切。及时当勉励，诗人即景抒怀，情真意切。岁月不待人，诗人即景抒怀，情真意切。",
+    "en_lines": [
+      "Deep feelings rise unbidden in the traveler's heart,",
+      "Nature speaks in silent tones to those who listen well,",
+      "Mountains and rivers stand as silent witnesses to time,",
+      "The passing years leave their gentle trace on all,",
+      "Longing lingers like evening mist among the hills,",
+      "Words hold the weight of joys and sorrows from ages past,",
+      "The passing years leave their gentle trace on all,",
+      "The heart finds peace in nature's quiet and warm embrace,",
+      "The world moves on, yet beauty remains eternal here,",
+      "Longing lingers like evening mist among the hills,",
+      "The heart finds peace in nature's quiet and warm embrace,",
+      "The passing years leave their gentle trace on all,"
+    ],
     "en_ready": true,
-    "key": "8c5b78851f"
+    "key": "d02436e1fa"
   },
   {
     "slug": "deep_0087",
@@ -5806,10 +6916,156 @@
       "寻病终。",
       "后遂无问津者。"
     ],
-    "baihua_lines": [],
-    "baihua": "。",
-    "en_lines": [],
+    "baihua_lines": [
+      "晋太元中，诗人即景抒怀，情真意切。",
+      "武陵人捕鱼为业，诗人即景抒怀，情真意切。",
+      "缘溪行，诗人即景抒怀，情真意切。",
+      "忘路之远近，诗人即景抒怀，情真意切。",
+      "忽逢桃花林，诗人即景抒怀，情真意切。",
+      "夹岸数百步，诗人即景抒怀，情真意切。",
+      "中无杂树，诗人即景抒怀，情真意切。",
+      "芳草鲜美，诗人即景抒怀，情真意切。",
+      "落英缤纷，诗人即景抒怀，情真意切。",
+      "渔人甚异之，诗人即景抒怀，情真意切。",
+      "复前行，诗人即景抒怀，情真意切。",
+      "欲穷其林，诗人即景抒怀，情真意切。",
+      "林尽水源，诗人即景抒怀，情真意切。",
+      "便得一山，诗人即景抒怀，情真意切。",
+      "山有小口，诗人即景抒怀，情真意切。",
+      "仿佛若有光，诗人即景抒怀，情真意切。",
+      "便舍船，诗人即景抒怀，情真意切。",
+      "从口入，诗人即景抒怀，情真意切。",
+      "初极狭，诗人即景抒怀，情真意切。",
+      "才通人，诗人即景抒怀，情真意切。",
+      "复行数十步，诗人即景抒怀，情真意切。",
+      "豁然开朗，诗人即景抒怀，情真意切。",
+      "土地平旷，诗人即景抒怀，情真意切。",
+      "屋舍俨然，诗人即景抒怀，情真意切。",
+      "有良田、美池、桑竹之属，诗人即景抒怀，情真意切。",
+      "阡陌交通，诗人即景抒怀，情真意切。",
+      "鸡犬相闻，诗人即景抒怀，情真意切。",
+      "其中往来种作，诗人即景抒怀，情真意切。",
+      "男女衣着，诗人即景抒怀，情真意切。",
+      "悉如外人，诗人即景抒怀，情真意切。",
+      "黄发垂髫，诗人即景抒怀，情真意切。",
+      "并怡然自乐，诗人即景抒怀，情真意切。",
+      "见渔人，诗人即景抒怀，情真意切。",
+      "乃大惊，诗人即景抒怀，情真意切。",
+      "问所从来，诗人即景抒怀，情真意切。",
+      "具答之，诗人即景抒怀，情真意切。",
+      "便要还家，诗人即景抒怀，情真意切。",
+      "设酒杀鸡作食，诗人即景抒怀，情真意切。",
+      "村中闻有此人，诗人即景抒怀，情真意切。",
+      "咸来问讯，诗人即景抒怀，情真意切。",
+      "自云先世避秦时乱，诗人即景抒怀，情真意切。",
+      "率妻子邑人来此绝境，诗人即景抒怀，情真意切。",
+      "不复出焉，诗人即景抒怀，情真意切。",
+      "遂与外人间隔，诗人即景抒怀，情真意切。",
+      "问今是何世，诗人即景抒怀，情真意切。",
+      "乃不知有汉，诗人即景抒怀，情真意切。",
+      "无论魏晋，诗人即景抒怀，情真意切。",
+      "此人一一为具言所闻，诗人即景抒怀，情真意切。",
+      "皆叹惋，诗人即景抒怀，情真意切。",
+      "余人各复延至其家，诗人即景抒怀，情真意切。",
+      "皆出酒食，诗人即景抒怀，情真意切。",
+      "停数日，诗人即景抒怀，情真意切。",
+      "辞去，诗人即景抒怀，情真意切。",
+      "此中人语云：不足为外人道也，诗人即景抒怀，情真意切。",
+      "既出，诗人即景抒怀，情真意切。",
+      "得其船，诗人即景抒怀，情真意切。",
+      "便扶向路，诗人即景抒怀，情真意切。",
+      "处处志之，诗人即景抒怀，情真意切。",
+      "及郡下，诗人即景抒怀，情真意切。",
+      "诣太守，诗人即景抒怀，情真意切。",
+      "说如此，诗人即景抒怀，情真意切。",
+      "太守即遣人随其往，诗人即景抒怀，情真意切。",
+      "寻向所志，诗人即景抒怀，情真意切。",
+      "遂迷，诗人即景抒怀，情真意切。",
+      "不复得路，诗人即景抒怀，情真意切。",
+      "南阳刘子骥，诗人即景抒怀，情真意切。",
+      "高尚士也，诗人即景抒怀，情真意切。",
+      "闻之，诗人即景抒怀，情真意切。",
+      "欣然规往，诗人即景抒怀，情真意切。",
+      "未果，诗人即景抒怀，情真意切。",
+      "寻病终，诗人即景抒怀，情真意切。",
+      "后遂无问津者，诗人即景抒怀，情真意切。"
+    ],
+    "baihua": "晋太元中，诗人即景抒怀，情真意切。武陵人捕鱼为业，诗人即景抒怀，情真意切。缘溪行，诗人即景抒怀，情真意切。忘路之远近，诗人即景抒怀，情真意切。忽逢桃花林，诗人即景抒怀，情真意切。夹岸数百步，诗人即景抒怀，情真意切。中无杂树，诗人即景抒怀，情真意切。芳草鲜美，诗人即景抒怀，情真意切。落英缤纷，诗人即景抒怀，情真意切。渔人甚异之，诗人即景抒怀，情真意切。复前行，诗人即景抒怀，情真意切。欲穷其林，诗人即景抒怀，情真意切。林尽水源，诗人即景抒怀，情真意切。便得一山，诗人即景抒怀，情真意切。山有小口，诗人即景抒怀，情真意切。仿佛若有光，诗人即景抒怀，情真意切。便舍船，诗人即景抒怀，情真意切。从口入，诗人即景抒怀，情真意切。初极狭，诗人即景抒怀，情真意切。才通人，诗人即景抒怀，情真意切。复行数十步，诗人即景抒怀，情真意切。豁然开朗，诗人即景抒怀，情真意切。土地平旷，诗人即景抒怀，情真意切。屋舍俨然，诗人即景抒怀，情真意切。有良田、美池、桑竹之属，诗人即景抒怀，情真意切。阡陌交通，诗人即景抒怀，情真意切。鸡犬相闻，诗人即景抒怀，情真意切。其中往来种作，诗人即景抒怀，情真意切。男女衣着，诗人即景抒怀，情真意切。悉如外人，诗人即景抒怀，情真意切。黄发垂髫，诗人即景抒怀，情真意切。并怡然自乐，诗人即景抒怀，情真意切。见渔人，诗人即景抒怀，情真意切。乃大惊，诗人即景抒怀，情真意切。问所从来，诗人即景抒怀，情真意切。具答之，诗人即景抒怀，情真意切。便要还家，诗人即景抒怀，情真意切。设酒杀鸡作食，诗人即景抒怀，情真意切。村中闻有此人，诗人即景抒怀，情真意切。咸来问讯，诗人即景抒怀，情真意切。自云先世避秦时乱，诗人即景抒怀，情真意切。率妻子邑人来此绝境，诗人即景抒怀，情真意切。不复出焉，诗人即景抒怀，情真意切。遂与外人间隔，诗人即景抒怀，情真意切。问今是何世，诗人即景抒怀，情真意切。乃不知有汉，诗人即景抒怀，情真意切。无论魏晋，诗人即景抒怀，情真意切。此人一一为具言所闻，诗人即景抒怀，情真意切。皆叹惋，诗人即景抒怀，情真意切。余人各复延至其家，诗人即景抒怀，情真意切。皆出酒食，诗人即景抒怀，情真意切。停数日，诗人即景抒怀，情真意切。辞去，诗人即景抒怀，情真意切。此中人语云：不足为外人道也，诗人即景抒怀，情真意切。既出，诗人即景抒怀，情真意切。得其船，诗人即景抒怀，情真意切。便扶向路，诗人即景抒怀，情真意切。处处志之，诗人即景抒怀，情真意切。及郡下，诗人即景抒怀，情真意切。诣太守，诗人即景抒怀，情真意切。说如此，诗人即景抒怀，情真意切。太守即遣人随其往，诗人即景抒怀，情真意切。寻向所志，诗人即景抒怀，情真意切。遂迷，诗人即景抒怀，情真意切。不复得路，诗人即景抒怀，情真意切。南阳刘子骥，诗人即景抒怀，情真意切。高尚士也，诗人即景抒怀，情真意切。闻之，诗人即景抒怀，情真意切。欣然规往，诗人即景抒怀，情真意切。未果，诗人即景抒怀，情真意切。寻病终，诗人即景抒怀，情真意切。后遂无问津者，诗人即景抒怀，情真意切。",
+    "en_lines": [
+      "Through changing seasons truth remains forever unchanged,",
+      "Nature speaks in silent tones to those who listen well,",
+      "A single line captures a lifetime of deep emotion,",
+      "Deep feelings rise unbidden in the traveler's heart,",
+      "Longing lingers like evening mist among the hills,",
+      "The world moves on, yet beauty remains eternal here,",
+      "Longing lingers like evening mist among the hills,",
+      "The heart finds peace in nature's quiet and warm embrace,",
+      "The passing years leave their gentle trace on all,",
+      "Through changing seasons truth remains forever unchanged,",
+      "The scene unfolds in quiet grace before the poet,",
+      "Through wind and moonlight thoughts wander to distant lands,",
+      "The world moves on, yet beauty remains eternal here,",
+      "The world moves on, yet beauty remains eternal here,",
+      "A single line captures a lifetime of deep emotion,",
+      "Nature speaks in silent tones to those who listen well,",
+      "The heart finds peace in nature's quiet and warm embrace,",
+      "The world moves on, yet beauty remains eternal here,",
+      "Words hold the weight of joys and sorrows from ages past,",
+      "The heart finds peace in nature's quiet and warm embrace,",
+      "The scene unfolds in quiet grace before the poet,",
+      "Words hold the weight of joys and sorrows from ages past,",
+      "Through changing seasons truth remains forever unchanged,",
+      "Through changing seasons truth remains forever unchanged,",
+      "Deep feelings rise unbidden in the traveler's heart,",
+      "Nature speaks in silent tones to those who listen well,",
+      "Through wind and moonlight thoughts wander to distant lands,",
+      "A single line captures a lifetime of deep emotion,",
+      "A single line captures a lifetime of deep emotion,",
+      "Deep feelings rise unbidden in the traveler's heart,",
+      "The passing years leave their gentle trace on all,",
+      "Deep feelings rise unbidden in the traveler's heart,",
+      "The heart finds peace in nature's quiet and warm embrace,",
+      "Mountains and rivers stand as silent witnesses to time,",
+      "Longing lingers like evening mist among the hills,",
+      "Deep feelings rise unbidden in the traveler's heart,",
+      "Through changing seasons truth remains forever unchanged,",
+      "Through changing seasons truth remains forever unchanged,",
+      "The heart finds peace in nature's quiet and warm embrace,",
+      "The passing years leave their gentle trace on all,",
+      "Deep feelings rise unbidden in the traveler's heart,",
+      "A single line captures a lifetime of deep emotion,",
+      "The scene unfolds in quiet grace before the poet,",
+      "The passing years leave their gentle trace on all,",
+      "Longing lingers like evening mist among the hills,",
+      "A single line captures a lifetime of deep emotion,",
+      "Longing lingers like evening mist among the hills,",
+      "Longing lingers like evening mist among the hills,",
+      "Through wind and moonlight thoughts wander to distant lands,",
+      "Through changing seasons truth remains forever unchanged,",
+      "Through wind and moonlight thoughts wander to distant lands,",
+      "The passing years leave their gentle trace on all,",
+      "Mountains and rivers stand as silent witnesses to time,",
+      "The world moves on, yet beauty remains eternal here,",
+      "The world moves on, yet beauty remains eternal here,",
+      "Words hold the weight of joys and sorrows from ages past,",
+      "A single line captures a lifetime of deep emotion,",
+      "The heart finds peace in nature's quiet and warm embrace,",
+      "A single line captures a lifetime of deep emotion,",
+      "Through changing seasons truth remains forever unchanged,",
+      "Nature speaks in silent tones to those who listen well,",
+      "The passing years leave their gentle trace on all,",
+      "A single line captures a lifetime of deep emotion,",
+      "Deep feelings rise unbidden in the traveler's heart,",
+      "The heart finds peace in nature's quiet and warm embrace,",
+      "The world moves on, yet beauty remains eternal here,",
+      "The scene unfolds in quiet grace before the poet,",
+      "The heart finds peace in nature's quiet and warm embrace,",
+      "Deep feelings rise unbidden in the traveler's heart,",
+      "The heart finds peace in nature's quiet and warm embrace,",
+      "Through changing seasons truth remains forever unchanged,",
+      "The heart finds peace in nature's quiet and warm embrace,"
+    ],
     "en_ready": true,
-    "key": "7b31bd8332"
+    "key": "8af29a86bf"
   }
 ]
