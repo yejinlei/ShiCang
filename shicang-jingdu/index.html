@@ -334,7 +334,8 @@ footer{max-width:1100px;margin:50px auto 0;padding:26px 26px 44px;text-align:cen
   ]).then(([c,deep])=>{
     window._CATALOG = c;
     // 用 deep_works.json 中的 818 篇作为深度名作列表（与原有独立深度页合并）
-    const extraDeep = (deep.works||[]).map(w => ({
+    const deepList = Array.isArray(deep) ? deep : (deep.works||[]);
+    const extraDeep = deepList.map(w => ({
       title: w.title, author: w.author, dynasty: w.dynasty, genre: w.genre || '诗',
       slug: w.slug, file: null,
       // 跳转到对应作品的详情页（优先匹配选本名篇，找不到则默认展示）
