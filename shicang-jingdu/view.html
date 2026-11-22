@@ -216,11 +216,27 @@ body.opt-big .ch .zi{font-size:28px;}
       }
     } else if(raw){
       const s = String(raw).replace(/\s+/g,'');
-      // 按句末标点切分，保留标点在句末；不要把逗号断句
-      const isPoem2 = /诗|绝句|律|乐府|古風|古风|骚/.test(genre);
-      const splitRe2 = isPoem2 ? /(?<=[。！？!?，,])/ : /(?<=[。！？!?])/;
-      const parts = s.split(splitRe2).filter(x=>x && x.trim());
-      body = parts.length >= 2 ? parts.map(x=>x.trim()).filter(Boolean) : [s];
+      let parts = s.split(/(?<=[。！？!?])/).filter(x=>x && x.trim()).map(x=>x.trim());
+      // 二次分句：仅近体诗（单逗号一联）拆开；骚体/词曲保留原行
+      const isSao = /兮|猗/.test(s) || /骚|楚辞/.test(genre);
+      const isCiQu = /词|曲|牌|天净沙|如梦令|蝶恋花|水调歌头|念奴娇|沁园春/.test(genre||'');
+      const expanded = [];
+      for(const line of parts){
+        if(isSao || isCiQu){ expanded.push(line); continue; }
+        const stripped = line.replace(/[。！？!?]+$/,'');
+        const commaCount = (stripped.match(/[，,]/g) || []).length;
+        if(commaCount !== 1){ expanded.push(line); continue; }
+        const commaIdx = Math.max(stripped.lastIndexOf('，'), stripped.lastIndexOf(','));
+        if(commaIdx > 1 && commaIdx < stripped.length - 1){
+          const a = stripped.slice(0, commaIdx+1);
+          const b = stripped.slice(commaIdx+1) + (line.match(/[。！？!?]+$/)?.[0] || '');
+          if(a.length>=2 && b.length>=2 && a.length<=16 && b.length<=16){
+            expanded.push(a); expanded.push(b); continue;
+          }
+        }
+        expanded.push(line);
+      }
+      body = expanded.length >= 2 ? expanded : [s];
     }
 
     // 注释
@@ -315,13 +331,28 @@ body.opt-big .ch .zi{font-size:28px;}
     return {pinyin:parts[0]||'', tone:parts[1]||'', rhyme:parts[2]||''};
   }
 
-  // 把整段文本按句末标点切分为句子数组（用于逐句对照）
-  function splitToSentences(text){
+  function splitToSentences(text, opts={}){
     if(!text) return [];
     const clean = String(text).replace(/\s+/g,' ').trim();
-    // 按句末标点切分，保留标点；中文按 。！？ 切，英文按 .?! 切
-    const parts = clean.split(/(?<=[。！？!?])/).map(s=>s.trim()).filter(s=>s && s.length>1);
-    return parts;
+    let parts = clean.split(/(?<=[。！？!?])/).map(s=>s.trim()).filter(s=>s && s.length>1);
+    const isSao = /兮|猗/.test(clean);
+    const out = [];
+    for(const line of parts){
+      if(isSao){ out.push(line); continue; }
+      const stripped = line.replace(/[。！？!?]+$/,'');
+      const commaCount = (stripped.match(/[，,]/g) || []).length;
+      if(commaCount !== 1){ out.push(line); continue; }
+      const ci = Math.max(stripped.lastIndexOf('，'), stripped.lastIndexOf(','));
+      if(ci > 1 && ci < stripped.length - 1){
+        const a = stripped.slice(0, ci+1);
+        const b = stripped.slice(ci+1) + (line.match(/[。！？!?]+$/)?.[0] || '');
+        if(a.length>=2 && b.length>=2 && a.length<=30 && b.length<=30){
+          out.push(a); out.push(b); continue;
+        }
+      }
+      out.push(line);
+    }
+    return out;
   }
 
   // 渲染正文（原句+白话+英文逐句上下对照）
