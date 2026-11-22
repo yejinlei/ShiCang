@@ -117,14 +117,7 @@ body.embed-mode #main-content,
 body.embed-mode .page-content {padding-top:0 !important;margin-top:0 !important;}
 body.embed-mode .detail-panel {top:0 !important;height:100vh !important;}
 </style>
-<script>
-(function(){
-  if(location.search.indexOf('embed=1')>=0){
-    document.documentElement.classList.add('embed-mode');
-    document.body.classList.add('embed-mode');
-  }
-})();
-</script>
+
 
 </head>
 <body>
@@ -1090,5 +1083,26 @@ if(window.top===window){
 })();
 </script>
 <script src="../romantic.js"></script>
+<script>
+(function(){
+  function applyEmbed(){
+    if(location.search.indexOf('embed=1')>=0){
+      document.documentElement.classList.add('embed-mode');
+      if(document.body) document.body.classList.add('embed-mode');
+      // 隐藏导航
+      var navs = document.querySelectorAll('nav.shicang-topnav, .shicang-topnav, #shicangSiteNav');
+      navs.forEach(function(n){ n.style.display='none'; });
+      // 调整body padding
+      document.body.style.paddingTop='0';
+      document.body.style.marginTop='0';
+    }
+  }
+  if(document.readyState==='loading'){
+    document.addEventListener('DOMContentLoaded', applyEmbed);
+  } else {
+    applyEmbed();
+  }
+})();
+</script>
 </body>
 </html>
