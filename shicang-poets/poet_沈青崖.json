@@ -1,0 +1,44 @@
+{
+  "name": "沈青崖",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "家艮思以监司任军储，",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5717",
+      "dynasty": "清"
+    },
+    {
+      "title": "钱博士登俊赠西域地图",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5718",
+      "dynasty": "清"
+    },
+    {
+      "title": "家艮思以监司任军储，",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2758",
+      "dynasty": "清"
+    },
+    {
+      "title": "钱博士登俊赠西域地图",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2759",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

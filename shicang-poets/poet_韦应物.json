@@ -1,0 +1,273 @@
+{
+  "name": "韦应物",
+  "zi": "",
+  "hao": "韦苏州",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "京兆万年",
+  "style": "#ae3a2b",
+  "school": "山水田园",
+  "years": "约737—约792",
+  "bio": "中唐山水田园诗人，诗风高雅闲淡。代表作《滁州西涧》。",
+  "work_count": 42,
+  "anthologies": [
+    "万寿唐诗",
+    "千家诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "休日访人不遇",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=293",
+      "dynasty": "唐"
+    },
+    {
+      "title": "宿永阳寄璨师",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=87",
+      "dynasty": "唐"
+    },
+    {
+      "title": "寄卢陟",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=86",
+      "dynasty": "唐"
+    },
+    {
+      "title": "寄诸弟",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=291",
+      "dynasty": "唐"
+    },
+    {
+      "title": "怀琅琊二释子",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=90",
+      "dynasty": "唐"
+    },
+    {
+      "title": "故人重九日求橘",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=292",
+      "dynasty": "唐"
+    },
+    {
+      "title": "滁州西涧",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=295",
+      "dynasty": "唐"
+    },
+    {
+      "title": "登寳意上方",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=294",
+      "dynasty": "唐"
+    },
+    {
+      "title": "登楼",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=91",
+      "dynasty": "唐"
+    },
+    {
+      "title": "登楼寄王卿",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=290",
+      "dynasty": "唐"
+    },
+    {
+      "title": "秋夜寄丘员外",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=88",
+      "dynasty": "唐"
+    },
+    {
+      "title": "荅东林道士",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=296",
+      "dynasty": "唐"
+    },
+    {
+      "title": "荅王卿送别",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=89",
+      "dynasty": "唐"
+    },
+    {
+      "title": "闻鴈",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=92",
+      "dynasty": "唐"
+    },
+    {
+      "title": "滁州西涧",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=114",
+      "dynasty": "唐"
+    },
+    {
+      "title": "秋夜寄丘员外",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=21",
+      "dynasty": "唐"
+    },
+    {
+      "title": "答李浣",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=19",
+      "dynasty": "唐"
+    },
+    {
+      "title": "东郊",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0388",
+      "dynasty": "唐"
+    },
+    {
+      "title": "休日访人不遇",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6755",
+      "dynasty": "唐"
+    },
+    {
+      "title": "初发扬子寄元大校书",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0389",
+      "dynasty": "唐"
+    },
+    {
+      "title": "夕次盱眙县",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0390",
+      "dynasty": "唐"
+    },
+    {
+      "title": "宿永阳寄璨师",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6569",
+      "dynasty": "唐"
+    },
+    {
+      "title": "寄全椒山中道士",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0391",
+      "dynasty": "唐"
+    },
+    {
+      "title": "寄卢陟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6568",
+      "dynasty": "唐"
+    },
+    {
+      "title": "寄李儋元锡",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0392",
+      "dynasty": "唐"
+    },
+    {
+      "title": "寄诸弟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6753",
+      "dynasty": "唐"
+    },
+    {
+      "title": "怀琅琊二释子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6571",
+      "dynasty": "唐"
+    },
+    {
+      "title": "故人重九日求橘",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6754",
+      "dynasty": "唐"
+    },
+    {
+      "title": "淮上喜会梁州故人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0393",
+      "dynasty": "唐"
+    },
+    {
+      "title": "滁州西涧",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0394",
+      "dynasty": "唐"
+    },
+    {
+      "title": "登寳意上方",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6756",
+      "dynasty": "唐"
+    },
+    {
+      "title": "登楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6572",
+      "dynasty": "唐"
+    },
+    {
+      "title": "登楼寄王卿",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6752",
+      "dynasty": "唐"
+    },
+    {
+      "title": "秋夜寄丘员外",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0395",
+      "dynasty": "唐"
+    },
+    {
+      "title": "答李浣",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0855",
+      "dynasty": "唐"
+    },
+    {
+      "title": "荅东林道士",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6757",
+      "dynasty": "唐"
+    },
+    {
+      "title": "荅王卿送别",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6570",
+      "dynasty": "唐"
+    },
+    {
+      "title": "赋得暮雨送李胄",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0396",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送杨氏女",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0397",
+      "dynasty": "唐"
+    },
+    {
+      "title": "郡斋雨中与诸文士燕集",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0398",
+      "dynasty": "唐"
+    },
+    {
+      "title": "长安遇冯著",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0399",
+      "dynasty": "唐"
+    },
+    {
+      "title": "闻鴈",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6573",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": true
+}

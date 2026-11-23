@@ -1,0 +1,56 @@
+{
+  "name": "大汕",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "九日前一夕泊韶州逢陆丽京",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6456",
+      "dynasty": "清"
+    },
+    {
+      "title": "吴江访顾茂伦不值因寄",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6457",
+      "dynasty": "清"
+    },
+    {
+      "title": "访梅谷和尚不值宿南涧寺有怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6455",
+      "dynasty": "清"
+    },
+    {
+      "title": "九日前一夕泊韶州逢陆丽京",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3497",
+      "dynasty": "清"
+    },
+    {
+      "title": "吴江访顾茂伦不值因寄",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3498",
+      "dynasty": "清"
+    },
+    {
+      "title": "访梅谷和尚不值宿南涧寺有怀",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3496",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

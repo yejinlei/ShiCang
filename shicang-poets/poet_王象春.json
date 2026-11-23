@@ -1,0 +1,44 @@
+{
+  "name": "王象春",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "书项王庙壁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2738",
+      "dynasty": "明"
+    },
+    {
+      "title": "周侍御行部",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2739",
+      "dynasty": "明"
+    },
+    {
+      "title": "书项王庙壁",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=734",
+      "dynasty": "明"
+    },
+    {
+      "title": "周侍御行部",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=735",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

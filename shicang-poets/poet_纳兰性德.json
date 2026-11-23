@@ -1,0 +1,230 @@
+{
+  "name": "纳兰性德",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清末",
+  "d_order": 16,
+  "birthplace": "",
+  "style": "#795548",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 35,
+  "anthologies": [
+    "名篇精读",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "临江仙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0620",
+      "dynasty": "宋"
+    },
+    {
+      "title": "如梦令",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0621",
+      "dynasty": "宋"
+    },
+    {
+      "title": "木兰花令",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0622",
+      "dynasty": "宋"
+    },
+    {
+      "title": "浣溪沙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0623",
+      "dynasty": "宋"
+    },
+    {
+      "title": "画堂春",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0624",
+      "dynasty": "宋"
+    },
+    {
+      "title": "菩萨蛮",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0625",
+      "dynasty": "宋"
+    },
+    {
+      "title": "蝶恋花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0626",
+      "dynasty": "宋"
+    },
+    {
+      "title": "采桑子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0627",
+      "dynasty": "宋"
+    },
+    {
+      "title": "金缕曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0628",
+      "dynasty": "宋"
+    },
+    {
+      "title": "长相思",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0629",
+      "dynasty": "宋"
+    },
+    {
+      "title": "木兰花令·拟古决绝词柬友",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0786",
+      "dynasty": "明末清初"
+    },
+    {
+      "title": "金缕曲·赠梁汾",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0787",
+      "dynasty": "明末清初"
+    },
+    {
+      "title": "长相思·山一程",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0788",
+      "dynasty": "明末清初"
+    },
+    {
+      "title": "南乡子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1176",
+      "dynasty": "清末"
+    },
+    {
+      "title": "台城路",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1169",
+      "dynasty": "清末"
+    },
+    {
+      "title": "江城子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1168",
+      "dynasty": "清末"
+    },
+    {
+      "title": "沁园春",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1177",
+      "dynasty": "清末"
+    },
+    {
+      "title": "河传",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1172",
+      "dynasty": "清末"
+    },
+    {
+      "title": "浣溪沙六首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1170",
+      "dynasty": "清末"
+    },
+    {
+      "title": "清平乐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1175",
+      "dynasty": "清末"
+    },
+    {
+      "title": "秋千索",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1173",
+      "dynasty": "清末"
+    },
+    {
+      "title": "菩萨蛮四首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1174",
+      "dynasty": "清末"
+    },
+    {
+      "title": "蝶恋花四首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1171",
+      "dynasty": "清末"
+    },
+    {
+      "title": "丁巳重阳前三日，梦亡妇澹妆素服，执手哽咽，语多不复能记，但临别有云：“衔恨愿为天上月，年年犹得向郎圆。”妇素未工诗，不知何以得此也？觉后感赋。·沁园春",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=133",
+      "dynasty": "清末"
+    },
+    {
+      "title": "为亡妇题照·南乡子",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=132",
+      "dynasty": "清末"
+    },
+    {
+      "title": "咏史·江城子",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=122",
+      "dynasty": "清末"
+    },
+    {
+      "title": "塞外七夕·台城路",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=123",
+      "dynasty": "清末"
+    },
+    {
+      "title": "寒柳·临江仙",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=131",
+      "dynasty": "清末"
+    },
+    {
+      "title": "河传",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=126",
+      "dynasty": "清末"
+    },
+    {
+      "title": "浣溪沙六首",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=124",
+      "dynasty": "清末"
+    },
+    {
+      "title": "清平乐",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=130",
+      "dynasty": "清末"
+    },
+    {
+      "title": "渌水亭春望·秋千索",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=128",
+      "dynasty": "清末"
+    },
+    {
+      "title": "菩萨蛮四首",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=129",
+      "dynasty": "清末"
+    },
+    {
+      "title": "蝶恋花四首",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=125",
+      "dynasty": "清末"
+    },
+    {
+      "title": "赠梁汾·金缕曲",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=127",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": false
+}

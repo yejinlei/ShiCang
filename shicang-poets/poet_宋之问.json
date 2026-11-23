@@ -1,0 +1,63 @@
+{
+  "name": "宋之问",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 7,
+  "anthologies": [
+    "万寿唐诗",
+    "千家诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "涂中寒食",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=7",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送杜审言",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=8",
+      "dynasty": "唐"
+    },
+    {
+      "title": "扈从登封途中作",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=57",
+      "dynasty": "唐"
+    },
+    {
+      "title": "扈从登封途中作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0885",
+      "dynasty": "唐"
+    },
+    {
+      "title": "涂中寒食",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6496",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送杜审言",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6497",
+      "dynasty": "唐"
+    },
+    {
+      "title": "题大庾岭北驿",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0143",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

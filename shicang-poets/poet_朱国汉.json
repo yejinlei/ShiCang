@@ -1,0 +1,56 @@
+{
+  "name": "朱国汉",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "岳武穆墓",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5921",
+      "dynasty": "清"
+    },
+    {
+      "title": "张中丞祠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5919",
+      "dynasty": "清"
+    },
+    {
+      "title": "文丞相祠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5920",
+      "dynasty": "清"
+    },
+    {
+      "title": "岳武穆墓",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2962",
+      "dynasty": "清"
+    },
+    {
+      "title": "张中丞祠",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2960",
+      "dynasty": "清"
+    },
+    {
+      "title": "文丞相祠",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2961",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,80 @@
+{
+  "name": "李邺嗣",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "出乌石山后失道",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3614",
+      "dynasty": "清"
+    },
+    {
+      "title": "囊云大师山居",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3617",
+      "dynasty": "清"
+    },
+    {
+      "title": "得杖",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3615",
+      "dynasty": "清"
+    },
+    {
+      "title": "绣州孝女",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3613",
+      "dynasty": "清"
+    },
+    {
+      "title": "自大嵩上二十里至福泉精舍",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3616",
+      "dynasty": "清"
+    },
+    {
+      "title": "出乌石山后失道",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=655",
+      "dynasty": "清"
+    },
+    {
+      "title": "囊云大师山居",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=658",
+      "dynasty": "清"
+    },
+    {
+      "title": "得杖",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=656",
+      "dynasty": "清"
+    },
+    {
+      "title": "绣州孝女",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=654",
+      "dynasty": "清"
+    },
+    {
+      "title": "自大嵩上二十里至福泉精舍",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=657",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

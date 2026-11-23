@@ -1,0 +1,51 @@
+{
+  "name": "俞国宝",
+  "zi": "",
+  "hao": "",
+  "dynasty": "宋",
+  "d_order": 8,
+  "birthplace": "",
+  "style": "#7F8C8D",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 5,
+  "anthologies": [
+    "名篇精读",
+    "宋词三百首",
+    "绝妙好词"
+  ],
+  "works": [
+    {
+      "title": "忆少年",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7591",
+      "dynasty": "宋"
+    },
+    {
+      "title": "风入松",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1026",
+      "dynasty": "宋"
+    },
+    {
+      "title": "风入松",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=158",
+      "dynasty": "宋"
+    },
+    {
+      "title": "忆少年",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=408",
+      "dynasty": "宋"
+    },
+    {
+      "title": "题酒肆·风入松",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=407",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

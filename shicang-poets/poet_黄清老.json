@@ -1,0 +1,68 @@
+{
+  "name": "黄清老",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "天运不已，岁时又春，学已可乎！作自勉诗呈李初教授诸公",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=351",
+      "dynasty": "元"
+    },
+    {
+      "title": "海子上有期",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=437",
+      "dynasty": "元"
+    },
+    {
+      "title": "福山庵",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=57",
+      "dynasty": "元"
+    },
+    {
+      "title": "访子威都事不遇",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=56",
+      "dynasty": "元"
+    },
+    {
+      "title": "天运不已，岁时又春，学已可乎！作自勉诗呈李初教授诸公",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1813",
+      "dynasty": "元"
+    },
+    {
+      "title": "海子上有期",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1899",
+      "dynasty": "元"
+    },
+    {
+      "title": "福山庵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1519",
+      "dynasty": "元"
+    },
+    {
+      "title": "访子威都事不遇",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1518",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

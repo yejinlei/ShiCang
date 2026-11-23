@@ -1,0 +1,80 @@
+{
+  "name": "周亮工",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "喜蒋用至自闽南",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3064",
+      "dynasty": "清"
+    },
+    {
+      "title": "寒食后一日新乡道上示许傅岩",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3062",
+      "dynasty": "清"
+    },
+    {
+      "title": "江行杂感",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3060",
+      "dynasty": "清"
+    },
+    {
+      "title": "舟中与胡元润谈泰淮盛时事次元润韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3061",
+      "dynasty": "清"
+    },
+    {
+      "title": "靖公弟至",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3063",
+      "dynasty": "清"
+    },
+    {
+      "title": "喜蒋用至自闽南",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=105",
+      "dynasty": "清"
+    },
+    {
+      "title": "寒食后一日新乡道上示许傅岩",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=103",
+      "dynasty": "清"
+    },
+    {
+      "title": "江行杂感",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=101",
+      "dynasty": "清"
+    },
+    {
+      "title": "舟中与胡元润谈泰淮盛时事次元润韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=102",
+      "dynasty": "清"
+    },
+    {
+      "title": "靖公弟至",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=104",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

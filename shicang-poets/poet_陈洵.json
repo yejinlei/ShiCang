@@ -1,0 +1,152 @@
+{
+  "name": "陈洵",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清末",
+  "d_order": 16,
+  "birthplace": "",
+  "style": "#795548",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 22,
+  "anthologies": [
+    "名篇精读",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "六丑",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1420",
+      "dynasty": "清末"
+    },
+    {
+      "title": "前调",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1424",
+      "dynasty": "清末"
+    },
+    {
+      "title": "南乡子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1427",
+      "dynasty": "清末"
+    },
+    {
+      "title": "宴山亭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1429",
+      "dynasty": "清末"
+    },
+    {
+      "title": "水龙吟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1426",
+      "dynasty": "清末"
+    },
+    {
+      "title": "烛影摇红",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1428",
+      "dynasty": "清末"
+    },
+    {
+      "title": "玉楼春",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1430",
+      "dynasty": "清末"
+    },
+    {
+      "title": "瑞龙吟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1422",
+      "dynasty": "清末"
+    },
+    {
+      "title": "虞美人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1423",
+      "dynasty": "清末"
+    },
+    {
+      "title": "长亭怨慢",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1421",
+      "dynasty": "清末"
+    },
+    {
+      "title": "风入松",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1425",
+      "dynasty": "清末"
+    },
+    {
+      "title": "丁卯除夕·水龙吟",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=382",
+      "dynasty": "清末"
+    },
+    {
+      "title": "夜栏炳烛，聊复命题。·前调",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=380",
+      "dynasty": "清末"
+    },
+    {
+      "title": "已已三月，自郡城归乡，过区华吾西园话旧。·南乡子",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=383",
+      "dynasty": "清末"
+    },
+    {
+      "title": "庄头村花田，自五代迄今，盖亦地之韵者。余既来游，感欢今昔，托之於音。·瑞龙吟",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=378",
+      "dynasty": "清末"
+    },
+    {
+      "title": "木棉谢后作·六丑",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=376",
+      "dynasty": "清末"
+    },
+    {
+      "title": "沪上留别彊村先生·烛影摇红",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=384",
+      "dynasty": "清末"
+    },
+    {
+      "title": "虞美人",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=379",
+      "dynasty": "清末"
+    },
+    {
+      "title": "谭子端家燕巢复毁，再赋。·长亭怨慢",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=377",
+      "dynasty": "清末"
+    },
+    {
+      "title": "辛未九日，与风余诸子风雨登高。·宴山亭",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=385",
+      "dynasty": "清末"
+    },
+    {
+      "title": "酒边偶赋，寄榆生。·玉楼春",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=386",
+      "dynasty": "清末"
+    },
+    {
+      "title": "重九·风入松",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=381",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": false
+}

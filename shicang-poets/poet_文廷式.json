@@ -1,0 +1,206 @@
+{
+  "name": "文廷式",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清末",
+  "d_order": 16,
+  "birthplace": "",
+  "style": "#795548",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 31,
+  "anthologies": [
+    "名篇精读",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "临江仙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1324",
+      "dynasty": "清末"
+    },
+    {
+      "title": "八声甘州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1331",
+      "dynasty": "清末"
+    },
+    {
+      "title": "南乡子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1338",
+      "dynasty": "清末"
+    },
+    {
+      "title": "好事近",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1336",
+      "dynasty": "清末"
+    },
+    {
+      "title": "忆旧游",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1337",
+      "dynasty": "清末"
+    },
+    {
+      "title": "摸鱼儿",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1332",
+      "dynasty": "清末"
+    },
+    {
+      "title": "水龙吟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1326",
+      "dynasty": "清末"
+    },
+    {
+      "title": "永遇乐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1329",
+      "dynasty": "清末"
+    },
+    {
+      "title": "浣溪沙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1328",
+      "dynasty": "清末"
+    },
+    {
+      "title": "祝英台近",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1330",
+      "dynasty": "清末"
+    },
+    {
+      "title": "翠楼吟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1334",
+      "dynasty": "清末"
+    },
+    {
+      "title": "蝶恋花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1325",
+      "dynasty": "清末"
+    },
+    {
+      "title": "西江月",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1333",
+      "dynasty": "清末"
+    },
+    {
+      "title": "贺新廊",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1323",
+      "dynasty": "清末"
+    },
+    {
+      "title": "鹧鸪天",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1327",
+      "dynasty": "清末"
+    },
+    {
+      "title": "即事·鹧鸪天",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=283",
+      "dynasty": "清末"
+    },
+    {
+      "title": "壬午广州作·临江仙",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=280",
+      "dynasty": "清末"
+    },
+    {
+      "title": "岁暮江湖，百优如■扌寿，感时抚已，写之以声。·翠楼吟",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=290",
+      "dynasty": "清末"
+    },
+    {
+      "title": "惜春·摸鱼儿",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=288",
+      "dynasty": "清末"
+    },
+    {
+      "title": "旅情·浣溪沙",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=284",
+      "dynasty": "清末"
+    },
+    {
+      "title": "水龙吟",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=282",
+      "dynasty": "清末"
+    },
+    {
+      "title": "永遇乐",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=285",
+      "dynasty": "清末"
+    },
+    {
+      "title": "湘舟有作·好事近",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=292",
+      "dynasty": "清末"
+    },
+    {
+      "title": "病中戏笔·南乡子",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=294",
+      "dynasty": "清末"
+    },
+    {
+      "title": "祝英台近",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=286",
+      "dynasty": "清末"
+    },
+    {
+      "title": "秋雁  庚子八月作·忆旧游",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=293",
+      "dynasty": "清末"
+    },
+    {
+      "title": "蝶恋花",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=281",
+      "dynasty": "清末"
+    },
+    {
+      "title": "西江月",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=289",
+      "dynasty": "清末"
+    },
+    {
+      "title": "贺新廊",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=279",
+      "dynasty": "清末"
+    },
+    {
+      "title": "赠友·鹧鸪天",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=291",
+      "dynasty": "清末"
+    },
+    {
+      "title": "送志伯禺侍郎赴乌里雅苏台参赞大臣之任，同盛伯义祭酒、王幼霞御史、沈子培刑部作。·八声甘州",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=287",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": false
+}

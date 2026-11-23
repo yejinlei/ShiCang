@@ -1,0 +1,44 @@
+{
+  "name": "洪嘉植",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "蕲州禹庙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6056",
+      "dynasty": "清"
+    },
+    {
+      "title": "邓尉看梅",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6057",
+      "dynasty": "清"
+    },
+    {
+      "title": "蕲州禹庙",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3097",
+      "dynasty": "清"
+    },
+    {
+      "title": "邓尉看梅",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3098",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

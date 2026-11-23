@@ -1,0 +1,44 @@
+{
+  "name": "张元干",
+  "zi": "",
+  "hao": "",
+  "dynasty": "宋",
+  "d_order": 8,
+  "birthplace": "",
+  "style": "#7F8C8D",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "宋词三百首"
+  ],
+  "works": [
+    {
+      "title": "兰陵王",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0496",
+      "dynasty": "宋"
+    },
+    {
+      "title": "石州慢",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0497",
+      "dynasty": "宋"
+    },
+    {
+      "title": "兰陵王",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=90",
+      "dynasty": "宋"
+    },
+    {
+      "title": "石州慢",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=89",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

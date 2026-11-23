@@ -1,0 +1,56 @@
+{
+  "name": "周",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "七歌集句",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4331",
+      "dynasty": "清"
+    },
+    {
+      "title": "怀张考夫",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4332",
+      "dynasty": "清"
+    },
+    {
+      "title": "送查三容携家入楚便往滇中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4333",
+      "dynasty": "清"
+    },
+    {
+      "title": "七歌集句",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1372",
+      "dynasty": "清"
+    },
+    {
+      "title": "怀张考夫",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1373",
+      "dynasty": "清"
+    },
+    {
+      "title": "送查三容携家入楚便往滇中",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1374",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

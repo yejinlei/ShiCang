@@ -1,0 +1,69 @@
+{
+  "name": "徐灿",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清末",
+  "d_order": 16,
+  "birthplace": "",
+  "style": "#795548",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "送方太夫人西还",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6243",
+      "dynasty": "清"
+    },
+    {
+      "title": "送方太夫人西还",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3284",
+      "dynasty": "清"
+    },
+    {
+      "title": "唐多令",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1092",
+      "dynasty": "清末"
+    },
+    {
+      "title": "永遇乐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1091",
+      "dynasty": "清末"
+    },
+    {
+      "title": "踏莎行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1090",
+      "dynasty": "清末"
+    },
+    {
+      "title": "感怀·唐多令",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=45",
+      "dynasty": "清末"
+    },
+    {
+      "title": "病中·永遇乐",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=44",
+      "dynasty": "清末"
+    },
+    {
+      "title": "踏莎行",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=43",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": false
+}

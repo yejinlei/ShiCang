@@ -1,0 +1,128 @@
+{
+  "name": "顾况",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 18,
+  "anthologies": [
+    "万寿唐诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "叶道士山房",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=353",
+      "dynasty": "唐"
+    },
+    {
+      "title": "听歌",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=350",
+      "dynasty": "唐"
+    },
+    {
+      "title": "听角思归",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=348",
+      "dynasty": "唐"
+    },
+    {
+      "title": "宫词",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=349",
+      "dynasty": "唐"
+    },
+    {
+      "title": "宿昭应",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=351",
+      "dynasty": "唐"
+    },
+    {
+      "title": "小孤山",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=352",
+      "dynasty": "唐"
+    },
+    {
+      "title": "忆故园",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=355",
+      "dynasty": "唐"
+    },
+    {
+      "title": "忆旧游",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=105",
+      "dynasty": "唐"
+    },
+    {
+      "title": "竹枝",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=354",
+      "dynasty": "唐"
+    },
+    {
+      "title": "叶道士山房",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6808",
+      "dynasty": "唐"
+    },
+    {
+      "title": "听歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6805",
+      "dynasty": "唐"
+    },
+    {
+      "title": "听角思归",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6804",
+      "dynasty": "唐"
+    },
+    {
+      "title": "宫词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0408",
+      "dynasty": "唐"
+    },
+    {
+      "title": "宿昭应",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6806",
+      "dynasty": "唐"
+    },
+    {
+      "title": "小孤山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6807",
+      "dynasty": "唐"
+    },
+    {
+      "title": "忆故园",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6810",
+      "dynasty": "唐"
+    },
+    {
+      "title": "忆旧游",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6583",
+      "dynasty": "唐"
+    },
+    {
+      "title": "竹枝",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6809",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

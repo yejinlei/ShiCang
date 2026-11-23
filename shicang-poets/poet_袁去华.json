@@ -1,0 +1,56 @@
+{
+  "name": "袁去华",
+  "zi": "",
+  "hao": "",
+  "dynasty": "宋",
+  "d_order": 8,
+  "birthplace": "",
+  "style": "#7F8C8D",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "宋词三百首"
+  ],
+  "works": [
+    {
+      "title": "剑器近",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0656",
+      "dynasty": "宋"
+    },
+    {
+      "title": "安公子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0657",
+      "dynasty": "宋"
+    },
+    {
+      "title": "瑞鹤仙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0658",
+      "dynasty": "宋"
+    },
+    {
+      "title": "剑器近",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=122",
+      "dynasty": "宋"
+    },
+    {
+      "title": "安公子",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=123",
+      "dynasty": "宋"
+    },
+    {
+      "title": "瑞鹤仙",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=121",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

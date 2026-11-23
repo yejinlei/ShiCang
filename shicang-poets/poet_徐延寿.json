@@ -1,0 +1,56 @@
+{
+  "name": "徐延寿",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "建州符山寺别楚黄樊山甫",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3546",
+      "dynasty": "清"
+    },
+    {
+      "title": "新淦县拜周公瑾墓",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3547",
+      "dynasty": "清"
+    },
+    {
+      "title": "燕子矶",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3545",
+      "dynasty": "清"
+    },
+    {
+      "title": "建州符山寺别楚黄樊山甫",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=587",
+      "dynasty": "清"
+    },
+    {
+      "title": "新淦县拜周公瑾墓",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=588",
+      "dynasty": "清"
+    },
+    {
+      "title": "燕子矶",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=586",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

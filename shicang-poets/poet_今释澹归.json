@@ -1,0 +1,80 @@
+{
+  "name": "今释澹归",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清末",
+  "d_order": 16,
+  "birthplace": "",
+  "style": "#795548",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "八声甘州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1070",
+      "dynasty": "清末"
+    },
+    {
+      "title": "小重山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1067",
+      "dynasty": "清末"
+    },
+    {
+      "title": "水调歌头",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1069",
+      "dynasty": "清末"
+    },
+    {
+      "title": "满江红",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1068",
+      "dynasty": "清末"
+    },
+    {
+      "title": "风流子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1071",
+      "dynasty": "清末"
+    },
+    {
+      "title": "上元风雨·风流子",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=24",
+      "dynasty": "清末"
+    },
+    {
+      "title": "卧疴初起，将还丹霞，谒别孝山。·八声甘州",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=23",
+      "dynasty": "清末"
+    },
+    {
+      "title": "大风泊黄巢矶下·满江红",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=21",
+      "dynasty": "清末"
+    },
+    {
+      "title": "得程周量民部诗，却寄。·小重山",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=20",
+      "dynasty": "清末"
+    },
+    {
+      "title": "忆翠严霁色·水调歌头",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=22",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": false
+}

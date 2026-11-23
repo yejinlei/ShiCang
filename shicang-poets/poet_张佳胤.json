@@ -1,0 +1,68 @@
+{
+  "name": "张佳胤",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "乌蛮滩",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2622",
+      "dynasty": "明"
+    },
+    {
+      "title": "宿黄牛峡",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2623",
+      "dynasty": "明"
+    },
+    {
+      "title": "登函关城楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2625",
+      "dynasty": "明"
+    },
+    {
+      "title": "赴雁门，闻虏退去呈杨中丞",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2624",
+      "dynasty": "明"
+    },
+    {
+      "title": "乌蛮滩",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=618",
+      "dynasty": "明"
+    },
+    {
+      "title": "宿黄牛峡",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=619",
+      "dynasty": "明"
+    },
+    {
+      "title": "登函关城楼",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=621",
+      "dynasty": "明"
+    },
+    {
+      "title": "赴雁门，闻虏退去呈杨中丞",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=620",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,44 @@
+{
+  "name": "戴鉴",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "孙若望谢珙县归过访话旧有感",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5681",
+      "dynasty": "清"
+    },
+    {
+      "title": "岁晚入都途中杂咏",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5682",
+      "dynasty": "清"
+    },
+    {
+      "title": "孙若望谢珙县归过访话旧有感",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2722",
+      "dynasty": "清"
+    },
+    {
+      "title": "岁晚入都途中杂咏",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2723",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

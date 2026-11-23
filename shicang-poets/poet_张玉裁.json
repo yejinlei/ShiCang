@@ -1,0 +1,44 @@
+{
+  "name": "张玉裁",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "七夕立秋",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3877",
+      "dynasty": "清"
+    },
+    {
+      "title": "忆橘",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3878",
+      "dynasty": "清"
+    },
+    {
+      "title": "七夕立秋",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=918",
+      "dynasty": "清"
+    },
+    {
+      "title": "忆橘",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=919",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,56 @@
+{
+  "name": "陶元淳",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "和唐张谓韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4622",
+      "dynasty": "清"
+    },
+    {
+      "title": "暮归僧寺和潘九仪韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4620",
+      "dynasty": "清"
+    },
+    {
+      "title": "臬司刘公枉书惠存诗以志感",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4621",
+      "dynasty": "清"
+    },
+    {
+      "title": "和唐张谓韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1663",
+      "dynasty": "清"
+    },
+    {
+      "title": "暮归僧寺和潘九仪韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1661",
+      "dynasty": "清"
+    },
+    {
+      "title": "臬司刘公枉书惠存诗以志感",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1662",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

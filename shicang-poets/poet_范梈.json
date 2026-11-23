@@ -1,0 +1,116 @@
+{
+  "name": "范梈",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 16,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "上元日",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=415",
+      "dynasty": "元"
+    },
+    {
+      "title": "卢师东谷怀城中诸友",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=141",
+      "dynasty": "元"
+    },
+    {
+      "title": "奉酬段御史登岳阳楼之作，时分理盗贼至海康",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=479",
+      "dynasty": "元"
+    },
+    {
+      "title": "明月几回满",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=453",
+      "dynasty": "元"
+    },
+    {
+      "title": "游南台闽粤王庙",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=414",
+      "dynasty": "元"
+    },
+    {
+      "title": "王氏能远楼",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=87",
+      "dynasty": "元"
+    },
+    {
+      "title": "题李白郎官湖",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=86",
+      "dynasty": "元"
+    },
+    {
+      "title": "题黄隐居秋江钓月图",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=249",
+      "dynasty": "元"
+    },
+    {
+      "title": "上元日",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1877",
+      "dynasty": "元"
+    },
+    {
+      "title": "卢师东谷怀城中诸友",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1603",
+      "dynasty": "元"
+    },
+    {
+      "title": "奉酬段御史登岳阳楼之作，时分理盗贼至海康",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1941",
+      "dynasty": "元"
+    },
+    {
+      "title": "明月几回满",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1915",
+      "dynasty": "元"
+    },
+    {
+      "title": "游南台闽粤王庙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1876",
+      "dynasty": "元"
+    },
+    {
+      "title": "王氏能远楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1549",
+      "dynasty": "元"
+    },
+    {
+      "title": "题李白郎官湖",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1548",
+      "dynasty": "元"
+    },
+    {
+      "title": "题黄隐居秋江钓月图",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1711",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

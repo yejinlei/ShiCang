@@ -1,0 +1,638 @@
+{
+  "name": "王守仁",
+  "zi": "伯安",
+  "hao": "阳明先生",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "余姚",
+  "style": "#C0392B",
+  "school": "心学",
+  "years": "1472—1529",
+  "bio": "即王阳明，明代思想家、军事家，创立「心学」，平定宁王之乱。",
+  "work_count": 103,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "侠客行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2306",
+      "dynasty": "明"
+    },
+    {
+      "title": "关门",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2327",
+      "dynasty": "明"
+    },
+    {
+      "title": "刘德徵上陵还有赠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2337",
+      "dynasty": "明"
+    },
+    {
+      "title": "别相饯诸友",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2344",
+      "dynasty": "明"
+    },
+    {
+      "title": "吴伟飞泉画图歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2314",
+      "dynasty": "明"
+    },
+    {
+      "title": "咏怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2300",
+      "dynasty": "明"
+    },
+    {
+      "title": "塘上行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2297",
+      "dynasty": "明"
+    },
+    {
+      "title": "大梁行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2310",
+      "dynasty": "明"
+    },
+    {
+      "title": "姜子岭至三坌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2304",
+      "dynasty": "明"
+    },
+    {
+      "title": "安庄道中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2329",
+      "dynasty": "明"
+    },
+    {
+      "title": "岁晏行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2311",
+      "dynasty": "明"
+    },
+    {
+      "title": "岳阳",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2330",
+      "dynasty": "明"
+    },
+    {
+      "title": "峡中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2318",
+      "dynasty": "明"
+    },
+    {
+      "title": "得献吉江西书",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2336",
+      "dynasty": "明"
+    },
+    {
+      "title": "得王子衡赣榆书",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2324",
+      "dynasty": "明"
+    },
+    {
+      "title": "怀寄边子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2335",
+      "dynasty": "明"
+    },
+    {
+      "title": "怀沈子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2321",
+      "dynasty": "明"
+    },
+    {
+      "title": "捣衣",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2299",
+      "dynasty": "明"
+    },
+    {
+      "title": "明月篇",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2308",
+      "dynasty": "明"
+    },
+    {
+      "title": "易水行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2309",
+      "dynasty": "明"
+    },
+    {
+      "title": "昭烈庙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2319",
+      "dynasty": "明"
+    },
+    {
+      "title": "武关",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2317",
+      "dynasty": "明"
+    },
+    {
+      "title": "武昌闻边报",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2334",
+      "dynasty": "明"
+    },
+    {
+      "title": "泊云阳江头玩月",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2303",
+      "dynasty": "明"
+    },
+    {
+      "title": "津市打鱼歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2313",
+      "dynasty": "明"
+    },
+    {
+      "title": "登楼凤县作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2320",
+      "dynasty": "明"
+    },
+    {
+      "title": "登楼观阁，时王令明叔邀张用昭、段德光、王敬夫、康德涵四子同游",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2338",
+      "dynasty": "明"
+    },
+    {
+      "title": "登泰山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2294",
+      "dynasty": "明"
+    },
+    {
+      "title": "登阅江楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2295",
+      "dynasty": "明"
+    },
+    {
+      "title": "皇陵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2316",
+      "dynasty": "明"
+    },
+    {
+      "title": "秋兴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2339",
+      "dynasty": "明"
+    },
+    {
+      "title": "秋江词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2307",
+      "dynasty": "明"
+    },
+    {
+      "title": "种麻篇",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2298",
+      "dynasty": "明"
+    },
+    {
+      "title": "立春日作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2301",
+      "dynasty": "明"
+    },
+    {
+      "title": "竹枝词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2342",
+      "dynasty": "明"
+    },
+    {
+      "title": "答望之",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2322",
+      "dynasty": "明"
+    },
+    {
+      "title": "胡人猎图歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2315",
+      "dynasty": "明"
+    },
+    {
+      "title": "送卫进士推武昌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2332",
+      "dynasty": "明"
+    },
+    {
+      "title": "送崔氏",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2302",
+      "dynasty": "明"
+    },
+    {
+      "title": "送彭总制之西川",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2328",
+      "dynasty": "明"
+    },
+    {
+      "title": "送曹端卿谪寻甸",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2326",
+      "dynasty": "明"
+    },
+    {
+      "title": "送贾郡博之阶州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2323",
+      "dynasty": "明"
+    },
+    {
+      "title": "送陆舍人使吴下",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2333",
+      "dynasty": "明"
+    },
+    {
+      "title": "送雷长史",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2331",
+      "dynasty": "明"
+    },
+    {
+      "title": "送韩汝庆还关中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2343",
+      "dynasty": "明"
+    },
+    {
+      "title": "长安",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2341",
+      "dynasty": "明"
+    },
+    {
+      "title": "陇右行送徐少参",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2312",
+      "dynasty": "明"
+    },
+    {
+      "title": "雨夜",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2325",
+      "dynasty": "明"
+    },
+    {
+      "title": "青石崖栈",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2305",
+      "dynasty": "明"
+    },
+    {
+      "title": "鲥鱼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2340",
+      "dynasty": "明"
+    },
+    {
+      "title": "龙潭夜坐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2296",
+      "dynasty": "明"
+    },
+    {
+      "title": "侠客行",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=302",
+      "dynasty": "明"
+    },
+    {
+      "title": "关门",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=323",
+      "dynasty": "明"
+    },
+    {
+      "title": "刘德徵上陵还有赠",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=333",
+      "dynasty": "明"
+    },
+    {
+      "title": "别相饯诸友",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=340",
+      "dynasty": "明"
+    },
+    {
+      "title": "吴伟飞泉画图歌",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=310",
+      "dynasty": "明"
+    },
+    {
+      "title": "咏怀",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=296",
+      "dynasty": "明"
+    },
+    {
+      "title": "塘上行",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=293",
+      "dynasty": "明"
+    },
+    {
+      "title": "大梁行",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=306",
+      "dynasty": "明"
+    },
+    {
+      "title": "姜子岭至三坌",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=300",
+      "dynasty": "明"
+    },
+    {
+      "title": "安庄道中",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=325",
+      "dynasty": "明"
+    },
+    {
+      "title": "岁晏行",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=307",
+      "dynasty": "明"
+    },
+    {
+      "title": "岳阳",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=326",
+      "dynasty": "明"
+    },
+    {
+      "title": "峡中",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=314",
+      "dynasty": "明"
+    },
+    {
+      "title": "得献吉江西书",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=332",
+      "dynasty": "明"
+    },
+    {
+      "title": "得王子衡赣榆书",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=320",
+      "dynasty": "明"
+    },
+    {
+      "title": "怀寄边子",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=331",
+      "dynasty": "明"
+    },
+    {
+      "title": "怀沈子",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=317",
+      "dynasty": "明"
+    },
+    {
+      "title": "捣衣",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=295",
+      "dynasty": "明"
+    },
+    {
+      "title": "明月篇",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=304",
+      "dynasty": "明"
+    },
+    {
+      "title": "易水行",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=305",
+      "dynasty": "明"
+    },
+    {
+      "title": "昭烈庙",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=315",
+      "dynasty": "明"
+    },
+    {
+      "title": "武关",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=313",
+      "dynasty": "明"
+    },
+    {
+      "title": "武昌闻边报",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=330",
+      "dynasty": "明"
+    },
+    {
+      "title": "泊云阳江头玩月",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=299",
+      "dynasty": "明"
+    },
+    {
+      "title": "津市打鱼歌",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=309",
+      "dynasty": "明"
+    },
+    {
+      "title": "登楼凤县作",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=316",
+      "dynasty": "明"
+    },
+    {
+      "title": "登楼观阁，时王令明叔邀张用昭、段德光、王敬夫、康德涵四子同游",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=334",
+      "dynasty": "明"
+    },
+    {
+      "title": "登泰山",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=290",
+      "dynasty": "明"
+    },
+    {
+      "title": "登阅江楼",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=291",
+      "dynasty": "明"
+    },
+    {
+      "title": "皇陵",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=312",
+      "dynasty": "明"
+    },
+    {
+      "title": "秋兴",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=335",
+      "dynasty": "明"
+    },
+    {
+      "title": "秋江词",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=303",
+      "dynasty": "明"
+    },
+    {
+      "title": "种麻篇",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=294",
+      "dynasty": "明"
+    },
+    {
+      "title": "立春日作",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=297",
+      "dynasty": "明"
+    },
+    {
+      "title": "竹枝词",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=338",
+      "dynasty": "明"
+    },
+    {
+      "title": "答望之",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=318",
+      "dynasty": "明"
+    },
+    {
+      "title": "胡人猎图歌",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=311",
+      "dynasty": "明"
+    },
+    {
+      "title": "送卫进士推武昌",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=328",
+      "dynasty": "明"
+    },
+    {
+      "title": "送崔氏",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=298",
+      "dynasty": "明"
+    },
+    {
+      "title": "送彭总制之西川",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=324",
+      "dynasty": "明"
+    },
+    {
+      "title": "送曹端卿谪寻甸",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=322",
+      "dynasty": "明"
+    },
+    {
+      "title": "送贾郡博之阶州",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=319",
+      "dynasty": "明"
+    },
+    {
+      "title": "送陆舍人使吴下",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=329",
+      "dynasty": "明"
+    },
+    {
+      "title": "送雷长史",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=327",
+      "dynasty": "明"
+    },
+    {
+      "title": "送韩汝庆还关中",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=339",
+      "dynasty": "明"
+    },
+    {
+      "title": "长安",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=337",
+      "dynasty": "明"
+    },
+    {
+      "title": "陇右行送徐少参",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=308",
+      "dynasty": "明"
+    },
+    {
+      "title": "雨夜",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=321",
+      "dynasty": "明"
+    },
+    {
+      "title": "青石崖栈",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=301",
+      "dynasty": "明"
+    },
+    {
+      "title": "鲥鱼",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=336",
+      "dynasty": "明"
+    },
+    {
+      "title": "龙潭夜坐",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=292",
+      "dynasty": "明"
+    },
+    {
+      "title": "泛海",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0783",
+      "dynasty": "明末清初"
+    }
+  ],
+  "has_bio": true
+}

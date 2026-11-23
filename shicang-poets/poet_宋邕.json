@@ -1,0 +1,32 @@
+{
+  "name": "宋邕",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 2,
+  "anthologies": [
+    "万寿唐诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "春日",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=691",
+      "dynasty": "唐"
+    },
+    {
+      "title": "春日",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7131",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

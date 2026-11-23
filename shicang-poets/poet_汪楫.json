@@ -1,0 +1,128 @@
+{
+  "name": "汪楫",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 18,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "出五虎门同石来次前使萧给事韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4125",
+      "dynasty": "清"
+    },
+    {
+      "title": "刘考功公&lt;甬戈&gt;见示夏峰老人书卷属题长歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4120",
+      "dynasty": "清"
+    },
+    {
+      "title": "怀曾庭闻",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4118",
+      "dynasty": "清"
+    },
+    {
+      "title": "欢喜亭同玉明上人观云海",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4122",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠别澹公",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4121",
+      "dynasty": "清"
+    },
+    {
+      "title": "铁尚书歌（自注：东昌城下作。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4119",
+      "dynasty": "清"
+    },
+    {
+      "title": "长史郑弘良以王命请余画像留国中口占答之",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4126",
+      "dynasty": "清"
+    },
+    {
+      "title": "香炉峰",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4123",
+      "dynasty": "清"
+    },
+    {
+      "title": "黯淡滩",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4124",
+      "dynasty": "清"
+    },
+    {
+      "title": "出五虎门同石来次前使萧给事韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1166",
+      "dynasty": "清"
+    },
+    {
+      "title": "刘考功公&lt;甬戈&gt;见示夏峰老人书卷属题长歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1161",
+      "dynasty": "清"
+    },
+    {
+      "title": "怀曾庭闻",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1159",
+      "dynasty": "清"
+    },
+    {
+      "title": "欢喜亭同玉明上人观云海",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1163",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠别澹公",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1162",
+      "dynasty": "清"
+    },
+    {
+      "title": "铁尚书歌（自注：东昌城下作。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1160",
+      "dynasty": "清"
+    },
+    {
+      "title": "长史郑弘良以王命请余画像留国中口占答之",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1167",
+      "dynasty": "清"
+    },
+    {
+      "title": "香炉峰",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1164",
+      "dynasty": "清"
+    },
+    {
+      "title": "黯淡滩",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1165",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

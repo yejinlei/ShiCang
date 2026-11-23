@@ -1,0 +1,104 @@
+{
+  "name": "杨基",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 14,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "岳阳楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2062",
+      "dynasty": "明"
+    },
+    {
+      "title": "感怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2058",
+      "dynasty": "明"
+    },
+    {
+      "title": "感秋",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2064",
+      "dynasty": "明"
+    },
+    {
+      "title": "登岳阳楼望君山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2060",
+      "dynasty": "明"
+    },
+    {
+      "title": "送魏万之安西",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2063",
+      "dynasty": "明"
+    },
+    {
+      "title": "长江万里图",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2061",
+      "dynasty": "明"
+    },
+    {
+      "title": "闻邻船吹笛",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2059",
+      "dynasty": "明"
+    },
+    {
+      "title": "岳阳楼",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=58",
+      "dynasty": "明"
+    },
+    {
+      "title": "感怀",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=54",
+      "dynasty": "明"
+    },
+    {
+      "title": "感秋",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=60",
+      "dynasty": "明"
+    },
+    {
+      "title": "登岳阳楼望君山",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=56",
+      "dynasty": "明"
+    },
+    {
+      "title": "送魏万之安西",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=59",
+      "dynasty": "明"
+    },
+    {
+      "title": "长江万里图",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=57",
+      "dynasty": "明"
+    },
+    {
+      "title": "闻邻船吹笛",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=55",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

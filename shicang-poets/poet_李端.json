@@ -1,0 +1,56 @@
+{
+  "name": "李端",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "万寿唐诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "听筝",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=115",
+      "dynasty": "唐"
+    },
+    {
+      "title": "溪行遇雨寄柳中庸",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=116",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送刘侍御",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=338",
+      "dynasty": "唐"
+    },
+    {
+      "title": "听筝",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0240",
+      "dynasty": "唐"
+    },
+    {
+      "title": "溪行遇雨寄柳中庸",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6592",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送刘侍御",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6797",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,140 @@
+{
+  "name": "宋荦",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 20,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "乌江",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4300",
+      "dynasty": "清"
+    },
+    {
+      "title": "吴汉槎归自塞外，邀同王阮亭祭酒毛会侯大令钱介维小集作歌以赠，用东坡海市诗韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4297",
+      "dynasty": "清"
+    },
+    {
+      "title": "和子湘春雪后夜坐效韦左司",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4294",
+      "dynasty": "清"
+    },
+    {
+      "title": "数月来闻汪钝翁王勤中恽正叔刘山尉相继谢世洒泪赋比",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4298",
+      "dynasty": "清"
+    },
+    {
+      "title": "苏门征君孙钟元先生",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4293",
+      "dynasty": "清"
+    },
+    {
+      "title": "莲花洞",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4295",
+      "dynasty": "清"
+    },
+    {
+      "title": "访叶已畦不值",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4302",
+      "dynasty": "清"
+    },
+    {
+      "title": "读高念东先生琼花观诗，因怀广陵旧游即席联句 同念东先生、施愚山、王阮亭、谢方山。",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4299",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠太仆卿高公挽诗 高名天爵，以建昌守殉难闽中。",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4296",
+      "dynasty": "清"
+    },
+    {
+      "title": "邯郸道上",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4301",
+      "dynasty": "清"
+    },
+    {
+      "title": "乌江",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1341",
+      "dynasty": "清"
+    },
+    {
+      "title": "吴汉槎归自塞外，邀同王阮亭祭酒毛会侯大令钱介维小集作歌以赠，用东坡海市诗韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1338",
+      "dynasty": "清"
+    },
+    {
+      "title": "和子湘春雪后夜坐效韦左司",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1335",
+      "dynasty": "清"
+    },
+    {
+      "title": "数月来闻汪钝翁王勤中恽正叔刘山尉相继谢世洒泪赋比",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1339",
+      "dynasty": "清"
+    },
+    {
+      "title": "苏门征君孙钟元先生",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1334",
+      "dynasty": "清"
+    },
+    {
+      "title": "莲花洞",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1336",
+      "dynasty": "清"
+    },
+    {
+      "title": "访叶已畦不值",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1343",
+      "dynasty": "清"
+    },
+    {
+      "title": "读高念东先生琼花观诗，因怀广陵旧游即席联句 同念东先生、施愚山、王阮亭、谢方山。",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1340",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠太仆卿高公挽诗 高名天爵，以建昌守殉难闽中。",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1337",
+      "dynasty": "清"
+    },
+    {
+      "title": "邯郸道上",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1342",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

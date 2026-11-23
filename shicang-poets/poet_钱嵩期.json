@@ -1,0 +1,32 @@
+{
+  "name": "钱嵩期",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 2,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "赠友园居 时主人六十",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5706",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠友园居 时主人六十",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2747",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

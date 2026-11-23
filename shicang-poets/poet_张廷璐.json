@@ -1,0 +1,116 @@
+{
+  "name": "张廷璐",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 16,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "南归",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5350",
+      "dynasty": "清"
+    },
+    {
+      "title": "哭梁贡",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5348",
+      "dynasty": "清"
+    },
+    {
+      "title": "岍山招游云龙山用东坡答吕梁仲屯田韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5345",
+      "dynasty": "清"
+    },
+    {
+      "title": "恭和御制秋杂纪元韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5349",
+      "dynasty": "清"
+    },
+    {
+      "title": "舟泊无锡",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5351",
+      "dynasty": "清"
+    },
+    {
+      "title": "赋得落日楼台一笛风",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5347",
+      "dynasty": "清"
+    },
+    {
+      "title": "送杨升闻归里",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5352",
+      "dynasty": "清"
+    },
+    {
+      "title": "送魏定野归柏乡",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5346",
+      "dynasty": "清"
+    },
+    {
+      "title": "南归",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2391",
+      "dynasty": "清"
+    },
+    {
+      "title": "哭梁贡",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2389",
+      "dynasty": "清"
+    },
+    {
+      "title": "岍山招游云龙山用东坡答吕梁仲屯田韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2386",
+      "dynasty": "清"
+    },
+    {
+      "title": "恭和御制秋杂纪元韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2390",
+      "dynasty": "清"
+    },
+    {
+      "title": "舟泊无锡",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2392",
+      "dynasty": "清"
+    },
+    {
+      "title": "赋得落日楼台一笛风",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2388",
+      "dynasty": "清"
+    },
+    {
+      "title": "送杨升闻归里",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2393",
+      "dynasty": "清"
+    },
+    {
+      "title": "送魏定野归柏乡",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2387",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

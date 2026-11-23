@@ -1,0 +1,44 @@
+{
+  "name": "濮淙",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "赠方望子入黄山修炼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5006",
+      "dynasty": "清"
+    },
+    {
+      "title": "闻梁蘧玉已寓京口",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5005",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠方望子入黄山修炼",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2047",
+      "dynasty": "清"
+    },
+    {
+      "title": "闻梁蘧玉已寓京口",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2046",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,56 @@
+{
+  "name": "俞",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "灰七姑辞（自注：禾俗尝以二月祀灰七姑，即紫姑之遗也。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5108",
+      "dynasty": "清"
+    },
+    {
+      "title": "田居",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4334",
+      "dynasty": "清"
+    },
+    {
+      "title": "马草行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5109",
+      "dynasty": "清"
+    },
+    {
+      "title": "灰七姑辞（自注：禾俗尝以二月祀灰七姑，即紫姑之遗也。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2149",
+      "dynasty": "清"
+    },
+    {
+      "title": "田居",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1375",
+      "dynasty": "清"
+    },
+    {
+      "title": "马草行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2150",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

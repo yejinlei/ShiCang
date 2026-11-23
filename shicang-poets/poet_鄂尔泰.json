@@ -1,0 +1,152 @@
+{
+  "name": "鄂尔泰",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 22,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "九日海天阁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4802",
+      "dynasty": "清"
+    },
+    {
+      "title": "听姜客弹琴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4797",
+      "dynasty": "清"
+    },
+    {
+      "title": "将出都赴滇却寄吴中王子重吴漪堂夏晓堂徐学人诸老友",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4806",
+      "dynasty": "清"
+    },
+    {
+      "title": "恭和御制永定河元韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4800",
+      "dynasty": "清"
+    },
+    {
+      "title": "昭陵石马歌恭和御制元韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4799",
+      "dynasty": "清"
+    },
+    {
+      "title": "滇中回宿易隆诗示送行者",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4804",
+      "dynasty": "清"
+    },
+    {
+      "title": "经略北军吊战殁诸将佐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4807",
+      "dynasty": "清"
+    },
+    {
+      "title": "谒杨忠愍公祠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4801",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠学使中丞法渊若",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4803",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠方望溪",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4798",
+      "dynasty": "清"
+    },
+    {
+      "title": "闱中述怀柬同事诸君子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4805",
+      "dynasty": "清"
+    },
+    {
+      "title": "九日海天阁",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1843",
+      "dynasty": "清"
+    },
+    {
+      "title": "听姜客弹琴",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1838",
+      "dynasty": "清"
+    },
+    {
+      "title": "将出都赴滇却寄吴中王子重吴漪堂夏晓堂徐学人诸老友",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1847",
+      "dynasty": "清"
+    },
+    {
+      "title": "恭和御制永定河元韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1841",
+      "dynasty": "清"
+    },
+    {
+      "title": "昭陵石马歌恭和御制元韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1840",
+      "dynasty": "清"
+    },
+    {
+      "title": "滇中回宿易隆诗示送行者",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1845",
+      "dynasty": "清"
+    },
+    {
+      "title": "经略北军吊战殁诸将佐",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1848",
+      "dynasty": "清"
+    },
+    {
+      "title": "谒杨忠愍公祠",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1842",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠学使中丞法渊若",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1844",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠方望溪",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1839",
+      "dynasty": "清"
+    },
+    {
+      "title": "闱中述怀柬同事诸君子",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1846",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,92 @@
+{
+  "name": "赵进美",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 12,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "冬夜集梁园水堂",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3069",
+      "dynasty": "清"
+    },
+    {
+      "title": "冬日田家二首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3065",
+      "dynasty": "清"
+    },
+    {
+      "title": "南康登楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3070",
+      "dynasty": "清"
+    },
+    {
+      "title": "太原",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3067",
+      "dynasty": "清"
+    },
+    {
+      "title": "梨花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3068",
+      "dynasty": "清"
+    },
+    {
+      "title": "武昌杂感",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3066",
+      "dynasty": "清"
+    },
+    {
+      "title": "冬夜集梁园水堂",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=110",
+      "dynasty": "清"
+    },
+    {
+      "title": "冬日田家二首",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=106",
+      "dynasty": "清"
+    },
+    {
+      "title": "南康登楼",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=111",
+      "dynasty": "清"
+    },
+    {
+      "title": "太原",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=108",
+      "dynasty": "清"
+    },
+    {
+      "title": "梨花",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=109",
+      "dynasty": "清"
+    },
+    {
+      "title": "武昌杂感",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=107",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

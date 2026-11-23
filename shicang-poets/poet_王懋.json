@@ -1,0 +1,68 @@
+{
+  "name": "王懋",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "书座右二章",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5368",
+      "dynasty": "清"
+    },
+    {
+      "title": "吴家骐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5369",
+      "dynasty": "清"
+    },
+    {
+      "title": "圣驾南苑大阅恭纪",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5370",
+      "dynasty": "清"
+    },
+    {
+      "title": "杨忠愍公祠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5371",
+      "dynasty": "清"
+    },
+    {
+      "title": "书座右二章",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2409",
+      "dynasty": "清"
+    },
+    {
+      "title": "吴家骐",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2410",
+      "dynasty": "清"
+    },
+    {
+      "title": "圣驾南苑大阅恭纪",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2411",
+      "dynasty": "清"
+    },
+    {
+      "title": "杨忠愍公祠",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2412",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

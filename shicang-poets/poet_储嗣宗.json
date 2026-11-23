@@ -1,0 +1,56 @@
+{
+  "name": "储嗣宗",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "万寿唐诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "小楼",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=695",
+      "dynasty": "唐"
+    },
+    {
+      "title": "早春",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=194",
+      "dynasty": "唐"
+    },
+    {
+      "title": "月夜",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=696",
+      "dynasty": "唐"
+    },
+    {
+      "title": "小楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7135",
+      "dynasty": "唐"
+    },
+    {
+      "title": "早春",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6666",
+      "dynasty": "唐"
+    },
+    {
+      "title": "月夜",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7136",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

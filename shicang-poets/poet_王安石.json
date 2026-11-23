@@ -1,0 +1,111 @@
+{
+  "name": "王安石",
+  "zi": "介甫",
+  "hao": "半山",
+  "dynasty": "北宋",
+  "d_order": 7,
+  "birthplace": "临川",
+  "style": "#2980B9",
+  "school": "唐宋八大家",
+  "years": "1021—1086",
+  "bio": "北宋政治家、文学家，主持熙宁变法。代表作《泊船瓜洲》《桂枝香·金陵怀古》。",
+  "work_count": 15,
+  "anthologies": [
+    "千家诗",
+    "名篇精读",
+    "宋词三百首"
+  ],
+  "works": [
+    {
+      "title": "元日",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=89",
+      "dynasty": "宋"
+    },
+    {
+      "title": "北山",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=116",
+      "dynasty": "宋"
+    },
+    {
+      "title": "春夜",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=87",
+      "dynasty": "宋"
+    },
+    {
+      "title": "晚楼闲坐",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=137",
+      "dynasty": "宋"
+    },
+    {
+      "title": "茅檐",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=143",
+      "dynasty": "宋"
+    },
+    {
+      "title": "元日",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0913",
+      "dynasty": "宋"
+    },
+    {
+      "title": "北山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0937",
+      "dynasty": "宋"
+    },
+    {
+      "title": "千秋岁引",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0599",
+      "dynasty": "宋"
+    },
+    {
+      "title": "春夜",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0911",
+      "dynasty": "宋"
+    },
+    {
+      "title": "晚楼闲坐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0958",
+      "dynasty": "宋"
+    },
+    {
+      "title": "桂枝香",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0600",
+      "dynasty": "宋"
+    },
+    {
+      "title": "泊船瓜洲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0827",
+      "dynasty": "宋"
+    },
+    {
+      "title": "茅檐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0964",
+      "dynasty": "宋"
+    },
+    {
+      "title": "千秋岁引",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=43",
+      "dynasty": "宋"
+    },
+    {
+      "title": "桂枝香",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=42",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": true
+}

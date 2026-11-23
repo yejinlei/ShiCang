@@ -1,0 +1,56 @@
+{
+  "name": "郝经",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "老马",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=221",
+      "dynasty": "元"
+    },
+    {
+      "title": "落花",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=222",
+      "dynasty": "元"
+    },
+    {
+      "title": "贤台行（古黄金台也，土人称为贤台。）",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=79",
+      "dynasty": "元"
+    },
+    {
+      "title": "老马",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1683",
+      "dynasty": "元"
+    },
+    {
+      "title": "落花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1684",
+      "dynasty": "元"
+    },
+    {
+      "title": "贤台行（古黄金台也，土人称为贤台。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1541",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

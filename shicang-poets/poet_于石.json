@@ -1,0 +1,68 @@
+{
+  "name": "于石",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "半山亭",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=326",
+      "dynasty": "元"
+    },
+    {
+      "title": "清明次韵赵登",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=327",
+      "dynasty": "元"
+    },
+    {
+      "title": "潇江亭",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=328",
+      "dynasty": "元"
+    },
+    {
+      "title": "西湖（乡人杜伯高，昔与诸公饮于湖上，得风月一联，予爱其语，因为足成之。）",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=329",
+      "dynasty": "元"
+    },
+    {
+      "title": "半山亭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1788",
+      "dynasty": "元"
+    },
+    {
+      "title": "清明次韵赵登",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1789",
+      "dynasty": "元"
+    },
+    {
+      "title": "潇江亭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1790",
+      "dynasty": "元"
+    },
+    {
+      "title": "西湖（乡人杜伯高，昔与诸公饮于湖上，得风月一联，予爱其语，因为足成之。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1791",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

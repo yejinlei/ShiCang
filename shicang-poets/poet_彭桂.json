@@ -1,0 +1,104 @@
+{
+  "name": "彭桂",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 14,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "出宣州过箬岭入歙州界遇雨",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4515",
+      "dynasty": "清"
+    },
+    {
+      "title": "同苍符过王勤中怡老堂",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4519",
+      "dynasty": "清"
+    },
+    {
+      "title": "和楚人李子鹄寄阎古古先生",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4520",
+      "dynasty": "清"
+    },
+    {
+      "title": "夜饮阎再彭席上听孙良侯挝鼓歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4517",
+      "dynasty": "清"
+    },
+    {
+      "title": "建初弟来都省视喜极有感",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4518",
+      "dynasty": "清"
+    },
+    {
+      "title": "扬州鹾署为董江都故居，署后有祠，遗井尚在，丁巳秋瞻谒感赋",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4516",
+      "dynasty": "清"
+    },
+    {
+      "title": "答怀阎再彭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4521",
+      "dynasty": "清"
+    },
+    {
+      "title": "出宣州过箬岭入歙州界遇雨",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1556",
+      "dynasty": "清"
+    },
+    {
+      "title": "同苍符过王勤中怡老堂",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1560",
+      "dynasty": "清"
+    },
+    {
+      "title": "和楚人李子鹄寄阎古古先生",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1561",
+      "dynasty": "清"
+    },
+    {
+      "title": "夜饮阎再彭席上听孙良侯挝鼓歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1558",
+      "dynasty": "清"
+    },
+    {
+      "title": "建初弟来都省视喜极有感",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1559",
+      "dynasty": "清"
+    },
+    {
+      "title": "扬州鹾署为董江都故居，署后有祠，遗井尚在，丁巳秋瞻谒感赋",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1557",
+      "dynasty": "清"
+    },
+    {
+      "title": "答怀阎再彭",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1562",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

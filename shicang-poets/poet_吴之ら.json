@@ -1,0 +1,44 @@
+{
+  "name": "吴之ら",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "出宁羌马上漫成",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5586",
+      "dynasty": "清"
+    },
+    {
+      "title": "登金山塔",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5585",
+      "dynasty": "清"
+    },
+    {
+      "title": "出宁羌马上漫成",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2627",
+      "dynasty": "清"
+    },
+    {
+      "title": "登金山塔",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2626",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

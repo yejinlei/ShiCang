@@ -1,0 +1,44 @@
+{
+  "name": "林洪",
+  "zi": "",
+  "hao": "",
+  "dynasty": "宋",
+  "d_order": 8,
+  "birthplace": "",
+  "style": "#7F8C8D",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "千家诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "其二",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=94",
+      "dynasty": "宋"
+    },
+    {
+      "title": "宫词",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=93",
+      "dynasty": "宋"
+    },
+    {
+      "title": "其二",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0918",
+      "dynasty": "宋"
+    },
+    {
+      "title": "宫词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0917",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

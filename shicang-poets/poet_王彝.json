@@ -1,0 +1,260 @@
+{
+  "name": "王彝",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 40,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "京师得家书",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2083",
+      "dynasty": "明"
+    },
+    {
+      "title": "同周伯宁连榻剧谈悲歌有感",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2079",
+      "dynasty": "明"
+    },
+    {
+      "title": "城南草堂与顾仲瑛夜话",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2080",
+      "dynasty": "明"
+    },
+    {
+      "title": "姑苏曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2090",
+      "dynasty": "明"
+    },
+    {
+      "title": "客中夜坐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2084",
+      "dynasty": "明"
+    },
+    {
+      "title": "客中除夕",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2082",
+      "dynasty": "明"
+    },
+    {
+      "title": "宫词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2094",
+      "dynasty": "明"
+    },
+    {
+      "title": "寄许永明公冕昆季得夫先生",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2078",
+      "dynasty": "明"
+    },
+    {
+      "title": "扬州逢李十二衍",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2086",
+      "dynasty": "明"
+    },
+    {
+      "title": "春夕值左掖怀周侍御",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2077",
+      "dynasty": "明"
+    },
+    {
+      "title": "杨白花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2081",
+      "dynasty": "明"
+    },
+    {
+      "title": "淮东逢张十二信",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2085",
+      "dynasty": "明"
+    },
+    {
+      "title": "淮西夜坐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2088",
+      "dynasty": "明"
+    },
+    {
+      "title": "玉华山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2092",
+      "dynasty": "明"
+    },
+    {
+      "title": "秋林高士图",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2076",
+      "dynasty": "明"
+    },
+    {
+      "title": "舟中望九华山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2093",
+      "dynasty": "明"
+    },
+    {
+      "title": "行经华阴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2095",
+      "dynasty": "明"
+    },
+    {
+      "title": "西津夜泊",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2089",
+      "dynasty": "明"
+    },
+    {
+      "title": "题余仲扬画山水图为余自安赋",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2091",
+      "dynasty": "明"
+    },
+    {
+      "title": "题李陵泣别图",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2087",
+      "dynasty": "明"
+    },
+    {
+      "title": "京师得家书",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=79",
+      "dynasty": "明"
+    },
+    {
+      "title": "同周伯宁连榻剧谈悲歌有感",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=75",
+      "dynasty": "明"
+    },
+    {
+      "title": "城南草堂与顾仲瑛夜话",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=76",
+      "dynasty": "明"
+    },
+    {
+      "title": "姑苏曲",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=86",
+      "dynasty": "明"
+    },
+    {
+      "title": "客中夜坐",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=80",
+      "dynasty": "明"
+    },
+    {
+      "title": "客中除夕",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=78",
+      "dynasty": "明"
+    },
+    {
+      "title": "宫词",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=90",
+      "dynasty": "明"
+    },
+    {
+      "title": "寄许永明公冕昆季得夫先生",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=74",
+      "dynasty": "明"
+    },
+    {
+      "title": "扬州逢李十二衍",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=82",
+      "dynasty": "明"
+    },
+    {
+      "title": "春夕值左掖怀周侍御",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=73",
+      "dynasty": "明"
+    },
+    {
+      "title": "杨白花",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=77",
+      "dynasty": "明"
+    },
+    {
+      "title": "淮东逢张十二信",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=81",
+      "dynasty": "明"
+    },
+    {
+      "title": "淮西夜坐",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=84",
+      "dynasty": "明"
+    },
+    {
+      "title": "玉华山",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=88",
+      "dynasty": "明"
+    },
+    {
+      "title": "秋林高士图",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=72",
+      "dynasty": "明"
+    },
+    {
+      "title": "舟中望九华山",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=89",
+      "dynasty": "明"
+    },
+    {
+      "title": "行经华阴",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=91",
+      "dynasty": "明"
+    },
+    {
+      "title": "西津夜泊",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=85",
+      "dynasty": "明"
+    },
+    {
+      "title": "题余仲扬画山水图为余自安赋",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=87",
+      "dynasty": "明"
+    },
+    {
+      "title": "题李陵泣别图",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=83",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

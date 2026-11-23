@@ -1,0 +1,69 @@
+{
+  "name": "张镃",
+  "zi": "",
+  "hao": "",
+  "dynasty": "宋",
+  "d_order": 8,
+  "birthplace": "",
+  "style": "#7F8C8D",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "宋词三百首",
+    "绝妙好词"
+  ],
+  "works": [
+    {
+      "title": "宴山亭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1028",
+      "dynasty": "宋"
+    },
+    {
+      "title": "念奴娇",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7229",
+      "dynasty": "宋"
+    },
+    {
+      "title": "昭君怨",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7230",
+      "dynasty": "宋"
+    },
+    {
+      "title": "满庭芳",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1027",
+      "dynasty": "宋"
+    },
+    {
+      "title": "促织儿·满庭芳",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=159",
+      "dynasty": "宋"
+    },
+    {
+      "title": "宴山亭",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=160",
+      "dynasty": "宋"
+    },
+    {
+      "title": "园池夜泛·昭君怨",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=35",
+      "dynasty": "宋"
+    },
+    {
+      "title": "宜雨亭咏千叶海棠·念奴娇",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=34",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

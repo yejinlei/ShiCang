@@ -1,0 +1,56 @@
+{
+  "name": "沈钟彦",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "罂粟花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5027",
+      "dynasty": "清"
+    },
+    {
+      "title": "金钱花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5028",
+      "dynasty": "清"
+    },
+    {
+      "title": "题画",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5026",
+      "dynasty": "清"
+    },
+    {
+      "title": "罂粟花",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2068",
+      "dynasty": "清"
+    },
+    {
+      "title": "金钱花",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2069",
+      "dynasty": "清"
+    },
+    {
+      "title": "题画",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2067",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

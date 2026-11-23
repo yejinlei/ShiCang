@@ -1,0 +1,56 @@
+{
+  "name": "李艹勉",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "上巳忆白下",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6239",
+      "dynasty": "清"
+    },
+    {
+      "title": "过废园",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6241",
+      "dynasty": "清"
+    },
+    {
+      "title": "题雅雨师借书图",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6240",
+      "dynasty": "清"
+    },
+    {
+      "title": "上巳忆白下",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3280",
+      "dynasty": "清"
+    },
+    {
+      "title": "过废园",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3282",
+      "dynasty": "清"
+    },
+    {
+      "title": "题雅雨师借书图",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3281",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

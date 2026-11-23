@@ -1,0 +1,68 @@
+{
+  "name": "沈炼",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "吴讴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2504",
+      "dynasty": "明"
+    },
+    {
+      "title": "寄冯敬叔",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2501",
+      "dynasty": "明"
+    },
+    {
+      "title": "得应职方书诗以答之",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2502",
+      "dynasty": "明"
+    },
+    {
+      "title": "送朱子南还",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2503",
+      "dynasty": "明"
+    },
+    {
+      "title": "吴讴",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=500",
+      "dynasty": "明"
+    },
+    {
+      "title": "寄冯敬叔",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=497",
+      "dynasty": "明"
+    },
+    {
+      "title": "得应职方书诗以答之",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=498",
+      "dynasty": "明"
+    },
+    {
+      "title": "送朱子南还",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=499",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

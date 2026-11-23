@@ -1,0 +1,116 @@
+{
+  "name": "张翥",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 16,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "丹青小景山水",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=157",
+      "dynasty": "元"
+    },
+    {
+      "title": "听松轩为丹丘杜高士作",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=269",
+      "dynasty": "元"
+    },
+    {
+      "title": "忆吴兴",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=270",
+      "dynasty": "元"
+    },
+    {
+      "title": "忆维扬",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=271",
+      "dynasty": "元"
+    },
+    {
+      "title": "秦淮晚眺",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=272",
+      "dynasty": "元"
+    },
+    {
+      "title": "范宽山水",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=483",
+      "dynasty": "元"
+    },
+    {
+      "title": "郡城晚望览临武台故基",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=273",
+      "dynasty": "元"
+    },
+    {
+      "title": "闻归集贤远引奉简一章",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=511",
+      "dynasty": "元"
+    },
+    {
+      "title": "丹青小景山水",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1619",
+      "dynasty": "元"
+    },
+    {
+      "title": "听松轩为丹丘杜高士作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1731",
+      "dynasty": "元"
+    },
+    {
+      "title": "忆吴兴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1732",
+      "dynasty": "元"
+    },
+    {
+      "title": "忆维扬",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1733",
+      "dynasty": "元"
+    },
+    {
+      "title": "秦淮晚眺",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1734",
+      "dynasty": "元"
+    },
+    {
+      "title": "范宽山水",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1945",
+      "dynasty": "元"
+    },
+    {
+      "title": "郡城晚望览临武台故基",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1735",
+      "dynasty": "元"
+    },
+    {
+      "title": "闻归集贤远引奉简一章",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1973",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,212 @@
+{
+  "name": "汤显祖",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 32,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "丹阳遇陈十八",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2686",
+      "dynasty": "明"
+    },
+    {
+      "title": "寄弟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2692",
+      "dynasty": "明"
+    },
+    {
+      "title": "御儿舟中别朗公",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2691",
+      "dynasty": "明"
+    },
+    {
+      "title": "旅次石头岸",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2681",
+      "dynasty": "明"
+    },
+    {
+      "title": "武夷溪口送惟起弟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2685",
+      "dynasty": "明"
+    },
+    {
+      "title": "芋江驿楼送张四之白下",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2690",
+      "dynasty": "明"
+    },
+    {
+      "title": "访梅禹金秦淮客舍",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2684",
+      "dynasty": "明"
+    },
+    {
+      "title": "送人游吴楚",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2680",
+      "dynasty": "明"
+    },
+    {
+      "title": "送别刘大甫",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2677",
+      "dynasty": "明"
+    },
+    {
+      "title": "送李太守擢宪滇南",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2683",
+      "dynasty": "明"
+    },
+    {
+      "title": "邮亭残花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2688",
+      "dynasty": "明"
+    },
+    {
+      "title": "酒店逢李大",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2689",
+      "dynasty": "明"
+    },
+    {
+      "title": "金陵故宫",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2682",
+      "dynasty": "明"
+    },
+    {
+      "title": "铜雀妓",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2678",
+      "dynasty": "明"
+    },
+    {
+      "title": "长门怨",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2687",
+      "dynasty": "明"
+    },
+    {
+      "title": "陈价夫归自崖州谈粤中山水，因怀旧游",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2679",
+      "dynasty": "明"
+    },
+    {
+      "title": "丹阳遇陈十八",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=682",
+      "dynasty": "明"
+    },
+    {
+      "title": "寄弟",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=688",
+      "dynasty": "明"
+    },
+    {
+      "title": "御儿舟中别朗公",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=687",
+      "dynasty": "明"
+    },
+    {
+      "title": "旅次石头岸",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=677",
+      "dynasty": "明"
+    },
+    {
+      "title": "武夷溪口送惟起弟",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=681",
+      "dynasty": "明"
+    },
+    {
+      "title": "芋江驿楼送张四之白下",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=686",
+      "dynasty": "明"
+    },
+    {
+      "title": "访梅禹金秦淮客舍",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=680",
+      "dynasty": "明"
+    },
+    {
+      "title": "送人游吴楚",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=676",
+      "dynasty": "明"
+    },
+    {
+      "title": "送别刘大甫",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=673",
+      "dynasty": "明"
+    },
+    {
+      "title": "送李太守擢宪滇南",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=679",
+      "dynasty": "明"
+    },
+    {
+      "title": "邮亭残花",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=684",
+      "dynasty": "明"
+    },
+    {
+      "title": "酒店逢李大",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=685",
+      "dynasty": "明"
+    },
+    {
+      "title": "金陵故宫",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=678",
+      "dynasty": "明"
+    },
+    {
+      "title": "铜雀妓",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=674",
+      "dynasty": "明"
+    },
+    {
+      "title": "长门怨",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=683",
+      "dynasty": "明"
+    },
+    {
+      "title": "陈价夫归自崖州谈粤中山水，因怀旧游",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=675",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

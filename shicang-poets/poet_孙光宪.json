@@ -1,0 +1,44 @@
+{
+  "name": "孙光宪",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "万寿唐诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "杨柳枝",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=728",
+      "dynasty": "唐"
+    },
+    {
+      "title": "竹枝",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=727",
+      "dynasty": "唐"
+    },
+    {
+      "title": "杨柳枝",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7166",
+      "dynasty": "唐"
+    },
+    {
+      "title": "竹枝",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7165",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

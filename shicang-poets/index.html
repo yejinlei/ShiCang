@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>诗人专辑 · 诗藏</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='5' fill='%238b2f2f'/%3E%3Ctext x='16' y='24' font-size='21' fill='%23f7f1e3' text-anchor='middle' font-family='serif'%3E%E4%BA%BA%3C/text%3E%3C/svg%3E">
+<style>
+/* ==== 顶栏（复用名篇风格）==== */
+.shicang-topnav{position:sticky;top:0;z-index:999;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);background:rgba(246,241,231,.92);border-bottom:1px solid rgba(30,26,21,.11);box-shadow:0 2px 12px rgba(30,26,21,.04);font-family:'PingFang SC','HarmonyOS Sans SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;}
+.shicang-topnav-inner{max-width:1200px;margin:0 auto;padding:0 16px;height:52px;display:flex;align-items:center;justify-content:space-between;gap:12px;}
+.shicang-logo{display:flex;align-items:center;gap:8px;text-decoration:none;color:#1e1a15;font-weight:700;font-size:16px;font-family:'Songti SC','STSong','Noto Serif CJK SC',serif;}
+.shicang-logo-mark{width:28px;height:28px;border-radius:6px;background:linear-gradient(150deg,#ae3a2b,#c85a49);color:#fff;display:flex;align-items:center;justify-content:center;font-size:16px;box-shadow:inset 0 0 0 1px rgba(255,255,255,.25);}
+.shicang-nav-links{display:flex;gap:4px;align-items:center;overflow-x:auto;scrollbar-width:none;}
+.shicang-nav-links::-webkit-scrollbar{display:none;}
+.shicang-nav-link{font-size:13px;color:#4b4237;text-decoration:none;padding:6px 10px;border-radius:999px;white-space:nowrap;transition:all .2s;}
+.shicang-nav-link:hover{color:#ae3a2b;background:rgba(174,58,43,.07);}
+.shicang-nav-link.active{color:#ae3a2b;background:rgba(174,58,43,.1);}
+.shicang-nav-sep{font-size:11px;color:#8a7f6d;padding:0 4px;}
+.shicang-menu-btn{display:none;font-size:20px;background:transparent;border:none;cursor:pointer;padding:6px;color:#1e1a15;}
+.shicang-mobile-menu{display:none;position:absolute;top:52px;left:0;right:0;background:rgba(246,241,231,.98);backdrop-filter:blur(14px);border-bottom:1px solid rgba(30,26,21,.11);padding:10px 16px;flex-direction:column;gap:4px;}
+.shicang-mobile-menu.open{display:flex;}
+.shicang-mobile-menu .shicang-nav-link{padding:9px 10px;border-radius:8px;}
+@media(max-width:1024px){.shicang-desktop-links{display:none !important;}.shicang-menu-btn{display:block !important;}}
+
+/* ==== 页面主体 ==== */
+body{margin:0;background:#f6f1e7;color:#2b2620;font-family:'PingFang SC','HarmonyOS Sans SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;min-height:100vh;}
+.sp-hero{max-width:1240px;margin:0 auto;padding:54px 26px 10px;text-align:center;position:relative;z-index:2;}
+.sp-hero h1{font-family:'STKaiti','KaiTi','Noto Serif SC',serif;font-size:clamp(32px,5.4vw,50px);letter-spacing:.28em;text-indent:.28em;color:#8b2f2f;font-weight:600;margin:0 0 12px;}
+.sp-hero .sub{font-size:14px;color:#8b5a2b;letter-spacing:.24em;}
+.sp-hero .stat{margin-top:16px;font-size:13px;color:#8a7554;letter-spacing:.12em;}
+.sp-hero .stat b{color:#8b2f2f;font-weight:600;font-size:17px;font-family:'STKaiti',serif;margin:0 3px;}
+.sp-seal{position:absolute;right:calc(50% - 280px);top:52px;width:56px;height:56px;border:2.5px solid #a8322f;color:#a8322f;border-radius:8px;display:flex;align-items:center;justify-content:center;font-family:'STKaiti',serif;font-size:22px;transform:rotate(-5deg);opacity:.82;}
+.sp-rule{max-width:1240px;margin:22px auto 0;padding:0 26px;}
+.sp-rule div{height:0;border-top:1px solid #d8c7a6;border-bottom:3px double #d8c7a6;}
+
+.sp-tool{max-width:1240px;margin:20px auto 0;padding:0 26px;}
+.sp-dyns{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-bottom:14px;}
+.sp-db{border:1px solid #d8c7a6;background:rgba(255,255,255,.55);color:#5a4a38;padding:6px 14px;border-radius:20px;font-size:13px;cursor:pointer;font-family:inherit;letter-spacing:.06em;transition:.26s;display:flex;align-items:center;gap:6px;}
+.sp-db .dot{width:7px;height:7px;border-radius:50%;display:inline-block;}
+.sp-db:hover{border-color:#8b2f2f;color:#8b2f2f;transform:translateY(-1px);}
+.sp-db.on{background:#8b2f2f;border-color:#8b2f2f;color:#f7f1e3;box-shadow:0 4px 14px -6px #8b2f2f;}
+.sp-db.on .dot{background:#f7f1e3 !important;}
+.sp-db .cnt{font-size:11px;opacity:.72;}
+
+.sp-sort{display:flex;gap:8px;justify-content:center;margin-bottom:14px;}
+.sp-sb{background:transparent;border:1px solid transparent;color:#7d6c55;padding:4px 12px;border-radius:14px;font-size:12.5px;cursor:pointer;font-family:inherit;letter-spacing:.06em;transition:.2s;}
+.sp-sb:hover{color:#8b2f2f;}
+.sp-sb.on{color:#8b2f2f;border-color:#d8c7a6;background:rgba(255,255,255,.6);}
+
+.sp-sbox{max-width:520px;margin:0 auto;position:relative;}
+.sp-sbox input{width:100%;padding:11px 44px 11px 20px;border:1px solid #d8c7a6;border-radius:24px;background:rgba(255,255,255,.72);font-family:inherit;font-size:14.5px;color:#2b2620;letter-spacing:.04em;outline:none;transition:.26s;}
+.sp-sbox input:focus{border-color:#8b2f2f;box-shadow:0 0 0 3px rgba(139,47,47,.08);}
+.sp-sbox .ico{position:absolute;right:18px;top:50%;transform:translateY(-50%);color:#a08a66;font-size:15px;}
+
+/* 诗人群 */
+.sp-groups{max-width:1240px;margin:24px auto 40px;padding:0 26px;}
+.sp-group-title{display:flex;align-items:center;gap:12px;margin:28px 0 14px;font-family:'STKaiti',serif;}
+.sp-group-title:first-child{margin-top:0;}
+.sp-group-title .bar{width:4px;height:22px;border-radius:2px;background:var(--c,#8b2f2f);}
+.sp-group-title .name{font-size:22px;color:#33291c;letter-spacing:.12em;}
+.sp-group-title .count{font-size:12.5px;color:#8a7554;letter-spacing:.08em;}
+.sp-group-title .count b{color:var(--c,#8b2f2f);font-family:'STKaiti',serif;font-size:15px;font-weight:600;}
+
+.sp-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:13px;}
+.sp-card{display:block;text-decoration:none;color:inherit;position:relative;border:1px solid #e0d3b8;border-radius:10px;padding:14px 16px 13px;overflow:hidden;background:linear-gradient(178deg,rgba(255,255,255,.72),rgba(250,245,232,.5));transition:.28s;box-shadow:0 2px 10px -8px rgba(90,70,40,.5);}
+.sp-card::before{content:'';position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--c);opacity:.85;}
+.sp-card:hover{transform:translateY(-3px);box-shadow:0 14px 26px -18px rgba(90,70,40,.8);border-color:var(--c);background:linear-gradient(178deg,rgba(255,255,255,.92),rgba(250,245,232,.7));}
+.sp-card-n{font-family:'STKaiti','KaiTi',serif;font-size:20px;letter-spacing:.06em;color:#33291c;line-height:1.3;transition:.2s;}
+.sp-card:hover .sp-card-n{color:var(--c);}
+.sp-card-meta{font-size:12px;color:#7d6c55;letter-spacing:.05em;margin-top:5px;line-height:1.6;}
+.sp-card-meta .dy{display:inline-block;padding:1px 7px;border-radius:8px;font-size:11px;background:var(--c);color:#fff;opacity:.82;margin-right:5px;}
+.sp-card-desc{font-family:'STKaiti',serif;font-size:13px;color:#6b5c48;letter-spacing:.03em;line-height:1.65;margin-top:7px;padding-top:7px;border-top:1px dashed #ddd0b6;max-height:3.3em;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;}
+.sp-card-works{position:absolute;right:12px;top:11px;font-size:10.5px;letter-spacing:.04em;color:var(--c);border:1px solid var(--c);border-radius:8px;padding:0 6px;opacity:.72;}
+.sp-card-bio{position:absolute;right:12px;bottom:10px;font-size:10px;color:#a8322f;border:1px solid #a8322f;border-radius:7px;padding:0 5px;opacity:.9;}
+
+.sp-empty{text-align:center;color:#a08a66;padding:60px 0;letter-spacing:.16em;}
+.sp-more{text-align:center;color:#a08a66;font-size:13.5px;letter-spacing:.24em;padding:14px 0 50px;}
+footer{max-width:1240px;margin:0 auto;padding:26px;text-align:center;color:#a08a66;font-size:12.5px;letter-spacing:.14em;border-top:1px solid #e3d7bd;}
+</style>
+</head>
+<body>
+<!-- 顶栏由 topnav.js 自动注入 -->
+
+<header class="sp-hero">
+  <div class="sp-seal">人</div>
+  <h1>詩人專輯</h1>
+  <div class="sub">千年文脈 · 千八百家 · 一帙攬勝</div>
+  <div class="stat">凡<b id="sp-total">—</b>位詩人，存<b id="sp-works">—</b>篇作品，自<b id="sp-from">—</b>至<b id="sp-to">—</b>，貫串詩史</div>
+</header>
+<div class="sp-rule"><div></div></div>
+
+<section class="sp-tool">
+  <div class="sp-dyns" id="dyns"></div>
+  <div class="sp-sort" id="sorts">
+    <button class="sp-sb on" data-s="dynasty">按朝代</button>
+    <button class="sp-sb" data-s="works">按作品数</button>
+    <button class="sp-sb" data-s="name">按姓名</button>
+  </div>
+  <div class="sp-sbox">
+    <input id="q" type="text" placeholder="搜索诗人姓名 · 字号 · 流派 · 籍贯…">
+    <span class="ico">尋</span>
+  </div>
+</section>
+
+<main class="sp-groups" id="groups"></main>
+<div class="sp-more" id="more"></div>
+<footer>诗藏本体论 · 诗人专辑 · 岁时辑于西泠</footer>
+
+<script src="../topnav.js"></script>
+<script>
+const POETS_JS = 'poets_index.json';
+let POETS = [], DY_ORDER=[], DY_COLORS={}, DY_COUNTS={};
+let dy='all', sort='dynasty', kw='';
+const $=id=>document.getElementById(id);
+
+// 构建导航（从topnav.js读取结构，但诗人是新项）
+// topnav.js 已自动注入含「诗人」项的统一顶栏
+
+async function load(){
+  const r = await fetch(POETS_JS);
+  const d = await r.json();
+  POETS = d.poets;
+  DY_ORDER = d.dynasty_order;
+  DY_COLORS = d.dynasty_colors;
+  DY_COUNTS = d.dynasty_counts;
+  $('sp-total').textContent = d.total.toLocaleString();
+  $('sp-works').textContent = POETS.reduce((s,p)=>s+p.work_count,0).toLocaleString();
+  $('sp-from').textContent = DY_ORDER[0] || '先秦';
+  $('sp-to').textContent = DY_ORDER[DY_ORDER.length-1] || '近代';
+  renderDyns();
+  render();
+}
+
+function renderDyns(){
+  const box = $('dyns');
+  let h = '<button class="sp-db on" data-d="all"><span class="dot" style="background:#8b2f2f"></span>全部<span class="cnt">' + POETS.length + '</span></button>';
+  DY_ORDER.forEach(dy0 => {
+    const c = DY_COUNTS[dy0]||0; if(!c) return;
+    const col = DY_COLORS[dy0]||'#8b2f2f';
+    h += '<button class="sp-db" data-d="'+dy0+'"><span class="dot" style="background:'+col+'"></span>'+dy0+'<span class="cnt">'+c+'</span></button>';
+  });
+  box.innerHTML = h;
+  box.querySelectorAll('.sp-db').forEach(b=>b.onclick=()=>{
+    dy=b.dataset.d;
+    box.querySelectorAll('.sp-db').forEach(x=>x.classList.remove('on'));
+    b.classList.add('on');
+    render();
+  });
+}
+
+document.getElementById('sorts').querySelectorAll('.sp-sb').forEach(b=>b.onclick=()=>{
+  sort=b.dataset.s;
+  document.getElementById('sorts').querySelectorAll('.sp-sb').forEach(x=>x.classList.remove('on'));
+  b.classList.add('on'); render();
+});
+
+let st;
+$('q').addEventListener('input',e=>{clearTimeout(st);st=setTimeout(()=>{kw=e.target.value.trim();render();},160);});
+
+function matched(){
+  let list = POETS.slice();
+  if(dy!=='all') list = list.filter(p=>p.dynasty===dy);
+  if(kw){
+    const k=kw.toLowerCase();
+    list = list.filter(p=>(p.name+p.zi+p.hao+p.school+p.birthplace+p.bio).toLowerCase().includes(k));
+  }
+  if(sort==='works') list.sort((a,b)=>b.work_count-a.work_count || a.name.localeCompare(b.name,'zh'));
+  else if(sort==='name') list.sort((a,b)=>a.name.localeCompare(b.name,'zh'));
+  else list.sort((a,b)=>a.d_order-b.d_order || b.work_count-a.work_count || a.name.localeCompare(b.name,'zh'));
+  return list;
+}
+
+function esc(s){return (s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+
+function render(){
+  const list = matched();
+  const box = $('groups');
+  if(!list.length){box.innerHTML='<div class="sp-empty">未得匹配之詩人</div>';$('more').textContent='';return;}
+  // 按朝代分组（仅在按朝代排序时显示分组标题，否则展示一个大grid）
+  let html='';
+  if(sort==='dynasty'){
+    const groups = {};
+    list.forEach(p=>{(groups[p.dynasty]=groups[p.dynasty]||[]).push(p);});
+    DY_ORDER.forEach(dy0=>{
+      const g=groups[dy0]; if(!g||!g.length) return;
+      const col=DY_COLORS[dy0]||'#8b2f2f';
+      html += '<div class="sp-group-title" style="--c:'+col+'"><span class="bar"></span><span class="name">'+dy0+'</span><span class="count">· <b>'+g.length+'</b> 家</span></div>';
+      html += '<div class="sp-grid">';
+      g.forEach(p=>html+=cardHtml(p));
+      html += '</div>';
+    });
+  } else {
+    html += '<div class="sp-grid">';
+    list.forEach(p=>html+=cardHtml(p));
+    html += '</div>';
+  }
+  box.innerHTML = html;
+  $('more').textContent = '— 共 '+list.length+' 位詩人 —';
+}
+
+function cardHtml(p){
+  const col = DY_COLORS[p.dynasty]||p.style||'#8b2f2f';
+  const meta = [];
+  if(p.zi) meta.push('字'+esc(p.zi));
+  if(p.hao) meta.push('号'+esc(p.hao.split('·')[0]));
+  if(p.school) meta.push(esc(p.school));
+  let badge = '<span class="sp-card-works">'+p.work_count+' 篇</span>';
+  if(p.has_bio) badge += '<span class="sp-card-bio">有传</span>';
+  return '<a class="sp-card" href="poet.html?n='+encodeURIComponent(p.name)+'" style="--c:'+col+'">'
+    + badge
+    + '<div class="sp-card-n">'+esc(p.name)+'</div>'
+    + '<div class="sp-card-meta"><span class="dy">'+esc(p.dynasty)+'</span>'+(meta.join(' · ')||'&nbsp;')+'</div>'
+    + (p.bio ? '<div class="sp-card-desc">'+esc(p.bio.slice(0,70))+'…</div>' : '')
+    + '</a>';
+}
+
+load();
+</script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+{
+  "name": "李果",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 16,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "从弟至",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6099",
+      "dynasty": "清"
+    },
+    {
+      "title": "关山月",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6100",
+      "dynasty": "清"
+    },
+    {
+      "title": "哭沈方舟三首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6095",
+      "dynasty": "清"
+    },
+    {
+      "title": "怀陈处士阳山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6096",
+      "dynasty": "清"
+    },
+    {
+      "title": "晚菊",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6098",
+      "dynasty": "清"
+    },
+    {
+      "title": "泛艇木渎",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6097",
+      "dynasty": "清"
+    },
+    {
+      "title": "王将军剑歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6094",
+      "dynasty": "清"
+    },
+    {
+      "title": "示两儿",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6093",
+      "dynasty": "清"
+    },
+    {
+      "title": "从弟至",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3140",
+      "dynasty": "清"
+    },
+    {
+      "title": "关山月",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3141",
+      "dynasty": "清"
+    },
+    {
+      "title": "哭沈方舟三首",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3136",
+      "dynasty": "清"
+    },
+    {
+      "title": "怀陈处士阳山",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3137",
+      "dynasty": "清"
+    },
+    {
+      "title": "晚菊",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3139",
+      "dynasty": "清"
+    },
+    {
+      "title": "泛艇木渎",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3138",
+      "dynasty": "清"
+    },
+    {
+      "title": "王将军剑歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3135",
+      "dynasty": "清"
+    },
+    {
+      "title": "示两儿",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3134",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

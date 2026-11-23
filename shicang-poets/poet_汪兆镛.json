@@ -1,0 +1,56 @@
+{
+  "name": "汪兆镛",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清末",
+  "d_order": 16,
+  "birthplace": "",
+  "style": "#795548",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "忆旧游",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1396",
+      "dynasty": "清末"
+    },
+    {
+      "title": "柳梢青",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1397",
+      "dynasty": "清末"
+    },
+    {
+      "title": "蝶恋花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1398",
+      "dynasty": "清末"
+    },
+    {
+      "title": "柳梢青",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=353",
+      "dynasty": "清末"
+    },
+    {
+      "title": "榆生以咏木棉词见示，奉和一阕。（广州北城，跨粤秀山，山多红棉，暮春花时，照耀雉堞间，伟丽绝胜。闻山中人云：“二十年来，林壑多贸，非承平日风景矣！”）·蝶恋花",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=354",
+      "dynasty": "清末"
+    },
+    {
+      "title": "登韶州九成台·忆旧游",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=352",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": false
+}

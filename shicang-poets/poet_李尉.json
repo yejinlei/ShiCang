@@ -1,0 +1,80 @@
+{
+  "name": "李尉",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "初发都门",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3118",
+      "dynasty": "清"
+    },
+    {
+      "title": "喜晤孙星衡社丈述赠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3120",
+      "dynasty": "清"
+    },
+    {
+      "title": "枫岭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3119",
+      "dynasty": "清"
+    },
+    {
+      "title": "舟发浦城",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3117",
+      "dynasty": "清"
+    },
+    {
+      "title": "送杨贤甫副宪祀华岳江渎",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3121",
+      "dynasty": "清"
+    },
+    {
+      "title": "初发都门",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=159",
+      "dynasty": "清"
+    },
+    {
+      "title": "喜晤孙星衡社丈述赠",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=161",
+      "dynasty": "清"
+    },
+    {
+      "title": "枫岭",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=160",
+      "dynasty": "清"
+    },
+    {
+      "title": "舟发浦城",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=158",
+      "dynasty": "清"
+    },
+    {
+      "title": "送杨贤甫副宪祀华岳江渎",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=162",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,140 @@
+{
+  "name": "陈逢辰",
+  "zi": "",
+  "hao": "",
+  "dynasty": "宋",
+  "d_order": 8,
+  "birthplace": "",
+  "style": "#7F8C8D",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 20,
+  "anthologies": [
+    "名篇精读",
+    "绝妙好词"
+  ],
+  "works": [
+    {
+      "title": "乌夜啼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7384",
+      "dynasty": "宋"
+    },
+    {
+      "title": "二郎神",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7390",
+      "dynasty": "宋"
+    },
+    {
+      "title": "华胥引",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7393",
+      "dynasty": "宋"
+    },
+    {
+      "title": "好事近",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7389",
+      "dynasty": "宋"
+    },
+    {
+      "title": "法曲献仙音",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7388",
+      "dynasty": "宋"
+    },
+    {
+      "title": "玉楼春",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7391",
+      "dynasty": "宋"
+    },
+    {
+      "title": "玉漏迟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7387",
+      "dynasty": "宋"
+    },
+    {
+      "title": "瑞鹤仙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7386",
+      "dynasty": "宋"
+    },
+    {
+      "title": "芳草",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7392",
+      "dynasty": "宋"
+    },
+    {
+      "title": "西江月",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7385",
+      "dynasty": "宋"
+    },
+    {
+      "title": "中秋紫霞席上·华胥引",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=206",
+      "dynasty": "宋"
+    },
+    {
+      "title": "乌夜啼",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=197",
+      "dynasty": "宋"
+    },
+    {
+      "title": "二郎神",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=203",
+      "dynasty": "宋"
+    },
+    {
+      "title": "南屏晚钟·芳草",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=205",
+      "dynasty": "宋"
+    },
+    {
+      "title": "好事近",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=202",
+      "dynasty": "宋"
+    },
+    {
+      "title": "法曲献仙音",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=201",
+      "dynasty": "宋"
+    },
+    {
+      "title": "玉楼春",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=204",
+      "dynasty": "宋"
+    },
+    {
+      "title": "玉漏迟",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=200",
+      "dynasty": "宋"
+    },
+    {
+      "title": "瑞鹤仙",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=199",
+      "dynasty": "宋"
+    },
+    {
+      "title": "西江月",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=198",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

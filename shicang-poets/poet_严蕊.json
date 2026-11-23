@@ -1,0 +1,80 @@
+{
+  "name": "严蕊",
+  "zi": "",
+  "hao": "",
+  "dynasty": "宋",
+  "d_order": 8,
+  "birthplace": "",
+  "style": "#7F8C8D",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "绝妙好词"
+  ],
+  "works": [
+    {
+      "title": "如梦令",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7578",
+      "dynasty": "宋"
+    },
+    {
+      "title": "水龙吟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7581",
+      "dynasty": "宋"
+    },
+    {
+      "title": "玉楼春",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7582",
+      "dynasty": "宋"
+    },
+    {
+      "title": "钗头凤",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7580",
+      "dynasty": "宋"
+    },
+    {
+      "title": "鹊桥仙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7579",
+      "dynasty": "宋"
+    },
+    {
+      "title": "七夕·鹊桥仙",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=396",
+      "dynasty": "宋"
+    },
+    {
+      "title": "京市舞女·玉楼春",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=399",
+      "dynasty": "宋"
+    },
+    {
+      "title": "喜雪·水龙吟",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=398",
+      "dynasty": "宋"
+    },
+    {
+      "title": "如梦令",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=395",
+      "dynasty": "宋"
+    },
+    {
+      "title": "钗头凤",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=397",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

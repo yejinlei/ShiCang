@@ -1,0 +1,56 @@
+{
+  "name": "马位",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "中秋夜",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6106",
+      "dynasty": "清"
+    },
+    {
+      "title": "湘中弦",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6105",
+      "dynasty": "清"
+    },
+    {
+      "title": "鹦鹉",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6107",
+      "dynasty": "清"
+    },
+    {
+      "title": "中秋夜",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3147",
+      "dynasty": "清"
+    },
+    {
+      "title": "湘中弦",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3146",
+      "dynasty": "清"
+    },
+    {
+      "title": "鹦鹉",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3148",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,56 @@
+{
+  "name": "许谦",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "三月十五夜登迎华观",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=516",
+      "dynasty": "元"
+    },
+    {
+      "title": "冯公岭",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=484",
+      "dynasty": "元"
+    },
+    {
+      "title": "莫过东津馆",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=25",
+      "dynasty": "元"
+    },
+    {
+      "title": "三月十五夜登迎华观",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1978",
+      "dynasty": "元"
+    },
+    {
+      "title": "冯公岭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1946",
+      "dynasty": "元"
+    },
+    {
+      "title": "莫过东津馆",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1487",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,116 @@
+{
+  "name": "实䚮",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 16,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "伤范东生",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6387",
+      "dynasty": "清"
+    },
+    {
+      "title": "夜同凝父宿元朗斋头有怀秋潭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6390",
+      "dynasty": "清"
+    },
+    {
+      "title": "月夜过元弘山房",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6392",
+      "dynasty": "清"
+    },
+    {
+      "title": "江楼望月",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6388",
+      "dynasty": "清"
+    },
+    {
+      "title": "烂溪访周公美不值",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6389",
+      "dynasty": "清"
+    },
+    {
+      "title": "石公山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6385",
+      "dynasty": "清"
+    },
+    {
+      "title": "答董然明",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6391",
+      "dynasty": "清"
+    },
+    {
+      "title": "虾蟆岭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6386",
+      "dynasty": "清"
+    },
+    {
+      "title": "伤范东生",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3428",
+      "dynasty": "清"
+    },
+    {
+      "title": "夜同凝父宿元朗斋头有怀秋潭",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3431",
+      "dynasty": "清"
+    },
+    {
+      "title": "月夜过元弘山房",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3433",
+      "dynasty": "清"
+    },
+    {
+      "title": "江楼望月",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3429",
+      "dynasty": "清"
+    },
+    {
+      "title": "烂溪访周公美不值",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3430",
+      "dynasty": "清"
+    },
+    {
+      "title": "石公山",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3426",
+      "dynasty": "清"
+    },
+    {
+      "title": "答董然明",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3432",
+      "dynasty": "清"
+    },
+    {
+      "title": "虾蟆岭",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3427",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

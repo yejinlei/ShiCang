@@ -1,0 +1,104 @@
+{
+  "name": "徐乾学",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 14,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "北征",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3918",
+      "dynasty": "清"
+    },
+    {
+      "title": "怀友人远戍",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3920",
+      "dynasty": "清"
+    },
+    {
+      "title": "怀汉槎在狱",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3919",
+      "dynasty": "清"
+    },
+    {
+      "title": "感遇",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3916",
+      "dynasty": "清"
+    },
+    {
+      "title": "请告得旨留别诸公",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3922",
+      "dynasty": "清"
+    },
+    {
+      "title": "送万季野南还",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3921",
+      "dynasty": "清"
+    },
+    {
+      "title": "陇山歌送许天玉之官新安",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3917",
+      "dynasty": "清"
+    },
+    {
+      "title": "北征",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=959",
+      "dynasty": "清"
+    },
+    {
+      "title": "怀友人远戍",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=961",
+      "dynasty": "清"
+    },
+    {
+      "title": "怀汉槎在狱",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=960",
+      "dynasty": "清"
+    },
+    {
+      "title": "感遇",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=957",
+      "dynasty": "清"
+    },
+    {
+      "title": "请告得旨留别诸公",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=963",
+      "dynasty": "清"
+    },
+    {
+      "title": "送万季野南还",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=962",
+      "dynasty": "清"
+    },
+    {
+      "title": "陇山歌送许天玉之官新安",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=958",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,152 @@
+{
+  "name": "方登峄",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 22,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "七兄以诗慰病和答",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5001",
+      "dynasty": "清"
+    },
+    {
+      "title": "与毛会侯",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5003",
+      "dynasty": "清"
+    },
+    {
+      "title": "出西郊道过摩诃庵经前明宦寺葬地",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4998",
+      "dynasty": "清"
+    },
+    {
+      "title": "古诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4996",
+      "dynasty": "清"
+    },
+    {
+      "title": "望南信不到",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4999",
+      "dynasty": "清"
+    },
+    {
+      "title": "村北",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4997",
+      "dynasty": "清"
+    },
+    {
+      "title": "盘中诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4994",
+      "dynasty": "清"
+    },
+    {
+      "title": "秦女休行（自注：女报仇也，女秦人，名休。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4993",
+      "dynasty": "清"
+    },
+    {
+      "title": "纪事",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5002",
+      "dynasty": "清"
+    },
+    {
+      "title": "老枪来",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4995",
+      "dynasty": "清"
+    },
+    {
+      "title": "霜迟乐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5000",
+      "dynasty": "清"
+    },
+    {
+      "title": "七兄以诗慰病和答",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2042",
+      "dynasty": "清"
+    },
+    {
+      "title": "与毛会侯",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2044",
+      "dynasty": "清"
+    },
+    {
+      "title": "出西郊道过摩诃庵经前明宦寺葬地",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2039",
+      "dynasty": "清"
+    },
+    {
+      "title": "古诗",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2037",
+      "dynasty": "清"
+    },
+    {
+      "title": "望南信不到",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2040",
+      "dynasty": "清"
+    },
+    {
+      "title": "村北",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2038",
+      "dynasty": "清"
+    },
+    {
+      "title": "盘中诗",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2035",
+      "dynasty": "清"
+    },
+    {
+      "title": "秦女休行（自注：女报仇也，女秦人，名休。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2034",
+      "dynasty": "清"
+    },
+    {
+      "title": "纪事",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2043",
+      "dynasty": "清"
+    },
+    {
+      "title": "老枪来",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2036",
+      "dynasty": "清"
+    },
+    {
+      "title": "霜迟乐",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2041",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,56 @@
+{
+  "name": "姚世钰",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "吴兴太守行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6140",
+      "dynasty": "清"
+    },
+    {
+      "title": "哭女",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6142",
+      "dynasty": "清"
+    },
+    {
+      "title": "将至扬州与家人病中别",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6141",
+      "dynasty": "清"
+    },
+    {
+      "title": "吴兴太守行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3181",
+      "dynasty": "清"
+    },
+    {
+      "title": "哭女",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3183",
+      "dynasty": "清"
+    },
+    {
+      "title": "将至扬州与家人病中别",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3182",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,368 @@
+{
+  "name": "徐枋",
+  "zi": "昭法",
+  "hao": "俟斋",
+  "dynasty": "明末清初",
+  "d_order": 14,
+  "birthplace": "长洲",
+  "style": "#8E44AD",
+  "school": "明遗民",
+  "years": "1622—1694",
+  "bio": "明末遗民，隐居苏州天平山终身不仕，与杨无咎、朱用纯并称「吴中三高士」。",
+  "work_count": 58,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "乌鸦关",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2826",
+      "dynasty": "明"
+    },
+    {
+      "title": "九江城南楼晚眺",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2822",
+      "dynasty": "明"
+    },
+    {
+      "title": "伤春",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2809",
+      "dynasty": "明"
+    },
+    {
+      "title": "别诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2800",
+      "dynasty": "明"
+    },
+    {
+      "title": "咏怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2808",
+      "dynasty": "明"
+    },
+    {
+      "title": "喜康小范孝廉至，兼吊杨机部阁学",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2828",
+      "dynasty": "明"
+    },
+    {
+      "title": "威宁伯王襄敏公越",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2804",
+      "dynasty": "明"
+    },
+    {
+      "title": "定襄侯郭忠武公登",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2805",
+      "dynasty": "明"
+    },
+    {
+      "title": "少保戚公继光",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2806",
+      "dynasty": "明"
+    },
+    {
+      "title": "感旧",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2827",
+      "dynasty": "明"
+    },
+    {
+      "title": "故宫燕",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2824",
+      "dynasty": "明"
+    },
+    {
+      "title": "楼桑先主庙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2801",
+      "dynasty": "明"
+    },
+    {
+      "title": "洞庭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2814",
+      "dynasty": "明"
+    },
+    {
+      "title": "洞庭酒楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2813",
+      "dynasty": "明"
+    },
+    {
+      "title": "浮湘礼三闾墓田寻贾生故宅",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2818",
+      "dynasty": "明"
+    },
+    {
+      "title": "渝城度岁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2807",
+      "dynasty": "明"
+    },
+    {
+      "title": "溪行屡经与亡友胡印度别处",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2823",
+      "dynasty": "明"
+    },
+    {
+      "title": "相见坡",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2825",
+      "dynasty": "明"
+    },
+    {
+      "title": "秋夜感怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2812",
+      "dynasty": "明"
+    },
+    {
+      "title": "秋怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2810",
+      "dynasty": "明"
+    },
+    {
+      "title": "精卫",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2811",
+      "dynasty": "明"
+    },
+    {
+      "title": "群盗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2820",
+      "dynasty": "明"
+    },
+    {
+      "title": "莫愁湖赠刘瞻甫",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2819",
+      "dynasty": "明"
+    },
+    {
+      "title": "虞山谒舜祠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2816",
+      "dynasty": "明"
+    },
+    {
+      "title": "西湖上春",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2815",
+      "dynasty": "明"
+    },
+    {
+      "title": "访姜如农城北",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2821",
+      "dynasty": "明"
+    },
+    {
+      "title": "采石",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2817",
+      "dynasty": "明"
+    },
+    {
+      "title": "野人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2803",
+      "dynasty": "明"
+    },
+    {
+      "title": "题河梁泣别图",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2802",
+      "dynasty": "明"
+    },
+    {
+      "title": "乌鸦关",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=822",
+      "dynasty": "明"
+    },
+    {
+      "title": "九江城南楼晚眺",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=818",
+      "dynasty": "明"
+    },
+    {
+      "title": "伤春",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=805",
+      "dynasty": "明"
+    },
+    {
+      "title": "别诗",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=796",
+      "dynasty": "明"
+    },
+    {
+      "title": "咏怀",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=804",
+      "dynasty": "明"
+    },
+    {
+      "title": "喜康小范孝廉至，兼吊杨机部阁学",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=824",
+      "dynasty": "明"
+    },
+    {
+      "title": "威宁伯王襄敏公越",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=800",
+      "dynasty": "明"
+    },
+    {
+      "title": "定襄侯郭忠武公登",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=801",
+      "dynasty": "明"
+    },
+    {
+      "title": "少保戚公继光",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=802",
+      "dynasty": "明"
+    },
+    {
+      "title": "感旧",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=823",
+      "dynasty": "明"
+    },
+    {
+      "title": "故宫燕",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=820",
+      "dynasty": "明"
+    },
+    {
+      "title": "楼桑先主庙",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=797",
+      "dynasty": "明"
+    },
+    {
+      "title": "洞庭",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=810",
+      "dynasty": "明"
+    },
+    {
+      "title": "洞庭酒楼",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=809",
+      "dynasty": "明"
+    },
+    {
+      "title": "浮湘礼三闾墓田寻贾生故宅",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=814",
+      "dynasty": "明"
+    },
+    {
+      "title": "渝城度岁",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=803",
+      "dynasty": "明"
+    },
+    {
+      "title": "溪行屡经与亡友胡印度别处",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=819",
+      "dynasty": "明"
+    },
+    {
+      "title": "相见坡",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=821",
+      "dynasty": "明"
+    },
+    {
+      "title": "秋夜感怀",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=808",
+      "dynasty": "明"
+    },
+    {
+      "title": "秋怀",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=806",
+      "dynasty": "明"
+    },
+    {
+      "title": "精卫",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=807",
+      "dynasty": "明"
+    },
+    {
+      "title": "群盗",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=816",
+      "dynasty": "明"
+    },
+    {
+      "title": "莫愁湖赠刘瞻甫",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=815",
+      "dynasty": "明"
+    },
+    {
+      "title": "虞山谒舜祠",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=812",
+      "dynasty": "明"
+    },
+    {
+      "title": "西湖上春",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=811",
+      "dynasty": "明"
+    },
+    {
+      "title": "访姜如农城北",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=817",
+      "dynasty": "明"
+    },
+    {
+      "title": "采石",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=813",
+      "dynasty": "明"
+    },
+    {
+      "title": "野人",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=799",
+      "dynasty": "明"
+    },
+    {
+      "title": "题河梁泣别图",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=798",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": true
+}

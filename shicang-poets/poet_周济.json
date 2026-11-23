@@ -1,0 +1,62 @@
+{
+  "name": "周济",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清末",
+  "d_order": 16,
+  "birthplace": "",
+  "style": "#795548",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 7,
+  "anthologies": [
+    "名篇精读",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "渡江云",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1221",
+      "dynasty": "清末"
+    },
+    {
+      "title": "满庭芳",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1222",
+      "dynasty": "清末"
+    },
+    {
+      "title": "蝶恋花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1223",
+      "dynasty": "清末"
+    },
+    {
+      "title": "杨花·渡江云",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=177",
+      "dynasty": "清末"
+    },
+    {
+      "title": "犁花·满庭芳",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=178",
+      "dynasty": "清末"
+    },
+    {
+      "title": "蝶恋花",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=179",
+      "dynasty": "清末"
+    },
+    {
+      "title": "蝶恋花",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=180",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": false
+}

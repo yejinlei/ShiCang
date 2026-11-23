@@ -1,0 +1,63 @@
+{
+  "name": "崔颢",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 7,
+  "anthologies": [
+    "万寿唐诗",
+    "千家诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "长干曲 三首",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=64",
+      "dynasty": "唐"
+    },
+    {
+      "title": "长干行",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=14",
+      "dynasty": "唐"
+    },
+    {
+      "title": "黄鹤楼",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=180",
+      "dynasty": "唐"
+    },
+    {
+      "title": "行经华阴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0153",
+      "dynasty": "唐"
+    },
+    {
+      "title": "长干曲 三首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6547",
+      "dynasty": "唐"
+    },
+    {
+      "title": "长干行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0850",
+      "dynasty": "唐"
+    },
+    {
+      "title": "黄鹤楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0154",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

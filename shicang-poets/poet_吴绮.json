@@ -1,0 +1,92 @@
+{
+  "name": "吴绮",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 12,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "入署",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3750",
+      "dynasty": "清"
+    },
+    {
+      "title": "友人纳姬，戏为催妆，姬汪姓，南人也。",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3751",
+      "dynasty": "清"
+    },
+    {
+      "title": "程益言邀饮虎丘酒楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3747",
+      "dynasty": "清"
+    },
+    {
+      "title": "见人扇头是友沂绝句怆然和之",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3749",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠赵莼客",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3748",
+      "dynasty": "清"
+    },
+    {
+      "title": "题画",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3752",
+      "dynasty": "清"
+    },
+    {
+      "title": "入署",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=791",
+      "dynasty": "清"
+    },
+    {
+      "title": "友人纳姬，戏为催妆，姬汪姓，南人也。",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=792",
+      "dynasty": "清"
+    },
+    {
+      "title": "程益言邀饮虎丘酒楼",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=788",
+      "dynasty": "清"
+    },
+    {
+      "title": "见人扇头是友沂绝句怆然和之",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=790",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠赵莼客",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=789",
+      "dynasty": "清"
+    },
+    {
+      "title": "题画",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=793",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,68 @@
+{
+  "name": "史申义",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "南昌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4625",
+      "dynasty": "清"
+    },
+    {
+      "title": "南海杂诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4624",
+      "dynasty": "清"
+    },
+    {
+      "title": "朝云墓",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4626",
+      "dynasty": "清"
+    },
+    {
+      "title": "由富阳至龙游",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4623",
+      "dynasty": "清"
+    },
+    {
+      "title": "南昌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1666",
+      "dynasty": "清"
+    },
+    {
+      "title": "南海杂诗",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1665",
+      "dynasty": "清"
+    },
+    {
+      "title": "朝云墓",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1667",
+      "dynasty": "清"
+    },
+    {
+      "title": "由富阳至龙游",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1664",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

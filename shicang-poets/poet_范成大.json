@@ -1,0 +1,118 @@
+{
+  "name": "范成大",
+  "zi": "致能",
+  "hao": "石湖居士",
+  "dynasty": "南宋",
+  "d_order": 9,
+  "birthplace": "吴郡",
+  "style": "#D35400",
+  "school": "南宋四大家",
+  "years": "1126—1193",
+  "bio": "南宋四大家之一，田园诗成就最高，代表作《四时田园杂兴》。",
+  "work_count": 16,
+  "anthologies": [
+    "千家诗",
+    "名篇精读",
+    "宋词三百首",
+    "绝妙好词"
+  ],
+  "works": [
+    {
+      "title": "村居即事",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=140",
+      "dynasty": "宋"
+    },
+    {
+      "title": "田家",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=139",
+      "dynasty": "宋"
+    },
+    {
+      "title": "忆秦娥",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0647",
+      "dynasty": "宋"
+    },
+    {
+      "title": "朝中措",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7204",
+      "dynasty": "宋"
+    },
+    {
+      "title": "村居即事",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0961",
+      "dynasty": "宋"
+    },
+    {
+      "title": "田家",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0960",
+      "dynasty": "宋"
+    },
+    {
+      "title": "眼儿媚",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1019",
+      "dynasty": "宋"
+    },
+    {
+      "title": "醉落魄",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7203",
+      "dynasty": "宋"
+    },
+    {
+      "title": "霜天晓角",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0648",
+      "dynasty": "宋"
+    },
+    {
+      "title": "忆秦娥",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=127",
+      "dynasty": "宋"
+    },
+    {
+      "title": "眼儿媚",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=128",
+      "dynasty": "宋"
+    },
+    {
+      "title": "霜天晓角",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=129",
+      "dynasty": "宋"
+    },
+    {
+      "title": "忆秦娥",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=6",
+      "dynasty": "宋"
+    },
+    {
+      "title": "朝中措",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=4",
+      "dynasty": "宋"
+    },
+    {
+      "title": "眼儿媚",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=5",
+      "dynasty": "宋"
+    },
+    {
+      "title": "醉落魄",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=3",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": true
+}

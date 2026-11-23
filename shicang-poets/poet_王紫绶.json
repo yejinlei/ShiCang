@@ -1,0 +1,44 @@
+{
+  "name": "王紫绶",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "哭师",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3123",
+      "dynasty": "清"
+    },
+    {
+      "title": "送潘世衡内陟少宗伯",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3122",
+      "dynasty": "清"
+    },
+    {
+      "title": "哭师",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=164",
+      "dynasty": "清"
+    },
+    {
+      "title": "送潘世衡内陟少宗伯",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=163",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

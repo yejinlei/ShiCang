@@ -1,0 +1,80 @@
+{
+  "name": "乔莱",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "下滩",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3904",
+      "dynasty": "清"
+    },
+    {
+      "title": "湘口",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3905",
+      "dynasty": "清"
+    },
+    {
+      "title": "确山道中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3901",
+      "dynasty": "清"
+    },
+    {
+      "title": "过应山县吊杨忠烈公",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3903",
+      "dynasty": "清"
+    },
+    {
+      "title": "过高邮",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3902",
+      "dynasty": "清"
+    },
+    {
+      "title": "下滩",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=945",
+      "dynasty": "清"
+    },
+    {
+      "title": "湘口",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=946",
+      "dynasty": "清"
+    },
+    {
+      "title": "确山道中",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=942",
+      "dynasty": "清"
+    },
+    {
+      "title": "过应山县吊杨忠烈公",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=944",
+      "dynasty": "清"
+    },
+    {
+      "title": "过高邮",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=943",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

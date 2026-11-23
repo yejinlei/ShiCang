@@ -1,0 +1,44 @@
+{
+  "name": "许友",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "江行有饷予酒者",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3621",
+      "dynasty": "清"
+    },
+    {
+      "title": "送郑一作客",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3622",
+      "dynasty": "清"
+    },
+    {
+      "title": "江行有饷予酒者",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=662",
+      "dynasty": "清"
+    },
+    {
+      "title": "送郑一作客",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=663",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

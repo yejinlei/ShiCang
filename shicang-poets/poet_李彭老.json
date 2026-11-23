@@ -1,0 +1,158 @@
+{
+  "name": "李彭老",
+  "zi": "",
+  "hao": "",
+  "dynasty": "宋",
+  "d_order": 8,
+  "birthplace": "",
+  "style": "#7F8C8D",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 23,
+  "anthologies": [
+    "名篇精读",
+    "绝妙好词"
+  ],
+  "works": [
+    {
+      "title": "一萼红",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7463",
+      "dynasty": "宋"
+    },
+    {
+      "title": "四字令",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7469",
+      "dynasty": "宋"
+    },
+    {
+      "title": "壶中天",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7460",
+      "dynasty": "宋"
+    },
+    {
+      "title": "探芳讯",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7465",
+      "dynasty": "宋"
+    },
+    {
+      "title": "木兰花慢",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7459",
+      "dynasty": "宋"
+    },
+    {
+      "title": "法曲献仙音",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7462",
+      "dynasty": "宋"
+    },
+    {
+      "title": "浪淘沙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7468",
+      "dynasty": "宋"
+    },
+    {
+      "title": "生查子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7470",
+      "dynasty": "宋"
+    },
+    {
+      "title": "祝英台近",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7466",
+      "dynasty": "宋"
+    },
+    {
+      "title": "踏莎行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7467",
+      "dynasty": "宋"
+    },
+    {
+      "title": "高阳台",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7461",
+      "dynasty": "宋"
+    },
+    {
+      "title": "四字令",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=283",
+      "dynasty": "宋"
+    },
+    {
+      "title": "官圃赋梅，继草窗韵·法曲献仙音",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=276",
+      "dynasty": "宋"
+    },
+    {
+      "title": "寄弁阳翁·一萼红",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=277",
+      "dynasty": "宋"
+    },
+    {
+      "title": "寄题荪壁山房·高阳台",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=278",
+      "dynasty": "宋"
+    },
+    {
+      "title": "木兰花慢",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=273",
+      "dynasty": "宋"
+    },
+    {
+      "title": "浪淘沙",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=282",
+      "dynasty": "宋"
+    },
+    {
+      "title": "湖上春游继草窗韵·探芳讯",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=279",
+      "dynasty": "宋"
+    },
+    {
+      "title": "生查子",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=284",
+      "dynasty": "宋"
+    },
+    {
+      "title": "登寄闲吟台·壶中天",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=274",
+      "dynasty": "宋"
+    },
+    {
+      "title": "祝英台近",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=280",
+      "dynasty": "宋"
+    },
+    {
+      "title": "落梅·高阳台",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=275",
+      "dynasty": "宋"
+    },
+    {
+      "title": "题草窗十拟后·踏莎行",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=281",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,68 @@
+{
+  "name": "权徳舆",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "万寿唐诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "敷水驿",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=130",
+      "dynasty": "唐"
+    },
+    {
+      "title": "杂兴 二首",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=369",
+      "dynasty": "唐"
+    },
+    {
+      "title": "玉台体",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=131",
+      "dynasty": "唐"
+    },
+    {
+      "title": "赠天竺灵隐二寺主",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=368",
+      "dynasty": "唐"
+    },
+    {
+      "title": "敷水驿",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6606",
+      "dynasty": "唐"
+    },
+    {
+      "title": "杂兴 二首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6824",
+      "dynasty": "唐"
+    },
+    {
+      "title": "玉台体",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6607",
+      "dynasty": "唐"
+    },
+    {
+      "title": "赠天竺灵隐二寺主",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6823",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

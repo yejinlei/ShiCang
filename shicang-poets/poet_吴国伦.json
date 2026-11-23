@@ -1,0 +1,152 @@
+{
+  "name": "吴国伦",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 22,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "寄远曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2633",
+      "dynasty": "明"
+    },
+    {
+      "title": "得元乘书",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2629",
+      "dynasty": "明"
+    },
+    {
+      "title": "暮发滁阳",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2634",
+      "dynasty": "明"
+    },
+    {
+      "title": "登云门诸山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2636",
+      "dynasty": "明"
+    },
+    {
+      "title": "盘江驿阻雨，寄门人汪维",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2635",
+      "dynasty": "明"
+    },
+    {
+      "title": "送姜太史节之使楚王",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2632",
+      "dynasty": "明"
+    },
+    {
+      "title": "送徐行父少参赴关内",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2628",
+      "dynasty": "明"
+    },
+    {
+      "title": "鄱阳湖",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2631",
+      "dynasty": "明"
+    },
+    {
+      "title": "长庚、纯一、舜隆既别忆之",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2638",
+      "dynasty": "明"
+    },
+    {
+      "title": "雨夜沈二丈至",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2637",
+      "dynasty": "明"
+    },
+    {
+      "title": "高州杂咏",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2630",
+      "dynasty": "明"
+    },
+    {
+      "title": "寄远曲",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=629",
+      "dynasty": "明"
+    },
+    {
+      "title": "得元乘书",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=625",
+      "dynasty": "明"
+    },
+    {
+      "title": "暮发滁阳",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=630",
+      "dynasty": "明"
+    },
+    {
+      "title": "登云门诸山",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=632",
+      "dynasty": "明"
+    },
+    {
+      "title": "盘江驿阻雨，寄门人汪维",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=631",
+      "dynasty": "明"
+    },
+    {
+      "title": "送姜太史节之使楚王",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=628",
+      "dynasty": "明"
+    },
+    {
+      "title": "送徐行父少参赴关内",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=624",
+      "dynasty": "明"
+    },
+    {
+      "title": "鄱阳湖",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=627",
+      "dynasty": "明"
+    },
+    {
+      "title": "长庚、纯一、舜隆既别忆之",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=634",
+      "dynasty": "明"
+    },
+    {
+      "title": "雨夜沈二丈至",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=633",
+      "dynasty": "明"
+    },
+    {
+      "title": "高州杂咏",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=626",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,44 @@
+{
+  "name": "杨凭",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "万寿唐诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "送客往荆州",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=480",
+      "dynasty": "唐"
+    },
+    {
+      "title": "雨中怨秋",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=479",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送客往荆州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6933",
+      "dynasty": "唐"
+    },
+    {
+      "title": "雨中怨秋",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6932",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

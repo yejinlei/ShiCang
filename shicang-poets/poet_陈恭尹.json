@@ -1,0 +1,267 @@
+{
+  "name": "陈恭尹",
+  "zi": "元孝",
+  "hao": "独漉子",
+  "dynasty": "明末清初",
+  "d_order": 14,
+  "birthplace": "顺德",
+  "style": "#8E44AD",
+  "school": "岭南三大家",
+  "years": "1631—1700",
+  "bio": "「岭南三大家」之一，终身隐居，诗风沉郁雄浑。",
+  "work_count": 41,
+  "anthologies": [
+    "名篇精读",
+    "明诗",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "九日得顾宁人书",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2907",
+      "dynasty": "明"
+    },
+    {
+      "title": "发舟寄湛用喈钟裴仙湛天石",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2903",
+      "dynasty": "明"
+    },
+    {
+      "title": "明妃怨",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2906",
+      "dynasty": "明"
+    },
+    {
+      "title": "由画溪经三箬入合溪",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2909",
+      "dynasty": "明"
+    },
+    {
+      "title": "秋日西郊宴集",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2905",
+      "dynasty": "明"
+    },
+    {
+      "title": "肃宁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2912",
+      "dynasty": "明"
+    },
+    {
+      "title": "自磁州趋邯郸途中即事",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2910",
+      "dynasty": "明"
+    },
+    {
+      "title": "虎丘题壁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2904",
+      "dynasty": "明"
+    },
+    {
+      "title": "蜀中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2900",
+      "dynasty": "明"
+    },
+    {
+      "title": "邺中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2901",
+      "dynasty": "明"
+    },
+    {
+      "title": "金棺峡",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2911",
+      "dynasty": "明"
+    },
+    {
+      "title": "金陵杂感",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2908",
+      "dynasty": "明"
+    },
+    {
+      "title": "隋宫",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2902",
+      "dynasty": "明"
+    },
+    {
+      "title": "九日得顾宁人书",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=903",
+      "dynasty": "明"
+    },
+    {
+      "title": "发舟寄湛用喈钟裴仙湛天石",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=899",
+      "dynasty": "明"
+    },
+    {
+      "title": "明妃怨",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=902",
+      "dynasty": "明"
+    },
+    {
+      "title": "由画溪经三箬入合溪",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=905",
+      "dynasty": "明"
+    },
+    {
+      "title": "秋日西郊宴集",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=901",
+      "dynasty": "明"
+    },
+    {
+      "title": "肃宁",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=908",
+      "dynasty": "明"
+    },
+    {
+      "title": "自磁州趋邯郸途中即事",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=906",
+      "dynasty": "明"
+    },
+    {
+      "title": "虎丘题壁",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=900",
+      "dynasty": "明"
+    },
+    {
+      "title": "蜀中",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=896",
+      "dynasty": "明"
+    },
+    {
+      "title": "邺中",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=897",
+      "dynasty": "明"
+    },
+    {
+      "title": "金棺峡",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=907",
+      "dynasty": "明"
+    },
+    {
+      "title": "金陵杂感",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=904",
+      "dynasty": "明"
+    },
+    {
+      "title": "隋宫",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=898",
+      "dynasty": "明"
+    },
+    {
+      "title": "日本刀歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3726",
+      "dynasty": "清"
+    },
+    {
+      "title": "柏舟行为区母陈太君赋",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3728",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋戍",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3730",
+      "dynasty": "清"
+    },
+    {
+      "title": "读秦纪",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3733",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠余鸿客",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3727",
+      "dynasty": "清"
+    },
+    {
+      "title": "边草",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3729",
+      "dynasty": "清"
+    },
+    {
+      "title": "送姜山上人游南岳",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3732",
+      "dynasty": "清"
+    },
+    {
+      "title": "日本刀歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=767",
+      "dynasty": "清"
+    },
+    {
+      "title": "柏舟行为区母陈太君赋",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=769",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋戍",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=771",
+      "dynasty": "清"
+    },
+    {
+      "title": "读秦纪",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=774",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠余鸿客",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=768",
+      "dynasty": "清"
+    },
+    {
+      "title": "边草",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=770",
+      "dynasty": "清"
+    },
+    {
+      "title": "送姜山上人游南岳",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=773",
+      "dynasty": "清"
+    },
+    {
+      "title": "隋宫",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=772",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": true
+}

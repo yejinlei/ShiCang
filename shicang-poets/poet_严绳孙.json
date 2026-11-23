@@ -1,0 +1,68 @@
+{
+  "name": "严绳孙",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "发维扬",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4113",
+      "dynasty": "清"
+    },
+    {
+      "title": "吴王井",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4116",
+      "dynasty": "清"
+    },
+    {
+      "title": "春后",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4114",
+      "dynasty": "清"
+    },
+    {
+      "title": "烟雨渡江",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4115",
+      "dynasty": "清"
+    },
+    {
+      "title": "发维扬",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1154",
+      "dynasty": "清"
+    },
+    {
+      "title": "吴王井",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1157",
+      "dynasty": "清"
+    },
+    {
+      "title": "春后",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1155",
+      "dynasty": "清"
+    },
+    {
+      "title": "烟雨渡江",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1156",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

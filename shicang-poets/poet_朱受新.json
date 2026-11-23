@@ -1,0 +1,104 @@
+{
+  "name": "朱受新",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 14,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "吴官词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6233",
+      "dynasty": "清"
+    },
+    {
+      "title": "咏蝉",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6230",
+      "dynasty": "清"
+    },
+    {
+      "title": "明河曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6235",
+      "dynasty": "清"
+    },
+    {
+      "title": "春莺曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6234",
+      "dynasty": "清"
+    },
+    {
+      "title": "流萤词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6232",
+      "dynasty": "清"
+    },
+    {
+      "title": "独处怨",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6231",
+      "dynasty": "清"
+    },
+    {
+      "title": "白秋海棠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6236",
+      "dynasty": "清"
+    },
+    {
+      "title": "吴官词",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3274",
+      "dynasty": "清"
+    },
+    {
+      "title": "咏蝉",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3271",
+      "dynasty": "清"
+    },
+    {
+      "title": "明河曲",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3276",
+      "dynasty": "清"
+    },
+    {
+      "title": "春莺曲",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3275",
+      "dynasty": "清"
+    },
+    {
+      "title": "流萤词",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3273",
+      "dynasty": "清"
+    },
+    {
+      "title": "独处怨",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3272",
+      "dynasty": "清"
+    },
+    {
+      "title": "白秋海棠",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3277",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

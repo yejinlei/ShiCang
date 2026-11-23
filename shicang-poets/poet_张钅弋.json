@@ -1,0 +1,44 @@
+{
+  "name": "张钅弋",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "月夜黄姑滩露坐简山中一二知己",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6012",
+      "dynasty": "清"
+    },
+    {
+      "title": "闽中九日寄吴中诸兄弟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6013",
+      "dynasty": "清"
+    },
+    {
+      "title": "月夜黄姑滩露坐简山中一二知己",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3053",
+      "dynasty": "清"
+    },
+    {
+      "title": "闽中九日寄吴中诸兄弟",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3054",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

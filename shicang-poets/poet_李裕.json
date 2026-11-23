@@ -1,0 +1,44 @@
+{
+  "name": "李裕",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "次宋编修显夫南陌诗四十韵",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=385",
+      "dynasty": "元"
+    },
+    {
+      "title": "送赵鹏举之西台掾",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=365",
+      "dynasty": "元"
+    },
+    {
+      "title": "次宋编修显夫南陌诗四十韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1847",
+      "dynasty": "元"
+    },
+    {
+      "title": "送赵鹏举之西台掾",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1827",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

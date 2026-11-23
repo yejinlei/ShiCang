@@ -1,0 +1,32 @@
+{
+  "name": "函可",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 2,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "丁亥春将归罗浮留别黄仙裳",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6403",
+      "dynasty": "清"
+    },
+    {
+      "title": "丁亥春将归罗浮留别黄仙裳",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3444",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

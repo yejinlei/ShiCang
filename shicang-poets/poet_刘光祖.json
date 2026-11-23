@@ -1,0 +1,44 @@
+{
+  "name": "刘光祖",
+  "zi": "",
+  "hao": "",
+  "dynasty": "宋",
+  "d_order": 8,
+  "birthplace": "",
+  "style": "#7F8C8D",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "绝妙好词"
+  ],
+  "works": [
+    {
+      "title": "洞仙歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7224",
+      "dynasty": "宋"
+    },
+    {
+      "title": "鹧鸪天",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7225",
+      "dynasty": "宋"
+    },
+    {
+      "title": "败荷·洞仙歌",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=29",
+      "dynasty": "宋"
+    },
+    {
+      "title": "鹧鸪天",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=30",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

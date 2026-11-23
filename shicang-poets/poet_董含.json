@@ -1,0 +1,44 @@
+{
+  "name": "董含",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "旅窗读汉书",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3371",
+      "dynasty": "清"
+    },
+    {
+      "title": "登穹窿谒句曲行宫",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3372",
+      "dynasty": "清"
+    },
+    {
+      "title": "旅窗读汉书",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=412",
+      "dynasty": "清"
+    },
+    {
+      "title": "登穹窿谒句曲行宫",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=413",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

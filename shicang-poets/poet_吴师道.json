@@ -1,0 +1,92 @@
+{
+  "name": "吴师道",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 12,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "城外见杏花",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=280",
+      "dynasty": "元"
+    },
+    {
+      "title": "德兴开化道中三首",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=21",
+      "dynasty": "元"
+    },
+    {
+      "title": "桐庐夜泊",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=98",
+      "dynasty": "元"
+    },
+    {
+      "title": "赤壁图",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=514",
+      "dynasty": "元"
+    },
+    {
+      "title": "野中暮归有怀",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=515",
+      "dynasty": "元"
+    },
+    {
+      "title": "题官舍壁",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=158",
+      "dynasty": "元"
+    },
+    {
+      "title": "城外见杏花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1742",
+      "dynasty": "元"
+    },
+    {
+      "title": "德兴开化道中三首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1483",
+      "dynasty": "元"
+    },
+    {
+      "title": "桐庐夜泊",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1560",
+      "dynasty": "元"
+    },
+    {
+      "title": "赤壁图",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1976",
+      "dynasty": "元"
+    },
+    {
+      "title": "野中暮归有怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1977",
+      "dynasty": "元"
+    },
+    {
+      "title": "题官舍壁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1620",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

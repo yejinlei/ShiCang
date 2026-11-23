@@ -1,0 +1,56 @@
+{
+  "name": "戴冠",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "立春日舟中题",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2386",
+      "dynasty": "明"
+    },
+    {
+      "title": "题姚少师画竹",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2232",
+      "dynasty": "明"
+    },
+    {
+      "title": "题韩信庙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2387",
+      "dynasty": "明"
+    },
+    {
+      "title": "立春日舟中题",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=382",
+      "dynasty": "明"
+    },
+    {
+      "title": "题姚少师画竹",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=228",
+      "dynasty": "明"
+    },
+    {
+      "title": "题韩信庙",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=383",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

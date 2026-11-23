@@ -1,0 +1,44 @@
+{
+  "name": "朱尔迈",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "葛洪丹井而寻唐顾逋翁读书台旧址",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3698",
+      "dynasty": "清"
+    },
+    {
+      "title": "铁陵庙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3699",
+      "dynasty": "清"
+    },
+    {
+      "title": "葛洪丹井而寻唐顾逋翁读书台旧址",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=739",
+      "dynasty": "清"
+    },
+    {
+      "title": "铁陵庙",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=740",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

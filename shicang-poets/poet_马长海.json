@@ -1,0 +1,56 @@
+{
+  "name": "马长海",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "再赠西山隐者",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6039",
+      "dynasty": "清"
+    },
+    {
+      "title": "移居沧州蔡玉躬阁学以诗送行次韵奉酬",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6038",
+      "dynasty": "清"
+    },
+    {
+      "title": "读陶诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6040",
+      "dynasty": "清"
+    },
+    {
+      "title": "再赠西山隐者",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3080",
+      "dynasty": "清"
+    },
+    {
+      "title": "移居沧州蔡玉躬阁学以诗送行次韵奉酬",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3079",
+      "dynasty": "清"
+    },
+    {
+      "title": "读陶诗",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3081",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

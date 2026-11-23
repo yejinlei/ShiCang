@@ -1,0 +1,153 @@
+{
+  "name": "张昱",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 22,
+  "anthologies": [
+    "元诗",
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "五王行春图",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=492",
+      "dynasty": "元"
+    },
+    {
+      "title": "感事",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=521",
+      "dynasty": "元"
+    },
+    {
+      "title": "湖楼",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=292",
+      "dynasty": "元"
+    },
+    {
+      "title": "西山亭留题",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=293",
+      "dynasty": "元"
+    },
+    {
+      "title": "赠寓客还瓜州",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=297",
+      "dynasty": "元"
+    },
+    {
+      "title": "赠沈生还江州",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=296",
+      "dynasty": "元"
+    },
+    {
+      "title": "过歌风台",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=107",
+      "dynasty": "元"
+    },
+    {
+      "title": "送丁道士还丰陵",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=295",
+      "dynasty": "元"
+    },
+    {
+      "title": "醉题",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=294",
+      "dynasty": "元"
+    },
+    {
+      "title": "五王行春图",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1954",
+      "dynasty": "元"
+    },
+    {
+      "title": "感事",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1983",
+      "dynasty": "元"
+    },
+    {
+      "title": "湖楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1754",
+      "dynasty": "元"
+    },
+    {
+      "title": "西山亭留题",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1755",
+      "dynasty": "元"
+    },
+    {
+      "title": "赠寓客还瓜州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1759",
+      "dynasty": "元"
+    },
+    {
+      "title": "赠沈生还江州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1758",
+      "dynasty": "元"
+    },
+    {
+      "title": "过歌风台",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1569",
+      "dynasty": "元"
+    },
+    {
+      "title": "送丁道士还丰陵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1757",
+      "dynasty": "元"
+    },
+    {
+      "title": "醉题",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1756",
+      "dynasty": "元"
+    },
+    {
+      "title": "如此江山清集同王仲玉、陆进之、吕世臣作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2028",
+      "dynasty": "明"
+    },
+    {
+      "title": "白翎雀歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2027",
+      "dynasty": "明"
+    },
+    {
+      "title": "如此江山清集同王仲玉、陆进之、吕世臣作",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=23",
+      "dynasty": "明"
+    },
+    {
+      "title": "白翎雀歌",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=22",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

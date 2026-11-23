@@ -1,0 +1,44 @@
+{
+  "name": "晁补之",
+  "zi": "",
+  "hao": "",
+  "dynasty": "宋",
+  "d_order": 8,
+  "birthplace": "",
+  "style": "#7F8C8D",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "宋词三百首"
+  ],
+  "works": [
+    {
+      "title": "忆少年",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0519",
+      "dynasty": "宋"
+    },
+    {
+      "title": "水龙吟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0520",
+      "dynasty": "宋"
+    },
+    {
+      "title": "洞仙歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0521",
+      "dynasty": "宋"
+    },
+    {
+      "title": "次韵林圣予《惜春》·水龙吟",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=78",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

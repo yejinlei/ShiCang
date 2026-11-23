@@ -1,0 +1,272 @@
+{
+  "name": "顾绛",
+  "zi": "宁人",
+  "hao": "亭林先生",
+  "dynasty": "明末清初",
+  "d_order": 14,
+  "birthplace": "昆山",
+  "style": "#8E44AD",
+  "school": "清初三先生",
+  "years": "1613—1682",
+  "bio": "即顾炎武，明末清初三大思想家之一，倡「天下兴亡，匹夫有责」。",
+  "work_count": 42,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "与江南诸子别",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2846",
+      "dynasty": "明"
+    },
+    {
+      "title": "关山月",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2858",
+      "dynasty": "明"
+    },
+    {
+      "title": "刘谏议祠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2848",
+      "dynasty": "明"
+    },
+    {
+      "title": "华山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2851",
+      "dynasty": "明"
+    },
+    {
+      "title": "感遇",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2860",
+      "dynasty": "明"
+    },
+    {
+      "title": "禹陵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2852",
+      "dynasty": "明"
+    },
+    {
+      "title": "蒿山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2844",
+      "dynasty": "明"
+    },
+    {
+      "title": "谒夷齐庙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2841",
+      "dynasty": "明"
+    },
+    {
+      "title": "赋得秋柳",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2850",
+      "dynasty": "明"
+    },
+    {
+      "title": "赠郝将军太极",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2849",
+      "dynasty": "明"
+    },
+    {
+      "title": "过矩亭拜李先生墓下",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2842",
+      "dynasty": "明"
+    },
+    {
+      "title": "述古",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2840",
+      "dynasty": "明"
+    },
+    {
+      "title": "酬傅处士",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2847",
+      "dynasty": "明"
+    },
+    {
+      "title": "酬王处士九日见怀之作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2845",
+      "dynasty": "明"
+    },
+    {
+      "title": "铁马",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2857",
+      "dynasty": "明"
+    },
+    {
+      "title": "闻雁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2859",
+      "dynasty": "明"
+    },
+    {
+      "title": "雪下红",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2856",
+      "dynasty": "明"
+    },
+    {
+      "title": "题李龙眠诸夷职贡图",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2854",
+      "dynasty": "明"
+    },
+    {
+      "title": "高渐离击筑",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2853",
+      "dynasty": "明"
+    },
+    {
+      "title": "黄孝子端木万里寻亲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2855",
+      "dynasty": "明"
+    },
+    {
+      "title": "龙门",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2843",
+      "dynasty": "明"
+    },
+    {
+      "title": "与江南诸子别",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=842",
+      "dynasty": "明"
+    },
+    {
+      "title": "关山月",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=854",
+      "dynasty": "明"
+    },
+    {
+      "title": "刘谏议祠",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=844",
+      "dynasty": "明"
+    },
+    {
+      "title": "华山",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=847",
+      "dynasty": "明"
+    },
+    {
+      "title": "感遇",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=856",
+      "dynasty": "明"
+    },
+    {
+      "title": "禹陵",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=848",
+      "dynasty": "明"
+    },
+    {
+      "title": "蒿山",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=840",
+      "dynasty": "明"
+    },
+    {
+      "title": "谒夷齐庙",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=837",
+      "dynasty": "明"
+    },
+    {
+      "title": "赋得秋柳",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=846",
+      "dynasty": "明"
+    },
+    {
+      "title": "赠郝将军太极",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=845",
+      "dynasty": "明"
+    },
+    {
+      "title": "过矩亭拜李先生墓下",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=838",
+      "dynasty": "明"
+    },
+    {
+      "title": "述古",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=836",
+      "dynasty": "明"
+    },
+    {
+      "title": "酬傅处士",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=843",
+      "dynasty": "明"
+    },
+    {
+      "title": "酬王处士九日见怀之作",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=841",
+      "dynasty": "明"
+    },
+    {
+      "title": "铁马",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=853",
+      "dynasty": "明"
+    },
+    {
+      "title": "闻雁",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=855",
+      "dynasty": "明"
+    },
+    {
+      "title": "雪下红",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=852",
+      "dynasty": "明"
+    },
+    {
+      "title": "题李龙眠诸夷职贡图",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=850",
+      "dynasty": "明"
+    },
+    {
+      "title": "高渐离击筑",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=849",
+      "dynasty": "明"
+    },
+    {
+      "title": "黄孝子端木万里寻亲",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=851",
+      "dynasty": "明"
+    },
+    {
+      "title": "龙门",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=839",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": true
+}

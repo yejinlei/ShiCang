@@ -1,0 +1,212 @@
+{
+  "name": "王鹏运",
+  "zi": "佑遐",
+  "hao": "半塘",
+  "dynasty": "清末",
+  "d_order": 16,
+  "birthplace": "临桂",
+  "style": "#795548",
+  "school": "晚清四大家",
+  "years": "1849—1904",
+  "bio": "「晚清四大家」之首，临桂词派开创者。",
+  "work_count": 32,
+  "anthologies": [
+    "名篇精读",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "三姝媚",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1315",
+      "dynasty": "清末"
+    },
+    {
+      "title": "临江仙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1314",
+      "dynasty": "清末"
+    },
+    {
+      "title": "八声甘州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1305",
+      "dynasty": "清末"
+    },
+    {
+      "title": "减字木兰花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1311",
+      "dynasty": "清末"
+    },
+    {
+      "title": "南乡子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1309",
+      "dynasty": "清末"
+    },
+    {
+      "title": "念奴娇",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1304",
+      "dynasty": "清末"
+    },
+    {
+      "title": "摸鱼子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1313",
+      "dynasty": "清末"
+    },
+    {
+      "title": "沁园春",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1312",
+      "dynasty": "清末"
+    },
+    {
+      "title": "浣溪沙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1310",
+      "dynasty": "清末"
+    },
+    {
+      "title": "浪淘沙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1317",
+      "dynasty": "清末"
+    },
+    {
+      "title": "满江红",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1318",
+      "dynasty": "清末"
+    },
+    {
+      "title": "点绛唇",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1308",
+      "dynasty": "清末"
+    },
+    {
+      "title": "玉楼春",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1316",
+      "dynasty": "清末"
+    },
+    {
+      "title": "玉漏迟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1307",
+      "dynasty": "清末"
+    },
+    {
+      "title": "祝英台近",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1306",
+      "dynasty": "清末"
+    },
+    {
+      "title": "鹧鸪天",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1319",
+      "dynasty": "清末"
+    },
+    {
+      "title": "以汇刻宋、元人词赠次珊，承赋词报谢，即用原调酬之。·摸鱼子",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=269",
+      "dynasty": "清末"
+    },
+    {
+      "title": "减字木兰花",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=267",
+      "dynasty": "清末"
+    },
+    {
+      "title": "南乡子",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=265",
+      "dynasty": "清末"
+    },
+    {
+      "title": "岛佛祭时，艳传千古。八百年来，未有为词修祀事者。今年辛峰来京度岁，倡酬之乐，雅擅一时。因於除夕，陈词以祭，谱此迎神。而以送神之曲属吾弟焉。·沁园春",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=268",
+      "dynasty": "清末"
+    },
+    {
+      "title": "朱仙镇谒岳鄂王祠，敬赋。·满江红",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=274",
+      "dynasty": "清末"
+    },
+    {
+      "title": "枕上得《家山》二语，漫谱此调。梦生於想，歌也有思，不自知其然而然也。·临江仙",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=270",
+      "dynasty": "清末"
+    },
+    {
+      "title": "次珊读唐人《息夫人不言赋》，有感於《外结舌而内结肠，先箝心而后箝口》之语，赋词索和，聊复断声，亦《盍各》之旨也。·三姝媚",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=271",
+      "dynasty": "清末"
+    },
+    {
+      "title": "次韵道希感春·祝英台近",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=262",
+      "dynasty": "清末"
+    },
+    {
+      "title": "玉楼春",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=272",
+      "dynasty": "清末"
+    },
+    {
+      "title": "玉漏迟",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=263",
+      "dynasty": "清末"
+    },
+    {
+      "title": "登明台，上绝顶，望明陵。·念奴娇",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=260",
+      "dynasty": "清末"
+    },
+    {
+      "title": "登玄墓还元阁，用叔问《重泊光福里》韵。·鹧鸪天",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=275",
+      "dynasty": "清末"
+    },
+    {
+      "title": "自题《庚子秋词》后·浪淘沙",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=273",
+      "dynasty": "清末"
+    },
+    {
+      "title": "送伯愚都护之任乌里雅苏台·八声甘州",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=261",
+      "dynasty": "清末"
+    },
+    {
+      "title": "钱春·点绛唇",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=264",
+      "dynasty": "清末"
+    },
+    {
+      "title": "题丁兵仆丈画马·浣溪沙",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=266",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": true
+}

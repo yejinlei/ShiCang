@@ -1,0 +1,68 @@
+{
+  "name": "王顼龄",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "喜湖南诸路大捷和学士李容斋前辈韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4027",
+      "dynasty": "清"
+    },
+    {
+      "title": "读史有感",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4026",
+      "dynasty": "清"
+    },
+    {
+      "title": "送李天生归养",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4028",
+      "dynasty": "清"
+    },
+    {
+      "title": "魏忠贤衣冠墓",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4025",
+      "dynasty": "清"
+    },
+    {
+      "title": "喜湖南诸路大捷和学士李容斋前辈韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1068",
+      "dynasty": "清"
+    },
+    {
+      "title": "读史有感",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1067",
+      "dynasty": "清"
+    },
+    {
+      "title": "送李天生归养",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1069",
+      "dynasty": "清"
+    },
+    {
+      "title": "魏忠贤衣冠墓",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1066",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

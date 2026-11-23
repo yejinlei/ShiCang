@@ -1,0 +1,63 @@
+{
+  "name": "贺知章",
+  "zi": "季真",
+  "hao": "四明狂客",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "越州永兴",
+  "style": "#ae3a2b",
+  "school": "吴中四士",
+  "years": "约659—约744",
+  "bio": "号四明狂客，「饮中八仙」之一。代表作《回乡偶书》《咏柳》。",
+  "work_count": 7,
+  "anthologies": [
+    "万寿唐诗",
+    "千家诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "回乡偶书 二首",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=761",
+      "dynasty": "唐"
+    },
+    {
+      "title": "柳枝词",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=760",
+      "dynasty": "唐"
+    },
+    {
+      "title": "题袁氏别业",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=10",
+      "dynasty": "唐"
+    },
+    {
+      "title": "回乡偶书",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0375",
+      "dynasty": "唐"
+    },
+    {
+      "title": "回乡偶书 二首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7198",
+      "dynasty": "唐"
+    },
+    {
+      "title": "柳枝词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7197",
+      "dynasty": "唐"
+    },
+    {
+      "title": "题袁氏别业",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0847",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": true
+}

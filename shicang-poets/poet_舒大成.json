@@ -1,0 +1,68 @@
+{
+  "name": "舒大成",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "山行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5276",
+      "dynasty": "清"
+    },
+    {
+      "title": "当时",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5278",
+      "dynasty": "清"
+    },
+    {
+      "title": "柬灵皋先生",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5277",
+      "dynasty": "清"
+    },
+    {
+      "title": "自城子山还宿白家滩赠主人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5275",
+      "dynasty": "清"
+    },
+    {
+      "title": "山行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2317",
+      "dynasty": "清"
+    },
+    {
+      "title": "当时",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2319",
+      "dynasty": "清"
+    },
+    {
+      "title": "柬灵皋先生",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2318",
+      "dynasty": "清"
+    },
+    {
+      "title": "自城子山还宿白家滩赠主人",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2316",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

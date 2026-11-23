@@ -1,0 +1,194 @@
+{
+  "name": "郑文焯",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清末",
+  "d_order": 16,
+  "birthplace": "",
+  "style": "#795548",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 29,
+  "anthologies": [
+    "名篇精读",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "六丑",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1349",
+      "dynasty": "清末"
+    },
+    {
+      "title": "前调",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1351",
+      "dynasty": "清末"
+    },
+    {
+      "title": "安公子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1348",
+      "dynasty": "清末"
+    },
+    {
+      "title": "庆春宫",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1350",
+      "dynasty": "清末"
+    },
+    {
+      "title": "杨柳枝八首录五",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1353",
+      "dynasty": "清末"
+    },
+    {
+      "title": "永遇乐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1352",
+      "dynasty": "清末"
+    },
+    {
+      "title": "浣溪沙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1345",
+      "dynasty": "清末"
+    },
+    {
+      "title": "湘春夜月",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1343",
+      "dynasty": "清末"
+    },
+    {
+      "title": "玉楼春",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1341",
+      "dynasty": "清末"
+    },
+    {
+      "title": "留春令",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1339",
+      "dynasty": "清末"
+    },
+    {
+      "title": "虞美人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1340",
+      "dynasty": "清末"
+    },
+    {
+      "title": "谒金门",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1344",
+      "dynasty": "清末"
+    },
+    {
+      "title": "迷神引",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1347",
+      "dynasty": "清末"
+    },
+    {
+      "title": "采桑子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1342",
+      "dynasty": "清末"
+    },
+    {
+      "title": "中秋夜，红楼离席。·留春令",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=295",
+      "dynasty": "清末"
+    },
+    {
+      "title": "从石楼、石壁，往来邓尉山中。·浣溪沙",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=301",
+      "dynasty": "清末"
+    },
+    {
+      "title": "冬绪羁吟·庆春宫",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=306",
+      "dynasty": "清末"
+    },
+    {
+      "title": "同羁夜集，秋晚叙意。·前调",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=307",
+      "dynasty": "清末"
+    },
+    {
+      "title": "安公子",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=304",
+      "dynasty": "清末"
+    },
+    {
+      "title": "春夜梦落梅，感忆，因题。·永遇乐",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=308",
+      "dynasty": "清末"
+    },
+    {
+      "title": "湘春夜月",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=299",
+      "dynasty": "清末"
+    },
+    {
+      "title": "玉楼春",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=297",
+      "dynasty": "清末"
+    },
+    {
+      "title": "芙蓉谢后作·六丑",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=305",
+      "dynasty": "清末"
+    },
+    {
+      "title": "虞美人",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=296",
+      "dynasty": "清末"
+    },
+    {
+      "title": "谒金门",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=300",
+      "dynasty": "清末"
+    },
+    {
+      "title": "谒金门",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=302",
+      "dynasty": "清末"
+    },
+    {
+      "title": "赋小城梅枝·杨柳枝八首录五",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=309",
+      "dynasty": "清末"
+    },
+    {
+      "title": "迷神引",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=303",
+      "dynasty": "清末"
+    },
+    {
+      "title": "采桑子",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=298",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": false
+}

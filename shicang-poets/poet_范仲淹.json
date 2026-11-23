@@ -1,0 +1,56 @@
+{
+  "name": "范仲淹",
+  "zi": "希文",
+  "hao": "",
+  "dynasty": "北宋",
+  "d_order": 7,
+  "birthplace": "吴县",
+  "style": "#2980B9",
+  "school": "豪放词先驱",
+  "years": "989—1052",
+  "bio": "北宋名臣，词开豪放一脉。代表作《渔家傲·秋思》《岳阳楼记》。",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "宋词三百首"
+  ],
+  "works": [
+    {
+      "title": "御街行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0644",
+      "dynasty": "宋"
+    },
+    {
+      "title": "渔家傲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0645",
+      "dynasty": "宋"
+    },
+    {
+      "title": "渔家傲·秋思",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0837",
+      "dynasty": "宋"
+    },
+    {
+      "title": "苏幕遮",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0646",
+      "dynasty": "宋"
+    },
+    {
+      "title": "御街行",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=3",
+      "dynasty": "宋"
+    },
+    {
+      "title": "苏幕遮",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=2",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": true
+}

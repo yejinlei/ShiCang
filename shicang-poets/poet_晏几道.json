@@ -1,0 +1,176 @@
+{
+  "name": "晏几道",
+  "zi": "",
+  "hao": "",
+  "dynasty": "宋",
+  "d_order": 8,
+  "birthplace": "",
+  "style": "#7F8C8D",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 26,
+  "anthologies": [
+    "名篇精读",
+    "宋词三百首"
+  ],
+  "works": [
+    {
+      "title": "临江仙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0522",
+      "dynasty": "宋"
+    },
+    {
+      "title": "六么令",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0523",
+      "dynasty": "宋"
+    },
+    {
+      "title": "御街行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0524",
+      "dynasty": "宋"
+    },
+    {
+      "title": "思远人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0525",
+      "dynasty": "宋"
+    },
+    {
+      "title": "木兰花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0526",
+      "dynasty": "宋"
+    },
+    {
+      "title": "清平乐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0527",
+      "dynasty": "宋"
+    },
+    {
+      "title": "生查子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0528",
+      "dynasty": "宋"
+    },
+    {
+      "title": "留春令",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0529",
+      "dynasty": "宋"
+    },
+    {
+      "title": "虞美人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0530",
+      "dynasty": "宋"
+    },
+    {
+      "title": "蝶恋花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0531",
+      "dynasty": "宋"
+    },
+    {
+      "title": "阮郎归",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0532",
+      "dynasty": "宋"
+    },
+    {
+      "title": "鹧鸪天",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0533",
+      "dynasty": "宋"
+    },
+    {
+      "title": "临江仙",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=45",
+      "dynasty": "宋"
+    },
+    {
+      "title": "六么令",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=54",
+      "dynasty": "宋"
+    },
+    {
+      "title": "御街行",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=55",
+      "dynasty": "宋"
+    },
+    {
+      "title": "思远人",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=58",
+      "dynasty": "宋"
+    },
+    {
+      "title": "木兰花",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=49",
+      "dynasty": "宋"
+    },
+    {
+      "title": "木兰花",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=50",
+      "dynasty": "宋"
+    },
+    {
+      "title": "清平乐",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=51",
+      "dynasty": "宋"
+    },
+    {
+      "title": "生查子",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=48",
+      "dynasty": "宋"
+    },
+    {
+      "title": "留春令",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=57",
+      "dynasty": "宋"
+    },
+    {
+      "title": "虞美人",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=56",
+      "dynasty": "宋"
+    },
+    {
+      "title": "蝶恋花",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=46",
+      "dynasty": "宋"
+    },
+    {
+      "title": "阮郎归",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=52",
+      "dynasty": "宋"
+    },
+    {
+      "title": "阮郎归",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=53",
+      "dynasty": "宋"
+    },
+    {
+      "title": "鹧鸪天",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=47",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

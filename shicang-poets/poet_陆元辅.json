@@ -1,0 +1,56 @@
+{
+  "name": "陆元辅",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "九日侯砚德病起招寻王氏南园（自注：次老杜《九日蓝田崔氏庄》韵。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3577",
+      "dynasty": "清"
+    },
+    {
+      "title": "送文介石学博归滇南",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3578",
+      "dynasty": "清"
+    },
+    {
+      "title": "送袁重其归吴门",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3576",
+      "dynasty": "清"
+    },
+    {
+      "title": "九日侯砚德病起招寻王氏南园（自注：次老杜《九日蓝田崔氏庄》韵。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=618",
+      "dynasty": "清"
+    },
+    {
+      "title": "送文介石学博归滇南",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=619",
+      "dynasty": "清"
+    },
+    {
+      "title": "送袁重其归吴门",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=617",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,92 @@
+{
+  "name": "章静宜",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 12,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "京口作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4487",
+      "dynasty": "清"
+    },
+    {
+      "title": "夏日杂感",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4485",
+      "dynasty": "清"
+    },
+    {
+      "title": "拟刘太尉伤乱",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4482",
+      "dynasty": "清"
+    },
+    {
+      "title": "晚泊京口",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4484",
+      "dynasty": "清"
+    },
+    {
+      "title": "汴梁行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4483",
+      "dynasty": "清"
+    },
+    {
+      "title": "金陵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4486",
+      "dynasty": "清"
+    },
+    {
+      "title": "京口作",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1528",
+      "dynasty": "清"
+    },
+    {
+      "title": "夏日杂感",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1526",
+      "dynasty": "清"
+    },
+    {
+      "title": "拟刘太尉伤乱",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1523",
+      "dynasty": "清"
+    },
+    {
+      "title": "晚泊京口",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1525",
+      "dynasty": "清"
+    },
+    {
+      "title": "汴梁行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1524",
+      "dynasty": "清"
+    },
+    {
+      "title": "金陵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1527",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

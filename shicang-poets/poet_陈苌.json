@@ -1,0 +1,92 @@
+{
+  "name": "陈苌",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 12,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "临终诗二首留别诸同志（辛卯中秋后二日）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4788",
+      "dynasty": "清"
+    },
+    {
+      "title": "发南陵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4789",
+      "dynasty": "清"
+    },
+    {
+      "title": "山行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4793",
+      "dynasty": "清"
+    },
+    {
+      "title": "挽姜西溟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4790",
+      "dynasty": "清"
+    },
+    {
+      "title": "梦中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4791",
+      "dynasty": "清"
+    },
+    {
+      "title": "读相如传",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4792",
+      "dynasty": "清"
+    },
+    {
+      "title": "临终诗二首留别诸同志（辛卯中秋后二日）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1829",
+      "dynasty": "清"
+    },
+    {
+      "title": "发南陵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1830",
+      "dynasty": "清"
+    },
+    {
+      "title": "山行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1834",
+      "dynasty": "清"
+    },
+    {
+      "title": "挽姜西溟",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1831",
+      "dynasty": "清"
+    },
+    {
+      "title": "梦中",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1832",
+      "dynasty": "清"
+    },
+    {
+      "title": "读相如传",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1833",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

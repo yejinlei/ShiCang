@@ -1,0 +1,44 @@
+{
+  "name": "刘师恕",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "卧龙冈武侯祠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4882",
+      "dynasty": "清"
+    },
+    {
+      "title": "护花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4881",
+      "dynasty": "清"
+    },
+    {
+      "title": "卧龙冈武侯祠",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1923",
+      "dynasty": "清"
+    },
+    {
+      "title": "护花",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1922",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

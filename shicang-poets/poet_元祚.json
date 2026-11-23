@@ -1,0 +1,56 @@
+{
+  "name": "元祚",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "从安节宓草昆仲乞写鹤舟图",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6481",
+      "dynasty": "清"
+    },
+    {
+      "title": "寄高澹游",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6483",
+      "dynasty": "清"
+    },
+    {
+      "title": "独树堂散怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6482",
+      "dynasty": "清"
+    },
+    {
+      "title": "从安节宓草昆仲乞写鹤舟图",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3522",
+      "dynasty": "清"
+    },
+    {
+      "title": "寄高澹游",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3524",
+      "dynasty": "清"
+    },
+    {
+      "title": "独树堂散怀",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3523",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

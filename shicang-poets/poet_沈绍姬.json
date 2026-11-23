@@ -1,0 +1,140 @@
+{
+  "name": "沈绍姬",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 20,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "司马懿故居",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5033",
+      "dynasty": "清"
+    },
+    {
+      "title": "咏古",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5038",
+      "dynasty": "清"
+    },
+    {
+      "title": "寄家人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5032",
+      "dynasty": "清"
+    },
+    {
+      "title": "寄怀查伊璜先辈",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5030",
+      "dynasty": "清"
+    },
+    {
+      "title": "杜鹃",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5031",
+      "dynasty": "清"
+    },
+    {
+      "title": "淮阴侯",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5035",
+      "dynasty": "清"
+    },
+    {
+      "title": "蛟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5037",
+      "dynasty": "清"
+    },
+    {
+      "title": "钱塘怀古",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5029",
+      "dynasty": "清"
+    },
+    {
+      "title": "题前监军闻启详传后",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5034",
+      "dynasty": "清"
+    },
+    {
+      "title": "题韩蕲王湖上策蹇图",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5036",
+      "dynasty": "清"
+    },
+    {
+      "title": "司马懿故居",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2074",
+      "dynasty": "清"
+    },
+    {
+      "title": "咏古",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2079",
+      "dynasty": "清"
+    },
+    {
+      "title": "寄家人",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2073",
+      "dynasty": "清"
+    },
+    {
+      "title": "寄怀查伊璜先辈",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2071",
+      "dynasty": "清"
+    },
+    {
+      "title": "杜鹃",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2072",
+      "dynasty": "清"
+    },
+    {
+      "title": "淮阴侯",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2076",
+      "dynasty": "清"
+    },
+    {
+      "title": "蛟",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2078",
+      "dynasty": "清"
+    },
+    {
+      "title": "钱塘怀古",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2070",
+      "dynasty": "清"
+    },
+    {
+      "title": "题前监军闻启详传后",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2075",
+      "dynasty": "清"
+    },
+    {
+      "title": "题韩蕲王湖上策蹇图",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2077",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

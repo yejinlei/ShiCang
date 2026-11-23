@@ -1,0 +1,116 @@
+{
+  "name": "陈祖范",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 16,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "与星旋释",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5726",
+      "dynasty": "清"
+    },
+    {
+      "title": "咏史",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5728",
+      "dynasty": "清"
+    },
+    {
+      "title": "寄沈归愚",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5730",
+      "dynasty": "清"
+    },
+    {
+      "title": "恒雨",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5723",
+      "dynasty": "清"
+    },
+    {
+      "title": "感秋",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5724",
+      "dynasty": "清"
+    },
+    {
+      "title": "梦述",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5725",
+      "dynasty": "清"
+    },
+    {
+      "title": "答任翼圣计偕留别",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5727",
+      "dynasty": "清"
+    },
+    {
+      "title": "送西京训导宣城",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5729",
+      "dynasty": "清"
+    },
+    {
+      "title": "与星旋释",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2767",
+      "dynasty": "清"
+    },
+    {
+      "title": "咏史",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2769",
+      "dynasty": "清"
+    },
+    {
+      "title": "寄沈归愚",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2771",
+      "dynasty": "清"
+    },
+    {
+      "title": "恒雨",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2764",
+      "dynasty": "清"
+    },
+    {
+      "title": "感秋",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2765",
+      "dynasty": "清"
+    },
+    {
+      "title": "梦述",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2766",
+      "dynasty": "清"
+    },
+    {
+      "title": "答任翼圣计偕留别",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2768",
+      "dynasty": "清"
+    },
+    {
+      "title": "送西京训导宣城",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2770",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

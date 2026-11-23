@@ -1,0 +1,140 @@
+{
+  "name": "张景祁",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清末",
+  "d_order": 16,
+  "birthplace": "",
+  "style": "#795548",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 20,
+  "anthologies": [
+    "名篇精读",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "一枝春",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1279",
+      "dynasty": "清末"
+    },
+    {
+      "title": "双双燕",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1281",
+      "dynasty": "清末"
+    },
+    {
+      "title": "小重山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1280",
+      "dynasty": "清末"
+    },
+    {
+      "title": "曲江秋",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1284",
+      "dynasty": "清末"
+    },
+    {
+      "title": "望海潮",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1282",
+      "dynasty": "清末"
+    },
+    {
+      "title": "浣溪沙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1287",
+      "dynasty": "清末"
+    },
+    {
+      "title": "清平乐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1288",
+      "dynasty": "清末"
+    },
+    {
+      "title": "秋齐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1285",
+      "dynasty": "清末"
+    },
+    {
+      "title": "酹江月",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1283",
+      "dynasty": "清末"
+    },
+    {
+      "title": "齐天乐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1286",
+      "dynasty": "清末"
+    },
+    {
+      "title": "台湾自设行省，抚藩驻台北郡城，华夷辐凑，规制日廓，洵海外雄都也。赋词纪盛。·齐天乐",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=242",
+      "dynasty": "清末"
+    },
+    {
+      "title": "基隆为全台锁论。春初海警狎至，上游拨重兵堵守。突有法兰兵轮一艘入口游奕，传是越南奔北之师，意存窥伺，越三日始扬帆去，我军亦不之诘也。·望海潮",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=238",
+      "dynasty": "清末"
+    },
+    {
+      "title": "基隆秋感·秋齐",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=241",
+      "dynasty": "清末"
+    },
+    {
+      "title": "小重山",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=236",
+      "dynasty": "清末"
+    },
+    {
+      "title": "法夷既据基隆，擅设海禁。初冬余自新竹旧港内渡，遇敌艘巡逻者驶及之，几为所困。暴风陡作，去帆如马，始免於难，中夜抵福清之观音澳，宿茅舍，感赋。·酹江月",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=239",
+      "dynasty": "清末"
+    },
+    {
+      "title": "浣溪沙",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=243",
+      "dynasty": "清末"
+    },
+    {
+      "title": "清平乐",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=244",
+      "dynasty": "清末"
+    },
+    {
+      "title": "秋燕·双双燕",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=237",
+      "dynasty": "清末"
+    },
+    {
+      "title": "落梅·一枝春",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=235",
+      "dynasty": "清末"
+    },
+    {
+      "title": "马江秋感·曲江秋",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=240",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": false
+}

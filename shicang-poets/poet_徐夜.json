@@ -1,0 +1,104 @@
+{
+  "name": "徐夜",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 14,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "九日得顾宁人书",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4382",
+      "dynasty": "清"
+    },
+    {
+      "title": "初夏田园",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4380",
+      "dynasty": "清"
+    },
+    {
+      "title": "和秋柳",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4383",
+      "dynasty": "清"
+    },
+    {
+      "title": "咏意",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4381",
+      "dynasty": "清"
+    },
+    {
+      "title": "坐放鹤亭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4386",
+      "dynasty": "清"
+    },
+    {
+      "title": "富春山中吊谢皋羽",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4385",
+      "dynasty": "清"
+    },
+    {
+      "title": "经严陵钓台",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4384",
+      "dynasty": "清"
+    },
+    {
+      "title": "九日得顾宁人书",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1423",
+      "dynasty": "清"
+    },
+    {
+      "title": "初夏田园",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1421",
+      "dynasty": "清"
+    },
+    {
+      "title": "和秋柳",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1424",
+      "dynasty": "清"
+    },
+    {
+      "title": "咏意",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1422",
+      "dynasty": "清"
+    },
+    {
+      "title": "坐放鹤亭",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1427",
+      "dynasty": "清"
+    },
+    {
+      "title": "富春山中吊谢皋羽",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1426",
+      "dynasty": "清"
+    },
+    {
+      "title": "经严陵钓台",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1425",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,68 @@
+{
+  "name": "蒋易",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "戋中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2882",
+      "dynasty": "明"
+    },
+    {
+      "title": "朝天峡",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2881",
+      "dynasty": "明"
+    },
+    {
+      "title": "清凉山顶留别杜于皇",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2879",
+      "dynasty": "明"
+    },
+    {
+      "title": "钓台怀古",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2880",
+      "dynasty": "明"
+    },
+    {
+      "title": "戋中",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=878",
+      "dynasty": "明"
+    },
+    {
+      "title": "朝天峡",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=877",
+      "dynasty": "明"
+    },
+    {
+      "title": "清凉山顶留别杜于皇",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=875",
+      "dynasty": "明"
+    },
+    {
+      "title": "钓台怀古",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=876",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

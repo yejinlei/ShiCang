@@ -1,0 +1,429 @@
+{
+  "name": "吴文英",
+  "zi": "君特",
+  "hao": "梦窗",
+  "dynasty": "南宋",
+  "d_order": 9,
+  "birthplace": "四明",
+  "style": "#D35400",
+  "school": "格律词派",
+  "years": "约1200—约1260",
+  "bio": "南宋后期格律派大家，词风密丽幽邃，被誉为「词中李商隐」。",
+  "work_count": 68,
+  "anthologies": [
+    "名篇精读",
+    "宋词三百首",
+    "绝妙好词"
+  ],
+  "works": [
+    {
+      "title": "三姝媚",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0429",
+      "dynasty": "宋"
+    },
+    {
+      "title": "八声甘州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0430",
+      "dynasty": "宋"
+    },
+    {
+      "title": "唐多令",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0431",
+      "dynasty": "宋"
+    },
+    {
+      "title": "声声慢",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7363",
+      "dynasty": "宋"
+    },
+    {
+      "title": "夜合花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0432",
+      "dynasty": "宋"
+    },
+    {
+      "title": "夜游宫",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1044",
+      "dynasty": "宋"
+    },
+    {
+      "title": "好事近",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7366",
+      "dynasty": "宋"
+    },
+    {
+      "title": "宴清都",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0433",
+      "dynasty": "宋"
+    },
+    {
+      "title": "思佳客",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7371",
+      "dynasty": "宋"
+    },
+    {
+      "title": "惜黄花慢",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0434",
+      "dynasty": "宋"
+    },
+    {
+      "title": "朝中措",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7368",
+      "dynasty": "宋"
+    },
+    {
+      "title": "杏花天",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7367",
+      "dynasty": "宋"
+    },
+    {
+      "title": "浣溪沙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0435",
+      "dynasty": "宋"
+    },
+    {
+      "title": "浪淘沙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7370",
+      "dynasty": "宋"
+    },
+    {
+      "title": "渡江云",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0436",
+      "dynasty": "宋"
+    },
+    {
+      "title": "澡兰香",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0437",
+      "dynasty": "宋"
+    },
+    {
+      "title": "点绛唇",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0438",
+      "dynasty": "宋"
+    },
+    {
+      "title": "瑞鹤仙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1042",
+      "dynasty": "宋"
+    },
+    {
+      "title": "祝英台",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1040",
+      "dynasty": "宋"
+    },
+    {
+      "title": "祝英台近",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0439",
+      "dynasty": "宋"
+    },
+    {
+      "title": "花犯",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0440",
+      "dynasty": "宋"
+    },
+    {
+      "title": "莺啼序",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0441",
+      "dynasty": "宋"
+    },
+    {
+      "title": "西江月",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7369",
+      "dynasty": "宋"
+    },
+    {
+      "title": "贺新郎",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1045",
+      "dynasty": "宋"
+    },
+    {
+      "title": "踏莎行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0442",
+      "dynasty": "宋"
+    },
+    {
+      "title": "采桑子慢",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7372",
+      "dynasty": "宋"
+    },
+    {
+      "title": "霜叶飞",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0443",
+      "dynasty": "宋"
+    },
+    {
+      "title": "青玉案",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7364",
+      "dynasty": "宋"
+    },
+    {
+      "title": "风入松",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0444",
+      "dynasty": "宋"
+    },
+    {
+      "title": "高阳台",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0445",
+      "dynasty": "宋"
+    },
+    {
+      "title": "鹧鸪天",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1043",
+      "dynasty": "宋"
+    },
+    {
+      "title": "齐天乐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0446",
+      "dynasty": "宋"
+    },
+    {
+      "title": "丰乐楼分韵得“如”字·高阳台",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=192",
+      "dynasty": "宋"
+    },
+    {
+      "title": "化度寺作·鹧鸪天",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=197",
+      "dynasty": "宋"
+    },
+    {
+      "title": "唐多令",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=200",
+      "dynasty": "宋"
+    },
+    {
+      "title": "夜合花",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=178",
+      "dynasty": "宋"
+    },
+    {
+      "title": "夜游宫",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=198",
+      "dynasty": "宋"
+    },
+    {
+      "title": "惜黄花慢",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=190",
+      "dynasty": "宋"
+    },
+    {
+      "title": "春日客龟溪游废园·祝英台",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=185",
+      "dynasty": "宋"
+    },
+    {
+      "title": "春晚感怀·莺啼序",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=189",
+      "dynasty": "宋"
+    },
+    {
+      "title": "浣溪沙",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=182",
+      "dynasty": "宋"
+    },
+    {
+      "title": "浣溪沙",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=183",
+      "dynasty": "宋"
+    },
+    {
+      "title": "淮安重午·澡兰香",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=187",
+      "dynasty": "宋"
+    },
+    {
+      "title": "灵岩陪庾幕诸公游·八声甘州",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=194",
+      "dynasty": "宋"
+    },
+    {
+      "title": "瑞鹤仙",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=196",
+      "dynasty": "宋"
+    },
+    {
+      "title": "西湖清明·渡江云",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=177",
+      "dynasty": "宋"
+    },
+    {
+      "title": "试灯夜初晴·点绛唇",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=184",
+      "dynasty": "宋"
+    },
+    {
+      "title": "踏莎行",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=195",
+      "dynasty": "宋"
+    },
+    {
+      "title": "过都城旧居有感·三姝媚",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=193",
+      "dynasty": "宋"
+    },
+    {
+      "title": "连理海棠·宴清都",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=180",
+      "dynasty": "宋"
+    },
+    {
+      "title": "重 九·霜叶飞",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=179",
+      "dynasty": "宋"
+    },
+    {
+      "title": "除夜立春·祝英台",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=186",
+      "dynasty": "宋"
+    },
+    {
+      "title": "陪履斋先生沧浪看梅·贺新郎",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=199",
+      "dynasty": "宋"
+    },
+    {
+      "title": "风入松",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=188",
+      "dynasty": "宋"
+    },
+    {
+      "title": "高阳台",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=191",
+      "dynasty": "宋"
+    },
+    {
+      "title": "齐天乐",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=181",
+      "dynasty": "宋"
+    },
+    {
+      "title": "九日·采桑子慢",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=184",
+      "dynasty": "宋"
+    },
+    {
+      "title": "唐多令",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=178",
+      "dynasty": "宋"
+    },
+    {
+      "title": "好事近",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=177",
+      "dynasty": "宋"
+    },
+    {
+      "title": "思佳客",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=183",
+      "dynasty": "宋"
+    },
+    {
+      "title": "朝中措",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=180",
+      "dynasty": "宋"
+    },
+    {
+      "title": "浪淘沙",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=182",
+      "dynasty": "宋"
+    },
+    {
+      "title": "过都城旧居有感·三姝媚",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=185",
+      "dynasty": "宋"
+    },
+    {
+      "title": "重午·杏花天",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=179",
+      "dynasty": "宋"
+    },
+    {
+      "title": "闰重九饮郭园·声声慢",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=174",
+      "dynasty": "宋"
+    },
+    {
+      "title": "青梅枝上晚花·西江月",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=181",
+      "dynasty": "宋"
+    },
+    {
+      "title": "青玉案",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=175",
+      "dynasty": "宋"
+    },
+    {
+      "title": "青玉案",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=176",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": true
+}

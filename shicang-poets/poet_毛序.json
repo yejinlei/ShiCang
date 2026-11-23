@@ -1,0 +1,56 @@
+{
+  "name": "毛序",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "偕同人散步",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5529",
+      "dynasty": "清"
+    },
+    {
+      "title": "免龚敬五",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5531",
+      "dynasty": "清"
+    },
+    {
+      "title": "风轮羽扇歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5530",
+      "dynasty": "清"
+    },
+    {
+      "title": "偕同人散步",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2570",
+      "dynasty": "清"
+    },
+    {
+      "title": "免龚敬五",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2572",
+      "dynasty": "清"
+    },
+    {
+      "title": "风轮羽扇歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2571",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

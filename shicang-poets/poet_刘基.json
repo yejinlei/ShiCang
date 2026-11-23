@@ -1,0 +1,224 @@
+{
+  "name": "刘基",
+  "zi": "伯温",
+  "hao": "诚意伯",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "青田",
+  "style": "#C0392B",
+  "school": "明初大家",
+  "years": "1311—1375",
+  "bio": "明朝开国功臣，政治家、军事家、文学家。",
+  "work_count": 34,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "会稽",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2018",
+      "dynasty": "明"
+    },
+    {
+      "title": "古戍",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2016",
+      "dynasty": "明"
+    },
+    {
+      "title": "和李子庚",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2019",
+      "dynasty": "明"
+    },
+    {
+      "title": "夏夜台州城中作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2014",
+      "dynasty": "明"
+    },
+    {
+      "title": "太公钓渭图",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2015",
+      "dynasty": "明"
+    },
+    {
+      "title": "感兴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2021",
+      "dynasty": "明"
+    },
+    {
+      "title": "感怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2011",
+      "dynasty": "明"
+    },
+    {
+      "title": "懊憹歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2007",
+      "dynasty": "明"
+    },
+    {
+      "title": "旅兴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2012",
+      "dynasty": "明"
+    },
+    {
+      "title": "晚同方舟上人登师子岩作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2013",
+      "dynasty": "明"
+    },
+    {
+      "title": "望孤山作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2017",
+      "dynasty": "明"
+    },
+    {
+      "title": "梁甫吟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2006",
+      "dynasty": "明"
+    },
+    {
+      "title": "玉阶怨",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2009",
+      "dynasty": "明"
+    },
+    {
+      "title": "薤露歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2008",
+      "dynasty": "明"
+    },
+    {
+      "title": "走马引",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2005",
+      "dynasty": "明"
+    },
+    {
+      "title": "追和音上人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2020",
+      "dynasty": "明"
+    },
+    {
+      "title": "长门怨",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2010",
+      "dynasty": "明"
+    },
+    {
+      "title": "会稽",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=13",
+      "dynasty": "明"
+    },
+    {
+      "title": "古戍",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=11",
+      "dynasty": "明"
+    },
+    {
+      "title": "和李子庚",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=14",
+      "dynasty": "明"
+    },
+    {
+      "title": "夏夜台州城中作",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=9",
+      "dynasty": "明"
+    },
+    {
+      "title": "太公钓渭图",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=10",
+      "dynasty": "明"
+    },
+    {
+      "title": "感兴",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=16",
+      "dynasty": "明"
+    },
+    {
+      "title": "感怀",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=6",
+      "dynasty": "明"
+    },
+    {
+      "title": "懊憹歌",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=2",
+      "dynasty": "明"
+    },
+    {
+      "title": "旅兴",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=7",
+      "dynasty": "明"
+    },
+    {
+      "title": "晚同方舟上人登师子岩作",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=8",
+      "dynasty": "明"
+    },
+    {
+      "title": "望孤山作",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=12",
+      "dynasty": "明"
+    },
+    {
+      "title": "梁甫吟",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=1",
+      "dynasty": "明"
+    },
+    {
+      "title": "玉阶怨",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=4",
+      "dynasty": "明"
+    },
+    {
+      "title": "薤露歌",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=3",
+      "dynasty": "明"
+    },
+    {
+      "title": "走马引",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=0",
+      "dynasty": "明"
+    },
+    {
+      "title": "追和音上人",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=15",
+      "dynasty": "明"
+    },
+    {
+      "title": "长门怨",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=5",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": true
+}

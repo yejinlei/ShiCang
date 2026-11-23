@@ -1,0 +1,68 @@
+{
+  "name": "程之",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "抵金陵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6089",
+      "dynasty": "清"
+    },
+    {
+      "title": "晓过平望",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6087",
+      "dynasty": "清"
+    },
+    {
+      "title": "芦花被",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6086",
+      "dynasty": "清"
+    },
+    {
+      "title": "黄山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6088",
+      "dynasty": "清"
+    },
+    {
+      "title": "抵金陵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3130",
+      "dynasty": "清"
+    },
+    {
+      "title": "晓过平望",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3128",
+      "dynasty": "清"
+    },
+    {
+      "title": "芦花被",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3127",
+      "dynasty": "清"
+    },
+    {
+      "title": "黄山",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3129",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

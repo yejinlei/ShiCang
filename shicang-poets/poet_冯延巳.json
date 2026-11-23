@@ -1,0 +1,37 @@
+{
+  "name": "冯延巳",
+  "zi": "",
+  "hao": "",
+  "dynasty": "宋",
+  "d_order": 8,
+  "birthplace": "",
+  "style": "#7F8C8D",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 3,
+  "anthologies": [
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "谒金门",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0415",
+      "dynasty": "宋"
+    },
+    {
+      "title": "长命女",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0416",
+      "dynasty": "宋"
+    },
+    {
+      "title": "鹊踏枝",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0417",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

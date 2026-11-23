@@ -1,0 +1,351 @@
+{
+  "name": "刘禹锡",
+  "zi": "梦得",
+  "hao": "诗豪",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "洛阳",
+  "style": "#ae3a2b",
+  "school": "中唐",
+  "years": "772—842",
+  "bio": "世称「诗豪」，屡遭贬谪而骨力不衰。代表作《陋室铭》《乌衣巷》《酬乐天扬州初逢席上见赠》。",
+  "work_count": 55,
+  "anthologies": [
+    "万寿唐诗",
+    "千家诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "三阁词",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=137",
+      "dynasty": "唐"
+    },
+    {
+      "title": "与歌者何戡",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=389",
+      "dynasty": "唐"
+    },
+    {
+      "title": "与歌者米嘉荣",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=387",
+      "dynasty": "唐"
+    },
+    {
+      "title": "乌衣巷",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=385",
+      "dynasty": "唐"
+    },
+    {
+      "title": "别苏州",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=141",
+      "dynasty": "唐"
+    },
+    {
+      "title": "听旧宫人穆氏唱歌",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=388",
+      "dynasty": "唐"
+    },
+    {
+      "title": "和令狐相公别牡丹",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=397",
+      "dynasty": "唐"
+    },
+    {
+      "title": "堤上行 二首",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=390",
+      "dynasty": "唐"
+    },
+    {
+      "title": "春词",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=396",
+      "dynasty": "唐"
+    },
+    {
+      "title": "杨栁枝词 三首",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=393",
+      "dynasty": "唐"
+    },
+    {
+      "title": "江令宅",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=386",
+      "dynasty": "唐"
+    },
+    {
+      "title": "浪淘沙词",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=394",
+      "dynasty": "唐"
+    },
+    {
+      "title": "淮阴行 二首",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=138",
+      "dynasty": "唐"
+    },
+    {
+      "title": "石头城",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=384",
+      "dynasty": "唐"
+    },
+    {
+      "title": "碧涧寺见元九和展上人诗",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=395",
+      "dynasty": "唐"
+    },
+    {
+      "title": "秋风引",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=139",
+      "dynasty": "唐"
+    },
+    {
+      "title": "竹枝词 八首",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=392",
+      "dynasty": "唐"
+    },
+    {
+      "title": "纥那曲",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=140",
+      "dynasty": "唐"
+    },
+    {
+      "title": "经檀道济故垒",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=135",
+      "dynasty": "唐"
+    },
+    {
+      "title": "罢和州游建康",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=134",
+      "dynasty": "唐"
+    },
+    {
+      "title": "视刀环",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=136",
+      "dynasty": "唐"
+    },
+    {
+      "title": "踏歌词 二首",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=391",
+      "dynasty": "唐"
+    },
+    {
+      "title": "再游玄都观",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=113",
+      "dynasty": "唐"
+    },
+    {
+      "title": "玄都观桃花",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=112",
+      "dynasty": "唐"
+    },
+    {
+      "title": "秋风引",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=20",
+      "dynasty": "唐"
+    },
+    {
+      "title": "三阁词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6612",
+      "dynasty": "唐"
+    },
+    {
+      "title": "与歌者何戡",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6843",
+      "dynasty": "唐"
+    },
+    {
+      "title": "与歌者米嘉荣",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6841",
+      "dynasty": "唐"
+    },
+    {
+      "title": "乌衣巷",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0103",
+      "dynasty": "唐"
+    },
+    {
+      "title": "再游玄都观",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0935",
+      "dynasty": "唐"
+    },
+    {
+      "title": "别苏州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6616",
+      "dynasty": "唐"
+    },
+    {
+      "title": "听旧宫人穆氏唱歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6842",
+      "dynasty": "唐"
+    },
+    {
+      "title": "和令狐相公别牡丹",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6850",
+      "dynasty": "唐"
+    },
+    {
+      "title": "堤上行 二首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6844",
+      "dynasty": "唐"
+    },
+    {
+      "title": "春词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0104",
+      "dynasty": "唐"
+    },
+    {
+      "title": "杨栁枝词 三首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6847",
+      "dynasty": "唐"
+    },
+    {
+      "title": "江令宅",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6840",
+      "dynasty": "唐"
+    },
+    {
+      "title": "浪淘沙词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6848",
+      "dynasty": "唐"
+    },
+    {
+      "title": "淮阴行 二首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6613",
+      "dynasty": "唐"
+    },
+    {
+      "title": "玄都观桃花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0934",
+      "dynasty": "唐"
+    },
+    {
+      "title": "石头城",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6839",
+      "dynasty": "唐"
+    },
+    {
+      "title": "碧涧寺见元九和展上人诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6849",
+      "dynasty": "唐"
+    },
+    {
+      "title": "秋风引",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0856",
+      "dynasty": "唐"
+    },
+    {
+      "title": "竹枝词 八首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6846",
+      "dynasty": "唐"
+    },
+    {
+      "title": "竹枝词·山桃红花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0105",
+      "dynasty": "唐"
+    },
+    {
+      "title": "竹枝词·杨柳青青",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0106",
+      "dynasty": "唐"
+    },
+    {
+      "title": "纥那曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6615",
+      "dynasty": "唐"
+    },
+    {
+      "title": "经檀道济故垒",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6610",
+      "dynasty": "唐"
+    },
+    {
+      "title": "罢和州游建康",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6609",
+      "dynasty": "唐"
+    },
+    {
+      "title": "蜀先主庙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0107",
+      "dynasty": "唐"
+    },
+    {
+      "title": "西塞山怀古",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0108",
+      "dynasty": "唐"
+    },
+    {
+      "title": "视刀环",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6611",
+      "dynasty": "唐"
+    },
+    {
+      "title": "踏歌词 二首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6845",
+      "dynasty": "唐"
+    },
+    {
+      "title": "酬乐天扬州初逢席上见赠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0821",
+      "dynasty": "唐"
+    },
+    {
+      "title": "陋室铭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0822",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": true
+}

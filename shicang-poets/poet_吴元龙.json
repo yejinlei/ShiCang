@@ -1,0 +1,44 @@
+{
+  "name": "吴元龙",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "九日偕贵阳诸使君东山登高得初字",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3869",
+      "dynasty": "清"
+    },
+    {
+      "title": "赐缎绢恭纪",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3868",
+      "dynasty": "清"
+    },
+    {
+      "title": "九日偕贵阳诸使君东山登高得初字",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=910",
+      "dynasty": "清"
+    },
+    {
+      "title": "赐缎绢恭纪",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=909",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

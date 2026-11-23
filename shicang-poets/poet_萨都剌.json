@@ -1,0 +1,332 @@
+{
+  "name": "萨都剌",
+  "zi": "天锡",
+  "hao": "直斋",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "雁门",
+  "style": "#4A5568",
+  "school": "元代诗人",
+  "years": "约1272—约1355",
+  "bio": "元代回族诗人，诗风清丽俊逸。代表作《念奴娇·登石头城》。",
+  "work_count": 52,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "三衢马太守昂夫索题烂柯山石桥",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=262",
+      "dynasty": "元"
+    },
+    {
+      "title": "台山怀古",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=263",
+      "dynasty": "元"
+    },
+    {
+      "title": "层楼晚眺",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=509",
+      "dynasty": "元"
+    },
+    {
+      "title": "山中怀友",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=151",
+      "dynasty": "元"
+    },
+    {
+      "title": "次韵登凌歊台",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=265",
+      "dynasty": "元"
+    },
+    {
+      "title": "游会仙宫",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=538",
+      "dynasty": "元"
+    },
+    {
+      "title": "游梅仙山和唐人韵",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=152",
+      "dynasty": "元"
+    },
+    {
+      "title": "燕姬曲（一作杨花曲。）",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=90",
+      "dynasty": "元"
+    },
+    {
+      "title": "用韵寄龙江",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=147",
+      "dynasty": "元"
+    },
+    {
+      "title": "登乐陵台倚梧桐望月有怀南台李御史艺，七夕后一日也",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=482",
+      "dynasty": "元"
+    },
+    {
+      "title": "相逢行赠别旧友治将军（并序）",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=91",
+      "dynasty": "元"
+    },
+    {
+      "title": "秋夜闻笛",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=418",
+      "dynasty": "元"
+    },
+    {
+      "title": "秋日池上",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=17",
+      "dynasty": "元"
+    },
+    {
+      "title": "秋词",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=540",
+      "dynasty": "元"
+    },
+    {
+      "title": "织女图",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=92",
+      "dynasty": "元"
+    },
+    {
+      "title": "芙蓉曲",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=481",
+      "dynasty": "元"
+    },
+    {
+      "title": "赠刘云江宗师",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=261",
+      "dynasty": "元"
+    },
+    {
+      "title": "赠弹筝者",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=417",
+      "dynasty": "元"
+    },
+    {
+      "title": "过嘉兴",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=93",
+      "dynasty": "元"
+    },
+    {
+      "title": "过广陵驿",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=264",
+      "dynasty": "元"
+    },
+    {
+      "title": "过高出射阳湖",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=389",
+      "dynasty": "元"
+    },
+    {
+      "title": "送人之渐东",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=148",
+      "dynasty": "元"
+    },
+    {
+      "title": "送南台从事刘子谦之辽东",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=150",
+      "dynasty": "元"
+    },
+    {
+      "title": "道过赞善庵",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=419",
+      "dynasty": "元"
+    },
+    {
+      "title": "闽中苦雨",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=149",
+      "dynasty": "元"
+    },
+    {
+      "title": "题淮安壁间",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=539",
+      "dynasty": "元"
+    },
+    {
+      "title": "三衢马太守昂夫索题烂柯山石桥",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1724",
+      "dynasty": "元"
+    },
+    {
+      "title": "台山怀古",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1725",
+      "dynasty": "元"
+    },
+    {
+      "title": "层楼晚眺",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1971",
+      "dynasty": "元"
+    },
+    {
+      "title": "山中怀友",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1613",
+      "dynasty": "元"
+    },
+    {
+      "title": "次韵登凌歊台",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1727",
+      "dynasty": "元"
+    },
+    {
+      "title": "游会仙宫",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2000",
+      "dynasty": "元"
+    },
+    {
+      "title": "游梅仙山和唐人韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1614",
+      "dynasty": "元"
+    },
+    {
+      "title": "燕姬曲（一作杨花曲。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1552",
+      "dynasty": "元"
+    },
+    {
+      "title": "用韵寄龙江",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1609",
+      "dynasty": "元"
+    },
+    {
+      "title": "登乐陵台倚梧桐望月有怀南台李御史艺，七夕后一日也",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1944",
+      "dynasty": "元"
+    },
+    {
+      "title": "相逢行赠别旧友治将军（并序）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1553",
+      "dynasty": "元"
+    },
+    {
+      "title": "秋夜闻笛",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1880",
+      "dynasty": "元"
+    },
+    {
+      "title": "秋日池上",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1479",
+      "dynasty": "元"
+    },
+    {
+      "title": "秋词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2002",
+      "dynasty": "元"
+    },
+    {
+      "title": "织女图",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1554",
+      "dynasty": "元"
+    },
+    {
+      "title": "芙蓉曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1943",
+      "dynasty": "元"
+    },
+    {
+      "title": "赠刘云江宗师",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1723",
+      "dynasty": "元"
+    },
+    {
+      "title": "赠弹筝者",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1879",
+      "dynasty": "元"
+    },
+    {
+      "title": "过嘉兴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1555",
+      "dynasty": "元"
+    },
+    {
+      "title": "过广陵驿",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1726",
+      "dynasty": "元"
+    },
+    {
+      "title": "过高出射阳湖",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1851",
+      "dynasty": "元"
+    },
+    {
+      "title": "送人之渐东",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1610",
+      "dynasty": "元"
+    },
+    {
+      "title": "送南台从事刘子谦之辽东",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1612",
+      "dynasty": "元"
+    },
+    {
+      "title": "道过赞善庵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1881",
+      "dynasty": "元"
+    },
+    {
+      "title": "闽中苦雨",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1611",
+      "dynasty": "元"
+    },
+    {
+      "title": "题淮安壁间",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2001",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": true
+}

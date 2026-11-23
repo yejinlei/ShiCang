@@ -1,0 +1,44 @@
+{
+  "name": "卢梅坡",
+  "zi": "",
+  "hao": "",
+  "dynasty": "宋",
+  "d_order": 8,
+  "birthplace": "",
+  "style": "#7F8C8D",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "千家诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "雪梅",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=162",
+      "dynasty": "宋"
+    },
+    {
+      "title": "雪梅（其二）",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=163",
+      "dynasty": "宋"
+    },
+    {
+      "title": "雪梅",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0980",
+      "dynasty": "宋"
+    },
+    {
+      "title": "雪梅（其二）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0981",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

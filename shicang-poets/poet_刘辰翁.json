@@ -1,0 +1,68 @@
+{
+  "name": "刘辰翁",
+  "zi": "",
+  "hao": "",
+  "dynasty": "宋",
+  "d_order": 8,
+  "birthplace": "",
+  "style": "#7F8C8D",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "宋词三百首"
+  ],
+  "works": [
+    {
+      "title": "兰陵王",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0421",
+      "dynasty": "宋"
+    },
+    {
+      "title": "宝鼎现",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0422",
+      "dynasty": "宋"
+    },
+    {
+      "title": "摸鱼儿",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0423",
+      "dynasty": "宋"
+    },
+    {
+      "title": "永遇乐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0424",
+      "dynasty": "宋"
+    },
+    {
+      "title": "丙子送春·兰陵王",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=204",
+      "dynasty": "宋"
+    },
+    {
+      "title": "宝鼎现",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=205",
+      "dynasty": "宋"
+    },
+    {
+      "title": "永遇乐",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=206",
+      "dynasty": "宋"
+    },
+    {
+      "title": "酒边留同年徐云屋·摸鱼儿",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=207",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

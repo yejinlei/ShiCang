@@ -1,0 +1,80 @@
+{
+  "name": "黄庭",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "宁夏渡河",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4575",
+      "dynasty": "清"
+    },
+    {
+      "title": "延川道中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4574",
+      "dynasty": "清"
+    },
+    {
+      "title": "正月既望自钱塘进艇新安江行十日达紫阳门即事写怀得船字",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4576",
+      "dynasty": "清"
+    },
+    {
+      "title": "送陆翼王征君南归",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4577",
+      "dynasty": "清"
+    },
+    {
+      "title": "马嵬",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4578",
+      "dynasty": "清"
+    },
+    {
+      "title": "宁夏渡河",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1616",
+      "dynasty": "清"
+    },
+    {
+      "title": "延川道中",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1615",
+      "dynasty": "清"
+    },
+    {
+      "title": "正月既望自钱塘进艇新安江行十日达紫阳门即事写怀得船字",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1617",
+      "dynasty": "清"
+    },
+    {
+      "title": "送陆翼王征君南归",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1618",
+      "dynasty": "清"
+    },
+    {
+      "title": "马嵬",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1619",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

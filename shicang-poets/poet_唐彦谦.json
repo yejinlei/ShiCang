@@ -1,0 +1,164 @@
+{
+  "name": "唐彦谦",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 24,
+  "anthologies": [
+    "万寿唐诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "仲山",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=510",
+      "dynasty": "唐"
+    },
+    {
+      "title": "垂栁",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=506",
+      "dynasty": "唐"
+    },
+    {
+      "title": "寄徐山人",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=505",
+      "dynasty": "唐"
+    },
+    {
+      "title": "小院",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=166",
+      "dynasty": "唐"
+    },
+    {
+      "title": "曲江春望",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=508",
+      "dynasty": "唐"
+    },
+    {
+      "title": "楚天",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=504",
+      "dynasty": "唐"
+    },
+    {
+      "title": "洛神",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=511",
+      "dynasty": "唐"
+    },
+    {
+      "title": "穆天子传",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=503",
+      "dynasty": "唐"
+    },
+    {
+      "title": "落花",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=509",
+      "dynasty": "唐"
+    },
+    {
+      "title": "邓艾庙",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=507",
+      "dynasty": "唐"
+    },
+    {
+      "title": "长安秋望",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=512",
+      "dynasty": "唐"
+    },
+    {
+      "title": "齐文惠宫人",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=165",
+      "dynasty": "唐"
+    },
+    {
+      "title": "仲山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6963",
+      "dynasty": "唐"
+    },
+    {
+      "title": "垂栁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6959",
+      "dynasty": "唐"
+    },
+    {
+      "title": "寄徐山人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6958",
+      "dynasty": "唐"
+    },
+    {
+      "title": "小院",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6639",
+      "dynasty": "唐"
+    },
+    {
+      "title": "曲江春望",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6961",
+      "dynasty": "唐"
+    },
+    {
+      "title": "楚天",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6957",
+      "dynasty": "唐"
+    },
+    {
+      "title": "洛神",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6964",
+      "dynasty": "唐"
+    },
+    {
+      "title": "穆天子传",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6956",
+      "dynasty": "唐"
+    },
+    {
+      "title": "落花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6962",
+      "dynasty": "唐"
+    },
+    {
+      "title": "邓艾庙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6960",
+      "dynasty": "唐"
+    },
+    {
+      "title": "长安秋望",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6965",
+      "dynasty": "唐"
+    },
+    {
+      "title": "齐文惠宫人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6638",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

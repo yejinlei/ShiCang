@@ -1,0 +1,152 @@
+{
+  "name": "张笃庆",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 22,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "大梁城东南吊信陵君墓",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4406",
+      "dynasty": "清"
+    },
+    {
+      "title": "宋赵千里海天落照图（千里名伯驹，画为北宗中高品。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4405",
+      "dynasty": "清"
+    },
+    {
+      "title": "忆旧",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4408",
+      "dynasty": "清"
+    },
+    {
+      "title": "悼亡",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4407",
+      "dynasty": "清"
+    },
+    {
+      "title": "明季咏史",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4412",
+      "dynasty": "清"
+    },
+    {
+      "title": "杖头钱",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4404",
+      "dynasty": "清"
+    },
+    {
+      "title": "碧城",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4410",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋叶",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4411",
+      "dynasty": "清"
+    },
+    {
+      "title": "述怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4409",
+      "dynasty": "清"
+    },
+    {
+      "title": "邓艾庙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4413",
+      "dynasty": "清"
+    },
+    {
+      "title": "鹦鹉洲哀辞",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4403",
+      "dynasty": "清"
+    },
+    {
+      "title": "大梁城东南吊信陵君墓",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1447",
+      "dynasty": "清"
+    },
+    {
+      "title": "宋赵千里海天落照图（千里名伯驹，画为北宗中高品。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1446",
+      "dynasty": "清"
+    },
+    {
+      "title": "忆旧",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1449",
+      "dynasty": "清"
+    },
+    {
+      "title": "悼亡",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1448",
+      "dynasty": "清"
+    },
+    {
+      "title": "明季咏史",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1453",
+      "dynasty": "清"
+    },
+    {
+      "title": "杖头钱",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1445",
+      "dynasty": "清"
+    },
+    {
+      "title": "碧城",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1451",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋叶",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1452",
+      "dynasty": "清"
+    },
+    {
+      "title": "述怀",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1450",
+      "dynasty": "清"
+    },
+    {
+      "title": "邓艾庙",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1454",
+      "dynasty": "清"
+    },
+    {
+      "title": "鹦鹉洲哀辞",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1444",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,104 @@
+{
+  "name": "陈大章",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 14,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "九江夜泊",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4655",
+      "dynasty": "清"
+    },
+    {
+      "title": "戊子生日书怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4661",
+      "dynasty": "清"
+    },
+    {
+      "title": "次韵姜西溟秋日杂感",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4660",
+      "dynasty": "清"
+    },
+    {
+      "title": "王文成纪功碑",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4657",
+      "dynasty": "清"
+    },
+    {
+      "title": "瓮山拜耶律文正公墓",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4656",
+      "dynasty": "清"
+    },
+    {
+      "title": "登小孤山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4658",
+      "dynasty": "清"
+    },
+    {
+      "title": "送胡卜子南归",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4659",
+      "dynasty": "清"
+    },
+    {
+      "title": "九江夜泊",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1696",
+      "dynasty": "清"
+    },
+    {
+      "title": "戊子生日书怀",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1702",
+      "dynasty": "清"
+    },
+    {
+      "title": "次韵姜西溟秋日杂感",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1701",
+      "dynasty": "清"
+    },
+    {
+      "title": "王文成纪功碑",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1698",
+      "dynasty": "清"
+    },
+    {
+      "title": "瓮山拜耶律文正公墓",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1697",
+      "dynasty": "清"
+    },
+    {
+      "title": "登小孤山",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1699",
+      "dynasty": "清"
+    },
+    {
+      "title": "送胡卜子南归",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1700",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

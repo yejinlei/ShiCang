@@ -1,0 +1,68 @@
+{
+  "name": "沈磐",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "张天禄从刘良佐后射黄得功中喉，故有鸣镝射中坚句。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3609",
+      "dynasty": "清"
+    },
+    {
+      "title": "采石矶望开平王战处",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3607",
+      "dynasty": "清"
+    },
+    {
+      "title": "金陵漫兴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3608",
+      "dynasty": "清"
+    },
+    {
+      "title": "陈靖献公祠（自注：名迪宣，洪时礼部尚书，靖难兵入，不屈磔死。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3606",
+      "dynasty": "清"
+    },
+    {
+      "title": "张天禄从刘良佐后射黄得功中喉，故有鸣镝射中坚句。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=650",
+      "dynasty": "清"
+    },
+    {
+      "title": "采石矶望开平王战处",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=648",
+      "dynasty": "清"
+    },
+    {
+      "title": "金陵漫兴",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=649",
+      "dynasty": "清"
+    },
+    {
+      "title": "陈靖献公祠（自注：名迪宣，洪时礼部尚书，靖难兵入，不屈磔死。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=647",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

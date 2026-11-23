@@ -1,0 +1,56 @@
+{
+  "name": "鲍溶",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "万寿唐诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "汉宫词",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=532",
+      "dynasty": "唐"
+    },
+    {
+      "title": "赠杨錬师 二首",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=531",
+      "dynasty": "唐"
+    },
+    {
+      "title": "隋宫",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=530",
+      "dynasty": "唐"
+    },
+    {
+      "title": "汉宫词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6985",
+      "dynasty": "唐"
+    },
+    {
+      "title": "赠杨錬师 二首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6984",
+      "dynasty": "唐"
+    },
+    {
+      "title": "隋宫",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6983",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

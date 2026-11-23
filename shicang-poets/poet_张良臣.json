@@ -1,0 +1,32 @@
+{
+  "name": "张良臣",
+  "zi": "",
+  "hao": "",
+  "dynasty": "宋",
+  "d_order": 8,
+  "birthplace": "",
+  "style": "#7F8C8D",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 2,
+  "anthologies": [
+    "名篇精读",
+    "绝妙好词"
+  ],
+  "works": [
+    {
+      "title": "西江月",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7251",
+      "dynasty": "宋"
+    },
+    {
+      "title": "西江月",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=57",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

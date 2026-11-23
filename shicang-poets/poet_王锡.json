@@ -1,0 +1,128 @@
+{
+  "name": "王锡",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 18,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "丁卯中秋",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5104",
+      "dynasty": "清"
+    },
+    {
+      "title": "冷泉亭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5105",
+      "dynasty": "清"
+    },
+    {
+      "title": "咏雪",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5107",
+      "dynasty": "清"
+    },
+    {
+      "title": "春江花月夜",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5102",
+      "dynasty": "清"
+    },
+    {
+      "title": "李白",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5106",
+      "dynasty": "清"
+    },
+    {
+      "title": "法相寺",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5099",
+      "dynasty": "清"
+    },
+    {
+      "title": "观潮",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5103",
+      "dynasty": "清"
+    },
+    {
+      "title": "长平庄歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5101",
+      "dynasty": "清"
+    },
+    {
+      "title": "题朱氏山庄",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5100",
+      "dynasty": "清"
+    },
+    {
+      "title": "丁卯中秋",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2145",
+      "dynasty": "清"
+    },
+    {
+      "title": "冷泉亭",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2146",
+      "dynasty": "清"
+    },
+    {
+      "title": "咏雪",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2148",
+      "dynasty": "清"
+    },
+    {
+      "title": "春江花月夜",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2143",
+      "dynasty": "清"
+    },
+    {
+      "title": "李白",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2147",
+      "dynasty": "清"
+    },
+    {
+      "title": "法相寺",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2140",
+      "dynasty": "清"
+    },
+    {
+      "title": "观潮",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2144",
+      "dynasty": "清"
+    },
+    {
+      "title": "长平庄歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2142",
+      "dynasty": "清"
+    },
+    {
+      "title": "题朱氏山庄",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2141",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

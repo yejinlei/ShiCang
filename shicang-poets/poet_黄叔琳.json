@@ -1,0 +1,44 @@
+{
+  "name": "黄叔琳",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "柏林寺观李晋王画像歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4691",
+      "dynasty": "清"
+    },
+    {
+      "title": "送孙文博之云南省觐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4692",
+      "dynasty": "清"
+    },
+    {
+      "title": "柏林寺观李晋王画像歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1732",
+      "dynasty": "清"
+    },
+    {
+      "title": "送孙文博之云南省觐",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1733",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

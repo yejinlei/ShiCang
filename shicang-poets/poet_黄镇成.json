@@ -1,0 +1,44 @@
+{
+  "name": "黄镇成",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "舟过石门梁安峡",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=284",
+      "dynasty": "元"
+    },
+    {
+      "title": "铅山早行",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=163",
+      "dynasty": "元"
+    },
+    {
+      "title": "舟过石门梁安峡",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1746",
+      "dynasty": "元"
+    },
+    {
+      "title": "铅山早行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1625",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

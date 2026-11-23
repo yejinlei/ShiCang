@@ -1,0 +1,44 @@
+{
+  "name": "刘秉忠",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "城西游",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=404",
+      "dynasty": "元"
+    },
+    {
+      "title": "溪上",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=403",
+      "dynasty": "元"
+    },
+    {
+      "title": "城西游",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1866",
+      "dynasty": "元"
+    },
+    {
+      "title": "溪上",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1865",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

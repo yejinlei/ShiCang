@@ -1,0 +1,140 @@
+{
+  "name": "唐孙华",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 20,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "东山即事",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4604",
+      "dynasty": "清"
+    },
+    {
+      "title": "同宋药州太史登滕王阁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4601",
+      "dynasty": "清"
+    },
+    {
+      "title": "夏重谈金陵旧事",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4600",
+      "dynasty": "清"
+    },
+    {
+      "title": "永嘉令马公死寇难，令嗣观察公请于朝，赐谥忠勤索诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4605",
+      "dynasty": "清"
+    },
+    {
+      "title": "诸葛武侯祠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4606",
+      "dynasty": "清"
+    },
+    {
+      "title": "读梅村先生鹿樵纪闻有感题长句",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4603",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠赵松一（赵曾著《读史质疑》一书。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4598",
+      "dynasty": "清"
+    },
+    {
+      "title": "述古",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4597",
+      "dynasty": "清"
+    },
+    {
+      "title": "闲居写怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4599",
+      "dynasty": "清"
+    },
+    {
+      "title": "鹰坊歌与夏重恺功同赋",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4602",
+      "dynasty": "清"
+    },
+    {
+      "title": "东山即事",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1645",
+      "dynasty": "清"
+    },
+    {
+      "title": "同宋药州太史登滕王阁",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1642",
+      "dynasty": "清"
+    },
+    {
+      "title": "夏重谈金陵旧事",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1641",
+      "dynasty": "清"
+    },
+    {
+      "title": "永嘉令马公死寇难，令嗣观察公请于朝，赐谥忠勤索诗",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1646",
+      "dynasty": "清"
+    },
+    {
+      "title": "诸葛武侯祠",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1647",
+      "dynasty": "清"
+    },
+    {
+      "title": "读梅村先生鹿樵纪闻有感题长句",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1644",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠赵松一（赵曾著《读史质疑》一书。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1639",
+      "dynasty": "清"
+    },
+    {
+      "title": "述古",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1638",
+      "dynasty": "清"
+    },
+    {
+      "title": "闲居写怀",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1640",
+      "dynasty": "清"
+    },
+    {
+      "title": "鹰坊歌与夏重恺功同赋",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1643",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

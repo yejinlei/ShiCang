@@ -1,0 +1,44 @@
+{
+  "name": "李敬",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "清明泊瓜步阻雨",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3159",
+      "dynasty": "清"
+    },
+    {
+      "title": "读水经注怀洞庭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3160",
+      "dynasty": "清"
+    },
+    {
+      "title": "清明泊瓜步阻雨",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=200",
+      "dynasty": "清"
+    },
+    {
+      "title": "读水经注怀洞庭",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=201",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

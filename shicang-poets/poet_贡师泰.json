@@ -1,0 +1,116 @@
+{
+  "name": "贡师泰",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 16,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "姑孰道中",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=19",
+      "dynasty": "元"
+    },
+    {
+      "title": "朱仲文编修还江西，诸公分题赋诗为饯。予适同载南归，约至扬子桥分别，因为赋此",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=276",
+      "dynasty": "元"
+    },
+    {
+      "title": "秋夜和韩与玉",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=462",
+      "dynasty": "元"
+    },
+    {
+      "title": "赠天台李炼师",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=277",
+      "dynasty": "元"
+    },
+    {
+      "title": "送东流叶县尹",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=275",
+      "dynasty": "元"
+    },
+    {
+      "title": "送寿宏毅应奉赴兴国路经历",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=274",
+      "dynasty": "元"
+    },
+    {
+      "title": "遣怀",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=18",
+      "dynasty": "元"
+    },
+    {
+      "title": "风泾舟中",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=512",
+      "dynasty": "元"
+    },
+    {
+      "title": "姑孰道中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1481",
+      "dynasty": "元"
+    },
+    {
+      "title": "朱仲文编修还江西，诸公分题赋诗为饯。予适同载南归，约至扬子桥分别，因为赋此",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1738",
+      "dynasty": "元"
+    },
+    {
+      "title": "秋夜和韩与玉",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1924",
+      "dynasty": "元"
+    },
+    {
+      "title": "赠天台李炼师",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1739",
+      "dynasty": "元"
+    },
+    {
+      "title": "送东流叶县尹",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1737",
+      "dynasty": "元"
+    },
+    {
+      "title": "送寿宏毅应奉赴兴国路经历",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1736",
+      "dynasty": "元"
+    },
+    {
+      "title": "遣怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1480",
+      "dynasty": "元"
+    },
+    {
+      "title": "风泾舟中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1974",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

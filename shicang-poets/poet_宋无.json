@@ -1,0 +1,140 @@
+{
+  "name": "宋无",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 20,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "乌夜啼",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=94",
+      "dynasty": "元"
+    },
+    {
+      "title": "南峰宴坐僧",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=154",
+      "dynasty": "元"
+    },
+    {
+      "title": "寄题无照西园",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=156",
+      "dynasty": "元"
+    },
+    {
+      "title": "山中",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=420",
+      "dynasty": "元"
+    },
+    {
+      "title": "战城南",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=95",
+      "dynasty": "元"
+    },
+    {
+      "title": "春归",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=421",
+      "dynasty": "元"
+    },
+    {
+      "title": "春日野步书田家",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=510",
+      "dynasty": "元"
+    },
+    {
+      "title": "李翰林墓二首",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=153",
+      "dynasty": "元"
+    },
+    {
+      "title": "次友人春别",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=266",
+      "dynasty": "元"
+    },
+    {
+      "title": "铜陵五松山中",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=155",
+      "dynasty": "元"
+    },
+    {
+      "title": "乌夜啼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1556",
+      "dynasty": "元"
+    },
+    {
+      "title": "南峰宴坐僧",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1616",
+      "dynasty": "元"
+    },
+    {
+      "title": "寄题无照西园",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1618",
+      "dynasty": "元"
+    },
+    {
+      "title": "山中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1882",
+      "dynasty": "元"
+    },
+    {
+      "title": "战城南",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1557",
+      "dynasty": "元"
+    },
+    {
+      "title": "春归",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1883",
+      "dynasty": "元"
+    },
+    {
+      "title": "春日野步书田家",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1972",
+      "dynasty": "元"
+    },
+    {
+      "title": "李翰林墓二首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1615",
+      "dynasty": "元"
+    },
+    {
+      "title": "次友人春别",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1728",
+      "dynasty": "元"
+    },
+    {
+      "title": "铜陵五松山中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1617",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

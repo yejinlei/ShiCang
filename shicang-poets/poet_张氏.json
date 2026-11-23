@@ -1,0 +1,44 @@
+{
+  "name": "张氏",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "示儿",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6279",
+      "dynasty": "清"
+    },
+    {
+      "title": "绝句",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6315",
+      "dynasty": "清"
+    },
+    {
+      "title": "示儿",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3320",
+      "dynasty": "清"
+    },
+    {
+      "title": "绝句",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3356",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

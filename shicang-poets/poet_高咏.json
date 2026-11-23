@@ -1,0 +1,80 @@
+{
+  "name": "高咏",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "临江中秋同诸公慧力寺泛舟回遂集愚楼玩月分体各赋",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4190",
+      "dynasty": "清"
+    },
+    {
+      "title": "宿青溪",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4191",
+      "dynasty": "清"
+    },
+    {
+      "title": "归舟作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4194",
+      "dynasty": "清"
+    },
+    {
+      "title": "游青原山寺",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4192",
+      "dynasty": "清"
+    },
+    {
+      "title": "过谢皋羽墓",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4193",
+      "dynasty": "清"
+    },
+    {
+      "title": "临江中秋同诸公慧力寺泛舟回遂集愚楼玩月分体各赋",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1231",
+      "dynasty": "清"
+    },
+    {
+      "title": "宿青溪",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1232",
+      "dynasty": "清"
+    },
+    {
+      "title": "归舟作",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1235",
+      "dynasty": "清"
+    },
+    {
+      "title": "游青原山寺",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1233",
+      "dynasty": "清"
+    },
+    {
+      "title": "过谢皋羽墓",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1234",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

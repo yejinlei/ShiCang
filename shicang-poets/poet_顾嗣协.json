@@ -1,0 +1,56 @@
+{
+  "name": "顾嗣协",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "出居庸关",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5095",
+      "dynasty": "清"
+    },
+    {
+      "title": "杂兴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5094",
+      "dynasty": "清"
+    },
+    {
+      "title": "题宋宫赞药州北征图",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5096",
+      "dynasty": "清"
+    },
+    {
+      "title": "出居庸关",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2136",
+      "dynasty": "清"
+    },
+    {
+      "title": "杂兴",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2135",
+      "dynasty": "清"
+    },
+    {
+      "title": "题宋宫赞药州北征图",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2137",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

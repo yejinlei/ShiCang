@@ -1,0 +1,104 @@
+{
+  "name": "钱陆灿",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 14,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "任丘道中回望西山有感 是日为新进士胪唱",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3387",
+      "dynasty": "清"
+    },
+    {
+      "title": "宣府中元夜即事",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3386",
+      "dynasty": "清"
+    },
+    {
+      "title": "宣府逢立秋 是岁闰七月",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3388",
+      "dynasty": "清"
+    },
+    {
+      "title": "湘灵为牧斋族子。然其诗不为虞山派所缚。别调独弹，戛戛自异。毗陵学诗者多宗之。",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3384",
+      "dynasty": "清"
+    },
+    {
+      "title": "答云间蒋驭闳",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3390",
+      "dynasty": "清"
+    },
+    {
+      "title": "计东",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3385",
+      "dynasty": "清"
+    },
+    {
+      "title": "邺城吊谢茂秦山人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3389",
+      "dynasty": "清"
+    },
+    {
+      "title": "任丘道中回望西山有感 是日为新进士胪唱",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=428",
+      "dynasty": "清"
+    },
+    {
+      "title": "宣府中元夜即事",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=427",
+      "dynasty": "清"
+    },
+    {
+      "title": "宣府逢立秋 是岁闰七月",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=429",
+      "dynasty": "清"
+    },
+    {
+      "title": "湘灵为牧斋族子。然其诗不为虞山派所缚。别调独弹，戛戛自异。毗陵学诗者多宗之。",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=425",
+      "dynasty": "清"
+    },
+    {
+      "title": "答云间蒋驭闳",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=431",
+      "dynasty": "清"
+    },
+    {
+      "title": "计东",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=426",
+      "dynasty": "清"
+    },
+    {
+      "title": "邺城吊谢茂秦山人",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=430",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

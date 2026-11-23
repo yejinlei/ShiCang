@@ -1,0 +1,56 @@
+{
+  "name": "宋聚业",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "同吕侍御元素过新郑，侍御有妹随婿在宫，予兄弟五人天各一方，感而赋比",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4796",
+      "dynasty": "清"
+    },
+    {
+      "title": "宿沅江驿楼时秋分夕",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4794",
+      "dynasty": "清"
+    },
+    {
+      "title": "题南阳旅壁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4795",
+      "dynasty": "清"
+    },
+    {
+      "title": "同吕侍御元素过新郑，侍御有妹随婿在宫，予兄弟五人天各一方，感而赋比",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1837",
+      "dynasty": "清"
+    },
+    {
+      "title": "宿沅江驿楼时秋分夕",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1835",
+      "dynasty": "清"
+    },
+    {
+      "title": "题南阳旅壁",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1836",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

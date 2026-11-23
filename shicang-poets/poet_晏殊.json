@@ -1,0 +1,129 @@
+{
+  "name": "晏殊",
+  "zi": "同叔",
+  "hao": "元献",
+  "dynasty": "北宋",
+  "d_order": 7,
+  "birthplace": "抚州临川",
+  "style": "#2980B9",
+  "school": "婉约",
+  "years": "991—1055",
+  "bio": "北宋前期词坛领袖，官至宰相，词风闲雅温润。代表作《浣溪沙·一曲新词酒一杯》。",
+  "work_count": 18,
+  "anthologies": [
+    "千家诗",
+    "名篇精读",
+    "宋词三百首"
+  ],
+  "works": [
+    {
+      "title": "寓意",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=176",
+      "dynasty": "宋"
+    },
+    {
+      "title": "寓意",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0994",
+      "dynasty": "宋"
+    },
+    {
+      "title": "木兰花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0534",
+      "dynasty": "宋"
+    },
+    {
+      "title": "浣溪沙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0535",
+      "dynasty": "宋"
+    },
+    {
+      "title": "清乐平",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1009",
+      "dynasty": "宋"
+    },
+    {
+      "title": "清平乐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0536",
+      "dynasty": "宋"
+    },
+    {
+      "title": "蝶恋花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0537",
+      "dynasty": "宋"
+    },
+    {
+      "title": "踏莎行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0538",
+      "dynasty": "宋"
+    },
+    {
+      "title": "木兰花",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=13",
+      "dynasty": "宋"
+    },
+    {
+      "title": "木兰花",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=14",
+      "dynasty": "宋"
+    },
+    {
+      "title": "木兰花",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=15",
+      "dynasty": "宋"
+    },
+    {
+      "title": "浣溪沙",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=9",
+      "dynasty": "宋"
+    },
+    {
+      "title": "浣溪沙",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=10",
+      "dynasty": "宋"
+    },
+    {
+      "title": "清乐平",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=11",
+      "dynasty": "宋"
+    },
+    {
+      "title": "清乐平",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=12",
+      "dynasty": "宋"
+    },
+    {
+      "title": "蝶恋花",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=18",
+      "dynasty": "宋"
+    },
+    {
+      "title": "踏莎行",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=16",
+      "dynasty": "宋"
+    },
+    {
+      "title": "踏莎行",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=17",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": true
+}

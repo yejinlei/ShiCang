@@ -1,0 +1,80 @@
+{
+  "name": "孙惟信",
+  "zi": "",
+  "hao": "",
+  "dynasty": "宋",
+  "d_order": 8,
+  "birthplace": "",
+  "style": "#7F8C8D",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "绝妙好词"
+  ],
+  "works": [
+    {
+      "title": "南乡子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7266",
+      "dynasty": "宋"
+    },
+    {
+      "title": "夜合花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7263",
+      "dynasty": "宋"
+    },
+    {
+      "title": "昼锦堂",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7262",
+      "dynasty": "宋"
+    },
+    {
+      "title": "烛影摇红",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7264",
+      "dynasty": "宋"
+    },
+    {
+      "title": "醉思凡",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7265",
+      "dynasty": "宋"
+    },
+    {
+      "title": "南乡子",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=77",
+      "dynasty": "宋"
+    },
+    {
+      "title": "夜合花",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=74",
+      "dynasty": "宋"
+    },
+    {
+      "title": "昼锦堂",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=73",
+      "dynasty": "宋"
+    },
+    {
+      "title": "牡丹·烛影摇红",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=75",
+      "dynasty": "宋"
+    },
+    {
+      "title": "醉思凡",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=76",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

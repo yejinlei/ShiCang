@@ -1,0 +1,266 @@
+{
+  "name": "温庭筠",
+  "zi": "飞卿",
+  "hao": "温八叉",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "太原",
+  "style": "#ae3a2b",
+  "school": "花间派",
+  "years": "约812—866",
+  "bio": "花间派鼻祖，词风秾丽绮靡。代表作《菩萨蛮·小山重叠》《望江南》。",
+  "work_count": 41,
+  "anthologies": [
+    "万寿唐诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "三月雪",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=180",
+      "dynasty": "唐"
+    },
+    {
+      "title": "南歌子词",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=627",
+      "dynasty": "唐"
+    },
+    {
+      "title": "咸阳值雨",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=626",
+      "dynasty": "唐"
+    },
+    {
+      "title": "夜看牡丹",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=623",
+      "dynasty": "唐"
+    },
+    {
+      "title": "春日雨",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=616",
+      "dynasty": "唐"
+    },
+    {
+      "title": "河中紫极宫",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=622",
+      "dynasty": "唐"
+    },
+    {
+      "title": "瑶瑟怨",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=615",
+      "dynasty": "唐"
+    },
+    {
+      "title": "碧涧驿晓思",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=181",
+      "dynasty": "唐"
+    },
+    {
+      "title": "经故翰林袁学士居",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=621",
+      "dynasty": "唐"
+    },
+    {
+      "title": "赠少年",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=613",
+      "dynasty": "唐"
+    },
+    {
+      "title": "赠弹筝人",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=614",
+      "dynasty": "唐"
+    },
+    {
+      "title": "赠郑征君",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=618",
+      "dynasty": "唐"
+    },
+    {
+      "title": "车驾西游因而有作",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=619",
+      "dynasty": "唐"
+    },
+    {
+      "title": "过吴景帝陵",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=617",
+      "dynasty": "唐"
+    },
+    {
+      "title": "鄠杜郊居",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=625",
+      "dynasty": "唐"
+    },
+    {
+      "title": "题分水岭",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=624",
+      "dynasty": "唐"
+    },
+    {
+      "title": "题端正树",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=620",
+      "dynasty": "唐"
+    },
+    {
+      "title": "三月雪",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6653",
+      "dynasty": "唐"
+    },
+    {
+      "title": "利州南渡",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0312",
+      "dynasty": "唐"
+    },
+    {
+      "title": "南歌子词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7068",
+      "dynasty": "唐"
+    },
+    {
+      "title": "咸阳值雨",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7067",
+      "dynasty": "唐"
+    },
+    {
+      "title": "夜看牡丹",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7064",
+      "dynasty": "唐"
+    },
+    {
+      "title": "春日雨",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7057",
+      "dynasty": "唐"
+    },
+    {
+      "title": "河中紫极宫",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7063",
+      "dynasty": "唐"
+    },
+    {
+      "title": "瑶瑟怨",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0313",
+      "dynasty": "唐"
+    },
+    {
+      "title": "碧涧驿晓思",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6654",
+      "dynasty": "唐"
+    },
+    {
+      "title": "经故翰林袁学士居",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7062",
+      "dynasty": "唐"
+    },
+    {
+      "title": "苏武庙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0314",
+      "dynasty": "唐"
+    },
+    {
+      "title": "赠少年",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7055",
+      "dynasty": "唐"
+    },
+    {
+      "title": "赠弹筝人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7056",
+      "dynasty": "唐"
+    },
+    {
+      "title": "赠郑征君",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7059",
+      "dynasty": "唐"
+    },
+    {
+      "title": "车驾西游因而有作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7060",
+      "dynasty": "唐"
+    },
+    {
+      "title": "过吴景帝陵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7058",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送人东游",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0315",
+      "dynasty": "唐"
+    },
+    {
+      "title": "鄠杜郊居",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7066",
+      "dynasty": "唐"
+    },
+    {
+      "title": "题分水岭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7065",
+      "dynasty": "唐"
+    },
+    {
+      "title": "题端正树",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7061",
+      "dynasty": "唐"
+    },
+    {
+      "title": "更漏子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0592",
+      "dynasty": "宋"
+    },
+    {
+      "title": "望江南",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0593",
+      "dynasty": "宋"
+    },
+    {
+      "title": "梦江南",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0594",
+      "dynasty": "宋"
+    },
+    {
+      "title": "菩萨蛮",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0595",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": true
+}

@@ -1,0 +1,99 @@
+{
+  "name": "钱起",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 13,
+  "anthologies": [
+    "万寿唐诗",
+    "千家诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "归鴈",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=300",
+      "dynasty": "唐"
+    },
+    {
+      "title": "江行无题 五首",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=99",
+      "dynasty": "唐"
+    },
+    {
+      "title": "归雁",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=166",
+      "dynasty": "唐"
+    },
+    {
+      "title": "江行望匡庐",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=18",
+      "dynasty": "唐"
+    },
+    {
+      "title": "逢侠者",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=17",
+      "dynasty": "唐"
+    },
+    {
+      "title": "归雁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0984",
+      "dynasty": "唐"
+    },
+    {
+      "title": "归鴈",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6761",
+      "dynasty": "唐"
+    },
+    {
+      "title": "江行无题 五首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6577",
+      "dynasty": "唐"
+    },
+    {
+      "title": "江行望匡庐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0854",
+      "dynasty": "唐"
+    },
+    {
+      "title": "谷口书斋寄杨补阙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0379",
+      "dynasty": "唐"
+    },
+    {
+      "title": "赠阙下裴舍人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0380",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送僧归日本",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0381",
+      "dynasty": "唐"
+    },
+    {
+      "title": "逢侠者",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0853",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

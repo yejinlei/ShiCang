@@ -1,0 +1,31 @@
+{
+  "name": "姚燧",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 2,
+  "anthologies": [
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "凭栏人·寄征衣",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0723",
+      "dynasty": "元"
+    },
+    {
+      "title": "阳春曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0724",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

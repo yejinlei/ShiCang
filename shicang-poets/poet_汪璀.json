@@ -1,0 +1,44 @@
+{
+  "name": "汪璀",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "从苕返德清",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6374",
+      "dynasty": "清"
+    },
+    {
+      "title": "怀舍弟都中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6375",
+      "dynasty": "清"
+    },
+    {
+      "title": "从苕返德清",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3415",
+      "dynasty": "清"
+    },
+    {
+      "title": "怀舍弟都中",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3416",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,56 @@
+{
+  "name": "徐照",
+  "zi": "",
+  "hao": "",
+  "dynasty": "宋",
+  "d_order": 8,
+  "birthplace": "",
+  "style": "#7F8C8D",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "绝妙好词"
+  ],
+  "works": [
+    {
+      "title": "南歌子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7242",
+      "dynasty": "宋"
+    },
+    {
+      "title": "清平乐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7243",
+      "dynasty": "宋"
+    },
+    {
+      "title": "阮郎归",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7244",
+      "dynasty": "宋"
+    },
+    {
+      "title": "南歌子",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=48",
+      "dynasty": "宋"
+    },
+    {
+      "title": "清平乐",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=49",
+      "dynasty": "宋"
+    },
+    {
+      "title": "阮郎归",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=50",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

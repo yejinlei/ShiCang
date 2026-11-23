@@ -1,0 +1,104 @@
+{
+  "name": "毛师柱",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 14,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "二鹦鹉",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4544",
+      "dynasty": "清"
+    },
+    {
+      "title": "兵过",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4541",
+      "dynasty": "清"
+    },
+    {
+      "title": "喜云间徐合素至自甘州幕府话旧有赠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4543",
+      "dynasty": "清"
+    },
+    {
+      "title": "方山阻风",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4547",
+      "dynasty": "清"
+    },
+    {
+      "title": "朱仙镇拜岳武穆王庙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4545",
+      "dynasty": "清"
+    },
+    {
+      "title": "舟中两梦亡妇诗以志感",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4542",
+      "dynasty": "清"
+    },
+    {
+      "title": "追感杜茶村先生",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4546",
+      "dynasty": "清"
+    },
+    {
+      "title": "二鹦鹉",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1585",
+      "dynasty": "清"
+    },
+    {
+      "title": "兵过",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1582",
+      "dynasty": "清"
+    },
+    {
+      "title": "喜云间徐合素至自甘州幕府话旧有赠",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1584",
+      "dynasty": "清"
+    },
+    {
+      "title": "方山阻风",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1588",
+      "dynasty": "清"
+    },
+    {
+      "title": "朱仙镇拜岳武穆王庙",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1586",
+      "dynasty": "清"
+    },
+    {
+      "title": "舟中两梦亡妇诗以志感",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1583",
+      "dynasty": "清"
+    },
+    {
+      "title": "追感杜茶村先生",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1587",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

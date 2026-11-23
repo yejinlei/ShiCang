@@ -1,0 +1,56 @@
+{
+  "name": "施何牧",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "九日放舟山塘",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4572",
+      "dynasty": "清"
+    },
+    {
+      "title": "效诸将三首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4571",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠焦山人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4573",
+      "dynasty": "清"
+    },
+    {
+      "title": "九日放舟山塘",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1613",
+      "dynasty": "清"
+    },
+    {
+      "title": "效诸将三首",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1612",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠焦山人",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1614",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

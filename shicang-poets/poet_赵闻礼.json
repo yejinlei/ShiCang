@@ -1,0 +1,158 @@
+{
+  "name": "赵闻礼",
+  "zi": "",
+  "hao": "",
+  "dynasty": "宋",
+  "d_order": 8,
+  "birthplace": "",
+  "style": "#7F8C8D",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 23,
+  "anthologies": [
+    "名篇精读",
+    "绝妙好词"
+  ],
+  "works": [
+    {
+      "title": "兰陵王",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7403",
+      "dynasty": "宋"
+    },
+    {
+      "title": "千秋岁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7394",
+      "dynasty": "宋"
+    },
+    {
+      "title": "曲游春",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7404",
+      "dynasty": "宋"
+    },
+    {
+      "title": "步月",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7405",
+      "dynasty": "宋"
+    },
+    {
+      "title": "水龙吟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7397",
+      "dynasty": "宋"
+    },
+    {
+      "title": "清平乐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7401",
+      "dynasty": "宋"
+    },
+    {
+      "title": "解语花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7402",
+      "dynasty": "宋"
+    },
+    {
+      "title": "贺新郎",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7399",
+      "dynasty": "宋"
+    },
+    {
+      "title": "隔浦莲近",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7398",
+      "dynasty": "宋"
+    },
+    {
+      "title": "风入松",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7396",
+      "dynasty": "宋"
+    },
+    {
+      "title": "鱼游春水",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7395",
+      "dynasty": "宋"
+    },
+    {
+      "title": "兰陵王",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=216",
+      "dynasty": "宋"
+    },
+    {
+      "title": "千秋岁",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=207",
+      "dynasty": "宋"
+    },
+    {
+      "title": "水仙花·水龙吟",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=210",
+      "dynasty": "宋"
+    },
+    {
+      "title": "水龙吟",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=213",
+      "dynasty": "宋"
+    },
+    {
+      "title": "清平乐",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=214",
+      "dynasty": "宋"
+    },
+    {
+      "title": "清明湖上·曲游春",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=217",
+      "dynasty": "宋"
+    },
+    {
+      "title": "茉莉·步月",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=218",
+      "dynasty": "宋"
+    },
+    {
+      "title": "茧·贺新郎",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=212",
+      "dynasty": "宋"
+    },
+    {
+      "title": "解语花",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=215",
+      "dynasty": "宋"
+    },
+    {
+      "title": "隔浦莲近",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=211",
+      "dynasty": "宋"
+    },
+    {
+      "title": "风入松",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=209",
+      "dynasty": "宋"
+    },
+    {
+      "title": "鱼游春水",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=208",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

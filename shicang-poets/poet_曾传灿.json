@@ -1,0 +1,44 @@
+{
+  "name": "曾传灿",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "将立春同友郊 外眺望",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3636",
+      "dynasty": "清"
+    },
+    {
+      "title": "岁暮武陵别叶子九往京口",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3637",
+      "dynasty": "清"
+    },
+    {
+      "title": "将立春同友郊 外眺望",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=677",
+      "dynasty": "清"
+    },
+    {
+      "title": "岁暮武陵别叶子九往京口",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=678",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

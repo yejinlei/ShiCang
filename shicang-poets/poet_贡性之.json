@@ -1,0 +1,56 @@
+{
+  "name": "贡性之",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "暮春二首",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=440",
+      "dynasty": "元"
+    },
+    {
+      "title": "涌金门见柳",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=442",
+      "dynasty": "元"
+    },
+    {
+      "title": "题菜",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=441",
+      "dynasty": "元"
+    },
+    {
+      "title": "暮春二首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1902",
+      "dynasty": "元"
+    },
+    {
+      "title": "涌金门见柳",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1904",
+      "dynasty": "元"
+    },
+    {
+      "title": "题菜",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1903",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

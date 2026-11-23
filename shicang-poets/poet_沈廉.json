@@ -1,0 +1,104 @@
+{
+  "name": "沈廉",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 14,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "入连云栈",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5119",
+      "dynasty": "清"
+    },
+    {
+      "title": "出连云栈抵宿褒城",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5114",
+      "dynasty": "清"
+    },
+    {
+      "title": "剑门",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5120",
+      "dynasty": "清"
+    },
+    {
+      "title": "江口行并序",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5115",
+      "dynasty": "清"
+    },
+    {
+      "title": "自彝陵州发棹至黄牛峡",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5116",
+      "dynasty": "清"
+    },
+    {
+      "title": "苦雨有感",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5118",
+      "dynasty": "清"
+    },
+    {
+      "title": "锦江观涨",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5117",
+      "dynasty": "清"
+    },
+    {
+      "title": "入连云栈",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2160",
+      "dynasty": "清"
+    },
+    {
+      "title": "出连云栈抵宿褒城",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2155",
+      "dynasty": "清"
+    },
+    {
+      "title": "剑门",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2161",
+      "dynasty": "清"
+    },
+    {
+      "title": "江口行并序",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2156",
+      "dynasty": "清"
+    },
+    {
+      "title": "自彝陵州发棹至黄牛峡",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2157",
+      "dynasty": "清"
+    },
+    {
+      "title": "苦雨有感",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2159",
+      "dynasty": "清"
+    },
+    {
+      "title": "锦江观涨",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2158",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

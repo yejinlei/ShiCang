@@ -1,0 +1,56 @@
+{
+  "name": "谢淞洲",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "寒夜",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6152",
+      "dynasty": "清"
+    },
+    {
+      "title": "支公禅院",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6150",
+      "dynasty": "清"
+    },
+    {
+      "title": "田家杂兴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6151",
+      "dynasty": "清"
+    },
+    {
+      "title": "寒夜",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3193",
+      "dynasty": "清"
+    },
+    {
+      "title": "支公禅院",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3191",
+      "dynasty": "清"
+    },
+    {
+      "title": "田家杂兴",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3192",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

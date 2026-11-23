@@ -1,0 +1,44 @@
+{
+  "name": "袁宏道",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "感事",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2720",
+      "dynasty": "明"
+    },
+    {
+      "title": "感事",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=716",
+      "dynasty": "明"
+    },
+    {
+      "title": "满井游记",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0791",
+      "dynasty": "明末清初"
+    },
+    {
+      "title": "西湖",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0792",
+      "dynasty": "明末清初"
+    }
+  ],
+  "has_bio": false
+}

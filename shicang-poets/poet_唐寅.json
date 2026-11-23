@@ -1,0 +1,37 @@
+{
+  "name": "唐寅",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明末清初",
+  "d_order": 14,
+  "birthplace": "",
+  "style": "#8E44AD",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 3,
+  "anthologies": [
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "把酒对月歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0757",
+      "dynasty": "明末清初"
+    },
+    {
+      "title": "桃花庵歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0758",
+      "dynasty": "明末清初"
+    },
+    {
+      "title": "言志",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0759",
+      "dynasty": "明末清初"
+    }
+  ],
+  "has_bio": false
+}

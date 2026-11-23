@@ -1,0 +1,56 @@
+{
+  "name": "钱芳村",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "击鲜行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3870",
+      "dynasty": "清"
+    },
+    {
+      "title": "清明偕钟宛兄展墓有感",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3872",
+      "dynasty": "清"
+    },
+    {
+      "title": "长椿寺病马行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3871",
+      "dynasty": "清"
+    },
+    {
+      "title": "击鲜行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=911",
+      "dynasty": "清"
+    },
+    {
+      "title": "清明偕钟宛兄展墓有感",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=913",
+      "dynasty": "清"
+    },
+    {
+      "title": "长椿寺病马行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=912",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

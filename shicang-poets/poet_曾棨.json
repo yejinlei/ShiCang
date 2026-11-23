@@ -1,0 +1,92 @@
+{
+  "name": "曾棨",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 12,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "维扬怀古",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2165",
+      "dynasty": "明"
+    },
+    {
+      "title": "车驾渡江",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2163",
+      "dynasty": "明"
+    },
+    {
+      "title": "过吴门",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2166",
+      "dynasty": "明"
+    },
+    {
+      "title": "送兄广东参政应奎",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2168",
+      "dynasty": "明"
+    },
+    {
+      "title": "送周秀才游长沙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2167",
+      "dynasty": "明"
+    },
+    {
+      "title": "送陈郎中重使西域",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2164",
+      "dynasty": "明"
+    },
+    {
+      "title": "维扬怀古",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=161",
+      "dynasty": "明"
+    },
+    {
+      "title": "车驾渡江",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=159",
+      "dynasty": "明"
+    },
+    {
+      "title": "过吴门",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=162",
+      "dynasty": "明"
+    },
+    {
+      "title": "送兄广东参政应奎",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=164",
+      "dynasty": "明"
+    },
+    {
+      "title": "送周秀才游长沙",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=163",
+      "dynasty": "明"
+    },
+    {
+      "title": "送陈郎中重使西域",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=160",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

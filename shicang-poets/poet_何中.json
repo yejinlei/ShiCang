@@ -1,0 +1,260 @@
+{
+  "name": "何中",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 40,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "南居寺",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=178",
+      "dynasty": "元"
+    },
+    {
+      "title": "发新涂金水亭",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=48",
+      "dynasty": "元"
+    },
+    {
+      "title": "宿田家",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=477",
+      "dynasty": "元"
+    },
+    {
+      "title": "招仙观",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=45",
+      "dynasty": "元"
+    },
+    {
+      "title": "新淦畈步作",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=325",
+      "dynasty": "元"
+    },
+    {
+      "title": "早起",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=51",
+      "dynasty": "元"
+    },
+    {
+      "title": "春风如少年效程汉翁",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=44",
+      "dynasty": "元"
+    },
+    {
+      "title": "晓发辞夫矶时李泂溉之先行",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=49",
+      "dynasty": "元"
+    },
+    {
+      "title": "枥溪",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=52",
+      "dynasty": "元"
+    },
+    {
+      "title": "樟树镇五公寺",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=53",
+      "dynasty": "元"
+    },
+    {
+      "title": "游乐安穆山寺",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=47",
+      "dynasty": "元"
+    },
+    {
+      "title": "湖北驿中偶成",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=478",
+      "dynasty": "元"
+    },
+    {
+      "title": "照武西塔山报恩寺",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=50",
+      "dynasty": "元"
+    },
+    {
+      "title": "知非堂夜坐",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=46",
+      "dynasty": "元"
+    },
+    {
+      "title": "立秋夕作",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=181",
+      "dynasty": "元"
+    },
+    {
+      "title": "辛亥元夕二日",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=182",
+      "dynasty": "元"
+    },
+    {
+      "title": "陈家源",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=180",
+      "dynasty": "元"
+    },
+    {
+      "title": "雨后晚行",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=501",
+      "dynasty": "元"
+    },
+    {
+      "title": "题吴实斋北山别业",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=502",
+      "dynasty": "元"
+    },
+    {
+      "title": "饶州道上",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=179",
+      "dynasty": "元"
+    },
+    {
+      "title": "南居寺",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1640",
+      "dynasty": "元"
+    },
+    {
+      "title": "发新涂金水亭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1510",
+      "dynasty": "元"
+    },
+    {
+      "title": "宿田家",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1939",
+      "dynasty": "元"
+    },
+    {
+      "title": "招仙观",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1507",
+      "dynasty": "元"
+    },
+    {
+      "title": "新淦畈步作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1787",
+      "dynasty": "元"
+    },
+    {
+      "title": "早起",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1513",
+      "dynasty": "元"
+    },
+    {
+      "title": "春风如少年效程汉翁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1506",
+      "dynasty": "元"
+    },
+    {
+      "title": "晓发辞夫矶时李泂溉之先行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1511",
+      "dynasty": "元"
+    },
+    {
+      "title": "枥溪",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1514",
+      "dynasty": "元"
+    },
+    {
+      "title": "樟树镇五公寺",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1515",
+      "dynasty": "元"
+    },
+    {
+      "title": "游乐安穆山寺",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1509",
+      "dynasty": "元"
+    },
+    {
+      "title": "湖北驿中偶成",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1940",
+      "dynasty": "元"
+    },
+    {
+      "title": "照武西塔山报恩寺",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1512",
+      "dynasty": "元"
+    },
+    {
+      "title": "知非堂夜坐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1508",
+      "dynasty": "元"
+    },
+    {
+      "title": "立秋夕作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1643",
+      "dynasty": "元"
+    },
+    {
+      "title": "辛亥元夕二日",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1644",
+      "dynasty": "元"
+    },
+    {
+      "title": "陈家源",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1642",
+      "dynasty": "元"
+    },
+    {
+      "title": "雨后晚行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1963",
+      "dynasty": "元"
+    },
+    {
+      "title": "题吴实斋北山别业",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1964",
+      "dynasty": "元"
+    },
+    {
+      "title": "饶州道上",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1641",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

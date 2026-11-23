@@ -1,0 +1,56 @@
+{
+  "name": "方京",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "示长媳杨珊珊",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6332",
+      "dynasty": "清"
+    },
+    {
+      "title": "薤上露",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6330",
+      "dynasty": "清"
+    },
+    {
+      "title": "送孟调大侄南还",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6331",
+      "dynasty": "清"
+    },
+    {
+      "title": "示长媳杨珊珊",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3373",
+      "dynasty": "清"
+    },
+    {
+      "title": "薤上露",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3371",
+      "dynasty": "清"
+    },
+    {
+      "title": "送孟调大侄南还",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3372",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

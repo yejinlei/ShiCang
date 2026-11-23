@@ -1,0 +1,302 @@
+{
+  "name": "钱谦益",
+  "zi": "受之",
+  "hao": "牧斋",
+  "dynasty": "明末清初",
+  "d_order": 14,
+  "birthplace": "常熟",
+  "style": "#8E44AD",
+  "school": "江左三大家",
+  "years": "1582—1664",
+  "bio": "明末清初文坛领袖，「江左三大家」之首，诗风沉郁藻丽。",
+  "work_count": 47,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "后秋兴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0802",
+      "dynasty": "明末清初"
+    },
+    {
+      "title": "丙戍南还赠别故侯家妓人冬哥",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2976",
+      "dynasty": "清"
+    },
+    {
+      "title": "东归漫兴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2975",
+      "dynasty": "清"
+    },
+    {
+      "title": "临城驿壁见方侍御孩未题诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2965",
+      "dynasty": "清"
+    },
+    {
+      "title": "召对文华殿旋奉严旨感恩述事",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2966",
+      "dynasty": "清"
+    },
+    {
+      "title": "后观棋绝句",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2977",
+      "dynasty": "清"
+    },
+    {
+      "title": "团扇篇",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2960",
+      "dynasty": "清"
+    },
+    {
+      "title": "夏日宴新乐小侯于燕誉堂",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2972",
+      "dynasty": "清"
+    },
+    {
+      "title": "奉谒少师高阳公于里第感旧述怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2970",
+      "dynasty": "清"
+    },
+    {
+      "title": "岁暮杂怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2971",
+      "dynasty": "清"
+    },
+    {
+      "title": "已巳八月待放归田感怀述事奉寄南都诸君子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2969",
+      "dynasty": "清"
+    },
+    {
+      "title": "戊辰七月应召赴阙车中言怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2964",
+      "dynasty": "清"
+    },
+    {
+      "title": "故宫人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2979",
+      "dynasty": "清"
+    },
+    {
+      "title": "村庄红豆花诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2981",
+      "dynasty": "清"
+    },
+    {
+      "title": "潞河别刘咸仲吏部",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2967",
+      "dynasty": "清"
+    },
+    {
+      "title": "玉堂双燕行送刘晋卿赵景之两太史谪官",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2962",
+      "dynasty": "清"
+    },
+    {
+      "title": "留题秦淮丁家水阁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2980",
+      "dynasty": "清"
+    },
+    {
+      "title": "简侯研德并示记原",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2974",
+      "dynasty": "清"
+    },
+    {
+      "title": "读史记戏书",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2978",
+      "dynasty": "清"
+    },
+    {
+      "title": "送吴兴公游下邳兼简李条侯",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2973",
+      "dynasty": "清"
+    },
+    {
+      "title": "送福清公归里",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2963",
+      "dynasty": "清"
+    },
+    {
+      "title": "陆宣公墓道行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2959",
+      "dynasty": "清"
+    },
+    {
+      "title": "题宋徽宗杏花村图",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2961",
+      "dynasty": "清"
+    },
+    {
+      "title": "题淮阴侯庙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2968",
+      "dynasty": "清"
+    },
+    {
+      "title": "丙戍南还赠别故侯家妓人冬哥",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=17",
+      "dynasty": "清"
+    },
+    {
+      "title": "东归漫兴",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=16",
+      "dynasty": "清"
+    },
+    {
+      "title": "临城驿壁见方侍御孩未题诗",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=6",
+      "dynasty": "清"
+    },
+    {
+      "title": "召对文华殿旋奉严旨感恩述事",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=7",
+      "dynasty": "清"
+    },
+    {
+      "title": "后观棋绝句",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=18",
+      "dynasty": "清"
+    },
+    {
+      "title": "团扇篇",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1",
+      "dynasty": "清"
+    },
+    {
+      "title": "夏日宴新乐小侯于燕誉堂",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=13",
+      "dynasty": "清"
+    },
+    {
+      "title": "奉谒少师高阳公于里第感旧述怀",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=11",
+      "dynasty": "清"
+    },
+    {
+      "title": "岁暮杂怀",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=12",
+      "dynasty": "清"
+    },
+    {
+      "title": "已巳八月待放归田感怀述事奉寄南都诸君子",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=10",
+      "dynasty": "清"
+    },
+    {
+      "title": "戊辰七月应召赴阙车中言怀",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=5",
+      "dynasty": "清"
+    },
+    {
+      "title": "故宫人",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=20",
+      "dynasty": "清"
+    },
+    {
+      "title": "村庄红豆花诗",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=22",
+      "dynasty": "清"
+    },
+    {
+      "title": "潞河别刘咸仲吏部",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=8",
+      "dynasty": "清"
+    },
+    {
+      "title": "玉堂双燕行送刘晋卿赵景之两太史谪官",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3",
+      "dynasty": "清"
+    },
+    {
+      "title": "留题秦淮丁家水阁",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=21",
+      "dynasty": "清"
+    },
+    {
+      "title": "简侯研德并示记原",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=15",
+      "dynasty": "清"
+    },
+    {
+      "title": "读史记戏书",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=19",
+      "dynasty": "清"
+    },
+    {
+      "title": "送吴兴公游下邳兼简李条侯",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=14",
+      "dynasty": "清"
+    },
+    {
+      "title": "送福清公归里",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=4",
+      "dynasty": "清"
+    },
+    {
+      "title": "陆宣公墓道行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=0",
+      "dynasty": "清"
+    },
+    {
+      "title": "题宋徽宗杏花村图",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2",
+      "dynasty": "清"
+    },
+    {
+      "title": "题淮阴侯庙",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=9",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": true
+}

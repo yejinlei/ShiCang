@@ -1,0 +1,116 @@
+{
+  "name": "李流芳",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 16,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "值唐叔达同钱将军北上言别",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2733",
+      "dynasty": "明"
+    },
+    {
+      "title": "登楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2736",
+      "dynasty": "明"
+    },
+    {
+      "title": "白门七夕",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2730",
+      "dynasty": "明"
+    },
+    {
+      "title": "薜侍御出按贵州，便道归云南省觐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2732",
+      "dynasty": "明"
+    },
+    {
+      "title": "过皋亭龙居湾宿永庆禅院，同一濂、澄心、恒可诸上人步月",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2729",
+      "dynasty": "明"
+    },
+    {
+      "title": "送李中翰还朝",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2734",
+      "dynasty": "明"
+    },
+    {
+      "title": "阊门访旧作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2735",
+      "dynasty": "明"
+    },
+    {
+      "title": "黄河夜泊",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2731",
+      "dynasty": "明"
+    },
+    {
+      "title": "值唐叔达同钱将军北上言别",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=729",
+      "dynasty": "明"
+    },
+    {
+      "title": "登楼",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=732",
+      "dynasty": "明"
+    },
+    {
+      "title": "白门七夕",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=726",
+      "dynasty": "明"
+    },
+    {
+      "title": "薜侍御出按贵州，便道归云南省觐",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=728",
+      "dynasty": "明"
+    },
+    {
+      "title": "过皋亭龙居湾宿永庆禅院，同一濂、澄心、恒可诸上人步月",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=725",
+      "dynasty": "明"
+    },
+    {
+      "title": "送李中翰还朝",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=730",
+      "dynasty": "明"
+    },
+    {
+      "title": "阊门访旧作",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=731",
+      "dynasty": "明"
+    },
+    {
+      "title": "黄河夜泊",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=727",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

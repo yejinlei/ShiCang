@@ -1,0 +1,68 @@
+{
+  "name": "栁宗元",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "万寿唐诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "栁州二月",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=380",
+      "dynasty": "唐"
+    },
+    {
+      "title": "酬曹侍御",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=383",
+      "dynasty": "唐"
+    },
+    {
+      "title": "酬梦得",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=381",
+      "dynasty": "唐"
+    },
+    {
+      "title": "闻彻上人亡寄杨侍郎",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=382",
+      "dynasty": "唐"
+    },
+    {
+      "title": "栁州二月",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6835",
+      "dynasty": "唐"
+    },
+    {
+      "title": "酬曹侍御",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6838",
+      "dynasty": "唐"
+    },
+    {
+      "title": "酬梦得",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6836",
+      "dynasty": "唐"
+    },
+    {
+      "title": "闻彻上人亡寄杨侍郎",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6837",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

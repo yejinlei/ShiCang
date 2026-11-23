@@ -1,0 +1,56 @@
+{
+  "name": "韩纯玉",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "汉阳渡口作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3701",
+      "dynasty": "清"
+    },
+    {
+      "title": "玄墓山遇明孝廉徐昭法即别怆然有怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3702",
+      "dynasty": "清"
+    },
+    {
+      "title": "题李营丘风雪运粮图",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3700",
+      "dynasty": "清"
+    },
+    {
+      "title": "汉阳渡口作",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=742",
+      "dynasty": "清"
+    },
+    {
+      "title": "玄墓山遇明孝廉徐昭法即别怆然有怀",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=743",
+      "dynasty": "清"
+    },
+    {
+      "title": "题李营丘风雪运粮图",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=741",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

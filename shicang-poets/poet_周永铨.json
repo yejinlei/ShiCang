@@ -1,0 +1,104 @@
+{
+  "name": "周永铨",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 14,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "义卒行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6186",
+      "dynasty": "清"
+    },
+    {
+      "title": "京口闻雁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6189",
+      "dynasty": "清"
+    },
+    {
+      "title": "关山月",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6188",
+      "dynasty": "清"
+    },
+    {
+      "title": "孚溪吟赠归愚子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6187",
+      "dynasty": "清"
+    },
+    {
+      "title": "拟唐人边庭四时怨",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6190",
+      "dynasty": "清"
+    },
+    {
+      "title": "捣衣曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6191",
+      "dynasty": "清"
+    },
+    {
+      "title": "西崦舟夜",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6185",
+      "dynasty": "清"
+    },
+    {
+      "title": "义卒行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3227",
+      "dynasty": "清"
+    },
+    {
+      "title": "京口闻雁",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3230",
+      "dynasty": "清"
+    },
+    {
+      "title": "关山月",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3229",
+      "dynasty": "清"
+    },
+    {
+      "title": "孚溪吟赠归愚子",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3228",
+      "dynasty": "清"
+    },
+    {
+      "title": "拟唐人边庭四时怨",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3231",
+      "dynasty": "清"
+    },
+    {
+      "title": "捣衣曲",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3232",
+      "dynasty": "清"
+    },
+    {
+      "title": "西崦舟夜",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3226",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

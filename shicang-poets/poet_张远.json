@@ -1,0 +1,128 @@
+{
+  "name": "张远",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 18,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "下建溪诸滩",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4808",
+      "dynasty": "清"
+    },
+    {
+      "title": "予前观罗刹江潮，",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4809",
+      "dynasty": "清"
+    },
+    {
+      "title": "岁暮寄怀故园亲友",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4813",
+      "dynasty": "清"
+    },
+    {
+      "title": "开笼行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4810",
+      "dynasty": "清"
+    },
+    {
+      "title": "还至延平遥望先墓有作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4815",
+      "dynasty": "清"
+    },
+    {
+      "title": "送沙子羽之日本",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4816",
+      "dynasty": "清"
+    },
+    {
+      "title": "闽中杂感",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4814",
+      "dynasty": "清"
+    },
+    {
+      "title": "题黄山山人墨竹",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4811",
+      "dynasty": "清"
+    },
+    {
+      "title": "鹊巢为童子所破",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4812",
+      "dynasty": "清"
+    },
+    {
+      "title": "下建溪诸滩",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1849",
+      "dynasty": "清"
+    },
+    {
+      "title": "予前观罗刹江潮，",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1850",
+      "dynasty": "清"
+    },
+    {
+      "title": "岁暮寄怀故园亲友",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1854",
+      "dynasty": "清"
+    },
+    {
+      "title": "开笼行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1851",
+      "dynasty": "清"
+    },
+    {
+      "title": "还至延平遥望先墓有作",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1856",
+      "dynasty": "清"
+    },
+    {
+      "title": "送沙子羽之日本",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1857",
+      "dynasty": "清"
+    },
+    {
+      "title": "闽中杂感",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1855",
+      "dynasty": "清"
+    },
+    {
+      "title": "题黄山山人墨竹",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1852",
+      "dynasty": "清"
+    },
+    {
+      "title": "鹊巢为童子所破",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1853",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

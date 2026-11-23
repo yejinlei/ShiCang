@@ -1,0 +1,68 @@
+{
+  "name": "盛枫",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "咏燕",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4215",
+      "dynasty": "清"
+    },
+    {
+      "title": "白洋河阻风",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4213",
+      "dynasty": "清"
+    },
+    {
+      "title": "盆花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4212",
+      "dynasty": "清"
+    },
+    {
+      "title": "黔阳",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4214",
+      "dynasty": "清"
+    },
+    {
+      "title": "咏燕",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1256",
+      "dynasty": "清"
+    },
+    {
+      "title": "白洋河阻风",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1254",
+      "dynasty": "清"
+    },
+    {
+      "title": "盆花",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1253",
+      "dynasty": "清"
+    },
+    {
+      "title": "黔阳",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1255",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

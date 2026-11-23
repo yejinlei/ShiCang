@@ -1,0 +1,56 @@
+{
+  "name": "李来泰",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "中山贡使入朝纪事",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3275",
+      "dynasty": "清"
+    },
+    {
+      "title": "荆公故宅",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3276",
+      "dynasty": "清"
+    },
+    {
+      "title": "觉尘余故人子也，以僧来谒，书此赠之",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3277",
+      "dynasty": "清"
+    },
+    {
+      "title": "中山贡使入朝纪事",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=316",
+      "dynasty": "清"
+    },
+    {
+      "title": "荆公故宅",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=317",
+      "dynasty": "清"
+    },
+    {
+      "title": "觉尘余故人子也，以僧来谒，书此赠之",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=318",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

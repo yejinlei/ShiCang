@@ -1,0 +1,392 @@
+{
+  "name": "元好问",
+  "zi": "裕之",
+  "hao": "遗山",
+  "dynasty": "金元",
+  "d_order": 10,
+  "birthplace": "太原秀容",
+  "style": "#5C4033",
+  "school": "金元宗匠",
+  "years": "1190—1257",
+  "bio": "金元之际文学宗匠，金亡不仕，诗风沉郁悲凉。代表作《摸鱼儿·雁丘词》。",
+  "work_count": 62,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "□亭",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=4",
+      "dynasty": "元"
+    },
+    {
+      "title": "乙卯十一月往镇州",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=126",
+      "dynasty": "元"
+    },
+    {
+      "title": "九月晦日王村道中",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=124",
+      "dynasty": "元"
+    },
+    {
+      "title": "光武台",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=2",
+      "dynasty": "元"
+    },
+    {
+      "title": "八月并州雁（三乡时作）",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=125",
+      "dynasty": "元"
+    },
+    {
+      "title": "出京（史院得告归嵩山侍下。）",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=5",
+      "dynasty": "元"
+    },
+    {
+      "title": "出都",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=207",
+      "dynasty": "元"
+    },
+    {
+      "title": "同儿辈赋未开海棠二首",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=396",
+      "dynasty": "元"
+    },
+    {
+      "title": "天门引",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=73",
+      "dynasty": "元"
+    },
+    {
+      "title": "寄刘继先",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=208",
+      "dynasty": "元"
+    },
+    {
+      "title": "少室南原",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=123",
+      "dynasty": "元"
+    },
+    {
+      "title": "少林",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=6",
+      "dynasty": "元"
+    },
+    {
+      "title": "山居杂诗",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=386",
+      "dynasty": "元"
+    },
+    {
+      "title": "望云谣",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=76",
+      "dynasty": "元"
+    },
+    {
+      "title": "望归吟",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=77",
+      "dynasty": "元"
+    },
+    {
+      "title": "杏花杂诗",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=393",
+      "dynasty": "元"
+    },
+    {
+      "title": "杨柳",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=394",
+      "dynasty": "元"
+    },
+    {
+      "title": "榆社硖口村早发",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=395",
+      "dynasty": "元"
+    },
+    {
+      "title": "横波亭为青口帅赋",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=204",
+      "dynasty": "元"
+    },
+    {
+      "title": "泛舟大明湖（待杜子不至。）",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=71",
+      "dynasty": "元"
+    },
+    {
+      "title": "涌金亭示同游诸君",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=72",
+      "dynasty": "元"
+    },
+    {
+      "title": "游黄华山",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=69",
+      "dynasty": "元"
+    },
+    {
+      "title": "湘夫人咏",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=74",
+      "dynasty": "元"
+    },
+    {
+      "title": "王右丞雪霁捕鱼图",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=70",
+      "dynasty": "元"
+    },
+    {
+      "title": "箕山",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=0",
+      "dynasty": "元"
+    },
+    {
+      "title": "缑山置酒（同内翰冯丈叔献、雷兄希颜赋诗，分韵得“宾”字。）",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=1",
+      "dynasty": "元"
+    },
+    {
+      "title": "被檄夜赴邓州幕府",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=206",
+      "dynasty": "元"
+    },
+    {
+      "title": "西楼曲",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=75",
+      "dynasty": "元"
+    },
+    {
+      "title": "送樊顺之",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=209",
+      "dynasty": "元"
+    },
+    {
+      "title": "颍亭",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=205",
+      "dynasty": "元"
+    },
+    {
+      "title": "颍亭留别（同李冶仁卿、张肃子敬、王元亮子正分韵得“画”字。）",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=3",
+      "dynasty": "元"
+    },
+    {
+      "title": "□亭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1466",
+      "dynasty": "元"
+    },
+    {
+      "title": "乙卯十一月往镇州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1588",
+      "dynasty": "元"
+    },
+    {
+      "title": "九月晦日王村道中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1586",
+      "dynasty": "元"
+    },
+    {
+      "title": "光武台",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1464",
+      "dynasty": "元"
+    },
+    {
+      "title": "八月并州雁（三乡时作）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1587",
+      "dynasty": "元"
+    },
+    {
+      "title": "出京（史院得告归嵩山侍下。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1467",
+      "dynasty": "元"
+    },
+    {
+      "title": "出都",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1669",
+      "dynasty": "元"
+    },
+    {
+      "title": "同儿辈赋未开海棠二首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1858",
+      "dynasty": "元"
+    },
+    {
+      "title": "天门引",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1535",
+      "dynasty": "元"
+    },
+    {
+      "title": "寄刘继先",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1670",
+      "dynasty": "元"
+    },
+    {
+      "title": "少室南原",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1585",
+      "dynasty": "元"
+    },
+    {
+      "title": "少林",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1468",
+      "dynasty": "元"
+    },
+    {
+      "title": "山居杂诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1848",
+      "dynasty": "元"
+    },
+    {
+      "title": "望云谣",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1538",
+      "dynasty": "元"
+    },
+    {
+      "title": "望归吟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1539",
+      "dynasty": "元"
+    },
+    {
+      "title": "杏花杂诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1855",
+      "dynasty": "元"
+    },
+    {
+      "title": "杨柳",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1856",
+      "dynasty": "元"
+    },
+    {
+      "title": "榆社硖口村早发",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1857",
+      "dynasty": "元"
+    },
+    {
+      "title": "横波亭为青口帅赋",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1666",
+      "dynasty": "元"
+    },
+    {
+      "title": "泛舟大明湖（待杜子不至。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1533",
+      "dynasty": "元"
+    },
+    {
+      "title": "涌金亭示同游诸君",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1534",
+      "dynasty": "元"
+    },
+    {
+      "title": "游黄华山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1531",
+      "dynasty": "元"
+    },
+    {
+      "title": "湘夫人咏",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1536",
+      "dynasty": "元"
+    },
+    {
+      "title": "王右丞雪霁捕鱼图",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1532",
+      "dynasty": "元"
+    },
+    {
+      "title": "箕山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1462",
+      "dynasty": "元"
+    },
+    {
+      "title": "缑山置酒（同内翰冯丈叔献、雷兄希颜赋诗，分韵得“宾”字。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1463",
+      "dynasty": "元"
+    },
+    {
+      "title": "被檄夜赴邓州幕府",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1668",
+      "dynasty": "元"
+    },
+    {
+      "title": "西楼曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1537",
+      "dynasty": "元"
+    },
+    {
+      "title": "送樊顺之",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1671",
+      "dynasty": "元"
+    },
+    {
+      "title": "颍亭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1667",
+      "dynasty": "元"
+    },
+    {
+      "title": "颍亭留别（同李冶仁卿、张肃子敬、王元亮子正分韵得“画”字。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1465",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": true
+}

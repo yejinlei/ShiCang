@@ -1,0 +1,80 @@
+{
+  "name": "柯煜",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "劝农",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5437",
+      "dynasty": "清"
+    },
+    {
+      "title": "古诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5435",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠沈鲁瞻",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5439",
+      "dynasty": "清"
+    },
+    {
+      "title": "述怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5436",
+      "dynasty": "清"
+    },
+    {
+      "title": "题浔阳送客图为宋兰挥检讨赋",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5438",
+      "dynasty": "清"
+    },
+    {
+      "title": "劝农",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2478",
+      "dynasty": "清"
+    },
+    {
+      "title": "古诗",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2476",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠沈鲁瞻",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2480",
+      "dynasty": "清"
+    },
+    {
+      "title": "述怀",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2477",
+      "dynasty": "清"
+    },
+    {
+      "title": "题浔阳送客图为宋兰挥检讨赋",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2479",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,68 @@
+{
+  "name": "朱奕恂",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "五人墓",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5810",
+      "dynasty": "清"
+    },
+    {
+      "title": "拟古出塞",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5807",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋日杂感",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5809",
+      "dynasty": "清"
+    },
+    {
+      "title": "荷珠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5808",
+      "dynasty": "清"
+    },
+    {
+      "title": "五人墓",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2851",
+      "dynasty": "清"
+    },
+    {
+      "title": "拟古出塞",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2848",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋日杂感",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2850",
+      "dynasty": "清"
+    },
+    {
+      "title": "荷珠",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2849",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

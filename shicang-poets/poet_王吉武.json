@@ -1,0 +1,116 @@
+{
+  "name": "王吉武",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 16,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "刘参军锸",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4034",
+      "dynasty": "清"
+    },
+    {
+      "title": "李临淮靴中刀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4036",
+      "dynasty": "清"
+    },
+    {
+      "title": "淳汾阳胄",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4035",
+      "dynasty": "清"
+    },
+    {
+      "title": "破龙涧",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4037",
+      "dynasty": "清"
+    },
+    {
+      "title": "许由瓢",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4033",
+      "dynasty": "清"
+    },
+    {
+      "title": "读史杂感",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4031",
+      "dynasty": "清"
+    },
+    {
+      "title": "重修六贤祠成展祭作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4030",
+      "dynasty": "清"
+    },
+    {
+      "title": "钓台谒严先生祠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4032",
+      "dynasty": "清"
+    },
+    {
+      "title": "刘参军锸",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1075",
+      "dynasty": "清"
+    },
+    {
+      "title": "李临淮靴中刀",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1077",
+      "dynasty": "清"
+    },
+    {
+      "title": "淳汾阳胄",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1076",
+      "dynasty": "清"
+    },
+    {
+      "title": "破龙涧",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1078",
+      "dynasty": "清"
+    },
+    {
+      "title": "许由瓢",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1074",
+      "dynasty": "清"
+    },
+    {
+      "title": "读史杂感",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1072",
+      "dynasty": "清"
+    },
+    {
+      "title": "重修六贤祠成展祭作",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1071",
+      "dynasty": "清"
+    },
+    {
+      "title": "钓台谒严先生祠",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1073",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,56 @@
+{
+  "name": "汪",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "同陈骠骑携妓西郊射猎",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4046",
+      "dynasty": "清"
+    },
+    {
+      "title": "大梁柬友",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4047",
+      "dynasty": "清"
+    },
+    {
+      "title": "秦淮秋柳",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5703",
+      "dynasty": "清"
+    },
+    {
+      "title": "同陈骠骑携妓西郊射猎",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1087",
+      "dynasty": "清"
+    },
+    {
+      "title": "大梁柬友",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1088",
+      "dynasty": "清"
+    },
+    {
+      "title": "秦淮秋柳",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2744",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

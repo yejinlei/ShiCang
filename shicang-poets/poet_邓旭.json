@@ -1,0 +1,44 @@
+{
+  "name": "邓旭",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "赠凤凰山咸庵禅丈，庵名凰巢",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3157",
+      "dynasty": "清"
+    },
+    {
+      "title": "钱塘看潮",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3156",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠凤凰山咸庵禅丈，庵名凰巢",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=198",
+      "dynasty": "清"
+    },
+    {
+      "title": "钱塘看潮",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=197",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

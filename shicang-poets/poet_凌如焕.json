@@ -1,0 +1,44 @@
+{
+  "name": "凌如焕",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "新滩拽滩歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5319",
+      "dynasty": "清"
+    },
+    {
+      "title": "题隆中草庐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5318",
+      "dynasty": "清"
+    },
+    {
+      "title": "新滩拽滩歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2360",
+      "dynasty": "清"
+    },
+    {
+      "title": "题隆中草庐",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2359",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

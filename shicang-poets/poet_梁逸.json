@@ -1,0 +1,44 @@
+{
+  "name": "梁逸",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "把酒桃花下",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3661",
+      "dynasty": "清"
+    },
+    {
+      "title": "泊舟古渡",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3662",
+      "dynasty": "清"
+    },
+    {
+      "title": "把酒桃花下",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=702",
+      "dynasty": "清"
+    },
+    {
+      "title": "泊舟古渡",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=703",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

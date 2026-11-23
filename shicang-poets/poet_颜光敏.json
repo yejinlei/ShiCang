@@ -1,0 +1,140 @@
+{
+  "name": "颜光敏",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 20,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "京口",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3898",
+      "dynasty": "清"
+    },
+    {
+      "title": "斗鹑行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3893",
+      "dynasty": "清"
+    },
+    {
+      "title": "昭君曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3899",
+      "dynasty": "清"
+    },
+    {
+      "title": "望华山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3897",
+      "dynasty": "清"
+    },
+    {
+      "title": "洛阳",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3895",
+      "dynasty": "清"
+    },
+    {
+      "title": "潼关",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3896",
+      "dynasty": "清"
+    },
+    {
+      "title": "白云峰",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3891",
+      "dynasty": "清"
+    },
+    {
+      "title": "送宋观察荔裳之蜀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3894",
+      "dynasty": "清"
+    },
+    {
+      "title": "送朱锡鬯之济南（在抚军署）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3900",
+      "dynasty": "清"
+    },
+    {
+      "title": "青柯坪",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3892",
+      "dynasty": "清"
+    },
+    {
+      "title": "京口",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=939",
+      "dynasty": "清"
+    },
+    {
+      "title": "斗鹑行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=934",
+      "dynasty": "清"
+    },
+    {
+      "title": "昭君曲",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=940",
+      "dynasty": "清"
+    },
+    {
+      "title": "望华山",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=938",
+      "dynasty": "清"
+    },
+    {
+      "title": "洛阳",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=936",
+      "dynasty": "清"
+    },
+    {
+      "title": "潼关",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=937",
+      "dynasty": "清"
+    },
+    {
+      "title": "白云峰",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=932",
+      "dynasty": "清"
+    },
+    {
+      "title": "送宋观察荔裳之蜀",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=935",
+      "dynasty": "清"
+    },
+    {
+      "title": "送朱锡鬯之济南（在抚军署）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=941",
+      "dynasty": "清"
+    },
+    {
+      "title": "青柯坪",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=933",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

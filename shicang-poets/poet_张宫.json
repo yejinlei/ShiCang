@@ -1,0 +1,44 @@
+{
+  "name": "张宫",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "送李素心之岳阳",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4470",
+      "dynasty": "清"
+    },
+    {
+      "title": "饮沈惊生池馆",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4469",
+      "dynasty": "清"
+    },
+    {
+      "title": "送李素心之岳阳",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1511",
+      "dynasty": "清"
+    },
+    {
+      "title": "饮沈惊生池馆",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1510",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,25 @@
+{
+  "name": "赵孟𫖯",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 1,
+  "anthologies": [
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "后庭花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0745",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

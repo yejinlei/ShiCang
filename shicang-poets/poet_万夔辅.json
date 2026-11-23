@@ -1,0 +1,68 @@
+{
+  "name": "万夔辅",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "中秋狱中作寄老妻",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5831",
+      "dynasty": "清"
+    },
+    {
+      "title": "九日",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5833",
+      "dynasty": "清"
+    },
+    {
+      "title": "孤雁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5830",
+      "dynasty": "清"
+    },
+    {
+      "title": "故明鲁王废宫",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5832",
+      "dynasty": "清"
+    },
+    {
+      "title": "中秋狱中作寄老妻",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2872",
+      "dynasty": "清"
+    },
+    {
+      "title": "九日",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2874",
+      "dynasty": "清"
+    },
+    {
+      "title": "孤雁",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2871",
+      "dynasty": "清"
+    },
+    {
+      "title": "故明鲁王废宫",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2873",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

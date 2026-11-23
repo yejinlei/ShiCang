@@ -1,0 +1,68 @@
+{
+  "name": "曹一士",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "听弹塞上鸿",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5769",
+      "dynasty": "清"
+    },
+    {
+      "title": "咏古",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5767",
+      "dynasty": "清"
+    },
+    {
+      "title": "拟古",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5766",
+      "dynasty": "清"
+    },
+    {
+      "title": "鹦鹉",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5768",
+      "dynasty": "清"
+    },
+    {
+      "title": "听弹塞上鸿",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2810",
+      "dynasty": "清"
+    },
+    {
+      "title": "咏古",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2808",
+      "dynasty": "清"
+    },
+    {
+      "title": "拟古",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2807",
+      "dynasty": "清"
+    },
+    {
+      "title": "鹦鹉",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2809",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

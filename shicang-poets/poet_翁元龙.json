@@ -1,0 +1,122 @@
+{
+  "name": "翁元龙",
+  "zi": "",
+  "hao": "",
+  "dynasty": "宋",
+  "d_order": 8,
+  "birthplace": "",
+  "style": "#7F8C8D",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 17,
+  "anthologies": [
+    "名篇精读",
+    "绝妙好词"
+  ],
+  "works": [
+    {
+      "title": "杏花天",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7381",
+      "dynasty": "宋"
+    },
+    {
+      "title": "水龙吟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7373",
+      "dynasty": "宋"
+    },
+    {
+      "title": "浣溪沙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7380",
+      "dynasty": "宋"
+    },
+    {
+      "title": "湘春夜月",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7378",
+      "dynasty": "宋"
+    },
+    {
+      "title": "绛都春",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7376",
+      "dynasty": "宋"
+    },
+    {
+      "title": "诉衷情",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7377",
+      "dynasty": "宋"
+    },
+    {
+      "title": "谒金门",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7375",
+      "dynasty": "宋"
+    },
+    {
+      "title": "醉桃源",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7374",
+      "dynasty": "宋"
+    },
+    {
+      "title": "杏花天",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=194",
+      "dynasty": "宋"
+    },
+    {
+      "title": "柳·醉桃源",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=187",
+      "dynasty": "宋"
+    },
+    {
+      "title": "水龙吟",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=192",
+      "dynasty": "宋"
+    },
+    {
+      "title": "浣溪沙",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=193",
+      "dynasty": "宋"
+    },
+    {
+      "title": "湘春夜月",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=191",
+      "dynasty": "宋"
+    },
+    {
+      "title": "秋晚海棠与黄菊盛开·绛都春",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=189",
+      "dynasty": "宋"
+    },
+    {
+      "title": "诉衷情",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=190",
+      "dynasty": "宋"
+    },
+    {
+      "title": "谒金门",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=188",
+      "dynasty": "宋"
+    },
+    {
+      "title": "雪霁登吴山见沧阁闻城中箫鼓声·水龙吟",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=186",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

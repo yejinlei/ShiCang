@@ -1,0 +1,56 @@
+{
+  "name": "张廷玉",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "山中暮归",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4837",
+      "dynasty": "清"
+    },
+    {
+      "title": "杂兴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4835",
+      "dynasty": "清"
+    },
+    {
+      "title": "题渔乐图",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4836",
+      "dynasty": "清"
+    },
+    {
+      "title": "山中暮归",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1878",
+      "dynasty": "清"
+    },
+    {
+      "title": "杂兴",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1876",
+      "dynasty": "清"
+    },
+    {
+      "title": "题渔乐图",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1877",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

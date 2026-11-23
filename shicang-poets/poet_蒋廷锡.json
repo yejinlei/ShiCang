@@ -1,0 +1,104 @@
+{
+  "name": "蒋廷锡",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 14,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "柴荒",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4909",
+      "dynasty": "清"
+    },
+    {
+      "title": "看梅",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4913",
+      "dynasty": "清"
+    },
+    {
+      "title": "续古诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4907",
+      "dynasty": "清"
+    },
+    {
+      "title": "表忠观",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4911",
+      "dynasty": "清"
+    },
+    {
+      "title": "豆荒",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4908",
+      "dynasty": "清"
+    },
+    {
+      "title": "送陶子师任昌化",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4912",
+      "dynasty": "清"
+    },
+    {
+      "title": "题小颠墨竹",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4910",
+      "dynasty": "清"
+    },
+    {
+      "title": "柴荒",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1950",
+      "dynasty": "清"
+    },
+    {
+      "title": "看梅",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1954",
+      "dynasty": "清"
+    },
+    {
+      "title": "续古诗",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1948",
+      "dynasty": "清"
+    },
+    {
+      "title": "表忠观",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1952",
+      "dynasty": "清"
+    },
+    {
+      "title": "豆荒",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1949",
+      "dynasty": "清"
+    },
+    {
+      "title": "送陶子师任昌化",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1953",
+      "dynasty": "清"
+    },
+    {
+      "title": "题小颠墨竹",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1951",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

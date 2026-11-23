@@ -1,0 +1,80 @@
+{
+  "name": "董以宁",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "席上看弄丸歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3643",
+      "dynasty": "清"
+    },
+    {
+      "title": "渡淮",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3644",
+      "dynasty": "清"
+    },
+    {
+      "title": "行路难",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3642",
+      "dynasty": "清"
+    },
+    {
+      "title": "酬邹眉雪山右见怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3645",
+      "dynasty": "清"
+    },
+    {
+      "title": "闺怨",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3646",
+      "dynasty": "清"
+    },
+    {
+      "title": "席上看弄丸歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=684",
+      "dynasty": "清"
+    },
+    {
+      "title": "渡淮",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=685",
+      "dynasty": "清"
+    },
+    {
+      "title": "行路难",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=683",
+      "dynasty": "清"
+    },
+    {
+      "title": "酬邹眉雪山右见怀",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=686",
+      "dynasty": "清"
+    },
+    {
+      "title": "闺怨",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=687",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

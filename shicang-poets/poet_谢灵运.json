@@ -1,0 +1,25 @@
+{
+  "name": "谢灵运",
+  "zi": "灵运",
+  "hao": "谢康乐",
+  "dynasty": "魏晋",
+  "d_order": 4,
+  "birthplace": "陈郡阳夏",
+  "style": "#5C4033",
+  "school": "山水诗派",
+  "years": "385—433",
+  "bio": "山水诗派开创者，东晋名将谢玄之孙。其诗刻划山水细腻工巧，扭转玄言诗风。",
+  "work_count": 1,
+  "anthologies": [
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "登池上楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0078",
+      "dynasty": "魏晋"
+    }
+  ],
+  "has_bio": true
+}

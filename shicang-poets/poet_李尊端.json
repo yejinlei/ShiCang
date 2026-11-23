@@ -1,0 +1,56 @@
+{
+  "name": "李尊端",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "仲春漫兴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5562",
+      "dynasty": "清"
+    },
+    {
+      "title": "寒日登宝积山与客谈宋南渡事怀古有作自注：宋与金和，于此山纳岁币，因以得名。",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5560",
+      "dynasty": "清"
+    },
+    {
+      "title": "芳乐苑故址",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5561",
+      "dynasty": "清"
+    },
+    {
+      "title": "仲春漫兴",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2603",
+      "dynasty": "清"
+    },
+    {
+      "title": "寒日登宝积山与客谈宋南渡事怀古有作自注：宋与金和，于此山纳岁币，因以得名。",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2601",
+      "dynasty": "清"
+    },
+    {
+      "title": "芳乐苑故址",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2602",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

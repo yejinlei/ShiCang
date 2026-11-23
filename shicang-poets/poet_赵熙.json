@@ -1,0 +1,56 @@
+{
+  "name": "赵熙",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清末",
+  "d_order": 16,
+  "birthplace": "",
+  "style": "#795548",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "三姝媚",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1403",
+      "dynasty": "清末"
+    },
+    {
+      "title": "婆罗门令",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1405",
+      "dynasty": "清末"
+    },
+    {
+      "title": "甘州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1404",
+      "dynasty": "清末"
+    },
+    {
+      "title": "下平羌峡·三姝媚",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=359",
+      "dynasty": "清末"
+    },
+    {
+      "title": "寺夜·甘州",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=360",
+      "dynasty": "清末"
+    },
+    {
+      "title": "雨月来蜀中化为战场，又日夜雨声不绝，楚人云：“后土何时而得乾也！”山中无歌哭之地，黯此言愁。·婆罗门令",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=361",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": false
+}

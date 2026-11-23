@@ -1,0 +1,62 @@
+{
+  "name": "卢挚",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 7,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "行农洛西题王居仁山堂春晓",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=469",
+      "dynasty": "元"
+    },
+    {
+      "title": "青华观西轩",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=199",
+      "dynasty": "元"
+    },
+    {
+      "title": "折桂令·田家",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0717",
+      "dynasty": "元"
+    },
+    {
+      "title": "沉醉东风·秋景",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0718",
+      "dynasty": "元"
+    },
+    {
+      "title": "蟾宫曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0719",
+      "dynasty": "元"
+    },
+    {
+      "title": "行农洛西题王居仁山堂春晓",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1931",
+      "dynasty": "元"
+    },
+    {
+      "title": "青华观西轩",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1661",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

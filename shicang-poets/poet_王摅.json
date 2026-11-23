@@ -1,0 +1,128 @@
+{
+  "name": "王摅",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 18,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "吕城病归",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4354",
+      "dynasty": "清"
+    },
+    {
+      "title": "喜吴弘人闻夏南还",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4352",
+      "dynasty": "清"
+    },
+    {
+      "title": "张文献公祠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4356",
+      "dynasty": "清"
+    },
+    {
+      "title": "怀许九日",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4353",
+      "dynasty": "清"
+    },
+    {
+      "title": "谒伍相国祠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4350",
+      "dynasty": "清"
+    },
+    {
+      "title": "谒睢阳庙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4348",
+      "dynasty": "清"
+    },
+    {
+      "title": "重阳前一日登镇海楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4355",
+      "dynasty": "清"
+    },
+    {
+      "title": "闻汉槎谪戍宁古塔",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4351",
+      "dynasty": "清"
+    },
+    {
+      "title": "黄海歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4349",
+      "dynasty": "清"
+    },
+    {
+      "title": "吕城病归",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1395",
+      "dynasty": "清"
+    },
+    {
+      "title": "喜吴弘人闻夏南还",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1393",
+      "dynasty": "清"
+    },
+    {
+      "title": "张文献公祠",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1397",
+      "dynasty": "清"
+    },
+    {
+      "title": "怀许九日",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1394",
+      "dynasty": "清"
+    },
+    {
+      "title": "谒伍相国祠",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1391",
+      "dynasty": "清"
+    },
+    {
+      "title": "谒睢阳庙",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1389",
+      "dynasty": "清"
+    },
+    {
+      "title": "重阳前一日登镇海楼",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1396",
+      "dynasty": "清"
+    },
+    {
+      "title": "闻汉槎谪戍宁古塔",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1392",
+      "dynasty": "清"
+    },
+    {
+      "title": "黄海歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1390",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

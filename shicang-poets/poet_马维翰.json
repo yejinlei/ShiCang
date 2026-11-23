@@ -1,0 +1,92 @@
+{
+  "name": "马维翰",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 12,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "九折坂（自注：用杜诗《木皮岭》韵。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5442",
+      "dynasty": "清"
+    },
+    {
+      "title": "南行漫兴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5446",
+      "dynasty": "清"
+    },
+    {
+      "title": "大喇嘛寺歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5444",
+      "dynasty": "清"
+    },
+    {
+      "title": "早发侜浦",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5441",
+      "dynasty": "清"
+    },
+    {
+      "title": "梅花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5445",
+      "dynasty": "清"
+    },
+    {
+      "title": "泸定桥（自注：用杜诗《石柜阁》韵。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5443",
+      "dynasty": "清"
+    },
+    {
+      "title": "九折坂（自注：用杜诗《木皮岭》韵。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2483",
+      "dynasty": "清"
+    },
+    {
+      "title": "南行漫兴",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2487",
+      "dynasty": "清"
+    },
+    {
+      "title": "大喇嘛寺歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2485",
+      "dynasty": "清"
+    },
+    {
+      "title": "早发侜浦",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2482",
+      "dynasty": "清"
+    },
+    {
+      "title": "梅花",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2486",
+      "dynasty": "清"
+    },
+    {
+      "title": "泸定桥（自注：用杜诗《石柜阁》韵。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2484",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

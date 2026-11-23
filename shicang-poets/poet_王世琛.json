@@ -1,0 +1,68 @@
+{
+  "name": "王世琛",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "灵山峡",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5236",
+      "dynasty": "清"
+    },
+    {
+      "title": "登楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5234",
+      "dynasty": "清"
+    },
+    {
+      "title": "英州道中寄大兄",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5235",
+      "dynasty": "清"
+    },
+    {
+      "title": "题昼三照",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5237",
+      "dynasty": "清"
+    },
+    {
+      "title": "灵山峡",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2277",
+      "dynasty": "清"
+    },
+    {
+      "title": "登楼",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2275",
+      "dynasty": "清"
+    },
+    {
+      "title": "英州道中寄大兄",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2276",
+      "dynasty": "清"
+    },
+    {
+      "title": "题昼三照",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2278",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

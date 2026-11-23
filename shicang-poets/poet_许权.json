@@ -1,0 +1,44 @@
+{
+  "name": "许权",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "七夕",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6369",
+      "dynasty": "清"
+    },
+    {
+      "title": "梦天",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6368",
+      "dynasty": "清"
+    },
+    {
+      "title": "七夕",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3410",
+      "dynasty": "清"
+    },
+    {
+      "title": "梦天",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3409",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

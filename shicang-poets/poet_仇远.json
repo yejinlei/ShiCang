@@ -1,0 +1,435 @@
+{
+  "name": "仇远",
+  "zi": "仁近",
+  "hao": "山村",
+  "dynasty": "金元",
+  "d_order": 10,
+  "birthplace": "钱塘",
+  "style": "#5C4033",
+  "school": "宋元词人",
+  "years": "1247—1326",
+  "bio": "宋末元初词人，诗风清淡自然。",
+  "work_count": 69,
+  "anthologies": [
+    "元诗",
+    "名篇精读",
+    "绝妙好词"
+  ],
+  "works": [
+    {
+      "title": "买陂塘",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7558",
+      "dynasty": "宋"
+    },
+    {
+      "title": "倦寻芳",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7565",
+      "dynasty": "宋"
+    },
+    {
+      "title": "八犯玉交枝",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7546",
+      "dynasty": "宋"
+    },
+    {
+      "title": "减字木兰花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7576",
+      "dynasty": "宋"
+    },
+    {
+      "title": "小重山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7567",
+      "dynasty": "宋"
+    },
+    {
+      "title": "恋绣衾",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7554",
+      "dynasty": "宋"
+    },
+    {
+      "title": "惜红衣",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7559",
+      "dynasty": "宋"
+    },
+    {
+      "title": "摸鱼儿",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7547",
+      "dynasty": "宋"
+    },
+    {
+      "title": "望远行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7575",
+      "dynasty": "宋"
+    },
+    {
+      "title": "朝中措",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7552",
+      "dynasty": "宋"
+    },
+    {
+      "title": "木兰花慢",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7556",
+      "dynasty": "宋"
+    },
+    {
+      "title": "江城子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7550",
+      "dynasty": "宋"
+    },
+    {
+      "title": "清平乐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7555",
+      "dynasty": "宋"
+    },
+    {
+      "title": "满江红",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7549",
+      "dynasty": "宋"
+    },
+    {
+      "title": "玉楼春",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7569",
+      "dynasty": "宋"
+    },
+    {
+      "title": "生查子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7545",
+      "dynasty": "宋"
+    },
+    {
+      "title": "祝英台近",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7548",
+      "dynasty": "宋"
+    },
+    {
+      "title": "章台月",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7563",
+      "dynasty": "宋"
+    },
+    {
+      "title": "西江月",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7551",
+      "dynasty": "宋"
+    },
+    {
+      "title": "谒金门",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7572",
+      "dynasty": "宋"
+    },
+    {
+      "title": "贺新凉",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7557",
+      "dynasty": "宋"
+    },
+    {
+      "title": "踏莎行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7574",
+      "dynasty": "宋"
+    },
+    {
+      "title": "青玉案",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7564",
+      "dynasty": "宋"
+    },
+    {
+      "title": "鹊桥仙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7553",
+      "dynasty": "宋"
+    },
+    {
+      "title": "倦寻芳",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=382",
+      "dynasty": "宋"
+    },
+    {
+      "title": "元夕·望远行",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=392",
+      "dynasty": "宋"
+    },
+    {
+      "title": "别词·祝英台近",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=365",
+      "dynasty": "宋"
+    },
+    {
+      "title": "多景楼落成·贺新凉",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=374",
+      "dynasty": "宋"
+    },
+    {
+      "title": "太原府治宣诏亭壁间·减字木兰花",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=393",
+      "dynasty": "宋"
+    },
+    {
+      "title": "守岁·玉楼春",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=386",
+      "dynasty": "宋"
+    },
+    {
+      "title": "小重山",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=384",
+      "dynasty": "宋"
+    },
+    {
+      "title": "小重山",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=390",
+      "dynasty": "宋"
+    },
+    {
+      "title": "巧夕·鹊桥仙",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=370",
+      "dynasty": "宋"
+    },
+    {
+      "title": "恋绣衾",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=371",
+      "dynasty": "宋"
+    },
+    {
+      "title": "惜红衣",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=376",
+      "dynasty": "宋"
+    },
+    {
+      "title": "招宝山观月上·八犯玉交枝",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=363",
+      "dynasty": "宋"
+    },
+    {
+      "title": "摸鱼儿",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=364",
+      "dynasty": "宋"
+    },
+    {
+      "title": "木兰花慢",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=373",
+      "dynasty": "宋"
+    },
+    {
+      "title": "江城子",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=367",
+      "dynasty": "宋"
+    },
+    {
+      "title": "海棠·西江月",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=383",
+      "dynasty": "宋"
+    },
+    {
+      "title": "清平乐",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=372",
+      "dynasty": "宋"
+    },
+    {
+      "title": "清平乐",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=379",
+      "dynasty": "宋"
+    },
+    {
+      "title": "游天台雁荡东湖·买陂塘",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=375",
+      "dynasty": "宋"
+    },
+    {
+      "title": "满江红",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=366",
+      "dynasty": "宋"
+    },
+    {
+      "title": "满江红",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=394",
+      "dynasty": "宋"
+    },
+    {
+      "title": "生查子",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=362",
+      "dynasty": "宋"
+    },
+    {
+      "title": "生查子",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=387",
+      "dynasty": "宋"
+    },
+    {
+      "title": "祝英台近",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=378",
+      "dynasty": "宋"
+    },
+    {
+      "title": "祝英台近",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=385",
+      "dynasty": "宋"
+    },
+    {
+      "title": "立春·西江月",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=368",
+      "dynasty": "宋"
+    },
+    {
+      "title": "章台月",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=380",
+      "dynasty": "宋"
+    },
+    {
+      "title": "茉莉·朝中措",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=369",
+      "dynasty": "宋"
+    },
+    {
+      "title": "谒金门",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=389",
+      "dynasty": "宋"
+    },
+    {
+      "title": "踏莎行",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=391",
+      "dynasty": "宋"
+    },
+    {
+      "title": "送客·木兰花慢",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=377",
+      "dynasty": "宋"
+    },
+    {
+      "title": "送陈石泉南还·木兰花慢",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=388",
+      "dynasty": "宋"
+    },
+    {
+      "title": "青玉案",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=381",
+      "dynasty": "宋"
+    },
+    {
+      "title": "和韵胡希圣湖上",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=315",
+      "dynasty": "元"
+    },
+    {
+      "title": "宿集庆寺",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=316",
+      "dynasty": "元"
+    },
+    {
+      "title": "怀古",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=314",
+      "dynasty": "元"
+    },
+    {
+      "title": "次胡苇杭韵",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=313",
+      "dynasty": "元"
+    },
+    {
+      "title": "陪戴祖禹泛湖分韵得天字",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=526",
+      "dynasty": "元"
+    },
+    {
+      "title": "题溧阳市",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=317",
+      "dynasty": "元"
+    },
+    {
+      "title": "和韵胡希圣湖上",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1777",
+      "dynasty": "元"
+    },
+    {
+      "title": "宿集庆寺",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1778",
+      "dynasty": "元"
+    },
+    {
+      "title": "怀古",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1776",
+      "dynasty": "元"
+    },
+    {
+      "title": "次胡苇杭韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1775",
+      "dynasty": "元"
+    },
+    {
+      "title": "陪戴祖禹泛湖分韵得天字",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1988",
+      "dynasty": "元"
+    },
+    {
+      "title": "题溧阳市",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1779",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": true
+}

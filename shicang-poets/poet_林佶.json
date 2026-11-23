@@ -1,0 +1,44 @@
+{
+  "name": "林佶",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "游武夷登一览亭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5280",
+      "dynasty": "清"
+    },
+    {
+      "title": "甘泉宫瓦歌（自注：文曰“长生未央”。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5279",
+      "dynasty": "清"
+    },
+    {
+      "title": "游武夷登一览亭",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2321",
+      "dynasty": "清"
+    },
+    {
+      "title": "甘泉宫瓦歌（自注：文曰“长生未央”。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2320",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

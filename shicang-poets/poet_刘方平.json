@@ -1,0 +1,92 @@
+{
+  "name": "刘方平",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 12,
+  "anthologies": [
+    "万寿唐诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "京兆眉",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=101",
+      "dynasty": "唐"
+    },
+    {
+      "title": "春怨",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=347",
+      "dynasty": "唐"
+    },
+    {
+      "title": "春雪",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=102",
+      "dynasty": "唐"
+    },
+    {
+      "title": "月夜",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=346",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送别",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=345",
+      "dynasty": "唐"
+    },
+    {
+      "title": "采莲曲",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=100",
+      "dynasty": "唐"
+    },
+    {
+      "title": "京兆眉",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6579",
+      "dynasty": "唐"
+    },
+    {
+      "title": "春怨",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0100",
+      "dynasty": "唐"
+    },
+    {
+      "title": "春雪",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6580",
+      "dynasty": "唐"
+    },
+    {
+      "title": "月夜",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0101",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送别",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6803",
+      "dynasty": "唐"
+    },
+    {
+      "title": "采莲曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6578",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

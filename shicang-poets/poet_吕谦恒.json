@@ -1,0 +1,92 @@
+{
+  "name": "吕谦恒",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 12,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "宁乡道中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5211",
+      "dynasty": "清"
+    },
+    {
+      "title": "望吴岳呈王使君拟山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5212",
+      "dynasty": "清"
+    },
+    {
+      "title": "望岳",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5209",
+      "dynasty": "清"
+    },
+    {
+      "title": "登岱",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5214",
+      "dynasty": "清"
+    },
+    {
+      "title": "西乡对月",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5210",
+      "dynasty": "清"
+    },
+    {
+      "title": "送泽州相国予告归里",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5213",
+      "dynasty": "清"
+    },
+    {
+      "title": "宁乡道中",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2252",
+      "dynasty": "清"
+    },
+    {
+      "title": "望吴岳呈王使君拟山",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2253",
+      "dynasty": "清"
+    },
+    {
+      "title": "望岳",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2250",
+      "dynasty": "清"
+    },
+    {
+      "title": "登岱",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2255",
+      "dynasty": "清"
+    },
+    {
+      "title": "西乡对月",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2251",
+      "dynasty": "清"
+    },
+    {
+      "title": "送泽州相国予告归里",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2254",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

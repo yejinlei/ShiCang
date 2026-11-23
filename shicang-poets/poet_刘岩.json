@@ -1,0 +1,116 @@
+{
+  "name": "刘岩",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 16,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "与履安夜话",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4901",
+      "dynasty": "清"
+    },
+    {
+      "title": "哭家西谷侍御",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4900",
+      "dynasty": "清"
+    },
+    {
+      "title": "天台万年藤杖歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4905",
+      "dynasty": "清"
+    },
+    {
+      "title": "挽徐泰初",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4904",
+      "dynasty": "清"
+    },
+    {
+      "title": "杂诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4899",
+      "dynasty": "清"
+    },
+    {
+      "title": "病中杂诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4903",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4902",
+      "dynasty": "清"
+    },
+    {
+      "title": "采桑秦氏女",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4906",
+      "dynasty": "清"
+    },
+    {
+      "title": "与履安夜话",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1942",
+      "dynasty": "清"
+    },
+    {
+      "title": "哭家西谷侍御",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1941",
+      "dynasty": "清"
+    },
+    {
+      "title": "天台万年藤杖歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1946",
+      "dynasty": "清"
+    },
+    {
+      "title": "挽徐泰初",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1945",
+      "dynasty": "清"
+    },
+    {
+      "title": "杂诗",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1940",
+      "dynasty": "清"
+    },
+    {
+      "title": "病中杂诗",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1944",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠人",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1943",
+      "dynasty": "清"
+    },
+    {
+      "title": "采桑秦氏女",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1947",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,165 @@
+{
+  "name": "顾贞观",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 24,
+  "anthologies": [
+    "名篇精读",
+    "清诗",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "夜闻梵音",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3965",
+      "dynasty": "清"
+    },
+    {
+      "title": "开先漱玉亭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3963",
+      "dynasty": "清"
+    },
+    {
+      "title": "春夜大雪，念储汜云宿舟中，诗成黯然，兼寄应云皆人兄弟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3962",
+      "dynasty": "清"
+    },
+    {
+      "title": "灌园",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3964",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋晓登沧浪亭呈宋中丞",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3966",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠吴园次太守时侨居吴门",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3967",
+      "dynasty": "清"
+    },
+    {
+      "title": "雨止𮉡塘书舍抵暮无一人过桥上者",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3961",
+      "dynasty": "清"
+    },
+    {
+      "title": "夜闻梵音",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1006",
+      "dynasty": "清"
+    },
+    {
+      "title": "开先漱玉亭",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1004",
+      "dynasty": "清"
+    },
+    {
+      "title": "春夜大雪，念储汜云宿舟中，诗成黯然，兼寄应云皆人兄弟",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1003",
+      "dynasty": "清"
+    },
+    {
+      "title": "灌园",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1005",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋晓登沧浪亭呈宋中丞",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1007",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠吴园次太守时侨居吴门",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1008",
+      "dynasty": "清"
+    },
+    {
+      "title": "雨止𮉡塘书舍抵暮无一人过桥上者",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1002",
+      "dynasty": "清"
+    },
+    {
+      "title": "南乡子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1165",
+      "dynasty": "清末"
+    },
+    {
+      "title": "夜行船",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1166",
+      "dynasty": "清末"
+    },
+    {
+      "title": "石州慢",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1164",
+      "dynasty": "清末"
+    },
+    {
+      "title": "金缕曲二首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1167",
+      "dynasty": "清末"
+    },
+    {
+      "title": "青玉案",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1163",
+      "dynasty": "清末"
+    },
+    {
+      "title": "寄吴汉槎宁古塔，以词代书，丙辰冬寓京师千佛寺冰雪中作。·金缕曲二首",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=121",
+      "dynasty": "清末"
+    },
+    {
+      "title": "寿衣·南乡子",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=119",
+      "dynasty": "清末"
+    },
+    {
+      "title": "御河为漕艘所阻·石州慢",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=118",
+      "dynasty": "清末"
+    },
+    {
+      "title": "郁孤台·夜行船",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=120",
+      "dynasty": "清末"
+    },
+    {
+      "title": "青玉案",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=117",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": false
+}

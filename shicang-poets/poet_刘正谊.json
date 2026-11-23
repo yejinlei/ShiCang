@@ -1,0 +1,44 @@
+{
+  "name": "刘正谊",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "自笑",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5922",
+      "dynasty": "清"
+    },
+    {
+      "title": "访毛西河太史留赠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5923",
+      "dynasty": "清"
+    },
+    {
+      "title": "自笑",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2963",
+      "dynasty": "清"
+    },
+    {
+      "title": "访毛西河太史留赠",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2964",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

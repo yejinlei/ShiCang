@@ -1,0 +1,92 @@
+{
+  "name": "戴良",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 12,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "宿高密",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=63",
+      "dynasty": "元"
+    },
+    {
+      "title": "怀宋庸庵",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=529",
+      "dynasty": "元"
+    },
+    {
+      "title": "抵富阳宿县治作",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=62",
+      "dynasty": "元"
+    },
+    {
+      "title": "湖下对雨有怀天渊老禅",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=64",
+      "dynasty": "元"
+    },
+    {
+      "title": "赠别吕用明",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=60",
+      "dynasty": "元"
+    },
+    {
+      "title": "赠别祝彦明",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=61",
+      "dynasty": "元"
+    },
+    {
+      "title": "宿高密",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1525",
+      "dynasty": "元"
+    },
+    {
+      "title": "怀宋庸庵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1991",
+      "dynasty": "元"
+    },
+    {
+      "title": "抵富阳宿县治作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1524",
+      "dynasty": "元"
+    },
+    {
+      "title": "湖下对雨有怀天渊老禅",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1526",
+      "dynasty": "元"
+    },
+    {
+      "title": "赠别吕用明",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1522",
+      "dynasty": "元"
+    },
+    {
+      "title": "赠别祝彦明",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1523",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

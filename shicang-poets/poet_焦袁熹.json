@@ -1,0 +1,68 @@
+{
+  "name": "焦袁熹",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "杂诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4755",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋虫",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4758",
+      "dynasty": "清"
+    },
+    {
+      "title": "经生歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4756",
+      "dynasty": "清"
+    },
+    {
+      "title": "蒺藜",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4757",
+      "dynasty": "清"
+    },
+    {
+      "title": "杂诗",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1796",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋虫",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1799",
+      "dynasty": "清"
+    },
+    {
+      "title": "经生歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1797",
+      "dynasty": "清"
+    },
+    {
+      "title": "蒺藜",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1798",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

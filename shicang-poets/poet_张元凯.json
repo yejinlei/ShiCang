@@ -1,0 +1,116 @@
+{
+  "name": "张元凯",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 16,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "与友人共饮",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2656",
+      "dynasty": "明"
+    },
+    {
+      "title": "凯歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2654",
+      "dynasty": "明"
+    },
+    {
+      "title": "卧病双溪山馆见月寄张有功",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2651",
+      "dynasty": "明"
+    },
+    {
+      "title": "夜坐寄朱仲开、张瓯江",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2650",
+      "dynasty": "明"
+    },
+    {
+      "title": "怀陈将军同甫",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2652",
+      "dynasty": "明"
+    },
+    {
+      "title": "枫桥与送者别",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2649",
+      "dynasty": "明"
+    },
+    {
+      "title": "横江曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2655",
+      "dynasty": "明"
+    },
+    {
+      "title": "顾晋卿度上闻其弟益卿宪副南越之捷",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2653",
+      "dynasty": "明"
+    },
+    {
+      "title": "与友人共饮",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=652",
+      "dynasty": "明"
+    },
+    {
+      "title": "凯歌",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=650",
+      "dynasty": "明"
+    },
+    {
+      "title": "卧病双溪山馆见月寄张有功",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=647",
+      "dynasty": "明"
+    },
+    {
+      "title": "夜坐寄朱仲开、张瓯江",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=646",
+      "dynasty": "明"
+    },
+    {
+      "title": "怀陈将军同甫",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=648",
+      "dynasty": "明"
+    },
+    {
+      "title": "枫桥与送者别",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=645",
+      "dynasty": "明"
+    },
+    {
+      "title": "横江曲",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=651",
+      "dynasty": "明"
+    },
+    {
+      "title": "顾晋卿度上闻其弟益卿宪副南越之捷",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=649",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

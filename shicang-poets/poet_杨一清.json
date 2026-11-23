@@ -1,0 +1,68 @@
+{
+  "name": "杨一清",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "将至宁夏",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2219",
+      "dynasty": "明"
+    },
+    {
+      "title": "山丹题壁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2218",
+      "dynasty": "明"
+    },
+    {
+      "title": "甘凉道中书事感怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2217",
+      "dynasty": "明"
+    },
+    {
+      "title": "舟中有怀林待用",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2220",
+      "dynasty": "明"
+    },
+    {
+      "title": "将至宁夏",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=215",
+      "dynasty": "明"
+    },
+    {
+      "title": "山丹题壁",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=214",
+      "dynasty": "明"
+    },
+    {
+      "title": "甘凉道中书事感怀",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=213",
+      "dynasty": "明"
+    },
+    {
+      "title": "舟中有怀林待用",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=216",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

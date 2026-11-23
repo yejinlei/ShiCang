@@ -1,0 +1,57 @@
+{
+  "name": "李嘉佑",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "万寿唐诗",
+    "千家诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "王舍人竹楼",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=301",
+      "dynasty": "唐"
+    },
+    {
+      "title": "题虔上人壁",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=302",
+      "dynasty": "唐"
+    },
+    {
+      "title": "竹楼",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=155",
+      "dynasty": "唐"
+    },
+    {
+      "title": "王舍人竹楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6762",
+      "dynasty": "唐"
+    },
+    {
+      "title": "竹楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0974",
+      "dynasty": "唐"
+    },
+    {
+      "title": "题虔上人壁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6763",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

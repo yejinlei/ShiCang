@@ -1,0 +1,56 @@
+{
+  "name": "宋之绳",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "戊子人日寄怀陈南士",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3087",
+      "dynasty": "清"
+    },
+    {
+      "title": "梅花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3089",
+      "dynasty": "清"
+    },
+    {
+      "title": "随跸杂记",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3088",
+      "dynasty": "清"
+    },
+    {
+      "title": "戊子人日寄怀陈南士",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=128",
+      "dynasty": "清"
+    },
+    {
+      "title": "梅花",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=130",
+      "dynasty": "清"
+    },
+    {
+      "title": "随跸杂记",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=129",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

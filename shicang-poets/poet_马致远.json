@@ -1,0 +1,49 @@
+{
+  "name": "马致远",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 5,
+  "anthologies": [
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "夜行船·秋思",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0748",
+      "dynasty": "元"
+    },
+    {
+      "title": "天净沙·秋思",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0749",
+      "dynasty": "元"
+    },
+    {
+      "title": "寿阳曲·远浦帆归",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0750",
+      "dynasty": "元"
+    },
+    {
+      "title": "拨不断",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0751",
+      "dynasty": "元"
+    },
+    {
+      "title": "汉宫秋",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0752",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

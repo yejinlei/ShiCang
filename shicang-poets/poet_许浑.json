@@ -1,0 +1,200 @@
+{
+  "name": "许浑",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 30,
+  "anthologies": [
+    "万寿唐诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "下第懐友人",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=635",
+      "dynasty": "唐"
+    },
+    {
+      "title": "听唱山鹧鸪",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=642",
+      "dynasty": "唐"
+    },
+    {
+      "title": "塞下曲",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=183",
+      "dynasty": "唐"
+    },
+    {
+      "title": "学仙",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=643",
+      "dynasty": "唐"
+    },
+    {
+      "title": "寄桐江隐者",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=633",
+      "dynasty": "唐"
+    },
+    {
+      "title": "早春忆江南",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=182",
+      "dynasty": "唐"
+    },
+    {
+      "title": "楚宫怨",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=641",
+      "dynasty": "唐"
+    },
+    {
+      "title": "秦楼曲",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=640",
+      "dynasty": "唐"
+    },
+    {
+      "title": "紫藤",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=644",
+      "dynasty": "唐"
+    },
+    {
+      "title": "经秦皇墓",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=637",
+      "dynasty": "唐"
+    },
+    {
+      "title": "谢亭送别",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=634",
+      "dynasty": "唐"
+    },
+    {
+      "title": "过湘妃庙",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=638",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送宋处士归山",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=639",
+      "dynasty": "唐"
+    },
+    {
+      "title": "题段太尉庙",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=636",
+      "dynasty": "唐"
+    },
+    {
+      "title": "下第懐友人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7076",
+      "dynasty": "唐"
+    },
+    {
+      "title": "听唱山鹧鸪",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7083",
+      "dynasty": "唐"
+    },
+    {
+      "title": "塞下曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6656",
+      "dynasty": "唐"
+    },
+    {
+      "title": "学仙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7084",
+      "dynasty": "唐"
+    },
+    {
+      "title": "寄桐江隐者",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7074",
+      "dynasty": "唐"
+    },
+    {
+      "title": "早春忆江南",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6655",
+      "dynasty": "唐"
+    },
+    {
+      "title": "早秋",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0373",
+      "dynasty": "唐"
+    },
+    {
+      "title": "楚宫怨",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7082",
+      "dynasty": "唐"
+    },
+    {
+      "title": "秋日赴阙题潼关驿楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0374",
+      "dynasty": "唐"
+    },
+    {
+      "title": "秦楼曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7081",
+      "dynasty": "唐"
+    },
+    {
+      "title": "紫藤",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7085",
+      "dynasty": "唐"
+    },
+    {
+      "title": "经秦皇墓",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7078",
+      "dynasty": "唐"
+    },
+    {
+      "title": "谢亭送别",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7075",
+      "dynasty": "唐"
+    },
+    {
+      "title": "过湘妃庙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7079",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送宋处士归山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7080",
+      "dynasty": "唐"
+    },
+    {
+      "title": "题段太尉庙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7077",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

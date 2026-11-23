@@ -1,0 +1,44 @@
+{
+  "name": "王崇简",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "姚若侯至感赠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3100",
+      "dynasty": "清"
+    },
+    {
+      "title": "新秋感兴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3101",
+      "dynasty": "清"
+    },
+    {
+      "title": "姚若侯至感赠",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=141",
+      "dynasty": "清"
+    },
+    {
+      "title": "新秋感兴",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=142",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

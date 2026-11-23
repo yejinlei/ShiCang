@@ -1,0 +1,116 @@
+{
+  "name": "秦松龄",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 16,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "上熊雪堂先生",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3342",
+      "dynasty": "清"
+    },
+    {
+      "title": "于忠肃公墓",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3345",
+      "dynasty": "清"
+    },
+    {
+      "title": "和吴弘人见赠之作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3344",
+      "dynasty": "清"
+    },
+    {
+      "title": "杂感",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3346",
+      "dynasty": "清"
+    },
+    {
+      "title": "满目",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3348",
+      "dynasty": "清"
+    },
+    {
+      "title": "潞河寒食",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3343",
+      "dynasty": "清"
+    },
+    {
+      "title": "荆南春日感怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3347",
+      "dynasty": "清"
+    },
+    {
+      "title": "金陵司马行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3341",
+      "dynasty": "清"
+    },
+    {
+      "title": "上熊雪堂先生",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=383",
+      "dynasty": "清"
+    },
+    {
+      "title": "于忠肃公墓",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=386",
+      "dynasty": "清"
+    },
+    {
+      "title": "和吴弘人见赠之作",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=385",
+      "dynasty": "清"
+    },
+    {
+      "title": "杂感",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=387",
+      "dynasty": "清"
+    },
+    {
+      "title": "满目",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=389",
+      "dynasty": "清"
+    },
+    {
+      "title": "潞河寒食",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=384",
+      "dynasty": "清"
+    },
+    {
+      "title": "荆南春日感怀",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=388",
+      "dynasty": "清"
+    },
+    {
+      "title": "金陵司马行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=382",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

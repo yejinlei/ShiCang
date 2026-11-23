@@ -1,0 +1,61 @@
+{
+  "name": "屈原",
+  "zi": "原",
+  "hao": "灵均",
+  "dynasty": "先秦",
+  "d_order": 1,
+  "birthplace": "楚国秭归",
+  "style": "#8B4513",
+  "school": "楚辞",
+  "years": "约前340—前278",
+  "bio": "中国浪漫主义文学奠基人，楚辞创立者。名平字原，楚国贵族，曾任左徒、三闾大夫，主张联齐抗秦，遭谗被逐，后投汨罗江而死。作《离骚》《九歌》《天问》《九章》，开创香草美人比兴传统。",
+  "work_count": 7,
+  "anthologies": [
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "九歌·国殇",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0025",
+      "dynasty": "先秦"
+    },
+    {
+      "title": "九歌·山鬼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0026",
+      "dynasty": "先秦"
+    },
+    {
+      "title": "九歌·湘夫人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0027",
+      "dynasty": "先秦"
+    },
+    {
+      "title": "九章·涉江",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0028",
+      "dynasty": "先秦"
+    },
+    {
+      "title": "天问",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0029",
+      "dynasty": "先秦"
+    },
+    {
+      "title": "渔父",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0030",
+      "dynasty": "先秦"
+    },
+    {
+      "title": "离骚",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0031",
+      "dynasty": "先秦"
+    }
+  ],
+  "has_bio": true
+}

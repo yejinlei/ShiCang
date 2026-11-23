@@ -1,0 +1,68 @@
+{
+  "name": "王世懋",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "横塘春泛",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2641",
+      "dynasty": "明"
+    },
+    {
+      "title": "沈嘉则有三楚之游，席上得分字",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2643",
+      "dynasty": "明"
+    },
+    {
+      "title": "送友人北游",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2642",
+      "dynasty": "明"
+    },
+    {
+      "title": "送李太史元甫册封蜀藩",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2640",
+      "dynasty": "明"
+    },
+    {
+      "title": "横塘春泛",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=637",
+      "dynasty": "明"
+    },
+    {
+      "title": "沈嘉则有三楚之游，席上得分字",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=639",
+      "dynasty": "明"
+    },
+    {
+      "title": "送友人北游",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=638",
+      "dynasty": "明"
+    },
+    {
+      "title": "送李太史元甫册封蜀藩",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=636",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

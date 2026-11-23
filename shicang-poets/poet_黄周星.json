@@ -1,0 +1,68 @@
+{
+  "name": "黄周星",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "山中喜遇徐昭法共饮",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2799",
+      "dynasty": "明"
+    },
+    {
+      "title": "李映碧廷尉遗地图",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2798",
+      "dynasty": "明"
+    },
+    {
+      "title": "秋日与杜子过高座寺登雨花台",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2796",
+      "dynasty": "明"
+    },
+    {
+      "title": "赠吴兴公",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2797",
+      "dynasty": "明"
+    },
+    {
+      "title": "山中喜遇徐昭法共饮",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=795",
+      "dynasty": "明"
+    },
+    {
+      "title": "李映碧廷尉遗地图",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=794",
+      "dynasty": "明"
+    },
+    {
+      "title": "秋日与杜子过高座寺登雨花台",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=792",
+      "dynasty": "明"
+    },
+    {
+      "title": "赠吴兴公",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=793",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

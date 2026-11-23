@@ -1,0 +1,68 @@
+{
+  "name": "许宗鲁",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "东岳",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2414",
+      "dynasty": "明"
+    },
+    {
+      "title": "班婕妤",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2417",
+      "dynasty": "明"
+    },
+    {
+      "title": "登齐山楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2416",
+      "dynasty": "明"
+    },
+    {
+      "title": "辽左雪中登楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2415",
+      "dynasty": "明"
+    },
+    {
+      "title": "东岳",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=410",
+      "dynasty": "明"
+    },
+    {
+      "title": "班婕妤",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=413",
+      "dynasty": "明"
+    },
+    {
+      "title": "登齐山楼",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=412",
+      "dynasty": "明"
+    },
+    {
+      "title": "辽左雪中登楼",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=411",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

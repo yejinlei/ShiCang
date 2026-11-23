@@ -1,0 +1,44 @@
+{
+  "name": "崔岱齐",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "岁暮送戴衣闻还苕溪",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4526",
+      "dynasty": "清"
+    },
+    {
+      "title": "燕来巢为李秋水作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4525",
+      "dynasty": "清"
+    },
+    {
+      "title": "岁暮送戴衣闻还苕溪",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1567",
+      "dynasty": "清"
+    },
+    {
+      "title": "燕来巢为李秋水作",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1566",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,56 @@
+{
+  "name": "戴梓",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "出狱口占",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4328",
+      "dynasty": "清"
+    },
+    {
+      "title": "烽台晚眺",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4327",
+      "dynasty": "清"
+    },
+    {
+      "title": "逢子先上人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4329",
+      "dynasty": "清"
+    },
+    {
+      "title": "出狱口占",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1369",
+      "dynasty": "清"
+    },
+    {
+      "title": "烽台晚眺",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1368",
+      "dynasty": "清"
+    },
+    {
+      "title": "逢子先上人",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1370",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,68 @@
+{
+  "name": "徐葆光",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "上滩行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5248",
+      "dynasty": "清"
+    },
+    {
+      "title": "康熙戊戍六月朔奉命册封琉球述怀三首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5245",
+      "dynasty": "清"
+    },
+    {
+      "title": "枫岭山行至梨岭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5247",
+      "dynasty": "清"
+    },
+    {
+      "title": "自口外回至密云道中车折轴遇雨",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5246",
+      "dynasty": "清"
+    },
+    {
+      "title": "上滩行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2289",
+      "dynasty": "清"
+    },
+    {
+      "title": "康熙戊戍六月朔奉命册封琉球述怀三首",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2286",
+      "dynasty": "清"
+    },
+    {
+      "title": "枫岭山行至梨岭",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2288",
+      "dynasty": "清"
+    },
+    {
+      "title": "自口外回至密云道中车折轴遇雨",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2287",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

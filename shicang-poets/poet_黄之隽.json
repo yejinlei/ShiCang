@@ -1,0 +1,140 @@
+{
+  "name": "黄之隽",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 20,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "卓文君寄远",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5418",
+      "dynasty": "清"
+    },
+    {
+      "title": "杂诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5417",
+      "dynasty": "清"
+    },
+    {
+      "title": "武昌怀古",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5424",
+      "dynasty": "清"
+    },
+    {
+      "title": "水碓",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5420",
+      "dynasty": "清"
+    },
+    {
+      "title": "海啸歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5421",
+      "dynasty": "清"
+    },
+    {
+      "title": "漂母祠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5423",
+      "dynasty": "清"
+    },
+    {
+      "title": "登报恩寺塔绝顶",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5422",
+      "dynasty": "清"
+    },
+    {
+      "title": "种王瓜篱豆诸蔬",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5419",
+      "dynasty": "清"
+    },
+    {
+      "title": "鄱阳湖水大发，自木樨湾瑞洪至赵家汇田庐浸没，舟过感赋",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5425",
+      "dynasty": "清"
+    },
+    {
+      "title": "题李草亭画寒江送别图",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5426",
+      "dynasty": "清"
+    },
+    {
+      "title": "卓文君寄远",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2459",
+      "dynasty": "清"
+    },
+    {
+      "title": "杂诗",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2458",
+      "dynasty": "清"
+    },
+    {
+      "title": "武昌怀古",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2465",
+      "dynasty": "清"
+    },
+    {
+      "title": "水碓",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2461",
+      "dynasty": "清"
+    },
+    {
+      "title": "海啸歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2462",
+      "dynasty": "清"
+    },
+    {
+      "title": "漂母祠",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2464",
+      "dynasty": "清"
+    },
+    {
+      "title": "登报恩寺塔绝顶",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2463",
+      "dynasty": "清"
+    },
+    {
+      "title": "种王瓜篱豆诸蔬",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2460",
+      "dynasty": "清"
+    },
+    {
+      "title": "鄱阳湖水大发，自木樨湾瑞洪至赵家汇田庐浸没，舟过感赋",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2466",
+      "dynasty": "清"
+    },
+    {
+      "title": "题李草亭画寒江送别图",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2467",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

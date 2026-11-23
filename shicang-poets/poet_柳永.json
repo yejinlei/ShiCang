@@ -1,0 +1,176 @@
+{
+  "name": "柳永",
+  "zi": "耆卿",
+  "hao": "柳屯田",
+  "dynasty": "北宋",
+  "d_order": 7,
+  "birthplace": "崇安",
+  "style": "#2980B9",
+  "school": "婉约·慢词",
+  "years": "约984—约1053",
+  "bio": "北宋婉约派代表，大力创作慢词，「凡有井水处皆能歌柳词」。代表作《雨霖铃·寒蝉凄切》。",
+  "work_count": 26,
+  "anthologies": [
+    "名篇精读",
+    "宋词三百首"
+  ],
+  "works": [
+    {
+      "title": "八声甘州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0569",
+      "dynasty": "宋"
+    },
+    {
+      "title": "夜半乐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0570",
+      "dynasty": "宋"
+    },
+    {
+      "title": "定风波",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0571",
+      "dynasty": "宋"
+    },
+    {
+      "title": "少年游",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0572",
+      "dynasty": "宋"
+    },
+    {
+      "title": "戚氏",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0573",
+      "dynasty": "宋"
+    },
+    {
+      "title": "曲玉管",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0574",
+      "dynasty": "宋"
+    },
+    {
+      "title": "浪淘沙慢",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0575",
+      "dynasty": "宋"
+    },
+    {
+      "title": "玉胡蝶",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1011",
+      "dynasty": "宋"
+    },
+    {
+      "title": "玉蝴蝶",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0576",
+      "dynasty": "宋"
+    },
+    {
+      "title": "竹马子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0577",
+      "dynasty": "宋"
+    },
+    {
+      "title": "蝶恋花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0578",
+      "dynasty": "宋"
+    },
+    {
+      "title": "迷神引",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0579",
+      "dynasty": "宋"
+    },
+    {
+      "title": "采莲令",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0580",
+      "dynasty": "宋"
+    },
+    {
+      "title": "雨霖铃",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0581",
+      "dynasty": "宋"
+    },
+    {
+      "title": "八声甘州",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=39",
+      "dynasty": "宋"
+    },
+    {
+      "title": "夜半乐",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=37",
+      "dynasty": "宋"
+    },
+    {
+      "title": "定风波",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=35",
+      "dynasty": "宋"
+    },
+    {
+      "title": "少年游",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=36",
+      "dynasty": "宋"
+    },
+    {
+      "title": "曲玉管",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=30",
+      "dynasty": "宋"
+    },
+    {
+      "title": "浪淘沙慢",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=34",
+      "dynasty": "宋"
+    },
+    {
+      "title": "玉胡蝶",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=38",
+      "dynasty": "宋"
+    },
+    {
+      "title": "竹马子",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=41",
+      "dynasty": "宋"
+    },
+    {
+      "title": "蝶恋花",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=32",
+      "dynasty": "宋"
+    },
+    {
+      "title": "迷神引",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=40",
+      "dynasty": "宋"
+    },
+    {
+      "title": "采莲令",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=33",
+      "dynasty": "宋"
+    },
+    {
+      "title": "雨霖铃",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=31",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": true
+}

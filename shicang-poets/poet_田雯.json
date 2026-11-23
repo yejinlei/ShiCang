@@ -1,0 +1,128 @@
+{
+  "name": "田雯",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 18,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "山脚晚行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3502",
+      "dynasty": "清"
+    },
+    {
+      "title": "晚投卧佛寺宿",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3500",
+      "dynasty": "清"
+    },
+    {
+      "title": "泊舟吴门寄汪苕文",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3507",
+      "dynasty": "清"
+    },
+    {
+      "title": "病愈早起成诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3499",
+      "dynasty": "清"
+    },
+    {
+      "title": "登采石矶太白楼观萧尺木画壁歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3505",
+      "dynasty": "清"
+    },
+    {
+      "title": "碧书院歌吊杨升庵先生",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3506",
+      "dynasty": "清"
+    },
+    {
+      "title": "缲车辞",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3504",
+      "dynasty": "清"
+    },
+    {
+      "title": "翠微寺",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3501",
+      "dynasty": "清"
+    },
+    {
+      "title": "送马谣",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3503",
+      "dynasty": "清"
+    },
+    {
+      "title": "山脚晚行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=543",
+      "dynasty": "清"
+    },
+    {
+      "title": "晚投卧佛寺宿",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=541",
+      "dynasty": "清"
+    },
+    {
+      "title": "泊舟吴门寄汪苕文",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=548",
+      "dynasty": "清"
+    },
+    {
+      "title": "病愈早起成诗",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=540",
+      "dynasty": "清"
+    },
+    {
+      "title": "登采石矶太白楼观萧尺木画壁歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=546",
+      "dynasty": "清"
+    },
+    {
+      "title": "碧书院歌吊杨升庵先生",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=547",
+      "dynasty": "清"
+    },
+    {
+      "title": "缲车辞",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=545",
+      "dynasty": "清"
+    },
+    {
+      "title": "翠微寺",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=542",
+      "dynasty": "清"
+    },
+    {
+      "title": "送马谣",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=544",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

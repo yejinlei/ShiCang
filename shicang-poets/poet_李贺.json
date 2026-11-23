@@ -1,0 +1,74 @@
+{
+  "name": "李贺",
+  "zi": "长吉",
+  "hao": "诗鬼",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "福昌昌谷",
+  "style": "#ae3a2b",
+  "school": "韩孟诗派",
+  "years": "790—816",
+  "bio": "世称「诗鬼」，诗风奇崛幽峭。代表作《雁门太守行》《李凭箜篌引》。",
+  "work_count": 9,
+  "anthologies": [
+    "万寿唐诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "南园 二首",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=436",
+      "dynasty": "唐"
+    },
+    {
+      "title": "昌谷北园新笋",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=437",
+      "dynasty": "唐"
+    },
+    {
+      "title": "酬荅",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=438",
+      "dynasty": "唐"
+    },
+    {
+      "title": "马诗 二首",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=157",
+      "dynasty": "唐"
+    },
+    {
+      "title": "南园 二首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6889",
+      "dynasty": "唐"
+    },
+    {
+      "title": "昌谷北园新笋",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6890",
+      "dynasty": "唐"
+    },
+    {
+      "title": "酬荅",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6891",
+      "dynasty": "唐"
+    },
+    {
+      "title": "雁门太守行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0819",
+      "dynasty": "唐"
+    },
+    {
+      "title": "马诗 二首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6630",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": true
+}

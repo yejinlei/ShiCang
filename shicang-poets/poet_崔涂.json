@@ -1,0 +1,81 @@
+{
+  "name": "崔涂",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "万寿唐诗",
+    "千家诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "夷陵夜泊",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=715",
+      "dynasty": "唐"
+    },
+    {
+      "title": "湘中謡",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=713",
+      "dynasty": "唐"
+    },
+    {
+      "title": "读汉武内传",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=714",
+      "dynasty": "唐"
+    },
+    {
+      "title": "旅怀",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=181",
+      "dynasty": "唐"
+    },
+    {
+      "title": "夷陵夜泊",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7154",
+      "dynasty": "唐"
+    },
+    {
+      "title": "孤雁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0151",
+      "dynasty": "唐"
+    },
+    {
+      "title": "旅怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0998",
+      "dynasty": "唐"
+    },
+    {
+      "title": "湘中謡",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7152",
+      "dynasty": "唐"
+    },
+    {
+      "title": "读汉武内传",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7153",
+      "dynasty": "唐"
+    },
+    {
+      "title": "除夜有怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0152",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

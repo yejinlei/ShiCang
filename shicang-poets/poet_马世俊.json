@@ -1,0 +1,56 @@
+{
+  "name": "马世俊",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "古意",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3520",
+      "dynasty": "清"
+    },
+    {
+      "title": "吴季子挂剑处",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3519",
+      "dynasty": "清"
+    },
+    {
+      "title": "陆贾",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3521",
+      "dynasty": "清"
+    },
+    {
+      "title": "古意",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=561",
+      "dynasty": "清"
+    },
+    {
+      "title": "吴季子挂剑处",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=560",
+      "dynasty": "清"
+    },
+    {
+      "title": "陆贾",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=562",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

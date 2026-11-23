@@ -1,0 +1,104 @@
+{
+  "name": "翁照",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 14,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "俱酒，晋侯子，赵襄子废为家人。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6169",
+      "dynasty": "清"
+    },
+    {
+      "title": "咏史",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6168",
+      "dynasty": "清"
+    },
+    {
+      "title": "将之北河留别",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6172",
+      "dynasty": "清"
+    },
+    {
+      "title": "梅花坞坐月",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6174",
+      "dynasty": "清"
+    },
+    {
+      "title": "蓑衣",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6171",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠沈侍御椒园",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6173",
+      "dynasty": "清"
+    },
+    {
+      "title": "送归愚沈少宗伯予告归里",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6170",
+      "dynasty": "清"
+    },
+    {
+      "title": "俱酒，晋侯子，赵襄子废为家人。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3210",
+      "dynasty": "清"
+    },
+    {
+      "title": "咏史",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3209",
+      "dynasty": "清"
+    },
+    {
+      "title": "将之北河留别",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3213",
+      "dynasty": "清"
+    },
+    {
+      "title": "梅花坞坐月",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3215",
+      "dynasty": "清"
+    },
+    {
+      "title": "蓑衣",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3212",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠沈侍御椒园",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3214",
+      "dynasty": "清"
+    },
+    {
+      "title": "送归愚沈少宗伯予告归里",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3211",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

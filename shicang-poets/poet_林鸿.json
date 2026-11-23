@@ -1,0 +1,200 @@
+{
+  "name": "林鸿",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 30,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "出塞曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2102",
+      "dynasty": "明"
+    },
+    {
+      "title": "同郑二宣江上泛舟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2100",
+      "dynasty": "明"
+    },
+    {
+      "title": "寄逸人高漫士",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2104",
+      "dynasty": "明"
+    },
+    {
+      "title": "巫峡啼猿歌送邱少府归四明",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2101",
+      "dynasty": "明"
+    },
+    {
+      "title": "感秋",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2096",
+      "dynasty": "明"
+    },
+    {
+      "title": "无诸钓龙台怀古",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2099",
+      "dynasty": "明"
+    },
+    {
+      "title": "殳山隐居夏日",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2109",
+      "dynasty": "明"
+    },
+    {
+      "title": "穆陵行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2105",
+      "dynasty": "明"
+    },
+    {
+      "title": "经故内",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2106",
+      "dynasty": "明"
+    },
+    {
+      "title": "送友人至杭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2110",
+      "dynasty": "明"
+    },
+    {
+      "title": "送杨九思赴广西都尉经历",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2107",
+      "dynasty": "明"
+    },
+    {
+      "title": "送王克让员外赴陕西",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2108",
+      "dynasty": "明"
+    },
+    {
+      "title": "送高郎中使北",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2103",
+      "dynasty": "明"
+    },
+    {
+      "title": "金鸡岩僧室",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2098",
+      "dynasty": "明"
+    },
+    {
+      "title": "饮酒",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2097",
+      "dynasty": "明"
+    },
+    {
+      "title": "出塞曲",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=98",
+      "dynasty": "明"
+    },
+    {
+      "title": "同郑二宣江上泛舟",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=96",
+      "dynasty": "明"
+    },
+    {
+      "title": "寄逸人高漫士",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=100",
+      "dynasty": "明"
+    },
+    {
+      "title": "巫峡啼猿歌送邱少府归四明",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=97",
+      "dynasty": "明"
+    },
+    {
+      "title": "感秋",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=92",
+      "dynasty": "明"
+    },
+    {
+      "title": "无诸钓龙台怀古",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=95",
+      "dynasty": "明"
+    },
+    {
+      "title": "殳山隐居夏日",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=105",
+      "dynasty": "明"
+    },
+    {
+      "title": "穆陵行",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=101",
+      "dynasty": "明"
+    },
+    {
+      "title": "经故内",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=102",
+      "dynasty": "明"
+    },
+    {
+      "title": "送友人至杭",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=106",
+      "dynasty": "明"
+    },
+    {
+      "title": "送杨九思赴广西都尉经历",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=103",
+      "dynasty": "明"
+    },
+    {
+      "title": "送王克让员外赴陕西",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=104",
+      "dynasty": "明"
+    },
+    {
+      "title": "送高郎中使北",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=99",
+      "dynasty": "明"
+    },
+    {
+      "title": "金鸡岩僧室",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=94",
+      "dynasty": "明"
+    },
+    {
+      "title": "饮酒",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=93",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

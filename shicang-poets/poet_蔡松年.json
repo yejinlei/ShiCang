@@ -1,0 +1,74 @@
+{
+  "name": "蔡松年",
+  "zi": "",
+  "hao": "",
+  "dynasty": "宋",
+  "d_order": 8,
+  "birthplace": "",
+  "style": "#7F8C8D",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 9,
+  "anthologies": [
+    "名篇精读",
+    "绝妙好词"
+  ],
+  "works": [
+    {
+      "title": "尉迟杯",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7298",
+      "dynasty": "宋"
+    },
+    {
+      "title": "浪淘沙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7300",
+      "dynasty": "宋"
+    },
+    {
+      "title": "高阳台",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7299",
+      "dynasty": "宋"
+    },
+    {
+      "title": "鹧鸪天",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7297",
+      "dynasty": "宋"
+    },
+    {
+      "title": "丰乐楼·浪淘沙",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=112",
+      "dynasty": "宋"
+    },
+    {
+      "title": "尉迟杯",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=109",
+      "dynasty": "宋"
+    },
+    {
+      "title": "浪淘沙",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=111",
+      "dynasty": "宋"
+    },
+    {
+      "title": "赏荷·鹧鸪天",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=108",
+      "dynasty": "宋"
+    },
+    {
+      "title": "除夕·高阳台",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=110",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

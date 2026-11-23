@@ -1,0 +1,80 @@
+{
+  "name": "孙枝蔚",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "同友陪吴园次登多景楼，时园次赴湖州任",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4209",
+      "dynasty": "清"
+    },
+    {
+      "title": "游焦山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4210",
+      "dynasty": "清"
+    },
+    {
+      "title": "田家杂兴次储光羲韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4207",
+      "dynasty": "清"
+    },
+    {
+      "title": "览古",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4206",
+      "dynasty": "清"
+    },
+    {
+      "title": "马食禾代田家",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4208",
+      "dynasty": "清"
+    },
+    {
+      "title": "同友陪吴园次登多景楼，时园次赴湖州任",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1250",
+      "dynasty": "清"
+    },
+    {
+      "title": "游焦山",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1251",
+      "dynasty": "清"
+    },
+    {
+      "title": "田家杂兴次储光羲韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1248",
+      "dynasty": "清"
+    },
+    {
+      "title": "览古",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1247",
+      "dynasty": "清"
+    },
+    {
+      "title": "马食禾代田家",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1249",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,80 @@
+{
+  "name": "黄河",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "南海神祠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5582",
+      "dynasty": "清"
+    },
+    {
+      "title": "娇女",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5580",
+      "dynasty": "清"
+    },
+    {
+      "title": "归燕",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5578",
+      "dynasty": "清"
+    },
+    {
+      "title": "边马",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5581",
+      "dynasty": "清"
+    },
+    {
+      "title": "送胡长史从军郁林",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5579",
+      "dynasty": "清"
+    },
+    {
+      "title": "南海神祠",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2623",
+      "dynasty": "清"
+    },
+    {
+      "title": "娇女",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2621",
+      "dynasty": "清"
+    },
+    {
+      "title": "归燕",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2619",
+      "dynasty": "清"
+    },
+    {
+      "title": "边马",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2622",
+      "dynasty": "清"
+    },
+    {
+      "title": "送胡长史从军郁林",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2620",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

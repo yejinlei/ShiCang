@@ -1,0 +1,44 @@
+{
+  "name": "刘瞻榕",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "春日田家",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6073",
+      "dynasty": "清"
+    },
+    {
+      "title": "送须觐予还晋陵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6074",
+      "dynasty": "清"
+    },
+    {
+      "title": "春日田家",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3114",
+      "dynasty": "清"
+    },
+    {
+      "title": "送须觐予还晋陵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3115",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

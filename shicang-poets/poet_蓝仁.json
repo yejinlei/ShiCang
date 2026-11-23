@@ -1,0 +1,104 @@
+{
+  "name": "蓝仁",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 14,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "何梅阁山居",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2130",
+      "dynasty": "明"
+    },
+    {
+      "title": "宿橘山田家怀蒋先生",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2126",
+      "dynasty": "明"
+    },
+    {
+      "title": "寄马彦会",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2131",
+      "dynasty": "明"
+    },
+    {
+      "title": "暮归山中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2125",
+      "dynasty": "明"
+    },
+    {
+      "title": "西山暮归",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2127",
+      "dynasty": "明"
+    },
+    {
+      "title": "过云洞岭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2129",
+      "dynasty": "明"
+    },
+    {
+      "title": "雨中同孟原佥宪登嘉鱼亭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2128",
+      "dynasty": "明"
+    },
+    {
+      "title": "何梅阁山居",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=126",
+      "dynasty": "明"
+    },
+    {
+      "title": "宿橘山田家怀蒋先生",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=122",
+      "dynasty": "明"
+    },
+    {
+      "title": "寄马彦会",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=127",
+      "dynasty": "明"
+    },
+    {
+      "title": "暮归山中",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=121",
+      "dynasty": "明"
+    },
+    {
+      "title": "西山暮归",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=123",
+      "dynasty": "明"
+    },
+    {
+      "title": "过云洞岭",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=125",
+      "dynasty": "明"
+    },
+    {
+      "title": "雨中同孟原佥宪登嘉鱼亭",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=124",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

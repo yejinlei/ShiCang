@@ -1,0 +1,176 @@
+{
+  "name": "姜实节",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 26,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "书梅村诗后",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5059",
+      "dynasty": "清"
+    },
+    {
+      "title": "书牧斋诗后",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5058",
+      "dynasty": "清"
+    },
+    {
+      "title": "侍家君渡江时有风涛之恐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5057",
+      "dynasty": "清"
+    },
+    {
+      "title": "古诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5056",
+      "dynasty": "清"
+    },
+    {
+      "title": "吴祖修",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5055",
+      "dynasty": "清"
+    },
+    {
+      "title": "寄示赵书年陈起雷",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5062",
+      "dynasty": "清"
+    },
+    {
+      "title": "白头公鸟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5051",
+      "dynasty": "清"
+    },
+    {
+      "title": "绣谷堂中牡丹今岁惟开一枝杨子鹤马扶羲徐采若暨目存上人各为作图王石谷补一石余为题句",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5050",
+      "dynasty": "清"
+    },
+    {
+      "title": "读司马相如传",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5060",
+      "dynasty": "清"
+    },
+    {
+      "title": "读王褒传",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5061",
+      "dynasty": "清"
+    },
+    {
+      "title": "雕",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5052",
+      "dynasty": "清"
+    },
+    {
+      "title": "题簪花图",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5054",
+      "dynasty": "清"
+    },
+    {
+      "title": "题黄鹤山樵听雨楼卷",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5053",
+      "dynasty": "清"
+    },
+    {
+      "title": "书梅村诗后",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2100",
+      "dynasty": "清"
+    },
+    {
+      "title": "书牧斋诗后",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2099",
+      "dynasty": "清"
+    },
+    {
+      "title": "侍家君渡江时有风涛之恐",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2098",
+      "dynasty": "清"
+    },
+    {
+      "title": "古诗",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2097",
+      "dynasty": "清"
+    },
+    {
+      "title": "吴祖修",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2096",
+      "dynasty": "清"
+    },
+    {
+      "title": "寄示赵书年陈起雷",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2103",
+      "dynasty": "清"
+    },
+    {
+      "title": "白头公鸟",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2092",
+      "dynasty": "清"
+    },
+    {
+      "title": "绣谷堂中牡丹今岁惟开一枝杨子鹤马扶羲徐采若暨目存上人各为作图王石谷补一石余为题句",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2091",
+      "dynasty": "清"
+    },
+    {
+      "title": "读司马相如传",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2101",
+      "dynasty": "清"
+    },
+    {
+      "title": "读王褒传",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2102",
+      "dynasty": "清"
+    },
+    {
+      "title": "雕",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2093",
+      "dynasty": "清"
+    },
+    {
+      "title": "题簪花图",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2095",
+      "dynasty": "清"
+    },
+    {
+      "title": "题黄鹤山樵听雨楼卷",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2094",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

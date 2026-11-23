@@ -1,0 +1,68 @@
+{
+  "name": "张一鸣",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "归鸦",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5779",
+      "dynasty": "清"
+    },
+    {
+      "title": "登金山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5778",
+      "dynasty": "清"
+    },
+    {
+      "title": "过诗人家永夫墓",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5776",
+      "dynasty": "清"
+    },
+    {
+      "title": "长安秋日",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5777",
+      "dynasty": "清"
+    },
+    {
+      "title": "归鸦",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2820",
+      "dynasty": "清"
+    },
+    {
+      "title": "登金山",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2819",
+      "dynasty": "清"
+    },
+    {
+      "title": "过诗人家永夫墓",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2817",
+      "dynasty": "清"
+    },
+    {
+      "title": "长安秋日",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2818",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

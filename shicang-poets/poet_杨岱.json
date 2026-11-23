@@ -1,0 +1,44 @@
+{
+  "name": "杨岱",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "夜泊",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4445",
+      "dynasty": "清"
+    },
+    {
+      "title": "栈道",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4444",
+      "dynasty": "清"
+    },
+    {
+      "title": "夜泊",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1486",
+      "dynasty": "清"
+    },
+    {
+      "title": "栈道",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1485",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

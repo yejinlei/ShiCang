@@ -1,0 +1,428 @@
+{
+  "name": "王士禛",
+  "zi": "贻上",
+  "hao": "渔洋山人",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "新城",
+  "style": "#2F6B52",
+  "school": "神韵说",
+  "years": "1634—1711",
+  "bio": "康熙朝诗坛领袖，倡「神韵说」，诗风清远冲淡。",
+  "work_count": 68,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "丹徒行吊宋武帝",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3285",
+      "dynasty": "清"
+    },
+    {
+      "title": "五丁峡",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3282",
+      "dynasty": "清"
+    },
+    {
+      "title": "余澹心寄金陵咏怀古迹却寄",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3303",
+      "dynasty": "清"
+    },
+    {
+      "title": "再过露筋祠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3306",
+      "dynasty": "清"
+    },
+    {
+      "title": "和徐健庵宫赞喜吴汉槎入关之作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3300",
+      "dynasty": "清"
+    },
+    {
+      "title": "国士桥",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3304",
+      "dynasty": "清"
+    },
+    {
+      "title": "天柱山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3283",
+      "dynasty": "清"
+    },
+    {
+      "title": "定军山诸葛公墓下作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3279",
+      "dynasty": "清"
+    },
+    {
+      "title": "寄李邺园尚书二首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3299",
+      "dynasty": "清"
+    },
+    {
+      "title": "戴嵩牛图",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3287",
+      "dynasty": "清"
+    },
+    {
+      "title": "故明景帝陵怀古（景陵在天寿山东峰之下）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3286",
+      "dynasty": "清"
+    },
+    {
+      "title": "时长沙守臣奔逸，贼遂有湖南六郡，旁煽诸蛮。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3291",
+      "dynasty": "清"
+    },
+    {
+      "title": "晚登夔府东城楼望八阵图",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3297",
+      "dynasty": "清"
+    },
+    {
+      "title": "朝天峡",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3280",
+      "dynasty": "清"
+    },
+    {
+      "title": "枭矶灵泽夫人祠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3311",
+      "dynasty": "清"
+    },
+    {
+      "title": "沔县谒诸葛忠武侯祠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3296",
+      "dynasty": "清"
+    },
+    {
+      "title": "海门歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3284",
+      "dynasty": "清"
+    },
+    {
+      "title": "渡河西望有感",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3298",
+      "dynasty": "清"
+    },
+    {
+      "title": "漫兴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3290",
+      "dynasty": "清"
+    },
+    {
+      "title": "潼关",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3294",
+      "dynasty": "清"
+    },
+    {
+      "title": "灞桥寄内",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3308",
+      "dynasty": "清"
+    },
+    {
+      "title": "皖城怀古",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3301",
+      "dynasty": "清"
+    },
+    {
+      "title": "石城桥示倪雁园太史",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3305",
+      "dynasty": "清"
+    },
+    {
+      "title": "秦中凯歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3310",
+      "dynasty": "清"
+    },
+    {
+      "title": "秦镜词为袁松篱作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3288",
+      "dynasty": "清"
+    },
+    {
+      "title": "符离吊颍川侯傅公",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3292",
+      "dynasty": "清"
+    },
+    {
+      "title": "谒文忠烈公祠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3312",
+      "dynasty": "清"
+    },
+    {
+      "title": "赵承旨画羊",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3302",
+      "dynasty": "清"
+    },
+    {
+      "title": "送张篑山学士归庐陵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3293",
+      "dynasty": "清"
+    },
+    {
+      "title": "采石太白楼观萧尺木画壁歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3289",
+      "dynasty": "清"
+    },
+    {
+      "title": "雨度柴关岭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3295",
+      "dynasty": "清"
+    },
+    {
+      "title": "题尤展成新乐府",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3307",
+      "dynasty": "清"
+    },
+    {
+      "title": "马嵬怀古",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3309",
+      "dynasty": "清"
+    },
+    {
+      "title": "龙门阁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3281",
+      "dynasty": "清"
+    },
+    {
+      "title": "丹徒行吊宋武帝",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=326",
+      "dynasty": "清"
+    },
+    {
+      "title": "五丁峡",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=323",
+      "dynasty": "清"
+    },
+    {
+      "title": "余澹心寄金陵咏怀古迹却寄",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=344",
+      "dynasty": "清"
+    },
+    {
+      "title": "再过露筋祠",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=347",
+      "dynasty": "清"
+    },
+    {
+      "title": "和徐健庵宫赞喜吴汉槎入关之作",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=341",
+      "dynasty": "清"
+    },
+    {
+      "title": "国士桥",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=345",
+      "dynasty": "清"
+    },
+    {
+      "title": "天柱山",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=324",
+      "dynasty": "清"
+    },
+    {
+      "title": "定军山诸葛公墓下作",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=320",
+      "dynasty": "清"
+    },
+    {
+      "title": "寄李邺园尚书二首",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=340",
+      "dynasty": "清"
+    },
+    {
+      "title": "戴嵩牛图",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=328",
+      "dynasty": "清"
+    },
+    {
+      "title": "故明景帝陵怀古（景陵在天寿山东峰之下）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=327",
+      "dynasty": "清"
+    },
+    {
+      "title": "时长沙守臣奔逸，贼遂有湖南六郡，旁煽诸蛮。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=332",
+      "dynasty": "清"
+    },
+    {
+      "title": "晚登夔府东城楼望八阵图",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=338",
+      "dynasty": "清"
+    },
+    {
+      "title": "朝天峡",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=321",
+      "dynasty": "清"
+    },
+    {
+      "title": "枭矶灵泽夫人祠",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=352",
+      "dynasty": "清"
+    },
+    {
+      "title": "沔县谒诸葛忠武侯祠",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=337",
+      "dynasty": "清"
+    },
+    {
+      "title": "海门歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=325",
+      "dynasty": "清"
+    },
+    {
+      "title": "渡河西望有感",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=339",
+      "dynasty": "清"
+    },
+    {
+      "title": "漫兴",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=331",
+      "dynasty": "清"
+    },
+    {
+      "title": "潼关",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=335",
+      "dynasty": "清"
+    },
+    {
+      "title": "灞桥寄内",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=349",
+      "dynasty": "清"
+    },
+    {
+      "title": "皖城怀古",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=342",
+      "dynasty": "清"
+    },
+    {
+      "title": "石城桥示倪雁园太史",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=346",
+      "dynasty": "清"
+    },
+    {
+      "title": "秦中凯歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=351",
+      "dynasty": "清"
+    },
+    {
+      "title": "秦镜词为袁松篱作",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=329",
+      "dynasty": "清"
+    },
+    {
+      "title": "符离吊颍川侯傅公",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=333",
+      "dynasty": "清"
+    },
+    {
+      "title": "谒文忠烈公祠",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=353",
+      "dynasty": "清"
+    },
+    {
+      "title": "赵承旨画羊",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=343",
+      "dynasty": "清"
+    },
+    {
+      "title": "送张篑山学士归庐陵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=334",
+      "dynasty": "清"
+    },
+    {
+      "title": "采石太白楼观萧尺木画壁歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=330",
+      "dynasty": "清"
+    },
+    {
+      "title": "雨度柴关岭",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=336",
+      "dynasty": "清"
+    },
+    {
+      "title": "题尤展成新乐府",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=348",
+      "dynasty": "清"
+    },
+    {
+      "title": "马嵬怀古",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=350",
+      "dynasty": "清"
+    },
+    {
+      "title": "龙门阁",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=322",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": true
+}

@@ -1,0 +1,80 @@
+{
+  "name": "郯韶",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "次韵陆友仁吴中览古",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=439",
+      "dynasty": "元"
+    },
+    {
+      "title": "送僧归严陵",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=194",
+      "dynasty": "元"
+    },
+    {
+      "title": "郑蒙泉炼师子午谷图",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=354",
+      "dynasty": "元"
+    },
+    {
+      "title": "题宋氏绿野庄",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=195",
+      "dynasty": "元"
+    },
+    {
+      "title": "题渔家壁",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=355",
+      "dynasty": "元"
+    },
+    {
+      "title": "次韵陆友仁吴中览古",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1901",
+      "dynasty": "元"
+    },
+    {
+      "title": "送僧归严陵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1656",
+      "dynasty": "元"
+    },
+    {
+      "title": "郑蒙泉炼师子午谷图",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1816",
+      "dynasty": "元"
+    },
+    {
+      "title": "题宋氏绿野庄",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1657",
+      "dynasty": "元"
+    },
+    {
+      "title": "题渔家壁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1817",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

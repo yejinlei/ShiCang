@@ -1,0 +1,140 @@
+{
+  "name": "汤右曾",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 20,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "上玉峰徐公",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4593",
+      "dynasty": "清"
+    },
+    {
+      "title": "山海关",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4591",
+      "dynasty": "清"
+    },
+    {
+      "title": "放舟至下钟山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4590",
+      "dynasty": "清"
+    },
+    {
+      "title": "澄海楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4588",
+      "dynasty": "清"
+    },
+    {
+      "title": "登云麓峰望南岳歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4589",
+      "dynasty": "清"
+    },
+    {
+      "title": "登岘山亭至甘泉寺",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4594",
+      "dynasty": "清"
+    },
+    {
+      "title": "相见坡",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4587",
+      "dynasty": "清"
+    },
+    {
+      "title": "荆州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4595",
+      "dynasty": "清"
+    },
+    {
+      "title": "辰龙关",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4592",
+      "dynasty": "清"
+    },
+    {
+      "title": "黄尊古上都秋色图",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4596",
+      "dynasty": "清"
+    },
+    {
+      "title": "上玉峰徐公",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1634",
+      "dynasty": "清"
+    },
+    {
+      "title": "山海关",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1632",
+      "dynasty": "清"
+    },
+    {
+      "title": "放舟至下钟山",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1631",
+      "dynasty": "清"
+    },
+    {
+      "title": "澄海楼",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1629",
+      "dynasty": "清"
+    },
+    {
+      "title": "登云麓峰望南岳歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1630",
+      "dynasty": "清"
+    },
+    {
+      "title": "登岘山亭至甘泉寺",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1635",
+      "dynasty": "清"
+    },
+    {
+      "title": "相见坡",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1628",
+      "dynasty": "清"
+    },
+    {
+      "title": "荆州",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1636",
+      "dynasty": "清"
+    },
+    {
+      "title": "辰龙关",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1633",
+      "dynasty": "清"
+    },
+    {
+      "title": "黄尊古上都秋色图",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1637",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

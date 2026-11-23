@@ -1,0 +1,44 @@
+{
+  "name": "毛先舒",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "孔北海融述志",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3796",
+      "dynasty": "清"
+    },
+    {
+      "title": "裁衣曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3797",
+      "dynasty": "清"
+    },
+    {
+      "title": "孔北海融述志",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=837",
+      "dynasty": "清"
+    },
+    {
+      "title": "裁衣曲",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=838",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,80 @@
+{
+  "name": "缪沅",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "房中诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5155",
+      "dynasty": "清"
+    },
+    {
+      "title": "王孝子诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5154",
+      "dynasty": "清"
+    },
+    {
+      "title": "袁术",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5156",
+      "dynasty": "清"
+    },
+    {
+      "title": "访汪钝翁先生故居",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5158",
+      "dynasty": "清"
+    },
+    {
+      "title": "送顾嗣宗返吴门次留别韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5157",
+      "dynasty": "清"
+    },
+    {
+      "title": "房中诗",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2196",
+      "dynasty": "清"
+    },
+    {
+      "title": "王孝子诗",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2195",
+      "dynasty": "清"
+    },
+    {
+      "title": "袁术",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2197",
+      "dynasty": "清"
+    },
+    {
+      "title": "访汪钝翁先生故居",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2199",
+      "dynasty": "清"
+    },
+    {
+      "title": "送顾嗣宗返吴门次留别韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2198",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

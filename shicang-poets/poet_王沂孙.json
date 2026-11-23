@@ -1,0 +1,231 @@
+{
+  "name": "王沂孙",
+  "zi": "圣与",
+  "hao": "碧山",
+  "dynasty": "金元",
+  "d_order": 10,
+  "birthplace": "会稽",
+  "style": "#5C4033",
+  "school": "咏物词",
+  "years": "约1230—约1291",
+  "bio": "宋末遗民词人，多咏物寄亡国之痛。代表作《眉妩·新月》。",
+  "work_count": 35,
+  "anthologies": [
+    "名篇精读",
+    "宋词三百首",
+    "绝妙好词"
+  ],
+  "works": [
+    {
+      "title": "一萼红",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7534",
+      "dynasty": "宋"
+    },
+    {
+      "title": "天香",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0601",
+      "dynasty": "宋"
+    },
+    {
+      "title": "好事近",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7544",
+      "dynasty": "宋"
+    },
+    {
+      "title": "庆宫春",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7536",
+      "dynasty": "宋"
+    },
+    {
+      "title": "柳梢青",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7540",
+      "dynasty": "宋"
+    },
+    {
+      "title": "法曲献仙音",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0602",
+      "dynasty": "宋"
+    },
+    {
+      "title": "清平乐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7543",
+      "dynasty": "宋"
+    },
+    {
+      "title": "琴调相思引",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7541",
+      "dynasty": "宋"
+    },
+    {
+      "title": "眉妩",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0603",
+      "dynasty": "宋"
+    },
+    {
+      "title": "西江月",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7537",
+      "dynasty": "宋"
+    },
+    {
+      "title": "踏莎行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7538",
+      "dynasty": "宋"
+    },
+    {
+      "title": "醉落魄",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7539",
+      "dynasty": "宋"
+    },
+    {
+      "title": "醉蓬莱",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7533",
+      "dynasty": "宋"
+    },
+    {
+      "title": "长亭怨",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7535",
+      "dynasty": "宋"
+    },
+    {
+      "title": "长亭怨慢",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0604",
+      "dynasty": "宋"
+    },
+    {
+      "title": "高阳台",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0605",
+      "dynasty": "宋"
+    },
+    {
+      "title": "齐天乐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0606",
+      "dynasty": "宋"
+    },
+    {
+      "title": "和周草窗寄越中诸友韵·高阳台",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=224",
+      "dynasty": "宋"
+    },
+    {
+      "title": "聚景亭梅次草窗韵·法曲献仙音",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=225",
+      "dynasty": "宋"
+    },
+    {
+      "title": "蝉·齐天乐",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=222",
+      "dynasty": "宋"
+    },
+    {
+      "title": "重过中庵故园·长亭怨慢",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=223",
+      "dynasty": "宋"
+    },
+    {
+      "title": "龙涎香·天香",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=221",
+      "dynasty": "宋"
+    },
+    {
+      "title": "为赵元父赋雪梅图·西江月",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=354",
+      "dynasty": "宋"
+    },
+    {
+      "title": "好事近",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=361",
+      "dynasty": "宋"
+    },
+    {
+      "title": "旧故山·醉蓬莱",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=349",
+      "dynasty": "宋"
+    },
+    {
+      "title": "水仙·庆宫春",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=352",
+      "dynasty": "宋"
+    },
+    {
+      "title": "清平乐",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=360",
+      "dynasty": "宋"
+    },
+    {
+      "title": "琴调相思引",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=358",
+      "dynasty": "宋"
+    },
+    {
+      "title": "石屋探梅作·一萼红",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=350",
+      "dynasty": "宋"
+    },
+    {
+      "title": "落桂·柳梢青",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=357",
+      "dynasty": "宋"
+    },
+    {
+      "title": "西江月",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=359",
+      "dynasty": "宋"
+    },
+    {
+      "title": "醉落魄",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=356",
+      "dynasty": "宋"
+    },
+    {
+      "title": "重过中庵故园·长亭怨",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=351",
+      "dynasty": "宋"
+    },
+    {
+      "title": "题草窗词卷·踏莎行",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=355",
+      "dynasty": "宋"
+    },
+    {
+      "title": "高阳台",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=353",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": true
+}

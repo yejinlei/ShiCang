@@ -1,0 +1,116 @@
+{
+  "name": "刘球",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 16,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "南行途中寄钱塘亲友",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2177",
+      "dynasty": "明"
+    },
+    {
+      "title": "客夜",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2178",
+      "dynasty": "明"
+    },
+    {
+      "title": "山居",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2175",
+      "dynasty": "明"
+    },
+    {
+      "title": "巴阳夜泊",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2176",
+      "dynasty": "明"
+    },
+    {
+      "title": "征夫词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2181",
+      "dynasty": "明"
+    },
+    {
+      "title": "征妇词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2182",
+      "dynasty": "明"
+    },
+    {
+      "title": "早春寄白虚室",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2180",
+      "dynasty": "明"
+    },
+    {
+      "title": "题西陵送别图送姚进士",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2179",
+      "dynasty": "明"
+    },
+    {
+      "title": "南行途中寄钱塘亲友",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=173",
+      "dynasty": "明"
+    },
+    {
+      "title": "客夜",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=174",
+      "dynasty": "明"
+    },
+    {
+      "title": "山居",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=171",
+      "dynasty": "明"
+    },
+    {
+      "title": "巴阳夜泊",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=172",
+      "dynasty": "明"
+    },
+    {
+      "title": "征夫词",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=177",
+      "dynasty": "明"
+    },
+    {
+      "title": "征妇词",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=178",
+      "dynasty": "明"
+    },
+    {
+      "title": "早春寄白虚室",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=176",
+      "dynasty": "明"
+    },
+    {
+      "title": "题西陵送别图送姚进士",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=175",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

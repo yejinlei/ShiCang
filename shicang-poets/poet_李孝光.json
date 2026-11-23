@@ -1,0 +1,56 @@
+{
+  "name": "李孝光",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "八月十六日送张仲举至秦邮驿，是夕邵文卿置酒云峰台望月二首（录一）",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=533",
+      "dynasty": "元"
+    },
+    {
+      "title": "环碧斋",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=534",
+      "dynasty": "元"
+    },
+    {
+      "title": "饮濡须守子衡君宅",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=532",
+      "dynasty": "元"
+    },
+    {
+      "title": "八月十六日送张仲举至秦邮驿，是夕邵文卿置酒云峰台望月二首（录一）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1995",
+      "dynasty": "元"
+    },
+    {
+      "title": "环碧斋",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1996",
+      "dynasty": "元"
+    },
+    {
+      "title": "饮濡须守子衡君宅",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1994",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

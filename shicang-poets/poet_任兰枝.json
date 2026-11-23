@@ -1,0 +1,68 @@
+{
+  "name": "任兰枝",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "大相岭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5285",
+      "dynasty": "清"
+    },
+    {
+      "title": "宿剑关",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5286",
+      "dynasty": "清"
+    },
+    {
+      "title": "巴州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5287",
+      "dynasty": "清"
+    },
+    {
+      "title": "武侯祠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5284",
+      "dynasty": "清"
+    },
+    {
+      "title": "大相岭",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2326",
+      "dynasty": "清"
+    },
+    {
+      "title": "宿剑关",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2327",
+      "dynasty": "清"
+    },
+    {
+      "title": "巴州",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2328",
+      "dynasty": "清"
+    },
+    {
+      "title": "武侯祠",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2325",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

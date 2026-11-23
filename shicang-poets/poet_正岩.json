@@ -1,0 +1,56 @@
+{
+  "name": "正岩",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "戏酬友人惠日铸茶",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6380",
+      "dynasty": "清"
+    },
+    {
+      "title": "月下由御教场下投净慈宿朗公房",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6381",
+      "dynasty": "清"
+    },
+    {
+      "title": "田家",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6379",
+      "dynasty": "清"
+    },
+    {
+      "title": "戏酬友人惠日铸茶",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3421",
+      "dynasty": "清"
+    },
+    {
+      "title": "月下由御教场下投净慈宿朗公房",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3422",
+      "dynasty": "清"
+    },
+    {
+      "title": "田家",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3420",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

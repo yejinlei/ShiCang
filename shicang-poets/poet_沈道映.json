@@ -1,0 +1,92 @@
+{
+  "name": "沈道映",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 12,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "怀家雪峰",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3575",
+      "dynasty": "清"
+    },
+    {
+      "title": "登泖中潮音阁眺望有怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3573",
+      "dynasty": "清"
+    },
+    {
+      "title": "舟泊富林谒陈大樽先生墓",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3574",
+      "dynasty": "清"
+    },
+    {
+      "title": "讯髟弗渊水西",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3570",
+      "dynasty": "清"
+    },
+    {
+      "title": "送霄客南还",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3571",
+      "dynasty": "清"
+    },
+    {
+      "title": "野泊",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3572",
+      "dynasty": "清"
+    },
+    {
+      "title": "怀家雪峰",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=616",
+      "dynasty": "清"
+    },
+    {
+      "title": "登泖中潮音阁眺望有怀",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=614",
+      "dynasty": "清"
+    },
+    {
+      "title": "舟泊富林谒陈大樽先生墓",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=615",
+      "dynasty": "清"
+    },
+    {
+      "title": "讯髟弗渊水西",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=611",
+      "dynasty": "清"
+    },
+    {
+      "title": "送霄客南还",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=612",
+      "dynasty": "清"
+    },
+    {
+      "title": "野泊",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=613",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

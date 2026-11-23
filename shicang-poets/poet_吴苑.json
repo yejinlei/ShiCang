@@ -1,0 +1,68 @@
+{
+  "name": "吴苑",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "到家",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4291",
+      "dynasty": "清"
+    },
+    {
+      "title": "峨眉山月歌送许时庵使蜀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4292",
+      "dynasty": "清"
+    },
+    {
+      "title": "望后海诸峰",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4290",
+      "dynasty": "清"
+    },
+    {
+      "title": "自观音岩过老人峰至天门",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4289",
+      "dynasty": "清"
+    },
+    {
+      "title": "到家",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1332",
+      "dynasty": "清"
+    },
+    {
+      "title": "峨眉山月歌送许时庵使蜀",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1333",
+      "dynasty": "清"
+    },
+    {
+      "title": "望后海诸峰",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1331",
+      "dynasty": "清"
+    },
+    {
+      "title": "自观音岩过老人峰至天门",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1330",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

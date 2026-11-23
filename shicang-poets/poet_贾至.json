@@ -1,0 +1,81 @@
+{
+  "name": "贾至",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "万寿唐诗",
+    "千家诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "巴陵夜别王八员外",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=276",
+      "dynasty": "唐"
+    },
+    {
+      "title": "春思",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=278",
+      "dynasty": "唐"
+    },
+    {
+      "title": "有赠",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=76",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送李侍郎赴常州",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=277",
+      "dynasty": "唐"
+    },
+    {
+      "title": "早朝大明宫",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=167",
+      "dynasty": "唐"
+    },
+    {
+      "title": "巴陵夜别王八员外",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6738",
+      "dynasty": "唐"
+    },
+    {
+      "title": "早朝大明宫",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0985",
+      "dynasty": "唐"
+    },
+    {
+      "title": "春思",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6740",
+      "dynasty": "唐"
+    },
+    {
+      "title": "有赠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6558",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送李侍郎赴常州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6739",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

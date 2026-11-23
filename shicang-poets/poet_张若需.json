@@ -1,0 +1,68 @@
+{
+  "name": "张若需",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "五日润州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5978",
+      "dynasty": "清"
+    },
+    {
+      "title": "望医巫闾山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5976",
+      "dynasty": "清"
+    },
+    {
+      "title": "生日太夫人自乍浦寄衣适至",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5975",
+      "dynasty": "清"
+    },
+    {
+      "title": "陈思王墓",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5977",
+      "dynasty": "清"
+    },
+    {
+      "title": "五日润州",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3019",
+      "dynasty": "清"
+    },
+    {
+      "title": "望医巫闾山",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3017",
+      "dynasty": "清"
+    },
+    {
+      "title": "生日太夫人自乍浦寄衣适至",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3016",
+      "dynasty": "清"
+    },
+    {
+      "title": "陈思王墓",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3018",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

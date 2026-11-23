@@ -1,0 +1,32 @@
+{
+  "name": "王中",
+  "zi": "",
+  "hao": "",
+  "dynasty": "宋",
+  "d_order": 8,
+  "birthplace": "",
+  "style": "#7F8C8D",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 2,
+  "anthologies": [
+    "千家诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "干戈",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=187",
+      "dynasty": "宋"
+    },
+    {
+      "title": "干戈",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1004",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

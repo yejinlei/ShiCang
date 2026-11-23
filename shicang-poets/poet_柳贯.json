@@ -1,0 +1,80 @@
+{
+  "name": "柳贯",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "同杨仲礼和袁集贤上都诗",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=146",
+      "dynasty": "元"
+    },
+    {
+      "title": "次伯长待制韵送王继学修撰马伯庸应奉扈从上京",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=258",
+      "dynasty": "元"
+    },
+    {
+      "title": "次韵伯庸待制上京寓直书事因以为寄",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=259",
+      "dynasty": "元"
+    },
+    {
+      "title": "次韵鲁参政观潮",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=257",
+      "dynasty": "元"
+    },
+    {
+      "title": "送张明德使君赴南恩州",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=260",
+      "dynasty": "元"
+    },
+    {
+      "title": "同杨仲礼和袁集贤上都诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1608",
+      "dynasty": "元"
+    },
+    {
+      "title": "次伯长待制韵送王继学修撰马伯庸应奉扈从上京",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1720",
+      "dynasty": "元"
+    },
+    {
+      "title": "次韵伯庸待制上京寓直书事因以为寄",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1721",
+      "dynasty": "元"
+    },
+    {
+      "title": "次韵鲁参政观潮",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1719",
+      "dynasty": "元"
+    },
+    {
+      "title": "送张明德使君赴南恩州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1722",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

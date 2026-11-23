@@ -1,0 +1,80 @@
+{
+  "name": "唐顺之",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "冬至南郊",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2479",
+      "dynasty": "明"
+    },
+    {
+      "title": "咸宁山中雪霁晚行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2480",
+      "dynasty": "明"
+    },
+    {
+      "title": "复官后报京师友人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2478",
+      "dynasty": "明"
+    },
+    {
+      "title": "登喜峰古城",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2477",
+      "dynasty": "明"
+    },
+    {
+      "title": "都下秋雨夜饮王子长宅",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2481",
+      "dynasty": "明"
+    },
+    {
+      "title": "冬至南郊",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=475",
+      "dynasty": "明"
+    },
+    {
+      "title": "咸宁山中雪霁晚行",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=476",
+      "dynasty": "明"
+    },
+    {
+      "title": "复官后报京师友人",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=474",
+      "dynasty": "明"
+    },
+    {
+      "title": "登喜峰古城",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=473",
+      "dynasty": "明"
+    },
+    {
+      "title": "都下秋雨夜饮王子长宅",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=477",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

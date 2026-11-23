@@ -1,0 +1,80 @@
+{
+  "name": "张辑",
+  "zi": "",
+  "hao": "",
+  "dynasty": "宋",
+  "d_order": 8,
+  "birthplace": "",
+  "style": "#7F8C8D",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "绝妙好词"
+  ],
+  "works": [
+    {
+      "title": "山渐青",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7287",
+      "dynasty": "宋"
+    },
+    {
+      "title": "念奴娇",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7289",
+      "dynasty": "宋"
+    },
+    {
+      "title": "疏帘淡月",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7286",
+      "dynasty": "宋"
+    },
+    {
+      "title": "祝英台近",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7290",
+      "dynasty": "宋"
+    },
+    {
+      "title": "谒金门",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7288",
+      "dynasty": "宋"
+    },
+    {
+      "title": "山渐青",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=98",
+      "dynasty": "宋"
+    },
+    {
+      "title": "念奴娇",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=100",
+      "dynasty": "宋"
+    },
+    {
+      "title": "疏帘淡月",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=97",
+      "dynasty": "宋"
+    },
+    {
+      "title": "祝英台近",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=101",
+      "dynasty": "宋"
+    },
+    {
+      "title": "谒金门",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=99",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

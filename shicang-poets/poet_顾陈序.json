@@ -1,0 +1,116 @@
+{
+  "name": "顾陈序",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 16,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "偕王树先观察渡钱塘舟中对弈",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5305",
+      "dynasty": "清"
+    },
+    {
+      "title": "分拟鲍参军白头吟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5302",
+      "dynasty": "清"
+    },
+    {
+      "title": "古北口",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5304",
+      "dynasty": "清"
+    },
+    {
+      "title": "寅鉴堂后灯筵即事（自注：各以己字为韵）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5307",
+      "dynasty": "清"
+    },
+    {
+      "title": "瓜州晓渡",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5306",
+      "dynasty": "清"
+    },
+    {
+      "title": "砚",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5308",
+      "dynasty": "清"
+    },
+    {
+      "title": "豹留皮",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5303",
+      "dynasty": "清"
+    },
+    {
+      "title": "饯敬亭上江西观察分题得盆桧",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5301",
+      "dynasty": "清"
+    },
+    {
+      "title": "偕王树先观察渡钱塘舟中对弈",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2346",
+      "dynasty": "清"
+    },
+    {
+      "title": "分拟鲍参军白头吟",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2343",
+      "dynasty": "清"
+    },
+    {
+      "title": "古北口",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2345",
+      "dynasty": "清"
+    },
+    {
+      "title": "寅鉴堂后灯筵即事（自注：各以己字为韵）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2348",
+      "dynasty": "清"
+    },
+    {
+      "title": "瓜州晓渡",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2347",
+      "dynasty": "清"
+    },
+    {
+      "title": "砚",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2349",
+      "dynasty": "清"
+    },
+    {
+      "title": "豹留皮",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2344",
+      "dynasty": "清"
+    },
+    {
+      "title": "饯敬亭上江西观察分题得盆桧",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2342",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

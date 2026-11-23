@@ -1,0 +1,140 @@
+{
+  "name": "叶舒璐",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 20,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "司马相如",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5821",
+      "dynasty": "清"
+    },
+    {
+      "title": "孟夏同沈公倚昆季暨家弟侄辈泛舟登斗姥阁宴集剧谈寓都门事带月而还集杜三十六韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5818",
+      "dynasty": "清"
+    },
+    {
+      "title": "宋乐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5823",
+      "dynasty": "清"
+    },
+    {
+      "title": "潇湘曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5825",
+      "dynasty": "清"
+    },
+    {
+      "title": "答扬州乔子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5826",
+      "dynasty": "清"
+    },
+    {
+      "title": "索人题照",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5822",
+      "dynasty": "清"
+    },
+    {
+      "title": "索得学山兄遗稿",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5820",
+      "dynasty": "清"
+    },
+    {
+      "title": "苏台柳枝词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5827",
+      "dynasty": "清"
+    },
+    {
+      "title": "读杜白二集",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5819",
+      "dynasty": "清"
+    },
+    {
+      "title": "送别",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5824",
+      "dynasty": "清"
+    },
+    {
+      "title": "司马相如",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2862",
+      "dynasty": "清"
+    },
+    {
+      "title": "孟夏同沈公倚昆季暨家弟侄辈泛舟登斗姥阁宴集剧谈寓都门事带月而还集杜三十六韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2859",
+      "dynasty": "清"
+    },
+    {
+      "title": "宋乐",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2864",
+      "dynasty": "清"
+    },
+    {
+      "title": "潇湘曲",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2866",
+      "dynasty": "清"
+    },
+    {
+      "title": "答扬州乔子",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2867",
+      "dynasty": "清"
+    },
+    {
+      "title": "索人题照",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2863",
+      "dynasty": "清"
+    },
+    {
+      "title": "索得学山兄遗稿",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2861",
+      "dynasty": "清"
+    },
+    {
+      "title": "苏台柳枝词",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2868",
+      "dynasty": "清"
+    },
+    {
+      "title": "读杜白二集",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2860",
+      "dynasty": "清"
+    },
+    {
+      "title": "送别",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2865",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

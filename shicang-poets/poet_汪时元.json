@@ -1,0 +1,56 @@
+{
+  "name": "汪时元",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "九日舟中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2666",
+      "dynasty": "明"
+    },
+    {
+      "title": "游南岳",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2668",
+      "dynasty": "明"
+    },
+    {
+      "title": "自瀛德至东昌道中杂诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2667",
+      "dynasty": "明"
+    },
+    {
+      "title": "九日舟中",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=662",
+      "dynasty": "明"
+    },
+    {
+      "title": "游南岳",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=664",
+      "dynasty": "明"
+    },
+    {
+      "title": "自瀛德至东昌道中杂诗",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=663",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

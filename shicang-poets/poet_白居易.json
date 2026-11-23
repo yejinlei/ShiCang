@@ -1,0 +1,320 @@
+{
+  "name": "白居易",
+  "zi": "乐天",
+  "hao": "香山居士",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "下邽",
+  "style": "#ae3a2b",
+  "school": "新乐府",
+  "years": "772—846",
+  "bio": "中唐大诗人，新乐府运动倡导者，诗风平易通俗。代表作《长恨歌》《琵琶行》《卖炭翁》。",
+  "work_count": 50,
+  "anthologies": [
+    "万寿唐诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "三月二十八日赠周判官",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=402",
+      "dynasty": "唐"
+    },
+    {
+      "title": "伊州",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=403",
+      "dynasty": "唐"
+    },
+    {
+      "title": "勤政楼西柳",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=153",
+      "dynasty": "唐"
+    },
+    {
+      "title": "华州西",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=404",
+      "dynasty": "唐"
+    },
+    {
+      "title": "南浦别",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=152",
+      "dynasty": "唐"
+    },
+    {
+      "title": "同李十一醉忆元九",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=398",
+      "dynasty": "唐"
+    },
+    {
+      "title": "宫词",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=400",
+      "dynasty": "唐"
+    },
+    {
+      "title": "对酒",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=405",
+      "dynasty": "唐"
+    },
+    {
+      "title": "庾楼新岁",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=151",
+      "dynasty": "唐"
+    },
+    {
+      "title": "晚归府",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=406",
+      "dynasty": "唐"
+    },
+    {
+      "title": "暮江吟",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=401",
+      "dynasty": "唐"
+    },
+    {
+      "title": "木兰花",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=411",
+      "dynasty": "唐"
+    },
+    {
+      "title": "杨栁枝",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=412",
+      "dynasty": "唐"
+    },
+    {
+      "title": "水调",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=414",
+      "dynasty": "唐"
+    },
+    {
+      "title": "永丰坊园中垂柳",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=415",
+      "dynasty": "唐"
+    },
+    {
+      "title": "王子晋庙",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=408",
+      "dynasty": "唐"
+    },
+    {
+      "title": "看采莲",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=409",
+      "dynasty": "唐"
+    },
+    {
+      "title": "竹枝",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=399",
+      "dynasty": "唐"
+    },
+    {
+      "title": "酬裴令公赠马相戏",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=413",
+      "dynasty": "唐"
+    },
+    {
+      "title": "问刘十九",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=154",
+      "dynasty": "唐"
+    },
+    {
+      "title": "香山寺",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=410",
+      "dynasty": "唐"
+    },
+    {
+      "title": "魏王堤",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=407",
+      "dynasty": "唐"
+    },
+    {
+      "title": "三月二十八日赠周判官",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6855",
+      "dynasty": "唐"
+    },
+    {
+      "title": "伊州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6856",
+      "dynasty": "唐"
+    },
+    {
+      "title": "勤政楼西柳",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6628",
+      "dynasty": "唐"
+    },
+    {
+      "title": "华州西",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6857",
+      "dynasty": "唐"
+    },
+    {
+      "title": "卖炭翁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0358",
+      "dynasty": "唐"
+    },
+    {
+      "title": "南浦别",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6627",
+      "dynasty": "唐"
+    },
+    {
+      "title": "同李十一醉忆元九",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6851",
+      "dynasty": "唐"
+    },
+    {
+      "title": "后宫词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0359",
+      "dynasty": "唐"
+    },
+    {
+      "title": "宫词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6853",
+      "dynasty": "唐"
+    },
+    {
+      "title": "对酒",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6858",
+      "dynasty": "唐"
+    },
+    {
+      "title": "庾楼新岁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6626",
+      "dynasty": "唐"
+    },
+    {
+      "title": "晚归府",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6859",
+      "dynasty": "唐"
+    },
+    {
+      "title": "暮江吟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6854",
+      "dynasty": "唐"
+    },
+    {
+      "title": "木兰花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6864",
+      "dynasty": "唐"
+    },
+    {
+      "title": "杨栁枝",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6865",
+      "dynasty": "唐"
+    },
+    {
+      "title": "水调",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6867",
+      "dynasty": "唐"
+    },
+    {
+      "title": "永丰坊园中垂柳",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6868",
+      "dynasty": "唐"
+    },
+    {
+      "title": "王子晋庙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6861",
+      "dynasty": "唐"
+    },
+    {
+      "title": "琵琶行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0360",
+      "dynasty": "唐"
+    },
+    {
+      "title": "看采莲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6862",
+      "dynasty": "唐"
+    },
+    {
+      "title": "竹枝",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6852",
+      "dynasty": "唐"
+    },
+    {
+      "title": "自河南经乱关内阻饥兄弟离散",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0361",
+      "dynasty": "唐"
+    },
+    {
+      "title": "赋得古原草送别",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0362",
+      "dynasty": "唐"
+    },
+    {
+      "title": "酬裴令公赠马相戏",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6866",
+      "dynasty": "唐"
+    },
+    {
+      "title": "长恨歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0363",
+      "dynasty": "唐"
+    },
+    {
+      "title": "问刘十九",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0364",
+      "dynasty": "唐"
+    },
+    {
+      "title": "香山寺",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6863",
+      "dynasty": "唐"
+    },
+    {
+      "title": "魏王堤",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6860",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": true
+}

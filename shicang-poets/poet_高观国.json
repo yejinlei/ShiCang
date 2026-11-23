@@ -1,0 +1,122 @@
+{
+  "name": "高观国",
+  "zi": "",
+  "hao": "",
+  "dynasty": "宋",
+  "d_order": 8,
+  "birthplace": "",
+  "style": "#7F8C8D",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 17,
+  "anthologies": [
+    "名篇精读",
+    "绝妙好词"
+  ],
+  "works": [
+    {
+      "title": "思佳客",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7281",
+      "dynasty": "宋"
+    },
+    {
+      "title": "玉楼春",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7277",
+      "dynasty": "宋"
+    },
+    {
+      "title": "祝英台近",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7280",
+      "dynasty": "宋"
+    },
+    {
+      "title": "谒金门",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7284",
+      "dynasty": "宋"
+    },
+    {
+      "title": "金人捧露盘",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7278",
+      "dynasty": "宋"
+    },
+    {
+      "title": "霜天晓角",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7282",
+      "dynasty": "宋"
+    },
+    {
+      "title": "风入松",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7283",
+      "dynasty": "宋"
+    },
+    {
+      "title": "齐天乐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7276",
+      "dynasty": "宋"
+    },
+    {
+      "title": "宫词·玉楼春",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=88",
+      "dynasty": "宋"
+    },
+    {
+      "title": "思佳客",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=92",
+      "dynasty": "宋"
+    },
+    {
+      "title": "梅·金人捧露盘",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=90",
+      "dynasty": "宋"
+    },
+    {
+      "title": "水仙·金人捧露盘",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=89",
+      "dynasty": "宋"
+    },
+    {
+      "title": "祝英台近",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=91",
+      "dynasty": "宋"
+    },
+    {
+      "title": "谒金门",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=95",
+      "dynasty": "宋"
+    },
+    {
+      "title": "霜天晓角",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=93",
+      "dynasty": "宋"
+    },
+    {
+      "title": "风入松",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=94",
+      "dynasty": "宋"
+    },
+    {
+      "title": "齐天乐",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=87",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

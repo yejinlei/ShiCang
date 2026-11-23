@@ -1,0 +1,236 @@
+{
+  "name": "吕履恒",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 36,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "严子陵祠（自注：祠在巩县。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4723",
+      "dynasty": "清"
+    },
+    {
+      "title": "天门行（自注：新安，一名铁门）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4714",
+      "dynasty": "清"
+    },
+    {
+      "title": "孙大帝庙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4721",
+      "dynasty": "清"
+    },
+    {
+      "title": "山海关",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4724",
+      "dynasty": "清"
+    },
+    {
+      "title": "斫榆谣",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4709",
+      "dynasty": "清"
+    },
+    {
+      "title": "早发褒城",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4715",
+      "dynasty": "清"
+    },
+    {
+      "title": "栈中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4718",
+      "dynasty": "清"
+    },
+    {
+      "title": "梁州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4716",
+      "dynasty": "清"
+    },
+    {
+      "title": "潼关用崆峒原韵吊孙司马",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4719",
+      "dynasty": "清"
+    },
+    {
+      "title": "牛口谷",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4712",
+      "dynasty": "清"
+    },
+    {
+      "title": "留别汉南诸子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4717",
+      "dynasty": "清"
+    },
+    {
+      "title": "祖越寺至罗汉洞",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4711",
+      "dynasty": "清"
+    },
+    {
+      "title": "荆山（自注：怀远即卞和采玉处，有抱璞岩。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4726",
+      "dynasty": "清"
+    },
+    {
+      "title": "荆州怀古",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4722",
+      "dynasty": "清"
+    },
+    {
+      "title": "言诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4710",
+      "dynasty": "清"
+    },
+    {
+      "title": "许由冢",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4725",
+      "dynasty": "清"
+    },
+    {
+      "title": "金川门咏史",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4720",
+      "dynasty": "清"
+    },
+    {
+      "title": "长歌行送友人游太梁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4713",
+      "dynasty": "清"
+    },
+    {
+      "title": "严子陵祠（自注：祠在巩县。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1764",
+      "dynasty": "清"
+    },
+    {
+      "title": "天门行（自注：新安，一名铁门）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1755",
+      "dynasty": "清"
+    },
+    {
+      "title": "孙大帝庙",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1762",
+      "dynasty": "清"
+    },
+    {
+      "title": "山海关",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1765",
+      "dynasty": "清"
+    },
+    {
+      "title": "斫榆谣",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1750",
+      "dynasty": "清"
+    },
+    {
+      "title": "早发褒城",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1756",
+      "dynasty": "清"
+    },
+    {
+      "title": "栈中",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1759",
+      "dynasty": "清"
+    },
+    {
+      "title": "梁州",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1757",
+      "dynasty": "清"
+    },
+    {
+      "title": "潼关用崆峒原韵吊孙司马",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1760",
+      "dynasty": "清"
+    },
+    {
+      "title": "牛口谷",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1753",
+      "dynasty": "清"
+    },
+    {
+      "title": "留别汉南诸子",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1758",
+      "dynasty": "清"
+    },
+    {
+      "title": "祖越寺至罗汉洞",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1752",
+      "dynasty": "清"
+    },
+    {
+      "title": "荆山（自注：怀远即卞和采玉处，有抱璞岩。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1767",
+      "dynasty": "清"
+    },
+    {
+      "title": "荆州怀古",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1763",
+      "dynasty": "清"
+    },
+    {
+      "title": "言诗",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1751",
+      "dynasty": "清"
+    },
+    {
+      "title": "许由冢",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1766",
+      "dynasty": "清"
+    },
+    {
+      "title": "金川门咏史",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1761",
+      "dynasty": "清"
+    },
+    {
+      "title": "长歌行送友人游太梁",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1754",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

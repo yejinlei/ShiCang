@@ -1,0 +1,56 @@
+{
+  "name": "方孝孺",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "上巳约友登南楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2151",
+      "dynasty": "明"
+    },
+    {
+      "title": "懿文皇太子挽词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2152",
+      "dynasty": "明"
+    },
+    {
+      "title": "闲居感怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2150",
+      "dynasty": "明"
+    },
+    {
+      "title": "上巳约友登南楼",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=147",
+      "dynasty": "明"
+    },
+    {
+      "title": "懿文皇太子挽词",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=148",
+      "dynasty": "明"
+    },
+    {
+      "title": "闲居感怀",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=146",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

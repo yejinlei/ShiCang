@@ -1,0 +1,44 @@
+{
+  "name": "申涵光",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "怀太原傅青主",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2878",
+      "dynasty": "明"
+    },
+    {
+      "title": "路氏妹江南使来",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2877",
+      "dynasty": "明"
+    },
+    {
+      "title": "怀太原傅青主",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=874",
+      "dynasty": "明"
+    },
+    {
+      "title": "路氏妹江南使来",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=873",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

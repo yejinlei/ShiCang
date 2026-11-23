@@ -1,0 +1,31 @@
+{
+  "name": "顾炎武",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明末清初",
+  "d_order": 14,
+  "birthplace": "",
+  "style": "#8E44AD",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 2,
+  "anthologies": [
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "又酬傅处士次韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0804",
+      "dynasty": "明末清初"
+    },
+    {
+      "title": "精卫",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0805",
+      "dynasty": "明末清初"
+    }
+  ],
+  "has_bio": false
+}

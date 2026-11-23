@@ -1,0 +1,44 @@
+{
+  "name": "薛涛",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "万寿唐诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "竹郎庙",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=747",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送友人",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=746",
+      "dynasty": "唐"
+    },
+    {
+      "title": "竹郎庙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7185",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送友人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7184",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

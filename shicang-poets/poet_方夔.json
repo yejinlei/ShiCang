@@ -1,0 +1,44 @@
+{
+  "name": "方夔",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "晚眺",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=216",
+      "dynasty": "元"
+    },
+    {
+      "title": "田家杂兴二首",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=215",
+      "dynasty": "元"
+    },
+    {
+      "title": "晚眺",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1678",
+      "dynasty": "元"
+    },
+    {
+      "title": "田家杂兴二首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1677",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

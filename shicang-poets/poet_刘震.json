@@ -1,0 +1,128 @@
+{
+  "name": "刘震",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 18,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "固关道中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5655",
+      "dynasty": "清"
+    },
+    {
+      "title": "岘山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5659",
+      "dynasty": "清"
+    },
+    {
+      "title": "峄山湖余紫岩太守同作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5654",
+      "dynasty": "清"
+    },
+    {
+      "title": "易水歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5652",
+      "dynasty": "清"
+    },
+    {
+      "title": "望岱",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5658",
+      "dynasty": "清"
+    },
+    {
+      "title": "甘宁庙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5656",
+      "dynasty": "清"
+    },
+    {
+      "title": "画鹰",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5653",
+      "dynasty": "清"
+    },
+    {
+      "title": "祖龙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5657",
+      "dynasty": "清"
+    },
+    {
+      "title": "送罗万峰",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5651",
+      "dynasty": "清"
+    },
+    {
+      "title": "固关道中",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2696",
+      "dynasty": "清"
+    },
+    {
+      "title": "岘山",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2700",
+      "dynasty": "清"
+    },
+    {
+      "title": "峄山湖余紫岩太守同作",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2695",
+      "dynasty": "清"
+    },
+    {
+      "title": "易水歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2693",
+      "dynasty": "清"
+    },
+    {
+      "title": "望岱",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2699",
+      "dynasty": "清"
+    },
+    {
+      "title": "甘宁庙",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2697",
+      "dynasty": "清"
+    },
+    {
+      "title": "画鹰",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2694",
+      "dynasty": "清"
+    },
+    {
+      "title": "祖龙",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2698",
+      "dynasty": "清"
+    },
+    {
+      "title": "送罗万峰",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2692",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

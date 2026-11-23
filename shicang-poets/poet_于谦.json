@@ -1,0 +1,56 @@
+{
+  "name": "于谦",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "上太行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2174",
+      "dynasty": "明"
+    },
+    {
+      "title": "暑月将自太行巡汴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2173",
+      "dynasty": "明"
+    },
+    {
+      "title": "上太行",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=170",
+      "dynasty": "明"
+    },
+    {
+      "title": "暑月将自太行巡汴",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=169",
+      "dynasty": "明"
+    },
+    {
+      "title": "咏煤炭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0754",
+      "dynasty": "明末清初"
+    },
+    {
+      "title": "石灰吟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0755",
+      "dynasty": "明末清初"
+    }
+  ],
+  "has_bio": false
+}

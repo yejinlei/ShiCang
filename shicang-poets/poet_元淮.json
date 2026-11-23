@@ -1,0 +1,44 @@
+{
+  "name": "元淮",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "春闺",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=406",
+      "dynasty": "元"
+    },
+    {
+      "title": "立春日赏红梅之作",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=226",
+      "dynasty": "元"
+    },
+    {
+      "title": "春闺",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1868",
+      "dynasty": "元"
+    },
+    {
+      "title": "立春日赏红梅之作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1688",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

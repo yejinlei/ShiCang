@@ -1,0 +1,164 @@
+{
+  "name": "王士禄",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 24,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "上党",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3269",
+      "dynasty": "清"
+    },
+    {
+      "title": "忆莱杂诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3266",
+      "dynasty": "清"
+    },
+    {
+      "title": "故明景帝陵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3268",
+      "dynasty": "清"
+    },
+    {
+      "title": "晚晴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3267",
+      "dynasty": "清"
+    },
+    {
+      "title": "末丽词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3272",
+      "dynasty": "清"
+    },
+    {
+      "title": "程昆仑招集万岁楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3270",
+      "dynasty": "清"
+    },
+    {
+      "title": "裁衣曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3265",
+      "dynasty": "清"
+    },
+    {
+      "title": "诏罢高丽贡鹰歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3263",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠张篑山学士",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3271",
+      "dynasty": "清"
+    },
+    {
+      "title": "长平抗歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3261",
+      "dynasty": "清"
+    },
+    {
+      "title": "闻友人言林茂之先生尚未能葬",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3264",
+      "dynasty": "清"
+    },
+    {
+      "title": "顾云美八分书歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3262",
+      "dynasty": "清"
+    },
+    {
+      "title": "上党",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=310",
+      "dynasty": "清"
+    },
+    {
+      "title": "忆莱杂诗",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=307",
+      "dynasty": "清"
+    },
+    {
+      "title": "故明景帝陵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=309",
+      "dynasty": "清"
+    },
+    {
+      "title": "晚晴",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=308",
+      "dynasty": "清"
+    },
+    {
+      "title": "末丽词",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=313",
+      "dynasty": "清"
+    },
+    {
+      "title": "程昆仑招集万岁楼",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=311",
+      "dynasty": "清"
+    },
+    {
+      "title": "裁衣曲",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=306",
+      "dynasty": "清"
+    },
+    {
+      "title": "诏罢高丽贡鹰歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=304",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠张篑山学士",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=312",
+      "dynasty": "清"
+    },
+    {
+      "title": "长平抗歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=302",
+      "dynasty": "清"
+    },
+    {
+      "title": "闻友人言林茂之先生尚未能葬",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=305",
+      "dynasty": "清"
+    },
+    {
+      "title": "顾云美八分书歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=303",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

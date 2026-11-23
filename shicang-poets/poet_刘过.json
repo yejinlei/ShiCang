@@ -1,0 +1,105 @@
+{
+  "name": "刘过",
+  "zi": "",
+  "hao": "",
+  "dynasty": "宋",
+  "d_order": 8,
+  "birthplace": "",
+  "style": "#7F8C8D",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 14,
+  "anthologies": [
+    "名篇精读",
+    "宋词三百首",
+    "绝妙好词"
+  ],
+  "works": [
+    {
+      "title": "唐多令",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1024",
+      "dynasty": "宋"
+    },
+    {
+      "title": "浪淘沙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7221",
+      "dynasty": "宋"
+    },
+    {
+      "title": "蓦山溪",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7219",
+      "dynasty": "宋"
+    },
+    {
+      "title": "贺新郎",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7217",
+      "dynasty": "宋"
+    },
+    {
+      "title": "醉太平",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7218",
+      "dynasty": "宋"
+    },
+    {
+      "title": "霜天晓角",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7222",
+      "dynasty": "宋"
+    },
+    {
+      "title": "风入松",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7220",
+      "dynasty": "宋"
+    },
+    {
+      "title": "唐多令",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=156",
+      "dynasty": "宋"
+    },
+    {
+      "title": "桂花·霜天晓角",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=25",
+      "dynasty": "宋"
+    },
+    {
+      "title": "浪淘沙",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=24",
+      "dynasty": "宋"
+    },
+    {
+      "title": "蓦山溪",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=22",
+      "dynasty": "宋"
+    },
+    {
+      "title": "贺新郎",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=20",
+      "dynasty": "宋"
+    },
+    {
+      "title": "醉太平",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=21",
+      "dynasty": "宋"
+    },
+    {
+      "title": "风入松",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=23",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

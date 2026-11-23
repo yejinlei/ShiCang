@@ -1,0 +1,44 @@
+{
+  "name": "黄侃",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清末",
+  "d_order": 16,
+  "birthplace": "",
+  "style": "#795548",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "小重山令",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1456",
+      "dynasty": "清末"
+    },
+    {
+      "title": "西子妆",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1455",
+      "dynasty": "清末"
+    },
+    {
+      "title": "二月二十三日，社集北湖祠楼，感会有作。·西子妆",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=413",
+      "dynasty": "清末"
+    },
+    {
+      "title": "二月二十五日寒食，游高座寺。·小重山令",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=414",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,31 @@
+{
+  "name": "阮籍",
+  "zi": "",
+  "hao": "",
+  "dynasty": "魏晋",
+  "d_order": 4,
+  "birthplace": "",
+  "style": "#5C4033",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 2,
+  "anthologies": [
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "咏怀·嘉树下成蹊",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0079",
+      "dynasty": "魏晋"
+    },
+    {
+      "title": "咏怀·夜中不能寐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0080",
+      "dynasty": "魏晋"
+    }
+  ],
+  "has_bio": false
+}

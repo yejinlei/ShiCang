@@ -1,0 +1,106 @@
+{
+  "name": "陆游",
+  "zi": "务观",
+  "hao": "放翁",
+  "dynasty": "南宋",
+  "d_order": 9,
+  "birthplace": "越州山阴",
+  "style": "#D35400",
+  "school": "爱国诗",
+  "years": "1125—1210",
+  "bio": "南宋最伟大的爱国诗人，作诗近万首。代表作《示儿》《书愤》《游山西村》《钗头凤》。",
+  "work_count": 14,
+  "anthologies": [
+    "千家诗",
+    "名篇精读",
+    "宋词三百首",
+    "绝妙好词"
+  ],
+  "works": [
+    {
+      "title": "新竹",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=183",
+      "dynasty": "宋"
+    },
+    {
+      "title": "乌夜啼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7208",
+      "dynasty": "宋"
+    },
+    {
+      "title": "卜算子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0692",
+      "dynasty": "宋"
+    },
+    {
+      "title": "夜游宫",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0693",
+      "dynasty": "宋"
+    },
+    {
+      "title": "新竹",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1000",
+      "dynasty": "宋"
+    },
+    {
+      "title": "朝中措",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7207",
+      "dynasty": "宋"
+    },
+    {
+      "title": "游山西村",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0824",
+      "dynasty": "宋"
+    },
+    {
+      "title": "示儿",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0823",
+      "dynasty": "宋"
+    },
+    {
+      "title": "诉衷情",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0694",
+      "dynasty": "宋"
+    },
+    {
+      "title": "钗头凤",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0695",
+      "dynasty": "宋"
+    },
+    {
+      "title": "卜算子",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=125",
+      "dynasty": "宋"
+    },
+    {
+      "title": "乌夜啼",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=9",
+      "dynasty": "宋"
+    },
+    {
+      "title": "乌夜啼",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=10",
+      "dynasty": "宋"
+    },
+    {
+      "title": "梅·朝中措",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=8",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": true
+}

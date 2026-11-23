@@ -1,0 +1,80 @@
+{
+  "name": "郭登",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "与朱千户夜话",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2191",
+      "dynasty": "明"
+    },
+    {
+      "title": "保定途中偶成",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2190",
+      "dynasty": "明"
+    },
+    {
+      "title": "甘州即事",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2189",
+      "dynasty": "明"
+    },
+    {
+      "title": "送岳季方还京",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2188",
+      "dynasty": "明"
+    },
+    {
+      "title": "题蒋廷晖小景",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2187",
+      "dynasty": "明"
+    },
+    {
+      "title": "与朱千户夜话",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=187",
+      "dynasty": "明"
+    },
+    {
+      "title": "保定途中偶成",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=186",
+      "dynasty": "明"
+    },
+    {
+      "title": "甘州即事",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=185",
+      "dynasty": "明"
+    },
+    {
+      "title": "送岳季方还京",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=184",
+      "dynasty": "明"
+    },
+    {
+      "title": "题蒋廷晖小景",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=183",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

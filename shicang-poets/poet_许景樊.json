@@ -1,0 +1,92 @@
+{
+  "name": "许景樊",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 12,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "塞上",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2953",
+      "dynasty": "明"
+    },
+    {
+      "title": "望高台",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2954",
+      "dynasty": "明"
+    },
+    {
+      "title": "歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2957",
+      "dynasty": "明"
+    },
+    {
+      "title": "江楼留别",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2956",
+      "dynasty": "明"
+    },
+    {
+      "title": "登楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2955",
+      "dynasty": "明"
+    },
+    {
+      "title": "题西山清凉寺壁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2958",
+      "dynasty": "明"
+    },
+    {
+      "title": "塞上",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=949",
+      "dynasty": "明"
+    },
+    {
+      "title": "望高台",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=950",
+      "dynasty": "明"
+    },
+    {
+      "title": "歌",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=953",
+      "dynasty": "明"
+    },
+    {
+      "title": "江楼留别",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=952",
+      "dynasty": "明"
+    },
+    {
+      "title": "登楼",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=951",
+      "dynasty": "明"
+    },
+    {
+      "title": "题西山清凉寺壁",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=954",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

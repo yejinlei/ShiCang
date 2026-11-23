@@ -1,0 +1,56 @@
+{
+  "name": "徐汧",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "三月十九日",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2765",
+      "dynasty": "明"
+    },
+    {
+      "title": "入沛宫",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2766",
+      "dynasty": "明"
+    },
+    {
+      "title": "赠胡彦远",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2767",
+      "dynasty": "明"
+    },
+    {
+      "title": "三月十九日",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=761",
+      "dynasty": "明"
+    },
+    {
+      "title": "入沛宫",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=762",
+      "dynasty": "明"
+    },
+    {
+      "title": "赠胡彦远",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=763",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,92 @@
+{
+  "name": "宗元鼎",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 12,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "冬日过甘泉驿",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3759",
+      "dynasty": "清"
+    },
+    {
+      "title": "吴音曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3761",
+      "dynasty": "清"
+    },
+    {
+      "title": "早秋",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3757",
+      "dynasty": "清"
+    },
+    {
+      "title": "留邹︳士",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3762",
+      "dynasty": "清"
+    },
+    {
+      "title": "百尺楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3760",
+      "dynasty": "清"
+    },
+    {
+      "title": "题郊居",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3758",
+      "dynasty": "清"
+    },
+    {
+      "title": "冬日过甘泉驿",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=800",
+      "dynasty": "清"
+    },
+    {
+      "title": "吴音曲",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=802",
+      "dynasty": "清"
+    },
+    {
+      "title": "早秋",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=798",
+      "dynasty": "清"
+    },
+    {
+      "title": "留邹︳士",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=803",
+      "dynasty": "清"
+    },
+    {
+      "title": "百尺楼",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=801",
+      "dynasty": "清"
+    },
+    {
+      "title": "题郊居",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=799",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

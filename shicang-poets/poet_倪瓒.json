@@ -1,0 +1,272 @@
+{
+  "name": "倪瓒",
+  "zi": "元镇",
+  "hao": "云林",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "无锡",
+  "style": "#4A5568",
+  "school": "元四家",
+  "years": "1301—1374",
+  "bio": "元四家之一，画家、诗人，诗清淡幽远。",
+  "work_count": 42,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "三月一日自松陵过华亭",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=300",
+      "dynasty": "元"
+    },
+    {
+      "title": "与伯雨登溪山胜概楼",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=302",
+      "dynasty": "元"
+    },
+    {
+      "title": "丙子岁十月八日夜泊阊门将还溪上有怀友仁陆征君",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=35",
+      "dynasty": "元"
+    },
+    {
+      "title": "东林隐所寄陆征士",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=303",
+      "dynasty": "元"
+    },
+    {
+      "title": "六月五日偶成",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=428",
+      "dynasty": "元"
+    },
+    {
+      "title": "刘君元晖八月十四日邀余玩月快雪斋中，命余诗，因赋",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=108",
+      "dynasty": "元"
+    },
+    {
+      "title": "别章炼师",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=301",
+      "dynasty": "元"
+    },
+    {
+      "title": "北里",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=298",
+      "dynasty": "元"
+    },
+    {
+      "title": "听袁子方弹琴",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=500",
+      "dynasty": "元"
+    },
+    {
+      "title": "垂虹亭",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=168",
+      "dynasty": "元"
+    },
+    {
+      "title": "寄李隐者",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=38",
+      "dynasty": "元"
+    },
+    {
+      "title": "寄熙本明",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=299",
+      "dynasty": "元"
+    },
+    {
+      "title": "对酒",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=39",
+      "dynasty": "元"
+    },
+    {
+      "title": "己卯正月十八日与申屠彦德游虎丘得客字",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=37",
+      "dynasty": "元"
+    },
+    {
+      "title": "怀归",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=522",
+      "dynasty": "元"
+    },
+    {
+      "title": "戊寅十二月丹丘柯博士过林下赋诗次韵酬答",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=36",
+      "dynasty": "元"
+    },
+    {
+      "title": "早春对雨寄怀张外史",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=40",
+      "dynasty": "元"
+    },
+    {
+      "title": "春日云林斋居",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=33",
+      "dynasty": "元"
+    },
+    {
+      "title": "池莲咏",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=474",
+      "dynasty": "元"
+    },
+    {
+      "title": "荒村",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=167",
+      "dynasty": "元"
+    },
+    {
+      "title": "述怀",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=34",
+      "dynasty": "元"
+    },
+    {
+      "title": "三月一日自松陵过华亭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1762",
+      "dynasty": "元"
+    },
+    {
+      "title": "与伯雨登溪山胜概楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1764",
+      "dynasty": "元"
+    },
+    {
+      "title": "丙子岁十月八日夜泊阊门将还溪上有怀友仁陆征君",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1497",
+      "dynasty": "元"
+    },
+    {
+      "title": "东林隐所寄陆征士",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1765",
+      "dynasty": "元"
+    },
+    {
+      "title": "六月五日偶成",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1890",
+      "dynasty": "元"
+    },
+    {
+      "title": "刘君元晖八月十四日邀余玩月快雪斋中，命余诗，因赋",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1570",
+      "dynasty": "元"
+    },
+    {
+      "title": "别章炼师",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1763",
+      "dynasty": "元"
+    },
+    {
+      "title": "北里",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1760",
+      "dynasty": "元"
+    },
+    {
+      "title": "听袁子方弹琴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1962",
+      "dynasty": "元"
+    },
+    {
+      "title": "垂虹亭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1630",
+      "dynasty": "元"
+    },
+    {
+      "title": "寄李隐者",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1500",
+      "dynasty": "元"
+    },
+    {
+      "title": "寄熙本明",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1761",
+      "dynasty": "元"
+    },
+    {
+      "title": "对酒",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1501",
+      "dynasty": "元"
+    },
+    {
+      "title": "己卯正月十八日与申屠彦德游虎丘得客字",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1499",
+      "dynasty": "元"
+    },
+    {
+      "title": "怀归",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1984",
+      "dynasty": "元"
+    },
+    {
+      "title": "戊寅十二月丹丘柯博士过林下赋诗次韵酬答",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1498",
+      "dynasty": "元"
+    },
+    {
+      "title": "早春对雨寄怀张外史",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1502",
+      "dynasty": "元"
+    },
+    {
+      "title": "春日云林斋居",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1495",
+      "dynasty": "元"
+    },
+    {
+      "title": "池莲咏",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1936",
+      "dynasty": "元"
+    },
+    {
+      "title": "荒村",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1629",
+      "dynasty": "元"
+    },
+    {
+      "title": "述怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1496",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": true
+}

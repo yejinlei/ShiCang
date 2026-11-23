@@ -1,0 +1,56 @@
+{
+  "name": "曾觌",
+  "zi": "",
+  "hao": "",
+  "dynasty": "宋",
+  "d_order": 8,
+  "birthplace": "",
+  "style": "#7F8C8D",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "绝妙好词"
+  ],
+  "works": [
+    {
+      "title": "壶中天慢",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7588",
+      "dynasty": "宋"
+    },
+    {
+      "title": "柳梢青",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7587",
+      "dynasty": "宋"
+    },
+    {
+      "title": "阮郎归",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7586",
+      "dynasty": "宋"
+    },
+    {
+      "title": "中秋·壶中天慢",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=405",
+      "dynasty": "宋"
+    },
+    {
+      "title": "侍宴禁中和张知合应制作·柳梢青",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=404",
+      "dynasty": "宋"
+    },
+    {
+      "title": "双燕·阮郎归",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=403",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

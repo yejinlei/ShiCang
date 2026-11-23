@@ -1,0 +1,80 @@
+{
+  "name": "曹尔堪",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "季天中给谏病没于辽左赋诗吊之",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3252",
+      "dynasty": "清"
+    },
+    {
+      "title": "宿州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3249",
+      "dynasty": "清"
+    },
+    {
+      "title": "送宋荔裳少参之任秦州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3250",
+      "dynasty": "清"
+    },
+    {
+      "title": "金鱼池歌仿杜乐游园体",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3248",
+      "dynasty": "清"
+    },
+    {
+      "title": "钱牧斋先生挽词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3251",
+      "dynasty": "清"
+    },
+    {
+      "title": "季天中给谏病没于辽左赋诗吊之",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=293",
+      "dynasty": "清"
+    },
+    {
+      "title": "宿州",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=290",
+      "dynasty": "清"
+    },
+    {
+      "title": "送宋荔裳少参之任秦州",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=291",
+      "dynasty": "清"
+    },
+    {
+      "title": "金鱼池歌仿杜乐游园体",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=289",
+      "dynasty": "清"
+    },
+    {
+      "title": "钱牧斋先生挽词",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=292",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

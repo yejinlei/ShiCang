@@ -1,0 +1,44 @@
+{
+  "name": "季开生",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "尚阳堡即事口号",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3204",
+      "dynasty": "清"
+    },
+    {
+      "title": "送左大来先生葬",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3205",
+      "dynasty": "清"
+    },
+    {
+      "title": "尚阳堡即事口号",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=245",
+      "dynasty": "清"
+    },
+    {
+      "title": "送左大来先生葬",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=246",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

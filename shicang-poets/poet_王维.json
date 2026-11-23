@@ -1,0 +1,567 @@
+{
+  "name": "王维",
+  "zi": "摩诘",
+  "hao": "诗佛",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "蒲州",
+  "style": "#ae3a2b",
+  "school": "山水田园",
+  "years": "701—761",
+  "bio": "世称「诗佛」，盛唐山水田园诗派代表。苏轼称「诗中有画，画中有诗」。代表作《山居秋暝》《送元二使安西》。",
+  "work_count": 91,
+  "anthologies": [
+    "万寿唐诗",
+    "千家诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "九月九日忆山东兄弟",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=250",
+      "dynasty": "唐"
+    },
+    {
+      "title": "凉州词",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=254",
+      "dynasty": "唐"
+    },
+    {
+      "title": "华子冈",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=23",
+      "dynasty": "唐"
+    },
+    {
+      "title": "南垞",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=27",
+      "dynasty": "唐"
+    },
+    {
+      "title": "孟城坳 辋川集",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=22",
+      "dynasty": "唐"
+    },
+    {
+      "title": "寄段十六",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=249",
+      "dynasty": "唐"
+    },
+    {
+      "title": "寒食汜上作",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=253",
+      "dynasty": "唐"
+    },
+    {
+      "title": "少年行 三首",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=248",
+      "dynasty": "唐"
+    },
+    {
+      "title": "山中送别",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=33",
+      "dynasty": "唐"
+    },
+    {
+      "title": "左掖梨花",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=34",
+      "dynasty": "唐"
+    },
+    {
+      "title": "息夫人",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=35",
+      "dynasty": "唐"
+    },
+    {
+      "title": "斤竹岭",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=24",
+      "dynasty": "唐"
+    },
+    {
+      "title": "木兰柴",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=26",
+      "dynasty": "唐"
+    },
+    {
+      "title": "杂咏 二首",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=38",
+      "dynasty": "唐"
+    },
+    {
+      "title": "栾家濑",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=28",
+      "dynasty": "唐"
+    },
+    {
+      "title": "漆园",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=32",
+      "dynasty": "唐"
+    },
+    {
+      "title": "班婕妤",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=37",
+      "dynasty": "唐"
+    },
+    {
+      "title": "白石滩",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=29",
+      "dynasty": "唐"
+    },
+    {
+      "title": "相思子",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=36",
+      "dynasty": "唐"
+    },
+    {
+      "title": "竹里馆",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=30",
+      "dynasty": "唐"
+    },
+    {
+      "title": "荅裴迪",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=18",
+      "dynasty": "唐"
+    },
+    {
+      "title": "萍池",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=20",
+      "dynasty": "唐"
+    },
+    {
+      "title": "辛夷坞",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=31",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送元二使安西",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=247",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送沈子",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=252",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送韦评事",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=251",
+      "dynasty": "唐"
+    },
+    {
+      "title": "鸟鸣涧 云溪杂题",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=19",
+      "dynasty": "唐"
+    },
+    {
+      "title": "鸬鹚堰",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=21",
+      "dynasty": "唐"
+    },
+    {
+      "title": "鹿柴",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=25",
+      "dynasty": "唐"
+    },
+    {
+      "title": "和贾舍人早朝",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=169",
+      "dynasty": "唐"
+    },
+    {
+      "title": "竹里馆",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=12",
+      "dynasty": "唐"
+    },
+    {
+      "title": "终南山",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=51",
+      "dynasty": "唐"
+    },
+    {
+      "title": "过香积寺",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=75",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送元二使安西",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=144",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送朱大入秦",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=13",
+      "dynasty": "唐"
+    },
+    {
+      "title": "九月九日忆山东兄弟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0329",
+      "dynasty": "唐"
+    },
+    {
+      "title": "凉州词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6717",
+      "dynasty": "唐"
+    },
+    {
+      "title": "华子冈",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6512",
+      "dynasty": "唐"
+    },
+    {
+      "title": "南垞",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6515",
+      "dynasty": "唐"
+    },
+    {
+      "title": "和贾至舍人早朝大明宫之作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0330",
+      "dynasty": "唐"
+    },
+    {
+      "title": "和贾舍人早朝",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0987",
+      "dynasty": "唐"
+    },
+    {
+      "title": "奉和圣制从蓬莱向兴庆阁道中留春雨中春望之作应制",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0331",
+      "dynasty": "唐"
+    },
+    {
+      "title": "孟城坳 辋川集",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6511",
+      "dynasty": "唐"
+    },
+    {
+      "title": "寄段十六",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6713",
+      "dynasty": "唐"
+    },
+    {
+      "title": "寒食汜上作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6716",
+      "dynasty": "唐"
+    },
+    {
+      "title": "少年行 三首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6712",
+      "dynasty": "唐"
+    },
+    {
+      "title": "山中送别",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6520",
+      "dynasty": "唐"
+    },
+    {
+      "title": "山居秋暝",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0332",
+      "dynasty": "唐"
+    },
+    {
+      "title": "左掖梨花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6521",
+      "dynasty": "唐"
+    },
+    {
+      "title": "归嵩山作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0333",
+      "dynasty": "唐"
+    },
+    {
+      "title": "息夫人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6522",
+      "dynasty": "唐"
+    },
+    {
+      "title": "斤竹岭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6513",
+      "dynasty": "唐"
+    },
+    {
+      "title": "木兰柴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6514",
+      "dynasty": "唐"
+    },
+    {
+      "title": "杂咏 二首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6525",
+      "dynasty": "唐"
+    },
+    {
+      "title": "杂诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0334",
+      "dynasty": "唐"
+    },
+    {
+      "title": "栾家濑",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6516",
+      "dynasty": "唐"
+    },
+    {
+      "title": "桃源行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0335",
+      "dynasty": "唐"
+    },
+    {
+      "title": "汉江临眺",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0336",
+      "dynasty": "唐"
+    },
+    {
+      "title": "洛阳女儿行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0337",
+      "dynasty": "唐"
+    },
+    {
+      "title": "渭城曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0338",
+      "dynasty": "唐"
+    },
+    {
+      "title": "渭川田家",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0339",
+      "dynasty": "唐"
+    },
+    {
+      "title": "漆园",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6519",
+      "dynasty": "唐"
+    },
+    {
+      "title": "班婕妤",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6524",
+      "dynasty": "唐"
+    },
+    {
+      "title": "白石滩",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6517",
+      "dynasty": "唐"
+    },
+    {
+      "title": "相思",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0340",
+      "dynasty": "唐"
+    },
+    {
+      "title": "相思子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6523",
+      "dynasty": "唐"
+    },
+    {
+      "title": "秋夜曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0341",
+      "dynasty": "唐"
+    },
+    {
+      "title": "积雨辋川庄作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0342",
+      "dynasty": "唐"
+    },
+    {
+      "title": "竹里馆",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0343",
+      "dynasty": "唐"
+    },
+    {
+      "title": "终南别业",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0344",
+      "dynasty": "唐"
+    },
+    {
+      "title": "终南山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0345",
+      "dynasty": "唐"
+    },
+    {
+      "title": "老将行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0346",
+      "dynasty": "唐"
+    },
+    {
+      "title": "荅裴迪",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6507",
+      "dynasty": "唐"
+    },
+    {
+      "title": "萍池",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6509",
+      "dynasty": "唐"
+    },
+    {
+      "title": "西施咏",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0347",
+      "dynasty": "唐"
+    },
+    {
+      "title": "辋川闲居赠裴秀才迪",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0348",
+      "dynasty": "唐"
+    },
+    {
+      "title": "辛夷坞",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6518",
+      "dynasty": "唐"
+    },
+    {
+      "title": "过香积寺",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0349",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送元二使安西",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0830",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送别",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0350",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送朱大入秦",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0849",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送梓州李使君",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0351",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送沈子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6715",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送綦毋潜落第还乡",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0352",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送韦评事",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6714",
+      "dynasty": "唐"
+    },
+    {
+      "title": "酬张少府",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0353",
+      "dynasty": "唐"
+    },
+    {
+      "title": "酬郭给事",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0354",
+      "dynasty": "唐"
+    },
+    {
+      "title": "青溪",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0355",
+      "dynasty": "唐"
+    },
+    {
+      "title": "鸟鸣涧 云溪杂题",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6508",
+      "dynasty": "唐"
+    },
+    {
+      "title": "鸬鹚堰",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6510",
+      "dynasty": "唐"
+    },
+    {
+      "title": "鹿柴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0356",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": true
+}

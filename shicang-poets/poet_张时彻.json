@@ -1,0 +1,44 @@
+{
+  "name": "张时彻",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "初秋",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2447",
+      "dynasty": "明"
+    },
+    {
+      "title": "采葛篇",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2446",
+      "dynasty": "明"
+    },
+    {
+      "title": "初秋",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=443",
+      "dynasty": "明"
+    },
+    {
+      "title": "采葛篇",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=442",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

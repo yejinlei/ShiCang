@@ -1,0 +1,68 @@
+{
+  "name": "彭定求",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "五人墓",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4008",
+      "dynasty": "清"
+    },
+    {
+      "title": "望日谒文山先生祠，时于中丞方议重修，用杜诗蜀相原韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4007",
+      "dynasty": "清"
+    },
+    {
+      "title": "汤阴谒岳忠武故里庙像",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4009",
+      "dynasty": "清"
+    },
+    {
+      "title": "过淇县怀同年高振声给事",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4010",
+      "dynasty": "清"
+    },
+    {
+      "title": "五人墓",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1049",
+      "dynasty": "清"
+    },
+    {
+      "title": "望日谒文山先生祠，时于中丞方议重修，用杜诗蜀相原韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1048",
+      "dynasty": "清"
+    },
+    {
+      "title": "汤阴谒岳忠武故里庙像",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1050",
+      "dynasty": "清"
+    },
+    {
+      "title": "过淇县怀同年高振声给事",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1051",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

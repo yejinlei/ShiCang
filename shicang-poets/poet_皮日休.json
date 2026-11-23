@@ -1,0 +1,80 @@
+{
+  "name": "皮日休",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "万寿唐诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "和陆鲁望",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=190",
+      "dynasty": "唐"
+    },
+    {
+      "title": "松江早春",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=674",
+      "dynasty": "唐"
+    },
+    {
+      "title": "玩金鸂鶒",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=676",
+      "dynasty": "唐"
+    },
+    {
+      "title": "病酒",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=675",
+      "dynasty": "唐"
+    },
+    {
+      "title": "重台荷花",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=673",
+      "dynasty": "唐"
+    },
+    {
+      "title": "和陆鲁望",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6662",
+      "dynasty": "唐"
+    },
+    {
+      "title": "松江早春",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7114",
+      "dynasty": "唐"
+    },
+    {
+      "title": "玩金鸂鶒",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7116",
+      "dynasty": "唐"
+    },
+    {
+      "title": "病酒",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7115",
+      "dynasty": "唐"
+    },
+    {
+      "title": "重台荷花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7113",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

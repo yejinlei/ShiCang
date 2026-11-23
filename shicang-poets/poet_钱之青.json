@@ -1,0 +1,116 @@
+{
+  "name": "钱之青",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 16,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "中秋夜述怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5974",
+      "dynasty": "清"
+    },
+    {
+      "title": "宿村家",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5972",
+      "dynasty": "清"
+    },
+    {
+      "title": "张安弦",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5799",
+      "dynasty": "清"
+    },
+    {
+      "title": "归途作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5973",
+      "dynasty": "清"
+    },
+    {
+      "title": "归里后亲朋枉过有作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5971",
+      "dynasty": "清"
+    },
+    {
+      "title": "送燕",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5800",
+      "dynasty": "清"
+    },
+    {
+      "title": "风阻岳州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5798",
+      "dynasty": "清"
+    },
+    {
+      "title": "鲜民悲罔极也",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5970",
+      "dynasty": "清"
+    },
+    {
+      "title": "中秋夜述怀",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3015",
+      "dynasty": "清"
+    },
+    {
+      "title": "宿村家",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3013",
+      "dynasty": "清"
+    },
+    {
+      "title": "张安弦",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2840",
+      "dynasty": "清"
+    },
+    {
+      "title": "归途作",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3014",
+      "dynasty": "清"
+    },
+    {
+      "title": "归里后亲朋枉过有作",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3012",
+      "dynasty": "清"
+    },
+    {
+      "title": "送燕",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2841",
+      "dynasty": "清"
+    },
+    {
+      "title": "风阻岳州",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2839",
+      "dynasty": "清"
+    },
+    {
+      "title": "鲜民悲罔极也",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3011",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

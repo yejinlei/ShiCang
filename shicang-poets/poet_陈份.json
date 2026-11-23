@@ -1,0 +1,44 @@
+{
+  "name": "陈份",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "捉搦歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5968",
+      "dynasty": "清"
+    },
+    {
+      "title": "露筋祠迎神曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5969",
+      "dynasty": "清"
+    },
+    {
+      "title": "捉搦歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3009",
+      "dynasty": "清"
+    },
+    {
+      "title": "露筋祠迎神曲",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3010",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

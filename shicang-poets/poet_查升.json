@@ -1,0 +1,68 @@
+{
+  "name": "查升",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "八里庄",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4654",
+      "dynasty": "清"
+    },
+    {
+      "title": "访吴采山不值",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4651",
+      "dynasty": "清"
+    },
+    {
+      "title": "过浦口和清字",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4652",
+      "dynasty": "清"
+    },
+    {
+      "title": "陈丈朴庵招赏牡丹同人即席分赋得明字",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4653",
+      "dynasty": "清"
+    },
+    {
+      "title": "八里庄",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1695",
+      "dynasty": "清"
+    },
+    {
+      "title": "访吴采山不值",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1692",
+      "dynasty": "清"
+    },
+    {
+      "title": "过浦口和清字",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1693",
+      "dynasty": "清"
+    },
+    {
+      "title": "陈丈朴庵招赏牡丹同人即席分赋得明字",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1694",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

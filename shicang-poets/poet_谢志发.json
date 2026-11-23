@@ -1,0 +1,56 @@
+{
+  "name": "谢志发",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "春日送张梅庄之维扬",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5047",
+      "dynasty": "清"
+    },
+    {
+      "title": "过旧送别处",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5049",
+      "dynasty": "清"
+    },
+    {
+      "title": "过褚渔黄山居",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5048",
+      "dynasty": "清"
+    },
+    {
+      "title": "春日送张梅庄之维扬",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2088",
+      "dynasty": "清"
+    },
+    {
+      "title": "过旧送别处",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2090",
+      "dynasty": "清"
+    },
+    {
+      "title": "过褚渔黄山居",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2089",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,44 @@
+{
+  "name": "曹寅",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "岁暮远为客",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4958",
+      "dynasty": "清"
+    },
+    {
+      "title": "读洪思稗畦行卷感赠一首兼寄赵秋谷官赞",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4959",
+      "dynasty": "清"
+    },
+    {
+      "title": "岁暮远为客",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1999",
+      "dynasty": "清"
+    },
+    {
+      "title": "读洪思稗畦行卷感赠一首兼寄赵秋谷官赞",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2000",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

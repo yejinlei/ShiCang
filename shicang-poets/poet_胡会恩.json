@@ -1,0 +1,128 @@
+{
+  "name": "胡会恩",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 18,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "书京江先生南苑诗后",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4012",
+      "dynasty": "清"
+    },
+    {
+      "title": "吴门值钱饮光惠诗赋答",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4016",
+      "dynasty": "清"
+    },
+    {
+      "title": "湖口行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4011",
+      "dynasty": "清"
+    },
+    {
+      "title": "珠江杂咏",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4013",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋晓",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4017",
+      "dynasty": "清"
+    },
+    {
+      "title": "苏州送春词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4019",
+      "dynasty": "清"
+    },
+    {
+      "title": "都中四时歌（存秋一首）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4018",
+      "dynasty": "清"
+    },
+    {
+      "title": "金陵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4015",
+      "dynasty": "清"
+    },
+    {
+      "title": "题张蘧若侍御疏稿",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4014",
+      "dynasty": "清"
+    },
+    {
+      "title": "书京江先生南苑诗后",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1053",
+      "dynasty": "清"
+    },
+    {
+      "title": "吴门值钱饮光惠诗赋答",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1057",
+      "dynasty": "清"
+    },
+    {
+      "title": "湖口行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1052",
+      "dynasty": "清"
+    },
+    {
+      "title": "珠江杂咏",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1054",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋晓",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1058",
+      "dynasty": "清"
+    },
+    {
+      "title": "苏州送春词",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1060",
+      "dynasty": "清"
+    },
+    {
+      "title": "都中四时歌（存秋一首）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1059",
+      "dynasty": "清"
+    },
+    {
+      "title": "金陵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1056",
+      "dynasty": "清"
+    },
+    {
+      "title": "题张蘧若侍御疏稿",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1055",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

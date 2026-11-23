@@ -1,0 +1,44 @@
+{
+  "name": "邹升恒",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "丁香和韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5360",
+      "dynasty": "清"
+    },
+    {
+      "title": "分赋得采香径送沈归愚太史暂假归里",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5359",
+      "dynasty": "清"
+    },
+    {
+      "title": "丁香和韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2401",
+      "dynasty": "清"
+    },
+    {
+      "title": "分赋得采香径送沈归愚太史暂假归里",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2400",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

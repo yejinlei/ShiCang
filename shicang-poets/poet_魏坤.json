@@ -1,0 +1,80 @@
+{
+  "name": "魏坤",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "寄居虫",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4817",
+      "dynasty": "清"
+    },
+    {
+      "title": "慈仁寺有粥孤雁者四明万季野购畜于庭作羁雁诗邀予赋之",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4820",
+      "dynasty": "清"
+    },
+    {
+      "title": "田横岛",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4821",
+      "dynasty": "清"
+    },
+    {
+      "title": "登黄鹤楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4818",
+      "dynasty": "清"
+    },
+    {
+      "title": "送少司马杨以斋先生予告终养归里次悔馀韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4819",
+      "dynasty": "清"
+    },
+    {
+      "title": "寄居虫",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1858",
+      "dynasty": "清"
+    },
+    {
+      "title": "慈仁寺有粥孤雁者四明万季野购畜于庭作羁雁诗邀予赋之",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1861",
+      "dynasty": "清"
+    },
+    {
+      "title": "田横岛",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1862",
+      "dynasty": "清"
+    },
+    {
+      "title": "登黄鹤楼",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1859",
+      "dynasty": "清"
+    },
+    {
+      "title": "送少司马杨以斋先生予告终养归里次悔馀韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1860",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

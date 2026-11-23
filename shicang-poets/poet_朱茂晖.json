@@ -1,0 +1,44 @@
+{
+  "name": "朱茂晖",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "哭谭礼部元孩",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2883",
+      "dynasty": "明"
+    },
+    {
+      "title": "秦淮河春游即事",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2884",
+      "dynasty": "明"
+    },
+    {
+      "title": "哭谭礼部元孩",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=879",
+      "dynasty": "明"
+    },
+    {
+      "title": "秦淮河春游即事",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=880",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,92 @@
+{
+  "name": "郑江",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 12,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "常山县",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5355",
+      "dynasty": "清"
+    },
+    {
+      "title": "度岭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5354",
+      "dynasty": "清"
+    },
+    {
+      "title": "残柳",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5356",
+      "dynasty": "清"
+    },
+    {
+      "title": "西溪草堂图",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5353",
+      "dynasty": "清"
+    },
+    {
+      "title": "钓台",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5357",
+      "dynasty": "清"
+    },
+    {
+      "title": "飞来寺",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5358",
+      "dynasty": "清"
+    },
+    {
+      "title": "常山县",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2396",
+      "dynasty": "清"
+    },
+    {
+      "title": "度岭",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2395",
+      "dynasty": "清"
+    },
+    {
+      "title": "残柳",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2397",
+      "dynasty": "清"
+    },
+    {
+      "title": "西溪草堂图",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2394",
+      "dynasty": "清"
+    },
+    {
+      "title": "钓台",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2398",
+      "dynasty": "清"
+    },
+    {
+      "title": "飞来寺",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2399",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

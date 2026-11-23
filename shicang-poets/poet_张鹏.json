@@ -1,0 +1,56 @@
+{
+  "name": "张鹏",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "有所思行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5760",
+      "dynasty": "清"
+    },
+    {
+      "title": "经史法戒诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5759",
+      "dynasty": "清"
+    },
+    {
+      "title": "长沙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5761",
+      "dynasty": "清"
+    },
+    {
+      "title": "有所思行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2801",
+      "dynasty": "清"
+    },
+    {
+      "title": "经史法戒诗",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2800",
+      "dynasty": "清"
+    },
+    {
+      "title": "长沙",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2802",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

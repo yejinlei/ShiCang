@@ -1,0 +1,80 @@
+{
+  "name": "陈沂震",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "云安",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4873",
+      "dynasty": "清"
+    },
+    {
+      "title": "巴东",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4874",
+      "dynasty": "清"
+    },
+    {
+      "title": "白雪楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4875",
+      "dynasty": "清"
+    },
+    {
+      "title": "试院即事",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4876",
+      "dynasty": "清"
+    },
+    {
+      "title": "途中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4877",
+      "dynasty": "清"
+    },
+    {
+      "title": "云安",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1914",
+      "dynasty": "清"
+    },
+    {
+      "title": "巴东",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1915",
+      "dynasty": "清"
+    },
+    {
+      "title": "白雪楼",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1916",
+      "dynasty": "清"
+    },
+    {
+      "title": "试院即事",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1917",
+      "dynasty": "清"
+    },
+    {
+      "title": "途中",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1918",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

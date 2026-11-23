@@ -1,0 +1,44 @@
+{
+  "name": "金衡",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "自律",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5947",
+      "dynasty": "清"
+    },
+    {
+      "title": "过友人别馆",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5948",
+      "dynasty": "清"
+    },
+    {
+      "title": "自律",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2988",
+      "dynasty": "清"
+    },
+    {
+      "title": "过友人别馆",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2989",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

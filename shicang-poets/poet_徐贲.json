@@ -1,0 +1,56 @@
+{
+  "name": "徐贲",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "柳短短送陈舜道",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2071",
+      "dynasty": "明"
+    },
+    {
+      "title": "过荷叶浦",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2070",
+      "dynasty": "明"
+    },
+    {
+      "title": "送曾伯滋赴西河将幕",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2072",
+      "dynasty": "明"
+    },
+    {
+      "title": "柳短短送陈舜道",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=67",
+      "dynasty": "明"
+    },
+    {
+      "title": "过荷叶浦",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=66",
+      "dynasty": "明"
+    },
+    {
+      "title": "送曾伯滋赴西河将幕",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=68",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

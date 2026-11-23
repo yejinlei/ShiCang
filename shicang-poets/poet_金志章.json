@@ -1,0 +1,104 @@
+{
+  "name": "金志章",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 14,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "二十四矶",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5712",
+      "dynasty": "清"
+    },
+    {
+      "title": "因树亭观唐明皇磨崖碑",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5707",
+      "dynasty": "清"
+    },
+    {
+      "title": "岔道射虎行为李守戎作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5709",
+      "dynasty": "清"
+    },
+    {
+      "title": "白沟河吊三忠祠（张公叔夜、文公天祥）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5710",
+      "dynasty": "清"
+    },
+    {
+      "title": "钤山行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5708",
+      "dynasty": "清"
+    },
+    {
+      "title": "鹧鸪塘",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5713",
+      "dynasty": "清"
+    },
+    {
+      "title": "黑峪",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5711",
+      "dynasty": "清"
+    },
+    {
+      "title": "二十四矶",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2753",
+      "dynasty": "清"
+    },
+    {
+      "title": "因树亭观唐明皇磨崖碑",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2748",
+      "dynasty": "清"
+    },
+    {
+      "title": "岔道射虎行为李守戎作",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2750",
+      "dynasty": "清"
+    },
+    {
+      "title": "白沟河吊三忠祠（张公叔夜、文公天祥）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2751",
+      "dynasty": "清"
+    },
+    {
+      "title": "钤山行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2749",
+      "dynasty": "清"
+    },
+    {
+      "title": "鹧鸪塘",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2754",
+      "dynasty": "清"
+    },
+    {
+      "title": "黑峪",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2752",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

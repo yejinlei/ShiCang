@@ -1,0 +1,104 @@
+{
+  "name": "恽格",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 14,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "寄虞山王石谷",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4374",
+      "dynasty": "清"
+    },
+    {
+      "title": "晓起",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4372",
+      "dynasty": "清"
+    },
+    {
+      "title": "月夜从愚庵大师陈际叔徐世臣湖干闲步",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4368",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠笪在辛侍御",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4371",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠莫十三",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4369",
+      "dynasty": "清"
+    },
+    {
+      "title": "远眺",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4373",
+      "dynasty": "清"
+    },
+    {
+      "title": "送滕子还闽",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4370",
+      "dynasty": "清"
+    },
+    {
+      "title": "寄虞山王石谷",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1415",
+      "dynasty": "清"
+    },
+    {
+      "title": "晓起",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1413",
+      "dynasty": "清"
+    },
+    {
+      "title": "月夜从愚庵大师陈际叔徐世臣湖干闲步",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1409",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠笪在辛侍御",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1412",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠莫十三",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1410",
+      "dynasty": "清"
+    },
+    {
+      "title": "远眺",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1414",
+      "dynasty": "清"
+    },
+    {
+      "title": "送滕子还闽",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1411",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

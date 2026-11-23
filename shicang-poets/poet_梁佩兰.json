@@ -1,0 +1,116 @@
+{
+  "name": "梁佩兰",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 16,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "养马行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4579",
+      "dynasty": "清"
+    },
+    {
+      "title": "惠州王紫诠太守筑罗浮子日亭落成作歌寄之",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4582",
+      "dynasty": "清"
+    },
+    {
+      "title": "日本刀歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4580",
+      "dynasty": "清"
+    },
+    {
+      "title": "易水行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4581",
+      "dynasty": "清"
+    },
+    {
+      "title": "次京口",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4584",
+      "dynasty": "清"
+    },
+    {
+      "title": "沛中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4585",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋夜宿陈元孝独漉堂读其先大司马遗集感赋",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4583",
+      "dynasty": "清"
+    },
+    {
+      "title": "阁夜",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4586",
+      "dynasty": "清"
+    },
+    {
+      "title": "养马行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1620",
+      "dynasty": "清"
+    },
+    {
+      "title": "惠州王紫诠太守筑罗浮子日亭落成作歌寄之",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1623",
+      "dynasty": "清"
+    },
+    {
+      "title": "日本刀歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1621",
+      "dynasty": "清"
+    },
+    {
+      "title": "易水行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1622",
+      "dynasty": "清"
+    },
+    {
+      "title": "次京口",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1625",
+      "dynasty": "清"
+    },
+    {
+      "title": "沛中",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1626",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋夜宿陈元孝独漉堂读其先大司马遗集感赋",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1624",
+      "dynasty": "清"
+    },
+    {
+      "title": "阁夜",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1627",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

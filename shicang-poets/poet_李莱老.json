@@ -1,0 +1,212 @@
+{
+  "name": "李莱老",
+  "zi": "",
+  "hao": "",
+  "dynasty": "宋",
+  "d_order": 8,
+  "birthplace": "",
+  "style": "#7F8C8D",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 32,
+  "anthologies": [
+    "名篇精读",
+    "绝妙好词"
+  ],
+  "works": [
+    {
+      "title": "台城路",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7480",
+      "dynasty": "宋"
+    },
+    {
+      "title": "小桃红",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7487",
+      "dynasty": "宋"
+    },
+    {
+      "title": "小重山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7483",
+      "dynasty": "宋"
+    },
+    {
+      "title": "惜红衣",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7471",
+      "dynasty": "宋"
+    },
+    {
+      "title": "扬州慢",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7473",
+      "dynasty": "宋"
+    },
+    {
+      "title": "木兰花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7478",
+      "dynasty": "宋"
+    },
+    {
+      "title": "杏花天",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7482",
+      "dynasty": "宋"
+    },
+    {
+      "title": "浪淘沙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7475",
+      "dynasty": "宋"
+    },
+    {
+      "title": "清平乐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7479",
+      "dynasty": "宋"
+    },
+    {
+      "title": "生查子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7476",
+      "dynasty": "宋"
+    },
+    {
+      "title": "谒金门",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7474",
+      "dynasty": "宋"
+    },
+    {
+      "title": "贺新郎",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7485",
+      "dynasty": "宋"
+    },
+    {
+      "title": "霓裳中序第一",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7484",
+      "dynasty": "宋"
+    },
+    {
+      "title": "青玉案",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7472",
+      "dynasty": "宋"
+    },
+    {
+      "title": "高阳台",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7477",
+      "dynasty": "宋"
+    },
+    {
+      "title": "寄弁阳翁·台城路",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=294",
+      "dynasty": "宋"
+    },
+    {
+      "title": "寄弁阳翁·惜红衣",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=285",
+      "dynasty": "宋"
+    },
+    {
+      "title": "寄题荪壁山房·木兰花",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=292",
+      "dynasty": "宋"
+    },
+    {
+      "title": "小桃红",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=301",
+      "dynasty": "宋"
+    },
+    {
+      "title": "小重山",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=297",
+      "dynasty": "宋"
+    },
+    {
+      "title": "杏花天",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=296",
+      "dynasty": "宋"
+    },
+    {
+      "title": "浪淘沙",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=289",
+      "dynasty": "宋"
+    },
+    {
+      "title": "浪淘沙",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=295",
+      "dynasty": "宋"
+    },
+    {
+      "title": "清平乐",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=293",
+      "dynasty": "宋"
+    },
+    {
+      "title": "琼花次韵·扬州慢",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=287",
+      "dynasty": "宋"
+    },
+    {
+      "title": "生查子",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=290",
+      "dynasty": "宋"
+    },
+    {
+      "title": "草窗词卷·青玉案",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=286",
+      "dynasty": "宋"
+    },
+    {
+      "title": "落梅·高阳台",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=291",
+      "dynasty": "宋"
+    },
+    {
+      "title": "谒金门",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=288",
+      "dynasty": "宋"
+    },
+    {
+      "title": "贺新郎",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=299",
+      "dynasty": "宋"
+    },
+    {
+      "title": "霓裳中序第一",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=298",
+      "dynasty": "宋"
+    },
+    {
+      "title": "高阳台",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=300",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

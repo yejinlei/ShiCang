@@ -1,0 +1,57 @@
+{
+  "name": "韩元吉",
+  "zi": "",
+  "hao": "",
+  "dynasty": "宋",
+  "d_order": 8,
+  "birthplace": "",
+  "style": "#7F8C8D",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "宋词三百首",
+    "绝妙好词"
+  ],
+  "works": [
+    {
+      "title": "六州歌头",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0701",
+      "dynasty": "宋"
+    },
+    {
+      "title": "好事近",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0702",
+      "dynasty": "宋"
+    },
+    {
+      "title": "水龙吟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7210",
+      "dynasty": "宋"
+    },
+    {
+      "title": "六州歌头",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=119",
+      "dynasty": "宋"
+    },
+    {
+      "title": "好事近",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=120",
+      "dynasty": "宋"
+    },
+    {
+      "title": "书英华事·水龙吟",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=12",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

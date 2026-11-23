@@ -1,0 +1,92 @@
+{
+  "name": "戴移孝",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 12,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "从军行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3630",
+      "dynasty": "清"
+    },
+    {
+      "title": "喜遇方三素伯于长干",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3631",
+      "dynasty": "清"
+    },
+    {
+      "title": "惜誓",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3635",
+      "dynasty": "清"
+    },
+    {
+      "title": "牧牛",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3634",
+      "dynasty": "清"
+    },
+    {
+      "title": "答人述先君旧事",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3632",
+      "dynasty": "清"
+    },
+    {
+      "title": "训子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3633",
+      "dynasty": "清"
+    },
+    {
+      "title": "从军行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=671",
+      "dynasty": "清"
+    },
+    {
+      "title": "喜遇方三素伯于长干",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=672",
+      "dynasty": "清"
+    },
+    {
+      "title": "惜誓",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=676",
+      "dynasty": "清"
+    },
+    {
+      "title": "牧牛",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=675",
+      "dynasty": "清"
+    },
+    {
+      "title": "答人述先君旧事",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=673",
+      "dynasty": "清"
+    },
+    {
+      "title": "训子",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=674",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

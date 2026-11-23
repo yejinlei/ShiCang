@@ -1,0 +1,104 @@
+{
+  "name": "王慧",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 14,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "冷泉亭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6272",
+      "dynasty": "清"
+    },
+    {
+      "title": "山阴道中三首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6271",
+      "dynasty": "清"
+    },
+    {
+      "title": "禹陵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6277",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋夜梦同先慈赋诗得天上桃花之句觉后因足之",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6274",
+      "dynasty": "清"
+    },
+    {
+      "title": "移居茜里旧宅",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6273",
+      "dynasty": "清"
+    },
+    {
+      "title": "芝塘候潮因忆亡友",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6276",
+      "dynasty": "清"
+    },
+    {
+      "title": "邻女幼归儒家因婿无籍沦于塞下闻而有感",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6275",
+      "dynasty": "清"
+    },
+    {
+      "title": "冷泉亭",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3313",
+      "dynasty": "清"
+    },
+    {
+      "title": "山阴道中三首",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3312",
+      "dynasty": "清"
+    },
+    {
+      "title": "禹陵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3318",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋夜梦同先慈赋诗得天上桃花之句觉后因足之",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3315",
+      "dynasty": "清"
+    },
+    {
+      "title": "移居茜里旧宅",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3314",
+      "dynasty": "清"
+    },
+    {
+      "title": "芝塘候潮因忆亡友",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3317",
+      "dynasty": "清"
+    },
+    {
+      "title": "邻女幼归儒家因婿无籍沦于塞下闻而有感",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3316",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

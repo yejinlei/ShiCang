@@ -1,0 +1,92 @@
+{
+  "name": "张仲素",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 12,
+  "anthologies": [
+    "万寿唐诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "塞下曲 四首",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=451",
+      "dynasty": "唐"
+    },
+    {
+      "title": "天马词",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=454",
+      "dynasty": "唐"
+    },
+    {
+      "title": "春游曲",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=150",
+      "dynasty": "唐"
+    },
+    {
+      "title": "春闺思",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=149",
+      "dynasty": "唐"
+    },
+    {
+      "title": "汉苑行",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=453",
+      "dynasty": "唐"
+    },
+    {
+      "title": "秋闺思 二首",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=452",
+      "dynasty": "唐"
+    },
+    {
+      "title": "塞下曲 四首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6904",
+      "dynasty": "唐"
+    },
+    {
+      "title": "天马词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6907",
+      "dynasty": "唐"
+    },
+    {
+      "title": "春游曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6625",
+      "dynasty": "唐"
+    },
+    {
+      "title": "春闺思",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6624",
+      "dynasty": "唐"
+    },
+    {
+      "title": "汉苑行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6906",
+      "dynasty": "唐"
+    },
+    {
+      "title": "秋闺思 二首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6905",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

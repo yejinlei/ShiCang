@@ -1,0 +1,152 @@
+{
+  "name": "黄子云",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 22,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "卧钟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6158",
+      "dynasty": "清"
+    },
+    {
+      "title": "大洋",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6163",
+      "dynasty": "清"
+    },
+    {
+      "title": "孟庙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6165",
+      "dynasty": "清"
+    },
+    {
+      "title": "山中守岁歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6161",
+      "dynasty": "清"
+    },
+    {
+      "title": "度仙霞岭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6162",
+      "dynasty": "清"
+    },
+    {
+      "title": "毛氏园观牡丹",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6166",
+      "dynasty": "清"
+    },
+    {
+      "title": "画鹰（自注：元阿尔卑绘。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6159",
+      "dynasty": "清"
+    },
+    {
+      "title": "舟行望南韶诸山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6157",
+      "dynasty": "清"
+    },
+    {
+      "title": "蒋子空水刀歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6160",
+      "dynasty": "清"
+    },
+    {
+      "title": "那坝望海",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6164",
+      "dynasty": "清"
+    },
+    {
+      "title": "题太白楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6167",
+      "dynasty": "清"
+    },
+    {
+      "title": "卧钟",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3199",
+      "dynasty": "清"
+    },
+    {
+      "title": "大洋",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3204",
+      "dynasty": "清"
+    },
+    {
+      "title": "孟庙",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3206",
+      "dynasty": "清"
+    },
+    {
+      "title": "山中守岁歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3202",
+      "dynasty": "清"
+    },
+    {
+      "title": "度仙霞岭",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3203",
+      "dynasty": "清"
+    },
+    {
+      "title": "毛氏园观牡丹",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3207",
+      "dynasty": "清"
+    },
+    {
+      "title": "画鹰（自注：元阿尔卑绘。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3200",
+      "dynasty": "清"
+    },
+    {
+      "title": "舟行望南韶诸山",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3198",
+      "dynasty": "清"
+    },
+    {
+      "title": "蒋子空水刀歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3201",
+      "dynasty": "清"
+    },
+    {
+      "title": "那坝望海",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3205",
+      "dynasty": "清"
+    },
+    {
+      "title": "题太白楼",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3208",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

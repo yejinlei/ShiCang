@@ -1,0 +1,44 @@
+{
+  "name": "显谟",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "山房同端白迟兰公不至",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6393",
+      "dynasty": "清"
+    },
+    {
+      "title": "柬陆长卿",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6394",
+      "dynasty": "清"
+    },
+    {
+      "title": "山房同端白迟兰公不至",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3434",
+      "dynasty": "清"
+    },
+    {
+      "title": "柬陆长卿",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3435",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

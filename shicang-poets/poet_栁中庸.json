@@ -1,0 +1,56 @@
+{
+  "name": "栁中庸",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "万寿唐诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "凉州曲",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=342",
+      "dynasty": "唐"
+    },
+    {
+      "title": "征人怨",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=341",
+      "dynasty": "唐"
+    },
+    {
+      "title": "河阳桥送别",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=340",
+      "dynasty": "唐"
+    },
+    {
+      "title": "凉州曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6801",
+      "dynasty": "唐"
+    },
+    {
+      "title": "征人怨",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6800",
+      "dynasty": "唐"
+    },
+    {
+      "title": "河阳桥送别",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6799",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

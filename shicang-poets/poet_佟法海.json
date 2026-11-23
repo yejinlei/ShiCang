@@ -1,0 +1,56 @@
+{
+  "name": "佟法海",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "咏鹤",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4748",
+      "dynasty": "清"
+    },
+    {
+      "title": "浔阳楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4750",
+      "dynasty": "清"
+    },
+    {
+      "title": "送查悔馀还乡兼寄贾奠坤",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4749",
+      "dynasty": "清"
+    },
+    {
+      "title": "咏鹤",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1789",
+      "dynasty": "清"
+    },
+    {
+      "title": "浔阳楼",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1791",
+      "dynasty": "清"
+    },
+    {
+      "title": "送查悔馀还乡兼寄贾奠坤",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1790",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

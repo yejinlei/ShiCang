@@ -1,0 +1,44 @@
+{
+  "name": "方兆及",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "刘生",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3382",
+      "dynasty": "清"
+    },
+    {
+      "title": "铜雀妓",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3383",
+      "dynasty": "清"
+    },
+    {
+      "title": "刘生",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=423",
+      "dynasty": "清"
+    },
+    {
+      "title": "铜雀妓",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=424",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

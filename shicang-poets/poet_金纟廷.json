@@ -1,0 +1,92 @@
+{
+  "name": "金纟廷",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 12,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "寄芝仙西征幕府",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6046",
+      "dynasty": "清"
+    },
+    {
+      "title": "村居答社中诸子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6044",
+      "dynasty": "清"
+    },
+    {
+      "title": "自三山至牛渚连山盘屈舟出其下",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6041",
+      "dynasty": "清"
+    },
+    {
+      "title": "舟晓",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6042",
+      "dynasty": "清"
+    },
+    {
+      "title": "送刘东郊",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6045",
+      "dynasty": "清"
+    },
+    {
+      "title": "采石矶",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6043",
+      "dynasty": "清"
+    },
+    {
+      "title": "寄芝仙西征幕府",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3087",
+      "dynasty": "清"
+    },
+    {
+      "title": "村居答社中诸子",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3085",
+      "dynasty": "清"
+    },
+    {
+      "title": "自三山至牛渚连山盘屈舟出其下",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3082",
+      "dynasty": "清"
+    },
+    {
+      "title": "舟晓",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3083",
+      "dynasty": "清"
+    },
+    {
+      "title": "送刘东郊",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3086",
+      "dynasty": "清"
+    },
+    {
+      "title": "采石矶",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3084",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

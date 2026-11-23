@@ -1,0 +1,44 @@
+{
+  "name": "司马光",
+  "zi": "",
+  "hao": "",
+  "dynasty": "宋",
+  "d_order": 8,
+  "birthplace": "",
+  "style": "#7F8C8D",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "千家诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "客中初夏",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=131",
+      "dynasty": "宋"
+    },
+    {
+      "title": "有约",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=132",
+      "dynasty": "宋"
+    },
+    {
+      "title": "客中初夏",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0952",
+      "dynasty": "宋"
+    },
+    {
+      "title": "有约",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0953",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

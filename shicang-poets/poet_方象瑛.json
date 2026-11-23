@@ -1,0 +1,56 @@
+{
+  "name": "方象瑛",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "七盘关",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3907",
+      "dynasty": "清"
+    },
+    {
+      "title": "望雪山（自注：在咸州，距会城二百馀里，晓起登楼望之，九峰皆白。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3908",
+      "dynasty": "清"
+    },
+    {
+      "title": "龙洞背",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3906",
+      "dynasty": "清"
+    },
+    {
+      "title": "七盘关",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=948",
+      "dynasty": "清"
+    },
+    {
+      "title": "望雪山（自注：在咸州，距会城二百馀里，晓起登楼望之，九峰皆白。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=949",
+      "dynasty": "清"
+    },
+    {
+      "title": "龙洞背",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=947",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

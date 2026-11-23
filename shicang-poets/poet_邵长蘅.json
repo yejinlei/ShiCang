@@ -1,0 +1,272 @@
+{
+  "name": "邵长蘅",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 42,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "九江",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4461",
+      "dynasty": "清"
+    },
+    {
+      "title": "五人墓行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4457",
+      "dynasty": "清"
+    },
+    {
+      "title": "周将军",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4453",
+      "dynasty": "清"
+    },
+    {
+      "title": "和杨陶云感怀时左迁新建少府",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4465",
+      "dynasty": "清"
+    },
+    {
+      "title": "哭亡儿土",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4462",
+      "dynasty": "清"
+    },
+    {
+      "title": "城根妇",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4454",
+      "dynasty": "清"
+    },
+    {
+      "title": "守城行（纪时事也，事在己亥六月。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4455",
+      "dynasty": "清"
+    },
+    {
+      "title": "望钟山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4464",
+      "dynasty": "清"
+    },
+    {
+      "title": "杂诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4450",
+      "dynasty": "清"
+    },
+    {
+      "title": "江急",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4460",
+      "dynasty": "清"
+    },
+    {
+      "title": "沛县官舍留别杨简庵表兄",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4458",
+      "dynasty": "清"
+    },
+    {
+      "title": "浔阳舟中作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4449",
+      "dynasty": "清"
+    },
+    {
+      "title": "渔父",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4451",
+      "dynasty": "清"
+    },
+    {
+      "title": "熊经略",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4452",
+      "dynasty": "清"
+    },
+    {
+      "title": "登吴城望湖亭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4466",
+      "dynasty": "清"
+    },
+    {
+      "title": "登太湖西峰",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4468",
+      "dynasty": "清"
+    },
+    {
+      "title": "登歌风台怀古",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4463",
+      "dynasty": "清"
+    },
+    {
+      "title": "经彭蠡湖口望庐山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4448",
+      "dynasty": "清"
+    },
+    {
+      "title": "解仲长画十八学士图歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4456",
+      "dynasty": "清"
+    },
+    {
+      "title": "雪后登楼滕王阁放歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4459",
+      "dynasty": "清"
+    },
+    {
+      "title": "题冀渭公所藏杨忠愍梅花诗卷",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4467",
+      "dynasty": "清"
+    },
+    {
+      "title": "九江",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1502",
+      "dynasty": "清"
+    },
+    {
+      "title": "五人墓行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1498",
+      "dynasty": "清"
+    },
+    {
+      "title": "周将军",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1494",
+      "dynasty": "清"
+    },
+    {
+      "title": "和杨陶云感怀时左迁新建少府",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1506",
+      "dynasty": "清"
+    },
+    {
+      "title": "哭亡儿土",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1503",
+      "dynasty": "清"
+    },
+    {
+      "title": "城根妇",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1495",
+      "dynasty": "清"
+    },
+    {
+      "title": "守城行（纪时事也，事在己亥六月。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1496",
+      "dynasty": "清"
+    },
+    {
+      "title": "望钟山",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1505",
+      "dynasty": "清"
+    },
+    {
+      "title": "杂诗",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1491",
+      "dynasty": "清"
+    },
+    {
+      "title": "江急",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1501",
+      "dynasty": "清"
+    },
+    {
+      "title": "沛县官舍留别杨简庵表兄",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1499",
+      "dynasty": "清"
+    },
+    {
+      "title": "浔阳舟中作",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1490",
+      "dynasty": "清"
+    },
+    {
+      "title": "渔父",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1492",
+      "dynasty": "清"
+    },
+    {
+      "title": "熊经略",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1493",
+      "dynasty": "清"
+    },
+    {
+      "title": "登吴城望湖亭",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1507",
+      "dynasty": "清"
+    },
+    {
+      "title": "登太湖西峰",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1509",
+      "dynasty": "清"
+    },
+    {
+      "title": "登歌风台怀古",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1504",
+      "dynasty": "清"
+    },
+    {
+      "title": "经彭蠡湖口望庐山",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1489",
+      "dynasty": "清"
+    },
+    {
+      "title": "解仲长画十八学士图歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1497",
+      "dynasty": "清"
+    },
+    {
+      "title": "雪后登楼滕王阁放歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1500",
+      "dynasty": "清"
+    },
+    {
+      "title": "题冀渭公所藏杨忠愍梅花诗卷",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1508",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

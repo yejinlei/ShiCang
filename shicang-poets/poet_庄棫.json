@@ -1,0 +1,92 @@
+{
+  "name": "庄棫",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清末",
+  "d_order": 16,
+  "birthplace": "",
+  "style": "#795548",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 12,
+  "anthologies": [
+    "名篇精读",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "凤凰台上忆吹箫",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1294",
+      "dynasty": "清末"
+    },
+    {
+      "title": "定风波",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1293",
+      "dynasty": "清末"
+    },
+    {
+      "title": "思佳客二首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1289",
+      "dynasty": "清末"
+    },
+    {
+      "title": "相见欢二首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1292",
+      "dynasty": "清末"
+    },
+    {
+      "title": "蝶恋花四首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1291",
+      "dynasty": "清末"
+    },
+    {
+      "title": "高阳台",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1290",
+      "dynasty": "清末"
+    },
+    {
+      "title": "凤凰台上忆吹箫",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=250",
+      "dynasty": "清末"
+    },
+    {
+      "title": "定风波",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=249",
+      "dynasty": "清末"
+    },
+    {
+      "title": "春雨·思佳客二首",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=245",
+      "dynasty": "清末"
+    },
+    {
+      "title": "相见欢二首",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=248",
+      "dynasty": "清末"
+    },
+    {
+      "title": "蝶恋花四首",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=247",
+      "dynasty": "清末"
+    },
+    {
+      "title": "长乐渡·高阳台",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=246",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": false
+}

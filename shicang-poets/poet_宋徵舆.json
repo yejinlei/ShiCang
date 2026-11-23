@@ -1,0 +1,80 @@
+{
+  "name": "宋徵舆",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "下滩",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3152",
+      "dynasty": "清"
+    },
+    {
+      "title": "冬闺夜怨",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3155",
+      "dynasty": "清"
+    },
+    {
+      "title": "参军行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3151",
+      "dynasty": "清"
+    },
+    {
+      "title": "古意",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3153",
+      "dynasty": "清"
+    },
+    {
+      "title": "林天孙自漳州来见访，天孙乃黄石斋先生弟子，时黄先生被逮",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3154",
+      "dynasty": "清"
+    },
+    {
+      "title": "下滩",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=193",
+      "dynasty": "清"
+    },
+    {
+      "title": "冬闺夜怨",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=196",
+      "dynasty": "清"
+    },
+    {
+      "title": "参军行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=192",
+      "dynasty": "清"
+    },
+    {
+      "title": "古意",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=194",
+      "dynasty": "清"
+    },
+    {
+      "title": "林天孙自漳州来见访，天孙乃黄石斋先生弟子，时黄先生被逮",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=195",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

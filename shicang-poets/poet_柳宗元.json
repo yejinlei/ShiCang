@@ -1,0 +1,68 @@
+{
+  "name": "柳宗元",
+  "zi": "子厚",
+  "hao": "柳河东",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "河东",
+  "style": "#ae3a2b",
+  "school": "古文运动",
+  "years": "773—819",
+  "bio": "唐宋八大家之一，与韩愈共倡古文运动。代表作《江雪》《永州八记》《捕蛇者说》。",
+  "work_count": 8,
+  "anthologies": [
+    "万寿唐诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "江雪",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=133",
+      "dynasty": "唐"
+    },
+    {
+      "title": "长沙驿",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=132",
+      "dynasty": "唐"
+    },
+    {
+      "title": "晨诣超师院读禅经",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0305",
+      "dynasty": "唐"
+    },
+    {
+      "title": "江雪",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0306",
+      "dynasty": "唐"
+    },
+    {
+      "title": "渔翁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0307",
+      "dynasty": "唐"
+    },
+    {
+      "title": "溪居",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0308",
+      "dynasty": "唐"
+    },
+    {
+      "title": "登柳州城楼寄漳汀封连四州刺史",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0309",
+      "dynasty": "唐"
+    },
+    {
+      "title": "长沙驿",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6608",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": true
+}

@@ -1,0 +1,158 @@
+{
+  "name": "周邦彦",
+  "zi": "美成",
+  "hao": "清真居士",
+  "dynasty": "北宋",
+  "d_order": 7,
+  "birthplace": "钱塘",
+  "style": "#2980B9",
+  "school": "格律词派",
+  "years": "1056—1121",
+  "bio": "北宋格律词派集大成者，词法度精严、音律谐美。代表作《苏幕遮·燎沉香》。",
+  "work_count": 23,
+  "anthologies": [
+    "名篇精读",
+    "宋词三百首"
+  ],
+  "works": [
+    {
+      "title": "六丑",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0453",
+      "dynasty": "宋"
+    },
+    {
+      "title": "兰陵王",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0454",
+      "dynasty": "宋"
+    },
+    {
+      "title": "关河令",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0455",
+      "dynasty": "宋"
+    },
+    {
+      "title": "夜游宫",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0456",
+      "dynasty": "宋"
+    },
+    {
+      "title": "夜飞鹊",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0457",
+      "dynasty": "宋"
+    },
+    {
+      "title": "大酺",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0458",
+      "dynasty": "宋"
+    },
+    {
+      "title": "尉迟杯",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0459",
+      "dynasty": "宋"
+    },
+    {
+      "title": "应天长",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0460",
+      "dynasty": "宋"
+    },
+    {
+      "title": "拜星月慢",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0461",
+      "dynasty": "宋"
+    },
+    {
+      "title": "浪淘沙慢",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0462",
+      "dynasty": "宋"
+    },
+    {
+      "title": "满庭芳",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0463",
+      "dynasty": "宋"
+    },
+    {
+      "title": "琐窗寒",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0464",
+      "dynasty": "宋"
+    },
+    {
+      "title": "瑞鹤仙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0465",
+      "dynasty": "宋"
+    },
+    {
+      "title": "瑞龙吟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0466",
+      "dynasty": "宋"
+    },
+    {
+      "title": "绮寮怨",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0467",
+      "dynasty": "宋"
+    },
+    {
+      "title": "花犯",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0468",
+      "dynasty": "宋"
+    },
+    {
+      "title": "蝶恋花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0469",
+      "dynasty": "宋"
+    },
+    {
+      "title": "西河",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0470",
+      "dynasty": "宋"
+    },
+    {
+      "title": "解语花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0471",
+      "dynasty": "宋"
+    },
+    {
+      "title": "解连环",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0472",
+      "dynasty": "宋"
+    },
+    {
+      "title": "过秦楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0473",
+      "dynasty": "宋"
+    },
+    {
+      "title": "风流子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0474",
+      "dynasty": "宋"
+    },
+    {
+      "title": "夜游宫",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=79",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": true
+}

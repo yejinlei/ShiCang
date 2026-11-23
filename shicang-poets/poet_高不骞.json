@@ -1,0 +1,32 @@
+{
+  "name": "高不骞",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 2,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "雨馀渡澄照塔院",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5780",
+      "dynasty": "清"
+    },
+    {
+      "title": "雨馀渡澄照塔院",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2821",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

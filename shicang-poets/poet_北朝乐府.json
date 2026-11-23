@@ -1,0 +1,31 @@
+{
+  "name": "北朝乐府",
+  "zi": "",
+  "hao": "",
+  "dynasty": "魏晋",
+  "d_order": 4,
+  "birthplace": "",
+  "style": "#5C4033",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 2,
+  "anthologies": [
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "敕勒歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0057",
+      "dynasty": "魏晋"
+    },
+    {
+      "title": "木兰辞",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0058",
+      "dynasty": "魏晋"
+    }
+  ],
+  "has_bio": false
+}

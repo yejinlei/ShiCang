@@ -1,0 +1,44 @@
+{
+  "name": "岳珂",
+  "zi": "",
+  "hao": "",
+  "dynasty": "宋",
+  "d_order": 8,
+  "birthplace": "",
+  "style": "#7F8C8D",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "绝妙好词"
+  ],
+  "works": [
+    {
+      "title": "满江红",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7227",
+      "dynasty": "宋"
+    },
+    {
+      "title": "生查子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7228",
+      "dynasty": "宋"
+    },
+    {
+      "title": "满江红",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=32",
+      "dynasty": "宋"
+    },
+    {
+      "title": "生查子",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=33",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

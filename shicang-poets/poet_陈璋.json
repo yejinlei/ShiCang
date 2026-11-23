@@ -1,0 +1,116 @@
+{
+  "name": "陈璋",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 16,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "七月己未恭接诰命",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4728",
+      "dynasty": "清"
+    },
+    {
+      "title": "沧洲兄席上咏冰",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4732",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋猎应制",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4731",
+      "dynasty": "清"
+    },
+    {
+      "title": "西出居庸关",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4733",
+      "dynasty": "清"
+    },
+    {
+      "title": "过张桓侯故居",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4729",
+      "dynasty": "清"
+    },
+    {
+      "title": "送高鹤洲范舒山家讠刃叔诸侍御西征",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4730",
+      "dynasty": "清"
+    },
+    {
+      "title": "闽山杂咏",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4727",
+      "dynasty": "清"
+    },
+    {
+      "title": "闽滩竹枝词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4734",
+      "dynasty": "清"
+    },
+    {
+      "title": "七月己未恭接诰命",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1769",
+      "dynasty": "清"
+    },
+    {
+      "title": "沧洲兄席上咏冰",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1773",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋猎应制",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1772",
+      "dynasty": "清"
+    },
+    {
+      "title": "西出居庸关",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1774",
+      "dynasty": "清"
+    },
+    {
+      "title": "过张桓侯故居",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1770",
+      "dynasty": "清"
+    },
+    {
+      "title": "送高鹤洲范舒山家讠刃叔诸侍御西征",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1771",
+      "dynasty": "清"
+    },
+    {
+      "title": "闽山杂咏",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1768",
+      "dynasty": "清"
+    },
+    {
+      "title": "闽滩竹枝词",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1775",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,56 @@
+{
+  "name": "徐凝",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "万寿唐诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "忆扬州",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=502",
+      "dynasty": "唐"
+    },
+    {
+      "title": "杨叛儿",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=161",
+      "dynasty": "唐"
+    },
+    {
+      "title": "汉宫曲",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=501",
+      "dynasty": "唐"
+    },
+    {
+      "title": "忆扬州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6955",
+      "dynasty": "唐"
+    },
+    {
+      "title": "杨叛儿",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6634",
+      "dynasty": "唐"
+    },
+    {
+      "title": "汉宫曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6954",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

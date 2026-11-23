@@ -1,0 +1,62 @@
+{
+  "name": "王国维",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清末",
+  "d_order": 16,
+  "birthplace": "",
+  "style": "#795548",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 7,
+  "anthologies": [
+    "名篇精读",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "人间词话",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0777",
+      "dynasty": "明末清初"
+    },
+    {
+      "title": "蝶恋花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0778",
+      "dynasty": "明末清初"
+    },
+    {
+      "title": "人间词话三境界",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0829",
+      "dynasty": "清"
+    },
+    {
+      "title": "浣溪沙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1441",
+      "dynasty": "清末"
+    },
+    {
+      "title": "浣溪沙",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=398",
+      "dynasty": "清末"
+    },
+    {
+      "title": "蝶恋花",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=397",
+      "dynasty": "清末"
+    },
+    {
+      "title": "蝶恋花",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=399",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": false
+}

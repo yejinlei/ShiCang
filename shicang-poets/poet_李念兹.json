@@ -1,0 +1,68 @@
+{
+  "name": "李念兹",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "云",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3442",
+      "dynasty": "清"
+    },
+    {
+      "title": "登浮山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3439",
+      "dynasty": "清"
+    },
+    {
+      "title": "立春夜感怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3441",
+      "dynasty": "清"
+    },
+    {
+      "title": "萤",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3440",
+      "dynasty": "清"
+    },
+    {
+      "title": "云",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=483",
+      "dynasty": "清"
+    },
+    {
+      "title": "登浮山",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=480",
+      "dynasty": "清"
+    },
+    {
+      "title": "立春夜感怀",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=482",
+      "dynasty": "清"
+    },
+    {
+      "title": "萤",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=481",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

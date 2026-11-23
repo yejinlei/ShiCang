@@ -1,0 +1,92 @@
+{
+  "name": "方正瑗",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 12,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "关西书院落成示诸生",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5395",
+      "dynasty": "清"
+    },
+    {
+      "title": "古镜",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5398",
+      "dynasty": "清"
+    },
+    {
+      "title": "嘉峪关登筹边楼时宁远查大将军入觐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5396",
+      "dynasty": "清"
+    },
+    {
+      "title": "度秦峪岭至商州与王刺史（自注：如玖，宛平人。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5394",
+      "dynasty": "清"
+    },
+    {
+      "title": "放罗浮蝶",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5397",
+      "dynasty": "清"
+    },
+    {
+      "title": "述母训",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5393",
+      "dynasty": "清"
+    },
+    {
+      "title": "关西书院落成示诸生",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2436",
+      "dynasty": "清"
+    },
+    {
+      "title": "古镜",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2439",
+      "dynasty": "清"
+    },
+    {
+      "title": "嘉峪关登筹边楼时宁远查大将军入觐",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2437",
+      "dynasty": "清"
+    },
+    {
+      "title": "度秦峪岭至商州与王刺史（自注：如玖，宛平人。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2435",
+      "dynasty": "清"
+    },
+    {
+      "title": "放罗浮蝶",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2438",
+      "dynasty": "清"
+    },
+    {
+      "title": "述母训",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2434",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

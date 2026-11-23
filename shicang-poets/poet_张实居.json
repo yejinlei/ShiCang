@@ -1,0 +1,176 @@
+{
+  "name": "张实居",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 26,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "九日王秀才携酒至",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4394",
+      "dynasty": "清"
+    },
+    {
+      "title": "初秋偶题",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4401",
+      "dynasty": "清"
+    },
+    {
+      "title": "又赠宜雨",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4393",
+      "dynasty": "清"
+    },
+    {
+      "title": "夜雪",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4402",
+      "dynasty": "清"
+    },
+    {
+      "title": "大游仙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4397",
+      "dynasty": "清"
+    },
+    {
+      "title": "寄怀王秀才",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4399",
+      "dynasty": "清"
+    },
+    {
+      "title": "山中即景",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4396",
+      "dynasty": "清"
+    },
+    {
+      "title": "巫山高",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4390",
+      "dynasty": "清"
+    },
+    {
+      "title": "桃花谷",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4400",
+      "dynasty": "清"
+    },
+    {
+      "title": "王秀才将卜居象山问风土因答",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4398",
+      "dynasty": "清"
+    },
+    {
+      "title": "落叶",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4395",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠宜雨",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4392",
+      "dynasty": "清"
+    },
+    {
+      "title": "雨后",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4391",
+      "dynasty": "清"
+    },
+    {
+      "title": "九日王秀才携酒至",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1435",
+      "dynasty": "清"
+    },
+    {
+      "title": "初秋偶题",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1442",
+      "dynasty": "清"
+    },
+    {
+      "title": "又赠宜雨",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1434",
+      "dynasty": "清"
+    },
+    {
+      "title": "夜雪",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1443",
+      "dynasty": "清"
+    },
+    {
+      "title": "大游仙",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1438",
+      "dynasty": "清"
+    },
+    {
+      "title": "寄怀王秀才",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1440",
+      "dynasty": "清"
+    },
+    {
+      "title": "山中即景",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1437",
+      "dynasty": "清"
+    },
+    {
+      "title": "巫山高",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1431",
+      "dynasty": "清"
+    },
+    {
+      "title": "桃花谷",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1441",
+      "dynasty": "清"
+    },
+    {
+      "title": "王秀才将卜居象山问风土因答",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1439",
+      "dynasty": "清"
+    },
+    {
+      "title": "落叶",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1436",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠宜雨",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1433",
+      "dynasty": "清"
+    },
+    {
+      "title": "雨后",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1432",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,164 @@
+{
+  "name": "张尔田",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清末",
+  "d_order": 16,
+  "birthplace": "",
+  "style": "#795548",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 24,
+  "anthologies": [
+    "名篇精读",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "三姝媚",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1409",
+      "dynasty": "清末"
+    },
+    {
+      "title": "声声慢",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1413",
+      "dynasty": "清末"
+    },
+    {
+      "title": "木兰花令",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1416",
+      "dynasty": "清末"
+    },
+    {
+      "title": "木兰花慢",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1410",
+      "dynasty": "清末"
+    },
+    {
+      "title": "浣溪沙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1418",
+      "dynasty": "清末"
+    },
+    {
+      "title": "渡江云",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1419",
+      "dynasty": "清末"
+    },
+    {
+      "title": "满庭芳",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1417",
+      "dynasty": "清末"
+    },
+    {
+      "title": "烛影摇红",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1408",
+      "dynasty": "清末"
+    },
+    {
+      "title": "玉漏迟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1412",
+      "dynasty": "清末"
+    },
+    {
+      "title": "石州慢",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1415",
+      "dynasty": "清末"
+    },
+    {
+      "title": "采桑子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1411",
+      "dynasty": "清末"
+    },
+    {
+      "title": "鹧鸪天",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1414",
+      "dynasty": "清末"
+    },
+    {
+      "title": "《上彊村授砚图》，为榆生题。·石州慢",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=371",
+      "dynasty": "清末"
+    },
+    {
+      "title": "丁丑九月，客燕京，书感。·满庭芳",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=373",
+      "dynasty": "清末"
+    },
+    {
+      "title": "中秋夜，感遇成歌。·三姝媚",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=365",
+      "dynasty": "清末"
+    },
+    {
+      "title": "僦园杂时花木，颇有终焉之志，赋示榆生、瞿禅。·渡江云",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=375",
+      "dynasty": "清末"
+    },
+    {
+      "title": "六十自述·鹧鸪天",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=370",
+      "dynasty": "清末"
+    },
+    {
+      "title": "古微丈逝世海上，读弁阳翁吊梦窗《锦鲸仙去》句，怆怀万端，即用其调，以当哀些。·玉漏迟",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=368",
+      "dynasty": "清末"
+    },
+    {
+      "title": "史馆秋蓼·采桑子",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=367",
+      "dynasty": "清末"
+    },
+    {
+      "title": "尧化门车中作·木兰花慢",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=366",
+      "dynasty": "清末"
+    },
+    {
+      "title": "晚春连雨，感怀。·烛影摇红",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=364",
+      "dynasty": "清末"
+    },
+    {
+      "title": "木兰花令",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=372",
+      "dynasty": "清末"
+    },
+    {
+      "title": "浣溪沙",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=374",
+      "dynasty": "清末"
+    },
+    {
+      "title": "闲步郊原，追念彊村翁，凄然成咏。·声声慢",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=369",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": false
+}

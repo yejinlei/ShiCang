@@ -1,0 +1,32 @@
+{
+  "name": "李适之",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 2,
+  "anthologies": [
+    "千家诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "罢相作",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=16",
+      "dynasty": "唐"
+    },
+    {
+      "title": "罢相作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0852",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,218 @@
+{
+  "name": "赵孟頫",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 33,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "东城",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=408",
+      "dynasty": "元"
+    },
+    {
+      "title": "和姚子敬秋怀",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=227",
+      "dynasty": "元"
+    },
+    {
+      "title": "大都遇平江龙兴寺僧闲上，座话唐綦毋潜宿龙兴寺诗，因次其韵",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=135",
+      "dynasty": "元"
+    },
+    {
+      "title": "岳鄂王墓",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=229",
+      "dynasty": "元"
+    },
+    {
+      "title": "张詹事遂初亭",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=11",
+      "dynasty": "元"
+    },
+    {
+      "title": "桃源春晓图（为商德符学士。）",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=80",
+      "dynasty": "元"
+    },
+    {
+      "title": "次韵信仲晚兴",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=231",
+      "dynasty": "元"
+    },
+    {
+      "title": "次韵王时观",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=232",
+      "dynasty": "元"
+    },
+    {
+      "title": "次韵端文和鲜于伯几所寄诗",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=236",
+      "dynasty": "元"
+    },
+    {
+      "title": "溪上",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=230",
+      "dynasty": "元"
+    },
+    {
+      "title": "纪旧游",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=234",
+      "dynasty": "元"
+    },
+    {
+      "title": "绝句",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=407",
+      "dynasty": "元"
+    },
+    {
+      "title": "见章得一诗因次其韵",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=235",
+      "dynasty": "元"
+    },
+    {
+      "title": "钱唐怀古",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=233",
+      "dynasty": "元"
+    },
+    {
+      "title": "闻捣衣",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=228",
+      "dynasty": "元"
+    },
+    {
+      "title": "鱼乐楼",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=134",
+      "dynasty": "元"
+    },
+    {
+      "title": "东城",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1870",
+      "dynasty": "元"
+    },
+    {
+      "title": "和姚子敬秋怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1689",
+      "dynasty": "元"
+    },
+    {
+      "title": "大都遇平江龙兴寺僧闲上，座话唐綦毋潜宿龙兴寺诗，因次其韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1597",
+      "dynasty": "元"
+    },
+    {
+      "title": "岳鄂王墓",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1691",
+      "dynasty": "元"
+    },
+    {
+      "title": "庆寿僧舍即事",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1914",
+      "dynasty": "元"
+    },
+    {
+      "title": "张詹事遂初亭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1473",
+      "dynasty": "元"
+    },
+    {
+      "title": "桃源春晓图（为商德符学士。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1542",
+      "dynasty": "元"
+    },
+    {
+      "title": "次韵信仲晚兴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1693",
+      "dynasty": "元"
+    },
+    {
+      "title": "次韵王时观",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1694",
+      "dynasty": "元"
+    },
+    {
+      "title": "次韵端文和鲜于伯几所寄诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1698",
+      "dynasty": "元"
+    },
+    {
+      "title": "溪上",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1692",
+      "dynasty": "元"
+    },
+    {
+      "title": "纪旧游",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1696",
+      "dynasty": "元"
+    },
+    {
+      "title": "绝句",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1869",
+      "dynasty": "元"
+    },
+    {
+      "title": "见章得一诗因次其韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1697",
+      "dynasty": "元"
+    },
+    {
+      "title": "钱唐怀古",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1695",
+      "dynasty": "元"
+    },
+    {
+      "title": "闻捣衣",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1690",
+      "dynasty": "元"
+    },
+    {
+      "title": "鱼乐楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1596",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

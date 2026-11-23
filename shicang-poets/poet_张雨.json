@@ -1,0 +1,44 @@
+{
+  "name": "张雨",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "范以善云林清远馆",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=536",
+      "dynasty": "元"
+    },
+    {
+      "title": "题立仗马图",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=537",
+      "dynasty": "元"
+    },
+    {
+      "title": "范以善云林清远馆",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1998",
+      "dynasty": "元"
+    },
+    {
+      "title": "题立仗马图",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1999",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

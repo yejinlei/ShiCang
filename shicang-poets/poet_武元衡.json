@@ -1,0 +1,92 @@
+{
+  "name": "武元衡",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 12,
+  "anthologies": [
+    "万寿唐诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "听歌",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=373",
+      "dynasty": "唐"
+    },
+    {
+      "title": "春兴",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=370",
+      "dynasty": "唐"
+    },
+    {
+      "title": "春日作",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=129",
+      "dynasty": "唐"
+    },
+    {
+      "title": "汴州闻角",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=374",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送张司録赴京",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=371",
+      "dynasty": "唐"
+    },
+    {
+      "title": "题嘉陵驿",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=372",
+      "dynasty": "唐"
+    },
+    {
+      "title": "听歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6828",
+      "dynasty": "唐"
+    },
+    {
+      "title": "春兴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6825",
+      "dynasty": "唐"
+    },
+    {
+      "title": "春日作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6605",
+      "dynasty": "唐"
+    },
+    {
+      "title": "汴州闻角",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6829",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送张司録赴京",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6826",
+      "dynasty": "唐"
+    },
+    {
+      "title": "题嘉陵驿",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6827",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

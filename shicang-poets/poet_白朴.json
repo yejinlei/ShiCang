@@ -1,0 +1,43 @@
+{
+  "name": "白朴",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "墙头马上",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0739",
+      "dynasty": "元"
+    },
+    {
+      "title": "天净沙·秋",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0740",
+      "dynasty": "元"
+    },
+    {
+      "title": "寄生草·饮",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0741",
+      "dynasty": "元"
+    },
+    {
+      "title": "醉中天·佳人脸上黑痣",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0742",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

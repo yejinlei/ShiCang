@@ -1,0 +1,44 @@
+{
+  "name": "王懋忠",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "和宋既庭顾茂伦刘西翰沈石均沧浪亭诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3781",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠柳校书",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3782",
+      "dynasty": "清"
+    },
+    {
+      "title": "和宋既庭顾茂伦刘西翰沈石均沧浪亭诗",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=822",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠柳校书",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=823",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

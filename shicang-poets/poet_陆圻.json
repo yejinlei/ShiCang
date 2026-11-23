@@ -1,0 +1,123 @@
+{
+  "name": "陆圻",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 17,
+  "anthologies": [
+    "名篇精读",
+    "明诗",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "与歌者陈郎",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2829",
+      "dynasty": "明"
+    },
+    {
+      "title": "书事",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2830",
+      "dynasty": "明"
+    },
+    {
+      "title": "乱后哭友",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2832",
+      "dynasty": "明"
+    },
+    {
+      "title": "咏史",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2831",
+      "dynasty": "明"
+    },
+    {
+      "title": "哭刘剩庵先生",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2833",
+      "dynasty": "明"
+    },
+    {
+      "title": "与歌者陈郎",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=825",
+      "dynasty": "明"
+    },
+    {
+      "title": "书事",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=826",
+      "dynasty": "明"
+    },
+    {
+      "title": "乱后哭友",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=828",
+      "dynasty": "明"
+    },
+    {
+      "title": "咏史",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=827",
+      "dynasty": "明"
+    },
+    {
+      "title": "哭刘剩庵先生",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=829",
+      "dynasty": "明"
+    },
+    {
+      "title": "七夕有感",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3792",
+      "dynasty": "清"
+    },
+    {
+      "title": "九日",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3793",
+      "dynasty": "清"
+    },
+    {
+      "title": "送朱生之秣陵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3795",
+      "dynasty": "清"
+    },
+    {
+      "title": "七夕有感",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=833",
+      "dynasty": "清"
+    },
+    {
+      "title": "与歌者陈郎",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=835",
+      "dynasty": "清"
+    },
+    {
+      "title": "九日",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=834",
+      "dynasty": "清"
+    },
+    {
+      "title": "送朱生之秣陵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=836",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

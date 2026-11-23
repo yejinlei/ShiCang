@@ -1,0 +1,80 @@
+{
+  "name": "吴巽",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "冬日村居读靖节先生日月依辰至句遂演成一律",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6344",
+      "dynasty": "清"
+    },
+    {
+      "title": "奉怀两大人（自注：幼弟已亡。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6345",
+      "dynasty": "清"
+    },
+    {
+      "title": "癸丑秋陈妾得举一子时婿年四旬矣志喜",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6346",
+      "dynasty": "清"
+    },
+    {
+      "title": "绿牡丹和韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6348",
+      "dynasty": "清"
+    },
+    {
+      "title": "闻雁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6347",
+      "dynasty": "清"
+    },
+    {
+      "title": "冬日村居读靖节先生日月依辰至句遂演成一律",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3385",
+      "dynasty": "清"
+    },
+    {
+      "title": "奉怀两大人（自注：幼弟已亡。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3386",
+      "dynasty": "清"
+    },
+    {
+      "title": "癸丑秋陈妾得举一子时婿年四旬矣志喜",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3387",
+      "dynasty": "清"
+    },
+    {
+      "title": "绿牡丹和韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3389",
+      "dynasty": "清"
+    },
+    {
+      "title": "闻雁",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3388",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

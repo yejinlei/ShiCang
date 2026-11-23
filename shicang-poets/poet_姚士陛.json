@@ -1,0 +1,56 @@
+{
+  "name": "姚士陛",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "月夜泊慈水",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4700",
+      "dynasty": "清"
+    },
+    {
+      "title": "有怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4702",
+      "dynasty": "清"
+    },
+    {
+      "title": "送五弟（自注：时欲游萧山）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4701",
+      "dynasty": "清"
+    },
+    {
+      "title": "月夜泊慈水",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1741",
+      "dynasty": "清"
+    },
+    {
+      "title": "有怀",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1743",
+      "dynasty": "清"
+    },
+    {
+      "title": "送五弟（自注：时欲游萧山）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1742",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

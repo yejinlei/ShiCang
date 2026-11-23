@@ -1,0 +1,56 @@
+{
+  "name": "徐阶",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "晓发洱海，夕次滨川",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2445",
+      "dynasty": "明"
+    },
+    {
+      "title": "横溪为彭允祯赋",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2444",
+      "dynasty": "明"
+    },
+    {
+      "title": "送司封仲芳杨子赴留都",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2443",
+      "dynasty": "明"
+    },
+    {
+      "title": "晓发洱海，夕次滨川",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=441",
+      "dynasty": "明"
+    },
+    {
+      "title": "横溪为彭允祯赋",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=440",
+      "dynasty": "明"
+    },
+    {
+      "title": "送司封仲芳杨子赴留都",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=439",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

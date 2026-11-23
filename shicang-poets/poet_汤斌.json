@@ -1,0 +1,80 @@
+{
+  "name": "汤斌",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "夏日咏怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3232",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠吴湖州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3236",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠李映碧先生",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3233",
+      "dynasty": "清"
+    },
+    {
+      "title": "送李子德奉旨归养",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3234",
+      "dynasty": "清"
+    },
+    {
+      "title": "饮张尔成少参署中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3235",
+      "dynasty": "清"
+    },
+    {
+      "title": "夏日咏怀",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=273",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠吴湖州",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=277",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠李映碧先生",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=274",
+      "dynasty": "清"
+    },
+    {
+      "title": "送李子德奉旨归养",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=275",
+      "dynasty": "清"
+    },
+    {
+      "title": "饮张尔成少参署中",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=276",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,32 @@
+{
+  "name": "宋本",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 2,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "大都杂诗",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=342",
+      "dynasty": "元"
+    },
+    {
+      "title": "大都杂诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1804",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

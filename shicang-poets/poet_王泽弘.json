@@ -1,0 +1,80 @@
+{
+  "name": "王泽弘",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "买花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3380",
+      "dynasty": "清"
+    },
+    {
+      "title": "感怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3376",
+      "dynasty": "清"
+    },
+    {
+      "title": "易州使院咏松",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3379",
+      "dynasty": "清"
+    },
+    {
+      "title": "留侯祠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3378",
+      "dynasty": "清"
+    },
+    {
+      "title": "送陈心简之辽东",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3377",
+      "dynasty": "清"
+    },
+    {
+      "title": "买花",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=421",
+      "dynasty": "清"
+    },
+    {
+      "title": "感怀",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=417",
+      "dynasty": "清"
+    },
+    {
+      "title": "易州使院咏松",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=420",
+      "dynasty": "清"
+    },
+    {
+      "title": "留侯祠",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=419",
+      "dynasty": "清"
+    },
+    {
+      "title": "送陈心简之辽东",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=418",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

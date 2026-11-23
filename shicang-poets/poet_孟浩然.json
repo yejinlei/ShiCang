@@ -1,0 +1,183 @@
+{
+  "name": "孟浩然",
+  "zi": "浩然",
+  "hao": "孟山人",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "襄州襄阳",
+  "style": "#ae3a2b",
+  "school": "山水田园",
+  "years": "689—740",
+  "bio": "盛唐山水田园诗派代表，与王维并称「王孟」，终身未仕。代表作《春晓》《过故人庄》《宿建德江》。",
+  "work_count": 27,
+  "anthologies": [
+    "万寿唐诗",
+    "千家诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "送朱大入秦",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=56",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送杜十四之江南",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=263",
+      "dynasty": "唐"
+    },
+    {
+      "title": "临洞庭",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=74",
+      "dynasty": "唐"
+    },
+    {
+      "title": "春眠",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=0",
+      "dynasty": "唐"
+    },
+    {
+      "title": "访袁拾遗不遇",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=1",
+      "dynasty": "唐"
+    },
+    {
+      "title": "题义公禅房",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=58",
+      "dynasty": "唐"
+    },
+    {
+      "title": "与诸子登岘山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0126",
+      "dynasty": "唐"
+    },
+    {
+      "title": "临洞庭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0899",
+      "dynasty": "唐"
+    },
+    {
+      "title": "夏日南亭怀辛大",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0127",
+      "dynasty": "唐"
+    },
+    {
+      "title": "夜归鹿门歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0128",
+      "dynasty": "唐"
+    },
+    {
+      "title": "宴梅道士山房",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0129",
+      "dynasty": "唐"
+    },
+    {
+      "title": "宿业师山房待丁大不至",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0130",
+      "dynasty": "唐"
+    },
+    {
+      "title": "宿建德江",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0131",
+      "dynasty": "唐"
+    },
+    {
+      "title": "宿桐庐江寄广陵旧游",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0132",
+      "dynasty": "唐"
+    },
+    {
+      "title": "岁暮归南山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0133",
+      "dynasty": "唐"
+    },
+    {
+      "title": "早寒江上有怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0134",
+      "dynasty": "唐"
+    },
+    {
+      "title": "春晓",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0135",
+      "dynasty": "唐"
+    },
+    {
+      "title": "春眠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0838",
+      "dynasty": "唐"
+    },
+    {
+      "title": "望洞庭湖赠张丞相",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0136",
+      "dynasty": "唐"
+    },
+    {
+      "title": "留别王维",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0137",
+      "dynasty": "唐"
+    },
+    {
+      "title": "秋登兰山寄张五",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0138",
+      "dynasty": "唐"
+    },
+    {
+      "title": "秦中感秋寄远上人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0139",
+      "dynasty": "唐"
+    },
+    {
+      "title": "访袁拾遗不遇",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0839",
+      "dynasty": "唐"
+    },
+    {
+      "title": "过故人庄",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0140",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送朱大入秦",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6539",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送杜十四之江南",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6725",
+      "dynasty": "唐"
+    },
+    {
+      "title": "题义公禅房",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0886",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": true
+}

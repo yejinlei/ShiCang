@@ -1,0 +1,80 @@
+{
+  "name": "叶方蔼",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "关陇平",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3482",
+      "dynasty": "清"
+    },
+    {
+      "title": "吊铁崖墓",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3484",
+      "dynasty": "清"
+    },
+    {
+      "title": "授职翰林学士感恩述怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3486",
+      "dynasty": "清"
+    },
+    {
+      "title": "撰西樵考功志文毕寄阮亭户部",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3485",
+      "dynasty": "清"
+    },
+    {
+      "title": "海氛清",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3483",
+      "dynasty": "清"
+    },
+    {
+      "title": "关陇平",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=523",
+      "dynasty": "清"
+    },
+    {
+      "title": "吊铁崖墓",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=525",
+      "dynasty": "清"
+    },
+    {
+      "title": "授职翰林学士感恩述怀",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=527",
+      "dynasty": "清"
+    },
+    {
+      "title": "撰西樵考功志文毕寄阮亭户部",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=526",
+      "dynasty": "清"
+    },
+    {
+      "title": "海氛清",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=524",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

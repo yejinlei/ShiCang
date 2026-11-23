@@ -1,0 +1,129 @@
+{
+  "name": "曹溶",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 18,
+  "anthologies": [
+    "名篇精读",
+    "清诗",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "堕驴行简叶星期",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3053",
+      "dynasty": "清"
+    },
+    {
+      "title": "悯荒二首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3052",
+      "dynasty": "清"
+    },
+    {
+      "title": "李云田以虔州怀予诗见示奉答",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3054",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋柳",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3056",
+      "dynasty": "清"
+    },
+    {
+      "title": "答顾宁人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3051",
+      "dynasty": "清"
+    },
+    {
+      "title": "观工人琢砚",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3057",
+      "dynasty": "清"
+    },
+    {
+      "title": "酬徐子能山人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3055",
+      "dynasty": "清"
+    },
+    {
+      "title": "韬光庵和高忠宪公韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3050",
+      "dynasty": "清"
+    },
+    {
+      "title": "堕驴行简叶星期",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=94",
+      "dynasty": "清"
+    },
+    {
+      "title": "悯荒二首",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=93",
+      "dynasty": "清"
+    },
+    {
+      "title": "李云田以虔州怀予诗见示奉答",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=95",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋柳",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=97",
+      "dynasty": "清"
+    },
+    {
+      "title": "答顾宁人",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=92",
+      "dynasty": "清"
+    },
+    {
+      "title": "观工人琢砚",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=98",
+      "dynasty": "清"
+    },
+    {
+      "title": "酬徐子能山人",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=96",
+      "dynasty": "清"
+    },
+    {
+      "title": "韬光庵和高忠宪公韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=91",
+      "dynasty": "清"
+    },
+    {
+      "title": "薄倖",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1066",
+      "dynasty": "清末"
+    },
+    {
+      "title": "题壁·薄倖",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=19",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": false
+}

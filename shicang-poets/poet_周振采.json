@@ -1,0 +1,44 @@
+{
+  "name": "周振采",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "晚甘园芍药盛开莼江招饮",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5940",
+      "dynasty": "清"
+    },
+    {
+      "title": "老将",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5941",
+      "dynasty": "清"
+    },
+    {
+      "title": "晚甘园芍药盛开莼江招饮",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2981",
+      "dynasty": "清"
+    },
+    {
+      "title": "老将",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2982",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

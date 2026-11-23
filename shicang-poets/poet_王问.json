@@ -1,0 +1,44 @@
+{
+  "name": "王问",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "自山中泛湖归",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2505",
+      "dynasty": "明"
+    },
+    {
+      "title": "赠吴之山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2506",
+      "dynasty": "明"
+    },
+    {
+      "title": "自山中泛湖归",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=501",
+      "dynasty": "明"
+    },
+    {
+      "title": "赠吴之山",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=502",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

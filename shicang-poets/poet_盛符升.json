@@ -1,0 +1,128 @@
+{
+  "name": "盛符升",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 18,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "中秋岱顶即事",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3854",
+      "dynasty": "清"
+    },
+    {
+      "title": "冬日渡彭蠡过庐山下",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3859",
+      "dynasty": "清"
+    },
+    {
+      "title": "南征",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3857",
+      "dynasty": "清"
+    },
+    {
+      "title": "同阮亭先生遥和李侍郎读水经注忆洞庭韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3853",
+      "dynasty": "清"
+    },
+    {
+      "title": "待御",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3851",
+      "dynasty": "清"
+    },
+    {
+      "title": "昌平山行有作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3855",
+      "dynasty": "清"
+    },
+    {
+      "title": "河上杂言",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3852",
+      "dynasty": "清"
+    },
+    {
+      "title": "洛阳怀古",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3858",
+      "dynasty": "清"
+    },
+    {
+      "title": "金陵怀古",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3856",
+      "dynasty": "清"
+    },
+    {
+      "title": "中秋岱顶即事",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=895",
+      "dynasty": "清"
+    },
+    {
+      "title": "冬日渡彭蠡过庐山下",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=900",
+      "dynasty": "清"
+    },
+    {
+      "title": "南征",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=898",
+      "dynasty": "清"
+    },
+    {
+      "title": "同阮亭先生遥和李侍郎读水经注忆洞庭韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=894",
+      "dynasty": "清"
+    },
+    {
+      "title": "待御",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=892",
+      "dynasty": "清"
+    },
+    {
+      "title": "昌平山行有作",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=896",
+      "dynasty": "清"
+    },
+    {
+      "title": "河上杂言",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=893",
+      "dynasty": "清"
+    },
+    {
+      "title": "洛阳怀古",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=899",
+      "dynasty": "清"
+    },
+    {
+      "title": "金陵怀古",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=897",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

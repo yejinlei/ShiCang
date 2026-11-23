@@ -1,0 +1,68 @@
+{
+  "name": "严我斯",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "十峰草堂歌为钱础日作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3834",
+      "dynasty": "清"
+    },
+    {
+      "title": "水谣",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3835",
+      "dynasty": "清"
+    },
+    {
+      "title": "送庵家少司农致政归里",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3837",
+      "dynasty": "清"
+    },
+    {
+      "title": "闻砧曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3836",
+      "dynasty": "清"
+    },
+    {
+      "title": "十峰草堂歌为钱础日作",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=875",
+      "dynasty": "清"
+    },
+    {
+      "title": "水谣",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=876",
+      "dynasty": "清"
+    },
+    {
+      "title": "送庵家少司农致政归里",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=878",
+      "dynasty": "清"
+    },
+    {
+      "title": "闻砧曲",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=877",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

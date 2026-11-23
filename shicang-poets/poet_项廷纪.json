@@ -1,0 +1,164 @@
+{
+  "name": "项廷纪",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清末",
+  "d_order": 16,
+  "birthplace": "",
+  "style": "#795548",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 24,
+  "anthologies": [
+    "名篇精读",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "三犯渡江云",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1248",
+      "dynasty": "清末"
+    },
+    {
+      "title": "临江仙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1252",
+      "dynasty": "清末"
+    },
+    {
+      "title": "八声甘州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1250",
+      "dynasty": "清末"
+    },
+    {
+      "title": "减字木兰花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1243",
+      "dynasty": "清末"
+    },
+    {
+      "title": "太常引",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1246",
+      "dynasty": "清末"
+    },
+    {
+      "title": "水龙吟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1249",
+      "dynasty": "清末"
+    },
+    {
+      "title": "清平乐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1245",
+      "dynasty": "清末"
+    },
+    {
+      "title": "湘月",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1244",
+      "dynasty": "清末"
+    },
+    {
+      "title": "玉漏迟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1251",
+      "dynasty": "清末"
+    },
+    {
+      "title": "百字令",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1247",
+      "dynasty": "清末"
+    },
+    {
+      "title": "竭金门",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1253",
+      "dynasty": "清末"
+    },
+    {
+      "title": "绮罗香",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1242",
+      "dynasty": "清末"
+    },
+    {
+      "title": "余今年二月客山阴，三月客禾中，四月七月一再至吴门，遂北渡扬子，游金、焦两山，留维扬六日。羯来故山，焉如梦。尘衣未浣，又为豫章之行。登舟惘惘，扣舷而歌，弥觉旅怀之凄黯矣！·三犯渡江云",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=204",
+      "dynasty": "清末"
+    },
+    {
+      "title": "冬夜闻南邻笙歌达曙·玉漏迟",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=207",
+      "dynasty": "清末"
+    },
+    {
+      "title": "壬午九月，避喧於南山之甘露院，就泉分茗，移枕看山，相羊浃旬，尘念都净。出院不百步，越小岭，即虎跑也。尝月夜独游，清寒特甚，赋《念奴娇万指声》一阕纪之。·湘月",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=200",
+      "dynasty": "清末"
+    },
+    {
+      "title": "客中闻歌·太常引",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=202",
+      "dynasty": "清末"
+    },
+    {
+      "title": "将游鸳湖，作此留别。·百字令",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=203",
+      "dynasty": "清末"
+    },
+    {
+      "title": "感旧·绮罗香",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=198",
+      "dynasty": "清末"
+    },
+    {
+      "title": "拟南唐后主·临江仙",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=208",
+      "dynasty": "清末"
+    },
+    {
+      "title": "拟孙光宪·竭金门",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=209",
+      "dynasty": "清末"
+    },
+    {
+      "title": "春夜闻隔墙歌吹声·减字木兰花",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=199",
+      "dynasty": "清末"
+    },
+    {
+      "title": "池上纳凉·清平乐",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=201",
+      "dynasty": "清末"
+    },
+    {
+      "title": "秋声·水龙吟",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=205",
+      "dynasty": "清末"
+    },
+    {
+      "title": "黄叶楼赋夕阳·八声甘州",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=206",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": false
+}

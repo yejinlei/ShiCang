@@ -1,0 +1,164 @@
+{
+  "name": "潘高",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 24,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "初春有述",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3763",
+      "dynasty": "清"
+    },
+    {
+      "title": "古意",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3768",
+      "dynasty": "清"
+    },
+    {
+      "title": "寄梵川诸友",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3770",
+      "dynasty": "清"
+    },
+    {
+      "title": "寒食",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3774",
+      "dynasty": "清"
+    },
+    {
+      "title": "忆幼子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3765",
+      "dynasty": "清"
+    },
+    {
+      "title": "春感",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3773",
+      "dynasty": "清"
+    },
+    {
+      "title": "晚上焦山绝顶至暮归宿山庄",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3766",
+      "dynasty": "清"
+    },
+    {
+      "title": "本朝五言古，",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3767",
+      "dynasty": "清"
+    },
+    {
+      "title": "杂感",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3771",
+      "dynasty": "清"
+    },
+    {
+      "title": "留别",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3769",
+      "dynasty": "清"
+    },
+    {
+      "title": "秦淮晓渡",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3772",
+      "dynasty": "清"
+    },
+    {
+      "title": "送友人之中州有怀同社并陈子其年",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3764",
+      "dynasty": "清"
+    },
+    {
+      "title": "初春有述",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=804",
+      "dynasty": "清"
+    },
+    {
+      "title": "古意",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=809",
+      "dynasty": "清"
+    },
+    {
+      "title": "寄梵川诸友",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=811",
+      "dynasty": "清"
+    },
+    {
+      "title": "寒食",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=815",
+      "dynasty": "清"
+    },
+    {
+      "title": "忆幼子",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=806",
+      "dynasty": "清"
+    },
+    {
+      "title": "春感",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=814",
+      "dynasty": "清"
+    },
+    {
+      "title": "晚上焦山绝顶至暮归宿山庄",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=807",
+      "dynasty": "清"
+    },
+    {
+      "title": "本朝五言古，",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=808",
+      "dynasty": "清"
+    },
+    {
+      "title": "杂感",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=812",
+      "dynasty": "清"
+    },
+    {
+      "title": "留别",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=810",
+      "dynasty": "清"
+    },
+    {
+      "title": "秦淮晓渡",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=813",
+      "dynasty": "清"
+    },
+    {
+      "title": "送友人之中州有怀同社并陈子其年",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=805",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

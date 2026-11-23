@@ -1,0 +1,68 @@
+{
+  "name": "陈玉基",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "兴济寄怀家兄其年",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3912",
+      "dynasty": "清"
+    },
+    {
+      "title": "同友登京口避风馆高阁望江题壁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3910",
+      "dynasty": "清"
+    },
+    {
+      "title": "落叶",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3911",
+      "dynasty": "清"
+    },
+    {
+      "title": "闻董文友已在山东",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3909",
+      "dynasty": "清"
+    },
+    {
+      "title": "兴济寄怀家兄其年",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=953",
+      "dynasty": "清"
+    },
+    {
+      "title": "同友登京口避风馆高阁望江题壁",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=951",
+      "dynasty": "清"
+    },
+    {
+      "title": "落叶",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=952",
+      "dynasty": "清"
+    },
+    {
+      "title": "闻董文友已在山东",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=950",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

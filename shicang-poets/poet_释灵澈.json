@@ -1,0 +1,44 @@
+{
+  "name": "释灵澈",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "万寿唐诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "逺公墓",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=201",
+      "dynasty": "唐"
+    },
+    {
+      "title": "题天姥",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=200",
+      "dynasty": "唐"
+    },
+    {
+      "title": "逺公墓",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6672",
+      "dynasty": "唐"
+    },
+    {
+      "title": "题天姥",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6671",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

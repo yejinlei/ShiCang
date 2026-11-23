@@ -1,0 +1,80 @@
+{
+  "name": "李振祖",
+  "zi": "",
+  "hao": "",
+  "dynasty": "宋",
+  "d_order": 8,
+  "birthplace": "",
+  "style": "#7F8C8D",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "绝妙好词"
+  ],
+  "works": [
+    {
+      "title": "三姝媚",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7360",
+      "dynasty": "宋"
+    },
+    {
+      "title": "浣溪纱",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7361",
+      "dynasty": "宋"
+    },
+    {
+      "title": "浪淘沙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7357",
+      "dynasty": "宋"
+    },
+    {
+      "title": "眼儿媚",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7359",
+      "dynasty": "宋"
+    },
+    {
+      "title": "醉落魄",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7358",
+      "dynasty": "宋"
+    },
+    {
+      "title": "三姝媚",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=171",
+      "dynasty": "宋"
+    },
+    {
+      "title": "浣溪纱",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=172",
+      "dynasty": "宋"
+    },
+    {
+      "title": "浪淘沙",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=168",
+      "dynasty": "宋"
+    },
+    {
+      "title": "绿笺·眼儿媚",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=170",
+      "dynasty": "宋"
+    },
+    {
+      "title": "醉落魄",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=169",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

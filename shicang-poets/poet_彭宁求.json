@@ -1,0 +1,44 @@
+{
+  "name": "彭宁求",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "拟古",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4246",
+      "dynasty": "清"
+    },
+    {
+      "title": "送大兄南还",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4247",
+      "dynasty": "清"
+    },
+    {
+      "title": "拟古",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1287",
+      "dynasty": "清"
+    },
+    {
+      "title": "送大兄南还",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1288",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

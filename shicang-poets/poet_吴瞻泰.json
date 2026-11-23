@@ -1,0 +1,68 @@
+{
+  "name": "吴瞻泰",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "宿松谷庵听瀑",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5692",
+      "dynasty": "清"
+    },
+    {
+      "title": "自题莲花峰顶试泉图",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5693",
+      "dynasty": "清"
+    },
+    {
+      "title": "过虎村上芙蓉岭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5691",
+      "dynasty": "清"
+    },
+    {
+      "title": "送洪去芜入黄山度岁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5694",
+      "dynasty": "清"
+    },
+    {
+      "title": "宿松谷庵听瀑",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2733",
+      "dynasty": "清"
+    },
+    {
+      "title": "自题莲花峰顶试泉图",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2734",
+      "dynasty": "清"
+    },
+    {
+      "title": "过虎村上芙蓉岭",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2732",
+      "dynasty": "清"
+    },
+    {
+      "title": "送洪去芜入黄山度岁",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2735",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

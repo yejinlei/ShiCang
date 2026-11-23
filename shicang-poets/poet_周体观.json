@@ -1,0 +1,68 @@
+{
+  "name": "周体观",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "人日欠徐州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3221",
+      "dynasty": "清"
+    },
+    {
+      "title": "大报恩寺逢友苍言别",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3220",
+      "dynasty": "清"
+    },
+    {
+      "title": "拨棹杂咏",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3222",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋萤和韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3219",
+      "dynasty": "清"
+    },
+    {
+      "title": "人日欠徐州",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=262",
+      "dynasty": "清"
+    },
+    {
+      "title": "大报恩寺逢友苍言别",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=261",
+      "dynasty": "清"
+    },
+    {
+      "title": "拨棹杂咏",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=263",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋萤和韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=260",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

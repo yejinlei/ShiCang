@@ -1,0 +1,56 @@
+{
+  "name": "汪天与",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "穿鳌鱼洞度莲花沟上文殊顶",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5689",
+      "dynasty": "清"
+    },
+    {
+      "title": "西海门",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5688",
+      "dynasty": "清"
+    },
+    {
+      "title": "题雪庄和尚小照",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5690",
+      "dynasty": "清"
+    },
+    {
+      "title": "穿鳌鱼洞度莲花沟上文殊顶",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2730",
+      "dynasty": "清"
+    },
+    {
+      "title": "西海门",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2729",
+      "dynasty": "清"
+    },
+    {
+      "title": "题雪庄和尚小照",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2731",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

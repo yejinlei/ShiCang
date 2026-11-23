@@ -1,0 +1,68 @@
+{
+  "name": "许润",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "己巳六月拜别家慈之楚",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5014",
+      "dynasty": "清"
+    },
+    {
+      "title": "戊子春自岭南奉老母挈家旋闽",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5016",
+      "dynasty": "清"
+    },
+    {
+      "title": "舟泊剑津怀亡友刘复庵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5017",
+      "dynasty": "清"
+    },
+    {
+      "title": "闽溪舟行即事",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5015",
+      "dynasty": "清"
+    },
+    {
+      "title": "己巳六月拜别家慈之楚",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2055",
+      "dynasty": "清"
+    },
+    {
+      "title": "戊子春自岭南奉老母挈家旋闽",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2057",
+      "dynasty": "清"
+    },
+    {
+      "title": "舟泊剑津怀亡友刘复庵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2058",
+      "dynasty": "清"
+    },
+    {
+      "title": "闽溪舟行即事",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2056",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

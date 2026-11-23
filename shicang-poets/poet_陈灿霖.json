@@ -1,0 +1,44 @@
+{
+  "name": "陈灿霖",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "古怨",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6032",
+      "dynasty": "清"
+    },
+    {
+      "title": "咏橘",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6031",
+      "dynasty": "清"
+    },
+    {
+      "title": "古怨",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3073",
+      "dynasty": "清"
+    },
+    {
+      "title": "咏橘",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3072",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

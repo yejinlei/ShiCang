@@ -1,0 +1,140 @@
+{
+  "name": "余京",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 20,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "七夕妙高台坐月",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5661",
+      "dynasty": "清"
+    },
+    {
+      "title": "中秋月蚀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5663",
+      "dynasty": "清"
+    },
+    {
+      "title": "八月十三（夜焦山坐月同学庵释巨涛）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5665",
+      "dynasty": "清"
+    },
+    {
+      "title": "十四夜焦山水晶庵看月",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5666",
+      "dynasty": "清"
+    },
+    {
+      "title": "暮春同吴门沈归愚登蒜山憩清宁道院",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5667",
+      "dynasty": "清"
+    },
+    {
+      "title": "毕孝子宁古塔负祖父骨归里",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5660",
+      "dynasty": "清"
+    },
+    {
+      "title": "焦山山门外坐月",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5668",
+      "dynasty": "清"
+    },
+    {
+      "title": "白沙王翁百岁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5662",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋杪登清宁道院与漪亭学庵同赋",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5669",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋杪薄暮登北固木末楼即事",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5664",
+      "dynasty": "清"
+    },
+    {
+      "title": "七夕妙高台坐月",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2702",
+      "dynasty": "清"
+    },
+    {
+      "title": "中秋月蚀",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2704",
+      "dynasty": "清"
+    },
+    {
+      "title": "八月十三（夜焦山坐月同学庵释巨涛）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2706",
+      "dynasty": "清"
+    },
+    {
+      "title": "十四夜焦山水晶庵看月",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2707",
+      "dynasty": "清"
+    },
+    {
+      "title": "暮春同吴门沈归愚登蒜山憩清宁道院",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2708",
+      "dynasty": "清"
+    },
+    {
+      "title": "毕孝子宁古塔负祖父骨归里",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2701",
+      "dynasty": "清"
+    },
+    {
+      "title": "焦山山门外坐月",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2709",
+      "dynasty": "清"
+    },
+    {
+      "title": "白沙王翁百岁",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2703",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋杪登清宁道院与漪亭学庵同赋",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2710",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋杪薄暮登北固木末楼即事",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2705",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

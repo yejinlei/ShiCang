@@ -1,0 +1,56 @@
+{
+  "name": "沈蕙玉",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "同声歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6337",
+      "dynasty": "清"
+    },
+    {
+      "title": "自箴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6336",
+      "dynasty": "清"
+    },
+    {
+      "title": "读四箴可补",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6335",
+      "dynasty": "清"
+    },
+    {
+      "title": "同声歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3378",
+      "dynasty": "清"
+    },
+    {
+      "title": "自箴",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3377",
+      "dynasty": "清"
+    },
+    {
+      "title": "读四箴可补",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3376",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

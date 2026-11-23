@@ -1,0 +1,164 @@
+{
+  "name": "陶",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 24,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "将进酒",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3671",
+      "dynasty": "清"
+    },
+    {
+      "title": "当垂老别",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3667",
+      "dynasty": "清"
+    },
+    {
+      "title": "当新婚别",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3670",
+      "dynasty": "清"
+    },
+    {
+      "title": "当新安吏",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3668",
+      "dynasty": "清"
+    },
+    {
+      "title": "当石壕吏",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3669",
+      "dynasty": "清"
+    },
+    {
+      "title": "曹舍人寓斋闻捣衣作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3673",
+      "dynasty": "清"
+    },
+    {
+      "title": "苦雨词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3672",
+      "dynasty": "清"
+    },
+    {
+      "title": "薰",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3666",
+      "dynasty": "清"
+    },
+    {
+      "title": "蛮触行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3675",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠陈蔼公",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3674",
+      "dynasty": "清"
+    },
+    {
+      "title": "陈思王墓",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3676",
+      "dynasty": "清"
+    },
+    {
+      "title": "题康郎湖忠臣庙壁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3677",
+      "dynasty": "清"
+    },
+    {
+      "title": "将进酒",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=712",
+      "dynasty": "清"
+    },
+    {
+      "title": "当垂老别",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=708",
+      "dynasty": "清"
+    },
+    {
+      "title": "当新婚别",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=711",
+      "dynasty": "清"
+    },
+    {
+      "title": "当新安吏",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=709",
+      "dynasty": "清"
+    },
+    {
+      "title": "当石壕吏",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=710",
+      "dynasty": "清"
+    },
+    {
+      "title": "曹舍人寓斋闻捣衣作",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=714",
+      "dynasty": "清"
+    },
+    {
+      "title": "苦雨词",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=713",
+      "dynasty": "清"
+    },
+    {
+      "title": "薰",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=707",
+      "dynasty": "清"
+    },
+    {
+      "title": "蛮触行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=716",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠陈蔼公",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=715",
+      "dynasty": "清"
+    },
+    {
+      "title": "陈思王墓",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=717",
+      "dynasty": "清"
+    },
+    {
+      "title": "题康郎湖忠臣庙壁",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=718",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

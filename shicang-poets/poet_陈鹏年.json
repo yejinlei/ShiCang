@@ -1,0 +1,116 @@
+{
+  "name": "陈鹏年",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 16,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "与许谨斋都谏夜话",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4688",
+      "dynasty": "清"
+    },
+    {
+      "title": "京江杂诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4685",
+      "dynasty": "清"
+    },
+    {
+      "title": "冬日感怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4690",
+      "dynasty": "清"
+    },
+    {
+      "title": "新春杂感次韵和中山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4684",
+      "dynasty": "清"
+    },
+    {
+      "title": "江干",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4687",
+      "dynasty": "清"
+    },
+    {
+      "title": "移寓城南草堂纪兴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4689",
+      "dynasty": "清"
+    },
+    {
+      "title": "述愤次李崆峒韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4683",
+      "dynasty": "清"
+    },
+    {
+      "title": "送静庵僧之五台结夏",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4686",
+      "dynasty": "清"
+    },
+    {
+      "title": "与许谨斋都谏夜话",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1729",
+      "dynasty": "清"
+    },
+    {
+      "title": "京江杂诗",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1726",
+      "dynasty": "清"
+    },
+    {
+      "title": "冬日感怀",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1731",
+      "dynasty": "清"
+    },
+    {
+      "title": "新春杂感次韵和中山",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1725",
+      "dynasty": "清"
+    },
+    {
+      "title": "江干",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1728",
+      "dynasty": "清"
+    },
+    {
+      "title": "移寓城南草堂纪兴",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1730",
+      "dynasty": "清"
+    },
+    {
+      "title": "述愤次李崆峒韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1724",
+      "dynasty": "清"
+    },
+    {
+      "title": "送静庵僧之五台结夏",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1727",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

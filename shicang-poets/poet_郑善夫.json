@@ -1,0 +1,68 @@
+{
+  "name": "郑善夫",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "初离京邑留别诸同志",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2377",
+      "dynasty": "明"
+    },
+    {
+      "title": "棹歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2380",
+      "dynasty": "明"
+    },
+    {
+      "title": "秋夜",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2379",
+      "dynasty": "明"
+    },
+    {
+      "title": "送苏侍御从仁使蜀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2378",
+      "dynasty": "明"
+    },
+    {
+      "title": "初离京邑留别诸同志",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=373",
+      "dynasty": "明"
+    },
+    {
+      "title": "棹歌",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=376",
+      "dynasty": "明"
+    },
+    {
+      "title": "秋夜",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=375",
+      "dynasty": "明"
+    },
+    {
+      "title": "送苏侍御从仁使蜀",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=374",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

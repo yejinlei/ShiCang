@@ -1,0 +1,43 @@
+{
+  "name": "郑燮",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明末清初",
+  "d_order": 14,
+  "birthplace": "",
+  "style": "#8E44AD",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "沁园春·恨",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0798",
+      "dynasty": "明末清初"
+    },
+    {
+      "title": "潍县署中画竹呈年伯包大中丞括",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0799",
+      "dynasty": "明末清初"
+    },
+    {
+      "title": "竹石",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0800",
+      "dynasty": "明末清初"
+    },
+    {
+      "title": "题画兰",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0801",
+      "dynasty": "明末清初"
+    }
+  ],
+  "has_bio": false
+}

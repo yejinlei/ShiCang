@@ -1,0 +1,200 @@
+{
+  "name": "陈廷敬",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 30,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "三月三日同杨松谷泛舟沁水",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3427",
+      "dynasty": "清"
+    },
+    {
+      "title": "东山亭子放歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3424",
+      "dynasty": "清"
+    },
+    {
+      "title": "关楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3429",
+      "dynasty": "清"
+    },
+    {
+      "title": "出关门百里宿沙河站",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3431",
+      "dynasty": "清"
+    },
+    {
+      "title": "分流水送人北归",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3425",
+      "dynasty": "清"
+    },
+    {
+      "title": "平滇雅三篇（岳湖逐寇也。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3419",
+      "dynasty": "清"
+    },
+    {
+      "title": "张东山少司寇宅观弈",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3430",
+      "dynasty": "清"
+    },
+    {
+      "title": "施愚山见寄长歌和答",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3423",
+      "dynasty": "清"
+    },
+    {
+      "title": "晋国",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3428",
+      "dynasty": "清"
+    },
+    {
+      "title": "渡江见焦山有作怀林吉人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3426",
+      "dynasty": "清"
+    },
+    {
+      "title": "湘东（克衡也。衡盗倚为巢，克之武功将成也。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3420",
+      "dynasty": "清"
+    },
+    {
+      "title": "滇池盗伏于滇，师受圣策平之，武功成也。",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3421",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠孝感相公",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3422",
+      "dynasty": "清"
+    },
+    {
+      "title": "送少师卫公致政还曲沃",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3432",
+      "dynasty": "清"
+    },
+    {
+      "title": "邯郸道上",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3433",
+      "dynasty": "清"
+    },
+    {
+      "title": "三月三日同杨松谷泛舟沁水",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=468",
+      "dynasty": "清"
+    },
+    {
+      "title": "东山亭子放歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=465",
+      "dynasty": "清"
+    },
+    {
+      "title": "关楼",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=470",
+      "dynasty": "清"
+    },
+    {
+      "title": "出关门百里宿沙河站",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=472",
+      "dynasty": "清"
+    },
+    {
+      "title": "分流水送人北归",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=466",
+      "dynasty": "清"
+    },
+    {
+      "title": "平滇雅三篇（岳湖逐寇也。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=460",
+      "dynasty": "清"
+    },
+    {
+      "title": "张东山少司寇宅观弈",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=471",
+      "dynasty": "清"
+    },
+    {
+      "title": "施愚山见寄长歌和答",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=464",
+      "dynasty": "清"
+    },
+    {
+      "title": "晋国",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=469",
+      "dynasty": "清"
+    },
+    {
+      "title": "渡江见焦山有作怀林吉人",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=467",
+      "dynasty": "清"
+    },
+    {
+      "title": "湘东（克衡也。衡盗倚为巢，克之武功将成也。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=461",
+      "dynasty": "清"
+    },
+    {
+      "title": "滇池盗伏于滇，师受圣策平之，武功成也。",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=462",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠孝感相公",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=463",
+      "dynasty": "清"
+    },
+    {
+      "title": "送少师卫公致政还曲沃",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=473",
+      "dynasty": "清"
+    },
+    {
+      "title": "邯郸道上",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=474",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

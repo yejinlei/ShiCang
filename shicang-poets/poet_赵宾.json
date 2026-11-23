@@ -1,0 +1,68 @@
+{
+  "name": "赵宾",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "海口柬李芳洲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3113",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠巢梅峰候调旋里",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3116",
+      "dynasty": "清"
+    },
+    {
+      "title": "送孙九畹佥宪蜀中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3115",
+      "dynasty": "清"
+    },
+    {
+      "title": "长安喜逢彭禹峰",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3114",
+      "dynasty": "清"
+    },
+    {
+      "title": "海口柬李芳洲",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=154",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠巢梅峰候调旋里",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=157",
+      "dynasty": "清"
+    },
+    {
+      "title": "送孙九畹佥宪蜀中",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=156",
+      "dynasty": "清"
+    },
+    {
+      "title": "长安喜逢彭禹峰",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=155",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

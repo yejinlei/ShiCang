@@ -1,0 +1,182 @@
+{
+  "name": "张籍",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 27,
+  "anthologies": [
+    "万寿唐诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "凉州词 二首",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=461",
+      "dynasty": "唐"
+    },
+    {
+      "title": "哭孟寂",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=458",
+      "dynasty": "唐"
+    },
+    {
+      "title": "宫词 二首",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=462",
+      "dynasty": "唐"
+    },
+    {
+      "title": "寄僧",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=143",
+      "dynasty": "唐"
+    },
+    {
+      "title": "寄李渤",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=463",
+      "dynasty": "唐"
+    },
+    {
+      "title": "寒塘曲",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=465",
+      "dynasty": "唐"
+    },
+    {
+      "title": "春别曲",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=464",
+      "dynasty": "唐"
+    },
+    {
+      "title": "法雄寺东楼",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=459",
+      "dynasty": "唐"
+    },
+    {
+      "title": "泾州",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=144",
+      "dynasty": "唐"
+    },
+    {
+      "title": "秋思",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=460",
+      "dynasty": "唐"
+    },
+    {
+      "title": "蛮中",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=456",
+      "dynasty": "唐"
+    },
+    {
+      "title": "蛮州",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=457",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送蜀客",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=455",
+      "dynasty": "唐"
+    },
+    {
+      "title": "凉州词 二首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6914",
+      "dynasty": "唐"
+    },
+    {
+      "title": "哭孟寂",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6911",
+      "dynasty": "唐"
+    },
+    {
+      "title": "宫词 二首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6915",
+      "dynasty": "唐"
+    },
+    {
+      "title": "寄僧",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6618",
+      "dynasty": "唐"
+    },
+    {
+      "title": "寄李渤",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6916",
+      "dynasty": "唐"
+    },
+    {
+      "title": "寒塘曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6918",
+      "dynasty": "唐"
+    },
+    {
+      "title": "春别曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6917",
+      "dynasty": "唐"
+    },
+    {
+      "title": "没蕃故人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0169",
+      "dynasty": "唐"
+    },
+    {
+      "title": "法雄寺东楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6912",
+      "dynasty": "唐"
+    },
+    {
+      "title": "泾州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6619",
+      "dynasty": "唐"
+    },
+    {
+      "title": "秋思",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6913",
+      "dynasty": "唐"
+    },
+    {
+      "title": "蛮中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6909",
+      "dynasty": "唐"
+    },
+    {
+      "title": "蛮州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6910",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送蜀客",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6908",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,272 @@
+{
+  "name": "傅若金",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 42,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "上蔡",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=335",
+      "dynasty": "元"
+    },
+    {
+      "title": "书南宁驿",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=337",
+      "dynasty": "元"
+    },
+    {
+      "title": "兴安县",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=336",
+      "dynasty": "元"
+    },
+    {
+      "title": "和赵德隆秋夕雨",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=54",
+      "dynasty": "元"
+    },
+    {
+      "title": "回雁峰",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=433",
+      "dynasty": "元"
+    },
+    {
+      "title": "奉送达兼善御史赴河南宪佥十二韵",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=382",
+      "dynasty": "元"
+    },
+    {
+      "title": "岳阳中秋值安南贡使因怀旧游",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=341",
+      "dynasty": "元"
+    },
+    {
+      "title": "正月十七日丽正门观迎接口号",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=333",
+      "dynasty": "元"
+    },
+    {
+      "title": "沛公亭",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=330",
+      "dynasty": "元"
+    },
+    {
+      "title": "洞庭连天楼",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=338",
+      "dynasty": "元"
+    },
+    {
+      "title": "登岳阳楼",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=383",
+      "dynasty": "元"
+    },
+    {
+      "title": "登楼",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=331",
+      "dynasty": "元"
+    },
+    {
+      "title": "衡湘驿",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=183",
+      "dynasty": "元"
+    },
+    {
+      "title": "送云闲师游淛",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=185",
+      "dynasty": "元"
+    },
+    {
+      "title": "送唐子华嘉兴照磨（子华名棣，吴兴人，善画。）",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=334",
+      "dynasty": "元"
+    },
+    {
+      "title": "送张秀才北上时将赴海",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=340",
+      "dynasty": "元"
+    },
+    {
+      "title": "邯郸行",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=114",
+      "dynasty": "元"
+    },
+    {
+      "title": "金陵晚眺",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=184",
+      "dynasty": "元"
+    },
+    {
+      "title": "闻张吏部督海运归咏怀奉简",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=339",
+      "dynasty": "元"
+    },
+    {
+      "title": "题宜春钟清卿清露轩（清卿能琴。）",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=55",
+      "dynasty": "元"
+    },
+    {
+      "title": "题张齐公祠",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=332",
+      "dynasty": "元"
+    },
+    {
+      "title": "上蔡",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1797",
+      "dynasty": "元"
+    },
+    {
+      "title": "书南宁驿",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1799",
+      "dynasty": "元"
+    },
+    {
+      "title": "兴安县",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1798",
+      "dynasty": "元"
+    },
+    {
+      "title": "和赵德隆秋夕雨",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1516",
+      "dynasty": "元"
+    },
+    {
+      "title": "回雁峰",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1895",
+      "dynasty": "元"
+    },
+    {
+      "title": "奉送达兼善御史赴河南宪佥十二韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1844",
+      "dynasty": "元"
+    },
+    {
+      "title": "岳阳中秋值安南贡使因怀旧游",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1803",
+      "dynasty": "元"
+    },
+    {
+      "title": "正月十七日丽正门观迎接口号",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1795",
+      "dynasty": "元"
+    },
+    {
+      "title": "沛公亭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1792",
+      "dynasty": "元"
+    },
+    {
+      "title": "洞庭连天楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1800",
+      "dynasty": "元"
+    },
+    {
+      "title": "登岳阳楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1845",
+      "dynasty": "元"
+    },
+    {
+      "title": "登楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1793",
+      "dynasty": "元"
+    },
+    {
+      "title": "衡湘驿",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1645",
+      "dynasty": "元"
+    },
+    {
+      "title": "送云闲师游淛",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1647",
+      "dynasty": "元"
+    },
+    {
+      "title": "送唐子华嘉兴照磨（子华名棣，吴兴人，善画。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1796",
+      "dynasty": "元"
+    },
+    {
+      "title": "送张秀才北上时将赴海",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1802",
+      "dynasty": "元"
+    },
+    {
+      "title": "邯郸行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1576",
+      "dynasty": "元"
+    },
+    {
+      "title": "金陵晚眺",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1646",
+      "dynasty": "元"
+    },
+    {
+      "title": "闻张吏部督海运归咏怀奉简",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1801",
+      "dynasty": "元"
+    },
+    {
+      "title": "题宜春钟清卿清露轩（清卿能琴。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1517",
+      "dynasty": "元"
+    },
+    {
+      "title": "题张齐公祠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1794",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

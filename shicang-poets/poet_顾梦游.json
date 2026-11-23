@@ -1,0 +1,92 @@
+{
+  "name": "顾梦游",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 12,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "同蔡大美、徐曰赞、沈治先秦淮夕泛",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2835",
+      "dynasty": "明"
+    },
+    {
+      "title": "效渊明饮酒诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2837",
+      "dynasty": "明"
+    },
+    {
+      "title": "田园杂诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2838",
+      "dynasty": "明"
+    },
+    {
+      "title": "社集天界循公房",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2836",
+      "dynasty": "明"
+    },
+    {
+      "title": "访邹满字溪上",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2834",
+      "dynasty": "明"
+    },
+    {
+      "title": "金陵即事",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2839",
+      "dynasty": "明"
+    },
+    {
+      "title": "同蔡大美、徐曰赞、沈治先秦淮夕泛",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=831",
+      "dynasty": "明"
+    },
+    {
+      "title": "效渊明饮酒诗",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=833",
+      "dynasty": "明"
+    },
+    {
+      "title": "田园杂诗",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=834",
+      "dynasty": "明"
+    },
+    {
+      "title": "社集天界循公房",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=832",
+      "dynasty": "明"
+    },
+    {
+      "title": "访邹满字溪上",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=830",
+      "dynasty": "明"
+    },
+    {
+      "title": "金陵即事",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=835",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,68 @@
+{
+  "name": "方觐",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "七夕",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5217",
+      "dynasty": "清"
+    },
+    {
+      "title": "子规啼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5218",
+      "dynasty": "清"
+    },
+    {
+      "title": "定兴县谒杨忠愍祠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5215",
+      "dynasty": "清"
+    },
+    {
+      "title": "送正观",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5216",
+      "dynasty": "清"
+    },
+    {
+      "title": "七夕",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2258",
+      "dynasty": "清"
+    },
+    {
+      "title": "子规啼",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2259",
+      "dynasty": "清"
+    },
+    {
+      "title": "定兴县谒杨忠愍祠",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2256",
+      "dynasty": "清"
+    },
+    {
+      "title": "送正观",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2257",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

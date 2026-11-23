@@ -1,4 +1,4 @@
-/* 诗藏本体论 · 统一朱红宣纸顶栏（v6.1 稳定版） */
+/* 诗藏本体论 · 统一朱红宣纸顶栏（v6.2 诗人专辑版） */
 (function(){
   'use strict';
 
@@ -12,6 +12,7 @@
   if (m) {
     var d = m[1];
     if (/^(jingdu|mingpian|poem|ci|qu|chuci)$/.test(d)) active = 'jingdu';
+    else if (d === 'poets') active = 'poets';
     else if (/^(galaxy|road|xinghe|poet-journey|map)$/.test(d)) active = 'galaxy';
     else if (d === 'cipai') active = 'cipai';
     else if (d === 'imagery') active = 'imagery';
@@ -23,6 +24,7 @@
   var NAV = [
     {k:'home',   t:'首页',    href: prefix + 'index.html'},
     {k:'jingdu', t:'名篇精读', href: prefix + 'shicang-jingdu/'},
+    {k:'poets', t:'诗人',     href: prefix + 'shicang-poets/'},
     {k:'galaxy',t:'诗路星河', href: prefix + 'shicang-galaxy/'},
     {k:'cipai', t:'词牌',    href: prefix + 'shicang-cipai/'},
     {k:'imagery',t:'意象',   href: prefix + 'shicang-imagery/'},

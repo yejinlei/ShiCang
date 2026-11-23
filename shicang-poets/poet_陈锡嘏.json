@@ -1,0 +1,44 @@
+{
+  "name": "陈锡嘏",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "赋得长安一片月",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4023",
+      "dynasty": "清"
+    },
+    {
+      "title": "送汤西崖归西泠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4024",
+      "dynasty": "清"
+    },
+    {
+      "title": "赋得长安一片月",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1064",
+      "dynasty": "清"
+    },
+    {
+      "title": "送汤西崖归西泠",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1065",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

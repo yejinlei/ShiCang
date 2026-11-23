@@ -1,0 +1,81 @@
+{
+  "name": "李天馥",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "清诗",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "侠客",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3447",
+      "dynasty": "清"
+    },
+    {
+      "title": "明景帝废陵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3446",
+      "dynasty": "清"
+    },
+    {
+      "title": "楼桑村怀古",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3448",
+      "dynasty": "清"
+    },
+    {
+      "title": "美人曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3449",
+      "dynasty": "清"
+    },
+    {
+      "title": "侠客",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=488",
+      "dynasty": "清"
+    },
+    {
+      "title": "明景帝废陵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=487",
+      "dynasty": "清"
+    },
+    {
+      "title": "楼桑村怀古",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=489",
+      "dynasty": "清"
+    },
+    {
+      "title": "美人曲",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=490",
+      "dynasty": "清"
+    },
+    {
+      "title": "忆王孙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1097",
+      "dynasty": "清末"
+    },
+    {
+      "title": "春望·忆王孙",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=50",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": false
+}

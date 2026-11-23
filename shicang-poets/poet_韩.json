@@ -1,0 +1,128 @@
+{
+  "name": "韩",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 18,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "九日登鸡鸣山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3822",
+      "dynasty": "清"
+    },
+    {
+      "title": "夜",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3821",
+      "dynasty": "清"
+    },
+    {
+      "title": "抵里门述怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3969",
+      "dynasty": "清"
+    },
+    {
+      "title": "挽田间先生诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3971",
+      "dynasty": "清"
+    },
+    {
+      "title": "暮春唐解元墓下作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3973",
+      "dynasty": "清"
+    },
+    {
+      "title": "被命修一统志先师司寇公完书也感而有作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3972",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠江南巡抚汤潜庵先生",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3968",
+      "dynasty": "清"
+    },
+    {
+      "title": "送砺岩洗马移家石公山次悔庵韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3970",
+      "dynasty": "清"
+    },
+    {
+      "title": "雨中送春",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3823",
+      "dynasty": "清"
+    },
+    {
+      "title": "九日登鸡鸣山",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=863",
+      "dynasty": "清"
+    },
+    {
+      "title": "夜",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=862",
+      "dynasty": "清"
+    },
+    {
+      "title": "抵里门述怀",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1010",
+      "dynasty": "清"
+    },
+    {
+      "title": "挽田间先生诗",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1012",
+      "dynasty": "清"
+    },
+    {
+      "title": "暮春唐解元墓下作",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1014",
+      "dynasty": "清"
+    },
+    {
+      "title": "被命修一统志先师司寇公完书也感而有作",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1013",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠江南巡抚汤潜庵先生",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1009",
+      "dynasty": "清"
+    },
+    {
+      "title": "送砺岩洗马移家石公山次悔庵韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1011",
+      "dynasty": "清"
+    },
+    {
+      "title": "雨中送春",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=864",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

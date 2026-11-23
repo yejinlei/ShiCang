@@ -1,0 +1,80 @@
+{
+  "name": "吴光",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "晴川楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3542",
+      "dynasty": "清"
+    },
+    {
+      "title": "泊湘口二妃庙是潇湘二水会处",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3538",
+      "dynasty": "清"
+    },
+    {
+      "title": "游招隐山六洞（自注：洞曰朝阳、夕阳、白雀、嘉莲、南华、北牖。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3539",
+      "dynasty": "清"
+    },
+    {
+      "title": "游虞山韶音洞（自注：在粤。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3540",
+      "dynasty": "清"
+    },
+    {
+      "title": "登昭州城楼即事",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3541",
+      "dynasty": "清"
+    },
+    {
+      "title": "晴川楼",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=583",
+      "dynasty": "清"
+    },
+    {
+      "title": "泊湘口二妃庙是潇湘二水会处",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=579",
+      "dynasty": "清"
+    },
+    {
+      "title": "游招隐山六洞（自注：洞曰朝阳、夕阳、白雀、嘉莲、南华、北牖。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=580",
+      "dynasty": "清"
+    },
+    {
+      "title": "游虞山韶音洞（自注：在粤。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=581",
+      "dynasty": "清"
+    },
+    {
+      "title": "登昭州城楼即事",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=582",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

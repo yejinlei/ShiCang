@@ -1,0 +1,104 @@
+{
+  "name": "朱厚章",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 14,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "九日登东城寄南华",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5891",
+      "dynasty": "清"
+    },
+    {
+      "title": "寄答王千里",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5889",
+      "dynasty": "清"
+    },
+    {
+      "title": "岁暮杂诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5892",
+      "dynasty": "清"
+    },
+    {
+      "title": "拜方正学祠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5888",
+      "dynasty": "清"
+    },
+    {
+      "title": "秦淮绝句",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5893",
+      "dynasty": "清"
+    },
+    {
+      "title": "观柳河东初访半野堂小像",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5894",
+      "dynasty": "清"
+    },
+    {
+      "title": "题青溪集",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5890",
+      "dynasty": "清"
+    },
+    {
+      "title": "九日登东城寄南华",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2932",
+      "dynasty": "清"
+    },
+    {
+      "title": "寄答王千里",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2930",
+      "dynasty": "清"
+    },
+    {
+      "title": "岁暮杂诗",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2933",
+      "dynasty": "清"
+    },
+    {
+      "title": "拜方正学祠",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2929",
+      "dynasty": "清"
+    },
+    {
+      "title": "秦淮绝句",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2934",
+      "dynasty": "清"
+    },
+    {
+      "title": "观柳河东初访半野堂小像",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2935",
+      "dynasty": "清"
+    },
+    {
+      "title": "题青溪集",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2931",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

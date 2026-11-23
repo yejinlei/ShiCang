@@ -1,0 +1,56 @@
+{
+  "name": "汪徵远",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "上莲花庵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4490",
+      "dynasty": "清"
+    },
+    {
+      "title": "坐狎浪阁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4491",
+      "dynasty": "清"
+    },
+    {
+      "title": "天平工入师子林",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4489",
+      "dynasty": "清"
+    },
+    {
+      "title": "上莲花庵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1531",
+      "dynasty": "清"
+    },
+    {
+      "title": "坐狎浪阁",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1532",
+      "dynasty": "清"
+    },
+    {
+      "title": "天平工入师子林",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1530",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,32 @@
+{
+  "name": "薛时雨",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清末",
+  "d_order": 16,
+  "birthplace": "",
+  "style": "#795548",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 2,
+  "anthologies": [
+    "名篇精读",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "临江仙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1277",
+      "dynasty": "清末"
+    },
+    {
+      "title": "大风雨，过马当山。·临江仙",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=233",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": false
+}

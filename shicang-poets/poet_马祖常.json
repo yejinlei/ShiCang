@@ -1,0 +1,104 @@
+{
+  "name": "马祖常",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 14,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "奉和奥屯都事秋怀",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=239",
+      "dynasty": "元"
+    },
+    {
+      "title": "寄舒真人",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=375",
+      "dynasty": "元"
+    },
+    {
+      "title": "杨花宛转曲",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=81",
+      "dynasty": "元"
+    },
+    {
+      "title": "追和许浑游溪夜回韵",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=240",
+      "dynasty": "元"
+    },
+    {
+      "title": "送华山隐之宗阳宫",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=376",
+      "dynasty": "元"
+    },
+    {
+      "title": "送董仁甫之西台幕",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=137",
+      "dynasty": "元"
+    },
+    {
+      "title": "龙虎台应制",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=241",
+      "dynasty": "元"
+    },
+    {
+      "title": "奉和奥屯都事秋怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1701",
+      "dynasty": "元"
+    },
+    {
+      "title": "寄舒真人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1837",
+      "dynasty": "元"
+    },
+    {
+      "title": "杨花宛转曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1543",
+      "dynasty": "元"
+    },
+    {
+      "title": "追和许浑游溪夜回韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1702",
+      "dynasty": "元"
+    },
+    {
+      "title": "送华山隐之宗阳宫",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1838",
+      "dynasty": "元"
+    },
+    {
+      "title": "送董仁甫之西台幕",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1599",
+      "dynasty": "元"
+    },
+    {
+      "title": "龙虎台应制",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1703",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

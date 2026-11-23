@@ -1,0 +1,80 @@
+{
+  "name": "王昊",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "久客",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4200",
+      "dynasty": "清"
+    },
+    {
+      "title": "兵船行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4198",
+      "dynasty": "清"
+    },
+    {
+      "title": "日本双刀歌为子存叔赋",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4199",
+      "dynasty": "清"
+    },
+    {
+      "title": "杂感",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4202",
+      "dynasty": "清"
+    },
+    {
+      "title": "黄州杜于皇兵阻客娄赋此慰之",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4201",
+      "dynasty": "清"
+    },
+    {
+      "title": "久客",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1241",
+      "dynasty": "清"
+    },
+    {
+      "title": "兵船行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1239",
+      "dynasty": "清"
+    },
+    {
+      "title": "日本双刀歌为子存叔赋",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1240",
+      "dynasty": "清"
+    },
+    {
+      "title": "杂感",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1243",
+      "dynasty": "清"
+    },
+    {
+      "title": "黄州杜于皇兵阻客娄赋此慰之",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1242",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

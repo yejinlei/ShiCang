@@ -1,0 +1,123 @@
+{
+  "name": "张炎",
+  "zi": "叔夏",
+  "hao": "玉田",
+  "dynasty": "金元",
+  "d_order": 10,
+  "birthplace": "临安",
+  "style": "#5C4033",
+  "school": "姜张格律派",
+  "years": "1248—约1320",
+  "bio": "宋末元初词人，词风清空雅正，著《词源》。",
+  "work_count": 17,
+  "anthologies": [
+    "名篇精读",
+    "宋词三百首",
+    "绝妙好词"
+  ],
+  "works": [
+    {
+      "title": "东风第一枝",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7508",
+      "dynasty": "宋"
+    },
+    {
+      "title": "八声甘州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0507",
+      "dynasty": "宋"
+    },
+    {
+      "title": "月下笛",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0508",
+      "dynasty": "宋"
+    },
+    {
+      "title": "渡江云",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0509",
+      "dynasty": "宋"
+    },
+    {
+      "title": "甘州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7507",
+      "dynasty": "宋"
+    },
+    {
+      "title": "疏影",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0510",
+      "dynasty": "宋"
+    },
+    {
+      "title": "解连环",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0511",
+      "dynasty": "宋"
+    },
+    {
+      "title": "高阳台",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0512",
+      "dynasty": "宋"
+    },
+    {
+      "title": "八声甘州",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=217",
+      "dynasty": "宋"
+    },
+    {
+      "title": "咏荷叶·疏影",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=219",
+      "dynasty": "宋"
+    },
+    {
+      "title": "孤 雁·解连环",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=218",
+      "dynasty": "宋"
+    },
+    {
+      "title": "月下笛",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=220",
+      "dynasty": "宋"
+    },
+    {
+      "title": "渡江云",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=216",
+      "dynasty": "宋"
+    },
+    {
+      "title": "西湖春感·高阳台",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=215",
+      "dynasty": "宋"
+    },
+    {
+      "title": "东风第一枝",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=323",
+      "dynasty": "宋"
+    },
+    {
+      "title": "次赵元父韵·渡江云",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=321",
+      "dynasty": "宋"
+    },
+    {
+      "title": "饯草窗西归·甘州",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=322",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": true
+}

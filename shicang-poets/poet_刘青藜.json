@@ -1,0 +1,92 @@
+{
+  "name": "刘青藜",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 12,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "孟德疑家",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5134",
+      "dynasty": "清"
+    },
+    {
+      "title": "宿友人宅有赠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5132",
+      "dynasty": "清"
+    },
+    {
+      "title": "将赴都门",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5133",
+      "dynasty": "清"
+    },
+    {
+      "title": "杜少陵墓",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5131",
+      "dynasty": "清"
+    },
+    {
+      "title": "稗子行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5130",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠车同",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5129",
+      "dynasty": "清"
+    },
+    {
+      "title": "孟德疑家",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2175",
+      "dynasty": "清"
+    },
+    {
+      "title": "宿友人宅有赠",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2173",
+      "dynasty": "清"
+    },
+    {
+      "title": "将赴都门",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2174",
+      "dynasty": "清"
+    },
+    {
+      "title": "杜少陵墓",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2172",
+      "dynasty": "清"
+    },
+    {
+      "title": "稗子行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2171",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠车同",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2170",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

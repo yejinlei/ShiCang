@@ -1,0 +1,31 @@
+{
+  "name": "曹丕",
+  "zi": "",
+  "hao": "",
+  "dynasty": "魏晋",
+  "d_order": 4,
+  "birthplace": "",
+  "style": "#5C4033",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 2,
+  "anthologies": [
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "杂诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0064",
+      "dynasty": "魏晋"
+    },
+    {
+      "title": "燕歌行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0065",
+      "dynasty": "魏晋"
+    }
+  ],
+  "has_bio": false
+}

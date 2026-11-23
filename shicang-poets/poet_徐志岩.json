@@ -1,0 +1,68 @@
+{
+  "name": "徐志岩",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "蒙浬",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5700",
+      "dynasty": "清"
+    },
+    {
+      "title": "诸子会课",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5699",
+      "dynasty": "清"
+    },
+    {
+      "title": "谒张文献祠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5701",
+      "dynasty": "清"
+    },
+    {
+      "title": "闻鹧鸪",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5702",
+      "dynasty": "清"
+    },
+    {
+      "title": "蒙浬",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2741",
+      "dynasty": "清"
+    },
+    {
+      "title": "诸子会课",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2740",
+      "dynasty": "清"
+    },
+    {
+      "title": "谒张文献祠",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2742",
+      "dynasty": "清"
+    },
+    {
+      "title": "闻鹧鸪",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2743",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

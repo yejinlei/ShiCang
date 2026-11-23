@@ -1,0 +1,32 @@
+{
+  "name": "金凤纶",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 2,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "冰花（自注：元人有题无诗，作此补之。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5741",
+      "dynasty": "清"
+    },
+    {
+      "title": "冰花（自注：元人有题无诗，作此补之。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2782",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

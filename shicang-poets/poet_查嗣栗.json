@@ -1,0 +1,44 @@
+{
+  "name": "查嗣栗",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "贾太傅祠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4865",
+      "dynasty": "清"
+    },
+    {
+      "title": "过白沙岭寄同年张砚斋",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4866",
+      "dynasty": "清"
+    },
+    {
+      "title": "贾太傅祠",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1906",
+      "dynasty": "清"
+    },
+    {
+      "title": "过白沙岭寄同年张砚斋",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1907",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

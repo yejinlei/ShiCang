@@ -1,0 +1,116 @@
+{
+  "name": "允禧",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 16,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "七夕",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6116",
+      "dynasty": "清"
+    },
+    {
+      "title": "双径",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6114",
+      "dynasty": "清"
+    },
+    {
+      "title": "圆明园召看烟火恭纪",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6113",
+      "dynasty": "清"
+    },
+    {
+      "title": "月夜台上听友人弹琴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6111",
+      "dynasty": "清"
+    },
+    {
+      "title": "村夜",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6112",
+      "dynasty": "清"
+    },
+    {
+      "title": "樵歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6110",
+      "dynasty": "清"
+    },
+    {
+      "title": "灌花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6109",
+      "dynasty": "清"
+    },
+    {
+      "title": "邦均野寺",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6115",
+      "dynasty": "清"
+    },
+    {
+      "title": "七夕",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3157",
+      "dynasty": "清"
+    },
+    {
+      "title": "双径",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3155",
+      "dynasty": "清"
+    },
+    {
+      "title": "圆明园召看烟火恭纪",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3154",
+      "dynasty": "清"
+    },
+    {
+      "title": "月夜台上听友人弹琴",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3152",
+      "dynasty": "清"
+    },
+    {
+      "title": "村夜",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3153",
+      "dynasty": "清"
+    },
+    {
+      "title": "樵歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3151",
+      "dynasty": "清"
+    },
+    {
+      "title": "灌花",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3150",
+      "dynasty": "清"
+    },
+    {
+      "title": "邦均野寺",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3156",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

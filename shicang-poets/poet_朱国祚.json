@@ -1,0 +1,56 @@
+{
+  "name": "朱国祚",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "恭谒庆陵作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2675",
+      "dynasty": "明"
+    },
+    {
+      "title": "经宁庶人废苑",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2673",
+      "dynasty": "明"
+    },
+    {
+      "title": "西山谒景皇帝陵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2674",
+      "dynasty": "明"
+    },
+    {
+      "title": "恭谒庆陵作",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=671",
+      "dynasty": "明"
+    },
+    {
+      "title": "经宁庶人废苑",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=669",
+      "dynasty": "明"
+    },
+    {
+      "title": "西山谒景皇帝陵",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=670",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

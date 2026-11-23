@@ -1,0 +1,56 @@
+{
+  "name": "许恕",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "次承文焕黄山醉归诗韵",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=372",
+      "dynasty": "元"
+    },
+    {
+      "title": "田舍写怀",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=202",
+      "dynasty": "元"
+    },
+    {
+      "title": "题潘氏画壁",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=373",
+      "dynasty": "元"
+    },
+    {
+      "title": "次承文焕黄山醉归诗韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1834",
+      "dynasty": "元"
+    },
+    {
+      "title": "田舍写怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1664",
+      "dynasty": "元"
+    },
+    {
+      "title": "题潘氏画壁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1835",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

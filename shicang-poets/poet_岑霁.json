@@ -1,0 +1,116 @@
+{
+  "name": "岑霁",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 16,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "寻涧上先生故居",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6465",
+      "dynasty": "清"
+    },
+    {
+      "title": "柏堂对月和周升逸",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6461",
+      "dynasty": "清"
+    },
+    {
+      "title": "自龙泉关过岭宿白云寺",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6464",
+      "dynasty": "清"
+    },
+    {
+      "title": "花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6467",
+      "dynasty": "清"
+    },
+    {
+      "title": "西山道中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6463",
+      "dynasty": "清"
+    },
+    {
+      "title": "贯华阁晚眺",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6460",
+      "dynasty": "清"
+    },
+    {
+      "title": "露筋祠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6466",
+      "dynasty": "清"
+    },
+    {
+      "title": "韬光寺",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6462",
+      "dynasty": "清"
+    },
+    {
+      "title": "寻涧上先生故居",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3506",
+      "dynasty": "清"
+    },
+    {
+      "title": "柏堂对月和周升逸",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3502",
+      "dynasty": "清"
+    },
+    {
+      "title": "自龙泉关过岭宿白云寺",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3505",
+      "dynasty": "清"
+    },
+    {
+      "title": "花",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3508",
+      "dynasty": "清"
+    },
+    {
+      "title": "西山道中",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3504",
+      "dynasty": "清"
+    },
+    {
+      "title": "贯华阁晚眺",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3501",
+      "dynasty": "清"
+    },
+    {
+      "title": "露筋祠",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3507",
+      "dynasty": "清"
+    },
+    {
+      "title": "韬光寺",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3503",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,68 @@
+{
+  "name": "黄云",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "娄东修复前观察冯留仙先生祠宇",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3755",
+      "dynasty": "清"
+    },
+    {
+      "title": "梁溪舟宿闻吴歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3756",
+      "dynasty": "清"
+    },
+    {
+      "title": "江村春日",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3753",
+      "dynasty": "清"
+    },
+    {
+      "title": "经落帆亭是癸巳春与陈澹仙先生别处",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3754",
+      "dynasty": "清"
+    },
+    {
+      "title": "娄东修复前观察冯留仙先生祠宇",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=796",
+      "dynasty": "清"
+    },
+    {
+      "title": "梁溪舟宿闻吴歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=797",
+      "dynasty": "清"
+    },
+    {
+      "title": "江村春日",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=794",
+      "dynasty": "清"
+    },
+    {
+      "title": "经落帆亭是癸巳春与陈澹仙先生别处",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=795",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

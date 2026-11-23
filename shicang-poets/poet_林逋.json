@@ -1,0 +1,25 @@
+{
+  "name": "林逋",
+  "zi": "",
+  "hao": "",
+  "dynasty": "宋",
+  "d_order": 8,
+  "birthplace": "",
+  "style": "#7F8C8D",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 1,
+  "anthologies": [
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "长相思",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0568",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

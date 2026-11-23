@@ -1,0 +1,68 @@
+{
+  "name": "张丹",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "晏城",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3800",
+      "dynasty": "清"
+    },
+    {
+      "title": "涿州城",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3799",
+      "dynasty": "清"
+    },
+    {
+      "title": "登城西南隅次毛驰黄韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3801",
+      "dynasty": "清"
+    },
+    {
+      "title": "白竹村",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3798",
+      "dynasty": "清"
+    },
+    {
+      "title": "晏城",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=841",
+      "dynasty": "清"
+    },
+    {
+      "title": "涿州城",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=840",
+      "dynasty": "清"
+    },
+    {
+      "title": "登城西南隅次毛驰黄韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=842",
+      "dynasty": "清"
+    },
+    {
+      "title": "白竹村",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=839",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

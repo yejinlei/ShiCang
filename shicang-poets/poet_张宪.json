@@ -1,0 +1,128 @@
+{
+  "name": "张宪",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 18,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "东门行",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=486",
+      "dynasty": "元"
+    },
+    {
+      "title": "二月八日游皇城西华门外观嘉孥弟走马歌",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=103",
+      "dynasty": "元"
+    },
+    {
+      "title": "北庭宣元杰西番刀歌（此刀乃江浙平章教化公征淮西所佩者）",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=104",
+      "dynasty": "元"
+    },
+    {
+      "title": "咸淳师相",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=488",
+      "dynasty": "元"
+    },
+    {
+      "title": "寄中山隐讲师",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=166",
+      "dynasty": "元"
+    },
+    {
+      "title": "留别赛景初",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=288",
+      "dynasty": "元"
+    },
+    {
+      "title": "白苎舞词",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=102",
+      "dynasty": "元"
+    },
+    {
+      "title": "胡姬年十五拟刘越石",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=31",
+      "dynasty": "元"
+    },
+    {
+      "title": "陈桥行",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=487",
+      "dynasty": "元"
+    },
+    {
+      "title": "东门行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1948",
+      "dynasty": "元"
+    },
+    {
+      "title": "二月八日游皇城西华门外观嘉孥弟走马歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1565",
+      "dynasty": "元"
+    },
+    {
+      "title": "北庭宣元杰西番刀歌（此刀乃江浙平章教化公征淮西所佩者）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1566",
+      "dynasty": "元"
+    },
+    {
+      "title": "咸淳师相",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1950",
+      "dynasty": "元"
+    },
+    {
+      "title": "寄中山隐讲师",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1628",
+      "dynasty": "元"
+    },
+    {
+      "title": "留别赛景初",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1750",
+      "dynasty": "元"
+    },
+    {
+      "title": "白苎舞词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1564",
+      "dynasty": "元"
+    },
+    {
+      "title": "胡姬年十五拟刘越石",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1493",
+      "dynasty": "元"
+    },
+    {
+      "title": "陈桥行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1949",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

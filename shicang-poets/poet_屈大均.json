@@ -1,0 +1,44 @@
+{
+  "name": "屈大均",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清末",
+  "d_order": 16,
+  "birthplace": "",
+  "style": "#795548",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "紫萸香慢",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1079",
+      "dynasty": "清末"
+    },
+    {
+      "title": "长亭怨",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1080",
+      "dynasty": "清末"
+    },
+    {
+      "title": "与李天生冬夜宿雁门关作·长亭怨",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=33",
+      "dynasty": "清末"
+    },
+    {
+      "title": "送雁·紫萸香慢",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=32",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": false
+}

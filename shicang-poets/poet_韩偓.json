@@ -1,0 +1,140 @@
+{
+  "name": "韩偓",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 20,
+  "anthologies": [
+    "万寿唐诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "寄邻荘道侣",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=711",
+      "dynasty": "唐"
+    },
+    {
+      "title": "寒食夜",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=707",
+      "dynasty": "唐"
+    },
+    {
+      "title": "已凉",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=705",
+      "dynasty": "唐"
+    },
+    {
+      "title": "従猎",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=193",
+      "dynasty": "唐"
+    },
+    {
+      "title": "效崔国辅体",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=192",
+      "dynasty": "唐"
+    },
+    {
+      "title": "新上头",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=708",
+      "dynasty": "唐"
+    },
+    {
+      "title": "深院",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=710",
+      "dynasty": "唐"
+    },
+    {
+      "title": "遥见",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=706",
+      "dynasty": "唐"
+    },
+    {
+      "title": "闺怨",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=709",
+      "dynasty": "唐"
+    },
+    {
+      "title": "闻雨",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=704",
+      "dynasty": "唐"
+    },
+    {
+      "title": "寄邻荘道侣",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7150",
+      "dynasty": "唐"
+    },
+    {
+      "title": "寒食夜",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7146",
+      "dynasty": "唐"
+    },
+    {
+      "title": "已凉",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0400",
+      "dynasty": "唐"
+    },
+    {
+      "title": "従猎",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6665",
+      "dynasty": "唐"
+    },
+    {
+      "title": "效崔国辅体",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6664",
+      "dynasty": "唐"
+    },
+    {
+      "title": "新上头",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7147",
+      "dynasty": "唐"
+    },
+    {
+      "title": "深院",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7149",
+      "dynasty": "唐"
+    },
+    {
+      "title": "遥见",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7145",
+      "dynasty": "唐"
+    },
+    {
+      "title": "闺怨",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7148",
+      "dynasty": "唐"
+    },
+    {
+      "title": "闻雨",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7144",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

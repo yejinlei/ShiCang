@@ -1,0 +1,56 @@
+{
+  "name": "律然",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "悼鹤次蒋迪甫太史韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6480",
+      "dynasty": "清"
+    },
+    {
+      "title": "落梅",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6478",
+      "dynasty": "清"
+    },
+    {
+      "title": "西斋小葺初成西涧露湑两先生见过赠诗次韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6479",
+      "dynasty": "清"
+    },
+    {
+      "title": "悼鹤次蒋迪甫太史韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3521",
+      "dynasty": "清"
+    },
+    {
+      "title": "落梅",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3519",
+      "dynasty": "清"
+    },
+    {
+      "title": "西斋小葺初成西涧露湑两先生见过赠诗次韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3520",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

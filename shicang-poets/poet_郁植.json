@@ -1,0 +1,140 @@
+{
+  "name": "郁植",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 20,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "东堂八岁应试作《五伦论》，吴梅",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3680",
+      "dynasty": "清"
+    },
+    {
+      "title": "乌夜啼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3681",
+      "dynasty": "清"
+    },
+    {
+      "title": "客晓",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3688",
+      "dynasty": "清"
+    },
+    {
+      "title": "悲歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3684",
+      "dynasty": "清"
+    },
+    {
+      "title": "柬顾亭林先生",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3686",
+      "dynasty": "清"
+    },
+    {
+      "title": "猛虎行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3682",
+      "dynasty": "清"
+    },
+    {
+      "title": "登州城南楼柬张庆馀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3687",
+      "dynasty": "清"
+    },
+    {
+      "title": "观灯行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3685",
+      "dynasty": "清"
+    },
+    {
+      "title": "读史偶感",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3689",
+      "dynasty": "清"
+    },
+    {
+      "title": "韩侯约台",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3683",
+      "dynasty": "清"
+    },
+    {
+      "title": "东堂八岁应试作《五伦论》，吴梅",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=721",
+      "dynasty": "清"
+    },
+    {
+      "title": "乌夜啼",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=722",
+      "dynasty": "清"
+    },
+    {
+      "title": "客晓",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=729",
+      "dynasty": "清"
+    },
+    {
+      "title": "悲歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=725",
+      "dynasty": "清"
+    },
+    {
+      "title": "柬顾亭林先生",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=727",
+      "dynasty": "清"
+    },
+    {
+      "title": "猛虎行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=723",
+      "dynasty": "清"
+    },
+    {
+      "title": "登州城南楼柬张庆馀",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=728",
+      "dynasty": "清"
+    },
+    {
+      "title": "观灯行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=726",
+      "dynasty": "清"
+    },
+    {
+      "title": "读史偶感",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=730",
+      "dynasty": "清"
+    },
+    {
+      "title": "韩侯约台",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=724",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

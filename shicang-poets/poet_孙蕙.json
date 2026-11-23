@@ -1,0 +1,104 @@
+{
+  "name": "孙蕙",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 14,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "为姜勉中兄弟题谏草楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3535",
+      "dynasty": "清"
+    },
+    {
+      "title": "于忠肃公祠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3537",
+      "dynasty": "清"
+    },
+    {
+      "title": "安宜行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3532",
+      "dynasty": "清"
+    },
+    {
+      "title": "水口驿",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3531",
+      "dynasty": "清"
+    },
+    {
+      "title": "浚河行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3533",
+      "dynasty": "清"
+    },
+    {
+      "title": "秦川怀古",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3534",
+      "dynasty": "清"
+    },
+    {
+      "title": "闻鼓山绝顶可望海外诸国欲登不果（自注：上有天风海涛亭，朱文公题。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3536",
+      "dynasty": "清"
+    },
+    {
+      "title": "为姜勉中兄弟题谏草楼",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=576",
+      "dynasty": "清"
+    },
+    {
+      "title": "于忠肃公祠",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=578",
+      "dynasty": "清"
+    },
+    {
+      "title": "安宜行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=573",
+      "dynasty": "清"
+    },
+    {
+      "title": "水口驿",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=572",
+      "dynasty": "清"
+    },
+    {
+      "title": "浚河行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=574",
+      "dynasty": "清"
+    },
+    {
+      "title": "秦川怀古",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=575",
+      "dynasty": "清"
+    },
+    {
+      "title": "闻鼓山绝顶可望海外诸国欲登不果（自注：上有天风海涛亭，朱文公题。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=577",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

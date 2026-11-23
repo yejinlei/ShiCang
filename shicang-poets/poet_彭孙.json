@@ -1,0 +1,104 @@
+{
+  "name": "彭孙",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 14,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "彭蠡夜泛",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3489",
+      "dynasty": "清"
+    },
+    {
+      "title": "登湖口县城",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3490",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋日登滕王阁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3491",
+      "dynasty": "清"
+    },
+    {
+      "title": "豫章城下送春有怀故园兄弟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3493",
+      "dynasty": "清"
+    },
+    {
+      "title": "金陵怀古",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3492",
+      "dynasty": "清"
+    },
+    {
+      "title": "雨中过白芒村寄高山人俨",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3487",
+      "dynasty": "清"
+    },
+    {
+      "title": "鱼梁滩下泊",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3488",
+      "dynasty": "清"
+    },
+    {
+      "title": "彭蠡夜泛",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=530",
+      "dynasty": "清"
+    },
+    {
+      "title": "登湖口县城",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=531",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋日登滕王阁",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=532",
+      "dynasty": "清"
+    },
+    {
+      "title": "豫章城下送春有怀故园兄弟",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=534",
+      "dynasty": "清"
+    },
+    {
+      "title": "金陵怀古",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=533",
+      "dynasty": "清"
+    },
+    {
+      "title": "雨中过白芒村寄高山人俨",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=528",
+      "dynasty": "清"
+    },
+    {
+      "title": "鱼梁滩下泊",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=529",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,92 @@
+{
+  "name": "徐兰",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 12,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "关山月",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5503",
+      "dynasty": "清"
+    },
+    {
+      "title": "出关",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5504",
+      "dynasty": "清"
+    },
+    {
+      "title": "塞下曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5502",
+      "dynasty": "清"
+    },
+    {
+      "title": "归化城杂咏",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5501",
+      "dynasty": "清"
+    },
+    {
+      "title": "磷火",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5500",
+      "dynasty": "清"
+    },
+    {
+      "title": "雨阻黑河",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5499",
+      "dynasty": "清"
+    },
+    {
+      "title": "关山月",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2544",
+      "dynasty": "清"
+    },
+    {
+      "title": "出关",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2545",
+      "dynasty": "清"
+    },
+    {
+      "title": "塞下曲",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2543",
+      "dynasty": "清"
+    },
+    {
+      "title": "归化城杂咏",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2542",
+      "dynasty": "清"
+    },
+    {
+      "title": "磷火",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2541",
+      "dynasty": "清"
+    },
+    {
+      "title": "雨阻黑河",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2540",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

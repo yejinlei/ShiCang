@@ -1,0 +1,285 @@
+{
+  "name": "毛奇龄",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 44,
+  "anthologies": [
+    "名篇精读",
+    "清诗",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "吊姜贞毅诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4059",
+      "dynasty": "清"
+    },
+    {
+      "title": "少年",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4055",
+      "dynasty": "清"
+    },
+    {
+      "title": "打虎儿行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4048",
+      "dynasty": "清"
+    },
+    {
+      "title": "朔方",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4052",
+      "dynasty": "清"
+    },
+    {
+      "title": "杨将军美人试马请歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4049",
+      "dynasty": "清"
+    },
+    {
+      "title": "禹庙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4056",
+      "dynasty": "清"
+    },
+    {
+      "title": "秦淮老人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4061",
+      "dynasty": "清"
+    },
+    {
+      "title": "览镜词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4058",
+      "dynasty": "清"
+    },
+    {
+      "title": "诏观西洋国所进狮子，因获遍阅虎圈诸兽，敬制长句纪事和高阳相公",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4051",
+      "dynasty": "清"
+    },
+    {
+      "title": "谒嵩岳",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4057",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠柳生",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4062",
+      "dynasty": "清"
+    },
+    {
+      "title": "送人之耒阳",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4053",
+      "dynasty": "清"
+    },
+    {
+      "title": "钱唐逢故人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4054",
+      "dynasty": "清"
+    },
+    {
+      "title": "钱编修所藏司马相如玉印歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4050",
+      "dynasty": "清"
+    },
+    {
+      "title": "长门怨",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4060",
+      "dynasty": "清"
+    },
+    {
+      "title": "除夕作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4063",
+      "dynasty": "清"
+    },
+    {
+      "title": "吊姜贞毅诗",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1100",
+      "dynasty": "清"
+    },
+    {
+      "title": "少年",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1096",
+      "dynasty": "清"
+    },
+    {
+      "title": "打虎儿行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1089",
+      "dynasty": "清"
+    },
+    {
+      "title": "朔方",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1093",
+      "dynasty": "清"
+    },
+    {
+      "title": "杨将军美人试马请歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1090",
+      "dynasty": "清"
+    },
+    {
+      "title": "禹庙",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1097",
+      "dynasty": "清"
+    },
+    {
+      "title": "秦淮老人",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1102",
+      "dynasty": "清"
+    },
+    {
+      "title": "览镜词",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1099",
+      "dynasty": "清"
+    },
+    {
+      "title": "诏观西洋国所进狮子，因获遍阅虎圈诸兽，敬制长句纪事和高阳相公",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1092",
+      "dynasty": "清"
+    },
+    {
+      "title": "谒嵩岳",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1098",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠柳生",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1103",
+      "dynasty": "清"
+    },
+    {
+      "title": "送人之耒阳",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1094",
+      "dynasty": "清"
+    },
+    {
+      "title": "钱唐逢故人",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1095",
+      "dynasty": "清"
+    },
+    {
+      "title": "钱编修所藏司马相如玉印歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1091",
+      "dynasty": "清"
+    },
+    {
+      "title": "长门怨",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1101",
+      "dynasty": "清"
+    },
+    {
+      "title": "除夕作",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1104",
+      "dynasty": "清"
+    },
+    {
+      "title": "南乡子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1101",
+      "dynasty": "清末"
+    },
+    {
+      "title": "南柯子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1104",
+      "dynasty": "清末"
+    },
+    {
+      "title": "浪淘沙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1100",
+      "dynasty": "清末"
+    },
+    {
+      "title": "相见欢",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1103",
+      "dynasty": "清末"
+    },
+    {
+      "title": "荷叶杯",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1099",
+      "dynasty": "清末"
+    },
+    {
+      "title": "长相思二首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1102",
+      "dynasty": "清末"
+    },
+    {
+      "title": "南乡子",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=54",
+      "dynasty": "清末"
+    },
+    {
+      "title": "浪淘沙",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=53",
+      "dynasty": "清末"
+    },
+    {
+      "title": "淮西客舍接得陈敬止书，有寄。·南柯子",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=57",
+      "dynasty": "清末"
+    },
+    {
+      "title": "相见欢",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=56",
+      "dynasty": "清末"
+    },
+    {
+      "title": "荷叶杯",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=52",
+      "dynasty": "清末"
+    },
+    {
+      "title": "长相思二首",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=55",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": false
+}

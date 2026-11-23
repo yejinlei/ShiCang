@@ -1,0 +1,164 @@
+{
+  "name": "高其倬",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 24,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "与熊敏思登蟠龙山顶望都城值大风有感呈敏思",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4742",
+      "dynasty": "清"
+    },
+    {
+      "title": "剑门",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4747",
+      "dynasty": "清"
+    },
+    {
+      "title": "古北口",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4737",
+      "dynasty": "清"
+    },
+    {
+      "title": "和许子逊中秋风雨后看月原韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4745",
+      "dynasty": "清"
+    },
+    {
+      "title": "寄内",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4744",
+      "dynasty": "清"
+    },
+    {
+      "title": "晓行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4738",
+      "dynasty": "清"
+    },
+    {
+      "title": "望雪山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4741",
+      "dynasty": "清"
+    },
+    {
+      "title": "碧云寺",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4740",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋宵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4743",
+      "dynasty": "清"
+    },
+    {
+      "title": "蓟州新城",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4739",
+      "dynasty": "清"
+    },
+    {
+      "title": "行役晓发",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4736",
+      "dynasty": "清"
+    },
+    {
+      "title": "过长平驿感坑卒事有作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4746",
+      "dynasty": "清"
+    },
+    {
+      "title": "与熊敏思登蟠龙山顶望都城值大风有感呈敏思",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1783",
+      "dynasty": "清"
+    },
+    {
+      "title": "剑门",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1788",
+      "dynasty": "清"
+    },
+    {
+      "title": "古北口",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1778",
+      "dynasty": "清"
+    },
+    {
+      "title": "和许子逊中秋风雨后看月原韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1786",
+      "dynasty": "清"
+    },
+    {
+      "title": "寄内",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1785",
+      "dynasty": "清"
+    },
+    {
+      "title": "晓行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1779",
+      "dynasty": "清"
+    },
+    {
+      "title": "望雪山",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1782",
+      "dynasty": "清"
+    },
+    {
+      "title": "碧云寺",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1781",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋宵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1784",
+      "dynasty": "清"
+    },
+    {
+      "title": "蓟州新城",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1780",
+      "dynasty": "清"
+    },
+    {
+      "title": "行役晓发",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1777",
+      "dynasty": "清"
+    },
+    {
+      "title": "过长平驿感坑卒事有作",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1787",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

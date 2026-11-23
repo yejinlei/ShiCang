@@ -1,0 +1,164 @@
+{
+  "name": "汪绎",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 24,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "寄庭仙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4828",
+      "dynasty": "清"
+    },
+    {
+      "title": "新草",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4823",
+      "dynasty": "清"
+    },
+    {
+      "title": "望岱",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4826",
+      "dynasty": "清"
+    },
+    {
+      "title": "柳枝词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4833",
+      "dynasty": "清"
+    },
+    {
+      "title": "梅花楼访月溪上人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4825",
+      "dynasty": "清"
+    },
+    {
+      "title": "田家乐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4834",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋柳次韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4827",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋砧",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4824",
+      "dynasty": "清"
+    },
+    {
+      "title": "秦始皇",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4830",
+      "dynasty": "清"
+    },
+    {
+      "title": "老聃（天宝中尊为玄元皇帝）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4832",
+      "dynasty": "清"
+    },
+    {
+      "title": "项羽",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4831",
+      "dynasty": "清"
+    },
+    {
+      "title": "首夏同青门雪航以宁允恭叔度宴集秋水阁即事限韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4829",
+      "dynasty": "清"
+    },
+    {
+      "title": "寄庭仙",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1869",
+      "dynasty": "清"
+    },
+    {
+      "title": "新草",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1864",
+      "dynasty": "清"
+    },
+    {
+      "title": "望岱",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1867",
+      "dynasty": "清"
+    },
+    {
+      "title": "柳枝词",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1874",
+      "dynasty": "清"
+    },
+    {
+      "title": "梅花楼访月溪上人",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1866",
+      "dynasty": "清"
+    },
+    {
+      "title": "田家乐",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1875",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋柳次韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1868",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋砧",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1865",
+      "dynasty": "清"
+    },
+    {
+      "title": "秦始皇",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1871",
+      "dynasty": "清"
+    },
+    {
+      "title": "老聃（天宝中尊为玄元皇帝）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1873",
+      "dynasty": "清"
+    },
+    {
+      "title": "项羽",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1872",
+      "dynasty": "清"
+    },
+    {
+      "title": "首夏同青门雪航以宁允恭叔度宴集秋水阁即事限韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1870",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

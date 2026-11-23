@@ -1,0 +1,128 @@
+{
+  "name": "严允肇",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 18,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "古风",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3470",
+      "dynasty": "清"
+    },
+    {
+      "title": "哀淮人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3473",
+      "dynasty": "清"
+    },
+    {
+      "title": "洗象行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3474",
+      "dynasty": "清"
+    },
+    {
+      "title": "白下",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3477",
+      "dynasty": "清"
+    },
+    {
+      "title": "穆陵关",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3471",
+      "dynasty": "清"
+    },
+    {
+      "title": "观绳妓作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3476",
+      "dynasty": "清"
+    },
+    {
+      "title": "诸将杂感",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3478",
+      "dynasty": "清"
+    },
+    {
+      "title": "述哀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3475",
+      "dynasty": "清"
+    },
+    {
+      "title": "送宋荔裳按察四川",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3472",
+      "dynasty": "清"
+    },
+    {
+      "title": "古风",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=511",
+      "dynasty": "清"
+    },
+    {
+      "title": "哀淮人",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=514",
+      "dynasty": "清"
+    },
+    {
+      "title": "洗象行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=515",
+      "dynasty": "清"
+    },
+    {
+      "title": "白下",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=518",
+      "dynasty": "清"
+    },
+    {
+      "title": "穆陵关",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=512",
+      "dynasty": "清"
+    },
+    {
+      "title": "观绳妓作",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=517",
+      "dynasty": "清"
+    },
+    {
+      "title": "诸将杂感",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=519",
+      "dynasty": "清"
+    },
+    {
+      "title": "述哀",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=516",
+      "dynasty": "清"
+    },
+    {
+      "title": "送宋荔裳按察四川",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=513",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

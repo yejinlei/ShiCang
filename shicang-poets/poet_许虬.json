@@ -1,0 +1,104 @@
+{
+  "name": "许虬",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 14,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "和答钱宫声见怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3459",
+      "dynasty": "清"
+    },
+    {
+      "title": "天池山访元叹门榜落木庵为寒河谭子笔",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3454",
+      "dynasty": "清"
+    },
+    {
+      "title": "将发荆州招李劬庵秦对岩话别次劬庵韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3458",
+      "dynasty": "清"
+    },
+    {
+      "title": "折杨柳歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3453",
+      "dynasty": "清"
+    },
+    {
+      "title": "河西关",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3455",
+      "dynasty": "清"
+    },
+    {
+      "title": "登黄鹤楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3457",
+      "dynasty": "清"
+    },
+    {
+      "title": "黔中岁暮漫兴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3456",
+      "dynasty": "清"
+    },
+    {
+      "title": "和答钱宫声见怀",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=500",
+      "dynasty": "清"
+    },
+    {
+      "title": "天池山访元叹门榜落木庵为寒河谭子笔",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=495",
+      "dynasty": "清"
+    },
+    {
+      "title": "将发荆州招李劬庵秦对岩话别次劬庵韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=499",
+      "dynasty": "清"
+    },
+    {
+      "title": "折杨柳歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=494",
+      "dynasty": "清"
+    },
+    {
+      "title": "河西关",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=496",
+      "dynasty": "清"
+    },
+    {
+      "title": "登黄鹤楼",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=498",
+      "dynasty": "清"
+    },
+    {
+      "title": "黔中岁暮漫兴",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=497",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

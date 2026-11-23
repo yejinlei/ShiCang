@@ -1,0 +1,56 @@
+{
+  "name": "傅昂霄",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "凉州词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3914",
+      "dynasty": "清"
+    },
+    {
+      "title": "江行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3915",
+      "dynasty": "清"
+    },
+    {
+      "title": "饮马长城窟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3913",
+      "dynasty": "清"
+    },
+    {
+      "title": "凉州词",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=955",
+      "dynasty": "清"
+    },
+    {
+      "title": "江行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=956",
+      "dynasty": "清"
+    },
+    {
+      "title": "饮马长城窟",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=954",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

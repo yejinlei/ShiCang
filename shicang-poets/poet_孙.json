@@ -1,0 +1,80 @@
+{
+  "name": "孙",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "春日北行夜泊江口",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3405",
+      "dynasty": "清"
+    },
+    {
+      "title": "潞河遇尤展成",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3407",
+      "dynasty": "清"
+    },
+    {
+      "title": "甲寅四月宋蓼天少宰以边才特疏荐余诗以谢之",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3408",
+      "dynasty": "清"
+    },
+    {
+      "title": "还家（八首之三）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3406",
+      "dynasty": "清"
+    },
+    {
+      "title": "送邓孝威南还",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3409",
+      "dynasty": "清"
+    },
+    {
+      "title": "春日北行夜泊江口",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=446",
+      "dynasty": "清"
+    },
+    {
+      "title": "潞河遇尤展成",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=448",
+      "dynasty": "清"
+    },
+    {
+      "title": "甲寅四月宋蓼天少宰以边才特疏荐余诗以谢之",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=449",
+      "dynasty": "清"
+    },
+    {
+      "title": "还家（八首之三）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=447",
+      "dynasty": "清"
+    },
+    {
+      "title": "送邓孝威南还",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=450",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

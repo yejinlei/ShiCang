@@ -1,0 +1,116 @@
+{
+  "name": "陈培脉",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 16,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "南越王墓",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5534",
+      "dynasty": "清"
+    },
+    {
+      "title": "徐州怀古",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5537",
+      "dynasty": "清"
+    },
+    {
+      "title": "恒山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5538",
+      "dynasty": "清"
+    },
+    {
+      "title": "登娑罗坪",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5533",
+      "dynasty": "清"
+    },
+    {
+      "title": "登慈恩寺浮图",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5535",
+      "dynasty": "清"
+    },
+    {
+      "title": "相逢行赠宋六木天",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5532",
+      "dynasty": "清"
+    },
+    {
+      "title": "蓬莱阁观海和观察宋公",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5536",
+      "dynasty": "清"
+    },
+    {
+      "title": "陈留吊蔡中郎二十四韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5539",
+      "dynasty": "清"
+    },
+    {
+      "title": "南越王墓",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2575",
+      "dynasty": "清"
+    },
+    {
+      "title": "徐州怀古",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2578",
+      "dynasty": "清"
+    },
+    {
+      "title": "恒山",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2579",
+      "dynasty": "清"
+    },
+    {
+      "title": "登娑罗坪",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2574",
+      "dynasty": "清"
+    },
+    {
+      "title": "登慈恩寺浮图",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2576",
+      "dynasty": "清"
+    },
+    {
+      "title": "相逢行赠宋六木天",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2573",
+      "dynasty": "清"
+    },
+    {
+      "title": "蓬莱阁观海和观察宋公",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2577",
+      "dynasty": "清"
+    },
+    {
+      "title": "陈留吊蔡中郎二十四韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2580",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

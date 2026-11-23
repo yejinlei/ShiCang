@@ -1,0 +1,55 @@
+{
+  "name": "韦庄",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "台城",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0384",
+      "dynasty": "唐"
+    },
+    {
+      "title": "章台夜思",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0385",
+      "dynasty": "唐"
+    },
+    {
+      "title": "菩萨蛮·人人尽说",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0386",
+      "dynasty": "唐"
+    },
+    {
+      "title": "金陵图",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0387",
+      "dynasty": "唐"
+    },
+    {
+      "title": "女冠子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0699",
+      "dynasty": "宋"
+    },
+    {
+      "title": "菩萨蛮",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0700",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

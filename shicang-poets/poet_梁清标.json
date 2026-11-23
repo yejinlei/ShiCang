@@ -1,0 +1,140 @@
+{
+  "name": "梁清标",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 20,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "包孝肃祠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3096",
+      "dynasty": "清"
+    },
+    {
+      "title": "拜张许六王祠（归德即古睢阳）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3097",
+      "dynasty": "清"
+    },
+    {
+      "title": "柳敬亭南归白下",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3099",
+      "dynasty": "清"
+    },
+    {
+      "title": "王铁枪",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3090",
+      "dynasty": "清"
+    },
+    {
+      "title": "蕉林书屋绝句",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3098",
+      "dynasty": "清"
+    },
+    {
+      "title": "送张仲若司马开府云中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3093",
+      "dynasty": "清"
+    },
+    {
+      "title": "送张伯珩同年按蜀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3095",
+      "dynasty": "清"
+    },
+    {
+      "title": "送李吉津出塞",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3094",
+      "dynasty": "清"
+    },
+    {
+      "title": "送李蘅若同年之岭右",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3091",
+      "dynasty": "清"
+    },
+    {
+      "title": "送萧都阃之云中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3092",
+      "dynasty": "清"
+    },
+    {
+      "title": "包孝肃祠",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=137",
+      "dynasty": "清"
+    },
+    {
+      "title": "拜张许六王祠（归德即古睢阳）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=138",
+      "dynasty": "清"
+    },
+    {
+      "title": "柳敬亭南归白下",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=140",
+      "dynasty": "清"
+    },
+    {
+      "title": "王铁枪",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=131",
+      "dynasty": "清"
+    },
+    {
+      "title": "蕉林书屋绝句",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=139",
+      "dynasty": "清"
+    },
+    {
+      "title": "送张仲若司马开府云中",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=134",
+      "dynasty": "清"
+    },
+    {
+      "title": "送张伯珩同年按蜀",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=136",
+      "dynasty": "清"
+    },
+    {
+      "title": "送李吉津出塞",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=135",
+      "dynasty": "清"
+    },
+    {
+      "title": "送李蘅若同年之岭右",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=132",
+      "dynasty": "清"
+    },
+    {
+      "title": "送萧都阃之云中",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=133",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

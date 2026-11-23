@@ -1,0 +1,116 @@
+{
+  "name": "王",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 16,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "客有谈海上已亥之变诗以纪之",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4771",
+      "dynasty": "清"
+    },
+    {
+      "title": "扬州次梅村师韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4347",
+      "dynasty": "清"
+    },
+    {
+      "title": "望岱",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3925",
+      "dynasty": "清"
+    },
+    {
+      "title": "短歌行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4769",
+      "dynasty": "清"
+    },
+    {
+      "title": "虎丘二姜先生祠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4772",
+      "dynasty": "清"
+    },
+    {
+      "title": "虹友兄斋同汉槎夜话",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3924",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠蜀使",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4770",
+      "dynasty": "清"
+    },
+    {
+      "title": "送友还蜀中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4346",
+      "dynasty": "清"
+    },
+    {
+      "title": "客有谈海上已亥之变诗以纪之",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1812",
+      "dynasty": "清"
+    },
+    {
+      "title": "扬州次梅村师韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1388",
+      "dynasty": "清"
+    },
+    {
+      "title": "望岱",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=966",
+      "dynasty": "清"
+    },
+    {
+      "title": "短歌行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1810",
+      "dynasty": "清"
+    },
+    {
+      "title": "虎丘二姜先生祠",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1813",
+      "dynasty": "清"
+    },
+    {
+      "title": "虹友兄斋同汉槎夜话",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=965",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠蜀使",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1811",
+      "dynasty": "清"
+    },
+    {
+      "title": "送友还蜀中",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1387",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

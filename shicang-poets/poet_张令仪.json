@@ -1,0 +1,80 @@
+{
+  "name": "张令仪",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "不寐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6287",
+      "dynasty": "清"
+    },
+    {
+      "title": "五亩园旧蓄二鹤，忽殒其一，孤侣哀鸣，都忘饮啄，诗以吊之",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6288",
+      "dynasty": "清"
+    },
+    {
+      "title": "玄冥",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6286",
+      "dynasty": "清"
+    },
+    {
+      "title": "病中口占",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6289",
+      "dynasty": "清"
+    },
+    {
+      "title": "西颢",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6285",
+      "dynasty": "清"
+    },
+    {
+      "title": "不寐",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3328",
+      "dynasty": "清"
+    },
+    {
+      "title": "五亩园旧蓄二鹤，忽殒其一，孤侣哀鸣，都忘饮啄，诗以吊之",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3329",
+      "dynasty": "清"
+    },
+    {
+      "title": "玄冥",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3327",
+      "dynasty": "清"
+    },
+    {
+      "title": "病中口占",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3330",
+      "dynasty": "清"
+    },
+    {
+      "title": "西颢",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3326",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

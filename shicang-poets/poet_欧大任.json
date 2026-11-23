@@ -1,0 +1,68 @@
+{
+  "name": "欧大任",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "九月十五夜月",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2647",
+      "dynasty": "明"
+    },
+    {
+      "title": "泊枞阳眺览，遂忆汉武之游",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2645",
+      "dynasty": "明"
+    },
+    {
+      "title": "登宣武门楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2648",
+      "dynasty": "明"
+    },
+    {
+      "title": "除夕九江官舍",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2646",
+      "dynasty": "明"
+    },
+    {
+      "title": "九月十五夜月",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=643",
+      "dynasty": "明"
+    },
+    {
+      "title": "泊枞阳眺览，遂忆汉武之游",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=641",
+      "dynasty": "明"
+    },
+    {
+      "title": "登宣武门楼",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=644",
+      "dynasty": "明"
+    },
+    {
+      "title": "除夕九江官舍",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=642",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

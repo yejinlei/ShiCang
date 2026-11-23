@@ -1,0 +1,32 @@
+{
+  "name": "冯琦",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 2,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "题三娘子画像",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2672",
+      "dynasty": "明"
+    },
+    {
+      "title": "题三娘子画像",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=668",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

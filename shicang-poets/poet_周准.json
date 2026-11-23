@@ -1,0 +1,200 @@
+{
+  "name": "周准",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 30,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "发朱砂庵径观音岩登石人峰",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6194",
+      "dynasty": "清"
+    },
+    {
+      "title": "塞下曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6204",
+      "dynasty": "清"
+    },
+    {
+      "title": "壮士行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6196",
+      "dynasty": "清"
+    },
+    {
+      "title": "宿灵隐寺梵香阁晓起眺望",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6192",
+      "dynasty": "清"
+    },
+    {
+      "title": "怀旧",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6198",
+      "dynasty": "清"
+    },
+    {
+      "title": "戍妇吟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6201",
+      "dynasty": "清"
+    },
+    {
+      "title": "明妃曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6197",
+      "dynasty": "清"
+    },
+    {
+      "title": "晨自松陵归渡太湖即事",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6200",
+      "dynasty": "清"
+    },
+    {
+      "title": "汉川",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6206",
+      "dynasty": "清"
+    },
+    {
+      "title": "江上曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6203",
+      "dynasty": "清"
+    },
+    {
+      "title": "缘天都峰趾度云巢洞上升仙梯遂憩文殊院",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6195",
+      "dynasty": "清"
+    },
+    {
+      "title": "蝴蝶词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6205",
+      "dynasty": "清"
+    },
+    {
+      "title": "行经拂水山庄",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6199",
+      "dynasty": "清"
+    },
+    {
+      "title": "赋得古别离送郑子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6193",
+      "dynasty": "清"
+    },
+    {
+      "title": "题秦馀女史所画楚辞图",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6202",
+      "dynasty": "清"
+    },
+    {
+      "title": "发朱砂庵径观音岩登石人峰",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3235",
+      "dynasty": "清"
+    },
+    {
+      "title": "塞下曲",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3245",
+      "dynasty": "清"
+    },
+    {
+      "title": "壮士行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3237",
+      "dynasty": "清"
+    },
+    {
+      "title": "宿灵隐寺梵香阁晓起眺望",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3233",
+      "dynasty": "清"
+    },
+    {
+      "title": "怀旧",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3239",
+      "dynasty": "清"
+    },
+    {
+      "title": "戍妇吟",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3242",
+      "dynasty": "清"
+    },
+    {
+      "title": "明妃曲",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3238",
+      "dynasty": "清"
+    },
+    {
+      "title": "晨自松陵归渡太湖即事",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3241",
+      "dynasty": "清"
+    },
+    {
+      "title": "汉川",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3247",
+      "dynasty": "清"
+    },
+    {
+      "title": "江上曲",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3244",
+      "dynasty": "清"
+    },
+    {
+      "title": "缘天都峰趾度云巢洞上升仙梯遂憩文殊院",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3236",
+      "dynasty": "清"
+    },
+    {
+      "title": "蝴蝶词",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3246",
+      "dynasty": "清"
+    },
+    {
+      "title": "行经拂水山庄",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3240",
+      "dynasty": "清"
+    },
+    {
+      "title": "赋得古别离送郑子",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3234",
+      "dynasty": "清"
+    },
+    {
+      "title": "题秦馀女史所画楚辞图",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3243",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,56 @@
+{
+  "name": "徐元梦",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "登三屯镇城楼寓目",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3996",
+      "dynasty": "清"
+    },
+    {
+      "title": "送友人出使塞外",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3997",
+      "dynasty": "清"
+    },
+    {
+      "title": "送随羲文出塞",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3995",
+      "dynasty": "清"
+    },
+    {
+      "title": "登三屯镇城楼寓目",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1037",
+      "dynasty": "清"
+    },
+    {
+      "title": "送友人出使塞外",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1038",
+      "dynasty": "清"
+    },
+    {
+      "title": "送随羲文出塞",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1036",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,44 @@
+{
+  "name": "杨万里",
+  "zi": "廷秀",
+  "hao": "诚斋",
+  "dynasty": "南宋",
+  "d_order": 9,
+  "birthplace": "吉州吉水",
+  "style": "#D35400",
+  "school": "诚斋体",
+  "years": "1127—1206",
+  "bio": "南宋四大家之一，创「诚斋体」，诗风活泼自然。代表作《小池》《晓出净慈寺》。",
+  "work_count": 4,
+  "anthologies": [
+    "千家诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "伤春",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=128",
+      "dynasty": "宋"
+    },
+    {
+      "title": "初夏睡起",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=133",
+      "dynasty": "宋"
+    },
+    {
+      "title": "伤春",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0949",
+      "dynasty": "宋"
+    },
+    {
+      "title": "初夏睡起",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0954",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": true
+}

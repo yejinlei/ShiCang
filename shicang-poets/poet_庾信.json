@@ -1,0 +1,25 @@
+{
+  "name": "庾信",
+  "zi": "子山",
+  "hao": "",
+  "dynasty": "魏晋",
+  "d_order": 4,
+  "birthplace": "南阳新野",
+  "style": "#5C4033",
+  "school": "南北合流",
+  "years": "513—581",
+  "bio": "南北朝文学集大成者，早年仕梁，后出使西魏被留，诗风转为沉郁苍凉。代表作《哀江南赋》。",
+  "work_count": 1,
+  "anthologies": [
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "拟咏怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0063",
+      "dynasty": "魏晋"
+    }
+  ],
+  "has_bio": true
+}

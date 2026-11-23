@@ -1,0 +1,44 @@
+{
+  "name": "许缵曾",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "游峨眉山歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3227",
+      "dynasty": "清"
+    },
+    {
+      "title": "睢阳行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3228",
+      "dynasty": "清"
+    },
+    {
+      "title": "游峨眉山歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=268",
+      "dynasty": "清"
+    },
+    {
+      "title": "睢阳行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=269",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

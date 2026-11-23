@@ -1,0 +1,68 @@
+{
+  "name": "周起渭",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "南堤踏青因留观音寺小饮",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4753",
+      "dynasty": "清"
+    },
+    {
+      "title": "山阴舟中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4754",
+      "dynasty": "清"
+    },
+    {
+      "title": "武陵为人写北窗高卧图",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4751",
+      "dynasty": "清"
+    },
+    {
+      "title": "避风赤壁登苏公亭放歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4752",
+      "dynasty": "清"
+    },
+    {
+      "title": "南堤踏青因留观音寺小饮",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1794",
+      "dynasty": "清"
+    },
+    {
+      "title": "山阴舟中",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1795",
+      "dynasty": "清"
+    },
+    {
+      "title": "武陵为人写北窗高卧图",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1792",
+      "dynasty": "清"
+    },
+    {
+      "title": "避风赤壁登苏公亭放歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1793",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

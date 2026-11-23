@@ -1,0 +1,44 @@
+{
+  "name": "黎志远",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "泊陈家湾睹山石奇秀迟客舟同登不至日暝独游未穷其胜。",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5233",
+      "dynasty": "清"
+    },
+    {
+      "title": "礼执客鄂城用和巨来韵见贻事牵未报汉阳舟次次韵寄答",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5232",
+      "dynasty": "清"
+    },
+    {
+      "title": "泊陈家湾睹山石奇秀迟客舟同登不至日暝独游未穷其胜。",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2274",
+      "dynasty": "清"
+    },
+    {
+      "title": "礼执客鄂城用和巨来韵见贻事牵未报汉阳舟次次韵寄答",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2273",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

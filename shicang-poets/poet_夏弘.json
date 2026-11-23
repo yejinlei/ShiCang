@@ -1,0 +1,56 @@
+{
+  "name": "夏弘",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "孔东塘博士招同人集傍花村",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5574",
+      "dynasty": "清"
+    },
+    {
+      "title": "春寒",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5573",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋夜读九歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5572",
+      "dynasty": "清"
+    },
+    {
+      "title": "孔东塘博士招同人集傍花村",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2615",
+      "dynasty": "清"
+    },
+    {
+      "title": "春寒",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2614",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋夜读九歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2613",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

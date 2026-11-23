@@ -1,0 +1,152 @@
+{
+  "name": "陈学洙",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 22,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "与缪天自夜话",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4555",
+      "dynasty": "清"
+    },
+    {
+      "title": "别弟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4552",
+      "dynasty": "清"
+    },
+    {
+      "title": "君子行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4549",
+      "dynasty": "清"
+    },
+    {
+      "title": "哭外舅刘西翰先生",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4557",
+      "dynasty": "清"
+    },
+    {
+      "title": "忧旱谣",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4551",
+      "dynasty": "清"
+    },
+    {
+      "title": "悼内",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4559",
+      "dynasty": "清"
+    },
+    {
+      "title": "燕京杂咏",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4554",
+      "dynasty": "清"
+    },
+    {
+      "title": "茉莉",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4556",
+      "dynasty": "清"
+    },
+    {
+      "title": "行次滕县",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4553",
+      "dynasty": "清"
+    },
+    {
+      "title": "送倬云南还",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4558",
+      "dynasty": "清"
+    },
+    {
+      "title": "阅省试录见璋儿名喜而作此",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4550",
+      "dynasty": "清"
+    },
+    {
+      "title": "与缪天自夜话",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1596",
+      "dynasty": "清"
+    },
+    {
+      "title": "别弟",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1593",
+      "dynasty": "清"
+    },
+    {
+      "title": "君子行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1590",
+      "dynasty": "清"
+    },
+    {
+      "title": "哭外舅刘西翰先生",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1598",
+      "dynasty": "清"
+    },
+    {
+      "title": "忧旱谣",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1592",
+      "dynasty": "清"
+    },
+    {
+      "title": "悼内",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1600",
+      "dynasty": "清"
+    },
+    {
+      "title": "燕京杂咏",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1595",
+      "dynasty": "清"
+    },
+    {
+      "title": "茉莉",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1597",
+      "dynasty": "清"
+    },
+    {
+      "title": "行次滕县",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1594",
+      "dynasty": "清"
+    },
+    {
+      "title": "送倬云南还",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1599",
+      "dynasty": "清"
+    },
+    {
+      "title": "阅省试录见璋儿名喜而作此",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1591",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

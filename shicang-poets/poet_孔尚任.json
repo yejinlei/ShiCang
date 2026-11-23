@@ -1,0 +1,57 @@
+{
+  "name": "孔尚任",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "忆昔",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4319",
+      "dynasty": "清"
+    },
+    {
+      "title": "红桥",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4318",
+      "dynasty": "清"
+    },
+    {
+      "title": "忆昔",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1360",
+      "dynasty": "清"
+    },
+    {
+      "title": "红桥",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1359",
+      "dynasty": "清"
+    },
+    {
+      "title": "鹧鸪天",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1098",
+      "dynasty": "清末"
+    },
+    {
+      "title": "鹧鸪天",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=51",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": false
+}

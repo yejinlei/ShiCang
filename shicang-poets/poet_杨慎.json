@@ -1,0 +1,224 @@
+{
+  "name": "杨慎",
+  "zi": "用修",
+  "hao": "升庵",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "新都",
+  "style": "#C0392B",
+  "school": "明代三才子",
+  "years": "1488—1559",
+  "bio": "明代三大才子之首，贬云南终身未还。代表作《临江仙·滚滚长江东逝水》。",
+  "work_count": 34,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "垂杨篇",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2391",
+      "dynasty": "明"
+    },
+    {
+      "title": "塞垣鹧鸪词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2393",
+      "dynasty": "明"
+    },
+    {
+      "title": "宿金沙江",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2388",
+      "dynasty": "明"
+    },
+    {
+      "title": "怀归",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2397",
+      "dynasty": "明"
+    },
+    {
+      "title": "春兴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2395",
+      "dynasty": "明"
+    },
+    {
+      "title": "望山有怀故人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2401",
+      "dynasty": "明"
+    },
+    {
+      "title": "柳",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2396",
+      "dynasty": "明"
+    },
+    {
+      "title": "武侯庙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2398",
+      "dynasty": "明"
+    },
+    {
+      "title": "江陵舟中赠田李二子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2400",
+      "dynasty": "明"
+    },
+    {
+      "title": "涪江泛舟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2399",
+      "dynasty": "明"
+    },
+    {
+      "title": "赋得千山红树图送杨茂之",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2390",
+      "dynasty": "明"
+    },
+    {
+      "title": "过韩信岭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2402",
+      "dynasty": "明"
+    },
+    {
+      "title": "送余学官归罗江",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2392",
+      "dynasty": "明"
+    },
+    {
+      "title": "送彭幸庵尚书致仕",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2394",
+      "dynasty": "明"
+    },
+    {
+      "title": "锦津舟中对酒别刘善充",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2389",
+      "dynasty": "明"
+    },
+    {
+      "title": "闺怨",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2403",
+      "dynasty": "明"
+    },
+    {
+      "title": "垂杨篇",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=387",
+      "dynasty": "明"
+    },
+    {
+      "title": "塞垣鹧鸪词",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=389",
+      "dynasty": "明"
+    },
+    {
+      "title": "宿金沙江",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=384",
+      "dynasty": "明"
+    },
+    {
+      "title": "怀归",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=393",
+      "dynasty": "明"
+    },
+    {
+      "title": "春兴",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=391",
+      "dynasty": "明"
+    },
+    {
+      "title": "望山有怀故人",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=397",
+      "dynasty": "明"
+    },
+    {
+      "title": "柳",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=392",
+      "dynasty": "明"
+    },
+    {
+      "title": "武侯庙",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=394",
+      "dynasty": "明"
+    },
+    {
+      "title": "江陵舟中赠田李二子",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=396",
+      "dynasty": "明"
+    },
+    {
+      "title": "涪江泛舟",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=395",
+      "dynasty": "明"
+    },
+    {
+      "title": "赋得千山红树图送杨茂之",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=386",
+      "dynasty": "明"
+    },
+    {
+      "title": "过韩信岭",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=398",
+      "dynasty": "明"
+    },
+    {
+      "title": "送余学官归罗江",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=388",
+      "dynasty": "明"
+    },
+    {
+      "title": "送彭幸庵尚书致仕",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=390",
+      "dynasty": "明"
+    },
+    {
+      "title": "锦津舟中对酒别刘善充",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=385",
+      "dynasty": "明"
+    },
+    {
+      "title": "闺怨",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=399",
+      "dynasty": "明"
+    },
+    {
+      "title": "临江仙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0773",
+      "dynasty": "明末清初"
+    },
+    {
+      "title": "出郊",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0774",
+      "dynasty": "明末清初"
+    }
+  ],
+  "has_bio": true
+}

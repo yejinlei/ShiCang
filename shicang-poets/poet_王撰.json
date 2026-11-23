@@ -1,0 +1,44 @@
+{
+  "name": "王撰",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "哭外舅鹿城顾大宗伯（自注：丙戍死难温州江心寺。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4344",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠杜于皇",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4345",
+      "dynasty": "清"
+    },
+    {
+      "title": "哭外舅鹿城顾大宗伯（自注：丙戍死难温州江心寺。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1385",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠杜于皇",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1386",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

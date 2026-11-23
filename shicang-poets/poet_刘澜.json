@@ -1,0 +1,68 @@
+{
+  "name": "刘澜",
+  "zi": "",
+  "hao": "",
+  "dynasty": "宋",
+  "d_order": 8,
+  "birthplace": "",
+  "style": "#7F8C8D",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "绝妙好词"
+  ],
+  "works": [
+    {
+      "title": "庆宫春",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7455",
+      "dynasty": "宋"
+    },
+    {
+      "title": "摸鱼儿",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7458",
+      "dynasty": "宋"
+    },
+    {
+      "title": "端鹤仙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7456",
+      "dynasty": "宋"
+    },
+    {
+      "title": "齐天乐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7457",
+      "dynasty": "宋"
+    },
+    {
+      "title": "吴兴郡宴遇旧人·齐天乐",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=271",
+      "dynasty": "宋"
+    },
+    {
+      "title": "摸鱼儿",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=272",
+      "dynasty": "宋"
+    },
+    {
+      "title": "海棠·端鹤仙",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=270",
+      "dynasty": "宋"
+    },
+    {
+      "title": "重登峨眉亭感旧·庆宫春",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=269",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

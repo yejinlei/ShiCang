@@ -1,0 +1,44 @@
+{
+  "name": "左辅",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清末",
+  "d_order": 16,
+  "birthplace": "",
+  "style": "#795548",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "南浦",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1196",
+      "dynasty": "清末"
+    },
+    {
+      "title": "浪淘沙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1195",
+      "dynasty": "清末"
+    },
+    {
+      "title": "夜寻琵琶亭·南浦",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=152",
+      "dynasty": "清末"
+    },
+    {
+      "title": "曹溪驿折桃花一枝，数日零落，里花片投之涪江，歌此送之。·浪淘沙",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=151",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": false
+}

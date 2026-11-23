@@ -1,0 +1,68 @@
+{
+  "name": "申时行",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "大阅诗应制",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2517",
+      "dynasty": "明"
+    },
+    {
+      "title": "江行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2518",
+      "dynasty": "明"
+    },
+    {
+      "title": "汴河守冻",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2519",
+      "dynasty": "明"
+    },
+    {
+      "title": "题清秋出塞图",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2516",
+      "dynasty": "明"
+    },
+    {
+      "title": "大阅诗应制",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=513",
+      "dynasty": "明"
+    },
+    {
+      "title": "江行",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=514",
+      "dynasty": "明"
+    },
+    {
+      "title": "汴河守冻",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=515",
+      "dynasty": "明"
+    },
+    {
+      "title": "题清秋出塞图",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=512",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,213 @@
+{
+  "name": "苏轼",
+  "zi": "子瞻",
+  "hao": "东坡居士",
+  "dynasty": "北宋",
+  "d_order": 7,
+  "birthplace": "眉州眉山",
+  "style": "#2980B9",
+  "school": "豪放派·八大家",
+  "years": "1037—1101",
+  "bio": "北宋文学最高成就代表，诗、词、文、书、画皆精，词开豪放一派，与辛弃疾并称「苏辛」。代表作《水调歌头》《念奴娇·赤壁怀古》《赤壁赋》。",
+  "work_count": 32,
+  "anthologies": [
+    "千家诗",
+    "名篇精读",
+    "宋词三百首"
+  ],
+  "works": [
+    {
+      "title": "上元侍宴",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=90",
+      "dynasty": "宋"
+    },
+    {
+      "title": "春宵",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=85",
+      "dynasty": "宋"
+    },
+    {
+      "title": "海棠",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=99",
+      "dynasty": "宋"
+    },
+    {
+      "title": "花影",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=115",
+      "dynasty": "宋"
+    },
+    {
+      "title": "饮湖上初晴后雨",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=151",
+      "dynasty": "宋"
+    },
+    {
+      "title": "上元侍宴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0914",
+      "dynasty": "宋"
+    },
+    {
+      "title": "临江仙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0631",
+      "dynasty": "宋"
+    },
+    {
+      "title": "卜算子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0632",
+      "dynasty": "宋"
+    },
+    {
+      "title": "定风波",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0633",
+      "dynasty": "宋"
+    },
+    {
+      "title": "念奴娇",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0634",
+      "dynasty": "宋"
+    },
+    {
+      "title": "春宵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0909",
+      "dynasty": "宋"
+    },
+    {
+      "title": "水调歌头",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0635",
+      "dynasty": "宋"
+    },
+    {
+      "title": "水龙吟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0636",
+      "dynasty": "宋"
+    },
+    {
+      "title": "永遇乐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0637",
+      "dynasty": "宋"
+    },
+    {
+      "title": "江城子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0638",
+      "dynasty": "宋"
+    },
+    {
+      "title": "洞仙歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0639",
+      "dynasty": "宋"
+    },
+    {
+      "title": "浣溪沙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0640",
+      "dynasty": "宋"
+    },
+    {
+      "title": "海棠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0923",
+      "dynasty": "宋"
+    },
+    {
+      "title": "花影",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0936",
+      "dynasty": "宋"
+    },
+    {
+      "title": "蝶恋花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0641",
+      "dynasty": "宋"
+    },
+    {
+      "title": "贺新郎",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0642",
+      "dynasty": "宋"
+    },
+    {
+      "title": "青玉案",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0643",
+      "dynasty": "宋"
+    },
+    {
+      "title": "题西林壁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0826",
+      "dynasty": "宋"
+    },
+    {
+      "title": "饮湖上初晴后雨",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0970",
+      "dynasty": "宋"
+    },
+    {
+      "title": "临江仙",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=64",
+      "dynasty": "宋"
+    },
+    {
+      "title": "定风波",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=65",
+      "dynasty": "宋"
+    },
+    {
+      "title": "彭城夜宿燕子楼，梦盼盼，因作此词·永遇乐",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=60",
+      "dynasty": "宋"
+    },
+    {
+      "title": "次韵章质夫《杨花词》·水龙吟",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=59",
+      "dynasty": "宋"
+    },
+    {
+      "title": "洞仙歌",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=61",
+      "dynasty": "宋"
+    },
+    {
+      "title": "贺新郎",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=66",
+      "dynasty": "宋"
+    },
+    {
+      "title": "送伯固归吴中·青玉案",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=63",
+      "dynasty": "宋"
+    },
+    {
+      "title": "黄州定惠院寓居作·卜算子",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=62",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": true
+}

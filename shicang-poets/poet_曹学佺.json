@@ -1,0 +1,68 @@
+{
+  "name": "曹学佺",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "夜泊彭山江口",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2721",
+      "dynasty": "明"
+    },
+    {
+      "title": "泰昌皇帝挽歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2722",
+      "dynasty": "明"
+    },
+    {
+      "title": "过木渎",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2723",
+      "dynasty": "明"
+    },
+    {
+      "title": "送陈民部出守思州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2724",
+      "dynasty": "明"
+    },
+    {
+      "title": "夜泊彭山江口",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=717",
+      "dynasty": "明"
+    },
+    {
+      "title": "泰昌皇帝挽歌",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=718",
+      "dynasty": "明"
+    },
+    {
+      "title": "过木渎",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=719",
+      "dynasty": "明"
+    },
+    {
+      "title": "送陈民部出守思州",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=720",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

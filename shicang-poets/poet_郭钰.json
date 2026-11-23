@@ -1,0 +1,80 @@
+{
+  "name": "郭钰",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "和杨茂才闲居",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=304",
+      "dynasty": "元"
+    },
+    {
+      "title": "和酬宋竹坡韵",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=306",
+      "dynasty": "元"
+    },
+    {
+      "title": "忆从弟铎",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=171",
+      "dynasty": "元"
+    },
+    {
+      "title": "秋望",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=170",
+      "dynasty": "元"
+    },
+    {
+      "title": "访友人别墅",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=305",
+      "dynasty": "元"
+    },
+    {
+      "title": "和杨茂才闲居",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1766",
+      "dynasty": "元"
+    },
+    {
+      "title": "和酬宋竹坡韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1768",
+      "dynasty": "元"
+    },
+    {
+      "title": "忆从弟铎",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1633",
+      "dynasty": "元"
+    },
+    {
+      "title": "秋望",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1632",
+      "dynasty": "元"
+    },
+    {
+      "title": "访友人别墅",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1767",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

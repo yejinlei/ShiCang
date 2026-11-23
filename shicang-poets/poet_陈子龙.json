@@ -1,0 +1,315 @@
+{
+  "name": "陈子龙",
+  "zi": "卧子",
+  "hao": "大樽",
+  "dynasty": "明末",
+  "d_order": 13,
+  "birthplace": "松江华亭",
+  "style": "#7F8C8D",
+  "school": "云间派",
+  "years": "1608—1647",
+  "bio": "明末爱国诗人，「云间派」领袖，明亡举兵抗清殉国。",
+  "work_count": 49,
+  "anthologies": [
+    "名篇精读",
+    "明诗",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "交河",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2785",
+      "dynasty": "明"
+    },
+    {
+      "title": "仲夏值左掖门，送夏彝仲南归",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2780",
+      "dynasty": "明"
+    },
+    {
+      "title": "寄献石斋先生",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2784",
+      "dynasty": "明"
+    },
+    {
+      "title": "小车行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2783",
+      "dynasty": "明"
+    },
+    {
+      "title": "平陵东",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2782",
+      "dynasty": "明"
+    },
+    {
+      "title": "庐居",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2786",
+      "dynasty": "明"
+    },
+    {
+      "title": "曜灵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2779",
+      "dynasty": "明"
+    },
+    {
+      "title": "杂感",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2788",
+      "dynasty": "明"
+    },
+    {
+      "title": "杂诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2781",
+      "dynasty": "明"
+    },
+    {
+      "title": "襄阳",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2787",
+      "dynasty": "明"
+    },
+    {
+      "title": "送吴峦稚司李桂林",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2792",
+      "dynasty": "明"
+    },
+    {
+      "title": "送张玉笥中丞擢河道少司空随召陛见",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2789",
+      "dynasty": "明"
+    },
+    {
+      "title": "酬李司马萍槎先生",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2790",
+      "dynasty": "明"
+    },
+    {
+      "title": "重游弇园",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2793",
+      "dynasty": "明"
+    },
+    {
+      "title": "钱塘东望有感",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2791",
+      "dynasty": "明"
+    },
+    {
+      "title": "交河",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=781",
+      "dynasty": "明"
+    },
+    {
+      "title": "仲夏值左掖门，送夏彝仲南归",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=776",
+      "dynasty": "明"
+    },
+    {
+      "title": "寄献石斋先生",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=780",
+      "dynasty": "明"
+    },
+    {
+      "title": "小车行",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=779",
+      "dynasty": "明"
+    },
+    {
+      "title": "平陵东",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=778",
+      "dynasty": "明"
+    },
+    {
+      "title": "庐居",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=782",
+      "dynasty": "明"
+    },
+    {
+      "title": "曜灵",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=775",
+      "dynasty": "明"
+    },
+    {
+      "title": "杂感",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=784",
+      "dynasty": "明"
+    },
+    {
+      "title": "杂诗",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=777",
+      "dynasty": "明"
+    },
+    {
+      "title": "襄阳",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=783",
+      "dynasty": "明"
+    },
+    {
+      "title": "送吴峦稚司李桂林",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=788",
+      "dynasty": "明"
+    },
+    {
+      "title": "送张玉笥中丞擢河道少司空随召陛见",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=785",
+      "dynasty": "明"
+    },
+    {
+      "title": "酬李司马萍槎先生",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=786",
+      "dynasty": "明"
+    },
+    {
+      "title": "重游弇园",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=789",
+      "dynasty": "明"
+    },
+    {
+      "title": "钱塘东望有感",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=787",
+      "dynasty": "明"
+    },
+    {
+      "title": "点绛唇·春日风雨有感",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0803",
+      "dynasty": "明末清初"
+    },
+    {
+      "title": "少年游",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1054",
+      "dynasty": "清末"
+    },
+    {
+      "title": "山花子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1053",
+      "dynasty": "清末"
+    },
+    {
+      "title": "江城子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1055",
+      "dynasty": "清末"
+    },
+    {
+      "title": "浣溪沙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1048",
+      "dynasty": "清末"
+    },
+    {
+      "title": "点绛唇",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1047",
+      "dynasty": "清末"
+    },
+    {
+      "title": "画堂春",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1051",
+      "dynasty": "清末"
+    },
+    {
+      "title": "诉衷情",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1049",
+      "dynasty": "清末"
+    },
+    {
+      "title": "谒金门",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1050",
+      "dynasty": "清末"
+    },
+    {
+      "title": "醉桃源",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1052",
+      "dynasty": "清末"
+    },
+    {
+      "title": "五月雨·谒金门",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=3",
+      "dynasty": "清末"
+    },
+    {
+      "title": "春恨·山花子",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=6",
+      "dynasty": "清末"
+    },
+    {
+      "title": "春情·少年游",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=7",
+      "dynasty": "清末"
+    },
+    {
+      "title": "春日风雨有感·点绛唇",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=0",
+      "dynasty": "清末"
+    },
+    {
+      "title": "春游·诉衷情",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=2",
+      "dynasty": "清末"
+    },
+    {
+      "title": "杨花·浣溪沙",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=1",
+      "dynasty": "清末"
+    },
+    {
+      "title": "病起春尽·江城子",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=8",
+      "dynasty": "清末"
+    },
+    {
+      "title": "雨中杏花·画堂春",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=4",
+      "dynasty": "清末"
+    },
+    {
+      "title": "题画·醉桃源",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=5",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": true
+}

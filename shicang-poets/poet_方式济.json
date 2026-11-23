@@ -1,0 +1,164 @@
+{
+  "name": "方式济",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 24,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "八月十七日霜",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5199",
+      "dynasty": "清"
+    },
+    {
+      "title": "城上乌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5204",
+      "dynasty": "清"
+    },
+    {
+      "title": "扫地",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5201",
+      "dynasty": "清"
+    },
+    {
+      "title": "护菊",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5200",
+      "dynasty": "清"
+    },
+    {
+      "title": "法塔哈门（自注：奉天以北第二关，过稽林百八十里。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5208",
+      "dynasty": "清"
+    },
+    {
+      "title": "蜀锦曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5203",
+      "dynasty": "清"
+    },
+    {
+      "title": "远行曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5197",
+      "dynasty": "清"
+    },
+    {
+      "title": "送朱鹿田之任蜀中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5207",
+      "dynasty": "清"
+    },
+    {
+      "title": "采萱",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5202",
+      "dynasty": "清"
+    },
+    {
+      "title": "铁五送至蒲河赋别",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5198",
+      "dynasty": "清"
+    },
+    {
+      "title": "陇头水",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5205",
+      "dynasty": "清"
+    },
+    {
+      "title": "题遂安邹广文效忠图",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5206",
+      "dynasty": "清"
+    },
+    {
+      "title": "八月十七日霜",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2240",
+      "dynasty": "清"
+    },
+    {
+      "title": "城上乌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2245",
+      "dynasty": "清"
+    },
+    {
+      "title": "扫地",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2242",
+      "dynasty": "清"
+    },
+    {
+      "title": "护菊",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2241",
+      "dynasty": "清"
+    },
+    {
+      "title": "法塔哈门（自注：奉天以北第二关，过稽林百八十里。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2249",
+      "dynasty": "清"
+    },
+    {
+      "title": "蜀锦曲",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2244",
+      "dynasty": "清"
+    },
+    {
+      "title": "远行曲",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2238",
+      "dynasty": "清"
+    },
+    {
+      "title": "送朱鹿田之任蜀中",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2248",
+      "dynasty": "清"
+    },
+    {
+      "title": "采萱",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2243",
+      "dynasty": "清"
+    },
+    {
+      "title": "铁五送至蒲河赋别",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2239",
+      "dynasty": "清"
+    },
+    {
+      "title": "陇头水",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2246",
+      "dynasty": "清"
+    },
+    {
+      "title": "题遂安邹广文效忠图",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2247",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

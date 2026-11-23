@@ -1,0 +1,224 @@
+{
+  "name": "丁澎",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 34,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "东冈",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3358",
+      "dynasty": "清"
+    },
+    {
+      "title": "初至靖安寄邸中诸旧友",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3357",
+      "dynasty": "清"
+    },
+    {
+      "title": "听旧宫人弹筝",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3368",
+      "dynasty": "清"
+    },
+    {
+      "title": "塞上曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3369",
+      "dynasty": "清"
+    },
+    {
+      "title": "度岭见长城",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3363",
+      "dynasty": "清"
+    },
+    {
+      "title": "慰李琳枝侍御诏狱",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3356",
+      "dynasty": "清"
+    },
+    {
+      "title": "报宋荔裳观察",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3361",
+      "dynasty": "清"
+    },
+    {
+      "title": "望天寿山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3367",
+      "dynasty": "清"
+    },
+    {
+      "title": "见燕",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3362",
+      "dynasty": "清"
+    },
+    {
+      "title": "过长洲吴瑶如郡守招饮漫赋",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3364",
+      "dynasty": "清"
+    },
+    {
+      "title": "送孙九畹备兵保宁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3360",
+      "dynasty": "清"
+    },
+    {
+      "title": "送徐征君电发辟召之京",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3366",
+      "dynasty": "清"
+    },
+    {
+      "title": "送汪舟次检讨奉使册封琉球",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3365",
+      "dynasty": "清"
+    },
+    {
+      "title": "送王山长还梦南",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3355",
+      "dynasty": "清"
+    },
+    {
+      "title": "送赵锦帆比部归汴州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3359",
+      "dynasty": "清"
+    },
+    {
+      "title": "题曾青藜尊人传后",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3354",
+      "dynasty": "清"
+    },
+    {
+      "title": "风霾行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3353",
+      "dynasty": "清"
+    },
+    {
+      "title": "东冈",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=399",
+      "dynasty": "清"
+    },
+    {
+      "title": "初至靖安寄邸中诸旧友",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=398",
+      "dynasty": "清"
+    },
+    {
+      "title": "听旧宫人弹筝",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=409",
+      "dynasty": "清"
+    },
+    {
+      "title": "塞上曲",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=410",
+      "dynasty": "清"
+    },
+    {
+      "title": "度岭见长城",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=404",
+      "dynasty": "清"
+    },
+    {
+      "title": "慰李琳枝侍御诏狱",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=397",
+      "dynasty": "清"
+    },
+    {
+      "title": "报宋荔裳观察",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=402",
+      "dynasty": "清"
+    },
+    {
+      "title": "望天寿山",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=408",
+      "dynasty": "清"
+    },
+    {
+      "title": "见燕",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=403",
+      "dynasty": "清"
+    },
+    {
+      "title": "过长洲吴瑶如郡守招饮漫赋",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=405",
+      "dynasty": "清"
+    },
+    {
+      "title": "送孙九畹备兵保宁",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=401",
+      "dynasty": "清"
+    },
+    {
+      "title": "送徐征君电发辟召之京",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=407",
+      "dynasty": "清"
+    },
+    {
+      "title": "送汪舟次检讨奉使册封琉球",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=406",
+      "dynasty": "清"
+    },
+    {
+      "title": "送王山长还梦南",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=396",
+      "dynasty": "清"
+    },
+    {
+      "title": "送赵锦帆比部归汴州",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=400",
+      "dynasty": "清"
+    },
+    {
+      "title": "题曾青藜尊人传后",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=395",
+      "dynasty": "清"
+    },
+    {
+      "title": "风霾行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=394",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

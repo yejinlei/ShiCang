@@ -1,0 +1,56 @@
+{
+  "name": "刘诜",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "出墅初冬",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=59",
+      "dynasty": "元"
+    },
+    {
+      "title": "对客暮坐",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=190",
+      "dynasty": "元"
+    },
+    {
+      "title": "送范主一宪郎",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=58",
+      "dynasty": "元"
+    },
+    {
+      "title": "出墅初冬",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1521",
+      "dynasty": "元"
+    },
+    {
+      "title": "对客暮坐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1652",
+      "dynasty": "元"
+    },
+    {
+      "title": "送范主一宪郎",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1520",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

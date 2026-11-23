@@ -1,0 +1,80 @@
+{
+  "name": "吴襄",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "柏乡雨花庵口占",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5289",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋吟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5292",
+      "dynasty": "清"
+    },
+    {
+      "title": "送徐斋先辈奏使琉球",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5291",
+      "dynasty": "清"
+    },
+    {
+      "title": "题黄山蒲团石",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5293",
+      "dynasty": "清"
+    },
+    {
+      "title": "黄花一联",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5290",
+      "dynasty": "清"
+    },
+    {
+      "title": "柏乡雨花庵口占",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2330",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋吟",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2333",
+      "dynasty": "清"
+    },
+    {
+      "title": "送徐斋先辈奏使琉球",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2332",
+      "dynasty": "清"
+    },
+    {
+      "title": "题黄山蒲团石",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2334",
+      "dynasty": "清"
+    },
+    {
+      "title": "黄花一联",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2331",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

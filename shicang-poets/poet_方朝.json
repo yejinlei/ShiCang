@@ -1,0 +1,200 @@
+{
+  "name": "方朝",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 30,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "三峡涧",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5849",
+      "dynasty": "清"
+    },
+    {
+      "title": "中宿峡",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5845",
+      "dynasty": "清"
+    },
+    {
+      "title": "出峡",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5846",
+      "dynasty": "清"
+    },
+    {
+      "title": "力田",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5851",
+      "dynasty": "清"
+    },
+    {
+      "title": "听抚洞庭秋思曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5859",
+      "dynasty": "清"
+    },
+    {
+      "title": "大江吟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5854",
+      "dynasty": "清"
+    },
+    {
+      "title": "峡口",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5858",
+      "dynasty": "清"
+    },
+    {
+      "title": "开先寺观瀑布",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5848",
+      "dynasty": "清"
+    },
+    {
+      "title": "春日自邓尉移棹支硎山中信宿",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5852",
+      "dynasty": "清"
+    },
+    {
+      "title": "月下自寒山还至莲花峰下",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5853",
+      "dynasty": "清"
+    },
+    {
+      "title": "江夜有怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5856",
+      "dynasty": "清"
+    },
+    {
+      "title": "清溪",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5857",
+      "dynasty": "清"
+    },
+    {
+      "title": "由临川北道抵馀干山行五首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5847",
+      "dynasty": "清"
+    },
+    {
+      "title": "碧落洞",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5850",
+      "dynasty": "清"
+    },
+    {
+      "title": "藐姑山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5855",
+      "dynasty": "清"
+    },
+    {
+      "title": "三峡涧",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2890",
+      "dynasty": "清"
+    },
+    {
+      "title": "中宿峡",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2886",
+      "dynasty": "清"
+    },
+    {
+      "title": "出峡",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2887",
+      "dynasty": "清"
+    },
+    {
+      "title": "力田",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2892",
+      "dynasty": "清"
+    },
+    {
+      "title": "听抚洞庭秋思曲",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2900",
+      "dynasty": "清"
+    },
+    {
+      "title": "大江吟",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2895",
+      "dynasty": "清"
+    },
+    {
+      "title": "峡口",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2899",
+      "dynasty": "清"
+    },
+    {
+      "title": "开先寺观瀑布",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2889",
+      "dynasty": "清"
+    },
+    {
+      "title": "春日自邓尉移棹支硎山中信宿",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2893",
+      "dynasty": "清"
+    },
+    {
+      "title": "月下自寒山还至莲花峰下",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2894",
+      "dynasty": "清"
+    },
+    {
+      "title": "江夜有怀",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2897",
+      "dynasty": "清"
+    },
+    {
+      "title": "清溪",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2898",
+      "dynasty": "清"
+    },
+    {
+      "title": "由临川北道抵馀干山行五首",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2888",
+      "dynasty": "清"
+    },
+    {
+      "title": "碧落洞",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2891",
+      "dynasty": "清"
+    },
+    {
+      "title": "藐姑山",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2896",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

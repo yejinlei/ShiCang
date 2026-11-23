@@ -1,0 +1,68 @@
+{
+  "name": "杨士凝",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "不如归去",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5322",
+      "dynasty": "清"
+    },
+    {
+      "title": "吴江",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5323",
+      "dynasty": "清"
+    },
+    {
+      "title": "雨霖铃曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5324",
+      "dynasty": "清"
+    },
+    {
+      "title": "饥民谣",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5321",
+      "dynasty": "清"
+    },
+    {
+      "title": "不如归去",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2363",
+      "dynasty": "清"
+    },
+    {
+      "title": "吴江",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2364",
+      "dynasty": "清"
+    },
+    {
+      "title": "雨霖铃曲",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2365",
+      "dynasty": "清"
+    },
+    {
+      "title": "饥民谣",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2362",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,56 @@
+{
+  "name": "李绂",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "夏至日荥泽渡黄河",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5194",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋山学圃为张韦斋明府题",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5195",
+      "dynasty": "清"
+    },
+    {
+      "title": "驿南铺不寐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5196",
+      "dynasty": "清"
+    },
+    {
+      "title": "夏至日荥泽渡黄河",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2235",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋山学圃为张韦斋明府题",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2236",
+      "dynasty": "清"
+    },
+    {
+      "title": "驿南铺不寐",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2237",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

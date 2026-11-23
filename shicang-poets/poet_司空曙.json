@@ -1,0 +1,135 @@
+{
+  "name": "司空曙",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 19,
+  "anthologies": [
+    "万寿唐诗",
+    "千家诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "发渝州却寄韦判官",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=335",
+      "dynasty": "唐"
+    },
+    {
+      "title": "古寺花",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=334",
+      "dynasty": "唐"
+    },
+    {
+      "title": "峡口送友人",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=337",
+      "dynasty": "唐"
+    },
+    {
+      "title": "登岘亭",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=333",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送卢彻之太原",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=336",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送卢秦卿",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=122",
+      "dynasty": "唐"
+    },
+    {
+      "title": "金陵怀古",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=121",
+      "dynasty": "唐"
+    },
+    {
+      "title": "别卢秦卿",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=37",
+      "dynasty": "唐"
+    },
+    {
+      "title": "云阳馆与韩绅宿别",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0122",
+      "dynasty": "唐"
+    },
+    {
+      "title": "别卢秦卿",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0870",
+      "dynasty": "唐"
+    },
+    {
+      "title": "发渝州却寄韦判官",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6794",
+      "dynasty": "唐"
+    },
+    {
+      "title": "古寺花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6793",
+      "dynasty": "唐"
+    },
+    {
+      "title": "喜外弟卢纶见宿",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0123",
+      "dynasty": "唐"
+    },
+    {
+      "title": "峡口送友人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6796",
+      "dynasty": "唐"
+    },
+    {
+      "title": "登岘亭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6792",
+      "dynasty": "唐"
+    },
+    {
+      "title": "贼平后送人北归",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0124",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送卢彻之太原",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6795",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送卢秦卿",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6598",
+      "dynasty": "唐"
+    },
+    {
+      "title": "金陵怀古",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6597",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

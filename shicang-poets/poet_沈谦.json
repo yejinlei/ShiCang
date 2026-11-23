@@ -1,0 +1,80 @@
+{
+  "name": "沈谦",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "引声歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3786",
+      "dynasty": "清"
+    },
+    {
+      "title": "晚眺",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3789",
+      "dynasty": "清"
+    },
+    {
+      "title": "樵歌行（自注：祖望自号西山樵夫，尝以《渔父词》赠予，故有此答。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3787",
+      "dynasty": "清"
+    },
+    {
+      "title": "送人之山东",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3788",
+      "dynasty": "清"
+    },
+    {
+      "title": "送友人北上",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3790",
+      "dynasty": "清"
+    },
+    {
+      "title": "引声歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=827",
+      "dynasty": "清"
+    },
+    {
+      "title": "晚眺",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=830",
+      "dynasty": "清"
+    },
+    {
+      "title": "樵歌行（自注：祖望自号西山樵夫，尝以《渔父词》赠予，故有此答。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=828",
+      "dynasty": "清"
+    },
+    {
+      "title": "送人之山东",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=829",
+      "dynasty": "清"
+    },
+    {
+      "title": "送友人北上",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=831",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

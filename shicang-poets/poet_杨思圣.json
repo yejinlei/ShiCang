@@ -1,0 +1,44 @@
+{
+  "name": "杨思圣",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "入栈纪行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3105",
+      "dynasty": "清"
+    },
+    {
+      "title": "飘风行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3106",
+      "dynasty": "清"
+    },
+    {
+      "title": "入栈纪行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=146",
+      "dynasty": "清"
+    },
+    {
+      "title": "飘风行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=147",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

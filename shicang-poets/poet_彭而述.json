@@ -1,0 +1,80 @@
+{
+  "name": "彭而述",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "再登黄鹤楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3073",
+      "dynasty": "清"
+    },
+    {
+      "title": "别滇中僚友之官粤西",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3072",
+      "dynasty": "清"
+    },
+    {
+      "title": "卫藩旧邸遇酒南将军",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3071",
+      "dynasty": "清"
+    },
+    {
+      "title": "庚寅八月六日忆母",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3074",
+      "dynasty": "清"
+    },
+    {
+      "title": "鄂渚别赵兴宁柱史之官滇南",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3075",
+      "dynasty": "清"
+    },
+    {
+      "title": "再登黄鹤楼",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=114",
+      "dynasty": "清"
+    },
+    {
+      "title": "别滇中僚友之官粤西",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=113",
+      "dynasty": "清"
+    },
+    {
+      "title": "卫藩旧邸遇酒南将军",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=112",
+      "dynasty": "清"
+    },
+    {
+      "title": "庚寅八月六日忆母",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=115",
+      "dynasty": "清"
+    },
+    {
+      "title": "鄂渚别赵兴宁柱史之官滇南",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=116",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

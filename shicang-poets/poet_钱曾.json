@@ -1,0 +1,56 @@
+{
+  "name": "钱曾",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "梅村先生枉驾相访，酒间商榷绥寇纪略，有感赋此",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3828",
+      "dynasty": "清"
+    },
+    {
+      "title": "湘灵先生移居诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3829",
+      "dynasty": "清"
+    },
+    {
+      "title": "蝶",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3827",
+      "dynasty": "清"
+    },
+    {
+      "title": "梅村先生枉驾相访，酒间商榷绥寇纪略，有感赋此",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=869",
+      "dynasty": "清"
+    },
+    {
+      "title": "湘灵先生移居诗",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=870",
+      "dynasty": "清"
+    },
+    {
+      "title": "蝶",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=868",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

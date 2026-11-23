@@ -1,0 +1,56 @@
+{
+  "name": "汪广洋",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "忠勤楼诸老夜直，余时守省，作诗寄之",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2022",
+      "dynasty": "明"
+    },
+    {
+      "title": "登南海驿楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2024",
+      "dynasty": "明"
+    },
+    {
+      "title": "送许时用归越",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2023",
+      "dynasty": "明"
+    },
+    {
+      "title": "忠勤楼诸老夜直，余时守省，作诗寄之",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=17",
+      "dynasty": "明"
+    },
+    {
+      "title": "登南海驿楼",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=19",
+      "dynasty": "明"
+    },
+    {
+      "title": "送许时用归越",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=18",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

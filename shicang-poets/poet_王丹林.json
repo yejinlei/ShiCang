@@ -1,0 +1,92 @@
+{
+  "name": "王丹林",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 12,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "乾斋再赋白楼花重和",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5090",
+      "dynasty": "清"
+    },
+    {
+      "title": "寒食",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5091",
+      "dynasty": "清"
+    },
+    {
+      "title": "悼亡妹",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5093",
+      "dynasty": "清"
+    },
+    {
+      "title": "白桃花次乾斋侍读韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5089",
+      "dynasty": "清"
+    },
+    {
+      "title": "银塘曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5088",
+      "dynasty": "清"
+    },
+    {
+      "title": "题桃叶渡江图",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5092",
+      "dynasty": "清"
+    },
+    {
+      "title": "乾斋再赋白楼花重和",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2131",
+      "dynasty": "清"
+    },
+    {
+      "title": "寒食",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2132",
+      "dynasty": "清"
+    },
+    {
+      "title": "悼亡妹",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2134",
+      "dynasty": "清"
+    },
+    {
+      "title": "白桃花次乾斋侍读韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2130",
+      "dynasty": "清"
+    },
+    {
+      "title": "银塘曲",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2129",
+      "dynasty": "清"
+    },
+    {
+      "title": "题桃叶渡江图",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2133",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

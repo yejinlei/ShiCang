@@ -1,0 +1,92 @@
+{
+  "name": "杨载",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 12,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "宗阳宫望月分韵得声字",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=246",
+      "dynasty": "元"
+    },
+    {
+      "title": "宿浚仪公湖亭",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=413",
+      "dynasty": "元"
+    },
+    {
+      "title": "春晚喜晴",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=377",
+      "dynasty": "元"
+    },
+    {
+      "title": "暮春游西湖北山",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=506",
+      "dynasty": "元"
+    },
+    {
+      "title": "赠孙思顺",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=248",
+      "dynasty": "元"
+    },
+    {
+      "title": "题沈君湖山春晓图诗卷",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=247",
+      "dynasty": "元"
+    },
+    {
+      "title": "宗阳宫望月分韵得声字",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1708",
+      "dynasty": "元"
+    },
+    {
+      "title": "宿浚仪公湖亭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1875",
+      "dynasty": "元"
+    },
+    {
+      "title": "春晚喜晴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1839",
+      "dynasty": "元"
+    },
+    {
+      "title": "暮春游西湖北山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1968",
+      "dynasty": "元"
+    },
+    {
+      "title": "赠孙思顺",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1710",
+      "dynasty": "元"
+    },
+    {
+      "title": "题沈君湖山春晓图诗卷",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1709",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

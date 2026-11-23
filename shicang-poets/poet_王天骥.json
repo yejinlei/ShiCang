@@ -1,0 +1,44 @@
+{
+  "name": "王天骥",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "孤坐斋",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5615",
+      "dynasty": "清"
+    },
+    {
+      "title": "自笑",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5616",
+      "dynasty": "清"
+    },
+    {
+      "title": "孤坐斋",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2656",
+      "dynasty": "清"
+    },
+    {
+      "title": "自笑",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2657",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

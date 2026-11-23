@@ -1,0 +1,44 @@
+{
+  "name": "郑畋",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "万寿唐诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "初秋寓直",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=662",
+      "dynasty": "唐"
+    },
+    {
+      "title": "马嵬坡",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=663",
+      "dynasty": "唐"
+    },
+    {
+      "title": "初秋寓直",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7103",
+      "dynasty": "唐"
+    },
+    {
+      "title": "马嵬坡",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0377",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,44 @@
+{
+  "name": "汪绍昌",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "刘伯伦",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5676",
+      "dynasty": "清"
+    },
+    {
+      "title": "项王",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5675",
+      "dynasty": "清"
+    },
+    {
+      "title": "刘伯伦",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2717",
+      "dynasty": "清"
+    },
+    {
+      "title": "项王",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2716",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

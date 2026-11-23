@@ -1,0 +1,128 @@
+{
+  "name": "宗渭",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 18,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "中秋同鹿洲圯授天行紫英业师坐月",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6436",
+      "dynasty": "清"
+    },
+    {
+      "title": "怀余广霞处士",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6430",
+      "dynasty": "清"
+    },
+    {
+      "title": "早起",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6437",
+      "dynasty": "清"
+    },
+    {
+      "title": "横塘夜泊",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6429",
+      "dynasty": "清"
+    },
+    {
+      "title": "次韵酬九来",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6431",
+      "dynasty": "清"
+    },
+    {
+      "title": "浦城下水",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6434",
+      "dynasty": "清"
+    },
+    {
+      "title": "织帘先生书斋晚望时顾伊人属和",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6433",
+      "dynasty": "清"
+    },
+    {
+      "title": "重过海印庵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6435",
+      "dynasty": "清"
+    },
+    {
+      "title": "钱塘观潮",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6432",
+      "dynasty": "清"
+    },
+    {
+      "title": "中秋同鹿洲圯授天行紫英业师坐月",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3477",
+      "dynasty": "清"
+    },
+    {
+      "title": "怀余广霞处士",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3471",
+      "dynasty": "清"
+    },
+    {
+      "title": "早起",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3478",
+      "dynasty": "清"
+    },
+    {
+      "title": "横塘夜泊",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3470",
+      "dynasty": "清"
+    },
+    {
+      "title": "次韵酬九来",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3472",
+      "dynasty": "清"
+    },
+    {
+      "title": "浦城下水",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3475",
+      "dynasty": "清"
+    },
+    {
+      "title": "织帘先生书斋晚望时顾伊人属和",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3474",
+      "dynasty": "清"
+    },
+    {
+      "title": "重过海印庵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3476",
+      "dynasty": "清"
+    },
+    {
+      "title": "钱塘观潮",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3473",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

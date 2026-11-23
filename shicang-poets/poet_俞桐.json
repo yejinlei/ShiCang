@@ -1,0 +1,56 @@
+{
+  "name": "俞桐",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "渔父",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6486",
+      "dynasty": "清"
+    },
+    {
+      "title": "绀池僧",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6488",
+      "dynasty": "清"
+    },
+    {
+      "title": "舟行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6487",
+      "dynasty": "清"
+    },
+    {
+      "title": "渔父",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3527",
+      "dynasty": "清"
+    },
+    {
+      "title": "绀池僧",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3529",
+      "dynasty": "清"
+    },
+    {
+      "title": "舟行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3528",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

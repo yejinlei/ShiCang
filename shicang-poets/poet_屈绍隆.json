@@ -1,0 +1,200 @@
+{
+  "name": "屈绍隆",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 30,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "云州秋望",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3717",
+      "dynasty": "清"
+    },
+    {
+      "title": "人日衡阳舟中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3722",
+      "dynasty": "清"
+    },
+    {
+      "title": "吊雪庵和尚",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3723",
+      "dynasty": "清"
+    },
+    {
+      "title": "奈何帝歌（陈后主将亡国，钟山群鸟翔鸣，曰：奈何帝，奈何帝！）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3712",
+      "dynasty": "清"
+    },
+    {
+      "title": "家园示弟妹",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3713",
+      "dynasty": "清"
+    },
+    {
+      "title": "广昌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3720",
+      "dynasty": "清"
+    },
+    {
+      "title": "摄山秋夕作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3714",
+      "dynasty": "清"
+    },
+    {
+      "title": "望晋恭王园",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3724",
+      "dynasty": "清"
+    },
+    {
+      "title": "木末亭拜方正学先生像",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3715",
+      "dynasty": "清"
+    },
+    {
+      "title": "杜曲谒杜工部祠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3721",
+      "dynasty": "清"
+    },
+    {
+      "title": "灵谷探梅",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3716",
+      "dynasty": "清"
+    },
+    {
+      "title": "自白下至李与诸子约游山阴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3719",
+      "dynasty": "清"
+    },
+    {
+      "title": "蜀冈怀古和卓子任",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3725",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠朱士稚",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3711",
+      "dynasty": "清"
+    },
+    {
+      "title": "鲁连台",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3718",
+      "dynasty": "清"
+    },
+    {
+      "title": "云州秋望",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=758",
+      "dynasty": "清"
+    },
+    {
+      "title": "人日衡阳舟中",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=763",
+      "dynasty": "清"
+    },
+    {
+      "title": "吊雪庵和尚",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=764",
+      "dynasty": "清"
+    },
+    {
+      "title": "奈何帝歌（陈后主将亡国，钟山群鸟翔鸣，曰：奈何帝，奈何帝！）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=753",
+      "dynasty": "清"
+    },
+    {
+      "title": "家园示弟妹",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=754",
+      "dynasty": "清"
+    },
+    {
+      "title": "广昌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=761",
+      "dynasty": "清"
+    },
+    {
+      "title": "摄山秋夕作",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=755",
+      "dynasty": "清"
+    },
+    {
+      "title": "望晋恭王园",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=765",
+      "dynasty": "清"
+    },
+    {
+      "title": "木末亭拜方正学先生像",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=756",
+      "dynasty": "清"
+    },
+    {
+      "title": "杜曲谒杜工部祠",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=762",
+      "dynasty": "清"
+    },
+    {
+      "title": "灵谷探梅",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=757",
+      "dynasty": "清"
+    },
+    {
+      "title": "自白下至李与诸子约游山阴",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=760",
+      "dynasty": "清"
+    },
+    {
+      "title": "蜀冈怀古和卓子任",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=766",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠朱士稚",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=752",
+      "dynasty": "清"
+    },
+    {
+      "title": "鲁连台",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=759",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,104 @@
+{
+  "name": "尤怡",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 14,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "刘东郊归自关中述华山之游为作诗纪之",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6020",
+      "dynasty": "清"
+    },
+    {
+      "title": "宝剑",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6021",
+      "dynasty": "清"
+    },
+    {
+      "title": "山居杂兴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6019",
+      "dynasty": "清"
+    },
+    {
+      "title": "杂感",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6018",
+      "dynasty": "清"
+    },
+    {
+      "title": "白秋海棠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6024",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋晚登楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6022",
+      "dynasty": "清"
+    },
+    {
+      "title": "馆娃宫",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6023",
+      "dynasty": "清"
+    },
+    {
+      "title": "刘东郊归自关中述华山之游为作诗纪之",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3061",
+      "dynasty": "清"
+    },
+    {
+      "title": "宝剑",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3062",
+      "dynasty": "清"
+    },
+    {
+      "title": "山居杂兴",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3060",
+      "dynasty": "清"
+    },
+    {
+      "title": "杂感",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3059",
+      "dynasty": "清"
+    },
+    {
+      "title": "白秋海棠",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3065",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋晚登楼",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3063",
+      "dynasty": "清"
+    },
+    {
+      "title": "馆娃宫",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3064",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

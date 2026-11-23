@@ -1,0 +1,140 @@
+{
+  "name": "薛蕙",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 20,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "孙氏沱西别业",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2411",
+      "dynasty": "明"
+    },
+    {
+      "title": "效阮公咏怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2404",
+      "dynasty": "明"
+    },
+    {
+      "title": "昭王台",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2409",
+      "dynasty": "明"
+    },
+    {
+      "title": "月夜坐忆",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2407",
+      "dynasty": "明"
+    },
+    {
+      "title": "杂诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2405",
+      "dynasty": "明"
+    },
+    {
+      "title": "答王允升省中对雨见忆之作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2408",
+      "dynasty": "明"
+    },
+    {
+      "title": "草堂",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2410",
+      "dynasty": "明"
+    },
+    {
+      "title": "赠孟望之",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2406",
+      "dynasty": "明"
+    },
+    {
+      "title": "送周子贤按贵州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2413",
+      "dynasty": "明"
+    },
+    {
+      "title": "送杨石斋",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2412",
+      "dynasty": "明"
+    },
+    {
+      "title": "孙氏沱西别业",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=407",
+      "dynasty": "明"
+    },
+    {
+      "title": "效阮公咏怀",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=400",
+      "dynasty": "明"
+    },
+    {
+      "title": "昭王台",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=405",
+      "dynasty": "明"
+    },
+    {
+      "title": "月夜坐忆",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=403",
+      "dynasty": "明"
+    },
+    {
+      "title": "杂诗",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=401",
+      "dynasty": "明"
+    },
+    {
+      "title": "答王允升省中对雨见忆之作",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=404",
+      "dynasty": "明"
+    },
+    {
+      "title": "草堂",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=406",
+      "dynasty": "明"
+    },
+    {
+      "title": "赠孟望之",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=402",
+      "dynasty": "明"
+    },
+    {
+      "title": "送周子贤按贵州",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=409",
+      "dynasty": "明"
+    },
+    {
+      "title": "送杨石斋",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=408",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

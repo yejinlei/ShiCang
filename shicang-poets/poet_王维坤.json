@@ -1,0 +1,44 @@
+{
+  "name": "王维坤",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "寄慰乾一落第",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3543",
+      "dynasty": "清"
+    },
+    {
+      "title": "除夕",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3544",
+      "dynasty": "清"
+    },
+    {
+      "title": "寄慰乾一落第",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=584",
+      "dynasty": "清"
+    },
+    {
+      "title": "除夕",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=585",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

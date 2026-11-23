@@ -1,0 +1,128 @@
+{
+  "name": "张元升",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 18,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "坐友人东轩对月",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5563",
+      "dynasty": "清"
+    },
+    {
+      "title": "度陇杂咏",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5567",
+      "dynasty": "清"
+    },
+    {
+      "title": "晚秋感怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5571",
+      "dynasty": "清"
+    },
+    {
+      "title": "曹叔方以久客夜吟题请予赋诗（自注：叔方楚人，时值兵乱，流寓江阴。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5570",
+      "dynasty": "清"
+    },
+    {
+      "title": "眼复明呈诸旧游",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5565",
+      "dynasty": "清"
+    },
+    {
+      "title": "舟中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5564",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠别云间高日采",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5566",
+      "dynasty": "清"
+    },
+    {
+      "title": "过雁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5569",
+      "dynasty": "清"
+    },
+    {
+      "title": "高秋",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5568",
+      "dynasty": "清"
+    },
+    {
+      "title": "坐友人东轩对月",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2604",
+      "dynasty": "清"
+    },
+    {
+      "title": "度陇杂咏",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2608",
+      "dynasty": "清"
+    },
+    {
+      "title": "晚秋感怀",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2612",
+      "dynasty": "清"
+    },
+    {
+      "title": "曹叔方以久客夜吟题请予赋诗（自注：叔方楚人，时值兵乱，流寓江阴。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2611",
+      "dynasty": "清"
+    },
+    {
+      "title": "眼复明呈诸旧游",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2606",
+      "dynasty": "清"
+    },
+    {
+      "title": "舟中",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2605",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠别云间高日采",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2607",
+      "dynasty": "清"
+    },
+    {
+      "title": "过雁",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2610",
+      "dynasty": "清"
+    },
+    {
+      "title": "高秋",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2609",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

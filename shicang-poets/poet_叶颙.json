@@ -1,0 +1,68 @@
+{
+  "name": "叶颙",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "日暮江村杂兴",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=172",
+      "dynasty": "元"
+    },
+    {
+      "title": "渔父曲",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=475",
+      "dynasty": "元"
+    },
+    {
+      "title": "至正戊戌九日感怀",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=525",
+      "dynasty": "元"
+    },
+    {
+      "title": "题幽居",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=309",
+      "dynasty": "元"
+    },
+    {
+      "title": "日暮江村杂兴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1634",
+      "dynasty": "元"
+    },
+    {
+      "title": "渔父曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1937",
+      "dynasty": "元"
+    },
+    {
+      "title": "至正戊戌九日感怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1987",
+      "dynasty": "元"
+    },
+    {
+      "title": "题幽居",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1771",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

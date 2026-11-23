@@ -1,0 +1,44 @@
+{
+  "name": "任元祥",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "善哉行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3736",
+      "dynasty": "清"
+    },
+    {
+      "title": "寄侯朝宗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3737",
+      "dynasty": "清"
+    },
+    {
+      "title": "善哉行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=777",
+      "dynasty": "清"
+    },
+    {
+      "title": "寄侯朝宗",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=778",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

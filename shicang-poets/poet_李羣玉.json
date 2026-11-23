@@ -1,0 +1,80 @@
+{
+  "name": "李羣玉",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "万寿唐诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "南荘春晓",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=526",
+      "dynasty": "唐"
+    },
+    {
+      "title": "寄友",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=524",
+      "dynasty": "唐"
+    },
+    {
+      "title": "汉阳太白楼",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=525",
+      "dynasty": "唐"
+    },
+    {
+      "title": "题王侍御宅",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=528",
+      "dynasty": "唐"
+    },
+    {
+      "title": "黄陵庙",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=527",
+      "dynasty": "唐"
+    },
+    {
+      "title": "南荘春晓",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6979",
+      "dynasty": "唐"
+    },
+    {
+      "title": "寄友",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6977",
+      "dynasty": "唐"
+    },
+    {
+      "title": "汉阳太白楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6978",
+      "dynasty": "唐"
+    },
+    {
+      "title": "题王侍御宅",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6981",
+      "dynasty": "唐"
+    },
+    {
+      "title": "黄陵庙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6980",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

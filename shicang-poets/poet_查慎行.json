@@ -1,0 +1,248 @@
+{
+  "name": "查慎行",
+  "zi": "悔余",
+  "hao": "初白",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "海宁",
+  "style": "#2F6B52",
+  "school": "宋诗派",
+  "years": "1650—1727",
+  "bio": "受学于黄宗羲，诗宗宋人，白描功力极深。",
+  "work_count": 38,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "与顾梁汾舍人次阁学韩公韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4936",
+      "dynasty": "清"
+    },
+    {
+      "title": "中秋夜洞庭湖对月",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4933",
+      "dynasty": "清"
+    },
+    {
+      "title": "度仙霞关题天雨庵壁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4941",
+      "dynasty": "清"
+    },
+    {
+      "title": "拂水山庄",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4937",
+      "dynasty": "清"
+    },
+    {
+      "title": "拟玉泉山大阅二十韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4944",
+      "dynasty": "清"
+    },
+    {
+      "title": "景州董子祠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4940",
+      "dynasty": "清"
+    },
+    {
+      "title": "曹操疑冢",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4946",
+      "dynasty": "清"
+    },
+    {
+      "title": "汴梁杂诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4938",
+      "dynasty": "清"
+    },
+    {
+      "title": "洪武御碑歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4931",
+      "dynasty": "清"
+    },
+    {
+      "title": "王文成纪功碑",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4932",
+      "dynasty": "清"
+    },
+    {
+      "title": "登芜湖浮图",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4945",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋感",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4929",
+      "dynasty": "清"
+    },
+    {
+      "title": "秦邮道中即目",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4939",
+      "dynasty": "清"
+    },
+    {
+      "title": "谒南海神庙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4935",
+      "dynasty": "清"
+    },
+    {
+      "title": "送陆蓬叟之井陉",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4943",
+      "dynasty": "清"
+    },
+    {
+      "title": "闸口观罾鱼者",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4930",
+      "dynasty": "清"
+    },
+    {
+      "title": "题蔡方麓修撰早朝图",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4947",
+      "dynasty": "清"
+    },
+    {
+      "title": "高斯亿为余画竹以诗报之",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4934",
+      "dynasty": "清"
+    },
+    {
+      "title": "黔阳杂诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4942",
+      "dynasty": "清"
+    },
+    {
+      "title": "与顾梁汾舍人次阁学韩公韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1977",
+      "dynasty": "清"
+    },
+    {
+      "title": "中秋夜洞庭湖对月",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1974",
+      "dynasty": "清"
+    },
+    {
+      "title": "度仙霞关题天雨庵壁",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1982",
+      "dynasty": "清"
+    },
+    {
+      "title": "拂水山庄",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1978",
+      "dynasty": "清"
+    },
+    {
+      "title": "拟玉泉山大阅二十韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1985",
+      "dynasty": "清"
+    },
+    {
+      "title": "景州董子祠",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1981",
+      "dynasty": "清"
+    },
+    {
+      "title": "曹操疑冢",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1987",
+      "dynasty": "清"
+    },
+    {
+      "title": "汴梁杂诗",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1979",
+      "dynasty": "清"
+    },
+    {
+      "title": "洪武御碑歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1972",
+      "dynasty": "清"
+    },
+    {
+      "title": "王文成纪功碑",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1973",
+      "dynasty": "清"
+    },
+    {
+      "title": "登芜湖浮图",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1986",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋感",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1970",
+      "dynasty": "清"
+    },
+    {
+      "title": "秦邮道中即目",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1980",
+      "dynasty": "清"
+    },
+    {
+      "title": "谒南海神庙",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1976",
+      "dynasty": "清"
+    },
+    {
+      "title": "送陆蓬叟之井陉",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1984",
+      "dynasty": "清"
+    },
+    {
+      "title": "闸口观罾鱼者",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1971",
+      "dynasty": "清"
+    },
+    {
+      "title": "题蔡方麓修撰早朝图",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1988",
+      "dynasty": "清"
+    },
+    {
+      "title": "高斯亿为余画竹以诗报之",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1975",
+      "dynasty": "清"
+    },
+    {
+      "title": "黔阳杂诗",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1983",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": true
+}

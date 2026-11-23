@@ -1,0 +1,207 @@
+{
+  "name": "史达祖",
+  "zi": "邦卿",
+  "hao": "梅溪",
+  "dynasty": "南宋",
+  "d_order": 9,
+  "birthplace": "汴梁",
+  "style": "#D35400",
+  "school": "格律词派",
+  "years": "约1163—约1220",
+  "bio": "南宋词人，工于咏物。代表作《双双燕·咏燕》。",
+  "work_count": 31,
+  "anthologies": [
+    "名篇精读",
+    "宋词三百首",
+    "绝妙好词"
+  ],
+  "works": [
+    {
+      "title": "三姝媚",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1033",
+      "dynasty": "宋"
+    },
+    {
+      "title": "东风第一枝",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1031",
+      "dynasty": "宋"
+    },
+    {
+      "title": "双双燕",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1030",
+      "dynasty": "宋"
+    },
+    {
+      "title": "喜迁莺",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1032",
+      "dynasty": "宋"
+    },
+    {
+      "title": "夜合花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1035",
+      "dynasty": "宋"
+    },
+    {
+      "title": "夜行船",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7268",
+      "dynasty": "宋"
+    },
+    {
+      "title": "清商怨",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7272",
+      "dynasty": "宋"
+    },
+    {
+      "title": "玉楼春",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7274",
+      "dynasty": "宋"
+    },
+    {
+      "title": "玉胡蝶",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1036",
+      "dynasty": "宋"
+    },
+    {
+      "title": "秋霁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1034",
+      "dynasty": "宋"
+    },
+    {
+      "title": "绮罗香",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1029",
+      "dynasty": "宋"
+    },
+    {
+      "title": "蝶恋花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7273",
+      "dynasty": "宋"
+    },
+    {
+      "title": "青玉案",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7275",
+      "dynasty": "宋"
+    },
+    {
+      "title": "黄钟喜迁莺",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7271",
+      "dynasty": "宋"
+    },
+    {
+      "title": "三姝媚",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=165",
+      "dynasty": "宋"
+    },
+    {
+      "title": "咏 燕·双双燕",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=162",
+      "dynasty": "宋"
+    },
+    {
+      "title": "咏春雨·绮罗香",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=161",
+      "dynasty": "宋"
+    },
+    {
+      "title": "喜迁莺",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=164",
+      "dynasty": "宋"
+    },
+    {
+      "title": "夜合花",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=167",
+      "dynasty": "宋"
+    },
+    {
+      "title": "春雪·东风第一枝",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=163",
+      "dynasty": "宋"
+    },
+    {
+      "title": "玉胡蝶",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=168",
+      "dynasty": "宋"
+    },
+    {
+      "title": "秋霁",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=166",
+      "dynasty": "宋"
+    },
+    {
+      "title": "元宵·黄钟喜迁莺",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=82",
+      "dynasty": "宋"
+    },
+    {
+      "title": "夜行船",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=79",
+      "dynasty": "宋"
+    },
+    {
+      "title": "春雨·绮罗香",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=78",
+      "dynasty": "宋"
+    },
+    {
+      "title": "春雪·东风第一枝",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=80",
+      "dynasty": "宋"
+    },
+    {
+      "title": "清商怨",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=83",
+      "dynasty": "宋"
+    },
+    {
+      "title": "灯夕·东风第一枝",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=81",
+      "dynasty": "宋"
+    },
+    {
+      "title": "社前一日·玉楼春",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=85",
+      "dynasty": "宋"
+    },
+    {
+      "title": "蝶恋花",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=84",
+      "dynasty": "宋"
+    },
+    {
+      "title": "青玉案",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=86",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": true
+}

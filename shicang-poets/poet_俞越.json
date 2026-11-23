@@ -1,0 +1,32 @@
+{
+  "name": "俞越",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清末",
+  "d_order": 16,
+  "birthplace": "",
+  "style": "#795548",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 2,
+  "anthologies": [
+    "名篇精读",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "金缕曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1278",
+      "dynasty": "清末"
+    },
+    {
+      "title": "次女绣孙，倚此咏落花，词意凄惋。有云：“叹年华、我亦愁中老。”余谓少年人不宜作此，因广其意，亦成一阕。·金缕曲",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=234",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": false
+}

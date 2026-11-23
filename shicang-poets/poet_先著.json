@@ -1,0 +1,68 @@
+{
+  "name": "先著",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "堰北水",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5588",
+      "dynasty": "清"
+    },
+    {
+      "title": "病起截句之一",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5589",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠海云子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5590",
+      "dynasty": "清"
+    },
+    {
+      "title": "述怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5587",
+      "dynasty": "清"
+    },
+    {
+      "title": "堰北水",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2629",
+      "dynasty": "清"
+    },
+    {
+      "title": "病起截句之一",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2630",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠海云子",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2631",
+      "dynasty": "清"
+    },
+    {
+      "title": "述怀",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2628",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

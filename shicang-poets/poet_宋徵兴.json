@@ -1,0 +1,80 @@
+{
+  "name": "宋徵兴",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清末",
+  "d_order": 16,
+  "birthplace": "",
+  "style": "#795548",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "小重山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1074",
+      "dynasty": "清末"
+    },
+    {
+      "title": "忆秦娥",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1076",
+      "dynasty": "清末"
+    },
+    {
+      "title": "玉楼春",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1078",
+      "dynasty": "清末"
+    },
+    {
+      "title": "蝶恋花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1077",
+      "dynasty": "清末"
+    },
+    {
+      "title": "踏莎行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1075",
+      "dynasty": "清末"
+    },
+    {
+      "title": "小重山",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=27",
+      "dynasty": "清末"
+    },
+    {
+      "title": "杨花·忆秦娥",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=29",
+      "dynasty": "清末"
+    },
+    {
+      "title": "燕·玉楼春",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=31",
+      "dynasty": "清末"
+    },
+    {
+      "title": "蝶恋花",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=30",
+      "dynasty": "清末"
+    },
+    {
+      "title": "踏莎行",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=28",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,56 @@
+{
+  "name": "许汝霖",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "赠汤宗伯潜庵先生",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4249",
+      "dynasty": "清"
+    },
+    {
+      "title": "送张侍御归里",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4251",
+      "dynasty": "清"
+    },
+    {
+      "title": "送杨自西少司马终养归里",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4250",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠汤宗伯潜庵先生",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1290",
+      "dynasty": "清"
+    },
+    {
+      "title": "送张侍御归里",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1292",
+      "dynasty": "清"
+    },
+    {
+      "title": "送杨自西少司马终养归里",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1291",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,56 @@
+{
+  "name": "高炳",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "天生桥（自注：在万县。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5885",
+      "dynasty": "清"
+    },
+    {
+      "title": "渝州重逢芮文彬赋诗道别",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5886",
+      "dynasty": "清"
+    },
+    {
+      "title": "读昌谷集",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5887",
+      "dynasty": "清"
+    },
+    {
+      "title": "天生桥（自注：在万县。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2926",
+      "dynasty": "清"
+    },
+    {
+      "title": "渝州重逢芮文彬赋诗道别",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2927",
+      "dynasty": "清"
+    },
+    {
+      "title": "读昌谷集",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2928",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

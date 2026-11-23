@@ -1,0 +1,56 @@
+{
+  "name": "王揆",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "临清阻泊",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3351",
+      "dynasty": "清"
+    },
+    {
+      "title": "读山翁大师新蒲绿依韵柬寄",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3352",
+      "dynasty": "清"
+    },
+    {
+      "title": "送懒云道人还滇中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3350",
+      "dynasty": "清"
+    },
+    {
+      "title": "临清阻泊",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=392",
+      "dynasty": "清"
+    },
+    {
+      "title": "读山翁大师新蒲绿依韵柬寄",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=393",
+      "dynasty": "清"
+    },
+    {
+      "title": "送懒云道人还滇中",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=391",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

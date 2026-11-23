@@ -1,0 +1,44 @@
+{
+  "name": "吴琪",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "春晴晚眺",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6254",
+      "dynasty": "清"
+    },
+    {
+      "title": "送别",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6253",
+      "dynasty": "清"
+    },
+    {
+      "title": "春晴晚眺",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3295",
+      "dynasty": "清"
+    },
+    {
+      "title": "送别",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3294",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

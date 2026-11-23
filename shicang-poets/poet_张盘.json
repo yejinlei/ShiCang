@@ -1,0 +1,80 @@
+{
+  "name": "张盘",
+  "zi": "",
+  "hao": "",
+  "dynasty": "宋",
+  "d_order": 8,
+  "birthplace": "",
+  "style": "#7F8C8D",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "绝妙好词"
+  ],
+  "works": [
+    {
+      "title": "唐多令",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7503",
+      "dynasty": "宋"
+    },
+    {
+      "title": "柳梢青",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7504",
+      "dynasty": "宋"
+    },
+    {
+      "title": "浣溪沙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7502",
+      "dynasty": "宋"
+    },
+    {
+      "title": "真珠帘",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7505",
+      "dynasty": "宋"
+    },
+    {
+      "title": "绮罗香",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7501",
+      "dynasty": "宋"
+    },
+    {
+      "title": "唐多令",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=317",
+      "dynasty": "宋"
+    },
+    {
+      "title": "浣溪沙",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=316",
+      "dynasty": "宋"
+    },
+    {
+      "title": "渔浦有感·绮罗香",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=315",
+      "dynasty": "宋"
+    },
+    {
+      "title": "灯花·柳梢青",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=318",
+      "dynasty": "宋"
+    },
+    {
+      "title": "真珠帘",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=319",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,68 @@
+{
+  "name": "王庭",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "晓雨",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3218",
+      "dynasty": "清"
+    },
+    {
+      "title": "栈道中作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3215",
+      "dynasty": "清"
+    },
+    {
+      "title": "潼关",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3217",
+      "dynasty": "清"
+    },
+    {
+      "title": "雨后",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3216",
+      "dynasty": "清"
+    },
+    {
+      "title": "晓雨",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=259",
+      "dynasty": "清"
+    },
+    {
+      "title": "栈道中作",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=256",
+      "dynasty": "清"
+    },
+    {
+      "title": "潼关",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=258",
+      "dynasty": "清"
+    },
+    {
+      "title": "雨后",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=257",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

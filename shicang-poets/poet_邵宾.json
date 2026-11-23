@@ -1,0 +1,68 @@
+{
+  "name": "邵宾",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "九月十五夜中庭闲步作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4004",
+      "dynasty": "清"
+    },
+    {
+      "title": "春日杂兴之一",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4003",
+      "dynasty": "清"
+    },
+    {
+      "title": "芙蓉",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4005",
+      "dynasty": "清"
+    },
+    {
+      "title": "题画",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4006",
+      "dynasty": "清"
+    },
+    {
+      "title": "九月十五夜中庭闲步作",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1045",
+      "dynasty": "清"
+    },
+    {
+      "title": "春日杂兴之一",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1044",
+      "dynasty": "清"
+    },
+    {
+      "title": "芙蓉",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1046",
+      "dynasty": "清"
+    },
+    {
+      "title": "题画",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1047",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

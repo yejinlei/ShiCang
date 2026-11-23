@@ -1,0 +1,44 @@
+{
+  "name": "周孝学",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "书牧斋集后",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6092",
+      "dynasty": "清"
+    },
+    {
+      "title": "登穹窿绝顶望震泽同蒋香山作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6091",
+      "dynasty": "清"
+    },
+    {
+      "title": "书牧斋集后",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3133",
+      "dynasty": "清"
+    },
+    {
+      "title": "登穹窿绝顶望震泽同蒋香山作",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3132",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

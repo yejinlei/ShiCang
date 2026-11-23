@@ -1,0 +1,56 @@
+{
+  "name": "潘纯",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "送杭州经历李全初代归",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=490",
+      "dynasty": "元"
+    },
+    {
+      "title": "题岳武穆王坟二首",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=368",
+      "dynasty": "元"
+    },
+    {
+      "title": "题豫章杨季子水北山房",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=201",
+      "dynasty": "元"
+    },
+    {
+      "title": "送杭州经历李全初代归",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1952",
+      "dynasty": "元"
+    },
+    {
+      "title": "题岳武穆王坟二首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1830",
+      "dynasty": "元"
+    },
+    {
+      "title": "题豫章杨季子水北山房",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1663",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

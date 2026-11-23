@@ -1,0 +1,200 @@
+{
+  "name": "赵执信",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 30,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "中秋与南村泛舟石湖望月",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4225",
+      "dynasty": "清"
+    },
+    {
+      "title": "中秋夜与泾阳刘西谷编修吴山对月",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4226",
+      "dynasty": "清"
+    },
+    {
+      "title": "人日韩江归兴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4224",
+      "dynasty": "清"
+    },
+    {
+      "title": "咏江岸拒霜花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4231",
+      "dynasty": "清"
+    },
+    {
+      "title": "寄朱竹检讨村居",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4228",
+      "dynasty": "清"
+    },
+    {
+      "title": "寄洪思",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4230",
+      "dynasty": "清"
+    },
+    {
+      "title": "平度州道中望东北诸山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4222",
+      "dynasty": "清"
+    },
+    {
+      "title": "弃妇词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4217",
+      "dynasty": "清"
+    },
+    {
+      "title": "彭蠡湖",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4218",
+      "dynasty": "清"
+    },
+    {
+      "title": "无风溯江崇朝十里忽得午风快然成咏",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4220",
+      "dynasty": "清"
+    },
+    {
+      "title": "村舍",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4229",
+      "dynasty": "清"
+    },
+    {
+      "title": "泛海言怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4219",
+      "dynasty": "清"
+    },
+    {
+      "title": "行十八滩中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4221",
+      "dynasty": "清"
+    },
+    {
+      "title": "赴登州留别康海",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4227",
+      "dynasty": "清"
+    },
+    {
+      "title": "雪晴过海上，适海市见之罘下，自亭午至晡，快睹有述，时十月十日",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4223",
+      "dynasty": "清"
+    },
+    {
+      "title": "中秋与南村泛舟石湖望月",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1266",
+      "dynasty": "清"
+    },
+    {
+      "title": "中秋夜与泾阳刘西谷编修吴山对月",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1267",
+      "dynasty": "清"
+    },
+    {
+      "title": "人日韩江归兴",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1265",
+      "dynasty": "清"
+    },
+    {
+      "title": "咏江岸拒霜花",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1272",
+      "dynasty": "清"
+    },
+    {
+      "title": "寄朱竹检讨村居",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1269",
+      "dynasty": "清"
+    },
+    {
+      "title": "寄洪思",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1271",
+      "dynasty": "清"
+    },
+    {
+      "title": "平度州道中望东北诸山",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1263",
+      "dynasty": "清"
+    },
+    {
+      "title": "弃妇词",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1258",
+      "dynasty": "清"
+    },
+    {
+      "title": "彭蠡湖",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1259",
+      "dynasty": "清"
+    },
+    {
+      "title": "无风溯江崇朝十里忽得午风快然成咏",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1261",
+      "dynasty": "清"
+    },
+    {
+      "title": "村舍",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1270",
+      "dynasty": "清"
+    },
+    {
+      "title": "泛海言怀",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1260",
+      "dynasty": "清"
+    },
+    {
+      "title": "行十八滩中",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1262",
+      "dynasty": "清"
+    },
+    {
+      "title": "赴登州留别康海",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1268",
+      "dynasty": "清"
+    },
+    {
+      "title": "雪晴过海上，适海市见之罘下，自亭午至晡，快睹有述，时十月十日",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1264",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,81 @@
+{
+  "name": "王勃",
+  "zi": "子安",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "绛州龙门",
+  "style": "#ae3a2b",
+  "school": "初唐四杰",
+  "years": "650—676",
+  "bio": "初唐四杰之首，诗文清新雄健。代表作《送杜少府之任蜀州》《滕王阁序》。渡海溺水而死，年二十七。",
+  "work_count": 10,
+  "anthologies": [
+    "万寿唐诗",
+    "千家诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "别人",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=1",
+      "dynasty": "唐"
+    },
+    {
+      "title": "寒夜思 三首",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=0",
+      "dynasty": "唐"
+    },
+    {
+      "title": "思归",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=2",
+      "dynasty": "唐"
+    },
+    {
+      "title": "杜少府之任蜀州",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=55",
+      "dynasty": "唐"
+    },
+    {
+      "title": "别人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6490",
+      "dynasty": "唐"
+    },
+    {
+      "title": "寒夜思 三首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6489",
+      "dynasty": "唐"
+    },
+    {
+      "title": "思归",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6491",
+      "dynasty": "唐"
+    },
+    {
+      "title": "杜少府之任蜀州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0883",
+      "dynasty": "唐"
+    },
+    {
+      "title": "滕王阁序",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0828",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送杜少府之任蜀州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0318",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": true
+}

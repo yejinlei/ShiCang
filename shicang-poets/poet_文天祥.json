@@ -1,0 +1,25 @@
+{
+  "name": "文天祥",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 1,
+  "anthologies": [
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "过零丁洋",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0831",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

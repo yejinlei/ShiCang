@@ -1,0 +1,68 @@
+{
+  "name": "陈宗之",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "巴女词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2774",
+      "dynasty": "明"
+    },
+    {
+      "title": "帝京篇",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2775",
+      "dynasty": "明"
+    },
+    {
+      "title": "汉道",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2773",
+      "dynasty": "明"
+    },
+    {
+      "title": "留别董西来",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2776",
+      "dynasty": "明"
+    },
+    {
+      "title": "巴女词",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=770",
+      "dynasty": "明"
+    },
+    {
+      "title": "帝京篇",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=771",
+      "dynasty": "明"
+    },
+    {
+      "title": "汉道",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=769",
+      "dynasty": "明"
+    },
+    {
+      "title": "留别董西来",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=772",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

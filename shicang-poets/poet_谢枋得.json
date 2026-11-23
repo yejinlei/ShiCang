@@ -1,0 +1,44 @@
+{
+  "name": "谢枋得",
+  "zi": "",
+  "hao": "",
+  "dynasty": "宋",
+  "d_order": 8,
+  "birthplace": "",
+  "style": "#7F8C8D",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "千家诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "蚕妇吟",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=126",
+      "dynasty": "唐"
+    },
+    {
+      "title": "蚕妇吟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0947",
+      "dynasty": "唐"
+    },
+    {
+      "title": "庆全庵桃花",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=111",
+      "dynasty": "宋"
+    },
+    {
+      "title": "庆全庵桃花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0933",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

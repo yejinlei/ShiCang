@@ -1,0 +1,104 @@
+{
+  "name": "袁袠",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 14,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "大驾视牲南郊",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2460",
+      "dynasty": "明"
+    },
+    {
+      "title": "游白鹿洞",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2463",
+      "dynasty": "明"
+    },
+    {
+      "title": "游麻姑山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2464",
+      "dynasty": "明"
+    },
+    {
+      "title": "登金山口绝顶",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2462",
+      "dynasty": "明"
+    },
+    {
+      "title": "秋兴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2461",
+      "dynasty": "明"
+    },
+    {
+      "title": "自柳至平乐道中书事",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2459",
+      "dynasty": "明"
+    },
+    {
+      "title": "送陈德夫使鲁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2458",
+      "dynasty": "明"
+    },
+    {
+      "title": "大驾视牲南郊",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=456",
+      "dynasty": "明"
+    },
+    {
+      "title": "游白鹿洞",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=459",
+      "dynasty": "明"
+    },
+    {
+      "title": "游麻姑山",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=460",
+      "dynasty": "明"
+    },
+    {
+      "title": "登金山口绝顶",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=458",
+      "dynasty": "明"
+    },
+    {
+      "title": "秋兴",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=457",
+      "dynasty": "明"
+    },
+    {
+      "title": "自柳至平乐道中书事",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=455",
+      "dynasty": "明"
+    },
+    {
+      "title": "送陈德夫使鲁",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=454",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

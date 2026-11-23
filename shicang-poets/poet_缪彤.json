@@ -1,0 +1,68 @@
+{
+  "name": "缪彤",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "东台望海峰",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3876",
+      "dynasty": "清"
+    },
+    {
+      "title": "假归南下欲游五台山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3874",
+      "dynasty": "清"
+    },
+    {
+      "title": "渡江",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3875",
+      "dynasty": "清"
+    },
+    {
+      "title": "送医士方际泰归茅山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3873",
+      "dynasty": "清"
+    },
+    {
+      "title": "东台望海峰",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=917",
+      "dynasty": "清"
+    },
+    {
+      "title": "假归南下欲游五台山",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=915",
+      "dynasty": "清"
+    },
+    {
+      "title": "渡江",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=916",
+      "dynasty": "清"
+    },
+    {
+      "title": "送医士方际泰归茅山",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=914",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

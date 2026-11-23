@@ -1,0 +1,104 @@
+{
+  "name": "方殿元",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 14,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "庐山玉渊",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3861",
+      "dynasty": "清"
+    },
+    {
+      "title": "征怨",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3867",
+      "dynasty": "清"
+    },
+    {
+      "title": "爱妾换马",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3865",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋夜长",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3864",
+      "dynasty": "清"
+    },
+    {
+      "title": "章贡舟中作歌六首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3863",
+      "dynasty": "清"
+    },
+    {
+      "title": "答城中友人见讯之作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3866",
+      "dynasty": "清"
+    },
+    {
+      "title": "褒斜道",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3862",
+      "dynasty": "清"
+    },
+    {
+      "title": "庐山玉渊",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=902",
+      "dynasty": "清"
+    },
+    {
+      "title": "征怨",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=908",
+      "dynasty": "清"
+    },
+    {
+      "title": "爱妾换马",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=906",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋夜长",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=905",
+      "dynasty": "清"
+    },
+    {
+      "title": "章贡舟中作歌六首",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=904",
+      "dynasty": "清"
+    },
+    {
+      "title": "答城中友人见讯之作",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=907",
+      "dynasty": "清"
+    },
+    {
+      "title": "褒斜道",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=903",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

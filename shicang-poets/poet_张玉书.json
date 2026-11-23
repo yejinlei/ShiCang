@@ -1,0 +1,104 @@
+{
+  "name": "张玉书",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 14,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "大阅恭纪",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3525",
+      "dynasty": "清"
+    },
+    {
+      "title": "寄李厚庵学士",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3524",
+      "dynasty": "清"
+    },
+    {
+      "title": "息浪庵夜坐别叔敦让木诸子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3523",
+      "dynasty": "清"
+    },
+    {
+      "title": "挽马章民年丈",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3527",
+      "dynasty": "清"
+    },
+    {
+      "title": "谒项王庙（宿迁县）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3522",
+      "dynasty": "清"
+    },
+    {
+      "title": "过金陵某将军营",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3528",
+      "dynasty": "清"
+    },
+    {
+      "title": "送邱曙戒前辈之武昌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3526",
+      "dynasty": "清"
+    },
+    {
+      "title": "大阅恭纪",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=566",
+      "dynasty": "清"
+    },
+    {
+      "title": "寄李厚庵学士",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=565",
+      "dynasty": "清"
+    },
+    {
+      "title": "息浪庵夜坐别叔敦让木诸子",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=564",
+      "dynasty": "清"
+    },
+    {
+      "title": "挽马章民年丈",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=568",
+      "dynasty": "清"
+    },
+    {
+      "title": "谒项王庙（宿迁县）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=563",
+      "dynasty": "清"
+    },
+    {
+      "title": "过金陵某将军营",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=569",
+      "dynasty": "清"
+    },
+    {
+      "title": "送邱曙戒前辈之武昌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=567",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

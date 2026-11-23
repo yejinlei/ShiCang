@@ -1,0 +1,80 @@
+{
+  "name": "羊士谔",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "万寿唐诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "忆江南旧游",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=516",
+      "dynasty": "唐"
+    },
+    {
+      "title": "望女几山",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=514",
+      "dynasty": "唐"
+    },
+    {
+      "title": "泛舟后溪",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=518",
+      "dynasty": "唐"
+    },
+    {
+      "title": "登楼",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=515",
+      "dynasty": "唐"
+    },
+    {
+      "title": "郡中",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=517",
+      "dynasty": "唐"
+    },
+    {
+      "title": "忆江南旧游",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6969",
+      "dynasty": "唐"
+    },
+    {
+      "title": "望女几山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6967",
+      "dynasty": "唐"
+    },
+    {
+      "title": "泛舟后溪",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6971",
+      "dynasty": "唐"
+    },
+    {
+      "title": "登楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6968",
+      "dynasty": "唐"
+    },
+    {
+      "title": "郡中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6970",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

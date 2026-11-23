@@ -1,0 +1,92 @@
+{
+  "name": "许孙荃",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 12,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "万里",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3936",
+      "dynasty": "清"
+    },
+    {
+      "title": "五丈原次大复韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3933",
+      "dynasty": "清"
+    },
+    {
+      "title": "出门",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3932",
+      "dynasty": "清"
+    },
+    {
+      "title": "庄浪趋张掖",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3937",
+      "dynasty": "清"
+    },
+    {
+      "title": "武功春日谒后稷祠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3935",
+      "dynasty": "清"
+    },
+    {
+      "title": "潼关",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3934",
+      "dynasty": "清"
+    },
+    {
+      "title": "万里",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=977",
+      "dynasty": "清"
+    },
+    {
+      "title": "五丈原次大复韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=974",
+      "dynasty": "清"
+    },
+    {
+      "title": "出门",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=973",
+      "dynasty": "清"
+    },
+    {
+      "title": "庄浪趋张掖",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=978",
+      "dynasty": "清"
+    },
+    {
+      "title": "武功春日谒后稷祠",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=976",
+      "dynasty": "清"
+    },
+    {
+      "title": "潼关",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=975",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

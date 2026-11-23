@@ -1,0 +1,128 @@
+{
+  "name": "孙致弥",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 18,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "同介修孟游集元夫园居即事抒怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4644",
+      "dynasty": "清"
+    },
+    {
+      "title": "同思大年记华天御先生",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4641",
+      "dynasty": "清"
+    },
+    {
+      "title": "咏史次王右先生韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4640",
+      "dynasty": "清"
+    },
+    {
+      "title": "感旧示魏禹平",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4642",
+      "dynasty": "清"
+    },
+    {
+      "title": "松",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4636",
+      "dynasty": "清"
+    },
+    {
+      "title": "江行杂诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4637",
+      "dynasty": "清"
+    },
+    {
+      "title": "福州道中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4638",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋感",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4639",
+      "dynasty": "清"
+    },
+    {
+      "title": "至江宁再叠前韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4643",
+      "dynasty": "清"
+    },
+    {
+      "title": "同介修孟游集元夫园居即事抒怀",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1685",
+      "dynasty": "清"
+    },
+    {
+      "title": "同思大年记华天御先生",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1682",
+      "dynasty": "清"
+    },
+    {
+      "title": "咏史次王右先生韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1681",
+      "dynasty": "清"
+    },
+    {
+      "title": "感旧示魏禹平",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1683",
+      "dynasty": "清"
+    },
+    {
+      "title": "松",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1677",
+      "dynasty": "清"
+    },
+    {
+      "title": "江行杂诗",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1678",
+      "dynasty": "清"
+    },
+    {
+      "title": "福州道中",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1679",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋感",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1680",
+      "dynasty": "清"
+    },
+    {
+      "title": "至江宁再叠前韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1684",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

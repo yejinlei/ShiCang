@@ -1,0 +1,68 @@
+{
+  "name": "周砥",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "夜坐怀孝常",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=473",
+      "dynasty": "元"
+    },
+    {
+      "title": "新郭",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=122",
+      "dynasty": "元"
+    },
+    {
+      "title": "经杜樊川水榭故基",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=451",
+      "dynasty": "元"
+    },
+    {
+      "title": "芝云堂",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=369",
+      "dynasty": "元"
+    },
+    {
+      "title": "夜坐怀孝常",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1935",
+      "dynasty": "元"
+    },
+    {
+      "title": "新郭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1584",
+      "dynasty": "元"
+    },
+    {
+      "title": "经杜樊川水榭故基",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1913",
+      "dynasty": "元"
+    },
+    {
+      "title": "芝云堂",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1831",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

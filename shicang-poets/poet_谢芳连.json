@@ -1,0 +1,92 @@
+{
+  "name": "谢芳连",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 12,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "孟夏山中晚坐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5903",
+      "dynasty": "清"
+    },
+    {
+      "title": "宿山园",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5905",
+      "dynasty": "清"
+    },
+    {
+      "title": "密雪望行人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5906",
+      "dynasty": "清"
+    },
+    {
+      "title": "月夜汲中泠泉",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5902",
+      "dynasty": "清"
+    },
+    {
+      "title": "溪村早起即事同邵八丈子湘",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5904",
+      "dynasty": "清"
+    },
+    {
+      "title": "题李百药三十六湖草堂",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5907",
+      "dynasty": "清"
+    },
+    {
+      "title": "孟夏山中晚坐",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2944",
+      "dynasty": "清"
+    },
+    {
+      "title": "宿山园",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2946",
+      "dynasty": "清"
+    },
+    {
+      "title": "密雪望行人",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2947",
+      "dynasty": "清"
+    },
+    {
+      "title": "月夜汲中泠泉",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2943",
+      "dynasty": "清"
+    },
+    {
+      "title": "溪村早起即事同邵八丈子湘",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2945",
+      "dynasty": "清"
+    },
+    {
+      "title": "题李百药三十六湖草堂",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2948",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

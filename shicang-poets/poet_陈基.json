@@ -1,0 +1,92 @@
+{
+  "name": "陈基",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 12,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "分署望风凰山",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=29",
+      "dynasty": "元"
+    },
+    {
+      "title": "十一月晦与同幕诸公登南高峰因过湖上小集",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=518",
+      "dynasty": "元"
+    },
+    {
+      "title": "夏夜怀李尚志",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=30",
+      "dynasty": "元"
+    },
+    {
+      "title": "淮阴杂兴",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=517",
+      "dynasty": "元"
+    },
+    {
+      "title": "裁衣曲",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=485",
+      "dynasty": "元"
+    },
+    {
+      "title": "题玉山草堂",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=287",
+      "dynasty": "元"
+    },
+    {
+      "title": "分署望风凰山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1491",
+      "dynasty": "元"
+    },
+    {
+      "title": "十一月晦与同幕诸公登南高峰因过湖上小集",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1980",
+      "dynasty": "元"
+    },
+    {
+      "title": "夏夜怀李尚志",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1492",
+      "dynasty": "元"
+    },
+    {
+      "title": "淮阴杂兴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1979",
+      "dynasty": "元"
+    },
+    {
+      "title": "裁衣曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1947",
+      "dynasty": "元"
+    },
+    {
+      "title": "题玉山草堂",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1749",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

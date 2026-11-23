@@ -1,0 +1,248 @@
+{
+  "name": "黄溍",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 38,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "上岩寺访一公",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=507",
+      "dynasty": "元"
+    },
+    {
+      "title": "初至宁海二首",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=145",
+      "dynasty": "元"
+    },
+    {
+      "title": "即事",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=254",
+      "dynasty": "元"
+    },
+    {
+      "title": "夏日漫书",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=255",
+      "dynasty": "元"
+    },
+    {
+      "title": "夜兴",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=456",
+      "dynasty": "元"
+    },
+    {
+      "title": "寄方韶文先生",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=144",
+      "dynasty": "元"
+    },
+    {
+      "title": "开元宫",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=252",
+      "dynasty": "元"
+    },
+    {
+      "title": "抱琴",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=495",
+      "dynasty": "元"
+    },
+    {
+      "title": "担子洼",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=459",
+      "dynasty": "元"
+    },
+    {
+      "title": "晓行湖上",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=461",
+      "dynasty": "元"
+    },
+    {
+      "title": "李老谷",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=457",
+      "dynasty": "元"
+    },
+    {
+      "title": "游西山同项可立宿灵隐西庵",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=16",
+      "dynasty": "元"
+    },
+    {
+      "title": "独立",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=253",
+      "dynasty": "元"
+    },
+    {
+      "title": "西岘峰",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=455",
+      "dynasty": "元"
+    },
+    {
+      "title": "赤城",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=458",
+      "dynasty": "元"
+    },
+    {
+      "title": "陪仇仁父先生登石头城",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=496",
+      "dynasty": "元"
+    },
+    {
+      "title": "题清华亭",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=460",
+      "dynasty": "元"
+    },
+    {
+      "title": "题观海图",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=508",
+      "dynasty": "元"
+    },
+    {
+      "title": "龙潭山",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=256",
+      "dynasty": "元"
+    },
+    {
+      "title": "上岩寺访一公",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1969",
+      "dynasty": "元"
+    },
+    {
+      "title": "初至宁海二首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1607",
+      "dynasty": "元"
+    },
+    {
+      "title": "即事",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1716",
+      "dynasty": "元"
+    },
+    {
+      "title": "夏日漫书",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1717",
+      "dynasty": "元"
+    },
+    {
+      "title": "夜兴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1918",
+      "dynasty": "元"
+    },
+    {
+      "title": "寄方韶文先生",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1606",
+      "dynasty": "元"
+    },
+    {
+      "title": "开元宫",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1714",
+      "dynasty": "元"
+    },
+    {
+      "title": "抱琴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1957",
+      "dynasty": "元"
+    },
+    {
+      "title": "担子洼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1921",
+      "dynasty": "元"
+    },
+    {
+      "title": "晓行湖上",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1923",
+      "dynasty": "元"
+    },
+    {
+      "title": "李老谷",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1919",
+      "dynasty": "元"
+    },
+    {
+      "title": "游西山同项可立宿灵隐西庵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1478",
+      "dynasty": "元"
+    },
+    {
+      "title": "独立",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1715",
+      "dynasty": "元"
+    },
+    {
+      "title": "西岘峰",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1917",
+      "dynasty": "元"
+    },
+    {
+      "title": "赤城",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1920",
+      "dynasty": "元"
+    },
+    {
+      "title": "陪仇仁父先生登石头城",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1958",
+      "dynasty": "元"
+    },
+    {
+      "title": "题清华亭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1922",
+      "dynasty": "元"
+    },
+    {
+      "title": "题观海图",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1970",
+      "dynasty": "元"
+    },
+    {
+      "title": "龙潭山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1718",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

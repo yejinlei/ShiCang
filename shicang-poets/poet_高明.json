@@ -1,0 +1,56 @@
+{
+  "name": "高明",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "宿先公房晓起偶成",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=471",
+      "dynasty": "元"
+    },
+    {
+      "title": "暮春即事",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=450",
+      "dynasty": "元"
+    },
+    {
+      "title": "赋幽慵斋",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=472",
+      "dynasty": "元"
+    },
+    {
+      "title": "宿先公房晓起偶成",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1933",
+      "dynasty": "元"
+    },
+    {
+      "title": "暮春即事",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1912",
+      "dynasty": "元"
+    },
+    {
+      "title": "赋幽慵斋",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1934",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

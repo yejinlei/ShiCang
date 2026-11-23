@@ -1,0 +1,92 @@
+{
+  "name": "夏敬观",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清末",
+  "d_order": 16,
+  "birthplace": "",
+  "style": "#795548",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 12,
+  "anthologies": [
+    "名篇精读",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "乌夜啼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1438",
+      "dynasty": "清末"
+    },
+    {
+      "title": "八声甘州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1440",
+      "dynasty": "清末"
+    },
+    {
+      "title": "小重山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1439",
+      "dynasty": "清末"
+    },
+    {
+      "title": "徵招",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1436",
+      "dynasty": "清末"
+    },
+    {
+      "title": "石州慢",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1437",
+      "dynasty": "清末"
+    },
+    {
+      "title": "解连环",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1435",
+      "dynasty": "清末"
+    },
+    {
+      "title": "乌夜啼",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=394",
+      "dynasty": "清末"
+    },
+    {
+      "title": "八声甘州",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=396",
+      "dynasty": "清末"
+    },
+    {
+      "title": "小重山",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=395",
+      "dynasty": "清末"
+    },
+    {
+      "title": "溪花零落，秋意渐深。偶溯旧游，不胜迟暮之感，因赋此解，以遣愁怀。·解连环",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=391",
+      "dynasty": "清末"
+    },
+    {
+      "title": "自题填词圆·石州慢",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=393",
+      "dynasty": "清末"
+    },
+    {
+      "title": "花朝社集，追念沤翁下世，各拟輓章。五旦徵调最哀，为燕乐所不备。白石寻韵作谱，音响巉峭。覆杯堕泪，漫倚此声。·徵招",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=392",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,44 @@
+{
+  "name": "冯勖",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "十二辰诗赠昆山支逸人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4196",
+      "dynasty": "清"
+    },
+    {
+      "title": "沈庄樗幽居",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4197",
+      "dynasty": "清"
+    },
+    {
+      "title": "十二辰诗赠昆山支逸人",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1237",
+      "dynasty": "清"
+    },
+    {
+      "title": "沈庄樗幽居",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1238",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

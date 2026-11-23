@@ -1,0 +1,212 @@
+{
+  "name": "徐夔",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 32,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "夜光木歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5647",
+      "dynasty": "清"
+    },
+    {
+      "title": "大云庵访子美旧址",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5641",
+      "dynasty": "清"
+    },
+    {
+      "title": "寒蝉",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5649",
+      "dynasty": "清"
+    },
+    {
+      "title": "扰龙松歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5646",
+      "dynasty": "清"
+    },
+    {
+      "title": "月夜宿院中小阁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5645",
+      "dynasty": "清"
+    },
+    {
+      "title": "江东",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5642",
+      "dynasty": "清"
+    },
+    {
+      "title": "登北极阁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5639",
+      "dynasty": "清"
+    },
+    {
+      "title": "秦淮杂诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5643",
+      "dynasty": "清"
+    },
+    {
+      "title": "称居赠永夫",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5635",
+      "dynasty": "清"
+    },
+    {
+      "title": "苦热",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5636",
+      "dynasty": "清"
+    },
+    {
+      "title": "蔡将军歌（有序）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5637",
+      "dynasty": "清"
+    },
+    {
+      "title": "观秦丞相李斯邹峄山碑",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5638",
+      "dynasty": "清"
+    },
+    {
+      "title": "郑钅式",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5644",
+      "dynasty": "清"
+    },
+    {
+      "title": "闻笛有忆",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5640",
+      "dynasty": "清"
+    },
+    {
+      "title": "题殉节录（钱楞，嘉善人，国初任将乐令，山贼攻城，战死。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5648",
+      "dynasty": "清"
+    },
+    {
+      "title": "题陈南麓都谏匡山读书图",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5650",
+      "dynasty": "清"
+    },
+    {
+      "title": "夜光木歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2688",
+      "dynasty": "清"
+    },
+    {
+      "title": "大云庵访子美旧址",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2682",
+      "dynasty": "清"
+    },
+    {
+      "title": "寒蝉",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2690",
+      "dynasty": "清"
+    },
+    {
+      "title": "扰龙松歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2687",
+      "dynasty": "清"
+    },
+    {
+      "title": "月夜宿院中小阁",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2686",
+      "dynasty": "清"
+    },
+    {
+      "title": "江东",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2683",
+      "dynasty": "清"
+    },
+    {
+      "title": "登北极阁",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2680",
+      "dynasty": "清"
+    },
+    {
+      "title": "秦淮杂诗",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2684",
+      "dynasty": "清"
+    },
+    {
+      "title": "称居赠永夫",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2676",
+      "dynasty": "清"
+    },
+    {
+      "title": "苦热",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2677",
+      "dynasty": "清"
+    },
+    {
+      "title": "蔡将军歌（有序）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2678",
+      "dynasty": "清"
+    },
+    {
+      "title": "观秦丞相李斯邹峄山碑",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2679",
+      "dynasty": "清"
+    },
+    {
+      "title": "郑钅式",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2685",
+      "dynasty": "清"
+    },
+    {
+      "title": "闻笛有忆",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2681",
+      "dynasty": "清"
+    },
+    {
+      "title": "题殉节录（钱楞，嘉善人，国初任将乐令，山贼攻城，战死。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2689",
+      "dynasty": "清"
+    },
+    {
+      "title": "题陈南麓都谏匡山读书图",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2691",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

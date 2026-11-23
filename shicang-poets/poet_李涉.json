@@ -1,0 +1,129 @@
+{
+  "name": "李涉",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 18,
+  "anthologies": [
+    "万寿唐诗",
+    "千家诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "京口送朱昼之淮南",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=365",
+      "dynasty": "唐"
+    },
+    {
+      "title": "哭田布",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=364",
+      "dynasty": "唐"
+    },
+    {
+      "title": "宿武闗",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=362",
+      "dynasty": "唐"
+    },
+    {
+      "title": "润州听暮角",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=361",
+      "dynasty": "唐"
+    },
+    {
+      "title": "竹枝词 二首",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=363",
+      "dynasty": "唐"
+    },
+    {
+      "title": "过湖州妓宋态",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=360",
+      "dynasty": "唐"
+    },
+    {
+      "title": "邠州词献髙尚书 二首",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=366",
+      "dynasty": "唐"
+    },
+    {
+      "title": "题开圣寺",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=359",
+      "dynasty": "唐"
+    },
+    {
+      "title": "登山",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=125",
+      "dynasty": "唐"
+    },
+    {
+      "title": "京口送朱昼之淮南",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6820",
+      "dynasty": "唐"
+    },
+    {
+      "title": "哭田布",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6819",
+      "dynasty": "唐"
+    },
+    {
+      "title": "宿武闗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6817",
+      "dynasty": "唐"
+    },
+    {
+      "title": "润州听暮角",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6816",
+      "dynasty": "唐"
+    },
+    {
+      "title": "登山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0946",
+      "dynasty": "唐"
+    },
+    {
+      "title": "竹枝词 二首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6818",
+      "dynasty": "唐"
+    },
+    {
+      "title": "过湖州妓宋态",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6815",
+      "dynasty": "唐"
+    },
+    {
+      "title": "邠州词献髙尚书 二首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6821",
+      "dynasty": "唐"
+    },
+    {
+      "title": "题开圣寺",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6814",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

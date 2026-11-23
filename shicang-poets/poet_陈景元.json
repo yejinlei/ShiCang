@@ -1,0 +1,68 @@
+{
+  "name": "陈景元",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "严陵钓台",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6134",
+      "dynasty": "清"
+    },
+    {
+      "title": "古北杂诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6135",
+      "dynasty": "清"
+    },
+    {
+      "title": "咏怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6133",
+      "dynasty": "清"
+    },
+    {
+      "title": "山夜",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6136",
+      "dynasty": "清"
+    },
+    {
+      "title": "严陵钓台",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3175",
+      "dynasty": "清"
+    },
+    {
+      "title": "古北杂诗",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3176",
+      "dynasty": "清"
+    },
+    {
+      "title": "咏怀",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3174",
+      "dynasty": "清"
+    },
+    {
+      "title": "山夜",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3177",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

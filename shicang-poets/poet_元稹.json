@@ -1,0 +1,200 @@
+{
+  "name": "元稹",
+  "zi": "微之",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "洛阳",
+  "style": "#ae3a2b",
+  "school": "新乐府",
+  "years": "779—831",
+  "bio": "与白居易并称「元白」。代表作《离思》（「曾经沧海难为水」）。",
+  "work_count": 30,
+  "anthologies": [
+    "万寿唐诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "亚枝红",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=417",
+      "dynasty": "唐"
+    },
+    {
+      "title": "嘉陵江",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=420",
+      "dynasty": "唐"
+    },
+    {
+      "title": "嘉陵驿",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=419",
+      "dynasty": "唐"
+    },
+    {
+      "title": "好时节",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=421",
+      "dynasty": "唐"
+    },
+    {
+      "title": "寄庾敬休",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=424",
+      "dynasty": "唐"
+    },
+    {
+      "title": "岳阳楼",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=423",
+      "dynasty": "唐"
+    },
+    {
+      "title": "梁州梦",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=418",
+      "dynasty": "唐"
+    },
+    {
+      "title": "行宫",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=155",
+      "dynasty": "唐"
+    },
+    {
+      "title": "西归",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=425",
+      "dynasty": "唐"
+    },
+    {
+      "title": "西明寺牡丹",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=416",
+      "dynasty": "唐"
+    },
+    {
+      "title": "西还",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=156",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送孙胜",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=422",
+      "dynasty": "唐"
+    },
+    {
+      "title": "重赠乐天",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=426",
+      "dynasty": "唐"
+    },
+    {
+      "title": "亚枝红",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6870",
+      "dynasty": "唐"
+    },
+    {
+      "title": "嘉陵江",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6873",
+      "dynasty": "唐"
+    },
+    {
+      "title": "嘉陵驿",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6872",
+      "dynasty": "唐"
+    },
+    {
+      "title": "好时节",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6874",
+      "dynasty": "唐"
+    },
+    {
+      "title": "寄庾敬休",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6877",
+      "dynasty": "唐"
+    },
+    {
+      "title": "岳阳楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6876",
+      "dynasty": "唐"
+    },
+    {
+      "title": "梁州梦",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6871",
+      "dynasty": "唐"
+    },
+    {
+      "title": "离思·其四",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0832",
+      "dynasty": "唐"
+    },
+    {
+      "title": "行宫",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0094",
+      "dynasty": "唐"
+    },
+    {
+      "title": "西归",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6878",
+      "dynasty": "唐"
+    },
+    {
+      "title": "西明寺牡丹",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6869",
+      "dynasty": "唐"
+    },
+    {
+      "title": "西还",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6629",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送孙胜",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6875",
+      "dynasty": "唐"
+    },
+    {
+      "title": "遣悲怀·其一",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0095",
+      "dynasty": "唐"
+    },
+    {
+      "title": "遣悲怀·其三",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0096",
+      "dynasty": "唐"
+    },
+    {
+      "title": "遣悲怀·其二",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0097",
+      "dynasty": "唐"
+    },
+    {
+      "title": "重赠乐天",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6879",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": true
+}

@@ -1,0 +1,116 @@
+{
+  "name": "翁孟寅",
+  "zi": "",
+  "hao": "",
+  "dynasty": "宋",
+  "d_order": 8,
+  "birthplace": "",
+  "style": "#7F8C8D",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 16,
+  "anthologies": [
+    "名篇精读",
+    "绝妙好词"
+  ],
+  "works": [
+    {
+      "title": "小砑红绫笺纸，一字一行春泪。封了更亲题，",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7328",
+      "dynasty": "宋"
+    },
+    {
+      "title": "恋绣衾",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7326",
+      "dynasty": "宋"
+    },
+    {
+      "title": "梅花引",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7324",
+      "dynasty": "宋"
+    },
+    {
+      "title": "梦江南",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7325",
+      "dynasty": "宋"
+    },
+    {
+      "title": "汉宫春",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7327",
+      "dynasty": "宋"
+    },
+    {
+      "title": "烛影摇红",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7322",
+      "dynasty": "宋"
+    },
+    {
+      "title": "阮郎归",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7323",
+      "dynasty": "宋"
+    },
+    {
+      "title": "齐天乐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7321",
+      "dynasty": "宋"
+    },
+    {
+      "title": "元夕·齐天乐",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=132",
+      "dynasty": "宋"
+    },
+    {
+      "title": "小砑红绫笺纸，一字一行春泪。封了更亲题，",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=139",
+      "dynasty": "宋"
+    },
+    {
+      "title": "恋绣衾",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=137",
+      "dynasty": "宋"
+    },
+    {
+      "title": "梅花引",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=135",
+      "dynasty": "宋"
+    },
+    {
+      "title": "梦江南",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=136",
+      "dynasty": "宋"
+    },
+    {
+      "title": "汉宫春",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=138",
+      "dynasty": "宋"
+    },
+    {
+      "title": "烛影摇红",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=133",
+      "dynasty": "宋"
+    },
+    {
+      "title": "阮郎归",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=134",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,80 @@
+{
+  "name": "吴潜",
+  "zi": "",
+  "hao": "",
+  "dynasty": "宋",
+  "d_order": 8,
+  "birthplace": "",
+  "style": "#7F8C8D",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "绝妙好词"
+  ],
+  "works": [
+    {
+      "title": "南柯子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7306",
+      "dynasty": "宋"
+    },
+    {
+      "title": "唐多令",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7309",
+      "dynasty": "宋"
+    },
+    {
+      "title": "满江红",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7305",
+      "dynasty": "宋"
+    },
+    {
+      "title": "眼儿媚",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7308",
+      "dynasty": "宋"
+    },
+    {
+      "title": "霓裳中序第一",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7307",
+      "dynasty": "宋"
+    },
+    {
+      "title": "南柯子",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=117",
+      "dynasty": "宋"
+    },
+    {
+      "title": "眼儿媚",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=119",
+      "dynasty": "宋"
+    },
+    {
+      "title": "苕溪有牧之之感·唐多令",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=120",
+      "dynasty": "宋"
+    },
+    {
+      "title": "茉莉·霓裳中序第一",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=118",
+      "dynasty": "宋"
+    },
+    {
+      "title": "金陵乌衣园·满江红",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=116",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

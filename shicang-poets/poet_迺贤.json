@@ -1,0 +1,80 @@
+{
+  "name": "迺贤",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "李老谷",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=463",
+      "dynasty": "元"
+    },
+    {
+      "title": "次段吉甫助教春日怀江南韵",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=278",
+      "dynasty": "元"
+    },
+    {
+      "title": "秋夜有怀明州张子渊",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=513",
+      "dynasty": "元"
+    },
+    {
+      "title": "答禄将军射虎行（并序）",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=96",
+      "dynasty": "元"
+    },
+    {
+      "title": "赋环波亭送杨校勘归豫章",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=20",
+      "dynasty": "元"
+    },
+    {
+      "title": "李老谷",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1925",
+      "dynasty": "元"
+    },
+    {
+      "title": "次段吉甫助教春日怀江南韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1740",
+      "dynasty": "元"
+    },
+    {
+      "title": "秋夜有怀明州张子渊",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1975",
+      "dynasty": "元"
+    },
+    {
+      "title": "答禄将军射虎行（并序）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1558",
+      "dynasty": "元"
+    },
+    {
+      "title": "赋环波亭送杨校勘归豫章",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1482",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,117 @@
+{
+  "name": "李雯",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清末",
+  "d_order": 16,
+  "birthplace": "",
+  "style": "#795548",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 16,
+  "anthologies": [
+    "名篇精读",
+    "清诗",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "太平寺闻子规",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3080",
+      "dynasty": "清"
+    },
+    {
+      "title": "横江词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3078",
+      "dynasty": "清"
+    },
+    {
+      "title": "经东阿怀曹子建",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3079",
+      "dynasty": "清"
+    },
+    {
+      "title": "太平寺闻子规",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=121",
+      "dynasty": "清"
+    },
+    {
+      "title": "横江词",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=119",
+      "dynasty": "清"
+    },
+    {
+      "title": "经东阿怀曹子建",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=120",
+      "dynasty": "清"
+    },
+    {
+      "title": "浪淘沙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1060",
+      "dynasty": "清末"
+    },
+    {
+      "title": "菩萨蛮",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1056",
+      "dynasty": "清末"
+    },
+    {
+      "title": "虞美人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1057",
+      "dynasty": "清末"
+    },
+    {
+      "title": "风流子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1059",
+      "dynasty": "清末"
+    },
+    {
+      "title": "鹊踏枝",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1058",
+      "dynasty": "清末"
+    },
+    {
+      "title": "忆未来人·菩萨蛮",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=9",
+      "dynasty": "清末"
+    },
+    {
+      "title": "春雨·虞美人",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=10",
+      "dynasty": "清末"
+    },
+    {
+      "title": "杨花·浪淘沙",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=13",
+      "dynasty": "清末"
+    },
+    {
+      "title": "落叶·鹊踏枝",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=11",
+      "dynasty": "清末"
+    },
+    {
+      "title": "送春（箧中词下有《同芝麓》三字。）·风流子",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=12",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": false
+}

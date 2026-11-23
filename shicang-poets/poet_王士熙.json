@@ -1,0 +1,68 @@
+{
+  "name": "王士熙",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "李宫人琵琶引",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=434",
+      "dynasty": "元"
+    },
+    {
+      "title": "送华山隐归西湖故居",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=115",
+      "dynasty": "元"
+    },
+    {
+      "title": "送巨德新",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=345",
+      "dynasty": "元"
+    },
+    {
+      "title": "骊山宫图",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=346",
+      "dynasty": "元"
+    },
+    {
+      "title": "李宫人琵琶引",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1896",
+      "dynasty": "元"
+    },
+    {
+      "title": "送华山隐归西湖故居",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1577",
+      "dynasty": "元"
+    },
+    {
+      "title": "送巨德新",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1807",
+      "dynasty": "元"
+    },
+    {
+      "title": "骊山宫图",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1808",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

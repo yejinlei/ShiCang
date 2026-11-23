@@ -1,0 +1,68 @@
+{
+  "name": "吴梅",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清末",
+  "d_order": 16,
+  "birthplace": "",
+  "style": "#795548",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "临江仙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1452",
+      "dynasty": "清末"
+    },
+    {
+      "title": "桂枝香",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1454",
+      "dynasty": "清末"
+    },
+    {
+      "title": "清平乐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1453",
+      "dynasty": "清末"
+    },
+    {
+      "title": "翠楼吟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1451",
+      "dynasty": "清末"
+    },
+    {
+      "title": "临江仙",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=410",
+      "dynasty": "清末"
+    },
+    {
+      "title": "秦淮遇京华故人·翠楼吟",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=409",
+      "dynasty": "清末"
+    },
+    {
+      "title": "题郑所南画栏，次玉田韵。·清平乐",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=411",
+      "dynasty": "清末"
+    },
+    {
+      "title": "题龚半千画·桂枝香",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=412",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": false
+}

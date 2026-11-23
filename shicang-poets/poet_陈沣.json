@@ -1,0 +1,92 @@
+{
+  "name": "陈沣",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清末",
+  "d_order": 16,
+  "birthplace": "",
+  "style": "#795548",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 12,
+  "anthologies": [
+    "名篇精读",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "摸鱼儿",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1256",
+      "dynasty": "清末"
+    },
+    {
+      "title": "水龙吟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1254",
+      "dynasty": "清末"
+    },
+    {
+      "title": "甘州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1257",
+      "dynasty": "清末"
+    },
+    {
+      "title": "百字令",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1259",
+      "dynasty": "清末"
+    },
+    {
+      "title": "高阳台",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1258",
+      "dynasty": "清末"
+    },
+    {
+      "title": "齐天乐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1255",
+      "dynasty": "清末"
+    },
+    {
+      "title": "东坡《江郊诗序》云：“归善县治之北，数百步抵江，少西有磐石小潭，可以垂钓。”余访得之，题以此阕。·摸鱼儿",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=212",
+      "dynasty": "清末"
+    },
+    {
+      "title": "元日独游丰湖，湖边有张氏园林，叩门若无人者，遂过黄塘寺，啜茗而返。忆去年此日，游南昌螺墩，不知明年此日，又在何处也？·高阳台",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=214",
+      "dynasty": "清末"
+    },
+    {
+      "title": "十八滩舟中夜雨·齐天乐",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=211",
+      "dynasty": "清末"
+    },
+    {
+      "title": "壬辰九月之望，吾师程春海先生，与吴石华学博，登粤秀看月，同赋此调，都不似人间语，真绝唱也！今十五年，两先生皆化去。余於此夜，与许青皋、桂皓庭登山，徘徊往迹，淡月微云，增我怊怅，即次原韵。·水龙吟",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=210",
+      "dynasty": "清末"
+    },
+    {
+      "title": "夏日过七里泷，飞雨忽来，凉沁肌骨。推篷看山，新黛如沐，岚影入水，扁舟如行绿颇黎中。临流洗笔，赋成此阕。偿与樊榭老仙倚笛歌之，当令众山皆响也。·百字令",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=215",
+      "dynasty": "清末"
+    },
+    {
+      "title": "惠州朝云墓，每岁清明，倾城女士，酹酒罗拜。坡公诗云：“丹成逐我三山去，不作巫阳云雨仙。”余谓朝云倘随坡公仙去，转不如死葬丰湖耳。·甘州",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=213",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": false
+}

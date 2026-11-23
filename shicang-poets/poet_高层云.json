@@ -1,0 +1,68 @@
+{
+  "name": "高层云",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "故园",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4041",
+      "dynasty": "清"
+    },
+    {
+      "title": "瞿唐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4039",
+      "dynasty": "清"
+    },
+    {
+      "title": "送周紫海游华岳",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4038",
+      "dynasty": "清"
+    },
+    {
+      "title": "韶阳道中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4040",
+      "dynasty": "清"
+    },
+    {
+      "title": "故园",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1082",
+      "dynasty": "清"
+    },
+    {
+      "title": "瞿唐",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1080",
+      "dynasty": "清"
+    },
+    {
+      "title": "送周紫海游华岳",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1079",
+      "dynasty": "清"
+    },
+    {
+      "title": "韶阳道中",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1081",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

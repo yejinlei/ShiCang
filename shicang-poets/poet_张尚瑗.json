@@ -1,0 +1,92 @@
+{
+  "name": "张尚瑗",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 12,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "上滩",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4645",
+      "dynasty": "清"
+    },
+    {
+      "title": "九鲤湖",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4646",
+      "dynasty": "清"
+    },
+    {
+      "title": "仙霞关",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4650",
+      "dynasty": "清"
+    },
+    {
+      "title": "弹子矶",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4649",
+      "dynasty": "清"
+    },
+    {
+      "title": "观音岩",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4648",
+      "dynasty": "清"
+    },
+    {
+      "title": "谒韩文公祠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4647",
+      "dynasty": "清"
+    },
+    {
+      "title": "上滩",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1686",
+      "dynasty": "清"
+    },
+    {
+      "title": "九鲤湖",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1687",
+      "dynasty": "清"
+    },
+    {
+      "title": "仙霞关",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1691",
+      "dynasty": "清"
+    },
+    {
+      "title": "弹子矶",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1690",
+      "dynasty": "清"
+    },
+    {
+      "title": "观音岩",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1689",
+      "dynasty": "清"
+    },
+    {
+      "title": "谒韩文公祠",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1688",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

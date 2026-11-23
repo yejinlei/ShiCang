@@ -1,0 +1,56 @@
+{
+  "name": "王时宪",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "寄赠麓台用杜戏题王宰画山水图歌韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5229",
+      "dynasty": "清"
+    },
+    {
+      "title": "旅舍感怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5231",
+      "dynasty": "清"
+    },
+    {
+      "title": "舟中遣兴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5230",
+      "dynasty": "清"
+    },
+    {
+      "title": "寄赠麓台用杜戏题王宰画山水图歌韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2270",
+      "dynasty": "清"
+    },
+    {
+      "title": "旅舍感怀",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2272",
+      "dynasty": "清"
+    },
+    {
+      "title": "舟中遣兴",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2271",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

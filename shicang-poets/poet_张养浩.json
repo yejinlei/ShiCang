@@ -1,0 +1,44 @@
+{
+  "name": "张养浩",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "登泰山",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=503",
+      "dynasty": "元"
+    },
+    {
+      "title": "山坡羊·潼关怀古",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0725",
+      "dynasty": "元"
+    },
+    {
+      "title": "山坡羊·骊山怀古",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0726",
+      "dynasty": "元"
+    },
+    {
+      "title": "登泰山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1965",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

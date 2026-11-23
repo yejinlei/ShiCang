@@ -1,0 +1,56 @@
+{
+  "name": "陈旅",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "和维扬友人",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=267",
+      "dynasty": "元"
+    },
+    {
+      "title": "送宜黄刘县尹",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=268",
+      "dynasty": "元"
+    },
+    {
+      "title": "陪赵公子游蒋山即席次李五峰韵",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=379",
+      "dynasty": "元"
+    },
+    {
+      "title": "和维扬友人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1729",
+      "dynasty": "元"
+    },
+    {
+      "title": "送宜黄刘县尹",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1730",
+      "dynasty": "元"
+    },
+    {
+      "title": "陪赵公子游蒋山即席次李五峰韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1841",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

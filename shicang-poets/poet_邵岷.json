@@ -1,0 +1,92 @@
+{
+  "name": "邵岷",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 12,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "将之成都",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6149",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋戍",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6148",
+      "dynasty": "清"
+    },
+    {
+      "title": "赵忠愍公得谥诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6145",
+      "dynasty": "清"
+    },
+    {
+      "title": "过鹿角岔",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6146",
+      "dynasty": "清"
+    },
+    {
+      "title": "送友出塞",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6147",
+      "dynasty": "清"
+    },
+    {
+      "title": "长歌留别江汉诸同学",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6144",
+      "dynasty": "清"
+    },
+    {
+      "title": "将之成都",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3190",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋戍",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3189",
+      "dynasty": "清"
+    },
+    {
+      "title": "赵忠愍公得谥诗",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3186",
+      "dynasty": "清"
+    },
+    {
+      "title": "过鹿角岔",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3187",
+      "dynasty": "清"
+    },
+    {
+      "title": "送友出塞",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3188",
+      "dynasty": "清"
+    },
+    {
+      "title": "长歌留别江汉诸同学",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3185",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

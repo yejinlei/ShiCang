@@ -1,0 +1,49 @@
+{
+  "name": "曹操",
+  "zi": "孟德",
+  "hao": "阿瞒",
+  "dynasty": "汉",
+  "d_order": 3,
+  "birthplace": "沛国谯县",
+  "style": "#6B4423",
+  "school": "建安文学",
+  "years": "155—220",
+  "bio": "魏武帝，建安文学开创者。其诗苍凉雄浑、慷慨悲凉，开建安风骨之先。代表作《短歌行》《观沧海》《龟虽寿》。",
+  "work_count": 5,
+  "anthologies": [
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "短歌行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0066",
+      "dynasty": "魏晋"
+    },
+    {
+      "title": "苦寒行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0067",
+      "dynasty": "魏晋"
+    },
+    {
+      "title": "蒿里行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0068",
+      "dynasty": "魏晋"
+    },
+    {
+      "title": "观沧海",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0069",
+      "dynasty": "魏晋"
+    },
+    {
+      "title": "龟虽寿",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0070",
+      "dynasty": "魏晋"
+    }
+  ],
+  "has_bio": true
+}

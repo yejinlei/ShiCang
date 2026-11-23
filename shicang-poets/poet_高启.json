@@ -1,0 +1,278 @@
+{
+  "name": "高启",
+  "zi": "季迪",
+  "hao": "青丘子",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "长洲",
+  "style": "#C0392B",
+  "school": "明初十才子",
+  "years": "1336—1374",
+  "bio": "明初最杰出诗人，「吴中四杰」之首。因辞官被朱元璋腰斩，年三十九。",
+  "work_count": 43,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "与刘将军杜文学晚登西城",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2049",
+      "dynasty": "明"
+    },
+    {
+      "title": "凉州曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2056",
+      "dynasty": "明"
+    },
+    {
+      "title": "吊岳王墓",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2055",
+      "dynasty": "明"
+    },
+    {
+      "title": "听教坊旧妓郭芳卿弟子陈氏歌（时至正己亥岁作）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2045",
+      "dynasty": "明"
+    },
+    {
+      "title": "唐昭宗赐钱武肃王铁券歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2047",
+      "dynasty": "明"
+    },
+    {
+      "title": "塞下曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2038",
+      "dynasty": "明"
+    },
+    {
+      "title": "张中丞庙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2046",
+      "dynasty": "明"
+    },
+    {
+      "title": "忆昨行寄吴中故人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2042",
+      "dynasty": "明"
+    },
+    {
+      "title": "悲歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2039",
+      "dynasty": "明"
+    },
+    {
+      "title": "支遁庵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2041",
+      "dynasty": "明"
+    },
+    {
+      "title": "明皇秉烛夜游图",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2043",
+      "dynasty": "明"
+    },
+    {
+      "title": "晚次西陵馆",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2050",
+      "dynasty": "明"
+    },
+    {
+      "title": "清明呈馆中诸公",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2054",
+      "dynasty": "明"
+    },
+    {
+      "title": "秋柳",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2057",
+      "dynasty": "明"
+    },
+    {
+      "title": "赠金华隐者",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2044",
+      "dynasty": "明"
+    },
+    {
+      "title": "送叶判官赴高唐时使安南还",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2052",
+      "dynasty": "明"
+    },
+    {
+      "title": "送李使君镇海昌（州有双庙）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2053",
+      "dynasty": "明"
+    },
+    {
+      "title": "送沈左司从汪参政分省陕西汪由御史中丞出",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2051",
+      "dynasty": "明"
+    },
+    {
+      "title": "送谢恭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2048",
+      "dynasty": "明"
+    },
+    {
+      "title": "顾荣庙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2040",
+      "dynasty": "明"
+    },
+    {
+      "title": "与刘将军杜文学晚登西城",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=45",
+      "dynasty": "明"
+    },
+    {
+      "title": "凉州曲",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=52",
+      "dynasty": "明"
+    },
+    {
+      "title": "吊岳王墓",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=51",
+      "dynasty": "明"
+    },
+    {
+      "title": "听教坊旧妓郭芳卿弟子陈氏歌（时至正己亥岁作）",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=40",
+      "dynasty": "明"
+    },
+    {
+      "title": "唐昭宗赐钱武肃王铁券歌",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=43",
+      "dynasty": "明"
+    },
+    {
+      "title": "塞下曲",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=33",
+      "dynasty": "明"
+    },
+    {
+      "title": "张中丞庙",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=42",
+      "dynasty": "明"
+    },
+    {
+      "title": "忆昨行寄吴中故人",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=37",
+      "dynasty": "明"
+    },
+    {
+      "title": "悲歌",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=34",
+      "dynasty": "明"
+    },
+    {
+      "title": "支遁庵",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=36",
+      "dynasty": "明"
+    },
+    {
+      "title": "明皇秉烛夜游图",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=38",
+      "dynasty": "明"
+    },
+    {
+      "title": "晚次西陵馆",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=46",
+      "dynasty": "明"
+    },
+    {
+      "title": "清明呈馆中诸公",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=50",
+      "dynasty": "明"
+    },
+    {
+      "title": "登金陵雨花台望大江",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=41",
+      "dynasty": "明"
+    },
+    {
+      "title": "秋柳",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=53",
+      "dynasty": "明"
+    },
+    {
+      "title": "赠金华隐者",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=39",
+      "dynasty": "明"
+    },
+    {
+      "title": "送叶判官赴高唐时使安南还",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=48",
+      "dynasty": "明"
+    },
+    {
+      "title": "送李使君镇海昌（州有双庙）",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=49",
+      "dynasty": "明"
+    },
+    {
+      "title": "送沈左司从汪参政分省陕西汪由御史中丞出",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=47",
+      "dynasty": "明"
+    },
+    {
+      "title": "送谢恭",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=44",
+      "dynasty": "明"
+    },
+    {
+      "title": "顾荣庙",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=35",
+      "dynasty": "明"
+    },
+    {
+      "title": "梅花九首·其一",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0806",
+      "dynasty": "明末清初"
+    },
+    {
+      "title": "登金陵雨花台望大江",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0807",
+      "dynasty": "明末清初"
+    }
+  ],
+  "has_bio": true
+}

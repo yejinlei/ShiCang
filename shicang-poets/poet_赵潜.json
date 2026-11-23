@@ -1,0 +1,44 @@
+{
+  "name": "赵潜",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "呈梅村先生",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3640",
+      "dynasty": "清"
+    },
+    {
+      "title": "许九日以诗见访次韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3639",
+      "dynasty": "清"
+    },
+    {
+      "title": "呈梅村先生",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=681",
+      "dynasty": "清"
+    },
+    {
+      "title": "许九日以诗见访次韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=680",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

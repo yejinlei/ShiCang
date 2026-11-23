@@ -1,0 +1,110 @@
+{
+  "name": "李清照",
+  "zi": "",
+  "hao": "易安居士",
+  "dynasty": "宋",
+  "d_order": 8,
+  "birthplace": "济南",
+  "style": "#7F8C8D",
+  "school": "婉约宗主",
+  "years": "1084—约1155",
+  "bio": "号易安居士，婉约派一代词宗，「千古第一才女」。代表作《声声慢》《醉花阴》《如梦令》。",
+  "work_count": 15,
+  "anthologies": [
+    "名篇精读",
+    "宋词三百首"
+  ],
+  "works": [
+    {
+      "title": "一剪梅",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0547",
+      "dynasty": "宋"
+    },
+    {
+      "title": "凤凰台上忆吹箫",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0548",
+      "dynasty": "宋"
+    },
+    {
+      "title": "声声慢",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0549",
+      "dynasty": "宋"
+    },
+    {
+      "title": "如梦令",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0550",
+      "dynasty": "宋"
+    },
+    {
+      "title": "念奴娇",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0551",
+      "dynasty": "宋"
+    },
+    {
+      "title": "武陵春",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0552",
+      "dynasty": "宋"
+    },
+    {
+      "title": "永遇乐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0553",
+      "dynasty": "宋"
+    },
+    {
+      "title": "渔家傲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0554",
+      "dynasty": "宋"
+    },
+    {
+      "title": "点绛唇",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0555",
+      "dynasty": "宋"
+    },
+    {
+      "title": "醉花阴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0556",
+      "dynasty": "宋"
+    },
+    {
+      "title": "凤凰台上忆吹箫",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=228",
+      "dynasty": "宋"
+    },
+    {
+      "title": "声声慢",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=230",
+      "dynasty": "宋"
+    },
+    {
+      "title": "念奴娇",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=231",
+      "dynasty": "宋"
+    },
+    {
+      "title": "永遇乐",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=232",
+      "dynasty": "宋"
+    },
+    {
+      "title": "醉花阴",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=229",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": true
+}

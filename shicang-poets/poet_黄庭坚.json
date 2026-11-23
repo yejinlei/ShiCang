@@ -1,0 +1,31 @@
+{
+  "name": "黄庭坚",
+  "zi": "鲁直",
+  "hao": "山谷道人",
+  "dynasty": "北宋",
+  "d_order": 7,
+  "birthplace": "洪州分宁",
+  "style": "#2980B9",
+  "school": "江西诗派",
+  "years": "1045—1105",
+  "bio": "「苏门四学士」之首，江西诗派开山。代表作《寄黄几复》《登快阁》。",
+  "work_count": 2,
+  "anthologies": [
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "念奴娇",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0708",
+      "dynasty": "宋"
+    },
+    {
+      "title": "清平乐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0709",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": true
+}

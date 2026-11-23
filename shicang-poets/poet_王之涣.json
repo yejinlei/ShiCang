@@ -1,0 +1,75 @@
+{
+  "name": "王之涣",
+  "zi": "季凌",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "晋阳",
+  "style": "#ae3a2b",
+  "school": "边塞诗",
+  "years": "688—742",
+  "bio": "盛唐边塞诗人，存诗仅六首首首精品。代表作《登鹳雀楼》《凉州词》。",
+  "work_count": 9,
+  "anthologies": [
+    "万寿唐诗",
+    "千家诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "凉州词",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=255",
+      "dynasty": "唐"
+    },
+    {
+      "title": "登鹳雀楼",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=73",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送别",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=72",
+      "dynasty": "唐"
+    },
+    {
+      "title": "登鹳鹤楼",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=5",
+      "dynasty": "唐"
+    },
+    {
+      "title": "凉州词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6718",
+      "dynasty": "唐"
+    },
+    {
+      "title": "出塞",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0316",
+      "dynasty": "唐"
+    },
+    {
+      "title": "登鹳雀楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0317",
+      "dynasty": "唐"
+    },
+    {
+      "title": "登鹳鹤楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0842",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送别",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6555",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": true
+}

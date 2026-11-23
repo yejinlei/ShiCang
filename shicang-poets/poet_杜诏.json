@@ -1,0 +1,188 @@
+{
+  "name": "杜诏",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 28,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "周处读书台",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5258",
+      "dynasty": "清"
+    },
+    {
+      "title": "咏史",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5265",
+      "dynasty": "清"
+    },
+    {
+      "title": "平原村",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5268",
+      "dynasty": "清"
+    },
+    {
+      "title": "戏马台",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5260",
+      "dynasty": "清"
+    },
+    {
+      "title": "次泰和韵送同年于元士入都因简刘喻旃杨若游诸同馆",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5262",
+      "dynasty": "清"
+    },
+    {
+      "title": "渡江",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5270",
+      "dynasty": "清"
+    },
+    {
+      "title": "游仙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5267",
+      "dynasty": "清"
+    },
+    {
+      "title": "白燕庵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5269",
+      "dynasty": "清"
+    },
+    {
+      "title": "罗浮蝶",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5264",
+      "dynasty": "清"
+    },
+    {
+      "title": "花朝宴集",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5263",
+      "dynasty": "清"
+    },
+    {
+      "title": "隋堤曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5257",
+      "dynasty": "清"
+    },
+    {
+      "title": "雨泊吴阊送春同顾梁汾先生作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5261",
+      "dynasty": "清"
+    },
+    {
+      "title": "鹦鹉",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5266",
+      "dynasty": "清"
+    },
+    {
+      "title": "黄金台",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5259",
+      "dynasty": "清"
+    },
+    {
+      "title": "周处读书台",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2299",
+      "dynasty": "清"
+    },
+    {
+      "title": "咏史",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2306",
+      "dynasty": "清"
+    },
+    {
+      "title": "平原村",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2309",
+      "dynasty": "清"
+    },
+    {
+      "title": "戏马台",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2301",
+      "dynasty": "清"
+    },
+    {
+      "title": "次泰和韵送同年于元士入都因简刘喻旃杨若游诸同馆",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2303",
+      "dynasty": "清"
+    },
+    {
+      "title": "渡江",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2311",
+      "dynasty": "清"
+    },
+    {
+      "title": "游仙",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2308",
+      "dynasty": "清"
+    },
+    {
+      "title": "白燕庵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2310",
+      "dynasty": "清"
+    },
+    {
+      "title": "罗浮蝶",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2305",
+      "dynasty": "清"
+    },
+    {
+      "title": "花朝宴集",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2304",
+      "dynasty": "清"
+    },
+    {
+      "title": "隋堤曲",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2298",
+      "dynasty": "清"
+    },
+    {
+      "title": "雨泊吴阊送春同顾梁汾先生作",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2302",
+      "dynasty": "清"
+    },
+    {
+      "title": "鹦鹉",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2307",
+      "dynasty": "清"
+    },
+    {
+      "title": "黄金台",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2300",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

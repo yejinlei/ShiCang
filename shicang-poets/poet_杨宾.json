@@ -1,0 +1,68 @@
+{
+  "name": "杨宾",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "出威远边门",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5010",
+      "dynasty": "清"
+    },
+    {
+      "title": "换车行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5009",
+      "dynasty": "清"
+    },
+    {
+      "title": "纳木窝稽",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5007",
+      "dynasty": "清"
+    },
+    {
+      "title": "至宁古塔二首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5008",
+      "dynasty": "清"
+    },
+    {
+      "title": "出威远边门",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2051",
+      "dynasty": "清"
+    },
+    {
+      "title": "换车行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2050",
+      "dynasty": "清"
+    },
+    {
+      "title": "纳木窝稽",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2048",
+      "dynasty": "清"
+    },
+    {
+      "title": "至宁古塔二首",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2049",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

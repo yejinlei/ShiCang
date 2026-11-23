@@ -1,0 +1,164 @@
+{
+  "name": "龚自珍",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清末",
+  "d_order": 16,
+  "birthplace": "",
+  "style": "#795548",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 24,
+  "anthologies": [
+    "名篇精读",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "咏史",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0812",
+      "dynasty": "明末清初"
+    },
+    {
+      "title": "夜坐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0813",
+      "dynasty": "明末清初"
+    },
+    {
+      "title": "己亥杂诗·九州生气",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0814",
+      "dynasty": "明末清初"
+    },
+    {
+      "title": "己亥杂诗·浩荡离愁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0815",
+      "dynasty": "明末清初"
+    },
+    {
+      "title": "己亥杂诗·陶潜酷似卧龙豪",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0816",
+      "dynasty": "明末清初"
+    },
+    {
+      "title": "人月圆",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1240",
+      "dynasty": "清末"
+    },
+    {
+      "title": "减兰",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1235",
+      "dynasty": "清末"
+    },
+    {
+      "title": "南浦",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1239",
+      "dynasty": "清末"
+    },
+    {
+      "title": "卜算子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1238",
+      "dynasty": "清末"
+    },
+    {
+      "title": "如梦令",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1233",
+      "dynasty": "清末"
+    },
+    {
+      "title": "定风波",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1241",
+      "dynasty": "清末"
+    },
+    {
+      "title": "摸鱼儿",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1236",
+      "dynasty": "清末"
+    },
+    {
+      "title": "浪淘沙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1232",
+      "dynasty": "清末"
+    },
+    {
+      "title": "鹊踏枝",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1234",
+      "dynasty": "清末"
+    },
+    {
+      "title": "书愿·浪淘沙",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=193",
+      "dynasty": "清末"
+    },
+    {
+      "title": "二月八日，重见於红茶花下，拟之明月入手，彩云满怀。·摸鱼儿",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=192",
+      "dynasty": "清末"
+    },
+    {
+      "title": "人月圆",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=196",
+      "dynasty": "清末"
+    },
+    {
+      "title": "偶检丛纸中，得花瓣一包，纸背细书辛幼安：《更能消几番风雨》一阕，乃是京师悯忠寺海棠花，戊辰暮春所戏为也，泫然得句。·减兰",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=191",
+      "dynasty": "清末"
+    },
+    {
+      "title": "写梦·浪淘沙",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=188",
+      "dynasty": "清末"
+    },
+    {
+      "title": "卜算子",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=194",
+      "dynasty": "清末"
+    },
+    {
+      "title": "如梦令",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=189",
+      "dynasty": "清末"
+    },
+    {
+      "title": "定风波",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=197",
+      "dynasty": "清末"
+    },
+    {
+      "title": "端阳前一日，伯恬填词题驿壁上，凄魂曼绝，余亦继声。·南浦",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=195",
+      "dynasty": "清末"
+    },
+    {
+      "title": "过人家废园作·鹊踏枝",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=190",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": false
+}

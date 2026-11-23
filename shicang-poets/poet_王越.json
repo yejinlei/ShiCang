@@ -1,0 +1,44 @@
+{
+  "name": "王越",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "与李布政彦硕、冯佥宪景阳对饮",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2197",
+      "dynasty": "明"
+    },
+    {
+      "title": "湘南怀古",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2198",
+      "dynasty": "明"
+    },
+    {
+      "title": "与李布政彦硕、冯佥宪景阳对饮",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=193",
+      "dynasty": "明"
+    },
+    {
+      "title": "湘南怀古",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=194",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,56 @@
+{
+  "name": "刘体仁",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "即事",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3340",
+      "dynasty": "清"
+    },
+    {
+      "title": "寄阮亭司理",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3339",
+      "dynasty": "清"
+    },
+    {
+      "title": "送戴务旃游华山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3338",
+      "dynasty": "清"
+    },
+    {
+      "title": "即事",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=381",
+      "dynasty": "清"
+    },
+    {
+      "title": "寄阮亭司理",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=380",
+      "dynasty": "清"
+    },
+    {
+      "title": "送戴务旃游华山",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=379",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

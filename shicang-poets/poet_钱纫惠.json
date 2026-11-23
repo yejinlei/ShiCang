@@ -1,0 +1,44 @@
+{
+  "name": "钱纫惠",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "度梨关",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6350",
+      "dynasty": "清"
+    },
+    {
+      "title": "新安江行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6349",
+      "dynasty": "清"
+    },
+    {
+      "title": "度梨关",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3391",
+      "dynasty": "清"
+    },
+    {
+      "title": "新安江行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3390",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

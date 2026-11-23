@@ -1,0 +1,44 @@
+{
+  "name": "崔华",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "拟宋如意和歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3516",
+      "dynasty": "清"
+    },
+    {
+      "title": "浒墅舟中别相送诸子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3517",
+      "dynasty": "清"
+    },
+    {
+      "title": "拟宋如意和歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=557",
+      "dynasty": "清"
+    },
+    {
+      "title": "浒墅舟中别相送诸子",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=558",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

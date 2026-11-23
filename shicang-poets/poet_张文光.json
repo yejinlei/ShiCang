@@ -1,0 +1,104 @@
+{
+  "name": "张文光",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 14,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "九月八日喜禹峰至",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3002",
+      "dynasty": "清"
+    },
+    {
+      "title": "怀李龙衮",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3000",
+      "dynasty": "清"
+    },
+    {
+      "title": "清淮晓发",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3003",
+      "dynasty": "清"
+    },
+    {
+      "title": "登汴城角楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2997",
+      "dynasty": "清"
+    },
+    {
+      "title": "送吴六益诗人南归",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2998",
+      "dynasty": "清"
+    },
+    {
+      "title": "送季天中秋日东行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3001",
+      "dynasty": "清"
+    },
+    {
+      "title": "野月",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2999",
+      "dynasty": "清"
+    },
+    {
+      "title": "九月八日喜禹峰至",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=43",
+      "dynasty": "清"
+    },
+    {
+      "title": "怀李龙衮",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=41",
+      "dynasty": "清"
+    },
+    {
+      "title": "清淮晓发",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=44",
+      "dynasty": "清"
+    },
+    {
+      "title": "登汴城角楼",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=38",
+      "dynasty": "清"
+    },
+    {
+      "title": "送吴六益诗人南归",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=39",
+      "dynasty": "清"
+    },
+    {
+      "title": "送季天中秋日东行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=42",
+      "dynasty": "清"
+    },
+    {
+      "title": "野月",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=40",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

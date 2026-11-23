@@ -1,0 +1,128 @@
+{
+  "name": "谭献",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清末",
+  "d_order": 16,
+  "birthplace": "",
+  "style": "#795548",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 18,
+  "anthologies": [
+    "名篇精读",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "一萼红",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1299",
+      "dynasty": "清末"
+    },
+    {
+      "title": "临江仙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1303",
+      "dynasty": "清末"
+    },
+    {
+      "title": "桂枝香",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1302",
+      "dynasty": "清末"
+    },
+    {
+      "title": "洞仙歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1300",
+      "dynasty": "清末"
+    },
+    {
+      "title": "渡江云",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1301",
+      "dynasty": "清末"
+    },
+    {
+      "title": "蝶恋花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1296",
+      "dynasty": "清末"
+    },
+    {
+      "title": "金缕曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1297",
+      "dynasty": "清末"
+    },
+    {
+      "title": "青门引",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1295",
+      "dynasty": "清末"
+    },
+    {
+      "title": "鹧鸪天",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1298",
+      "dynasty": "清末"
+    },
+    {
+      "title": "初秋·洞仙歌",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=256",
+      "dynasty": "清末"
+    },
+    {
+      "title": "吴山·一萼红",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=255",
+      "dynasty": "清末"
+    },
+    {
+      "title": "和子珍·临江仙",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=259",
+      "dynasty": "清末"
+    },
+    {
+      "title": "大观亭同阳湖赵敬甫、江夏郑赞侯。·渡江云",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=257",
+      "dynasty": "清末"
+    },
+    {
+      "title": "江干待发·金缕曲",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=253",
+      "dynasty": "清末"
+    },
+    {
+      "title": "秦淮感秋·桂枝香",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=258",
+      "dynasty": "清末"
+    },
+    {
+      "title": "蝶恋花",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=252",
+      "dynasty": "清末"
+    },
+    {
+      "title": "青门引",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=251",
+      "dynasty": "清末"
+    },
+    {
+      "title": "鹧鸪天",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=254",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": false
+}

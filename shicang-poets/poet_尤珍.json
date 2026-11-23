@@ -1,0 +1,116 @@
+{
+  "name": "尤珍",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 16,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "东轩遣兴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4282",
+      "dynasty": "清"
+    },
+    {
+      "title": "夜坐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4288",
+      "dynasty": "清"
+    },
+    {
+      "title": "寄家信",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4286",
+      "dynasty": "清"
+    },
+    {
+      "title": "简郑山启",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4283",
+      "dynasty": "清"
+    },
+    {
+      "title": "遣兴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4281",
+      "dynasty": "清"
+    },
+    {
+      "title": "邺都怀古",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4287",
+      "dynasty": "清"
+    },
+    {
+      "title": "采石矶",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4285",
+      "dynasty": "清"
+    },
+    {
+      "title": "题磨崖碑",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4284",
+      "dynasty": "清"
+    },
+    {
+      "title": "东轩遣兴",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1323",
+      "dynasty": "清"
+    },
+    {
+      "title": "夜坐",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1329",
+      "dynasty": "清"
+    },
+    {
+      "title": "寄家信",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1327",
+      "dynasty": "清"
+    },
+    {
+      "title": "简郑山启",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1324",
+      "dynasty": "清"
+    },
+    {
+      "title": "遣兴",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1322",
+      "dynasty": "清"
+    },
+    {
+      "title": "邺都怀古",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1328",
+      "dynasty": "清"
+    },
+    {
+      "title": "采石矶",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1326",
+      "dynasty": "清"
+    },
+    {
+      "title": "题磨崖碑",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1325",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,56 @@
+{
+  "name": "潘其灿",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "春风和李玉洲韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5325",
+      "dynasty": "清"
+    },
+    {
+      "title": "癸卯岁暮感怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5327",
+      "dynasty": "清"
+    },
+    {
+      "title": "登河防口边城",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5326",
+      "dynasty": "清"
+    },
+    {
+      "title": "春风和李玉洲韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2366",
+      "dynasty": "清"
+    },
+    {
+      "title": "癸卯岁暮感怀",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2368",
+      "dynasty": "清"
+    },
+    {
+      "title": "登河防口边城",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2367",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

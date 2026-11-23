@@ -1,0 +1,68 @@
+{
+  "name": "潘果",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "枭矶孙夫人庙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5734",
+      "dynasty": "清"
+    },
+    {
+      "title": "桓宣武墓",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5736",
+      "dynasty": "清"
+    },
+    {
+      "title": "观星台",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5733",
+      "dynasty": "清"
+    },
+    {
+      "title": "项王庙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5735",
+      "dynasty": "清"
+    },
+    {
+      "title": "枭矶孙夫人庙",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2775",
+      "dynasty": "清"
+    },
+    {
+      "title": "桓宣武墓",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2777",
+      "dynasty": "清"
+    },
+    {
+      "title": "观星台",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2774",
+      "dynasty": "清"
+    },
+    {
+      "title": "项王庙",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2776",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

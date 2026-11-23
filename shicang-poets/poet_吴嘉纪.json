@@ -1,0 +1,176 @@
+{
+  "name": "吴嘉纪",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 26,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "一钱行赠林茂之",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3595",
+      "dynasty": "清"
+    },
+    {
+      "title": "僻壤",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3599",
+      "dynasty": "清"
+    },
+    {
+      "title": "内人生日",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3604",
+      "dynasty": "清"
+    },
+    {
+      "title": "劝酒歌赠乔边偕",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3598",
+      "dynasty": "清"
+    },
+    {
+      "title": "我昔三首效袁景文",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3597",
+      "dynasty": "清"
+    },
+    {
+      "title": "挽鲍念斋（有序）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3602",
+      "dynasty": "清"
+    },
+    {
+      "title": "新仆",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3603",
+      "dynasty": "清"
+    },
+    {
+      "title": "朝雨下",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3596",
+      "dynasty": "清"
+    },
+    {
+      "title": "玉勾斜",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3605",
+      "dynasty": "清"
+    },
+    {
+      "title": "落叶",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3600",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠汪秋涧",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3594",
+      "dynasty": "清"
+    },
+    {
+      "title": "送吴眷西归长林",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3593",
+      "dynasty": "清"
+    },
+    {
+      "title": "送周雪客游新安",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3601",
+      "dynasty": "清"
+    },
+    {
+      "title": "一钱行赠林茂之",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=636",
+      "dynasty": "清"
+    },
+    {
+      "title": "僻壤",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=640",
+      "dynasty": "清"
+    },
+    {
+      "title": "内人生日",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=645",
+      "dynasty": "清"
+    },
+    {
+      "title": "劝酒歌赠乔边偕",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=639",
+      "dynasty": "清"
+    },
+    {
+      "title": "我昔三首效袁景文",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=638",
+      "dynasty": "清"
+    },
+    {
+      "title": "挽鲍念斋（有序）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=643",
+      "dynasty": "清"
+    },
+    {
+      "title": "新仆",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=644",
+      "dynasty": "清"
+    },
+    {
+      "title": "朝雨下",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=637",
+      "dynasty": "清"
+    },
+    {
+      "title": "玉勾斜",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=646",
+      "dynasty": "清"
+    },
+    {
+      "title": "落叶",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=641",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠汪秋涧",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=635",
+      "dynasty": "清"
+    },
+    {
+      "title": "送吴眷西归长林",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=634",
+      "dynasty": "清"
+    },
+    {
+      "title": "送周雪客游新安",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=642",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

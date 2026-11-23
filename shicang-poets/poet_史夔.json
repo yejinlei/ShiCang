@@ -1,0 +1,212 @@
+{
+  "name": "史夔",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 32,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "凤凰山吊宋故宫",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4261",
+      "dynasty": "清"
+    },
+    {
+      "title": "发京邑",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4255",
+      "dynasty": "清"
+    },
+    {
+      "title": "合涧桥步月",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4253",
+      "dynasty": "清"
+    },
+    {
+      "title": "塞下曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4267",
+      "dynasty": "清"
+    },
+    {
+      "title": "弘济寺",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4258",
+      "dynasty": "清"
+    },
+    {
+      "title": "无锡望惠山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4257",
+      "dynasty": "清"
+    },
+    {
+      "title": "林处士墓",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4266",
+      "dynasty": "清"
+    },
+    {
+      "title": "横江词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4264",
+      "dynasty": "清"
+    },
+    {
+      "title": "涿鹿道中望西山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4262",
+      "dynasty": "清"
+    },
+    {
+      "title": "淮安",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4260",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠李解元鹗君",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4263",
+      "dynasty": "清"
+    },
+    {
+      "title": "采莲曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4265",
+      "dynasty": "清"
+    },
+    {
+      "title": "长干曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4252",
+      "dynasty": "清"
+    },
+    {
+      "title": "陶靖节故里",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4256",
+      "dynasty": "清"
+    },
+    {
+      "title": "飞来峰",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4254",
+      "dynasty": "清"
+    },
+    {
+      "title": "高邮",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4259",
+      "dynasty": "清"
+    },
+    {
+      "title": "凤凰山吊宋故宫",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1302",
+      "dynasty": "清"
+    },
+    {
+      "title": "发京邑",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1296",
+      "dynasty": "清"
+    },
+    {
+      "title": "合涧桥步月",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1294",
+      "dynasty": "清"
+    },
+    {
+      "title": "塞下曲",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1308",
+      "dynasty": "清"
+    },
+    {
+      "title": "弘济寺",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1299",
+      "dynasty": "清"
+    },
+    {
+      "title": "无锡望惠山",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1298",
+      "dynasty": "清"
+    },
+    {
+      "title": "林处士墓",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1307",
+      "dynasty": "清"
+    },
+    {
+      "title": "横江词",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1305",
+      "dynasty": "清"
+    },
+    {
+      "title": "涿鹿道中望西山",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1303",
+      "dynasty": "清"
+    },
+    {
+      "title": "淮安",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1301",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠李解元鹗君",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1304",
+      "dynasty": "清"
+    },
+    {
+      "title": "采莲曲",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1306",
+      "dynasty": "清"
+    },
+    {
+      "title": "长干曲",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1293",
+      "dynasty": "清"
+    },
+    {
+      "title": "陶靖节故里",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1297",
+      "dynasty": "清"
+    },
+    {
+      "title": "飞来峰",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1295",
+      "dynasty": "清"
+    },
+    {
+      "title": "高邮",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1300",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

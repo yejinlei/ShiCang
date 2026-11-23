@@ -1,0 +1,56 @@
+{
+  "name": "萧赵琰",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "桂之树",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5685",
+      "dynasty": "清"
+    },
+    {
+      "title": "溪桥候月",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5686",
+      "dynasty": "清"
+    },
+    {
+      "title": "过净梵寺吊周瑜城",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5687",
+      "dynasty": "清"
+    },
+    {
+      "title": "桂之树",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2726",
+      "dynasty": "清"
+    },
+    {
+      "title": "溪桥候月",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2727",
+      "dynasty": "清"
+    },
+    {
+      "title": "过净梵寺吊周瑜城",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2728",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

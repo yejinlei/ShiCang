@@ -1,0 +1,44 @@
+{
+  "name": "金侃",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "寄家祖生大兄郡中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4379",
+      "dynasty": "清"
+    },
+    {
+      "title": "雨泛湖上观梅",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4378",
+      "dynasty": "清"
+    },
+    {
+      "title": "寄家祖生大兄郡中",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1420",
+      "dynasty": "清"
+    },
+    {
+      "title": "雨泛湖上观梅",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1419",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

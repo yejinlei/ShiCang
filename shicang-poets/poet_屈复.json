@@ -1,0 +1,116 @@
+{
+  "name": "屈复",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 16,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "偶然作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5864",
+      "dynasty": "清"
+    },
+    {
+      "title": "力士椎",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5861",
+      "dynasty": "清"
+    },
+    {
+      "title": "王母庙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5863",
+      "dynasty": "清"
+    },
+    {
+      "title": "邓通钱",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5862",
+      "dynasty": "清"
+    },
+    {
+      "title": "题元遗山论诗后",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5867",
+      "dynasty": "清"
+    },
+    {
+      "title": "题汉乐府后",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5866",
+      "dynasty": "清"
+    },
+    {
+      "title": "鲁隐公菟裘",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5860",
+      "dynasty": "清"
+    },
+    {
+      "title": "黄梁梦卢生祠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5865",
+      "dynasty": "清"
+    },
+    {
+      "title": "偶然作",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2905",
+      "dynasty": "清"
+    },
+    {
+      "title": "力士椎",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2902",
+      "dynasty": "清"
+    },
+    {
+      "title": "王母庙",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2904",
+      "dynasty": "清"
+    },
+    {
+      "title": "邓通钱",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2903",
+      "dynasty": "清"
+    },
+    {
+      "title": "题元遗山论诗后",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2908",
+      "dynasty": "清"
+    },
+    {
+      "title": "题汉乐府后",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2907",
+      "dynasty": "清"
+    },
+    {
+      "title": "鲁隐公菟裘",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2901",
+      "dynasty": "清"
+    },
+    {
+      "title": "黄梁梦卢生祠",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2906",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

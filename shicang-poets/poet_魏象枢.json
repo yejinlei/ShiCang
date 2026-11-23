@@ -1,0 +1,56 @@
+{
+  "name": "魏象枢",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "三月初三日作。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3111",
+      "dynasty": "清"
+    },
+    {
+      "title": "哭友",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3112",
+      "dynasty": "清"
+    },
+    {
+      "title": "甲申闯贼陷宁武关周总兵战死",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3110",
+      "dynasty": "清"
+    },
+    {
+      "title": "三月初三日作。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=152",
+      "dynasty": "清"
+    },
+    {
+      "title": "哭友",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=153",
+      "dynasty": "清"
+    },
+    {
+      "title": "甲申闯贼陷宁武关周总兵战死",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=151",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

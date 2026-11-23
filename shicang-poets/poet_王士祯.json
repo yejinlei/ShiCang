@@ -1,0 +1,62 @@
+{
+  "name": "王士祯",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清末",
+  "d_order": 16,
+  "birthplace": "",
+  "style": "#795548",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 7,
+  "anthologies": [
+    "名篇精读",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "再过露筋祠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0779",
+      "dynasty": "明末清初"
+    },
+    {
+      "title": "真州绝句",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0780",
+      "dynasty": "明末清初"
+    },
+    {
+      "title": "题秋江独钓图",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0781",
+      "dynasty": "明末清初"
+    },
+    {
+      "title": "浣溪沙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1154",
+      "dynasty": "清末"
+    },
+    {
+      "title": "蝶恋花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1155",
+      "dynasty": "清末"
+    },
+    {
+      "title": "和漱玉词·蝶恋花",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=109",
+      "dynasty": "清末"
+    },
+    {
+      "title": "红桥同箨庵、茶村、伯玑、其年、秋崖赋。·浣溪沙",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=108",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": false
+}

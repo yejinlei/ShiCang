@@ -1,0 +1,128 @@
+{
+  "name": "盛鸣世",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 18,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "同曹学佺过宿碧峰寺愚公房",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2758",
+      "dynasty": "明"
+    },
+    {
+      "title": "夜起",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2753",
+      "dynasty": "明"
+    },
+    {
+      "title": "子夜歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2754",
+      "dynasty": "明"
+    },
+    {
+      "title": "春日讯吴允兆",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2757",
+      "dynasty": "明"
+    },
+    {
+      "title": "琴川夜泊怀孙齐之",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2756",
+      "dynasty": "明"
+    },
+    {
+      "title": "送俞本之游楚",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2759",
+      "dynasty": "明"
+    },
+    {
+      "title": "送康元龙之灵武",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2760",
+      "dynasty": "明"
+    },
+    {
+      "title": "送胡孟韬邑博之沅江",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2755",
+      "dynasty": "明"
+    },
+    {
+      "title": "题岳阳酒家壁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2752",
+      "dynasty": "明"
+    },
+    {
+      "title": "同曹学佺过宿碧峰寺愚公房",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=754",
+      "dynasty": "明"
+    },
+    {
+      "title": "夜起",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=749",
+      "dynasty": "明"
+    },
+    {
+      "title": "子夜歌",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=750",
+      "dynasty": "明"
+    },
+    {
+      "title": "春日讯吴允兆",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=753",
+      "dynasty": "明"
+    },
+    {
+      "title": "琴川夜泊怀孙齐之",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=752",
+      "dynasty": "明"
+    },
+    {
+      "title": "送俞本之游楚",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=755",
+      "dynasty": "明"
+    },
+    {
+      "title": "送康元龙之灵武",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=756",
+      "dynasty": "明"
+    },
+    {
+      "title": "送胡孟韬邑博之沅江",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=751",
+      "dynasty": "明"
+    },
+    {
+      "title": "题岳阳酒家壁",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=748",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

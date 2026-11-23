@@ -1,0 +1,68 @@
+{
+  "name": "董俞",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "和王南州听杨太常弹琴诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3510",
+      "dynasty": "清"
+    },
+    {
+      "title": "泽畔",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3511",
+      "dynasty": "清"
+    },
+    {
+      "title": "落花篇",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3508",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠西陵吴兴公（自注：时僦居淮阴。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3509",
+      "dynasty": "清"
+    },
+    {
+      "title": "和王南州听杨太常弹琴诗",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=551",
+      "dynasty": "清"
+    },
+    {
+      "title": "泽畔",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=552",
+      "dynasty": "清"
+    },
+    {
+      "title": "落花篇",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=549",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠西陵吴兴公（自注：时僦居淮阴。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=550",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

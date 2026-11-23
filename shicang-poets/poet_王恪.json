@@ -1,0 +1,80 @@
+{
+  "name": "王恪",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "寄题陈桥驿",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5365",
+      "dynasty": "清"
+    },
+    {
+      "title": "椒山先生祠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5363",
+      "dynasty": "清"
+    },
+    {
+      "title": "水宿",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5364",
+      "dynasty": "清"
+    },
+    {
+      "title": "石鼓",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5367",
+      "dynasty": "清"
+    },
+    {
+      "title": "送杨文叔北上（自注：从洗马川中学幕归，即偕北上。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5366",
+      "dynasty": "清"
+    },
+    {
+      "title": "寄题陈桥驿",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2406",
+      "dynasty": "清"
+    },
+    {
+      "title": "椒山先生祠",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2404",
+      "dynasty": "清"
+    },
+    {
+      "title": "水宿",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2405",
+      "dynasty": "清"
+    },
+    {
+      "title": "石鼓",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2408",
+      "dynasty": "清"
+    },
+    {
+      "title": "送杨文叔北上（自注：从洗马川中学幕归，即偕北上。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2407",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

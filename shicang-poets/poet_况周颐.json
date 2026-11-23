@@ -1,0 +1,116 @@
+{
+  "name": "况周颐",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清末",
+  "d_order": 16,
+  "birthplace": "",
+  "style": "#795548",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 16,
+  "anthologies": [
+    "名篇精读",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "减字浣溪沙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1394",
+      "dynasty": "清末"
+    },
+    {
+      "title": "前调二首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1395",
+      "dynasty": "清末"
+    },
+    {
+      "title": "定风波",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1391",
+      "dynasty": "清末"
+    },
+    {
+      "title": "摸鱼儿",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1389",
+      "dynasty": "清末"
+    },
+    {
+      "title": "曲玉管",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1392",
+      "dynasty": "清末"
+    },
+    {
+      "title": "水龙吟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1390",
+      "dynasty": "清末"
+    },
+    {
+      "title": "苏武慢",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1388",
+      "dynasty": "清末"
+    },
+    {
+      "title": "西子妆",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1393",
+      "dynasty": "清末"
+    },
+    {
+      "title": "前调二首",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=351",
+      "dynasty": "清末"
+    },
+    {
+      "title": "听歌有感·减字浣溪沙",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=350",
+      "dynasty": "清末"
+    },
+    {
+      "title": "咏虫·摸鱼儿",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=345",
+      "dynasty": "清末"
+    },
+    {
+      "title": "定风波",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=347",
+      "dynasty": "清末"
+    },
+    {
+      "title": "寒夜闻角·苏武慢",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=344",
+      "dynasty": "清末"
+    },
+    {
+      "title": "已丑秋夜，赋角声《苏武慢》一阕，为半唐所击赏。乙未四月，移寓校场五条胡同，地遍宵警，呜呜达曙，凄彻心脾。漫拈此解，颇不逮前作，而词愈悲，亦天时人事为之也。·水龙吟",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=346",
+      "dynasty": "清末"
+    },
+    {
+      "title": "忆虎山旧游·曲玉管",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=348",
+      "dynasty": "清末"
+    },
+    {
+      "title": "西子妆",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=349",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": false
+}

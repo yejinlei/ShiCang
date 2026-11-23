@@ -1,0 +1,129 @@
+{
+  "name": "卢祖皋",
+  "zi": "",
+  "hao": "",
+  "dynasty": "宋",
+  "d_order": 8,
+  "birthplace": "",
+  "style": "#7F8C8D",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 18,
+  "anthologies": [
+    "名篇精读",
+    "宋词三百首",
+    "绝妙好词"
+  ],
+  "works": [
+    {
+      "title": "乌夜啼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7237",
+      "dynasty": "宋"
+    },
+    {
+      "title": "倦寻芳",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7232",
+      "dynasty": "宋"
+    },
+    {
+      "title": "宴清都",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1038",
+      "dynasty": "宋"
+    },
+    {
+      "title": "江城子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0425",
+      "dynasty": "宋"
+    },
+    {
+      "title": "清平乐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7233",
+      "dynasty": "宋"
+    },
+    {
+      "title": "谒金门",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7235",
+      "dynasty": "宋"
+    },
+    {
+      "title": "赋之。〕",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7231",
+      "dynasty": "宋"
+    },
+    {
+      "title": "宴清都",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=174",
+      "dynasty": "宋"
+    },
+    {
+      "title": "江城子",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=173",
+      "dynasty": "宋"
+    },
+    {
+      "title": "乌夜啼",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=43",
+      "dynasty": "宋"
+    },
+    {
+      "title": "春思·倦寻芳",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=38",
+      "dynasty": "宋"
+    },
+    {
+      "title": "江城子",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=36",
+      "dynasty": "宋"
+    },
+    {
+      "title": "清平乐",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=39",
+      "dynasty": "宋"
+    },
+    {
+      "title": "清平乐",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=40",
+      "dynasty": "宋"
+    },
+    {
+      "title": "西湖·乌夜啼",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=44",
+      "dynasty": "宋"
+    },
+    {
+      "title": "谒金门",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=41",
+      "dynasty": "宋"
+    },
+    {
+      "title": "谒金门",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=42",
+      "dynasty": "宋"
+    },
+    {
+      "title": "赋之。〕",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=37",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

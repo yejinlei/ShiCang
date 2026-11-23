@@ -1,0 +1,32 @@
+{
+  "name": "沈贞",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 2,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "乐神曲七首（有序）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2171",
+      "dynasty": "明"
+    },
+    {
+      "title": "乐神曲七首（有序）",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=167",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

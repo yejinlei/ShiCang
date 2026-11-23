@@ -1,0 +1,68 @@
+{
+  "name": "张自超",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "咏怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4914",
+      "dynasty": "清"
+    },
+    {
+      "title": "扫尘行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4917",
+      "dynasty": "清"
+    },
+    {
+      "title": "桑",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4916",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4915",
+      "dynasty": "清"
+    },
+    {
+      "title": "咏怀",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1955",
+      "dynasty": "清"
+    },
+    {
+      "title": "扫尘行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1958",
+      "dynasty": "清"
+    },
+    {
+      "title": "桑",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1957",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋怀",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1956",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

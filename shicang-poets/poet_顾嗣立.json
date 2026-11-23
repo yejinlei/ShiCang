@@ -1,0 +1,116 @@
+{
+  "name": "顾嗣立",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 16,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "万安",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5253",
+      "dynasty": "清"
+    },
+    {
+      "title": "宿适西楚霸王故里",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5255",
+      "dynasty": "清"
+    },
+    {
+      "title": "日观峰",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5252",
+      "dynasty": "清"
+    },
+    {
+      "title": "望郎回（自注：在大安驿，有石形如妇人，携一稚子立山上，名“望郎回’）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5251",
+      "dynasty": "清"
+    },
+    {
+      "title": "自钱唐江口至常山舟中杂诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5250",
+      "dynasty": "清"
+    },
+    {
+      "title": "读元史",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5249",
+      "dynasty": "清"
+    },
+    {
+      "title": "贾傅故宅",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5254",
+      "dynasty": "清"
+    },
+    {
+      "title": "黄陵庙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5256",
+      "dynasty": "清"
+    },
+    {
+      "title": "万安",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2294",
+      "dynasty": "清"
+    },
+    {
+      "title": "宿适西楚霸王故里",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2296",
+      "dynasty": "清"
+    },
+    {
+      "title": "日观峰",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2293",
+      "dynasty": "清"
+    },
+    {
+      "title": "望郎回（自注：在大安驿，有石形如妇人，携一稚子立山上，名“望郎回’）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2292",
+      "dynasty": "清"
+    },
+    {
+      "title": "自钱唐江口至常山舟中杂诗",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2291",
+      "dynasty": "清"
+    },
+    {
+      "title": "读元史",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2290",
+      "dynasty": "清"
+    },
+    {
+      "title": "贾傅故宅",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2295",
+      "dynasty": "清"
+    },
+    {
+      "title": "黄陵庙",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2297",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

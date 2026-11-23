@@ -1,0 +1,116 @@
+{
+  "name": "沈元沧",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 16,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "外舅查声山先生挽辞",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5334",
+      "dynasty": "清"
+    },
+    {
+      "title": "夜雨与友人感赋",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5335",
+      "dynasty": "清"
+    },
+    {
+      "title": "寓情红粉，乃英豪末路，犹信陵饮醇酒、近妇人也。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5341",
+      "dynasty": "清"
+    },
+    {
+      "title": "杂咏",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5336",
+      "dynasty": "清"
+    },
+    {
+      "title": "涿州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5339",
+      "dynasty": "清"
+    },
+    {
+      "title": "白云移杂咏之一",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5338",
+      "dynasty": "清"
+    },
+    {
+      "title": "过黄公滩，自东坡改为惶恐，文信国仍之，后相沿为故实矣",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5337",
+      "dynasty": "清"
+    },
+    {
+      "title": "题屈子诗外二首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5340",
+      "dynasty": "清"
+    },
+    {
+      "title": "外舅查声山先生挽辞",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2375",
+      "dynasty": "清"
+    },
+    {
+      "title": "夜雨与友人感赋",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2376",
+      "dynasty": "清"
+    },
+    {
+      "title": "寓情红粉，乃英豪末路，犹信陵饮醇酒、近妇人也。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2382",
+      "dynasty": "清"
+    },
+    {
+      "title": "杂咏",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2377",
+      "dynasty": "清"
+    },
+    {
+      "title": "涿州",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2380",
+      "dynasty": "清"
+    },
+    {
+      "title": "白云移杂咏之一",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2379",
+      "dynasty": "清"
+    },
+    {
+      "title": "过黄公滩，自东坡改为惶恐，文信国仍之，后相沿为故实矣",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2378",
+      "dynasty": "清"
+    },
+    {
+      "title": "题屈子诗外二首",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2381",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

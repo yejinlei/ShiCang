@@ -1,0 +1,80 @@
+{
+  "name": "徐钅九",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "十八滩",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4175",
+      "dynasty": "清"
+    },
+    {
+      "title": "古意",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4174",
+      "dynasty": "清"
+    },
+    {
+      "title": "晚发京口",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4173",
+      "dynasty": "清"
+    },
+    {
+      "title": "落花篇",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4172",
+      "dynasty": "清"
+    },
+    {
+      "title": "送方尔止还金陵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4171",
+      "dynasty": "清"
+    },
+    {
+      "title": "十八滩",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1216",
+      "dynasty": "清"
+    },
+    {
+      "title": "古意",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1215",
+      "dynasty": "清"
+    },
+    {
+      "title": "晚发京口",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1214",
+      "dynasty": "清"
+    },
+    {
+      "title": "落花篇",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1213",
+      "dynasty": "清"
+    },
+    {
+      "title": "送方尔止还金陵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1212",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

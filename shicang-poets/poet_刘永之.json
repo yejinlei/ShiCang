@@ -1,0 +1,56 @@
+{
+  "name": "刘永之",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "和杨伯谦韵",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=196",
+      "dynasty": "元"
+    },
+    {
+      "title": "送罗与敬归西昌",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=118",
+      "dynasty": "元"
+    },
+    {
+      "title": "题邹惟中西楼",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=356",
+      "dynasty": "元"
+    },
+    {
+      "title": "和杨伯谦韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1658",
+      "dynasty": "元"
+    },
+    {
+      "title": "送罗与敬归西昌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1580",
+      "dynasty": "元"
+    },
+    {
+      "title": "题邹惟中西楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1818",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

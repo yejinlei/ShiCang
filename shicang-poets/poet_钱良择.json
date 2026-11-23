@@ -1,0 +1,68 @@
+{
+  "name": "钱良择",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "关山道中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5603",
+      "dynasty": "清"
+    },
+    {
+      "title": "寄内",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5604",
+      "dynasty": "清"
+    },
+    {
+      "title": "得剑村寄怀诗次韵答之",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5605",
+      "dynasty": "清"
+    },
+    {
+      "title": "观小妓娟娟舞剑作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5602",
+      "dynasty": "清"
+    },
+    {
+      "title": "关山道中",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2644",
+      "dynasty": "清"
+    },
+    {
+      "title": "寄内",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2645",
+      "dynasty": "清"
+    },
+    {
+      "title": "得剑村寄怀诗次韵答之",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2646",
+      "dynasty": "清"
+    },
+    {
+      "title": "观小妓娟娟舞剑作",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2643",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

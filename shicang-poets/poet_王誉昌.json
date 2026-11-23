@@ -1,0 +1,56 @@
+{
+  "name": "王誉昌",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "舟泊武林城外因忆新安会稽之胜赋呈确庵夫子志别",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5044",
+      "dynasty": "清"
+    },
+    {
+      "title": "过东郊故园追和家大人韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5045",
+      "dynasty": "清"
+    },
+    {
+      "title": "鹦鹉词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5046",
+      "dynasty": "清"
+    },
+    {
+      "title": "舟泊武林城外因忆新安会稽之胜赋呈确庵夫子志别",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2085",
+      "dynasty": "清"
+    },
+    {
+      "title": "过东郊故园追和家大人韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2086",
+      "dynasty": "清"
+    },
+    {
+      "title": "鹦鹉词",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2087",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

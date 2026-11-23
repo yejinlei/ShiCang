@@ -1,0 +1,128 @@
+{
+  "name": "周端臣",
+  "zi": "",
+  "hao": "",
+  "dynasty": "宋",
+  "d_order": 8,
+  "birthplace": "",
+  "style": "#7F8C8D",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 18,
+  "anthologies": [
+    "名篇精读",
+    "绝妙好词"
+  ],
+  "works": [
+    {
+      "title": "二郎神",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7440",
+      "dynasty": "宋"
+    },
+    {
+      "title": "倦寻芳",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7441",
+      "dynasty": "宋"
+    },
+    {
+      "title": "八声甘州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7445",
+      "dynasty": "宋"
+    },
+    {
+      "title": "木兰花慢",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7437",
+      "dynasty": "宋"
+    },
+    {
+      "title": "满江红",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7442",
+      "dynasty": "宋"
+    },
+    {
+      "title": "玉楼春",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7438",
+      "dynasty": "宋"
+    },
+    {
+      "title": "祝英台近",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7443",
+      "dynasty": "宋"
+    },
+    {
+      "title": "谒金门",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7446",
+      "dynasty": "宋"
+    },
+    {
+      "title": "中秋·祝英台近",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=257",
+      "dynasty": "宋"
+    },
+    {
+      "title": "倦寻芳",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=254",
+      "dynasty": "宋"
+    },
+    {
+      "title": "八声甘州",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=258",
+      "dynasty": "宋"
+    },
+    {
+      "title": "满江红",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=255",
+      "dynasty": "宋"
+    },
+    {
+      "title": "玉楼春",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=251",
+      "dynasty": "宋"
+    },
+    {
+      "title": "用徐干臣韵·二郎神",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=253",
+      "dynasty": "宋"
+    },
+    {
+      "title": "祝英台近",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=256",
+      "dynasty": "宋"
+    },
+    {
+      "title": "谒金门",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=259",
+      "dynasty": "宋"
+    },
+    {
+      "title": "送人之官九华·木兰花慢",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=250",
+      "dynasty": "宋"
+    },
+    {
+      "title": "雨中荼蘼·木兰花慢",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=252",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

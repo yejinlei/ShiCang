@@ -1,0 +1,56 @@
+{
+  "name": "许宗衡",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清末",
+  "d_order": 16,
+  "birthplace": "",
+  "style": "#795548",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "中兴乐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1261",
+      "dynasty": "清末"
+    },
+    {
+      "title": "百宜娇",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1262",
+      "dynasty": "清末"
+    },
+    {
+      "title": "西窗烛",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1260",
+      "dynasty": "清末"
+    },
+    {
+      "title": "初秋同人登龙树寺凌虚阁，依李德润《琼瑶集》体。·中兴乐",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=217",
+      "dynasty": "清末"
+    },
+    {
+      "title": "寒月，和青耜。·西窗烛",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=216",
+      "dynasty": "清末"
+    },
+    {
+      "title": "道光乙酉秋日，雨中与西涧饮扬州湖舫。·百宜娇",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=218",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": false
+}

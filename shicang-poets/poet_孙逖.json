@@ -1,0 +1,44 @@
+{
+  "name": "孙逖",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "千家诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "宿云门寺阁",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=72",
+      "dynasty": "唐"
+    },
+    {
+      "title": "观永乐公主入番",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=6",
+      "dynasty": "唐"
+    },
+    {
+      "title": "宿云门寺阁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0897",
+      "dynasty": "唐"
+    },
+    {
+      "title": "观永乐公主入番",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0843",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,25 @@
+{
+  "name": "杜仁杰",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 1,
+  "anthologies": [
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "耍孩儿·庄家不识勾栏",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0734",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

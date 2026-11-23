@@ -1,0 +1,68 @@
+{
+  "name": "吴翊",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "新燕",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5221",
+      "dynasty": "清"
+    },
+    {
+      "title": "洞庭山馆呈司寇东海公二首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5220",
+      "dynasty": "清"
+    },
+    {
+      "title": "西山探梅",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5219",
+      "dynasty": "清"
+    },
+    {
+      "title": "谒范文正公祠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5222",
+      "dynasty": "清"
+    },
+    {
+      "title": "新燕",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2262",
+      "dynasty": "清"
+    },
+    {
+      "title": "洞庭山馆呈司寇东海公二首",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2261",
+      "dynasty": "清"
+    },
+    {
+      "title": "西山探梅",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2260",
+      "dynasty": "清"
+    },
+    {
+      "title": "谒范文正公祠",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2263",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

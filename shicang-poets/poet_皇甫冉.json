@@ -1,0 +1,99 @@
+{
+  "name": "皇甫冉",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 13,
+  "anthologies": [
+    "万寿唐诗",
+    "千家诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "婕妤怨 二首",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=119",
+      "dynasty": "唐"
+    },
+    {
+      "title": "淮口寄赵员外",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=120",
+      "dynasty": "唐"
+    },
+    {
+      "title": "荅张继",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=312",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送王司直",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=118",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送魏十六",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=313",
+      "dynasty": "唐"
+    },
+    {
+      "title": "婕妤怨",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=33",
+      "dynasty": "唐"
+    },
+    {
+      "title": "婕妤怨",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0866",
+      "dynasty": "唐"
+    },
+    {
+      "title": "婕妤怨 二首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6595",
+      "dynasty": "唐"
+    },
+    {
+      "title": "春思",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0365",
+      "dynasty": "唐"
+    },
+    {
+      "title": "淮口寄赵员外",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6596",
+      "dynasty": "唐"
+    },
+    {
+      "title": "荅张继",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6772",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送王司直",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6594",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送魏十六",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6773",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,152 @@
+{
+  "name": "程可则",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 22,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "登虔州城楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3244",
+      "dynasty": "清"
+    },
+    {
+      "title": "花朝同林坦庵诸子集王蔗庵谁园饯谈蘧怀之京口次留别韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3246",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠卫醇谷",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3247",
+      "dynasty": "清"
+    },
+    {
+      "title": "送一灵上人归罗浮",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3240",
+      "dynasty": "清"
+    },
+    {
+      "title": "送家立庵太常归皖山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3237",
+      "dynasty": "清"
+    },
+    {
+      "title": "送家立庵学士册封安南",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3242",
+      "dynasty": "清"
+    },
+    {
+      "title": "送徐庾清钱相园归越",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3243",
+      "dynasty": "清"
+    },
+    {
+      "title": "送杨鄂州职方使安南",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3239",
+      "dynasty": "清"
+    },
+    {
+      "title": "送纪载之备兵肃州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3241",
+      "dynasty": "清"
+    },
+    {
+      "title": "送邵横庵之秦中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3238",
+      "dynasty": "清"
+    },
+    {
+      "title": "送魏子存司李成都",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3245",
+      "dynasty": "清"
+    },
+    {
+      "title": "登虔州城楼",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=285",
+      "dynasty": "清"
+    },
+    {
+      "title": "花朝同林坦庵诸子集王蔗庵谁园饯谈蘧怀之京口次留别韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=287",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠卫醇谷",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=288",
+      "dynasty": "清"
+    },
+    {
+      "title": "送一灵上人归罗浮",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=281",
+      "dynasty": "清"
+    },
+    {
+      "title": "送家立庵太常归皖山",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=278",
+      "dynasty": "清"
+    },
+    {
+      "title": "送家立庵学士册封安南",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=283",
+      "dynasty": "清"
+    },
+    {
+      "title": "送徐庾清钱相园归越",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=284",
+      "dynasty": "清"
+    },
+    {
+      "title": "送杨鄂州职方使安南",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=280",
+      "dynasty": "清"
+    },
+    {
+      "title": "送纪载之备兵肃州",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=282",
+      "dynasty": "清"
+    },
+    {
+      "title": "送邵横庵之秦中",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=279",
+      "dynasty": "清"
+    },
+    {
+      "title": "送魏子存司李成都",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=286",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

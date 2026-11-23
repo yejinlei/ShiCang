@@ -1,0 +1,56 @@
+{
+  "name": "陈高",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "夜半舟发丹阳",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=499",
+      "dynasty": "元"
+    },
+    {
+      "title": "岁首自广陵入高邮舟中作",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=26",
+      "dynasty": "元"
+    },
+    {
+      "title": "种橦花",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=27",
+      "dynasty": "元"
+    },
+    {
+      "title": "夜半舟发丹阳",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1961",
+      "dynasty": "元"
+    },
+    {
+      "title": "岁首自广陵入高邮舟中作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1488",
+      "dynasty": "元"
+    },
+    {
+      "title": "种橦花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1489",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

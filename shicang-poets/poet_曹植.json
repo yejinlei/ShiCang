@@ -1,0 +1,49 @@
+{
+  "name": "曹植",
+  "zi": "子建",
+  "hao": "陈思王",
+  "dynasty": "汉",
+  "d_order": 3,
+  "birthplace": "沛国谯县",
+  "style": "#6B4423",
+  "school": "建安文学",
+  "years": "192—232",
+  "bio": "建安之杰，才高八斗，曹操第三子。前期豪迈昂扬，后期抑郁悲愤。代表作《洛神赋》《白马篇》《七步诗》。",
+  "work_count": 5,
+  "anthologies": [
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "七哀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0071",
+      "dynasty": "魏晋"
+    },
+    {
+      "title": "七步诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0072",
+      "dynasty": "魏晋"
+    },
+    {
+      "title": "杂诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0073",
+      "dynasty": "魏晋"
+    },
+    {
+      "title": "洛神赋",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0074",
+      "dynasty": "魏晋"
+    },
+    {
+      "title": "白马篇",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0075",
+      "dynasty": "魏晋"
+    }
+  ],
+  "has_bio": true
+}

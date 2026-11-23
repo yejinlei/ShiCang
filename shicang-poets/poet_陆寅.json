@@ -1,0 +1,92 @@
+{
+  "name": "陆寅",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 12,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "宣德箭歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4663",
+      "dynasty": "清"
+    },
+    {
+      "title": "歧路行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4662",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋日忆家大人粤游",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4664",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋日杂感",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4667",
+      "dynasty": "清"
+    },
+    {
+      "title": "自笑",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4665",
+      "dynasty": "清"
+    },
+    {
+      "title": "钱塘怀古",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4666",
+      "dynasty": "清"
+    },
+    {
+      "title": "宣德箭歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1704",
+      "dynasty": "清"
+    },
+    {
+      "title": "歧路行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1703",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋日忆家大人粤游",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1705",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋日杂感",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1708",
+      "dynasty": "清"
+    },
+    {
+      "title": "自笑",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1706",
+      "dynasty": "清"
+    },
+    {
+      "title": "钱塘怀古",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1707",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

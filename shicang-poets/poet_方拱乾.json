@@ -1,0 +1,188 @@
+{
+  "name": "方拱乾",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 28,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "九日",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2990",
+      "dynasty": "清"
+    },
+    {
+      "title": "募僧收枯骨",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2987",
+      "dynasty": "清"
+    },
+    {
+      "title": "宁远温泉",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2992",
+      "dynasty": "清"
+    },
+    {
+      "title": "广宁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2995",
+      "dynasty": "清"
+    },
+    {
+      "title": "掩柴门",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2989",
+      "dynasty": "清"
+    },
+    {
+      "title": "放雉",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2991",
+      "dynasty": "清"
+    },
+    {
+      "title": "旧鹤（自注：余旧畜，己亥赠吉旋，今犹无恙。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2994",
+      "dynasty": "清"
+    },
+    {
+      "title": "早起",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2988",
+      "dynasty": "清"
+    },
+    {
+      "title": "晤林茂之时年八十五矣",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2993",
+      "dynasty": "清"
+    },
+    {
+      "title": "舂声",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2984",
+      "dynasty": "清"
+    },
+    {
+      "title": "补窗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2985",
+      "dynasty": "清"
+    },
+    {
+      "title": "译使至高丽",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2996",
+      "dynasty": "清"
+    },
+    {
+      "title": "路遇李澹生冯炳文",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2986",
+      "dynasty": "清"
+    },
+    {
+      "title": "驱雀词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2983",
+      "dynasty": "清"
+    },
+    {
+      "title": "九日",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=31",
+      "dynasty": "清"
+    },
+    {
+      "title": "募僧收枯骨",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=28",
+      "dynasty": "清"
+    },
+    {
+      "title": "宁远温泉",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=33",
+      "dynasty": "清"
+    },
+    {
+      "title": "广宁",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=36",
+      "dynasty": "清"
+    },
+    {
+      "title": "掩柴门",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=30",
+      "dynasty": "清"
+    },
+    {
+      "title": "放雉",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=32",
+      "dynasty": "清"
+    },
+    {
+      "title": "旧鹤（自注：余旧畜，己亥赠吉旋，今犹无恙。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=35",
+      "dynasty": "清"
+    },
+    {
+      "title": "早起",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=29",
+      "dynasty": "清"
+    },
+    {
+      "title": "晤林茂之时年八十五矣",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=34",
+      "dynasty": "清"
+    },
+    {
+      "title": "舂声",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=25",
+      "dynasty": "清"
+    },
+    {
+      "title": "补窗",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=26",
+      "dynasty": "清"
+    },
+    {
+      "title": "译使至高丽",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=37",
+      "dynasty": "清"
+    },
+    {
+      "title": "路遇李澹生冯炳文",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=27",
+      "dynasty": "清"
+    },
+    {
+      "title": "驱雀词",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=24",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

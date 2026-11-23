@@ -1,0 +1,62 @@
+{
+  "name": "超源",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 7,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "友人枉过开化寺",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6474",
+      "dynasty": "清"
+    },
+    {
+      "title": "梦故友程风衣",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6473",
+      "dynasty": "清"
+    },
+    {
+      "title": "题画",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6472",
+      "dynasty": "清"
+    },
+    {
+      "title": "友人枉过开化寺",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3515",
+      "dynasty": "清"
+    },
+    {
+      "title": "梦故友程风衣",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3514",
+      "dynasty": "清"
+    },
+    {
+      "title": "题画",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3513",
+      "dynasty": "清"
+    },
+    {
+      "title": "题画",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3516",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,44 @@
+{
+  "name": "丘象升",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "清远峡",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3315",
+      "dynasty": "清"
+    },
+    {
+      "title": "苦竹渡",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3316",
+      "dynasty": "清"
+    },
+    {
+      "title": "清远峡",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=356",
+      "dynasty": "清"
+    },
+    {
+      "title": "苦竹渡",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=357",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,44 @@
+{
+  "name": "严启煜",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "榆皮行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5480",
+      "dynasty": "清"
+    },
+    {
+      "title": "留别吴门诸子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5481",
+      "dynasty": "清"
+    },
+    {
+      "title": "榆皮行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2521",
+      "dynasty": "清"
+    },
+    {
+      "title": "留别吴门诸子",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2522",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

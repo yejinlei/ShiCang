@@ -1,0 +1,56 @@
+{
+  "name": "龚П",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "二月望日西涧佥宪招饮",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5874",
+      "dynasty": "清"
+    },
+    {
+      "title": "却寄",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5873",
+      "dynasty": "清"
+    },
+    {
+      "title": "春日次韩耕云韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5875",
+      "dynasty": "清"
+    },
+    {
+      "title": "二月望日西涧佥宪招饮",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2915",
+      "dynasty": "清"
+    },
+    {
+      "title": "却寄",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2914",
+      "dynasty": "清"
+    },
+    {
+      "title": "春日次韩耕云韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2916",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

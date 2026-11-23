@@ -1,0 +1,56 @@
+{
+  "name": "郑谷",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "万寿唐诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "席上赠歌者",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=681",
+      "dynasty": "唐"
+    },
+    {
+      "title": "望湖亭",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=195",
+      "dynasty": "唐"
+    },
+    {
+      "title": "淮上与友人别",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=680",
+      "dynasty": "唐"
+    },
+    {
+      "title": "席上赠歌者",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7121",
+      "dynasty": "唐"
+    },
+    {
+      "title": "望湖亭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6667",
+      "dynasty": "唐"
+    },
+    {
+      "title": "淮上与友人别",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7120",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

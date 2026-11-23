@@ -1,0 +1,122 @@
+{
+  "name": "邵瑞彭",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清末",
+  "d_order": 16,
+  "birthplace": "",
+  "style": "#795548",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 17,
+  "anthologies": [
+    "名篇精读",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "夜半乐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1443",
+      "dynasty": "清末"
+    },
+    {
+      "title": "木兰花慢",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1445",
+      "dynasty": "清末"
+    },
+    {
+      "title": "浣溪沙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1446",
+      "dynasty": "清末"
+    },
+    {
+      "title": "秋思",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1448",
+      "dynasty": "清末"
+    },
+    {
+      "title": "绮罗香",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1442",
+      "dynasty": "清末"
+    },
+    {
+      "title": "蝶恋花四首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1449",
+      "dynasty": "清末"
+    },
+    {
+      "title": "西河",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1444",
+      "dynasty": "清末"
+    },
+    {
+      "title": "齐天乐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1450",
+      "dynasty": "清末"
+    },
+    {
+      "title": "十八年前，曾和美成《金陵怀古》，今再为之。·西河",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=402",
+      "dynasty": "清末"
+    },
+    {
+      "title": "南海木县，花瓣作呈红色。榆生赋小令见示，报以此解。·齐天乐",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=408",
+      "dynasty": "清末"
+    },
+    {
+      "title": "彊村师挽词·木兰花慢",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=403",
+      "dynasty": "清末"
+    },
+    {
+      "title": "戊辰中秋·夜半乐",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=401",
+      "dynasty": "清末"
+    },
+    {
+      "title": "晚过神武门，残荷欲尽，秋意可怜。·绮罗香",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=400",
+      "dynasty": "清末"
+    },
+    {
+      "title": "榆生得顾太清《东海渔歌》卷二孤本，亡友诸贞壮钞本也。因忆昔年读书醇邸，花时吟赏，屡兴雍门之感。灵芬触手，盆难为怀。赋短拍，寄榆生。·浣溪沙",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=404",
+      "dynasty": "清末"
+    },
+    {
+      "title": "樊楼秋感，和梦窗。·秋思",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=406",
+      "dynasty": "清末"
+    },
+    {
+      "title": "蝶恋花四首",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=407",
+      "dynasty": "清末"
+    },
+    {
+      "title": "邺城怀古·木兰花慢",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=405",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": false
+}

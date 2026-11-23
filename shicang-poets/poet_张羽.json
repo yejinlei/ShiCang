@@ -1,0 +1,80 @@
+{
+  "name": "张羽",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "清口",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2067",
+      "dynasty": "明"
+    },
+    {
+      "title": "秋日苕溪道中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2066",
+      "dynasty": "明"
+    },
+    {
+      "title": "赠僧还日本",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2068",
+      "dynasty": "明"
+    },
+    {
+      "title": "金川门",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2065",
+      "dynasty": "明"
+    },
+    {
+      "title": "题陶处士像",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2069",
+      "dynasty": "明"
+    },
+    {
+      "title": "清口",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=63",
+      "dynasty": "明"
+    },
+    {
+      "title": "秋日苕溪道中",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=62",
+      "dynasty": "明"
+    },
+    {
+      "title": "赠僧还日本",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=64",
+      "dynasty": "明"
+    },
+    {
+      "title": "金川门",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=61",
+      "dynasty": "明"
+    },
+    {
+      "title": "题陶处士像",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=65",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

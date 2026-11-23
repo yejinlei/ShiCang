@@ -1,0 +1,32 @@
+{
+  "name": "于季子",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 2,
+  "anthologies": [
+    "万寿唐诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "项羽",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=84",
+      "dynasty": "唐"
+    },
+    {
+      "title": "项羽",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6566",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

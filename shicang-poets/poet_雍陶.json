@@ -1,0 +1,68 @@
+{
+  "name": "雍陶",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "万寿唐诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "和孙明府懐旧山",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=575",
+      "dynasty": "唐"
+    },
+    {
+      "title": "城西访友人别墅",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=576",
+      "dynasty": "唐"
+    },
+    {
+      "title": "天津桥春望",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=577",
+      "dynasty": "唐"
+    },
+    {
+      "title": "宿嘉陵馆楼",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=574",
+      "dynasty": "唐"
+    },
+    {
+      "title": "和孙明府懐旧山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7023",
+      "dynasty": "唐"
+    },
+    {
+      "title": "城西访友人别墅",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7024",
+      "dynasty": "唐"
+    },
+    {
+      "title": "天津桥春望",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7025",
+      "dynasty": "唐"
+    },
+    {
+      "title": "宿嘉陵馆楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7022",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

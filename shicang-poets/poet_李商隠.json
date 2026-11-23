@@ -1,0 +1,104 @@
+{
+  "name": "李商隠",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 14,
+  "anthologies": [
+    "万寿唐诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "张恶子庙",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=174",
+      "dynasty": "唐"
+    },
+    {
+      "title": "散闗遇雪",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=179",
+      "dynasty": "唐"
+    },
+    {
+      "title": "李夫人",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=176",
+      "dynasty": "唐"
+    },
+    {
+      "title": "滞雨",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=177",
+      "dynasty": "唐"
+    },
+    {
+      "title": "漫成",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=173",
+      "dynasty": "唐"
+    },
+    {
+      "title": "追代卢家人嘲堂内",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=175",
+      "dynasty": "唐"
+    },
+    {
+      "title": "饯席送人之梓州",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=178",
+      "dynasty": "唐"
+    },
+    {
+      "title": "张恶子庙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6647",
+      "dynasty": "唐"
+    },
+    {
+      "title": "散闗遇雪",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6652",
+      "dynasty": "唐"
+    },
+    {
+      "title": "李夫人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6649",
+      "dynasty": "唐"
+    },
+    {
+      "title": "滞雨",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6650",
+      "dynasty": "唐"
+    },
+    {
+      "title": "漫成",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6646",
+      "dynasty": "唐"
+    },
+    {
+      "title": "追代卢家人嘲堂内",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6648",
+      "dynasty": "唐"
+    },
+    {
+      "title": "饯席送人之梓州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6651",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

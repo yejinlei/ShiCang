@@ -1,0 +1,164 @@
+{
+  "name": "洪升",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 24,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "公子行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4538",
+      "dynasty": "清"
+    },
+    {
+      "title": "寒食",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4534",
+      "dynasty": "清"
+    },
+    {
+      "title": "将游大梁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4537",
+      "dynasty": "清"
+    },
+    {
+      "title": "征途晓发",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4530",
+      "dynasty": "清"
+    },
+    {
+      "title": "柬李东琪",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4535",
+      "dynasty": "清"
+    },
+    {
+      "title": "石门",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4529",
+      "dynasty": "清"
+    },
+    {
+      "title": "答友人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4540",
+      "dynasty": "清"
+    },
+    {
+      "title": "蒙山道中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4533",
+      "dynasty": "清"
+    },
+    {
+      "title": "衢州杂感",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4536",
+      "dynasty": "清"
+    },
+    {
+      "title": "送吴位三归宣城",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4531",
+      "dynasty": "清"
+    },
+    {
+      "title": "钓台",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4539",
+      "dynasty": "清"
+    },
+    {
+      "title": "雪望",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4532",
+      "dynasty": "清"
+    },
+    {
+      "title": "公子行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1579",
+      "dynasty": "清"
+    },
+    {
+      "title": "寒食",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1575",
+      "dynasty": "清"
+    },
+    {
+      "title": "将游大梁",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1578",
+      "dynasty": "清"
+    },
+    {
+      "title": "征途晓发",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1571",
+      "dynasty": "清"
+    },
+    {
+      "title": "柬李东琪",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1576",
+      "dynasty": "清"
+    },
+    {
+      "title": "石门",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1570",
+      "dynasty": "清"
+    },
+    {
+      "title": "答友人",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1581",
+      "dynasty": "清"
+    },
+    {
+      "title": "蒙山道中",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1574",
+      "dynasty": "清"
+    },
+    {
+      "title": "衢州杂感",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1577",
+      "dynasty": "清"
+    },
+    {
+      "title": "送吴位三归宣城",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1572",
+      "dynasty": "清"
+    },
+    {
+      "title": "钓台",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1580",
+      "dynasty": "清"
+    },
+    {
+      "title": "雪望",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1573",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

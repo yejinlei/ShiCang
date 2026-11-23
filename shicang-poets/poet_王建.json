@@ -1,0 +1,111 @@
+{
+  "name": "王建",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 15,
+  "anthologies": [
+    "万寿唐诗",
+    "千家诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "十五夜望月",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=468",
+      "dynasty": "唐"
+    },
+    {
+      "title": "华清宫",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=467",
+      "dynasty": "唐"
+    },
+    {
+      "title": "宫词 二十四首",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=470",
+      "dynasty": "唐"
+    },
+    {
+      "title": "新嫁娘词",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=764",
+      "dynasty": "唐"
+    },
+    {
+      "title": "江陵使至汝州",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=466",
+      "dynasty": "唐"
+    },
+    {
+      "title": "霓裳词 四首",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=469",
+      "dynasty": "唐"
+    },
+    {
+      "title": "咏华清宫",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=95",
+      "dynasty": "唐"
+    },
+    {
+      "title": "十五夜望月",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6921",
+      "dynasty": "唐"
+    },
+    {
+      "title": "华清宫",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6920",
+      "dynasty": "唐"
+    },
+    {
+      "title": "咏华清宫",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0919",
+      "dynasty": "唐"
+    },
+    {
+      "title": "宫词 二十四首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6923",
+      "dynasty": "唐"
+    },
+    {
+      "title": "新嫁娘",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0319",
+      "dynasty": "唐"
+    },
+    {
+      "title": "新嫁娘词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7199",
+      "dynasty": "唐"
+    },
+    {
+      "title": "江陵使至汝州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6919",
+      "dynasty": "唐"
+    },
+    {
+      "title": "霓裳词 四首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6922",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

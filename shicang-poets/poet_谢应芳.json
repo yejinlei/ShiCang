@@ -1,0 +1,68 @@
+{
+  "name": "谢应芳",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "倪元镇过娄江寓舍因偕智愚隐游姜公墩得如字",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=65",
+      "dynasty": "元"
+    },
+    {
+      "title": "怀詹伯远",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=358",
+      "dynasty": "元"
+    },
+    {
+      "title": "赠庆别驾",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=357",
+      "dynasty": "元"
+    },
+    {
+      "title": "送李彦明归高邮",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=119",
+      "dynasty": "元"
+    },
+    {
+      "title": "倪元镇过娄江寓舍因偕智愚隐游姜公墩得如字",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1527",
+      "dynasty": "元"
+    },
+    {
+      "title": "怀詹伯远",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1820",
+      "dynasty": "元"
+    },
+    {
+      "title": "赠庆别驾",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1819",
+      "dynasty": "元"
+    },
+    {
+      "title": "送李彦明归高邮",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1581",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

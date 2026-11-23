@@ -1,0 +1,56 @@
+{
+  "name": "陈睿思",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "观丁将军故剑",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4891",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠张永夫",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4889",
+      "dynasty": "清"
+    },
+    {
+      "title": "阅三朝要典",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4890",
+      "dynasty": "清"
+    },
+    {
+      "title": "观丁将军故剑",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1932",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠张永夫",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1930",
+      "dynasty": "清"
+    },
+    {
+      "title": "阅三朝要典",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1931",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

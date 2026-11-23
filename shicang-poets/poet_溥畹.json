@@ -1,0 +1,44 @@
+{
+  "name": "溥畹",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "剑阁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6439",
+      "dynasty": "清"
+    },
+    {
+      "title": "虎丘访卖花老人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6440",
+      "dynasty": "清"
+    },
+    {
+      "title": "剑阁",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3480",
+      "dynasty": "清"
+    },
+    {
+      "title": "虎丘访卖花老人",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3481",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

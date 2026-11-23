@@ -1,0 +1,86 @@
+{
+  "name": "张惠言",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清末",
+  "d_order": 16,
+  "birthplace": "",
+  "style": "#795548",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 11,
+  "anthologies": [
+    "名篇精读",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "木兰花慢",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1197",
+      "dynasty": "清末"
+    },
+    {
+      "title": "水调歌头五首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1198",
+      "dynasty": "清末"
+    },
+    {
+      "title": "玉楼春",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1201",
+      "dynasty": "清末"
+    },
+    {
+      "title": "相见欢",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1199",
+      "dynasty": "清末"
+    },
+    {
+      "title": "风流子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1202",
+      "dynasty": "清末"
+    },
+    {
+      "title": "出关见桃花·风流子",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=158",
+      "dynasty": "清末"
+    },
+    {
+      "title": "春日赋示杨生子·水调歌头五首",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=154",
+      "dynasty": "清末"
+    },
+    {
+      "title": "杨花·木兰花慢",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=153",
+      "dynasty": "清末"
+    },
+    {
+      "title": "游丝同舍弟翰风作·木兰花慢",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=156",
+      "dynasty": "清末"
+    },
+    {
+      "title": "玉楼春",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=157",
+      "dynasty": "清末"
+    },
+    {
+      "title": "相见欢",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=155",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": false
+}

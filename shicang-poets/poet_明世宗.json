@@ -1,0 +1,32 @@
+{
+  "name": "明世宗",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 2,
+  "anthologies": [
+    "千家诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "送毛伯温",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=190",
+      "dynasty": "明"
+    },
+    {
+      "title": "送毛伯温",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1007",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

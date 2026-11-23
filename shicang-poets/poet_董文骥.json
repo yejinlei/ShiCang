@@ -1,0 +1,68 @@
+{
+  "name": "董文骥",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "十月初六发榆中夜抵鱼河驿",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3209",
+      "dynasty": "清"
+    },
+    {
+      "title": "复过井陉口淮阴侯庙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3207",
+      "dynasty": "清"
+    },
+    {
+      "title": "庚戍元日移家惠山舟中作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3208",
+      "dynasty": "清"
+    },
+    {
+      "title": "真定客舍对雪",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3206",
+      "dynasty": "清"
+    },
+    {
+      "title": "十月初六发榆中夜抵鱼河驿",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=250",
+      "dynasty": "清"
+    },
+    {
+      "title": "复过井陉口淮阴侯庙",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=248",
+      "dynasty": "清"
+    },
+    {
+      "title": "庚戍元日移家惠山舟中作",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=249",
+      "dynasty": "清"
+    },
+    {
+      "title": "真定客舍对雪",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=247",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,207 @@
+{
+  "name": "辛弃疾",
+  "zi": "幼安",
+  "hao": "稼轩",
+  "dynasty": "南宋",
+  "d_order": 9,
+  "birthplace": "济南",
+  "style": "#D35400",
+  "school": "豪放派",
+  "years": "1140—1207",
+  "bio": "南宋豪放词派集大成者，一生力主北伐，壮志难酬，词风慷慨悲壮。代表作《永遇乐·京口北固亭怀古》《破阵子》《青玉案·元夕》。",
+  "work_count": 31,
+  "anthologies": [
+    "名篇精读",
+    "宋词三百首",
+    "绝妙好词"
+  ],
+  "works": [
+    {
+      "title": "丑奴儿",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0672",
+      "dynasty": "宋"
+    },
+    {
+      "title": "南乡子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0673",
+      "dynasty": "宋"
+    },
+    {
+      "title": "太常引",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0674",
+      "dynasty": "宋"
+    },
+    {
+      "title": "念奴娇",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0675",
+      "dynasty": "宋"
+    },
+    {
+      "title": "摸鱼儿",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0676",
+      "dynasty": "宋"
+    },
+    {
+      "title": "木兰花慢",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0677",
+      "dynasty": "宋"
+    },
+    {
+      "title": "水龙吟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0678",
+      "dynasty": "宋"
+    },
+    {
+      "title": "永遇乐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0679",
+      "dynasty": "宋"
+    },
+    {
+      "title": "汉宫春",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0680",
+      "dynasty": "宋"
+    },
+    {
+      "title": "清平乐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0681",
+      "dynasty": "宋"
+    },
+    {
+      "title": "瑞鹤仙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7216",
+      "dynasty": "宋"
+    },
+    {
+      "title": "破阵子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0682",
+      "dynasty": "宋"
+    },
+    {
+      "title": "祝英台近",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0683",
+      "dynasty": "宋"
+    },
+    {
+      "title": "菩萨蛮",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0684",
+      "dynasty": "宋"
+    },
+    {
+      "title": "西江月",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0685",
+      "dynasty": "宋"
+    },
+    {
+      "title": "贺新郎",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0686",
+      "dynasty": "宋"
+    },
+    {
+      "title": "青玉案",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0687",
+      "dynasty": "宋"
+    },
+    {
+      "title": "鹧鸪天",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0688",
+      "dynasty": "宋"
+    },
+    {
+      "title": "书东流村壁·念奴娇",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=130",
+      "dynasty": "宋"
+    },
+    {
+      "title": "书江西造口壁·菩萨蛮",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=140",
+      "dynasty": "宋"
+    },
+    {
+      "title": "京口北固亭怀古·永遇乐",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=135",
+      "dynasty": "宋"
+    },
+    {
+      "title": "元　夕·青玉案",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=138",
+      "dynasty": "宋"
+    },
+    {
+      "title": "摸鱼儿",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=134",
+      "dynasty": "宋"
+    },
+    {
+      "title": "晚　春·祝英台近",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=137",
+      "dynasty": "宋"
+    },
+    {
+      "title": "滁州送范倅·木兰花慢",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=136",
+      "dynasty": "宋"
+    },
+    {
+      "title": "登建康赏心亭·水龙吟",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=133",
+      "dynasty": "宋"
+    },
+    {
+      "title": "立　春·汉宫春",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=131",
+      "dynasty": "宋"
+    },
+    {
+      "title": "贺新郎",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=132",
+      "dynasty": "宋"
+    },
+    {
+      "title": "鹅湖归病起作·鹧鸪天",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=139",
+      "dynasty": "宋"
+    },
+    {
+      "title": "摸鱼儿",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=18",
+      "dynasty": "宋"
+    },
+    {
+      "title": "梅·瑞鹤仙",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=19",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": true
+}

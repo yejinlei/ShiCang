@@ -1,0 +1,140 @@
+{
+  "name": "元",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 20,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "一览楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6447",
+      "dynasty": "清"
+    },
+    {
+      "title": "三忠祠（自注：陆秀夫、张世杰、文天祥。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6446",
+      "dynasty": "清"
+    },
+    {
+      "title": "十月朔入会稽平阳寺参寒泉老人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6448",
+      "dynasty": "清"
+    },
+    {
+      "title": "卢沟桥",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6452",
+      "dynasty": "清"
+    },
+    {
+      "title": "斥堠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6451",
+      "dynasty": "清"
+    },
+    {
+      "title": "答徐文虎",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6450",
+      "dynasty": "清"
+    },
+    {
+      "title": "蛟门",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6449",
+      "dynasty": "清"
+    },
+    {
+      "title": "过杨铁崖故里",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6454",
+      "dynasty": "清"
+    },
+    {
+      "title": "题屈翁山诗集",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6445",
+      "dynasty": "清"
+    },
+    {
+      "title": "马家山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6453",
+      "dynasty": "清"
+    },
+    {
+      "title": "一览楼",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3488",
+      "dynasty": "清"
+    },
+    {
+      "title": "三忠祠（自注：陆秀夫、张世杰、文天祥。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3487",
+      "dynasty": "清"
+    },
+    {
+      "title": "十月朔入会稽平阳寺参寒泉老人",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3489",
+      "dynasty": "清"
+    },
+    {
+      "title": "卢沟桥",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3493",
+      "dynasty": "清"
+    },
+    {
+      "title": "斥堠",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3492",
+      "dynasty": "清"
+    },
+    {
+      "title": "答徐文虎",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3491",
+      "dynasty": "清"
+    },
+    {
+      "title": "蛟门",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3490",
+      "dynasty": "清"
+    },
+    {
+      "title": "过杨铁崖故里",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3495",
+      "dynasty": "清"
+    },
+    {
+      "title": "题屈翁山诗集",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3486",
+      "dynasty": "清"
+    },
+    {
+      "title": "马家山",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3494",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

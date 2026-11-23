@@ -1,0 +1,68 @@
+{
+  "name": "陈羽",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "万寿唐诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "吴中览古",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=536",
+      "dynasty": "唐"
+    },
+    {
+      "title": "将归旧山留别",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=537",
+      "dynasty": "唐"
+    },
+    {
+      "title": "湘君祠",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=538",
+      "dynasty": "唐"
+    },
+    {
+      "title": "襄阳过孟子旧居",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=539",
+      "dynasty": "唐"
+    },
+    {
+      "title": "吴中览古",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6989",
+      "dynasty": "唐"
+    },
+    {
+      "title": "将归旧山留别",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6990",
+      "dynasty": "唐"
+    },
+    {
+      "title": "湘君祠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6991",
+      "dynasty": "唐"
+    },
+    {
+      "title": "襄阳过孟子旧居",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6992",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

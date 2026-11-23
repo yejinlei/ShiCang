@@ -1,0 +1,116 @@
+{
+  "name": "成廷珪",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 16,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "夏日过万蓬庵",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=349",
+      "dynasty": "元"
+    },
+    {
+      "title": "夜过吴江圣寿寺宿复中行方丈",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=189",
+      "dynasty": "元"
+    },
+    {
+      "title": "庞山湖泛舟过甯伯让庄所",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=188",
+      "dynasty": "元"
+    },
+    {
+      "title": "江南曲",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=116",
+      "dynasty": "元"
+    },
+    {
+      "title": "登望江亭",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=187",
+      "dynasty": "元"
+    },
+    {
+      "title": "送智惠隐住水月禅院",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=350",
+      "dynasty": "元"
+    },
+    {
+      "title": "送谢芝甫赴山南宪",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=348",
+      "dynasty": "元"
+    },
+    {
+      "title": "长江送别图送周平叔之通州丞",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=117",
+      "dynasty": "元"
+    },
+    {
+      "title": "夏日过万蓬庵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1811",
+      "dynasty": "元"
+    },
+    {
+      "title": "夜过吴江圣寿寺宿复中行方丈",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1651",
+      "dynasty": "元"
+    },
+    {
+      "title": "庞山湖泛舟过甯伯让庄所",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1650",
+      "dynasty": "元"
+    },
+    {
+      "title": "江南曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1578",
+      "dynasty": "元"
+    },
+    {
+      "title": "登望江亭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1649",
+      "dynasty": "元"
+    },
+    {
+      "title": "送智惠隐住水月禅院",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1812",
+      "dynasty": "元"
+    },
+    {
+      "title": "送谢芝甫赴山南宪",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1810",
+      "dynasty": "元"
+    },
+    {
+      "title": "长江送别图送周平叔之通州丞",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1579",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,164 @@
+{
+  "name": "赵俞",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 24,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "侣台弟以悼妻哭子诗索和，憔悴婉笃，情有不能已者，余欲发乎情而裁之以义也，辄有是作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4611",
+      "dynasty": "清"
+    },
+    {
+      "title": "古风",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4608",
+      "dynasty": "清"
+    },
+    {
+      "title": "和查夏仲敝裘诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4613",
+      "dynasty": "清"
+    },
+    {
+      "title": "射虎行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4610",
+      "dynasty": "清"
+    },
+    {
+      "title": "岳忠武祠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4614",
+      "dynasty": "清"
+    },
+    {
+      "title": "彭无山给谏自河工召复原官喜而有作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4615",
+      "dynasty": "清"
+    },
+    {
+      "title": "溪声",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4618",
+      "dynasty": "清"
+    },
+    {
+      "title": "王导",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4617",
+      "dynasty": "清"
+    },
+    {
+      "title": "督亢陂",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4616",
+      "dynasty": "清"
+    },
+    {
+      "title": "舟行晚过青浦",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4612",
+      "dynasty": "清"
+    },
+    {
+      "title": "踏车曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4609",
+      "dynasty": "清"
+    },
+    {
+      "title": "闻鹧鸪",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4619",
+      "dynasty": "清"
+    },
+    {
+      "title": "侣台弟以悼妻哭子诗索和，憔悴婉笃，情有不能已者，余欲发乎情而裁之以义也，辄有是作",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1652",
+      "dynasty": "清"
+    },
+    {
+      "title": "古风",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1649",
+      "dynasty": "清"
+    },
+    {
+      "title": "和查夏仲敝裘诗",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1654",
+      "dynasty": "清"
+    },
+    {
+      "title": "射虎行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1651",
+      "dynasty": "清"
+    },
+    {
+      "title": "岳忠武祠",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1655",
+      "dynasty": "清"
+    },
+    {
+      "title": "彭无山给谏自河工召复原官喜而有作",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1656",
+      "dynasty": "清"
+    },
+    {
+      "title": "溪声",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1659",
+      "dynasty": "清"
+    },
+    {
+      "title": "王导",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1658",
+      "dynasty": "清"
+    },
+    {
+      "title": "督亢陂",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1657",
+      "dynasty": "清"
+    },
+    {
+      "title": "舟行晚过青浦",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1653",
+      "dynasty": "清"
+    },
+    {
+      "title": "踏车曲",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1650",
+      "dynasty": "清"
+    },
+    {
+      "title": "闻鹧鸪",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1660",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,32 @@
+{
+  "name": "陆元泓",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 2,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "过河北刘庵先生墓",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3584",
+      "dynasty": "清"
+    },
+    {
+      "title": "过河北刘庵先生墓",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=625",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

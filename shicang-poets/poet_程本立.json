@@ -1,0 +1,56 @@
+{
+  "name": "程本立",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "晚至安宁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2154",
+      "dynasty": "明"
+    },
+    {
+      "title": "题李典仪云东卷",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2153",
+      "dynasty": "明"
+    },
+    {
+      "title": "题渊明五柳图",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2155",
+      "dynasty": "明"
+    },
+    {
+      "title": "晚至安宁",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=150",
+      "dynasty": "明"
+    },
+    {
+      "title": "题李典仪云东卷",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=149",
+      "dynasty": "明"
+    },
+    {
+      "title": "题渊明五柳图",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=151",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

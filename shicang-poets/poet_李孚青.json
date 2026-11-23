@@ -1,0 +1,68 @@
+{
+  "name": "李孚青",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "早秋送宋又宜由太原归里",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4235",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋日自遣",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4233",
+      "dynasty": "清"
+    },
+    {
+      "title": "稻孙楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4234",
+      "dynasty": "清"
+    },
+    {
+      "title": "雍丘晚行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4232",
+      "dynasty": "清"
+    },
+    {
+      "title": "早秋送宋又宜由太原归里",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1276",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋日自遣",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1274",
+      "dynasty": "清"
+    },
+    {
+      "title": "稻孙楼",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1275",
+      "dynasty": "清"
+    },
+    {
+      "title": "雍丘晚行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1273",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

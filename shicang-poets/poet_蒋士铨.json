@@ -1,0 +1,50 @@
+{
+  "name": "蒋士铨",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清末",
+  "d_order": 16,
+  "birthplace": "",
+  "style": "#795548",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 5,
+  "anthologies": [
+    "名篇精读",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "岁暮到家",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0790",
+      "dynasty": "明末清初"
+    },
+    {
+      "title": "水调歌头",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1192",
+      "dynasty": "清末"
+    },
+    {
+      "title": "百字令",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1191",
+      "dynasty": "清末"
+    },
+    {
+      "title": "舟次感成·水调歌头",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=148",
+      "dynasty": "清末"
+    },
+    {
+      "title": "蔡文姬擘阮圆·百字令",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=147",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": false
+}

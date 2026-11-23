@@ -1,0 +1,56 @@
+{
+  "name": "尤秉元",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "孤雁篇",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5309",
+      "dynasty": "清"
+    },
+    {
+      "title": "牡丹",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5311",
+      "dynasty": "清"
+    },
+    {
+      "title": "芙蓉映水曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5310",
+      "dynasty": "清"
+    },
+    {
+      "title": "孤雁篇",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2350",
+      "dynasty": "清"
+    },
+    {
+      "title": "牡丹",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2352",
+      "dynasty": "清"
+    },
+    {
+      "title": "芙蓉映水曲",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2351",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,56 @@
+{
+  "name": "柯九思",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "退直赠月",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=447",
+      "dynasty": "元"
+    },
+    {
+      "title": "送林彦清归永嘉",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=470",
+      "dynasty": "元"
+    },
+    {
+      "title": "送程鹏翼赴山东运司经历",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=364",
+      "dynasty": "元"
+    },
+    {
+      "title": "退直赠月",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1909",
+      "dynasty": "元"
+    },
+    {
+      "title": "送林彦清归永嘉",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1932",
+      "dynasty": "元"
+    },
+    {
+      "title": "送程鹏翼赴山东运司经历",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1826",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,80 @@
+{
+  "name": "舒瞻",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "为堇浦太史悼亡",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5992",
+      "dynasty": "清"
+    },
+    {
+      "title": "为朱蕴千题杏花春雨图",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5991",
+      "dynasty": "清"
+    },
+    {
+      "title": "偶占",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5990",
+      "dynasty": "清"
+    },
+    {
+      "title": "别竹田",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5988",
+      "dynasty": "清"
+    },
+    {
+      "title": "留别当湖诸人士",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5989",
+      "dynasty": "清"
+    },
+    {
+      "title": "为堇浦太史悼亡",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3033",
+      "dynasty": "清"
+    },
+    {
+      "title": "为朱蕴千题杏花春雨图",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3032",
+      "dynasty": "清"
+    },
+    {
+      "title": "偶占",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3031",
+      "dynasty": "清"
+    },
+    {
+      "title": "别竹田",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3029",
+      "dynasty": "清"
+    },
+    {
+      "title": "留别当湖诸人士",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3030",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

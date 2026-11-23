@@ -1,0 +1,56 @@
+{
+  "name": "严虞",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "咸阳怀古",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4778",
+      "dynasty": "清"
+    },
+    {
+      "title": "奉和东山对月有怀之作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4779",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋宵宴集酒阑漫兴得娘字",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4780",
+      "dynasty": "清"
+    },
+    {
+      "title": "咸阳怀古",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1819",
+      "dynasty": "清"
+    },
+    {
+      "title": "奉和东山对月有怀之作",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1820",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋宵宴集酒阑漫兴得娘字",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1821",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

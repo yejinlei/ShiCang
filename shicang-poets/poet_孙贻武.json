@@ -1,0 +1,32 @@
+{
+  "name": "孙贻武",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 2,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "吴越王",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6004",
+      "dynasty": "清"
+    },
+    {
+      "title": "吴越王",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3045",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,68 @@
+{
+  "name": "戴表元",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "十月朔旦寄贵白兄弟",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=214",
+      "dynasty": "元"
+    },
+    {
+      "title": "宿福海寺",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=9",
+      "dynasty": "元"
+    },
+    {
+      "title": "苕溪",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=128",
+      "dynasty": "元"
+    },
+    {
+      "title": "陪阮使君游玉几",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=213",
+      "dynasty": "元"
+    },
+    {
+      "title": "十月朔旦寄贵白兄弟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1676",
+      "dynasty": "元"
+    },
+    {
+      "title": "宿福海寺",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1471",
+      "dynasty": "元"
+    },
+    {
+      "title": "苕溪",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1590",
+      "dynasty": "元"
+    },
+    {
+      "title": "陪阮使君游玉几",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1675",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

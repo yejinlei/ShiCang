@@ -1,0 +1,32 @@
+{
+  "name": "薛莹",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 2,
+  "anthologies": [
+    "千家诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "秋日湖上",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=23",
+      "dynasty": "唐"
+    },
+    {
+      "title": "秋日湖上",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0858",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

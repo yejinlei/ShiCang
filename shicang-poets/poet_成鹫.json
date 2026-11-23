@@ -1,0 +1,128 @@
+{
+  "name": "成鹫",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 18,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "屈翁山归自金陵予将入泷水赋赠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6407",
+      "dynasty": "清"
+    },
+    {
+      "title": "登大科峰顶",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6413",
+      "dynasty": "清"
+    },
+    {
+      "title": "祝发呈本师",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6406",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋钟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6409",
+      "dynasty": "清"
+    },
+    {
+      "title": "罗浮采药歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6408",
+      "dynasty": "清"
+    },
+    {
+      "title": "读宋史偶笔",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6414",
+      "dynasty": "清"
+    },
+    {
+      "title": "镜",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6410",
+      "dynasty": "清"
+    },
+    {
+      "title": "问天",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6411",
+      "dynasty": "清"
+    },
+    {
+      "title": "问影",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6412",
+      "dynasty": "清"
+    },
+    {
+      "title": "屈翁山归自金陵予将入泷水赋赠",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3448",
+      "dynasty": "清"
+    },
+    {
+      "title": "登大科峰顶",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3454",
+      "dynasty": "清"
+    },
+    {
+      "title": "祝发呈本师",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3447",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋钟",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3450",
+      "dynasty": "清"
+    },
+    {
+      "title": "罗浮采药歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3449",
+      "dynasty": "清"
+    },
+    {
+      "title": "读宋史偶笔",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3455",
+      "dynasty": "清"
+    },
+    {
+      "title": "镜",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3451",
+      "dynasty": "清"
+    },
+    {
+      "title": "问天",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3452",
+      "dynasty": "清"
+    },
+    {
+      "title": "问影",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3453",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

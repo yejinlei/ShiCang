@@ -1,0 +1,68 @@
+{
+  "name": "毛秀惠",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "乙卯秋外赴金陵省试不售诗以慰之",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6354",
+      "dynasty": "清"
+    },
+    {
+      "title": "戽水谣",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6351",
+      "dynasty": "清"
+    },
+    {
+      "title": "渔父图",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6352",
+      "dynasty": "清"
+    },
+    {
+      "title": "钱塘怀古",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6353",
+      "dynasty": "清"
+    },
+    {
+      "title": "乙卯秋外赴金陵省试不售诗以慰之",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3395",
+      "dynasty": "清"
+    },
+    {
+      "title": "戽水谣",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3392",
+      "dynasty": "清"
+    },
+    {
+      "title": "渔父图",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3393",
+      "dynasty": "清"
+    },
+    {
+      "title": "钱塘怀古",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3394",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

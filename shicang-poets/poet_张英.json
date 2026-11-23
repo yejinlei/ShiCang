@@ -1,0 +1,80 @@
+{
+  "name": "张英",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "严陵江",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3844",
+      "dynasty": "清"
+    },
+    {
+      "title": "拟古田家诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3841",
+      "dynasty": "清"
+    },
+    {
+      "title": "读元道州贼退示官吏诗慨然有作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3843",
+      "dynasty": "清"
+    },
+    {
+      "title": "读汉书",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3842",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠螺浮黄门次龚合肥韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3845",
+      "dynasty": "清"
+    },
+    {
+      "title": "严陵江",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=885",
+      "dynasty": "清"
+    },
+    {
+      "title": "拟古田家诗",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=882",
+      "dynasty": "清"
+    },
+    {
+      "title": "读元道州贼退示官吏诗慨然有作",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=884",
+      "dynasty": "清"
+    },
+    {
+      "title": "读汉书",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=883",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠螺浮黄门次龚合肥韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=886",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

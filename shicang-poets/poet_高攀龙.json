@@ -1,0 +1,80 @@
+{
+  "name": "高攀龙",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "夏日闲居",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2695",
+      "dynasty": "明"
+    },
+    {
+      "title": "夜步",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2697",
+      "dynasty": "明"
+    },
+    {
+      "title": "水居",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2694",
+      "dynasty": "明"
+    },
+    {
+      "title": "湖上闲居季思子往适至",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2696",
+      "dynasty": "明"
+    },
+    {
+      "title": "韬光静坐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2698",
+      "dynasty": "明"
+    },
+    {
+      "title": "夏日闲居",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=691",
+      "dynasty": "明"
+    },
+    {
+      "title": "夜步",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=693",
+      "dynasty": "明"
+    },
+    {
+      "title": "水居",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=690",
+      "dynasty": "明"
+    },
+    {
+      "title": "湖上闲居季思子往适至",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=692",
+      "dynasty": "明"
+    },
+    {
+      "title": "韬光静坐",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=694",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

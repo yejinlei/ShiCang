@@ -1,0 +1,188 @@
+{
+  "name": "汪琬",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 28,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "和李退翁侍郎读水经注忆洞庭之作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3331",
+      "dynasty": "清"
+    },
+    {
+      "title": "姑苏杨柳枝词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3333",
+      "dynasty": "清"
+    },
+    {
+      "title": "寄赠吴门故人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3328",
+      "dynasty": "清"
+    },
+    {
+      "title": "有客言黄鱼事纪之",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3324",
+      "dynasty": "清"
+    },
+    {
+      "title": "泊石湖有怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3321",
+      "dynasty": "清"
+    },
+    {
+      "title": "游邓尉山遇徐生",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3322",
+      "dynasty": "清"
+    },
+    {
+      "title": "玉钩斜",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3323",
+      "dynasty": "清"
+    },
+    {
+      "title": "计甫草至寓斋",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3326",
+      "dynasty": "清"
+    },
+    {
+      "title": "赋得宫人入道",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3329",
+      "dynasty": "清"
+    },
+    {
+      "title": "过石坞",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3334",
+      "dynasty": "清"
+    },
+    {
+      "title": "送人南游",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3327",
+      "dynasty": "清"
+    },
+    {
+      "title": "送再从侄处默",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3325",
+      "dynasty": "清"
+    },
+    {
+      "title": "送魏子存之成都同西樵周量贻上",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3330",
+      "dynasty": "清"
+    },
+    {
+      "title": "阻风",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3332",
+      "dynasty": "清"
+    },
+    {
+      "title": "和李退翁侍郎读水经注忆洞庭之作",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=372",
+      "dynasty": "清"
+    },
+    {
+      "title": "姑苏杨柳枝词",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=374",
+      "dynasty": "清"
+    },
+    {
+      "title": "寄赠吴门故人",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=369",
+      "dynasty": "清"
+    },
+    {
+      "title": "有客言黄鱼事纪之",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=365",
+      "dynasty": "清"
+    },
+    {
+      "title": "泊石湖有怀",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=362",
+      "dynasty": "清"
+    },
+    {
+      "title": "游邓尉山遇徐生",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=363",
+      "dynasty": "清"
+    },
+    {
+      "title": "玉钩斜",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=364",
+      "dynasty": "清"
+    },
+    {
+      "title": "计甫草至寓斋",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=367",
+      "dynasty": "清"
+    },
+    {
+      "title": "赋得宫人入道",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=370",
+      "dynasty": "清"
+    },
+    {
+      "title": "过石坞",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=375",
+      "dynasty": "清"
+    },
+    {
+      "title": "送人南游",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=368",
+      "dynasty": "清"
+    },
+    {
+      "title": "送再从侄处默",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=366",
+      "dynasty": "清"
+    },
+    {
+      "title": "送魏子存之成都同西樵周量贻上",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=371",
+      "dynasty": "清"
+    },
+    {
+      "title": "阻风",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=373",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

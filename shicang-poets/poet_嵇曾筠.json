@@ -1,0 +1,56 @@
+{
+  "name": "嵇曾筠",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "五台山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5140",
+      "dynasty": "清"
+    },
+    {
+      "title": "寄天津范自牧观察",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5141",
+      "dynasty": "清"
+    },
+    {
+      "title": "登披云山眺海",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5142",
+      "dynasty": "清"
+    },
+    {
+      "title": "五台山",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2181",
+      "dynasty": "清"
+    },
+    {
+      "title": "寄天津范自牧观察",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2182",
+      "dynasty": "清"
+    },
+    {
+      "title": "登披云山眺海",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2183",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

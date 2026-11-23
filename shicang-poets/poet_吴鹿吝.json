@@ -1,0 +1,128 @@
+{
+  "name": "吴鹿吝",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 18,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "和宋秀才咏折花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4415",
+      "dynasty": "清"
+    },
+    {
+      "title": "哭汪三韩",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4417",
+      "dynasty": "清"
+    },
+    {
+      "title": "展园次兄遗札",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4423",
+      "dynasty": "清"
+    },
+    {
+      "title": "怀吴野人先生",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4420",
+      "dynasty": "清"
+    },
+    {
+      "title": "悼亡姬成去艳",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4421",
+      "dynasty": "清"
+    },
+    {
+      "title": "旧游",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4416",
+      "dynasty": "清"
+    },
+    {
+      "title": "送陈射文出关省亲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4422",
+      "dynasty": "清"
+    },
+    {
+      "title": "酬朱穆公天台见怀四韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4419",
+      "dynasty": "清"
+    },
+    {
+      "title": "阿玉",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4418",
+      "dynasty": "清"
+    },
+    {
+      "title": "和宋秀才咏折花",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1456",
+      "dynasty": "清"
+    },
+    {
+      "title": "哭汪三韩",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1458",
+      "dynasty": "清"
+    },
+    {
+      "title": "展园次兄遗札",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1464",
+      "dynasty": "清"
+    },
+    {
+      "title": "怀吴野人先生",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1461",
+      "dynasty": "清"
+    },
+    {
+      "title": "悼亡姬成去艳",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1462",
+      "dynasty": "清"
+    },
+    {
+      "title": "旧游",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1457",
+      "dynasty": "清"
+    },
+    {
+      "title": "送陈射文出关省亲",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1463",
+      "dynasty": "清"
+    },
+    {
+      "title": "酬朱穆公天台见怀四韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1460",
+      "dynasty": "清"
+    },
+    {
+      "title": "阿玉",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1459",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

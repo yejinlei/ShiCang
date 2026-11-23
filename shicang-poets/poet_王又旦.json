@@ -1,0 +1,128 @@
+{
+  "name": "王又旦",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 18,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "古鼎篇（自注：鼎中一马一鹿，引《吕氏春秋》为证据，知周鼎也。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3463",
+      "dynasty": "清"
+    },
+    {
+      "title": "夜坐仰天池",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3462",
+      "dynasty": "清"
+    },
+    {
+      "title": "太史祠隔河望孤山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3468",
+      "dynasty": "清"
+    },
+    {
+      "title": "故陈忠愍公挽诗 福",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3467",
+      "dynasty": "清"
+    },
+    {
+      "title": "晓渡望鄂州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3464",
+      "dynasty": "清"
+    },
+    {
+      "title": "自千尺嶂缘猢狲愁行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3461",
+      "dynasty": "清"
+    },
+    {
+      "title": "苍龙岭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3460",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠梁峒樵水部",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3465",
+      "dynasty": "清"
+    },
+    {
+      "title": "送家叔季鸿先生游隹上谒后土祠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3466",
+      "dynasty": "清"
+    },
+    {
+      "title": "古鼎篇（自注：鼎中一马一鹿，引《吕氏春秋》为证据，知周鼎也。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=504",
+      "dynasty": "清"
+    },
+    {
+      "title": "夜坐仰天池",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=503",
+      "dynasty": "清"
+    },
+    {
+      "title": "太史祠隔河望孤山",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=509",
+      "dynasty": "清"
+    },
+    {
+      "title": "故陈忠愍公挽诗 福",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=508",
+      "dynasty": "清"
+    },
+    {
+      "title": "晓渡望鄂州",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=505",
+      "dynasty": "清"
+    },
+    {
+      "title": "自千尺嶂缘猢狲愁行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=502",
+      "dynasty": "清"
+    },
+    {
+      "title": "苍龙岭",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=501",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠梁峒樵水部",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=506",
+      "dynasty": "清"
+    },
+    {
+      "title": "送家叔季鸿先生游隹上谒后土祠",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=507",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

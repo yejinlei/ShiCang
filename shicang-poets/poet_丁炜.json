@@ -1,0 +1,56 @@
+{
+  "name": "丁炜",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "卧病酬林澹亭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4320",
+      "dynasty": "清"
+    },
+    {
+      "title": "新淦舟行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4322",
+      "dynasty": "清"
+    },
+    {
+      "title": "贾岛峪",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4321",
+      "dynasty": "清"
+    },
+    {
+      "title": "卧病酬林澹亭",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1361",
+      "dynasty": "清"
+    },
+    {
+      "title": "新淦舟行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1363",
+      "dynasty": "清"
+    },
+    {
+      "title": "贾岛峪",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1362",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

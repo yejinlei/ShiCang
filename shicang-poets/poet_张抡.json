@@ -1,0 +1,69 @@
+{
+  "name": "张抡",
+  "zi": "",
+  "hao": "",
+  "dynasty": "宋",
+  "d_order": 8,
+  "birthplace": "",
+  "style": "#7F8C8D",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "宋词三百首",
+    "绝妙好词"
+  ],
+  "works": [
+    {
+      "title": "临江仙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7585",
+      "dynasty": "宋"
+    },
+    {
+      "title": "壶中天慢",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7584",
+      "dynasty": "宋"
+    },
+    {
+      "title": "柳梢青",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7583",
+      "dynasty": "宋"
+    },
+    {
+      "title": "烛影摇红",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0506",
+      "dynasty": "宋"
+    },
+    {
+      "title": "上元有怀·烛影摇红",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=115",
+      "dynasty": "宋"
+    },
+    {
+      "title": "并序·临江仙",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=402",
+      "dynasty": "宋"
+    },
+    {
+      "title": "柳梢青",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=400",
+      "dynasty": "宋"
+    },
+    {
+      "title": "牡丹·壶中天慢",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=401",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,92 @@
+{
+  "name": "王廷相",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 12,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "初见白发",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2348",
+      "dynasty": "明"
+    },
+    {
+      "title": "古陵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2350",
+      "dynasty": "明"
+    },
+    {
+      "title": "宫怨",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2349",
+      "dynasty": "明"
+    },
+    {
+      "title": "登台",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2347",
+      "dynasty": "明"
+    },
+    {
+      "title": "秋日巴中旅行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2346",
+      "dynasty": "明"
+    },
+    {
+      "title": "赭袍将军谣",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2345",
+      "dynasty": "明"
+    },
+    {
+      "title": "初见白发",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=344",
+      "dynasty": "明"
+    },
+    {
+      "title": "古陵",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=346",
+      "dynasty": "明"
+    },
+    {
+      "title": "宫怨",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=345",
+      "dynasty": "明"
+    },
+    {
+      "title": "登台",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=343",
+      "dynasty": "明"
+    },
+    {
+      "title": "秋日巴中旅行",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=342",
+      "dynasty": "明"
+    },
+    {
+      "title": "赭袍将军谣",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=341",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

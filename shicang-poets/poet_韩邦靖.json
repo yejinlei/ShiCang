@@ -1,0 +1,44 @@
+{
+  "name": "韩邦靖",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "关中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2383",
+      "dynasty": "明"
+    },
+    {
+      "title": "己亥秋月寄杨升庵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2384",
+      "dynasty": "明"
+    },
+    {
+      "title": "关中",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=379",
+      "dynasty": "明"
+    },
+    {
+      "title": "己亥秋月寄杨升庵",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=380",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

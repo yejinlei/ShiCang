@@ -1,0 +1,159 @@
+{
+  "name": "韩翃",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 23,
+  "anthologies": [
+    "万寿唐诗",
+    "千家诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "宿石邑山中",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=306",
+      "dynasty": "唐"
+    },
+    {
+      "title": "寒食",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=305",
+      "dynasty": "唐"
+    },
+    {
+      "title": "少年行",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=311",
+      "dynasty": "唐"
+    },
+    {
+      "title": "汉宫曲",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=123",
+      "dynasty": "唐"
+    },
+    {
+      "title": "江南曲",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=307",
+      "dynasty": "唐"
+    },
+    {
+      "title": "赠李冀",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=309",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送人之潞州",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=310",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送客之鄂州",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=303",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送齐山人",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=304",
+      "dynasty": "唐"
+    },
+    {
+      "title": "酬张千牛",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=308",
+      "dynasty": "唐"
+    },
+    {
+      "title": "寒食",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=103",
+      "dynasty": "唐"
+    },
+    {
+      "title": "同题仙游观",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0405",
+      "dynasty": "唐"
+    },
+    {
+      "title": "宿石邑山中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6766",
+      "dynasty": "唐"
+    },
+    {
+      "title": "寒食",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0406",
+      "dynasty": "唐"
+    },
+    {
+      "title": "少年行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6771",
+      "dynasty": "唐"
+    },
+    {
+      "title": "汉宫曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6599",
+      "dynasty": "唐"
+    },
+    {
+      "title": "江南曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6767",
+      "dynasty": "唐"
+    },
+    {
+      "title": "赠李冀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6769",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送人之潞州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6770",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送客之鄂州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6764",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送齐山人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6765",
+      "dynasty": "唐"
+    },
+    {
+      "title": "酬张千牛",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6768",
+      "dynasty": "唐"
+    },
+    {
+      "title": "酬程延秋夜即事见赠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0407",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,56 @@
+{
+  "name": "王鏊",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "元世祖庙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2223",
+      "dynasty": "明"
+    },
+    {
+      "title": "晚渡咸阳",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2222",
+      "dynasty": "明"
+    },
+    {
+      "title": "赠梁都宪巡抚四川",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2221",
+      "dynasty": "明"
+    },
+    {
+      "title": "元世祖庙",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=219",
+      "dynasty": "明"
+    },
+    {
+      "title": "晚渡咸阳",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=218",
+      "dynasty": "明"
+    },
+    {
+      "title": "赠梁都宪巡抚四川",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=217",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

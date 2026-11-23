@@ -1,0 +1,128 @@
+{
+  "name": "李因笃",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 18,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "得傅征君山信",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4070",
+      "dynasty": "清"
+    },
+    {
+      "title": "望岳",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4072",
+      "dynasty": "清"
+    },
+    {
+      "title": "潼关",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4071",
+      "dynasty": "清"
+    },
+    {
+      "title": "登代州白人岩因饮孙园",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4066",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋兴客长安作（此秦中故长安也。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4068",
+      "dynasty": "清"
+    },
+    {
+      "title": "纪别（自注：将往雁门。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4064",
+      "dynasty": "清"
+    },
+    {
+      "title": "边上",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4069",
+      "dynasty": "清"
+    },
+    {
+      "title": "雨",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4067",
+      "dynasty": "清"
+    },
+    {
+      "title": "题世胄都指挥使崔公汝明像",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4065",
+      "dynasty": "清"
+    },
+    {
+      "title": "得傅征君山信",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1111",
+      "dynasty": "清"
+    },
+    {
+      "title": "望岳",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1113",
+      "dynasty": "清"
+    },
+    {
+      "title": "潼关",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1112",
+      "dynasty": "清"
+    },
+    {
+      "title": "登代州白人岩因饮孙园",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1107",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋兴客长安作（此秦中故长安也。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1109",
+      "dynasty": "清"
+    },
+    {
+      "title": "纪别（自注：将往雁门。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1105",
+      "dynasty": "清"
+    },
+    {
+      "title": "边上",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1110",
+      "dynasty": "清"
+    },
+    {
+      "title": "雨",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1108",
+      "dynasty": "清"
+    },
+    {
+      "title": "题世胄都指挥使崔公汝明像",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1106",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

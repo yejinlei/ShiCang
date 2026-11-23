@@ -1,0 +1,56 @@
+{
+  "name": "沈荃",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "寄怀张冷石先生",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3230",
+      "dynasty": "清"
+    },
+    {
+      "title": "送张篑山学士归庐陵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3231",
+      "dynasty": "清"
+    },
+    {
+      "title": "送雪龛兄任保宁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3229",
+      "dynasty": "清"
+    },
+    {
+      "title": "寄怀张冷石先生",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=271",
+      "dynasty": "清"
+    },
+    {
+      "title": "送张篑山学士归庐陵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=272",
+      "dynasty": "清"
+    },
+    {
+      "title": "送雪龛兄任保宁",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=270",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

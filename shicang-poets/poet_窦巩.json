@@ -1,0 +1,80 @@
+{
+  "name": "窦巩",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "万寿唐诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "南游感兴",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=478",
+      "dynasty": "唐"
+    },
+    {
+      "title": "宫人斜",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=477",
+      "dynasty": "唐"
+    },
+    {
+      "title": "寄南游兄弟",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=476",
+      "dynasty": "唐"
+    },
+    {
+      "title": "洛中即事",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=475",
+      "dynasty": "唐"
+    },
+    {
+      "title": "襄阳寒食寄宇文籍",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=474",
+      "dynasty": "唐"
+    },
+    {
+      "title": "南游感兴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6931",
+      "dynasty": "唐"
+    },
+    {
+      "title": "宫人斜",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6930",
+      "dynasty": "唐"
+    },
+    {
+      "title": "寄南游兄弟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6929",
+      "dynasty": "唐"
+    },
+    {
+      "title": "洛中即事",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6928",
+      "dynasty": "唐"
+    },
+    {
+      "title": "襄阳寒食寄宇文籍",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6927",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

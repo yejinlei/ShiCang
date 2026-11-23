@@ -1,0 +1,80 @@
+{
+  "name": "周伯琦",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "七月七日同宋显夫学士暨经筵僚属游上京西山纪事二首",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=286",
+      "dynasty": "元"
+    },
+    {
+      "title": "九月一日还自上京途中纪事",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=164",
+      "dynasty": "元"
+    },
+    {
+      "title": "八月六日丁亥释奠孔子庙三十韵",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=380",
+      "dynasty": "元"
+    },
+    {
+      "title": "纪行诗",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=165",
+      "dynasty": "元"
+    },
+    {
+      "title": "野狐岭（岭界南北，甚寒，南下平地则暄矣。）",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=28",
+      "dynasty": "元"
+    },
+    {
+      "title": "七月七日同宋显夫学士暨经筵僚属游上京西山纪事二首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1748",
+      "dynasty": "元"
+    },
+    {
+      "title": "九月一日还自上京途中纪事",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1626",
+      "dynasty": "元"
+    },
+    {
+      "title": "八月六日丁亥释奠孔子庙三十韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1842",
+      "dynasty": "元"
+    },
+    {
+      "title": "纪行诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1627",
+      "dynasty": "元"
+    },
+    {
+      "title": "野狐岭（岭界南北，甚寒，南下平地则暄矣。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1490",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,50 @@
+{
+  "name": "朱庆余",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 5,
+  "anthologies": [
+    "万寿唐诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "宫中词",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=520",
+      "dynasty": "唐"
+    },
+    {
+      "title": "近试上张水部",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=763",
+      "dynasty": "唐"
+    },
+    {
+      "title": "宫中词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6973",
+      "dynasty": "唐"
+    },
+    {
+      "title": "宫词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0173",
+      "dynasty": "唐"
+    },
+    {
+      "title": "近试上张水部",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0174",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

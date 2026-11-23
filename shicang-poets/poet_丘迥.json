@@ -1,0 +1,44 @@
+{
+  "name": "丘迥",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "乌行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5834",
+      "dynasty": "清"
+    },
+    {
+      "title": "岳忠武王墓",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5835",
+      "dynasty": "清"
+    },
+    {
+      "title": "乌行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2875",
+      "dynasty": "清"
+    },
+    {
+      "title": "岳忠武王墓",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2876",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,104 @@
+{
+  "name": "冯廷魁",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 14,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "岁暮书怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4272",
+      "dynasty": "清"
+    },
+    {
+      "title": "张华宅",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4274",
+      "dynasty": "清"
+    },
+    {
+      "title": "荆卿故里",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4271",
+      "dynasty": "清"
+    },
+    {
+      "title": "论史",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4268",
+      "dynasty": "清"
+    },
+    {
+      "title": "谒诸葛公祠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4273",
+      "dynasty": "清"
+    },
+    {
+      "title": "铁犀行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4269",
+      "dynasty": "清"
+    },
+    {
+      "title": "黄鹄矶",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4270",
+      "dynasty": "清"
+    },
+    {
+      "title": "岁暮书怀",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1313",
+      "dynasty": "清"
+    },
+    {
+      "title": "张华宅",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1315",
+      "dynasty": "清"
+    },
+    {
+      "title": "荆卿故里",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1312",
+      "dynasty": "清"
+    },
+    {
+      "title": "论史",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1309",
+      "dynasty": "清"
+    },
+    {
+      "title": "谒诸葛公祠",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1314",
+      "dynasty": "清"
+    },
+    {
+      "title": "铁犀行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1310",
+      "dynasty": "清"
+    },
+    {
+      "title": "黄鹄矶",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1311",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

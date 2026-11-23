@@ -1,0 +1,44 @@
+{
+  "name": "沈自南",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "同韩倬次雪声远登快风阁兼寄怀绎堂",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3374",
+      "dynasty": "清"
+    },
+    {
+      "title": "春暮钱牧斋宗伯过访",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3375",
+      "dynasty": "清"
+    },
+    {
+      "title": "同韩倬次雪声远登快风阁兼寄怀绎堂",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=415",
+      "dynasty": "清"
+    },
+    {
+      "title": "春暮钱牧斋宗伯过访",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=416",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

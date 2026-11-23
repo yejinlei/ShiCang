@@ -1,0 +1,68 @@
+{
+  "name": "严沆",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "怀季天中辽左",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3320",
+      "dynasty": "清"
+    },
+    {
+      "title": "春日漫兴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3319",
+      "dynasty": "清"
+    },
+    {
+      "title": "田凝只索画久不得报歌以代柬",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3318",
+      "dynasty": "清"
+    },
+    {
+      "title": "送吴谨侯同馆谪广文还里作歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3317",
+      "dynasty": "清"
+    },
+    {
+      "title": "怀季天中辽左",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=361",
+      "dynasty": "清"
+    },
+    {
+      "title": "春日漫兴",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=360",
+      "dynasty": "清"
+    },
+    {
+      "title": "田凝只索画久不得报歌以代柬",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=359",
+      "dynasty": "清"
+    },
+    {
+      "title": "送吴谨侯同馆谪广文还里作歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=358",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

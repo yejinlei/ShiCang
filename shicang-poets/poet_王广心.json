@@ -1,0 +1,80 @@
+{
+  "name": "王广心",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "大梁行送林平子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3211",
+      "dynasty": "清"
+    },
+    {
+      "title": "怀友",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3212",
+      "dynasty": "清"
+    },
+    {
+      "title": "直方夜过忆卧子谈诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3214",
+      "dynasty": "清"
+    },
+    {
+      "title": "送向西昆使蜀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3213",
+      "dynasty": "清"
+    },
+    {
+      "title": "送董苍水游楚粤",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3210",
+      "dynasty": "清"
+    },
+    {
+      "title": "大梁行送林平子",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=252",
+      "dynasty": "清"
+    },
+    {
+      "title": "怀友",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=253",
+      "dynasty": "清"
+    },
+    {
+      "title": "直方夜过忆卧子谈诗",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=255",
+      "dynasty": "清"
+    },
+    {
+      "title": "送向西昆使蜀",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=254",
+      "dynasty": "清"
+    },
+    {
+      "title": "送董苍水游楚粤",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=251",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

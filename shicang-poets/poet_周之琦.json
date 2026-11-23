@@ -1,0 +1,104 @@
+{
+  "name": "周之琦",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清末",
+  "d_order": 16,
+  "birthplace": "",
+  "style": "#795548",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 14,
+  "anthologies": [
+    "名篇精读",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "三姝媚",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1228",
+      "dynasty": "清末"
+    },
+    {
+      "title": "夜半乐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1231",
+      "dynasty": "清末"
+    },
+    {
+      "title": "好事近四首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1225",
+      "dynasty": "清末"
+    },
+    {
+      "title": "思佳客",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1227",
+      "dynasty": "清末"
+    },
+    {
+      "title": "瑞鹤仙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1229",
+      "dynasty": "清末"
+    },
+    {
+      "title": "蹋莎行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1226",
+      "dynasty": "清末"
+    },
+    {
+      "title": "青衫湿遍",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1230",
+      "dynasty": "清末"
+    },
+    {
+      "title": "四月六日出都，小憩芦沟桥，偶述。·瑞鹤仙",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=185",
+      "dynasty": "清末"
+    },
+    {
+      "title": "夜趋剑关，中途大雷雨，侵晨始抵宿处。·夜半乐",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=187",
+      "dynasty": "清末"
+    },
+    {
+      "title": "思佳客",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=183",
+      "dynasty": "清末"
+    },
+    {
+      "title": "海淀集贤院，有水石花柳之胜，余岁或数十信宿。戊寅春暮，独游池畔，万物赋情，弁阳翁所谓《薄酒孤吟》者也。·三姝媚",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=184",
+      "dynasty": "清末"
+    },
+    {
+      "title": "舆中杂书所见，得四阕。·好事近四首",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=181",
+      "dynasty": "清末"
+    },
+    {
+      "title": "蹋莎行",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=182",
+      "dynasty": "清末"
+    },
+    {
+      "title": "道光已丑夏五，余有骑省之戚，偶效纳兰容若词为此。虽非宋贤遗谱，音节有可述者。·青衫湿遍",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=186",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": false
+}

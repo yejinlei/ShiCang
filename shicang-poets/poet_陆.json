@@ -1,0 +1,104 @@
+{
+  "name": "陆",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 14,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "山行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5612",
+      "dynasty": "清"
+    },
+    {
+      "title": "次和荃谷寒夜独坐之作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5613",
+      "dynasty": "清"
+    },
+    {
+      "title": "游邓尉山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5611",
+      "dynasty": "清"
+    },
+    {
+      "title": "白云洞",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5610",
+      "dynasty": "清"
+    },
+    {
+      "title": "自丰城抵万安江水大涨",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4183",
+      "dynasty": "清"
+    },
+    {
+      "title": "过石楼赠山僧不群",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5614",
+      "dynasty": "清"
+    },
+    {
+      "title": "都门人日送高念祖南归",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4182",
+      "dynasty": "清"
+    },
+    {
+      "title": "山行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2653",
+      "dynasty": "清"
+    },
+    {
+      "title": "次和荃谷寒夜独坐之作",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2654",
+      "dynasty": "清"
+    },
+    {
+      "title": "游邓尉山",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2652",
+      "dynasty": "清"
+    },
+    {
+      "title": "白云洞",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2651",
+      "dynasty": "清"
+    },
+    {
+      "title": "自丰城抵万安江水大涨",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1224",
+      "dynasty": "清"
+    },
+    {
+      "title": "过石楼赠山僧不群",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2655",
+      "dynasty": "清"
+    },
+    {
+      "title": "都门人日送高念祖南归",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1223",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

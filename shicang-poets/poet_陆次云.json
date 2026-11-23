@@ -1,0 +1,152 @@
+{
+  "name": "陆次云",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 22,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "五溪杂咏",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4477",
+      "dynasty": "清"
+    },
+    {
+      "title": "君马黄",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4473",
+      "dynasty": "清"
+    },
+    {
+      "title": "咏史",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4480",
+      "dynasty": "清"
+    },
+    {
+      "title": "天下大师墓",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4478",
+      "dynasty": "清"
+    },
+    {
+      "title": "志感",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4474",
+      "dynasty": "清"
+    },
+    {
+      "title": "杂感",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4471",
+      "dynasty": "清"
+    },
+    {
+      "title": "泛洞庭湖",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4472",
+      "dynasty": "清"
+    },
+    {
+      "title": "疑冢",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4479",
+      "dynasty": "清"
+    },
+    {
+      "title": "登岱",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4475",
+      "dynasty": "清"
+    },
+    {
+      "title": "白沟河",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4476",
+      "dynasty": "清"
+    },
+    {
+      "title": "题荆山石壁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4481",
+      "dynasty": "清"
+    },
+    {
+      "title": "五溪杂咏",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1518",
+      "dynasty": "清"
+    },
+    {
+      "title": "君马黄",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1514",
+      "dynasty": "清"
+    },
+    {
+      "title": "咏史",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1521",
+      "dynasty": "清"
+    },
+    {
+      "title": "天下大师墓",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1519",
+      "dynasty": "清"
+    },
+    {
+      "title": "志感",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1515",
+      "dynasty": "清"
+    },
+    {
+      "title": "杂感",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1512",
+      "dynasty": "清"
+    },
+    {
+      "title": "泛洞庭湖",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1513",
+      "dynasty": "清"
+    },
+    {
+      "title": "疑冢",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1520",
+      "dynasty": "清"
+    },
+    {
+      "title": "登岱",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1516",
+      "dynasty": "清"
+    },
+    {
+      "title": "白沟河",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1517",
+      "dynasty": "清"
+    },
+    {
+      "title": "题荆山石壁",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1522",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

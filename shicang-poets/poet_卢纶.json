@@ -1,0 +1,92 @@
+{
+  "name": "卢纶",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 12,
+  "anthologies": [
+    "万寿唐诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "古艳词",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=329",
+      "dynasty": "唐"
+    },
+    {
+      "title": "塞下曲 四首",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=117",
+      "dynasty": "唐"
+    },
+    {
+      "title": "宫中乐 二首",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=330",
+      "dynasty": "唐"
+    },
+    {
+      "title": "春日有怀",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=331",
+      "dynasty": "唐"
+    },
+    {
+      "title": "曲江春望 二首",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=332",
+      "dynasty": "唐"
+    },
+    {
+      "title": "古艳词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6788",
+      "dynasty": "唐"
+    },
+    {
+      "title": "塞下曲 四首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6593",
+      "dynasty": "唐"
+    },
+    {
+      "title": "宫中乐 二首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6789",
+      "dynasty": "唐"
+    },
+    {
+      "title": "春日有怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6790",
+      "dynasty": "唐"
+    },
+    {
+      "title": "晚次鄂州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0120",
+      "dynasty": "唐"
+    },
+    {
+      "title": "曲江春望 二首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6791",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送李端",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0121",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

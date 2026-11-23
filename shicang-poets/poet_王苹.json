@@ -1,0 +1,68 @@
+{
+  "name": "王苹",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "南园",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5135",
+      "dynasty": "清"
+    },
+    {
+      "title": "吊张布衣",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5138",
+      "dynasty": "清"
+    },
+    {
+      "title": "春日述怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5136",
+      "dynasty": "清"
+    },
+    {
+      "title": "读吴野人集",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5137",
+      "dynasty": "清"
+    },
+    {
+      "title": "南园",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2176",
+      "dynasty": "清"
+    },
+    {
+      "title": "吊张布衣",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2179",
+      "dynasty": "清"
+    },
+    {
+      "title": "春日述怀",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2177",
+      "dynasty": "清"
+    },
+    {
+      "title": "读吴野人集",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2178",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

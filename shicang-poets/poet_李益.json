@@ -1,0 +1,278 @@
+{
+  "name": "李益",
+  "zi": "君虞",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "陇西姑臧",
+  "style": "#ae3a2b",
+  "school": "大历·边塞",
+  "years": "748—829",
+  "bio": "中唐边塞诗人，大历十才子之一，七绝传唱极广。代表作《夜上受降城闻笛》。",
+  "work_count": 43,
+  "anthologies": [
+    "万寿唐诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "临滹沲见蕃使列名",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=322",
+      "dynasty": "唐"
+    },
+    {
+      "title": "从军北征",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=318",
+      "dynasty": "唐"
+    },
+    {
+      "title": "写情",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=323",
+      "dynasty": "唐"
+    },
+    {
+      "title": "听晓角",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=324",
+      "dynasty": "唐"
+    },
+    {
+      "title": "夜上受降城闻笛",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=315",
+      "dynasty": "唐"
+    },
+    {
+      "title": "宫怨",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=327",
+      "dynasty": "唐"
+    },
+    {
+      "title": "度破汭沙",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=328",
+      "dynasty": "唐"
+    },
+    {
+      "title": "扬州懐古",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=111",
+      "dynasty": "唐"
+    },
+    {
+      "title": "扬州早鴈",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=112",
+      "dynasty": "唐"
+    },
+    {
+      "title": "暖川",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=326",
+      "dynasty": "唐"
+    },
+    {
+      "title": "柳杨送客",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=317",
+      "dynasty": "唐"
+    },
+    {
+      "title": "江南曲",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=108",
+      "dynasty": "唐"
+    },
+    {
+      "title": "汴河曲",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=325",
+      "dynasty": "唐"
+    },
+    {
+      "title": "洛桥",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=114",
+      "dynasty": "唐"
+    },
+    {
+      "title": "行舟",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=319",
+      "dynasty": "唐"
+    },
+    {
+      "title": "赠卢纶",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=109",
+      "dynasty": "唐"
+    },
+    {
+      "title": "边思",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=316",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送人归岳阳",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=321",
+      "dynasty": "唐"
+    },
+    {
+      "title": "金吾子",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=113",
+      "dynasty": "唐"
+    },
+    {
+      "title": "隋宫燕",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=320",
+      "dynasty": "唐"
+    },
+    {
+      "title": "鹧鸪词",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=110",
+      "dynasty": "唐"
+    },
+    {
+      "title": "临滹沲见蕃使列名",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6781",
+      "dynasty": "唐"
+    },
+    {
+      "title": "从军北征",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6777",
+      "dynasty": "唐"
+    },
+    {
+      "title": "写情",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6782",
+      "dynasty": "唐"
+    },
+    {
+      "title": "听晓角",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6783",
+      "dynasty": "唐"
+    },
+    {
+      "title": "喜见外弟又言别",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0237",
+      "dynasty": "唐"
+    },
+    {
+      "title": "夜上受降城闻笛",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0238",
+      "dynasty": "唐"
+    },
+    {
+      "title": "宫怨",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6786",
+      "dynasty": "唐"
+    },
+    {
+      "title": "度破汭沙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6787",
+      "dynasty": "唐"
+    },
+    {
+      "title": "扬州懐古",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6588",
+      "dynasty": "唐"
+    },
+    {
+      "title": "扬州早鴈",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6589",
+      "dynasty": "唐"
+    },
+    {
+      "title": "暖川",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6785",
+      "dynasty": "唐"
+    },
+    {
+      "title": "柳杨送客",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6776",
+      "dynasty": "唐"
+    },
+    {
+      "title": "江南曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0239",
+      "dynasty": "唐"
+    },
+    {
+      "title": "汴河曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6784",
+      "dynasty": "唐"
+    },
+    {
+      "title": "洛桥",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6591",
+      "dynasty": "唐"
+    },
+    {
+      "title": "行舟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6778",
+      "dynasty": "唐"
+    },
+    {
+      "title": "赠卢纶",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6586",
+      "dynasty": "唐"
+    },
+    {
+      "title": "边思",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6775",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送人归岳阳",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6780",
+      "dynasty": "唐"
+    },
+    {
+      "title": "金吾子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6590",
+      "dynasty": "唐"
+    },
+    {
+      "title": "隋宫燕",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6779",
+      "dynasty": "唐"
+    },
+    {
+      "title": "鹧鸪词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6587",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": true
+}

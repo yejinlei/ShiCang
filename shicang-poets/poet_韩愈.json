@@ -1,0 +1,129 @@
+{
+  "name": "韩愈",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 18,
+  "anthologies": [
+    "万寿唐诗",
+    "千家诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "和李二十八司勲连昌宫",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=376",
+      "dynasty": "唐"
+    },
+    {
+      "title": "晚次宣溪酬张使君",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=377",
+      "dynasty": "唐"
+    },
+    {
+      "title": "桃林夜贺晋公",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=379",
+      "dynasty": "唐"
+    },
+    {
+      "title": "次潼闗先寄张十二阁老",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=378",
+      "dynasty": "唐"
+    },
+    {
+      "title": "湘中酬张十一功曹",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=375",
+      "dynasty": "唐"
+    },
+    {
+      "title": "晚春",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=127",
+      "dynasty": "唐"
+    },
+    {
+      "title": "八月十五夜赠张功曹",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0401",
+      "dynasty": "唐"
+    },
+    {
+      "title": "和李二十八司勲连昌宫",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6831",
+      "dynasty": "唐"
+    },
+    {
+      "title": "山石",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0402",
+      "dynasty": "唐"
+    },
+    {
+      "title": "晚春",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0948",
+      "dynasty": "唐"
+    },
+    {
+      "title": "晚次宣溪酬张使君",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6832",
+      "dynasty": "唐"
+    },
+    {
+      "title": "桃林夜贺晋公",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6834",
+      "dynasty": "唐"
+    },
+    {
+      "title": "次潼闗先寄张十二阁老",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6833",
+      "dynasty": "唐"
+    },
+    {
+      "title": "湘中酬张十一功曹",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6830",
+      "dynasty": "唐"
+    },
+    {
+      "title": "石鼓歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0403",
+      "dynasty": "唐"
+    },
+    {
+      "title": "谒衡岳庙遂宿岳寺题门楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0404",
+      "dynasty": "唐"
+    },
+    {
+      "title": "初春小雨",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=88",
+      "dynasty": "宋"
+    },
+    {
+      "title": "初春小雨",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0912",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

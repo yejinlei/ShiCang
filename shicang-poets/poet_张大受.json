@@ -1,0 +1,152 @@
+{
+  "name": "张大受",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 22,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "呈竹先生四十韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5166",
+      "dynasty": "清"
+    },
+    {
+      "title": "山居",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5168",
+      "dynasty": "清"
+    },
+    {
+      "title": "慕庐先生还朝",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5161",
+      "dynasty": "清"
+    },
+    {
+      "title": "清流道中梅花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5169",
+      "dynasty": "清"
+    },
+    {
+      "title": "睢州谒汤公祠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5163",
+      "dynasty": "清"
+    },
+    {
+      "title": "答袁虎文",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5165",
+      "dynasty": "清"
+    },
+    {
+      "title": "送沈子大赴江西",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5164",
+      "dynasty": "清"
+    },
+    {
+      "title": "送顾禄百外孙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5160",
+      "dynasty": "清"
+    },
+    {
+      "title": "题大临故宫词后",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5162",
+      "dynasty": "清"
+    },
+    {
+      "title": "题徐大临湖乡小景",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5167",
+      "dynasty": "清"
+    },
+    {
+      "title": "鲁肃庙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5159",
+      "dynasty": "清"
+    },
+    {
+      "title": "呈竹先生四十韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2207",
+      "dynasty": "清"
+    },
+    {
+      "title": "山居",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2209",
+      "dynasty": "清"
+    },
+    {
+      "title": "慕庐先生还朝",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2202",
+      "dynasty": "清"
+    },
+    {
+      "title": "清流道中梅花",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2210",
+      "dynasty": "清"
+    },
+    {
+      "title": "睢州谒汤公祠",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2204",
+      "dynasty": "清"
+    },
+    {
+      "title": "答袁虎文",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2206",
+      "dynasty": "清"
+    },
+    {
+      "title": "送沈子大赴江西",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2205",
+      "dynasty": "清"
+    },
+    {
+      "title": "送顾禄百外孙",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2201",
+      "dynasty": "清"
+    },
+    {
+      "title": "题大临故宫词后",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2203",
+      "dynasty": "清"
+    },
+    {
+      "title": "题徐大临湖乡小景",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2208",
+      "dynasty": "清"
+    },
+    {
+      "title": "鲁肃庙",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2200",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

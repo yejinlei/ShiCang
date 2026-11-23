@@ -1,0 +1,177 @@
+{
+  "name": "赵嘏",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 26,
+  "anthologies": [
+    "万寿唐诗",
+    "千家诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "乌栖曲",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=645",
+      "dynasty": "唐"
+    },
+    {
+      "title": "听琴",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=655",
+      "dynasty": "唐"
+    },
+    {
+      "title": "宛陵望月寄沈学士",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=646",
+      "dynasty": "唐"
+    },
+    {
+      "title": "寄卢中丞",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=649",
+      "dynasty": "唐"
+    },
+    {
+      "title": "寄逺",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=654",
+      "dynasty": "唐"
+    },
+    {
+      "title": "寒塘",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=184",
+      "dynasty": "唐"
+    },
+    {
+      "title": "寻僧",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=650",
+      "dynasty": "唐"
+    },
+    {
+      "title": "江楼感旧",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=652",
+      "dynasty": "唐"
+    },
+    {
+      "title": "经汾阳旧宅",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=648",
+      "dynasty": "唐"
+    },
+    {
+      "title": "翡翠岩",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=647",
+      "dynasty": "唐"
+    },
+    {
+      "title": "西江晚泊",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=651",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送从翁中丞奉使黠戛斯",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=653",
+      "dynasty": "唐"
+    },
+    {
+      "title": "江楼有感",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=149",
+      "dynasty": "唐"
+    },
+    {
+      "title": "乌栖曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7086",
+      "dynasty": "唐"
+    },
+    {
+      "title": "听琴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7096",
+      "dynasty": "唐"
+    },
+    {
+      "title": "宛陵望月寄沈学士",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7087",
+      "dynasty": "唐"
+    },
+    {
+      "title": "寄卢中丞",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7090",
+      "dynasty": "唐"
+    },
+    {
+      "title": "寄逺",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7095",
+      "dynasty": "唐"
+    },
+    {
+      "title": "寒塘",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6657",
+      "dynasty": "唐"
+    },
+    {
+      "title": "寻僧",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7091",
+      "dynasty": "唐"
+    },
+    {
+      "title": "江楼感旧",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7093",
+      "dynasty": "唐"
+    },
+    {
+      "title": "江楼有感",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0968",
+      "dynasty": "唐"
+    },
+    {
+      "title": "经汾阳旧宅",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7089",
+      "dynasty": "唐"
+    },
+    {
+      "title": "翡翠岩",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7088",
+      "dynasty": "唐"
+    },
+    {
+      "title": "西江晚泊",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7092",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送从翁中丞奉使黠戛斯",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7094",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,45 @@
+{
+  "name": "周必大",
+  "zi": "",
+  "hao": "",
+  "dynasty": "宋",
+  "d_order": 8,
+  "birthplace": "",
+  "style": "#7F8C8D",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "千家诗",
+    "名篇精读",
+    "绝妙好词"
+  ],
+  "works": [
+    {
+      "title": "入直召对选德殿赐茶而退",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=152",
+      "dynasty": "宋"
+    },
+    {
+      "title": "入直召对选德殿赐茶而退",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0971",
+      "dynasty": "宋"
+    },
+    {
+      "title": "点绛唇",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7589",
+      "dynasty": "宋"
+    },
+    {
+      "title": "梅·点绛唇",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=406",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

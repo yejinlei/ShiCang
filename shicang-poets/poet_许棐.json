@@ -1,0 +1,68 @@
+{
+  "name": "许棐",
+  "zi": "",
+  "hao": "",
+  "dynasty": "宋",
+  "d_order": 8,
+  "birthplace": "",
+  "style": "#7F8C8D",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "绝妙好词"
+  ],
+  "works": [
+    {
+      "title": "后庭花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7332",
+      "dynasty": "宋"
+    },
+    {
+      "title": "琴调相思引",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7331",
+      "dynasty": "宋"
+    },
+    {
+      "title": "瑞鹤仙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7333",
+      "dynasty": "宋"
+    },
+    {
+      "title": "鹧鸪天",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7330",
+      "dynasty": "宋"
+    },
+    {
+      "title": "后庭花",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=143",
+      "dynasty": "宋"
+    },
+    {
+      "title": "琴调相思引",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=142",
+      "dynasty": "宋"
+    },
+    {
+      "title": "瑞鹤仙",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=144",
+      "dynasty": "宋"
+    },
+    {
+      "title": "鹧鸪天",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=141",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

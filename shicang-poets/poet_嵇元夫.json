@@ -1,0 +1,80 @@
+{
+  "name": "嵇元夫",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "刈稻夜归",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2658",
+      "dynasty": "明"
+    },
+    {
+      "title": "晚坐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2660",
+      "dynasty": "明"
+    },
+    {
+      "title": "立秋日卢沟送新郑少师相公",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2659",
+      "dynasty": "明"
+    },
+    {
+      "title": "过姑苏有感",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2661",
+      "dynasty": "明"
+    },
+    {
+      "title": "风雨泛太湖，宿松陵长桥漫兴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2662",
+      "dynasty": "明"
+    },
+    {
+      "title": "刈稻夜归",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=654",
+      "dynasty": "明"
+    },
+    {
+      "title": "晚坐",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=656",
+      "dynasty": "明"
+    },
+    {
+      "title": "立秋日卢沟送新郑少师相公",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=655",
+      "dynasty": "明"
+    },
+    {
+      "title": "过姑苏有感",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=657",
+      "dynasty": "明"
+    },
+    {
+      "title": "风雨泛太湖，宿松陵长桥漫兴",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=658",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

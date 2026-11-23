@@ -1,0 +1,49 @@
+{
+  "name": "曹雪芹",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明末清初",
+  "d_order": 14,
+  "birthplace": "",
+  "style": "#8E44AD",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 5,
+  "anthologies": [
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "红楼梦·好了歌注",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0767",
+      "dynasty": "明末清初"
+    },
+    {
+      "title": "红楼梦·葬花吟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0768",
+      "dynasty": "明末清初"
+    },
+    {
+      "title": "红楼梦·螃蟹咏",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0769",
+      "dynasty": "明末清初"
+    },
+    {
+      "title": "红楼梦·题帕三绝",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0770",
+      "dynasty": "明末清初"
+    },
+    {
+      "title": "葬花吟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0835",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

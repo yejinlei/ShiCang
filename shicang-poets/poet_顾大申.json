@@ -1,0 +1,116 @@
+{
+  "name": "顾大申",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 16,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "出平定州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3258",
+      "dynasty": "清"
+    },
+    {
+      "title": "始发良乡",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3259",
+      "dynasty": "清"
+    },
+    {
+      "title": "故关",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3257",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋雨移酌栎园舟中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3260",
+      "dynasty": "清"
+    },
+    {
+      "title": "西洲曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3253",
+      "dynasty": "清"
+    },
+    {
+      "title": "送沈绎堂编修迁大梁道",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3256",
+      "dynasty": "清"
+    },
+    {
+      "title": "雪后登歌风台示沛令",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3255",
+      "dynasty": "清"
+    },
+    {
+      "title": "饮太白酒楼醉后走笔成篇",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3254",
+      "dynasty": "清"
+    },
+    {
+      "title": "出平定州",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=299",
+      "dynasty": "清"
+    },
+    {
+      "title": "始发良乡",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=300",
+      "dynasty": "清"
+    },
+    {
+      "title": "故关",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=298",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋雨移酌栎园舟中",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=301",
+      "dynasty": "清"
+    },
+    {
+      "title": "西洲曲",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=294",
+      "dynasty": "清"
+    },
+    {
+      "title": "送沈绎堂编修迁大梁道",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=297",
+      "dynasty": "清"
+    },
+    {
+      "title": "雪后登歌风台示沛令",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=296",
+      "dynasty": "清"
+    },
+    {
+      "title": "饮太白酒楼醉后走笔成篇",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=295",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

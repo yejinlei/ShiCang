@@ -1,0 +1,51 @@
+{
+  "name": "骆宾王",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 5,
+  "anthologies": [
+    "万寿唐诗",
+    "千家诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "易水",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=4",
+      "dynasty": "唐"
+    },
+    {
+      "title": "易水送别",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=36",
+      "dynasty": "唐"
+    },
+    {
+      "title": "在狱咏蝉",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0411",
+      "dynasty": "唐"
+    },
+    {
+      "title": "易水",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6493",
+      "dynasty": "唐"
+    },
+    {
+      "title": "易水送别",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0869",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

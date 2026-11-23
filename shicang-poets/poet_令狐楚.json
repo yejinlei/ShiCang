@@ -1,0 +1,75 @@
+{
+  "name": "令狐楚",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 9,
+  "anthologies": [
+    "万寿唐诗",
+    "千家诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "少年行",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=449",
+      "dynasty": "唐"
+    },
+    {
+      "title": "従军行 二首",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=147",
+      "dynasty": "唐"
+    },
+    {
+      "title": "思君恩",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=146",
+      "dynasty": "唐"
+    },
+    {
+      "title": "逺别离",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=145",
+      "dynasty": "唐"
+    },
+    {
+      "title": "思君恩",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=9",
+      "dynasty": "唐"
+    },
+    {
+      "title": "少年行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6902",
+      "dynasty": "唐"
+    },
+    {
+      "title": "従军行 二首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6622",
+      "dynasty": "唐"
+    },
+    {
+      "title": "思君恩",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0846",
+      "dynasty": "唐"
+    },
+    {
+      "title": "逺别离",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6620",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

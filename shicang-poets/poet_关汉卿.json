@@ -1,0 +1,43 @@
+{
+  "name": "关汉卿",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "一枝花·不伏老",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0712",
+      "dynasty": "元"
+    },
+    {
+      "title": "四块玉·别情",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0713",
+      "dynasty": "元"
+    },
+    {
+      "title": "沉醉东风",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0714",
+      "dynasty": "元"
+    },
+    {
+      "title": "窦娥冤·滚绣球",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0715",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

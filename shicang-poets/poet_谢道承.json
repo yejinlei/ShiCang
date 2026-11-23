@@ -1,0 +1,68 @@
+{
+  "name": "谢道承",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "一枝山房见新月",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5430",
+      "dynasty": "清"
+    },
+    {
+      "title": "冬笋",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5428",
+      "dynasty": "清"
+    },
+    {
+      "title": "承晨昏省侍太夫人，必诘问史事，或对稍延，诃责随之，今不复闻矣。",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5429",
+      "dynasty": "清"
+    },
+    {
+      "title": "送友南归口占",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5431",
+      "dynasty": "清"
+    },
+    {
+      "title": "一枝山房见新月",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2471",
+      "dynasty": "清"
+    },
+    {
+      "title": "冬笋",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2469",
+      "dynasty": "清"
+    },
+    {
+      "title": "承晨昏省侍太夫人，必诘问史事，或对稍延，诃责随之，今不复闻矣。",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2470",
+      "dynasty": "清"
+    },
+    {
+      "title": "送友南归口占",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2472",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

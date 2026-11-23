@@ -1,0 +1,56 @@
+{
+  "name": "邵锦潮",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "喜晚香辞幕府归出示新诗留饮",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5720",
+      "dynasty": "清"
+    },
+    {
+      "title": "蒹葭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5719",
+      "dynasty": "清"
+    },
+    {
+      "title": "闺人赠远",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5721",
+      "dynasty": "清"
+    },
+    {
+      "title": "喜晚香辞幕府归出示新诗留饮",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2761",
+      "dynasty": "清"
+    },
+    {
+      "title": "蒹葭",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2760",
+      "dynasty": "清"
+    },
+    {
+      "title": "闺人赠远",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2762",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

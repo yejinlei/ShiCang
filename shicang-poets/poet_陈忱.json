@@ -1,0 +1,104 @@
+{
+  "name": "陈忱",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 14,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "客中九日",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2865",
+      "dynasty": "明"
+    },
+    {
+      "title": "挽从伯瞻鹿公",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2863",
+      "dynasty": "明"
+    },
+    {
+      "title": "村居",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2864",
+      "dynasty": "明"
+    },
+    {
+      "title": "江南乐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2866",
+      "dynasty": "明"
+    },
+    {
+      "title": "赠别袁重其",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2867",
+      "dynasty": "明"
+    },
+    {
+      "title": "赠魏叔子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2862",
+      "dynasty": "明"
+    },
+    {
+      "title": "阅罗隐诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2861",
+      "dynasty": "明"
+    },
+    {
+      "title": "客中九日",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=861",
+      "dynasty": "明"
+    },
+    {
+      "title": "挽从伯瞻鹿公",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=859",
+      "dynasty": "明"
+    },
+    {
+      "title": "村居",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=860",
+      "dynasty": "明"
+    },
+    {
+      "title": "江南乐",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=862",
+      "dynasty": "明"
+    },
+    {
+      "title": "赠别袁重其",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=863",
+      "dynasty": "明"
+    },
+    {
+      "title": "赠魏叔子",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=858",
+      "dynasty": "明"
+    },
+    {
+      "title": "阅罗隐诗",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=857",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

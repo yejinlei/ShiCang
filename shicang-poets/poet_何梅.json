@@ -1,0 +1,44 @@
+{
+  "name": "何梅",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "三山归舟 杂咏之一",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4764",
+      "dynasty": "清"
+    },
+    {
+      "title": "望接笋峰不得上",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4763",
+      "dynasty": "清"
+    },
+    {
+      "title": "三山归舟 杂咏之一",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1805",
+      "dynasty": "清"
+    },
+    {
+      "title": "望接笋峰不得上",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1804",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

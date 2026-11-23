@@ -1,0 +1,87 @@
+{
+  "name": "戴叔伦",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 11,
+  "anthologies": [
+    "万寿唐诗",
+    "千家诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "夜发袁江寄李颍川刘侍御",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=356",
+      "dynasty": "唐"
+    },
+    {
+      "title": "湘南即事",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=357",
+      "dynasty": "唐"
+    },
+    {
+      "title": "闗山月",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=126",
+      "dynasty": "唐"
+    },
+    {
+      "title": "题三闾大夫庙",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=125",
+      "dynasty": "唐"
+    },
+    {
+      "title": "过三闾庙",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=35",
+      "dynasty": "唐"
+    },
+    {
+      "title": "夜发袁江寄李颍川刘侍御",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6811",
+      "dynasty": "唐"
+    },
+    {
+      "title": "江乡故人偶集客舍",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0171",
+      "dynasty": "唐"
+    },
+    {
+      "title": "湘南即事",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6812",
+      "dynasty": "唐"
+    },
+    {
+      "title": "过三闾庙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0868",
+      "dynasty": "唐"
+    },
+    {
+      "title": "闗山月",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6602",
+      "dynasty": "唐"
+    },
+    {
+      "title": "题三闾大夫庙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6601",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

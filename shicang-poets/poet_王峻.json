@@ -1,0 +1,56 @@
+{
+  "name": "王峻",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "禹州道中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5742",
+      "dynasty": "清"
+    },
+    {
+      "title": "谒岳忠武庙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5744",
+      "dynasty": "清"
+    },
+    {
+      "title": "题戴巨川庶子画马（自题曰《称德图》）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5743",
+      "dynasty": "清"
+    },
+    {
+      "title": "禹州道中",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2783",
+      "dynasty": "清"
+    },
+    {
+      "title": "谒岳忠武庙",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2785",
+      "dynasty": "清"
+    },
+    {
+      "title": "题戴巨川庶子画马（自题曰《称德图》）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2784",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

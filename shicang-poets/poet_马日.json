@@ -1,0 +1,56 @@
+{
+  "name": "马日",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "冬夜宿南庄",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6176",
+      "dynasty": "清"
+    },
+    {
+      "title": "春江渔父词同半查作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6177",
+      "dynasty": "清"
+    },
+    {
+      "title": "过涧上草堂徐昭法先生故居",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6178",
+      "dynasty": "清"
+    },
+    {
+      "title": "冬夜宿南庄",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3217",
+      "dynasty": "清"
+    },
+    {
+      "title": "春江渔父词同半查作",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3218",
+      "dynasty": "清"
+    },
+    {
+      "title": "过涧上草堂徐昭法先生故居",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3219",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

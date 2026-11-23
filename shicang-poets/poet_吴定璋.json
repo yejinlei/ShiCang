@@ -1,0 +1,68 @@
+{
+  "name": "吴定璋",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "漂母祠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6153",
+      "dynasty": "清"
+    },
+    {
+      "title": "补衮图",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6156",
+      "dynasty": "清"
+    },
+    {
+      "title": "见雁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6154",
+      "dynasty": "清"
+    },
+    {
+      "title": "读文信国题颜鲁公祠诗碑",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6155",
+      "dynasty": "清"
+    },
+    {
+      "title": "漂母祠",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3194",
+      "dynasty": "清"
+    },
+    {
+      "title": "补衮图",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3197",
+      "dynasty": "清"
+    },
+    {
+      "title": "见雁",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3195",
+      "dynasty": "清"
+    },
+    {
+      "title": "读文信国题颜鲁公祠诗碑",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3196",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

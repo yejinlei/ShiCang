@@ -1,0 +1,56 @@
+{
+  "name": "王同祖",
+  "zi": "",
+  "hao": "",
+  "dynasty": "宋",
+  "d_order": 8,
+  "birthplace": "",
+  "style": "#7F8C8D",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "绝妙好词"
+  ],
+  "works": [
+    {
+      "title": "点绛唇",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7495",
+      "dynasty": "宋"
+    },
+    {
+      "title": "阮郎归",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7493",
+      "dynasty": "宋"
+    },
+    {
+      "title": "高阳台",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7494",
+      "dynasty": "宋"
+    },
+    {
+      "title": "春梦·高阳台",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=308",
+      "dynasty": "宋"
+    },
+    {
+      "title": "莲房·点绛唇",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=309",
+      "dynasty": "宋"
+    },
+    {
+      "title": "阮郎归",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=307",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

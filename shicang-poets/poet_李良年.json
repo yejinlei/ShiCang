@@ -1,0 +1,105 @@
+{
+  "name": "李良年",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 14,
+  "anthologies": [
+    "名篇精读",
+    "清诗",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "九岭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4361",
+      "dynasty": "清"
+    },
+    {
+      "title": "宣府人日",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4362",
+      "dynasty": "清"
+    },
+    {
+      "title": "忆方虎客宛温",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4365",
+      "dynasty": "清"
+    },
+    {
+      "title": "栗子关十六韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4363",
+      "dynasty": "清"
+    },
+    {
+      "title": "闻鹧鸪",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4364",
+      "dynasty": "清"
+    },
+    {
+      "title": "九岭",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1402",
+      "dynasty": "清"
+    },
+    {
+      "title": "宣府人日",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1403",
+      "dynasty": "清"
+    },
+    {
+      "title": "忆方虎客宛温",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1406",
+      "dynasty": "清"
+    },
+    {
+      "title": "栗子关十六韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1404",
+      "dynasty": "清"
+    },
+    {
+      "title": "闻鹧鸪",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1405",
+      "dynasty": "清"
+    },
+    {
+      "title": "暗香",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1162",
+      "dynasty": "清末"
+    },
+    {
+      "title": "柳梢青",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1161",
+      "dynasty": "清末"
+    },
+    {
+      "title": "怀友人，在白下。·柳梢青",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=115",
+      "dynasty": "清末"
+    },
+    {
+      "title": "绿萼梅·暗香",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=116",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,75 @@
+{
+  "name": "杜审言",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 9,
+  "anthologies": [
+    "万寿唐诗",
+    "千家诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "赠苏书记",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=206",
+      "dynasty": "唐"
+    },
+    {
+      "title": "和晋陵陆承相",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=40",
+      "dynasty": "唐"
+    },
+    {
+      "title": "蓬莱三殿侍宴奉敕咏终南山",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=41",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送崔融",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=56",
+      "dynasty": "唐"
+    },
+    {
+      "title": "和晋陵陆丞早春游望",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0249",
+      "dynasty": "唐"
+    },
+    {
+      "title": "和晋陵陆承相",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0873",
+      "dynasty": "唐"
+    },
+    {
+      "title": "蓬莱三殿侍宴奉敕咏终南山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0874",
+      "dynasty": "唐"
+    },
+    {
+      "title": "赠苏书记",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6677",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送崔融",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0884",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

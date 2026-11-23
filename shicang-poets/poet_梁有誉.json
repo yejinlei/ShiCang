@@ -1,0 +1,44 @@
+{
+  "name": "梁有誉",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "姑苏怀古",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2626",
+      "dynasty": "明"
+    },
+    {
+      "title": "燕京感怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2627",
+      "dynasty": "明"
+    },
+    {
+      "title": "姑苏怀古",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=622",
+      "dynasty": "明"
+    },
+    {
+      "title": "燕京感怀",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=623",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

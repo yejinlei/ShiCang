@@ -1,0 +1,92 @@
+{
+  "name": "周京",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 12,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "二十六日晓过德州河",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6052",
+      "dynasty": "清"
+    },
+    {
+      "title": "代州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6049",
+      "dynasty": "清"
+    },
+    {
+      "title": "杨花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6051",
+      "dynasty": "清"
+    },
+    {
+      "title": "武功县望太白山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6047",
+      "dynasty": "清"
+    },
+    {
+      "title": "燕来",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6050",
+      "dynasty": "清"
+    },
+    {
+      "title": "褒斜谷",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6048",
+      "dynasty": "清"
+    },
+    {
+      "title": "二十六日晓过德州河",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3093",
+      "dynasty": "清"
+    },
+    {
+      "title": "代州",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3090",
+      "dynasty": "清"
+    },
+    {
+      "title": "杨花",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3092",
+      "dynasty": "清"
+    },
+    {
+      "title": "武功县望太白山",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3088",
+      "dynasty": "清"
+    },
+    {
+      "title": "燕来",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3091",
+      "dynasty": "清"
+    },
+    {
+      "title": "褒斜谷",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3089",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

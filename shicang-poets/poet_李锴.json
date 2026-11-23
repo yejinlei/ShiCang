@@ -1,0 +1,80 @@
+{
+  "name": "李锴",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "当来日大难",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6129",
+      "dynasty": "清"
+    },
+    {
+      "title": "新秋雨中塞晓亭侍郎招饮署斋即席分赋",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6132",
+      "dynasty": "清"
+    },
+    {
+      "title": "江南",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6128",
+      "dynasty": "清"
+    },
+    {
+      "title": "闻归雁感赋",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6131",
+      "dynasty": "清"
+    },
+    {
+      "title": "项王祠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6130",
+      "dynasty": "清"
+    },
+    {
+      "title": "当来日大难",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3170",
+      "dynasty": "清"
+    },
+    {
+      "title": "新秋雨中塞晓亭侍郎招饮署斋即席分赋",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3173",
+      "dynasty": "清"
+    },
+    {
+      "title": "江南",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3169",
+      "dynasty": "清"
+    },
+    {
+      "title": "闻归雁感赋",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3172",
+      "dynasty": "清"
+    },
+    {
+      "title": "项王祠",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3171",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

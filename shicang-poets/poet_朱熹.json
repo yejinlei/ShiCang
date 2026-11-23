@@ -1,0 +1,68 @@
+{
+  "name": "朱熹",
+  "zi": "",
+  "hao": "",
+  "dynasty": "宋",
+  "d_order": 8,
+  "birthplace": "",
+  "style": "#7F8C8D",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "千家诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "春日",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=84",
+      "dynasty": "宋"
+    },
+    {
+      "title": "泛舟",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=157",
+      "dynasty": "宋"
+    },
+    {
+      "title": "观书有感（其一）",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=156",
+      "dynasty": "宋"
+    },
+    {
+      "title": "题榴花",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=141",
+      "dynasty": "宋"
+    },
+    {
+      "title": "春日",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0908",
+      "dynasty": "宋"
+    },
+    {
+      "title": "泛舟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0976",
+      "dynasty": "宋"
+    },
+    {
+      "title": "观书有感（其一）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0975",
+      "dynasty": "宋"
+    },
+    {
+      "title": "题榴花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0962",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

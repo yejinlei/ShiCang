@@ -1,0 +1,87 @@
+{
+  "name": "张说",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 11,
+  "anthologies": [
+    "万寿唐诗",
+    "千家诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "广州作",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=10",
+      "dynasty": "唐"
+    },
+    {
+      "title": "蜀道后期",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=9",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送梁六",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=207",
+      "dynasty": "唐"
+    },
+    {
+      "title": "幽州夜歌",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=82",
+      "dynasty": "唐"
+    },
+    {
+      "title": "恩赐丽正殿书院赐宴应制得林字",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=44",
+      "dynasty": "唐"
+    },
+    {
+      "title": "蜀道后期",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=27",
+      "dynasty": "唐"
+    },
+    {
+      "title": "幽州夜歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0906",
+      "dynasty": "唐"
+    },
+    {
+      "title": "广州作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6499",
+      "dynasty": "唐"
+    },
+    {
+      "title": "恩赐丽正殿书院赐宴应制得林字",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0877",
+      "dynasty": "唐"
+    },
+    {
+      "title": "蜀道后期",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0861",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送梁六",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6678",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

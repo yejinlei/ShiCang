@@ -1,0 +1,404 @@
+{
+  "name": "施闰章",
+  "zi": "尚白",
+  "hao": "愚山",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "宣城",
+  "style": "#2F6B52",
+  "school": "南施北宋",
+  "years": "1618—1683",
+  "bio": "与宋琬并称「南施北宋」，诗风温厚清婉。",
+  "work_count": 64,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "Ю﹀峰",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3182",
+      "dynasty": "清"
+    },
+    {
+      "title": "临江悯旱",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3177",
+      "dynasty": "清"
+    },
+    {
+      "title": "乱后和刘文伯郊行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3184",
+      "dynasty": "清"
+    },
+    {
+      "title": "升天行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3173",
+      "dynasty": "清"
+    },
+    {
+      "title": "叔父同弟阮迟予芜关次日予北发",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3190",
+      "dynasty": "清"
+    },
+    {
+      "title": "季天中给事以直谏谪塞外追送不及",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3198",
+      "dynasty": "清"
+    },
+    {
+      "title": "射乌楼行（自注：为周栎园先生纪事。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3183",
+      "dynasty": "清"
+    },
+    {
+      "title": "怀侯韩振蓝山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3187",
+      "dynasty": "清"
+    },
+    {
+      "title": "悲野雀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3178",
+      "dynasty": "清"
+    },
+    {
+      "title": "慈仁寺松",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3185",
+      "dynasty": "清"
+    },
+    {
+      "title": "新都戍（自注：新安乱后，留戍以蒙古诸军也。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3179",
+      "dynasty": "清"
+    },
+    {
+      "title": "早春三天洞至仙人岩",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3176",
+      "dynasty": "清"
+    },
+    {
+      "title": "曲江得方学士苏翁先生书（自注：时自塞外归，暂客广陵。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3189",
+      "dynasty": "清"
+    },
+    {
+      "title": "望衡岳",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3197",
+      "dynasty": "清"
+    },
+    {
+      "title": "江行杂咏",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3196",
+      "dynasty": "清"
+    },
+    {
+      "title": "浮萍兔丝篇",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3174",
+      "dynasty": "清"
+    },
+    {
+      "title": "淳湖寻邢景之",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3195",
+      "dynasty": "清"
+    },
+    {
+      "title": "溪涨",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3186",
+      "dynasty": "清"
+    },
+    {
+      "title": "牵船夫行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3181",
+      "dynasty": "清"
+    },
+    {
+      "title": "登岱",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3199",
+      "dynasty": "清"
+    },
+    {
+      "title": "祀蚕娘",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3180",
+      "dynasty": "清"
+    },
+    {
+      "title": "至南旺",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3202",
+      "dynasty": "清"
+    },
+    {
+      "title": "舟中立秋",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3188",
+      "dynasty": "清"
+    },
+    {
+      "title": "苍梧云盖寺访无可上人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3201",
+      "dynasty": "清"
+    },
+    {
+      "title": "见宋荔裳遗诗凄然有作（自注：君按察四川，会滇、蜀反，道梗，忧愤死。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3200",
+      "dynasty": "清"
+    },
+    {
+      "title": "警志诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3172",
+      "dynasty": "清"
+    },
+    {
+      "title": "过岭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3175",
+      "dynasty": "清"
+    },
+    {
+      "title": "过湖北山家",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3193",
+      "dynasty": "清"
+    },
+    {
+      "title": "送李万安罢官归里",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3203",
+      "dynasty": "清"
+    },
+    {
+      "title": "钱塘观潮",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3191",
+      "dynasty": "清"
+    },
+    {
+      "title": "雨后",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3194",
+      "dynasty": "清"
+    },
+    {
+      "title": "顾宁人关中书至",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3192",
+      "dynasty": "清"
+    },
+    {
+      "title": "Ю﹀峰",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=223",
+      "dynasty": "清"
+    },
+    {
+      "title": "临江悯旱",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=218",
+      "dynasty": "清"
+    },
+    {
+      "title": "乱后和刘文伯郊行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=225",
+      "dynasty": "清"
+    },
+    {
+      "title": "升天行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=214",
+      "dynasty": "清"
+    },
+    {
+      "title": "叔父同弟阮迟予芜关次日予北发",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=231",
+      "dynasty": "清"
+    },
+    {
+      "title": "季天中给事以直谏谪塞外追送不及",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=239",
+      "dynasty": "清"
+    },
+    {
+      "title": "射乌楼行（自注：为周栎园先生纪事。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=224",
+      "dynasty": "清"
+    },
+    {
+      "title": "怀侯韩振蓝山",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=228",
+      "dynasty": "清"
+    },
+    {
+      "title": "悲野雀",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=219",
+      "dynasty": "清"
+    },
+    {
+      "title": "慈仁寺松",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=226",
+      "dynasty": "清"
+    },
+    {
+      "title": "新都戍（自注：新安乱后，留戍以蒙古诸军也。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=220",
+      "dynasty": "清"
+    },
+    {
+      "title": "早春三天洞至仙人岩",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=217",
+      "dynasty": "清"
+    },
+    {
+      "title": "曲江得方学士苏翁先生书（自注：时自塞外归，暂客广陵。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=230",
+      "dynasty": "清"
+    },
+    {
+      "title": "望衡岳",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=238",
+      "dynasty": "清"
+    },
+    {
+      "title": "江行杂咏",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=237",
+      "dynasty": "清"
+    },
+    {
+      "title": "浮萍兔丝篇",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=215",
+      "dynasty": "清"
+    },
+    {
+      "title": "淳湖寻邢景之",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=236",
+      "dynasty": "清"
+    },
+    {
+      "title": "溪涨",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=227",
+      "dynasty": "清"
+    },
+    {
+      "title": "牵船夫行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=222",
+      "dynasty": "清"
+    },
+    {
+      "title": "登岱",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=240",
+      "dynasty": "清"
+    },
+    {
+      "title": "祀蚕娘",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=221",
+      "dynasty": "清"
+    },
+    {
+      "title": "至南旺",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=243",
+      "dynasty": "清"
+    },
+    {
+      "title": "舟中立秋",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=229",
+      "dynasty": "清"
+    },
+    {
+      "title": "苍梧云盖寺访无可上人",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=242",
+      "dynasty": "清"
+    },
+    {
+      "title": "见宋荔裳遗诗凄然有作（自注：君按察四川，会滇、蜀反，道梗，忧愤死。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=241",
+      "dynasty": "清"
+    },
+    {
+      "title": "警志诗",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=213",
+      "dynasty": "清"
+    },
+    {
+      "title": "过岭",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=216",
+      "dynasty": "清"
+    },
+    {
+      "title": "过湖北山家",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=234",
+      "dynasty": "清"
+    },
+    {
+      "title": "送李万安罢官归里",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=244",
+      "dynasty": "清"
+    },
+    {
+      "title": "钱塘观潮",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=232",
+      "dynasty": "清"
+    },
+    {
+      "title": "雨后",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=235",
+      "dynasty": "清"
+    },
+    {
+      "title": "顾宁人关中书至",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=233",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": true
+}

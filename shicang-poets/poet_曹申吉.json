@@ -1,0 +1,56 @@
+{
+  "name": "曹申吉",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "人日贵阳作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3336",
+      "dynasty": "清"
+    },
+    {
+      "title": "楚南",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3337",
+      "dynasty": "清"
+    },
+    {
+      "title": "武昌杂诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3335",
+      "dynasty": "清"
+    },
+    {
+      "title": "人日贵阳作",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=377",
+      "dynasty": "清"
+    },
+    {
+      "title": "楚南",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=378",
+      "dynasty": "清"
+    },
+    {
+      "title": "武昌杂诗",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=376",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,44 @@
+{
+  "name": "桂念祖",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清末",
+  "d_order": 16,
+  "birthplace": "",
+  "style": "#795548",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "临江仙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1406",
+      "dynasty": "清末"
+    },
+    {
+      "title": "菩萨蛮",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1407",
+      "dynasty": "清末"
+    },
+    {
+      "title": "临江仙",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=362",
+      "dynasty": "清末"
+    },
+    {
+      "title": "读小山词·菩萨蛮",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=363",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,56 @@
+{
+  "name": "程简",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "冬夜读书",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5960",
+      "dynasty": "清"
+    },
+    {
+      "title": "庭梅迟开诗以志慨",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5959",
+      "dynasty": "清"
+    },
+    {
+      "title": "送春",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5958",
+      "dynasty": "清"
+    },
+    {
+      "title": "冬夜读书",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3001",
+      "dynasty": "清"
+    },
+    {
+      "title": "庭梅迟开诗以志慨",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3000",
+      "dynasty": "清"
+    },
+    {
+      "title": "送春",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2999",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

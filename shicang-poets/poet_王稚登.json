@@ -1,0 +1,56 @@
+{
+  "name": "王稚登",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "塘栖道中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2663",
+      "dynasty": "明"
+    },
+    {
+      "title": "袁相国故居访李孝甫太仆",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2665",
+      "dynasty": "明"
+    },
+    {
+      "title": "闻警",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2664",
+      "dynasty": "明"
+    },
+    {
+      "title": "塘栖道中",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=659",
+      "dynasty": "明"
+    },
+    {
+      "title": "袁相国故居访李孝甫太仆",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=661",
+      "dynasty": "明"
+    },
+    {
+      "title": "闻警",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=660",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

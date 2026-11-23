@@ -1,0 +1,44 @@
+{
+  "name": "朱克生",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "迟陈冰壑",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3816",
+      "dynasty": "清"
+    },
+    {
+      "title": "送陈子寿往河南",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3817",
+      "dynasty": "清"
+    },
+    {
+      "title": "迟陈冰壑",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=857",
+      "dynasty": "清"
+    },
+    {
+      "title": "送陈子寿往河南",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=858",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

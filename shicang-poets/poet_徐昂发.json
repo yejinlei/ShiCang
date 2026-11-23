@@ -1,0 +1,188 @@
+{
+  "name": "徐昂发",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 28,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "下田雨叹",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4851",
+      "dynasty": "清"
+    },
+    {
+      "title": "凤尾冈望海",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4857",
+      "dynasty": "清"
+    },
+    {
+      "title": "城南二首次宋五嘉升韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4863",
+      "dynasty": "清"
+    },
+    {
+      "title": "夏寒",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4852",
+      "dynasty": "清"
+    },
+    {
+      "title": "扬州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4861",
+      "dynasty": "清"
+    },
+    {
+      "title": "淮阴侯钓台",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4862",
+      "dynasty": "清"
+    },
+    {
+      "title": "漱玉亭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4856",
+      "dynasty": "清"
+    },
+    {
+      "title": "相见湾词（自注：在赣州南二十里章江中。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4860",
+      "dynasty": "清"
+    },
+    {
+      "title": "经广武城",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4858",
+      "dynasty": "清"
+    },
+    {
+      "title": "观打鱼戏为鸬鹚歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4859",
+      "dynasty": "清"
+    },
+    {
+      "title": "过彭蠡湖",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4855",
+      "dynasty": "清"
+    },
+    {
+      "title": "铁岭关",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4854",
+      "dynasty": "清"
+    },
+    {
+      "title": "雁门关",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4853",
+      "dynasty": "清"
+    },
+    {
+      "title": "集秀野草堂醉后作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4864",
+      "dynasty": "清"
+    },
+    {
+      "title": "下田雨叹",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1892",
+      "dynasty": "清"
+    },
+    {
+      "title": "凤尾冈望海",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1898",
+      "dynasty": "清"
+    },
+    {
+      "title": "城南二首次宋五嘉升韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1904",
+      "dynasty": "清"
+    },
+    {
+      "title": "夏寒",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1893",
+      "dynasty": "清"
+    },
+    {
+      "title": "扬州",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1902",
+      "dynasty": "清"
+    },
+    {
+      "title": "淮阴侯钓台",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1903",
+      "dynasty": "清"
+    },
+    {
+      "title": "漱玉亭",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1897",
+      "dynasty": "清"
+    },
+    {
+      "title": "相见湾词（自注：在赣州南二十里章江中。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1901",
+      "dynasty": "清"
+    },
+    {
+      "title": "经广武城",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1899",
+      "dynasty": "清"
+    },
+    {
+      "title": "观打鱼戏为鸬鹚歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1900",
+      "dynasty": "清"
+    },
+    {
+      "title": "过彭蠡湖",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1896",
+      "dynasty": "清"
+    },
+    {
+      "title": "铁岭关",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1895",
+      "dynasty": "清"
+    },
+    {
+      "title": "雁门关",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1894",
+      "dynasty": "清"
+    },
+    {
+      "title": "集秀野草堂醉后作",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1905",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

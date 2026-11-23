@@ -1,0 +1,164 @@
+{
+  "name": "陈孚",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 24,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "博浪沙",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=430",
+      "dynasty": "元"
+    },
+    {
+      "title": "居庸叠翠",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=112",
+      "dynasty": "元"
+    },
+    {
+      "title": "平江",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=527",
+      "dynasty": "元"
+    },
+    {
+      "title": "开平即事二首",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=322",
+      "dynasty": "元"
+    },
+    {
+      "title": "永州",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=321",
+      "dynasty": "元"
+    },
+    {
+      "title": "江天暮雪",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=476",
+      "dynasty": "元"
+    },
+    {
+      "title": "河间府",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=111",
+      "dynasty": "元"
+    },
+    {
+      "title": "烟寺晚钟",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=43",
+      "dynasty": "元"
+    },
+    {
+      "title": "真定怀古",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=320",
+      "dynasty": "元"
+    },
+    {
+      "title": "翰苑荐为应奉文字二十韵谢大司徒并呈诸学士",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=381",
+      "dynasty": "元"
+    },
+    {
+      "title": "邕州",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=113",
+      "dynasty": "元"
+    },
+    {
+      "title": "鄂渚晚眺",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=528",
+      "dynasty": "元"
+    },
+    {
+      "title": "博浪沙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1892",
+      "dynasty": "元"
+    },
+    {
+      "title": "居庸叠翠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1574",
+      "dynasty": "元"
+    },
+    {
+      "title": "平江",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1989",
+      "dynasty": "元"
+    },
+    {
+      "title": "开平即事二首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1784",
+      "dynasty": "元"
+    },
+    {
+      "title": "永州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1783",
+      "dynasty": "元"
+    },
+    {
+      "title": "江天暮雪",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1938",
+      "dynasty": "元"
+    },
+    {
+      "title": "河间府",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1573",
+      "dynasty": "元"
+    },
+    {
+      "title": "烟寺晚钟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1505",
+      "dynasty": "元"
+    },
+    {
+      "title": "真定怀古",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1782",
+      "dynasty": "元"
+    },
+    {
+      "title": "翰苑荐为应奉文字二十韵谢大司徒并呈诸学士",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1843",
+      "dynasty": "元"
+    },
+    {
+      "title": "邕州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1575",
+      "dynasty": "元"
+    },
+    {
+      "title": "鄂渚晚眺",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1990",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,56 @@
+{
+  "name": "叶士宽",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "上党",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5401",
+      "dynasty": "清"
+    },
+    {
+      "title": "司马悔山即和司马承祯山居洗心韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5399",
+      "dynasty": "清"
+    },
+    {
+      "title": "断桥山用少陵白波沙渡韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5400",
+      "dynasty": "清"
+    },
+    {
+      "title": "上党",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2442",
+      "dynasty": "清"
+    },
+    {
+      "title": "司马悔山即和司马承祯山居洗心韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2440",
+      "dynasty": "清"
+    },
+    {
+      "title": "断桥山用少陵白波沙渡韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2441",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

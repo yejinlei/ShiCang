@@ -1,0 +1,171 @@
+{
+  "name": "岑参",
+  "zi": "",
+  "hao": "岑嘉州",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "江陵",
+  "style": "#ae3a2b",
+  "school": "边塞诗",
+  "years": "约715—770",
+  "bio": "盛唐边塞诗派代表，两度出塞，诗风奇崛壮丽。代表作《白雪歌送武判官归京》《逢入京使》。",
+  "work_count": 25,
+  "anthologies": [
+    "万寿唐诗",
+    "千家诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "九日思长安故园",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=71",
+      "dynasty": "唐"
+    },
+    {
+      "title": "封大夫破播仙凯歌 二首",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=273",
+      "dynasty": "唐"
+    },
+    {
+      "title": "玉闗寄长安主簿",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=270",
+      "dynasty": "唐"
+    },
+    {
+      "title": "见渭水思秦川",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=70",
+      "dynasty": "唐"
+    },
+    {
+      "title": "赴北庭度陇思家",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=272",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送人",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=271",
+      "dynasty": "唐"
+    },
+    {
+      "title": "和贾舍人早朝",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=170",
+      "dynasty": "唐"
+    },
+    {
+      "title": "寄左省杜拾遗",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=53",
+      "dynasty": "唐"
+    },
+    {
+      "title": "登总持阁",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=52",
+      "dynasty": "唐"
+    },
+    {
+      "title": "行军九日思长安故园",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=32",
+      "dynasty": "唐"
+    },
+    {
+      "title": "与高适薛据登慈恩寺浮图",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0144",
+      "dynasty": "唐"
+    },
+    {
+      "title": "九日思长安故园",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6554",
+      "dynasty": "唐"
+    },
+    {
+      "title": "和贾至舍人早朝大明宫之作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0145",
+      "dynasty": "唐"
+    },
+    {
+      "title": "和贾舍人早朝",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0988",
+      "dynasty": "唐"
+    },
+    {
+      "title": "寄左省杜拾遗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0146",
+      "dynasty": "唐"
+    },
+    {
+      "title": "封大夫破播仙凯歌 二首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6735",
+      "dynasty": "唐"
+    },
+    {
+      "title": "玉闗寄长安主簿",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6732",
+      "dynasty": "唐"
+    },
+    {
+      "title": "登总持阁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0881",
+      "dynasty": "唐"
+    },
+    {
+      "title": "白雪歌送武判官归京",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0147",
+      "dynasty": "唐"
+    },
+    {
+      "title": "行军九日思长安故园",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0865",
+      "dynasty": "唐"
+    },
+    {
+      "title": "见渭水思秦川",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6553",
+      "dynasty": "唐"
+    },
+    {
+      "title": "走马川行奉送封大夫出师西征",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0148",
+      "dynasty": "唐"
+    },
+    {
+      "title": "赴北庭度陇思家",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6734",
+      "dynasty": "唐"
+    },
+    {
+      "title": "轮台歌奉送封大夫出师西征",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0149",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6733",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": true
+}

@@ -1,0 +1,44 @@
+{
+  "name": "张宸",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "楚中秋思",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3778",
+      "dynasty": "清"
+    },
+    {
+      "title": "送张翼西附马还京（自注：时贵主已薨。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3777",
+      "dynasty": "清"
+    },
+    {
+      "title": "楚中秋思",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=819",
+      "dynasty": "清"
+    },
+    {
+      "title": "送张翼西附马还京（自注：时贵主已薨。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=818",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

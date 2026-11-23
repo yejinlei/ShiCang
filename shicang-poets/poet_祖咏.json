@@ -1,0 +1,69 @@
+{
+  "name": "祖咏",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "万寿唐诗",
+    "千家诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "望终南残雪",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=57",
+      "dynasty": "唐"
+    },
+    {
+      "title": "江南旅情",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=64",
+      "dynasty": "唐"
+    },
+    {
+      "title": "苏氏别业",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=48",
+      "dynasty": "唐"
+    },
+    {
+      "title": "望终南残雪",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6540",
+      "dynasty": "唐"
+    },
+    {
+      "title": "望蓟门",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0366",
+      "dynasty": "唐"
+    },
+    {
+      "title": "江南旅情",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0890",
+      "dynasty": "唐"
+    },
+    {
+      "title": "终南望余雪",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0367",
+      "dynasty": "唐"
+    },
+    {
+      "title": "苏氏别业",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0879",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

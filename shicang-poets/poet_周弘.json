@@ -1,0 +1,56 @@
+{
+  "name": "周弘",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "已未二月二日午门听宣岳州大捷遇雪恭纪",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3839",
+      "dynasty": "清"
+    },
+    {
+      "title": "湖南诸路大捷和宝坻杜相国韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3840",
+      "dynasty": "清"
+    },
+    {
+      "title": "道旁叹",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3838",
+      "dynasty": "清"
+    },
+    {
+      "title": "已未二月二日午门听宣岳州大捷遇雪恭纪",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=880",
+      "dynasty": "清"
+    },
+    {
+      "title": "湖南诸路大捷和宝坻杜相国韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=881",
+      "dynasty": "清"
+    },
+    {
+      "title": "道旁叹",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=879",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

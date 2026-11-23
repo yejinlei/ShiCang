@@ -1,0 +1,363 @@
+{
+  "name": "吴伟业",
+  "zi": "骏公",
+  "hao": "梅村",
+  "dynasty": "明末清初",
+  "d_order": 14,
+  "birthplace": "太仓",
+  "style": "#8E44AD",
+  "school": "江左三大家",
+  "years": "1609—1672",
+  "bio": "「江左三大家」之一，擅七言歌行「梅村体」。代表作《圆圆曲》。",
+  "work_count": 57,
+  "anthologies": [
+    "名篇精读",
+    "清诗",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "圆圆曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0756",
+      "dynasty": "明末清初"
+    },
+    {
+      "title": "与友人谈遗事",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3025",
+      "dynasty": "清"
+    },
+    {
+      "title": "功臣庙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3018",
+      "dynasty": "清"
+    },
+    {
+      "title": "台城",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3017",
+      "dynasty": "清"
+    },
+    {
+      "title": "咏拙政园山茶",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3009",
+      "dynasty": "清"
+    },
+    {
+      "title": "家园次罢官吴兴有感",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3013",
+      "dynasty": "清"
+    },
+    {
+      "title": "恭纪驾幸南海子遇雪大猎",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3020",
+      "dynasty": "清"
+    },
+    {
+      "title": "悲歌赠吴季子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3010",
+      "dynasty": "清"
+    },
+    {
+      "title": "杂感",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3022",
+      "dynasty": "清"
+    },
+    {
+      "title": "梅村",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3015",
+      "dynasty": "清"
+    },
+    {
+      "title": "永和宫词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3005",
+      "dynasty": "清"
+    },
+    {
+      "title": "画中九友诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3007",
+      "dynasty": "清"
+    },
+    {
+      "title": "登缥缈峰",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3024",
+      "dynasty": "清"
+    },
+    {
+      "title": "秣陵口号",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3019",
+      "dynasty": "清"
+    },
+    {
+      "title": "西子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3026",
+      "dynasty": "清"
+    },
+    {
+      "title": "读史杂感",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3011",
+      "dynasty": "清"
+    },
+    {
+      "title": "课女",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3014",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠辽左故人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3023",
+      "dynasty": "清"
+    },
+    {
+      "title": "过朱买臣墓（自注：在嘉兴东塔雷音阁后，即广福讲院。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3016",
+      "dynasty": "清"
+    },
+    {
+      "title": "送曹秋岳以少司农迁广东左辖",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3021",
+      "dynasty": "清"
+    },
+    {
+      "title": "遇旧友",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3012",
+      "dynasty": "清"
+    },
+    {
+      "title": "雁门尚书行（并序）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3006",
+      "dynasty": "清"
+    },
+    {
+      "title": "雪中遇猎",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3008",
+      "dynasty": "清"
+    },
+    {
+      "title": "鸳湖曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3004",
+      "dynasty": "清"
+    },
+    {
+      "title": "与友人谈遗事",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=66",
+      "dynasty": "清"
+    },
+    {
+      "title": "功臣庙",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=59",
+      "dynasty": "清"
+    },
+    {
+      "title": "台城",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=58",
+      "dynasty": "清"
+    },
+    {
+      "title": "咏拙政园山茶",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=50",
+      "dynasty": "清"
+    },
+    {
+      "title": "家园次罢官吴兴有感",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=54",
+      "dynasty": "清"
+    },
+    {
+      "title": "恭纪驾幸南海子遇雪大猎",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=61",
+      "dynasty": "清"
+    },
+    {
+      "title": "悲歌赠吴季子",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=51",
+      "dynasty": "清"
+    },
+    {
+      "title": "杂感",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=63",
+      "dynasty": "清"
+    },
+    {
+      "title": "梅村",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=56",
+      "dynasty": "清"
+    },
+    {
+      "title": "永和宫词",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=46",
+      "dynasty": "清"
+    },
+    {
+      "title": "画中九友诗",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=48",
+      "dynasty": "清"
+    },
+    {
+      "title": "登缥缈峰",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=65",
+      "dynasty": "清"
+    },
+    {
+      "title": "秣陵口号",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=60",
+      "dynasty": "清"
+    },
+    {
+      "title": "西子",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=67",
+      "dynasty": "清"
+    },
+    {
+      "title": "读史杂感",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=52",
+      "dynasty": "清"
+    },
+    {
+      "title": "课女",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=55",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠辽左故人",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=64",
+      "dynasty": "清"
+    },
+    {
+      "title": "过朱买臣墓（自注：在嘉兴东塔雷音阁后，即广福讲院。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=57",
+      "dynasty": "清"
+    },
+    {
+      "title": "送曹秋岳以少司农迁广东左辖",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=62",
+      "dynasty": "清"
+    },
+    {
+      "title": "遇旧友",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=53",
+      "dynasty": "清"
+    },
+    {
+      "title": "雁门尚书行（并序）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=47",
+      "dynasty": "清"
+    },
+    {
+      "title": "雪中遇猎",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=49",
+      "dynasty": "清"
+    },
+    {
+      "title": "鸳湖曲",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=45",
+      "dynasty": "清"
+    },
+    {
+      "title": "临江仙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1063",
+      "dynasty": "清末"
+    },
+    {
+      "title": "浣溪沙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1062",
+      "dynasty": "清末"
+    },
+    {
+      "title": "满江红",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1064",
+      "dynasty": "清末"
+    },
+    {
+      "title": "生查子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1061",
+      "dynasty": "清末"
+    },
+    {
+      "title": "贺新郎",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1065",
+      "dynasty": "清末"
+    },
+    {
+      "title": "旅思·生查子",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=14",
+      "dynasty": "清末"
+    },
+    {
+      "title": "病中有感·贺新郎",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=18",
+      "dynasty": "清末"
+    },
+    {
+      "title": "蒜山怀古·满江红",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=17",
+      "dynasty": "清末"
+    },
+    {
+      "title": "逢旧·临江仙",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=16",
+      "dynasty": "清末"
+    },
+    {
+      "title": "闺情·浣溪沙",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=15",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": true
+}

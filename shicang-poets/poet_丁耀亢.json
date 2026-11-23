@@ -1,0 +1,56 @@
+{
+  "name": "丁耀亢",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "久客浦城台使屡檄不放夜坐达旦",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4389",
+      "dynasty": "清"
+    },
+    {
+      "title": "再答山阴王玉映并宗弟睿子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4388",
+      "dynasty": "清"
+    },
+    {
+      "title": "老将",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4387",
+      "dynasty": "清"
+    },
+    {
+      "title": "久客浦城台使屡檄不放夜坐达旦",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1430",
+      "dynasty": "清"
+    },
+    {
+      "title": "再答山阴王玉映并宗弟睿子",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1429",
+      "dynasty": "清"
+    },
+    {
+      "title": "老将",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1428",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

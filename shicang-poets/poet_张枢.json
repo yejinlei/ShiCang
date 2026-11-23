@@ -1,0 +1,164 @@
+{
+  "name": "张枢",
+  "zi": "",
+  "hao": "",
+  "dynasty": "宋",
+  "d_order": 8,
+  "birthplace": "",
+  "style": "#7F8C8D",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 24,
+  "anthologies": [
+    "名篇精读",
+    "绝妙好词"
+  ],
+  "works": [
+    {
+      "title": "八六子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7425",
+      "dynasty": "宋"
+    },
+    {
+      "title": "南乡子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7424",
+      "dynasty": "宋"
+    },
+    {
+      "title": "南歌子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7417",
+      "dynasty": "宋"
+    },
+    {
+      "title": "声声慢",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7422",
+      "dynasty": "宋"
+    },
+    {
+      "title": "壶中天",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7420",
+      "dynasty": "宋"
+    },
+    {
+      "title": "庆宫春",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7419",
+      "dynasty": "宋"
+    },
+    {
+      "title": "摸鱼儿",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7421",
+      "dynasty": "宋"
+    },
+    {
+      "title": "瑞鹤仙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7415",
+      "dynasty": "宋"
+    },
+    {
+      "title": "祝英台近",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7426",
+      "dynasty": "宋"
+    },
+    {
+      "title": "谒金门",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7418",
+      "dynasty": "宋"
+    },
+    {
+      "title": "醉桃源",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7423",
+      "dynasty": "宋"
+    },
+    {
+      "title": "风入松",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7416",
+      "dynasty": "宋"
+    },
+    {
+      "title": "南歌子",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=230",
+      "dynasty": "宋"
+    },
+    {
+      "title": "夜宴燕子楼·南乡子",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=237",
+      "dynasty": "宋"
+    },
+    {
+      "title": "太湖·摸鱼儿",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=234",
+      "dynasty": "宋"
+    },
+    {
+      "title": "庆宫春",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=232",
+      "dynasty": "宋"
+    },
+    {
+      "title": "月夕登绘幅堂，与篔房各赋一解·壶中天",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=233",
+      "dynasty": "宋"
+    },
+    {
+      "title": "次篔房韵·八六子",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=238",
+      "dynasty": "宋"
+    },
+    {
+      "title": "次篔房韵·祝英台近",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=239",
+      "dynasty": "宋"
+    },
+    {
+      "title": "瑞鹤仙",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=228",
+      "dynasty": "宋"
+    },
+    {
+      "title": "谒金门",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=231",
+      "dynasty": "宋"
+    },
+    {
+      "title": "问梅孤山·声声慢",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=235",
+      "dynasty": "宋"
+    },
+    {
+      "title": "题小扇·醉桃源",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=236",
+      "dynasty": "宋"
+    },
+    {
+      "title": "风入松",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=229",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

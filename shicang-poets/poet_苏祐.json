@@ -1,0 +1,128 @@
+{
+  "name": "苏祐",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 18,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "九日",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2448",
+      "dynasty": "明"
+    },
+    {
+      "title": "予告归入倒马关作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2449",
+      "dynasty": "明"
+    },
+    {
+      "title": "五月望夜与诸君山中再酌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2454",
+      "dynasty": "明"
+    },
+    {
+      "title": "塞下曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2450",
+      "dynasty": "明"
+    },
+    {
+      "title": "宿玉阳仙房",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2452",
+      "dynasty": "明"
+    },
+    {
+      "title": "山台晓望怀王仅初不至",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2455",
+      "dynasty": "明"
+    },
+    {
+      "title": "惠山寺与施子羽话别",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2456",
+      "dynasty": "明"
+    },
+    {
+      "title": "游善卷碧山岩",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2453",
+      "dynasty": "明"
+    },
+    {
+      "title": "秋日观稼楼晓望",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2451",
+      "dynasty": "明"
+    },
+    {
+      "title": "九日",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=444",
+      "dynasty": "明"
+    },
+    {
+      "title": "予告归入倒马关作",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=445",
+      "dynasty": "明"
+    },
+    {
+      "title": "五月望夜与诸君山中再酌",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=450",
+      "dynasty": "明"
+    },
+    {
+      "title": "塞下曲",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=446",
+      "dynasty": "明"
+    },
+    {
+      "title": "宿玉阳仙房",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=448",
+      "dynasty": "明"
+    },
+    {
+      "title": "山台晓望怀王仅初不至",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=451",
+      "dynasty": "明"
+    },
+    {
+      "title": "惠山寺与施子羽话别",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=452",
+      "dynasty": "明"
+    },
+    {
+      "title": "游善卷碧山岩",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=449",
+      "dynasty": "明"
+    },
+    {
+      "title": "秋日观稼楼晓望",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=447",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

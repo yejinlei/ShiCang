@@ -1,0 +1,80 @@
+{
+  "name": "周龙藻",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "后怨歌行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5598",
+      "dynasty": "清"
+    },
+    {
+      "title": "大墙上蒿行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5595",
+      "dynasty": "清"
+    },
+    {
+      "title": "妾薄命",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5599",
+      "dynasty": "清"
+    },
+    {
+      "title": "结袜子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5596",
+      "dynasty": "清"
+    },
+    {
+      "title": "陇头水",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5597",
+      "dynasty": "清"
+    },
+    {
+      "title": "后怨歌行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2639",
+      "dynasty": "清"
+    },
+    {
+      "title": "大墙上蒿行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2636",
+      "dynasty": "清"
+    },
+    {
+      "title": "妾薄命",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2640",
+      "dynasty": "清"
+    },
+    {
+      "title": "结袜子",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2637",
+      "dynasty": "清"
+    },
+    {
+      "title": "陇头水",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2638",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

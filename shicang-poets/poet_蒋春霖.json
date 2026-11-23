@@ -1,0 +1,182 @@
+{
+  "name": "蒋春霖",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清末",
+  "d_order": 16,
+  "birthplace": "",
+  "style": "#795548",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 27,
+  "anthologies": [
+    "名篇精读",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "卜算子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1272",
+      "dynasty": "清末"
+    },
+    {
+      "title": "台城路",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1274",
+      "dynasty": "清末"
+    },
+    {
+      "title": "唐多令",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1273",
+      "dynasty": "清末"
+    },
+    {
+      "title": "忆旧游",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1268",
+      "dynasty": "清末"
+    },
+    {
+      "title": "木兰花慢",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1263",
+      "dynasty": "清末"
+    },
+    {
+      "title": "柳梢青",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1265",
+      "dynasty": "清末"
+    },
+    {
+      "title": "浪淘沙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1264",
+      "dynasty": "清末"
+    },
+    {
+      "title": "琵琶仙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1276",
+      "dynasty": "清末"
+    },
+    {
+      "title": "甘州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1267",
+      "dynasty": "清末"
+    },
+    {
+      "title": "虞美人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1271",
+      "dynasty": "清末"
+    },
+    {
+      "title": "角招",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1270",
+      "dynasty": "清末"
+    },
+    {
+      "title": "踏莎行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1266",
+      "dynasty": "清末"
+    },
+    {
+      "title": "鹧鸪天",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1269",
+      "dynasty": "清末"
+    },
+    {
+      "title": "五湖之志久矣！羁累江北，苦不得去。岁乙丑，偕婉君泛舟黄桥，望见烟水，盆念乡土，谱白石自度曲一章，以空侯按之。婉君曾经丧乱，歌声甚哀。·琵琶仙",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=232",
+      "dynasty": "清末"
+    },
+    {
+      "title": "卜算子",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=228",
+      "dynasty": "清末"
+    },
+    {
+      "title": "唐多令",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=229",
+      "dynasty": "清末"
+    },
+    {
+      "title": "壬子正月，游慈慧寺。舟穿梅华林，曲折数里而至。石峰峭碧，沙水明洁，佛楼藏松阴中，清凉悦人。十年后与郭尧卿复过其地，则夕烽不远，寺门阒然闭，梅树半摧为薪，存者亦蕉萃如不欲华。尧卿谓：“白石正角招谱，后罕有和者，曷倚新声纪今日事？”余既命笔砚，尧卿声节而歌，盖凄然不可卒听也！·角招",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=226",
+      "dynasty": "清末"
+    },
+    {
+      "title": "忆旧游",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=224",
+      "dynasty": "清末"
+    },
+    {
+      "title": "易州寄高寄泉·台城路",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=231",
+      "dynasty": "清末"
+    },
+    {
+      "title": "柳梢青",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=221",
+      "dynasty": "清末"
+    },
+    {
+      "title": "江行晚过北固山·木兰花慢",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=219",
+      "dynasty": "清末"
+    },
+    {
+      "title": "浪淘沙",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=220",
+      "dynasty": "清末"
+    },
+    {
+      "title": "甲寅元日，赵敬甫见过。·甘州",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=223",
+      "dynasty": "清末"
+    },
+    {
+      "title": "癸丑三月赋·踏莎行",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=222",
+      "dynasty": "清末"
+    },
+    {
+      "title": "虞美人",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=227",
+      "dynasty": "清末"
+    },
+    {
+      "title": "金鹿生自金陵围城出，为述沙洲避雨光景，感成此解。时画角咽秋，灯焰惨绿，如有鬼声在纸上也。·台城路",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=230",
+      "dynasty": "清末"
+    },
+    {
+      "title": "鹧鸪天",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=225",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": false
+}

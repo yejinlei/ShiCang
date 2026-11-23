@@ -1,0 +1,56 @@
+{
+  "name": "姜宸英",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "哭魏叔子二首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4782",
+      "dynasty": "清"
+    },
+    {
+      "title": "徐健庵编修筵上观洗象",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4781",
+      "dynasty": "清"
+    },
+    {
+      "title": "惜花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4783",
+      "dynasty": "清"
+    },
+    {
+      "title": "哭魏叔子二首",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1823",
+      "dynasty": "清"
+    },
+    {
+      "title": "徐健庵编修筵上观洗象",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1822",
+      "dynasty": "清"
+    },
+    {
+      "title": "惜花",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1824",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

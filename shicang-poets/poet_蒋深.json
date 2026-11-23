@@ -1,0 +1,80 @@
+{
+  "name": "蒋深",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "军旅",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5461",
+      "dynasty": "清"
+    },
+    {
+      "title": "晓行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5462",
+      "dynasty": "清"
+    },
+    {
+      "title": "蝇",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5459",
+      "dynasty": "清"
+    },
+    {
+      "title": "过落花村寄姚水部梓岚",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5460",
+      "dynasty": "清"
+    },
+    {
+      "title": "麻阳船口号",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5463",
+      "dynasty": "清"
+    },
+    {
+      "title": "军旅",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2502",
+      "dynasty": "清"
+    },
+    {
+      "title": "晓行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2503",
+      "dynasty": "清"
+    },
+    {
+      "title": "蝇",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2500",
+      "dynasty": "清"
+    },
+    {
+      "title": "过落花村寄姚水部梓岚",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2501",
+      "dynasty": "清"
+    },
+    {
+      "title": "麻阳船口号",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2504",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

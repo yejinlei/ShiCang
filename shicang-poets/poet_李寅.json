@@ -1,0 +1,44 @@
+{
+  "name": "李寅",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "书武侯传",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5097",
+      "dynasty": "清"
+    },
+    {
+      "title": "书邺侯传",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5098",
+      "dynasty": "清"
+    },
+    {
+      "title": "书武侯传",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2138",
+      "dynasty": "清"
+    },
+    {
+      "title": "书邺侯传",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2139",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,116 @@
+{
+  "name": "裴迪",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 16,
+  "anthologies": [
+    "万寿唐诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "南垞",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=43",
+      "dynasty": "唐"
+    },
+    {
+      "title": "宫槐陌",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=42",
+      "dynasty": "唐"
+    },
+    {
+      "title": "木兰柴",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=40",
+      "dynasty": "唐"
+    },
+    {
+      "title": "白石滩",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=45",
+      "dynasty": "唐"
+    },
+    {
+      "title": "茱萸沜",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=41",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送崔九",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=46",
+      "dynasty": "唐"
+    },
+    {
+      "title": "金屑泉",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=44",
+      "dynasty": "唐"
+    },
+    {
+      "title": "鹿柴",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=39",
+      "dynasty": "唐"
+    },
+    {
+      "title": "南垞",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6530",
+      "dynasty": "唐"
+    },
+    {
+      "title": "宫槐陌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6529",
+      "dynasty": "唐"
+    },
+    {
+      "title": "木兰柴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6527",
+      "dynasty": "唐"
+    },
+    {
+      "title": "白石滩",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6532",
+      "dynasty": "唐"
+    },
+    {
+      "title": "茱萸沜",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6528",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送崔九",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0371",
+      "dynasty": "唐"
+    },
+    {
+      "title": "金屑泉",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6531",
+      "dynasty": "唐"
+    },
+    {
+      "title": "鹿柴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6526",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,164 @@
+{
+  "name": "惠士奇",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 24,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "坐月酬郑（钅式）见怀之作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5171",
+      "dynasty": "清"
+    },
+    {
+      "title": "姑胥台怀古",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5179",
+      "dynasty": "清"
+    },
+    {
+      "title": "广州十二月书怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5178",
+      "dynasty": "清"
+    },
+    {
+      "title": "张文献公庙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5177",
+      "dynasty": "清"
+    },
+    {
+      "title": "牧童词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5172",
+      "dynasty": "清"
+    },
+    {
+      "title": "田家行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5174",
+      "dynasty": "清"
+    },
+    {
+      "title": "簇蚕词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5173",
+      "dynasty": "清"
+    },
+    {
+      "title": "送徐亮直编修奉使琉球",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5181",
+      "dynasty": "清"
+    },
+    {
+      "title": "送蒋树存之官馀庆",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5175",
+      "dynasty": "清"
+    },
+    {
+      "title": "送陈秋田先生之官长宁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5176",
+      "dynasty": "清"
+    },
+    {
+      "title": "除夕写怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5170",
+      "dynasty": "清"
+    },
+    {
+      "title": "题座主安溪相国纪伯父葆甫先生破贼诗后",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5180",
+      "dynasty": "清"
+    },
+    {
+      "title": "坐月酬郑（钅式）见怀之作",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2212",
+      "dynasty": "清"
+    },
+    {
+      "title": "姑胥台怀古",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2220",
+      "dynasty": "清"
+    },
+    {
+      "title": "广州十二月书怀",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2219",
+      "dynasty": "清"
+    },
+    {
+      "title": "张文献公庙",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2218",
+      "dynasty": "清"
+    },
+    {
+      "title": "牧童词",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2213",
+      "dynasty": "清"
+    },
+    {
+      "title": "田家行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2215",
+      "dynasty": "清"
+    },
+    {
+      "title": "簇蚕词",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2214",
+      "dynasty": "清"
+    },
+    {
+      "title": "送徐亮直编修奉使琉球",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2222",
+      "dynasty": "清"
+    },
+    {
+      "title": "送蒋树存之官馀庆",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2216",
+      "dynasty": "清"
+    },
+    {
+      "title": "送陈秋田先生之官长宁",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2217",
+      "dynasty": "清"
+    },
+    {
+      "title": "除夕写怀",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2211",
+      "dynasty": "清"
+    },
+    {
+      "title": "题座主安溪相国纪伯父葆甫先生破贼诗后",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2221",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

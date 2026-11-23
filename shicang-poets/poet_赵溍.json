@@ -1,0 +1,56 @@
+{
+  "name": "赵溍",
+  "zi": "",
+  "hao": "",
+  "dynasty": "宋",
+  "d_order": 8,
+  "birthplace": "",
+  "style": "#7F8C8D",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "绝妙好词"
+  ],
+  "works": [
+    {
+      "title": "临江仙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7447",
+      "dynasty": "宋"
+    },
+    {
+      "title": "吴山青",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7448",
+      "dynasty": "宋"
+    },
+    {
+      "title": "谒金门",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7449",
+      "dynasty": "宋"
+    },
+    {
+      "title": "水仙·吴山青",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=261",
+      "dynasty": "宋"
+    },
+    {
+      "title": "西湖春泛·临江仙",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=260",
+      "dynasty": "宋"
+    },
+    {
+      "title": "谒金门",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=262",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

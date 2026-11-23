@@ -1,0 +1,104 @@
+{
+  "name": "倪瑞",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 14,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "四弟恳予易其名字，子取文王世子语为更名曰克昕，字徵子，因诗以勖",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6317",
+      "dynasty": "清"
+    },
+    {
+      "title": "忆母",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6322",
+      "dynasty": "清"
+    },
+    {
+      "title": "戏赠山人李老（自注：山人有足疾，为余舅氏灌园。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6318",
+      "dynasty": "清"
+    },
+    {
+      "title": "樊大舅客金陵有诗吊方正学先生墓予次其韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6319",
+      "dynasty": "清"
+    },
+    {
+      "title": "过凌城庙谒古戴二公忠义冢",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6316",
+      "dynasty": "清"
+    },
+    {
+      "title": "金陵怀古",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6321",
+      "dynasty": "清"
+    },
+    {
+      "title": "阅明史马士英传（自注：阮大铖附。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6320",
+      "dynasty": "清"
+    },
+    {
+      "title": "四弟恳予易其名字，子取文王世子语为更名曰克昕，字徵子，因诗以勖",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3358",
+      "dynasty": "清"
+    },
+    {
+      "title": "忆母",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3363",
+      "dynasty": "清"
+    },
+    {
+      "title": "戏赠山人李老（自注：山人有足疾，为余舅氏灌园。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3359",
+      "dynasty": "清"
+    },
+    {
+      "title": "樊大舅客金陵有诗吊方正学先生墓予次其韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3360",
+      "dynasty": "清"
+    },
+    {
+      "title": "过凌城庙谒古戴二公忠义冢",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3357",
+      "dynasty": "清"
+    },
+    {
+      "title": "金陵怀古",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3362",
+      "dynasty": "清"
+    },
+    {
+      "title": "阅明史马士英传（自注：阮大铖附。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3361",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

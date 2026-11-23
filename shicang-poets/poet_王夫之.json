@@ -1,0 +1,128 @@
+{
+  "name": "王夫之",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清末",
+  "d_order": 16,
+  "birthplace": "",
+  "style": "#795548",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 18,
+  "anthologies": [
+    "名篇精读",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "鹧鸪天·逼地天桥",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0782",
+      "dynasty": "明末清初"
+    },
+    {
+      "title": "惜馀春慢",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1086",
+      "dynasty": "清末"
+    },
+    {
+      "title": "摸鱼儿",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1088",
+      "dynasty": "清末"
+    },
+    {
+      "title": "更漏子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1082",
+      "dynasty": "清末"
+    },
+    {
+      "title": "清平乐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1083",
+      "dynasty": "清末"
+    },
+    {
+      "title": "玉楼春",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1084",
+      "dynasty": "清末"
+    },
+    {
+      "title": "绮罗香",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1087",
+      "dynasty": "清末"
+    },
+    {
+      "title": "蝶恋花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1085",
+      "dynasty": "清末"
+    },
+    {
+      "title": "青玉案",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1081",
+      "dynasty": "清末"
+    },
+    {
+      "title": "东洲桃浪（《潇湘小八景词》之三）·摸鱼儿",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=41",
+      "dynasty": "清末"
+    },
+    {
+      "title": "咏雨·清平乐",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=36",
+      "dynasty": "清末"
+    },
+    {
+      "title": "忆旧·青玉案",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=34",
+      "dynasty": "清末"
+    },
+    {
+      "title": "本意·惜馀春慢",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=39",
+      "dynasty": "清末"
+    },
+    {
+      "title": "本意·更漏子",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=35",
+      "dynasty": "清末"
+    },
+    {
+      "title": "狱峰远碧（《潇湘十景词》之六）自衡阳北三十里，至湘潭南六十里，狱峰浅碧，宛转入望。·蝶恋花",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=42",
+      "dynasty": "清末"
+    },
+    {
+      "title": "白莲·玉楼春",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=37",
+      "dynasty": "清末"
+    },
+    {
+      "title": "衰柳·蝶恋花",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=38",
+      "dynasty": "清末"
+    },
+    {
+      "title": "读《邵康节遗事》，属纩之际，闻户外人语，惊问所语云何？且云：“我道复了幽州”。声息如丝，俄顷逝矣！有感而作。·绮罗香",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=40",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": false
+}

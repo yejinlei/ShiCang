@@ -1,0 +1,164 @@
+{
+  "name": "周权",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 24,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "冷泉亭",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=99",
+      "dynasty": "元"
+    },
+    {
+      "title": "夏日偕友晚步饮听泉轩",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=22",
+      "dynasty": "元"
+    },
+    {
+      "title": "意行",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=160",
+      "dynasty": "元"
+    },
+    {
+      "title": "接竹引泉",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=23",
+      "dynasty": "元"
+    },
+    {
+      "title": "晚春",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=282",
+      "dynasty": "元"
+    },
+    {
+      "title": "晚渡",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=423",
+      "dynasty": "元"
+    },
+    {
+      "title": "渔翁",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=422",
+      "dynasty": "元"
+    },
+    {
+      "title": "湘中",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=24",
+      "dynasty": "元"
+    },
+    {
+      "title": "溪之滨",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=464",
+      "dynasty": "元"
+    },
+    {
+      "title": "秋日",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=281",
+      "dynasty": "元"
+    },
+    {
+      "title": "郭外",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=159",
+      "dynasty": "元"
+    },
+    {
+      "title": "野趣",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=497",
+      "dynasty": "元"
+    },
+    {
+      "title": "冷泉亭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1561",
+      "dynasty": "元"
+    },
+    {
+      "title": "夏日偕友晚步饮听泉轩",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1484",
+      "dynasty": "元"
+    },
+    {
+      "title": "意行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1622",
+      "dynasty": "元"
+    },
+    {
+      "title": "接竹引泉",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1485",
+      "dynasty": "元"
+    },
+    {
+      "title": "晚春",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1744",
+      "dynasty": "元"
+    },
+    {
+      "title": "晚渡",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1885",
+      "dynasty": "元"
+    },
+    {
+      "title": "渔翁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1884",
+      "dynasty": "元"
+    },
+    {
+      "title": "湘中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1486",
+      "dynasty": "元"
+    },
+    {
+      "title": "溪之滨",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1926",
+      "dynasty": "元"
+    },
+    {
+      "title": "秋日",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1743",
+      "dynasty": "元"
+    },
+    {
+      "title": "郭外",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1621",
+      "dynasty": "元"
+    },
+    {
+      "title": "野趣",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1959",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

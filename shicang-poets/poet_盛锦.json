@@ -1,0 +1,296 @@
+{
+  "name": "盛锦",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 46,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "任城使院晤翁霁堂有赠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6219",
+      "dynasty": "清"
+    },
+    {
+      "title": "元宵忆家",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6229",
+      "dynasty": "清"
+    },
+    {
+      "title": "入蜀怀沈湘凫",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6224",
+      "dynasty": "清"
+    },
+    {
+      "title": "别兄弟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6222",
+      "dynasty": "清"
+    },
+    {
+      "title": "别家人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6223",
+      "dynasty": "清"
+    },
+    {
+      "title": "十二碚",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6208",
+      "dynasty": "清"
+    },
+    {
+      "title": "哭少宗伯春晖姊丈",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6227",
+      "dynasty": "清"
+    },
+    {
+      "title": "履霜操（自注：泸有抚琴渡，相传尹伯奇弹《履霜操》处，遂拟是作。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6207",
+      "dynasty": "清"
+    },
+    {
+      "title": "峡夜",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6211",
+      "dynasty": "清"
+    },
+    {
+      "title": "晓发",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6213",
+      "dynasty": "清"
+    },
+    {
+      "title": "汪俊",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6225",
+      "dynasty": "清"
+    },
+    {
+      "title": "登白帝城",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6215",
+      "dynasty": "清"
+    },
+    {
+      "title": "白帝诚谒昭烈武侯庙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6216",
+      "dynasty": "清"
+    },
+    {
+      "title": "白莲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6221",
+      "dynasty": "清"
+    },
+    {
+      "title": "空ぎ峡",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6209",
+      "dynasty": "清"
+    },
+    {
+      "title": "老将",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6214",
+      "dynasty": "清"
+    },
+    {
+      "title": "舟抵泸州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6218",
+      "dynasty": "清"
+    },
+    {
+      "title": "芦花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6226",
+      "dynasty": "清"
+    },
+    {
+      "title": "虎牙滩",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6212",
+      "dynasty": "清"
+    },
+    {
+      "title": "蜀道写怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6217",
+      "dynasty": "清"
+    },
+    {
+      "title": "袁墓",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6228",
+      "dynasty": "清"
+    },
+    {
+      "title": "过滩",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6210",
+      "dynasty": "清"
+    },
+    {
+      "title": "题杜文贞公南池新祠（自注：沈菽园待御建，肖公像，配以许主簿。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6220",
+      "dynasty": "清"
+    },
+    {
+      "title": "任城使院晤翁霁堂有赠",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3260",
+      "dynasty": "清"
+    },
+    {
+      "title": "元宵忆家",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3270",
+      "dynasty": "清"
+    },
+    {
+      "title": "入蜀怀沈湘凫",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3265",
+      "dynasty": "清"
+    },
+    {
+      "title": "别兄弟",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3263",
+      "dynasty": "清"
+    },
+    {
+      "title": "别家人",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3264",
+      "dynasty": "清"
+    },
+    {
+      "title": "十二碚",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3249",
+      "dynasty": "清"
+    },
+    {
+      "title": "哭少宗伯春晖姊丈",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3268",
+      "dynasty": "清"
+    },
+    {
+      "title": "履霜操（自注：泸有抚琴渡，相传尹伯奇弹《履霜操》处，遂拟是作。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3248",
+      "dynasty": "清"
+    },
+    {
+      "title": "峡夜",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3252",
+      "dynasty": "清"
+    },
+    {
+      "title": "晓发",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3254",
+      "dynasty": "清"
+    },
+    {
+      "title": "汪俊",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3266",
+      "dynasty": "清"
+    },
+    {
+      "title": "登白帝城",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3256",
+      "dynasty": "清"
+    },
+    {
+      "title": "白帝诚谒昭烈武侯庙",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3257",
+      "dynasty": "清"
+    },
+    {
+      "title": "白莲",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3262",
+      "dynasty": "清"
+    },
+    {
+      "title": "空ぎ峡",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3250",
+      "dynasty": "清"
+    },
+    {
+      "title": "老将",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3255",
+      "dynasty": "清"
+    },
+    {
+      "title": "舟抵泸州",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3259",
+      "dynasty": "清"
+    },
+    {
+      "title": "芦花",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3267",
+      "dynasty": "清"
+    },
+    {
+      "title": "虎牙滩",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3253",
+      "dynasty": "清"
+    },
+    {
+      "title": "蜀道写怀",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3258",
+      "dynasty": "清"
+    },
+    {
+      "title": "袁墓",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3269",
+      "dynasty": "清"
+    },
+    {
+      "title": "过滩",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3251",
+      "dynasty": "清"
+    },
+    {
+      "title": "题杜文贞公南池新祠（自注：沈菽园待御建，肖公像，配以许主簿。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3261",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

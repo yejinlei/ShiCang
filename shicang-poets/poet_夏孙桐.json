@@ -1,0 +1,56 @@
+{
+  "name": "夏孙桐",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清末",
+  "d_order": 16,
+  "birthplace": "",
+  "style": "#795548",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "南楼令",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1356",
+      "dynasty": "清末"
+    },
+    {
+      "title": "瑞龙吟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1355",
+      "dynasty": "清末"
+    },
+    {
+      "title": "绛都春",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1354",
+      "dynasty": "清末"
+    },
+    {
+      "title": "分咏京师词人第宅，得纳兰容若渌水亭。·绛都春",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=310",
+      "dynasty": "清末"
+    },
+    {
+      "title": "崇效寺看牡丹，用清真韵。·瑞龙吟",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=311",
+      "dynasty": "清末"
+    },
+    {
+      "title": "秋怀次韵·南楼令",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=312",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": false
+}

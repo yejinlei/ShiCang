@@ -1,0 +1,31 @@
+{
+  "name": "秋瑾",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明末清初",
+  "d_order": 14,
+  "birthplace": "",
+  "style": "#8E44AD",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 2,
+  "anthologies": [
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "满江红",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0784",
+      "dynasty": "明末清初"
+    },
+    {
+      "title": "黄海舟中日人索句并见日俄战争地图",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0785",
+      "dynasty": "明末清初"
+    }
+  ],
+  "has_bio": false
+}

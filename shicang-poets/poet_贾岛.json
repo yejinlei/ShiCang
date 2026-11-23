@@ -1,0 +1,93 @@
+{
+  "name": "贾岛",
+  "zi": "阆仙",
+  "hao": "碣石山人",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "范阳",
+  "style": "#ae3a2b",
+  "school": "苦吟诗人",
+  "years": "779—843",
+  "bio": "中唐苦吟诗人，「推敲」典故源于他。代表作《寻隐者不遇》。",
+  "work_count": 12,
+  "anthologies": [
+    "万寿唐诗",
+    "千家诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "剑客",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=167",
+      "dynasty": "唐"
+    },
+    {
+      "title": "宿林家亭子",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=486",
+      "dynasty": "唐"
+    },
+    {
+      "title": "渡桑干",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=485",
+      "dynasty": "唐"
+    },
+    {
+      "title": "赠人斑竹拄杖",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=487",
+      "dynasty": "唐"
+    },
+    {
+      "title": "三月晦日送春",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=130",
+      "dynasty": "唐"
+    },
+    {
+      "title": "寻隐者不遇",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=26",
+      "dynasty": "唐"
+    },
+    {
+      "title": "三月晦日送春",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0951",
+      "dynasty": "唐"
+    },
+    {
+      "title": "剑客",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6640",
+      "dynasty": "唐"
+    },
+    {
+      "title": "宿林家亭子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6939",
+      "dynasty": "唐"
+    },
+    {
+      "title": "寻隐者不遇",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0376",
+      "dynasty": "唐"
+    },
+    {
+      "title": "渡桑干",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6938",
+      "dynasty": "唐"
+    },
+    {
+      "title": "赠人斑竹拄杖",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6940",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": true
+}

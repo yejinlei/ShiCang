@@ -1,0 +1,146 @@
+{
+  "name": "李重华",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 21,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "与张支百研江话诗随笔",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5755",
+      "dynasty": "清"
+    },
+    {
+      "title": "书周遇吉传",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5754",
+      "dynasty": "清"
+    },
+    {
+      "title": "五丁峡",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5750",
+      "dynasty": "清"
+    },
+    {
+      "title": "剑阁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5747",
+      "dynasty": "清"
+    },
+    {
+      "title": "拟魏武帝纪行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5745",
+      "dynasty": "清"
+    },
+    {
+      "title": "望太白",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5748",
+      "dynasty": "清"
+    },
+    {
+      "title": "登蓬莱阁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5753",
+      "dynasty": "清"
+    },
+    {
+      "title": "过居庸",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5752",
+      "dynasty": "清"
+    },
+    {
+      "title": "道古",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5746",
+      "dynasty": "清"
+    },
+    {
+      "title": "鸡头关",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5749",
+      "dynasty": "清"
+    },
+    {
+      "title": "与张支百研江话诗随笔",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2796",
+      "dynasty": "清"
+    },
+    {
+      "title": "书周遇吉传",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2795",
+      "dynasty": "清"
+    },
+    {
+      "title": "五丁峡",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2791",
+      "dynasty": "清"
+    },
+    {
+      "title": "剑阁",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2788",
+      "dynasty": "清"
+    },
+    {
+      "title": "剑阁",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2792",
+      "dynasty": "清"
+    },
+    {
+      "title": "拟魏武帝纪行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2786",
+      "dynasty": "清"
+    },
+    {
+      "title": "望太白",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2789",
+      "dynasty": "清"
+    },
+    {
+      "title": "登蓬莱阁",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2794",
+      "dynasty": "清"
+    },
+    {
+      "title": "过居庸",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2793",
+      "dynasty": "清"
+    },
+    {
+      "title": "道古",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2787",
+      "dynasty": "清"
+    },
+    {
+      "title": "鸡头关",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2790",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

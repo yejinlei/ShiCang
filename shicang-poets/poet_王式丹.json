@@ -1,0 +1,80 @@
+{
+  "name": "王式丹",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "于忠肃公墓",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4895",
+      "dynasty": "清"
+    },
+    {
+      "title": "南中书事",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4896",
+      "dynasty": "清"
+    },
+    {
+      "title": "睢阳庙二首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4894",
+      "dynasty": "清"
+    },
+    {
+      "title": "萧尺木凌台图",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4893",
+      "dynasty": "清"
+    },
+    {
+      "title": "题徐昭法先生涧上草堂画兼贻西照头陀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4892",
+      "dynasty": "清"
+    },
+    {
+      "title": "于忠肃公墓",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1936",
+      "dynasty": "清"
+    },
+    {
+      "title": "南中书事",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1937",
+      "dynasty": "清"
+    },
+    {
+      "title": "睢阳庙二首",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1935",
+      "dynasty": "清"
+    },
+    {
+      "title": "萧尺木凌台图",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1934",
+      "dynasty": "清"
+    },
+    {
+      "title": "题徐昭法先生涧上草堂画兼贻西照头陀",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1933",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

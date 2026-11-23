@@ -1,0 +1,200 @@
+{
+  "name": "李东阳",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 30,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "与赵梦麟诸人游甘露寺",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2209",
+      "dynasty": "明"
+    },
+    {
+      "title": "与顾天锡夜话，时天锡谪永州府同知",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2208",
+      "dynasty": "明"
+    },
+    {
+      "title": "九日渡江",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2210",
+      "dynasty": "明"
+    },
+    {
+      "title": "南囿秋风",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2207",
+      "dynasty": "明"
+    },
+    {
+      "title": "夜过仲家浅闸",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2203",
+      "dynasty": "明"
+    },
+    {
+      "title": "夜过邵伯湖",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2201",
+      "dynasty": "明"
+    },
+    {
+      "title": "履霜操",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2215",
+      "dynasty": "明"
+    },
+    {
+      "title": "忆舍弟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2213",
+      "dynasty": "明"
+    },
+    {
+      "title": "楚江旅怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2214",
+      "dynasty": "明"
+    },
+    {
+      "title": "游岳麓寺",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2211",
+      "dynasty": "明"
+    },
+    {
+      "title": "灵寿杖歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2204",
+      "dynasty": "明"
+    },
+    {
+      "title": "立春日车驾诣南郊",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2206",
+      "dynasty": "明"
+    },
+    {
+      "title": "端午食赐粽有感",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2212",
+      "dynasty": "明"
+    },
+    {
+      "title": "题画鹰送罗缉熙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2205",
+      "dynasty": "明"
+    },
+    {
+      "title": "风雨叹",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2202",
+      "dynasty": "明"
+    },
+    {
+      "title": "与赵梦麟诸人游甘露寺",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=205",
+      "dynasty": "明"
+    },
+    {
+      "title": "与顾天锡夜话，时天锡谪永州府同知",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=204",
+      "dynasty": "明"
+    },
+    {
+      "title": "九日渡江",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=206",
+      "dynasty": "明"
+    },
+    {
+      "title": "南囿秋风",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=203",
+      "dynasty": "明"
+    },
+    {
+      "title": "夜过仲家浅闸",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=199",
+      "dynasty": "明"
+    },
+    {
+      "title": "夜过邵伯湖",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=197",
+      "dynasty": "明"
+    },
+    {
+      "title": "履霜操",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=211",
+      "dynasty": "明"
+    },
+    {
+      "title": "忆舍弟",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=209",
+      "dynasty": "明"
+    },
+    {
+      "title": "楚江旅怀",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=210",
+      "dynasty": "明"
+    },
+    {
+      "title": "游岳麓寺",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=207",
+      "dynasty": "明"
+    },
+    {
+      "title": "灵寿杖歌",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=200",
+      "dynasty": "明"
+    },
+    {
+      "title": "立春日车驾诣南郊",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=202",
+      "dynasty": "明"
+    },
+    {
+      "title": "端午食赐粽有感",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=208",
+      "dynasty": "明"
+    },
+    {
+      "title": "题画鹰送罗缉熙",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=201",
+      "dynasty": "明"
+    },
+    {
+      "title": "风雨叹",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=198",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

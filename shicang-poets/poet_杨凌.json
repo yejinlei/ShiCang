@@ -1,0 +1,56 @@
+{
+  "name": "杨凌",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "万寿唐诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "早春雪中",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=483",
+      "dynasty": "唐"
+    },
+    {
+      "title": "明妃曲",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=484",
+      "dynasty": "唐"
+    },
+    {
+      "title": "贾客怨",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=163",
+      "dynasty": "唐"
+    },
+    {
+      "title": "早春雪中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6936",
+      "dynasty": "唐"
+    },
+    {
+      "title": "明妃曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6937",
+      "dynasty": "唐"
+    },
+    {
+      "title": "贾客怨",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6636",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

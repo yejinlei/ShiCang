@@ -1,0 +1,92 @@
+{
+  "name": "邓廷桢",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清末",
+  "d_order": 16,
+  "birthplace": "",
+  "style": "#795548",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 12,
+  "anthologies": [
+    "名篇精读",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "买陂塘",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1207",
+      "dynasty": "清末"
+    },
+    {
+      "title": "好事近",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1209",
+      "dynasty": "清末"
+    },
+    {
+      "title": "换巢变凤",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1211",
+      "dynasty": "清末"
+    },
+    {
+      "title": "水龙吟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1210",
+      "dynasty": "清末"
+    },
+    {
+      "title": "酷相思",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1212",
+      "dynasty": "清末"
+    },
+    {
+      "title": "高阳台",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1208",
+      "dynasty": "清末"
+    },
+    {
+      "title": "好事近",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=165",
+      "dynasty": "清末"
+    },
+    {
+      "title": "寄怀少穆·酷相思",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=168",
+      "dynasty": "清末"
+    },
+    {
+      "title": "少穆（林则徐）留镇两粤，而余承乏三江，临行赋此。·换巢变凤",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=167",
+      "dynasty": "清末"
+    },
+    {
+      "title": "玉泉山燕集·高阳台",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=164",
+      "dynasty": "清末"
+    },
+    {
+      "title": "赎裘·买陂塘",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=163",
+      "dynasty": "清末"
+    },
+    {
+      "title": "雪中登大观亭·水龙吟",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=166",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": false
+}

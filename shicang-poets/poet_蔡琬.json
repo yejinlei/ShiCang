@@ -1,0 +1,56 @@
+{
+  "name": "蔡琬",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "九峰寺",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6329",
+      "dynasty": "清"
+    },
+    {
+      "title": "关锁岭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6327",
+      "dynasty": "清"
+    },
+    {
+      "title": "江西坡",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6328",
+      "dynasty": "清"
+    },
+    {
+      "title": "九峰寺",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3370",
+      "dynasty": "清"
+    },
+    {
+      "title": "关锁岭",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3368",
+      "dynasty": "清"
+    },
+    {
+      "title": "江西坡",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3369",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

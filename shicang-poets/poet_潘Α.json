@@ -1,0 +1,56 @@
+{
+  "name": "潘Α",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "寄顾茂伦先生",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4514",
+      "dynasty": "清"
+    },
+    {
+      "title": "扬州秋感",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4513",
+      "dynasty": "清"
+    },
+    {
+      "title": "金山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4512",
+      "dynasty": "清"
+    },
+    {
+      "title": "寄顾茂伦先生",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1555",
+      "dynasty": "清"
+    },
+    {
+      "title": "扬州秋感",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1554",
+      "dynasty": "清"
+    },
+    {
+      "title": "金山",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1553",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

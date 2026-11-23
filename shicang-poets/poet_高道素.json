@@ -1,0 +1,80 @@
+{
+  "name": "高道素",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "伍相祠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2741",
+      "dynasty": "明"
+    },
+    {
+      "title": "冬夜闲居",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2743",
+      "dynasty": "明"
+    },
+    {
+      "title": "吊淮阴侯",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2742",
+      "dynasty": "明"
+    },
+    {
+      "title": "秋日寄沈无回",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2740",
+      "dynasty": "明"
+    },
+    {
+      "title": "金陵酒肆赠茅平仲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2744",
+      "dynasty": "明"
+    },
+    {
+      "title": "伍相祠",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=737",
+      "dynasty": "明"
+    },
+    {
+      "title": "冬夜闲居",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=739",
+      "dynasty": "明"
+    },
+    {
+      "title": "吊淮阴侯",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=738",
+      "dynasty": "明"
+    },
+    {
+      "title": "秋日寄沈无回",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=736",
+      "dynasty": "明"
+    },
+    {
+      "title": "金陵酒肆赠茅平仲",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=740",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

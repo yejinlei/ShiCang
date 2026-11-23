@@ -1,0 +1,80 @@
+{
+  "name": "王材任",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "南昌即事",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4240",
+      "dynasty": "清"
+    },
+    {
+      "title": "和李梅谷选君赠别韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4236",
+      "dynasty": "清"
+    },
+    {
+      "title": "追忆梁益旧游",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4238",
+      "dynasty": "清"
+    },
+    {
+      "title": "鲁港夜泊",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4237",
+      "dynasty": "清"
+    },
+    {
+      "title": "黄河",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4239",
+      "dynasty": "清"
+    },
+    {
+      "title": "南昌即事",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1281",
+      "dynasty": "清"
+    },
+    {
+      "title": "和李梅谷选君赠别韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1277",
+      "dynasty": "清"
+    },
+    {
+      "title": "追忆梁益旧游",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1279",
+      "dynasty": "清"
+    },
+    {
+      "title": "鲁港夜泊",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1278",
+      "dynasty": "清"
+    },
+    {
+      "title": "黄河",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1280",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

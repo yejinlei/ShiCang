@@ -1,0 +1,92 @@
+{
+  "name": "顾图河",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 12,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "任运",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4704",
+      "dynasty": "清"
+    },
+    {
+      "title": "天平山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4708",
+      "dynasty": "清"
+    },
+    {
+      "title": "息交",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4705",
+      "dynasty": "清"
+    },
+    {
+      "title": "摄生",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4703",
+      "dynasty": "清"
+    },
+    {
+      "title": "断砚歌为姜西溟先辈赋，砚为家梁汾舍人击碎",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4707",
+      "dynasty": "清"
+    },
+    {
+      "title": "诸葛铜鼓",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4706",
+      "dynasty": "清"
+    },
+    {
+      "title": "任运",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1745",
+      "dynasty": "清"
+    },
+    {
+      "title": "天平山",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1749",
+      "dynasty": "清"
+    },
+    {
+      "title": "息交",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1746",
+      "dynasty": "清"
+    },
+    {
+      "title": "摄生",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1744",
+      "dynasty": "清"
+    },
+    {
+      "title": "断砚歌为姜西溟先辈赋，砚为家梁汾舍人击碎",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1748",
+      "dynasty": "清"
+    },
+    {
+      "title": "诸葛铜鼓",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1747",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

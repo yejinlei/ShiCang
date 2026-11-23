@@ -1,0 +1,140 @@
+{
+  "name": "虞集",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 20,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "城东观杏花",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=245",
+      "dynasty": "元"
+    },
+    {
+      "title": "家兄孟修父输赋南还",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=84",
+      "dynasty": "元"
+    },
+    {
+      "title": "寄丁卯进士萨都剌天锡（镇江录事宣差。）",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=140",
+      "dynasty": "元"
+    },
+    {
+      "title": "张令鹿门图",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=83",
+      "dynasty": "元"
+    },
+    {
+      "title": "画鹤",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=85",
+      "dynasty": "元"
+    },
+    {
+      "title": "舟次湖口",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=243",
+      "dynasty": "元"
+    },
+    {
+      "title": "费无隐丹室",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=504",
+      "dynasty": "元"
+    },
+    {
+      "title": "赤城馆",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=13",
+      "dynasty": "元"
+    },
+    {
+      "title": "送袁伯长扈从上京",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=244",
+      "dynasty": "元"
+    },
+    {
+      "title": "送韩伯高佥宪浙西",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=505",
+      "dynasty": "元"
+    },
+    {
+      "title": "城东观杏花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1707",
+      "dynasty": "元"
+    },
+    {
+      "title": "家兄孟修父输赋南还",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1546",
+      "dynasty": "元"
+    },
+    {
+      "title": "寄丁卯进士萨都剌天锡（镇江录事宣差。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1602",
+      "dynasty": "元"
+    },
+    {
+      "title": "张令鹿门图",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1545",
+      "dynasty": "元"
+    },
+    {
+      "title": "画鹤",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1547",
+      "dynasty": "元"
+    },
+    {
+      "title": "舟次湖口",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1705",
+      "dynasty": "元"
+    },
+    {
+      "title": "费无隐丹室",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1966",
+      "dynasty": "元"
+    },
+    {
+      "title": "赤城馆",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1475",
+      "dynasty": "元"
+    },
+    {
+      "title": "送袁伯长扈从上京",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1706",
+      "dynasty": "元"
+    },
+    {
+      "title": "送韩伯高佥宪浙西",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1967",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,104 @@
+{
+  "name": "魏鹿吝徵",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 14,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "于忠肃祠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3884",
+      "dynasty": "清"
+    },
+    {
+      "title": "人棠驿叠韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3885",
+      "dynasty": "清"
+    },
+    {
+      "title": "捕蝗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3881",
+      "dynasty": "清"
+    },
+    {
+      "title": "短歌行和杜韵（自注：戏赠阌乡秦少府。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3880",
+      "dynasty": "清"
+    },
+    {
+      "title": "蛮子朝（拟白）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3882",
+      "dynasty": "清"
+    },
+    {
+      "title": "送儿彪之沅江",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3883",
+      "dynasty": "清"
+    },
+    {
+      "title": "量移曲靖叠韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3886",
+      "dynasty": "清"
+    },
+    {
+      "title": "于忠肃祠",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=925",
+      "dynasty": "清"
+    },
+    {
+      "title": "人棠驿叠韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=926",
+      "dynasty": "清"
+    },
+    {
+      "title": "捕蝗",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=922",
+      "dynasty": "清"
+    },
+    {
+      "title": "短歌行和杜韵（自注：戏赠阌乡秦少府。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=921",
+      "dynasty": "清"
+    },
+    {
+      "title": "蛮子朝（拟白）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=923",
+      "dynasty": "清"
+    },
+    {
+      "title": "送儿彪之沅江",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=924",
+      "dynasty": "清"
+    },
+    {
+      "title": "量移曲靖叠韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=927",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

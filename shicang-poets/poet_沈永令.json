@@ -1,0 +1,92 @@
+{
+  "name": "沈永令",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 12,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "再试淮上对月",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3166",
+      "dynasty": "清"
+    },
+    {
+      "title": "分水龙王庙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3170",
+      "dynasty": "清"
+    },
+    {
+      "title": "咸阳寓中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3167",
+      "dynasty": "清"
+    },
+    {
+      "title": "登华",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3169",
+      "dynasty": "清"
+    },
+    {
+      "title": "秦中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3168",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠檗庵禅师",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3171",
+      "dynasty": "清"
+    },
+    {
+      "title": "再试淮上对月",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=207",
+      "dynasty": "清"
+    },
+    {
+      "title": "分水龙王庙",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=211",
+      "dynasty": "清"
+    },
+    {
+      "title": "咸阳寓中",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=208",
+      "dynasty": "清"
+    },
+    {
+      "title": "登华",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=210",
+      "dynasty": "清"
+    },
+    {
+      "title": "秦中",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=209",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠檗庵禅师",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=212",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

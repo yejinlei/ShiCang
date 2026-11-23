@@ -1,0 +1,38 @@
+{
+  "name": "陈与义",
+  "zi": "",
+  "hao": "",
+  "dynasty": "宋",
+  "d_order": 8,
+  "birthplace": "",
+  "style": "#7F8C8D",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 3,
+  "anthologies": [
+    "名篇精读",
+    "宋词三百首"
+  ],
+  "works": [
+    {
+      "title": "临江仙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0696",
+      "dynasty": "宋"
+    },
+    {
+      "title": "临江仙",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=97",
+      "dynasty": "宋"
+    },
+    {
+      "title": "夜登小阁忆洛中旧游·临江仙",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=98",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

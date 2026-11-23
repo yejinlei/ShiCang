@@ -1,0 +1,68 @@
+{
+  "name": "张衍懿",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "度梅岭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5042",
+      "dynasty": "清"
+    },
+    {
+      "title": "瞿唐峡",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5040",
+      "dynasty": "清"
+    },
+    {
+      "title": "过马伏波墓",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5041",
+      "dynasty": "清"
+    },
+    {
+      "title": "进峡",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5039",
+      "dynasty": "清"
+    },
+    {
+      "title": "度梅岭",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2083",
+      "dynasty": "清"
+    },
+    {
+      "title": "瞿唐峡",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2081",
+      "dynasty": "清"
+    },
+    {
+      "title": "过马伏波墓",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2082",
+      "dynasty": "清"
+    },
+    {
+      "title": "进峡",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2080",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,56 @@
+{
+  "name": "顾璘",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "庚辰元日",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2292",
+      "dynasty": "明"
+    },
+    {
+      "title": "度枫木岭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2291",
+      "dynasty": "明"
+    },
+    {
+      "title": "归自灌阳望湘山口号",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2293",
+      "dynasty": "明"
+    },
+    {
+      "title": "庚辰元日",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=288",
+      "dynasty": "明"
+    },
+    {
+      "title": "度枫木岭",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=287",
+      "dynasty": "明"
+    },
+    {
+      "title": "归自灌阳望湘山口号",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=289",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

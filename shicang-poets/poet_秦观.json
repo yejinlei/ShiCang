@@ -1,0 +1,128 @@
+{
+  "name": "秦观",
+  "zi": "少游",
+  "hao": "淮海居士",
+  "dynasty": "北宋",
+  "d_order": 7,
+  "birthplace": "高邮",
+  "style": "#2980B9",
+  "school": "婉约派",
+  "years": "1049—1100",
+  "bio": "「苏门四学士」之一，婉约派代表。代表作《鹊桥仙·纤云弄巧》。",
+  "work_count": 18,
+  "anthologies": [
+    "名篇精读",
+    "宋词三百首"
+  ],
+  "works": [
+    {
+      "title": "八六子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0608",
+      "dynasty": "宋"
+    },
+    {
+      "title": "减字木兰花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0609",
+      "dynasty": "宋"
+    },
+    {
+      "title": "减安木兰花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1012",
+      "dynasty": "宋"
+    },
+    {
+      "title": "望海潮",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0610",
+      "dynasty": "宋"
+    },
+    {
+      "title": "浣溪沙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0611",
+      "dynasty": "宋"
+    },
+    {
+      "title": "满庭芳",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0612",
+      "dynasty": "宋"
+    },
+    {
+      "title": "行香子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0613",
+      "dynasty": "宋"
+    },
+    {
+      "title": "踏莎行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0614",
+      "dynasty": "宋"
+    },
+    {
+      "title": "阮郎归",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0615",
+      "dynasty": "宋"
+    },
+    {
+      "title": "鹊桥仙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0616",
+      "dynasty": "宋"
+    },
+    {
+      "title": "鹧鸪天",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0617",
+      "dynasty": "宋"
+    },
+    {
+      "title": "八六子",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=68",
+      "dynasty": "宋"
+    },
+    {
+      "title": "减安木兰花",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=71",
+      "dynasty": "宋"
+    },
+    {
+      "title": "洛阳怀古·望海潮",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=67",
+      "dynasty": "宋"
+    },
+    {
+      "title": "浣溪沙",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=72",
+      "dynasty": "宋"
+    },
+    {
+      "title": "满庭芳",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=69",
+      "dynasty": "宋"
+    },
+    {
+      "title": "满庭芳",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=70",
+      "dynasty": "宋"
+    },
+    {
+      "title": "阮郎归",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=73",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": true
+}

@@ -1,0 +1,350 @@
+{
+  "name": "朱孝臧",
+  "zi": "古微",
+  "hao": "彊村",
+  "dynasty": "清末",
+  "d_order": 16,
+  "birthplace": "归安",
+  "style": "#795548",
+  "school": "晚清四大家",
+  "years": "1857—1931",
+  "bio": "晚近词学集大成者，「晚清四大家」之一，编《宋词三百首》。",
+  "work_count": 55,
+  "anthologies": [
+    "名篇精读",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "乌夜啼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1358",
+      "dynasty": "清末"
+    },
+    {
+      "title": "南乡子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1384",
+      "dynasty": "清末"
+    },
+    {
+      "title": "唐多令",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1366",
+      "dynasty": "清末"
+    },
+    {
+      "title": "声声慢",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1360",
+      "dynasty": "清末"
+    },
+    {
+      "title": "夜飞鹊",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1367",
+      "dynasty": "清末"
+    },
+    {
+      "title": "好事近",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1378",
+      "dynasty": "清末"
+    },
+    {
+      "title": "小重山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1372",
+      "dynasty": "清末"
+    },
+    {
+      "title": "庆春宫",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1370",
+      "dynasty": "清末"
+    },
+    {
+      "title": "摸鱼子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1364",
+      "dynasty": "清末"
+    },
+    {
+      "title": "月下笛",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1373",
+      "dynasty": "清末"
+    },
+    {
+      "title": "木兰花慢",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1361",
+      "dynasty": "清末"
+    },
+    {
+      "title": "水龙吟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1375",
+      "dynasty": "清末"
+    },
+    {
+      "title": "汉宫春",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1386",
+      "dynasty": "清末"
+    },
+    {
+      "title": "洞仙歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1371",
+      "dynasty": "清末"
+    },
+    {
+      "title": "浣溪沙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1365",
+      "dynasty": "清末"
+    },
+    {
+      "title": "清平乐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1369",
+      "dynasty": "清末"
+    },
+    {
+      "title": "渡江云",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1387",
+      "dynasty": "清末"
+    },
+    {
+      "title": "烛影摇红",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1363",
+      "dynasty": "清末"
+    },
+    {
+      "title": "祝英台近",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1368",
+      "dynasty": "清末"
+    },
+    {
+      "title": "阮郎归",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1362",
+      "dynasty": "清末"
+    },
+    {
+      "title": "隔溪梅令",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1382",
+      "dynasty": "清末"
+    },
+    {
+      "title": "高阳台",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1376",
+      "dynasty": "清末"
+    },
+    {
+      "title": "鹧鸪天",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1357",
+      "dynasty": "清末"
+    },
+    {
+      "title": "齐天乐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1381",
+      "dynasty": "清末"
+    },
+    {
+      "title": "丁未九日·洞仙歌",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=327",
+      "dynasty": "清末"
+    },
+    {
+      "title": "乙丑九日，庸庵招集江楼。·齐天乐",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=337",
+      "dynasty": "清末"
+    },
+    {
+      "title": "九日，丰宜门外过裴村别业。·鹧鸪天",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=313",
+      "dynasty": "清末"
+    },
+    {
+      "title": "元夕枕上作·浣溪沙",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=341",
+      "dynasty": "清末"
+    },
+    {
+      "title": "南乡子",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=340",
+      "dynasty": "清末"
+    },
+    {
+      "title": "同瞻园登戒坛千佛阁·乌夜啼",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=314",
+      "dynasty": "清末"
+    },
+    {
+      "title": "唐多令",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=322",
+      "dynasty": "清末"
+    },
+    {
+      "title": "夜发香港·清平乐",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=325",
+      "dynasty": "清末"
+    },
+    {
+      "title": "已已元日，赋示诘禅。·隔溪梅令",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=338",
+      "dynasty": "清末"
+    },
+    {
+      "title": "庚子岁除·鹧鸪天",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=315",
+      "dynasty": "清末"
+    },
+    {
+      "title": "感春和苍虬·木兰花慢",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=339",
+      "dynasty": "清末"
+    },
+    {
+      "title": "戊申中秋作·小重山",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=328",
+      "dynasty": "清末"
+    },
+    {
+      "title": "晚春过黄公度人境卢，话旧。·烛影摇红",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=319",
+      "dynasty": "清末"
+    },
+    {
+      "title": "晚过黄渡·小重山",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=336",
+      "dynasty": "清末"
+    },
+    {
+      "title": "月夜维舟楞伽峡，山水幽忧。孟东野《石龙涡诗序》云：“四壁千仞，散泉如雨。”仿佛遇之。·阮郎归",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=318",
+      "dynasty": "清末"
+    },
+    {
+      "title": "望苍虬不至，倚此致怀。·渡江云",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=343",
+      "dynasty": "清末"
+    },
+    {
+      "title": "梅州送春，时得辇下故人三月几望书。·摸鱼子",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=320",
+      "dynasty": "清末"
+    },
+    {
+      "title": "浣溪沙",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=321",
+      "dynasty": "清末"
+    },
+    {
+      "title": "灵隐夜归蒋氏湖庄作·好事近",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=334",
+      "dynasty": "清末"
+    },
+    {
+      "title": "真茹张氏园，杜鹃盛开。后期而往，零落殆尽，歌和榆生。·汉宫春",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=342",
+      "dynasty": "清末"
+    },
+    {
+      "title": "结草庵拜半塘翁殡宫作·庆春宫",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=326",
+      "dynasty": "清末"
+    },
+    {
+      "title": "花朝渝楼，同蒿叟作。·高阳台",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=332",
+      "dynasty": "清末"
+    },
+    {
+      "title": "辛丑十一月十九日，味聃赋《落叶词》见示，感和。·声声慢",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=316",
+      "dynasty": "清末"
+    },
+    {
+      "title": "过玉泉山·洞仙歌",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=330",
+      "dynasty": "清末"
+    },
+    {
+      "title": "送陈伯弢之官江左·木兰花慢",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=317",
+      "dynasty": "清末"
+    },
+    {
+      "title": "钦州天涯亭梅·祝英台近",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=324",
+      "dynasty": "清末"
+    },
+    {
+      "title": "闻促织感赋·月下笛",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=329",
+      "dynasty": "清末"
+    },
+    {
+      "title": "香港秋眺，怀公度。·夜飞鹊",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=323",
+      "dynasty": "清末"
+    },
+    {
+      "title": "马鞍山访龙洲道人墓。山在昆山县西北隅。·摸鱼子",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=333",
+      "dynasty": "清末"
+    },
+    {
+      "title": "麦孺博挽词·水龙吟",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=331",
+      "dynasty": "清末"
+    },
+    {
+      "title": "龙华看桃花·摸鱼子",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=335",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": true
+}

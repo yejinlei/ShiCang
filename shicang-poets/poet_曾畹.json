@@ -1,0 +1,68 @@
+{
+  "name": "曾畹",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "刘坝",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3415",
+      "dynasty": "清"
+    },
+    {
+      "title": "同僧登赤鼻",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3414",
+      "dynasty": "清"
+    },
+    {
+      "title": "鸡头关",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3413",
+      "dynasty": "清"
+    },
+    {
+      "title": "麻平寺逢友人自楚至",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3412",
+      "dynasty": "清"
+    },
+    {
+      "title": "刘坝",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=456",
+      "dynasty": "清"
+    },
+    {
+      "title": "同僧登赤鼻",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=455",
+      "dynasty": "清"
+    },
+    {
+      "title": "鸡头关",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=454",
+      "dynasty": "清"
+    },
+    {
+      "title": "麻平寺逢友人自楚至",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=453",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

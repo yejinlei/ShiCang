@@ -1,0 +1,146 @@
+{
+  "name": "王澡",
+  "zi": "",
+  "hao": "",
+  "dynasty": "宋",
+  "d_order": 8,
+  "birthplace": "",
+  "style": "#7F8C8D",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 21,
+  "anthologies": [
+    "名篇精读",
+    "绝妙好词"
+  ],
+  "works": [
+    {
+      "title": "乌夜啼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7349",
+      "dynasty": "宋"
+    },
+    {
+      "title": "挝球乐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7345",
+      "dynasty": "宋"
+    },
+    {
+      "title": "步蟾宫",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7344",
+      "dynasty": "宋"
+    },
+    {
+      "title": "清平乐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7347",
+      "dynasty": "宋"
+    },
+    {
+      "title": "谒金门",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7341",
+      "dynasty": "宋"
+    },
+    {
+      "title": "霜天晓角",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7340",
+      "dynasty": "宋"
+    },
+    {
+      "title": "风入松",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7348",
+      "dynasty": "宋"
+    },
+    {
+      "title": "风流子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7346",
+      "dynasty": "宋"
+    },
+    {
+      "title": "鹧鸪天",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7351",
+      "dynasty": "宋"
+    },
+    {
+      "title": "乌夜啼",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=160",
+      "dynasty": "宋"
+    },
+    {
+      "title": "冬至·风入松",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=159",
+      "dynasty": "宋"
+    },
+    {
+      "title": "挝球乐",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=156",
+      "dynasty": "宋"
+    },
+    {
+      "title": "梅·霜天晓角",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=151",
+      "dynasty": "宋"
+    },
+    {
+      "title": "梅·霜天晓角",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=153",
+      "dynasty": "宋"
+    },
+    {
+      "title": "步蟾宫",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=155",
+      "dynasty": "宋"
+    },
+    {
+      "title": "清平乐",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=158",
+      "dynasty": "宋"
+    },
+    {
+      "title": "清平乐",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=161",
+      "dynasty": "宋"
+    },
+    {
+      "title": "谒金门",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=152",
+      "dynasty": "宋"
+    },
+    {
+      "title": "霜天晓角",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=154",
+      "dynasty": "宋"
+    },
+    {
+      "title": "风流子",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=157",
+      "dynasty": "宋"
+    },
+    {
+      "title": "鹧鸪天",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=162",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

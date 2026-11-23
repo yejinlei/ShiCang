@@ -1,0 +1,56 @@
+{
+  "name": "易孺",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清末",
+  "d_order": 16,
+  "birthplace": "",
+  "style": "#795548",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "满江红",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1433",
+      "dynasty": "清末"
+    },
+    {
+      "title": "虞美人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1434",
+      "dynasty": "清末"
+    },
+    {
+      "title": "霜花腴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1432",
+      "dynasty": "清末"
+    },
+    {
+      "title": "不匮词翁、忍寒教授皆肠和拙作《满江红》之阕，驩感何既？别触怆伤，更次前韵，分呈诲督。·满江红",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=389",
+      "dynasty": "清末"
+    },
+    {
+      "title": "九日浦江园·霜花腴",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=388",
+      "dynasty": "清末"
+    },
+    {
+      "title": "虞美人",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=390",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": false
+}

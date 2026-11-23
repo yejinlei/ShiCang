@@ -1,0 +1,212 @@
+{
+  "name": "区大相",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 32,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "丙寅六月过吴子往荻秋庵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2713",
+      "dynasty": "明"
+    },
+    {
+      "title": "入罗滂水",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2703",
+      "dynasty": "明"
+    },
+    {
+      "title": "十五夜写怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2706",
+      "dynasty": "明"
+    },
+    {
+      "title": "南行感怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2702",
+      "dynasty": "明"
+    },
+    {
+      "title": "城北初夏",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2708",
+      "dynasty": "明"
+    },
+    {
+      "title": "壬寅正月西村筑室成",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2711",
+      "dynasty": "明"
+    },
+    {
+      "title": "家人初至京，置酒亭中对雪作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2700",
+      "dynasty": "明"
+    },
+    {
+      "title": "对客",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2707",
+      "dynasty": "明"
+    },
+    {
+      "title": "岁暮别诸生",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2715",
+      "dynasty": "明"
+    },
+    {
+      "title": "归江上",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2714",
+      "dynasty": "明"
+    },
+    {
+      "title": "恭闻册立皇太子，喜而赋诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2705",
+      "dynasty": "明"
+    },
+    {
+      "title": "感怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2704",
+      "dynasty": "明"
+    },
+    {
+      "title": "杂诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2709",
+      "dynasty": "明"
+    },
+    {
+      "title": "移居",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2712",
+      "dynasty": "明"
+    },
+    {
+      "title": "送何仪部稚孝谪桂林",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2701",
+      "dynasty": "明"
+    },
+    {
+      "title": "馆城北",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2710",
+      "dynasty": "明"
+    },
+    {
+      "title": "丙寅六月过吴子往荻秋庵",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=709",
+      "dynasty": "明"
+    },
+    {
+      "title": "入罗滂水",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=699",
+      "dynasty": "明"
+    },
+    {
+      "title": "十五夜写怀",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=702",
+      "dynasty": "明"
+    },
+    {
+      "title": "南行感怀",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=698",
+      "dynasty": "明"
+    },
+    {
+      "title": "城北初夏",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=704",
+      "dynasty": "明"
+    },
+    {
+      "title": "壬寅正月西村筑室成",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=707",
+      "dynasty": "明"
+    },
+    {
+      "title": "家人初至京，置酒亭中对雪作",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=696",
+      "dynasty": "明"
+    },
+    {
+      "title": "对客",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=703",
+      "dynasty": "明"
+    },
+    {
+      "title": "岁暮别诸生",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=711",
+      "dynasty": "明"
+    },
+    {
+      "title": "归江上",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=710",
+      "dynasty": "明"
+    },
+    {
+      "title": "恭闻册立皇太子，喜而赋诗",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=701",
+      "dynasty": "明"
+    },
+    {
+      "title": "感怀",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=700",
+      "dynasty": "明"
+    },
+    {
+      "title": "杂诗",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=705",
+      "dynasty": "明"
+    },
+    {
+      "title": "移居",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=708",
+      "dynasty": "明"
+    },
+    {
+      "title": "送何仪部稚孝谪桂林",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=697",
+      "dynasty": "明"
+    },
+    {
+      "title": "馆城北",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=706",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

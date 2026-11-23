@@ -1,0 +1,44 @@
+{
+  "name": "袁机",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "有凤",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6376",
+      "dynasty": "清"
+    },
+    {
+      "title": "闻雁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6377",
+      "dynasty": "清"
+    },
+    {
+      "title": "有凤",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3417",
+      "dynasty": "清"
+    },
+    {
+      "title": "闻雁",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3418",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

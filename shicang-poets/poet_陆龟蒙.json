@@ -1,0 +1,140 @@
+{
+  "name": "陆龟蒙",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 20,
+  "anthologies": [
+    "万寿唐诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "初冬偶作",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=671",
+      "dynasty": "唐"
+    },
+    {
+      "title": "后池",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=670",
+      "dynasty": "唐"
+    },
+    {
+      "title": "夕阳",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=189",
+      "dynasty": "唐"
+    },
+    {
+      "title": "懐宛陵旧游",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=668",
+      "dynasty": "唐"
+    },
+    {
+      "title": "江行",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=188",
+      "dynasty": "唐"
+    },
+    {
+      "title": "白莲",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=669",
+      "dynasty": "唐"
+    },
+    {
+      "title": "石竹花",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=665",
+      "dynasty": "唐"
+    },
+    {
+      "title": "秘色越器",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=672",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送棊客",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=666",
+      "dynasty": "唐"
+    },
+    {
+      "title": "邺宫词",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=667",
+      "dynasty": "唐"
+    },
+    {
+      "title": "初冬偶作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7111",
+      "dynasty": "唐"
+    },
+    {
+      "title": "后池",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7110",
+      "dynasty": "唐"
+    },
+    {
+      "title": "夕阳",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6661",
+      "dynasty": "唐"
+    },
+    {
+      "title": "懐宛陵旧游",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7108",
+      "dynasty": "唐"
+    },
+    {
+      "title": "江行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6660",
+      "dynasty": "唐"
+    },
+    {
+      "title": "白莲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7109",
+      "dynasty": "唐"
+    },
+    {
+      "title": "石竹花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7105",
+      "dynasty": "唐"
+    },
+    {
+      "title": "秘色越器",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7112",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送棊客",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7106",
+      "dynasty": "唐"
+    },
+    {
+      "title": "邺宫词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7107",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

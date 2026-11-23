@@ -1,0 +1,68 @@
+{
+  "name": "谢方琦",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "春闺词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4762",
+      "dynasty": "清"
+    },
+    {
+      "title": "送友人之楚",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4761",
+      "dynasty": "清"
+    },
+    {
+      "title": "雨中送客",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4759",
+      "dynasty": "清"
+    },
+    {
+      "title": "雪后送殷介持归城",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4760",
+      "dynasty": "清"
+    },
+    {
+      "title": "春闺词",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1803",
+      "dynasty": "清"
+    },
+    {
+      "title": "送友人之楚",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1802",
+      "dynasty": "清"
+    },
+    {
+      "title": "雨中送客",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1800",
+      "dynasty": "清"
+    },
+    {
+      "title": "雪后送殷介持归城",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1801",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

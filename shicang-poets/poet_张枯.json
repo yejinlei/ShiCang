@@ -1,0 +1,176 @@
+{
+  "name": "张枯",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 26,
+  "anthologies": [
+    "万寿唐诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "千秋乐",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=488",
+      "dynasty": "唐"
+    },
+    {
+      "title": "华清宫 二首",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=493",
+      "dynasty": "唐"
+    },
+    {
+      "title": "听筝",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=497",
+      "dynasty": "唐"
+    },
+    {
+      "title": "孟才人",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=491",
+      "dynasty": "唐"
+    },
+    {
+      "title": "宿盆浦逢崔升",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=496",
+      "dynasty": "唐"
+    },
+    {
+      "title": "折杨栁",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=492",
+      "dynasty": "唐"
+    },
+    {
+      "title": "春莺啭",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=489",
+      "dynasty": "唐"
+    },
+    {
+      "title": "楚州韦中丞箜篌",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=498",
+      "dynasty": "唐"
+    },
+    {
+      "title": "游淮南",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=500",
+      "dynasty": "唐"
+    },
+    {
+      "title": "邠王小管",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=490",
+      "dynasty": "唐"
+    },
+    {
+      "title": "金陵渡",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=499",
+      "dynasty": "唐"
+    },
+    {
+      "title": "集灵台 二首",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=494",
+      "dynasty": "唐"
+    },
+    {
+      "title": "雨霖铃",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=495",
+      "dynasty": "唐"
+    },
+    {
+      "title": "千秋乐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6941",
+      "dynasty": "唐"
+    },
+    {
+      "title": "华清宫 二首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6946",
+      "dynasty": "唐"
+    },
+    {
+      "title": "听筝",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6950",
+      "dynasty": "唐"
+    },
+    {
+      "title": "孟才人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6944",
+      "dynasty": "唐"
+    },
+    {
+      "title": "宿盆浦逢崔升",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6949",
+      "dynasty": "唐"
+    },
+    {
+      "title": "折杨栁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6945",
+      "dynasty": "唐"
+    },
+    {
+      "title": "春莺啭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6942",
+      "dynasty": "唐"
+    },
+    {
+      "title": "楚州韦中丞箜篌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6951",
+      "dynasty": "唐"
+    },
+    {
+      "title": "游淮南",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6953",
+      "dynasty": "唐"
+    },
+    {
+      "title": "邠王小管",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6943",
+      "dynasty": "唐"
+    },
+    {
+      "title": "金陵渡",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6952",
+      "dynasty": "唐"
+    },
+    {
+      "title": "集灵台 二首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6947",
+      "dynasty": "唐"
+    },
+    {
+      "title": "雨霖铃",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6948",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

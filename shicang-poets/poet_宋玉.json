@@ -1,0 +1,25 @@
+{
+  "name": "宋玉",
+  "zi": "",
+  "hao": "",
+  "dynasty": "先秦",
+  "d_order": 1,
+  "birthplace": "",
+  "style": "#8B4513",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 1,
+  "anthologies": [
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "九辩",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0024",
+      "dynasty": "先秦"
+    }
+  ],
+  "has_bio": false
+}

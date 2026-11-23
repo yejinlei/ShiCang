@@ -1,0 +1,176 @@
+{
+  "name": "刘长卿",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 26,
+  "anthologies": [
+    "万寿唐诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "寄别朱拾遗",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=299",
+      "dynasty": "唐"
+    },
+    {
+      "title": "平蕃曲",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=98",
+      "dynasty": "唐"
+    },
+    {
+      "title": "弹琴",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=94",
+      "dynasty": "唐"
+    },
+    {
+      "title": "春草宫懐古",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=93",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送上人",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=96",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送人往扬州",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=95",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送刘萱之道州谒崔大夫",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=297",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送李判官之润州行营",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=298",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送灵澈",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=97",
+      "dynasty": "唐"
+    },
+    {
+      "title": "寄别朱拾遗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6760",
+      "dynasty": "唐"
+    },
+    {
+      "title": "寻南溪常山道人隐居",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0109",
+      "dynasty": "唐"
+    },
+    {
+      "title": "平蕃曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6576",
+      "dynasty": "唐"
+    },
+    {
+      "title": "弹琴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0110",
+      "dynasty": "唐"
+    },
+    {
+      "title": "新年作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0111",
+      "dynasty": "唐"
+    },
+    {
+      "title": "春草宫懐古",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6574",
+      "dynasty": "唐"
+    },
+    {
+      "title": "江州重别薛六柳八二员外",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0112",
+      "dynasty": "唐"
+    },
+    {
+      "title": "秋日登吴公台上寺远眺",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0113",
+      "dynasty": "唐"
+    },
+    {
+      "title": "自夏口至鹦鹉洲夕望岳阳寄源中丞",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0114",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送上人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0115",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送人往扬州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6575",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送刘萱之道州谒崔大夫",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6758",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送李中丞归汉阳别业",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0116",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送李判官之润州行营",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6759",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送灵澈",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0117",
+      "dynasty": "唐"
+    },
+    {
+      "title": "长沙过贾谊宅",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0118",
+      "dynasty": "唐"
+    },
+    {
+      "title": "饯别王十一南游",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0119",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

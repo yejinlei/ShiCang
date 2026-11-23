@@ -1,0 +1,128 @@
+{
+  "name": "陈允平",
+  "zi": "",
+  "hao": "",
+  "dynasty": "宋",
+  "d_order": 8,
+  "birthplace": "",
+  "style": "#7F8C8D",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 18,
+  "anthologies": [
+    "名篇精读",
+    "绝妙好词"
+  ],
+  "works": [
+    {
+      "title": "一落索",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7413",
+      "dynasty": "宋"
+    },
+    {
+      "title": "唐多令",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7410",
+      "dynasty": "宋"
+    },
+    {
+      "title": "垂杨",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7414",
+      "dynasty": "宋"
+    },
+    {
+      "title": "思佳客",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7408",
+      "dynasty": "宋"
+    },
+    {
+      "title": "恋绣衾",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7409",
+      "dynasty": "宋"
+    },
+    {
+      "title": "愁蕊香",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7412",
+      "dynasty": "宋"
+    },
+    {
+      "title": "满江红",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7411",
+      "dynasty": "宋"
+    },
+    {
+      "title": "瑞鹤仙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7407",
+      "dynasty": "宋"
+    },
+    {
+      "title": "绛都春",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7406",
+      "dynasty": "宋"
+    },
+    {
+      "title": "一落索",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=226",
+      "dynasty": "宋"
+    },
+    {
+      "title": "和清真韵·满江红",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=224",
+      "dynasty": "宋"
+    },
+    {
+      "title": "唐多令",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=223",
+      "dynasty": "宋"
+    },
+    {
+      "title": "垂杨",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=227",
+      "dynasty": "宋"
+    },
+    {
+      "title": "思佳客",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=221",
+      "dynasty": "宋"
+    },
+    {
+      "title": "恋绣衾",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=222",
+      "dynasty": "宋"
+    },
+    {
+      "title": "愁蕊香",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=225",
+      "dynasty": "宋"
+    },
+    {
+      "title": "瑞鹤仙",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=220",
+      "dynasty": "宋"
+    },
+    {
+      "title": "绛都春",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=219",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

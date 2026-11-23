@@ -1,0 +1,104 @@
+{
+  "name": "吴廷桢",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 14,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "函谷关",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4925",
+      "dynasty": "清"
+    },
+    {
+      "title": "天妃闸",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4922",
+      "dynasty": "清"
+    },
+    {
+      "title": "晓望华岳",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4924",
+      "dynasty": "清"
+    },
+    {
+      "title": "淮浦夏日杂感",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4923",
+      "dynasty": "清"
+    },
+    {
+      "title": "石田画庐山高",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4920",
+      "dynasty": "清"
+    },
+    {
+      "title": "观潮",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4921",
+      "dynasty": "清"
+    },
+    {
+      "title": "试儿行为天标令子赋",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4919",
+      "dynasty": "清"
+    },
+    {
+      "title": "函谷关",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1966",
+      "dynasty": "清"
+    },
+    {
+      "title": "天妃闸",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1963",
+      "dynasty": "清"
+    },
+    {
+      "title": "晓望华岳",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1965",
+      "dynasty": "清"
+    },
+    {
+      "title": "淮浦夏日杂感",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1964",
+      "dynasty": "清"
+    },
+    {
+      "title": "石田画庐山高",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1961",
+      "dynasty": "清"
+    },
+    {
+      "title": "观潮",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1962",
+      "dynasty": "清"
+    },
+    {
+      "title": "试儿行为天标令子赋",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1960",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

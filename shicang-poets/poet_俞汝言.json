@@ -1,0 +1,164 @@
+{
+  "name": "俞汝言",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 24,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "书李舒章诗后",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2897",
+      "dynasty": "明"
+    },
+    {
+      "title": "喜汪振生归自云南",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2891",
+      "dynasty": "明"
+    },
+    {
+      "title": "塞下曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2894",
+      "dynasty": "明"
+    },
+    {
+      "title": "少年行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2895",
+      "dynasty": "明"
+    },
+    {
+      "title": "感时书事，寄计子山、陆孝曾",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2893",
+      "dynasty": "明"
+    },
+    {
+      "title": "晏城",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2889",
+      "dynasty": "明"
+    },
+    {
+      "title": "汉昭烈",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2892",
+      "dynasty": "明"
+    },
+    {
+      "title": "涿州城",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2887",
+      "dynasty": "明"
+    },
+    {
+      "title": "自竹村",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2888",
+      "dynasty": "明"
+    },
+    {
+      "title": "苦旱行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2890",
+      "dynasty": "明"
+    },
+    {
+      "title": "茂陵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2896",
+      "dynasty": "明"
+    },
+    {
+      "title": "进艇",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2886",
+      "dynasty": "明"
+    },
+    {
+      "title": "书李舒章诗后",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=893",
+      "dynasty": "明"
+    },
+    {
+      "title": "喜汪振生归自云南",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=887",
+      "dynasty": "明"
+    },
+    {
+      "title": "塞下曲",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=890",
+      "dynasty": "明"
+    },
+    {
+      "title": "少年行",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=891",
+      "dynasty": "明"
+    },
+    {
+      "title": "感时书事，寄计子山、陆孝曾",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=889",
+      "dynasty": "明"
+    },
+    {
+      "title": "晏城",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=885",
+      "dynasty": "明"
+    },
+    {
+      "title": "汉昭烈",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=888",
+      "dynasty": "明"
+    },
+    {
+      "title": "涿州城",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=883",
+      "dynasty": "明"
+    },
+    {
+      "title": "自竹村",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=884",
+      "dynasty": "明"
+    },
+    {
+      "title": "苦旱行",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=886",
+      "dynasty": "明"
+    },
+    {
+      "title": "茂陵",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=892",
+      "dynasty": "明"
+    },
+    {
+      "title": "进艇",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=882",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

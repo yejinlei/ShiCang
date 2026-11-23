@@ -1,0 +1,80 @@
+{
+  "name": "吕碧城",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清末",
+  "d_order": 16,
+  "birthplace": "",
+  "style": "#795548",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "泪罗怨",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1459",
+      "dynasty": "清末"
+    },
+    {
+      "title": "玲珑玉",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1458",
+      "dynasty": "清末"
+    },
+    {
+      "title": "瑞鹤仙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1461",
+      "dynasty": "清末"
+    },
+    {
+      "title": "祝英台近",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1457",
+      "dynasty": "清末"
+    },
+    {
+      "title": "陌上花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1460",
+      "dynasty": "清末"
+    },
+    {
+      "title": "予昔有《齐天乐》雪山观日出之词。今游炎峤，观海日将沈，奇彩愈烈，更赋此词，而感慨深矣！·瑞鹤仙",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=419",
+      "dynasty": "清末"
+    },
+    {
+      "title": "木棉花作猩红色，别名烽火树，和榆生教授之作。·陌上花",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=418",
+      "dynasty": "清末"
+    },
+    {
+      "title": "祝英台近",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=415",
+      "dynasty": "清末"
+    },
+    {
+      "title": "过旧都作·泪罗怨",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=417",
+      "dynasty": "清末"
+    },
+    {
+      "title": "阿尔伯士雪山，游者多乘雪橇，飞越高山，其疾如风，雅戏也。·玲珑玉",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=416",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": false
+}

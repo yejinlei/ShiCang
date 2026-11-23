@@ -1,0 +1,50 @@
+{
+  "name": "张九龄",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 5,
+  "anthologies": [
+    "万寿唐诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "自君之出矣",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=13",
+      "dynasty": "唐"
+    },
+    {
+      "title": "感遇·其一",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0159",
+      "dynasty": "唐"
+    },
+    {
+      "title": "感遇·其二",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0160",
+      "dynasty": "唐"
+    },
+    {
+      "title": "望月怀远",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0161",
+      "dynasty": "唐"
+    },
+    {
+      "title": "自君之出矣",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6502",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

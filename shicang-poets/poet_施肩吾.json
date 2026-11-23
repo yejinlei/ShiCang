@@ -1,0 +1,56 @@
+{
+  "name": "施肩吾",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "万寿唐诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "山中得刘秀才京书",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=572",
+      "dynasty": "唐"
+    },
+    {
+      "title": "戏赠李主簿",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=573",
+      "dynasty": "唐"
+    },
+    {
+      "title": "湘竹词",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=185",
+      "dynasty": "唐"
+    },
+    {
+      "title": "山中得刘秀才京书",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7020",
+      "dynasty": "唐"
+    },
+    {
+      "title": "戏赠李主簿",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7021",
+      "dynasty": "唐"
+    },
+    {
+      "title": "湘竹词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6658",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

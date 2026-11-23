@@ -1,0 +1,106 @@
+{
+  "name": "刘克庄",
+  "zi": "",
+  "hao": "",
+  "dynasty": "宋",
+  "d_order": 8,
+  "birthplace": "",
+  "style": "#7F8C8D",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 14,
+  "anthologies": [
+    "千家诗",
+    "名篇精读",
+    "宋词三百首",
+    "绝妙好词"
+  ],
+  "works": [
+    {
+      "title": "莺梭",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=123",
+      "dynasty": "宋"
+    },
+    {
+      "title": "卜算子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7303",
+      "dynasty": "宋"
+    },
+    {
+      "title": "摸鱼儿",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7302",
+      "dynasty": "宋"
+    },
+    {
+      "title": "木兰花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0419",
+      "dynasty": "宋"
+    },
+    {
+      "title": "生查子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1037",
+      "dynasty": "宋"
+    },
+    {
+      "title": "莺梭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0944",
+      "dynasty": "宋"
+    },
+    {
+      "title": "贺新郎",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0420",
+      "dynasty": "宋"
+    },
+    {
+      "title": "九 日·贺新郎",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=171",
+      "dynasty": "宋"
+    },
+    {
+      "title": "元夕戏陈敬叟·生查子",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=169",
+      "dynasty": "宋"
+    },
+    {
+      "title": "戏林推·木兰花",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=172",
+      "dynasty": "宋"
+    },
+    {
+      "title": "端 午·贺新郎",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=170",
+      "dynasty": "宋"
+    },
+    {
+      "title": "海棠·摸鱼儿",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=113",
+      "dynasty": "宋"
+    },
+    {
+      "title": "海棠为风雨所损·卜算子",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=114",
+      "dynasty": "宋"
+    },
+    {
+      "title": "灯夕戏陈敬叟·生查子",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=115",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

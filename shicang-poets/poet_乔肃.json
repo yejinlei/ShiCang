@@ -1,0 +1,44 @@
+{
+  "name": "乔肃",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "八月十五夜侍母宴，时大人客上党，大兄客夔州，即事书情次苏长公中秋见月寄子由韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5838",
+      "dynasty": "清"
+    },
+    {
+      "title": "过留云堂书侄邃墨迹后",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5839",
+      "dynasty": "清"
+    },
+    {
+      "title": "八月十五夜侍母宴，时大人客上党，大兄客夔州，即事书情次苏长公中秋见月寄子由韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2879",
+      "dynasty": "清"
+    },
+    {
+      "title": "过留云堂书侄邃墨迹后",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2880",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

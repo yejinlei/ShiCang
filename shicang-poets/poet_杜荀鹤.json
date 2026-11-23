@@ -1,0 +1,38 @@
+{
+  "name": "杜荀鹤",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 3,
+  "anthologies": [
+    "万寿唐诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "新雁",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=730",
+      "dynasty": "唐"
+    },
+    {
+      "title": "新雁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7168",
+      "dynasty": "唐"
+    },
+    {
+      "title": "春宫怨",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0303",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

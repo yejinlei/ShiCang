@@ -1,0 +1,68 @@
+{
+  "name": "吴绡",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "七夕",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6256",
+      "dynasty": "清"
+    },
+    {
+      "title": "咏古",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6258",
+      "dynasty": "清"
+    },
+    {
+      "title": "啸台",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6255",
+      "dynasty": "清"
+    },
+    {
+      "title": "杨柳枝词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6257",
+      "dynasty": "清"
+    },
+    {
+      "title": "七夕",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3297",
+      "dynasty": "清"
+    },
+    {
+      "title": "咏古",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3299",
+      "dynasty": "清"
+    },
+    {
+      "title": "啸台",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3296",
+      "dynasty": "清"
+    },
+    {
+      "title": "杨柳枝词",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3298",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

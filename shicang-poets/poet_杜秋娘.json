@@ -1,0 +1,25 @@
+{
+  "name": "杜秋娘",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 1,
+  "anthologies": [
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "金缕衣",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0302",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

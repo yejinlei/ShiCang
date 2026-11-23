@@ -1,0 +1,164 @@
+{
+  "name": "皇甫冲",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 24,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "九日寄子约",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2472",
+      "dynasty": "明"
+    },
+    {
+      "title": "于岩石上眺东西两湖",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2466",
+      "dynasty": "明"
+    },
+    {
+      "title": "从军行寄赠杨用修",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2470",
+      "dynasty": "明"
+    },
+    {
+      "title": "元夕熊子叔抑过集时谪远州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2473",
+      "dynasty": "明"
+    },
+    {
+      "title": "奉答子安兄",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2469",
+      "dynasty": "明"
+    },
+    {
+      "title": "寄刘谏议畿",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2474",
+      "dynasty": "明"
+    },
+    {
+      "title": "对月答子浚兄见怀诸弟之作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2476",
+      "dynasty": "明"
+    },
+    {
+      "title": "广寒宫登眺",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2475",
+      "dynasty": "明"
+    },
+    {
+      "title": "秋夜把酒对月",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2467",
+      "dynasty": "明"
+    },
+    {
+      "title": "维摩寺雨坐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2465",
+      "dynasty": "明"
+    },
+    {
+      "title": "舟中对月书情",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2471",
+      "dynasty": "明"
+    },
+    {
+      "title": "过武城言子祠作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2468",
+      "dynasty": "明"
+    },
+    {
+      "title": "九日寄子约",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=468",
+      "dynasty": "明"
+    },
+    {
+      "title": "于岩石上眺东西两湖",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=462",
+      "dynasty": "明"
+    },
+    {
+      "title": "从军行寄赠杨用修",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=466",
+      "dynasty": "明"
+    },
+    {
+      "title": "元夕熊子叔抑过集时谪远州",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=469",
+      "dynasty": "明"
+    },
+    {
+      "title": "奉答子安兄",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=465",
+      "dynasty": "明"
+    },
+    {
+      "title": "寄刘谏议畿",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=470",
+      "dynasty": "明"
+    },
+    {
+      "title": "对月答子浚兄见怀诸弟之作",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=472",
+      "dynasty": "明"
+    },
+    {
+      "title": "广寒宫登眺",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=471",
+      "dynasty": "明"
+    },
+    {
+      "title": "秋夜把酒对月",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=463",
+      "dynasty": "明"
+    },
+    {
+      "title": "维摩寺雨坐",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=461",
+      "dynasty": "明"
+    },
+    {
+      "title": "舟中对月书情",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=467",
+      "dynasty": "明"
+    },
+    {
+      "title": "过武城言子祠作",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=464",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

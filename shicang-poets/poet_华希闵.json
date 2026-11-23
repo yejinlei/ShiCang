@@ -1,0 +1,68 @@
+{
+  "name": "华希闵",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "万邦荣",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5374",
+      "dynasty": "清"
+    },
+    {
+      "title": "偶感",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5375",
+      "dynasty": "清"
+    },
+    {
+      "title": "山居月夜",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5373",
+      "dynasty": "清"
+    },
+    {
+      "title": "豫原名节自负，",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5372",
+      "dynasty": "清"
+    },
+    {
+      "title": "万邦荣",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2415",
+      "dynasty": "清"
+    },
+    {
+      "title": "偶感",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2416",
+      "dynasty": "清"
+    },
+    {
+      "title": "山居月夜",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2414",
+      "dynasty": "清"
+    },
+    {
+      "title": "豫原名节自负，",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2413",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

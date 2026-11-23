@@ -1,0 +1,56 @@
+{
+  "name": "叶肇梓",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "横江词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5672",
+      "dynasty": "清"
+    },
+    {
+      "title": "牧牛词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5673",
+      "dynasty": "清"
+    },
+    {
+      "title": "集归去来辞字为诗追次坡公韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5674",
+      "dynasty": "清"
+    },
+    {
+      "title": "横江词",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2713",
+      "dynasty": "清"
+    },
+    {
+      "title": "牧牛词",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2714",
+      "dynasty": "清"
+    },
+    {
+      "title": "集归去来辞字为诗追次坡公韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2715",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,56 @@
+{
+  "name": "周茂源",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "蓟门杂咏",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3225",
+      "dynasty": "清"
+    },
+    {
+      "title": "过张文忠故第",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3224",
+      "dynasty": "清"
+    },
+    {
+      "title": "雨中诸子集予机山别业",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3226",
+      "dynasty": "清"
+    },
+    {
+      "title": "蓟门杂咏",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=266",
+      "dynasty": "清"
+    },
+    {
+      "title": "过张文忠故第",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=265",
+      "dynasty": "清"
+    },
+    {
+      "title": "雨中诸子集予机山别业",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=267",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

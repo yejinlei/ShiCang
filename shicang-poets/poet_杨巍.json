@@ -1,0 +1,68 @@
+{
+  "name": "杨巍",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "早秋登龙门城楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2511",
+      "dynasty": "明"
+    },
+    {
+      "title": "章昆冈别驾邀登城南楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2514",
+      "dynasty": "明"
+    },
+    {
+      "title": "萧关北作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2512",
+      "dynasty": "明"
+    },
+    {
+      "title": "郡斋咏怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2513",
+      "dynasty": "明"
+    },
+    {
+      "title": "早秋登龙门城楼",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=507",
+      "dynasty": "明"
+    },
+    {
+      "title": "章昆冈别驾邀登城南楼",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=510",
+      "dynasty": "明"
+    },
+    {
+      "title": "萧关北作",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=508",
+      "dynasty": "明"
+    },
+    {
+      "title": "郡斋咏怀",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=509",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

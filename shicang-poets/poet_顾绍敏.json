@@ -1,0 +1,152 @@
+{
+  "name": "顾绍敏",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 22,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "修禊六章",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5624",
+      "dynasty": "清"
+    },
+    {
+      "title": "桐庐道中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5627",
+      "dynasty": "清"
+    },
+    {
+      "title": "汨罗怨",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5628",
+      "dynasty": "清"
+    },
+    {
+      "title": "渡江",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5633",
+      "dynasty": "清"
+    },
+    {
+      "title": "澹泊居花下招同惠仲儒郑季雅沈归愚徐龙友王斗文小饮作歌即送季雅入都",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5626",
+      "dynasty": "清"
+    },
+    {
+      "title": "牧牛词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5625",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋夜闻笛有怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5630",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋日感怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5631",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋柳和亮直韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5634",
+      "dynasty": "清"
+    },
+    {
+      "title": "菖蒲潭访山上人不遇",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5629",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠山阳程爽林",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5632",
+      "dynasty": "清"
+    },
+    {
+      "title": "修禊六章",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2665",
+      "dynasty": "清"
+    },
+    {
+      "title": "桐庐道中",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2668",
+      "dynasty": "清"
+    },
+    {
+      "title": "汨罗怨",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2669",
+      "dynasty": "清"
+    },
+    {
+      "title": "渡江",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2674",
+      "dynasty": "清"
+    },
+    {
+      "title": "澹泊居花下招同惠仲儒郑季雅沈归愚徐龙友王斗文小饮作歌即送季雅入都",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2667",
+      "dynasty": "清"
+    },
+    {
+      "title": "牧牛词",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2666",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋夜闻笛有怀",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2671",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋日感怀",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2672",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋柳和亮直韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2675",
+      "dynasty": "清"
+    },
+    {
+      "title": "菖蒲潭访山上人不遇",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2670",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠山阳程爽林",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2673",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,80 @@
+{
+  "name": "张景崧",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "京口",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5224",
+      "dynasty": "清"
+    },
+    {
+      "title": "和途中即事韵限高字",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5225",
+      "dynasty": "清"
+    },
+    {
+      "title": "弄潮儿歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5223",
+      "dynasty": "清"
+    },
+    {
+      "title": "晚渡平望湖同舟话旧",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5227",
+      "dynasty": "清"
+    },
+    {
+      "title": "饯雁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5226",
+      "dynasty": "清"
+    },
+    {
+      "title": "京口",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2265",
+      "dynasty": "清"
+    },
+    {
+      "title": "和途中即事韵限高字",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2266",
+      "dynasty": "清"
+    },
+    {
+      "title": "弄潮儿歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2264",
+      "dynasty": "清"
+    },
+    {
+      "title": "晚渡平望湖同舟话旧",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2268",
+      "dynasty": "清"
+    },
+    {
+      "title": "饯雁",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2267",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

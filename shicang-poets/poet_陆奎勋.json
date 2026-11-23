@@ -1,0 +1,56 @@
+{
+  "name": "陆奎勋",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "江南曲拟梁昭明",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5432",
+      "dynasty": "清"
+    },
+    {
+      "title": "湖上念金心斋",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5434",
+      "dynasty": "清"
+    },
+    {
+      "title": "移居",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5433",
+      "dynasty": "清"
+    },
+    {
+      "title": "江南曲拟梁昭明",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2473",
+      "dynasty": "清"
+    },
+    {
+      "title": "湖上念金心斋",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2475",
+      "dynasty": "清"
+    },
+    {
+      "title": "移居",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2474",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

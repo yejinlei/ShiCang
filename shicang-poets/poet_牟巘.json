@@ -1,0 +1,44 @@
+{
+  "name": "牟巘",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "和刘朔斋海棠",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=212",
+      "dynasty": "元"
+    },
+    {
+      "title": "溪边钓船",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=387",
+      "dynasty": "元"
+    },
+    {
+      "title": "和刘朔斋海棠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1674",
+      "dynasty": "元"
+    },
+    {
+      "title": "溪边钓船",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1849",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

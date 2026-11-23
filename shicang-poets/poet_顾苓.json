@@ -1,0 +1,104 @@
+{
+  "name": "顾苓",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 14,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "嵇康",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2871",
+      "dynasty": "明"
+    },
+    {
+      "title": "摄山绝顶",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2874",
+      "dynasty": "明"
+    },
+    {
+      "title": "游夹山漾",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2870",
+      "dynasty": "明"
+    },
+    {
+      "title": "湘潭晚春寄耒阳胡使君",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2875",
+      "dynasty": "明"
+    },
+    {
+      "title": "焦山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2873",
+      "dynasty": "明"
+    },
+    {
+      "title": "登金山塔",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2872",
+      "dynasty": "明"
+    },
+    {
+      "title": "石公山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2869",
+      "dynasty": "明"
+    },
+    {
+      "title": "嵇康",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=867",
+      "dynasty": "明"
+    },
+    {
+      "title": "摄山绝顶",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=870",
+      "dynasty": "明"
+    },
+    {
+      "title": "游夹山漾",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=866",
+      "dynasty": "明"
+    },
+    {
+      "title": "湘潭晚春寄耒阳胡使君",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=871",
+      "dynasty": "明"
+    },
+    {
+      "title": "焦山",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=869",
+      "dynasty": "明"
+    },
+    {
+      "title": "登金山塔",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=868",
+      "dynasty": "明"
+    },
+    {
+      "title": "石公山",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=865",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

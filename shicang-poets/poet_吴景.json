@@ -1,0 +1,80 @@
+{
+  "name": "吴景",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "和振西赠王将军紫",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4627",
+      "dynasty": "清"
+    },
+    {
+      "title": "奉和座主东海公山居 存一首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4630",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠张稚昭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4631",
+      "dynasty": "清"
+    },
+    {
+      "title": "题徐太仆遗像",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4628",
+      "dynasty": "清"
+    },
+    {
+      "title": "题顾亭林遗集和汪安公编修",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4629",
+      "dynasty": "清"
+    },
+    {
+      "title": "和振西赠王将军紫",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1668",
+      "dynasty": "清"
+    },
+    {
+      "title": "奉和座主东海公山居 存一首",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1671",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠张稚昭",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1672",
+      "dynasty": "清"
+    },
+    {
+      "title": "题徐太仆遗像",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1669",
+      "dynasty": "清"
+    },
+    {
+      "title": "题顾亭林遗集和汪安公编修",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1670",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

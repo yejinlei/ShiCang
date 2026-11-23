@@ -1,0 +1,104 @@
+{
+  "name": "卢元昌",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 14,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "北塘晚棹",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3806",
+      "dynasty": "清"
+    },
+    {
+      "title": "哭李在湄",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3805",
+      "dynasty": "清"
+    },
+    {
+      "title": "哭箕儿",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3811",
+      "dynasty": "清"
+    },
+    {
+      "title": "次韵酬楚中杨长公学博，伊父曾殉甲申之难",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3810",
+      "dynasty": "清"
+    },
+    {
+      "title": "沈友圣娄归述王维夏近况",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3807",
+      "dynasty": "清"
+    },
+    {
+      "title": "登吴六益藻野阁次韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3808",
+      "dynasty": "清"
+    },
+    {
+      "title": "群忠祠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3809",
+      "dynasty": "清"
+    },
+    {
+      "title": "北塘晚棹",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=847",
+      "dynasty": "清"
+    },
+    {
+      "title": "哭李在湄",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=846",
+      "dynasty": "清"
+    },
+    {
+      "title": "哭箕儿",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=852",
+      "dynasty": "清"
+    },
+    {
+      "title": "次韵酬楚中杨长公学博，伊父曾殉甲申之难",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=851",
+      "dynasty": "清"
+    },
+    {
+      "title": "沈友圣娄归述王维夏近况",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=848",
+      "dynasty": "清"
+    },
+    {
+      "title": "登吴六益藻野阁次韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=849",
+      "dynasty": "清"
+    },
+    {
+      "title": "群忠祠",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=850",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,56 @@
+{
+  "name": "马世奇",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "别叶侍御",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2769",
+      "dynasty": "明"
+    },
+    {
+      "title": "孟门行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2770",
+      "dynasty": "明"
+    },
+    {
+      "title": "赠曹元宰守漳州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2768",
+      "dynasty": "明"
+    },
+    {
+      "title": "别叶侍御",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=765",
+      "dynasty": "明"
+    },
+    {
+      "title": "孟门行",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=766",
+      "dynasty": "明"
+    },
+    {
+      "title": "赠曹元宰守漳州",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=764",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

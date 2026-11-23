@@ -1,0 +1,68 @@
+{
+  "name": "袁桷",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "寄史允叟",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=238",
+      "dynasty": "元"
+    },
+    {
+      "title": "张虚靖圜庵扁曰归鹤次韵",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=237",
+      "dynasty": "元"
+    },
+    {
+      "title": "晚访仲章不遇",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=411",
+      "dynasty": "元"
+    },
+    {
+      "title": "赠瑛上人住洞林",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=136",
+      "dynasty": "元"
+    },
+    {
+      "title": "寄史允叟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1700",
+      "dynasty": "元"
+    },
+    {
+      "title": "张虚靖圜庵扁曰归鹤次韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1699",
+      "dynasty": "元"
+    },
+    {
+      "title": "晚访仲章不遇",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1873",
+      "dynasty": "元"
+    },
+    {
+      "title": "赠瑛上人住洞林",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1598",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

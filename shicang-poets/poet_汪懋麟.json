@@ -1,0 +1,68 @@
+{
+  "name": "汪懋麟",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "元夜禁中观放烟火歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3887",
+      "dynasty": "清"
+    },
+    {
+      "title": "河水决",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3889",
+      "dynasty": "清"
+    },
+    {
+      "title": "玉叔观察招陪龚大宗伯西樵阮亭诸先生集寓园泛舟观剧达曙作歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3888",
+      "dynasty": "清"
+    },
+    {
+      "title": "题顾符真画",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3890",
+      "dynasty": "清"
+    },
+    {
+      "title": "元夜禁中观放烟火歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=928",
+      "dynasty": "清"
+    },
+    {
+      "title": "河水决",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=930",
+      "dynasty": "清"
+    },
+    {
+      "title": "玉叔观察招陪龚大宗伯西樵阮亭诸先生集寓园泛舟观剧达曙作歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=929",
+      "dynasty": "清"
+    },
+    {
+      "title": "题顾符真画",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=931",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

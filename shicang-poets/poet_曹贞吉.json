@@ -1,0 +1,117 @@
+{
+  "name": "曹贞吉",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清末",
+  "d_order": 16,
+  "birthplace": "",
+  "style": "#795548",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 16,
+  "anthologies": [
+    "名篇精读",
+    "清诗",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "文殊院观铺海歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3513",
+      "dynasty": "清"
+    },
+    {
+      "title": "登望海楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3515",
+      "dynasty": "清"
+    },
+    {
+      "title": "花朝得家弟过江消息",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3514",
+      "dynasty": "清"
+    },
+    {
+      "title": "文殊院观铺海歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=554",
+      "dynasty": "清"
+    },
+    {
+      "title": "登望海楼",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=556",
+      "dynasty": "清"
+    },
+    {
+      "title": "花朝得家弟过江消息",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=555",
+      "dynasty": "清"
+    },
+    {
+      "title": "扫花游",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1158",
+      "dynasty": "清末"
+    },
+    {
+      "title": "满庭芳",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1159",
+      "dynasty": "清末"
+    },
+    {
+      "title": "留客住",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1157",
+      "dynasty": "清末"
+    },
+    {
+      "title": "蝶恋花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1156",
+      "dynasty": "清末"
+    },
+    {
+      "title": "贺新凉",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1160",
+      "dynasty": "清末"
+    },
+    {
+      "title": "再赠柳敬亭·贺新凉",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=114",
+      "dynasty": "清末"
+    },
+    {
+      "title": "和人潼关·满庭芳",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=113",
+      "dynasty": "清末"
+    },
+    {
+      "title": "春雪，用宋人韵。·扫花游",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=112",
+      "dynasty": "清末"
+    },
+    {
+      "title": "读《六一集》十二月鼓子词，嫌其过於富丽。吾辈为之，正不妨作酸馁语耳。閒中试笔，即以故乡风物谱之。（十二首录一）·蝶恋花",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=110",
+      "dynasty": "清末"
+    },
+    {
+      "title": "鹧鸪·留客住",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=111",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": false
+}

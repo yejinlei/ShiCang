@@ -1,0 +1,56 @@
+{
+  "name": "潘希白",
+  "zi": "",
+  "hao": "",
+  "dynasty": "宋",
+  "d_order": 8,
+  "birthplace": "",
+  "style": "#7F8C8D",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "绝妙好词"
+  ],
+  "works": [
+    {
+      "title": "击梧桐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7451",
+      "dynasty": "宋"
+    },
+    {
+      "title": "大有",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0596",
+      "dynasty": "宋"
+    },
+    {
+      "title": "木兰花慢",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7452",
+      "dynasty": "宋"
+    },
+    {
+      "title": "九日·大有",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=264",
+      "dynasty": "宋"
+    },
+    {
+      "title": "别西湖社友·击梧桐",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=265",
+      "dynasty": "宋"
+    },
+    {
+      "title": "寄豫章故人·木兰花慢",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=266",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

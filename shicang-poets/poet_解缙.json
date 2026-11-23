@@ -1,0 +1,80 @@
+{
+  "name": "解缙",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "同蔡尚远、尤文度、朱仲礼、杨仲举、蔡用严游东山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2159",
+      "dynasty": "明"
+    },
+    {
+      "title": "汉江夜泛",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2158",
+      "dynasty": "明"
+    },
+    {
+      "title": "行经华阴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2160",
+      "dynasty": "明"
+    },
+    {
+      "title": "过金山寺",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2161",
+      "dynasty": "明"
+    },
+    {
+      "title": "送刘绣衣按交阯",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2157",
+      "dynasty": "明"
+    },
+    {
+      "title": "同蔡尚远、尤文度、朱仲礼、杨仲举、蔡用严游东山",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=155",
+      "dynasty": "明"
+    },
+    {
+      "title": "汉江夜泛",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=154",
+      "dynasty": "明"
+    },
+    {
+      "title": "行经华阴",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=156",
+      "dynasty": "明"
+    },
+    {
+      "title": "过金山寺",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=157",
+      "dynasty": "明"
+    },
+    {
+      "title": "送刘绣衣按交阯",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=153",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

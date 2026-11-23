@@ -1,0 +1,56 @@
+{
+  "name": "张进",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "五人墓",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5996",
+      "dynasty": "清"
+    },
+    {
+      "title": "由空谷至中峰",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5994",
+      "dynasty": "清"
+    },
+    {
+      "title": "雪中忆家园池上草堂",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5995",
+      "dynasty": "清"
+    },
+    {
+      "title": "五人墓",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3037",
+      "dynasty": "清"
+    },
+    {
+      "title": "由空谷至中峰",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3035",
+      "dynasty": "清"
+    },
+    {
+      "title": "雪中忆家园池上草堂",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3036",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,86 @@
+{
+  "name": "张先",
+  "zi": "",
+  "hao": "",
+  "dynasty": "宋",
+  "d_order": 8,
+  "birthplace": "",
+  "style": "#7F8C8D",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 11,
+  "anthologies": [
+    "名篇精读",
+    "宋词三百首"
+  ],
+  "works": [
+    {
+      "title": "一丛花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0498",
+      "dynasty": "宋"
+    },
+    {
+      "title": "千秋岁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0499",
+      "dynasty": "宋"
+    },
+    {
+      "title": "天仙子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0500",
+      "dynasty": "宋"
+    },
+    {
+      "title": "菩萨蛮",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0501",
+      "dynasty": "宋"
+    },
+    {
+      "title": "醉垂鞭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0502",
+      "dynasty": "宋"
+    },
+    {
+      "title": "青门引",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0503",
+      "dynasty": "宋"
+    },
+    {
+      "title": "一丛花",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=6",
+      "dynasty": "宋"
+    },
+    {
+      "title": "千秋岁",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=4",
+      "dynasty": "宋"
+    },
+    {
+      "title": "时为嘉禾小倅以病眠不赴府会·天仙子",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=7",
+      "dynasty": "宋"
+    },
+    {
+      "title": "菩萨蛮",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=5",
+      "dynasty": "宋"
+    },
+    {
+      "title": "青门引",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=8",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

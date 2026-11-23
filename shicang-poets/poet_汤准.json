@@ -1,0 +1,56 @@
+{
+  "name": "汤准",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "临漪园",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5470",
+      "dynasty": "清"
+    },
+    {
+      "title": "咏史",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5469",
+      "dynasty": "清"
+    },
+    {
+      "title": "桃源",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5471",
+      "dynasty": "清"
+    },
+    {
+      "title": "临漪园",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2511",
+      "dynasty": "清"
+    },
+    {
+      "title": "咏史",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2510",
+      "dynasty": "清"
+    },
+    {
+      "title": "桃源",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2512",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

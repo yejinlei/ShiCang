@@ -1,0 +1,44 @@
+{
+  "name": "邵宝",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "乞终养未许",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2225",
+      "dynasty": "明"
+    },
+    {
+      "title": "孙翊妻",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2224",
+      "dynasty": "明"
+    },
+    {
+      "title": "乞终养未许",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=221",
+      "dynasty": "明"
+    },
+    {
+      "title": "孙翊妻",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=220",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,56 @@
+{
+  "name": "孔传铎",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "半塘吊五人墓",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4315",
+      "dynasty": "清"
+    },
+    {
+      "title": "山中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4317",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋日杂咏",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4316",
+      "dynasty": "清"
+    },
+    {
+      "title": "半塘吊五人墓",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1356",
+      "dynasty": "清"
+    },
+    {
+      "title": "山中",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1358",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋日杂咏",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1357",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

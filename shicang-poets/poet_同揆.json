@@ -1,0 +1,68 @@
+{
+  "name": "同揆",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "吴翼生归自塞上话旧",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6399",
+      "dynasty": "清"
+    },
+    {
+      "title": "过五经岭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6397",
+      "dynasty": "清"
+    },
+    {
+      "title": "雪霁后晓行过龙舒",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6398",
+      "dynasty": "清"
+    },
+    {
+      "title": "鼎湖篇赠尹紫芝内翰",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6396",
+      "dynasty": "清"
+    },
+    {
+      "title": "吴翼生归自塞上话旧",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3440",
+      "dynasty": "清"
+    },
+    {
+      "title": "过五经岭",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3438",
+      "dynasty": "清"
+    },
+    {
+      "title": "雪霁后晓行过龙舒",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3439",
+      "dynasty": "清"
+    },
+    {
+      "title": "鼎湖篇赠尹紫芝内翰",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3437",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

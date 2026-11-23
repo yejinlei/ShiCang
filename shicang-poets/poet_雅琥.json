@@ -1,0 +1,56 @@
+{
+  "name": "雅琥",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "上执政四十韵",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=384",
+      "dynasty": "元"
+    },
+    {
+      "title": "留别凯烈彦卿学士",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=347",
+      "dynasty": "元"
+    },
+    {
+      "title": "送赵宗吉编修代祀西岳",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=186",
+      "dynasty": "元"
+    },
+    {
+      "title": "上执政四十韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1846",
+      "dynasty": "元"
+    },
+    {
+      "title": "留别凯烈彦卿学士",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1809",
+      "dynasty": "元"
+    },
+    {
+      "title": "送赵宗吉编修代祀西岳",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1648",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

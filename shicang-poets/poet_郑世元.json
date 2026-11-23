@@ -1,0 +1,128 @@
+{
+  "name": "郑世元",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 18,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "出门别妻子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5377",
+      "dynasty": "清"
+    },
+    {
+      "title": "官赈谣",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5381",
+      "dynasty": "清"
+    },
+    {
+      "title": "感怀杂诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5376",
+      "dynasty": "清"
+    },
+    {
+      "title": "捉船行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5380",
+      "dynasty": "清"
+    },
+    {
+      "title": "检先大人遗集",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5382",
+      "dynasty": "清"
+    },
+    {
+      "title": "看客舞刀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5383",
+      "dynasty": "清"
+    },
+    {
+      "title": "观枪法",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5384",
+      "dynasty": "清"
+    },
+    {
+      "title": "观音岩",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5378",
+      "dynasty": "清"
+    },
+    {
+      "title": "郁郁词二首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5379",
+      "dynasty": "清"
+    },
+    {
+      "title": "出门别妻子",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2418",
+      "dynasty": "清"
+    },
+    {
+      "title": "官赈谣",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2422",
+      "dynasty": "清"
+    },
+    {
+      "title": "感怀杂诗",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2417",
+      "dynasty": "清"
+    },
+    {
+      "title": "捉船行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2421",
+      "dynasty": "清"
+    },
+    {
+      "title": "检先大人遗集",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2423",
+      "dynasty": "清"
+    },
+    {
+      "title": "看客舞刀",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2424",
+      "dynasty": "清"
+    },
+    {
+      "title": "观枪法",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2425",
+      "dynasty": "清"
+    },
+    {
+      "title": "观音岩",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2419",
+      "dynasty": "清"
+    },
+    {
+      "title": "郁郁词二首",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2420",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

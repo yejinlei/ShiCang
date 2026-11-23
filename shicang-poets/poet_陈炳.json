@@ -1,0 +1,56 @@
+{
+  "name": "陈炳",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "寻马山人不遇",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5065",
+      "dynasty": "清"
+    },
+    {
+      "title": "杂诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5063",
+      "dynasty": "清"
+    },
+    {
+      "title": "汉上",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5064",
+      "dynasty": "清"
+    },
+    {
+      "title": "寻马山人不遇",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2106",
+      "dynasty": "清"
+    },
+    {
+      "title": "杂诗",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2104",
+      "dynasty": "清"
+    },
+    {
+      "title": "汉上",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2105",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

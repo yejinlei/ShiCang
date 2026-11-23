@@ -1,0 +1,56 @@
+{
+  "name": "沈懋华",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "泰和道中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5447",
+      "dynasty": "清"
+    },
+    {
+      "title": "渡江",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5448",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋夜东湖玩月",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5449",
+      "dynasty": "清"
+    },
+    {
+      "title": "泰和道中",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2488",
+      "dynasty": "清"
+    },
+    {
+      "title": "渡江",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2489",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋夜东湖玩月",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2490",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

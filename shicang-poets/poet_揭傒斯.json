@@ -1,0 +1,152 @@
+{
+  "name": "揭傒斯",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 22,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "和欧阳南阳月夜思",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=388",
+      "dynasty": "元"
+    },
+    {
+      "title": "夏五月武昌舟中触目",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=88",
+      "dynasty": "元"
+    },
+    {
+      "title": "寄题冯掾东皋园亭",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=454",
+      "dynasty": "元"
+    },
+    {
+      "title": "山水卷",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=14",
+      "dynasty": "元"
+    },
+    {
+      "title": "曹将军下槽马图",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=480",
+      "dynasty": "元"
+    },
+    {
+      "title": "梦武昌",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=250",
+      "dynasty": "元"
+    },
+    {
+      "title": "衡山县晓渡",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=143",
+      "dynasty": "元"
+    },
+    {
+      "title": "送詹尊师归庐山",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=251",
+      "dynasty": "元"
+    },
+    {
+      "title": "重饯李九时毅赋得南楼月",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=15",
+      "dynasty": "元"
+    },
+    {
+      "title": "高邮城",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=89",
+      "dynasty": "元"
+    },
+    {
+      "title": "黄尊师高轩观鹅因留宿",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=142",
+      "dynasty": "元"
+    },
+    {
+      "title": "和欧阳南阳月夜思",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1850",
+      "dynasty": "元"
+    },
+    {
+      "title": "夏五月武昌舟中触目",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1550",
+      "dynasty": "元"
+    },
+    {
+      "title": "寄题冯掾东皋园亭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1916",
+      "dynasty": "元"
+    },
+    {
+      "title": "山水卷",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1476",
+      "dynasty": "元"
+    },
+    {
+      "title": "曹将军下槽马图",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1942",
+      "dynasty": "元"
+    },
+    {
+      "title": "梦武昌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1712",
+      "dynasty": "元"
+    },
+    {
+      "title": "衡山县晓渡",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1605",
+      "dynasty": "元"
+    },
+    {
+      "title": "送詹尊师归庐山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1713",
+      "dynasty": "元"
+    },
+    {
+      "title": "重饯李九时毅赋得南楼月",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1477",
+      "dynasty": "元"
+    },
+    {
+      "title": "高邮城",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1551",
+      "dynasty": "元"
+    },
+    {
+      "title": "黄尊师高轩观鹅因留宿",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1604",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

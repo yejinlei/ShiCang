@@ -1,0 +1,141 @@
+{
+  "name": "欧阳修",
+  "zi": "永叔",
+  "hao": "醉翁·六一居士",
+  "dynasty": "北宋",
+  "d_order": 7,
+  "birthplace": "吉州庐陵",
+  "style": "#2980B9",
+  "school": "诗文革新",
+  "years": "1007—1072",
+  "bio": "北宋文坛领袖，唐宋八大家之一。代表作《醉翁亭记》《秋声赋》。",
+  "work_count": 20,
+  "anthologies": [
+    "千家诗",
+    "名篇精读",
+    "宋词三百首"
+  ],
+  "works": [
+    {
+      "title": "答丁元珍",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=174",
+      "dynasty": "宋"
+    },
+    {
+      "title": "木兰花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0582",
+      "dynasty": "宋"
+    },
+    {
+      "title": "浪淘沙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0583",
+      "dynasty": "宋"
+    },
+    {
+      "title": "生查子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0584",
+      "dynasty": "宋"
+    },
+    {
+      "title": "答丁元珍",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0992",
+      "dynasty": "宋"
+    },
+    {
+      "title": "蝶恋花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0585",
+      "dynasty": "宋"
+    },
+    {
+      "title": "诉衷情",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0586",
+      "dynasty": "宋"
+    },
+    {
+      "title": "踏莎行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0587",
+      "dynasty": "宋"
+    },
+    {
+      "title": "醉翁亭记",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0825",
+      "dynasty": "宋"
+    },
+    {
+      "title": "采桑子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0588",
+      "dynasty": "宋"
+    },
+    {
+      "title": "青玉案",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0589",
+      "dynasty": "宋"
+    },
+    {
+      "title": "木兰花",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=27",
+      "dynasty": "宋"
+    },
+    {
+      "title": "浪淘沙",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=28",
+      "dynasty": "宋"
+    },
+    {
+      "title": "蝶恋花",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=24",
+      "dynasty": "宋"
+    },
+    {
+      "title": "蝶恋花",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=25",
+      "dynasty": "宋"
+    },
+    {
+      "title": "蝶恋花",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=26",
+      "dynasty": "宋"
+    },
+    {
+      "title": "诉衷情",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=22",
+      "dynasty": "宋"
+    },
+    {
+      "title": "踏莎行",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=23",
+      "dynasty": "宋"
+    },
+    {
+      "title": "采桑子",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=21",
+      "dynasty": "宋"
+    },
+    {
+      "title": "青玉案",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=29",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": true
+}

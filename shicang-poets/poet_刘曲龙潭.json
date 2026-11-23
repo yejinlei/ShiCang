@@ -1,0 +1,44 @@
+{
+  "name": "刘曲龙潭",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "晓发石门渡湍水道中（《水经》，湍音专。）",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=8",
+      "dynasty": "元"
+    },
+    {
+      "title": "龙门杂诗",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=7",
+      "dynasty": "元"
+    },
+    {
+      "title": "晓发石门渡湍水道中（《水经》，湍音专。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1470",
+      "dynasty": "元"
+    },
+    {
+      "title": "龙门杂诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1469",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

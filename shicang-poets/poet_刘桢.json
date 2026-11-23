@@ -1,0 +1,25 @@
+{
+  "name": "刘桢",
+  "zi": "",
+  "hao": "",
+  "dynasty": "魏晋",
+  "d_order": 4,
+  "birthplace": "",
+  "style": "#5C4033",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 1,
+  "anthologies": [
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "赠从弟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0056",
+      "dynasty": "魏晋"
+    }
+  ],
+  "has_bio": false
+}

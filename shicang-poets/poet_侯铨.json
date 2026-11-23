@@ -1,0 +1,80 @@
+{
+  "name": "侯铨",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "不寐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5816",
+      "dynasty": "清"
+    },
+    {
+      "title": "南屏晚钟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5813",
+      "dynasty": "清"
+    },
+    {
+      "title": "清明日作（自注：时乡试报罢。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5814",
+      "dynasty": "清"
+    },
+    {
+      "title": "送西京再至京师次西涧翁韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5815",
+      "dynasty": "清"
+    },
+    {
+      "title": "题桃花扇传奇",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5817",
+      "dynasty": "清"
+    },
+    {
+      "title": "不寐",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2857",
+      "dynasty": "清"
+    },
+    {
+      "title": "南屏晚钟",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2854",
+      "dynasty": "清"
+    },
+    {
+      "title": "清明日作（自注：时乡试报罢。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2855",
+      "dynasty": "清"
+    },
+    {
+      "title": "送西京再至京师次西涧翁韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2856",
+      "dynasty": "清"
+    },
+    {
+      "title": "题桃花扇传奇",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2858",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,152 @@
+{
+  "name": "徐倬",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 22,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "健庵太史招集黑龙潭小楼限龙字",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3987",
+      "dynasty": "清"
+    },
+    {
+      "title": "咏水碓",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3980",
+      "dynasty": "清"
+    },
+    {
+      "title": "月",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3983",
+      "dynasty": "清"
+    },
+    {
+      "title": "湖上赠夏卤均",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3989",
+      "dynasty": "清"
+    },
+    {
+      "title": "禾中赠曾庭闻",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3988",
+      "dynasty": "清"
+    },
+    {
+      "title": "舟中杂感",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3985",
+      "dynasty": "清"
+    },
+    {
+      "title": "酬章云李寄怀之作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3990",
+      "dynasty": "清"
+    },
+    {
+      "title": "采莲曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3982",
+      "dynasty": "清"
+    },
+    {
+      "title": "闻蛩",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3984",
+      "dynasty": "清"
+    },
+    {
+      "title": "项王祠",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3986",
+      "dynasty": "清"
+    },
+    {
+      "title": "骡车谣",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3981",
+      "dynasty": "清"
+    },
+    {
+      "title": "健庵太史招集黑龙潭小楼限龙字",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1028",
+      "dynasty": "清"
+    },
+    {
+      "title": "咏水碓",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1021",
+      "dynasty": "清"
+    },
+    {
+      "title": "月",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1024",
+      "dynasty": "清"
+    },
+    {
+      "title": "湖上赠夏卤均",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1030",
+      "dynasty": "清"
+    },
+    {
+      "title": "禾中赠曾庭闻",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1029",
+      "dynasty": "清"
+    },
+    {
+      "title": "舟中杂感",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1026",
+      "dynasty": "清"
+    },
+    {
+      "title": "酬章云李寄怀之作",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1031",
+      "dynasty": "清"
+    },
+    {
+      "title": "采莲曲",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1023",
+      "dynasty": "清"
+    },
+    {
+      "title": "闻蛩",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1025",
+      "dynasty": "清"
+    },
+    {
+      "title": "项王祠",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1027",
+      "dynasty": "清"
+    },
+    {
+      "title": "骡车谣",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1022",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

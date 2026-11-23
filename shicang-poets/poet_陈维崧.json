@@ -1,0 +1,501 @@
+{
+  "name": "陈维崧",
+  "zi": "其年",
+  "hao": "迦陵",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "宜兴",
+  "style": "#2F6B52",
+  "school": "阳羡词派",
+  "years": "1625—1682",
+  "bio": "阳羡词派开山，存词1600余首，历代词人之冠。",
+  "work_count": 80,
+  "anthologies": [
+    "名篇精读",
+    "清诗",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "刘逸民隐如",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4098",
+      "dynasty": "清"
+    },
+    {
+      "title": "别紫云",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4111",
+      "dynasty": "清"
+    },
+    {
+      "title": "喜汉槎入关和健庵先生原韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4108",
+      "dynasty": "清"
+    },
+    {
+      "title": "寄黄黎洲先生求为先人志墓",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4104",
+      "dynasty": "清"
+    },
+    {
+      "title": "将归留别练塘诸子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4106",
+      "dynasty": "清"
+    },
+    {
+      "title": "得桐城方尔止先生书感赋兼怀密之先生",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4102",
+      "dynasty": "清"
+    },
+    {
+      "title": "忆贵池吴师",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4105",
+      "dynasty": "清"
+    },
+    {
+      "title": "捧读石斋黄公所撰先少保神道碑赋此追感",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4107",
+      "dynasty": "清"
+    },
+    {
+      "title": "早发望亭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4097",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋日怀幔亭先生",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4109",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠李研斋太史",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4100",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠歌者陈郎",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4112",
+      "dynasty": "清"
+    },
+    {
+      "title": "送张若水出关（自注：若水，稚恭先生子也。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4110",
+      "dynasty": "清"
+    },
+    {
+      "title": "酬许元锡",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4099",
+      "dynasty": "清"
+    },
+    {
+      "title": "钱唐浴马行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4101",
+      "dynasty": "清"
+    },
+    {
+      "title": "顾尚书家御香歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4103",
+      "dynasty": "清"
+    },
+    {
+      "title": "刘逸民隐如",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1139",
+      "dynasty": "清"
+    },
+    {
+      "title": "别紫云",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1152",
+      "dynasty": "清"
+    },
+    {
+      "title": "喜汉槎入关和健庵先生原韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1149",
+      "dynasty": "清"
+    },
+    {
+      "title": "寄黄黎洲先生求为先人志墓",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1145",
+      "dynasty": "清"
+    },
+    {
+      "title": "将归留别练塘诸子",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1147",
+      "dynasty": "清"
+    },
+    {
+      "title": "得桐城方尔止先生书感赋兼怀密之先生",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1143",
+      "dynasty": "清"
+    },
+    {
+      "title": "忆贵池吴师",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1146",
+      "dynasty": "清"
+    },
+    {
+      "title": "捧读石斋黄公所撰先少保神道碑赋此追感",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1148",
+      "dynasty": "清"
+    },
+    {
+      "title": "早发望亭",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1138",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋日怀幔亭先生",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1150",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠李研斋太史",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1141",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠歌者陈郎",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1153",
+      "dynasty": "清"
+    },
+    {
+      "title": "送张若水出关（自注：若水，稚恭先生子也。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1151",
+      "dynasty": "清"
+    },
+    {
+      "title": "酬许元锡",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1140",
+      "dynasty": "清"
+    },
+    {
+      "title": "钱唐浴马行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1142",
+      "dynasty": "清"
+    },
+    {
+      "title": "顾尚书家御香歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1144",
+      "dynasty": "清"
+    },
+    {
+      "title": "南乡子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1110",
+      "dynasty": "清末"
+    },
+    {
+      "title": "卜算子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1107",
+      "dynasty": "清末"
+    },
+    {
+      "title": "唐多令",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1114",
+      "dynasty": "清末"
+    },
+    {
+      "title": "夏初临",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1120",
+      "dynasty": "清末"
+    },
+    {
+      "title": "夜游宫",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1113",
+      "dynasty": "清末"
+    },
+    {
+      "title": "好事近",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1108",
+      "dynasty": "清末"
+    },
+    {
+      "title": "尉迟杯",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1125",
+      "dynasty": "清末"
+    },
+    {
+      "title": "师师令",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1115",
+      "dynasty": "清末"
+    },
+    {
+      "title": "念奴娇",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1121",
+      "dynasty": "清末"
+    },
+    {
+      "title": "摸鱼儿",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1128",
+      "dynasty": "清末"
+    },
+    {
+      "title": "水调歌头",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1119",
+      "dynasty": "清末"
+    },
+    {
+      "title": "水龙吟",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1123",
+      "dynasty": "清末"
+    },
+    {
+      "title": "沁园春",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1126",
+      "dynasty": "清末"
+    },
+    {
+      "title": "清平乐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1109",
+      "dynasty": "清末"
+    },
+    {
+      "title": "满江红",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1118",
+      "dynasty": "清末"
+    },
+    {
+      "title": "点绛唇",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1106",
+      "dynasty": "清末"
+    },
+    {
+      "title": "琵琶仙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1122",
+      "dynasty": "清末"
+    },
+    {
+      "title": "虞美人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1111",
+      "dynasty": "清末"
+    },
+    {
+      "title": "贺新郎",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1127",
+      "dynasty": "清末"
+    },
+    {
+      "title": "过涧歇",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1116",
+      "dynasty": "清末"
+    },
+    {
+      "title": "醉太平",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1105",
+      "dynasty": "清末"
+    },
+    {
+      "title": "醉落魄",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1112",
+      "dynasty": "清末"
+    },
+    {
+      "title": "鹊踏花翻",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1117",
+      "dynasty": "清末"
+    },
+    {
+      "title": "齐天乐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1124",
+      "dynasty": "清末"
+    },
+    {
+      "title": "刑州道上作·南乡子",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=63",
+      "dynasty": "清末"
+    },
+    {
+      "title": "咏美人秋千·水调歌头",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=72",
+      "dynasty": "清末"
+    },
+    {
+      "title": "咏鹰·醉落魄",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=65",
+      "dynasty": "清末"
+    },
+    {
+      "title": "夏日史蘧庵先生招饮，即用先生喜余归自吴阊过访原韵。·好事近",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=61",
+      "dynasty": "清末"
+    },
+    {
+      "title": "夜宿临洺驿·点绛唇",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=59",
+      "dynasty": "清末"
+    },
+    {
+      "title": "夜饮友人别馆，听年少弹三弦。·清平乐",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=62",
+      "dynasty": "清末"
+    },
+    {
+      "title": "家善伯自崇川来，小饮冒巢民先生堂中。闻白生璧双亦在河下，喜甚，数使趣之。须臾，白生抱琵琶至，拨弦按拍，宛转作陈、隋数弄，顿尔至致。余也悲从中来，并不自知其何以故也。别后寒灯孤馆，雨声萧槭，漫赋此词，时漏已下四鼓矣。·摸鱼儿",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=81",
+      "dynasty": "清末"
+    },
+    {
+      "title": "无聊·虞美人",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=64",
+      "dynasty": "清末"
+    },
+    {
+      "title": "春夜听客弹琵琶，作《隋唐平话》。·鹊踏花翻",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=70",
+      "dynasty": "清末"
+    },
+    {
+      "title": "春暮半塘小泊·唐多令",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=67",
+      "dynasty": "清末"
+    },
+    {
+      "title": "显德寺前看枫叶·过涧歇",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=69",
+      "dynasty": "清末"
+    },
+    {
+      "title": "本意（癸丑三月十九日，用明杨孟战韵。）·夏初临",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=73",
+      "dynasty": "清末"
+    },
+    {
+      "title": "江口醉后作·醉太平",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=58",
+      "dynasty": "清末"
+    },
+    {
+      "title": "汴京访李师师故巷·师师令",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=68",
+      "dynasty": "清末"
+    },
+    {
+      "title": "泥莲庵夜宿，同子万弟与寺僧闲话。（庵外白莲数亩。）·琵琶仙",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=75",
+      "dynasty": "清末"
+    },
+    {
+      "title": "秋夜呈芝麓先生·贺新郎",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=80",
+      "dynasty": "清末"
+    },
+    {
+      "title": "秋怀四首·夜游宫",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=66",
+      "dynasty": "清末"
+    },
+    {
+      "title": "秋感·水龙吟",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=76",
+      "dynasty": "清末"
+    },
+    {
+      "title": "秋日经信陵君祠·满江红",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=71",
+      "dynasty": "清末"
+    },
+    {
+      "title": "许月度新自金陵归，以《青溪集》示我，感赋。·尉迟杯",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=78",
+      "dynasty": "清末"
+    },
+    {
+      "title": "读屈翁山诗，有作。·念奴娇",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=74",
+      "dynasty": "清末"
+    },
+    {
+      "title": "赠别芝麓先生，即用其题《乌丝词》韵。·沁园春",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=79",
+      "dynasty": "清末"
+    },
+    {
+      "title": "辽后妆楼·齐天乐",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=77",
+      "dynasty": "清末"
+    },
+    {
+      "title": "阻风瓜步·卜算子",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=60",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": true
+}

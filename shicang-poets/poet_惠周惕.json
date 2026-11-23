@@ -1,0 +1,152 @@
+{
+  "name": "惠周惕",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 22,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "从赤城至国清寺",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4673",
+      "dynasty": "清"
+    },
+    {
+      "title": "再用衣字韵（悼亡妾赵氏）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4680",
+      "dynasty": "清"
+    },
+    {
+      "title": "再赋一首示木及同游诸子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4676",
+      "dynasty": "清"
+    },
+    {
+      "title": "出门",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4671",
+      "dynasty": "清"
+    },
+    {
+      "title": "同诸君兴圣寺看杏花",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4675",
+      "dynasty": "清"
+    },
+    {
+      "title": "夏日写怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4677",
+      "dynasty": "清"
+    },
+    {
+      "title": "夜坐有怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4672",
+      "dynasty": "清"
+    },
+    {
+      "title": "敝裘（和查夏重）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4679",
+      "dynasty": "清"
+    },
+    {
+      "title": "棹歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4681",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠维扬顾书宣",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4674",
+      "dynasty": "清"
+    },
+    {
+      "title": "重九潘长公恬庵昆仲招同魏苍石饮太白楼分韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4678",
+      "dynasty": "清"
+    },
+    {
+      "title": "从赤城至国清寺",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1714",
+      "dynasty": "清"
+    },
+    {
+      "title": "再用衣字韵（悼亡妾赵氏）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1721",
+      "dynasty": "清"
+    },
+    {
+      "title": "再赋一首示木及同游诸子",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1717",
+      "dynasty": "清"
+    },
+    {
+      "title": "出门",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1712",
+      "dynasty": "清"
+    },
+    {
+      "title": "同诸君兴圣寺看杏花",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1716",
+      "dynasty": "清"
+    },
+    {
+      "title": "夏日写怀",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1718",
+      "dynasty": "清"
+    },
+    {
+      "title": "夜坐有怀",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1713",
+      "dynasty": "清"
+    },
+    {
+      "title": "敝裘（和查夏重）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1720",
+      "dynasty": "清"
+    },
+    {
+      "title": "棹歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1722",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠维扬顾书宣",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1715",
+      "dynasty": "清"
+    },
+    {
+      "title": "重九潘长公恬庵昆仲招同魏苍石饮太白楼分韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1719",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

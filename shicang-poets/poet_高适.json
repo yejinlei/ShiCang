@@ -1,0 +1,141 @@
+{
+  "name": "高适",
+  "zi": "达夫",
+  "hao": "高常侍",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "渤海蓨县",
+  "style": "#ae3a2b",
+  "school": "边塞诗",
+  "years": "约704—765",
+  "bio": "盛唐边塞诗派代表，与岑参并称「高岑」。代表作《燕歌行》《别董大》。",
+  "work_count": 20,
+  "anthologies": [
+    "万寿唐诗",
+    "千家诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "九曲词",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=269",
+      "dynasty": "唐"
+    },
+    {
+      "title": "咏史",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=69",
+      "dynasty": "唐"
+    },
+    {
+      "title": "塞上闻笛",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=268",
+      "dynasty": "唐"
+    },
+    {
+      "title": "营州歌",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=267",
+      "dynasty": "唐"
+    },
+    {
+      "title": "除夜",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=266",
+      "dynasty": "唐"
+    },
+    {
+      "title": "咏史",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=15",
+      "dynasty": "唐"
+    },
+    {
+      "title": "玉台观",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=60",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送郑侍御谪闽中",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=76",
+      "dynasty": "唐"
+    },
+    {
+      "title": "醉后赠张九旭",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=59",
+      "dynasty": "唐"
+    },
+    {
+      "title": "九曲词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6731",
+      "dynasty": "唐"
+    },
+    {
+      "title": "别董大",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0818",
+      "dynasty": "唐"
+    },
+    {
+      "title": "咏史",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0851",
+      "dynasty": "唐"
+    },
+    {
+      "title": "塞上闻笛",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6730",
+      "dynasty": "唐"
+    },
+    {
+      "title": "燕歌行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0412",
+      "dynasty": "唐"
+    },
+    {
+      "title": "玉台观",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0888",
+      "dynasty": "唐"
+    },
+    {
+      "title": "营州歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6729",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送李少府贬峡中王少府贬长沙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0413",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送郑侍御谪闽中",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0900",
+      "dynasty": "唐"
+    },
+    {
+      "title": "醉后赠张九旭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0887",
+      "dynasty": "唐"
+    },
+    {
+      "title": "除夜",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6728",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": true
+}

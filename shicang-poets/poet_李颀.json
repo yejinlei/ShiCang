@@ -1,0 +1,99 @@
+{
+  "name": "李颀",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 13,
+  "anthologies": [
+    "万寿唐诗",
+    "千家诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "寄韩朋",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=280",
+      "dynasty": "唐"
+    },
+    {
+      "title": "遇刘五",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=279",
+      "dynasty": "唐"
+    },
+    {
+      "title": "望秦川",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=79",
+      "dynasty": "唐"
+    },
+    {
+      "title": "古从军行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0241",
+      "dynasty": "唐"
+    },
+    {
+      "title": "古意",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0242",
+      "dynasty": "唐"
+    },
+    {
+      "title": "听安万善吹觱篥歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0243",
+      "dynasty": "唐"
+    },
+    {
+      "title": "听董大弹胡笳声兼寄语弄房给事",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0244",
+      "dynasty": "唐"
+    },
+    {
+      "title": "寄韩朋",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6742",
+      "dynasty": "唐"
+    },
+    {
+      "title": "望秦川",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0903",
+      "dynasty": "唐"
+    },
+    {
+      "title": "琴歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0245",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送陈章甫",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0246",
+      "dynasty": "唐"
+    },
+    {
+      "title": "送魏万之京",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0247",
+      "dynasty": "唐"
+    },
+    {
+      "title": "遇刘五",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6741",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,104 @@
+{
+  "name": "浦源",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 14,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "夜坐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2136",
+      "dynasty": "明"
+    },
+    {
+      "title": "梦游庐山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2138",
+      "dynasty": "明"
+    },
+    {
+      "title": "泽畔",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2135",
+      "dynasty": "明"
+    },
+    {
+      "title": "白雁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2139",
+      "dynasty": "明"
+    },
+    {
+      "title": "秋夕",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2137",
+      "dynasty": "明"
+    },
+    {
+      "title": "送人之巴蜀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2134",
+      "dynasty": "明"
+    },
+    {
+      "title": "送人之荆门",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2133",
+      "dynasty": "明"
+    },
+    {
+      "title": "夜坐",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=132",
+      "dynasty": "明"
+    },
+    {
+      "title": "梦游庐山",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=134",
+      "dynasty": "明"
+    },
+    {
+      "title": "泽畔",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=131",
+      "dynasty": "明"
+    },
+    {
+      "title": "白雁",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=135",
+      "dynasty": "明"
+    },
+    {
+      "title": "秋夕",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=133",
+      "dynasty": "明"
+    },
+    {
+      "title": "送人之巴蜀",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=130",
+      "dynasty": "明"
+    },
+    {
+      "title": "送人之荆门",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=129",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

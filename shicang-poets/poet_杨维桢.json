@@ -1,0 +1,116 @@
+{
+  "name": "杨维桢",
+  "zi": "",
+  "hao": "",
+  "dynasty": "元",
+  "d_order": 11,
+  "birthplace": "",
+  "style": "#4A5568",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 16,
+  "anthologies": [
+    "元诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "寄卫叔刚",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=290",
+      "dynasty": "元"
+    },
+    {
+      "title": "庐山瀑布谣（并序）",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=106",
+      "dynasty": "元"
+    },
+    {
+      "title": "无题效商隐体四首（与袁子英同赋）",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=291",
+      "dynasty": "元"
+    },
+    {
+      "title": "杀虎行",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=491",
+      "dynasty": "元"
+    },
+    {
+      "title": "送客洞庭西",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=32",
+      "dynasty": "元"
+    },
+    {
+      "title": "钱塘怀古率堵无傲同赋",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=289",
+      "dynasty": "元"
+    },
+    {
+      "title": "雨后云林图",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=541",
+      "dynasty": "元"
+    },
+    {
+      "title": "鸿门会",
+      "anth": "元诗",
+      "href": "../shicang-mingpian/view.html?s=yuanshi&i=105",
+      "dynasty": "元"
+    },
+    {
+      "title": "寄卫叔刚",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1752",
+      "dynasty": "元"
+    },
+    {
+      "title": "庐山瀑布谣（并序）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1568",
+      "dynasty": "元"
+    },
+    {
+      "title": "无题效商隐体四首（与袁子英同赋）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1753",
+      "dynasty": "元"
+    },
+    {
+      "title": "杀虎行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1953",
+      "dynasty": "元"
+    },
+    {
+      "title": "送客洞庭西",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1494",
+      "dynasty": "元"
+    },
+    {
+      "title": "钱塘怀古率堵无傲同赋",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1751",
+      "dynasty": "元"
+    },
+    {
+      "title": "雨后云林图",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2003",
+      "dynasty": "元"
+    },
+    {
+      "title": "鸿门会",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1567",
+      "dynasty": "元"
+    }
+  ],
+  "has_bio": false
+}

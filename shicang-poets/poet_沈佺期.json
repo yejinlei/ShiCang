@@ -1,0 +1,44 @@
+{
+  "name": "沈佺期",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "千家诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "侍宴",
+      "anth": "千家诗",
+      "href": "../shicang-mingpian/view.html?s=qianjiashi&i=173",
+      "dynasty": "唐"
+    },
+    {
+      "title": "侍宴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0991",
+      "dynasty": "唐"
+    },
+    {
+      "title": "杂诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0310",
+      "dynasty": "唐"
+    },
+    {
+      "title": "独不见",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0311",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,43 @@
+{
+  "name": "袁枚",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明末清初",
+  "d_order": 14,
+  "birthplace": "",
+  "style": "#8E44AD",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "所见",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0793",
+      "dynasty": "明末清初"
+    },
+    {
+      "title": "苔",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0794",
+      "dynasty": "明末清初"
+    },
+    {
+      "title": "遣怀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0795",
+      "dynasty": "明末清初"
+    },
+    {
+      "title": "马嵬",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0796",
+      "dynasty": "明末清初"
+    }
+  ],
+  "has_bio": false
+}

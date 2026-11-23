@@ -1,0 +1,140 @@
+{
+  "name": "费锡璜",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 20,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "儿语",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5488",
+      "dynasty": "清"
+    },
+    {
+      "title": "出塞",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5492",
+      "dynasty": "清"
+    },
+    {
+      "title": "变歌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5495",
+      "dynasty": "清"
+    },
+    {
+      "title": "吴姬劝酒",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5497",
+      "dynasty": "清"
+    },
+    {
+      "title": "少年行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5493",
+      "dynasty": "清"
+    },
+    {
+      "title": "汴城晚望",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5494",
+      "dynasty": "清"
+    },
+    {
+      "title": "海村杂诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5491",
+      "dynasty": "清"
+    },
+    {
+      "title": "湖上",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5490",
+      "dynasty": "清"
+    },
+    {
+      "title": "相逢",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5496",
+      "dynasty": "清"
+    },
+    {
+      "title": "送刘得柔入秦",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5489",
+      "dynasty": "清"
+    },
+    {
+      "title": "儿语",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2529",
+      "dynasty": "清"
+    },
+    {
+      "title": "出塞",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2533",
+      "dynasty": "清"
+    },
+    {
+      "title": "变歌",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2536",
+      "dynasty": "清"
+    },
+    {
+      "title": "吴姬劝酒",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2538",
+      "dynasty": "清"
+    },
+    {
+      "title": "少年行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2534",
+      "dynasty": "清"
+    },
+    {
+      "title": "汴城晚望",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2535",
+      "dynasty": "清"
+    },
+    {
+      "title": "海村杂诗",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2532",
+      "dynasty": "清"
+    },
+    {
+      "title": "湖上",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2531",
+      "dynasty": "清"
+    },
+    {
+      "title": "相逢",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2537",
+      "dynasty": "清"
+    },
+    {
+      "title": "送刘得柔入秦",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2530",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

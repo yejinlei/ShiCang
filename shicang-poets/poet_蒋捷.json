@@ -1,0 +1,68 @@
+{
+  "name": "蒋捷",
+  "zi": "",
+  "hao": "",
+  "dynasty": "宋",
+  "d_order": 8,
+  "birthplace": "",
+  "style": "#7F8C8D",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "宋词三百首"
+  ],
+  "works": [
+    {
+      "title": "一剪梅",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0649",
+      "dynasty": "宋"
+    },
+    {
+      "title": "女冠子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0650",
+      "dynasty": "宋"
+    },
+    {
+      "title": "瑞鹤仙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0651",
+      "dynasty": "宋"
+    },
+    {
+      "title": "虞美人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0652",
+      "dynasty": "宋"
+    },
+    {
+      "title": "贺新郎",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0653",
+      "dynasty": "宋"
+    },
+    {
+      "title": "乡城见月·瑞鹤仙",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=212",
+      "dynasty": "宋"
+    },
+    {
+      "title": "元 夕·女冠子",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=214",
+      "dynasty": "宋"
+    },
+    {
+      "title": "贺新郎",
+      "anth": "宋词三百首",
+      "href": "../shicang-mingpian/view.html?s=songci300&i=213",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

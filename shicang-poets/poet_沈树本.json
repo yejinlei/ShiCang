@@ -1,0 +1,104 @@
+{
+  "name": "沈树本",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 14,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "五显岭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5239",
+      "dynasty": "清"
+    },
+    {
+      "title": "大水叹五首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5238",
+      "dynasty": "清"
+    },
+    {
+      "title": "李白填词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5244",
+      "dynasty": "清"
+    },
+    {
+      "title": "浴象行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5240",
+      "dynasty": "清"
+    },
+    {
+      "title": "游汴城宋宫故址",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5242",
+      "dynasty": "清"
+    },
+    {
+      "title": "磨盘山",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5241",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠王载扬",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5243",
+      "dynasty": "清"
+    },
+    {
+      "title": "五显岭",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2280",
+      "dynasty": "清"
+    },
+    {
+      "title": "大水叹五首",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2279",
+      "dynasty": "清"
+    },
+    {
+      "title": "李白填词",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2285",
+      "dynasty": "清"
+    },
+    {
+      "title": "浴象行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2281",
+      "dynasty": "清"
+    },
+    {
+      "title": "游汴城宋宫故址",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2283",
+      "dynasty": "清"
+    },
+    {
+      "title": "磨盘山",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2282",
+      "dynasty": "清"
+    },
+    {
+      "title": "赠王载扬",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2284",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

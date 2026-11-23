@@ -1,0 +1,68 @@
+{
+  "name": "杨汝",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "北行偶述",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4839",
+      "dynasty": "清"
+    },
+    {
+      "title": "杂诗",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4838",
+      "dynasty": "清"
+    },
+    {
+      "title": "舟中怀长孙超恒时新任藁城令",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4840",
+      "dynasty": "清"
+    },
+    {
+      "title": "闻钱彭源卒于苍溪诗以哭之",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4841",
+      "dynasty": "清"
+    },
+    {
+      "title": "北行偶述",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1880",
+      "dynasty": "清"
+    },
+    {
+      "title": "杂诗",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1879",
+      "dynasty": "清"
+    },
+    {
+      "title": "舟中怀长孙超恒时新任藁城令",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1881",
+      "dynasty": "清"
+    },
+    {
+      "title": "闻钱彭源卒于苍溪诗以哭之",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1882",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

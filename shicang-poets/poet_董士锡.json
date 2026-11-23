@@ -1,0 +1,116 @@
+{
+  "name": "董士锡",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清末",
+  "d_order": 16,
+  "birthplace": "",
+  "style": "#795548",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 16,
+  "anthologies": [
+    "名篇精读",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "兰陵王",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1220",
+      "dynasty": "清末"
+    },
+    {
+      "title": "忆旧游",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1219",
+      "dynasty": "清末"
+    },
+    {
+      "title": "木兰花慢",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1213",
+      "dynasty": "清末"
+    },
+    {
+      "title": "江城子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1217",
+      "dynasty": "清末"
+    },
+    {
+      "title": "疏影",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1214",
+      "dynasty": "清末"
+    },
+    {
+      "title": "菩萨蛮",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1216",
+      "dynasty": "清末"
+    },
+    {
+      "title": "虞美人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1218",
+      "dynasty": "清末"
+    },
+    {
+      "title": "风入松",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1215",
+      "dynasty": "清末"
+    },
+    {
+      "title": "寄题《落花人独立，微雨燕双飞》卷子。·忆旧游",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=175",
+      "dynasty": "清末"
+    },
+    {
+      "title": "庭中桂华盛开，因忆往岁偕亡友江安甫吴山之游，感而赋此。·疏影",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=170",
+      "dynasty": "清末"
+    },
+    {
+      "title": "感逝·风入松",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=171",
+      "dynasty": "清末"
+    },
+    {
+      "title": "武林归舟中作·木兰花慢",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=169",
+      "dynasty": "清末"
+    },
+    {
+      "title": "江行·兰陵王",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=176",
+      "dynasty": "清末"
+    },
+    {
+      "title": "湖上送别·菩萨蛮",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=172",
+      "dynasty": "清末"
+    },
+    {
+      "title": "虞美人",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=174",
+      "dynasty": "清末"
+    },
+    {
+      "title": "里中作·江城子",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=173",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": false
+}

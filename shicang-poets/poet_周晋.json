@@ -1,0 +1,92 @@
+{
+  "name": "周晋",
+  "zi": "",
+  "hao": "",
+  "dynasty": "宋",
+  "d_order": 8,
+  "birthplace": "",
+  "style": "#7F8C8D",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 12,
+  "anthologies": [
+    "名篇精读",
+    "绝妙好词"
+  ],
+  "works": [
+    {
+      "title": "一枝春",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7319",
+      "dynasty": "宋"
+    },
+    {
+      "title": "八六子",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7318",
+      "dynasty": "宋"
+    },
+    {
+      "title": "柳梢青",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7317",
+      "dynasty": "宋"
+    },
+    {
+      "title": "清平乐",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7316",
+      "dynasty": "宋"
+    },
+    {
+      "title": "点绛唇",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7315",
+      "dynasty": "宋"
+    },
+    {
+      "title": "被花恼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_7320",
+      "dynasty": "宋"
+    },
+    {
+      "title": "杨花·柳梢青",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=128",
+      "dynasty": "宋"
+    },
+    {
+      "title": "清平乐",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=127",
+      "dynasty": "宋"
+    },
+    {
+      "title": "牡丹次白云韵·八六子",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=129",
+      "dynasty": "宋"
+    },
+    {
+      "title": "自度腔·被花恼",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=131",
+      "dynasty": "宋"
+    },
+    {
+      "title": "访牟存叟南漪钓隐·点绛唇",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=126",
+      "dynasty": "宋"
+    },
+    {
+      "title": "除夕·一枝春",
+      "anth": "绝妙好词",
+      "href": "../shicang-mingpian/view.html?s=jumiaohaoci&i=130",
+      "dynasty": "宋"
+    }
+  ],
+  "has_bio": false
+}

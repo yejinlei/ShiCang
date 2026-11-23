@@ -1,0 +1,80 @@
+{
+  "name": "钮",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "修塘谣",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4961",
+      "dynasty": "清"
+    },
+    {
+      "title": "感事",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4965",
+      "dynasty": "清"
+    },
+    {
+      "title": "春草",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4963",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋雨叹和杜少陵韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4962",
+      "dynasty": "清"
+    },
+    {
+      "title": "题方石居赠忍公用吴愧庵先生韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4964",
+      "dynasty": "清"
+    },
+    {
+      "title": "修塘谣",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2002",
+      "dynasty": "清"
+    },
+    {
+      "title": "感事",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2006",
+      "dynasty": "清"
+    },
+    {
+      "title": "春草",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2004",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋雨叹和杜少陵韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2003",
+      "dynasty": "清"
+    },
+    {
+      "title": "题方石居赠忍公用吴愧庵先生韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2005",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

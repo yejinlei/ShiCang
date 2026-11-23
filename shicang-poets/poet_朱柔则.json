@@ -1,0 +1,68 @@
+{
+  "name": "朱柔则",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "寄远曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6299",
+      "dynasty": "清"
+    },
+    {
+      "title": "方舟庐先姑墓感赋",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6302",
+      "dynasty": "清"
+    },
+    {
+      "title": "河渚观梅约顾女春山（春山，方舟妾。）",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6301",
+      "dynasty": "清"
+    },
+    {
+      "title": "送外之大梁",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6300",
+      "dynasty": "清"
+    },
+    {
+      "title": "寄远曲",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3340",
+      "dynasty": "清"
+    },
+    {
+      "title": "方舟庐先姑墓感赋",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3343",
+      "dynasty": "清"
+    },
+    {
+      "title": "河渚观梅约顾女春山（春山，方舟妾。）",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3342",
+      "dynasty": "清"
+    },
+    {
+      "title": "送外之大梁",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=3341",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

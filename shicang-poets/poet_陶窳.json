@@ -1,0 +1,92 @@
+{
+  "name": "陶窳",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 12,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "冬草",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4505",
+      "dynasty": "清"
+    },
+    {
+      "title": "古镜",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4504",
+      "dynasty": "清"
+    },
+    {
+      "title": "喜屈翁山远归",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4508",
+      "dynasty": "清"
+    },
+    {
+      "title": "望零丁洋寄怀友人",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4507",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋望",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4509",
+      "dynasty": "清"
+    },
+    {
+      "title": "送张超然",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4506",
+      "dynasty": "清"
+    },
+    {
+      "title": "冬草",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1546",
+      "dynasty": "清"
+    },
+    {
+      "title": "古镜",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1545",
+      "dynasty": "清"
+    },
+    {
+      "title": "喜屈翁山远归",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1549",
+      "dynasty": "清"
+    },
+    {
+      "title": "望零丁洋寄怀友人",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1548",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋望",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1550",
+      "dynasty": "清"
+    },
+    {
+      "title": "送张超然",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1547",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

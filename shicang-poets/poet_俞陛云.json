@@ -1,0 +1,62 @@
+{
+  "name": "俞陛云",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清末",
+  "d_order": 16,
+  "birthplace": "",
+  "style": "#795548",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 7,
+  "anthologies": [
+    "名篇精读",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "前调",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1402",
+      "dynasty": "清末"
+    },
+    {
+      "title": "浣溪沙",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1399",
+      "dynasty": "清末"
+    },
+    {
+      "title": "高阳台",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1400",
+      "dynasty": "清末"
+    },
+    {
+      "title": "忆苕溪旧游·前调",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=358",
+      "dynasty": "清末"
+    },
+    {
+      "title": "浣溪沙",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=355",
+      "dynasty": "清末"
+    },
+    {
+      "title": "重过陶然亭·浣溪沙",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=357",
+      "dynasty": "清末"
+    },
+    {
+      "title": "高阳台",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=356",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": false
+}

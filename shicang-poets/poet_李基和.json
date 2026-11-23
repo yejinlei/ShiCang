@@ -1,0 +1,68 @@
+{
+  "name": "李基和",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "戊寅中秋初度月下作",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3994",
+      "dynasty": "清"
+    },
+    {
+      "title": "柳絮",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3993",
+      "dynasty": "清"
+    },
+    {
+      "title": "登代郡城晚眺",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3991",
+      "dynasty": "清"
+    },
+    {
+      "title": "过鹤汀侍读斋以董文敏画",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3992",
+      "dynasty": "清"
+    },
+    {
+      "title": "戊寅中秋初度月下作",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1035",
+      "dynasty": "清"
+    },
+    {
+      "title": "柳絮",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1034",
+      "dynasty": "清"
+    },
+    {
+      "title": "登代郡城晚眺",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1032",
+      "dynasty": "清"
+    },
+    {
+      "title": "过鹤汀侍读斋以董文敏画",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1033",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

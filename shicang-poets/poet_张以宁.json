@@ -1,0 +1,92 @@
+{
+  "name": "张以宁",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 12,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "严陵钓台",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2034",
+      "dynasty": "明"
+    },
+    {
+      "title": "峨眉亭",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2030",
+      "dynasty": "明"
+    },
+    {
+      "title": "有感",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2035",
+      "dynasty": "明"
+    },
+    {
+      "title": "过辛稼轩神道",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2033",
+      "dynasty": "明"
+    },
+    {
+      "title": "送同年江学庭弟学文归建昌",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2032",
+      "dynasty": "明"
+    },
+    {
+      "title": "送重峰阮子敬南还",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2031",
+      "dynasty": "明"
+    },
+    {
+      "title": "严陵钓台",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=29",
+      "dynasty": "明"
+    },
+    {
+      "title": "峨眉亭",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=25",
+      "dynasty": "明"
+    },
+    {
+      "title": "有感",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=30",
+      "dynasty": "明"
+    },
+    {
+      "title": "过辛稼轩神道",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=28",
+      "dynasty": "明"
+    },
+    {
+      "title": "送同年江学庭弟学文归建昌",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=27",
+      "dynasty": "明"
+    },
+    {
+      "title": "送重峰阮子敬南还",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=26",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

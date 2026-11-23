@@ -1,0 +1,56 @@
+{
+  "name": "蒋平阶",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "禹陵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3611",
+      "dynasty": "清"
+    },
+    {
+      "title": "送李分虎之滇黔",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3612",
+      "dynasty": "清"
+    },
+    {
+      "title": "送罗梦章比部省亲还蜀",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_3610",
+      "dynasty": "清"
+    },
+    {
+      "title": "禹陵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=652",
+      "dynasty": "清"
+    },
+    {
+      "title": "送李分虎之滇黔",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=653",
+      "dynasty": "清"
+    },
+    {
+      "title": "送罗梦章比部省亲还蜀",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=651",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

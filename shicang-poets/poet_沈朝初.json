@@ -1,0 +1,56 @@
+{
+  "name": "沈朝初",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "收复汉中恭纪",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4243",
+      "dynasty": "清"
+    },
+    {
+      "title": "春兴",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4242",
+      "dynasty": "清"
+    },
+    {
+      "title": "过塘西",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4241",
+      "dynasty": "清"
+    },
+    {
+      "title": "收复汉中恭纪",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1284",
+      "dynasty": "清"
+    },
+    {
+      "title": "春兴",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1283",
+      "dynasty": "清"
+    },
+    {
+      "title": "过塘西",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1282",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

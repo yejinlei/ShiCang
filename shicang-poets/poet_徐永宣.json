@@ -1,0 +1,68 @@
+{
+  "name": "徐永宣",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 8,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "润州",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4868",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋日访朱锡鬯先生",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4870",
+      "dynasty": "清"
+    },
+    {
+      "title": "缲丝行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4867",
+      "dynasty": "清"
+    },
+    {
+      "title": "舟行即事用香山韵",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_4869",
+      "dynasty": "清"
+    },
+    {
+      "title": "润州",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1909",
+      "dynasty": "清"
+    },
+    {
+      "title": "秋日访朱锡鬯先生",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1911",
+      "dynasty": "清"
+    },
+    {
+      "title": "缲丝行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1908",
+      "dynasty": "清"
+    },
+    {
+      "title": "舟行即事用香山韵",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=1910",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,56 @@
+{
+  "name": "朱经",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "寡言",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5618",
+      "dynasty": "清"
+    },
+    {
+      "title": "惜日",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5620",
+      "dynasty": "清"
+    },
+    {
+      "title": "责己",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5619",
+      "dynasty": "清"
+    },
+    {
+      "title": "寡言",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2659",
+      "dynasty": "清"
+    },
+    {
+      "title": "惜日",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2661",
+      "dynasty": "清"
+    },
+    {
+      "title": "责己",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2660",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

@@ -1,0 +1,44 @@
+{
+  "name": "梁启超",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清末",
+  "d_order": 16,
+  "birthplace": "",
+  "style": "#795548",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 4,
+  "anthologies": [
+    "名篇精读",
+    "金元明清诗选"
+  ],
+  "works": [
+    {
+      "title": "少年中国说",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0775",
+      "dynasty": "明末清初"
+    },
+    {
+      "title": "读陆放翁集",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_0776",
+      "dynasty": "明末清初"
+    },
+    {
+      "title": "金缕曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_1431",
+      "dynasty": "清末"
+    },
+    {
+      "title": "丁未五月归国，旋复东渡，却寄沪上诸子。·金缕曲",
+      "anth": "金元明清诗选",
+      "href": "../shicang-mingpian/view.html?s=jin300&i=387",
+      "dynasty": "清末"
+    }
+  ],
+  "has_bio": false
+}

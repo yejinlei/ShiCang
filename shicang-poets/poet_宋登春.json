@@ -1,0 +1,80 @@
+{
+  "name": "宋登春",
+  "zi": "",
+  "hao": "",
+  "dynasty": "明",
+  "d_order": 12,
+  "birthplace": "",
+  "style": "#C0392B",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 10,
+  "anthologies": [
+    "名篇精读",
+    "明诗"
+  ],
+  "works": [
+    {
+      "title": "忆家",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2747",
+      "dynasty": "明"
+    },
+    {
+      "title": "望海",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2748",
+      "dynasty": "明"
+    },
+    {
+      "title": "登祝融峰",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2749",
+      "dynasty": "明"
+    },
+    {
+      "title": "秋日野望",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2745",
+      "dynasty": "明"
+    },
+    {
+      "title": "过古墓",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_2746",
+      "dynasty": "明"
+    },
+    {
+      "title": "忆家",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=743",
+      "dynasty": "明"
+    },
+    {
+      "title": "望海",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=744",
+      "dynasty": "明"
+    },
+    {
+      "title": "登祝融峰",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=745",
+      "dynasty": "明"
+    },
+    {
+      "title": "秋日野望",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=741",
+      "dynasty": "明"
+    },
+    {
+      "title": "过古墓",
+      "anth": "明诗",
+      "href": "../shicang-mingpian/view.html?s=mingshi&i=742",
+      "dynasty": "明"
+    }
+  ],
+  "has_bio": false
+}

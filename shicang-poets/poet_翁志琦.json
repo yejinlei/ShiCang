@@ -1,0 +1,92 @@
+{
+  "name": "翁志琦",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 12,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "反班婕妤怨歌行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5328",
+      "dynasty": "清"
+    },
+    {
+      "title": "外孙信儿至",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5329",
+      "dynasty": "清"
+    },
+    {
+      "title": "田氏紫荆里",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5333",
+      "dynasty": "清"
+    },
+    {
+      "title": "白发",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5332",
+      "dynasty": "清"
+    },
+    {
+      "title": "答女口号",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5330",
+      "dynasty": "清"
+    },
+    {
+      "title": "连夜梦归故乡醒后偶成",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5331",
+      "dynasty": "清"
+    },
+    {
+      "title": "反班婕妤怨歌行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2369",
+      "dynasty": "清"
+    },
+    {
+      "title": "外孙信儿至",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2370",
+      "dynasty": "清"
+    },
+    {
+      "title": "田氏紫荆里",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2374",
+      "dynasty": "清"
+    },
+    {
+      "title": "白发",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2373",
+      "dynasty": "清"
+    },
+    {
+      "title": "答女口号",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2371",
+      "dynasty": "清"
+    },
+    {
+      "title": "连夜梦归故乡醒后偶成",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2372",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

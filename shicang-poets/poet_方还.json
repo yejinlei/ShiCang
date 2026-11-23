@@ -1,0 +1,56 @@
+{
+  "name": "方还",
+  "zi": "",
+  "hao": "",
+  "dynasty": "清",
+  "d_order": 15,
+  "birthplace": "",
+  "style": "#2F6B52",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 6,
+  "anthologies": [
+    "名篇精读",
+    "清诗"
+  ],
+  "works": [
+    {
+      "title": "少年行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5844",
+      "dynasty": "清"
+    },
+    {
+      "title": "旧边诗九首",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5842",
+      "dynasty": "清"
+    },
+    {
+      "title": "镇海楼",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_5843",
+      "dynasty": "清"
+    },
+    {
+      "title": "少年行",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2885",
+      "dynasty": "清"
+    },
+    {
+      "title": "旧边诗九首",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2883",
+      "dynasty": "清"
+    },
+    {
+      "title": "镇海楼",
+      "anth": "清诗",
+      "href": "../shicang-mingpian/view.html?s=qingshi&i=2884",
+      "dynasty": "清"
+    }
+  ],
+  "has_bio": false
+}

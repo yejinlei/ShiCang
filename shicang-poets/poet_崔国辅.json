@@ -1,0 +1,104 @@
+{
+  "name": "崔国辅",
+  "zi": "",
+  "hao": "",
+  "dynasty": "唐",
+  "d_order": 5,
+  "birthplace": "",
+  "style": "#ae3a2b",
+  "school": "",
+  "years": "",
+  "bio": "",
+  "work_count": 14,
+  "anthologies": [
+    "万寿唐诗",
+    "名篇精读"
+  ],
+  "works": [
+    {
+      "title": "少年行",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=62",
+      "dynasty": "唐"
+    },
+    {
+      "title": "怨词",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=61",
+      "dynasty": "唐"
+    },
+    {
+      "title": "渭西别李仑",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=63",
+      "dynasty": "唐"
+    },
+    {
+      "title": "王孙游",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=60",
+      "dynasty": "唐"
+    },
+    {
+      "title": "白纻词",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=282",
+      "dynasty": "唐"
+    },
+    {
+      "title": "采莲曲",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=59",
+      "dynasty": "唐"
+    },
+    {
+      "title": "铜雀台",
+      "anth": "万寿唐诗",
+      "href": "../shicang-mingpian/view.html?s=wanshou&i=58",
+      "dynasty": "唐"
+    },
+    {
+      "title": "少年行",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6545",
+      "dynasty": "唐"
+    },
+    {
+      "title": "怨词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6544",
+      "dynasty": "唐"
+    },
+    {
+      "title": "渭西别李仑",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6546",
+      "dynasty": "唐"
+    },
+    {
+      "title": "王孙游",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6543",
+      "dynasty": "唐"
+    },
+    {
+      "title": "白纻词",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6744",
+      "dynasty": "唐"
+    },
+    {
+      "title": "采莲曲",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6542",
+      "dynasty": "唐"
+    },
+    {
+      "title": "铜雀台",
+      "anth": "名篇精读",
+      "href": "../shicang-jingdu/view.html?deep=deep_6541",
+      "dynasty": "唐"
+    }
+  ],
+  "has_bio": false
+}
