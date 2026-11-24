@@ -139,6 +139,20 @@ body.big .ch .zi{font-size:31px;}
 body.big .pline{margin-bottom:20px;}
 footer{max-width:880px;margin:0 auto;padding:26px;text-align:center;color:#a08a66;
   font-size:12.5px;letter-spacing:.14em;position:relative;z-index:2;}
+.deepread{margin:34px auto 0;max-width:720px;text-align:left;}
+.dr-sec{margin:0 0 24px;padding:18px 22px;background:rgba(255,255,255,.5);border:1px solid var(--rule);border-radius:8px;}
+.dr-sec h3{font-family:'STKaiti','KaiTi',serif;font-size:17px;color:var(--main);letter-spacing:.1em;margin:0 0 12px;padding-left:12px;border-left:3px solid var(--seal);}
+.dr-sec p{font-size:15px;line-height:2;color:var(--ink);margin:0 0 8px;text-indent:2em;letter-spacing:.02em;}
+.st-blocks{display:flex;flex-direction:column;gap:12px;}
+.st-b{padding:10px 14px;background:rgba(139,47,47,.04);border-radius:6px;}
+.st-b h5{font-family:'STKaiti',serif;font-size:15px;color:var(--main);margin:0 0 6px;letter-spacing:.08em;}
+.st-b p{font-size:14px;line-height:1.9;color:var(--ink2);margin:0 0 6px;text-indent:0;}
+.st-b blockquote{margin:0;font-family:'STKaiti','KaiTi',serif;font-size:14.5px;color:#7a6a52;line-height:1.9;padding-left:10px;border-left:2px solid var(--rule);}
+.img-tags{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px;}
+.img-tag{display:inline-block;padding:3px 12px;background:var(--main);color:#f7f1e3;border-radius:14px;font-family:'STKaiti',serif;font-size:13.5px;letter-spacing:.06em;}
+.img-list{margin:0;padding-left:20px;}
+.img-list li{font-size:14px;line-height:1.9;color:var(--ink);margin-bottom:6px;}
+.img-list li b{color:var(--main);}
 .loading{text-align:center;color:#a08a66;letter-spacing:.3em;padding:70px 0;font-family:'STKaiti',serif;}
 </style>
 </head>
@@ -174,6 +188,7 @@ footer{max-width:880px;margin:0 auto;padding:26px;text-align:center;color:#a08a6
   </div>
   <div class="note-line" id="note" style="display:none"></div>
   <div class="deepbox" id="deepbox" style="display:none"></div>
+  <div class="deepread" id="deepread" style="display:none"></div>
 </main>
 <div class="pn" id="pn"></div>
 <footer>诗藏本体论 · 名篇集萃</footer>
@@ -277,12 +292,13 @@ function renderMeta(p){
   $('h1').textContent = p.title + (p.subtitle ? '　' + p.subtitle : '');
   $('sub').innerHTML = (p.dynasty||'') + (p.author?'<span class="dot">·</span>'+p.author:'') + '<span class="dot">·</span>' + (p.genre||'诗');
   const lab = MODE==='anth' ? (ANTH_SLUG[aslug] || p.main_a) : p.main_a;
-  $('anth-name').textContent = '诗藏 · ' + lab;
+  const _an = $('anth-name'); if (_an) _an.textContent = '诗藏 · ' + lab;
   $('from').innerHTML = '选自《' + (p.main_a||lab) + '》';
   document.getElementById('seal').textContent = p.genre === '词' ? '詞' : (p.genre==='曲'?'曲':(p.genre==='辞'||p.genre==='赋'?'賦':(p.genre==='文'?'文':'詩')));
   if (p.note){
     $('note').style.display = 'block';
-    $('note').innerHTML = '<span class="lab">選家評曰　</span>' + p.note;
+    const lab = /【/.test(p.note) ? '注釋　' : '選家評曰　';
+    $('note').innerHTML = '<span class="lab">' + lab + '</span>' + p.note.replace(/\n/g,'　');
   } else {
     $('note').style.display = 'none';
   }
@@ -294,6 +310,16 @@ function renderMeta(p){
     $('deepbox').innerHTML = '<span style="color:var(--gold);font-size:13px;">兼见：' + p.anthologies.slice(1).map(a=>'《'+a+'》').join('　') + '</span>';
   } else {
     $('deepbox').style.display = 'none';
+  }
+  const dr = $('deepread');
+  if (dr){
+    let h = '';
+    if (p.appr) h += '<section class="dr-sec"><h3>赏析</h3><p>' + p.appr + '</p></section>';
+    if (p.st) h += '<section class="dr-sec"><h3>章法结构</h3>' + p.st + '</section>';
+    if (p.img) h += '<section class="dr-sec"><h3>意象</h3>' + p.img + '</section>';
+    if (p.bg) h += '<section class="dr-sec"><h3>作者与背景</h3>' + p.bg + '</section>';
+    if (p.theme) h += '<section class="dr-sec"><h3>主旨</h3><p>' + p.theme + '</p></section>';
+    if (h){ dr.innerHTML = h; dr.style.display = 'block'; } else { dr.style.display = 'none'; }
   }
   document.title = p.title + ' · 名篇精读 · 诗藏';
 }
