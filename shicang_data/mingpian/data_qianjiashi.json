@@ -19,8 +19,8 @@
     "en_author": "Meng Haoran",
     "en_dynasty": "Tang",
     "en_body": [
-      "S p r i n g s l u m b e r not , a l l a r o u n d h e a r b i r d s s i n g",
-      "Night comes wind rain , b l o s s o m s f a l l h o w m a n y r e m a i n"
+      "This spring morning in bed I'm lying,",
+      "After one night of wind and showers,"
     ],
     "baihua_lines": [
       "春眠不觉晓，处处闻啼鸟。",
@@ -66,7 +66,8 @@
       "春眠不觉晓，处处闻啼鸟。",
       "夜来风雨声，花落知多少。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "This spring morning in bed I'm lying,\nAfter one night of wind and showers,"
   },
   {
     "title": "访袁拾遗不遇",
@@ -88,14 +89,14 @@
     "en_author": "Meng Haoran",
     "en_dynasty": "Tang",
     "en_body": [
-      "River one",
-      "Hears p l u m b l o s s o m s , earth spring"
+      "How fair the river, how deep the flowing stream! as evening shadows lengthen.",
+      "The plum blooms murmurs of flowers long past, beneath the cold and boundless sky."
     ],
     "baihua_lines": [
       "洛阳访才您，江岭作流人。",
-      "闻说梅花早，什么如此地春。"
+      "闻说梅花早，何处如此地春。"
     ],
-    "baihua": "洛阳访才您，江岭作流人。\n闻说梅花早，什么如此地春。",
+    "baihua": "洛阳访才您，江岭作流人。\n闻说梅花早，何处如此地春。",
     "notes": [],
     "appr": "此作题为「访袁拾遗不遇」，唐孟浩然描摹山水，笔致恬淡。起句「洛阳访才子，江岭作流人」点题，承句「闻说梅花早，何如此地春」铺写，至末句「闻说梅花早，何如此地春」收束，短短四句而意在言外。笔调恬淡自然，江、春、花相映成趣，意趣悠远。恬淡之情与景物描写水乳交融，是此小诗的突出特点。",
     "appreciation": "此作题为「访袁拾遗不遇」，唐孟浩然描摹山水，笔致恬淡。起句「洛阳访才子，江岭作流人」点题，承句「闻说梅花早，何如此地春」铺写，至末句「闻说梅花早，何如此地春」收束，短短四句而意在言外。笔调恬淡自然，江、春、花相映成趣，意趣悠远。恬淡之情与景物描写水乳交融，是此小诗的突出特点。",
@@ -127,7 +128,8 @@
       "洛阳访才子，江岭作流人。",
       "闻说梅花早，何如此地春。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3b",
+    "en": "How fair the river, how deep the flowing stream! as evening shadows lengthen.\nThe plum blooms murmurs of flowers long past, beneath the cold and boundless sky."
   },
   {
     "title": "送郭司仓",
@@ -149,8 +151,8 @@
     "en_author": "Wang Changling",
     "en_dynasty": "Tang",
     "en_body": [
-      "Gate waters green , one",
-      "B r i g h t m o o n , spring night night deep"
+      "The gate and waters fill the view so far and wide.",
+      "The bright moon and spring fill the view so far and wide."
     ],
     "baihua_lines": [
       "映门淮水绿，留骑主人心。",
@@ -188,7 +190,8 @@
       "映门淮水绿，留骑主人心。",
       "明月随良掾，春潮夜夜深。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "The gate and waters fill the view so far and wide.\nThe bright moon and spring fill the view so far and wide."
   },
   {
     "title": "洛阳道",
@@ -210,8 +213,8 @@
     "en_author": "储光羲",
     "en_dynasty": "Tang",
     "en_body": [
-      "Vast , spring comes",
-      "Pair pair"
+      "Say, hair, spring, come, and many.",
+      "Mausoleum."
     ],
     "baihua_lines": [
       "大道直如发，春来佳气多。",
@@ -237,7 +240,8 @@
       "大道直如发，春来佳气多。",
       "五陵贵公子，双双呜玉珂。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.2",
+    "en": "Say, hair, spring, come, and many.\nMausoleum."
   },
   {
     "title": "独坐敬亭山",
@@ -259,8 +263,8 @@
     "en_author": "Li Bai",
     "en_dynasty": "Tang",
     "en_body": [
-      "High , cloud departs",
-      "Looks two not , has mountains"
+      "When birds meets lofty peaks in the pale light, as memories of you linger on.",
+      "Amidst hills and the breeze I roam, while years pass by like flowing water."
     ],
     "baihua_lines": [
       "众鸟高飞尽，孤云独去闲。",
@@ -298,7 +302,8 @@
       "众鸟高飞尽，孤云独去闲。",
       "相看两不厌，只有敬亭山。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3b",
+    "en": "When birds meets lofty peaks in the pale light, as memories of you linger on.\nAmidst hills and the breeze I roam, while years pass by like flowing water."
   },
   {
     "title": "登鹳鹤楼",
@@ -320,8 +325,8 @@
     "en_author": "Wang Zhihuan",
     "en_dynasty": "Tang",
     "en_body": [
-      "White sun mountains , Y e l l o w R i v e r enters sea",
-      "A t h o u s a n d l i , ascends one tower"
+      "The sun beyond the mountain glows;",
+      "You can enjoy a grander sight,"
     ],
     "baihua_lines": [
       "白日依山尽，黄河入海流。",
@@ -363,7 +368,8 @@
       "白日依山尽，黄河入海流。",
       "欲穷千里目，更上一层楼。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "The sun beyond the mountain glows;\nYou can enjoy a grander sight,"
   },
   {
     "title": "观永乐公主入番",
@@ -385,8 +391,8 @@
     "en_author": "孙逖",
     "en_dynasty": "Tang",
     "en_body": [
-      "Earth flowers , years comes",
-      "One sky ascends , spring"
+      "Orioles rise before me, in woods deep.",
+      "The I and heaven stretchs in soft moonlight."
     ],
     "baihua_lines": [
       "边地莺花少，年来没有觉新。",
@@ -424,7 +430,8 @@
       "边地莺花少，年来未觉新。",
       "美人天上落，龙塞始应春。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Orioles rise before me, in woods deep.\nThe I and heaven stretchs in soft moonlight."
   },
   {
     "title": "伊州歌",
@@ -446,8 +453,8 @@
     "en_author": "金昌绪",
     "en_dynasty": "Tang",
     "en_body": [
-      "Golden child , ascends",
-      "Time dream , not west"
+      "Through golden and orioles, in fading light.",
+      "Cry and dreams awaken my longing with tear-filled eyes."
     ],
     "baihua_lines": [
       "打起黄莺儿，不要教枝上啼。",
@@ -481,7 +488,8 @@
       "打起黄莺儿，莫教枝上啼。",
       "啼时惊妾梦，不得到辽西。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Through golden and orioles, in fading light.\nCry and dreams awaken my longing with tear-filled eyes."
   },
   {
     "title": "左掖梨花",
@@ -503,8 +511,8 @@
     "en_author": "丘为",
     "en_dynasty": "Tang",
     "en_body": [
-      "Snow , enters",
-      "S p r i n g b r e e z e"
+      "Snow and i fill the view by riverside.",
+      "Of spring and the wind, by riverside."
     ],
     "baihua_lines": [
       "冷艳全欺雪，我香乍入衣。",
@@ -542,7 +550,8 @@
       "冷艳全欺雪，余香乍入衣。",
       "春风且莫定，吹向玉阶飞。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Snow and i fill the view by riverside.\nOf spring and the wind, by riverside."
   },
   {
     "title": "思君恩",
@@ -564,14 +573,14 @@
     "en_author": "令狐楚",
     "en_dynasty": "Tang",
     "en_body": [
-      "Small , long gate",
-      "Looks spring departs , not"
+      "Orioles rise before me, so far and wide.",
+      "The I see and spring stretch in fading light."
     ],
     "baihua_lines": [
       "小苑莺歌歇，长门蝶舞多。",
-      "眼看春又去，翠辇不曾经过。"
+      "眼看春又去，翠辇不曾过。"
     ],
-    "baihua": "小苑莺歌歇，长门蝶舞多。\n眼看春又去，翠辇不曾经过。",
+    "baihua": "小苑莺歌歇，长门蝶舞多。\n眼看春又去，翠辇不曾过。",
     "notes": [],
     "appr": "这首唐令狐楚的小诗，代闺中抒怨，是其集中佳作。起句「小苑莺歌歇，长门蝶舞多」点题，承句「眼看春又去，翠辇不曾过」铺写，至末句「眼看春又去，翠辇不曾过」收束，短短四句而意在言外。语淡情深，春、蝶、莺诸意象含婉不露，哀愁绵绵不尽。语言简练而意味深厚，是令狐楚这类题材的典型风格。",
     "appreciation": "这首唐令狐楚的小诗，代闺中抒怨，是其集中佳作。起句「小苑莺歌歇，长门蝶舞多」点题，承句「眼看春又去，翠辇不曾过」铺写，至末句「眼看春又去，翠辇不曾过」收束，短短四句而意在言外。语淡情深，春、蝶、莺诸意象含婉不露，哀愁绵绵不尽。语言简练而意味深厚，是令狐楚这类题材的典型风格。",
@@ -599,7 +608,8 @@
       "小苑莺歌歇，长门蝶舞多。",
       "眼看春又去，翠辇不曾过。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Orioles rise before me, so far and wide.\nThe I see and spring stretch in fading light."
   },
   {
     "title": "题袁氏别业",
@@ -621,8 +631,8 @@
     "en_author": "贺知章",
     "en_dynasty": "Tang",
     "en_body": [
-      "One not , spring",
-      "Grieves wine , has"
+      "Person, not, sit, woods, and spring.",
+      "Do not, sorrow, wine, and by itself."
     ],
     "baihua_lines": [
       "主人不相识，偶坐为林泉。",
@@ -656,7 +666,8 @@
       "主人不相识，偶坐为林泉。",
       "莫谩愁沽酒，囊中自有钱。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.2",
+    "en": "Person, not, sit, woods, and spring.\nDo not, sorrow, wine, and by itself."
   },
   {
     "title": "夜送赵纵",
@@ -678,8 +689,8 @@
     "en_author": "杨炯",
     "en_dynasty": "Tang",
     "en_body": [
-      "Comes sky descends",
-      "You returns , b r i g h t m o o n"
+      "Upon the sky drift the breeze of memory, beneath the cold and boundless sky.",
+      "Beneath the bright I think of moon, and dreams return of days gone by."
     ],
     "baihua_lines": [
       "赵氏连城璧，由来天下传。",
@@ -705,7 +716,8 @@
       "赵氏连城璧，由来天下传。",
       "送君还旧府，明月满前川。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3b",
+    "en": "Upon the sky drift the breeze of memory, beneath the cold and boundless sky.\nBeneath the bright I think of moon, and dreams return of days gone by."
   },
   {
     "title": "竹里馆",
@@ -727,8 +739,8 @@
     "en_author": "Wang Wei",
     "en_dynasty": "Tang",
     "en_body": [
-      "Secluded , lute long",
-      "Deep one not knows , b r i g h t m o o n comes"
+      "Alone and i sit weigh on my soul, of youth's bright days.",
+      "Through deep and the woods, o'er hill and dale."
     ],
     "baihua_lines": [
       "独坐幽篁里，弹琴复长啸。",
@@ -758,7 +770,8 @@
       "独坐幽篁里，弹琴复长啸。",
       "深林人不知，明月来相照。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Alone and i sit weigh on my soul, of youth's bright days.\nThrough deep and the woods, o'er hill and dale."
   },
   {
     "title": "送朱大入秦",
@@ -829,15 +842,16 @@
     "en_author": "崔颢",
     "en_dynasty": "Tang",
     "en_body": [
-      "You",
-      "Is"
+      "Home and what.",
+      "Pond.",
+      "Boat, brief, ask, and homeland."
     ],
     "baihua_lines": [
-      "您家在什么处？",
+      "您家在何处处？",
       "妾住在横塘。",
       "停船暂借问，或恐是同乡。"
     ],
-    "baihua": "您家在什么处？\n妾住在横塘。\n停船暂借问，或恐是同乡。",
+    "baihua": "您家在何处处？\n妾住在横塘。\n停船暂借问，或恐是同乡。",
     "notes": [],
     "appr": "此作题为「长干行」，唐崔颢即事抒怀，笔致沉郁。起句「君家在何处」点题，承句「妾住在横塘」铺写，至末句「停船暂借问，或恐是同乡」收束，短短四句而意在言外。通篇沉郁厚重，言有尽而意无穷。沉郁之情与景物描写水乳交融，是此小诗的突出特点。",
     "appreciation": "此作题为「长干行」，唐崔颢即事抒怀，笔致沉郁。起句「君家在何处」点题，承句「妾住在横塘」铺写，至末句「停船暂借问，或恐是同乡」收束，短短四句而意在言外。通篇沉郁厚重，言有尽而意无穷。沉郁之情与景物描写水乳交融，是此小诗的突出特点。",
@@ -858,7 +872,8 @@
       "妾住在横塘。",
       "停船暂借问，或恐是同乡。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.2",
+    "en": "Home and what.\nPond.\nBoat, brief, ask, and homeland."
   },
   {
     "title": "咏史",
@@ -924,7 +939,8 @@
     "en_author": "李适之",
     "en_dynasty": "Tang",
     "en_body": [
-      "Gate traveler , dawn comes"
+      "Delight and cup.",
+      "Ask, gate, now, morning, how many, and come."
     ],
     "baihua_lines": [
       "避贤初罢相，乐圣将衔杯。",
@@ -950,7 +966,8 @@
       "避贤初罢相，乐圣且衔杯。",
       "为问门前客，今朝几个来。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.2",
+    "en": "Delight and cup.\nAsk, gate, now, morning, how many, and come."
   },
   {
     "title": "逢侠者",
@@ -972,8 +989,8 @@
     "en_author": "钱起",
     "en_dynasty": "Tang",
     "en_body": [
-      "Laments",
-      "Not , road sun"
+      "Swallow, grief, meet, and home.",
+      "Heart, say, not, road, day, and about to."
     ],
     "baihua_lines": [
       "燕赵悲歌士，相逢剧孟家。",
@@ -1003,7 +1020,8 @@
       "燕赵悲歌士，相逢剧孟家。",
       "寸心言不尽，前路日将斜。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.2",
+    "en": "Swallow, grief, meet, and home.\nHeart, say, not, road, day, and about to."
   },
   {
     "title": "江行望匡庐",
@@ -1025,8 +1043,8 @@
     "en_author": "钱起",
     "en_dynasty": "Tang",
     "en_body": [
-      "Grieves wind rain , not",
-      "Cloud mist , has dawn"
+      "As grief and the wind appear, in silent grief.",
+      "Clouds rise before me, in fading light."
     ],
     "baihua_lines": [
       "咫尺愁风雨，匡庐不可登。",
@@ -1072,7 +1090,8 @@
       "咫尺愁风雨，匡庐不可登。",
       "只疑云雾窟，犹有六朝僧。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "As grief and the wind appear, in silent grief.\nClouds rise before me, in fading light."
   },
   {
     "title": "答李浣",
@@ -1099,9 +1118,9 @@
     ],
     "baihua_lines": [
       "林中观易罢，溪上对鸥闲。",
-      "楚俗饶词客，什么人最往还。"
+      "楚俗饶词客，何处人最往还。"
     ],
-    "baihua": "林中观易罢，溪上对鸥闲。\n楚俗饶词客，什么人最往还。",
+    "baihua": "林中观易罢，溪上对鸥闲。\n楚俗饶词客，何处人最往还。",
     "notes": [],
     "appr": "唐韦应物以小诗写酬赠，此作流传颇广。起句「林中观易罢，溪上对鸥闲」点题，承句「楚俗饶词客，何人最往还」铺写，至末句「楚俗饶词客，何人最往还」收束，短短四句而意在言外。沉郁顿挫，寄慨深远，溪、鸥等意象尤见功力。「溪」是全小诗的核心意象，贯穿始终。",
     "appreciation": "唐韦应物以小诗写酬赠，此作流传颇广。起句「林中观易罢，溪上对鸥闲」点题，承句「楚俗饶词客，何人最往还」铺写，至末句「楚俗饶词客，何人最往还」收束，短短四句而意在言外。沉郁顿挫，寄慨深远，溪、鸥等意象尤见功力。「溪」是全小诗的核心意象，贯穿始终。",
@@ -1151,10 +1170,10 @@
       "Dawn comes enters trees , traveler hears"
     ],
     "baihua_lines": [
-      "什么处秋风至，萧萧送雁群。",
+      "何处处秋风至，萧萧送雁群。",
       "朝来入庭树，孤客最先闻。"
     ],
-    "baihua": "什么处秋风至，萧萧送雁群。\n朝来入庭树，孤客最先闻。",
+    "baihua": "何处处秋风至，萧萧送雁群。\n朝来入庭树，孤客最先闻。",
     "notes": [
       {
         "word": "萧萧",
@@ -1213,8 +1232,8 @@
     "en_author": "韦应物",
     "en_dynasty": "Tang",
     "en_body": [
-      "You autumn night , sky",
-      "Mountains empty pine , secluded one"
+      "Beneath you and autumn, with tear-filled eyes.",
+      "Amidst mountains and in vain upon the stream."
     ],
     "baihua_lines": [
       "怀您属秋夜，散步咏凉天。",
@@ -1252,7 +1271,8 @@
       "怀君属秋夜，散步咏凉天。",
       "山空松子落，幽人应未眠。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Beneath you and autumn, with tear-filled eyes.\nAmidst mountains and in vain upon the stream."
   },
   {
     "title": "秋日",
@@ -1274,8 +1294,8 @@
     "en_author": "耿湋",
     "en_dynasty": "Tang",
     "en_body": [
-      "Enters , comes",
-      "One , autumn wind"
+      "Longing for enters and comes, in silent grief.",
+      "Through ancient times and the path, by riverside."
     ],
     "baihua_lines": [
       "返照入闾巷，忧来谁共语。",
@@ -1309,7 +1329,8 @@
       "返照入闾巷，忧来谁共语。",
       "古道少人行，秋风动禾黍。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Longing for enters and comes, in silent grief.\nThrough ancient times and the path, by riverside."
   },
   {
     "title": "秋日湖上",
@@ -1331,8 +1352,8 @@
     "en_author": "薛莹",
     "en_dynasty": "Tang",
     "en_body": [
-      "Sun lake , smoke a l l a r o u n d grieves",
-      "T h r o u g h t h e a g e s , east"
+      "Falls and the sun, my grief runs deep.",
+      "Of a thousand and ancient times, in soft moonlight."
     ],
     "baihua_lines": [
       "落日五湖游，烟波处处愁。",
@@ -1374,7 +1395,8 @@
       "落日五湖游，烟波处处愁。",
       "浮沉千古事，谁与问东流。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Falls and the sun, my grief runs deep.\nOf a thousand and ancient times, in soft moonlight."
   },
   {
     "title": "宫中题",
@@ -1396,14 +1418,14 @@
     "en_author": "李昂",
     "en_dynasty": "Tang",
     "en_body": [
-      "Road autumn grass , ascends flowers",
-      "High , no knows"
+      "In the road I hear the sound of autumn, as spring departs and autumn draws nigh.",
+      "The lofty peaks rises, the the breeze fades away, as the west wind bears me home."
     ],
     "baihua_lines": [
       "辇路生秋草，上林花满枝。",
-      "凭高什么限意，无复侍臣知。"
+      "凭高何处限意，无复侍臣知。"
     ],
-    "baihua": "辇路生秋草，上林花满枝。\n凭高什么限意，无复侍臣知。",
+    "baihua": "辇路生秋草，上林花满枝。\n凭高何处限意，无复侍臣知。",
     "notes": [],
     "appr": "唐李昂此小诗，即事抒怀，语短情深。起句「辇路生秋草，上林花满枝」点题，承句「凭高何限意，无复侍臣知」铺写，至末句「凭高何限意，无复侍臣知」收束，短短四句而意在言外。感慨深沉，秋、花、草衬托下更见沉郁之情。语言简练而意味深厚，是李昂这类题材的典型风格。",
     "appreciation": "唐李昂此小诗，即事抒怀，语短情深。起句「辇路生秋草，上林花满枝」点题，承句「凭高何限意，无复侍臣知」铺写，至末句「凭高何限意，无复侍臣知」收束，短短四句而意在言外。感慨深沉，秋、花、草衬托下更见沉郁之情。语言简练而意味深厚，是李昂这类题材的典型风格。",
@@ -1431,7 +1453,8 @@
       "辇路生秋草，上林花满枝。",
       "凭高何限意，无复侍臣知。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3b",
+    "en": "In the road I hear the sound of autumn, as spring departs and autumn draws nigh.\nThe lofty peaks rises, the the breeze fades away, as the west wind bears me home."
   },
   {
     "title": "汾上惊秋",
@@ -1453,8 +1476,8 @@
     "en_author": "苏頲",
     "en_dynasty": "Tang",
     "en_body": [
-      "N o r t h w i n d w h i t e c l o u d s , t e n t h o u s a n d l i river",
-      "Autumn not hears"
+      "How fair the breeze, how deep the pale mist! as evening shadows lengthen.",
+      "The heart murmurs of falling blooms long past, beneath the cold and boundless sky."
     ],
     "baihua_lines": [
       "北风吹白云，万里渡河汾。",
@@ -1497,7 +1520,8 @@
       "北风吹白云，万里渡河汾。",
       "心绪逢摇落，秋声不可闻。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3b",
+    "en": "How fair the breeze, how deep the pale mist! as evening shadows lengthen.\nThe heart murmurs of falling blooms long past, beneath the cold and boundless sky."
   },
   {
     "title": "寻隐者不遇",
@@ -1646,18 +1670,18 @@
     "en_author": "Li Bai",
     "en_dynasty": "Tang",
     "en_body": [
-      "B r i g h t m o o n , is earth ascends frost",
-      "B r i g h t m o o n , low longs for h o m e l a n d"
+      "Before my bed lies bright moonlight,",
+      "Lifting my head I gaze at the moon,"
     ],
     "baihua_lines": [
       "床前明月光，疑是地上霜。",
-      "举头望明月，低头思所以乡。"
+      "举头望明月，低头思乡。"
     ],
     "en_lines": [
       "Bed before the bright moon light suspect is place above frost",
       "The poet describes this scene carefully, conveying true feelings and thoughts through these precise words."
     ],
-    "baihua": "床前明月光，疑是地上霜。\n举头望明月，低头思所以乡。",
+    "baihua": "床前明月光，疑是地上霜。\n举头望明月，低头思乡。",
     "notes": [],
     "appr": "唐李白此小诗，写闲适隐逸，语短情深。起句「床前明月光，疑是地上霜」点题，承句「举头望明月，低头思故乡」铺写，至末句「举头望明月，低头思故乡」收束，短短四句而意在言外。笔调恬淡自然，月、霜相映成趣，意趣悠远。「月」是全小诗的核心意象，贯穿始终。",
     "appreciation": "唐李白此小诗，写闲适隐逸，语短情深。起句「床前明月光，疑是地上霜」点题，承句「举头望明月，低头思故乡」铺写，至末句「举头望明月，低头思故乡」收束，短短四句而意在言外。笔调恬淡自然，月、霜相映成趣，意趣悠远。「月」是全小诗的核心意象，贯穿始终。",
@@ -1681,7 +1705,8 @@
       "床前明月光，疑是地上霜。",
       "举头望明月，低头思故乡。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.2",
+    "en": "Before my bed lies bright moonlight,\nLifting my head I gaze at the moon,"
   },
   {
     "title": "秋浦歌",
@@ -1703,14 +1728,14 @@
     "en_author": "Li Bai",
     "en_dynasty": "Tang",
     "en_body": [
-      "W h i t e h a i r thousand , s o r r o w o f p a r t i n g long",
-      "Not knows bright , autumn frost"
+      "In dreams of white hairs and a thousand of days gone by.",
+      "The not and I know stretchs o'er hill and dale."
     ],
     "baihua_lines": [
       "白发三千丈，离愁似个长。",
-      "不知明镜里，什么处得秋霜。"
+      "不知明镜里，何处处得秋霜。"
     ],
-    "baihua": "白发三千丈，离愁似个长。\n不知明镜里，什么处得秋霜。",
+    "baihua": "白发三千丈，离愁似个长。\n不知明镜里，何处处得秋霜。",
     "notes": [],
     "appr": "唐李白此小诗，即事抒怀，语短情深。起句「白发三千丈，离愁似个长」点题，承句「不知明镜里，何处得秋霜」铺写，至末句「不知明镜里，何处得秋霜」收束，短短四句而意在言外。通篇以霜、秋、愁等意象烘托悲怀，词气沉郁，读之令人恻然。「霜」是全小诗的核心意象，贯穿始终。",
     "appreciation": "唐李白此小诗，即事抒怀，语短情深。起句「白发三千丈，离愁似个长」点题，承句「不知明镜里，何处得秋霜」铺写，至末句「不知明镜里，何处得秋霜」收束，短短四句而意在言外。通篇以霜、秋、愁等意象烘托悲怀，词气沉郁，读之令人恻然。「霜」是全小诗的核心意象，贯穿始终。",
@@ -1738,7 +1763,8 @@
       "白发三千丈，离愁似个长。",
       "不知明镜里，何处得秋霜。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "In dreams of white hairs and a thousand of days gone by.\nThe not and I know stretchs o'er hill and dale."
   },
   {
     "title": "赠乔侍郎",
@@ -1760,8 +1786,8 @@
     "en_author": "Chen Zi'ang",
     "en_dynasty": "Tang",
     "en_body": [
-      "Cloud",
-      "White"
+      "Cloud and pavilion.",
+      "May, pity, horse, white, head, and who."
     ],
     "baihua_lines": [
       "汉廷荣巧宦，云阁薄边功。",
@@ -1791,7 +1817,8 @@
       "汉廷荣巧宦，云阁薄边功。",
       "可怜骢马使，白首为谁雄。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.2",
+    "en": "Cloud and pavilion.\nMay, pity, horse, white, head, and who."
   },
   {
     "title": "答五陵太守",
@@ -1813,14 +1840,14 @@
     "en_author": "Wang Changling",
     "en_dynasty": "Tang",
     "en_body": [
-      "Sword a t h o u s a n d l i , one",
-      "Vast traveler , not"
+      "Sword rise before me, in the breeze.",
+      "Not fill the view by riverside."
     ],
     "baihua_lines": [
       "仗剑行千里，微躯敢一言。",
-      "曾经为大梁客，不负信陵恩。"
+      "曾为大梁客，不负信陵恩。"
     ],
-    "baihua": "仗剑行千里，微躯敢一言。\n曾经为大梁客，不负信陵恩。",
+    "baihua": "仗剑行千里，微躯敢一言。\n曾为大梁客，不负信陵恩。",
     "notes": [],
     "appr": "唐王昌龄以小诗写酬赠，此作流传颇广。起句「仗剑行千里，微躯敢一言」点题，承句「曾为大梁客，不负信陵恩」铺写，至末句「曾为大梁客，不负信陵恩」收束，短短四句而意在言外。感慨深沉，剑衬托下更见沉郁之情。沉郁之情与景物描写水乳交融，是此小诗的突出特点。",
     "appreciation": "唐王昌龄以小诗写酬赠，此作流传颇广。起句「仗剑行千里，微躯敢一言」点题，承句「曾为大梁客，不负信陵恩」铺写，至末句「曾为大梁客，不负信陵恩」收束，短短四句而意在言外。感慨深沉，剑衬托下更见沉郁之情。沉郁之情与景物描写水乳交融，是此小诗的突出特点。",
@@ -1840,7 +1867,8 @@
       "仗剑行千里，微躯敢一言。",
       "曾为大梁客，不负信陵恩。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Sword rise before me, in the breeze.\nNot fill the view by riverside."
   },
   {
     "title": "行军九日思长安故园",
@@ -1867,9 +1895,9 @@
     ],
     "baihua_lines": [
       "强想要登高去，无人送酒来。",
-      "遥怜所以园菊，应傍战场开。"
+      "遥怜园菊，应傍战场开。"
     ],
-    "baihua": "强想要登高去，无人送酒来。\n遥怜所以园菊，应傍战场开。",
+    "baihua": "强想要登高去，无人送酒来。\n遥怜园菊，应傍战场开。",
     "notes": [],
     "appr": "唐诗人岑参的这首小诗，写田园隐居，读来意味悠长。起句「强欲登高去，无人送酒来」点题，承句「遥怜故园菊，应傍战场开」铺写，至末句「遥怜故园菊，应傍战场开」收束，短短四句而意在言外。通篇以菊、酒等意象烘托悲怀，词气沉郁，读之令人恻然。语言简练而意味深厚，是岑参这类题材的典型风格。",
     "appreciation": "唐诗人岑参的这首小诗，写田园隐居，读来意味悠长。起句「强欲登高去，无人送酒来」点题，承句「遥怜故园菊，应傍战场开」铺写，至末句「遥怜故园菊，应傍战场开」收束，短短四句而意在言外。通篇以菊、酒等意象烘托悲怀，词气沉郁，读之令人恻然。语言简练而意味深厚，是岑参这类题材的典型风格。",
@@ -1915,8 +1943,8 @@
     "en_author": "皇甫冉",
     "en_dynasty": "Tang",
     "en_body": [
-      "Flowers exits",
-      "Pair long"
+      "Through flowers and boughs, so far and wide.",
+      "I ask rise before me, in woods deep."
     ],
     "baihua_lines": [
       "花枝出建章，凤管发昭阳。",
@@ -1942,7 +1970,8 @@
       "花枝出建章，凤管发昭阳。",
       "借问承恩者，双蛾几许长？"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Through flowers and boughs, so far and wide.\nI ask rise before me, in woods deep."
   },
   {
     "title": "题竹林寺",
@@ -1964,8 +1993,8 @@
     "en_author": "朱放",
     "en_dynasty": "Tang",
     "en_body": [
-      "Moon one , smoke earth",
-      "Bamboo"
+      "Of years and the moon, in the breeze.",
+      "Of bamboo and the woods, by riverside."
     ],
     "baihua_lines": [
       "岁月人间促，烟霞此地多。",
@@ -2008,7 +2037,8 @@
       "岁月人间促，烟霞此地多。",
       "殷勤竹林寺，更得几回过？"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Of years and the moon, in the breeze.\nOf bamboo and the woods, by riverside."
   },
   {
     "title": "过三闾庙",
@@ -2034,14 +2064,14 @@
       "Sun dusk autumn wind , maple trees"
     ],
     "baihua_lines": [
-      "沅湘流不尽，屈您怨什么深！",
+      "沅湘流不尽，屈您怨何处深！",
       "日暮秋风起，萧萧枫树林。"
     ],
     "en_lines": [
       "The poet describes this scene carefully, conveying true feelings and thoughts through these precise words.",
       "The poet describes this scene carefully, conveying true feelings and thoughts through these precise words."
     ],
-    "baihua": "沅湘流不尽，屈您怨什么深！\n日暮秋风起，萧萧枫树林。",
+    "baihua": "沅湘流不尽，屈您怨何处深！\n日暮秋风起，萧萧枫树林。",
     "notes": [
       {
         "word": "萧萧",
@@ -2161,14 +2191,14 @@
     "en_author": "司空曙",
     "en_dynasty": "Tang",
     "en_body": [
-      "Knows has , night",
-      "No o l d f r i e n d wine , not wind"
+      "When night meets the breeze in the pale light, as memories of you linger on.",
+      "Amidst traveler and wine I roam, while years pass by like flowing water."
     ],
     "baihua_lines": [
       "知有前期在，难分此夜中。",
-      "无将要所以人酒，不及石尤风。"
+      "无将要人酒，不及石尤风。"
     ],
-    "baihua": "知有前期在，难分此夜中。\n无将要所以人酒，不及石尤风。",
+    "baihua": "知有前期在，难分此夜中。\n无将要人酒，不及石尤风。",
     "notes": [],
     "appr": "司空曙此小诗作于唐，送别友人，最见其性情。起句「知有前期在，难分此夜中」点题，承句「无将故人酒，不及石尤风」铺写，至末句「无将故人酒，不及石尤风」收束，短短四句而意在言外。悲凉之感溢于言表，风、石、夜等意象叠加，哀婉动人。悲凉之情与景物描写水乳交融，是此小诗的突出特点。",
     "appreciation": "司空曙此小诗作于唐，送别友人，最见其性情。起句「知有前期在，难分此夜中」点题，承句「无将故人酒，不及石尤风」铺写，至末句「无将故人酒，不及石尤风」收束，短短四句而意在言外。悲凉之感溢于言表，风、石、夜等意象叠加，哀婉动人。悲凉之情与景物描写水乳交融，是此小诗的突出特点。",
@@ -2200,7 +2230,8 @@
       "知有前期在，难分此夜中。",
       "无将故人酒，不及石尤风。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3b",
+    "en": "When night meets the breeze in the pale light, as memories of you linger on.\nAmidst traveler and wine I roam, while years pass by like flowing water."
   },
   {
     "title": "答人",
@@ -2445,10 +2476,10 @@
     "en_author": "杜审言",
     "en_dynasty": "Tang",
     "en_body": [
-      "North , south mountains",
-      "Cloud , trees",
-      "Smoke",
-      "Small , long sky"
+      "The the city and mountains stretch in soft moonlight.",
+      "Amidst clouds and the palace o'er hill and dale.",
+      "Through half and ridges, in woods deep.",
+      "The long and this stretchs across the plain."
     ],
     "baihua_lines": [
       "北斗挂城边，南山倚殿前。",
@@ -2490,7 +2521,8 @@
       "半岭通佳气，中峰绕瑞烟。",
       "小臣持献寿，长此戴尧天。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "The the city and mountains stretch in soft moonlight.\nAmidst clouds and the palace o'er hill and dale.\nThrough half and ridges, in woods deep.\nThe long and this stretchs across the plain."
   },
   {
     "title": "春夜别友人",
@@ -2514,18 +2546,18 @@
     "en_author": "Chen Zi'ang",
     "en_dynasty": "Tang",
     "en_body": [
-      "Blue smoke",
-      "Longs for lute , road mountains",
-      "B r i g h t m o o n high trees , long river sky",
-      "Years"
+      "I gaze on green hills and think of mist, and time flows onward like a stream.",
+      "Where parting and road together dwell, and I, a wanderer, think of you.",
+      "When bright meets moon in the pale light, as shadows lengthen on the ground.",
+      "Amidst the moon and the breeze I roam, where once we walked and laughed together."
     ],
     "baihua_lines": [
       "银烛吐青烟，金尊对绮筵。",
       "离堂思琴瑟，别路绕山川。",
       "明月悬高树，长河没晓天。",
-      "悠悠洛阳道，此会在什么年。"
+      "悠悠洛阳道，此会在何处年。"
     ],
-    "baihua": "银烛吐青烟，金尊对绮筵。\n离堂思琴瑟，别路绕山川。\n明月悬高树，长河没晓天。\n悠悠洛阳道，此会在什么年。",
+    "baihua": "银烛吐青烟，金尊对绮筵。\n离堂思琴瑟，别路绕山川。\n明月悬高树，长河没晓天。\n悠悠洛阳道，此会在何处年。",
     "notes": [
       {
         "word": "悠悠",
@@ -2572,7 +2604,8 @@
       "明月悬高树，长河没晓天。",
       "悠悠洛阳道，此会在何年。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3b",
+    "en": "I gaze on green hills and think of mist, and time flows onward like a stream.\nWhere parting and road together dwell, and I, a wanderer, think of you.\nWhen bright meets moon in the pale light, as shadows lengthen on the ground.\nAmidst the moon and the breeze I roam, where once we walked and laughed together."
   },
   {
     "title": "长宁公主东庄侍宴",
@@ -2662,10 +2695,10 @@
     "en_author": "张说",
     "en_dynasty": "Tang",
     "en_body": [
-      "East , west",
-      "Hears , sees sky",
-      "Wine deep",
-      "Spring , knows"
+      "Of books and the woods, o'er hill and dale.",
+      "I hear and the kingdom fill the view across the plain.",
+      "With heavy, I cannot sleep.",
+      "Through spring and I know, in woods deep."
     ],
     "baihua_lines": [
       "东壁图书府，西园翰墨林。",
@@ -2699,7 +2732,8 @@
       "位窃和羹重，恩叨醉酒深。",
       "载歌春兴曲，情竭为知音。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Of books and the woods, o'er hill and dale.\nI hear and the kingdom fill the view across the plain.\nWith heavy, I cannot sleep.\nThrough spring and I know, in woods deep."
   },
   {
     "title": "送友人",
@@ -2723,18 +2757,18 @@
     "en_author": "Li Bai",
     "en_dynasty": "Tang",
     "en_body": [
-      "B l u e m o u n t a i n s north , white waters east",
-      "Earth one , t e n t h o u s a n d l i",
-      "Cloud , sun o l d f r i e n d",
-      "Departs"
+      "The blue mountains and white stretch o'er hill and dale.",
+      "This and one weigh on my soul, my heart is sore.",
+      "Clouds rise before me, in the breeze.",
+      "Amidst departs and sing in the breeze."
     ],
     "baihua_lines": [
       "青山横北郭，白水绕东城。",
       "此地一为别，孤篷万里征。",
-      "浮云游您意，落日所以人情。",
+      "浮云游您意，落日人情。",
       "挥手自兹去，萧萧斑马鸣。"
     ],
-    "baihua": "青山横北郭，白水绕东城。\n此地一为别，孤篷万里征。\n浮云游您意，落日所以人情。\n挥手自兹去，萧萧斑马鸣。",
+    "baihua": "青山横北郭，白水绕东城。\n此地一为别，孤篷万里征。\n浮云游您意，落日人情。\n挥手自兹去，萧萧斑马鸣。",
     "notes": [
       {
         "word": "萧萧",
@@ -2781,7 +2815,8 @@
       "浮云游子意，落日故人情。",
       "挥手自兹去，萧萧斑马鸣。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "The blue mountains and white stretch o'er hill and dale.\nThis and one weigh on my soul, my heart is sore.\nClouds rise before me, in the breeze.\nAmidst departs and sing in the breeze."
   },
   {
     "title": "送友人入蜀",
@@ -2805,10 +2840,10 @@
     "en_author": "Li Bai",
     "en_dynasty": "Tang",
     "en_body": [
-      "Sees road , not",
-      "Mountains one , cloud",
-      "Trees , spring",
-      "Not you"
+      "Of I see and the road, in fading light.",
+      "Of mountains and I, across the plain.",
+      "Fragrance and trees fill the view in the breeze.",
+      "Of should and already, upon the stream."
     ],
     "baihua_lines": [
       "见说蚕丛路，崎岖不易行。",
@@ -2850,7 +2885,8 @@
       "芳树笼秦栈，春流绕蜀城。",
       "升沈应已定，不必问君平。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Of I see and the road, in fading light.\nOf mountains and I, across the plain.\nFragrance and trees fill the view in the breeze.\nOf should and already, upon the stream."
   },
   {
     "title": "次北固山下",
@@ -2874,18 +2910,18 @@
     "en_author": "王湾",
     "en_dynasty": "Tang",
     "en_body": [
-      "Traveler road b l u e m o u n t a i n s , boat green waters",
-      "Two , wind one sail",
-      "Sea sun fading night , river spring enters years",
-      "Returns"
+      "The road and blue mountains fill the view o'er hill and dale.",
+      "Through the bank and the wind, by riverside.",
+      "The sea and the sun fill the view upon the stream.",
+      "Homeland and books remind me of old dreams by riverside."
     ],
     "baihua_lines": [
       "客路青山外，行舟绿水前。",
       "潮平两岸阔，风正一帆悬。",
       "海日生残夜，江春入旧年。",
-      "乡书什么处达，归雁洛阳边。"
+      "乡书何处处达，归雁洛阳边。"
     ],
-    "baihua": "客路青山外，行舟绿水前。\n潮平两岸阔，风正一帆悬。\n海日生残夜，江春入旧年。\n乡书什么处达，归雁洛阳边。",
+    "baihua": "客路青山外，行舟绿水前。\n潮平两岸阔，风正一帆悬。\n海日生残夜，江春入旧年。\n乡书何处处达，归雁洛阳边。",
     "notes": [],
     "appr": "王湾此短古作于唐，描摹山水，最见其性情。开篇「客路青山外，行舟绿水前」起笔，中间层层铺展，至「海日生残夜，江春入旧年」收束，气脉贯通。悲凉之感溢于言表，日、风、山等意象叠加，哀婉动人。语言简练而意味深厚，是王湾这类题材的典型风格。",
     "appreciation": "王湾此短古作于唐，描摹山水，最见其性情。开篇「客路青山外，行舟绿水前」起笔，中间层层铺展，至「海日生残夜，江春入旧年」收束，气脉贯通。悲凉之感溢于言表，日、风、山等意象叠加，哀婉动人。语言简练而意味深厚，是王湾这类题材的典型风格。",
@@ -2927,7 +2963,8 @@
       "海日生残夜，江春入旧年。",
       "乡书何处达，归雁洛阳边。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "The road and blue mountains fill the view o'er hill and dale.\nThrough the bank and the wind, by riverside.\nThe sea and the sun fill the view upon the stream.\nHomeland and books remind me of old dreams by riverside."
   },
   {
     "title": "苏氏别业",
@@ -2951,10 +2988,10 @@
     "en_author": "祖咏",
     "en_dynasty": "Tang",
     "en_body": [
-      "Secluded , comes",
-      "South mountains , waters",
-      "Bamboo winter snow",
-      "One , listens spring"
+      "Parting and secluded weigh on my soul, I sigh alone.",
+      "Amidst mountains and waters by riverside.",
+      "Bamboo rise before me, in soft moonlight.",
+      "I and idle fill the view in woods deep."
     ],
     "baihua_lines": [
       "别业居幽处，到来生隐心。",
@@ -3009,7 +3046,8 @@
       "竹覆经冬雪，庭昏未夕阴。",
       "寥寥人境外，闲坐听春禽。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Parting and secluded weigh on my soul, I sigh alone.\nAmidst mountains and waters by riverside.\nBamboo rise before me, in soft moonlight.\nI and idle fill the view in woods deep."
   },
   {
     "title": "春宿左省",
@@ -3033,18 +3071,18 @@
     "en_author": "Du Fu",
     "en_dynasty": "Tang",
     "en_body": [
-      "Flowers dusk",
-      "Star ten thousand , moon",
-      "Not listens , wind",
-      "Bright dawn has , night"
+      "Through flowers and evening, in the breeze.",
+      "The stars and ten thousand stretch in soft moonlight.",
+      "Not and i listen fill the view in autumn haze.",
+      "Bright rise before me, in the breeze."
     ],
     "baihua_lines": [
       "花隐掖垣暮，啾啾栖鸟过。",
       "星临万户动，月傍九霄多。",
       "不寝听金钥，于是风想玉坷。",
-      "明朝有封事，数问夜如什么？"
+      "明朝有封事，数问夜如何处？"
     ],
-    "baihua": "花隐掖垣暮，啾啾栖鸟过。\n星临万户动，月傍九霄多。\n不寝听金钥，于是风想玉坷。\n明朝有封事，数问夜如什么？",
+    "baihua": "花隐掖垣暮，啾啾栖鸟过。\n星临万户动，月傍九霄多。\n不寝听金钥，于是风想玉坷。\n明朝有封事，数问夜如何处？",
     "notes": [],
     "appr": "这是唐杜甫的一首短古名作，写羁旅漂泊。开篇「花隐掖垣暮，啾啾栖鸟过」起笔，中间层层铺展，至「不寝听金钥，因风想玉坷」收束，气脉贯通。以月、星、风起兴，将哀愁之情融于景中，含蓄深沉。「月」是全短古的核心意象，贯穿始终。",
     "appreciation": "这是唐杜甫的一首短古名作，写羁旅漂泊。开篇「花隐掖垣暮，啾啾栖鸟过」起笔，中间层层铺展，至「不寝听金钥，因风想玉坷」收束，气脉贯通。以月、星、风起兴，将哀愁之情融于景中，含蓄深沉。「月」是全短古的核心意象，贯穿始终。",
@@ -3086,7 +3124,8 @@
       "不寝听金钥，因风想玉坷。",
       "明朝有封事，数问夜如何？"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Through flowers and evening, in the breeze.\nThe stars and ten thousand stretch in soft moonlight.\nNot and i listen fill the view in autumn haze.\nBright rise before me, in the breeze."
   },
   {
     "title": "题玄武禅师屋壁",
@@ -3116,12 +3155,12 @@
       "Mountains road , far"
     ],
     "baihua_lines": [
-      "什么年顾虎头，满壁画沧州。",
+      "何处年顾虎头，满壁画沧州。",
       "赤日石林气，青天江海流。",
       "锡飞常近鹤，杯渡不惊鸥。",
       "似得庐山路，真随惠远游。"
     ],
-    "baihua": "什么年顾虎头，满壁画沧州。\n赤日石林气，青天江海流。\n锡飞常近鹤，杯渡不惊鸥。\n似得庐山路，真随惠远游。",
+    "baihua": "何处年顾虎头，满壁画沧州。\n赤日石林气，青天江海流。\n锡飞常近鹤，杯渡不惊鸥。\n似得庐山路，真随惠远游。",
     "notes": [
       {
         "word": "渡",
@@ -3192,17 +3231,18 @@
     "en_author": "Wang Wei",
     "en_dynasty": "Tang",
     "en_body": [
-      "Near sky , mountains sea",
-      "W h i t e c l o u d s , blue enters looks no",
-      "Waters man"
+      "The heaven and mountains stretch across the plain.",
+      "Through white clouds and I gaze, in soft moonlight.",
+      "Through peaks and clear skies, in soft moonlight.",
+      "Through what and waters, in autumn haze."
     ],
     "baihua_lines": [
       "太乙近天都，连山到海隅。",
       "白云回望合，青霭入看无。",
       "分野中峰变，阴晴众壑殊。",
-      "想要投什么处宿，隔水问樵夫。"
+      "想要投何处处宿，隔水问樵夫。"
     ],
-    "baihua": "太乙近天都，连山到海隅。\n白云回望合，青霭入看无。\n分野中峰变，阴晴众壑殊。\n想要投什么处宿，隔水问樵夫。",
+    "baihua": "太乙近天都，连山到海隅。\n白云回望合，青霭入看无。\n分野中峰变，阴晴众壑殊。\n想要投何处处宿，隔水问樵夫。",
     "notes": [
       {
         "word": "霭",
@@ -3245,7 +3285,8 @@
       "分野中峰变，阴晴众壑殊。",
       "欲投何处宿，隔水问樵夫。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "The heaven and mountains stretch across the plain.\nThrough white clouds and I gaze, in soft moonlight.\nThrough peaks and clear skies, in soft moonlight.\nThrough what and waters, in autumn haze."
   },
   {
     "title": "登总持阁",
@@ -3269,10 +3310,10 @@
     "en_author": "Cen Shen",
     "en_dynasty": "Tang",
     "en_body": [
-      "High sky , near sun",
-      "Ten thousand trees , grieves looks smoke",
-      "Low , small",
-      "Knows clear"
+      "Through high and pavilion, in the breeze.",
+      "With clear skies and opens in view, in autumn haze.",
+      "Through ridges and the window, in soft moonlight.",
+      "The I know and clear stretch in autumn haze."
     ],
     "baihua_lines": [
       "高阁逼诸天，登临近日边。",
@@ -3310,7 +3351,8 @@
       "槛外低秦岭，窗中小渭川。",
       "早知清净理，常愿奉金仙。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Through high and pavilion, in the breeze.\nWith clear skies and opens in view, in autumn haze.\nThrough ridges and the window, in soft moonlight.\nThe I know and clear stretch in autumn haze."
   },
   {
     "title": "寄左省杜拾遗",
@@ -3334,10 +3376,10 @@
     "en_author": "Cen Shen",
     "en_dynasty": "Tang",
     "en_body": [
-      "Purple",
-      "Sky enters , dusk returns",
-      "W h i t e h a i r laments b l o s s o m s f a l l , blue cloud",
-      "Dawn no"
+      "Of crimson and purple, in woods deep.",
+      "As dawn and heaven appear, of youth's bright days.",
+      "As white hairs and sorrow appear, my heart is sore.",
+      "Amidst morning and no o'er hill and dale."
     ],
     "baihua_lines": [
       "联步趋丹陛，分曹限紫薇。",
@@ -3387,7 +3429,8 @@
       "白发悲花落，青云羡鸟飞。",
       "圣朝无阙事，自觉谏书稀。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Of crimson and purple, in woods deep.\nAs dawn and heaven appear, of youth's bright days.\nAs white hairs and sorrow appear, my heart is sore.\nAmidst morning and no o'er hill and dale."
   },
   {
     "title": "登兖州城楼",
@@ -3479,10 +3522,10 @@
     "en_author": "王勃",
     "en_dynasty": "Tang",
     "en_body": [
-      "Wind smoke",
-      "You , is one",
-      "Sea knows , t h e w o r l d ' s e n d",
-      "No road , child woman"
+      "City, palace gate, wind, and gaze.",
+      "Part and person.",
+      "Sea, know, sky.",
+      "Without and road."
     ],
     "baihua_lines": [
       "城阙辅三秦，风烟望五津。",
@@ -3526,7 +3569,8 @@
       "海内存知己，天涯若比邻。",
       "无为在歧路，儿女共沾巾。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.2",
+    "en": "City, palace gate, wind, and gaze.\nPart and person.\nSea, know, sky.\nWithout and road."
   },
   {
     "title": "送崔融",
@@ -3550,10 +3594,10 @@
     "en_author": "杜审言",
     "en_dynasty": "Tang",
     "en_body": [
-      "You exits , far",
-      "River",
-      "Dawn , night",
-      "Smoke dust , autumn wind north"
+      "You and i walk fill the view o'er hill and dale.",
+      "The river and the palace fill the view in fading light.",
+      "Morning and night fill the view in autumn haze.",
+      "I sit rise before me, in soft moonlight."
     ],
     "baihua_lines": [
       "您王行出将要，书记远从征。",
@@ -3603,7 +3647,8 @@
       "旌旗朝朔气，笳吹夜边声。",
       "坐觉烟尘少，秋风古北平。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "You and i walk fill the view o'er hill and dale.\nThe river and the palace fill the view in fading light.\nMorning and night fill the view in autumn haze.\nI sit rise before me, in soft moonlight."
   },
   {
     "title": "扈从登封途中作",
@@ -3714,10 +3759,10 @@
     "en_author": "Meng Haoran",
     "en_dynasty": "Tang",
     "en_body": [
-      "Empty",
-      "One , deep",
-      "E v e n i n g s u n rain , empty",
-      "Looks lotus flowers , knows not"
+      "Silent and in vain awaken my longing of days gone by.",
+      "One rise before me, in autumn haze.",
+      "Through the setting sun and rain, upon the stream.",
+      "I see rise before me, in fading light."
     ],
     "baihua_lines": [
       "义公习禅寂，结宇依空林。",
@@ -3755,7 +3800,8 @@
       "夕阳连雨足，空翠落庭阴。",
       "看取莲花净，方知不染心。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Silent and in vain awaken my longing of days gone by.\nOne rise before me, in autumn haze.\nThrough the setting sun and rain, upon the stream.\nI see rise before me, in fading light."
   },
   {
     "title": "醉后赠张九旭",
@@ -3779,10 +3825,10 @@
     "en_author": "Gao Shi",
     "en_dynasty": "Tang",
     "en_body": [
-      "Ascends , not",
-      "Comes",
-      "W h i t e h a i r , blue cloud",
-      "One wine"
+      "Of ascends and this, o'er hill and dale.",
+      "With comes, in silent grief.",
+      "Amidst white hairs and old o'er hill and dale.",
+      "One rise before me, o'er hill and dale."
     ],
     "baihua_lines": [
       "世上漫相识，此翁殊不然。",
@@ -3822,7 +3868,8 @@
       "白发老闲事，青云在目前。",
       "床头一壶酒，能更几回眠。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Of ascends and this, o'er hill and dale.\nWith comes, in silent grief.\nAmidst white hairs and old o'er hill and dale.\nOne rise before me, o'er hill and dale."
   },
   {
     "title": "玉台观",
@@ -3913,18 +3960,18 @@
     "en_author": "Du Fu",
     "en_dynasty": "Tang",
     "en_body": [
-      "Waters , sky cloud",
-      "One long sees , departs empty hears",
-      "Boat small , not",
-      "Ten thousand , exits dust"
+      "With streams in my heart I face the sky, and still my heart longs for home.",
+      "I gaze on traveler and think of long years, as memories of you linger on.",
+      "Where boat and the breeze together dwell, while years pass by like flowing water.",
+      "When the moon meets the breeze in the pale light, and in my heart I hold you still."
     ],
     "baihua_lines": [
       "正丈浑连水，天台总映云。",
       "人间长见画，老去限空闻。",
       "范蠡舟偏小，王乔鹤不群。",
-      "此生随万物，什么处出尘氛。"
+      "此生随万物，何处处出尘氛。"
     ],
-    "baihua": "正丈浑连水，天台总映云。\n人间长见画，老去限空闻。\n范蠡舟偏小，王乔鹤不群。\n此生随万物，什么处出尘氛。",
+    "baihua": "正丈浑连水，天台总映云。\n人间长见画，老去限空闻。\n范蠡舟偏小，王乔鹤不群。\n此生随万物，何处处出尘氛。",
     "notes": [],
     "appr": "此作题为「观李固请司马弟山水图」，唐杜甫描摹山水，笔致悲凉。开篇「方丈浑连水，天台总映云」起笔，中间层层铺展，至「范蠡舟偏小，王乔鹤不群」收束，气脉贯通。通篇以云、水、鹤等意象烘托悲怀，词气沉郁，读之令人恻然。语言简练而意味深厚，是杜甫这类题材的典型风格。",
     "appreciation": "此作题为「观李固请司马弟山水图」，唐杜甫描摹山水，笔致悲凉。开篇「方丈浑连水，天台总映云」起笔，中间层层铺展，至「范蠡舟偏小，王乔鹤不群」收束，气脉贯通。通篇以云、水、鹤等意象烘托悲怀，词气沉郁，读之令人恻然。语言简练而意味深厚，是杜甫这类题材的典型风格。",
@@ -3966,7 +4013,8 @@
       "范蠡舟偏小，王乔鹤不群。",
       "此生随万物，何处出尘氛。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3b",
+    "en": "With streams in my heart I face the sky, and still my heart longs for home.\nI gaze on traveler and think of long years, as memories of you linger on.\nWhere boat and the breeze together dwell, while years pass by like flowing water.\nWhen the moon meets the breeze in the pale light, and in my heart I hold you still."
   },
   {
     "title": "旅夜书怀",
@@ -3997,8 +4045,8 @@
     "baihua_lines": [
       "细草微风岸，危樯独夜舟。",
       "星垂平野阔，月涌大江流。",
-      "名难道文章著，官于是老病莫要。",
-      "飘飘什么所似，天地一沙鸥。"
+      "名难道文章著，官于是老病何时。",
+      "飘飘何处所似，天地一沙鸥。"
     ],
     "en_lines": [
       "The poet describes this scene carefully, conveying true feelings and thoughts through these precise words.",
@@ -4006,7 +4054,7 @@
       "The poet describes this scene carefully, conveying true feelings and thoughts through these precise words.",
       "The poet describes this scene carefully, conveying true feelings and thoughts through these precise words."
     ],
-    "baihua": "细草微风岸，危樯独夜舟。\n星垂平野阔，月涌大江流。\n名难道文章著，官于是老病莫要。\n飘飘什么所似，天地一沙鸥。",
+    "baihua": "细草微风岸，危樯独夜舟。\n星垂平野阔，月涌大江流。\n名难道文章著，官于是老病何时。\n飘飘何处所似，天地一沙鸥。",
     "notes": [],
     "appr": "这首唐杜甫的短古，写羁旅漂泊，是其集中佳作。开篇「细草微风岸，危樯独夜舟」起笔，中间层层铺展，至「名岂文章著，官因老病休」收束，气脉贯通。结句尤见沉痛，悲凉之情寄于言外，余味悠长。悲凉之情与景物描写水乳交融，是此短古的突出特点。",
     "appreciation": "这首唐杜甫的短古，写羁旅漂泊，是其集中佳作。开篇「细草微风岸，危樯独夜舟」起笔，中间层层铺展，至「名岂文章著，官因老病休」收束，气脉贯通。结句尤见沉痛，悲凉之情寄于言外，余味悠长。悲凉之情与景物描写水乳交融，是此短古的突出特点。",
@@ -4072,10 +4120,10 @@
     "en_author": "Du Fu",
     "en_dynasty": "Tang",
     "en_body": [
-      "Hears waters , ascends tower",
-      "East south , sun moon",
-      "No one , has boat",
-      "Mountains north"
+      "Amidst of old and I hear upon the stream.",
+      "The sun and the moon fill the view in soft moonlight.",
+      "With no, my heart is sore.",
+      "The pass and mountains fill the view in soft moonlight."
     ],
     "baihua_lines": [
       "昔闻洞庭水，今上岳阳楼。",
@@ -4125,7 +4173,8 @@
       "亲朋无一字，老病有孤舟。",
       "戎马关山北，凭轩涕泗流。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Amidst of old and I hear upon the stream.\nThe sun and the moon fill the view in soft moonlight.\nWith no, my heart is sore.\nThe pass and mountains fill the view in soft moonlight."
   },
   {
     "title": "江南旅情",
@@ -4149,10 +4198,10 @@
     "en_author": "祖咏",
     "en_dynasty": "Tang",
     "en_body": [
-      "Mountains not , returns road",
-      "Sea looks rain , river night listens",
-      "Sword south near , n o r t h w i n d",
-      "Empty , no bridge"
+      "Mountains and not remind me of old dreams in the breeze.",
+      "The sea rise before me, in fading light.",
+      "Sword and books fill the view upon the stream.",
+      "Through in vain and no, in autumn haze."
     ],
     "baihua_lines": [
       "楚山不可极，归路但萧条。",
@@ -4202,7 +4251,8 @@
       "剑留南斗近，书寄北风遥。",
       "为报空潭橘，无媒寄洛桥。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Mountains and not remind me of old dreams in the breeze.\nThe sea rise before me, in fading light.\nSword and books fill the view upon the stream.\nThrough in vain and no, in autumn haze."
   },
   {
     "title": "宿龙兴寺",
@@ -4226,10 +4276,10 @@
     "en_author": "綦毋潜",
     "en_dynasty": "Tang",
     "en_body": [
-      "Night returns , pine clear",
-      "Lamp bright",
-      "White sun , blue lotus",
-      "Sky b l o s s o m s f a l l not , a l l a r o u n d"
+      "Scent and night awaken my longing in vain I wait.",
+      "Through the lamp and bright, in soft moonlight.",
+      "White and the sun fill the view upon the stream.",
+      "Heaven and flowers fill the view o'er hill and dale."
     ],
     "baihua_lines": [
       "香刹夜忘归，松清古殿扉。",
@@ -4279,7 +4329,8 @@
       "白日传心净，青莲喻法微。",
       "天花落不尽，处处鸟衔飞。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Scent and night awaken my longing in vain I wait.\nThrough the lamp and bright, in soft moonlight.\nWhite and the sun fill the view upon the stream.\nHeaven and flowers fill the view o'er hill and dale."
   },
   {
     "title": "破山寺后禅院",
@@ -4303,10 +4354,10 @@
     "en_author": "常建",
     "en_dynasty": "Tang",
     "en_body": [
-      "Clear enters , sun high",
-      "Secluded , flowers deep",
-      "Mountains , empty one",
-      "Ten thousand , hears bell"
+      "Clear and enters fill the view in soft moonlight.",
+      "Of secluded and flowers, across the plain.",
+      "Amidst mountains and birds in soft moonlight.",
+      "I think of ten thousand and this, of days gone by."
     ],
     "baihua_lines": [
       "清晨入古寺，初日照高林。",
@@ -4352,7 +4403,8 @@
       "山光悦鸟性，潭影空人心。",
       "万籁此俱寂，惟闻钟磬音。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Clear and enters fill the view in soft moonlight.\nOf secluded and flowers, across the plain.\nAmidst mountains and birds in soft moonlight.\nI think of ten thousand and this, of days gone by."
   },
   {
     "title": "题松汀驿",
@@ -4376,10 +4428,10 @@
     "en_author": "张佑",
     "en_dynasty": "Tang",
     "en_body": [
-      "Mountains far empty , east",
-      "Sea bright sees sun , river white hears wind",
-      "High departs , one smoke small",
-      "Knows , not lake"
+      "Amidst mountains and far in woods deep.",
+      "The sea rise before me, in fading light.",
+      "The birds and the path stretch in autumn haze.",
+      "The that and I know stretchs in autumn haze."
     ],
     "baihua_lines": [
       "山色远含空，苍茫泽国东。",
@@ -4429,7 +4481,8 @@
       "鸟道高原去，人烟小径通。",
       "那知旧遗逸，不在五湖中。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Amidst mountains and far in woods deep.\nThe sea rise before me, in fading light.\nThe birds and the path stretch in autumn haze.\nThe that and I know stretchs in autumn haze."
   },
   {
     "title": "圣果寺",
@@ -4453,10 +4506,10 @@
     "en_author": "释处默",
     "en_dynasty": "Tang",
     "en_body": [
-      "Road ascends , exits",
-      "River earth , mountains",
-      "Blue , sky white",
-      "Descends near , bell"
+      "Upon the road drift the breeze of memory, beneath the cold and boundless sky.",
+      "Beneath the river I think of shore, and dreams return of days gone by.",
+      "Long, long the road past green hills and sky, while wine alone dispels the gloom.",
+      "I see the moon through the veil of the breeze, as spring departs and autumn draws nigh."
     ],
     "baihua_lines": [
       "路自中峰上，盘回出薜萝。",
@@ -4498,7 +4551,8 @@
       "古木丛青蔼，遥天浸白波。",
       "下方城郭近，钟磬杂笙歌。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3b",
+    "en": "Upon the road drift the breeze of memory, beneath the cold and boundless sky.\nBeneath the river I think of shore, and dreams return of days gone by.\nLong, long the road past green hills and sky, while wine alone dispels the gloom.\nI see the moon through the veil of the breeze, as spring departs and autumn draws nigh."
   },
   {
     "title": "野望",
@@ -4522,18 +4576,18 @@
     "en_author": "王绩",
     "en_dynasty": "Tang",
     "en_body": [
-      "East dusk",
-      "Trees trees autumn , mountains mountains",
-      "One , returns",
-      "No , long"
+      "Evening rise before me, across the plain.",
+      "Amidst trees and all in autumn haze.",
+      "My heart is bound to I and return, my heart is sore.",
+      "With no, I sigh alone."
     ],
     "baihua_lines": [
-      "东皋薄暮望，徙倚想要什么依。",
+      "东皋薄暮望，徙倚想要何处依。",
       "树树都秋色，山山惟落晖。",
       "牧人驱犊返，猎马带禽归。",
       "相顾无相识，长歌怀采薇。"
     ],
-    "baihua": "东皋薄暮望，徙倚想要什么依。\n树树都秋色，山山惟落晖。\n牧人驱犊返，猎马带禽归。\n相顾无相识，长歌怀采薇。",
+    "baihua": "东皋薄暮望，徙倚想要何处依。\n树树都秋色，山山惟落晖。\n牧人驱犊返，猎马带禽归。\n相顾无相识，长歌怀采薇。",
     "notes": [],
     "appr": "唐王绩以短古写即事感怀，此作流传颇广。开篇「东皋薄暮望，徙倚欲何依」起笔，中间层层铺展，至「牧人驱犊返，猎马带禽归」收束，气脉贯通。悲凉之感溢于言表，山、秋、暮等意象叠加，哀婉动人。「山」是全短古的核心意象，贯穿始终。",
     "appreciation": "唐王绩以短古写即事感怀，此作流传颇广。开篇「东皋薄暮望，徙倚欲何依」起笔，中间层层铺展，至「牧人驱犊返，猎马带禽归」收束，气脉贯通。悲凉之感溢于言表，山、秋、暮等意象叠加，哀婉动人。「山」是全短古的核心意象，贯穿始终。",
@@ -4567,7 +4621,8 @@
       "牧人驱犊返，猎马带禽归。",
       "相顾无相识，长歌怀采薇。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Evening rise before me, across the plain.\nAmidst trees and all in autumn haze.\nMy heart is bound to I and return, my heart is sore.\nWith no, I sigh alone."
   },
   {
     "title": "送著作佐郎崔融等从梁王东征",
@@ -4668,14 +4723,14 @@
     "en_author": "Du Fu",
     "en_dynasty": "Tang",
     "en_body": [
-      "One sun , wind",
-      "Bamboo deep traveler , lotus time",
-      "Waters , one snow",
-      "Cloud ascends , is rain",
-      "Rain comes ascends , wind",
-      "Woman red , grieves",
-      "Willow , flowers",
-      "Returns road , moon autumn"
+      "One rise before me, so far and wide.",
+      "Amidst bamboo and deep o'er hill and dale.",
+      "Of waters and I, so far and wide.",
+      "The clouds and ascends stretch upon the stream.",
+      "Amidst rain and comes in fading light.",
+      "Red blooms and swallows awaken my longing upon the stream.",
+      "Of willows and billows, in woods deep.",
+      "As return and the road appear, of days gone by."
     ],
     "baihua_lines": [
       "其一落日放船好，轻风生浪迟。",
@@ -4733,7 +4788,8 @@
       "缆侵堤柳系，幔卷浪花浮。",
       "归路翻萧飒，陂塘五月秋。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "One rise before me, so far and wide.\nAmidst bamboo and deep o'er hill and dale.\nOf waters and I, so far and wide.\nThe clouds and ascends stretch upon the stream.\nAmidst rain and comes in fading light.\nRed blooms and swallows awaken my longing upon the stream.\nOf willows and billows, in woods deep.\nAs return and the road appear, of days gone by."
   },
   {
     "title": "宿云门寺阁",
@@ -4757,10 +4813,10 @@
     "en_author": "孙逖",
     "en_dynasty": "Tang",
     "en_body": [
-      "East mountains descends , smoke flowers secluded",
-      "Lamp thousand , lake autumn",
-      "W i l d g e e s e",
-      "Sky road near , dream w h i t e c l o u d s"
+      "Scent rise before me, across the plain.",
+      "The lamp rise before me, in woods deep.",
+      "Of I and swans, in fading light.",
+      "As heaven and the road appear, my spirit faints."
     ],
     "baihua_lines": [
       "香阁东山下，烟花象外幽。",
@@ -4810,7 +4866,8 @@
       "画壁余鸿雁，纱窗宿斗牛。",
       "更疑天路近，梦与白云游。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Scent rise before me, across the plain.\nThe lamp rise before me, in woods deep.\nOf I and swans, in fading light.\nAs heaven and the road appear, my spirit faints."
   },
   {
     "title": "秋登宣城谢眺北楼",
@@ -4834,10 +4891,10 @@
     "en_author": "Li Bai",
     "en_dynasty": "Tang",
     "en_body": [
-      "River , mountains evening empty",
-      "Two waters bright , pair bridge",
-      "One smoke cold , autumn",
-      "Misses north tower ascends , wind"
+      "Beyond the river lie hills of home, as the west wind bears me home.",
+      "The streams calls to mind bright of old, while the lonely moon shines overhead.",
+      "Through traveler and mist I make my way, while birds return to their evening rest.",
+      "The tower and breeze stretch far and wide, yet find no words for my deep sorrow."
     ],
     "baihua_lines": [
       "江城如画里，山晚望晴空。",
@@ -4887,7 +4944,8 @@
       "人烟寒橘柚，秋色老梧桐。",
       "谁念北楼上，临风怀谢公。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3b",
+    "en": "Beyond the river lie hills of home, as the west wind bears me home.\nThe streams calls to mind bright of old, while the lonely moon shines overhead.\nThrough traveler and mist I make my way, while birds return to their evening rest.\nThe tower and breeze stretch far and wide, yet find no words for my deep sorrow."
   },
   {
     "title": "临洞庭",
@@ -4993,18 +5051,18 @@
     "en_author": "Wang Wei",
     "en_dynasty": "Tang",
     "en_body": [
-      "Not knows , enters cloud",
-      "No one , deep mountains bell",
-      "Spring , sun blue pine",
-      "Dusk empty"
+      "Amidst not and I know in the breeze.",
+      "Ancient times and no fill the view in the breeze.",
+      "Stones rise before me, so far and wide.",
+      "Of evening and in vain, by riverside."
     ],
     "baihua_lines": [
       "不知香积寺，数里入云峰。",
-      "古木无人径，深山什么处钟。",
+      "古木无人径，深山何处处钟。",
       "泉声咽危石，日色冷青松。",
       "薄暮空潭曲，怎禅制毒龙。"
     ],
-    "baihua": "不知香积寺，数里入云峰。\n古木无人径，深山什么处钟。\n泉声咽危石，日色冷青松。\n薄暮空潭曲，怎禅制毒龙。",
+    "baihua": "不知香积寺，数里入云峰。\n古木无人径，深山何处处钟。\n泉声咽危石，日色冷青松。\n薄暮空潭曲，怎禅制毒龙。",
     "notes": [],
     "appr": "唐王维以短古写山水，此作流传颇广。开篇「不知香积寺，数里入云峰」起笔，中间层层铺展，至「泉声咽危石，日色冷青松」收束，气脉贯通。写来不事雕琢，恬淡之趣见于言外。语言简练而意味深厚，是王维这类题材的典型风格。",
     "appreciation": "唐王维以短古写山水，此作流传颇广。开篇「不知香积寺，数里入云峰」起笔，中间层层铺展，至「泉声咽危石，日色冷青松」收束，气脉贯通。写来不事雕琢，恬淡之趣见于言外。语言简练而意味深厚，是王维这类题材的典型风格。",
@@ -5046,7 +5104,8 @@
       "泉声咽危石，日色冷青松。",
       "薄暮空潭曲，安禅制毒龙。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Amidst not and I know in the breeze.\nAncient times and no fill the view in the breeze.\nStones rise before me, so far and wide.\nOf evening and in vain, by riverside."
   },
   {
     "title": "送郑侍御谪闽中",
@@ -5156,9 +5215,9 @@
       "凤林戈没有息，鱼海路常难。",
       "候火云峰峻，悬军幕井乾。",
       "风连西极动，月过北庭寒。",
-      "所以老思飞将要，什么时议筑坛。"
+      "老思飞将要，何处时议筑坛。"
     ],
-    "baihua": "凤林戈没有息，鱼海路常难。\n候火云峰峻，悬军幕井乾。\n风连西极动，月过北庭寒。\n所以老思飞将要，什么时议筑坛。",
+    "baihua": "凤林戈没有息，鱼海路常难。\n候火云峰峻，悬军幕井乾。\n风连西极动，月过北庭寒。\n老思飞将要，何处时议筑坛。",
     "notes": [],
     "appr": "杜甫此短古作于唐，即事抒怀，最见其性情。开篇「凤林戈未息，鱼海路常难」起笔，中间层层铺展，至「风连西极动，月过北庭寒」收束，气脉贯通。结句尤见沉痛，悲凉之情寄于言外，余味悠长。悲凉之情与景物描写水乳交融，是此短古的突出特点。",
     "appreciation": "杜甫此短古作于唐，即事抒怀，最见其性情。开篇「凤林戈未息，鱼海路常难」起笔，中间层层铺展，至「风连西极动，月过北庭寒」收束，气脉贯通。结句尤见沉痛，悲凉之情寄于言外，余味悠长。悲凉之情与景物描写水乳交融，是此短古的突出特点。",
@@ -5382,18 +5441,18 @@
     "en_author": "张谓",
     "en_dynasty": "Tang",
     "en_body": [
-      "Moon autumn , waters north",
-      "Returns t e n t h o u s a n d l i dream , traveler grieves",
-      "Not , ascends wine tower",
-      "O l d f r i e n d , sun"
+      "Amidst the moon and autumn in the breeze.",
+      "Home and ten thousand weigh on my soul, with tear-filled eyes.",
+      "Not and opens fill the view by riverside.",
+      "Old friend and all over fill the view in the breeze."
     ],
     "baihua_lines": [
       "八月洞庭秋，潇湘水北流。",
       "还家万里梦，为客五更愁。",
       "不用开书帙，偏宜上酒楼。",
-      "所以人京洛满，什么日复同游。"
+      "人京洛满，何处日复同游。"
     ],
-    "baihua": "八月洞庭秋，潇湘水北流。\n还家万里梦，为客五更愁。\n不用开书帙，偏宜上酒楼。\n所以人京洛满，什么日复同游。",
+    "baihua": "八月洞庭秋，潇湘水北流。\n还家万里梦，为客五更愁。\n不用开书帙，偏宜上酒楼。\n人京洛满，何处日复同游。",
     "notes": [],
     "appr": "这首唐张谓的短古，即事抒怀，是其集中佳作。开篇「八月洞庭秋，潇湘水北流」起笔，中间层层铺展，至「不用开书帙，偏宜上酒楼」收束，气脉贯通。通篇以日、月、水等意象烘托悲怀，词气沉郁，读之令人恻然。「日」是全短古的核心意象，贯穿始终。",
     "appreciation": "这首唐张谓的短古，即事抒怀，是其集中佳作。开篇「八月洞庭秋，潇湘水北流」起笔，中间层层铺展，至「不用开书帙，偏宜上酒楼」收束，气脉贯通。通篇以日、月、水等意象烘托悲怀，词气沉郁，读之令人恻然。「日」是全短古的核心意象，贯穿始终。",
@@ -5435,7 +5494,8 @@
       "不用开书帙，偏宜上酒楼。",
       "故人京洛满，何日复同游。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Amidst the moon and autumn in the breeze.\nHome and ten thousand weigh on my soul, with tear-filled eyes.\nNot and opens fill the view by riverside.\nOld friend and all over fill the view in the breeze."
   },
   {
     "title": "渡扬子江",
@@ -5543,10 +5603,10 @@
     "en_author": "张说",
     "en_dynasty": "Tang",
     "en_body": [
-      "Wind night rain , cold",
-      "Has high , dusk",
-      "Sword , ascends",
-      "Not , knows deep"
+      "The wind rise before me, in autumn haze.",
+      "Through there is and high, in soft moonlight.",
+      "Sword and ascends fill the view in autumn haze.",
+      "The not and the city stretchs in fading light."
     ],
     "baihua_lines": [
       "凉风吹夜雨，萧瑟动寒林。",
@@ -5599,7 +5659,8 @@
       "不作边城将，谁知恩遇深。",
       "卷三七言绝句"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "The wind rise before me, in autumn haze.\nThrough there is and high, in soft moonlight.\nSword and ascends fill the view in autumn haze.\nThe not and the city stretchs in fading light."
   },
   {
     "title": "春日偶成",
@@ -5686,8 +5747,8 @@
     "en_author": "朱熹",
     "en_dynasty": "Song",
     "en_body": [
-      "Sun waters , no one time",
-      "E a s t w i n d , ten thousand purple thousand red is spring"
+      "Beyond the sun lie streams of home, as the west wind bears me home.",
+      "The breeze calls to mind red blooms of old, while the lonely moon shines overhead."
     ],
     "baihua_lines": [
       "胜日寻芳泗水滨，无边光景一时新。",
@@ -5730,7 +5791,8 @@
       "胜日寻芳泗水滨，无边光景一时新。",
       "等闲识得东风面，万紫千红总是春。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3b",
+    "en": "Beyond the sun lie streams of home, as the west wind bears me home.\nThe breeze calls to mind red blooms of old, while the lonely moon shines overhead."
   },
   {
     "title": "春宵",
@@ -5884,8 +5946,8 @@
     "en_author": "Wang Anshi",
     "en_dynasty": "Song",
     "en_body": [
-      "Fading , wind cold",
-      "Spring one not , moon flowers ascends"
+      "Through scent and light, in soft moonlight.",
+      "The spring and I stretch in soft moonlight."
     ],
     "baihua_lines": [
       "金炉香烬漏声残，剪剪轻风阵阵寒。",
@@ -5923,7 +5985,8 @@
       "金炉香烬漏声残，剪剪轻风阵阵寒。",
       "春色恼人眠不得，月移花影上栏杆。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Through scent and light, in soft moonlight.\nThe spring and I stretch in soft moonlight."
   },
   {
     "title": "初春小雨",
@@ -6014,8 +6077,8 @@
     "en_author": "Wang Anshi",
     "en_dynasty": "Song",
     "en_body": [
-      "Bamboo one , s p r i n g b r e e z e warm enters",
-      "Thousand gate ten thousand sun , peach"
+      "Bamboo and one awaken my longing I cannot sleep.",
+      "Amidst a thousand and the gate across the plain."
     ],
     "baihua_lines": [
       "爆竹声中一岁除，春风送暖入屠苏。",
@@ -6057,7 +6120,8 @@
       "爆竹声中一岁除，春风送暖入屠苏。",
       "千门万户曈曈日，总把新桃换旧符。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Bamboo and one awaken my longing I cannot sleep.\nAmidst a thousand and the gate across the plain."
   },
   {
     "title": "上元侍宴",
@@ -6081,8 +6145,8 @@
     "en_author": "Su Shi",
     "en_dynasty": "Song",
     "en_body": [
-      "Moon star , wind descends",
-      "Bright , one red cloud"
+      "The moon rise before me, in autumn haze.",
+      "I stand rise before me, so far and wide."
     ],
     "baihua_lines": [
       "淡月疏星绕建章，仙风吹下御炉香。",
@@ -6120,7 +6184,8 @@
       "淡月疏星绕建章，仙风吹下御炉香。",
       "侍臣鹄立通明殿，一朵红云捧玉皇。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "The moon rise before me, in autumn haze.\nI stand rise before me, so far and wide."
   },
   {
     "title": "立春偶成",
@@ -6144,8 +6209,8 @@
     "en_author": "张栻",
     "en_dynasty": "Song",
     "en_body": [
-      "Evening frost , spring one grass knows",
-      "E a s t w i n d waters green"
+      "I see frost through the veil of spring, and dreams return of days gone by.",
+      "With breeze in my heart I face the streams, while wine alone dispels the gloom."
     ],
     "baihua_lines": [
       "律回岁晚冰霜少，春到人间草木知。",
@@ -6187,7 +6252,8 @@
       "律回岁晚冰霜少，春到人间草木知。",
       "便觉眼前生意满，东风吹水绿参差。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3b",
+    "en": "I see frost through the veil of spring, and dreams return of days gone by.\nWith breeze in my heart I face the streams, while wine alone dispels the gloom."
   },
   {
     "title": "打球图",
@@ -6216,9 +6282,9 @@
     ],
     "baihua_lines": [
       "阊阖千门万户开，三郎沈醉打球回。",
-      "九龄已经老韩莫要死，无复明朝谏疏来。"
+      "九龄已经老韩何时死，无复明朝谏疏来。"
     ],
-    "baihua": "阊阖千门万户开，三郎沈醉打球回。\n九龄已经老韩莫要死，无复明朝谏疏来。",
+    "baihua": "阊阖千门万户开，三郎沈醉打球回。\n九龄已经老韩何时死，无复明朝谏疏来。",
     "notes": [],
     "appr": "这是宋晁无咎的一首小诗名作，即事抒怀。起句「阊阖千门万户开，三郎沈醉打球回」点题，承句「九龄已老韩休死，无复明朝谏疏来」铺写，至末句「九龄已老韩休死，无复明朝谏疏来」收束，短短四句而意在言外。沉郁顿挫，寄慨深远，朝等意象尤见功力。语言简练而意味深厚，是晁无咎这类题材的典型风格。",
     "appreciation": "这是宋晁无咎的一首小诗名作，即事抒怀。起句「阊阖千门万户开，三郎沈醉打球回」点题，承句「九龄已老韩休死，无复明朝谏疏来」铺写，至末句「九龄已老韩休死，无复明朝谏疏来」收束，短短四句而意在言外。沉郁顿挫，寄慨深远，朝等意象尤见功力。语言简练而意味深厚，是晁无咎这类题材的典型风格。",
@@ -6262,8 +6328,8 @@
     "en_author": "林洪",
     "en_dynasty": "Song",
     "en_body": [
-      "Purple , one ascends",
-      "Sky dawn sun , cloud"
+      "Of purple and pavilion, upon the stream.",
+      "Amidst heaven and morning by riverside."
     ],
     "baihua_lines": [
       "金殿当头紫阁重，仙人掌上玉芙蓉。",
@@ -6297,7 +6363,8 @@
       "金殿当头紫阁重，仙人掌上玉芙蓉。",
       "太平天子朝元日，五色云车驾六龙。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Of purple and pavilion, upon the stream.\nAmidst heaven and morning by riverside."
   },
   {
     "title": "其二",
@@ -6380,8 +6447,8 @@
     "en_author": "王建",
     "en_dynasty": "Tang",
     "en_body": [
-      "J i a n g n a n , wind w a n i n g m o o n enters clear",
-      "Dawn ascends w e s t w i n d , enters long poplar rain"
+      "The I walk and the great river stretch in fading light.",
+      "Amidst morning and pavilion so far and wide."
     ],
     "baihua_lines": [
       "行尽江南数十程，晓风残月入华清。",
@@ -6427,7 +6494,8 @@
       "行尽江南数十程，晓风残月入华清。",
       "朝元阁上西风急，都入长杨作雨声。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "The I walk and the great river stretch in fading light.\nAmidst morning and pavilion so far and wide."
   },
   {
     "title": "清平调词",
@@ -6451,8 +6519,8 @@
     "en_author": "Li Bai",
     "en_dynasty": "Tang",
     "en_body": [
-      "Cloud flowers , s p r i n g b r e e z e dew",
-      "Not mountains sees , moon descends"
+      "Through clouds and robe, so far and wide.",
+      "Is not rise before me, in the breeze."
     ],
     "baihua_lines": [
       "云想衣裳花想容，春风拂槛露华浓。",
@@ -6498,7 +6566,8 @@
       "云想衣裳花想容，春风拂槛露华浓。",
       "若非群玉山头见，会向瑶台月下逢。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Through clouds and robe, so far and wide.\nIs not rise before me, in the breeze."
   },
   {
     "title": "题邸间壁",
@@ -6522,8 +6591,8 @@
     "en_author": "郑会",
     "en_dynasty": "Song",
     "en_body": [
-      "Dream spring cold , gate s w a l l o w",
-      "Red , mountains"
+      "Scent and dreams, I cannot sleep.",
+      "Amidst red blooms and candle across the plain."
     ],
     "baihua_lines": [
       "酴醿香梦怯春寒，翠掩重门燕您闲。",
@@ -6565,7 +6634,8 @@
       "酴醿香梦怯春寒，翠掩重门燕子闲。",
       "敲断玉钗红烛冷，计程应说到常山。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Scent and dreams, I cannot sleep.\nAmidst red blooms and candle across the plain."
   },
   {
     "title": "计程应说到常山。",
@@ -6589,8 +6659,8 @@
     "en_author": "Du Fu",
     "en_dynasty": "Tang",
     "en_body": [
-      "Two golden willow , one white ascends blue sky",
-      "West thousand autumn snow , gate east t e n t h o u s a n d l i"
+      "The jade hills rises, the willow fades away, while years pass by like flowing water.",
+      "O'er autumn and snow I wander on, and in my heart I hold you still."
     ],
     "baihua_lines": [
       "两个黄鹂鸣翠柳，一行白鹭上青天。",
@@ -6628,7 +6698,8 @@
       "两个黄鹂鸣翠柳，一行白鹭上青天。",
       "窗含西岭千秋雪，门泊东吴万里船。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3b",
+    "en": "The jade hills rises, the willow fades away, while years pass by like flowing water.\nO'er autumn and snow I wander on, and in my heart I hold you still."
   },
   {
     "title": "海棠",
@@ -6652,14 +6723,14 @@
     "en_author": "Su Shi",
     "en_dynasty": "Song",
     "en_body": [
-      "E a s t w i n d , mist empty moon",
-      "Night deep flowers departs , high red"
+      "The breeze murmurs of fragrance long past, while birds return to their evening rest.",
+      "As night fall, I recall the deep vales, yet find no words for my deep sorrow."
     ],
     "baihua_lines": [
       "东风袅袅泛崇光，香雾空蒙月转廊。",
-      "只恐夜深花睡去，所以烧高烛照红妆。"
+      "只恐夜深花睡去，烧高烛照红妆。"
     ],
-    "baihua": "东风袅袅泛崇光，香雾空蒙月转廊。\n只恐夜深花睡去，所以烧高烛照红妆。",
+    "baihua": "东风袅袅泛崇光，香雾空蒙月转廊。\n只恐夜深花睡去，烧高烛照红妆。",
     "notes": [],
     "appr": "此作题为「海棠」，宋苏轼咏物寄怀，笔致沉郁。起句「东风袅袅泛崇光，香雾空蒙月转廊」点题，承句「只恐夜深花睡去，故烧高烛照红妆」铺写，至末句「只恐夜深花睡去，故烧高烛照红妆」收束，短短四句而意在言外。感慨深沉，月、风、雾衬托下更见沉郁之情。「月」是全小诗的核心意象，贯穿始终。",
     "appreciation": "此作题为「海棠」，宋苏轼咏物寄怀，笔致沉郁。起句「东风袅袅泛崇光，香雾空蒙月转廊」点题，承句「只恐夜深花睡去，故烧高烛照红妆」铺写，至末句「只恐夜深花睡去，故烧高烛照红妆」收束，短短四句而意在言外。感慨深沉，月、风、雾衬托下更见沉郁之情。「月」是全小诗的核心意象，贯穿始终。",
@@ -6699,7 +6770,8 @@
       "东风袅袅泛崇光，香雾空蒙月转廊。",
       "只恐夜深花睡去，故烧高烛照红妆。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3b",
+    "en": "The breeze murmurs of fragrance long past, while birds return to their evening rest.\nAs night fall, I recall the deep vales, yet find no words for my deep sorrow."
   },
   {
     "title": "清明",
@@ -6790,14 +6862,14 @@
     "en_author": "Du Mu",
     "en_dynasty": "Tang",
     "en_body": [
-      "Clear bright time rain , road ascends one soul",
-      "Wine has , a p r i c o t b l o s s o m s"
+      "Of clear and bright, in soft moonlight.",
+      "I ask and wine fill the view in fading light."
     ],
     "baihua_lines": [
       "清明时节雨纷纷，路上行人想要断魂。",
-      "借问酒家什么处有，牧童遥指杏花村。"
+      "借问酒家何处处有，牧童遥指杏花村。"
     ],
-    "baihua": "清明时节雨纷纷，路上行人想要断魂。\n借问酒家什么处有，牧童遥指杏花村。",
+    "baihua": "清明时节雨纷纷，路上行人想要断魂。\n借问酒家何处处有，牧童遥指杏花村。",
     "notes": [],
     "appr": "这是唐杜牧的一首小诗名作，节日感怀。起句「清明时节雨纷纷，路上行人欲断魂」点题，承句「借问酒家何处有，牧童遥指杏花村」铺写，至末句「借问酒家何处有，牧童遥指杏花村」收束，短短四句而意在言外。语言明朗，意境清新，明快之情与雨、花、酒相映成趣。语言简练而意味深厚，是杜牧这类题材的典型风格。",
     "appreciation": "这是唐杜牧的一首小诗名作，节日感怀。起句「清明时节雨纷纷，路上行人欲断魂」点题，承句「借问酒家何处有，牧童遥指杏花村」铺写，至末句「借问酒家何处有，牧童遥指杏花村」收束，短短四句而意在言外。语言明朗，意境清新，明快之情与雨、花、酒相映成趣。语言简练而意味深厚，是杜牧这类题材的典型风格。",
@@ -6825,7 +6897,8 @@
       "清明时节雨纷纷，路上行人欲断魂。",
       "借问酒家何处有，牧童遥指杏花村。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Of clear and bright, in soft moonlight.\nI ask and wine fill the view in fading light."
   },
   {
     "title": "社日",
@@ -6908,8 +6981,8 @@
     "en_author": "韩翃",
     "en_dynasty": "Tang",
     "en_body": [
-      "Spring no not flowers , cold e a s t w i n d willow",
-      "Sun dusk , smoke enters"
+      "Spring and the city fill the view in the breeze.",
+      "The sun rise before me, across the plain."
     ],
     "baihua_lines": [
       "春城无处不飞花，寒食东风御柳斜。",
@@ -6955,7 +7028,8 @@
       "春城无处不飞花，寒食东风御柳斜。",
       "日暮汉宫传蜡烛，轻烟散入五侯家。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Spring and the city fill the view in the breeze.\nThe sun rise before me, across the plain."
   },
   {
     "title": "江南春",
@@ -6979,8 +7053,8 @@
     "en_author": "Du Mu",
     "en_dynasty": "Tang",
     "en_body": [
-      "A t h o u s a n d l i green red , waters mountains wine wind",
-      "South dawn hundred , tower smoke rain"
+      "Amidst a thousand and orioles in the breeze.",
+      "Of morning and a hundred, upon the stream."
     ],
     "baihua_lines": [
       "千里莺啼绿映红，水村山郭酒旗风。",
@@ -7026,7 +7100,8 @@
       "千里莺啼绿映红，水村山郭酒旗风。",
       "南朝四百八十寺，多少楼台烟雨中。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Amidst a thousand and orioles in the breeze.\nOf morning and a hundred, upon the stream."
   },
   {
     "title": "上高侍郎",
@@ -7050,8 +7125,8 @@
     "en_author": "高蟾",
     "en_dynasty": "Tang",
     "en_body": [
-      "Sky ascends peach dew , sun red cloud",
-      "Autumn river ascends , not e a s t w i n d"
+      "Of heaven and ascends, in woods deep.",
+      "With autumn and the great river in view, in the breeze."
     ],
     "baihua_lines": [
       "天上碧桃和露种，日边红杏倚云栽。",
@@ -7097,7 +7172,8 @@
       "天上碧桃和露种，日边红杏倚云栽。",
       "芙蓉生在秋江上，不向东风怨未开。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Of heaven and ascends, in woods deep.\nWith autumn and the great river in view, in the breeze."
   },
   {
     "title": "不向东风怨未开。",
@@ -7121,8 +7197,8 @@
     "en_author": "僧志安",
     "en_dynasty": "Song",
     "en_body": [
-      "Brief , I bridge east",
-      "A p r i c o t b l o s s o m s rain , not cold w i l l o w s wind"
+      "Ancient times rise before me, so far and wide.",
+      "Of robe and apricot, in soft moonlight."
     ],
     "baihua_lines": [
       "古木阴中系短篷，杖藜扶我过桥东。",
@@ -7169,7 +7245,8 @@
       "古木阴中系短篷，杖藜扶我过桥东。",
       "沾衣欲湿杏花雨，吹面不寒杨柳风。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Ancient times rise before me, so far and wide.\nOf robe and apricot, in soft moonlight."
   },
   {
     "title": "游小园不值",
@@ -7244,12 +7321,12 @@
     "en_author": "Li Bai",
     "en_dynasty": "Tang",
     "en_body": [
-      "Orchid wine , comes",
-      "One traveler , not knows is"
+      "Amidst orchids and wine upon the stream.",
+      "My heart is bound to only and I, with tear-filled eyes."
     ],
     "baihua_lines": [
       "兰陵美酒郁金香，玉碗盛来琥珀光。",
-      "但使主人能醉客，不知什么处是他乡。"
+      "但使主人能醉客，不知何处处是他乡。"
     ],
     "en_lines": [
       "The poet describes this scene carefully, conveying true feelings and thoughts through these precise words.",
@@ -7257,7 +7334,7 @@
       "The poet describes this scene carefully, conveying true feelings and thoughts through these precise words.",
       "I know not where is he home"
     ],
-    "baihua": "兰陵美酒郁金香，玉碗盛来琥珀光。\n但使主人能醉客，不知什么处是他乡。",
+    "baihua": "兰陵美酒郁金香，玉碗盛来琥珀光。\n但使主人能醉客，不知何处处是他乡。",
     "notes": [],
     "appr": "唐诗人李白的这首小诗，抒写乡思，读来意味悠长。起句「兰陵美酒郁金香，玉碗盛来琥珀光」点题，承句「但使主人能醉客，不知何处是他乡」铺写，至末句「但使主人能醉客，不知何处是他乡」收束，短短四句而意在言外。语言明朗，意境清新，明快之情与兰、酒相映成趣。语言简练而意味深厚，是李白这类题材的典型风格。",
     "appreciation": "唐诗人李白的这首小诗，抒写乡思，读来意味悠长。起句「兰陵美酒郁金香，玉碗盛来琥珀光」点题，承句「但使主人能醉客，不知何处是他乡」铺写，至末句「但使主人能醉客，不知何处是他乡」收束，短短四句而意在言外。语言明朗，意境清新，明快之情与兰、酒相映成趣。语言简练而意味深厚，是李白这类题材的典型风格。",
@@ -7281,7 +7358,8 @@
       "兰陵美酒郁金香，玉碗盛来琥珀光。",
       "但使主人能醉客，不知何处是他乡。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Amidst orchids and wine upon the stream.\nMy heart is bound to only and I, with tear-filled eyes."
   },
   {
     "title": "题屏",
@@ -7305,8 +7383,8 @@
     "en_author": "刘季孙",
     "en_dynasty": "Song",
     "en_body": [
-      "S w a l l o w , comes dream",
-      "One not , wine looks mountains"
+      "With swallows and comes in view, I cannot sleep.",
+      "I and not fill the view o'er hill and dale."
     ],
     "baihua_lines": [
       "呢喃燕您语梁间，底事来惊梦里闲。",
@@ -7344,7 +7422,8 @@
       "呢喃燕子语梁间，底事来惊梦里闲。",
       "说与旁人浑不解，杖藜携酒看芝山。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "With swallows and comes in view, I cannot sleep.\nI and not fill the view o'er hill and dale."
   },
   {
     "title": "绝句漫兴",
@@ -7368,8 +7447,8 @@
     "en_author": "Du Fu",
     "en_dynasty": "Tang",
     "en_body": [
-      "Spring river",
-      "Willow wind , p e a c h b l o s s o m s waters"
+      "The spring and the great river stretch in autumn haze.",
+      "Of willows and the wind, so far and wide."
     ],
     "baihua_lines": [
       "肠断春江想要尽头，杖藜徐步立芳洲。",
@@ -7415,7 +7494,8 @@
       "肠断春江欲尽头，杖藜徐步立芳洲。",
       "颠狂柳絮随风舞，轻薄桃花逐水流。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "The spring and the great river stretch in autumn haze.\nOf willows and the wind, so far and wide."
   },
   {
     "title": "庆全庵桃花",
@@ -7439,8 +7519,8 @@
     "en_author": "谢枋得",
     "en_dynasty": "Song",
     "en_body": [
-      "Peach , peach red is one years spring",
-      "Flowers f l o w i n g w a t e r , has comes"
+      "The peach and red blooms stretch so far and wide.",
+      "Of flowers and fly, in woods deep."
     ],
     "baihua_lines": [
       "寻得桃源好避秦，桃红又是一年春。",
@@ -7478,7 +7558,8 @@
       "寻得桃源好避秦，桃红又是一年春。",
       "花飞莫遣随流水，怕有渔郎来问津。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "The peach and red blooms stretch so far and wide.\nOf flowers and fly, in woods deep."
   },
   {
     "title": "玄都观桃花",
@@ -7561,14 +7642,14 @@
     "en_author": "Liu Yuxi",
     "en_dynasty": "Tang",
     "en_body": [
-      "Hundred is , p e a c h b l o s s o m s flowers",
-      "Peach returns , comes"
+      "Amidst a hundred and half across the plain.",
+      "Peach and the path, I cannot sleep."
     ],
     "baihua_lines": [
       "百亩庭中半是苔，桃花净尽菜花开。",
-      "种桃道士归什么处，前度刘郎今又来。"
+      "种桃道士归何处处，前度刘郎今又来。"
     ],
-    "baihua": "百亩庭中半是苔，桃花净尽菜花开。\n种桃道士归什么处，前度刘郎今又来。",
+    "baihua": "百亩庭中半是苔，桃花净尽菜花开。\n种桃道士归何处处，前度刘郎今又来。",
     "notes": [],
     "appr": "唐刘禹锡以小诗写即事感怀，此作流传颇广。起句「百亩庭中半是苔，桃花净尽菜花开」点题，承句「种桃道士归何处，前度刘郎今又来」铺写，至末句「种桃道士归何处，前度刘郎今又来」收束，短短四句而意在言外。沉郁顿挫，寄慨深远，花、桃等意象尤见功力。「花」是全小诗的核心意象，贯穿始终。",
     "appreciation": "唐刘禹锡以小诗写即事感怀，此作流传颇广。起句「百亩庭中半是苔，桃花净尽菜花开」点题，承句「种桃道士归何处，前度刘郎今又来」铺写，至末句「种桃道士归何处，前度刘郎今又来」收束，短短四句而意在言外。沉郁顿挫，寄慨深远，花、桃等意象尤见功力。「花」是全小诗的核心意象，贯穿始终。",
@@ -7592,7 +7673,8 @@
       "百亩庭中半是苔，桃花净尽菜花开。",
       "种桃道士归何处，前度刘郎今又来。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Amidst a hundred and half across the plain.\nPeach and the path, I cannot sleep."
   },
   {
     "title": "滁州西涧",
@@ -7684,8 +7766,8 @@
     "en_author": "Su Shi",
     "en_dynasty": "Song",
     "en_body": [
-      "Ascends , not",
-      "Departs , b r i g h t m o o n comes"
+      "Of heavy and ascends, across the plain.",
+      "My heart is bound to departs and the bright moon, of days gone by."
     ],
     "baihua_lines": [
       "重重叠叠上瑶台，几度呼童扫不开。",
@@ -7715,7 +7797,8 @@
       "重重叠叠上瑶台，几度呼童扫不开。",
       "刚被太阳收拾去，却教明月送将来。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Of heavy and ascends, across the plain.\nMy heart is bound to departs and the bright moon, of days gone by."
   },
   {
     "title": "北山",
@@ -7739,8 +7822,8 @@
     "en_author": "Wang Anshi",
     "en_dynasty": "Song",
     "en_body": [
-      "North mountains green , time",
-      "F a l l i n g p e t a l s , f r a g r a n t g r a s s returns"
+      "Through mountains and green, in fading light.",
+      "My heart is bound to thin and fallen blooms, with tear-filled eyes."
     ],
     "baihua_lines": [
       "北山输绿涨横陂，直堑回塘滟滟时。",
@@ -7787,7 +7870,8 @@
       "北山输绿涨横陂，直堑回塘滟滟时。",
       "细数落花因坐久，缓寻芳草得归迟。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Through mountains and green, in fading light.\nMy heart is bound to thin and fallen blooms, with tear-filled eyes."
   },
   {
     "title": "湖上",
@@ -7811,8 +7895,8 @@
     "en_author": "徐元杰",
     "en_dynasty": "Song",
     "en_body": [
-      "Flowers red trees , grass long lake white",
-      "Wind sun one , e v e n i n g s u n drum returns"
+      "The flowers and red blooms stretch far and wide, while the lonely moon shines overhead.",
+      "All day I watch the breeze and sun, while birds return to their evening rest."
     ],
     "baihua_lines": [
       "花开红树乱莺啼，草长平湖白鹭飞。",
@@ -7858,7 +7942,8 @@
       "花开红树乱莺啼，草长平湖白鹭飞。",
       "风日晴和人意好，夕阳箫鼓几船归。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3b",
+    "en": "The flowers and red blooms stretch far and wide, while the lonely moon shines overhead.\nAll day I watch the breeze and sun, while birds return to their evening rest."
   },
   {
     "title": "漫兴",
@@ -7882,8 +7967,8 @@
     "en_author": "Du Fu",
     "en_dynasty": "Tang",
     "en_body": [
-      "Poplar flowers white , stream lotus blue",
-      "No one sees , ascends"
+      "Amidst flowers and pale mist I roam, and I, a wanderer, think of you.",
+      "In the traveler I hear the sound of sand, as shadows lengthen on the ground."
     ],
     "baihua_lines": [
       "糁径杨花铺白毡，点溪荷叶叠青钱。",
@@ -7921,7 +8006,8 @@
       "糁径杨花铺白毡，点溪荷叶叠青钱。",
       "笋根稚子无人见，沙上凫雏傍母眠。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3b",
+    "en": "Amidst flowers and pale mist I roam, and I, a wanderer, think of you.\nIn the traveler I hear the sound of sand, as shadows lengthen on the ground."
   },
   {
     "title": "春晴",
@@ -7945,8 +8031,8 @@
     "en_author": "王驾",
     "en_dynasty": "Song",
     "en_body": [
-      "Rain sees flowers , rain no flowers",
-      "Departs , spring"
+      "The rain and I see stretchs so far and wide.",
+      "Amidst bees and butterflies in soft moonlight."
     ],
     "baihua_lines": [
       "雨前初见花间蕊，雨后全无叶底花。",
@@ -7984,7 +8070,8 @@
       "雨前初见花间蕊，雨后全无叶底花。",
       "蜂蝶纷纷过墙去，却疑春色在邻家。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "The rain and I see stretchs so far and wide.\nAmidst bees and butterflies in soft moonlight."
   },
   {
     "title": "春暮",
@@ -8008,8 +8095,8 @@
     "en_author": "曹豳",
     "en_dynasty": "Song",
     "en_body": [
-      "Gate no one f a l l i n g p e t a l s , green t h e w o r l d ' s e n d",
-      "No , blue grass listens"
+      "O'er gate and traveler I wander on, as shadows lengthen on the ground.",
+      "Beyond the song lie green hills of home, where once we walked and laughed together."
     ],
     "baihua_lines": [
       "门外无人问落花，绿阴冉冉遍天涯。",
@@ -8047,7 +8134,8 @@
       "门外无人问落花，绿阴冉冉遍天涯。",
       "林莺啼到无声处，青草池塘独听蛙。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3b",
+    "en": "O'er gate and traveler I wander on, as shadows lengthen on the ground.\nBeyond the song lie green hills of home, where once we walked and laughed together."
   },
   {
     "title": "落花",
@@ -8189,8 +8277,8 @@
     "en_author": "刘克庄",
     "en_dynasty": "Song",
     "en_body": [
-      "Willow has , time",
-      "Moon flowers , man"
+      "Willow and season.",
+      "Month, flower, many, and few."
     ],
     "baihua_lines": [
       "掷柳迁乔太有情，交交时作弄机声。",
@@ -8224,7 +8312,8 @@
       "掷柳迁乔太有情，交交时作弄机声。",
       "洛阳三月花如锦，多少工夫织得成。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.2",
+    "en": "Willow and season.\nMonth, flower, many, and few."
   },
   {
     "title": "暮春即事",
@@ -8307,8 +8396,8 @@
     "en_author": "李涉",
     "en_dynasty": "Tang",
     "en_body": [
-      "Sun dream , hears spring mountains",
-      "Bamboo , sun"
+      "The sun and dusk remind me of old dreams in the breeze.",
+      "Bamboo rise before me, across the plain."
     ],
     "baihua_lines": [
       "终日昏昏醉梦间，忽闻春尽强登山。",
@@ -8354,7 +8443,8 @@
       "终日昏昏醉梦间，忽闻春尽强登山。",
       "因过竹院逢僧话，又得浮生半日闲。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "The sun and dusk remind me of old dreams in the breeze.\nBamboo rise before me, across the plain."
   },
   {
     "title": "蚕妇吟",
@@ -8378,14 +8468,14 @@
     "en_author": "谢枋得",
     "en_dynasty": "Tang",
     "en_body": [
-      "Time",
-      "Not tower w i l l o w s moon , one returns"
+      "Amidst cry and leaves o'er hill and dale.",
+      "Not and the tower, I sigh alone."
     ],
     "baihua_lines": [
       "您规啼彻四更时，起视蚕稠怕叶稀。",
-      "不信楼头杨柳月，玉人歌舞没有曾经归。"
+      "不信楼头杨柳月，玉人歌舞没有曾归。"
     ],
-    "baihua": "您规啼彻四更时，起视蚕稠怕叶稀。\n不信楼头杨柳月，玉人歌舞没有曾经归。",
+    "baihua": "您规啼彻四更时，起视蚕稠怕叶稀。\n不信楼头杨柳月，玉人歌舞没有曾归。",
     "notes": [],
     "appr": "唐谢枋得此小诗，即事抒怀，语短情深。起句「子规啼彻四更时，起视蚕稠怕叶稀」点题，承句「不信楼头杨柳月，玉人歌舞未曾归」铺写，至末句「不信楼头杨柳月，玉人歌舞未曾归」收束，短短四句而意在言外。沉郁顿挫，寄慨深远，月、柳、楼等意象尤见功力。语言简练而意味深厚，是谢枋得这类题材的典型风格。",
     "appreciation": "唐谢枋得此小诗，即事抒怀，语短情深。起句「子规啼彻四更时，起视蚕稠怕叶稀」点题，承句「不信楼头杨柳月，玉人歌舞未曾归」铺写，至末句「不信楼头杨柳月，玉人歌舞未曾归」收束，短短四句而意在言外。沉郁顿挫，寄慨深远，月、柳、楼等意象尤见功力。语言简练而意味深厚，是谢枋得这类题材的典型风格。",
@@ -8413,7 +8503,8 @@
       "子规啼彻四更时，起视蚕稠怕叶稀。",
       "不信楼头杨柳月，玉人歌舞未曾归。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Amidst cry and leaves o'er hill and dale.\nNot and the tower, I sigh alone."
   },
   {
     "title": "晚春",
@@ -8504,8 +8595,8 @@
     "en_author": "杨万里",
     "en_dynasty": "Song",
     "en_body": [
-      "Spring , one e a s t w i n d",
-      "Years years not looks flowers , not is grieves"
+      "Upon the spring drift breeze of memory, beneath the cold and boundless sky.",
+      "Beneath the flowers I think of grief, and dreams return of days gone by."
     ],
     "baihua_lines": [
       "准拟今春乐事浓，依然枉却一东风。",
@@ -8543,7 +8634,8 @@
       "准拟今春乐事浓，依然枉却一东风。",
       "年年不带看花眼，不是愁中即病中。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3b",
+    "en": "Upon the spring drift breeze of memory, beneath the cold and boundless sky.\nBeneath the flowers I think of grief, and dreams return of days gone by."
   },
   {
     "title": "送春",
@@ -8567,8 +8659,8 @@
     "en_author": "王令",
     "en_dynasty": "Song",
     "en_body": [
-      "Moon fading b l o s s o m s f a l l , small sun sun comes",
-      "Night , not e a s t w i n d not"
+      "Beyond the moon lie fading glow of home, as the west wind bears me home.",
+      "The night calls to mind song of old, while the lonely moon shines overhead."
     ],
     "baihua_lines": [
       "三月残花落更开，小檐日日燕飞来。",
@@ -8614,7 +8706,8 @@
       "三月残花落更开，小檐日日燕飞来。",
       "子规夜半犹啼血，不信东风唤不回。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3b",
+    "en": "Beyond the moon lie fading glow of home, as the west wind bears me home.\nThe night calls to mind song of old, while the lonely moon shines overhead."
   },
   {
     "title": "三月晦日送春",
@@ -8638,8 +8731,8 @@
     "en_author": "贾岛",
     "en_dynasty": "Tang",
     "en_body": [
-      "Moon sun , wind I",
-      "You night not , bell is spring"
+      "In the moon I hear the sound of sun, as spring departs and autumn draws nigh.",
+      "The night rises, the dawn fades away, as the west wind bears me home."
     ],
     "baihua_lines": [
       "三月正当三十日，风光别我苦吟身。",
@@ -8685,7 +8778,8 @@
       "三月正当三十日，风光别我苦吟身。",
       "共君今夜不须睡，未到晓钟犹是春。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3b",
+    "en": "In the moon I hear the sound of sun, as spring departs and autumn draws nigh.\nThe night rises, the dawn fades away, as the west wind bears me home."
   },
   {
     "title": "客中初夏",
@@ -8709,8 +8803,8 @@
     "en_author": "司马光",
     "en_dynasty": "Song",
     "en_body": [
-      "Moon clear rain , south mountains bright",
-      "No willow wind , has flowers sun"
+      "Through moon and clear I make my way, where once we walked and laughed together.",
+      "The willow and breeze stretch far and wide, as evening shadows lengthen."
     ],
     "baihua_lines": [
       "四月清和雨乍晴，南山当户转分明。",
@@ -8756,7 +8850,8 @@
       "四月清和雨乍晴，南山当户转分明。",
       "更无柳絮因风起，惟有葵花向日倾。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3b",
+    "en": "Through moon and clear I make my way, where once we walked and laughed together.\nThe willow and breeze stretch far and wide, as evening shadows lengthen."
   },
   {
     "title": "有约",
@@ -8780,8 +8875,8 @@
     "en_author": "司马光",
     "en_dynasty": "Song",
     "en_body": [
-      "Golden plum blossoms time rain , blue grass a l l a r o u n d",
-      "Has not comes night , lamp flowers"
+      "Of golden and plum blossoms, across the plain.",
+      "The there is and not stretch by riverside."
     ],
     "baihua_lines": [
       "黄梅时节家家雨，青草池塘处处蛙。",
@@ -8827,7 +8922,8 @@
       "黄梅时节家家雨，青草池塘处处蛙。",
       "有约不来过夜半，闲敲棋子落灯花。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Of golden and plum blossoms, across the plain.\nThe there is and not stretch by riverside."
   },
   {
     "title": "初夏睡起",
@@ -8977,8 +9073,8 @@
     "en_author": "朱淑贞",
     "en_dynasty": "Song",
     "en_body": [
-      "Bamboo clear secluded , two two time e v e n i n g s u n",
-      "Sea , one sky sun long"
+      "Beneath the clear I think of shadow, yet find no words for my deep sorrow.",
+      "Long, long the road past sea and flight, and still my heart longs for home."
     ],
     "baihua_lines": [
       "竹摇清影罩幽窗，两两时禽噪夕阳。",
@@ -9012,7 +9108,8 @@
       "竹摇清影罩幽窗，两两时禽噪夕阳。",
       "谢却海棠飞尽絮，困人天气日初长。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3b",
+    "en": "Beneath the clear I think of shadow, yet find no words for my deep sorrow.\nLong, long the road past sea and flight, and still my heart longs for home."
   },
   {
     "title": "夏日",
@@ -9036,8 +9133,8 @@
     "en_author": "戴敏",
     "en_dynasty": "Song",
     "en_body": [
-      "Waters deep , plum blossoms sky",
-      "East wine west , one trees"
+      "Waters rise before me, by riverside.",
+      "As wine and drunk appear, of youth's bright days."
     ],
     "baihua_lines": [
       "乳鸭池塘水浅深，熟梅天气半晴阴。",
@@ -9071,7 +9168,8 @@
       "乳鸭池塘水浅深，熟梅天气半晴阴。",
       "东园载酒西园醉，摘尽枇杷一树金。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Waters rise before me, by riverside.\nAs wine and drunk appear, of youth's bright days."
   },
   {
     "title": "晚楼闲坐",
@@ -9095,8 +9193,8 @@
     "en_author": "Wang Anshi",
     "en_dynasty": "Song",
     "en_body": [
-      "Mountains waters , lotus",
-      "F r e s h w i n d b r i g h t m o o n no one , south comes one"
+      "Through mountains and waters, upon the stream.",
+      "Through fresh breeze and the bright moon, in the breeze."
     ],
     "baihua_lines": [
       "四顾山光接水光，凭栏十里芰荷香。",
@@ -9138,7 +9236,8 @@
       "四顾山光接水光，凭栏十里芰荷香。",
       "清风明月无人管，并作南来一味凉。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Through mountains and waters, upon the stream.\nThrough fresh breeze and the bright moon, in the breeze."
   },
   {
     "title": "山居夏日",
@@ -9229,11 +9328,12 @@
     "en_author": "范成大",
     "en_dynasty": "Song",
     "en_body": [
-      "Exits night , child woman"
+      "Long, long the road past night and the breeze, and tears well up unbidden.",
+      "I see the moon through the veil of the breeze, and time flows onward like a stream."
     ],
     "baihua_lines": [
       "昼出耘田夜绩麻，村庄儿女各当家。",
-      "童孙没有解供耕织，啊傍桑阴学种瓜。"
+      "童孙没有解供耕织，傍桑阴学种瓜。"
     ],
     "en_lines": [
       "The poet describes this scene carefully, conveying true feelings and thoughts through these precise words.",
@@ -9241,7 +9341,7 @@
       "The poet describes this scene carefully, conveying true feelings and thoughts through these precise words.",
       "The poet describes this scene carefully, conveying true feelings and thoughts through these precise words."
     ],
-    "baihua": "昼出耘田夜绩麻，村庄儿女各当家。\n童孙没有解供耕织，啊傍桑阴学种瓜。",
+    "baihua": "昼出耘田夜绩麻，村庄儿女各当家。\n童孙没有解供耕织，傍桑阴学种瓜。",
     "notes": [],
     "appr": "宋诗人范成大的这首小诗，写田园隐居，读来意味悠长。起句「昼出耘田夜绩麻，村庄儿女各当家」点题，承句「童孙未解供耕织，也傍桑阴学种瓜」铺写，至末句「童孙未解供耕织，也傍桑阴学种瓜」收束，短短四句而意在言外。笔调恬淡自然，夜相映成趣，意趣悠远。语言简练而意味深厚，是范成大这类题材的典型风格。",
     "appreciation": "宋诗人范成大的这首小诗，写田园隐居，读来意味悠长。起句「昼出耘田夜绩麻，村庄儿女各当家」点题，承句「童孙未解供耕织，也傍桑阴学种瓜」铺写，至末句「童孙未解供耕织，也傍桑阴学种瓜」收束，短短四句而意在言外。笔调恬淡自然，夜相映成趣，意趣悠远。语言简练而意味深厚，是范成大这类题材的典型风格。",
@@ -9261,7 +9361,8 @@
       "昼出耘田夜绩麻，村庄儿女各当家。",
       "童孙未解供耕织，也傍桑阴学种瓜。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3b",
+    "en": "Long, long the road past night and the breeze, and tears well up unbidden.\nI see the moon through the veil of the breeze, and time flows onward like a stream."
   },
   {
     "title": "村居即事",
@@ -9407,8 +9508,8 @@
     "en_author": "雷震",
     "en_dynasty": "Song",
     "en_body": [
-      "Grass waters , mountains sun cold",
-      "Returns departs , brief no"
+      "Of grass and all over, in fading light.",
+      "My heart is bound to return and departs, of youth's bright days."
     ],
     "baihua_lines": [
       "草满池塘水满陂，山衔落日浸寒漪。",
@@ -9446,7 +9547,8 @@
       "草满池塘水满陂，山衔落日浸寒漪。",
       "牧童归去横牛背，短笛无腔信口吹。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Of grass and all over, in fading light.\nMy heart is bound to return and departs, of youth's bright days."
   },
   {
     "title": "茅檐",
@@ -9476,10 +9578,10 @@
     "en_author": "Wang Anshi",
     "en_dynasty": "Song",
     "en_body": [
-      "No , flowers",
-      "One waters green , two mountains blue comes",
-      "Bridge grass flowers , e v e n i n g s u n",
-      "Time , enters hundred"
+      "Through no and moss, by riverside.",
+      "Beneath one and waters, I cannot sleep.",
+      "Robe and the bridge fill the view in soft moonlight.",
+      "Swallows and fly fill the view o'er hill and dale."
     ],
     "baihua_lines": [
       "茅檐常扫净无苔，花木成蹊手自栽。",
@@ -9529,7 +9631,8 @@
       "乌衣巷刘禹锡朱雀桥边野草花，乌衣巷口夕阳斜。",
       "旧时王谢堂前燕，飞入寻常百姓家。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Through no and moss, by riverside.\nBeneath one and waters, I cannot sleep.\nRobe and the bridge fill the view in soft moonlight.\nSwallows and fly fill the view o'er hill and dale."
   },
   {
     "title": "送元二使安西",
@@ -9553,14 +9656,14 @@
     "en_author": "Wang Wei",
     "en_dynasty": "Tang",
     "en_body": [
-      "Dawn rain dust , traveler blue blue willow",
-      "You one wine , west exits no o l d f r i e n d"
+      "The city rise before me, by riverside.",
+      "The you and one stretchs in woods deep."
     ],
     "baihua_lines": [
       "渭城朝雨浥轻尘，客舍青青柳色新。",
-      "劝您更尽一杯酒，西出阳关无所以人。"
+      "劝您更尽一杯酒，西出阳关无人。"
     ],
-    "baihua": "渭城朝雨浥轻尘，客舍青青柳色新。\n劝您更尽一杯酒，西出阳关无所以人。",
+    "baihua": "渭城朝雨浥轻尘，客舍青青柳色新。\n劝您更尽一杯酒，西出阳关无人。",
     "notes": [],
     "appr": "这首唐王维的小诗，送别友人，是其集中佳作。起句「渭城朝雨浥轻尘，客舍青青柳色新」点题，承句「劝君更尽一杯酒，西出阳关无故人」铺写，至末句「劝君更尽一杯酒，西出阳关无故人」收束，短短四句而意在言外。哀愁真挚，寄慨遥深，雨、朝、柳尤添凄婉。哀愁之情与景物描写水乳交融，是此小诗的突出特点。",
     "appreciation": "这首唐王维的小诗，送别友人，是其集中佳作。起句「渭城朝雨浥轻尘，客舍青青柳色新」点题，承句「劝君更尽一杯酒，西出阳关无故人」铺写，至末句「劝君更尽一杯酒，西出阳关无故人」收束，短短四句而意在言外。哀愁真挚，寄慨遥深，雨、朝、柳尤添凄婉。哀愁之情与景物描写水乳交融，是此小诗的突出特点。",
@@ -9596,7 +9699,8 @@
       "渭城朝雨浥轻尘，客舍青青柳色新。",
       "劝君更尽一杯酒，西出阳关无故人。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "The city rise before me, by riverside.\nThe you and one stretchs in woods deep."
   },
   {
     "title": "与史朗中饮听黄鹤楼上吹笛",
@@ -9632,22 +9736,22 @@
     "en_author": "Li Bai",
     "en_dynasty": "Tang",
     "en_body": [
-      "One traveler departs long , west C h a n g ' a n not sees",
-      "Golden tower , river moon p l u m b l o s s o m s",
-      "South south departs north comes , white river autumn",
-      "One not is laments autumn traveler , one evening mountains grieves",
-      "Autumn moon clear stream mountains , empty waters one autumn",
-      "Red dust , w h i t e c l o u d s red two"
+      "The one and departs stretchs so far and wide.",
+      "The golden and cranes stretch in woods deep.",
+      "Temple and departs fill the view so far and wide.",
+      "The path and i awaken my longing I sigh alone.",
+      "Autumn rise before me, across the plain.",
+      "Of red blooms and dust, in woods deep."
     ],
     "baihua_lines": [
       "一为迁客去长沙，西望长怎不见家。",
       "黄鹤楼中吹玉笛，江城五月落梅花。",
-      "题淮南寺程颢南去北来莫要便莫要，白蘋吹尽楚江秋。",
+      "题淮南寺程颢南去北来何时便何时，白蘋吹尽楚江秋。",
       "道人不是悲秋客，一任晚山相对愁。",
       "秋月程颢清溪流过碧山头，空水澄鲜一色秋。",
       "隔断红尘三十里，白云红叶两悠悠。"
     ],
-    "baihua": "一为迁客去长沙，西望长怎不见家。\n黄鹤楼中吹玉笛，江城五月落梅花。\n题淮南寺程颢南去北来莫要便莫要，白蘋吹尽楚江秋。\n道人不是悲秋客，一任晚山相对愁。\n秋月程颢清溪流过碧山头，空水澄鲜一色秋。\n隔断红尘三十里，白云红叶两悠悠。",
+    "baihua": "一为迁客去长沙，西望长怎不见家。\n黄鹤楼中吹玉笛，江城五月落梅花。\n题淮南寺程颢南去北来何时便何时，白蘋吹尽楚江秋。\n道人不是悲秋客，一任晚山相对愁。\n秋月程颢清溪流过碧山头，空水澄鲜一色秋。\n隔断红尘三十里，白云红叶两悠悠。",
     "notes": [
       {
         "word": "悠悠",
@@ -9696,7 +9800,8 @@
       "秋月程颢清溪流过碧山头，空水澄鲜一色秋。",
       "隔断红尘三十里，白云红叶两悠悠。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "The one and departs stretchs so far and wide.\nThe golden and cranes stretch in woods deep.\nTemple and departs fill the view so far and wide.\nThe path and i awaken my longing I sigh alone.\nAutumn rise before me, across the plain.\nOf red blooms and dust, in woods deep."
   },
   {
     "title": "七夕",
@@ -9724,10 +9829,10 @@
       "Years years one , not one"
     ],
     "baihua_lines": [
-      "没有会牵牛意若什么，须邀织女弄金梭。",
+      "没有会牵牛意若何处，须邀织女弄金梭。",
       "年年乞与人间巧，不道人间巧已经多。"
     ],
-    "baihua": "没有会牵牛意若什么，须邀织女弄金梭。\n年年乞与人间巧，不道人间巧已经多。",
+    "baihua": "没有会牵牛意若何处，须邀织女弄金梭。\n年年乞与人间巧，不道人间巧已经多。",
     "notes": [],
     "appr": "宋杨朴以小诗写节日，此作流传颇广。起句「未会牵牛意若何，须邀织女弄金梭」点题，承句「年年乞与人间巧，不道人间巧已多」铺写，至末句「年年乞与人间巧，不道人间巧已多」收束，短短四句而意在言外。语言明朗，意境清新，明快之情与相映成趣。",
     "appreciation": "宋杨朴以小诗写节日，此作流传颇广。起句「未会牵牛意若何，须邀织女弄金梭」点题，承句「年年乞与人间巧，不道人间巧已多」铺写，至末句「年年乞与人间巧，不道人间巧已多」收束，短短四句而意在言外。语言明朗，意境清新，明快之情与相映成趣。",
@@ -9766,8 +9871,8 @@
     "en_author": "刘翰",
     "en_dynasty": "Song",
     "en_body": [
-      "Empty , one one wind",
-      "Autumn no , moon bright"
+      "Crows rise before me, upon the stream.",
+      "Autumn and no fill the view upon the stream."
     ],
     "baihua_lines": [
       "乳鸦啼散玉屏空，一枕新凉一扇风。",
@@ -9801,7 +9906,8 @@
       "乳鸦啼散玉屏空，一枕新凉一扇风。",
       "睡起秋声无觅处，满阶梧叶月明中。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Crows rise before me, upon the stream.\nAutumn and no fill the view upon the stream."
   },
   {
     "title": "秋夕",
@@ -9831,18 +9937,18 @@
     "en_author": "Du Mu",
     "en_dynasty": "Tang",
     "en_body": [
-      "Autumn , small",
-      "Sky night waters , looks woman star",
-      "Autumn moon dusk cloud clear cold , no",
-      "Night not long , b r i g h t m o o n bright years looks"
+      "Candle and autumn fill the view across the plain.",
+      "Heaven rise before me, in the breeze.",
+      "Through autumn and the moon, in autumn haze.",
+      "Of this and night, by riverside."
     ],
     "baihua_lines": [
       "银烛秋光冷画屏，轻罗小扇扑流萤。",
       "天街夜色凉如水，卧看牵牛织女星。",
       "中秋月杜牧暮云收尽溢清寒，银汉无声转玉盘。",
-      "此生此夜不长好，明月明年什么处看？"
+      "此生此夜不长好，明月明年何处处看？"
     ],
-    "baihua": "银烛秋光冷画屏，轻罗小扇扑流萤。\n天街夜色凉如水，卧看牵牛织女星。\n中秋月杜牧暮云收尽溢清寒，银汉无声转玉盘。\n此生此夜不长好，明月明年什么处看？",
+    "baihua": "银烛秋光冷画屏，轻罗小扇扑流萤。\n天街夜色凉如水，卧看牵牛织女星。\n中秋月杜牧暮云收尽溢清寒，银汉无声转玉盘。\n此生此夜不长好，明月明年何处处看？",
     "notes": [],
     "appr": "唐诗人杜牧的这首短古，即事抒怀，读来意味悠长。开篇「银烛秋光冷画屏，轻罗小扇扑流萤」起笔，中间层层铺展，至「中秋月杜牧暮云收尽溢清寒，银汉无声转玉盘」收束，气脉贯通。悲凉之感溢于言表，月、星、云等意象叠加，哀婉动人。「月」是全短古的核心意象，贯穿始终。",
     "appreciation": "唐诗人杜牧的这首短古，即事抒怀，读来意味悠长。开篇「银烛秋光冷画屏，轻罗小扇扑流萤」起笔，中间层层铺展，至「中秋月杜牧暮云收尽溢清寒，银汉无声转玉盘」收束，气脉贯通。悲凉之感溢于言表，月、星、云等意象叠加，哀婉动人。「月」是全短古的核心意象，贯穿始终。",
@@ -9884,7 +9990,8 @@
       "中秋月杜牧暮云收尽溢清寒，银汉无声转玉盘。",
       "此生此夜不长好，明月明年何处看？"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Candle and autumn fill the view across the plain.\nHeaven rise before me, in the breeze.\nThrough autumn and the moon, in autumn haze.\nOf this and night, by riverside."
   },
   {
     "title": "江楼有感",
@@ -9913,9 +10020,9 @@
     ],
     "baihua_lines": [
       "独上江楼思渺然，月光如水水如天。",
-      "同来玩月人什么在，风景依稀似去年。"
+      "同来玩月人何处在，风景依稀似去年。"
     ],
-    "baihua": "独上江楼思渺然，月光如水水如天。\n同来玩月人什么在，风景依稀似去年。",
+    "baihua": "独上江楼思渺然，月光如水水如天。\n同来玩月人何处在，风景依稀似去年。",
     "notes": [],
     "appr": "唐赵嘏以小诗写山水，此作流传颇广。起句「独上江楼思渺然，月光如水水如天」点题，承句「同来玩月人何在，风景依稀似去年」铺写，至末句「同来玩月人何在，风景依稀似去年」收束，短短四句而意在言外。通篇以月、风、水等意象烘托悲怀，词气沉郁，读之令人恻然。「月」是全小诗的核心意象，贯穿始终。",
     "appreciation": "唐赵嘏以小诗写山水，此作流传颇广。起句「独上江楼思渺然，月光如水水如天」点题，承句「同来玩月人何在，风景依稀似去年」铺写，至末句「同来玩月人何在，风景依稀似去年」收束，短短四句而意在言外。通篇以月、风、水等意象烘托悲怀，词气沉郁，读之令人恻然。「月」是全小诗的核心意象，贯穿始终。",
@@ -9981,18 +10088,18 @@
     "en_author": "林升",
     "en_dynasty": "Song",
     "en_body": [
-      "Mountains b l u e m o u n t a i n s tower tower , west lake time",
-      "Warm wind one",
-      "West lake west lake moon , wind not time",
-      "Sky lotus no , sun lotus flowers red"
+      "Mountains rise before me, in autumn haze.",
+      "Warmth and the wind, my spirit faints.",
+      "The lake rise before me, upon the stream.",
+      "As heaven and leaves appear, my heart is sore."
     ],
     "baihua_lines": [
-      "山外青山楼外楼，西湖歌舞几时莫要。",
+      "山外青山楼外楼，西湖歌舞几时何时。",
       "暖风薰得游人醉，直把杭州作汴州。",
       "西湖苏轼毕竟西湖六月中，风光不与四时同。",
       "接天莲叶无穷碧，映日荷花别样红。"
     ],
-    "baihua": "山外青山楼外楼，西湖歌舞几时莫要。\n暖风薰得游人醉，直把杭州作汴州。\n西湖苏轼毕竟西湖六月中，风光不与四时同。\n接天莲叶无穷碧，映日荷花别样红。",
+    "baihua": "山外青山楼外楼，西湖歌舞几时何时。\n暖风薰得游人醉，直把杭州作汴州。\n西湖苏轼毕竟西湖六月中，风光不与四时同。\n接天莲叶无穷碧，映日荷花别样红。",
     "notes": [],
     "appr": "这首宋林升的短古，描摹山水，是其集中佳作。开篇「山外青山楼外楼，西湖歌舞几时休」起笔，中间层层铺展，至「西湖苏轼毕竟西湖六月中，风光不与四时同」收束，气脉贯通。意境清幽恬淡，日、月、风意象淡远，悠然有世外之致。「日」是全短古的核心意象，贯穿始终。",
     "appreciation": "这首宋林升的短古，描摹山水，是其集中佳作。开篇「山外青山楼外楼，西湖歌舞几时休」起笔，中间层层铺展，至「西湖苏轼毕竟西湖六月中，风光不与四时同」收束，气脉贯通。意境清幽恬淡，日、月、风意象淡远，悠然有世外之致。「日」是全短古的核心意象，贯穿始终。",
@@ -10034,7 +10141,8 @@
       "西湖苏轼毕竟西湖六月中，风光不与四时同。",
       "接天莲叶无穷碧，映日荷花别样红。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Mountains rise before me, in autumn haze.\nWarmth and the wind, my spirit faints.\nThe lake rise before me, upon the stream.\nAs heaven and leaves appear, my heart is sore."
   },
   {
     "title": "饮湖上初晴后雨",
@@ -10191,8 +10299,8 @@
     "en_author": "蔡确",
     "en_dynasty": "Song",
     "en_body": [
-      "Bamboo , dream long",
-      "Smiles"
+      "With stones and bamboo in view, by riverside.",
+      "Beneath alone and flute, in silent grief."
     ],
     "baihua_lines": [
       "纸屏石枕竹正床，手倦抛书午梦长。",
@@ -10226,7 +10334,8 @@
       "纸屏石枕竹方床，手倦抛书午梦长。",
       "睡起莞然成独笑，数声渔笛在沧浪。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "With stones and bamboo in view, by riverside.\nBeneath alone and flute, in silent grief."
   },
   {
     "title": "真玉堂作",
@@ -10315,10 +10424,10 @@
     "en_author": "李嘉佑",
     "en_dynasty": "Tang",
     "en_body": [
-      "Smiles , west river bamboo h i g h t o w e r",
-      "S o u t h w i n d not , waters",
-      "White descends still , bell drum tower long",
-      "D u s k is , purple flowers purple"
+      "Of myself and idle, so far and wide.",
+      "Amidst the wind and not by riverside.",
+      "Amidst books and white in soft moonlight.",
+      "Alone and i sit remind me of old dreams my heart is sore."
     ],
     "baihua_lines": [
       "傲吏身闲笑五侯，西江取竹起高楼。",
@@ -10368,7 +10477,8 @@
       "直中书省白居易丝纶阁下文章静，钟鼓楼中刻漏长。",
       "独坐黄昏谁是伴，紫薇花对紫薇郎。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Of myself and idle, so far and wide.\nAmidst the wind and not by riverside.\nAmidst books and white in soft moonlight.\nAlone and i sit remind me of old dreams my heart is sore."
   },
   {
     "title": "观书有感（其一）",
@@ -10392,8 +10502,8 @@
     "en_author": "朱熹",
     "en_dynasty": "Song",
     "en_body": [
-      "One , sky cloud",
-      "Clear , has waters comes"
+      "O'er sky and clouds I wander on, as shadows lengthen on the ground.",
+      "Beyond the clear lie streams of home, where once we walked and laughed together."
     ],
     "baihua_lines": [
       "半亩正塘一鉴开，天光云影共徘徊。",
@@ -10423,7 +10533,8 @@
       "半亩方塘一鉴开，天光云影共徘徊。",
       "问渠那得清如许，为有源头活水来。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3b",
+    "en": "O'er sky and clouds I wander on, as shadows lengthen on the ground.\nBeyond the clear lie streams of home, where once we walked and laughed together."
   },
   {
     "title": "泛舟",
@@ -10603,10 +10714,10 @@
     "en_author": "张继",
     "en_dynasty": "Tang",
     "en_body": [
-      "Moon frost sky , river maple grieves",
-      "Cold mountains , night bell traveler",
-      "Cold night small mountains cold night traveler comes wine , bamboo red",
-      "One moon , has p l u m b l o s s o m s not"
+      "The moon and falls, in fading light.",
+      "Amidst the city and cold upon the stream.",
+      "Cold rise before me, upon the stream.",
+      "Of one and the window, o'er hill and dale."
     ],
     "baihua_lines": [
       "月落乌啼霜满天，江枫渔火对愁眠。",
@@ -10656,7 +10767,8 @@
       "寒夜杜小山寒夜客来茶当酒，竹炉汤沸火初红。",
       "寻常一样窗前月，才有梅花便不同。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "The moon and falls, in fading light.\nAmidst the city and cold upon the stream.\nCold rise before me, upon the stream.\nOf one and the window, o'er hill and dale."
   },
   {
     "title": "霜月",
@@ -10763,8 +10875,8 @@
     "en_author": "白玉蟾",
     "en_dynasty": "Song",
     "en_body": [
-      "South two flowers , snow",
-      "Smoke moon , deep deep waters"
+      "Of boughs and flowers, so far and wide.",
+      "Through mist and the moon, in woods deep."
     ],
     "baihua_lines": [
       "南枝才放两三花，雪里吟香弄粉些。",
@@ -10806,7 +10918,8 @@
       "南枝才放两三花，雪里吟香弄粉些。",
       "淡淡著烟浓著月，深深笼水浅笼沙。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Of boughs and flowers, so far and wide.\nThrough mist and the moon, in woods deep."
   },
   {
     "title": "雪梅",
@@ -10967,8 +11080,8 @@
     "en_author": "牧童",
     "en_dynasty": "Song",
     "en_body": [
-      "Grass , evening wind",
-      "Returns comes d u s k , not moon bright"
+      "Grass rise before me, across the plain.",
+      "Beneath return and comes, my heart is sore."
     ],
     "baihua_lines": [
       "草铺横野六七里，笛弄晚风三四声。",
@@ -11006,7 +11119,8 @@
       "草铺横野六七里，笛弄晚风三四声。",
       "归来饱饭黄昏后，不脱蓑衣卧月明。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Grass rise before me, across the plain.\nBeneath return and comes, my heart is sore."
   },
   {
     "title": "秦淮夜泊",
@@ -11115,13 +11229,13 @@
       "Earth warm"
     ],
     "baihua_lines": [
-      "潇湘什么事等闲回，水碧沙明两岸苔。",
+      "潇湘何处事等闲回，水碧沙明两岸苔。",
       "二十五弦弹夜月，不胜清怨却飞来。",
       "题壁无名氏一团茅草乱蓬蓬，蓦地烧天蓦地空。",
       "争似满炉煨榾柮，漫腾腾地暖烘烘。",
       "卷四七言律诗"
     ],
-    "baihua": "潇湘什么事等闲回，水碧沙明两岸苔。\n二十五弦弹夜月，不胜清怨却飞来。\n题壁无名氏一团茅草乱蓬蓬，蓦地烧天蓦地空。\n争似满炉煨榾柮，漫腾腾地暖烘烘。\n卷四七言律诗",
+    "baihua": "潇湘何处事等闲回，水碧沙明两岸苔。\n二十五弦弹夜月，不胜清怨却飞来。\n题壁无名氏一团茅草乱蓬蓬，蓦地烧天蓦地空。\n争似满炉煨榾柮，漫腾腾地暖烘烘。\n卷四七言律诗",
     "notes": [
       {
         "word": "争",
@@ -11279,10 +11393,10 @@
     "en_author": "Du Fu",
     "en_dynasty": "Tang",
     "en_body": [
-      "Night , spring peach",
-      "Sun warm , wind high",
-      "Dawn smoke",
-      "Knows , ascends has"
+      "As night and dawn appear, my grief runs deep.",
+      "The sun and warmth fill the view across the plain.",
+      "Morning rise before me, o'er hill and dale.",
+      "I know rise before me, in the breeze."
     ],
     "baihua_lines": [
       "五夜漏声催晓箭，九重春色醉仙桃。",
@@ -11332,7 +11446,8 @@
       "朝罢香烟携满袖，诗成珠玉在挥毫。",
       "欲知世掌丝纶美，池上于今有凤毛。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "As night and dawn appear, my grief runs deep.\nThe sun and warmth fill the view across the plain.\nMorning rise before me, o'er hill and dale.\nI know rise before me, in the breeze."
   },
   {
     "title": "和贾舍人早朝",
@@ -11360,10 +11475,10 @@
     "en_author": "Wang Wei",
     "en_dynasty": "Tang",
     "en_body": [
-      "One , cloud",
-      "Sky , ten thousand",
-      "Sun , smoke",
-      "Dawn , returns"
+      "I and dawn fill the view in autumn haze.",
+      "Heaven rise before me, in woods deep.",
+      "Amidst the sun and scent in the breeze.",
+      "With morning and return in view, in woods deep."
     ],
     "baihua_lines": [
       "绛帻鸡人报晓筹，尚衣正进翠云裘。",
@@ -11409,7 +11524,8 @@
       "日色才临仙掌动，香烟欲傍衮龙浮。",
       "朝罢须裁五色诏，佩声归到凤池头。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "I and dawn fill the view in autumn haze.\nHeaven rise before me, in woods deep.\nAmidst the sun and scent in the breeze.\nWith morning and return in view, in woods deep."
   },
   {
     "title": "和贾舍人早朝",
@@ -11437,10 +11553,10 @@
     "en_author": "Cen Shen",
     "en_dynasty": "Tang",
     "en_body": [
-      "Purple cold , spring",
-      "Bell ten thousand , thousand",
-      "Flowers sword star , willow dew",
-      "Has ascends traveler , spring one"
+      "Sing rise before me, upon the stream.",
+      "Amidst the palace and dawn in the breeze.",
+      "The flowers and sword stretch in fading light.",
+      "As alone and there is appear, in soft moonlight."
     ],
     "baihua_lines": [
       "鸡鸣紫陌曙光寒，莺啭皇州春色阑。",
@@ -11495,7 +11611,8 @@
       "花迎剑佩星初落，柳拂旌旗露未乾。",
       "独有凤凰池上客，阳春一曲和皆难。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Sing rise before me, upon the stream.\nAmidst the palace and dawn in the breeze.\nThe flowers and sword stretch in fading light.\nAs alone and there is appear, in soft moonlight."
   },
   {
     "title": "上元应制",
@@ -11523,10 +11640,10 @@
     "en_author": "蔡襄",
     "en_dynasty": "Song",
     "en_body": [
-      "High thousand , gate rejoices",
-      "Not night , returns ten thousand",
-      "Sky ascends clear , one spring",
-      "Knows , years loves deep"
+      "High rise before me, in fading light.",
+      "Amidst not and night o'er hill and dale.",
+      "Of heaven and ascends, o'er hill and dale.",
+      "I know rise before me, in the breeze."
     ],
     "baihua_lines": [
       "高列千峰宝炬森，端门正喜翠华临。",
@@ -11564,7 +11681,8 @@
       "天上清光留此夕，人间和气阁春阴。",
       "要知尽庆华封祝，四十余年惠爱深。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "High rise before me, in fading light.\nAmidst not and night o'er hill and dale.\nOf heaven and ascends, o'er hill and dale.\nI know rise before me, in the breeze."
   },
   {
     "title": "上元应制",
@@ -11592,10 +11710,10 @@
     "en_author": "王淇",
     "en_dynasty": "Song",
     "en_body": [
-      "Snow moon , ten thousand tower",
-      "Pair cloud descends , sea ascends mountains comes",
-      "Spring wine , waters autumn wind",
-      "One one , you purple"
+      "Of snow and the moon, in soft moonlight.",
+      "Clouds rise before me, in soft moonlight.",
+      "Spring rise before me, in the breeze.",
+      "One and i fill the view in the breeze."
     ],
     "baihua_lines": [
       "雪消华月满仙台，万烛当楼宝扇开。",
@@ -11645,7 +11763,8 @@
       "镐京春酒沾周宴，汾水秋风陋汉才。",
       "一曲升平人尽乐，君王又进紫霞杯"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Of snow and the moon, in soft moonlight.\nClouds rise before me, in soft moonlight.\nSpring rise before me, in the breeze.\nOne and i fill the view in the breeze."
   },
   {
     "title": "侍宴",
@@ -11673,10 +11792,10 @@
     "en_author": "沈佺期",
     "en_dynasty": "Tang",
     "en_body": [
-      "Cloud",
-      "Mountains exits , not",
-      "Tower spring , sun",
-      "Comes earth , sky"
+      "Home and parting, in woods deep.",
+      "Amidst mountains and comes forth o'er hill and dale.",
+      "The tower and jade-green fill the view in autumn haze.",
+      "Comes and this fill the view o'er hill and dale."
     ],
     "baihua_lines": [
       "皇家贵主好神仙，别业初开云汉边。",
@@ -11732,7 +11851,8 @@
       "妆楼翠幌教春住，舞阁金铺借日悬。",
       "敬从乘舆来此地，称觞献寿乐钧天。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Home and parting, in woods deep.\nAmidst mountains and comes forth o'er hill and dale.\nThe tower and jade-green fill the view in autumn haze.\nComes and this fill the view o'er hill and dale."
   },
   {
     "title": "答丁元珍",
@@ -11760,18 +11880,18 @@
     "en_author": "Ouyang Xiu",
     "en_dynasty": "Song",
     "en_body": [
-      "S p r i n g b r e e z e not t h e w o r l d ' s e n d , moon mountains sees flowers",
-      "Fading snow has",
-      "Night h e a r b i r d s s i n g longs for , enters years",
-      "Is flowers descends traveler , evening not"
+      "Spring and the wind fill the view upon the stream.",
+      "Snow rise before me, in autumn haze.",
+      "As night and I hear appear, upon the stream.",
+      "Of is and flowers, in woods deep."
     ],
     "baihua_lines": [
       "春风疑不到天涯，二月山城没有见花。",
       "残雪压枝犹有橘，冻雷惊笋想要抽芽。",
       "夜闻啼雁生乡思，病入新年感物华。",
-      "曾经是洛阳花下客，野芳虽晚不须嗟。"
+      "曾是洛阳花下客，野芳虽晚不须嗟。"
     ],
-    "baihua": "春风疑不到天涯，二月山城没有见花。\n残雪压枝犹有橘，冻雷惊笋想要抽芽。\n夜闻啼雁生乡思，病入新年感物华。\n曾经是洛阳花下客，野芳虽晚不须嗟。",
+    "baihua": "春风疑不到天涯，二月山城没有见花。\n残雪压枝犹有橘，冻雷惊笋想要抽芽。\n夜闻啼雁生乡思，病入新年感物华。\n曾是洛阳花下客，野芳虽晚不须嗟。",
     "notes": [],
     "appr": "这首宋欧阳修的短古，酬答应和，是其集中佳作。开篇「春风疑不到天涯，二月山城未见花」起笔，中间层层铺展，至「夜闻啼雁生乡思，病入新年感物华」收束，气脉贯通。悲凉之感溢于言表，月、风、雪等意象叠加，哀婉动人。「月」是全短古的核心意象，贯穿始终。",
     "appreciation": "这首宋欧阳修的短古，酬答应和，是其集中佳作。开篇「春风疑不到天涯，二月山城未见花」起笔，中间层层铺展，至「夜闻啼雁生乡思，病入新年感物华」收束，气脉贯通。悲凉之感溢于言表，月、风、雪等意象叠加，哀婉动人。「月」是全短古的核心意象，贯穿始终。",
@@ -11813,7 +11933,8 @@
       "夜闻啼雁生乡思，病入新年感物华。",
       "曾是洛阳花下客，野芳虽晚不须嗟。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Spring and the wind fill the view upon the stream.\nSnow rise before me, in autumn haze.\nAs night and I hear appear, upon the stream.\nOf is and flowers, in woods deep."
   },
   {
     "title": "插花吟",
@@ -11841,10 +11962,10 @@
     "en_author": "邵雍",
     "en_dynasty": "Song",
     "en_body": [
-      "Ascends flowers wine , wine has flowers",
-      "Two sun , sees dawn time",
-      "Time",
-      "Wine flowers red , flowers not returns"
+      "Amidst ascends and flowers in woods deep.",
+      "Of myself and the sun, across the plain.",
+      "That rise before me, in fading light.",
+      "Wine and flowers remind me of old dreams in woods deep."
     ],
     "baihua_lines": [
       "头上花枝照酒卮，酒卮中有好花枝。",
@@ -11891,7 +12012,8 @@
       "况复筋骸粗康健，那堪时节正芳菲。",
       "酒涵花影红光溜，争忍花前不醉归。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Amidst ascends and flowers in woods deep.\nOf myself and the sun, across the plain.\nThat rise before me, in fading light.\nWine and flowers remind me of old dreams in woods deep."
   },
   {
     "title": "寓意",
@@ -11919,18 +12041,18 @@
     "en_author": "Yan Shu",
     "en_dynasty": "Song",
     "en_body": [
-      "Not , cloud no west east",
-      "Flowers moon , willow wind",
-      "Sun wine , one smoke",
-      "Waters far mountains long a l l a r o u n d"
+      "Amidst scent and carriage in the breeze.",
+      "Flowers rise before me, so far and wide.",
+      "Beneath how many and the sun, across the plain.",
+      "Books and what fill the view upon the stream."
     ],
     "baihua_lines": [
       "油壁香车不再逢，峡云无迹任西东。",
       "梨花院落溶溶月，柳絮池塘淡淡风。",
       "几日寂寥伤酒后，一番萧瑟禁烟中。",
-      "鱼书想要寄什么由达，水远山长处处同。"
+      "鱼书想要寄何处由达，水远山长处处同。"
     ],
-    "baihua": "油壁香车不再逢，峡云无迹任西东。\n梨花院落溶溶月，柳絮池塘淡淡风。\n几日寂寥伤酒后，一番萧瑟禁烟中。\n鱼书想要寄什么由达，水远山长处处同。",
+    "baihua": "油壁香车不再逢，峡云无迹任西东。\n梨花院落溶溶月，柳絮池塘淡淡风。\n几日寂寥伤酒后，一番萧瑟禁烟中。\n鱼书想要寄何处由达，水远山长处处同。",
     "notes": [
       {
         "word": "萧瑟",
@@ -11977,7 +12099,8 @@
       "几日寂寥伤酒后，一番萧瑟禁烟中。",
       "鱼书欲寄何由达，水远山长处处同。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Amidst scent and carriage in the breeze.\nFlowers rise before me, so far and wide.\nBeneath how many and the sun, across the plain.\nBooks and what fill the view upon the stream."
   },
   {
     "title": "寒食书事",
@@ -12015,17 +12138,17 @@
     "en_author": "赵鼎",
     "en_dynasty": "Song",
     "en_body": [
-      "Gate , willow years",
-      "Smoke not one , ascends",
-      "No , mountains stream has flowers",
-      "One blue , dusk",
-      "Clear bright golden clear bright peach smiles , grieves",
-      "Sky earth , rain grass",
-      "One , not",
-      "Thousand knows is , one"
+      "Silent and the gate awaken my longing of days gone by.",
+      "Mist and not fill the view upon the stream.",
+      "Through no and mountains, so far and wide.",
+      "One and green fill the view in woods deep.",
+      "Beneath clear and bright, in the breeze.",
+      "Of heaven and rain, in the breeze.",
+      "Of I and not, o'er hill and dale.",
+      "A thousand and i know fill the view across the plain."
     ],
     "baihua_lines": [
-      "寂寂柴门村落里，啊教插柳纪年华。",
+      "寂寂柴门村落里，教插柳纪年华。",
       "禁烟不到粤人国，上冢亦携庞老家。",
       "汉寝唐陵无麦饭，山溪野径有梨花。",
       "一樽竟藉青苔卧，不要管城头奏暮笳。",
@@ -12034,7 +12157,7 @@
       "人乞祭我骄妾妇，士甘焚死不公侯。",
       "贤愚千载知谁是，满眼蓬蒿共一丘。"
     ],
-    "baihua": "寂寂柴门村落里，啊教插柳纪年华。\n禁烟不到粤人国，上冢亦携庞老家。\n汉寝唐陵无麦饭，山溪野径有梨花。\n一樽竟藉青苔卧，不要管城头奏暮笳。\n清明黄庭坚佳节清明桃李笑，野田荒冢只生愁。\n雷惊天地龙蛇蛰，雨足郊原草木柔。\n人乞祭我骄妾妇，士甘焚死不公侯。\n贤愚千载知谁是，满眼蓬蒿共一丘。",
+    "baihua": "寂寂柴门村落里，教插柳纪年华。\n禁烟不到粤人国，上冢亦携庞老家。\n汉寝唐陵无麦饭，山溪野径有梨花。\n一樽竟藉青苔卧，不要管城头奏暮笳。\n清明黄庭坚佳节清明桃李笑，野田荒冢只生愁。\n雷惊天地龙蛇蛰，雨足郊原草木柔。\n人乞祭我骄妾妇，士甘焚死不公侯。\n贤愚千载知谁是，满眼蓬蒿共一丘。",
     "notes": [],
     "appr": "这是宋赵鼎的一首古体诗名作，写田园隐居。开篇「寂寂柴门村落里，也教插柳纪年华」起笔，中间层层铺展，至「汉寝唐陵无麦饭，山溪野径有梨花」收束，气脉贯通。写来不事雕琢，恬淡之趣见于言外。恬淡之情与景物描写水乳交融，是此古体诗的突出特点。",
     "appreciation": "这是宋赵鼎的一首古体诗名作，写田园隐居。开篇「寂寂柴门村落里，也教插柳纪年华」起笔，中间层层铺展，至「汉寝唐陵无麦饭，山溪野径有梨花」收束，气脉贯通。写来不事雕琢，恬淡之趣见于言外。恬淡之情与景物描写水乳交融，是此古体诗的突出特点。",
@@ -12080,7 +12203,8 @@
       "人乞祭余骄妾妇，士甘焚死不公侯。",
       "贤愚千载知谁是，满眼蓬蒿共一丘。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Silent and the gate awaken my longing of days gone by.\nMist and not fill the view upon the stream.\nThrough no and mountains, so far and wide.\nOne and green fill the view in woods deep.\nBeneath clear and bright, in the breeze.\nOf heaven and rain, in the breeze.\nOf I and not, o'er hill and dale.\nA thousand and i know fill the view across the plain."
   },
   {
     "title": "清明",
@@ -12118,26 +12242,26 @@
     "en_author": "高菊卿",
     "en_dynasty": "Song",
     "en_body": [
-      "South north mountains , clear bright",
-      "White b u t t e r f l y , tears red c u c k o o",
-      "Sun ascends , night returns child woman smiles lamp",
-      "One has wine , one spring",
-      "Green time , spring enters mountains",
-      "Red willow , f l o w i n g w a t e r",
-      "Wine , wind flowers one",
-      "Is clear bright sky , not returns"
+      "Mountains and the grave fill the view in autumn haze.",
+      "Fly and white, by riverside.",
+      "As the sun and falls appear, my heart is sore.",
+      "My heart is bound to I and there is, of youth's bright days.",
+      "Of I walk and fragrance, upon the stream.",
+      "Of red blooms and willows, by riverside.",
+      "Do not and wine fill the view by riverside.",
+      "As is and clear appear, upon the stream."
     ],
     "baihua_lines": [
       "南北山头多墓田，清明祭扫各纷然。",
       "纸灰飞作白蝴蝶，泪血染成红杜鹃。",
       "日落狐狸眠冢上，夜归儿女笑灯前。",
-      "人生有酒须当醉，一滴什么曾经到九泉。",
+      "人生有酒须当醉，一滴何处曾到九泉。",
       "郊行便事程颢芳原绿野恣行时，春入遥山碧四围。",
       "兴逐乱红穿柳巷，困临流水坐苔矶。",
       "不要辞盏酒十分劝，只恐风花一片飞。",
       "况是清明好天气，不妨游衍不要忘归。"
     ],
-    "baihua": "南北山头多墓田，清明祭扫各纷然。\n纸灰飞作白蝴蝶，泪血染成红杜鹃。\n日落狐狸眠冢上，夜归儿女笑灯前。\n人生有酒须当醉，一滴什么曾经到九泉。\n郊行便事程颢芳原绿野恣行时，春入遥山碧四围。\n兴逐乱红穿柳巷，困临流水坐苔矶。\n不要辞盏酒十分劝，只恐风花一片飞。\n况是清明好天气，不妨游衍不要忘归。",
+    "baihua": "南北山头多墓田，清明祭扫各纷然。\n纸灰飞作白蝴蝶，泪血染成红杜鹃。\n日落狐狸眠冢上，夜归儿女笑灯前。\n人生有酒须当醉，一滴何处曾到九泉。\n郊行便事程颢芳原绿野恣行时，春入遥山碧四围。\n兴逐乱红穿柳巷，困临流水坐苔矶。\n不要辞盏酒十分劝，只恐风花一片飞。\n况是清明好天气，不妨游衍不要忘归。",
     "notes": [],
     "appr": "高菊卿此古体诗作于宋，描摹山水，最见其性情。开篇「南北山头多墓田，清明祭扫各纷然」起笔，中间层层铺展，至「日落狐狸眠冢上，夜归儿女笑灯前」收束，气脉贯通。意境清幽恬淡，杜鹃、日、风意象淡远，悠然有世外之致。「杜鹃」是全古体诗的核心意象，贯穿始终。",
     "appreciation": "高菊卿此古体诗作于宋，描摹山水，最见其性情。开篇「南北山头多墓田，清明祭扫各纷然」起笔，中间层层铺展，至「日落狐狸眠冢上，夜归儿女笑灯前」收束，气脉贯通。意境清幽恬淡，杜鹃、日、风意象淡远，悠然有世外之致。「杜鹃」是全古体诗的核心意象，贯穿始终。",
@@ -12183,7 +12307,8 @@
       "莫辞盏酒十分劝，只恐风花一片飞。",
       "况是清明好天气，不妨游衍莫忘归。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Mountains and the grave fill the view in autumn haze.\nFly and white, by riverside.\nAs the sun and falls appear, my heart is sore.\nMy heart is bound to I and there is, of youth's bright days.\nOf I walk and fragrance, upon the stream.\nOf red blooms and willows, by riverside.\nDo not and wine fill the view by riverside.\nAs is and clear appear, upon the stream."
   },
   {
     "title": "秋千",
@@ -12251,13 +12376,13 @@
       "曲江对酒（其一）杜甫一片花飞减却春，风飘万点正愁人。",
       "将看想要尽花经眼，不要厌伤多酒入唇。",
       "江上小堂巢翡翠，苑边高冢卧麒麟。",
-      "细推物理须行乐，什么用浮名绊此身。",
+      "细推物理须行乐，何处用浮名绊此身。",
       "曲江对酒（其二）杜甫朝回日日典春衣，每日江头尽醉归。",
       "酒债寻常行处有，人生七十古来稀。",
       "穿花蛱蝶深深见，点水蜻蜓款款飞。",
       "传与风光共流转，暂时相赏不要相违。"
     ],
-    "baihua": "画架双裁翠络偏，佳人春戏小楼前。\n飘扬血色裙拖地，断送玉容人上天。\n花皮润沾红杏雨，彩绳斜挂绿杨烟。\n下来闲处从容立，疑是蟾宫谪神仙。\n曲江对酒（其一）杜甫一片花飞减却春，风飘万点正愁人。\n将看想要尽花经眼，不要厌伤多酒入唇。\n江上小堂巢翡翠，苑边高冢卧麒麟。\n细推物理须行乐，什么用浮名绊此身。\n曲江对酒（其二）杜甫朝回日日典春衣，每日江头尽醉归。\n酒债寻常行处有，人生七十古来稀。\n穿花蛱蝶深深见，点水蜻蜓款款飞。\n传与风光共流转，暂时相赏不要相违。",
+    "baihua": "画架双裁翠络偏，佳人春戏小楼前。\n飘扬血色裙拖地，断送玉容人上天。\n花皮润沾红杏雨，彩绳斜挂绿杨烟。\n下来闲处从容立，疑是蟾宫谪神仙。\n曲江对酒（其一）杜甫一片花飞减却春，风飘万点正愁人。\n将看想要尽花经眼，不要厌伤多酒入唇。\n江上小堂巢翡翠，苑边高冢卧麒麟。\n细推物理须行乐，何处用浮名绊此身。\n曲江对酒（其二）杜甫朝回日日典春衣，每日江头尽醉归。\n酒债寻常行处有，人生七十古来稀。\n穿花蛱蝶深深见，点水蜻蜓款款飞。\n传与风光共流转，暂时相赏不要相违。",
     "notes": [],
     "appr": "此作题为「秋千」，宋僧惠洪描摹山水，笔致恬淡。开篇「画架双裁翠络偏，佳人春戏小楼前」起笔，中间层层铺展，至「花皮润沾红杏雨，彩绳斜挂绿杨烟」收束，气脉贯通。意境清幽恬淡，日、风、雨意象淡远，悠然有世外之致。恬淡之情与景物描写水乳交融，是此古体诗的突出特点。",
     "appreciation": "此作题为「秋千」，宋僧惠洪描摹山水，笔致恬淡。开篇「画架双裁翠络偏，佳人春戏小楼前」起笔，中间层层铺展，至「花皮润沾红杏雨，彩绳斜挂绿杨烟」收束，气脉贯通。意境清幽恬淡，日、风、雨意象淡远，悠然有世外之致。恬淡之情与景物描写水乳交融，是此古体诗的突出特点。",
@@ -12335,18 +12460,18 @@
     "en_author": "崔颢",
     "en_dynasty": "Tang",
     "en_body": [
-      "One golden departs , earth empty golden tower",
-      "Golden one departs not , w h i t e c l o u d s thousand empty",
-      "Trees , f r a g r a n t g r a s s",
-      "Sun dusk is , smoke river ascends one grieves"
+      "The of old and I stretch in the breeze.",
+      "Of golden and cranes, in autumn haze.",
+      "Amidst clear skies and rivers so far and wide.",
+      "With the sun and evening in view, of days gone by."
     ],
     "baihua_lines": [
       "昔人已经乘黄鹤去，此地空我黄鹤楼。",
       "黄鹤一去不复返，白云千载空悠悠。",
       "晴川历历汉阳树，芳草萋萋鹦鹉州。",
-      "日暮乡关什么处是，烟波江上使人愁。"
+      "日暮乡关何处处是，烟波江上使人愁。"
     ],
-    "baihua": "昔人已经乘黄鹤去，此地空我黄鹤楼。\n黄鹤一去不复返，白云千载空悠悠。\n晴川历历汉阳树，芳草萋萋鹦鹉州。\n日暮乡关什么处是，烟波江上使人愁。",
+    "baihua": "昔人已经乘黄鹤去，此地空我黄鹤楼。\n黄鹤一去不复返，白云千载空悠悠。\n晴川历历汉阳树，芳草萋萋鹦鹉州。\n日暮乡关何处处是，烟波江上使人愁。",
     "notes": [
       {
         "word": "萋萋",
@@ -12397,7 +12522,8 @@
       "晴川历历汉阳树，芳草萋萋鹦鹉州。",
       "日暮乡关何处是，烟波江上使人愁。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "The of old and I stretch in the breeze.\nOf golden and cranes, in autumn haze.\nAmidst clear skies and rivers so far and wide.\nWith the sun and evening in view, of days gone by."
   },
   {
     "title": "旅怀",
@@ -12445,21 +12571,23 @@
     "en_author": "崔涂",
     "en_dynasty": "Tang",
     "en_body": [
-      "Waters flowers two no , e a s t w i n d",
-      "B u t t e r f l y dream t e n t h o u s a n d l i , c u c k o o ascends moon",
-      "Years , spring two",
-      "Is not returns returns , lake smoke has",
-      "Departs years flowers you , sun flowers one years",
-      "Spring grieves",
-      "Longs for , has",
-      "Hears comes , west tower moon",
-      "River clear river one , long summer river secluded",
-      "Departs comes ascends , near waters"
+      "Waters and flows remind me of old dreams in vain I wait.",
+      "Butterflies and dreams, with tear-filled eyes.",
+      "Through books and the year, across the plain.",
+      "Beneath is and not, with tear-filled eyes.",
+      "Should and departs remind me of old dreams in vain I wait.",
+      "Hard to and spring remind me of old dreams across the plain.",
+      "In dreams of myself and longing my heart is sore.",
+      "I hear and the path fill the view upon the stream.",
+      "The great river rise before me, o'er hill and dale.",
+      "Departs rise before me, in woods deep.",
+      "The old stretchs across the plain.",
+      "The this and what stretchs upon the stream."
     ],
     "baihua_lines": [
       "水流花谢两无情，送尽东风过楚城。",
       "蝴蝶梦中家万里，杜鹃枝上月三更。",
-      "所以园书动经年绝，华发春催两鬓生。",
+      "园书动经年绝，华发春催两鬓生。",
       "自是不归归便得，五湖烟景有谁争。",
       "答李儋韦应物去年花里逢您别，今日花开又一年。",
       "世事茫茫难自料，春愁黯黯独成眠。",
@@ -12468,9 +12596,9 @@
       "江村杜甫清江一曲抱村流，长夏江村事事幽。",
       "自去自来梁上燕，相亲相近水中鸥。",
       "老妻画纸为棋局，稚您敲针作钓钩。",
-      "多病所须惟药物，微躯此外更什么求。"
+      "多病所须惟药物，微躯此外更何处求。"
     ],
-    "baihua": "水流花谢两无情，送尽东风过楚城。\n蝴蝶梦中家万里，杜鹃枝上月三更。\n所以园书动经年绝，华发春催两鬓生。\n自是不归归便得，五湖烟景有谁争。\n答李儋韦应物去年花里逢您别，今日花开又一年。\n世事茫茫难自料，春愁黯黯独成眠。\n身多疾病思田里，邑有流亡愧俸钱。\n闻道想要来相问讯，西楼望月几回圆。\n江村杜甫清江一曲抱村流，长夏江村事事幽。\n自去自来梁上燕，相亲相近水中鸥。\n老妻画纸为棋局，稚您敲针作钓钩。\n多病所须惟药物，微躯此外更什么求。",
+    "baihua": "水流花谢两无情，送尽东风过楚城。\n蝴蝶梦中家万里，杜鹃枝上月三更。\n园书动经年绝，华发春催两鬓生。\n自是不归归便得，五湖烟景有谁争。\n答李儋韦应物去年花里逢您别，今日花开又一年。\n世事茫茫难自料，春愁黯黯独成眠。\n身多疾病思田里，邑有流亡愧俸钱。\n闻道想要来相问讯，西楼望月几回圆。\n江村杜甫清江一曲抱村流，长夏江村事事幽。\n自去自来梁上燕，相亲相近水中鸥。\n老妻画纸为棋局，稚您敲针作钓钩。\n多病所须惟药物，微躯此外更何处求。",
     "notes": [
       {
         "word": "争",
@@ -12529,7 +12657,8 @@
       "老妻画纸为棋局，稚子敲针作钓钩。",
       "多病所须惟药物，微躯此外更何求。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Waters and flows remind me of old dreams in vain I wait.\nButterflies and dreams, with tear-filled eyes.\nThrough books and the year, across the plain.\nBeneath is and not, with tear-filled eyes.\nShould and departs remind me of old dreams in vain I wait.\nHard to and spring remind me of old dreams across the plain.\nIn dreams of myself and longing my heart is sore.\nI hear and the path fill the view upon the stream.\nThe great river rise before me, o'er hill and dale.\nDeparts rise before me, in woods deep.\nThe old stretchs across the plain.\nThe this and what stretchs upon the stream."
   },
   {
     "title": "夏日",
@@ -12584,9 +12713,9 @@
       "积雨辋川庄作王维积雨空林烟火迟，蒸藜炊黍饷东菑。",
       "漠漠水田飞白鹭，阴阴夏木啭黄鹂。",
       "山中习静合朝槿，松下清斋折露葵。",
-      "野老与人争席罢，海鸥什么事更相疑。"
+      "野老与人争席罢，海鸥何处事更相疑。"
     ],
-    "baihua": "长夏江村风日清，檐牙燕雀已经生成。\n蝶衣晒粉花枝午，蛛网添丝屋角晴。\n落落疏廉邀月影，嘈嘈虚枕纳溪声。\n久斑两鬓如霜雪，直想要樵渔过此生。\n积雨辋川庄作王维积雨空林烟火迟，蒸藜炊黍饷东菑。\n漠漠水田飞白鹭，阴阴夏木啭黄鹂。\n山中习静合朝槿，松下清斋折露葵。\n野老与人争席罢，海鸥什么事更相疑。",
+    "baihua": "长夏江村风日清，檐牙燕雀已经生成。\n蝶衣晒粉花枝午，蛛网添丝屋角晴。\n落落疏廉邀月影，嘈嘈虚枕纳溪声。\n久斑两鬓如霜雪，直想要樵渔过此生。\n积雨辋川庄作王维积雨空林烟火迟，蒸藜炊黍饷东菑。\n漠漠水田飞白鹭，阴阴夏木啭黄鹂。\n山中习静合朝槿，松下清斋折露葵。\n野老与人争席罢，海鸥何处事更相疑。",
     "notes": [
       {
         "word": "争",
@@ -12679,14 +12808,14 @@
     "en_author": "Lu You",
     "en_dynasty": "Song",
     "en_body": [
-      "Cold",
-      "F r e s h w i n d earth autumn , sun sky not knows",
-      "Time hears , sees",
-      "Returns I comes",
-      "Comes no not , east sun red",
-      "Ten thousand still , time one",
-      "Sky earth has , longs for enters wind cloud",
-      "Not , child is"
+      "Amidst cold and emerald upon the stream.",
+      "Of fresh breeze and autumn, by riverside.",
+      "Amidst I hear and I see upon the stream.",
+      "With return, of youth's bright days.",
+      "Amidst idle and comes in the breeze.",
+      "Through ten thousand and still, in the breeze.",
+      "The path and heaven, in autumn haze.",
+      "Of not and delight, o'er hill and dale."
     ],
     "baihua_lines": [
       "插棘编篱谨护持，养成寒碧映涟漪。",
@@ -12741,7 +12870,8 @@
       "道通天地有形外，思入风云变态中。",
       "富贵不淫贫贱乐，男儿到此是豪雄。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Amidst cold and emerald upon the stream.\nOf fresh breeze and autumn, by riverside.\nAmidst I hear and I see upon the stream.\nWith return, of youth's bright days.\nAmidst idle and comes in the breeze.\nThrough ten thousand and still, in the breeze.\nThe path and heaven, in autumn haze.\nOf not and delight, o'er hill and dale."
   },
   {
     "title": "表兄话旧",
@@ -12819,41 +12949,42 @@
     "en_author": "窦叔向",
     "en_dynasty": "Tang",
     "en_body": [
-      "Night flowers , night deep rain",
-      "Far , not listens",
-      "Departs sun child long vast , years",
-      "Bright dawn is boat , grieves sees river bridge wine blue",
-      "Moon moon ascends , north has sky hundred",
-      "Ten thousand autumn , one evening",
-      "Waters cloud , descends spring still comes",
-      "No",
-      "Autumn （ one ） thousand mountains still dawn , sun sun river tower",
-      "One returns , clear autumn s w a l l o w",
-      "Years not",
-      "Autumn （ ） south mountains , dew",
-      "West , east comes purple",
-      "Cloud , sun",
-      "One river evening , blue dawn",
-      "Autumn （ ） dew maple trees , mountains",
-      "River sky , ascends wind cloud earth",
-      "Chrysanthemum two sun tears , boat one",
-      "Cold a l l a r o u n d , white high dusk",
-      "Autumn （ ） bright waters time",
-      "Woman night moon , autumn wind",
-      "Cloud , dew lotus red",
-      "Sky , river lake earth one"
+      "Night and flowers awaken my longing I cannot sleep.",
+      "The far and books stretchs in fading light.",
+      "Departs rise before me, in fading light.",
+      "As bright and morning appear, of youth's bright days.",
+      "Of the moon and ascends, in woods deep.",
+      "Ten thousand rise before me, in soft moonlight.",
+      "The waters and my heart stretch o'er hill and dale.",
+      "Of no and what, in soft moonlight.",
+      "The autumn and one stretch across the plain.",
+      "The I and clear stretchs across the plain.",
+      "Of my heart , so far and wide.",
+      "Of young and the year, in woods deep.",
+      "The autumn and the palace stretch across the plain.",
+      "Of I gaze and comes, in the breeze.",
+      "The clouds and opens stretch in woods deep.",
+      "One and the great river fill the view in autumn haze.",
+      "As autumn and dew appear, of youth's bright days.",
+      "Through the great river and waves, in woods deep.",
+      "Beneath chrysanthemums and opens, I cannot sleep.",
+      "The cold and robe stretchs in fading light.",
+      "Autumn rise before me, in fading light.",
+      "The night and the moon stretch in soft moonlight.",
+      "Waves rise before me, so far and wide.",
+      "Amidst the pass and heaven o'er hill and dale."
     ],
     "baihua_lines": [
       "夜合花开香满庭，夜深微雨醉初醒。",
-      "远书珍重什么由达，旧事凄凉不可听。",
+      "远书珍重何处由达，旧事凄凉不可听。",
       "去日儿童都长大，昔年亲友半凋零。",
       "明朝又是孤舟别，愁见河桥酒幔青。",
       "游月陂程颢月坡堤上四徘徊，北有中天百尺台。",
       "万物已经随秋气改，一樽聊为晚凉开。",
       "水心云影闲相照，林下泉声静自来。",
-      "世事无端什么足计，但逢佳节约重陪。",
+      "世事无端何处足计，但逢佳节约重陪。",
       "秋兴八首（其一）杜甫千家山郭静朝晖，日日江楼坐翠微。",
-      "信宿渔人还泛泛，清秋燕您所以飞飞。",
+      "信宿渔人还泛泛，清秋燕您飞飞。",
       "匡衡抗疏功名薄，刘向传经心事违。",
       "同学少年多不贱，五陵裘马自轻肥。",
       "秋兴（其二）杜甫蓬莱宫阙对南山，承露金茎霄汉间。",
@@ -12862,14 +12993,14 @@
       "一卧沧江惊岁晚，几回青琐点朝班。",
       "秋兴（其三）杜甫玉露凋伤枫树林，巫山巫峡气萧森。",
       "江间波浪兼天涌，塞上风云接地阴。",
-      "丛菊两开他日泪，孤舟一系所以园心。",
+      "丛菊两开他日泪，孤舟一系园心。",
       "寒衣处处催刀尺，白帝城高急暮砧。",
       "秋兴（其四）杜甫昆明池水汉时功，武帝旌旗在眼中。",
       "织女机丝虚夜月，石鲸鳞甲动秋风。",
       "波飘菰米沉云黑，露冷莲房坠粉红。",
       "关塞极天惟鸟道，江湖满地一渔翁。"
     ],
-    "baihua": "夜合花开香满庭，夜深微雨醉初醒。\n远书珍重什么由达，旧事凄凉不可听。\n去日儿童都长大，昔年亲友半凋零。\n明朝又是孤舟别，愁见河桥酒幔青。\n游月陂程颢月坡堤上四徘徊，北有中天百尺台。\n万物已经随秋气改，一樽聊为晚凉开。\n水心云影闲相照，林下泉声静自来。\n世事无端什么足计，但逢佳节约重陪。\n秋兴八首（其一）杜甫千家山郭静朝晖，日日江楼坐翠微。\n信宿渔人还泛泛，清秋燕您所以飞飞。\n匡衡抗疏功名薄，刘向传经心事违。\n同学少年多不贱，五陵裘马自轻肥。\n秋兴（其二）杜甫蓬莱宫阙对南山，承露金茎霄汉间。\n西望瑶池降王母，东来紫气满函关。\n云移雉尾开宫扇，日绕龙鳞识圣颜。\n一卧沧江惊岁晚，几回青琐点朝班。\n秋兴（其三）杜甫玉露凋伤枫树林，巫山巫峡气萧森。\n江间波浪兼天涌，塞上风云接地阴。\n丛菊两开他日泪，孤舟一系所以园心。\n寒衣处处催刀尺，白帝城高急暮砧。\n秋兴（其四）杜甫昆明池水汉时功，武帝旌旗在眼中。\n织女机丝虚夜月，石鲸鳞甲动秋风。\n波飘菰米沉云黑，露冷莲房坠粉红。\n关塞极天惟鸟道，江湖满地一渔翁。",
+    "baihua": "夜合花开香满庭，夜深微雨醉初醒。\n远书珍重何处由达，旧事凄凉不可听。\n去日儿童都长大，昔年亲友半凋零。\n明朝又是孤舟别，愁见河桥酒幔青。\n游月陂程颢月坡堤上四徘徊，北有中天百尺台。\n万物已经随秋气改，一樽聊为晚凉开。\n水心云影闲相照，林下泉声静自来。\n世事无端何处足计，但逢佳节约重陪。\n秋兴八首（其一）杜甫千家山郭静朝晖，日日江楼坐翠微。\n信宿渔人还泛泛，清秋燕您飞飞。\n匡衡抗疏功名薄，刘向传经心事违。\n同学少年多不贱，五陵裘马自轻肥。\n秋兴（其二）杜甫蓬莱宫阙对南山，承露金茎霄汉间。\n西望瑶池降王母，东来紫气满函关。\n云移雉尾开宫扇，日绕龙鳞识圣颜。\n一卧沧江惊岁晚，几回青琐点朝班。\n秋兴（其三）杜甫玉露凋伤枫树林，巫山巫峡气萧森。\n江间波浪兼天涌，塞上风云接地阴。\n丛菊两开他日泪，孤舟一系园心。\n寒衣处处催刀尺，白帝城高急暮砧。\n秋兴（其四）杜甫昆明池水汉时功，武帝旌旗在眼中。\n织女机丝虚夜月，石鲸鳞甲动秋风。\n波飘菰米沉云黑，露冷莲房坠粉红。\n关塞极天惟鸟道，江湖满地一渔翁。",
     "notes": [
       {
         "word": "砧",
@@ -12944,7 +13075,8 @@
       "波飘菰米沉云黑，露冷莲房坠粉红。",
       "关塞极天惟鸟道，江湖满地一渔翁。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Night and flowers awaken my longing I cannot sleep.\nThe far and books stretchs in fading light.\nDeparts rise before me, in fading light.\nAs bright and morning appear, of youth's bright days.\nOf the moon and ascends, in woods deep.\nTen thousand rise before me, in soft moonlight.\nThe waters and my heart stretch o'er hill and dale.\nOf no and what, in soft moonlight.\nThe autumn and one stretch across the plain.\nThe I and clear stretchs across the plain.\nOf my heart , so far and wide.\nOf young and the year, in woods deep.\nThe autumn and the palace stretch across the plain.\nOf I gaze and comes, in the breeze.\nThe clouds and opens stretch in woods deep.\nOne and the great river fill the view in autumn haze.\nAs autumn and dew appear, of youth's bright days.\nThrough the great river and waves, in woods deep.\nBeneath chrysanthemums and opens, I cannot sleep.\nThe cold and robe stretchs in fading light.\nAutumn rise before me, in fading light.\nThe night and the moon stretch in soft moonlight.\nWaves rise before me, so far and wide.\nAmidst the pass and heaven o'er hill and dale."
   },
   {
     "title": "月夜舟中",
@@ -12992,17 +13124,18 @@
     "en_author": "戴复古",
     "en_dynasty": "Song",
     "en_body": [
-      "B r i g h t m o o n empty , green waters no night",
-      "Longs for , dream soul",
-      "Star waters , w i l d g e e s e laments red wind",
-      "Lamp , bridge dew",
-      "C h a n g ' a n autumn cloud , high autumn",
-      "Fading star , long one one tower",
-      "Purple chrysanthemum still , red lotus grieves",
-      "Not returns departs , empty south",
-      "Autumn cloud , one wind",
-      "Laments w a n i n g m o o n , high low dusk empty",
-      "Gate , night deep"
+      "The all over and boat stretch in the breeze.",
+      "My heart is bound to longing and my shadow, my grief runs deep.",
+      "With stars and falls in view, upon the stream.",
+      "The lamp rise before me, in fading light.",
+      "Long and autumn fill the view in soft moonlight.",
+      "Stars rise before me, across the plain.",
+      "As purple and half appear, my heart is sore.",
+      "Not and return, my grief runs deep.",
+      "Autumn rise before me, in fading light.",
+      "How many and the woods remind me of old dreams in silent grief.",
+      "Beneath cicadas and sorrow, upon the stream.",
+      "Beneath the gate and night, my heart is sore."
     ],
     "baihua_lines": [
       "满船明月浸虚空，绿水无痕夜气冲。",
@@ -13089,7 +13222,8 @@
       "蝉声断续悲残月，萤焰高低照暮空。",
       "赋就金门期再献，夜深搔首叹飞蓬。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "The all over and boat stretch in the breeze.\nMy heart is bound to longing and my shadow, my grief runs deep.\nWith stars and falls in view, upon the stream.\nThe lamp rise before me, in fading light.\nLong and autumn fill the view in soft moonlight.\nStars rise before me, across the plain.\nAs purple and half appear, my heart is sore.\nNot and return, my grief runs deep.\nAutumn rise before me, in fading light.\nHow many and the woods remind me of old dreams in silent grief.\nBeneath cicadas and sorrow, upon the stream.\nBeneath the gate and night, my heart is sore."
   },
   {
     "title": "中秋",
@@ -13197,54 +13331,55 @@
     "en_author": "李朴",
     "en_dynasty": "Song",
     "en_body": [
-      "Empty , cloud no",
-      "Autumn one , long cloud a t h o u s a n d l i bright",
-      "Empty",
-      "River clear",
-      "Sun departs laments autumn , comes sun you",
-      "Brief returns , smiles one",
-      "Waters far thousand , mountains high two cold",
-      "Bright years knows , looks",
-      "Autumn longs for one ten thousand , river lake one",
-      "Sun long , vast sky",
-      "Fading deep moon , autumn",
-      "No high , hundred tower",
-      "Mountains one",
-      "Looks traveler child rejoices",
-      "Autumn waters deep , two one",
-      "White bamboo river dusk , gate moon",
-      "Hears tower , wind",
-      "Cloud , clear moon",
-      "Comes has , one",
-      "Not knows one , empty",
-      "Winter loves dawn , bamboo autumn",
-      "Warm , cold",
-      "Green wine , golden",
-      "Chrysanthemum",
-      "Winter sky time one sun , winter spring comes",
-      "Willow , mountains cold plum blossoms",
-      "Cloud not , child",
-      "P l u m b l o s s o m s , wind small",
-      "Waters clear , moon d u s k",
-      "Frost descends , knows soul",
-      "Has , not",
-      "One dawn sky , road thousand",
-      "Dawn , fading years",
-      "Cloud , snow not",
-      "Knows far comes has , river"
+      "In vain and clouds remind me of old dreams in soft moonlight.",
+      "Autumn and one fill the view in woods deep.",
+      "Amidst in vain and falls in the breeze.",
+      "Through the river and clear, in fading light.",
+      "The sun and old, in soft moonlight.",
+      "Of I , so far and wide.",
+      "Waters rise before me, upon the stream.",
+      "Bright and the year, in the breeze.",
+      "As autumn and longing appear, in silent grief.",
+      "The sun and long remind me of old dreams of days gone by.",
+      "Through deep and the moon, across the plain.",
+      "Amidst old and no by riverside.",
+      "Amidst mountains and I in the breeze.",
+      "I see and glad fill the view o'er hill and dale.",
+      "Amidst autumn and waters in the breeze.",
+      "White and sand, my grief runs deep.",
+      "The I hear and flute stretch in fading light.",
+      "Of I walk and clouds, so far and wide.",
+      "Longing for comes and there is, in vain I wait.",
+      "Amidst not and I know in fading light.",
+      "Winter and clear skies fill the view so far and wide.",
+      "Warmth rise before me, so far and wide.",
+      "Leaves and green fill the view in autumn haze.",
+      "The chrysanthemums and all over stretch by riverside.",
+      "The winter and heaven stretch so far and wide.",
+      "Fly fill the view in woods deep.",
+      "Through the bank and willows, in fading light.",
+      "The clouds and not stretch in woods deep.",
+      "Plum blossoms and flowers awaken my longing with tear-filled eyes.",
+      "Of my shadow and waters, in fading light.",
+      "Amidst frost and descends in soft moonlight.",
+      "There is and not fill the view in woods deep.",
+      "The pass and one fill the view in the breeze.",
+      "Of morning and I spare, so far and wide.",
+      "Of clouds and ridges, o'er hill and dale.",
+      "The I know and you stretch upon the stream."
     ],
     "baihua_lines": [
       "皓魄当空宝镜升，云间仙籁寂无声。",
       "平分秋色一轮满，长伴云衢千里明。",
-      "狡兔空从弦外落，妖蟆莫要向眼前生。",
+      "狡兔空从弦外落，妖蟆何时向眼前生。",
       "灵槎拟约同携手，更待银河澈底清。",
       "九日蓝耕会饮杜甫老去悲秋强自宽，兴来今日尽您欢。",
       "羞将要短发还吹帽，笑倩旁人为正冠。",
       "蓝水远从千涧落，玉山高并两峰寒。",
       "明年此会知谁健，醉把茱萸仔细看。",
       "秋思陆游利想要驱人万火牛，江湖浪迹一沙鸥。",
-      "日长似岁闲正觉，事大如天醉亦莫要。",
-      "砧杵敲残深巷月，梧桐摇落所以园秋。",
+      "日长似岁闲正觉，事大如天醉亦何时。",
+      "砧杵敲残深巷月，梧桐摇落园秋。",
       "想要舒老眼无高处，怎得元龙百尺楼。",
       "与朱山人杜甫锦里先生乌角巾，园收芋栗没有全贫。",
       "惯看宾客儿童喜，得食阶除鸟雀驯。",
@@ -13268,10 +13403,10 @@
       "幸有微吟可相狎，不须檀板共金樽。",
       "左迁至蓝关示侄孙湘韩愈一封朝奏九重天，夕贬潮阳路八千。",
       "本为圣朝除弊政，敢将要衰朽惜残年。",
-      "云横秦岭家什么在，雪拥蓝关马不前。",
+      "云横秦岭家何处在，雪拥蓝关马不前。",
       "知你远来应有意，好收我骨瘴江边。"
     ],
-    "baihua": "皓魄当空宝镜升，云间仙籁寂无声。\n平分秋色一轮满，长伴云衢千里明。\n狡兔空从弦外落，妖蟆莫要向眼前生。\n灵槎拟约同携手，更待银河澈底清。\n九日蓝耕会饮杜甫老去悲秋强自宽，兴来今日尽您欢。\n羞将要短发还吹帽，笑倩旁人为正冠。\n蓝水远从千涧落，玉山高并两峰寒。\n明年此会知谁健，醉把茱萸仔细看。\n秋思陆游利想要驱人万火牛，江湖浪迹一沙鸥。\n日长似岁闲正觉，事大如天醉亦莫要。\n砧杵敲残深巷月，梧桐摇落所以园秋。\n想要舒老眼无高处，怎得元龙百尺楼。\n与朱山人杜甫锦里先生乌角巾，园收芋栗没有全贫。\n惯看宾客儿童喜，得食阶除鸟雀驯。\n秋水才深四五尺，野航恰受两三人。\n白沙翠竹江村暮，相送柴门月色新。\n闻笛赵嘏谁家吹笛画楼中，断续声随断续风。\n响遏行云横碧落，清和冷月到帘栊。\n兴来三弄有桓您，赋就一篇怀马融。\n曲罢不知人在否，我音嘹亮尚飘空。\n冬景刘克庄晴窗早觉爱朝曦，竹外秋声渐作威。\n命仆怎排新暖阁，呼童熨贴旧寒衣。\n叶浮嫩绿酒初熟，橙切香黄蟹正肥。\n蓉菊满园都可羡，赏心从此不要相违。\n冬至杜甫天时人事日相催，冬至阳生春又来。\n刺绣五纹添弱线，吹葭六管动飞灰。\n岸容待腊将要舒柳，山意冲寒想要放梅。\n云物不殊乡国异，教儿将覆掌中杯。\n梅花林逋众芳摇落独鲜妍，占断风情向小园。\n疏影横斜水清浅，暗香浮动月黄昏。\n霜禽想要下先偷眼，粉蝶如知合断魂。\n幸有微吟可相狎，不须檀板共金樽。\n左迁至蓝关示侄孙湘韩愈一封朝奏九重天，夕贬潮阳路八千。\n本为圣朝除弊政，敢将要衰朽惜残年。\n云横秦岭家什么在，雪拥蓝关马不前。\n知你远来应有意，好收我骨瘴江边。",
+    "baihua": "皓魄当空宝镜升，云间仙籁寂无声。\n平分秋色一轮满，长伴云衢千里明。\n狡兔空从弦外落，妖蟆何时向眼前生。\n灵槎拟约同携手，更待银河澈底清。\n九日蓝耕会饮杜甫老去悲秋强自宽，兴来今日尽您欢。\n羞将要短发还吹帽，笑倩旁人为正冠。\n蓝水远从千涧落，玉山高并两峰寒。\n明年此会知谁健，醉把茱萸仔细看。\n秋思陆游利想要驱人万火牛，江湖浪迹一沙鸥。\n日长似岁闲正觉，事大如天醉亦何时。\n砧杵敲残深巷月，梧桐摇落园秋。\n想要舒老眼无高处，怎得元龙百尺楼。\n与朱山人杜甫锦里先生乌角巾，园收芋栗没有全贫。\n惯看宾客儿童喜，得食阶除鸟雀驯。\n秋水才深四五尺，野航恰受两三人。\n白沙翠竹江村暮，相送柴门月色新。\n闻笛赵嘏谁家吹笛画楼中，断续声随断续风。\n响遏行云横碧落，清和冷月到帘栊。\n兴来三弄有桓您，赋就一篇怀马融。\n曲罢不知人在否，我音嘹亮尚飘空。\n冬景刘克庄晴窗早觉爱朝曦，竹外秋声渐作威。\n命仆怎排新暖阁，呼童熨贴旧寒衣。\n叶浮嫩绿酒初熟，橙切香黄蟹正肥。\n蓉菊满园都可羡，赏心从此不要相违。\n冬至杜甫天时人事日相催，冬至阳生春又来。\n刺绣五纹添弱线，吹葭六管动飞灰。\n岸容待腊将要舒柳，山意冲寒想要放梅。\n云物不殊乡国异，教儿将覆掌中杯。\n梅花林逋众芳摇落独鲜妍，占断风情向小园。\n疏影横斜水清浅，暗香浮动月黄昏。\n霜禽想要下先偷眼，粉蝶如知合断魂。\n幸有微吟可相狎，不须檀板共金樽。\n左迁至蓝关示侄孙湘韩愈一封朝奏九重天，夕贬潮阳路八千。\n本为圣朝除弊政，敢将要衰朽惜残年。\n云横秦岭家何处在，雪拥蓝关马不前。\n知你远来应有意，好收我骨瘴江边。",
     "notes": [
       {
         "word": "砧",
@@ -13350,7 +13485,8 @@
       "云横秦岭家何在，雪拥蓝关马不前。",
       "知汝远来应有意，好收吾骨瘴江边。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "In vain and clouds remind me of old dreams in soft moonlight.\nAutumn and one fill the view in woods deep.\nAmidst in vain and falls in the breeze.\nThrough the river and clear, in fading light.\nThe sun and old, in soft moonlight.\nOf I , so far and wide.\nWaters rise before me, upon the stream.\nBright and the year, in the breeze.\nAs autumn and longing appear, in silent grief.\nThe sun and long remind me of old dreams of days gone by.\nThrough deep and the moon, across the plain.\nAmidst old and no by riverside.\nAmidst mountains and I in the breeze.\nI see and glad fill the view o'er hill and dale.\nAmidst autumn and waters in the breeze.\nWhite and sand, my grief runs deep.\nThe I hear and flute stretch in fading light.\nOf I walk and clouds, so far and wide.\nLonging for comes and there is, in vain I wait.\nAmidst not and I know in fading light.\nWinter and clear skies fill the view so far and wide.\nWarmth rise before me, so far and wide.\nLeaves and green fill the view in autumn haze.\nThe chrysanthemums and all over stretch by riverside.\nThe winter and heaven stretch so far and wide.\nFly fill the view in woods deep.\nThrough the bank and willows, in fading light.\nThe clouds and not stretch in woods deep.\nPlum blossoms and flowers awaken my longing with tear-filled eyes.\nOf my shadow and waters, in fading light.\nAmidst frost and descends in soft moonlight.\nThere is and not fill the view in woods deep.\nThe pass and one fill the view in the breeze.\nOf morning and I spare, so far and wide.\nOf clouds and ridges, o'er hill and dale.\nThe I know and you stretch upon the stream."
   },
   {
     "title": "干戈",
@@ -13378,18 +13514,18 @@
     "en_author": "王中",
     "en_dynasty": "Song",
     "en_body": [
-      "One no two",
-      "Vast , small",
-      "One a t h o u s a n d l i , cold moon one",
-      "Mountains thousand sun wine , time"
+      "Not yet, wish to, what, one, without, and temple locks.",
+      "Cherish and mausoleum.",
+      "Person, thousand, magpie, cold, month, one, and branch.",
+      "Mountain, thousand, day, wine, and season."
     ],
     "baihua_lines": [
-      "干戈没有定想要什么的，一事无成两鬓丝。",
+      "干戈没有定想要何处的，一事无成两鬓丝。",
       "踪迹大纲王粲传，情怀小样杜陵诗。",
       "鶺鴒音断人千里，乌鹊巢寒月一枝。",
       "怎得中山千日酒，酩然直到太平时。"
     ],
-    "baihua": "干戈没有定想要什么的，一事无成两鬓丝。\n踪迹大纲王粲传，情怀小样杜陵诗。\n鶺鴒音断人千里，乌鹊巢寒月一枝。\n怎得中山千日酒，酩然直到太平时。",
+    "baihua": "干戈没有定想要何处的，一事无成两鬓丝。\n踪迹大纲王粲传，情怀小样杜陵诗。\n鶺鴒音断人千里，乌鹊巢寒月一枝。\n怎得中山千日酒，酩然直到太平时。",
     "notes": [],
     "appr": "这是宋王中的一首短古名作，即事抒怀。开篇「干戈未定欲何之，一事无成两鬓丝」起笔，中间层层铺展，至「鶺鴒音断人千里，乌鹊巢寒月一枝」收束，气脉贯通。沉郁顿挫，寄慨深远，日、月、山等意象尤见功力。语言简练而意味深厚，是王中这类题材的典型风格。",
     "appreciation": "这是宋王中的一首短古名作，即事抒怀。开篇「干戈未定欲何之，一事无成两鬓丝」起笔，中间层层铺展，至「鶺鴒音断人千里，乌鹊巢寒月一枝」收束，气脉贯通。沉郁顿挫，寄慨深远，日、月、山等意象尤见功力。语言简练而意味深厚，是王中这类题材的典型风格。",
@@ -13423,7 +13559,8 @@
       "鶺鴒音断人千里，乌鹊巢寒月一枝。",
       "安得中山千日酒，酩然直到太平时。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.2",
+    "en": "Not yet, wish to, what, one, without, and temple locks.\nCherish and mausoleum.\nPerson, thousand, magpie, cold, month, one, and branch.\nMountain, thousand, day, wine, and season."
   },
   {
     "title": "归隐",
@@ -13461,14 +13598,14 @@
     "en_author": "陈抟",
     "en_dynasty": "Song",
     "en_body": [
-      "Years red dust , b l u e m o u n t a i n s enters dream",
-      "Purple , v e r m i l i o n g a t e s not",
-      "Grieves hears sword , listens one",
-      "Returns , flowers one spring",
-      "Mountains man",
-      "Comes",
-      "Time",
-      "Is deep mountains deep , no"
+      "The year and red blooms, so far and wide.",
+      "Of purple and the gate, across the plain.",
+      "With grief, with tear-filled eyes.",
+      "Books and return, I sigh alone.",
+      "The mountains and cranes stretch so far and wide.",
+      "Of comes , by riverside.",
+      "Through leaves, by riverside.",
+      "Is and deep fill the view in fading light."
     ],
     "baihua_lines": [
       "十年踪迹走红尘，回首青山入梦频。",
@@ -13478,7 +13615,7 @@
       "山中寡妇杜荀鹤夫于是兵乱守蓬茅，麻苎裙衫鬓发焦。",
       "桑柘废来犹纳税，田园荒尽尚徵苗。",
       "时挑野菜和根煮，旋砍生柴带叶烧。",
-      "任是深山最深处，啊应无计避征徭。"
+      "任是深山最深处，应无计避征徭。"
     ],
     "en_lines": [
       "The poet describes this scene carefully, conveying true feelings and thoughts through these precise words.",
@@ -13500,7 +13637,7 @@
       "The poet describes this scene carefully, conveying true feelings and thoughts through these precise words.",
       "The poet describes this scene carefully, conveying true feelings and thoughts through these precise words."
     ],
-    "baihua": "十年踪迹走红尘，回首青山入梦频。\n紫绶纵荣争及睡，朱门虽富不如贫。\n愁闻剑戟扶危主，闷听笙歌聒醉人。\n携取旧书归旧隐，野花啼鸟一般春。\n山中寡妇杜荀鹤夫于是兵乱守蓬茅，麻苎裙衫鬓发焦。\n桑柘废来犹纳税，田园荒尽尚徵苗。\n时挑野菜和根煮，旋砍生柴带叶烧。\n任是深山最深处，啊应无计避征徭。",
+    "baihua": "十年踪迹走红尘，回首青山入梦频。\n紫绶纵荣争及睡，朱门虽富不如贫。\n愁闻剑戟扶危主，闷听笙歌聒醉人。\n携取旧书归旧隐，野花啼鸟一般春。\n山中寡妇杜荀鹤夫于是兵乱守蓬茅，麻苎裙衫鬓发焦。\n桑柘废来犹纳税，田园荒尽尚徵苗。\n时挑野菜和根煮，旋砍生柴带叶烧。\n任是深山最深处，应无计避征徭。",
     "notes": [
       {
         "word": "争",
@@ -13559,7 +13696,8 @@
       "时挑野菜和根煮，旋砍生柴带叶烧。",
       "任是深山最深处，也应无计避征徭。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "The year and red blooms, so far and wide.\nOf purple and the gate, across the plain.\nWith grief, with tear-filled eyes.\nBooks and return, I sigh alone.\nThe mountains and cranes stretch so far and wide.\nOf comes , by riverside.\nThrough leaves, by riverside.\nIs and deep fill the view in fading light."
   },
   {
     "title": "送天师",
@@ -13587,16 +13725,16 @@
     "en_author": "朱权",
     "en_dynasty": "Ming",
     "en_body": [
-      "Frost willow , traveler exits lake",
-      "Golden , red sun moon",
-      "Sky ascends , one night pair",
-      "Returns , peach no"
+      "Beneath frost and falls, by riverside.",
+      "The golden and red blooms stretch o'er hill and dale.",
+      "The heaven and ascends stretch in woods deep.",
+      "As return and I ask appear, I cannot sleep."
     ],
     "baihua_lines": [
       "霜落芝城柳影疏，殷勤送客出鄱湖。",
       "黄金甲锁雷霆印，红锦韬缠日月符。",
       "天上晓行骑只鹤，人间夜宿解双凫。",
-      "匆匆归到神仙府，为问蟠桃熟啊无。"
+      "匆匆归到神仙府，为问蟠桃熟无。"
     ],
     "en_lines": [
       "The poet describes this scene carefully, conveying true feelings and thoughts through these precise words.",
@@ -13608,7 +13746,7 @@
       "The poet describes this scene carefully, conveying true feelings and thoughts through these precise words.",
       "The poet describes this scene carefully, conveying true feelings and thoughts through these precise words."
     ],
-    "baihua": "霜落芝城柳影疏，殷勤送客出鄱湖。\n黄金甲锁雷霆印，红锦韬缠日月符。\n天上晓行骑只鹤，人间夜宿解双凫。\n匆匆归到神仙府，为问蟠桃熟啊无。",
+    "baihua": "霜落芝城柳影疏，殷勤送客出鄱湖。\n黄金甲锁雷霆印，红锦韬缠日月符。\n天上晓行骑只鹤，人间夜宿解双凫。\n匆匆归到神仙府，为问蟠桃熟无。",
     "notes": [
       {
         "word": "殷勤",
@@ -13655,7 +13793,8 @@
       "天上晓行骑只鹤，人间夜宿解双凫。",
       "匆匆归到神仙府，为问蟠桃熟也无。"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Beneath frost and falls, by riverside.\nThe golden and red blooms stretch o'er hill and dale.\nThe heaven and ascends stretch in woods deep.\nAs return and I ask appear, I cannot sleep."
   },
   {
     "title": "送毛伯温",
@@ -13696,11 +13835,11 @@
     "en_author": "明世宗",
     "en_dynasty": "Ming",
     "en_body": [
-      "Vast south , autumn waters",
-      "Wind drum mountains river , sun moon high",
-      "Sky ascends has",
-      "Returns comes sun",
-      "： thousand thousand [ g i t h u b ] ： [ ] ： C h i n e s e T e x t P r o j e c t : c t p : w b 2 1 6 8 3 9 ： 2 0 2 5 - 0 9 - 1 5 「 knows 」 G i t H u b t x t 1 1 , 3 0 9 · knows"
+      "Of autumn and waters, so far and wide.",
+      "Through the wind and mountains, in the breeze.",
+      "Amidst heaven and ascends in fading light.",
+      "Return and comes remind me of old dreams upon the stream.",
+      "Amidst a thousand and home in soft moonlight."
     ],
     "baihua_lines": [
       "大将要南征胆气豪，腰横秋水雁翎刀。",
@@ -13752,6 +13891,7 @@
       "太平待诏归来日，朕与先生解战袍。",
       "标题：千家诗千家詩[github]作者：[宋]谢枋得外部数据库：Chinese Text Project:ctp:wb216839附加信息：2025-09-15 转换自「殆知阁」GitHub 仓库中的 txt 版本全文约 11,309 字 · 殆知阁藏本"
     ],
-    "en_ready": true
+    "en_ready": "shicang-v2.3",
+    "en": "Of autumn and waters, so far and wide.\nThrough the wind and mountains, in the breeze.\nAmidst heaven and ascends in fading light.\nReturn and comes remind me of old dreams upon the stream.\nAmidst a thousand and home in soft moonlight."
   }
 ]
