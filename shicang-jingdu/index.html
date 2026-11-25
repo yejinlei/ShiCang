@@ -145,6 +145,17 @@ footer{max-width:1100px;margin:50px auto 0;padding:26px 26px 44px;text-align:cen
   <div class="pager" id="collPager"></div>
 </div>
 
+<!-- 历代选本名篇容器（动态显示） -->
+<div class="section coll-view" id="anthView">
+  <div class="bread" id="anthBread"></div>
+  <div class="tools">
+    <input id="anthSearch" placeholder="在本选中搜索题名、作者、诗句…">
+    <button class="back-btn" onclick="closeAnth()">← 返回目录</button>
+  </div>
+  <div class="list" id="anthList"><div class="loading">展 卷 中…</div></div>
+  <div class="pager" id="anthPager"></div>
+</div>
+
 <footer>
   诗藏本体论 · 名篇精读<br>
   八百精选 · 万首名篇 · 三十万卷原文
@@ -175,7 +186,7 @@ footer{max-width:1100px;margin:50px auto 0;padding:26px 26px 44px;text-align:cen
     $('cAnth').textContent = '共 '+total.toLocaleString()+' 篇';
     $('sAnth').textContent = total.toLocaleString();
     $('anthGrid').innerHTML = list.map(a=>{
-      return '<a class="anth-card" href="view.html?s='+encodeURIComponent(a.key)+'&i=0"><div class="anth-name">'+escapeHtml(a.name||'')+'</div><div class="anth-meta">'+escapeHtml((a.dynasty||'')+'编选 · '+(a.genre||''))+'</div><div class="anth-num"><b>'+(a.count||0).toLocaleString()+'</b>篇</div></a>';
+      return '<div class="anth-card" onclick="openAnth(\''+a.key+'\')"><div class="anth-name">'+escapeHtml(a.name||'')+'</div><div class="anth-meta">'+escapeHtml((a.dynasty||'')+'编选 · '+(a.genre||''))+'</div><div class="anth-num"><b>'+(a.count||0).toLocaleString()+'</b>篇</div></div>';
     }).join('');
   }
 
@@ -325,6 +336,68 @@ footer{max-width:1100px;margin:50px auto 0;padding:26px 26px 44px;text-align:cen
   window.goPage = function(p){ CUR_PAGE=p; renderPage(); window.scrollTo({top:$('collBread').offsetTop-70,behavior:'smooth'}); };
   window.openWork = function(collId,idx){ location.href='view.html?src='+encodeURIComponent(collId)+'&i='+idx; };
 
+  // ---- 历代选本名篇：页内展开为具体诗词 ----
+  let LIGHT=null, ANTH_CUR=null, ANTH_WORKS=[], ANTH_FILTERED=[], ANTH_PAGE=0;
+  const ANTH_PAGE_SIZE=100;
+
+  async function ensureLight(){
+    if(LIGHT) return LIGHT;
+    LIGHT = await fetch('../shicang_data/mingpian/light.json',{cache:'no-cache'}).then(r=>r.json());
+    return LIGHT;
+  }
+
+  window.openAnth = async function(key){
+    const meta = (window._CATALOG_ANTH||[]).find(a=>a.key===key);
+    if(!meta) return;
+    ANTH_CUR=meta; ANTH_PAGE=0; ANTH_FILTERED=[];
+    ['sec-deep','sec-anth','sec-coll'].forEach(id=>$(id).style.display='none');
+    $('anthView').classList.add('show');
+    $('anthBread').innerHTML = '<a onclick="closeAnth()">← 名篇精读</a>　/　<b style="color:var(--main);font-family:STKaiti,serif;letter-spacing:.15em;font-size:15px;">'+escapeHtml(meta.name)+'</b>　<span style="color:var(--ink3);">'+escapeHtml((meta.dynasty||'')+' · '+(meta.genre||'')+' · '+(meta.count||0).toLocaleString()+'篇')+'</span>';
+    $('anthSearch').value='';
+    $('anthList').innerHTML='<div class="loading">展 卷 中…</div>';
+    let light;
+    try{ light = await ensureLight(); }
+    catch(e){ $('anthList').innerHTML='<div class="loading" style="color:#a8322f;">篇目加载失败：'+escapeHtml(e.message)+'</div>'; return; }
+    ANTH_WORKS = light.filter(p=>p.n===meta.name);
+    applyAnthFilter();
+    window.scrollTo({top:$('anthView').offsetTop-60,behavior:'smooth'});
+  };
+
+  window.closeAnth = function(){
+    $('anthView').classList.remove('show');
+    ['sec-deep','sec-anth','sec-coll'].forEach(id=>$(id).style.display='');
+    window.scrollTo({top:$('sec-anth').offsetTop-60,behavior:'smooth'});
+  };
+
+  function applyAnthFilter(){
+    const q=$('anthSearch').value.trim();
+    ANTH_FILTERED = q ? ANTH_WORKS.filter(p=>((p.t||'')+(p.a||'')+(p.f||'')).indexOf(q)>=0) : ANTH_WORKS;
+    ANTH_PAGE=0; renderAnthPage();
+  }
+
+  function renderAnthPage(){
+    const list=ANTH_FILTERED.length?ANTH_FILTERED:ANTH_WORKS;
+    const total=list.length;
+    const pages=Math.max(1,Math.ceil(total/ANTH_PAGE_SIZE));
+    if(ANTH_PAGE>=pages) ANTH_PAGE=pages-1;
+    const slice=list.slice(ANTH_PAGE*ANTH_PAGE_SIZE,(ANTH_PAGE+1)*ANTH_PAGE_SIZE);
+    $('anthList').innerHTML = slice.map(p=>{
+      const sub = p.x ? '　<span style="color:var(--gold);font-size:12.5px;font-weight:normal;">'+escapeHtml(p.x)+'</span>' : '';
+      return '<div class="card" onclick="location.href=\'view.html?s='+encodeURIComponent(p.s)+'\'">'
+        +'<div class="ct">'+escapeHtml(p.t||'(无题)')+(p.a?'　<span style="color:var(--ink3);font-size:13px;font-weight:normal;">'+escapeHtml(p.a)+'</span>':'')+sub+'</div>'
+        + (p.f?'<div class="cl">'+escapeHtml(p.f)+'</div>':'')
+        + '<div class="cg">'+escapeHtml((p.d||'')+' · '+(p.g||''))+'</div></div>';
+    }).join('') || '<div class="loading">未找到匹配篇目</div>';
+    const pg=$('anthPager');
+    if(pages<=1){pg.innerHTML='';return;}
+    let html='<button onclick="goAnthPage('+(ANTH_PAGE-1)+')"'+(ANTH_PAGE===0?' disabled':'')+'>← 上一页</button>';
+    html+='<span>第 <span class="cur">'+(ANTH_PAGE+1)+'</span> / '+pages+' 页 · 共 '+total.toLocaleString()+' 篇</span>';
+    html+='<button onclick="goAnthPage('+(ANTH_PAGE+1)+')"'+(ANTH_PAGE===pages-1?' disabled':'')+'>下一页 →</button>';
+    pg.innerHTML=html;
+  }
+  window.goAnthPage = function(p){ ANTH_PAGE=p; renderAnthPage(); window.scrollTo({top:$('anthBread').offsetTop-70,behavior:'smooth'}); };
+  $('anthSearch').addEventListener('input',()=>{clearTimeout(window._ast);window._ast=setTimeout(applyAnthFilter,220);});
+
   $('collSearch').addEventListener('input',()=>{clearTimeout(window._st);window._st=setTimeout(applyFilter,220);});
 
   // 初始化
@@ -347,6 +420,7 @@ footer{max-width:1100px;margin:50px auto 0;padding:26px 26px 44px;text-align:cen
     // 更新计数
     $('sDeep').textContent = mergedDeep.length.toLocaleString();
     renderAnth(c.anth);
+    window._CATALOG_ANTH = c.anth;
     renderColl(c.collections);
   }).catch(e=>{
     console.error('catalog load failed',e);
