@@ -57,6 +57,8 @@ body{margin:0;background:var(--paper);color:var(--ink);font-family:"Noto Serif S
 .tools{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:0 0 14px;}
 .tools input{flex:1;min-width:220px;padding:10px 16px;border:1px solid var(--rule);border-radius:22px;background:var(--paper2);font-family:inherit;font-size:14px;color:var(--ink);outline:none;}
 .tools input:focus{border-color:var(--seal);}
+.tools select{padding:9px 12px;border:1px solid var(--rule);border-radius:18px;background:var(--paper2);font-family:inherit;font-size:13px;color:var(--ink2);outline:none;cursor:pointer;appearance:none;-webkit-appearance:none;background-image:linear-gradient(45deg,transparent 50%,var(--ink3) 50%),linear-gradient(135deg,var(--ink3) 50%,transparent 50%);background-position:calc(100% - 16px) 50%,calc(100% - 11px) 50%;background-size:5px 5px,5px 5px;background-repeat:no-repeat;padding-right:28px;}
+.tools select:hover{border-color:var(--seal);color:var(--ink);}
 .list{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:10px;}
 .card{border:1px solid var(--rule);border-radius:8px;background:var(--paper2);padding:10px 14px;cursor:pointer;transition:.18s;}
 .card:hover{border-color:var(--seal);box-shadow:0 4px 12px -6px rgba(139,47,47,.28);background:#fffaf0;}
@@ -110,7 +112,7 @@ footer{max-width:1100px;margin:50px auto 0;padding:26px 26px 44px;text-align:cen
     <span class="sec-sub">今译英译 · 注释典故 · 起承转合</span>
     <span class="sec-count" id="cDeep"></span>
   </div>
-  <div class="grid-deep" id="deepGrid"><div class="loading">展 卷 中…</div></div>
+  <div class="grid-anth" id="deepGrid"><div class="loading">展 卷 中…</div></div>
 </div>
 
 <!-- 二、历代选本名篇 -->
@@ -138,6 +140,8 @@ footer{max-width:1100px;margin:50px auto 0;padding:26px 26px 44px;text-align:cen
   <div class="bread" id="collBread"></div>
   <div class="tools">
     <input id="collSearch" placeholder="在本集中搜索标题、作者…">
+    <select id="collDynFilter"><option value="">全部朝代</option></select>
+    <select id="collGenFilter"><option value="">全部体裁</option></select>
     <button class="back-btn" onclick="closeColl()">← 返回目录</button>
   </div>
   <div class="sec-tabs" id="volTabs"></div>
@@ -145,11 +149,26 @@ footer{max-width:1100px;margin:50px auto 0;padding:26px 26px 44px;text-align:cen
   <div class="pager" id="collPager"></div>
 </div>
 
+<!-- 深度名作容器（动态显示） -->
+<div class="section coll-view" id="deepView">
+  <div class="bread" id="deepBread"></div>
+  <div class="tools">
+    <input id="deepSearch" placeholder="在深度名作中搜索题名、作者、首句…">
+    <select id="deepDynFilter"><option value="">全部朝代</option></select>
+    <select id="deepGenFilter"><option value="">全部体裁</option></select>
+    <button class="back-btn" onclick="closeDeep()">← 返回目录</button>
+  </div>
+  <div class="list" id="deepList"><div class="loading">展 卷 中…</div></div>
+  <div class="pager" id="deepPager"></div>
+</div>
+
 <!-- 历代选本名篇容器（动态显示） -->
 <div class="section coll-view" id="anthView">
   <div class="bread" id="anthBread"></div>
   <div class="tools">
     <input id="anthSearch" placeholder="在本选中搜索题名、作者、诗句…">
+    <select id="anthDynFilter"><option value="">全部朝代</option></select>
+    <select id="anthGenFilter"><option value="">全部体裁</option></select>
     <button class="back-btn" onclick="closeAnth()">← 返回目录</button>
   </div>
   <div class="list" id="anthList"><div class="loading">展 卷 中…</div></div>
@@ -169,15 +188,15 @@ footer{max-width:1100px;margin:50px auto 0;padding:26px 26px 44px;text-align:cen
     return n.toLocaleString();
   };
 
-  function renderDeep(list){
-    if(!list || !list.length){ $('deepGrid').innerHTML='<div class="loading">无数据</div>'; return; }
-    $('cDeep').textContent = '共 '+list.length.toLocaleString()+' 篇';
-    $('sDeep').textContent = list.length.toLocaleString();
-    $('deepGrid').innerHTML = list.map(d=>{
-      const genreTag = d.genre || '诗';
-      const href = d.href || (d.file ? ('../shicang-poem/'+d.file) : 'view.html?deep='+encodeURIComponent(d.id||d.slug||d.title));
-      return '<a class="deep-card" href="'+href+'"><div class="t">'+escapeHtml(d.title||'')+'</div><div class="a">'+escapeHtml((d.dynasty||'')+'·'+(d.author||''))+'</div><div class="g">'+escapeHtml(genreTag)+'</div></a>';
-    }).join('');
+  function renderDeep(meta){
+    // 深度名作：单张入口卡片，点击展开完整列表
+    $('cDeep').textContent = '共 '+meta.count.toLocaleString()+' 篇';
+    $('sDeep').textContent = meta.count.toLocaleString();
+    $('deepGrid').innerHTML = '<div class="anth-card" onclick="openDeep()">'
+      + '<div class="anth-name">深度名作全览</div>'
+      + '<div class="anth-meta">今译英译 · 注释典故 · 起承转合</div>'
+      + '<div class="anth-num"><b>'+meta.count.toLocaleString()+'</b>篇</div>'
+      + '</div>';
   }
 
   function renderAnth(list){
@@ -292,6 +311,16 @@ footer{max-width:1100px;margin:50px auto 0;padding:26px 26px 44px;text-align:cen
         return r.json();
       });
       CUR_WORKS = Array.isArray(data) ? data : (data.works||data.poems||data.content||[]);
+      // 兼容不同字段名
+      CUR_WORKS.forEach(w=>{
+        if(!w.t && w.title) w.t=w.title;
+        if(!w.a && w.author) w.a=w.author;
+        if(!w.l && w.body) w.l = Array.isArray(w.body)?w.body[0]:w.body;
+        if(!w.d && w.dynasty) w.d=w.dynasty;
+        if(!w.g && w.genre) w.g=w.genre;
+      });
+      fillDynGenSelect($('collDynFilter'),$('collGenFilter'),CUR_WORKS.map(w=>({_d:w.d||w.dynasty||'',_g:w.g||w.genre||''})));
+      $('collDynFilter').value=''; $('collGenFilter').value='';
     }catch(e){
       list.innerHTML='<div class="loading" style="color:#a8322f;">加载失败：'+escapeHtml(v.file)+' '+escapeHtml(e.message)+'</div>';
       return;
@@ -301,10 +330,23 @@ footer{max-width:1100px;margin:50px auto 0;padding:26px 26px 44px;text-align:cen
 
   function applyFilter(){
     const q = $('collSearch').value.trim();
-    FILTERED = q ? CUR_WORKS.filter(w=>{
-      const t=(w.t||w.title||'')+' '+(w.a||w.author||'');
-      return t.indexOf(q)>=0;
-    }) : CUR_WORKS;
+    const dyn = $('collDynFilter').value;
+    const gen = $('collGenFilter').value;
+    FILTERED = CUR_WORKS.filter(w=>{
+      if(dyn){
+        const wd=(w.d||w.dynasty||'');
+        if(wd!==dyn) return false;
+      }
+      if(gen){
+        const wg=(w.g||w.genre||'');
+        if(wg!==gen) return false;
+      }
+      if(q){
+        const t=(w.t||w.title||'')+' '+(w.a||w.author||'');
+        if(t.indexOf(q)<0) return false;
+      }
+      return true;
+    });
     CUR_PAGE=0; renderPage();
   }
 
@@ -324,7 +366,9 @@ footer{max-width:1100px;margin:50px auto 0;padding:26px 26px 44px;text-align:cen
         else l=String(w.l).slice(0,24);
       }
       const idx = CUR_WORKS.indexOf(w);
-      return '<div class="card" onclick="openWork(\''+CUR_COLL.id+'\','+idx+')"><div class="ct">'+escapeHtml(t)+(a?'　<span style="color:var(--ink3);font-size:13px;font-weight:normal;">'+escapeHtml(a)+'</span>':'')+'</div>'+(l?'<div class="cl">'+escapeHtml(l)+'</div>':'')+'<div class="cg">'+escapeHtml((CUR_COLL.dynasty||'')+' · '+(CUR_COLL.genre||''))+'</div></div>';
+      const dyn = w.d||w.dynasty||CUR_COLL.dynasty||'';
+      const gen = w.g||w.genre||CUR_COLL.genre||'';
+      return '<div class="card" onclick="openWork(\''+CUR_COLL.id+'\','+idx+')"><div class="ct">'+escapeHtml(t)+(a?'　<span style="color:var(--ink3);font-size:13px;font-weight:normal;">'+escapeHtml(a)+'</span>':'')+'</div>'+(l?'<div class="cl">'+escapeHtml(l)+'</div>':'')+'<div class="cg">'+escapeHtml((dyn?'':CUR_COLL.dynasty||'')+dyn+' · '+gen)+'</div></div>';
     }).join('') || '<div class="loading">未找到匹配篇目</div>';
     const pg=$('collPager');
     if(pages<=1){pg.innerHTML='';return;}
@@ -336,7 +380,137 @@ footer{max-width:1100px;margin:50px auto 0;padding:26px 26px 44px;text-align:cen
   window.goPage = function(p){ CUR_PAGE=p; renderPage(); window.scrollTo({top:$('collBread').offsetTop-70,behavior:'smooth'}); };
   window.openWork = function(collId,idx){ location.href='view.html?src='+encodeURIComponent(collId)+'&i='+idx; };
 
-  // ---- 历代选本名篇：页内展开为具体诗词 ----
+  // ---- 深度名作：页内展开为可搜索、可筛选、可分页列表 ----
+  let DEEP_WORKS=null, DEEP_FILTERED=[], DEEP_PAGE=0;
+  const DEEP_PAGE_SIZE=100;
+  // 朝代/体裁规范化
+  const DEEP_DYN_MAP = {'明清':'明清','汉魏六朝':'六朝','五代':'五代','先秦':'先秦'};
+  function normDyn(d){
+    if(!d) return '';
+    if(d in DEEP_DYN_MAP) return DEEP_DYN_MAP[d];
+    if(/唐/.test(d)) return '唐';
+    if(/宋/.test(d)) return '宋';
+    if(/元/.test(d)) return '元';
+    if(/明/.test(d)) return '明';
+    if(/清/.test(d)) return '清';
+    return d;
+  }
+  function normGen(g){
+    if(!g) return '其他';
+    if(/诗/.test(g) && !/词|曲|辞/.test(g)) return '诗';
+    if(/词/.test(g)) return '词';
+    if(/曲/.test(g)) return '曲';
+    if(/辞/.test(g)) return '辞';
+    return '其他';
+  }
+
+  window.openDeep = function(){
+    ['sec-deep','sec-anth','sec-coll'].forEach(id=>$(id).style.display='none');
+    $('deepView').classList.add('show');
+    $('deepSearch').value='';
+    $('deepDynFilter').value=''; $('deepGenFilter').value='';
+    $('deepList').innerHTML='<div class="loading">展 卷 中…</div>';
+    renderDeepList();
+    window.scrollTo({top:$('deepView').offsetTop-60,behavior:'smooth'});
+  };
+  window.closeDeep = function(){
+    $('deepView').classList.remove('show');
+    ['sec-deep','sec-anth','sec-coll'].forEach(id=>$(id).style.display='');
+    window.scrollTo({top:$('sec-deep').offsetTop-60,behavior:'smooth'});
+  };
+  function applyDeepFilter(){
+    const q=$('deepSearch').value.trim();
+    const dyn=$('deepDynFilter').value;
+    const gen=$('deepGenFilter').value;
+    DEEP_FILTERED = DEEP_WORKS.filter(p=>{
+      if(dyn && p._d!==dyn) return false;
+      if(gen && p._g!==gen) return false;
+      if(q){
+        const hay=(p.t||'')+' '+(p.a||'')+' '+(p.f||'');
+        if(hay.indexOf(q)<0) return false;
+      }
+      return true;
+    });
+    DEEP_PAGE=0; renderDeepPage();
+  }
+  function fillDynGenSelect(selectDyn,selectGen,works){
+    const dyns=new Set(), gens=new Set();
+    works.forEach(w=>{ if(w._d) dyns.add(w._d); if(w._g) gens.add(w._g); });
+    const DYNO=['先秦','六朝','唐','五代','宋','元','明','明清','清'];
+    const GENO=['诗','词','曲','辞','其他'];
+    selectDyn.innerHTML = '<option value="">全部朝代</option>'
+      + DYNO.filter(d=>dyns.has(d)).map(d=>'<option value="'+d+'">'+d+'</option>').join('')
+      + [...dyns].filter(d=>!DYNO.includes(d)).sort().map(d=>'<option value="'+d+'">'+d+'</option>').join('');
+    selectGen.innerHTML = '<option value="">全部体裁</option>'
+      + GENO.filter(g=>gens.has(g)).map(g=>'<option value="'+g+'">'+g+'</option>').join('')
+      + [...gens].filter(g=>!GENO.includes(g)).sort().map(g=>'<option value="'+g+'">'+g+'</option>').join('');
+  }
+  function renderDeepPage(){
+    const total=DEEP_FILTERED.length;
+    const pages=Math.max(1,Math.ceil(total/DEEP_PAGE_SIZE));
+    if(DEEP_PAGE>=pages) DEEP_PAGE=pages-1;
+    const slice=DEEP_FILTERED.slice(DEEP_PAGE*DEEP_PAGE_SIZE,(DEEP_PAGE+1)*DEEP_PAGE_SIZE);
+    $('deepList').innerHTML = slice.map(p=>{
+      const href = p.file ? ('../shicang-poem/'+p.file) : 'view.html?deep='+encodeURIComponent(p.slug||p.id||p.key||p.title);
+      return '<a class="card" href="'+href+'">'
+        +'<div class="ct">'+escapeHtml(p.t||'(无题)')+(p.a?'　<span style="color:var(--ink3);font-size:13px;font-weight:normal;">'+escapeHtml(p.a)+'</span>':'')+'</div>'
+        + (p.f?'<div class="cl">'+escapeHtml(p.f)+'</div>':'')
+        + '<div class="cg">'+escapeHtml((p.d||'')+' · '+(p.g||''))+'</div></a>';
+    }).join('') || '<div class="loading">未找到匹配篇目</div>';
+    const pg=$('deepPager');
+    if(pages<=1){pg.innerHTML='';return;}
+    let html='<button onclick="goDeepPage('+(DEEP_PAGE-1)+')"'+(DEEP_PAGE===0?' disabled':'')+'>← 上一页</button>';
+    html+='<span>第 <span class="cur">'+(DEEP_PAGE+1)+'</span> / '+pages+' 页 · 共 '+total.toLocaleString()+' 篇</span>';
+    html+='<button onclick="goDeepPage('+(DEEP_PAGE+1)+')"'+(DEEP_PAGE===pages-1?' disabled':'')+'>下一页 →</button>';
+    pg.innerHTML=html;
+  }
+  window.goDeepPage = function(p){ DEEP_PAGE=p; renderDeepPage(); window.scrollTo({top:$('deepBread').offsetTop-70,behavior:'smooth'}); };
+
+  function renderDeepList(){
+    if(DEEP_WORKS){
+      fillDynGenSelect($('deepDynFilter'),$('deepGenFilter'),DEEP_WORKS);
+      applyDeepFilter();
+      return;
+    }
+    // 加载catalog里82篇+deep_works.json 838篇
+    Promise.all([
+      Promise.resolve(window._CATALOG_DEEP||[]),
+      fetch('../shicang_data/jingdu/deep_works.json',{cache:'no-cache'}).then(r=>r.json()).catch(()=>[])
+    ]).then(([catalogDeep,deepArr])=>{
+      const seen=new Set();
+      const works=[];
+      (catalogDeep||[]).forEach(w=>{
+        if(!w || seen.has(w.slug)) return;
+        seen.add(w.slug);
+        works.push({
+          slug:w.slug,t:w.title,a:w.author,d:w.dynasty,g:w.genre,
+          f:'',file:w.file||null,_d:normDyn(w.dynasty),_g:normGen(w.genre)
+        });
+      });
+      (Array.isArray(deepArr)?deepArr:[]).forEach(w=>{
+        const key=w.slug||w.id||w.key;
+        if(!w || (key && seen.has(key))) return;
+        if(key) seen.add(key);
+        const incip = w.incipit || (w.body&&w.body[0]) || (w.lines&&w.lines[0]) || '';
+        works.push({
+          slug:key,t:w.title,a:w.author,d:w.dynasty,g:w.genre,
+          f:String(incip||'').replace(/[，。！？、；：,.!?;:]$/,'').slice(0,28),
+          file:null,_d:normDyn(w.dynasty),_g:normGen(w.genre)
+        });
+      });
+      DEEP_WORKS=works;
+      $('deepBread').innerHTML = '<a onclick="closeDeep()">← 名篇精读</a>　/　<b style="color:var(--main);font-family:STKaiti,serif;letter-spacing:.15em;font-size:15px;">深度名作</b>　<span style="color:var(--ink3);">今译英译 · 注释典故 · 起承转合 · '+works.length.toLocaleString()+'篇</span>';
+      fillDynGenSelect($('deepDynFilter'),$('deepGenFilter'),works);
+      applyDeepFilter();
+    }).catch(e=>{
+      $('deepList').innerHTML='<div class="loading" style="color:#a8322f;">加载失败：'+escapeHtml(e.message)+'</div>';
+    });
+  }
+  $('deepSearch').addEventListener('input',()=>{clearTimeout(window._dst);window._dst=setTimeout(applyDeepFilter,220);});
+  $('deepDynFilter').addEventListener('change',applyDeepFilter);
+  $('deepGenFilter').addEventListener('change',applyDeepFilter);
+
+  // ---- 历代选本名篇：页内展开为具体诗词（含体裁/朝代筛选） ----
   let LIGHT=null, ANTH_CUR=null, ANTH_WORKS=[], ANTH_FILTERED=[], ANTH_PAGE=0;
   const ANTH_PAGE_SIZE=100;
 
@@ -359,6 +533,8 @@ footer{max-width:1100px;margin:50px auto 0;padding:26px 26px 44px;text-align:cen
     try{ light = await ensureLight(); }
     catch(e){ $('anthList').innerHTML='<div class="loading" style="color:#a8322f;">篇目加载失败：'+escapeHtml(e.message)+'</div>'; return; }
     ANTH_WORKS = light.filter(p=>p.n===meta.name);
+    fillDynGenSelect($('anthDynFilter'),$('anthGenFilter'),ANTH_WORKS.map(p=>({_d:p.d,_g:p.g})));
+    $('anthDynFilter').value=''; $('anthGenFilter').value='';
     applyAnthFilter();
     window.scrollTo({top:$('anthView').offsetTop-60,behavior:'smooth'});
   };
@@ -371,7 +547,17 @@ footer{max-width:1100px;margin:50px auto 0;padding:26px 26px 44px;text-align:cen
 
   function applyAnthFilter(){
     const q=$('anthSearch').value.trim();
-    ANTH_FILTERED = q ? ANTH_WORKS.filter(p=>((p.t||'')+(p.a||'')+(p.f||'')).indexOf(q)>=0) : ANTH_WORKS;
+    const dyn=$('anthDynFilter').value;
+    const gen=$('anthGenFilter').value;
+    ANTH_FILTERED = ANTH_WORKS.filter(p=>{
+      if(dyn && p.d!==dyn) return false;
+      if(gen && p.g!==gen) return false;
+      if(q){
+        const hay=(p.t||'')+(p.a||'')+(p.f||'');
+        if(hay.indexOf(q)<0) return false;
+      }
+      return true;
+    });
     ANTH_PAGE=0; renderAnthPage();
   }
 
@@ -397,8 +583,12 @@ footer{max-width:1100px;margin:50px auto 0;padding:26px 26px 44px;text-align:cen
   }
   window.goAnthPage = function(p){ ANTH_PAGE=p; renderAnthPage(); window.scrollTo({top:$('anthBread').offsetTop-70,behavior:'smooth'}); };
   $('anthSearch').addEventListener('input',()=>{clearTimeout(window._ast);window._ast=setTimeout(applyAnthFilter,220);});
+  $('anthDynFilter').addEventListener('change',applyAnthFilter);
+  $('anthGenFilter').addEventListener('change',applyAnthFilter);
 
   $('collSearch').addEventListener('input',()=>{clearTimeout(window._st);window._st=setTimeout(applyFilter,220);});
+  $('collDynFilter').addEventListener('change',applyFilter);
+  $('collGenFilter').addEventListener('change',applyFilter);
 
   // 初始化
   Promise.all([
@@ -406,19 +596,15 @@ footer{max-width:1100px;margin:50px auto 0;padding:26px 26px 44px;text-align:cen
     fetch('../shicang_data/jingdu/deep_works.json',{cache:'no-cache'}).then(r=>r.json()).catch(()=>({works:[]}))
   ]).then(([c,deep])=>{
     window._CATALOG = c;
-    // 用 deep_works.json 中的 818 篇作为深度名作列表（与原有独立深度页合并）
+    // 保存深度名作清单
     const deepList = Array.isArray(deep) ? deep : (deep.works||[]);
-    const extraDeep = deepList.map(w => ({
-      title: w.title, author: w.author, dynasty: w.dynasty, genre: w.genre || '诗',
-      slug: w.slug, file: null,
-      // 跳转到对应作品的详情页（优先匹配选本名篇，找不到则默认展示）
-      href: 'view.html?deep=' + encodeURIComponent(w.slug)
-    }));
-    // 合并原有独立深度页
-    const mergedDeep = [...(c.deep||[]), ...extraDeep];
-    renderDeep(mergedDeep);
-    // 更新计数
-    $('sDeep').textContent = mergedDeep.length.toLocaleString();
+    window._CATALOG_DEEP = c.deep||[];
+    // 合并计数
+    const seen=new Set();
+    (c.deep||[]).forEach(w=>{ if(w&&w.slug) seen.add(w.slug); });
+    deepList.forEach(w=>{ const k=w.slug||w.id||w.key; if(k) seen.add(k); });
+    const totalDeep = seen.size;
+    renderDeep({count: totalDeep});
     renderAnth(c.anth);
     window._CATALOG_ANTH = c.anth;
     renderColl(c.collections);
